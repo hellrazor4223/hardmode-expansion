@@ -1,0 +1,769 @@
+###BEGIN UFOS
+ufos:
+
+##BEGIN REAL UFOS
+#BEGIN MEDIUM SCOUT
+  - type: STR_MEDIUM_SCOUT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 200
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 20
+    score: 75
+    reload: 48
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: UFO_110
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_110
+          width: 10
+          length: 10
+        - name: UFO_110a
+          width: 10
+          length: 10
+        - name: UFO_110b
+          width: 10
+          length: 10
+        - name: UFO_110c
+          width: 10
+          length: 10
+        - name: UFO_110d
+          width: 10
+          length: 10
+        - name: UFO_110e
+          width: 10
+          length: 10
+        - name: UFO_110f
+          width: 10
+          length: 10
+        - name: UFO_110g
+          width: 10
+          length: 10
+#END MEDIUM SCOUT
+
+#BEGIN LARGE SCOUT
+  - type: STR_LARGE_SCOUT
+    size: STR_SMALL
+    sprite: 2
+    damageMax: 250
+    speedMax: 2700
+    accel: 9
+    power: 20
+    range: 34
+    score: 125
+    reload: 36
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_120
+          width: 20
+          length: 20
+        - name: UFO_120a
+          width: 20
+          length: 20
+        - name: UFO_120b
+          width: 20
+          length: 20
+        - name: UFO_120c
+          width: 20
+          length: 20
+        - name: UFO_120d
+          width: 20
+          length: 20
+        - name: UFO_120e
+          width: 20
+          length: 20
+        - name: UFO_120f
+          width: 20
+          length: 20
+        - name: UFO_120g
+          width: 20
+          length: 20
+        - name: UFO_120h
+          width: 20
+          length: 20
+        - name: UFO_120i
+          width: 20
+          length: 20
+        - name: UFO_120j
+          width: 20
+          length: 20
+        - name: UFO_120k
+          width: 20
+          length: 20
+        - name: UFO_120l
+          width: 20
+          length: 20
+        - name: UFO_120m
+          width: 20
+          length: 20
+        - name: UFO_120n
+          width: 20
+          length: 20
+        - name: UFO_120o
+          width: 20
+          length: 20
+        - name: UFO_120p
+          width: 20
+          length: 20
+        - name: UFO_120q
+          width: 20
+          length: 20
+        - name: UFO_120r
+          width: 20
+          length: 20
+        - name: UFO_120s
+          width: 20
+          length: 20
+        - name: UFO_120t
+          width: 20
+          length: 20
+        - name: UFO_120u
+          width: 20
+          length: 20
+        - name: UFO_120v
+          width: 20
+          length: 20
+        - name: UFO_120w
+          width: 20
+          length: 20
+        - name: UFO_120x
+          width: 20
+          length: 20
+        - name: UFO_120y
+          width: 20
+          length: 20
+        - name: UFO_120z
+          width: 20
+          length: 20
+#END LARGE SCOUT
+
+#BEGIN HARVESTER
+  - type: STR_HARVESTER
+    size: STR_MEDIUM_UC
+    sprite: 3
+    damageMax: 750
+    speedMax: 4000
+    accel: 8
+    power: 60
+    range: 34
+    score: 250
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: UFO_130
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+        - U_DISEC3
+        - UFOL83
+      mapBlocks:
+        - name: UFO_130
+          width: 20
+          length: 20
+        - name: UFO_130a
+          width: 20
+          length: 20
+        - name: UFO_130b
+          width: 20
+          length: 20
+        - name: UFO_130c
+          width: 20
+          length: 20
+        - name: UFO_130d
+          width: 20
+          length: 20
+        - name: UFO_130e
+          width: 20
+          length: 20
+        - name: UFO_130f
+          width: 20
+          length: 20
+        - name: UFO_130g
+          width: 20
+          length: 20
+        - name: UFO_130h
+          width: 20
+          length: 20
+        - name: UFO_130i
+          width: 20
+          length: 20
+        - name: UFO_130j
+          width: 20
+          length: 20
+        - name: UFO_130k
+          width: 20
+          length: 20
+        - name: UFO_130l
+          width: 20
+          length: 20
+        - name: UFO_130m
+          width: 20
+          length: 20
+        - name: UFO_130n
+          width: 20
+          length: 20
+        - name: UFO_130o
+          width: 20
+          length: 20
+        - name: UFO_130p
+          width: 20
+          length: 20
+        - name: UFO_130q
+          width: 20
+          length: 20
+        - name: UFO_130r
+          width: 20
+          length: 20
+        - name: UFO_130s
+          width: 20
+          length: 20
+        - name: UFO_130t
+          width: 20
+          length: 20
+        - name: UFO_130u
+          width: 20
+          length: 20
+        - name: UFO_130v
+          width: 20
+          length: 20
+        - name: UFO_130w
+          width: 20
+          length: 20
+#END HARVESTER
+
+#BEGIN ABDUCTOR
+  - type: STR_ABDUCTOR
+    size: STR_MEDIUM_UC
+    sprite: 4
+    damageMax: 750
+    speedMax: 4300
+    accel: 8
+    power: 60
+    range: 34
+    score: 250
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: UFO_140
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_OPER2
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_140
+          width: 20
+          length: 20
+        - name: UFO_140a
+          width: 20
+          length: 20
+        - name: UFO_140b
+          width: 20
+          length: 20
+        - name: UFO_140c
+          width: 20
+          length: 20
+        - name: UFO_140d
+          width: 20
+          length: 20
+        - name: UFO_140e
+          width: 20
+          length: 20
+        - name: UFO_140f
+          width: 20
+          length: 20
+        - name: UFO_140g
+          width: 20
+          length: 20
+        - name: UFO_140h
+          width: 20
+          length: 20
+        - name: UFO_140i
+          width: 20
+          length: 20
+#END ABDUCTOR
+
+#BEGIN TERROR SHIP
+  - type: STR_TERROR_SHIP
+    size: STR_LARGE
+    sprite: 5
+    damageMax: 1200
+    speedMax: 4800
+    accel: 6
+    power: 120
+    range: 42
+    score: 500
+    reload: 24
+    breakOffTime: 2000
+    battlescapeTerrainData:
+      name: UFO_150
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_150
+          width: 30
+          length: 20
+        - name: UFO_150a
+          width: 20
+          length: 30
+        - name: UFO_150b
+          width: 30
+          length: 20
+        - name: UFO_150c
+          width: 20
+          length: 30
+        - name: UFO_150d
+          width: 30
+          length: 20
+        - name: UFO_150e
+          width: 20
+          length: 30
+        - name: UFO_150f
+          width: 30
+          length: 20
+        - name: UFO_150g
+          width: 20
+          length: 30
+#END TERROR SHIP
+
+#BEGIN BATTLESHIP
+  - type: STR_BATTLESHIP
+    size: STR_VERY_LARGE
+    sprite: 6
+    damageMax: 3000
+    speedMax: 5000
+    accel: 6
+    power: 140
+    range: 65
+    score: 700
+    reload: 24
+    breakOffTime: 4000
+    battlescapeTerrainData:
+      name: UFO_160
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_160
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [7, 14, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+        - name: UFO_160a
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [20, 23, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+        - name: UFO_160b
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [7, 14, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+        - name: UFO_160c
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [7, 13, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+        - name: UFO_160d
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [22, 15, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+        - name: UFO_160e
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [10, 21, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+        - name: UFO_160f
+          width: 30
+          length: 30
+          items:
+            STR_ALIEN_DATA_CORE:
+              - [16, 22, 2]
+            STR_ELERIUM_115:
+              - [5, 14, 0]
+              - [14, 23, 0]
+              - [14, 5, 0]
+              - [23, 14, 0]
+#END BATTLESHIP
+
+#BEGIN SUPPLY SHIP
+  - type: STR_SUPPLY_SHIP
+    size: STR_LARGE
+    sprite: 7
+    damageMax: 2200
+    speedMax: 3200
+    accel: 6
+    power: 60
+    range: 36
+    score: 400
+    reload: 24
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: UFO_170
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_170
+          width: 30
+          length: 20
+        - name: UFO_170a
+          width: 20
+          length: 30
+#Not finished Variants
+#        - name: UFO_170b
+#          width: 30
+#          length: 20
+#        - name: UFO_170c
+#          width: 20
+#          length: 30
+#END SUPPLY SHIP
+
+#BEGIN FIGHTER SHIP
+  - type: STR_FIGHTER_SHIP
+    modSprite: InterceptionFighter
+    size: STR_SMALL
+    damageMax: 275
+    speedMax: 3000
+    accel: 9
+    power: 40
+    range: 42
+    score: 175
+    reload: 24
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: UFO_180
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_180
+          width: 20
+          length: 20
+        - name: UFO_180a
+          width: 20
+          length: 20
+        - name: UFO_180b
+          width: 20
+          length: 20
+        - name: UFO_180c
+          width: 20
+          length: 20
+        - name: UFO_180d
+          width: 20
+          length: 20
+        - name: UFO_180e
+          width: 20
+          length: 20
+        - name: UFO_180f
+          width: 20
+          length: 20
+        - name: UFO_180g
+          width: 20
+          length: 20
+        - name: UFO_180h
+          width: 20
+          length: 20
+#END FIGHTER SHIP
+
+#BEGIN SENTRY SHIP
+  - type: STR_SENTRY_SHIP
+    modSprite: InterceptionSentry
+    size: STR_SMALL
+    damageMax: 375
+    speedMax: 3200
+    accel: 8
+    power: 60
+    range: 42
+    score: 125
+    reload: 24
+    breakOffTime: 350
+    battlescapeTerrainData:
+      name: UFO_190
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_190
+          width: 20
+          length: 20
+        - name: UFO_190a
+          width: 20
+          length: 20
+        - name: UFO_190b
+          width: 20
+          length: 20
+        - name: UFO_190c
+          width: 20
+          length: 20
+        - name: UFO_190d
+          width: 20
+          length: 20
+        - name: UFO_190e
+          width: 20
+          length: 20
+        - name: UFO_190f
+          width: 20
+          length: 20
+        - name: UFO_190g
+          width: 20
+          length: 20
+        - name: UFO_190h
+          width: 20
+          length: 20
+        - name: UFO_190i
+          width: 20
+          length: 20
+        - name: UFO_190j
+          width: 20
+          length: 20
+        - name: UFO_190k
+          width: 20
+          length: 20
+        - name: UFO_190l
+          width: 20
+          length: 20
+        - name: UFO_190m
+          width: 20
+          length: 20
+#END SENTRY SHIP
+
+#BEGIN EXCAVATOR
+  - type: STR_EXCAVATOR
+    modSprite: InterceptionExcavator
+    size: STR_SMALL
+    damageMax: 250
+    speedMax: 2500
+    accel: 6
+    power: 25
+    range: 34
+    score: 100
+    reload: 24
+    breakOffTime: 400
+    battlescapeTerrainData:
+      name: UFO_200
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_200
+          width: 20
+          length: 20
+        - name: UFO_200a
+          width: 20
+          length: 20
+        - name: UFO_200b
+          width: 20
+          length: 20
+        - name: UFO_200c
+          width: 20
+          length: 20
+        - name: UFO_200d
+          width: 20
+          length: 20
+        - name: UFO_200e
+          width: 20
+          length: 20
+        - name: UFO_200f
+          width: 20
+          length: 20
+        - name: UFO_200g
+          width: 20
+          length: 20
+        - name: UFO_200h
+          width: 20
+          length: 20
+        - name: UFO_200i
+          width: 20
+          length: 20
+        - name: UFO_200j
+          width: 20
+          length: 20
+#END EXCAVATOR
+
+#BEGIN LABSHIP
+  - type: STR_LAB_SHIP
+    modSprite: InterceptionLabship
+    size: STR_VERY_LARGE
+    damageMax: 2600
+    speedMax: 4500
+    accel: 5
+    power: 90
+    range: 42
+    score: 500
+    reload: 24
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: UFO_210
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC2
+        - U_OPER2
+        - UFOL83
+      mapBlocks:
+        - name: UFO_210
+          width: 30
+          length: 30
+        - name: UFO_210a
+          width: 30
+          length: 30
+        - name: UFO_210b
+          width: 30
+          length: 30
+        - name: UFO_210c
+          width: 30
+          length: 30
+#END LABSHIP
+
+#BEGIN COMMANDSHIP
+  - type: STR_COMMAND_SHIP
+    modSprite: InterceptionLabship
+    size: STR_VERY_LARGE
+    damageMax: 24000
+    speedMax: 6000
+    accel: 10
+    power: 200
+    range: 65
+    score: 2000
+    reload: 24
+    breakOffTime: 6000
+    battlescapeTerrainData:
+      name: UFO_220
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_PODS
+        - U_BITS
+        - U_DISEC2
+        - U_OPER2
+        - UFOL83
+      mapBlocks:
+        - name: UFO_220
+          width: 40
+          length: 40
+#END COMMANDSHIP
+##END REAL UFOS
+
+##BEGIN SPECIAL UFOS
+#BEGIN CARGOSHIPPORT
+  - type: STR_CARGOSHIPPORT
+    battlescapeTerrainData:
+      name: CARGOSHIPPORT
+      mapDataSets:
+        - BLANKS
+        - SEAURBAN
+        - CARGOSHIP1
+        - CARGOSHIP2
+        - CARGOSHIP3
+        - CARGOSHIP4
+        - U_PODS
+      mapBlocks:
+        - name: CARGOSHIPPORT
+          width: 30
+          length: 70
+#END CARGOSHIPPORT
+
+#BEGIN LINERSHIPPORT
+  - type: STR_LINERSHIPPORT
+    battlescapeTerrainData:
+      name: LINERSHIPPORT
+      mapDataSets:
+        - BLANKS
+        - DECKSHIPUFO
+        - LINERSHIPA
+        - LINERSHIPB
+        - LINERSHIPC
+        - LINERSHIPD
+        - SEAURBAN
+      mapBlocks:
+        - name: LINERSHIPPORT
+          width: 30
+          length: 70
+#END LINERSHIPPORT
+##END SPECIAL UFOS
+###END UFOS

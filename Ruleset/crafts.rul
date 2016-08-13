@@ -1,0 +1,144 @@
+###BEGIN CRAFTS
+crafts:
+  - delete: STR_LIGHTNING
+
+##BEGIN XCOM
+#BEGIN RETALIATOR
+  - type: STR_RETALIATOR
+    requires:
+      - STR_IMPROVED_INTERCEPTOR
+    listOrder: 204
+    sprite: 23
+    fuelMax: 1000
+    damageMax: 240
+    speedMax: 2500
+    accel: 5
+    weapons: 2
+    costSell: 235000
+    costRent: 300000
+    repairRate: 2
+    refuelRate: 50
+    score: 250
+#END RETALIATOR
+
+#BEGIN THUNDER
+  - type: STR_THUNDER
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    sprite: 1
+    fuelMax: 40
+    damageMax: 800
+    speedMax: 3100
+    accel: 9
+    weapons: 1
+    repairRate: 3
+    soldiers: 20
+    vehicles: 2
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 300
+    battlescapeTerrainData:
+      name: THUNDER
+      mapDataSets:
+        - BLANKS
+        - THUNDER
+      mapBlocks:
+        - name: THUNDER
+          width: 20
+          length: 10
+    deployment:
+      - [10, 4, 1, 2]
+      - [10, 5, 1, 2]
+      - [9, 4, 1, 2]
+      - [9, 5, 1, 2]
+      - [8, 4, 1, 2]
+      - [8, 5, 1, 2]
+      - [7, 4, 1, 2]
+      - [7, 5, 1, 2]
+      - [6, 4, 1, 2]
+      - [6, 5, 1, 2]
+      - [10, 3, 1, 3]
+      - [10, 6, 1, 1]
+      - [9, 3, 1, 2]
+      - [9, 6, 1, 2]
+      - [8, 3, 1, 2]
+      - [8, 6, 1, 2]
+      - [7, 3, 1, 2]
+      - [7, 6, 1, 2]
+      - [6, 3, 1, 2]
+      - [6, 6, 1, 2]
+#END THUNDER
+
+#BEGIN FIRESTORM
+  - type: STR_FIRESTORM
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+    sprite: 4
+    fuelMax: 30
+    damageMax: 500
+    speedMax: 4200
+    accel: 9
+    weapons: 2
+    repairRate: 3
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 400
+#END FIRESTORM
+
+#BEGIN AVENGER
+  - type: STR_AVENGER
+    requires:
+      - STR_ULTIMATE_CRAFT
+    sprite: 2
+    fuelMax: 60
+    damageMax: 1200
+    speedMax: 5400
+    accel: 10
+    weapons: 2
+    repairRate: 3
+    soldiers: 26
+    vehicles: 4
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 600
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AVENGER
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+      mapBlocks:
+        - name: AVENGER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [4, 13, 1, 0]
+      - [5, 13, 1, 0]
+      - [4, 14, 1, 0]
+      - [5, 14, 1, 0]
+      - [4, 15, 1, 0]
+      - [5, 15, 1, 0]
+      - [4, 16, 1, 0]
+      - [5, 16, 1, 0]
+      - [3, 10, 1, 0]
+      - [3, 11, 1, 0]
+      - [3, 12, 1, 0]
+      - [3, 13, 1, 0]
+      - [3, 14, 1, 0]
+      - [6, 10, 1, 0]
+      - [6, 11, 1, 0]
+      - [6, 12, 1, 0]
+      - [6, 13, 1, 0]
+      - [6, 14, 1, 0]
+#END AVENGER
+##END XCOM
+###END CRAFTS
+

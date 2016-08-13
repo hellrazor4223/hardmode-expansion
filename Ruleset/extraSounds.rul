@@ -1,0 +1,18 @@
+###BEGIN EXTRASOUNDS
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      100: Resources/Sounds/Sound_Shoot_Shotgun.wav
+      102: Resources/Sounds/Sound_Shoot_SniperRifle.wav
+      103: Resources/Sounds/Sound_Shoot_TaserPistol.wav
+      104: Resources/Sounds/Sound_Move_Holodrone.wav
+      105: Resources/Sounds/Sound_Shoot_GrenadeLauncher.wav
+      106: Resources/Sounds/Sound_Hit_PlasmaMelee.wav
+      107: Resources/Sounds/Sound_Slice_PlasmaBlade.wav
+      108: Resources/Sounds/Sound_Slice_PlasmaSword.wav
+      109: Resources/Sounds/Sound_Hit_NormalMelee.wav
+      110: Resources/Sounds/Sound_Punch_MutonBerserker.wav
+      111: Resources/Sounds/Sound_Hit_MutonBerserker.wav
+      112: Resources/Sounds/Sound_Aggro_MutonBerserker.wav
+###END EXTRASOUNDS
+

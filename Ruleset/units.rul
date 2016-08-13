@@ -1,0 +1,1224 @@
+####BEGIN UNITS
+units:
+
+###BEGIN TANKS
+##BEGIN NORMAL TANKS
+#BEGIN TANK CANNON
+  - type: STR_TANK_CANNON
+    race: STR_TANK_CANNON
+    stats: &TANK_STATS
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 120
+      psiSkill: 0
+      melee: 70
+    armor: TANK_CANNON_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 40
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+#END TANK CANNON
+
+#BEGIN TANK ROCKET LAUNCHER
+  - type: STR_TANK_ROCKET_LAUNCHER
+    race: STR_TANK_ROCKET_LAUNCHER
+    stats: *TANK_STATS
+    armor: TANK_ROCKET_LAUNCHER_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 40
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+#END TANK ROCKET LAUNCHER
+
+#BEGIN TANK LASER
+  - type: STR_TANK_LASER_CANNON
+    race: STR_TANK_LASER_CANNON
+    stats: *TANK_STATS
+    armor: TANK_LASER_CANNON_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 40
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+#END TANK LASER
+##END NORMAL TANKS
+
+##BEGIN ALLOY TANKS
+#BEGIN ALLOY TANK CANNON
+  - type: STR_ALLOY_TANK_CANNON
+    race: STR_ALLOY_TANK_CANNON
+    stats: &ALLOY_TANK_STATS
+      tu: 80
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 25
+      firing: 65
+      throwing: 0
+      strength: 60
+      psiStrength: 120
+      psiSkill: 0
+      melee: 70
+    armor: ALLOY_TANK_CANNON_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 40
+    energyRecovery: 50
+    deathSound: 23
+    moveSound: 14
+#END ALLOY TANK CANNON
+
+#BEGIN ALLOY TANK ROCKET LAUNCHER
+  - type: STR_ALLOY_TANK_ROCKET_LAUNCHER
+    race: STR_ALLOY_TANK_ROCKET_LAUNCHER
+    stats: *ALLOY_TANK_STATS
+    armor: ALLOY_TANK_ROCKET_LAUNCHER_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 40
+    energyRecovery: 50
+    deathSound: 23
+    moveSound: 14
+#END ALLOY TANK ROCKET LAUNCHER
+
+#BEGIN ALLOY TANK LASER
+  - type: STR_ALLOY_TANK_LASER_CANNON
+    race: STR_ALLOY_TANK_LASER_CANNON
+    stats: *ALLOY_TANK_STATS
+    armor: ALLOY_TANK_LASER_CANNON_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 40
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
+#END ALLOY TANK LASER
+##END ALLOY TANKS
+
+##BEGIN HOVERTANKS
+#BEGIN HOVERTANK LASER
+  - type: STR_HOVERTANK_LASER
+    race: STR_HOVERTANK_LASER
+    stats: &HOVERTANK_STATS
+      tu: 100
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 30
+      firing: 70
+      throwing: 0
+      strength: 60
+      psiStrength: 120
+      psiSkill: 0
+      melee: 70
+    armor: HOVERTANK_LASER_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 60
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+#END HOVERTANK LASER
+
+#BEGIN HOVERTANK EBOMB
+  - type: STR_HOVERTANK_EBOMB
+    race: STR_HOVERTANK_EBOMB
+    stats: *HOVERTANK_STATS
+    armor: HOVERTANK_EBOMB_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 60
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+#END HOVERTANK EBOMB
+
+#BEGIN HOVERTANK PLASMA
+  - type: STR_HOVERTANK_PLASMA
+    race: STR_HOVERTANK_PLASMA
+    stats: *HOVERTANK_STATS
+    armor: HOVERTANK_PLASMA_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 60
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+#END HOVERTANK PLASMA
+
+#BEGIN HOVERTANK LAUNCHER
+  - type: STR_HOVERTANK_LAUNCHER
+    race: STR_HOVERTANK_LAUNCHER
+    stats: *HOVERTANK_STATS
+    armor: HOVERTANK_LAUNCHER_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    floatHeight: 6
+    value: 60
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 50
+#END HOVERTANK LAUNCHER
+##END HOVERTANKS
+
+##BEGIN WALKTERTANK PLASMA
+  - type: STR_WALKERTANK_PLASMA
+    race: STR_WALKERTANK_PLASMA
+    stats:
+      tu: 90
+      stamina: 100
+      health: 120
+      bravery: 110
+      reactions: 40
+      firing: 75
+      throwing: 0
+      strength: 60
+      psiStrength: 120
+      psiSkill: 0
+      melee: 80
+    armor: WALKERTANK_PLASMA_ARMOR
+    standHeight: 23
+    kneelHeight: 16
+    value: 80
+    deathSound: 23
+    energyRecovery: 50
+    livingWeapon: true
+##END WALKERTANK PLASMA
+###END TANKS
+
+###BEGIN ALIENS
+##BEGIN FLOATER
+#BEGIN FLOATER SOLDIER
+  - type: STR_FLOATER_SOLDIER
+    stats: &FLOATER_STATS
+      bravery: 90
+      psiStrength: 42
+      melee: 40
+    value: 5
+#END FLOATER SOLDIER
+
+#BEGIN FLOATER NAVIGATOR
+  - type: STR_FLOATER_NAVIGATOR
+    stats: *FLOATER_STATS
+    value: 6
+#END FLOATER NAVIGATOR
+
+#BEGIN FLOATER ENGINEER
+  - type: STR_FLOATER_ENGINEER
+    stats: *FLOATER_STATS
+    value: 8
+#END FLOATER ENGINEER
+
+#BEGIN FLOATER MEDIC
+  - type: STR_FLOATER_MEDIC
+    stats: *FLOATER_STATS
+    value: 7
+#END FLOATER MEDIC
+
+#BEGIN FLOATER LEADER
+  - type: STR_FLOATER_LEADER
+    stats:
+      bravery: 100
+      psiStrength: 60
+      melee: 40
+    value: 10
+#END FLOATER LEADER
+
+#BEGIN FLOATER COMMANDER
+  - type: STR_FLOATER_COMMANDER
+    stats:
+      bravery: 100
+      psiStrength: 68
+      melee: 40
+    value: 13
+#END FLOATER COMMANDER
+##END FLOATER
+
+##BEGIN SECTOID
+#BEGIN SECTOID SOLDIER
+  - type: STR_SECTOID_SOLDIER
+    stats: &SECTOID_STATS
+      bravery: 90
+      psiStrength: 60
+      melee: 30
+    value: 6
+#END SECTOID SOLDIER
+
+#BEGIN SECTOID NAVIGATOR
+  - type: STR_SECTOID_NAVIGATOR
+    stats: *SECTOID_STATS
+    value: 7
+#END SECTOID NAVIGATOR
+
+#BEGIN SECTOID ENGINEER
+  - type: STR_SECTOID_ENGINEER
+    stats: *SECTOID_STATS
+    value: 9
+#END SECTOID ENGINEER
+
+#BEGIN SECTOID MEDIC
+  - type: STR_SECTOID_MEDIC
+    stats: *SECTOID_STATS
+    value: 8
+#END SECTOID MEDIC
+
+#BEGIN SECTOID LEADER
+  - type: STR_SECTOID_LEADER
+    stats:
+      bravery: 100
+      psiStrength: 60
+      psiSkill: 34
+      melee: 30
+    value: 13
+#END SECTOID LEADER
+
+#BEGIN SECTOID COMMANDER
+  - type: STR_SECTOID_COMMANDER
+    stats:
+      bravery: 100
+      psiStrength: 60
+      psiSkill: 40
+      melee: 30
+    value: 18
+#END SECTOID SOMMANDER
+##END SECTOID
+
+##BEGIN SNAKEMAN
+#BEGIN SNAKEMAN SOLDIER
+  - type: STR_SNAKEMAN_SOLDIER
+    stats: &SNAKEMAN_STATS
+      bravery: 90
+      psiStrength: 60
+      melee: 47
+    value: 8
+#END SNAKEMAN SOLDIER
+
+#BEGIN SNAKEMAN NAVIGATOR
+  - type: STR_SNAKEMAN_NAVIGATOR
+    stats: *SNAKEMAN_STATS
+    value: 9
+#END SNAKEMAN NAVIGATOR
+
+#BEGIN SNAKEMAN ENGINEER
+  - type: STR_SNAKEMAN_ENGINEER
+    stats: *SNAKEMAN_STATS
+    value: 10
+#END SNAKEMAN ENGINEER
+
+#BEGIN SNAKEMAN LEADER
+  - type: STR_SNAKEMAN_LEADER
+    stats:
+      bravery: 100
+      psiStrength: 68
+      melee: 47
+    value: 14
+#END SNAKEMAN LEADER
+
+#BEGIN SNAKEMAN COMMANDER
+  - type: STR_SNAKEMAN_COMMANDER
+    stats:
+      bravery: 100
+      psiStrength: 75
+      melee: 47
+    value: 18
+#END SNAKEMAN COMMANDER
+##END SNAKEMAN
+
+##BEGIN MUTON
+#BEGIN MUTON SOLDIER
+  - type: STR_MUTON_SOLDIER
+    stats: &MUTON_STATS
+      bravery: 90
+      psiStrength: 40
+      melee: 60
+    value: 8
+#END MUTON SOLDIER
+
+#BEGIN MUTON NAVIGATOR
+  - type: STR_MUTON_NAVIGATOR
+    stats: *MUTON_STATS
+    value: 9
+#END MUTON NAVIGATOR
+
+#BEGIN MUTON ENGINEER
+  - type: STR_MUTON_ENGINEER
+    stats: *MUTON_STATS
+    value: 10
+#END MUTON ENGINEER
+##END MUTON
+
+##BEGIN WASPITE
+#BEGIN WASPITE SOLDIER
+  - type: STR_WASPITE_SOLDIER
+    race: STR_WASPITE
+    rank: STR_LIVE_SOLDIER
+    stats: &WASPITE_STATS
+      tu: 62
+      stamina: 100
+      health: 70
+      bravery: 90
+      reactions: 60
+      firing: 64
+      throwing: 76
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: WASPITE_ARMOR0
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 8
+    deathSound: 51
+    moveSound: 15
+    intelligence: 5
+    aggression: 2
+#END WASPITE SOLDIER
+
+#BEGIN WASPITE ENGINEER
+  - type: STR_WASPITE_ENGINEER
+    race: STR_WASPITE
+    rank: STR_LIVE_ENGINEER
+    stats: *WASPITE_STATS
+    armor: WASPITE_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 10
+    deathSound: 51
+    moveSound: 15
+    intelligence: 7
+    aggression: 2
+#END WASPITE ENGINEER
+
+#BEGIN WASPITE NAVIGATOR
+  - type: STR_WASPITE_NAVIGATOR
+    race: STR_WASPITE
+    rank: STR_LIVE_NAVIGATOR
+    stats: *WASPITE_STATS
+    armor: WASPITE_ARMOR0
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 9
+    deathSound: 51
+    moveSound: 15
+    intelligence: 5
+    aggression: 2
+#END WASPITE NAVIGATOR
+
+#BEGIN WASPITE MEDIC
+  - type: STR_WASPITE_MEDIC
+    race: STR_WASPITE
+    rank: STR_LIVE_MEDIC
+    stats: *WASPITE_STATS
+    armor: WASPITE_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 11
+    deathSound: 51
+    moveSound: 15
+    intelligence: 6
+    aggression: 1
+#END WASPITE MEDIC
+
+#BEGIN WASPITE LEADER
+  - type: STR_WASPITE_LEADER
+    race: STR_WASPITE
+    rank: STR_LIVE_LEADER
+    stats: &WASPITE_HIGH_STATS
+      tu: 66
+      stamina: 100
+      health: 70
+      bravery: 100
+      reactions: 64
+      firing: 68
+      throwing: 80
+      strength: 50
+      psiStrength: 55
+      psiSkill: 0
+      melee: 50
+    armor: WASPITE_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 14
+    deathSound: 51
+    moveSound: 15
+    intelligence: 6
+    aggression: 0
+#END WASPITE LEADER
+
+#BEGIN WASPITE COMMANDER
+  - type: STR_WASPITE_COMMANDER
+    race: STR_WASPITE
+    rank: STR_LIVE_COMMANDER
+    stats: *WASPITE_HIGH_STATS
+    armor: WASPITE_ARMOR2
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 18
+    deathSound: 51
+    moveSound: 15
+    intelligence: 8
+    aggression: 0
+#END WASPITE COMMANDER
+##END WASPITE
+
+##BEGIN GAZER
+#BEGIN GAZER SOLDIER
+  - type: STR_GAZER_SOLDIER
+    race: STR_GAZER
+    rank: STR_LIVE_SOLDIER
+    stats: &GAZER_STATS
+      tu: 67
+      stamina: 86
+      health: 90
+      bravery: 90
+      reactions: 62
+      firing: 62
+      throwing: 62
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: GAZER_ARMOR0
+    standHeight: 19
+    kneelHeight: 15
+    value: 8
+    deathSound: 10
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 40
+#END GAZER SOLDIER
+
+#BEGIN GAZER ENGINEER
+  - type: STR_GAZER_ENGINEER
+    race: STR_GAZER
+    rank: STR_LIVE_ENGINEER
+    stats: *GAZER_STATS
+    armor: GAZER_ARMOR1
+    standHeight: 19
+    kneelHeight: 15
+    value: 10
+    deathSound: 10
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+#END GAZER ENGINEER
+
+#BEGIN GAZER NAVIGATOR
+  - type: STR_GAZER_NAVIGATOR
+    race: STR_GAZER
+    rank: STR_LIVE_NAVIGATOR
+    stats: *GAZER_STATS
+    armor: GAZER_ARMOR1
+    standHeight: 19
+    kneelHeight: 15
+    value: 9
+    deathSound: 10
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+#END GAZER NAVIGATOR
+
+#BEGIN GAZER MEDIC
+  - type: STR_GAZER_MEDIC
+    race: STR_GAZER
+    rank: STR_LIVE_MEDIC
+    stats: *GAZER_STATS
+    armor: GAZER_ARMOR1
+    standHeight: 19
+    kneelHeight: 15
+    value: 1
+    deathSound: 10
+    intelligence: 6
+    aggression: 1
+    energyRecovery: 40
+#END GAZER MEDIC
+
+#BEGIN GAZER LEADER
+  - type: STR_GAZER_LEADER
+    race: STR_GAZER
+    rank: STR_LIVE_LEADER
+    stats: &GAZER_STATS_HIGH
+      tu: 71
+      stamina: 90
+      health: 100
+      bravery: 90
+      reactions: 66
+      firing: 66
+      throwing: 66
+      strength: 50
+      psiStrength: 60
+      psiSkill: 0
+      melee: 50
+    armor: GAZER_ARMOR2
+    standHeight: 19
+    kneelHeight: 15
+    value: 14
+    deathSound: 10
+    intelligence: 8
+    aggression: 1
+    energyRecovery: 40
+#END GAZER LEADER
+
+#BEGIN GAZER COMMANDER
+  - type: STR_GAZER_COMMANDER
+    race: STR_GAZER
+    rank: STR_LIVE_COMMANDER
+    stats: *GAZER_STATS_HIGH
+    armor: GAZER_ARMOR2
+    standHeight: 19
+    kneelHeight: 15
+    value: 18
+    deathSound: 10
+    intelligence: 8
+    aggression: 1
+    energyRecovery: 40
+#END GAZER COMMANDER
+##END GAZER
+
+##BEGIN SECTOID ELITE
+#BEGIN SECTOID ELITE SOLDIER
+  - type: STR_SECTOID_ELITE_SOLDIER
+    race: STR_SECTOID_ELITE
+    rank: STR_LIVE_SOLDIER
+    stats: &SECTOID_ELITE_STATS
+      tu: 60
+      stamina: 100
+      health: 60
+      bravery: 90
+      reactions: 69
+      firing: 58
+      throwing: 64
+      strength: 36
+      psiStrength: 80
+      psiSkill: 0
+      melee: 50
+    armor: SECTOID_ELITE_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 7
+    aggression: 2
+#END SECTOID ELITE SOLDIER
+
+#BEGIN SECTOID ELITE ENGINEER
+  - type: STR_SECTOID_ELITE_ENGINEER
+    race: STR_SECTOID_ELITE
+    rank: STR_LIVE_ENGINEER
+    stats: *SECTOID_ELITE_STATS
+    armor: SECTOID_ELITE_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 12
+    deathSound: 10
+    intelligence: 8
+    aggression: 1
+#END SECTOID ELITE ENGINEER
+
+#BEGIN SECTOID ELITE NAVIGATOR
+  - type: STR_SECTOID_ELITE_NAVIGATOR
+    race: STR_SECTOID_ELITE
+    rank: STR_LIVE_NAVIGATOR
+    stats: *SECTOID_ELITE_STATS
+    armor: SECTOID_ELITE_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 8
+    aggression: 1
+#END SECTOID ELITE NAVIGATOR
+
+#BEGIN SECTOID ELITE MEDIC
+  - type: STR_SECTOID_ELITE_MEDIC
+    race: STR_SECTOID_ELITE
+    rank: STR_LIVE_MEDIC
+    stats: *SECTOID_ELITE_STATS
+    armor: SECTOID_ELITE_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 13
+    deathSound: 10
+    intelligence: 8
+    aggression: 0
+#END SECTOID ELITE MEDIC
+
+#BEGIN SECTOID ELITE LEADER
+  - type: STR_SECTOID_ELITE_LEADER
+    race: STR_SECTOID_ELITE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 64
+      stamina: 104
+      health: 64
+      bravery: 100
+      reactions: 73
+      firing: 62
+      throwing: 68
+      strength: 40
+      psiStrength: 80
+      psiSkill: 30
+      melee: 50
+    armor: SECTOID_ELITE_ARMOR1
+    standHeight: 16
+    kneelHeight: 12
+    value: 18
+    deathSound: 10
+    intelligence: 7
+    aggression: 1
+#END SECTOID ELITE LEADER
+
+#BEGIN SECTOID ELITE COMMANDER
+  - type: STR_SECTOID_ELITE_COMMANDER
+    race: STR_SECTOID_ELITE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 64
+      stamina: 104
+      health: 64
+      bravery: 100
+      reactions: 73
+      firing: 63
+      throwing: 68
+      strength: 40
+      psiStrength: 80
+      psiSkill: 35
+      melee: 50
+    armor: SECTOID_ELITE_ARMOR1
+    standHeight: 16
+    kneelHeight: 12
+    value: 24
+    deathSound: 10
+    intelligence: 8
+    aggression: 0
+#END SECTOID ELITE COMMANDER
+##END SECTOID ELITE
+
+##BEGIN MUTON ELITE
+#BEGIN MUTON ELITE SOLIDER
+  - type: STR_MUTON_ELITE_SOLDIER
+    race: STR_MUTON_ELITE
+    rank: STR_LIVE_SOLDIER
+    stats: &MUTON_ELITE_STATS
+      tu: 71
+      stamina: 100
+      health: 140
+      bravery: 90
+      reactions: 70
+      firing: 70
+      throwing: 70
+      strength: 70
+      psiStrength: 80
+      psiSkill: 0
+      melee: 70
+    armor: MUTON_ELITE_ARMOR0
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    deathSound: 6
+    intelligence: 5
+    aggression: 2
+    energyRecovery: 45
+#END MUTON ELITE SOLIDER
+
+#BEGIN MUTON ELITE ENGINEER
+  - type: STR_MUTON_ELITE_ENGINEER
+    race: STR_MUTON_ELITE
+    rank: STR_LIVE_ENGINEER
+    stats: *MUTON_ELITE_STATS
+    armor: MUTON_ELITE_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 7
+    aggression: 1
+    energyRecovery: 45
+#END MUTON ELITE ENGINEER
+
+#BEGIN MUTON ELITE NAVIGATOR
+  - type: STR_MUTON_ELITE_NAVIGATOR
+    race: STR_MUTON_ELITE
+    rank: STR_LIVE_NAVIGATOR
+    stats: *MUTON_ELITE_STATS
+    armor: MUTON_ELITE_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    value: 13
+    deathSound: 6
+    intelligence: 7
+    aggression: 1
+    energyRecovery: 45
+#END MUTON ELITE NAVIGATOR
+
+#BEGIN MUTON ELITE LEADER
+  - type: STR_MUTON_ELITE_LEADER
+    race: STR_MUTON_ELITE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 75
+      stamina: 100
+      health: 144
+      bravery: 90
+      reactions: 74
+      firing: 74
+      throwing: 74
+      strength: 74
+      psiStrength: 90
+      psiSkill: 0
+      melee: 70
+    armor: MUTON_ELITE_ARMOR2
+    standHeight: 21
+    kneelHeight: 16
+    value: 20
+    deathSound: 6
+    intelligence: 8
+    aggression: 0
+    energyRecovery: 45
+#END MUTON ELITE LEADER
+##END MUTON ELITE
+
+##BEGIN ETHEREAL
+#BEGIN ETHEREAL SOLDIER
+  - type: STR_ETHEREAL_SOLDIER
+    stats:
+      bravery: 90
+      psiStrength: 180
+      psiSkill: 12
+      melee: 60
+    value: 15
+#END ETHEREAL SOLDIER
+
+#BEGIN ETHEREAL LEADER
+  - type: STR_ETHEREAL_LEADER
+    stats:
+      bravery: 100
+      psiStrength: 207
+      psiSkill: 13
+      melee: 60
+    value: 20
+#END ETHEREAL LEADER
+
+#BEGIN ETHEREAL COMMANDER
+  - type: STR_ETHEREAL_COMMANDER
+    stats:
+      bravery: 100
+      psiStrength: 237
+      psiSkill: 14
+      melee: 60
+    value: 25
+#END ETHEREAL COMMANDER
+##END ETHEREAL
+
+##BEGIN MUTON ELITE GUARD
+#BEGIN MUTON ELITE GUARD SOLDIER
+  - type: STR_MUTON_ELITE_GUARD_SOLDIER
+    race: STR_MUTON_ELITE_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats: &MUTON_ELITE_GUARD_STATS
+      tu: 75
+      stamina: 100
+      health: 160
+      bravery: 90
+      reactions: 80
+      firing: 80
+      throwing: 80
+      strength: 80
+      psiStrength: 150
+      psiSkill: 0
+      melee: 80
+    armor: MUTON_ELITE_GUARD_ARMOR0
+    standHeight: 21
+    kneelHeight: 16
+    value: 16
+    deathSound: 6
+    intelligence: 8
+    aggression: 2
+    energyRecovery: 60
+#END MUTON ELITE GUARD SOLDIER
+
+#BEGIN MUTON ELITE GUARD ENGINEER
+  - type: STR_MUTON_ELITE_GUARD_ENGINEER
+    race: STR_MUTON_ELITE_GUARD
+    rank: STR_LIVE_ENGINEER
+    stats: *MUTON_ELITE_GUARD_STATS
+    armor: MUTON_ELITE_GUARD_ARMOR0
+    standHeight: 21
+    kneelHeight: 16
+    value: 18
+    deathSound: 6
+    intelligence: 9
+    aggression: 1
+    energyRecovery: 60
+#END MUTON ELITE GUARD ENGINEER
+
+#BEGIN MUTON ELITE GUARD LEADER
+  - type: STR_MUTON_ELITE_GUARD_LEADER
+    race: STR_MUTON_ELITE_GUARD
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 79
+      stamina: 104
+      health: 160
+      bravery: 100
+      reactions: 84
+      firing: 84
+      throwing: 84
+      strength: 80
+      psiStrength: 150
+      psiSkill: 0
+      melee: 84
+    armor: MUTON_ELITE_GUARD_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    value: 22
+    deathSound: 6
+    intelligence: 10
+    aggression: 0
+    energyRecovery: 60
+#END MUTON ELITE GUARD LEADER
+##END MUTON ELITE GUARD
+
+##BEGIN TERROR UNITS
+#BEGIN SILACOID
+  - type: STR_SILACOID_TERRORIST
+    stats:
+      psiStrength: 120
+    value: 10
+    aggroSound: 50
+#END SILACOID
+
+#BEGIN REAPER
+  - type: STR_REAPER_TERRORIST
+    stats:
+      bravery: 100
+      psiStrength: 42
+    value: 10
+#END REAPER
+
+#BEGIN CYBERDISC
+  - type: STR_CYBERDISC_TERRORIST
+    stats:
+      psiStrength: 150
+    value: 13
+#END CYBERDISC
+
+#BEGIN CHRYSSALID
+  - type: STR_CHRYSSALID_TERRORIST
+    stats:
+      psiStrength: 75
+      aggression: 2
+    value: 13
+    aggroSound: 49
+#END CHRYSSALID
+
+#BEGIN SECTOPOD
+  - type: STR_SECTOPOD_TERRORIST
+    stats:
+      psiStrength: 150
+    value: 15
+#END SECTOPOD
+
+#BEGIN CELATID
+  - type: STR_CELATID_TERRORIST
+    stats:
+      bravery: 100
+      psiStrength: 120
+    value: 10
+#END CELATID
+
+#BEGIN MUTON BERSERKER
+  - type: STR_MUTON_BERSERKER_TERRORIST
+    race: STR_MUTON_BERSERKER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 113
+      stamina: 173
+      health: 250
+      bravery: 100
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 121
+      psiStrength: 100
+      psiSkill: 0
+      melee: 87
+    armor: MUTON_BERSERKER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 12
+    deathSound: 6
+    aggroSound: 112
+    intelligence: 7
+    aggression: 2
+    energyRecovery: 70
+    livingWeapon: true
+#END MUTON BERSERKER
+
+#BEGIN CYBERMITE
+  - type: STR_CYBERMITE_TERRORIST
+    race: STR_CYBERMITE
+    stats:
+      tu: 64
+      stamina: 105
+      health: 60
+      bravery: 110
+      reactions: 64
+      firing: 0
+      throwing: 0
+      strength: 30
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: CYBERMITE_ARMOR
+    standHeight: 6
+    kneelHeight: 5
+    value: 12
+    deathSound: 23
+    intelligence: 2
+    aggression: 2
+    specab: 1
+    livingWeapon: true
+#END CYBERMITE
+
+#BEGIN HOLODRONE
+  - type: STR_HOLODRONE_TERRORIST
+    race: STR_HOLODRONE
+    stats:
+      tu: 60
+      stamina: 105
+      health: 100
+      bravery: 110
+      reactions: 60
+      firing: 75
+      throwing: 0
+      strength: 50
+      psiStrength: 100
+      psiSkill: 0
+      melee: 60
+    armor: HOLODRONE_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    floatHeight: 11
+    value: 15
+    deathSound: 23
+    moveSound: 104
+    intelligence: 2
+    aggression: 2
+    livingWeapon: true
+#END HOLODRONE
+
+#BEGIN ARMORED CYBERDISC
+  - type: STR_ARMORED_CYBERDISC_TERRORIST
+    race: STR_ARMORED_CYBERDISC
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 66
+      stamina: 100
+      health: 140
+      bravery: 110
+      reactions: 70
+      firing: 70
+      throwing: 0
+      strength: 90
+      psiStrength: 150
+      psiSkill: 0
+      melee: 0
+    armor: ARMORED_CYBERDISC_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 16
+    deathSound: 23
+    moveSound: 40
+    intelligence: 7
+    aggression: 1
+    energyRecovery: 50
+    specab: 1
+    livingWeapon: true
+#END ARMORED CYBERDISC
+
+#BEGIN ARMORED SECTOPOD
+  - type: STR_ARMORED_SECTOPOD_TERRORIST
+    race: STR_ARMORED_SECTOPOD
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 81
+      stamina: 120
+      health: 120
+      bravery: 110
+      reactions: 70
+      firing: 80
+      throwing: 0
+      strength: 90
+      psiStrength: 150
+      psiSkill: 0
+      melee: 80
+    armor: ARMORED_SECTOPOD_ARMOR
+    standHeight: 23
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    intelligence: 10
+    aggression: 2
+    energyRecovery: 60
+    livingWeapon: true
+#END ARMORED SECTOPOD
+
+#BEGIN CHRYSSALID SPITTER
+  - type: STR_CHRYSSALID_SPITTER_TERRORIST
+    race: STR_CHRYSSALID_SPITTER
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 121
+      stamina: 160
+      health: 140
+      bravery: 100
+      reactions: 80
+      firing: 80
+      throwing: 0
+      strength: 110
+      psiStrength: 150
+      psiSkill: 0
+      melee: 80
+    armor: CHRYSSALID_SPITTER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 25
+    deathSound: 9
+    aggroSound: 49
+    builtInWeapons:
+      - CHRYSSALID_WEAPON
+      - CHRYSSALID_SPITTER_WEAPON
+    intelligence: 10
+    aggression: 2
+    energyRecovery: 60
+    livingWeapon: true
+##END TERROR UNITS
+###END ALIENS
+
+###BEGIN CIVILIANS
+##BEGIN MALE
+  - type: MALE_CIVILIAN
+    value: 40
+  - type: MALE_CIVILIAN2
+    race: STR_CIVILIAN
+    stats: &CIVILIAN_STATS
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: MALE_CIVILIAN2_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+  - type: MALE_CIVILIAN3
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN3_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+  - type: MALE_CIVILIAN4
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN4_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+  - type: MALE_CIVILIAN5
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN5_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+  - type: MALE_CIVILIAN6
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN6_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+  - type: MALE_CIVILIAN7
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN7_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+##END MALE
+
+##BEGIN FEMALE
+  - type: FEMALE_CIVILIAN
+    value: 40
+  - type: FEMALE_CIVILIAN2
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN2_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+  - type: FEMALE_CIVILIAN3
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN3_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 40
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+##END FEMALE
+###END CIVILIANS
+####END UNITS

@@ -1,0 +1,497 @@
+###BEGIN ALIEN MISSIONS
+alienMissions:
+
+#BEGIN DELETE
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+#END DELETE
+
+#BEGIN ALIEN BASE
+  - type: STR_ALIEN_BASE
+    points: 50
+    objective: 2 #Built a alien base
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights: &BASE_TERROR_INFILTRATION
+      0:
+        STR_FLOATER: 100
+      1:
+        STR_FLOATER_1: 50
+        STR_SECTOID: 50
+      2:
+        STR_SECTOID: 100
+      3:
+        STR_FLOATER_3: 33
+        STR_SECTOID_3: 33
+        STR_SNAKEMAN: 33
+      4:
+        STR_SNAKEMAN: 100
+      5:
+        STR_FLOATER_5: 25
+        STR_SECTOID_5: 25
+        STR_SNAKEMAN_5: 25
+        STR_MUTON: 25
+      6:
+        STR_MUTON: 100
+      7:
+        STR_FLOATER_7: 20
+        STR_SECTOID_7: 20
+        STR_SNAKEMAN_7: 20
+        STR_MUTON_7: 20
+        STR_WASPITE: 20
+      8:
+        STR_FLOATER_8: 5
+        STR_SECTOID_8: 5
+        STR_SNAKEMAN_8: 5
+        STR_MUTON_8: 5
+        STR_WASPITE_8: 60
+        STR_GAZER: 20
+      9:
+        STR_FLOATER_8: 5
+        STR_SECTOID_8: 5
+        STR_SNAKEMAN_8: 5
+        STR_MUTON_8: 5
+        STR_WASPITE_8: 20
+        STR_GAZER: 60
+      10:
+        STR_FLOATER_10: 5
+        STR_SECTOID_10: 5
+        STR_SNAKEMAN_10: 5
+        STR_MUTON_10: 10
+        STR_WASPITE_10: 10
+        STR_GAZER_10: 25
+        STR_SECTOID_ELITE: 40
+      11:
+        STR_SECTOID_ELITE: 50
+        STR_MUTON_ELITE: 50
+      12:
+        STR_MUTON_ELITE: 100
+      13:
+        STR_FLOATER_13: 5
+        STR_SECTOID_13: 5
+        STR_SNAKEMAN_13: 5
+        STR_MUTON_13: 5
+        STR_WASPITE_13: 5
+        STR_GAZER_13: 5
+        STR_SECTOID_ELITE_13: 10
+        STR_MUTON_ELITE_13: 10
+        STR_ETHEREAL: 50
+      14:
+        STR_SECTOID_ELITE_13: 10
+        STR_MUTON_ELITE_13: 20
+        STR_ETHEREAL: 20
+        STR_MUTON_ELITE_GUARD: 50
+      15:
+        STR_FLOATER_15: 5
+        STR_SECTOID_15: 5
+        STR_SNAKEMAN_15: 5
+        STR_MUTON_15: 5
+        STR_WASPITE_15: 5
+        STR_GAZER_15: 5
+        STR_SECTOID_ELITE_15: 10
+        STR_MUTON_ELITE_15: 15 
+        STR_ETHEREAL_15: 20
+        STR_MUTON_ELITE_GUARD: 25
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_EXCAVATOR
+        count: 2
+        trajectory: P4
+        timer: 6000
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+#END ALIEN BASE
+
+#BEGIN ALIEN TERROR
+  - type: STR_ALIEN_TERROR
+    points: 20
+    objective: 3 #Create a missionsite for a terrormission
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P1
+        timer: 9600
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P1
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P0
+        timer: 12000
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+#END ALIEN TERROR
+
+#BEGIN ALIEN INFILTRATION
+  - type: STR_ALIEN_INFILTRATION
+    points: 1500 #Pact score only awarded on month end
+    objective: 1
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 16500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P6
+        timer: 13800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 9000
+      - ufo: STR_SENTRY_SHIP
+        count: 2
+        trajectory: P7
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+#END ALIEN INFILTRATION
+
+#BEGIN ALIEN RESEARCH
+  - type: STR_ALIEN_RESEARCH
+    points: 10
+    raceWeights: &RESEARCH_ABDUCTION
+      0:
+        STR_FLOATER: 80
+        STR_SECTOID: 20
+      1:
+        STR_FLOATER_1: 60
+        STR_SECTOID: 40
+      2:
+        STR_FLOATER_1: 40
+        STR_SECTOID: 60
+      3:
+        STR_FLOATER_3: 20
+        STR_SECTOID_3: 80
+      5:
+        STR_FLOATER_5: 30
+        STR_SECTOID_5: 70
+      7:
+        STR_FLOATER_7: 33
+        STR_SECTOID_7: 33
+        STR_WASPITE: 33
+      8:
+        STR_FLOATER_8: 10
+        STR_SECTOID_8: 10
+        STR_WASPITE_8: 30
+        STR_GAZER: 50
+      10:
+        STR_FLOATER_10: 10
+        STR_SECTOID_10: 10
+        STR_WASPITE_10: 15
+        STR_GAZER_10: 15
+        STR_SECTOID_ELITE: 50
+      12:
+        STR_FLOATER_12: 15
+        STR_SECTOID_12: 15
+        STR_WASPITE_12: 15
+        STR_GAZER_12: 25
+        STR_SECTOID_ELITE_12: 30
+      13:
+        STR_FLOATER_13: 10
+        STR_SECTOID_13: 10
+        STR_WASPITE_13: 25
+        STR_GAZER_13: 25
+        STR_SECTOID_ELITE_13: 30
+      15:
+        STR_FLOATER_15: 20
+        STR_SECTOID_15: 20
+        STR_WASPITE_15: 20
+        STR_GAZER_15: 20
+        STR_SECTOID_ELITE_15: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_EXCAVATOR
+        count: 2
+        trajectory: P4
+        timer: 9000
+#END ALIEN RESEARCH
+
+#BEGIN ALIEN ABDUCTION
+  - type: STR_ALIEN_ABDUCTION
+    points: 50
+    raceWeights: *RESEARCH_ABDUCTION
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 15000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 18000
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_ABDUCTOR
+        count: 2
+        trajectory: P4
+        timer: 60
+#END ALIEN ABDUCTION
+
+#BEGIN ALIEN HARVEST
+  - type: STR_ALIEN_HARVEST
+    points: 30
+    raceWeights:
+      0:
+        STR_FLOATER: 80
+        STR_SECTOID: 20
+      1:
+        STR_FLOATER_1: 60
+        STR_SECTOID: 40
+      2:
+        STR_FLOATER_1: 40
+        STR_SECTOID: 60
+      3:
+        STR_FLOATER_3: 20
+        STR_SECTOID_3: 80
+      5:
+        STR_FLOATER_5: 20
+        STR_SECTOID_5: 40
+        STR_SNAKEMAN_5: 40
+      6:
+        STR_FLOATER_5: 5
+        STR_SECTOID_5: 5
+        STR_SNAKEMAN_5: 10
+        STR_MUTON: 80
+      7:
+        STR_FLOATER_7: 5
+        STR_SECTOID_7: 5
+        STR_SNAKEMAN_7: 10
+        STR_MUTON_7: 40
+        STR_WASPITE: 40
+      8:
+        STR_FLOATER_8: 5
+        STR_SECTOID_8: 5
+        STR_SNAKEMAN_8: 10
+        STR_MUTON_8: 35
+        STR_WASPITE_8: 25
+        STR_GAZER: 20
+      9:
+        STR_FLOATER_8: 5
+        STR_SECTOID_8: 5
+        STR_SNAKEMAN_8: 5
+        STR_MUTON_8: 40
+        STR_WASPITE_8: 5
+        STR_GAZER: 40
+      10:
+        STR_FLOATER_10: 10
+        STR_SECTOID_10: 10
+        STR_SNAKEMAN_10: 10
+        STR_MUTON_10: 30
+        STR_SECTOID_ELITE: 40
+      11:
+        STR_SECTOID_ELITE: 50
+        STR_MUTON_ELITE: 50
+      12:
+        STR_FLOATER_12: 15
+        STR_SECTOID_12: 15
+        STR_SNAKEMAN_12: 15
+        STR_MUTON_12: 15
+        STR_SECTOID_ELITE_12: 15
+        STR_MUTON_ELITE: 25       
+      13:
+        STR_FLOATER_13: 10
+        STR_SECTOID_13: 10
+        STR_SNAKEMAN_13: 10
+        STR_MUTON_13: 10
+        STR_SECTOID_ELITE_13: 30
+        STR_MUTON_ELITE_13: 30       
+      14:
+        STR_FLOATER_13: 5
+        STR_SECTOID_13: 5
+        STR_SNAKEMAN_13: 5
+        STR_MUTON_13: 5
+        STR_SECTOID_ELITE_13: 10
+        STR_MUTON_ELITE_13: 20     
+        STR_MUTON_ELITE_GUARD: 50
+      15:
+        STR_FLOATER_13: 5
+        STR_SECTOID_13: 5
+        STR_SNAKEMAN_13: 5
+        STR_MUTON_13: 10
+        STR_SECTOID_ELITE_13: 25
+        STR_MUTON_ELITE_13: 25   
+        STR_MUTON_ELITE_GUARD: 25
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_FIGHTER_SHIP
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 3000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P2
+        timer: 1500
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P2
+        timer: 60
+#END ALIEN HARVEST
+
+#BEGIN ALIEN RETALIATION
+  - type: STR_ALIEN_RETALIATION
+    points: 20
+    objective: 4 #Perform a base attack on a xcom base
+    spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
+    raceWeights: # In case of shootdown, race comes from UFO that triggered the mission.
+      0:
+        STR_FLOATER: 10
+        STR_SECTOID: 10
+        STR_SNAKEMAN: 10
+        STR_MUTON: 15
+        STR_WASPITE: 10
+        STR_GAZER: 10
+        STR_SECTOID_ELITE: 20
+        STR_MUTON_ELITE: 20
+        STR_ETHEREAL: 20
+        STR_MUTON_ELITE_GUARD: 25
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_FIGHTER_SHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_SENTRY_SHIP
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+#END ALIEN RETALIATION
+
+#BEGIN ALIEN SUPPLY
+  - type: STR_ALIEN_SUPPLY
+    points: 30
+    objective: 5 #Perform a supply run towards a existing alien base
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+#END ALIEN SUPPLY
+
+#BEGIN DOCKED SHIP
+  - type: STR_DOCKED_SHIP
+    points: 0
+    objective: 3 #Create a missionsite
+    spawnZone: 0 #Mission zone for terror missions in this we do not have any other defined so 0
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: dummy #don't spawn a ufo, we only want the site
+        count: 1
+        trajectory: P10
+        timer: 20000
+        objective: true
+#END DOCKED SHIP
+
+#BEGIN SHIP ATTACK
+  - type: STR_SHIP_ATTACK
+    points: 0
+    objective: 3 #Create a missionsite
+    spawnZone: 0 #Mission zone for terror missions in this we do not have any other defined so 0
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: dummy #don't spawn a ufo, we only want the site
+        count: 1
+        trajectory: P10
+        timer: 20000
+        objective: true
+#END SHIP ATTACK
+###END ALIEN MISSIONS

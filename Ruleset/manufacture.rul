@@ -1,0 +1,1060 @@
+###BEGIN MANUFACTURE
+manufacture:
+
+#BEGIN DELETE
+  - delete: STR_ALIEN_ALLOYS
+#END DELETE
+
+##BEGIN CRAFTWEAPONS
+  - name: STR_ALLOY_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_ALLOY_CANNON
+    space: 20
+    time: 300
+    cost: 95000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+    listOrder: 190
+  - name: STR_ALLOY_CANNON_ROUNDS_X50
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_ALLOY_CANNON
+    space: 2
+    time: 40
+    cost: 600
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 191
+  - name: STR_LASER_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_LASER_CANNON
+    space: 6
+    time: 300
+    cost: 182000
+#    requiredItems:
+#      STR_ALIEN_ALLOYS: 2
+  - name: STR_PLASMA_BEAM
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_PLASMA_CANNON
+    space: 8
+    time: 1000
+    cost: 452000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 10
+      STR_ELERIUM_115: 20
+    listOrder: 300
+  - name: STR_FUSION_BALL
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_FUSION_MISSILE
+    space: 6
+    time: 1200
+    cost: 56000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 8
+    listOrder: 400
+##END CRAFTWEAPONS
+
+##BEGIN TANKS
+#BEGIN TANK CANNON
+  - name: STR_TANK_CANNON_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_TANK_REPAIR
+    space: 25
+    time: 400
+    cost: 210000
+    requiredItems:
+      STR_TANK_CANNON_CORPSE: 1
+    producedItems:
+      STR_TANK_CANNON: 1
+    listOrder: 401
+#END TANK CANNON
+
+#BEGIN TANK ROCKET LAUNCHER
+  - name: STR_TANK_ROCKET_LAUNCHER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_TANK_REPAIR
+    space: 25
+    time: 400
+    cost: 240000
+    requiredItems:
+      STR_TANK_ROCKET_LAUNCHER_CORPSE: 1
+    producedItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 402
+#END TANK ROCKET LAUNCHER
+
+#BEGIN TANK LASER CANNON
+  - name: STR_TANK_LASER_CANNON
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_LASER_CANNON
+    space: 25
+    time: 1200
+    cost: 500000
+    requiredItems:
+      STR_LASER_CANNON: 1
+    listOrder: 500
+  - name: STR_TANK_LASER_CANNON_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_LASER_CANNON
+      - STR_TANK_REPAIR
+    space: 25
+    time: 600
+    cost: 250000
+    requiredItems:
+      STR_TANK_LASER_CANNON_CORPSE: 1
+    producedItems:
+      STR_TANK_LASER_CANNON: 1
+    listOrder: 501
+#END TANK LASER CANNON
+
+#BEGIN ALLOY TANK CANNON
+  - name: STR_ALLOY_TANK_CANNON
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 1000
+    cost: 480000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 16
+    listOrder: 502
+  - name: STR_ALLOY_TANK_CANNON_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+      - STR_TANK_REPAIR
+    space: 25
+    time: 500
+    cost: 240000
+    requiredItems:
+      STR_ALLOY_TANK_CANNON_CORPSE: 1
+      STR_ALIEN_ALLOYS: 8
+    producedItems:
+      STR_ALLOY_TANK_CANNON: 1
+    listOrder: 503
+#END ALLOY TANK CANNON
+
+#BEGIN ALLOY TANK ROCKET LAUNCHER
+  - name: STR_ALLOY_TANK_ROCKET_LAUNCHER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 1000
+    cost: 540000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 16
+    listOrder: 504
+  - name: STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+      - STR_TANK_REPAIR
+    space: 25
+    time: 500
+    cost: 270000
+    requiredItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 8
+    producedItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 505
+#END ALLOY TANK ROCKET LAUNCHER
+
+#BEGIN ALLOY TANK LASER CANNON
+  - name: STR_ALLOY_TANK_LASER_CANNON
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 1200
+    cost: 560000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 16
+      STR_LASER_CANNON: 1
+    listOrder: 506
+  - name: STR_ALLOY_TANK_LASER_CANNON_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+      - STR_TANK_REPAIR
+    space: 25
+    time: 500
+    cost: 270000
+    requiredItems:
+      STR_ALLOY_TANK_LASER_CANNON_CORPSE: 1
+      STR_ALIEN_ALLOYS: 8
+    producedItems:
+      STR_ALLOY_TANK_LASER_CANNON: 1
+    listOrder: 507
+#END ALLOY TANK LASER CANNON
+
+#BEGIN HOVERTANK LASER
+  - name: STR_HOVERTANK_LASER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_LASER_CANNON
+      - STR_HOVERTANK
+    space: 30
+    time: 1200
+    cost: 800000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 20
+      STR_ELERIUM_115: 20
+      STR_LASER_CANNON: 1
+    listOrder: 508
+  - name: STR_HOVERTANK_LASER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_LASER_CANNON
+      - STR_HOVERTANK
+      - STR_TANK_REPAIR
+    space: 30
+    time: 600
+    cost: 400000
+    requiredItems:
+      STR_HOVERTANK_LASER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 10
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_LASER: 1
+    listOrder: 509
+#END HOVERTANK LASER
+
+#BEGIN HOVERTANK EBOMB
+  - name: STR_HOVERTANK_EBOMB
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ELERIUM_BOMB
+      - STR_HOVERTANK
+      - STR_HWP_EBOMB_LAUNCHER
+    space: 30
+    time: 1200
+    cost: 800000
+    requiredItems:
+      STR_SMALL_LAUNCHER: 1
+      STR_ALIEN_ALLOYS: 24
+      STR_ELERIUM_115: 20
+    listOrder: 510
+  - name: STR_HOVERTANK_EBOMB_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ELERIUM_BOMB
+      - STR_HOVERTANK
+      - STR_HWP_EBOMB_LAUNCHER
+      - STR_TANK_REPAIR
+    space: 30
+    time: 600
+    cost: 400000
+    requiredItems:
+      STR_HOVERTANK_EBOMB_CORPSE: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_EBOMB: 1
+    listOrder: 511
+  - name: STR_HWP_EBOMB
+    category: STR_HWP_CANNON_SHELLS
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ELERIUM_BOMB
+      - STR_HOVERTANK
+      - STR_HWP_EBOMB_LAUNCHER
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_BOMB: 1
+    listOrder: 512
+#END HOVERTANK EBOMB
+
+#BEGIN HOVERTANK PLASMA
+  - name: STR_HOVERTANK_PLASMA
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_HOVERTANK
+    space: 30
+    time: 1200
+    cost: 850000
+    requiredItems:
+      STR_PLASMA_BEAM: 1
+      STR_ALIEN_ALLOYS: 20
+      STR_ELERIUM_115: 30
+    listOrder: 600
+  - name: STR_HOVERTANK_PLASMA_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_HOVERTANK
+      - STR_TANK_REPAIR
+    space: 30
+    time: 600
+    cost: 425000
+    requiredItems:
+      STR_HOVERTANK_PLASMA_CORPSE: 1
+      STR_ALIEN_ALLOYS: 10
+      STR_ELERIUM_115: 15
+    producedItems:
+      STR_HOVERTANK_PLASMA: 1
+    listOrder: 601
+#END HOVERTANK PLASMA
+
+#BEGIN HOVERTANK LAUNCHER
+  - name: STR_HOVERTANK_LAUNCHER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+    space: 30
+    time: 1200
+    cost: 900000
+    requiredItems:
+      STR_BLASTER_LAUNCHER: 1
+      STR_ALIEN_ALLOYS: 24
+      STR_ELERIUM_115: 20
+    listOrder: 700
+  - name: STR_HOVERTANK_LAUNCHER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+      - STR_TANK_REPAIR
+    space: 30
+    time: 600
+    cost: 450000
+    requiredItems:
+      STR_HOVERTANK_LAUNCHER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_LAUNCHER: 1
+    listOrder: 701
+  - name: STR_HWP_FUSION_BOMB
+    category: STR_HWP_CANNON_SHELLS
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+    space: 25
+    time: 400
+    cost: 30000
+    requiredItems:
+      STR_BLASTER_BOMB: 1
+      STR_ALIEN_ALLOYS: 2
+#END HOVERTANK LAUNCHER
+
+#BEGIN WALKERTANK PLASMA
+  - name: STR_WALKERTANK_PLASMA
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_WALKERTANK
+    space: 30
+    time: 1500
+    cost: 1400000
+    requiredItems:
+      STR_ARMORED_SECTOPOD_TERRORIST: 1
+      STR_ALIEN_ALLOYS: 30
+      STR_ELERIUM_115: 30
+    listOrder: 702
+  - name: STR_WALKERTANK_PLASMA_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_WALKERTANK
+      - STR_TANK_REPAIR
+    space: 30
+    time: 750
+    cost: 700000
+    requiredItems:
+      STR_WALKERTANK_PLASMA_CORPSE: 1
+      STR_ALIEN_ALLOYS: 15
+      STR_ELERIUM_115: 15
+    producedItems:
+      STR_WALKERTANK_PLASMA: 1
+    listOrder: 703
+#END WALKERTANK PLASMA
+##END TANKS
+
+##BEGIN XCOM WEAPONS         
+#BEGIN ALLOY AMMO
+  - name: STR_PISTOL_AA_CLIP_X3
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 20
+    cost: 100
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_PISTOL_AA_CLIP: 3
+    listOrder: 880
+  - name: STR_RIFLE_AA_CLIP_X2
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 30
+    cost: 150
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_RIFLE_AA_CLIP: 2
+    listOrder: 881
+  - name: STR_SHOTGUN_AA_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 4
+    time: 40
+    cost: 2000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_SHOTGUN_AA_CLIP: 1
+    listOrder: 883
+  - name: STR_SNIPER_RIFLE_AA_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 40
+    cost: 400
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_SNIPER_RIFLE_AA_CLIP: 1
+    listOrder: 885
+  - name: STR_HC_AA_AMMO
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 50
+    cost: 300
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HC_AA_AMMO: 1
+    listOrder: 886
+  - name: STR_AC_AA_AMMO
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 50
+    cost: 300
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_AC_AA_AMMO: 1
+    listOrder: 887
+#END ALLOY AMMO
+
+#BEGIN ELERIUM ROCKET
+  - name: STR_ELERIUM_ROCKET
+    category: STR_AMMUNITION
+    requires:
+      - STR_ELERIUM_ROCKET
+    space: 10
+    time: 300
+    cost: 10000
+    requiredItems:
+      STR_ELERIUM_115: 3
+    listOrder: 888
+#END ELERIUM ROCKET
+
+#BEGIN ALLOY KNIFE
+  - name: STR_ALLOY_KNIFE
+    category: STR_WEAPON
+    requires:
+      - STR_ALLOY_KNIFE
+    space: 5
+    time: 200
+    cost: 4000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 1419
+#END ALLOY KNIFE
+
+#BEGIN ALLOY SWORD
+  - name: STR_ALLOY_SWORD
+    category: STR_WEAPON
+    requires:
+      - STR_ALLOY_SWORD
+    space: 5
+    time: 500
+    cost: 12000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+    listOrder: 1420
+#END ALLOY SWORD
+
+#BEGIN LASER
+  - name: STR_LASER_PISTOL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 1
+  - name: STR_LASER_RIFLE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+  - name: STR_SCATTER_LASER
+    category: STR_WEAPON
+    requires:
+      - STR_SCATTER_LASER
+    space: 4
+    time: 820
+    cost: 21000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+    listOrder: 1001
+  - name: STR_HEAVY_LASER
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ELERIUM_115: 3
+  - name: STR_HEAVY_LASER_AUTO
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_LASER_AUTO
+    space: 4
+    time: 700
+    cost: 32000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ELERIUM_115: 3
+    listOrder: 1101
+#END LASER
+##END XCOM WAEPONS
+
+##BEGIN XCOM EQUIPMENT
+#BEGIN MEDIKIT
+  - name: STR_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MEDI_KIT
+    space: 4
+    time: 420
+    cost: 56000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 1
+    listOrder: 1301
+#END MEDIKIT
+
+#BEGIN ADVANCED MEDI KIT
+  - name: STR_ADVANCED_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_ADVANCED_MEDI_KIT
+    space: 4
+    time: 630
+    cost: 112000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 2
+    listOrder: 1301
+#END ADVANCED MEDI KIT
+
+#BEGIN PSI AMP
+  - name: STR_PSI_AMP
+    category: STR_EQUIPMENT
+    requires:
+      - STR_PSI_AMP
+    space: 6
+    time: 1000
+    cost: 500000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_ELERIUM_115: 10
+#END PSI AMP
+
+#BEGIN STUN GRENADE
+  - name: STR_STUN_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_STUN_GRENADE
+    space: 1
+    time: 10
+    cost: 1000
+    listOrder: 2402
+    requiredItems:
+      STR_STUN_BOMB: 1
+#END STUN GRENADE
+##END XCOM EQUIPMENT
+
+##BEGIN ALIEN WEAPONS
+#BEGIN PLASMA BLADE
+  - name: STR_PLASMA_BLADE
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_BLADE
+    space: 3
+    time: 650
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2 
+      STR_ELERIUM_115: 1
+    listOrder: 1498
+#END PLASMA BLADE
+
+#BEGIN PLASMA SWORD
+  - name: STR_PLASMA_SWORD
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_SWORD
+    space: 3
+    time: 850
+    cost: 72000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3 
+      STR_ELERIUM_115: 2
+    listOrder: 1499
+#END PLASMA SWORD
+
+#BEGIN PLASMA PISTOL
+  - name: STR_PLASMA_PISTOL
+    listOrder: 1500
+  - name: STR_PLASMA_PISTOL_CLIP
+    listOrder: 1600
+#END PLASMA PISTOL
+
+#BEGIN PLASMA RIFLE
+  - name: STR_PLASMA_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_RIFLE_CLIP
+    space: 4
+    time: 820
+    cost: 88000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1700
+  - name: STR_PLASMA_RIFLE_CLIP
+    listOrder: 1800
+#END PLASMA RIFLE
+
+#BEGIN PLASMA SHOTGUN
+  - name: STR_PLASMA_SHOTGUN
+    category: STR_WEAPON
+    requires: 
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_CLIP
+    space: 5
+    time: 840
+    cost: 96000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1801
+  - name: STR_PLASMA_SHOTGUN_CLIP
+    category: STR_AMMUNITION
+    requires: 
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_CLIP
+    space: 5
+    time: 80
+    cost: 4000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 1802
+  - name: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires: 
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    space: 5
+    time: 120
+    cost: 5600
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 1803
+#END PLASMA SHOTGUN
+
+#BEGIN PLASMA SNIPER RIFLE
+  - name: STR_PLASMA_SNIPER_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    space: 4
+    time: 890
+    cost: 102000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1804
+  - name: STR_PLASMA_SNIPER_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    space: 4
+    time: 80
+    cost: 5700
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 1805
+  - name: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    space: 4
+    time: 100
+    cost: 7500
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 1806
+#END PLASMA SNIPER RIFLE
+
+#BEGIN HEAVY PLASMA
+  - name: STR_HEAVY_PLASMA
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_PLASMA
+      - STR_HEAVY_PLASMA_CLIP
+    space: 4
+    time: 1000
+    cost: 122000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+    listOrder: 1900
+  - name: STR_HEAVY_PLASMA_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HEAVY_PLASMA_CLIP
+    space: 4
+    time: 80
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 2000
+#END HEAVY PLASMA
+
+#BEGIN SMALL LAUNCHAR
+  - name: STR_SMALL_LAUNCHER
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+    listOrder: 2100
+  - name: STR_STUN_BOMB
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 2200
+  - name: STR_ELERIUM_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_ELERIUM_BOMB
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 2201
+  - name: STR_FIRE_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_FIRE_BOMB
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_BOMB: 1
+    listOrder: 2202
+  - name: STR_SMOKE_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMOKE_BOMB
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_STUN_BOMB: 1
+    listOrder: 2203
+#END SMALL LAUNCHER
+
+#Due to balancing reasons producing Blasterbombs
+#is to powerful, player needs to use only captured ones
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+#BEGIN BLASTER LAUNCHER
+#  - name: STR_BLASTER_LAUNCHER
+#    requiredItems:
+#      STR_ALIEN_ALLOYS: 6
+#    listOrder: 2300
+#  - name: STR_BLASTER_BOMB
+#    category: STR_AMMUNITION
+#    requires:
+#      - STR_BLASTER_BOMB
+#    space: 3
+#    time: 220
+#    cost: 8000
+#    requiredItems:
+#      STR_ALIEN_ALLOYS: 2
+#      STR_ELERIUM_115: 6
+#    listOrder: 2400
+#END BLASTER LAUNCHER
+##END ALIEN WEAPONS
+
+##BEGIN ARMOR
+#BEGIN ARMORED VEST
+  - name: STR_ARMORED_VEST_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 12
+    time: 100
+    cost: 10000
+    requiredItems:
+      STR_ARMORED_VEST_CORPSE: 1
+    producedItems:
+      STR_ARMORED_VEST: 1
+    listOrder: 2601
+#END ARMORED VEST
+
+#BEGIN ALLOY VEST
+  - name: STR_ALLOY_VEST
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ALLOY_VEST
+    space: 12
+    time: 400
+    cost: 44000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 2602
+  - name: STR_ALLOY_VEST_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_VEST
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 12
+    time: 200
+    cost: 22000
+    requiredItems:
+      STR_ALLOY_VEST_CORPSE: 1
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_ALLOY_VEST: 1
+    listOrder: 2603
+#END ALLOY VEST
+
+#BEGIN PERSONAL ARMOR
+  - name: STR_PERSONAL_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_PERSONAL_ARMOR
+    space: 12
+    time: 800
+    cost: 88000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 6
+    listOrder: 2700
+  - name: STR_PERSONAL_ARMOR_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_PERSONAL_ARMOR
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 12
+    time: 400
+    cost: 44000
+    requiredItems:
+      STR_PERSONAL_ARMOR_CORPSE: 1
+      STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_PERSONAL_ARMOR: 1
+    listOrder: 2701
+#END PERSONAL ARMOR
+
+#BEGIN POWER SUIT
+  - name: STR_POWER_SUIT
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_POWER_SUIT
+    space: 16
+    time: 1000
+    cost: 168000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 8
+    listOrder: 2800
+  - name: STR_POWER_SUIT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_POWER_SUIT
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 16
+    time: 500
+    cost: 84000
+    requiredItems:
+      STR_POWER_SUIT_CORPSE: 1
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_POWER_SUIT: 1
+    listOrder: 2801
+#END POWER SUIT
+
+#BEGIN FLYING SUIT
+  - name: STR_FLYING_SUIT
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_FLYING_SUIT
+    space: 16
+    time: 1400
+    cost: 232000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 16
+    listOrder: 2900
+  - name: STR_FLYING_SUIT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_FLYING_SUIT
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 16
+    time: 700
+    cost: 116000
+    requiredItems:
+      STR_FLYING_SUIT_CORPSE: 1
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_FLYING_SUIT: 1
+    listOrder: 2901
+#END FLYING SUIT
+
+#BEGIN REINFORCED POWER SUIT
+  - name: STR_REINFORCED_POWER_SUIT
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_REINFORCED_POWER_SUIT
+    space: 20
+    time: 1500
+    cost: 250000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 8
+      STR_POWER_SUIT: 1
+    listOrder: 2902
+  - name: STR_REINFORCED_POWER_SUIT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_REINFORCED_POWER_SUIT
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 20
+    time: 750
+    cost: 125000
+    requiredItems:
+      STR_REINFORCED_POWER_SUIT_CORPSE: 1
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_REINFORCED_POWER_SUIT: 1
+    listOrder: 2903
+#END REINFORCED POWER SUIT
+
+#BEGIN REINFORCED FLYING SUIT
+  - name: STR_REINFORCED_FLYING_SUIT
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_REINFORCED_FLYING_SUIT
+    space: 20
+    time: 1500
+    cost: 370000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 8
+      STR_FLYING_SUIT: 1
+    listOrder: 2904
+  - name: STR_REINFORCED_FLYING_SUIT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_REINFORCED_FLYING_SUIT
+      - STR_SOLDIER_ARMOR_REPAIR
+    space: 20
+    time: 750
+    cost: 185000
+    requiredItems:
+      STR_REINFORCED_FLYING_SUIT_CORPSE: 1
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_REINFORCED_FLYING_SUIT: 1
+    listOrder: 2905
+#END REINFORCED FLYING SUIT
+##END ARMOR
+
+##BEGIN CRAFTS
+  - delete: STR_LIGHTNING
+#BEGIN RETALIATOR
+  - name: STR_RETALIATOR
+    category: STR_CRAFT
+    requires:
+      - STR_IMPROVED_INTERCEPTOR
+    space: 30
+    time: 8000
+    cost: 735000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 50
+    listOrder: 3201
+#END RETALIATOR
+
+#BEGIN THUNDER
+  - name: STR_THUNDER
+    category: STR_CRAFT
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    space: 40
+    time: 18000
+    cost: 2500000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 100
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 2
+    listOrder: 3300
+#END THUNDER
+
+#BEGIN FIRESTORM
+  - name: STR_FIRESTORM
+    category: STR_CRAFT
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+    space: 40
+    time: 14000
+    cost: 5000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 120
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 1
+    listOrder: 3400
+#END FIRESTORM
+
+#BEGIN AVENGER
+  - name: STR_AVENGER
+    category: STR_CRAFT
+    requires:
+      - STR_ULTIMATE_CRAFT
+    space: 72
+    time: 34000
+    cost: 10000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 240
+      STR_UFO_POWER_SOURCE: 4
+      STR_UFO_NAVIGATION: 2
+    listOrder: 3500
+#END AVENGER
+##END CRAFTS
+###END MANUFACTURE
+

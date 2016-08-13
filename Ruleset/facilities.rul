@@ -1,0 +1,40 @@
+###BEGIN FACILITIES
+facilities:
+  - type: STR_ALIEN_CONTAINMENT
+    monthlyCost: 40000
+    requires:
+      - STR_ALIEN_CONTAINMENT
+  - type: STR_ACCESS_LIFT
+    monthlyCost: 30000
+  - type: STR_LIVING_QUARTERS
+    monthlyCost: 40000
+  - type: STR_LABORATORY
+    monthlyCost: 75000
+  - type: STR_WORKSHOP
+    monthlyCost: 80000
+  - type: STR_SMALL_RADAR_SYSTEM
+    monthlyCost: 50000
+  - type: STR_LARGE_RADAR_SYSTEM
+    monthlyCost: 80000
+  - type: STR_MISSILE_DEFENSES
+    monthlyCost: 20000
+  - type: STR_GENERAL_STORES
+    monthlyCost: 15000
+  - type: STR_LASER_DEFENSES
+    monthlyCost: 40000
+  - type: STR_PLASMA_DEFENSES
+    monthlyCost: 60000
+  - type: STR_FUSION_BALL_DEFENSES
+    monthlyCost: 80000
+  - type: STR_GRAV_SHIELD
+    monthlyCost: 120000
+  - type: STR_MIND_SHIELD
+    monthlyCost: 130000
+  - type: STR_PSIONIC_LABORATORY
+    monthlyCost: 75000
+  - type: STR_HYPER_WAVE_DECODER
+    monthlyCost: 140000
+  - type: STR_HANGAR
+    monthlyCost: 20000
+###END FACILITIES
+

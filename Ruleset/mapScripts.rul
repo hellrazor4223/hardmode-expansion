@@ -1,0 +1,1102 @@
+####BEGIN MAPSCRIPTS
+mapScripts:
+
+###BEGIN EXPANDED UBASE
+  - type: ALIENBASE
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      size: 2
+      groups: 3
+    - type: addBlock
+      size: 2
+      groups: 5
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addBlock
+      groups: 6
+    - type: addBlock
+      executions: 3
+      groups: 7
+    - type: addBlock
+      groups: 8
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 1]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+###END EXPANDED UBASE
+
+###BEGIN FINAL
+#BEGIN MARS
+  - type: MARS
+    commands:
+    - type: addCraft
+    - type: addBlock
+      groups: 2
+    - type: fillArea
+#END MARS
+
+#BEGIN BOSSBATTLE
+  - type: BOSSBATTLE
+    commands:
+    - type: addBlock #Add Alien Brain West
+      label: 1
+      size: 2
+      groups: 4
+      executionChances: 20
+      rects:
+        - [0, 0, 3, 10]
+    - type: addBlock #Add Alien Brain North
+      label: 2
+      conditionals: -1
+      size: 2
+      groups: 4
+      executionChances: 25
+      rects:
+        - [0, 0, 10, 3]
+    - type: addBlock #Add Alien Brain East
+      label: 3
+      conditionals: [-1, -2]
+      size: 2
+      groups: 4
+      executionChances: 33
+      rects:
+        - [7, 0, 3, 10]
+    - type: addBlock #Add Alien Brain South
+      label: 4
+      conditionals: [-1, -2, -3]
+      size: 2
+      groups: 4
+      executionChances: 50
+      rects:
+        - [0, 7, 10, 3]
+    - type: addBlock #Add Brain Vanilla Spawn
+      conditionals: [-1, -2, -3, -4]
+      size: 2
+      groups: 4
+    - type: addBlock #Add Entrances East
+      conditionals: [1, -2, -3, -4]
+      groups: 2
+      executions: 2
+      rects:
+        - [7, 0, 3, 10]
+    - type: addBlock #Add Entrances South
+      conditionals: [-1, 2, -3, -4]
+      groups: 2
+      executions: 2
+      rects:
+        - [0, 7, 10, 3]
+    - type: addBlock #Add Entrances West
+      conditionals: [-1, -2, 3, -4]
+      groups: 2
+      executions: 2
+      rects:
+        - [0, 0, 3, 10]
+    - type: addBlock #Add Entrances North
+      conditionals: [4]
+      groups: 2
+      executions: 2
+      rects:
+        - [0, 0, 10, 3]
+    - type: addBlock #Add Entrances Vanilla Spawn
+      conditionals: [-1, -2, -3, -4]
+      groups: 2
+      executions: 2
+    - type: addBlock #Add 2x2 Blocks
+      size: 2
+      executions: 12
+    - type: fillArea
+      groups: [0, 1, 7]
+      freqs: [2, 2, 4]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+#END BOSSBATTLE
+###END FINAL
+
+###BEGIN TERROR MISSION SCRIPTS
+#BEGIN URBAN
+  - type: URBAN
+    commands:
+    - type: addLine #Add North - South Road
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine #Add West - East Road
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine #Add Crossroads
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addBlock #Spawn more 3 Level Appartments
+      label: 3
+      executionChances: 25
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9]
+      freqs: [1, 1, 1, 8, 1]
+      maxUses: [1, 1, 1, 4, 1]
+    - type: addBlock #Spawn more Shopping Malls and 3 Level Appartments
+      label: 4
+      executionChances: 33
+      conditionals: -3
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9]
+      freqs: [1, 8, 1, 8, 1]
+      maxUses: [1, 2, 1, 4, 1]
+    - type: addBlock #Spawn more Large Storages and Gas Stations
+      label: 5
+      executionChances: 50
+      conditionals: -4
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9]
+      freqs: [8, 1, 1, 1, 8]
+      maxUses: [4, 1, 1, 1, 2]
+    - type: addBlock #Vanilla random block destribution
+      conditionals: -5
+      size: 2
+      executions: 4
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      blocks: [3, 4, 10, 11, 12, 13, 14]
+      freqs: [1, 1, 1, 1, 1, 1, 1]
+      maxUses: [3, 3, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+#END URBAN
+
+#BEGIN MADURBAN
+  - type: MADURBAN
+    commands:
+    - type: addCraft
+    - type: addLine #Add North - South Road
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine #Add West - East Road
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine #Add Crossroads
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock #Spawn more 3 Level Appartments
+      label: 3
+      executionChances: 25
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      freqs: [1, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 8, 8, 8, 1, 1, 1]
+      maxUses: [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1]
+    - type: addBlock #Spawn more Shopping Malls and 3 Level Appartments
+      label: 4
+      executionChances: 33
+      conditionals: -3
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      freqs: [1, 8, 1, 8, 1, 8, 8, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1]
+      maxUses: [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1]
+    - type: addBlock #Spawn more Large Storages and Gas Stations
+      label: 5
+      executionChances: 50
+      conditionals: -4
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      freqs: [8, 1, 1, 1, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1, 8, 8, 8]
+      maxUses: [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2]
+    - type: addBlock #Vanilla random block destribution
+      conditionals: -5
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+#END MADURBAN
+
+#BEGIN EXPANDED TERROR
+  - type: EXPANDED_TERROR
+    commands:
+    - type: addLine #Add North -South Road
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine #Add West - East Road
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine #Add Crossroads
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addBlock #Spawn massive more 4 Level Appartment Building
+      label: 3
+      executionChances: 50
+      size: 2
+      executions: 4
+      blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+      freqs: [1, 1, 1, 1, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #Spawm some more 4 Level Appartment Building
+      label: 4
+      executionChances: 25
+      conditionals: -3
+      size: 2
+      executions: 4
+      blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+      freqs: [1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [2, 2, 2, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2]
+    - type: addBlock #Vanilla random block destribution
+      conditionals: -4
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 13, 14, 15, 16, 32, 33, 34, 35, 36]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+#END EXPANDED TERROR
+
+#BEGIN EXPANDED URBAN MIX
+  - type: EXPANDED_URBAN_MIX
+    commands:
+    - type: addCraft
+    - type: addLine #Add North - South Road
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine #Add West - East Road
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine #Add Crossroads
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock #Spawn more 3&4 Level Appartments
+      label: 3
+      executionChances: 25
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs: [1, 1, 1, 6, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #Spawn more Shopping Malls and 3&4 Level Appartments
+      label: 4
+      executionChances: 33
+      conditionals: -3
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs: [1, 6, 1, 8, 1, 6, 6, 6, 1, 1, 1, 8, 8, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #Spawn more Large Storages and Gas Stations
+      label: 5
+      executionChances: 50
+      conditionals: -4
+      size: 2
+      executions: 4
+      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs: [8, 1, 1, 1, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #Vanilla random block destribution
+      conditionals: -5
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 40, 41, 52, 53, 54, 55]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] #Limiting numbers increases variety
+#END EXPANDED URBAN MIX
+
+#BEGIN DAMNURBANA
+  - type: DAWNURBANA
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END DAMNURBANA
+
+#BEGIN DAMNURBANB
+  - type: DAWNURBANB
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [11, 12, 13, 14, 15, 16, 17, 18, 19]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END DAMNURBANB
+
+#BEGIN COMMERCIAL URBAN
+  - type: COMRCURBAN
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END COMMERCIAL URBAN
+
+#BEGIN RAILYARDURBAN
+  - type: RAILYARDURBAN
+    commands:
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END RAILYARDURBAN
+
+#BEGIN INDUSTRIALURBAN
+  - type: INDUSTRIALURBAN
+    commands:
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END INDUSTRIALURBAN
+
+#BEGIN NATIVEURBAN
+  - type: NATIVEURBAN
+    commands:
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END NATIVEURBAN
+
+#BEGIN AIRFIELD
+  - type: AIRFIELD
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 0, 4, 5]
+    - type: addBlock
+      blocks: [25, 26]
+      maxUses: [2, 2]
+      executions: 2
+    - type: addBlock
+      size: 2
+      executions: 1
+      blocks: [21, 22, 23, 24]
+      maxUses: [1, 1, 1, 1,]
+    - type: fillArea
+      blocks: [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 27, 28, 29, 30, 31, 32, 33, 34]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+#END AIRFIELD
+
+#BEGIN AREA 51 RESEARCH
+  - type: AREA51URBAN 
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 0, 4, 5]
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+#END AREA 51 RESEARCH
+
+#BEGIN AIRFIELD1
+  - type: AIRFIELD1
+    commands:
+    - type: addBlock # Hangar N
+      rects:
+        - [4, 0, 2, 2]
+      blocks: [5, 16]
+    - type: addBlock # Runway Center
+      rects:
+        - [4, 2, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [2, 2, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway East
+      rects:
+        - [4, 4, 2, 2]
+      blocks: [01, 02]
+    - type: addCraft
+    - type: addBlock
+      executions: 4
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD1
+
+#BEGIN ARIFIELD2
+  - type: AIRFIELD2
+    commands:
+    - type: addBlock # Hangar N
+      rects:
+        - [4, 0, 2, 2]
+      blocks: [5, 16]
+    - type: addBlock # Runway Center
+      rects:
+        - [4, 2, 2, 2]
+      blocks: 11
+    - type: addBlock # Runway Center
+      rects:
+        - [4, 4, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [2, 2, 2, 2]
+      blocks: 12
+    - type: addBlock # Hangar W
+      rects:
+        - [2, 4, 2, 2]
+      blocks: 12
+    - type: addCraft
+    - type: addBlock
+      executions: 3
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD2
+
+#BEGIN AIRFIELD3
+  - type: AIRFIELD3
+    commands:
+    - type: addBlock # Hangar N
+      rects:
+        - [2, 0, 2, 2]
+      blocks: [5, 16]
+    - type: addBlock # Runway Center
+      rects:
+        - [2, 2, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [0, 2, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway East
+      rects:
+        - [2, 4, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Runway South
+      rects:
+        - [4, 2, 2, 2]
+      blocks: 17
+    - type: addCraft
+    - type: addBlock
+      executions: 3
+      blocks: [07, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD3
+
+#BEGIN AIRFIELD4
+  - type: AIRFIELD4
+    commands:
+    - type: addBlock # Hangar N
+      rects:
+        - [2, 2, 2, 2]
+      blocks: [5, 16]
+    - type: addBlock # Runway Center
+      rects:
+        - [2, 4, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [0, 4, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway South
+      rects:
+        - [4, 4, 2, 2]
+      blocks: 17
+    - type: addCraft
+    - type: addBlock
+      executions: 4
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD4
+
+#BEGIN AIRFIELD5
+  - type: AIRFIELD5
+    commands:
+    - type: addBlock # Hangar N
+      rects:
+        - [0, 2, 2, 2]
+      blocks: 16
+    - type: addBlock # Hangar N
+      rects:
+        - [2, 2, 2, 2]
+      blocks: 5
+    - type: addBlock # Runway Center
+      rects:
+        - [0, 4, 2, 2]
+      blocks: 11
+    - type: addBlock # Runway Center
+      rects:
+        - [2, 4, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [0, 4, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway South
+      rects:
+        - [4, 4, 2, 2]
+      blocks: 17
+    - type: addCraft
+    - type: addBlock
+      executions: 4
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD5
+
+#BEGIN AIRFIELD6
+  - type: AIRFIELD6
+    commands:
+    - type: addBlock # Runway Center
+      rects:
+        - [2, 0, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [0, 0, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway East
+      rects:
+        - [2, 4, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Runway East
+      rects:
+        - [2, 2, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Runway South
+      rects:
+        - [4, 0, 2, 2]
+      blocks: 17
+    - type: addCraft
+    - type: addBlock
+      executions: 3
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD6
+
+#BEGIN AIRFIELD7
+  - type: AIRFIELD7
+    commands:
+    - type: addBlock # Runway Center
+      rects:
+        - [2, 4, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar W
+      rects:
+        - [0, 4, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway/Hangar East
+      rects:
+        - [2, 0, 2, 2]
+      blocks: [1, 2, 5, 16]
+    - type: addBlock # Runway East
+      rects:
+        - [2, 2, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Runway South
+      rects:
+        - [4, 4, 2, 2]
+      blocks: 17
+    - type: addCraft
+    - type: addBlock
+      executions: 3
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+#END AIRFIELD7
+
+#BEGIN AIRFIELD8
+  - type: AIRFIELD8
+    commands:
+    - type: addBlock # Hangar East
+      rects:
+        - [2, 0, 2, 2]
+      blocks: [5, 16]
+    - type: addBlock # Runway East
+      rects:
+        - [2, 2, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Runway East
+      rects:
+        - [2, 4, 2, 2]
+      blocks: [1, 2]
+    - type: addCraft
+    - type: addBlock
+      executions: 4
+      blocks: [7, 10, 14, 15]
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
+#END AIRFIELD8
+
+#BEGIN PORTUFO
+  - type: PORTTFTD
+    commands:
+    - type: addCraft
+      rects:
+        - [0, 0, 4, 6]
+    - type: addBlock
+      rects:
+        - [5, 0, 1, 6]
+      executions: 6
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock
+      groups: 5
+      size: 2
+      rects:
+        - [0, 0, 4, 2]
+    - type: addBlock
+      size: 2
+      executions: 4
+      rects:
+        - [0, 2, 3, 2]
+    - type: fillArea
+#END PORTUFO
+
+#BEGIN PORTURBAN
+  - type: PORTURBAN
+    commands:
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [0, 0, 5, 6]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [0, 0, 5, 6]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [0, 0, 5, 6]
+    - type: removeBlock
+      rects:
+        - [5, 0, 1, 6]
+    - type: addBlock
+      rects:
+        - [5, 0, 1, 6]
+      executions: 6
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addCraft
+    - type: addBlock
+      groups: 5
+      size: 2
+      rects:
+        - [0, 0, 5, 3]
+    - type: addBlock
+      size: 2
+      executions: 4
+      rects:
+        - [0, 3, 4, 3]
+    - type: fillArea
+#END PORTURBAN
+
+#BEGIN PORTINDUSTRIALURBAN
+  - type: PORTINDUSTRIALURBAN
+    commands:
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+      blocks: [10, 11, 12, 13, 14, 24, 25, 26]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+#END PORTINDUSTRIALURBAN
+
+#BEGIN ISLANDURBAN
+  - type: ISLANDURBAN
+    commands:
+    - type: addBlock #2x2 Waterfront blocks
+      size: 2
+      executions: 2
+      rects:
+        - [0,4,6,2]
+      blocks: [4, 5]
+    - type: addBlock #1x1 Waterfront blocks
+      groups: 2
+      executions: 2
+      rects:
+        - [0,5,6,1]
+    - type: addCraft
+    - type: addBlock #2x2 buildings
+      size: 2
+      executions: 3
+      blocks: [2, 3, 6]
+      freqs: [3, 3, 1]
+      maxUses: [3, 3, 3]
+    - type: fillArea
+      blocks: [0, 1, 8, 9, 10, 11, 12, 13, 14]
+#END ISLAND URBAN
+###END TERROR MISSION SCRIPTS
+
+###BEGIN SPECIAL MISSION SCRIPTS
+##BEGIN DOCKEDSHIP
+#BEGIN PORTCARGOSHIP
+  - type: PORTCARGOSHIP
+    commands:
+    - type: addUFO #Pull in Ship as UFO
+      UFOName: STR_CARGOSHIPPORT
+      rects:
+        - [3, 0, 3, 7]
+    - type: addCraft
+      rects:
+        - [0, 0, 2, 7]
+    - type: addBlock #Pier to ship entry point
+      rects:
+        - [2, 0, 1, 1]
+      blocks: 35
+    - type: addBlock #Pier to Ship entry point
+      rects:
+        - [2, 2, 1, 1]
+      blocks: [33, 34, 36]
+    - type: addBlock #Rest of the Pier
+      rects:
+        - [2, 0, 1, 7]
+      executions: 5
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #2x2 sized Mapblocks
+      size: 2
+      executions: 3
+      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+#END PORTCARGOSHIP
+
+#BEGIN PORTLINERSHIP
+  - type: PORTLINERSHIP
+    commands:
+    - type: addUFO #Pull in Ship as UFO
+      UFOName: STR_LINERSHIPPORT
+      rects:
+        - [3, 0, 3, 7]
+    - type: addCraft
+      rects:
+        - [0, 0, 2, 7]
+    - type: addBlock #Pier to ship entry point
+      rects:
+        - [2, 0, 1, 1]
+      blocks: 35
+    - type: addBlock #Pier to Ship entry point
+      rects:
+        - [2, 2, 1, 1]
+      blocks: [33, 34, 36]
+    - type: addBlock #Rest of the Pier
+      rects:
+        - [2, 0, 1, 7]
+      executions: 5
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #2x2 sized Mapblocks
+      size: 2
+      executions: 3
+      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+#END PORTLINERSHIP
+##END DOCKSHIP
+
+##BEGIN SHIPATTACK
+#BEGIN CARGOSHIP
+  - type: CARGOSHIP
+    commands:
+    - type: addCraft #Size 10x20
+      label: 1
+      rects:
+        - [1, 0, 1, 2]
+    - type: addCraft #Size 20x10
+      conditionals: [-1]
+      rects:
+        - [0, 1, 2, 1]
+    - type: addBlock #Spawn Ship
+      size: [3, 7]
+#END CARGOSHIP
+
+#BEGIN LINERSHIP
+  - type: LINERSHIP
+    commands: #No Craft spawning here, we have a entry area instead
+    - type: addBlock
+      size: [3,2]
+      rects:
+        - [0,5,3,2]
+    - type: addBlock
+      size: [3,5]
+      rects:
+        - [0,0,3,5]
+#END LINERSHIP
+##END SHIPATTACK
+###END SPECIAL MISSION SCRIPTS
+
+###BEGIN GLOBE SCRIPTS
+##BEGIN URBANUFO
+#BEGIN INDUSTRIALUFO
+  - type: INDUSTRIALUFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+      blocks: [0, 1, 2]
+      freqs: [2, 2, 2]
+      maxUses: [2, 2, 2]
+    - type: fillArea
+      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END INDUSTRIALUFO
+
+#BEGIN MADURBANUFO
+  - type: MADURBANUFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 0, 4, 6]
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38]
+      freqs: [2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+#END MADURBANUFO
+
+#BEGIN NATIVEUFO
+  - type: NATIVEUFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END NATIVEUFO
+##END URBANUFO
+
+#BEGIN CRASHED PLANE
+  - type: CRASHEDPLANE
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      blocks: [13, 14]
+      rects:
+        - [2, 0, 2, 2]
+    - type: addBlock
+      blocks: [17, 18]
+      rects:
+        - [3, 0, 1, 1]
+    - type: addBlock
+      blocks: [15, 16]
+      rects:
+        - [2, 3, 2, 2]
+    - type: addBlock
+      blocks: [19, 20]
+      rects:
+        - [3, 3, 1, 1]
+    - type: addBlock
+      blocks: 12
+      rects:
+        - [0, 0, 1, 5]
+    - type: addBlock
+      blocks: [8, 9, 10, 11]
+      rects:
+        - [1, 0, 1, 5]
+    - type: addBlock
+      blocks: [8, 9, 10, 11]
+      rects:
+        - [2, 0, 1, 5]
+    - type: addBlock
+      blocks: [6, 7]
+      rects:
+        - [3, 0, 1, 5]
+    - type: addBlock
+      blocks: [4, 5]
+      rects:
+        - [4, 0, 1, 5]
+    - type: fillArea
+      blocks: [1, 2, 3]
+#END CRASHED PLANE
+####END MAPSCRIPTS

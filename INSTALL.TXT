@@ -1,0 +1,9 @@
+#Hardmode Expansion Mod by hellrazor
+
+Intall instructions:
+ - Go to your Mod folder and delete the old "Hardmode_Expansion" directory.
+ - Extract Zip file
+ - Copy over the directory "Hardmode_Expansion" in your user mods directory.
+ - Active "Hardmode_Expansion" under Mods
+
+This mod requieres at least: openxcom_git_master_2016_07_22_0229 or newer

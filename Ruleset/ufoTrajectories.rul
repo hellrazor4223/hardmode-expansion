@@ -1,0 +1,7 @@
+#BEGIN UFO TRAJECTORIES
+ufoTrajectories:
+  - id: P10 #Basically a dummy for Missionsites
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+#END UFO TRAJECTORIES

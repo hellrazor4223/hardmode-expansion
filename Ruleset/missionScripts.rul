@@ -1,0 +1,644 @@
+#  - type: example                       # the type/name is used for overwriting or deleting purposes.
+#    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+#    lastMonth: 0                        # don't run after this month. in this context we mean "run once". -1 denotes no limit (default -1)
+#    label: 1                            # label, used for conditionals (default 0)
+#    conditionals: [1, -2]               # conditional list, just like mapscripts (default none)
+#    missionWeights:                     # the type of mission to spawn (omit to pick one from the mission table) (default none)
+#      0:                                # these are split into monthly chunks, and can contain multiple entries,
+#        STR_ALIEN_RESEARCH: 20          # including weighted odds, but there is a caveat here:
+#        STR_ALIEN_ABDUCTION: 30         # you cannot mix and match missions with mission site objectives (ie: terror) with regular missions,
+#        STR_ALIEN_CROP_CIRCLES: 30      # they are generated too differently. using executionOdds and conditionals instead can achieve
+#        STR_CATTLE_MUTILATION: 20       # exactly the same thing. similarly, terror missions should not appear in regional mission weights (regions.rul)
+#    executionOdds: 100                  # % chances of this command executing (default 100)
+#    targetBaseOdds: 75                  # % chances of this mission targeting a region containing an xcom base instead of random (default 0)
+#    startDelay: 120                     # number of minutes to delay the start of the mission (rounded down to the nearest 30, 0 to use the wave timer from the mission itself) (default 0)
+#    raceWeights:                        # can override established monthly race weights here if desired (default empty)
+#      0:
+#        STR_SECTOID: 100                # in this case we want a sectoid mission, so they get 100%
+#    regionWeights:                      # again, this can override the defined mission region weights (default empty)
+#      0:                                # this won't come into play here unless the mission doesn't target an xcom base, as described above.
+#        STR_SAMPLE_REGION1: 20          # IF OMITTED:
+#        STR_SAMPLE_REGION2: 30          # for a terror type mission, all regions that meet the criteria will be weighed equally.
+#        STR_SAMPLE_REGION3: 50          # for regular missions the normal regional distribution weights will be applied.
+#    minDifficulty: 0                    # this command only applies to difficulty levels of this or above (default 0)
+#    researchTriggers:                   # a list of research topics that can influence the execution of this mission (default empty)
+#      STR_THE_MARTIAN_SOLUTION: true    # in this case, the mission would only run if the player has the martian solution
+#      STR_CYDONIA_OR_BUST: false        # and does NOT have Cydonia or bust
+#    maxRuns: 12                         # this mission type can only execute this number of times, -1 for infinite (default -1)
+#    avoidRepeats: 12                    # this means "store an array of the 12 previous coordinates, and don't use them again" (default 0)
+#    varName: researching                # this is an internal variable name, used for tracking maxruns and avoidRepeats (default none)
+#    useTable: false                     # check this mission type appears in the mission tables, and remove it if it does? (default true)
+
+missionScripts:
+  - delete: gameStart
+
+##BEGIN GAME ESSENTIAL
+#BEGIN FLOATER START BASE
+  - type: gameStartAlienBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    lastMonth: 0
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_FLOATER: 100
+    startDelay: 120
+#END FLOATER START BASE
+
+#BEGIN MUTON GREATING
+  - type: mutonGreeting
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 5
+    lastMonth: 5
+    1argetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_MUTON: 100
+    startDelay: 120
+#END MUTON GREATING
+
+#BEGIN MONTHLY ETHEREAL BASE
+  - type: gameEndEtherealBase
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    startDelay: 120
+    researchTriggers:
+      STR_ETHEREAL_COMMANDER: false
+#END MONTHLY ETHEREAL BASE
+##END GAME ESSENTIAL
+
+##BEGIN SPECIAL MISSIONS
+#BEGIN DOCKED SHIP
+  - type: alienDockedShip
+    label: 50
+    missionWeights:
+      0:
+        STR_DOCKED_SHIP: 100
+    regionWeights:
+      0:
+        PORT_DOCKS: 100
+    startDelay: 1500
+    researchTriggers:
+      STR_ALIEN_DATA_SLATE: true
+      STR_ETHEREAL_COMMANDER: false
+    executionOdds: 30
+    avoidRepeats: 40
+    useTable: false
+    varName: alienDockedShip
+#END DOCKED SHIP
+
+#BEGIN SHIP ATTACK
+  - type: alienShipAttack
+    conditionals: [-50]
+    firstMonth: 0
+    lastMonth: 5
+    missionWeights:
+      0:
+        STR_SHIP_ATTACK: 100
+    regionWeights:
+      0:
+        SHIPPING_LANES: 100
+    startDelay: 1500
+    researchTriggers:
+      STR_ALIEN_DATA_SLATE: true
+      STR_ETHEREAL_COMMANDER: false
+    executionOdds: 30
+    avoidRepeats: 24
+    useTable: false
+    varName: alienShipAttack
+#END SHIP ATTACK
+##END SPECIAL MISSIONS
+
+##BEGIN CONSEQUENCES
+#BEGIN NAVIGATOR CONSEQUENCE
+  - type: navigatorConsequenceAlienResearch
+    label: 11
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_ALIEN_RESEARCH: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienResearch
+  - type: navigatorConsequenceAlienResearchTerror
+    label: 12
+    conditionals: [-11]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_RESEARCH: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienResearch
+  - type: navigatorConsequenceAlienHarvest
+    label: 13
+    conditionals: [-11, -12]
+    missionWeights:
+      0:
+        STR_ALIEN_HARVEST: 100
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_ALIEN_HARVEST: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienHarvest
+  - type: navigatorConsequenceAlienHarvestTerror
+    label: 14
+    conditionals: [-11, -12, -13]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_HARVEST: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienHarvest
+  - type: navigatorConsequenceAlienAbduction
+    label: 15
+    conditionals: [-11, -12, -13, -14]
+    missionWeights:
+      0:
+        STR_ALIEN_ABDUCTION: 100
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_ALIEN_ABDUCTION: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienAbduction
+  - type: navigatorConsequenceAlienAbductionTerror
+    label: 16
+    conditionals: [-11, -12, -13, -14, -15]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_ABDUCTION: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienAbduction
+  - type: navigatorConsequenceAlienBase
+    label: 17
+    conditionals: [-11, -12, -13, -14, -15, -16]
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_ALIEN_BASE: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienBase
+  - type: navigatorConsequenceAlienBaseTerror
+    label: 18
+    conditionals: [-11, -12, -13, -14, -15, -16, -17]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_BASE: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienBase
+  - type: navigatorConsequenceAlienSupply
+    label: 19
+    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_SUPPLY: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienSupply
+  - type: navigatorConsequenceAlienTerror
+    label: 20
+    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_TERROR: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienTerror
+  - type: navigatorConsequenceAlienInfiltration
+    label: 21
+    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20]
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_ALIEN_INFILTRATION: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienInfiltration
+  - type: navigatorConsequenceAlienInfiltrationTerror
+    label: 22
+    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_ALIEN_BASE: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienInfiltration
+  - type: navigatorConsequenceAlienRetaliation
+    label: 23
+    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22]
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    startDelay: 6000
+    researchTriggers:
+      STR_ALIEN_RETALIATION: true
+    maxRuns: 1
+    varName: navigatorConsequenceAlienRetaliation
+#END NAVIGATOR CONSEQUENCE
+
+#BEGIN ENGINEER CONSEQUENCE
+  - type: engineerConsequenceSmallScout
+    label: 31
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_SMALL_SCOUT: true
+    maxRuns: 1
+    varName: engineerConsequenceSmallScout
+  - type: engineerConsequenceSmallScoutTerror
+    label: 32
+    conditionals: [-31]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_SMALL_SCOUT: true
+    maxRuns: 1
+    varName: engineerConsequenceSmallScout
+  - type: engineerConsequenceMediumScout
+    label: 33
+    conditionals: [-31, -32]
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 50
+        STR_ALIEN_RETALIATION: 50
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_MEDIUM_SCOUT: true
+    maxRuns: 1
+    varName: engineerConsequenceMediumScout
+  - type: engineerConsequenceMediumScoutTerror
+    label: 34
+    conditionals: [-31, -32, -33]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_MEDIUM_SCOUT: true
+    maxRuns: 1
+    varName: engineerConsequenceMediumScout
+  - type: engineerConsequenceLargeScout
+    label: 35
+    conditionals: [-31, -32, -33, -34]
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_BASE: 33
+        STR_ALIEN_RETALIATION: 33
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_LARGE_SCOUT: true
+    maxRuns: 1
+    varName: engineerConsequenceLargeScout
+  - type: engineerConsequenceLargeScoutTerror
+    label: 36
+    conditionals: [-31, -32, -33, -34, -35]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_LARGE_SCOUT: true
+    maxRuns: 1
+    varName: engineerConsequenceLargeScout
+  - type: engineerConsequenceFighterShip
+    label: 37
+    conditionals: [-31, -32, -33, -34, -35, -36]
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 50
+        STR_ALIEN_RETALIATION: 50
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_FIGHTER_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceFighterShip
+  - type: engineerConsequenceFighterShipTerror
+    label: 38
+    conditionals: [-31, -32, -33, -34, -35, -36, -37]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_FIGHTER_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceFighterShip
+  - type: engineerConsequenceSentryShip
+    label: 39
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38]
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 33
+        STR_ALIEN_RETALIATION: 33
+        STR_ALIEN_INFILTRATION: 33
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_SENTRY_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceSentryShip
+  - type: engineerConsequenceSentryShipTerror
+    label: 40
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_SENTRY_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceSentryShip
+  - type: engineerConsequenceExcavator
+    label: 41
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40]
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 50
+        STR_ALIEN_RESEARCH: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_EXCAVATOR: true
+    maxRuns: 1
+    varName: engineerConsequenceExcavator
+  - type: engineerConsequenceAbductor
+    label: 42
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41]
+    missionWeights:
+      0:
+        STR_ALIEN_ABDUCTION: 33
+        STR_ALIEN_HARVEST: 33
+        STR_ALIEN_RESEARCH: 33
+    startDelay: 6000
+    researchTriggers:
+      STR_ABDUCTOR: true
+    maxRuns: 1
+    varName: engineerConsequenceAbductor
+  - type: engineerConsequenceHarvester
+    label: 43
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42]
+    missionWeights:
+      0:
+        STR_ALIEN_ABDUCTION: 33
+        STR_ALIEN_HARVEST: 33
+        STR_ALIEN_RESEARCH: 33
+    startDelay: 6000
+    researchTriggers:
+      STR_HARVESTER: true
+    maxRuns: 1
+    varName: engineerConsequenceHarvester
+  - type: engineerConsequenceLabShip
+    label: 44
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43]
+    missionWeights:
+      0:
+        STR_ALIEN_ABDUCTION: 33
+        STR_ALIEN_HARVEST: 33
+        STR_ALIEN_RESEARCH: 33
+    startDelay: 6000
+    researchTriggers:
+      STR_LAB_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceLabShip
+  - type: engineerConsequenceSupplyShip
+    label: 45
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44]
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 50
+        STR_ALIEN_BASE: 50
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_SUPPLY_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceSupplyShip
+  - type: engineerConsequenceSupplyShipTerror
+    label: 46
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_SUPPLY_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceSupplyShip
+  - type: engineerConsequenceTerrorShip
+    label: 47
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_TERROR_SHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceTerrorShip
+  - type: engineerConsequenceBattleShip
+    label: 48
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47]
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 50
+        STR_ALIEN_BASE: 50
+    executionOdds: 50
+    startDelay: 6000
+    researchTriggers:
+      STR_BATTLESHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceBattleShip
+  - type: engineerConsequenceBattleShipTerror
+    label: 49
+    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48]
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    startDelay: 9000
+    researchTriggers:
+      STR_BATTLESHIP: true
+    maxRuns: 1
+    varName: engineerConsequenceBattleShip
+#END ENGINEER CONSEQUENCE
+##END CONSEQUENCES
+
+#BEGIN GET THE FUCK TO CYDONIA
+  - type: etherealInfiltrationNorthAmerica
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationSouthAmerica
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationEurope
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationNorthAfrica
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_SOUTHERN_AFRICA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationSouthAfrica
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_NORTH_AFRICA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationCentralAsia
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationSouthEastAsia
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_SOUTH_EAST_ASIA: 100
+    startDelay: 120
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationSibiria
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+  - type: etherealInfiltrationAustralAsia
+    firstMonth: 13
+    lastMonth: -1
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    raceWeights:
+      0:
+        STR_ETHEREAL: 100
+    regionWeights:
+      0:
+        STR_AUSTRALASIA: 100
+    researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_CYDONIA_OR_BUST: true
+#END GET THE FUCK TO CYDONIA

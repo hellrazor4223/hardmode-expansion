@@ -1,0 +1,113 @@
+###BEGIN CRAFTWEAPONS
+craftWeapons:
+
+#BEGIN DELETE
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_FUSION_BALL_UC
+#END DELETE
+
+#BEGIN ALLOY CANNON
+  - type: STR_ALLOY_CANNON_UC
+    sprite: 2
+    sound: 4
+    damage: 20
+    range: 30
+    accuracy: 33
+    reloadCautious: 3
+    reloadStandard: 3
+    reloadAggressive: 3
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_ALLOY_CANNON
+    clip: STR_ALLOY_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 12
+#END ALLOY CANON
+
+#BEGIN STINGRAY
+  - type: STR_STINGRAY
+    sprite: 0
+    sound: 5
+    damage: 70
+    range: 21
+    accuracy: 70
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 6
+    launcher: STR_STINGRAY_LAUNCHER
+    clip: STR_STINGRAY_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+#END STINGRAY
+
+#BEGIN AVALANCHE
+  - type: STR_AVALANCHE
+    sprite: 1
+    sound: 5
+    damage: 100
+    range: 42
+    accuracy: 80
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 3
+    launcher: STR_AVALANCHE_LAUNCHER
+    clip: STR_AVALANCHE_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+#END AVALANCHE
+
+#BEGIN LASER CANNON
+  - type: STR_LASER_CANNON_UC
+    sprite: 4
+    sound: 8
+    damage: 70
+    range: 34
+    accuracy: 50
+    reloadCautious: 24
+    reloadStandard: 24
+    reloadAggressive: 24
+    ammoMax: 50
+    rearmRate: 25
+    launcher: STR_LASER_CANNON
+    projectileType: 4
+#END LASER CANNON
+
+#BEGIN PLASMA BEAM
+  - type: STR_PLASMA_BEAM_UC
+    sprite: 5
+    sound: 9
+    damage: 140
+    range: 42
+    accuracy: 60
+    reloadCautious: 24
+    reloadStandard: 24
+    reloadAggressive: 24
+    ammoMax: 50
+    rearmRate: 25
+    launcher: STR_PLASMA_BEAM
+    projectileType: 5
+#END PLASMA BEAM
+
+#BEGIN FUSIONBALL
+  - type: STR_FUSION_BALL_UC
+    sprite: 3
+    sound: 7
+    damage: 230
+    range: 65
+    accuracy: 100
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 3
+    launcher: STR_FUSION_BALL_LAUNCHER
+    clip: STR_FUSION_BALL
+    projectileType: 3
+    projectileSpeed: 8
+#END FUSIONBALL
+###END CRAFTWEAPONS
+

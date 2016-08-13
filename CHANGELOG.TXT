@@ -1,0 +1,447 @@
+Changelog:
+
+Version 0.99.3
+ - Simplyfied some Missionscripts
+ - Fix Position Error for HeavyLaserSniper Handob
+ - Fix Position and Proportions for HeavyLaserAuto Handob
+ - Fix Map Error for UFO_160e.MAP
+ - Adjusted Vanilla Tanks back to original values
+ - Added turned Version for: UBASE_00
+ - Added turned Version for: UBASE_02
+ - Added turned Version for: UBASE_03
+ - Added turned Version for: UBASE_04
+ - Added turned Version for: UBASE_05
+ - Added turned Version for: UBASE_06
+ - Added turned Version for: UBASE_08
+ - Added turned Version for: UBASE_11
+ - Added turned Version for: UBASE_15
+ - Added turned Version for: EXPANDEDUBASE16
+// - Optimized Mapscript for Alien Bases
+// - Optimized Mapscripot for Cydonia Final Assault
+
+Version 0.99.2b
+ - Fix Alien Base Spawnings
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2016_07_22_0229
+
+Version 0.99.2
+ - Fix Alive Chryssalid Spitter Recovery
+ - Added more manufacture dependencies for Tanks
+ - Increased Scoring for Alien Pact Signing to 750
+ - Doubled Alien scores generated for Alie Bases (5 -> 10)
+ - Restructered Resource files
+ - Restructered UFOpaedia
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2016_06_25_2118
+
+Version 0.99.1
+ - Fix Missing SEABITS.MCD file (not needed anymore but was still listed in terrain ruleset)
+ - Fix walking TU issue for TUNDRAPOLAR.MCD
+ - Fix Some wrongly asigned Sounds
+ - Fix DropOff values for some Weapons for UFO Extender Accuracy
+ - Fix regionWeight for North Atlantic (was 45!! noew 5)
+ - Fix some Typos in UFOpaedia (thx SIMON)
+ - Added 2 more Battleship Variants from Cooper
+ - Added Expanded Urban Mix (mashup off MADURBAN and EXPANDED_TERROR)
+ - Change some Terrorunit asignments (Mutons, Sectoid Elites, Muton Elites)
+ - Spread the Chryssalid Spitter plague
+ - Spread Muton Berserkers
+ - Increase Alien Scoring (Research, Infiltration, Retaliation and Supply will give Alien Score now)
+ - Doubled Scoring for UFO action for Terrormissions
+ - Increase Armored Sectopod HE Resistence
+ - Blaster Launcher Waypoints reduced to 9 (DOS Version behaviour)
+ - Optimized Mapscript MADURBAN
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2016_05_27_1727
+
+Version 0.99
+ - Updated Terrainpack MAPS, ROUTES, TERRAINS
+ - Updated Terrainpack Ruleset Integration
+ - Updated Globe Cities (330 now)
+ - Restructered Globe textures and deployments for Terrormissions
+ - Fix some minor Ufopaedia Typos
+ - Fix LOFT issues and Armor values for UBASE2.MCD
+ - Fix Routes, PORTUFO05, PORTUFO17, PORTUFO20, PORTUFO21
+ - Fix Routes CULTAFARM02
+ - Fix Routes LINERSHIP01
+ - Fix Routes JUNGLEMOUNT05
+ - Fix Routes RAILYARDURBAN19, RAILYARDURBAN21, RAILYARDURBAN24 (thx Solarius)
+ - Fixed several MCD settings in Terrain pack MCD's (that took way to long!)
+ - Fix Power/Flying Suit Fire Immunity
+ - Fix Terrain Pack Landing Zone Maps
+ - Fix Cow issue for UFO_210a
+ - Fix Route issue EXPANDEDTERROR21.RMP
+ - Fix some wrong Maptiles on some Terrorship Maps
+ - Added Converted TFTD WaterAnimation MCD file
+ - Added Battleship Variants by Cooper (modified) and a design of my own
+ - Added Hovertank/Launcher Ammo consumes Blaster Bombs but has same Power
+ - Added Ship Attack and Docked Ship Mission (triggered by Alien Data Slate)
+ - Added Airfield Terrain
+ - Added Plane Terrain
+ - Added Polar Terrain
+ - Added Chryssalid Spitter on Earth (Muton Elite Guard Terrorunit)
+ - Added Muton Berserker (Muton Terrorunit)
+ - Removed ability to produce Blaster Launchers and Blaster Bombs (use captured ones!)
+ - Readjusted Grenade Launcher SnapShot TU
+ - Readjust Heavy Laser/Sniper Damage and Heavy Laser/Auto TU
+ - Reduce Weightreduction, increase Stamina for Power/Flying Suits and Reinforced ones
+ - Increased Armor on Grenades slightly
+ - Increased Armor for Terrorunit corpses (was 0, now 26)
+ - Reduced Scores for killing Aliens by 50%
+ - Reduced Recoverypoints for Alien Corpses by 50%
+ - Reduced penalty for dead Civilians from 50 to 40
+ - Reworked chronological Racemixes
+ - Reworked Alien Races (more Ranks, same Numbers)
+ - Optimized Mapscripts for Docked Ship Mission, Urban, Expanded Terror, Expanded Urban and several more.
+
+Version 0.98
+ - Fix some typos and clarified Alien Data Slate ufopaedia text
+ - Added Recolored Blaster Launcher Bulletsprite, grey Blasterbombs!
+ - Added Fire Bomb and Smoke for Small Launcher
+ - Added Custom Bullet Sprites for Alloy Ammo Clips
+ - Added Custom Bullet Sprites for Elerium, Fire and Smoke Bomb
+ - darkened Medium Scout, Large Scouts, Fighters, Sentry Ships,
+   Harvesters, Abductors, Terror Ships, Battleship, Supply Ships and
+   Labship (all 117 Maps!!!)
+ - reduced recoverable Alien Alloys by ~36% for all UFO's
+ - reduced recoverable Elerium 115 per Power Source (35->25, 50% vanilla)
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2015_11_30_1238
+
+Version 0.97
+ - Research changes:
+   - Reinforced Power Suit now needs New Fighter Craft instead of Alien Data Core as dependency
+ - Fix Minor Graphic Errors in Reinforced Power Suit Inventory Pics
+ - Fix For missionSiteZone: -1 Bug, you need to edit your savegames, see Forum
+ - Added Hitsound for Combat Knife, Alloy Knife, Alloy Sword
+ - Added partial language Support for German
+ - Modified THUNDER Map and Routes slightly
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2015_11_15_0853
+
+Version 0.96
+ - Research changes:
+   - Alloy Knife needs only Alloy Ammo
+   - Alloy Sword needs Alloy Knife and Alien Data Slate
+ - Readjust all Meleeweapons, lowered Power and Accuracy slightly, changed TU usage
+ - Added Version String
+ - Added language support for Russian, Spanish, French and Polish
+   You will find a mix of English and the respective language until someone translates the missing stuff
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2015_10_31_1725
+
+Version 0.95
+ - Fix Reinforced Power Suit Unlock
+ - Fix Reinforced Flying Suit Unlock
+ - Fix Walkertank HWP's Unlock
+ - Fix Several Ufopaedia Strings (typos)
+ - Added New Melee HitAnimation for Combat Knife, Alloy Knife and Alloy Sword (thx pWWWa)
+ - Imported some TERRAIN patches from Hobbes Redux (no maps yet)
+ - Alloy Tanks take 10% less Plasma Damage
+ - Hovertanks take 15% less Plasma Damage
+ - Armored Sectopod is immune towards Icendiary Ammo
+
+Version 0.94
+ - Fix HandOb issues fpr PlasmaBlade and PlasmaSword (thx pwwwa)
+ - Fix some Groundtile issues on some UFO Maps
+ - Fix wrong Gazer drawingRoutine
+ - Fix wrong Muton Elite Guard Corpse BigOb
+ - Fix WORLD NEWS UPDATE not popping up after researching a Alien Corpse
+ - Fix 1 wrong placed Groundtile on LabShip Map (oversight...)
+ - Fix some typos in some UFOpaedia Articles (thx SIMON)
+ - Fix MCDPatch for TU usage for THUNDER.PCK
+ - Fix Plasma Beam Range (52 -> 42)
+ - Fix Alien Infiltration Waves
+ - Added some more NEWS Strings (thx nadir)
+ - Added Reinforced Power and Flying Suits (Moriaty Sprites)
+ - Added Chryssalid Spitter Terrorunit (ranged zombification attack)
+ - Added Sectoid Elite Race
+ - Added HandOb's for Shotgun Clips, TaserPistol Clip, Elerium Rocket
+ - Added FloorOb's for Pistol, Rifle, Heavy Canon, Auto Cannon, SniperRifle Alien Alloy Clips
+ - Added HandOb's for Pistol, Rifle, Heavy Canon, Auto Cannon, SniperRifle Alien Alloy Clips
+ - Added New BigOb's FloorOb's, HandOb's for PlasmaShotgun Clips and Elerium Clips
+ - Added Walkertank/Plasma (hacked Armored Sectopod)
+ - Added Plasma Melee Weapons from pwwwa
+ - Added New Plasma Hitanimation for Heavy Plasma, Elerium Clips and Armored Sectopod Weapon
+ - Added InventoryPicture and UfoPaedia Pictures for Muton Elite Guards
+ - Added New BigOb for Vanilla Flying Suits
+ - Added new Spriteset for Vanilla Flying Suits
+ - Reworked the Racemixes
+ - Readjusted TU usage for Heavy Laser / Sniper and Heavy Laser / Auto
+ - Readjusted Armor for Waspites, Gazers, Muton Elites and Muton Elite Guards
+ - Adjusted all Alien melee stats to more sane values
+ - Doubled Money and Elerium-115 cost for Plasma Canons
+ - Doubled Money and Elerium-115 cost for Fusion Balls
+ - Doubled Money Costs for HWP Fusion Bombs (E-115 cost is 6)
+ - Hovertank Launcher increased Damage (140 -> 200)
+ - Changed ColorScheme of the Armored Sectopod (lighter Blue)
+ - Armored Sectopod, does now Plasma Damage (115) and has Autoshotburst: 5
+ - Reduced sellCost for all Items from Aliens and Alive Aliens by 50%
+ - Increased Base Maintence Cost to 10% of initial Construction price
+ - Increased Points Death penalties for Civilians (30->50) and X-Com Tanks (x2)
+ - Reactivated RAILYARDURBAN Terrain in Infrastructure Attack Terror Mission
+ - Converted all Sprites into *.png, rechecked Palettes (just for good measure)
+ - Adjusted Ruleset to latest changes in : openxcom_git_master_2015_10_10_0133
+
+Version 0.93
+ - Fix view positions for soldiers on the thunder craft.
+ - Fix missing thunder craft MCD file.
+ - Added consequences for alive interrogation of Navigators (additionals Alien Missions)
+ - Added consequences for alive interrogation of Engineers (additionals Alien Missions)
+
+Version 0.92
+ - Added Endgame Surprise (just for the fun, will be triggered by Cydonia or Bust and Avenger research)
+ - Fix Ethereal Base not occuring (will be executed 100% each Month beginning in Month 13)
+ - Fix route issues on Lukes Expanded Terror Maps
+ - Fix tile issues on Lukes Expanded Terror Maps
+ - Fix tile issues on all Abductor and Terrorship Maps
+ - Fix Route Bugs on Labship and Excavator Maps
+ - Fix Heavy Plasma Clip unlock
+ - Fix Heavy Laser/Auto HandOb Position
+ - Fix Minor Aliendeployments issue for Rank 9
+ - Doubled Terrorsite Despawn Pointpenalty (1000 -> 2000)
+ - Halved Points for destroying Alien Base Control (500 -> 250)
+ - Chryssalids receive aggression: 2 (they will charge you no matter what)
+ - Updated ruleset to latest changes in openxcom_git_master_2015_08_06_1451
+
+Version 0.91
+ - Fix some UfoPaedia Strings (typos etc.)
+ - Fix Alloy Cannon infinite Ammo
+ - Fix Alloy Cannon Rounds Alloy cost and Clipsize
+ - Added UfoPaedia Picture for the Alloy Cannon (by MicktheMage)
+ - Added a Airfield towards Military Base Terrorsitedeployment
+ - Adapted Ruleset towards changes of openxcom_git_master_2015_07_28_1355
+
+Version 0.90
+ - Fix Wall tiles on 1 Excavator Map
+ - Fix some Groundtiles on a few Excavator Maps
+ - Fix Sectoid Medic Missing Bravery and Psi Str Increase
+ - Fix alienDeployment for Alien Base Assault
+ - Fix wrong MADDECOR.MCD file
+ - Fix wrong MADURBAN maps
+ - Reduced Elerium-115 amount you recieve per UFO Power Source (50->35)
+
+Version 0.89
+ - Fix Grav Shield dependency
+ - Fix Heavy Plasma dependencies
+ - Fix Blaster Launcher Occurancy Rate
+ - Fix Blaster Launcher Unlock
+ - Fix Waspite Inventory Sprite
+ - Fix wrong placed Groundtiles on the Sentry Maps
+ - Fix some Wall tiles Labship Map
+ - Readjusted Weapon Reload Timeings for Harvester, Abductor, Fighter Ship and Sentry
+ - Readjusted Weapon Powers for Harvester, Abductor, Fighter Ship and Sentry
+ - Readjusted Fuelcapacity of Thunder (60->40) and Firestorm (20->30)
+ - Retaliator Repair Rate change from 3%->2%
+ - Thunder, Firestorm and Avenger get Repair rate 3% instead of 1%
+ - Increased Firestorm Alien Alloy Production Cost (90->120)
+ - Reworked stats of Gazers, Muton Elite and Muton Brain Guards to be more consistent
+ - Reworked Route Nodes for Fighters, Sentry and Excavators (proper Importence set)
+ - Reworked Labship Nodes
+ - Added turned Labship
+ - Added 1 Variant Labship and turned Version
+
+Version 0.88
+ - Fix Psi Amp Unlock dependency
+ - Fix Fighters (1 Power Source)
+ - Reordered all Alien Races in Ufopaedia after occurance
+ - Added Kneeling Indicator Mod from civilian (modified Version)
+ - Added Improved TU Reserve Sprite from civilian
+ - Added Grenade Launcher from Ryskeliini
+ - Added FloorOb's and HandOb's for Grenade Launcher Ammo
+ - Small Launcher gets Arcing Shot
+ - Added Second Clip for Plasma Sniper Rifle (130 damage)
+ - Added HandOb's for Plasma Sniper Rifle Ammo
+ - Increased Plasma Sniper Rifle Damage from 90 to 100
+ - Added Race and Terrorunit Mixes
+ - Added Two more Terrorunits
+ - Diversified Terrormissions (Labels & Deployment)
+ - Mapfixes for Expanded Terror Maps
+ - Added UfoPaedia Pictures for Muton Elites and Autopsy
+ - Reworked alienItemlevels and alienDeployments for new Ranks and Items
+ - Boosted Health of Waspites and Gazers
+ - Adjusted Ruleset towards changes in openxcom_git_master_2015_06_30_0026
+
+Version 0.87
+ - Added 12 more Sentry Maps (14 now)
+
+Version 0.86
+ - Added 3 more Excavator Variants (11 maps now)
+ - Spawn nodes rework for all Excavators
+ - Added 4 more Fighter Variants (9 maps now)
+ - All Fighters do now have 2 Power sources
+ - Spawn nodes rework for all Fighters
+ - Fix Wrong Ground tile and Cow in Labship
+ - Replace some interior Walls on some Expanded Terror Maps (better look)
+
+Version 0.85
+ - Fix wrong asigned Sprite for Plasmasniper FloorOb
+ - Fix AutoCannon Alloy Ammo manufacture
+ - Small Fix for Thunder Map (Power Coiles moved 1 tile back, to block walking on them)
+ - Small Modification of original Fighter Map (LOS solved from room to room)
+ - Added 1 more Fighter Variants with two entries
+
+Version 0.84
+ - Alien will now Pickup Weapon after panic
+ - Fix wrong asigned Damage Modifier for Muton Elites
+ - Fix HandOb assignment for Elerium Rocket
+ - Remove Blaster Launchers from LabShip Deployment
+ - Adjust alienItemLevels for more endgame varienty
+ - Slight redesign of UBASE_2c
+ - Fix Map tile issue on New Fighter Map
+ - Removed Double Power Sources on New Fighter Map
+ - Added Expanded Terror from luke83, resized Maps and removed Cellars
+ - Added 3 more variants of the Excavater and turned Versions (8 Maps now)
+
+Version 0.83
+ - Fix Final Missions again due to changes in openxcom_git_master_2015_05_25_0957
+ - Added one more Alien Leader to Labship (there was only one instead of 2...) 
+
+Version 0.82
+ - Fix Alien Biology require (unneeded)
+ - Readjusted Race occurance (better this way)
+ - Added New Fighter Map (different Interior) and turned version of the same.
+
+Version 0.81
+ - Fix Heavy Laser Auto Manufacture Dependency
+ - Fix Alloy Knife, Alloy Blade Manufacture Dependency
+ - Readjusted Labship Crew Numbers (max 2 Leaders instead of 4)
+ - Ufopaedia String overwork for Topics which bring live Interrogations with them.
+ - Muton Elites Receive Damage Modifer 0.6 vs Laser Weapons
+
+Version 0.80
+ - Reduced Number of Aliens on all Large Scouts, Sentries and Excavators by 2.
+   Since Maxspawn of 18 seems little bit to high (now -> 16 fits also better with Medium Scouts)
+ - Integrated FastRamp ruleset from clownagent.
+ - Removed unneeded Groundtiles on UFO_170.MAP (Graphic error on diagonal walls)
+ - Replaced Muton Elites Terrorunits with Sectopods
+ - Muton Elites receive +6 TU and +10 Firing/Throwing Accuracy compared to normal Mutons, also more intelligence
+ - Readjusted Sectoid Psi (give them more Defense but equal Offense)
+ - Psi immunity for Ethereals (more defense, same Offense)
+ - Fix Final Mission due to changes in openxcom_git_master_2015_05_18_1515
+ - Fix Alloy Vest Strings for Corspe and Reapir Topic
+ - Put in the recolored Research Tree Graphic
+ - Readme overhaul
+
+Version 0.79
+ - Research Tree Fine Tuning, if you encounter any troubles, please tell me!
+ - Added Research Tree Graphic.
+ - Fix Snakeman Soldier not unlocking Alien Language, Alien Invasion
+
+Version 0.78
+ - Fix Alloy Cannon and Ammo not needing Alien Alloys for production
+ - Readjusted Tank Armors (Vanilla Tanks get +10, Alloy Tanks get +15 unto that),
+   seems to be neccessary when Alloy Ground Tanks only become avaible after Alien Date Slate.
+   Open for debatte.
+ - Readjusted Muton Elites (Same HP as normal Mutons, but better Armor and 0.8 Damage modifier vs Laser,
+   They do have slightly increased Fire accuracy and Reactions also Psi Str: 80.
+
+Version 0.77
+ - Fix Alloy Ammo Production for Heavy Cannon and Auto Cannon.
+
+Version 0.76
+ - Fix somehow lost UfoPaedia Entry for Sniper Rifle
+ - Fix BulletSprites for Sniper Rifle and Taser Pistol
+ - Readjusted Aimed accuracy for Sniper Rifle, Heavy Laser Sniper and Plasma Sniper Rifle.
+ - Fix wrong Hitsound for Plasma Shotgun Elerium Shells
+
+Version 0.75
+ - Fix Mapscript for PORTTFTD Terrain since due to increased mapsize the Waterfront blocks were placed wrong
+ - Integrated Matching Weapon Sprites for the Blaster Launcher from trollworkout
+ - Flying Suit research added dependency: Alien Data Core
+ - Fix wrong Price for Power suit Repair (840.000 instead of 84.000 ;))
+ - Trying to make Combination Retaliator with Dual Laser Cannons able to shot down Terrorships (3vs1)
+   Retaliator gets Armor boost: 240 instead of 200
+   Laser Cannon gets Range 36 and Accuracy 50%
+   repairRate increased from 1% per hour to 3
+ - Fix for YetMore Ufo's Maps and SolarsNewUfo's maps
+   Labship: LOS, LOF errors fixed, increased size of central section to fit lower and upper level.
+   Fighter: Fix LOS, LOF near right door
+   Excavator: Fix missing roof tiles, removed unneeded groundtiles
+   Sentry: Fix LOS, LOF possibility
+
+Version 0.74
+ - Integrated SolarsNewUfos (Maps may still be buggy, i am working on them)
+ - Laser Infantry Weapons do need Elerium-115 and Alien Alloys to be produced (Laser Cannon is still your Cash Cow)
+ - Adjusted Laser Craftcannon Range (now 34) and Accuracy (now 50%)
+ - Adjusted Plasma Beam Accuracy (now 60%)
+ - Fix some String Typos
+
+Version 0.73
+ - Fix for several City locations from the Terrain Pack
+ - Bumped up Production Cost for Psi Amp (500.000$, 5 Alloys, 10 Elerium)
+ - Added 4 New Research Topics (Alien Biology, Alien Language, Alien Power Systems and Psionics)
+ - Research Tree rework, players need to edit savegame files -> see Forum link.
+   Alien Data Slate needs Alien Language (which needs Any Alive Alien Interrogation)
+   Alien Data Core now needs Alien Data Slate, Hyper Wave Decoder and Alien Origins (which needs Leader or Commander interrogation).
+   UFO Power Source needs Alive Alien Engineer and Alien Power Systems (depend on Alien Alloys and Elerium-115)
+   Alien Containment needs Alien Biology (depends on any Corpse Research), Alien Food and Alien Reproduction
+   UFO Navigation also depends now on Alien Language
+   Psi Research Tree Rework:
+   - Psionics Research Topic (requires The Alien Threat), and Psi Alien Interrogation.
+   - Psi Lab is unlocked after Psionics, and Alive Engineer and Alive Medic is interrogated
+   - Psi Amp is further up in the tree and needs Examination Room, Alien Surgery and Alien Entertainment,
+     each of those need a Alive Medic to unlock.
+
+Version 0.72
+ - Fix Map issues for Terrorships
+ - Fix Sort order of Abductor Maps
+ - Removed Examination Room Dependency from Medikit
+ - Removed Alien Surgery Dependency from Advanced Medikit
+ - Added more translation Strings for:
+   - Russian
+   - French
+   - Spanish
+   - Polish
+ - Fixed Position of Karachi (was on the water)
+ - Exchanged Sprites for HeavyLaserAuto against a recolored Version
+ - Changed Production amounts for Alien Alloy Clips
+ - Removed Alien Alloys Production and modified UFOPaedia String accordingly.
+ - Added 4 more Research Topic Ufopaedia entries (not accessible at the moment, but you can turn on debug mode and take a look).
+
+Version 0.71
+ - Fix M_Range vector Error for Supply Ship Missions (Wrong Map asigned...)
+ - Fix Minor Stuff in Alien Deployments
+ - Mod Repack for: openxcom_git_master_2015_05_07_1605
+ - added metadata.yml
+ - removed VERSION.TXT
+
+Version 0.7
+ - Fix Harvester Maps
+ - Added more Vanilla Map Variants from YetMoreUfos
+
+Version 0.61
+ - Fix for vanilla Engineers missing getOneFree
+ - Fix wrong named Supply Ship maps
+ - Fix some minor string errors
+
+Version 0.6 
+ - integrated luke83's extraUFO's
+ - switched out a HeavyLaserAuto Sprite.
+
+Version 0.5 
+ - Minor Bugfixes
+ - new Sprites for Personal Armor, Smoke Grenade
+ - added a Flashbang Grenade
+
+Version 0.4 
+ - Bugfixes
+ - Tiny Research rework
+ - Fix Bug with Taser Pistol
+ - Changed Reinforced Shotgun into Scatter Laser (damn it is good!)
+ - Changed around some Research Topics and strings.
+
+Version 0.3 Bugfixes / Terrainpack update
+ - Fix Alloy Sowrd / Alien Data slate Ufopaedia Bug
+ - Added Extra Research Topics for Alloy Knife, Alloy Sword
+ - Changed research dependency for Laser Weapons (no alive alien requiered)
+ - Corrected some String typos for extraStrings.rul
+ - Integrated Bugfixes from latest Terrainpack Ruleset.
+
+Version 0.2 
+ - Bugfixes
+ - Fix for Alloy Knife Popup when Alien Alloys are researched.
+ - Fix for Alloy Shotgun Shells not been produced.
+ - Adjusted Alloy Vest, Alloy Shotgun Shells and Snipe rifle Ammo production time (they were to high...)
+ - Fix some type error in extraStrings.rul
+
+Version 0.1
+ - Not compatible with Yet More Ufo's -> alienItemLevels
+ - Still missing Luke83's extra UFO's integration (you can switch this mod on the work well together)
+ - Research Topic Popups when a research is finished are somewhat messy (need to rework this, i don't wanna have a bazillion of research topics, so i linked UFOpaedia articles and item usage to a Topic above instead of each one a seperate one).
+ - You may find bugs.
+ - Balancing is kinda.... uhhh don't know (only played first month)

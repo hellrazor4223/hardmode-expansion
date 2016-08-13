@@ -1,0 +1,2904 @@
+####BEGIN ITEMS
+items:
+
+###BEGIN CRAFTWEAPONS
+#BEGIN ALLOY CANNON
+  - type: STR_ALLOY_CANNON
+    requires:
+      - STR_ALLOY_CANNON
+    size: 1.5
+    costSell: 45000
+    transferTime: 48
+    listOrder: 601
+  - type: STR_ALLOY_CANNON_ROUNDS_X50
+    requires:
+      - STR_ALLOY_CANNON
+    size: 0.1
+    costSell: 900
+    transferTime: 48
+    clipSize: 50
+    listOrder: 602
+#END ALLOY CANNON
+###END CRAFTWEAPONS
+
+###BEGIN TANKS
+##BEGIN NORMAL TANKS
+#BEGIN TANK CANNON
+  - type: STR_TANK_CANNON
+    listOrder: 1100
+  - type: STR_HWP_CANNON_SHELLS
+    hitSound: 0
+    hitAnimation: 0
+    power: 60
+    damageType: 3
+    listOrder: 1200
+  - type: STR_TANK_CANNON_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4905
+  - type: TANK_CANNON_CORPSE_1
+    name: STR_TANK_CANNON_CORPSE
+    floorSprite: 68
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 60
+    listOrder: 9002
+  - type: TANK_CANNON_CORPSE_2
+    floorSprite: 69
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9101
+  - type: TANK_CANNON_CORPSE_3
+    floorSprite: 70
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9201
+  - type: TANK_CANNON_CORPSE_4
+    floorSprite: 71
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9301
+#END TANK CANNON
+
+#BEGIN TANK ROCKET LAUNCHER
+  - type: STR_TANK_ROCKET_LAUNCHER
+    accuracySnap: 65
+    listOrder: 1300
+  - type: STR_TANK_ROCKET_LAUNCHER_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4906
+  - type: TANK_ROCKET_LAUNCHER_CORPSE_1
+    name: STR_TANK_ROCKET_LAUNCHER_CORPSE
+    floorSprite: 68
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 60
+    listOrder: 9002
+  - type: TANK_ROCKET_LAUNCHER_CORPSE_2
+    floorSprite: 69
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9102
+  - type: TANK_ROCKET_LAUNCHER_CORPSE_3
+    floorSprite: 70
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9102
+  - type: TANK_ROCKET_LAUNCHER_CORPSE_4
+    floorSprite: 71
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9102
+#END TANK ROCKET LAUNCHER
+
+#BEGIN TANK LASER CANNON
+  - type: STR_TANK_LASER_CANNON_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4907
+  - type: TANK_LASER_CANNON_CORPSE_1
+    name: STR_TANK_LASER_CANNON_CORPSE
+    floorSprite: 68
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 60
+    listOrder: 9003
+  - type: TANK_LASER_CANNON_CORPSE_2
+    floorSprite: 69
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9103
+  - type: TANK_LASER_CANNON_CORPSE_3
+    floorSprite: 70
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9203
+  - type: TANK_LASER_CANNON_CORPSE_4
+    floorSprite: 71
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 60
+    listOrder: 9303
+#END TANK LASER CANNON
+##END NORMAL TANKS
+
+##BEGIN ALLOY TANKS
+#BEGIN ALLOY TANK CANNON
+  - type: STR_ALLOY_TANK_CANNON
+    battleType: 1
+    size: 6
+    costSell: 580000
+    transferTime: 96
+    weight: 1
+    bigSprite: 126
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 12
+    compatibleAmmo:
+      - STR_HWP_CANNON_SHELLS
+    accuracySnap: 60
+    accuracyAuto: 45
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAuto: 45
+    tuAimed: 80
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 0
+    listOrder: 1501
+  - type: STR_ALLOY_TANK_CANNON_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4908
+  - type: ALLOY_TANK_CANNON_CORPSE_1
+    name: STR_ALLOY_TANK_CANNON_CORPSE
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 80
+    listOrder: 9006
+  - type: ALLOY_TANK_CANNON_CORPSE_2
+    floorSprite: 123
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9104
+  - type: ALLOY_TANK_CANNON_CORPSE_3
+    floorSprite: 124
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9204
+  - type: ALLOY_TANK_CANNON_CORPSE_4
+    floorSprite: 125
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9304
+#END ALLOY TANK CANNON
+
+#BEGIN ALLOY TANK ROCKET
+  - type: STR_ALLOY_TANK_ROCKET_LAUNCHER
+    battleType: 1
+    size: 6
+    costSell: 640000
+    transferTime: 96
+    weight: 1
+    bigSprite: 127
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 0
+    fireSound: 52
+    compatibleAmmo:
+      - STR_HWP_ROCKETS
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 115
+    tuAuto: 65
+    tuSnap: 45
+    tuAimed: 75
+    autoShots: 2
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 1
+    listOrder: 1502
+  - type: STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4909
+  - type: ALLOY_TANK_ROCKET_LAUNCHER_CORPSE_1
+    name: STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 80
+    listOrder: 9008
+  - type: ALLOY_TANK_ROCKET_LAUNCHER_CORPSE_2
+    floorSprite: 123
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9105
+  - type: ALLOY_TANK_ROCKET_LAUNCHER_CORPSE_3
+    floorSprite: 124
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9205
+  - type: ALLOY_TANK_ROCKET_LAUNCHER_CORPSE_4
+    floorSprite: 125
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9305
+#END ALLOY TANK ROCKET
+
+#BEGIN ALLOY TANK LASER
+  - type: STR_ALLOY_TANK_LASER_CANNON
+    damageType: 4
+    battleType: 1
+    size: 6
+    costSell: 694000
+    transferTime: 96
+    weight: 1
+    bigSprite: 128
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 7
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 110
+    accuracyAuto: 45
+    accuracySnap: 55
+    accuracyAimed: 90
+    autoShots: 2
+    tuAuto: 60
+    tuSnap: 33
+    tuAimed: 75
+    clipSize: -1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 2
+    listOrder: 1503
+  - type: STR_ALLOY_TANK_LASER_CANNON_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4910
+  - type: ALLOY_TANK_LASER_CANNON_CORPSE_1
+    name: STR_ALLOY_TANK_LASER_CANNON_CORPSE
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 80
+    listOrder: 9010
+  - type: ALLOY_TANK_LASER_CANNON_CORPSE_2
+    floorSprite: 123
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9106
+  - type: ALLOY_TANK_LASER_CANNON_CORPSE_3
+    floorSprite: 124
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9206
+  - type: ALLOY_TANK_LASER_CANNON_CORPSE_4
+    floorSprite: 125
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 80
+    listOrder: 9306
+#END ALLOY TANK LASER
+##END ALLOY TANKS
+
+##BEGIN HOVERTANKS
+#BEGIN HOVERTANK LASER
+  - type: STR_HOVERTANK_LASER
+    damageType: 4
+    battleType: 1
+    size: 6
+    costSell: 900000
+    transferTime: 96
+    weight: 1
+    bigSprite: 128
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 7
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 110
+    accuracyAuto: 50
+    accuracySnap: 60
+    accuracyAimed: 95
+    autoShots: 2
+    tuAuto: 60
+    tuSnap: 33
+    tuAimed: 75
+    clipSize: -1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 2
+    listOrder: 1599
+  - type: STR_HOVERTANK_LASER_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4911
+  - type: HOVERTANK_LASER_CORPSE_1
+    name: STR_HOVERTANK_LASER_CORPSE
+    floorSprite: 64
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 100
+    listOrder: 8602
+  - type: HOVERTANK_LASER_CORPSE_2
+    floorSprite: 65
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8701
+  - type: HOVERTANK_LASER_CORPSE_3
+    floorSprite: 66
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8801
+  - type: HOVERTANK_LASER_CORPSE_4
+    floorSprite: 67
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8901
+#END HOVERTANK LASER
+
+#BEGIN HOVERTANK EBOMB
+  - type: STR_HOVERTANK_EBOMB
+    battleType: 1
+    size: 6
+    costSell: 900000
+    transferTime: 96
+    weight: 1
+    bigSprite: 40
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 9
+    fireSound: 53
+    compatibleAmmo:
+      - STR_HWP_EBOMB
+    hitSound: 0
+    hitAnimation: 0
+    accuracyAuto: 60
+    accuracySnap: 90
+    accuracyAimed: 120
+    tuAuto: 45
+    tuSnap: 30
+    tuAimed: 70
+    autoShots: 2
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 4
+    listOrder: 1601
+  - type: STR_HWP_EBOMB
+    size: 0.1
+    costSell: 13000
+    transferTime: 48
+    weight: 3
+    bigSprite: -1
+    floorSprite: 176
+    hitSound: 0
+    hitAnimation: 0
+    power: 90
+    damageType: 3
+    clipSize: 16
+    battleType: 2
+    blastRadius: 5
+    listOrder: 1504
+  - type: STR_HOVERTANK_EBOMB_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4912
+  - type: HOVERTANK_EBOMB_CORPSE_1
+    name: STR_HOVERTANK_EBOMB_CORPSE
+    floorSprite: 64
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 100
+    listOrder: 8604
+  - type: HOVERTANK_EBOMB_CORPSE_2
+    floorSprite: 65
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    armor: 100
+    listOrder: 8702
+  - type: HOVERTANK_EBOMB_CORPSE_3
+    floorSprite: 66
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8802
+  - type: HOVERTANK_EBOMB_CORPSE_4
+    floorSprite: 67
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8902
+  - type: STR_HWP_EBOMB_LAUNCHER
+#END HOVERTANK EBOMB
+
+#BEGIN HOVERTANK PLASMA
+  - type: STR_HOVERTANK_PLASMA
+    power: 115
+    accuracyAuto: 70
+    tuAuto: 45
+  - type: STR_HOVERTANK_PLASMA_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4913
+  - type: HOVERTANK_PLASMA_CORPSE_1
+    name: STR_HOVERTANK_PLASMA_CORPSE
+    floorSprite: 64
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    listOrder: 8606
+    armor: 100
+  - type: HOVERTANK_PLASMA_CORPSE_2
+    floorSprite: 65
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8703
+  - type: HOVERTANK_PLASMA_CORPSE_3
+    floorSprite: 66
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8803
+  - type: HOVERTANK_PLASMA_CORPSE_4
+    floorSprite: 67
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8903
+#BEGIN HOVERTANK PLASMA
+
+#BEGIN HOVERTANK LAUNCHER
+  - type: STR_HWP_FUSION_BOMB
+    power: 200
+    listOrder: 1800
+    waypoints: 5
+  - type: STR_HOVERTANK_LAUNCHER_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4914
+  - type: HOVERTANK_LAUNCHER_CORPSE_1
+    name: STR_HOVERTANK_LAUNCHER_CORPSE
+    floorSprite: 64
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 100
+    listOrder: 8608
+  - type: HOVERTANK_LAUNCHER_CORPSE_2
+    floorSprite: 65
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8704
+  - type: HOVERTANK_LAUNCHER_CORPSE_3
+    floorSprite: 66
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    armor: 100
+    listOrder: 8804
+  - type: HOVERTANK_LAUNCHER_CORPSE_4
+    floorSprite: 67
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8904
+#END HOVERTANK LAUNCHER
+##END HOVERTANKS
+
+##BEGIN WALKERTANK PLASMA
+  - type: STR_WALKERTANK_PLASMA
+    size: 6
+    costSell: 1100000
+    transferTime: 96
+    weight: 1
+    bigSprite: 163
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 8
+    fireSound: 18
+    hitSound: 19
+    hitAnimation: 56
+    power: 115
+    damageType: 5
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    autoShots: 5
+    listOrder: 1801
+  - type: STR_WALKERTANK_PLASMA_CORPSE
+    size: 6 
+    battleType: 11
+    listOrder: 4915
+  - type: WALKERTANK_PLASMA_CORPSE_1
+    name: STR_WALKERTANK_PLASMA_CORPSE
+    floorSprite: 168
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 100
+    listOrder: 8609
+  - type: WALKERTANK_PLASMA_CORPSE_2
+    floorSprite: 169
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8705
+  - type: WALKERTANK_PLASMA_CORPSE_3
+    floorSprite: 170
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    armor: 100
+    listOrder: 8805
+  - type: WALKERTANK_PLASMA_CORPSE_4
+    floorSprite: 171
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 100
+    listOrder: 8905
+##END WALKERTANK PLASMA
+###END TANKS
+
+###BEGIN XCOM ITEMS
+##BEGIN ARMOR
+#BEGIN ARMORED VEST
+  - type: STR_ARMORED_VEST
+    size: 0.8
+    costBuy: 20000
+    costSell: 9000
+    listOrder: 10598
+  - type: STR_ARMORED_VEST_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 129
+    floorSprite: 126
+    invWidth: 2
+    invHeight: 3
+    armor: 25
+    recover: true
+    listOrder: 4701
+#END ARMORED VEST
+
+#BEGIN ALLOY VEST
+  - type: STR_ALLOY_VEST
+    requires:
+      - STR_ALLOY_VEST
+    size: 0.8
+    costSell: 60000
+    listOrder: 10599
+  - type: STR_ALLOY_VEST_CORPSE
+    name: STR_CORPSE
+    size: 0.8
+    weight: 24
+    bigSprite: 130
+    floorSprite: 127
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    recover: true
+    listOrder: 4702
+#END ALLOY VEST
+
+#BEGIN PERSONAL ARMOR
+  - type: STR_PERSONAL_ARMOR_CORPSE
+    name: STR_CORPSE
+    size: 0.8
+    weight: 24
+    bigSprite: 28
+    floorSprite: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: true
+    listOrder: 4801
+#END PERSONAL ARMOR CORPSE
+
+#BEGIN POWER SUIT
+  - type: STR_POWER_SUIT_CORPSE
+    name: STR_CORPSE
+    size: 0.8
+    weight: 30
+    bigSprite: 44
+    floorSprite: 41
+    invWidth: 2
+    invHeight: 3
+    armor: 60
+    recover: true
+    listOrder: 4901
+#END POWER SUIT
+
+#BEGIN FLYING SUIT
+  - type: STR_FLYING_SUIT_CORPSE
+    name: STR_CORPSE
+    size: 0.8
+    weight: 30
+    bigSprite: 157
+    floorSprite: 162
+    invWidth: 2
+    invHeight: 3
+    armor: 70
+    recover: true
+    listOrder: 4902
+#END FLYING SUIT
+
+#BEGIN REINFORCED POWER SUIT
+  - type: STR_REINFORCED_POWER_SUIT
+    size: 1.0
+    costSell: 170000
+    listOrder: 10801
+  - type: STR_REINFORCED_POWER_SUIT_CORPSE
+    name: STR_CORPSE
+    size: 1.0
+    weight: 40
+    bigSprite: 159
+    floorSprite: 164
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    recover: true
+    listOrder: 4903
+#END REINFORCED POWER SUIT
+
+#BEGIN REINFORCED FLYING SUIT
+  - type: STR_REINFORCED_FLYING_SUIT
+    size: 1.0
+    costSell: 230000
+    listOrder: 10802
+  - type: STR_REINFORCED_FLYING_SUIT_CORPSE
+    name: STR_CORPSE
+    size: 1.0
+    weight: 40
+    bigSprite: 160
+    floorSprite: 165
+    invWidth: 2
+    invHeight: 3
+    armor: 90
+    recover: true
+    listOrder: 4904
+#END REINFORCED FLYING SUIT
+##END ARMOR
+
+##BEGIN WEAPONS
+#BEGIN COMBAT KNIFE
+  - type: STR_COMBAT_KNIFE
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    weight: 4
+    bigSprite: 139
+    floorSprite: 136
+    handSprite: 416
+    meleeSound: 39
+    meleeHitSound: 109
+    meleeAnimation: 8
+    power: 10
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    skillApplied: true
+    tuMelee: 25
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 12
+    listOrder: 1802
+#END COMBAT KNIFE
+
+#BEGIN ALLOY KNIFE
+  - type: STR_ALLOY_KNIFE
+    requires:
+      - STR_ALLOY_KNIFE
+    size: 0.1
+    costSell: 5000
+    weight: 3
+    bigSprite: 140
+    floorSprite: 137
+    handSprite: 416
+    meleeSound: 39
+    meleeHitSound: 109
+    meleeAnimation: 12
+    power: 30
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 115
+    skillApplied: true
+    tuMelee: 25
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    listOrder: 1803
+#END ALLOY KNIFE
+
+#BEGIN ALLOY SWORD
+  - type: STR_ALLOY_SWORD
+    requires:
+      - STR_ALLOY_SWORD
+    size: 0.2
+    costSell: 15000
+    weight: 3
+    bigSprite: 141
+    floorSprite: 138
+    handSprite: 424
+    meleeSound: 39
+    meleeHitSound: 109
+    meleeAnimation: 16
+    power: 60
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 130
+    skillApplied: true
+    tuMelee: 25
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    listOrder: 1804
+#END ALLOY SWORD
+
+#BEGIN PISTOL
+  - type: STR_PISTOL
+    compatibleAmmo:
+      - STR_PISTOL_CLIP
+      - STR_PISTOL_AA_CLIP
+    accuracyAuto: 60
+    tuAuto: 54
+    armor: 20
+  - type: STR_PISTOL_CLIP
+    handSprite: 128
+    armor: 20
+  - type: STR_PISTOL_AA_CLIP
+    requires:
+      - STR_ALLOY_AMMO
+    size: 0.1
+    costSell: 300
+    weight: 3
+    bigSprite: 100
+    floorSprite: 172
+    handSprite: 536
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 19
+    power: 36
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 20
+    listOrder: 2001
+#END PISTOL
+
+#BEGIN TASER PISTOL
+  - type: STR_TASER_PISTOL
+    size: 0.2
+    costBuy: 1800
+    costSell: 600
+    weight: 5
+    bigSprite: 118
+    floorSprite: 113
+    handSprite: 312
+    bulletSprite: 12
+    fireSound: 103
+    compatibleAmmo:
+      - STR_TASER_PISTOL_CLIP
+    accuracySnap: 80
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 45
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    maxRange: 5
+    listOrder: 2002
+  - type: STR_TASER_PISTOL_CLIP
+    size: 0.1
+    costBuy: 200
+    costSell: 100
+    weight: 1
+    bigSprite: 119
+    floorSprite: 114
+    handSprite: 600
+    hitSound: 54
+    hitAnimation: 100
+    blastRadius: 0 
+    power: 40
+    damageType: 6
+    clipSize: 6
+    battleType: 2
+    armor: 20
+    listOrder: 2003
+#END TASER PISTOL
+
+#BEGIN RIFLE
+  - type: STR_RIFLE
+    compatibleAmmo:
+      - STR_RIFLE_CLIP
+      - STR_RIFLE_AA_CLIP
+    armor: 20
+  - type: STR_RIFLE_CLIP
+    handSprite: 136
+    armor: 20
+  - type: STR_RIFLE_AA_CLIP
+    requires:
+      - STR_ALLOY_AMMO
+    size: 0.1
+    costSell: 300
+    weight: 3
+    bigSprite: 101
+    floorSprite: 173
+    handSprite: 544
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 20
+    power: 40
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    listOrder: 2201
+    armor: 30
+#END RIFLE
+
+#BEGIN SHOTGUN
+  - type: STR_SHOTGUN
+    size: 0.2
+    costBuy: 3000
+    costSell: 2000
+    weight: 8
+    bigSprite: 102
+    floorSprite: 100
+    handSprite: 144
+    bulletSprite: 2
+    fireSound: 100
+    compatibleAmmo:
+      - STR_SHOTGUN_CLIP
+      - STR_SHOTGUN_AA_CLIP
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 25
+    tuAimed: 33
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 2004
+    armor: 20
+    aimRange: 10
+    snapRange: 8
+    dropoff: 15
+  - type: STR_SHOTGUN_CLIP
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 104
+    floorSprite: 102
+    handSprite: 584
+    hitSound: 22
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 20
+    listOrder: 2006
+    shotgunPellets: 6
+  - type: STR_SHOTGUN_AA_CLIP
+    requires:
+      - STR_ALLOY_AMMO
+    size: 0.1
+    costSell: 400
+    weight: 3
+    bigSprite: 105
+    floorSprite: 103
+    handSprite: 592
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 30
+    listOrder: 2007
+    shotgunPellets: 5
+#END SHOTGUN
+
+#BEGIN SNIPER RIFLE
+  - type: STR_SNIPER_RIFLE
+    size: 0.3
+    costBuy: 14000
+    costSell: 6850
+    weight: 8
+    bigSprite: 107
+    floorSprite: 105
+    handSprite: 160
+    bulletSprite: 11
+    fireSound: 102
+    compatibleAmmo:
+      - STR_SNIPER_RIFLE_CLIP
+      - STR_SNIPER_RIFLE_AA_CLIP
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 50
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 20
+    listOrder: 2202
+    snapRange: 24
+    minRange: 20
+    dropoff: 15
+  - type: STR_SNIPER_RIFLE_CLIP
+    size: 0.1
+    costBuy: 500
+    costSell: 220
+    weight: 3
+    bigSprite: 108
+    floorSprite: 106
+    handSprite: 568
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 11
+    power: 45
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 20
+    listOrder: 2203
+  - type: STR_SNIPER_RIFLE_AA_CLIP
+    requires:
+      - STR_ALLOY_AMMO
+    size: 0.1
+    costSell: 300
+    weight: 3
+    bigSprite: 109
+    floorSprite: 176
+    handSprite: 576
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 23
+    power: 55
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 30
+    listOrder: 2204
+#END SNIPER RIFLE
+
+#BEGIN HEAVY CANON
+  - type: STR_HEAVY_CANNON
+    compatibleAmmo:
+      - STR_HC_AP_AMMO
+      - STR_HC_HE_AMMO
+      - STR_HC_I_AMMO
+      - STR_HC_AA_AMMO
+    armor: 20
+  - type: STR_HC_AP_AMMO
+    handSprite: 168
+    armor: 20
+  - type: STR_HC_HE_AMMO
+    requires:
+      - STR_EXPLOSIVE_AMMO
+    handSprite: 176
+    armor: 20
+  - type: STR_HC_I_AMMO
+    handSprite: 184
+    armor: 20
+  - type: STR_HC_AA_AMMO
+    requires:
+      - STR_ALLOY_AMMO
+    size: 0.1
+    costSell: 450
+    weight: 6
+    bigSprite: 110
+    floorSprite: 174
+    handSprite: 560
+    hitSound: 13
+    hitAnimation: 26
+    bulletSprite: 22
+    power: 66
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    listOrder: 2401
+#END HEAVY CANON
+
+#BEGIN AUTO CANON
+  - type: STR_AUTO_CANNON
+    compatibleAmmo:
+      - STR_AC_AP_AMMO
+      - STR_AC_HE_AMMO
+      - STR_AC_I_AMMO
+      - STR_AC_AA_AMMO
+    armor: 20
+  - type: STR_AC_AP_AMMO
+    handSprite: 192
+    armor: 20
+  - type: STR_AC_HE_AMMO
+    requires:
+      - STR_EXPLOSIVE_AMMO
+    handSprite: 200
+    armor: 20
+  - type: STR_AC_I_AMMO
+    handSprite: 208
+  - type: STR_AC_AA_AMMO
+    requires:
+      - STR_ALLOY_AMMO
+    size: 0.1
+    costSell: 800
+    weight: 6
+    bigSprite: 111
+    floorSprite: 175
+    handSprite: 552
+    hitSound: 13
+    hitAnimation: 26
+    bulletSprite: 21
+    power: 52
+    damageType: 1
+    clipSize: 14
+    battleType: 2
+    armor: 20
+    invWidth: 2
+    invHeight: 1
+    listOrder: 2801
+#END AUTO CANON
+
+#BEGIN GRENADE LAUNCHER
+  - type: STR_GRENADE_LAUNCHER
+    size: 0.2
+    costBuy: 5000
+    costSell: 2250
+    weight: 8
+    bigSprite: 152
+    floorSprite: 149 
+    handSprite: 448
+    fireSound: 105
+    compatibleAmmo:
+      - STR_GRENADE_LAUNCHER_HE_AMMO
+      - STR_GRENADE_LAUNCHER_IC_AMMO
+      - STR_GRENADE_LAUNCHER_SMOKE_AMMO
+    accuracySnap: 50
+    accuracyAimed: 100
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 20
+    arcingShot: true
+    listOrder: 3001
+    snapRange: 24
+    dropoff: 10
+  - type: STR_GRENADE_LAUNCHER_HE_AMMO
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 153
+    floorSprite: 150
+    handSprite: 472
+    bulletSprite: 13
+    hitSound: 0
+    hitAnimation: 0
+    power: 60
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    blastRadius: 4
+    armor: 20
+    listOrder: 3002
+  - type: STR_GRENADE_LAUNCHER_IC_AMMO
+    size: 0.1
+    costBuy: 600
+    costSell: 400
+    weight: 3
+    bigSprite: 154
+    floorSprite: 151
+    handSprite: 480
+    bulletSprite: 14
+    hitSound: 0
+    hitAnimation: 0
+    power: 60
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    blastRadius: 4
+    armor: 20
+    listOrder: 3003
+  - type: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+    size: 0.1
+    costBuy: 300
+    costSell: 200
+    weight: 3
+    bigSprite: 155
+    floorSprite: 152
+    handSprite: 488
+    bulletSprite: 15
+    hitSound: 0
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    clipSize: 1
+    battleType: 2
+    blastRadius: 4
+    armor: 20
+    listOrder: 3004
+#END GRENADE LAUNCHER
+
+#BEGIN ROCKET LAUNCHER
+  - type: STR_ROCKET_LAUNCHER
+    compatibleAmmo:
+      - STR_SMALL_ROCKET
+      - STR_LARGE_ROCKET
+      - STR_INCENDIARY_ROCKET
+      - STR_ELERIUM_ROCKET
+    armor: 20
+  - type: STR_SMALL_ROCKET
+    handSprite: 216
+    armor: 20
+  - type: STR_LARGE_ROCKET
+    handSprite: 224
+    armor: 20
+  - type: STR_INCENDIARY_ROCKET
+    handSprite: 232
+    armor: 20
+  - type: STR_ELERIUM_ROCKET
+    requires:
+      - STR_ELERIUM_ROCKET
+    size: 0.2
+    costSell: 15000
+    weight: 8
+    bigSprite: 150
+    floorSprite: 147
+    handSprite: 528
+    hitSound: 0
+    hitAnimation: 0
+    power: 140
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    blastRadius: 7
+    armor: 20
+    listOrder: 3401
+#END ROCKET LAUNCHER
+
+#BEGIN LASER PISTOL / RIFLE
+  - type: STR_LASER_PISTOL
+    armor: 30
+  - type: STR_LASER_RIFLE
+    armor: 30
+#END LASER PISTOL / RIFLE
+
+#BEGIN SCATTER LASER
+  - type: STR_SCATTER_LASER
+    requires:
+      - STR_SCATTER_LASER
+    size: 0.2
+    costSell: 36900
+    weight: 8
+    bigSprite: 103
+    floorSprite: 101
+    handSprite: 152
+    bulletSprite: 6
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 65
+    damageType: 4
+    accuracyAuto: 60
+    accuracySnap: 70
+    accuracyAimed: 85
+    tuAuto: 40
+    tuSnap: 30
+    tuAimed: 45
+    autoShots: 2
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    shotgunPellets: 5
+    listOrder: 3601
+    armor: 30
+    aimRange: 11
+    snapRange: 8
+    autoRange: 6
+    dropoff: 10
+#END SCATTER LASER
+
+#BEGIN HEAVY LASER SNIPER
+  - type: STR_HEAVY_LASER
+    power: 110
+    accuracySnap: 80
+    accuracyAimed: 130
+    tuSnap: 33
+    tuAimed: 66
+    armor: 30
+    snapRange: 24
+    minRange: 14
+    dropoff: 10
+#END HEAVY LASER SNIPER
+
+#BEGIN HEAVY LASER AUTO
+  - type: STR_HEAVY_LASER_AUTO
+    requires:
+      - STR_HEAVY_LASER_AUTO
+    size: 0.3
+    costSell: 61000
+    weight: 18
+    bigSprite: 112
+    floorSprite: 107
+    handSprite: 240
+    bulletSprite: 7
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 85
+    damageType: 4
+    accuracyAuto: 50
+    accuracySnap: 75
+    tuAuto: 50
+    tuSnap: 33
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    listOrder: 3701
+    snapRange: 24
+    autoRange: 12
+    dropoff: 10
+#END HEAVY LASER AUTO
+
+#BEGIN GRENADES
+  - type: STR_GRENADE
+    armor: 50
+  - type: STR_SMOKE_GRENADE
+    handSprite: 248
+    hitAnimation: 56
+    armor: 30
+  - type: STR_PROXIMITY_GRENADE
+    handSprite: 256
+    armor: 35
+  - type: STR_INC_GRENADE
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 113
+    floorSprite: 108
+    handSprite: 264
+    power: 60
+    damageType: 2
+    battleType: 4
+    blastRadius: 3
+    armor: 30
+    listOrder: 4001
+  - type: STR_HIGH_EXPLOSIVE
+    handSprite: 272
+    armor: 55
+  - type: STR_FLASHBANG_GRENADE
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 151 
+    floorSprite: 148
+    handSprite: 440
+    hitAnimation: 64
+    power: 40
+    damageType: 6
+    battleType: 4
+    blastRadius: 3
+    armor: 20
+    listOrder: 4002
+  - type: STR_STUN_GRENADE
+    size: 0.1
+    costSell: 15300
+    weight: 4
+    bigSprite: 114
+    floorSprite: 109
+    handSprite: 432
+    hitAnimation: 64
+    power: 90
+    damageType: 6
+    battleType: 4
+    blastRadius: 5
+    armor: 45
+    listOrder: 4003
+#END GRENADES
+
+#BEGIN FIRE BOMB
+  - type: STR_FIRE_BOMB
+    requires:
+      - STR_FIRE_BOMB
+    size: 0.1
+    costSell: 7600
+    weight: 3
+    bigSprite: 165
+    floorSprite: 178
+    handSprite: 608
+    hitSound: 0
+    hitAnimation: 0
+    bulletSprite: 17
+    power: 90
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    blastRadius: 5
+    armor: 30
+    attraction: 5
+    listOrder: 5702
+#END FIRE BOMB
+
+#BEGIN SMOKE BOMB
+  - type: STR_SMOKE_BOMB
+    requires:
+      - STR_SMOKE_BOMB
+    size: 0.1
+    costSell: 7600
+    weight: 3
+    bigSprite: 166
+    floorSprite: 179
+    handSprite: 616
+    hitSound: 0
+    hitAnimation: 56
+    bulletSprite: 18
+    power: 90
+    damageType: 9
+    clipSize: 1
+    battleType: 2
+    blastRadius: 5
+    armor: 30
+    attraction: 5
+    listOrder: 5703
+#END SMOKE BOMB
+##END WEAPONS
+
+##BEGIN EQUIPMENT
+  - type: STR_MOTION_SCANNER
+    handSprite: 280
+    armor: 10
+  - type: STR_ELECTRO_FLARE
+    handSprite: 320
+    armor: 10
+
+#BEGIN MEDI PACK
+  - type: STR_FIELD_MEDI_PACK
+    size: 0.2
+    costBuy: 15000
+    costSell: 8000
+    weight: 12
+    bigSprite: 115
+    floorSprite: 110
+    handSprite: 288
+    battleType: 6
+    invWidth: 2
+    invHeight: 2
+    painKiller: 3
+    heal: 3
+    stimulant: 3
+    woundRecovery: 1
+    healthRecovery: 1
+    stunRecovery: 2
+    energyRecovery: 5
+    tuUse: 15
+    flatRate: true
+    armor: 10
+    listOrder: 4299
+#END MEDI PACK
+
+#BEGIN MEDI KIT
+  - type: STR_MEDI_KIT
+    requires:
+      - STR_MEDI_KIT
+    size: 0.1
+    costSell: 46500
+    weight: 5
+    bigSprite: 116
+    floorSprite: 111
+    handSprite: 296
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    painKiller: 6
+    heal: 6
+    stimulant: 6
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+    armor: 20
+    listOrder: 4300
+#END MEDI KIT
+
+#BEGIN ADVANCED MEDI KIT
+  - type: STR_ADVANCED_MEDI_KIT
+    requires:
+      - STR_ADVANCED_MEDI_KIT
+    size: 0.1
+    costSell: 85000
+    weight: 3
+    bigSprite: 117
+    floorSprite: 112
+    handSprite: 304
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    painKiller: 9
+    heal: 9
+    stimulant: 9
+    woundRecovery: 1
+    healthRecovery: 6
+    stunRecovery: 6
+    energyRecovery: 15
+    tuUse: 5
+    flatRate: true
+    armor: 30
+    listOrder: 4301
+#END ADVANCED MEDI KIT
+##END EQUIPMENT
+###END XCOM ITEMS
+
+
+###BEGIN ALIEN ITEMS
+##BEGIN ALIEN WEAPONS
+#BEGIN PLASMA BLADE
+  - type: STR_PLASMA_BLADE
+    requires:
+      - STR_PLASMA_BLADE
+    size: 0.2
+    costSell: 18000
+    weight: 3
+    bigSprite: 161
+    floorSprite: 166
+    handSprite: 496
+    meleeSound: 106
+    meleeHitSound: 107
+    meleeAnimation: 20
+    power: 80
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 140
+    skillApplied: true
+    tuMelee: 20
+    flatRate: true
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+    armor: 40
+    attraction: 10
+    listOrder: 4998
+#END PLASMA BLADE
+
+#BEGIN PLASMA SWORD
+  - type: STR_PLASMA_SWORD
+    requires:
+      - STR_PLASMA_SWORD
+    size: 0.2
+    costSell: 25000
+    weight: 3
+    bigSprite: 162
+    floorSprite: 167
+    handSprite: 504
+    meleeSound: 106
+    meleeHitSound: 108
+    meleeAnimation: 24
+    power: 100
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 160
+    skillApplied: true
+    tuMelee: 20
+    flatRate: true
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 50
+    recoveryPoints: 3
+    attraction: 10
+    listOrder: 4999
+#END PLASMA SWORD
+
+#BEGIN PLASMA PISTOL
+  - type: STR_PLASMA_PISTOL
+    armor: 50
+    attraction: 10
+    costSell: 42000
+    listOrder: 5000
+  - type: STR_PLASMA_PISTOL_CLIP
+    handSprite: 360
+    armor: 30
+    attraction: 10
+    costSell: 2220
+    listOrder: 5100
+#END PLASMA PISTOL
+
+#BEGIN PLASMA RIFLE
+  - type: STR_PLASMA_RIFLE
+    armor: 50
+    attraction: 10
+    costSell: 63250
+    listOrder: 5200
+  - type: STR_PLASMA_RIFLE_CLIP
+    handSprite: 352
+    armor: 30
+    attraction: 10
+    costSell: 3145
+    listOrder: 5300
+#END PLASMA RIFLE
+
+#BEGIN PLASMA SHOTGUN
+  - type: STR_PLASMA_SHOTGUN
+    requires:
+      - STR_PLASMA_SHOTGUN
+    size: 0.2
+    costSell: 56250
+    weight: 5
+    bigSprite: 120
+    floorSprite: 115
+    handSprite: 336
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_SHOTGUN_CLIP
+      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    accuracyAuto: 45
+    accuracySnap: 55
+    accuracyAimed: 65
+    tuAuto: 36
+    tuSnap: 28
+    tuAimed: 42
+    autoShots: 2
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    attraction: 10
+    listOrder: 5301
+    aimRange: 12
+    snapRange: 9
+    autoRange: 7
+    dropoff: 5
+  - type: STR_PLASMA_SHOTGUN_CLIP
+    requires:
+      - STR_PLASMA_SHOTGUN_CLIP
+    size: 0.1
+    costSell: 2700
+    weight: 3
+    bigSprite: 121
+    floorSprite: 116
+    handSprite: 512
+    hitSound: 19
+    hitAnimation: 46
+    power: 85
+    damageType: 5
+    clipSize: 16
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    shotgunPellets: 6
+    listOrder: 5302
+  - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    requires:
+      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    size: 0.1
+    costSell: 3850
+    weight: 3
+    bigSprite: 122
+    floorSprite: 117
+    handSprite: 520
+    hitSound: 19
+    hitAnimation: 56
+    power: 105
+    damageType: 5
+    clipSize: 16
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    shotgunPellets: 6
+    listOrder: 5303
+#END PLASMA SHOTGUN
+
+#BEGIN PLASMA SNIPER RIFLE
+  - type: STR_PLASMA_SNIPER_RIFLE
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE
+    size: 0.2
+    costSell: 67500
+    weight: 5
+    bigSprite: 123
+    floorSprite: 118
+    handSprite: 344
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    accuracySnap: 90
+    accuracyAimed: 140
+    tuSnap: 30
+    tuAimed: 45
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    attraction: 10
+    listOrder: 5304
+  - type: STR_PLASMA_SNIPER_RIFLE_CLIP
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    size: 0.1
+    costSell: 2700
+    weight: 3
+    bigSprite: 124
+    floorSprite: 119
+    handSprite: 456
+    hitSound: 19
+    hitAnimation: 46
+    power: 100
+    damageType: 5
+    clipSize: 16
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    listOrder: 5305
+  - type: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    size: 0.1
+    costSell: 4055
+    weight: 3
+    bigSprite: 156
+    floorSprite: 153
+    handSprite: 464
+    hitSound: 19
+    hitAnimation: 56
+    power: 130
+    damageType: 5
+    clipSize: 16
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    listOrder: 5306
+#END PLASMA SNIPER RIFLE
+
+#BEGIN HEAVY PLASMA
+  - type: STR_HEAVY_PLASMA
+    armor: 50
+    attraction: 10
+    costSell: 85800
+    listOrder: 5400
+  - type: STR_HEAVY_PLASMA_CLIP
+    handSprite: 328
+    armor: 30
+    attraction: 10
+    hitAnimation: 56
+    costSell: 4795
+    listOrder: 5500
+#END HEAVY PLASMA
+
+#BEGIN SMALL LAUNCHER
+  - type: STR_SMALL_LAUNCHER
+    requires:
+      - STR_SMALL_LAUNCHER
+    size: 0.2
+    costSell: 60000
+    weight: 10
+    bigSprite: 37
+    floorSprite: 36
+    handSprite: 64
+    bulletSprite: 9
+    fireSound: 53
+    compatibleAmmo:
+      - STR_STUN_BOMB
+      - STR_ELERIUM_BOMB
+      - STR_FIRE_BOMB
+      - STR_SMOKE_BOMB
+    accuracySnap: 65
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 4 
+    armor: 50
+    attraction: 10
+    arcingShot: true
+    listOrder: 5600
+  - type: STR_STUN_BOMB
+    handSprite: 376
+    hitAnimation: 64
+    bulletSprite: 9
+    armor: 30
+    attraction: 10
+    costSell: 7600
+    listOrder: 5700
+  - type: STR_ELERIUM_BOMB
+    requires:
+      - STR_ELERIUM_BOMB
+    size: 0.1
+    costSell: 7600
+    weight: 3
+    bigSprite: 125
+    floorSprite: 120
+    handSprite: 384
+    hitSound: 0
+    hitAnimation: 0
+    bulletSprite: 16
+    power: 90
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    blastRadius: 5
+    armor: 30
+    attraction: 10
+    listOrder: 5701
+#END SMALL LAUNCHER
+
+#BEGIN BLASTER LAUNCHER
+  - type: STR_BLASTER_LAUNCHER
+    armor: 50
+    attraction: 10
+    costSell: 72000
+    listOrder: 5800
+    waypoints: 9
+  - type: STR_BLASTER_BOMB
+    handSprite: 368
+    armor: 30
+    attraction: 10
+    costSell: 8514
+    listOrder: 5900
+#END BLASTER LAUNCHER
+
+#BEGIN ALIEN GRENADE
+  - type: STR_ALIEN_GRENADE
+    handSprite: 392
+    armor: 45
+    attraction: 6
+    costSell: 7425
+#END ALIEN GRENADE
+##END ALIENS WEAPONS
+
+##BEGIN MISC
+#BEGHIN ELERIUM
+  - type: STR_ELERIUM_115
+    handSprite: 400
+    floorSprite: 121
+    costSell: 2500
+#END ELERIUM
+
+#BEGIN MIND PROBE
+  - type: STR_MIND_PROBE
+    handSprite: 408
+    armor: 30
+    attraction: 10
+    costSell: 150000
+#END MIND PROBE
+
+#BEGIN ALIEN DATA SLATE
+  - type: STR_ALIEN_DATA_SLATE
+    requires:
+      - STR_ALIEN_DATA_SLATE
+    size: 0.1
+    costSell: 50000
+    weight: 1
+    bigSprite: 137
+    floorSprite: 134
+    invWidth: 1
+    invHeight: 1
+    recoveryPoints: 25
+    armor: 1000
+    listOrder: 6201
+#END ALIEN DATA SLATE
+
+#BEGIN ALIEN DATA CORE
+  - type: STR_ALIEN_DATA_CORE
+    requires:
+      - STR_ALIEN_DATA_CORE
+    size: 3
+    costSell: 100000
+    weight: 50
+    bigSprite: 138
+    floorSprite: 135
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 50
+    armor: 1000
+    listOrder: 6202
+#BEGIN ALIEN DATA CORE
+##END MISC
+
+##BEGIN ALIEN CORPSES
+#BEGIN FLOATER CORPSE
+  - type: STR_FLOATER_CORPSE
+    costSell: 10000
+    recoveryPoints: 3
+    listOrder: 6300
+#END FLOATER CORPSE
+
+#BEGIN SECTOID CORPSE
+  - type: STR_SECTOID_CORPSE
+    costSell: 10000
+    recoveryPoints: 3
+    listOrder: 6400
+#END SECTOID CORPSE
+
+#BEGIN SNAKEMAN CORPSE
+  - type: STR_SNAKEMAN_CORPSE
+    costSell: 10000
+    recoveryPoints: 3
+    listOrder: 6500
+#END SNAKEMAN CORPSE
+
+#BEGIN MUTON CORPSE
+  - type: STR_MUTON_CORPSE
+    costSell: 10000
+    recoveryPoints: 3
+    listOrder: 6600
+#END MUTON CORPSE
+
+#BEGIN WASPITE CORPSE
+  - type: STR_WASPITE_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 20
+    bigSprite: 131
+    floorSprite: 128
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 6700
+#END WASPITE CORPSE
+
+#BEGIN GAZER CORPSE
+  - type: STR_GAZER_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 20
+    bigSprite: 133
+    floorSprite: 130
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 6800
+#END GAZER CORPSE
+
+#BEGIN SECTOID ELITE CORPSE
+  - type: STR_SECTOID_ELITE_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 30
+    bigSprite: 158
+    floorSprite: 163
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    battleType: 11
+    armor: 26
+    listOrder: 6900
+#END SECTOID ELITE CORPSE
+
+#BEGIN MUTON ELITE CORPSE
+  - type: STR_MUTON_ELITE_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 40
+    bigSprite: 135
+    floorSprite: 132
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    battleType: 11
+    armor: 26
+    listOrder: 7000
+#END MUTON ELITE CORPSE
+
+#BEGIN ETHEREAL CORPSE
+  - type: STR_ETHEREAL_CORPSE
+    costSell: 10000
+    recoveryPoints: 5
+    listOrder: 7100
+#END ETHEREAL CORPSE
+
+#BEGIN MUTON ELITE GUARD CORPSE
+  - type: STR_MUTON_ELITE_GUARD_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 40
+    bigSprite: 136
+    floorSprite: 132
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 7200
+#END MUTON ELITE GUARD CORPSE
+
+#BEGIN SILACOID CORPSE
+  - type: STR_SILACOID_CORPSE
+    costSell: 10000
+    listOrder: 7300
+#END SILACOID CORPSE
+
+#BEGIN REAPER CORPSE
+  - type: STR_REAPER_CORPSE
+    costSell: 10000
+    listOrder: 7400
+  - type: REAPER_CORPSE_1
+    armor: 26
+    listOrder: 7401
+  - type: REAPER_CORPSE_2
+    armor: 26
+    listOrder: 7402
+  - type: REAPER_CORPSE_3
+    armor: 26
+    listOrder: 7403
+  - type: REAPER_CORPSE_4
+    armor: 26
+    listOrder: 7404
+#END REAPER CORPSE
+
+#BEGIN CYBERDISC CORPSE
+  - type: STR_CYBERDISC_CORPSE
+    costSell: 10000
+    listOrder: 7500
+  - type: CYBERDISC_CORPSE_1
+    armor: 26
+    listOrder: 7501
+  - type: CYBERDISC_CORPSE_2
+    armor: 26
+    listOrder: 7502
+  - type: CYBERDISC_CORPSE_3
+    armor: 26
+    listOrder: 7503
+  - type: CYBERDISC_CORPSE_4
+    armor: 26
+    listOrder: 7504
+#END CYBERDISC CORPSE
+
+#BEGIN CHRYSSALID CORPSE
+  - type: STR_CHRYSSALID_CORPSE
+    costSell: 10000
+    armor: 26
+    listOrder: 7600
+#END CHRYSSALID CORPSE
+
+#BEGIN SECTOPOD CORPSE
+  - type: STR_SECTOPOD_CORPSE
+    costSell: 10000
+    listOrder: 7700
+  - type: SECTOPOD_CORPSE_1
+    armor: 26
+    listOrder: 7701
+  - type: SECTOPOD_CORPSE_2
+    armor: 26
+    listOrder: 7702
+  - type: SECTOPOD_CORPSE_3
+    armor: 26
+    listOrder: 7703
+  - type: SECTOPOD_CORPSE_4
+    armor: 26
+    listOrder: 7704
+#END SECTOPOD CORPSE
+
+#BEGIN CELATID CORPSE
+  - type: STR_CELATID_CORPSE
+    costSell: 10000
+    listOrder: 7800
+#END CELATID CORPSE
+
+#BEGIN MUTON BERSERKER CORPSE
+  - type: STR_MUTON_BERSERKER_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 60
+    bigSprite: 167
+    floorSprite: 180
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 6
+    battleType: 11
+    armor: 26
+    listOrder: 7900
+#END MUTON BERSERKER CORPSE
+
+#BEGIN CYBERMITE CORPSE
+  - type: STR_CYBERMITE_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 30
+    bigSprite: 132
+    floorSprite: 129
+    power: 90
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    blastRadius: 5
+    listOrder: 8000
+#END CYBERMITE CORPSE
+
+#BEGIN HOLODRONE CORPSE
+  - type: STR_HOLODRONE_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 30
+    bigSprite: 134
+    floorSprite: 131
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 8100
+#END HOLODRONE CORPSE
+
+#BEGIN ARMORED CYBERDISC CORPSE
+  - type: STR_ARMORED_CYBERDISC_CORPSE
+    size: 1
+    costSell: 10000
+    battleType: 11
+    power: 140
+    blastRadius: 7
+    listOrder: 8200
+  - type: ARMORED_CYBERDISC_CORPSE_1
+    name: STR_ARMORED_CYBERDISC_CORPSE
+    floorSprite: 154
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    armor: 26
+    listOrder: 8201
+  - type: ARMORED_CYBERDISC_CORPSE_2
+    floorSprite: 155
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 26
+    listOrder: 8202
+  - type: ARMORED_CYBERDISC_CORPSE_3
+    floorSprite: 156
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 26
+    listOrder: 8203
+  - type: ARMORED_CYBERDISC_CORPSE_4
+    floorSprite: 157
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 26
+    listOrder: 8204
+#END ARMORED CYBERDISC CORPSE
+
+#BEGIN ARMORED SECTOPOD CORPSE
+  - type: STR_ARMORED_SECTOPOD_CORPSE
+    size: 1
+    costSell: 10000
+    battleType: 11
+    listOrder: 8300
+  - type: ARMORED_SECTOPOD_CORPSE_1
+    name: STR_ARMORED_SECTOPOD_CORPSE
+    floorSprite: 158
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    armor: 26
+    listOrder: 8301
+  - type: ARMORED_SECTOPOD_CORPSE_2
+    floorSprite: 159
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 26
+    listOrder: 8302
+  - type: ARMORED_SECTOPOD_CORPSE_3
+    floorSprite: 160
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 26
+    listOrder: 8303
+  - type: ARMORED_SECTOPOD_CORPSE_4
+    floorSprite: 161
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 26
+    listOrder: 8304
+#END ARMORED SECTOPOD CORPSE
+
+#BEGIN CHRYSSALID SPITTER CORPSE
+  - type: STR_CHRYSSALID_SPITTER_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 40
+    bigSprite: 164
+    floorSprite: 177
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 8500
+#END CHRYSSALID SPITTER CORPSE
+##END ALIEN CORPSES
+
+##BEGIN TERROR UNIT WEAPONS
+#BEGIN SECTOPOD WEAPON
+  - type: SECTOPOD_WEAPON
+    hitAnimation: 36
+    bulletSprite: 7
+    fireSound: 11
+    listOrder: 11400
+#END SECTOPOD WEAPON
+
+#BEGIN MUTON BERSERKER WEAPON
+  - type: MUTON_BERSERKER_WEAPON
+    weight: 3
+    bigSprite: -1
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 110
+    meleeHitSound: 111
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 200
+    tuMelee: 10
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+    listOrder: 11401
+#END MUTON BERSERKER WEAPON
+
+#BEGIN CYBERMITE WEAPON
+  - type: CYBERMITE_WEAPON
+    weight: 3
+    bigSprite: -3
+    floorSprite: 31
+    handSprite: 104
+    hitSound: 54
+    clipSize: -1
+    power: 80
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    listOrder: 11402
+#END CYBERMITE WEAPON
+
+#BEGIN HOLODRONE WEAPON
+  - type: HOLODRONE_WEAPON
+    weight: 3
+    bigSprite: -2
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 7
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    clipSize: -1
+    power: 85
+    damageType: 4
+    accuracyAuto: 40
+    accuracySnap: 80
+    tuAuto: 35
+    tuSnap: 30
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    autoShots: 5
+    listOrder: 11403
+#END HOLODRONE WEAPON
+
+#BEGIN ARMORED CYBERDISC WEAPON
+  - type: ARMORED_CYBERDISC_WEAPON
+    weight: 3
+    bigSprite: -2
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 18
+    hitSound: 19
+    hitAnimation: 46
+    power: 130
+    damageType: 5
+    accuracyAuto: 40
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 45
+    tuSnap: 30
+    tuAimed: 60
+    clipSize: -1
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    listOrder: 11404
+#END ARMORED CYBERDISC WEAPON
+
+#BEGIN ARMORED SECTOPOD WEAPON
+  - type: ARMORED_SECTOPOD_WEAPON
+    weight: 3
+    bigSprite: -2
+    floorSprite: 31
+    handSprite: 104
+    fireSound: 18
+    hitSound: 19
+    hitAnimation: 56
+    power: 115
+    damageType: 5
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 8
+    recover: false
+    autoShots: 5
+    listOrder: 11405
+#END ARMORED SECTOPOD WEAPON
+
+#BEGIN CHRYSSALID SPITTER WEAPON
+  - type: CHRYSSALID_SPITTER_WEAPON
+    weight: 3
+    bigSprite: -2
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 51
+    hitSound: 19
+    hitAnimation: 46
+    power: 140
+    clipSize: -1
+    damageType: 1
+    accuracySnap: 100
+    tuSnap: 20
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    zombieUnit: STR_ZOMBIE
+    flatRate: true
+    listOrder: 11406
+#END CHRYSSALID SPITTER WEAPON
+##END ADDITIONAL TERROR UNIT WEAPONS
+
+##BEGIN ALIVE ALIENS
+#BEGIN FLOATER
+  - type: STR_FLOATER_SOLDIER
+    costSell: 20000
+    listOrder: 11600
+  - type: STR_FLOATER_NAVIGATOR
+    costSell: 30000
+    listOrder: 11601
+  - type: STR_FLOATER_MEDIC
+    costSell: 30000
+    listOrder: 11602
+  - type: STR_FLOATER_ENGINEER
+    costSell: 30000
+    listOrder: 11603
+  - type: STR_FLOATER_LEADER
+    costSell: 30000
+    listOrder: 11604
+  - type: STR_FLOATER_COMMANDER
+    costSell: 30000
+    listOrder: 11605
+#END FLOATER
+
+#BEGIN SECTOID
+  - type: STR_SECTOID_SOLDIER
+    costSell: 20000
+    listOrder: 11700
+  - type: STR_SECTOID_NAVIGATOR
+    costSell: 30000
+    listOrder: 11702
+  - type: STR_SECTOID_MEDIC
+    costSell: 30000
+    listOrder: 11703
+  - type: STR_SECTOID_ENGINEER
+    costSell: 30000
+    listOrder: 11704
+  - type: STR_SECTOID_LEADER
+    costSell: 30000
+    listOrder: 11705
+  - type: STR_SECTOID_COMMANDER
+    costSell: 30000
+    listOrder: 11706
+#END SECTOID
+
+#BEGIN SNAKEMAN
+  - type: STR_SNAKEMAN_SOLDIER
+    costSell: 20000
+    listOrder: 11800
+  - type: STR_SNAKEMAN_NAVIGATOR
+    costSell: 30000
+    listOrder: 11801
+  - type: STR_SNAKEMAN_ENGINEER
+    costSell: 30000
+    listOrder: 11802
+  - type: STR_SNAKEMAN_LEADER
+    costSell: 30000
+    listOrder: 11803
+  - type: STR_SNAKEMAN_COMMANDER
+    costSell: 30000
+    listOrder: 11804
+#END SNAKEMAN
+
+#BEGIN MUTON
+  - type: STR_MUTON_SOLDIER
+    costSell: 20000
+    listOrder: 11900
+  - type: STR_MUTON_NAVIGATOR
+    costSell: 30000
+    listOrder: 11901
+  - type: STR_MUTON_ENGINEER
+    costSell: 30000
+    listOrder: 11902
+#END MUTON
+
+#BEGIN WASPITE
+  - type: STR_WASPITE_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+    listOrder: 12000
+  - type: STR_WASPITE_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12001
+  - type: STR_WASPITE_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12002
+  - type: STR_WASPITE_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12003
+  - type: STR_WASPITE_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12004
+  - type: STR_WASPITE_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12005
+#END WASPITE
+
+#BEGIN GAZER
+  - type: STR_GAZER_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+    listOrder: 12100
+  - type: STR_GAZER_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12101
+  - type: STR_GAZER_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12102
+  - type: STR_GAZER_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12103
+  - type: STR_GAZER_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12104
+  - type: STR_GAZER_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12105
+#END GAZER
+
+#BEGIN SECTOID ELITE
+  - type: STR_SECTOID_ELITE_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+    listOrder: 12200
+  - type: STR_SECTOID_ELITE_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12201
+  - type: STR_SECTOID_ELITE_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12202
+  - type: STR_SECTOID_ELITE_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12203
+  - type: STR_SECTOID_ELITE_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12204
+  - type: STR_SECTOID_ELITE_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12205
+#END ARMORED SECTOID
+
+#BEGIN MUTON ELITE
+  - type: STR_MUTON_ELITE_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+    listOrder: 12300
+  - type: STR_MUTON_ELITE_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12301
+  - type: STR_MUTON_ELITE_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12302
+  - type: STR_MUTON_ELITE_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12303
+#END MUTON ELITE
+
+#BEGIN ETHEREAL
+  - type: STR_ETHEREAL_SOLDIER
+    costSell: 30000
+    listOrder: 12400
+  - type: STR_ETHEREAL_LEADER
+    costSell: 30000
+    listOrder: 12401
+  - type: STR_ETHEREAL_COMMANDER
+    costSell: 30000
+    listOrder: 12402
+#END ETHEREAL
+
+#BEGIN MUTON ELITE GUARD
+  - type: STR_MUTON_ELITE_GUARD_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+    listOrder: 12500
+  - type: STR_MUTON_ELITE_GUARD_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12501
+  - type: STR_MUTON_ELITE_GUARD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12502
+#END MUTON ELITE GUARDIANS
+##END ALIVE ALIENS
+
+##BEGIN ALIVE TERRORUNITS
+#BEGIN SILACOID
+  - type: STR_SILACOID_TERRORIST
+    costSell: 20000
+    listOrder: 12600
+#END SILACOID
+
+#BEGIN REAPER
+  - type: STR_REAPER_TERRORIST
+    costSell: 20000
+    listOrder: 12700
+#END REAPER
+
+#BEGIN CYBERDISC
+  - type: STR_CYBERDISC_TERRORIST
+    costSell: 40000
+    listOrder: 12800
+#END CYBERDISC
+
+#BEGIN CHRYSSALID
+  - type: STR_CHRYSSALID_TERRORIST
+    costSell: 30000
+    listOrder: 12900
+#END CHRYSSALID
+
+#BEGIN CELATID
+  - type: STR_CELATID_TERRORIST
+    costSell: 20000
+    listOrder: 13000
+#END CELATID
+
+#BEGIN SECTOPOD
+  - type: STR_SECTOPOD_TERRORIST
+    costSell: 40000
+    listOrder: 13100
+#END SECTOPOD
+
+#BEGIN MUTON BERSERKER
+  - type: STR_MUTON_BERSERKER_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 13200
+#END MUTON BERSERKER
+
+#BEGIN CYBERMITE
+  - type: STR_CYBERMITE_TERRORIST
+    recover: true
+    size: 0.0
+    liveAlien: true
+    costSell: 30000
+    listOrder: 13300
+#END CYBERMITE
+
+#BEGIN HOLODRONE
+  - type: STR_HOLODRONE_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 13400
+#END HOLODRONE
+
+#BEGIN ARMORED CYBERDISC
+  - type: STR_ARMORED_CYBERDISC_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 13500
+#END ARMORED CYBERDISC
+
+#BEGIN ARMORED SECTOPOD
+  - type: STR_ARMORED_SECTOPOD_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 13600
+#END ARMORED SECTOPOD
+
+#BEGIN CHRYSSALID SPITTER
+  - type: STR_CHRYSSALID_SPITTER_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 13700
+#END CHRYSSALID SPITTER
+##END ALIVE TERRORUNITS
+
+##BEGIN UFO COMPONENTS
+  - type: STR_UFO_POWER_SOURCE
+    costSell: 125000
+  - type: STR_UFO_NAVIGATION
+    costSell: 40000
+  - type: STR_UFO_CONSTRUCTION
+    costSell: 10000
+  - type: STR_ALIEN_FOOD
+    costSell: 2500
+  - type: STR_ALIEN_REPRODUCTION
+    costSell: 20000
+  - type: STR_ALIEN_ENTERTAINMENT
+    costSell: 10000
+  - type: STR_ALIEN_SURGERY
+    costSell: 19000
+  - type: STR_EXAMINATION_ROOM
+    costSell: 4500
+  - type: STR_ALIEN_ALLOYS
+    costSell: 3250
+  - type: STR_ALIEN_HABITAT
+    costSell: 10000
+##END UFO COMPONETS
+###END ALIEN ITEMS
+
+###BEGIN CIVILIAN CORPSES
+##BEGIN MALE
+  - type: MALE_CIVILIAN2_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 142
+    floorSprite: 139
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9401
+  - type: MALE_CIVILIAN3_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 143
+    floorSprite: 140
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9402
+  - type: MALE_CIVILIAN4_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 144
+    floorSprite: 141
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9403
+  - type: MALE_CIVILIAN5_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 145
+    floorSprite: 142
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9404
+  - type: MALE_CIVILIAN6_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 146
+    floorSprite: 143
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9405
+  - type: MALE_CIVILIAN7_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 147
+    floorSprite: 144
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9406
+##END MALE
+
+##BEGIN FEMALE
+  - type: FEMALE_CIVILIAN2_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 148
+    floorSprite: 145
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9501
+  - type: FEMALE_CIVILIAN3_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 149
+    floorSprite: 146
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9502
+##END FEMALE
+###END CIVILIAN CORPSES
+####END ITEMS

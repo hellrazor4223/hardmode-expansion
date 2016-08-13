@@ -1,0 +1,2210 @@
+###BEGIN ALIEN DEPLOYMENTS
+alienDeployments:
+
+##BEGIN UFOS
+#BEGIN SMALL SCOUT
+  - type: STR_SMALL_SCOUT
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_MIND_PROBE
+    width: 40
+    length: 40
+    height: 8
+#END SMALL SCOUT
+
+#BEGIN MEDIUM SCOUT
+  - type: STR_MEDIUM_SCOUT
+    data: &MEDIUM_SCOUT_SETS
+      - alienRank: 11
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: &RANK_11_NORMAL
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: &RANK_10_NORMAL
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: &RANK_5_NORMAL
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: &RANK_4_NORMAL
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 8
+#END MEDIUM SCOUT
+
+#BEGIN FIGHTER
+  - type: STR_FIGHTER_SHIP
+    data: *MEDIUM_SCOUT_SETS
+    width: 40
+    length: 40
+    height: 8
+#END FIGHTER
+
+#BEGIN LARGE SCOUT
+  - type: STR_LARGE_SCOUT
+    data: &LARGE_SCOUT_SETS
+      - alienRank: 11
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_NORMAL
+      - alienRank: 10
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_NORMAL
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: *RANK_5_NORMAL
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: *RANK_4_NORMAL
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets: &RANK_2_NORMAL
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 8
+#END LARGE SCOUT
+
+#BEGIN EXCAVATOR
+  - type: STR_EXCAVATOR
+    data: *LARGE_SCOUT_SETS
+    width: 50
+    length: 50
+    height: 8
+#END EXCAVATOR
+
+#BEGIN SENTRY
+  - type: STR_SENTRY_SHIP
+    data: *LARGE_SCOUT_SETS
+    width: 50
+    length: 50
+    height: 8
+#END SENTRY
+
+#BEGIN HARVESTER
+  - type: STR_HARVESTER
+    data:
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_NORMAL
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_NORMAL
+      - alienRank: 5
+        lowQty: 5
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: *RANK_5_NORMAL
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_4_NORMAL
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: &RANK_3_NORMAL_NO_HE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: *RANK_2_NORMAL
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &RANK_1_NORMAL
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 8
+#END HARVESTER
+
+#BEGIN ABDUCTOR
+  - type: STR_ABDUCTOR
+    data:
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_NORMAL
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_NORMAL
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: *RANK_5_NORMAL
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: *RANK_4_NORMAL
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_3_NORMAL_NO_HE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: *RANK_2_NORMAL
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_NORMAL
+    width: 50
+    length: 50
+    height: 8
+#END ABDUCTOR
+
+#BEGIN TERROR SHIP
+  - type: STR_TERROR_SHIP
+    data: &TERROR_SETS
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: &EMPTY
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_NORMAL
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_NORMAL
+      - alienRank: 5
+        lowQty: 4
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+    width: 60
+    length: 60
+    height: 8
+#END TERROR SHIP
+
+#BEGIN LABSHIP
+  - type: STR_LAB_SHIP
+    data:
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: &RANK_11_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: &RANK_10_LARGE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: &RANK_5_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: &RANK_4_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets: &RANK_3_LARGE_NO_HE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: &RANK_2_LARGE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &RANK_1_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+    width: 60
+    length: 60
+    height: 8
+#END LABSHIP
+
+#BEGIN BATTLESHIP
+  - type: STR_BATTLESHIP
+    data: &BATTLESHIP_SET
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_3_LARGE_NO_HE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_2_LARGE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_LARGE
+      - alienRank: 0
+        lowQty: 0
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *EMPTY
+    width: 60
+    length: 60
+    height: 8
+#END BATTLESHIP
+
+#BEGIN SUPPLY SHIP
+  - type: STR_SUPPLY_SHIP
+    data:
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *RANK_3_LARGE_NO_HE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 8
+#END SUPPLY SHIP
+
+#BEGIN COMMAND SHIP
+  - type: STR_COMMAND_SHIP
+    data:
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: &RANK_11_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: &RANK_10_LARGE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: &RANK_5_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: &RANK_4_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets: &RANK_3_LARGE_NO_HE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: &RANK_2_LARGE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_MIND_PROBE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &RANK_1_LARGE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+    width: 80
+    length: 80
+    height: 8
+#END COMMAND SHIP
+##END UFOS
+
+##BEGIN BASES
+#BEGIN ALIEN BASE ASSAULT
+  - type: STR_ALIEN_BASE_ASSAULT
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &RANK_3_LARGE_HE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &RANK_2_BASE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+            - STR_ELERIUM_BOMB
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_PLASMA_SWORD
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_LARGE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
+    width: 60
+    length: 60
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    script: ALIENBASE
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMissionType: STR_ALIEN_SUPPLY
+    genMissionFreq: 6
+    alienBase: true # this is only to tell new battle mode what to do with this deployment
+    objectivesRequired: 16
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 250]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 10 #points aliens get for a base each day
+#END ALIEN BASE ASSAULT
+
+#BEGIN BASE DEFENSE
+  - type: STR_BASE_DEFENSE
+    data: *BATTLESHIP_SET
+    width: 60
+    length: 60
+    height: 2
+    terrains:
+      - XBASE
+    shade: 5
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+#END BASE DEFENSE
+
+#BEGIN MARS LANDING
+  - type: STR_MARS_CYDONIA_LANDING
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_3_LARGE_HE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_2_BASE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_LARGE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &RANK_0_CYDONIA
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+    width: 80
+    length: 80
+    height: 4
+    terrains:
+      - MARS
+    shade: 15
+    race: STR_CYDONIA_STAGE_1
+    nextStage: STR_MARS_THE_FINAL_ASSAULT
+    finalDestination: true
+    loseCutscene: loseGame
+    briefing:
+      textOffset: -16
+      palette: 6
+      music: GMNEWMAR
+      showTarget: false
+#END MARS LANDING
+
+#BEGIN MARS THE FINAL ASSAULT
+  - type: STR_MARS_THE_FINAL_ASSAULT
+    data:
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_3_LARGE_HE
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_2_BASE
+      - alienRank: 1
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_LARGE
+      - alienRank: 0
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_0_CYDONIA
+    width: 100
+    length: 100
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    race: STR_CYDONIA_STAGE_2
+    winCutscene: winGame
+    loseCutscene: loseGame
+    briefing:
+      textOffset: -16
+      palette: 6
+      music: GMNEWMAR
+      showTarget: false
+      showCraft: false
+      background: BACK01.SCR
+    script: BOSSBATTLE
+    objectiveType: 14
+    objectivesRequired: 4
+#END MARS THE FINAL ASSAULT
+##END BASES
+
+##BEGIN TERRORMISSIONS
+#BEGIN TERROR MISSION
+  - type: STR_TERROR_MISSION
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - URBAN
+      - MADURBAN
+      - EXPANDED_TERROR
+      - EXPANDED_URBAN_MIX
+    alert: STR_ALIENS_TERRORISE
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END TERROR MISSION
+
+#BEGIN TERROR MISSION BIG CITY
+  - type: STR_TERROR_MISSION_BIG_CITY
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - EXPANDED_TERROR
+      - EXPANDED_URBAN_MIX
+      - DAWNURBANA
+      - DAWNURBANB
+      - COMRCURBAN
+      - RAILYARDURBAN
+    alert: STR_ALIENS_TERRORISE
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END END TERROR MISSION BIG CITY
+
+#BEGIN TERROR MISSION INDUSTRIAL
+  - type: STR_TERROR_MISSION_INDUSTRIAL
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - EXPANDED_TERROR
+      - EXPANDED_URBAN_MIX
+      - PORTURBAN
+      - PORTINDUSTRIALURBAN
+      - RAILYARDURBAN
+      - INDUSTRIALURBAN
+    alert: STR_ALIENS_TERRORISE
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END END TERROR MISSION INDUSTRIAL
+
+#BEGIN TERROR MISSION SNOW
+  - type: STR_TERROR_MISSION_SNOW
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - URBAN_SNOW
+      - MADURBAN_SNOW
+      - EXPANDED_TERROR_SNOW
+      - EXPANDED_URBAN_MIX_SNOW
+    alert: STR_ALIENS_TERRORISE
+    briefing:
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END TERROR MISSION SNOW
+
+#BEGIN TERROR MISSION TROPICAL
+  - type: STR_TERROR_MISSION_TROPICAL
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - NATIVEURBAN
+    alert: STR_ALIENS_TERRORISE
+    briefing:
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END TERROR MISSION TROPICAL
+
+#BEGIN MILITARY BASE ATTACK
+  - type: STR_MILITARY_BASE_ATTACK
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - AREA51URBAN
+      - AIRFIELD
+    alert: STR_MILITARY_BASE_ATTACK_ALERT
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END MILITARY BASE ATTACK
+
+#BEGIN AIRFIELD ATTACK
+  - type: STR_AIRFIELD_ATTACK
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - AIRFIELD1
+      - AIRFIELD2
+      - AIRFIELD3
+      - AIRFIELD4
+      - AIRFIELD5
+      - AIRFIELD6
+      - AIRFIELD7
+      - AIRFIELD8
+    alert: STR_AIRFIELD_ATTACK_ALERT
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END AIRFIELD ATTACK
+
+#BEGIN PORT ATTACK
+  - type: STR_PORT_ATTACK
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - PORTURBAN
+      - PORTTFTD
+      - PORTINDUSTRIALURBAN
+    alert: STR_PORT_ATTACK_ALERT
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END PORT ATTACK
+
+#BEGIN ISLAND ATTACK
+  - type: STR_ISLAND_ATTACK
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - ISLANDURBAN
+    alert: STR_ISLAND_ATTACK_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END ISLAND ATTACK
+##END TERRORMISSIONS
+
+##BEGIN SPECIAL MISSIONS
+#BEGIN DOCKED SHIP
+  - type: STR_DOCKED_SHIP
+    data: *TERROR_SETS
+    width: 60
+    length: 70
+    height: 8
+    civilians: 24
+    terrains:
+      - PORTCARGOSHIP
+      - PORTLINERSHIP
+    alert: STR_ALIEN_ACTIVITY_DETECTED
+    alertBackground: BACK03.SCR
+    markerName: STR_DOCKED_SHIP
+    briefing:
+      showTarget: false
+      palette: 2
+      music: GMENBASE
+    duration: [4, 10]
+    despawnPenalty: 2000
+#END DOCKED SHIP
+
+#BEGIN SHIP ATTACK
+  - type: STR_SHIP_ATTACK
+    data: *TERROR_SETS
+    width: 30
+    length: 70
+    height: 8
+    civilians: 24
+    terrains:
+      - CARGOSHIP
+      - LINERSHIP
+    alert: STR_ALIEN_ACTIVITY_DETECTED
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE
+    markerName: STR_HIJACKED_SHIP
+    duration: [4, 10]
+    popupDelay: [1, 1]
+    despawnPenalty: 2000
+    objectiveType: 3
+    objectivesRequired: 5
+    objectiveComplete: [STR_SHIP_DISABLED, 250]
+    objectiveFailed: [STR_SHIP_OPERATIONAL, -1000]
+    objectivePopup: STR_SHIP_NAVIGATION_DESTROYED
+#END SHIP ATTACK
+##END SPECIAL MISSIONS
+###END ALIEN DEPLOYMENT
