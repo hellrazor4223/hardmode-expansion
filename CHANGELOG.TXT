@@ -18,6 +18,7 @@ Version 0.99.3
  - Added turned Version for: EXPANDEDUBASE16
 // - Optimized Mapscript for Alien Bases
 // - Optimized Mapscripot for Cydonia Final Assault
+ - Adjusted Ruleset to lastest changes in : openxcom_git_master_2016_08_12_1900
 
 Version 0.99.2b
  - Fix Alien Base Spawnings
