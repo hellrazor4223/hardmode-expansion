@@ -2,17 +2,17 @@
 extraSounds:
   - type: BATTLE.CAT
     files:
-      100: Resources/Sounds/Sound_Shoot_Shotgun.wav
-      102: Resources/Sounds/Sound_Shoot_SniperRifle.wav
-      103: Resources/Sounds/Sound_Shoot_TaserPistol.wav
-      104: Resources/Sounds/Sound_Move_Holodrone.wav
-      105: Resources/Sounds/Sound_Shoot_GrenadeLauncher.wav
-      106: Resources/Sounds/Sound_Hit_PlasmaMelee.wav
-      107: Resources/Sounds/Sound_Slice_PlasmaBlade.wav
-      108: Resources/Sounds/Sound_Slice_PlasmaSword.wav
-      109: Resources/Sounds/Sound_Hit_NormalMelee.wav
-      110: Resources/Sounds/Sound_Punch_MutonBerserker.wav
-      111: Resources/Sounds/Sound_Hit_MutonBerserker.wav
-      112: Resources/Sounds/Sound_Aggro_MutonBerserker.wav
+      100: Resources/Items/Shotgun/Sound_Shoot_Shotgun.wav
+      102: Resources/Items/SniperRifle/Sound_Shoot_SniperRifle.wav
+      103: Resources/Items/TaserPistol/Sound_Shoot_TaserPistol.wav
+      104: Resources/Units/Holodrone/Sound_Move_Holodrone.wav
+      105: Resources/Items/GrenadeLauncher/Sound_Shoot_GrenadeLauncher.wav
+      106: Resources/Items/Sound_Hit_PlasmaMelee.wav
+      107: Resources/Items/PlasmaBlade/Sound_Slice_PlasmaBlade.wav
+      108: Resources/Items/PlasmaSword/Sound_Slice_PlasmaSword.wav
+      109: Resources/Items/Sound_Hit_NormalMelee.wav
+      110: Resources/Units/MutonBerserker/Sound_Punch_MutonBerserker.wav
+      111: Resources/Units/MutonBerserker/Sound_Hit_MutonBerserker.wav
+      112: Resources/Units/MutonBerserker/Sound_Aggro_MutonBerserker.wav
 ###END EXTRASOUNDS
 
