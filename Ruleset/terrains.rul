@@ -3658,6 +3658,7 @@ terrains:
       - BLANKS
       - DESERTPLANE
       - CRASHEDPLANE
+      - DESERT
     script: CRASHEDPLANE
     mapBlocks: &CRASHEDPLANE_MAPS
       - name: CRASHEDPLANE00
@@ -4351,6 +4352,7 @@ terrains:
       - BLANKS
       - POLARPLANE
       - CRASHEDPLANE
+      - POLARDESERT
     script: CRASHEDPLANE
     mapBlocks: *CRASHEDPLANE_MAPS
 #END POLARPLANE
@@ -4795,6 +4797,7 @@ terrains:
       - BLANKS
       - TUNDRAPLANE
       - CRASHEDPLANE
+      - TUNDRADESERT
     script: CRASHEDPLANE
     mapBlocks: *CRASHEDPLANE_MAPS
 ##END TUNDRAS
