@@ -1721,7 +1721,10 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_SUPPLY: 100
+      STR_ALIEN_RESEARCH: 5
+      STR_ALIEN_ABDUCTION: 5
+      STR_ALIEN_HARVEST: 5
+      STR_ALIEN_SUPPLY: 85
     genMissionFreq: 6
     alienBase: true # this is only to tell new battle mode what to do with this deployment
     objectivesRequired: 16
