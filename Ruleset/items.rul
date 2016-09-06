@@ -304,7 +304,7 @@ items:
     accuracyAuto: 45
     accuracySnap: 55
     accuracyAimed: 90
-    autoShots: 2
+    autoShots: 3
     tuAuto: 60
     tuSnap: 33
     tuAimed: 75
