@@ -261,6 +261,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 8
+    cheatTurn: 14
 #END LARGE SCOUT
 
 #BEGIN EXCAVATOR
@@ -269,6 +270,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 8
+    cheatTurn: 14
 #END EXCAVATOR
 
 #BEGIN SENTRY
@@ -277,6 +279,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 8
+    cheatTurn: 14
 #END SENTRY
 
 #BEGIN HARVESTER
@@ -389,6 +392,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 8
+    cheatTurn: 14
 #END HARVESTER
 
 #BEGIN ABDUCTOR
@@ -439,6 +443,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 8
+    cheatTurn: 14
 #END ABDUCTOR
 
 #BEGIN TERROR SHIP
@@ -681,6 +686,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    cheatTurn: 10
 #END TERROR SHIP
 
 #BEGIN LABSHIP
@@ -992,6 +998,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    cheatTurn: 10
 #END LABSHIP
 
 #BEGIN BATTLESHIP
@@ -1072,6 +1079,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    cheatTurn: 10
 #END BATTLESHIP
 
 #BEGIN SUPPLY SHIP
@@ -1195,6 +1203,7 @@ alienDeployments:
     width: 50
     length: 50
     height: 8
+    cheatTurn: 14
 #END SUPPLY SHIP
 
 #BEGIN COMMAND SHIP
@@ -1506,6 +1515,7 @@ alienDeployments:
     width: 80
     length: 80
     height: 8
+    cheatTurn: 7
 #END COMMAND SHIP
 ##END UFOS
 
@@ -1731,6 +1741,7 @@ alienDeployments:
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 250]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 10 #points aliens get for a base each day
+    cheatTurn: 7 #Force Attack Mode
 #END ALIEN BASE ASSAULT
 
 #BEGIN BASE DEFENSE
@@ -1746,6 +1757,7 @@ alienDeployments:
       palette: 0
       background: BACK01.SCR
       music: GMENBASE
+    cheatTurn: 14
 #END BASE DEFENSE
 
 #BEGIN MARS LANDING
@@ -1873,6 +1885,7 @@ alienDeployments:
       palette: 6
       music: GMNEWMAR
       showTarget: false
+    cheatTurn: 7
 #END MARS LANDING
 
 #BEGIN MARS THE FINAL ASSAULT
@@ -1969,6 +1982,7 @@ alienDeployments:
     script: BOSSBATTLE
     objectiveType: 14
     objectivesRequired: 4
+    cheatTurn: 0
 #END MARS THE FINAL ASSAULT
 ##END BASES
 
@@ -1992,6 +2006,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END TERROR MISSION
 
 #BEGIN TERROR MISSION BIG CITY
@@ -2015,6 +2030,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END END TERROR MISSION BIG CITY
 
 #BEGIN TERROR MISSION INDUSTRIAL
@@ -2038,6 +2054,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END END TERROR MISSION INDUSTRIAL
 
 #BEGIN TERROR MISSION SNOW
@@ -2059,6 +2076,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END TERROR MISSION SNOW
 
 #BEGIN TERROR MISSION TROPICAL
@@ -2077,6 +2095,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END TERROR MISSION TROPICAL
 
 #BEGIN MILITARY BASE ATTACK
@@ -2096,6 +2115,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END MILITARY BASE ATTACK
 
 #BEGIN AIRFIELD ATTACK
@@ -2121,6 +2141,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END AIRFIELD ATTACK
 
 #BEGIN PORT ATTACK
@@ -2141,6 +2162,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END PORT ATTACK
 
 #BEGIN ISLAND ATTACK
@@ -2160,6 +2182,7 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END ISLAND ATTACK
 ##END TERRORMISSIONS
 
@@ -2183,6 +2206,7 @@ alienDeployments:
       music: GMENBASE
     duration: [4, 10]
     despawnPenalty: 2000
+    cheatTurn: 7
 #END DOCKED SHIP
 
 #BEGIN SHIP ATTACK
@@ -2209,6 +2233,7 @@ alienDeployments:
     objectiveComplete: [STR_SHIP_DISABLED, 250]
     objectiveFailed: [STR_SHIP_OPERATIONAL, -1000]
     objectivePopup: STR_SHIP_NAVIGATION_DESTROYED
+    cheatTurn: 7
 #END SHIP ATTACK
 ##END SPECIAL MISSIONS
 ###END ALIEN DEPLOYMENT
