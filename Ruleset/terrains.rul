@@ -314,23 +314,40 @@ terrains:
         width: 10
         length: 10
         groups: 7
-      - name: EXPANDEDUBASE17 #34 #Small Storage WE
+      - name: EXPANDEDUBASE17 #80 #Small Storage W
         width: 10
         length: 10
-      - name: EXPANDEDUBASE17b #35 #Small Storage NS
+      - name: EXPANDEDUBASE17b #81 #Small Storage N
         width: 10
         length: 10
-# Needs complete rework probably docked Medium Scout, Fighter, Sentry and or Large Scout
-      - name: EXPANDEDUBASE18 #36 #Empty -> Big Bunker
+      - name: EXPANDEDUBASE17c #82 #Small Storage E
+        width: 10
+        length: 10
+      - name: EXPANDEDUBASE17d #83 #Small Storage S
+        width: 10
+        length: 10
+      - name: EXPANDEDUBASE18 #84 #Fake Brain Room W
         width: 20
         length: 20
-      - name: EXPANDEDUBASE19 #37 #Food Processing
+      - name: EXPANDEDUBASE18b #85 #Fake Brain Room N
         width: 20
         length: 20
-      - name: EXPANDEDUBASE20 #38 #Small Scout Module
+      - name: EXPANDEDUBASE18c #86 #Fake Brain Room E
         width: 20
         length: 20
-      - name: EXPANDEDUBASE21 #39 #Clone Lab
+      - name: EXPANDEDUBASE18d #87 #Fake Brain Room S
+        width: 20
+        length: 20
+      - name: EXPANDEDUBASE19 #88 #Food Processing WE
+        width: 20
+        length: 20
+      - name: EXPANDEDUBASE19b #89 #Food Processing NS
+        width: 20
+        length: 20
+      - name: EXPANDEDUBASE20 #90 #Small Scout Module
+        width: 20
+        length: 20
+      - name: EXPANDEDUBASE21 #91 #Clone Lab
         width: 20
         length: 20
         groups: 5
