@@ -1051,8 +1051,8 @@ items:
     invHeight: 3
     armor: 20
     listOrder: 2202
-    snapRange: 24
-    minRange: 10
+    snapRange: 22
+    minRange: 16
   - type: STR_SNIPER_RIFLE_CLIP
     size: 0.1
     costBuy: 500
@@ -1344,7 +1344,7 @@ items:
     tuSnap: 33
     tuAimed: 66
     armor: 30
-    snapRange: 28
+    snapRange: 24
     minRange: 14
 #END HEAVY LASER SNIPER
 
@@ -1764,7 +1764,8 @@ items:
     armor: 50
     attraction: 10
     listOrder: 5304
-    snapRange: 18
+    snapRange: 26
+    minRange: 10
   - type: STR_PLASMA_SNIPER_RIFLE_CLIP
     requires:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
