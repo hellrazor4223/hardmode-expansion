@@ -1,7 +1,7 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requieres at least: openxcom_git_master_2016_07_22_0229 or newer
+This mod requieres at least: openxcom_git_master_2016_08_28_1950 or newer
 
 README for Version 0.99.3
 ##################################################
@@ -43,7 +43,7 @@ Feedback of any form is also appreciated.
 Compability to other mods:
 	This mod is intended to be a Standalone Mod.
 	Mods which only add new Items and New Crafts may not pose a problem.
-	UFO Extender Accuracy (supported but untested)
+	UFO Extender Accuracy (Full support)
 	High Quality Sounds (http://www.openxcom.com/mod/high-quality-sounds) from Daedalus
 
 Not compatible:
@@ -61,7 +61,6 @@ The list of included Mods is pretty big (60+) see Features.
 Mostly Graphics, New Units, Terrains and Weapons.
 
 Recommended Advanced Options:
-	TFTD Manufacture Rules (OCX Default)
 	Save Preprimed Grenades(for Smoke Grenades)
 	Alternate Movement Methods (to fight faster)
 	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
@@ -99,6 +98,7 @@ General Gameplay changes:
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
+	Alien Bases may also create Adcution, Harvest and research missions in their region
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 
 Economic:
