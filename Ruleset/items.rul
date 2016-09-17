@@ -989,7 +989,7 @@ items:
     armor: 20
     aimRange: 10
     snapRange: 8
-    dropoff: 15
+    dropoff: 6
   - type: STR_SHOTGUN_CLIP
     size: 0.1
     costBuy: 200
@@ -1052,8 +1052,7 @@ items:
     armor: 20
     listOrder: 2202
     snapRange: 24
-    minRange: 20
-    dropoff: 15
+    minRange: 10
   - type: STR_SNIPER_RIFLE_CLIP
     size: 0.1
     costBuy: 500
@@ -1198,7 +1197,6 @@ items:
     arcingShot: true
     listOrder: 3001
     snapRange: 24
-    dropoff: 10
   - type: STR_GRENADE_LAUNCHER_HE_AMMO
     size: 0.1
     costBuy: 200
@@ -1335,7 +1333,7 @@ items:
     aimRange: 11
     snapRange: 8
     autoRange: 6
-    dropoff: 10
+    dropoff: 4
 #END SCATTER LASER
 
 #BEGIN HEAVY LASER SNIPER
@@ -1346,9 +1344,8 @@ items:
     tuSnap: 33
     tuAimed: 66
     armor: 30
-    snapRange: 24
+    snapRange: 28
     minRange: 14
-    dropoff: 10
 #END HEAVY LASER SNIPER
 
 #BEGIN HEAVY LASER AUTO
@@ -1379,8 +1376,7 @@ items:
     armor: 30
     listOrder: 3701
     snapRange: 24
-    autoRange: 12
-    dropoff: 10
+    autoRange: 14
 #END HEAVY LASER AUTO
 
 #BEGIN GRENADES
@@ -1699,7 +1695,6 @@ items:
     aimRange: 12
     snapRange: 9
     autoRange: 7
-    dropoff: 5
   - type: STR_PLASMA_SHOTGUN_CLIP
     requires:
       - STR_PLASMA_SHOTGUN_CLIP
@@ -1769,6 +1764,7 @@ items:
     armor: 50
     attraction: 10
     listOrder: 5304
+    snapRange: 18
   - type: STR_PLASMA_SNIPER_RIFLE_CLIP
     requires:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
