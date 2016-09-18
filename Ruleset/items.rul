@@ -26,7 +26,7 @@ items:
 #BEGIN TANK CANNON
   - type: STR_TANK_CANNON
     listOrder: 1100
-    dropoff: 6
+    droppoff: 4
   - type: STR_HWP_CANNON_SHELLS
     hitSound: 0
     hitAnimation: 0
@@ -76,7 +76,7 @@ items:
   - type: STR_TANK_ROCKET_LAUNCHER
     accuracySnap: 65
     listOrder: 1300
-    dropoff: 6
+    droppoff: 4
   - type: STR_TANK_ROCKET_LAUNCHER_CORPSE
     size: 6 
     battleType: 11
@@ -121,7 +121,7 @@ items:
     size: 6 
     battleType: 11
     listOrder: 4907
-    dropoff: 4
+    droppoff: 3
   - type: TANK_LASER_CANNON_CORPSE_1
     name: STR_TANK_LASER_CANNON_CORPSE
     floorSprite: 68
@@ -184,7 +184,7 @@ items:
     invHeight: 3
     turretType: 0
     listOrder: 1501
-    dropoff: 6
+    droppoff: 4
   - type: STR_ALLOY_TANK_CANNON_CORPSE
     size: 6 
     battleType: 11
@@ -250,7 +250,7 @@ items:
     invHeight: 3
     turretType: 1
     listOrder: 1502
-    dropoff: 6
+    droppoff: 4
   - type: STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE
     size: 6 
     battleType: 11
@@ -319,7 +319,7 @@ items:
     invHeight: 3
     turretType: 2
     listOrder: 1503
-    dropoff: 4
+    droppoff: 3
   - type: STR_ALLOY_TANK_LASER_CANNON_CORPSE
     size: 6 
     battleType: 11
@@ -390,7 +390,7 @@ items:
     invHeight: 3
     turretType: 2
     listOrder: 1599
-    dropoff: 4
+    droppoff: 3
   - type: STR_HOVERTANK_LASER_CORPSE
     size: 6 
     battleType: 11
@@ -879,7 +879,7 @@ items:
     accuracyAuto: 60
     tuAuto: 54
     armor: 20
-    dropoff: 6
+    droppoff: 4
   - type: STR_PISTOL_CLIP
     handSprite: 128
     armor: 20
@@ -952,7 +952,7 @@ items:
       - STR_RIFLE_CLIP
       - STR_RIFLE_AA_CLIP
     armor: 20
-    dropoff: 6
+    droppoff: 4
   - type: STR_RIFLE_CLIP
     handSprite: 136
     armor: 20
@@ -1002,7 +1002,7 @@ items:
     armor: 20
     aimRange: 10
     snapRange: 8
-    dropoff: 6
+    droppoff: 4
   - type: STR_SHOTGUN_CLIP
     size: 0.1
     costBuy: 200
@@ -1066,7 +1066,7 @@ items:
     listOrder: 2202
     snapRange: 22
     minRange: 16
-    dropoff: 6
+    droppoff: 4
   - type: STR_SNIPER_RIFLE_CLIP
     size: 0.1
     costBuy: 500
@@ -1112,7 +1112,7 @@ items:
       - STR_HC_I_AMMO
       - STR_HC_AA_AMMO
     armor: 20
-    dropoff: 6
+    droppoff: 4
   - type: STR_HC_AP_AMMO
     handSprite: 168
     armor: 20
@@ -1154,7 +1154,7 @@ items:
       - STR_AC_I_AMMO
       - STR_AC_AA_AMMO
     armor: 20
-    dropoff: 6
+    droppoff: 4
   - type: STR_AC_AP_AMMO
     handSprite: 192
     armor: 20
@@ -1213,7 +1213,7 @@ items:
     arcingShot: true
     listOrder: 3001
     snapRange: 24
-    dropoff: 6
+    droppoff: 4
   - type: STR_GRENADE_LAUNCHER_HE_AMMO
     size: 0.1
     costBuy: 200
@@ -1278,7 +1278,7 @@ items:
       - STR_INCENDIARY_ROCKET
       - STR_ELERIUM_ROCKET
     armor: 20
-    dropoff: 4
+    droppoff: 3
   - type: STR_SMALL_ROCKET
     handSprite: 216
     armor: 20
@@ -1313,10 +1313,10 @@ items:
 #BEGIN LASER PISTOL / RIFLE
   - type: STR_LASER_PISTOL
     armor: 30
-    dropoff: 4
+    droppoff: 3
   - type: STR_LASER_RIFLE
     armor: 30
-    dropoff: 4
+    droppoff: 3
 #END LASER PISTOL / RIFLE
 
 #BEGIN SCATTER LASER
@@ -1353,7 +1353,7 @@ items:
     aimRange: 11
     snapRange: 8
     autoRange: 6
-    dropoff: 4
+    droppoff: 3
 #END SCATTER LASER
 
 #BEGIN HEAVY LASER SNIPER
@@ -1366,7 +1366,7 @@ items:
     armor: 30
     snapRange: 24
     minRange: 14
-    dropoff: 4
+    droppoff: 3
 #END HEAVY LASER SNIPER
 
 #BEGIN HEAVY LASER AUTO
@@ -1398,7 +1398,7 @@ items:
     listOrder: 3701
     snapRange: 24
     autoRange: 14
-    dropoff: 4
+    droppoff: 3
 #END HEAVY LASER AUTO
 
 #BEGIN GRENADES
