@@ -1,28 +1,35 @@
 Changelog:
 
-Version 0.99.3
- - Simplyfied some Missionscripts
- - Fix Position Error for HeavyLaserSniper Handob
- - Fix Position and Proportions for HeavyLaserAuto Handob
- - Fix Map Error for UFO_160e.MAP
- - Adjusted Vanilla Tanks back to original values
- - Added turned Version for: UBASE_00
- - Added turned Version for: UBASE_02
- - Added turned Version for: UBASE_03
- - Added turned Version for: UBASE_04
- - Added turned Version for: UBASE_05
- - Added turned Version for: UBASE_06
- - Added turned Version for: UBASE_08
- - Added turned Version for: UBASE_11
- - Added turned Version for: UBASE_15
- - Added turned Version for: EXPANDEDUBASE16
-// - Optimized Mapscript for Alien Bases
-// - Optimized Mapscripot for Cydonia Final Assault
- - Adjusted Ruleset to lastest changes in : openxcom_git_master_2016_08_12_1900
+Version 0.99.2d
+ - Fix ROUTES for UBASE_06 and UBASE_15
+ - Fix Terrain issues for:
+	- TAIGAPOLAR
+	- JUNGLEPOLAR
+	- GRASSLANDFOREST
+	- CRASHEDPLANE
+	- TUNDRAPLANE
+	- DESERTPLANE
+	- POLARPLANE
+ - Fix Shotgun Class BulletSprites
+ - Fix some minor UFOPaedia typos
+ - Adjust Alien Alloy Ammo Prices
+ - Adjust Alloy Cannon and Alloy Cannon Ammo Prices (Craft Weapon)
+ - Adjust UFO Extender Dropoff values and Ranges to be more balanced
+ - Adjust Muton Berserkers (no more energy issues *evilgrin*)
+ - Adjust HandObs for HeavyLaser/Auto and HeavyLaser/Sniper
+ - Adjust Alien Race occurances (Mutons come 1 month earlier)
+ - Added proper Raceweights for Retaliation Missions
+ - Added proper BulletSprites for Alloy Ammo
+ - Added Earlier Alien Cheat Turn for ALL Deployments
+ - Added increased scoring for VERY LARGE UFO's (double the vanilla value)
+ - Added overworked CRASHEDPLANE Maps
+
+Version 0.99.2c
+ - Adjusted Ruleset to latest changes in : openxcom_git_master_2016_08_28_1950
 
 Version 0.99.2b
  - Fix Alien Base Spawnings
- - Adjusted Ruleset to lastest changes in : openxcom_git_master_2016_07_22_0229
+ - Adjusted Ruleset to latest changes in : openxcom_git_master_2016_07_22_0229
 
 Version 0.99.2
  - Fix Alive Chryssalid Spitter Recovery
