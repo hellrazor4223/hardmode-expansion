@@ -965,9 +965,9 @@ items:
     bigSprite: 101
     floorSprite: 173
     handSprite: 544
+    bulletSprite: 20
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 20
     power: 40
     damageType: 1
     clipSize: 20
@@ -985,7 +985,6 @@ items:
     bigSprite: 102
     floorSprite: 100
     handSprite: 144
-    bulletSprite: 2
     fireSound: 100
     compatibleAmmo:
       - STR_SHOTGUN_CLIP
@@ -1011,6 +1010,7 @@ items:
     bigSprite: 104
     floorSprite: 102
     handSprite: 584
+    bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
     power: 25
@@ -1029,6 +1029,7 @@ items:
     bigSprite: 105
     floorSprite: 103
     handSprite: 592
+    bulletSprite: 20
     hitSound: 22
     hitAnimation: 26
     power: 45
@@ -1329,7 +1330,7 @@ items:
     bigSprite: 103
     floorSprite: 101
     handSprite: 152
-    bulletSprite: 6
+#    bulletSprite: 6
     fireSound: 11
     hitSound: 19
     hitAnimation: 36
@@ -1696,7 +1697,6 @@ items:
     bigSprite: 120
     floorSprite: 115
     handSprite: 336
-    bulletSprite: 8
     fireSound: 18
     compatibleAmmo:
       - STR_PLASMA_SHOTGUN_CLIP
@@ -1729,6 +1729,7 @@ items:
     bigSprite: 121
     floorSprite: 116
     handSprite: 512
+    bulletSprite: 8
     hitSound: 19
     hitAnimation: 46
     power: 85
@@ -1749,6 +1750,7 @@ items:
     bigSprite: 122
     floorSprite: 117
     handSprite: 520
+    bulletSprite: 8
     hitSound: 19
     hitAnimation: 56
     power: 105
