@@ -33,7 +33,8 @@ the alien base. Raid this base as early as possible!
 The game can only be won by capturing a Ethereal Commander who can unlock
 Cydonia or Bust. The gameplay is currently paced around 15 Month or more.
 
-For a real challenge turn on Iron Man Mode or enforce your own Iron Man Mode.
+For a real challenge play the game in Iron Man Mode!
+Please do no use the OpenXcom Iron Man option and enforce your own Iron Man Mode, its a big mod, so bugs may happen.
 
 I hope you will enjoy this collection of 60+ Mods (i stopped counting) 
 and please report any possible Bug you might find on the forum. 
@@ -61,7 +62,7 @@ The list of included Mods is pretty big (60+) see Features.
 Mostly Graphics, New Units, Terrains and Weapons.
 
 Recommended Advanced Options:
-	Save Preprimed Grenades(for Smoke Grenades)
+	Save Preprimed Grenades (for Smoke Grenades)
 	Alternate Movement Methods (to fight faster)
 	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
 	Storage limits for recovered Items (sell directly after a mission)
@@ -98,7 +99,7 @@ General Gameplay changes:
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
-	Alien Bases may also create Adcution, Harvest and research missions in their region
+	Alien Bases may also create Adcution, Harvest and Research missions in their region
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 
 Economic:
@@ -110,6 +111,7 @@ Economic:
 	Tanks and Armor are repairable, if the corpse is recovered intact
 
 Groundcombat changes:
+	Aliens are earlier aware of your presence
 	Chronological Racemixes
 	Bigger Map for Terrormissions (60x60 and up to 24 Civilians)
 	Bigger Maps also for Battleship, Terrorships and Labship (all 60x60)
