@@ -3,7 +3,7 @@
 
 This mod requieres at least: openxcom_git_master_2016_08_28_1950 or newer
 
-README for Version 0.99.3
+README for Version 0.99.3 WIP
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
@@ -93,13 +93,13 @@ General Gameplay changes:
 	Defensive starting Base layout (with 1 Additional General Stores)
 	Psi Amp is harder to get throu research
 	Psi Amp production is much more expensive
-	Corpses give access to "World News" and are needed for Meditkits
+	Corpses give access to World News and are needed for Meditkits
 	Alien Alloys can not be produced, they are as precious as Elerium-115 now
 	Elerium-115 recovery per UFO Power Source is 50% vanilla (25)
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
-	Alien Bases may also create Adcution, Harvest and Research missions in their region
+	Alien Bases may also create Abdcution, Harvest and Research Missions in their regions
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 
 Economic:
@@ -111,8 +111,8 @@ Economic:
 	Tanks and Armor are repairable, if the corpse is recovered intact
 
 Groundcombat changes:
-	Aliens are earlier aware of your presence
 	Chronological Racemixes
+	Aliens are earlier aware of your presence
 	Bigger Map for Terrormissions (60x60 and up to 24 Civilians)
 	Bigger Maps also for Battleship, Terrorships and Labship (all 60x60)
 	Alien will use Explosives and Explosive Weaponry from Turn 1 in Ground Combats
