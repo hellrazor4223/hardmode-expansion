@@ -1,6 +1,25 @@
 Changelog:
+Version 0.99.3
+ - Final Resource File Restructure
+ - Added turned Versions for: UBASE_00
+ - Added turned Versions for: UBASE_02
+ - Added turned Versions for: UBASE_03
+ - Added turned Versions for: UBASE_04
+ - Added turned Versions for: UBASE_05
+ - Added turned Versions for: UBASE_06
+ - Added turned Versions for: UBASE_08
+ - Added turned Versions for: UBASE_11
+ - Added turned Versions for: UBASE_15
+ - Added turned Versions for: EXPANDEDUBASE16
+ - Added turned Versions for: EXPANDEDUBASE17
+ - Added turned Versions for: EXPANDEDUBASE18 (Fake Brain Room)
+// - Optimized Mapscript for Alien Bases
+// - Optimized Mapscripot for Cydonia Final Assault
+
 Version 0.99.2d
+ - Simplyfied some Missionscripts
  - Fix ROUTES for UBASE_06 and UBASE_15
+ - Fix Map Error for UFO_160e.MAP
  - Fix Terrain issues for:
 	- TAIGAPOLAR
 	- JUNGLEPOLAR
@@ -11,12 +30,14 @@ Version 0.99.2d
 	- POLARPLANE
  - Fix Shotgun Class BulletSprites
  - Fix some minor UFOPaedia typos
+ - Fix Alloy Tank Laser Autoshot
  - Adjust Alien Alloy Ammo Prices
  - Adjust Alloy Cannon and Alloy Cannon Ammo Prices (Craft Weapon)
  - Adjust UFO Extender Dropoff values and Ranges to be more balanced
  - Adjust Muton Berserkers (no more energy issues *evilgrin*)
  - Adjust HandObs for HeavyLaser/Auto and HeavyLaser/Sniper
  - Adjust Alien Race occurances (Mutons come 1 month earlier)
+ - Adjust Vanilla Tanks back to original values
  - Added proper Raceweights for Retaliation Missions
  - Added proper BulletSprites for Alloy Ammo
  - Added Earlier Alien Cheat Turn for ALL Deployments
