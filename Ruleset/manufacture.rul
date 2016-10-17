@@ -1004,10 +1004,11 @@ manufacture:
     requires:
       - STR_IMPROVED_INTERCEPTOR
     space: 30
-    time: 8000
-    cost: 735000
+    time: 6000
+    cost: 435000
     requiredItems:
       STR_ALIEN_ALLOYS: 50
+      STR_INTERCEPTOR: 1
     listOrder: 3201
 #END RETALIATOR
 
