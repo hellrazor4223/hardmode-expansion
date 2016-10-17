@@ -1330,7 +1330,6 @@ items:
     bigSprite: 103
     floorSprite: 101
     handSprite: 152
-#    bulletSprite: 6
     fireSound: 11
     hitSound: 19
     hitAnimation: 36
