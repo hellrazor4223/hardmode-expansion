@@ -31,15 +31,12 @@ alienMissions:
         STR_SECTOID_3: 33
         STR_SNAKEMAN: 33
       4:
-        STR_FLOATER_3: 5
-        STR_SECTOID_3: 5
-        STR_SNAKEMAN: 80
-        STR_MUTON: 10
+        STR_SNAKEMAN: 100
       5:
-        STR_FLOATER_5: 10
-        STR_SECTOID_5: 10
-        STR_SNAKEMAN_5: 20
-        STR_MUTON: 60
+        STR_FLOATER_5: 25
+        STR_SECTOID_5: 25
+        STR_SNAKEMAN_5: 25
+        STR_MUTON: 25
       6:
         STR_MUTON: 100
       7:
@@ -49,26 +46,26 @@ alienMissions:
         STR_MUTON_7: 40
         STR_WASPITE: 40
       8:
-        STR_FLOATER_8: 5
-        STR_SECTOID_8: 5
+        STR_FLOATER_8: 3
+        STR_SECTOID_8: 3
         STR_SNAKEMAN_8: 10
-        STR_MUTON_8: 30
+        STR_MUTON_8: 34
         STR_WASPITE_8: 30
         STR_GAZER: 20
       9:
-        STR_FLOATER_8: 5
-        STR_SECTOID_8: 5
-        STR_SNAKEMAN_8: 5
-        STR_MUTON_8: 5
-        STR_WASPITE_8: 10
+        STR_FLOATER_8: 3
+        STR_SECTOID_8: 3
+        STR_SNAKEMAN_8: 3
+        STR_MUTON_8: 18
+        STR_WASPITE_8: 3
         STR_GAZER: 70
       10:
-        STR_FLOATER_10: 5
-        STR_SECTOID_10: 5
-        STR_SNAKEMAN_10: 5
-        STR_MUTON_10: 5
-        STR_WASPITE_10: 5
-        STR_GAZER_10: 15
+        STR_FLOATER_10: 3
+        STR_SECTOID_10: 3
+        STR_SNAKEMAN_10: 3
+        STR_MUTON_10: 14
+        STR_WASPITE_10: 3
+        STR_GAZER_10: 14
         STR_SECTOID_ELITE: 60
       11:
         STR_SECTOID_ELITE: 80
@@ -76,19 +73,19 @@ alienMissions:
       12:
         STR_MUTON_ELITE: 100
       13:
-        STR_FLOATER_13: 5
-        STR_SECTOID_13: 5
-        STR_SNAKEMAN_13: 5
-        STR_MUTON_13: 5
-        STR_WASPITE_13: 5
-        STR_GAZER_13: 5
-        STR_SECTOID_ELITE_13: 10
-        STR_MUTON_ELITE_13: 20
+        STR_FLOATER_13: 2
+        STR_SECTOID_13: 2
+        STR_SNAKEMAN_13: 2
+        STR_MUTON_13: 2
+        STR_WASPITE_13: 2
+        STR_GAZER_13: 2
+        STR_SECTOID_ELITE_13: 20
+        STR_MUTON_ELITE_13: 28
         STR_ETHEREAL: 40
       14:
         STR_SECTOID_ELITE_13: 5
-        STR_MUTON_ELITE_13: 5
-        STR_ETHEREAL: 45
+        STR_MUTON_ELITE_13: 10
+        STR_ETHEREAL: 40
         STR_MUTON_ELITE_GUARD: 45
       15:
         STR_FLOATER_15: 5
@@ -228,6 +225,11 @@ alienMissions:
         STR_SECTOID_8: 5
         STR_WASPITE_8: 10
         STR_GAZER: 80
+      9:
+        STR_FLOATER_8: 25
+        STR_SECTOID_8: 25
+        STR_WASPITE_8: 25
+        STR_GAZER: 25
       10:
         STR_FLOATER_10: 5
         STR_SECTOID_10: 5
@@ -305,80 +307,67 @@ alienMissions:
         STR_FLOATER_1: 60
         STR_SECTOID: 40
       2:
-        STR_FLOATER_1: 40
-        STR_SECTOID: 60
+        STR_SECTOID: 100
       3:
-        STR_FLOATER_3: 20
-        STR_SECTOID_3: 80
+        STR_FLOATER_3: 50
+        STR_SECTOID_3: 50
       5:
-        STR_FLOATER_5: 20
-        STR_SECTOID_5: 20
-        STR_SNAKEMAN_5: 30
-        STR_MUTON: 30
+        STR_FLOATER_5: 33
+        STR_SECTOID_5: 33
+        STR_MUTON: 33
       6:
-        STR_FLOATER_5: 5
-        STR_SECTOID_5: 5
-        STR_SNAKEMAN_5: 10
-        STR_MUTON: 80
+        STR_MUTON: 100
       7:
         STR_FLOATER_7: 5
         STR_SECTOID_7: 5
-        STR_SNAKEMAN_7: 10
         STR_MUTON_7: 40
-        STR_WASPITE: 40
+        STR_WASPITE: 50
       8:
         STR_FLOATER_8: 5
         STR_SECTOID_8: 5
-        STR_SNAKEMAN_8: 10
-        STR_MUTON_8: 40
-        STR_WASPITE_8: 20
-        STR_GAZER: 20
+        STR_MUTON_8: 30
+        STR_WASPITE_8: 10
+        STR_GAZER: 50
       9:
         STR_FLOATER_8: 5
         STR_SECTOID_8: 5
-        STR_SNAKEMAN_8: 5
         STR_MUTON_8: 25 
         STR_WASPITE_8: 10
         STR_GAZER: 50
       10:
         STR_FLOATER_10: 10
         STR_SECTOID_10: 10
-        STR_SNAKEMAN_10: 10
         STR_MUTON_10: 30
-        STR_SECTOID_ELITE: 40
+        STR_SECTOID_ELITE: 50
       11:
         STR_SECTOID_ELITE: 50
         STR_MUTON_ELITE: 50
       12:
-        STR_FLOATER_12: 15
-        STR_SECTOID_12: 15
-        STR_SNAKEMAN_12: 15
-        STR_MUTON_12: 15
-        STR_SECTOID_ELITE_12: 15
-        STR_MUTON_ELITE: 25       
+        STR_FLOATER_12: 10
+        STR_SECTOID_12: 10
+        STR_MUTON_12: 10
+        STR_SECTOID_ELITE_12: 20
+        STR_MUTON_ELITE: 50
       13:
         STR_FLOATER_13: 5
         STR_SECTOID_13: 5
-        STR_SNAKEMAN_13: 5
-        STR_MUTON_13: 5
-        STR_SECTOID_ELITE_13: 40
-        STR_MUTON_ELITE_13: 40       
+        STR_MUTON_13: 30
+        STR_SECTOID_ELITE_13: 30
+        STR_MUTON_ELITE_13: 30
       14:
         STR_FLOATER_13: 5
         STR_SECTOID_13: 5
-        STR_SNAKEMAN_13: 5
-        STR_MUTON_13: 5
+        STR_MUTON_13: 10
         STR_SECTOID_ELITE_13: 20
-        STR_MUTON_ELITE_13: 20     
+        STR_MUTON_ELITE_13: 20
         STR_MUTON_ELITE_GUARD: 40
       15:
-        STR_FLOATER_13: 5
-        STR_SECTOID_13: 5
-        STR_SNAKEMAN_13: 5
-        STR_MUTON_13: 10
-        STR_SECTOID_ELITE_13: 25
-        STR_MUTON_ELITE_13: 25   
-        STR_MUTON_ELITE_GUARD: 25
+        STR_FLOATER_13: 10
+        STR_SECTOID_13: 10
+        STR_MUTON_13: 20
+        STR_SECTOID_ELITE_13: 20
+        STR_MUTON_ELITE_13: 20
+        STR_MUTON_ELITE_GUARD: 20
     waves:
       - ufo: STR_SMALL_SCOUT
         count: 1
@@ -421,61 +410,65 @@ alienMissions:
     spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
     raceWeights: # In case of shootdown, race comes from UFO that triggered the mission.
       0:
-        STR_FLOATER: 10
-        STR_SECTOID: 10
+        STR_FLOATER: 100
+      1:
+        STR_FLOATER_1: 50
+        STR_SECTOID: 50
+      2:
+        STR_SECTOID: 100
       3:
-        STR_FLOATER: 30
-        STR_SECTOID: 30
-        STR_SNAKEMAN: 40
+        STR_FLOATER_3: 10
+        STR_SECTOID_3: 10
+        STR_SNAKEMAN: 80
       5:
-        STR_FLOATER: 10
-        STR_SECTOID: 10
-        STR_SNAKEMAN: 30
-        STR_MUTON: 50
+        STR_FLOATER_5: 5
+        STR_SECTOID_5: 5
+        STR_SNAKEMAN_5: 10
+        STR_MUTON: 80
       7:
-        STR_FLOATER: 5
-        STR_SECTOID: 5
-        STR_SNAKEMAN: 10
-        STR_MUTON: 40
+        STR_FLOATER_7: 5
+        STR_SECTOID_7: 5
+        STR_SNAKEMAN_7: 10
+        STR_MUTON_7: 40
         STR_WASPITE: 40
       8:
-        STR_FLOATER: 5
-        STR_SECTOID: 5
-        STR_SNAKEMAN: 5
-        STR_MUTON: 15
-        STR_WASPITE: 10
+        STR_FLOATER_8: 5
+        STR_SECTOID_8: 5
+        STR_SNAKEMAN_8: 10
+        STR_MUTON_8: 10
+        STR_WASPITE_8: 10
         STR_GAZER: 60
       10:
-        STR_FLOATER: 5
-        STR_SECTOID: 5
-        STR_SNAKEMAN: 5
-        STR_MUTON: 10
-        STR_WASPITE: 5
-        STR_GAZER: 10
+        STR_FLOATER_10: 5
+        STR_SECTOID_10: 5
+        STR_SNAKEMAN_10: 5
+        STR_MUTON_10: 10
+        STR_WASPITE_10: 5
+        STR_GAZER_10: 10
         STR_SECTOID_ELITE: 60
-      11:
-        STR_FLOATER: 5
-        STR_SECTOID: 5
-        STR_SNAKEMAN: 5
-        STR_MUTON: 5
-        STR_WASPITE: 5
-        STR_GAZER: 5
-        STR_SECTOID_ELITE: 10
+      12:
+        STR_FLOATER_12: 5
+        STR_SECTOID_12: 5
+        STR_SNAKEMAN_12: 5
+        STR_MUTON_12: 5
+        STR_WASPITE_12: 5
+        STR_GAZER_12: 5
+        STR_SECTOID_ELITE_12: 10
         STR_MUTON_ELITE: 60
       13:
-        STR_FLOATER: 5
-        STR_SECTOID: 5
-        STR_SNAKEMAN: 5
-        STR_MUTON: 5
-        STR_WASPITE: 5
-        STR_GAZER: 5
-        STR_SECTOID_ELITE: 5
-        STR_MUTON_ELITE: 5
+        STR_FLOATER_13: 5
+        STR_SECTOID_13: 5
+        STR_SNAKEMAN_13: 5
+        STR_MUTON_13: 5
+        STR_WASPITE_13: 5
+        STR_GAZER_13: 5
+        STR_SECTOID_ELITE_13: 5
+        STR_MUTON_ELITE_13: 5
         STR_ETHEREAL: 60
       14:
-        STR_SECTOID_ELITE: 10
-        STR_MUTON_ELITE: 20
-        STR_ETHEREAL: 30
+        STR_SECTOID_ELITE_15: 10
+        STR_MUTON_ELITE_15: 20
+        STR_ETHEREAL_15: 30
         STR_MUTON_ELITE_GUARD: 40
     waves:
       - ufo: STR_SMALL_SCOUT
