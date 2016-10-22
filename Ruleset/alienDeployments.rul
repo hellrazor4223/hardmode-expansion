@@ -1740,7 +1740,7 @@ alienDeployments:
       STR_SHIP_ATTACK: 1
       STR_DOCKED_SHIP: 1
       STR_ALIEN_SUPPLY: 90
-    genMissionFreq: 5
+    genMissionFreq: 6
     alienBase: true # this is only to tell new battle mode what to do with this deployment
     objectivesRequired: 16
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 250]
