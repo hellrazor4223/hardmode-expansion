@@ -2,6 +2,8 @@ Changelog:
 Version 0.99.3
  - Final Ressource File Restructure
  - Fix - Soldier Armor Repair in Research Tree Graphic
+ - Fix Wall issue for UFO_190m.MAP
+ - Adjusted Raceweights slightly
  - Added turned Versions for: UBASE_00
  - Added turned Versions for: UBASE_02
  - Added turned Versions for: UBASE_03
@@ -16,6 +18,16 @@ Version 0.99.3
  - Added turned Versions for: EXPANDEDUBASE18 (Fake Brain Room)
 // - Optimized Mapscript for Alien Bases
 // - Optimized Mapscripot for Cydonia Final Assault
+ - Added more Missions to Alien Bases to generate:
+	- Alien Research
+	- Alien Terror
+	- Alien Abduction
+	- Alien Retaliation
+	- Alien Harvest
+	- Ship Attack
+	- Docked Ship
+ - Added proper Raceweights for Alien Retaliation
+ - Added Manufacture dependency for Retaliators (they need a Interceptor now)
 
 Version 0.99.2d
  - Simplyfied some Missionscripts
