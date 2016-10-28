@@ -1,6 +1,7 @@
 Changelog:
 Version 0.99.3
- - Final Resource File Restructure
+ - Final Ressource File Restructure
+ - Fix - Soldier Armor Repair in Research Tree Graphic
  - Added turned Versions for: UBASE_00
  - Added turned Versions for: UBASE_02
  - Added turned Versions for: UBASE_03

@@ -5523,13 +5523,13 @@ Blaster Bomb#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O137">
       <dia:attribute name="obj_pos">
-        <dia:point val="10,-32"/>
+        <dia:point val="10,-38"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="9.95,-32.05;21.0887,-28.0587"/>
+        <dia:rectangle val="9.95,-38.05;21.0887,-34.0587"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="10,-32"/>
+        <dia:point val="10,-38"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -5558,7 +5558,7 @@ Blaster Bomb#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="15.5194,-29.8477"/>
+            <dia:point val="15.5194,-35.8477"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -5923,8 +5923,8 @@ Blaster Bomb#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O253" connection="13"/>
-        <dia:connection handle="1" to="O238" connection="3"/>
+        <dia:connection handle="0" to="O252" connection="13"/>
+        <dia:connection handle="1" to="O237" connection="3"/>
       </dia:connections>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O147">
@@ -8962,7 +8962,7 @@ Celatid Corpse#</dia:string>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="60.5194,34.8913"/>
-        <dia:point val="60.5095,36.9497"/>
+        <dia:point val="60.5096,36.9497"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -9123,35 +9123,7 @@ Celatid Corpse#</dia:string>
         <dia:connection handle="1" to="O102" connection="1"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O226">
-      <dia:attribute name="obj_pos">
-        <dia:point val="7.03872,-30.0543"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="6.98872,-30.4161;10.0637,-29.6925"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="7.03872,-30.0543"/>
-        <dia:point val="9.95187,-30.0543"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow">
-        <dia:enum val="22"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_length">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_width">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O134" connection="8"/>
-        <dia:connection handle="1" to="O137" connection="16"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O227">
+    <dia:object type="Standard - Text" version="1" id="O226">
       <dia:attribute name="obj_pos">
         <dia:point val="-49.2403,29.8913"/>
       </dia:attribute>
@@ -9187,7 +9159,7 @@ Celatid Corpse#</dia:string>
         <dia:connection handle="0" to="O150" connection="12"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O228">
+    <dia:object type="Standard - Text" version="1" id="O227">
       <dia:attribute name="obj_pos">
         <dia:point val="-23.2403,29.8913"/>
       </dia:attribute>
@@ -9223,7 +9195,7 @@ Celatid Corpse#</dia:string>
         <dia:connection handle="0" to="O151" connection="12"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O229">
+    <dia:object type="Flowchart - Box" version="0" id="O228">
       <dia:attribute name="obj_pos">
         <dia:point val="9,-58"/>
       </dia:attribute>
@@ -9271,7 +9243,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O230">
+    <dia:object type="Flowchart - Box" version="0" id="O229">
       <dia:attribute name="obj_pos">
         <dia:point val="-17,-58"/>
       </dia:attribute>
@@ -9319,7 +9291,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O231">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O230">
       <dia:attribute name="obj_pos">
         <dia:point val="-11.4806,-54.1087"/>
       </dia:attribute>
@@ -9350,11 +9322,11 @@ Celatid Corpse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O230" connection="13"/>
+        <dia:connection handle="0" to="O229" connection="13"/>
         <dia:connection handle="1" to="O81" connection="1"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O232">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O231">
       <dia:attribute name="obj_pos">
         <dia:point val="11.7597,-54.1087"/>
       </dia:attribute>
@@ -9385,11 +9357,11 @@ Celatid Corpse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O229" connection="12"/>
+        <dia:connection handle="0" to="O228" connection="12"/>
         <dia:connection handle="1" to="O81" connection="3"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O233">
+    <dia:object type="Standard - Text" version="1" id="O232">
       <dia:attribute name="obj_pos">
         <dia:point val="-26.9022,-11.0852"/>
       </dia:attribute>
@@ -9422,7 +9394,7 @@ Celatid Corpse#</dia:string>
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O234">
+    <dia:object type="Flowchart - Box" version="0" id="O233">
       <dia:attribute name="obj_pos">
         <dia:point val="-26,14"/>
       </dia:attribute>
@@ -9470,7 +9442,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O235">
+    <dia:object type="Flowchart - Box" version="0" id="O234">
       <dia:attribute name="obj_pos">
         <dia:point val="-26,20"/>
       </dia:attribute>
@@ -9518,7 +9490,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O236">
+    <dia:object type="Standard - Line" version="0" id="O235">
       <dia:attribute name="obj_pos">
         <dia:point val="-27.9613,15.9457"/>
       </dia:attribute>
@@ -9543,10 +9515,10 @@ Celatid Corpse#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O29" connection="8"/>
-        <dia:connection handle="1" to="O234" connection="16"/>
+        <dia:connection handle="1" to="O233" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O237">
+    <dia:object type="Standard - Line" version="0" id="O236">
       <dia:attribute name="obj_pos">
         <dia:point val="-20.4806,17.8913"/>
       </dia:attribute>
@@ -9570,11 +9542,11 @@ Celatid Corpse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O234" connection="13"/>
-        <dia:connection handle="1" to="O235" connection="16"/>
+        <dia:connection handle="0" to="O233" connection="13"/>
+        <dia:connection handle="1" to="O234" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O238">
+    <dia:object type="Flowchart - Box" version="0" id="O237">
       <dia:attribute name="obj_pos">
         <dia:point val="-4,-7"/>
       </dia:attribute>
@@ -9625,7 +9597,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O239">
+    <dia:object type="Standard - Line" version="0" id="O238">
       <dia:attribute name="obj_pos">
         <dia:point val="1.5,-9.10865"/>
       </dia:attribute>
@@ -9650,10 +9622,10 @@ Celatid Corpse#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O144" connection="13"/>
-        <dia:connection handle="1" to="O238" connection="2"/>
+        <dia:connection handle="1" to="O237" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O240">
+    <dia:object type="Flowchart - Box" version="0" id="O239">
       <dia:attribute name="obj_pos">
         <dia:point val="-4,-1"/>
       </dia:attribute>
@@ -9704,7 +9676,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O241">
+    <dia:object type="Standard - Line" version="0" id="O240">
       <dia:attribute name="obj_pos">
         <dia:point val="1.51936,-3.10865"/>
       </dia:attribute>
@@ -9728,11 +9700,11 @@ Celatid Corpse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O238" connection="13"/>
-        <dia:connection handle="1" to="O240" connection="16"/>
+        <dia:connection handle="0" to="O237" connection="13"/>
+        <dia:connection handle="1" to="O239" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O242">
+    <dia:object type="Flowchart - Box" version="0" id="O241">
       <dia:attribute name="obj_pos">
         <dia:point val="10,-19"/>
       </dia:attribute>
@@ -9783,7 +9755,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O243">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O242">
       <dia:attribute name="obj_pos">
         <dia:point val="15.5,-15.1087"/>
       </dia:attribute>
@@ -9814,11 +9786,11 @@ Celatid Corpse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O242" connection="13"/>
+        <dia:connection handle="0" to="O241" connection="13"/>
         <dia:connection handle="1" to="O144" connection="3"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O244">
+    <dia:object type="Flowchart - Box" version="0" id="O243">
       <dia:attribute name="obj_pos">
         <dia:point val="10,-7"/>
       </dia:attribute>
@@ -9866,7 +9838,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O245">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O244">
       <dia:attribute name="obj_pos">
         <dia:point val="15.5,-3"/>
       </dia:attribute>
@@ -9897,11 +9869,11 @@ Celatid Corpse#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O244" connection="13"/>
-        <dia:connection handle="1" to="O240" connection="3"/>
+        <dia:connection handle="0" to="O243" connection="13"/>
+        <dia:connection handle="1" to="O239" connection="3"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O246">
+    <dia:object type="Flowchart - Box" version="0" id="O245">
       <dia:attribute name="obj_pos">
         <dia:point val="57,-16"/>
       </dia:attribute>
@@ -9949,7 +9921,7 @@ Celatid Corpse#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O247">
+    <dia:object type="Flowchart - Box" version="0" id="O246">
       <dia:attribute name="obj_pos">
         <dia:point val="57,-22"/>
       </dia:attribute>
@@ -9998,7 +9970,7 @@ Armored Sectopod#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O248">
+    <dia:object type="Standard - Line" version="0" id="O247">
       <dia:attribute name="obj_pos">
         <dia:point val="62.5,-18.1087"/>
       </dia:attribute>
@@ -10022,11 +9994,11 @@ Armored Sectopod#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O247" connection="13"/>
-        <dia:connection handle="1" to="O246" connection="16"/>
+        <dia:connection handle="0" to="O246" connection="13"/>
+        <dia:connection handle="1" to="O245" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O249">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O248">
       <dia:attribute name="obj_pos">
         <dia:point val="51.25,-18.1087"/>
       </dia:attribute>
@@ -10058,10 +10030,10 @@ Armored Sectopod#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O44" connection="14"/>
-        <dia:connection handle="1" to="O246" connection="1"/>
+        <dia:connection handle="1" to="O245" connection="1"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O250">
+    <dia:object type="Flowchart - Box" version="0" id="O249">
       <dia:attribute name="obj_pos">
         <dia:point val="57,-4"/>
       </dia:attribute>
@@ -10112,7 +10084,7 @@ Armored Sectopod#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O251">
+    <dia:object type="Standard - Line" version="0" id="O250">
       <dia:attribute name="obj_pos">
         <dia:point val="62.5,-12.1087"/>
       </dia:attribute>
@@ -10136,11 +10108,11 @@ Armored Sectopod#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O246" connection="13"/>
-        <dia:connection handle="1" to="O250" connection="2"/>
+        <dia:connection handle="0" to="O245" connection="13"/>
+        <dia:connection handle="1" to="O249" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O252">
+    <dia:object type="Standard - Line" version="0" id="O251">
       <dia:attribute name="obj_pos">
         <dia:point val="54.0371,-2.05433"/>
       </dia:attribute>
@@ -10165,10 +10137,10 @@ Armored Sectopod#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O46" connection="16"/>
-        <dia:connection handle="1" to="O250" connection="16"/>
+        <dia:connection handle="1" to="O249" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O253">
+    <dia:object type="Flowchart - Box" version="0" id="O252">
       <dia:attribute name="obj_pos">
         <dia:point val="10,-13"/>
       </dia:attribute>
@@ -10216,7 +10188,7 @@ Armored Sectopod#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O254">
+    <dia:object type="Flowchart - Box" version="0" id="O253">
       <dia:attribute name="obj_pos">
         <dia:point val="34,32"/>
       </dia:attribute>
@@ -10264,7 +10236,7 @@ Armored Sectopod#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O255">
+    <dia:object type="Flowchart - Box" version="0" id="O254">
       <dia:attribute name="obj_pos">
         <dia:point val="34,38"/>
       </dia:attribute>
@@ -10312,7 +10284,7 @@ Armored Sectopod#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O256">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O255">
       <dia:attribute name="obj_pos">
         <dia:point val="46.5194,28.8913"/>
       </dia:attribute>
@@ -10342,10 +10314,10 @@ Armored Sectopod#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O100" connection="13"/>
-        <dia:connection handle="1" to="O255" connection="8"/>
+        <dia:connection handle="1" to="O254" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O257">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O256">
       <dia:attribute name="obj_pos">
         <dia:point val="43.7597,28.8913"/>
       </dia:attribute>
@@ -10377,10 +10349,10 @@ Armored Sectopod#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O100" connection="12"/>
-        <dia:connection handle="1" to="O254" connection="2"/>
+        <dia:connection handle="1" to="O253" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - ZigZagLine" version="1" id="O258">
+    <dia:object type="Standard - ZigZagLine" version="1" id="O257">
       <dia:attribute name="obj_pos">
         <dia:point val="49.279,28.8913"/>
       </dia:attribute>
