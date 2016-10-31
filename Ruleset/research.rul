@@ -586,8 +586,7 @@ research:
     points: 10
     listOrder: 502
     dependencies:
-      - STR_ALLOY_AMMO
-      - STR_ELERIUM_115
+      - STR_ALIEN_GRENADE
   - name: STR_LASER_PISTOL
     cost: 150
     points: 10
