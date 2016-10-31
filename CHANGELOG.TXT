@@ -1,7 +1,8 @@
 Changelog:
 Version 0.99.3
  - Final Ressource File Restructure
- - Fix - Soldier Armor Repair in Research Tree Graphic
+ - Fix Soldier Armor Repair in Research Tree Graphic
+ - Fix Alien Grenade / Elerium Rocket Research and Graphic
  - Fix Wall issue for UFO_190m.MAP
  - Adjusted Raceweights slightly
  - Added turned Versions for: UBASE_00
