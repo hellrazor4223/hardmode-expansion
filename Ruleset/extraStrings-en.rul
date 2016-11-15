@@ -540,7 +540,7 @@ extraStrings:
 
       STR_ISLAND_ATTACK: "ALIENS LAUNCH ISLAND ATTACK"
       STR_ISLAND_ATTACK_ALERT: "ALIENS LAUNCH{NEWLINE}ISLAND ATTACK ON"
-      STR_ISLAND_ATTACK_BRIEFING: "Aliens have launched an attack against surface sites. The island and its civilian population have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place XCom operatives into the transport vehicule and click on the 'Abort Mission' icon."
+      STR_ISLAND_ATTACK_BRIEFING: "Aliens have launched an attack against surface sites. The island and its civilian population have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 
       STR_ALIEN_ACTIVITY_DETECTED: "ALIEN ACTIVITY DETECTED"
       STR_DOCKED_SHIP: "DOCKED SHIP"
