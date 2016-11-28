@@ -7,6 +7,7 @@ Version 0.99.3
  - Fix UFOpaedia Typo - Alien Threat
  - Fix String Typo - Alien Launch Island Attack
  - Adjusted Raceweights slightly
+ - Adjust Stats for Muton Elites and Muton Elite Guards
  - Added turned Versions for: UBASE_00
  - Added turned Versions for: UBASE_02
  - Added turned Versions for: UBASE_03

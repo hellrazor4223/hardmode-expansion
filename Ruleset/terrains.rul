@@ -341,13 +341,10 @@ terrains:
       - name: EXPANDEDUBASE19 #88 #Food Processing WE
         width: 20
         length: 20
-      - name: EXPANDEDUBASE19b #89 #Food Processing NS
+      - name: EXPANDEDUBASE20 #89 #Small Scout Module
         width: 20
         length: 20
-      - name: EXPANDEDUBASE20 #90 #Small Scout Module
-        width: 20
-        length: 20
-      - name: EXPANDEDUBASE21 #91 #Clone Lab
+      - name: EXPANDEDUBASE21 #90 #Clone Lab
         width: 20
         length: 20
         groups: 5

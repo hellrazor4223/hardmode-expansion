@@ -691,10 +691,10 @@ armors:
     spriteInv: mutoneliteguardInventoryImage
     corpseBattle:
       - STR_MUTON_ELITE_GUARD_CORPSE
-    frontArmor: 100
-    sideArmor: 80
-    rearArmor: 70
-    underArmor: 60
+    frontArmor: 70
+    sideArmor: 60
+    rearArmor: 50
+    underArmor: 50
     drawingRoutine: 10
     damageModifier: &MUTON_ELITE_GUAR_DAMAGE_MODIFIER
       - 1.0
@@ -702,7 +702,7 @@ armors:
       - 1.0
       - 0.9
       - 0.7
-      - 0.9
+      - 0.85
       - 1.0
       - 1.0
       - 1.0
@@ -713,10 +713,10 @@ armors:
     spriteInv: mutoneliteguardInventoryImage
     corpseBattle:
       - STR_MUTON_ELITE_GUARD_CORPSE
-    frontArmor: 110
-    sideArmor: 90
-    rearArmor: 80
-    underArmor: 70
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 60
+    underArmor: 60
     drawingRoutine: 10
     damageModifier: *MUTON_ELITE_GUAR_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
