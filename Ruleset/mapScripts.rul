@@ -999,155 +999,159 @@ mapScripts:
 #BEGIN POLAR
   - type: POLAR
     commands:
-    - type: addBlock #check for 80x80 map
+ #check for 80x80 map
+    - type: addBlock
       label: 1
       size: 1
       rects:
         - [7, 7, 1, 1]
-    - type: removeBlock #remove testblock on 80x80 map
+ #remove testblock on 80x80 map
+    - type: removeBlock
       conditionals: [1]
       rects:
         - [7, 7, 1, 1]
-    - type: addBlock #check for 60x60 map
+ #check for 60x60 map
+    - type: addBlock
       label: 2
       conditionals: [-1]
       size: 1
       rects:
         - [5, 5, 1, 1]
-    - type: removeBlock #remove testblock on 60x60 map
+ #remove testblock on 60x60 map
+    - type: removeBlock
       conditionals: [2]
       rects:
         - [5, 5, 1, 1]
-    - type: addBlock #check for 50x50 map
+ #check for 50x50 map
+    - type: addBlock
       label: 3
       conditionals: [-2]
       size: 1
       rects:
         - [4, 4, 1, 1]
-    - type: removeBlock #remove testblock on 50x50 map
+ #remove testblock on 50x50 map
+    - type: removeBlock
       conditionals: [3]
       rects:
         - [4, 4, 1, 1]
+ #add UFO & CRAFT
     - type: addUFO
     - type: addCraft
-    - type: addBlock #add 3 20x20 mapsblocks for 80x80 mapsize
+ #add 20x20 mapsblocks for 80x80 mapsize
+    - type: addBlock
       conditionals: [1]
       size: 2
-      executions: 3
-    - type: addBlock #add max 12 10x10 water mapsblocks for 80x80 mapsize
+      executions: 5
+ #add 10x10 water mapsblocks for 80x80 mapsize
+    - type: addBlock
       conditionals: [1]
       size: 1
       blocks: [9, 10, 11]
       maxUses: [6, 6, 3]
-      executions: 12
-    - type: addBlock #add 2 20x20 mapsblocks for 60x60 mapsize
+      executions: 10
+    - type: addBlock
+      conditionals: [1]
+      size: 1
+      blocks: [9, 10, 11]
+      executionChances: 60
+    - type: addBlock
+      conditionals: [1]
+      size: 1
+      blocks: [9, 10, 11]
+      executionChances: 40
+    - type: addBlock
+      conditionals: [1]
+      size: 1
+      blocks: [9, 10, 11]
+      executionChances: 20
+ #add 20x20 mapsblocks for 60x60 mapsize
+    - type: addBlock
       conditionals: [-1, 2]
       size: 2
       blocks: [12, 13]
-      maxUses: [1, 1]
       executions: 2
- #add max 8 10x10 water mapsblocks for 60x60 mapsize
+    - type: addBlock
+      conditionals: [-1, 2]
+      size: 2
+      blocks: [12, 13]
+      executionChances: 33
+ #add 10x10 water mapsblocks for 60x60 mapsize
     - type: addBlock
       conditionals: [-1, 2]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executions: 8
     - type: addBlock
       conditionals: [-1, 2]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 60
     - type: addBlock
       conditionals: [-1, 2]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 40
     - type: addBlock
       conditionals: [-1, 2]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
-    - type: addBlock
-      conditionals: [-1, 2]
-      size: 1
-      blocks: [9, 10, 11]
-      executionChances: 80
-    - type: addBlock
-      conditionals: [-1, 2]
-      size: 1
-      blocks: [9, 10, 11]
-      executionChances: 80
-    - type: addBlock
-      conditionals: [-1, 2]
-      size: 1
-      blocks: [9, 10, 11]
-      executionChances: 80
-    - type: addBlock
-      conditionals: [-1, 2]
-      size: 1
-      blocks: [9, 10, 11]
-      executionChances: 80
- #add 1 20x20 mapsblocks for 50x50 mapsize
+      executionChances: 20
+ #add 20x20 mapsblocks for 50x50 mapsize
     - type: addBlock
       conditionals: [-1, -2, 3]
       size: 2
- #add max 6 10x10 water mapsblocks for 50x50 mapsize
+ #add 10x10 water mapsblocks for 50x50 mapsize
     - type: addBlock
       conditionals: [-1, -2, 3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executions: 4
     - type: addBlock
       conditionals: [-1, -2, 3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 60
     - type: addBlock
       conditionals: [-1, -2, 3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 40
     - type: addBlock
       conditionals: [-1, -2, 3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
-    - type: addBlock
-      conditionals: [-1, -2, 3]
-      size: 1
-      blocks: [9, 10, 11]
-      executionChances: 80
-    - type: addBlock
-      conditionals: [-1, -2, 3]
-      size: 1
-      blocks: [9, 10, 11]
-      executionChances: 80
- #add 1 20x20 mapsblocks for 40x40 mapsize
+      executionChances: 20
+ #add 20x20 mapsblocks for 40x40 mapsize
     - type: addBlock
       conditionals: [-1, -2, -3]
       size: 2
       executionChances: 50
- #add max 4 10x10 water mapsblocks for 40x40 mapsize
+    - type: addBlock
+      conditionals: [-1, -2, -3]
+      size: 2
+      executionChances: 25
+ #add 10x10 water mapsblocks for 40x40 mapsize
     - type: addBlock
       conditionals: [-1, -2, -3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executions: 3
     - type: addBlock
       conditionals: [-1, -2, -3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 60
     - type: addBlock
       conditionals: [-1, -2, -3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 40
     - type: addBlock
       conditionals: [-1, -2, -3]
       size: 1
       blocks: [9, 10, 11]
-      executionChances: 80
+      executionChances: 20
+ #fill group 0
     - type: fillArea
 #END POLAR
 
