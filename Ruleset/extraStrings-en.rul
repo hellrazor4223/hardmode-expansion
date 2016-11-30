@@ -633,6 +633,7 @@ extraStrings:
 #END MAP NAMES
 
 #BEGIN CIVILIAN NAMES
+      MALE_CIVILIAN: "Civilian"
       MALE_CIVILIAN2: "Civilian"
       MALE_CIVILIAN3: "Civilian"
       MALE_CIVILIAN4: "Civilian"
