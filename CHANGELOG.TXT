@@ -8,6 +8,7 @@ Version 0.99.3
  - Fix String Typo - Alien Launch Island Attack
  - Fix String Typo - News 5
  - Fix Missing Name String for MALE_CIVILIAN
+ - Fix mapScript for POLAR, MARSH and SWAMPS to reduce chance of UFO inaccessible
  - Adjusted Raceweights slightly
  - Adjust Stats for Muton Elites and Muton Elite Guards
  - Added turned Versions for: UBASE_00

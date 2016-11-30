@@ -3918,15 +3918,18 @@ terrains:
       - name: FORESTPOLAR08 #8
         width: 10
         length: 10
-      - name: FORESTPOLAR09 #9
+      - name: FORESTPOLAR09 #9 #Water Path SN
         width: 10
         length: 10
-      - name: FORESTPOLAR10 #10
+        groups: 5
+      - name: FORESTPOLAR10 #10 #Water Path EW
         width: 10
         length: 10
-      - name: FORESTPOLAR11 #11
+        groups: 5
+      - name: FORESTPOLAR11 #11 #Water No Path
         width: 10
         length: 10
+        groups: 5
       - name: FORESTPOLAR12 #12
         width: 20
         length: 20
@@ -4093,15 +4096,18 @@ terrains:
       - name: JUNGLEPOLAR08
         width: 10
         length: 10
-      - name: JUNGLEPOLAR09
+      - name: JUNGLEPOLAR09 #9 #Water Path SN
         width: 10
         length: 10
-      - name: JUNGLEPOLAR10
+        groups: 5
+      - name: JUNGLEPOLAR10 #10 #Water Path EW
         width: 10
         length: 10
-      - name: JUNGLEPOLAR11
+        groups: 5
+      - name: JUNGLEPOLAR11 #11 #Water No Path
         width: 10
         length: 10
+        groups: 5
       - name: JUNGLEPOLAR12
         width: 20
         length: 20
@@ -4271,15 +4277,18 @@ terrains:
       - name: POLAR08
         width: 10
         length: 10
-      - name: POLAR09
+      - name: POLAR09 #9 #Water Path SN
         width: 10
         length: 10
-      - name: POLAR10
+        groups: 5
+      - name: POLAR10 #10 #Water Path EW
         width: 10
         length: 10
-      - name: POLAR11
+        groups: 5
+      - name: POLAR11 #11 #Water No Path
         width: 10
         length: 10
+        groups: 5
       - name: POLAR12
         width: 20
         length: 20
