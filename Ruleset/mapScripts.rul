@@ -996,6 +996,55 @@ mapScripts:
 ###END SPECIAL MISSION SCRIPTS
 
 ###BEGIN GLOBE SCRIPTS
+#BEGIN POLAR
+  - type: POLAR
+    commands:
+    - type: addBlock #check for 80x80 map
+      label: 1
+      size: 1
+      rects:
+        - [7, 7, 1, 1]
+    - type: removeBlock #remove testblock on 80x80 map
+      conditionals: [1]
+      rects:
+        - [7, 7, 1, 1]
+    - type: addBlock #check for 60x60 map
+      label: 2
+      conditionals: [-1]
+      size: 1
+      rects:
+        - [5, 5, 1, 1]
+    - type: removeBlock #remove testblock on 60x60 map
+      conditionals: [2]
+      rects:
+        - [5, 5, 1, 1]
+    - type: addBlock #check for 50x50 map
+      label: 3
+      conditionals: [-2]
+      size: 1
+      rects:
+        - [4, 4, 1, 1]
+    - type: removeBlock #remove testblock on 50x50 map
+      conditionals: [3]
+      rects:
+        - [4, 4, 1, 1]
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock #add 3 20x20 mapsblocks for 80x80 mapsize
+      conditionals: [1]
+      size: 2
+      executions: 3
+    - type: addBlock #add 2 20x20 mapsblocks for 60x60 mapsize
+      conditionals: [-1, 2]
+      size: 2
+      executions: 2
+    - type: addBlock #add 1 20x20 mapsblocks for 50x50 mapsize
+      conditionals: [-1, -2, 3]
+      size: 2
+      executions: 1
+    - type: fillArea
+#END POLAR
+
 ##BEGIN URBANUFO
 #BEGIN INDUSTRIALUFO
   - type: INDUSTRIALUFO

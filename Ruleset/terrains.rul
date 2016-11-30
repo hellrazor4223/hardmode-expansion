@@ -3891,57 +3891,57 @@ terrains:
       - FOREST
     script: POLAR
     mapBlocks: &FORESTPOLAR_MAPS
-      - name: FORESTPOLAR00
+      - name: FORESTPOLAR00 #0
         width: 10
         length: 10
-      - name: FORESTPOLAR01
+      - name: FORESTPOLAR01 #1
         width: 10
         length: 10
-      - name: FORESTPOLAR02
+      - name: FORESTPOLAR02 #2
         width: 10
         length: 10
-      - name: FORESTPOLAR03
+      - name: FORESTPOLAR03 #3
         width: 10
         length: 10
-      - name: FORESTPOLAR04
+      - name: FORESTPOLAR04 #4
         width: 10
         length: 10
-      - name: FORESTPOLAR05
+      - name: FORESTPOLAR05 #5
         width: 10
         length: 10
-      - name: FORESTPOLAR06
+      - name: FORESTPOLAR06 #6
         width: 10
         length: 10
-      - name: FORESTPOLAR07
+      - name: FORESTPOLAR07 #7
         width: 10
         length: 10
-      - name: FORESTPOLAR08
+      - name: FORESTPOLAR08 #8
         width: 10
         length: 10
-      - name: FORESTPOLAR09
+      - name: FORESTPOLAR09 #9
         width: 10
         length: 10
-      - name: FORESTPOLAR10
+      - name: FORESTPOLAR10 #10
         width: 10
         length: 10
-      - name: FORESTPOLAR11
+      - name: FORESTPOLAR11 #11
         width: 10
         length: 10
-      - name: FORESTPOLAR12
+      - name: FORESTPOLAR12 #12
         width: 20
         length: 20
-      - name: FORESTPOLAR13
+      - name: FORESTPOLAR13 #13
         width: 20
         length: 20
-      - name: FORESTPOLAR14
+      - name: FORESTPOLAR14 #14
         width: 10
         length: 10
         groups: 1
-      - name: FORESTPOLAR15
+      - name: FORESTPOLAR15 #15
         width: 10
         length: 10
         groups: 1
-      - name: FORESTPOLAR16
+      - name: FORESTPOLAR16 #16
         width: 10
         length: 10
         groups: 1
