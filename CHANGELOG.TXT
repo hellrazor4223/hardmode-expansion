@@ -33,6 +33,7 @@ Version 0.99.3
 	- Alien Harvest
 	- Ship Attack
 	- Docked Ship
+ - Added size check to Mapscripts and optimized spawns
  - Added proper Raceweights for Alien Retaliation
  - Added Manufacture dependency for Retaliators (they need a Interceptor now)
 
