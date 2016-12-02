@@ -3553,20 +3553,20 @@ terrains:
       - BLANKS
       - DESERTMOUNT
       - DESERT
-    script: DESERT
+    script: DEFAULT
     mapBlocks: &DESERTMOUNT_MAPS
       - name: DESERTMOUNT00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: DESERTMOUNT01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: DESERTMOUNT02
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: DESERTMOUNT03
         width: 10
         length: 10
@@ -3626,11 +3626,11 @@ terrains:
       - name: ATLANTDESERT00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: ATLANTDESERT01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: ATLANTDESERT02
         width: 10
         length: 10
@@ -3678,7 +3678,7 @@ terrains:
       - name: CRASHEDPLANE00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: CRASHEDPLANE01
         width: 10
         length: 10
@@ -3748,15 +3748,16 @@ terrains:
     mapDataSets:
       - BLANKS
       - FOREST
+    script: DEFAULT
     mapBlocks:
       - name: FOREST00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: FOREST01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: FOREST02
         width: 10
         length: 10
@@ -3796,16 +3797,16 @@ terrains:
       - FORESTMOUNT
       - FORESTEARTH
       - FORESTBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks:
       - name: FORESTMOUNT00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: FORESTMOUNT01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: FORESTMOUNT02
         width: 10
         length: 10
@@ -3939,15 +3940,15 @@ terrains:
       - name: FORESTPOLAR14 #14
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: FORESTPOLAR15 #15
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: FORESTPOLAR16 #16
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
 #END FORESTPOLAR
 ##END FORESTS
 
@@ -4006,7 +4007,7 @@ terrains:
       - BLANKS
       - JUNGLEMOUNT
       - JUNGLEBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks:
       - name: JUNGLEMOUNT00
         width: 10
@@ -4050,15 +4051,15 @@ terrains:
       - name: JUNGLEMOUNT13
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: JUNGLEMOUNT14
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: JUNGLEMOUNT15
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
 #END JUNGLEMOUNT
 
 #BEGIN JUNGLEPOLAR
@@ -4117,15 +4118,15 @@ terrains:
       - name: JUNGLEPOLAR14
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: JUNGLEPOLAR15
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: JUNGLEPOLAR16
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
 #END JUNGLEPOLAR
 
 #BEGIN JUNGLETEMPLE
@@ -4135,16 +4136,16 @@ terrains:
       - SANDS
       - MUJUNGLE
       - JUNGLEBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks:
       - name: MUJUNGLE00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: MUJUNGLE01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: MUJUNGLE02
         width: 10
         length: 10
@@ -4193,19 +4194,20 @@ terrains:
     mapDataSets:
       - BLANKS
       - MOUNT
+    script: DEFAULT
     mapBlocks: &MOUNTAIN_MAPS
       - name: MOUNT00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: MOUNT01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: MOUNT02
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: MOUNT03
         width: 10
         length: 10
@@ -4323,20 +4325,20 @@ terrains:
       - POLARMOUNT
       - POLAR
       - POLARMOUNTBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks:
       - name: POLARMOUNT00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: POLARMOUNT01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: POLARMOUNT02
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: POLARMOUNT03
         width: 10
         length: 10
@@ -4507,7 +4509,7 @@ terrains:
       - BLANKS
       - GRASSLANDFOREST
       - GRASSLANDBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks: &FORESTLZ_MAPS
       - name: FOREST00
         width: 10
@@ -4558,7 +4560,7 @@ terrains:
       - GRASSLANDMOUNT
       - GRASSLANDFOREST
       - GRASSLANDBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks: &FORESTMOUNTLZ_MAPS
       - name: FORESTMOUNT00
         width: 10
@@ -4679,6 +4681,7 @@ terrains:
       - BLANKS
       - SAVANNAFOREST
       - SAVANNABITS
+    script: DEFAULT
     mapBlocks: *FORESTLZ_MAPS
   - name: SAVANNAFORESTMOUNT
     mapDataSets:
@@ -4686,7 +4689,7 @@ terrains:
       - SAVANNAMOUNT
       - SAVANNAFOREST
       - SAVANNABITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks: *FORESTMOUNTLZ_MAPS
   - name: SAVANNAPOLAR
     mapDataSets:
@@ -4718,6 +4721,7 @@ terrains:
       - BLANKS
       - STEPPEFOREST
       - STEPPEBITS
+    script: DEFAULT
     mapBlocks: *FORESTLZ_MAPS
   - name: STEPPEFORESTMOUNT
     mapDataSets:
@@ -4725,7 +4729,7 @@ terrains:
       - STEPPEMOUNT
       - STEPPEFOREST
       - STEPPEBITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks: *FORESTMOUNTLZ_MAPS
   - name: STEPPEPOLAR
     mapDataSets:
@@ -4757,6 +4761,7 @@ terrains:
       - BLANKS
       - TAIGAFOREST
       - TAIGABITS
+    script: DEFAULT
     mapBlocks: *FORESTLZ_MAPS
   - name: TAIGAFORESTMOUNT
     mapDataSets:
@@ -4764,7 +4769,7 @@ terrains:
       - TAIGAMOUNT
       - TAIGAFOREST
       - TAIGABITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks: *FORESTMOUNTLZ_MAPS
   - name: TAIGAPOLAR
     mapDataSets:
@@ -4786,6 +4791,7 @@ terrains:
     mapDataSets:
       - BLANKS
       - TUNDRAMOUNT
+    script: DEFAULT
     mapBlocks: *MOUNTAIN_MAPS
   - name: TUNDRADESERTMOUNT
     mapDataSets:
@@ -4799,6 +4805,7 @@ terrains:
       - BLANKS
       - TUNDRAFOREST
       - TUNDRABITS
+    script: DEFAULT
     mapBlocks: *FORESTLZ_MAPS
   - name: TUNDRAFORESTMOUNT
     mapDataSets:
@@ -4806,7 +4813,7 @@ terrains:
       - TUNDRAMOUNT
       - TUNDRAFOREST
       - TUNDRABITS
-    script: DESERT
+    script: DEFAULT
     mapBlocks: *FORESTMOUNTLZ_MAPS
   - name: TUNDRAPOLAR
     mapDataSets:

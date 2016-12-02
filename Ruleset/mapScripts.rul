@@ -996,6 +996,102 @@ mapScripts:
 ###END SPECIAL MISSION SCRIPTS
 
 ###BEGIN GLOBE SCRIPTS
+#BEGIN DEFAULT
+  - type: DEFAULT # forest, mountain, expanded farm
+    commands:
+ #check for 80x80 map
+    - type: addBlock
+      label: 1
+      size: 1
+      rects:
+        - [7, 7, 1, 1]
+ #remove testblock on 80x80 map
+    - type: removeBlock
+      conditionals: [1]
+      rects:
+        - [7, 7, 1, 1]
+ #check for 60x60 map
+    - type: addBlock
+      label: 2
+      conditionals: [-1]
+      size: 1
+      rects:
+        - [5, 5, 1, 1]
+ #remove testblock on 60x60 map
+    - type: removeBlock
+      conditionals: [2]
+      rects:
+        - [5, 5, 1, 1]
+ #add UFO & CRAFT
+    - type: addUFO
+    - type: addCraft
+ #add 20x20 mapsblocks for 80x80 mapsize
+    - type: addBlock
+      conditionals: [1]
+      size: 2
+      executions: 6
+ #add 20x20 mapsblocks for 60x60 mapsize
+    - type: addBlock
+      conditionals: [-1, 2]
+      size: 2
+      executions: 4
+ #add 20x20 mapsblocks for rest (vanilla spawn)
+    - type: addBlock
+      conditionals: [-1, -2]
+      size: 2
+      executions: 2
+    - type: fillArea
+      size: 1
+#END DEFAULT
+
+#BEGIN DESERT
+  - type: DESERT
+    commands:
+ #check for 80x80 map
+    - type: addBlock
+      label: 1
+      size: 1
+      rects:
+        - [7, 7, 1, 1]
+ #remove testblock on 80x80 map
+    - type: removeBlock
+      conditionals: [1]
+      rects:
+        - [7, 7, 1, 1]
+ #check for 60x60 map
+    - type: addBlock
+      label: 2
+      conditionals: [-1]
+      size: 1
+      rects:
+        - [5, 5, 1, 1]
+ #remove testblock on 60x60 map
+    - type: removeBlock
+      conditionals: [2]
+      rects:
+        - [5, 5, 1, 1]
+ #add UFO & CRAFT
+    - type: addUFO
+    - type: addCraft
+ #add 20x20 mapsblocks for 80x80 mapsize
+    - type: addBlock
+      conditionals: [1]
+      size: 2
+      executions: 9
+ #add 20x20 mapsblocks for 60x60 mapsize
+    - type: addBlock
+      conditionals: [-1, 2]
+      size: 2
+      executions: 6
+ #add 20x20 mapsblocks for 60x60 rest (vanilla spawn)
+    - type: addBlock
+      conditionals: [-1, -2]
+      size: 2
+      executions: 3
+    - type: fillArea
+      size: 1
+#END DESERT
+
 #BEGIN POLAR
   - type: POLAR
     commands:
@@ -1256,6 +1352,6 @@ mapScripts:
       rects:
         - [4, 0, 1, 5]
     - type: fillArea
-      blocks: [1, 2, 3]
+      blocks: [0, 1, 2, 3]
 #END CRASHED PLANE
 ####END MAPSCRIPTS
