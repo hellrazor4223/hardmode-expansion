@@ -778,7 +778,7 @@ units:
     stats:
       tu: 68
       stamina: 94
-      health: 125
+      health: 135
       bravery: 100
       reactions: 78
       firing: 70
@@ -838,7 +838,7 @@ units:
     stats: &MUTON_ELITE_GUARD_STATS
       tu: 72
       stamina: 98
-      health: 125
+      health: 135
       bravery: 100
       reactions: 82
       firing: 74
@@ -879,7 +879,7 @@ units:
     stats:
       tu: 74
       stamina: 102
-      health: 125
+      health: 145
       bravery: 100
       reactions: 86
       firing: 78
