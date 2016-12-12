@@ -60,11 +60,14 @@ alienDeployments:
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
           -
-            - STR_PLASMA_SHOTGUN
-            - STR_PLASMA_SHOTGUN_CLIP
-          -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -72,10 +75,6 @@ alienDeployments:
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 10
         lowQty: 1
@@ -709,29 +708,29 @@ alienDeployments:
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_SHOTGUN
-            - STR_PLASMA_SHOTGUN_CLIP
-            - STR_PLASMA_SHOTGUN_CLIP
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SNIPER_RIFLE
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_PLASMA_SNIPER_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SHOTGUN
-            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
-            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SNIPER_RIFLE
-            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
-            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
-            - STR_ALIEN_GRENADE
-          -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_PLASMA_SHOTGUN_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SHOTGUN
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SNIPER_RIFLE
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+            - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 10
         lowQty: 1
