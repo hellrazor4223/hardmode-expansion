@@ -3753,11 +3753,11 @@ terrains:
       - name: FOREST00
         width: 10
         length: 10
-        groups: [0, 1]
+        groups: [1]
       - name: FOREST01
         width: 10
         length: 10
-        groups: [0, 1]
+        groups: [1]
       - name: FOREST02
         width: 10
         length: 10
