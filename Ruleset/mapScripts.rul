@@ -969,13 +969,8 @@ mapScripts:
   - type: CARGOSHIP
     commands:
     - type: addCraft #Size 10x20
-      label: 1
       rects:
         - [1, 0, 1, 2]
-    - type: addCraft #Size 20x10
-      conditionals: [-1]
-      rects:
-        - [0, 1, 2, 1]
     - type: addBlock #Spawn Ship
       size: [3, 7]
 #END CARGOSHIP
