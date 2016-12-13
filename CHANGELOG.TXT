@@ -2,6 +2,7 @@ Changelog:
 Version 0.99.3
  - Final Ressource File Restructure
  - Turning THUNDER by 90 degree (Unified Craft MapSize)
+ - Fix Tile and Route issue for LINERSHIP00.MAP
  - Fix CRAFT spawn for CARGOSHIP
  - Fix Soldier Armor Repair in Research Tree Graphic
  - Fix Alien Grenade / Elerium Rocket Research and Graphic
