@@ -4,28 +4,25 @@ mapScripts:
 ###BEGIN EXPANDED UBASE
   - type: ALIENBASE
     commands:
-    - type: addBlock
+    - type: addBlock #Add Entrances
       groups: 2
       executions: 2
-    - type: addBlock
+    - type: addBlock #Add Command Center
       size: 2
       groups: 3
-    - type: addBlock
+    - type: addBlock #Add Clone Lab
       size: 2
-      groups: 5
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: addBlock
       groups: 6
-    - type: addBlock
+    - type: addBlock #Add 20x20 Map Blocks
+      size: 2
       executions: 3
+    - type: addBlock #Add Entertaiment Room
       groups: 7
-    - type: addBlock
-      groups: 8
+    - type: addBlock #Add Impassable Power Source Block
+      groups: 9
     - type: fillArea
-      groups: [0, 1]
-      freqs: [3, 1]
+      groups: [0, 1, 8]
+      freqs: [3, 1, 1]
     - type: digTunnel
       direction: both
       tunnelData:
@@ -121,12 +118,19 @@ mapScripts:
       conditionals: [-1, -2, -3, -4]
       groups: 2
       executions: 2
-    - type: addBlock #Add 2x2 Blocks
+    - type: addBlock #Add Fake Brains
       size: 2
-      executions: 12
+      groups: 5
+      executions: 2
+    - type: addBlock #Add 20x20 Blocks
+      size: 2
+      executions: 10
+    - type: addBlock #Add Impassable Power Source Block
+      groups: 9
+      executions: 3
     - type: fillArea
-      groups: [0, 1, 7]
-      freqs: [2, 2, 4]
+      groups: [0, 1, 7, 8]
+      freqs: [4, 2, 1, 2]
     - type: digTunnel
       direction: both
       tunnelData:

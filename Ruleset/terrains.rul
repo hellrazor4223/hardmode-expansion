@@ -33,7 +33,6 @@ terrains:
       - name: UBASE_03 #3 #Power Source Storage S
         width: 20
         length: 20
-        groups: 6
       - name: UBASE_04 #4 #Entrance NW
         width: 10
         length: 10
@@ -45,7 +44,7 @@ terrains:
       - name: UBASE_06 #6 #Small Bunker U E
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: UBASE_07 #7 #Tunnel Cross
         width: 10
         length: 10
@@ -63,11 +62,11 @@ terrains:
       - name: UBASE_11 #11 #Entertainment Room Dual Color
         width: 10
         length: 10
-        groups: 6
+        groups: 7
       - name: UBASE_12 #12 #Small Power Source Pods #Air only
         width: 10
         length: 10
-        groups: 8
+        groups: 9
       - name: UBASE_13 #13 #Crossing Food Pods
         width: 10
         length: 10
@@ -147,31 +146,24 @@ terrains:
       - name: EXPANDEDUBASE03b #37 #Power Source Storage W
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE03c #38 #Power Source Storage N
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE03d #39 #Power Source Storage S
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE03e #40 #Power Source Storage Alternate SW
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE03f #41 #Power Source Storage Alternate WS
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE03g #42 #Power Source Storage Alternate NW
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE03h #43 #Power Source Storage Alternate NE
         width: 20
         length: 20
-        groups: 6
       - name: EXPANDEDUBASE04b #44 #Entrance NE
         width: 10
         length: 10
@@ -219,31 +211,31 @@ terrains:
       - name: EXPANDEDUBASE06b #54 #Small Bunker U S
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE06c #55 #Small Bunker U W
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE06d #56 #Small Bunker U N
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE06e #57 #Small Bunker Checkpoint E
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE06f #58 #Small Bunker Checkpoint S
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE06g #59 #Small Bunker Checkpoint W
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE06h #60 #Small Bunker Checkpoint N
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE07b #61 #Tunnel Cross Corners
         width: 10
         length: 10
@@ -273,19 +265,19 @@ terrains:
       - name: EXPANDEDUBASE11b #69 #Entertainment Room Color Switched
         width: 10
         length: 10
-        groups: 6
+        groups: 7
       - name: EXPANDEDUBASE11c #70 #Entertainment Room Pods
         width: 10
         length: 10
-        groups: 6
+        groups: 7
       - name: EXPANDEDUBASE11d #71 #Entertainment Room Color Switched
         width: 10
         length: 10
-        groups: 6
+        groups: 7
       - name: EXPANDEDUBASE12b #72 #Small Power Source Pods Window #Air only
         width: 10
         length: 10
-        groups: 8
+        groups: 9
       - name: EXPANDEDUBASE15b #73 #Brain Room N
         width: 20
         length: 20
@@ -301,19 +293,19 @@ terrains:
       - name: EXPANDEDUBASE16 #76 #Small Bunker Windows E
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE16b #77 #Small Bunker Windows S
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE16c #78 #Small Bunker Windows W
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE16d #79 #Small Bunker Windows N
         width: 10
         length: 10
-        groups: 7
+        groups: 8
       - name: EXPANDEDUBASE17 #80 #Small Storage W
         width: 10
         length: 10
@@ -329,15 +321,19 @@ terrains:
       - name: EXPANDEDUBASE18 #84 #Fake Brain Room W
         width: 20
         length: 20
+        groups: 5
       - name: EXPANDEDUBASE18b #85 #Fake Brain Room N
         width: 20
         length: 20
+        groups: 5
       - name: EXPANDEDUBASE18c #86 #Fake Brain Room E
         width: 20
         length: 20
+        groups: 5
       - name: EXPANDEDUBASE18d #87 #Fake Brain Room S
         width: 20
         length: 20
+        groups: 5
       - name: EXPANDEDUBASE19 #88 #Food Processing WE
         width: 20
         length: 20
@@ -347,7 +343,7 @@ terrains:
       - name: EXPANDEDUBASE21 #90 #Clone Lab
         width: 20
         length: 20
-        groups: 5
+        groups: 6
 ###END EXPANDED UBASE
 
 ###BEGIN TERROR TERRAINS
