@@ -3,39 +3,26 @@ crafts:
   - delete: STR_LIGHTNING
 
 ##BEGIN XCOM
-#BEGIN RETALIATOR
-  - type: STR_RETALIATOR
-    requires:
-      - STR_IMPROVED_INTERCEPTOR
-    sprite: 23
-    fuelMax: 1000
-    damageMax: 240
-    speedMax: 2500
-    accel: 5
-    weapons: 2
-    costSell: 235000
-    costRent: 300000
-    repairRate: 2
-    refuelRate: 50
-    score: 250
-    listOrder: 204
-#END RETALIATOR
+#BEGIN SKYRANGER
+  - type: STR_SKYRANGER
+    score: 300
+#END SKYRANGER
 
 #BEGIN SKYSTRIKER
 #  - type: STR_SKYSTRIKER
 #    requires:
 #      - STR_IMPROVED_SKYRANGER
 #    sprite: 24
-#    fuelMax: 1500
+#    fuelMax: 2400
 #    damageMax: 360
 #    speedMax: 1200
 #    accel: 3
 #    soldiers: 16
-#    vehicles: 4
+#    vehicles: 3
+#    costSell: 345000
 #    costRent: 250000
-#    refuelRate: 50
-#    transferTime: 72
-#    score: 250
+#    refuelRate: 80
+#    score: 375
 #    battlescapeTerrainData:
 #      name: SKYSTRIKER
 #      mapDataSets:
@@ -63,7 +50,6 @@ crafts:
 #      - [5, 14, 1, 4]
 #      - [4, 15, 1, 6]
 #      - [5, 15, 1, 2]
-#    listOrder: 205
 #END SKYSTRIKER
 
 #BEGIN THUNDER
@@ -81,7 +67,7 @@ crafts:
     vehicles: 3
     refuelItem: STR_ELERIUM_115
     refuelRate: 5
-    score: 350
+    score: 450
     battlescapeTerrainData:
       name: THUNDER
       mapDataSets:
@@ -114,22 +100,6 @@ crafts:
       - [3, 12, 1, 0]
       - [6, 12, 1, 0]
 #END THUNDER
-
-#BEGIN FIRESTORM
-  - type: STR_FIRESTORM
-    requires:
-      - STR_NEW_FIGHTER_CRAFT
-    sprite: 4
-    fuelMax: 30
-    damageMax: 500
-    speedMax: 4200
-    accel: 9
-    weapons: 2
-    repairRate: 3
-    refuelItem: STR_ELERIUM_115
-    refuelRate: 5
-    score: 400
-#END FIRESTORM
 
 #BEGIN AVENGER
   - type: STR_AVENGER
@@ -185,6 +155,44 @@ crafts:
       - [6, 13, 1, 0]
       - [6, 14, 1, 0]
 #END AVENGER
+
+#BEGIN INTERCEPTOR
+  - type: STR_INTERCEPTOR
+    score: 300
+#END INTERCEPTOR
+
+#BEGIN RETALIATOR
+  - type: STR_RETALIATOR
+    requires:
+      - STR_IMPROVED_INTERCEPTOR
+    sprite: 23
+    fuelMax: 1200
+    damageMax: 240
+    speedMax: 2500
+    accel: 5
+    weapons: 2
+    costSell: 235000
+    costRent: 300000
+    repairRate: 2
+    refuelRate: 60
+    score: 350
+#END RETALIATOR
+
+#BEGIN FIRESTORM
+  - type: STR_FIRESTORM
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+    sprite: 4
+    fuelMax: 30
+    damageMax: 500
+    speedMax: 4200
+    accel: 9
+    weapons: 2
+    repairRate: 3
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 400
+#END FIRESTORM
 ##END XCOM
 ###END CRAFTS
 
