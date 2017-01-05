@@ -338,17 +338,23 @@ research:
     points: 20
     listOrder: 100
     dependencies:
-      - STR_ALIEN_DATA_SLATE
+      - STR_ALIEN_ALLOYS
+#  - name: STR_IMPROVED_SKYRANGER
+#    cost: 600
+#    points: 20
+#    listOrder: 101
+#    dependencies:
+#      - STR_IMPROVED_INTERCEPTOR
   - name: STR_NEW_FIGHTER_TRANSPORTER
     cost: 1050
     points: 30
-    listOrder: 101
+    listOrder: 102
     dependencies:
       - STR_UFO_CONSTRUCTION
       - STR_NEW_FIGHTER_TRANSPORTER_UNLOCK_1
       - STR_NEW_FIGHTER_TRANSPORTER_UNLOCK_2
   - name: STR_NEW_FIGHTER_TRANSPORTER_UNLOCK_1
-    listOrder: 102
+    listOrder: 103
     requires:
       - STR_UFO_CONSTRUCTION
     dependencies: &ALL_ALIVE_ENGINEERS
@@ -362,7 +368,7 @@ research:
       - STR_MUTON_ELITE_ENGINEER
       - STR_MUTON_ELITE_GUARD_ENGINEER
   - name: STR_NEW_FIGHTER_TRANSPORTER_UNLOCK_2
-    listOrder: 103
+    listOrder: 104
     requires:
       - STR_UFO_CONSTRUCTION
     dependencies: &ALL_ALIVE_NAVIGATORS
@@ -375,7 +381,7 @@ research:
       - STR_SECTOID_ELITE_NAVIGATOR
       - STR_MUTON_ELITE_NAVIGATOR
   - name: STR_NEW_FIGHTER_CRAFT
-    listOrder: 104
+    listOrder: 105
     cost: 900
     points: 30
     dependencies:
@@ -384,36 +390,36 @@ research:
       - STR_NEW_FIGHTER_CRAFT_UNLOCK_1
       - STR_NEW_FIGHTER_CRAFT_UNLOCK_2
   - name: STR_NEW_FIGHTER_CRAFT_UNLOCK_1 
-    listOrder: 105
+    listOrder: 106
     requires:
       - STR_NEW_FIGHTER_TRANSPORTER
     dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_NEW_FIGHTER_CRAFT_UNLOCK_2 
-    listOrder: 106
+    listOrder: 107
     requires:
       - STR_NEW_FIGHTER_TRANSPORTER
     dependencies: *ALL_ALIVE_NAVIGATORS
   - name: STR_ULTIMATE_CRAFT
     cost: 1350
     points: 30
-    listOrder: 107
+    listOrder: 108
     dependencies:
       - STR_NEW_FIGHTER_CRAFT
       - STR_ULTIMATE_CRAFT_UNLOCK_1
       - STR_ULTIMATE_CRAFT_UNLOCK_2
       - STR_ULTIMATE_CRAFT_UNLOCK_3
   - name: STR_ULTIMATE_CRAFT_UNLOCK_1
-    listOrder: 108
+    listOrder: 109
     requires:
       - STR_NEW_FIGHTER_CRAFT
     dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_ULTIMATE_CRAFT_UNLOCK_2
-    listOrder: 109
+    listOrder: 110
     requires:
       - STR_NEW_FIGHTER_CRAFT
     dependencies: *ALL_ALIVE_NAVIGATORS
   - name: STR_ULTIMATE_CRAFT_UNLOCK_3
-    listOrder: 110
+    listOrder: 111
     requires:
       - STR_NEW_FIGHTER_CRAFT
     dependencies: &ALL_ALIVE_MEDICS
@@ -467,7 +473,7 @@ research:
     points: 15
     listOrder: 300
     dependencies:
-      - STR_ALIEN_DATA_SLATE
+      - STR_IMPROVED_INTERCEPTOR
   - name: STR_HOVERTANK
     cost: 1260
     points: 30
@@ -507,7 +513,7 @@ research:
     listOrder: 401
     dependencies:
       - STR_ALLOY_VEST
-      - STR_ALIEN_DATA_SLATE
+      - STR_ALLOY_TANK_ARMOR
   - name: STR_POWER_SUIT
     cost: 310
     points: 20
@@ -580,7 +586,7 @@ research:
     listOrder: 501
     dependencies:
       - STR_ALLOY_KNIFE
-      - STR_ALIEN_DATA_SLATE
+      - STR_PERSONAL_ARMOR
   - name: STR_ELERIUM_ROCKET
     cost: 300
     points: 10
