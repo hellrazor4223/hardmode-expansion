@@ -27,7 +27,7 @@ extraStrings:
       STR_ALLOY_AMMO_UFOPEDIA: "With the knowledge of how to process the ultra-strong yet lightweight alien alloys, we can now manufacture alloy bullets capable of withstanding higher muzzle velocities without disintegrating, fired from alloy casings that are lighter yet stronger than previously possible."
 
       STR_ALLOY_AIRFRAME: "Alien Alloy Airframe"
-      STR_ALLOY_AIRFRAME: "With our now basic understanding on how to shape and form the newly discovered Alien Alloys, we might be able to produce new improved airframes for our interceptors. It is even suspected that we may improve our troops transporters, once initial testing with the enhanced Airframes have been conducted."
+      STR_ALLOY_AIRFRAME_UFOPEDIA: "With our now basic understanding on how to shape and form the newly discovered Alien Alloys, we might be able to produce new improved airframes for our interceptors. It is even suspected that we may improve our troops transporters, once initial testing with the enhanced Airframes have been conducted."
 
       STR_ALLOY_TANK_ARMOR: "Alloy HWP Armor"
       STR_ALLOY_TANK_ARMOR_UFOPEDIA: "The great success, we achieved with improving our air interception and air transport capabilities with Alien Alloys, was giving one of our engineering teams some great ideas on how to apply this new knowledge to our Heavy Weapon Platforms. After some initial research, we were able to enhance the armor and speed of them, using Alien Alloys. As a side effect our targetting modules could be increased, resulting in better aim and reactions for the Heavy Weapon Platforms."
