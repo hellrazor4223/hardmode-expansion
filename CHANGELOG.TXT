@@ -42,6 +42,7 @@ Version 0.99.3
  - Added proper Raceweights for Alien Retaliation
  - Added Manufacture dependency for Retaliators (they need a Interceptor now)
  - Added some more UfoPaedia articles for some research topics (mostly early games stuff)
+ - Added SKYSTRIKER (Improved Skyranger)
  - Changes to early game Research, Alien Alloy Techs are now fully available
  
 

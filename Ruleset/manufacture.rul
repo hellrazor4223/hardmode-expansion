@@ -33,8 +33,6 @@ manufacture:
     space: 6
     time: 300
     cost: 182000
-#    requiredItems:
-#      STR_ALIEN_ALLOYS: 2
   - name: STR_PLASMA_BEAM
     category: STR_CRAFT_WEAPON
     requires:
@@ -788,23 +786,6 @@ manufacture:
 #is to powerful, player needs to use only captured ones
   - delete: STR_BLASTER_LAUNCHER
   - delete: STR_BLASTER_BOMB
-#BEGIN BLASTER LAUNCHER
-#  - name: STR_BLASTER_LAUNCHER
-#    requiredItems:
-#      STR_ALIEN_ALLOYS: 6
-#    listOrder: 2300
-#  - name: STR_BLASTER_BOMB
-#    category: STR_AMMUNITION
-#    requires:
-#      - STR_BLASTER_BOMB
-#    space: 3
-#    time: 220
-#    cost: 8000
-#    requiredItems:
-#      STR_ALIEN_ALLOYS: 2
-#      STR_ELERIUM_115: 6
-#    listOrder: 2400
-#END BLASTER LAUNCHER
 ##END ALIEN WEAPONS
 
 ##BEGIN ARMOR
@@ -1011,6 +992,20 @@ manufacture:
       STR_INTERCEPTOR: 1
     listOrder: 3201
 #END RETALIATOR
+
+#BEGIN SKYSTRIKER
+#  - name: STR_SKYSTRIKER
+#    category: STR_CRAFT
+#    requires:
+#      - STR_IMPROVED_SKYRANGER
+#    space: 40
+#    time: 8000
+#    cost: 550000
+#    requiredItems:
+#      STR_ALIEN_ALLOYS: 75
+#      STR_SKYRANGER: 1
+#    listOrder: 3202
+#END SKYSTRIKER
 
 #BEGIN THUNDER
   - name: STR_THUNDER

@@ -8,7 +8,7 @@ extraStrings:
       STR_XCOM_CRAFT_ARMAMENT: "BRIEFINGS & NEWS & MISC"
       STR_HEAVY_WEAPONS_PLATFORMS: "CRAFTS & ARMAMENTS & HWPS"
       STR_UFO_COMPONENTS: "ALIEN UFOS"
-      STR_UFOS: "EMPTY"
+      STR_UFOS: "EMPTY (Reserved for Commendations)"
 
 #BEGIN BRIEFINGS
       STR_INITIAL_BRIEFING: "Initial Briefing"
@@ -110,7 +110,11 @@ extraStrings:
 #BEGIN CRAFTS
       STR_IMPROVED_INTERCEPTOR: "Improved Interceptor"
       STR_RETALIATOR: "RETALIATOR"
-      STR_RETALIATOR_UFOPEDIA: "A standard interceptor which was refitted with an alien alloy airframe, which grants more survivability and more speed for optimal interdictions."
+      STR_RETALIATOR_UFOPEDIA: "A standard interceptor which was refitted with an Alien Alloys airframe, which grants more survivability and more speed for optimal interdictions."
+
+#      STR_IMPROVED_SKYRANGER: "Improved Skyranger"
+#      STR_SKYSTRIKER: "SKYSTRIKER"
+#      STR_SKYSTRIKER_UFOPEDIA: "A standard Skyranger which was refitted with an Alien Alloys airframe and additional engines, allowing us to transport more troops faster to ground combats."
 
       STR_THUNDER: "THUNDER"
       STR_THUNDER_UFOPEDIA: "Transport and Combat Craft. A crude but somewhat effectice replication of alien propulsion, navigation and construction."

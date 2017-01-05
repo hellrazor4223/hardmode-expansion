@@ -7,7 +7,6 @@ crafts:
   - type: STR_RETALIATOR
     requires:
       - STR_IMPROVED_INTERCEPTOR
-    listOrder: 204
     sprite: 23
     fuelMax: 1000
     damageMax: 240
@@ -19,7 +18,53 @@ crafts:
     repairRate: 2
     refuelRate: 50
     score: 250
+    listOrder: 204
 #END RETALIATOR
+
+#BEGIN SKYSTRIKER
+#  - type: STR_SKYSTRIKER
+#    requires:
+#      - STR_IMPROVED_SKYRANGER
+#    sprite: 24
+#    fuelMax: 1500
+#    damageMax: 360
+#    speedMax: 1200
+#    accel: 3
+#    soldiers: 16
+#    vehicles: 4
+#    costRent: 250000
+#    refuelRate: 50
+#    transferTime: 72
+#    score: 250
+#    battlescapeTerrainData:
+#      name: SKYSTRIKER
+#      mapDataSets:
+#        - BLANKS
+#        - SKYSTRIKER
+#        - SLIDEDOOR
+#      mapBlocks:
+#        - name: SKYSTRIKER
+#          width: 10
+#          length: 20
+#    deployment:
+#      - [4, 8, 1, 0]
+#      - [5, 8, 1, 0]
+#      - [4, 9, 1, 0]
+#      - [5, 9, 1, 0]
+#      - [4, 10, 1, 0]
+#      - [5, 10, 1, 0]
+#      - [4, 11, 1, 0]
+#      - [5, 11, 1, 0]
+#      - [4, 12, 1, 0]
+#      - [5, 12, 1, 0]
+#      - [4, 13, 1, 4]
+#      - [5, 13, 1, 4]
+#      - [4, 14, 1, 4]
+#      - [5, 14, 1, 4]
+#      - [4, 15, 1, 6]
+#      - [5, 15, 1, 2]
+#    listOrder: 205
+#END SKYSTRIKER
 
 #BEGIN THUNDER
   - type: STR_THUNDER
@@ -36,7 +81,7 @@ crafts:
     vehicles: 3
     refuelItem: STR_ELERIUM_115
     refuelRate: 5
-    score: 300
+    score: 350
     battlescapeTerrainData:
       name: THUNDER
       mapDataSets:

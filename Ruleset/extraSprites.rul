@@ -378,7 +378,7 @@ extraSprites:
 
 ##BEGIN CRAFTS
 #BEGIN RETALIATOR
-  - type: UP002B.SPK
+  - type: RETALIATOR.SPK
     singleImage: true
     width: 320
     height: 200
@@ -392,6 +392,22 @@ extraSprites:
       23: Resources/Crafts/Retaliator/IntIcon_Minimised_Retaliator.png
       34: Resources/Crafts/Retaliator/IntIcon_Dogfight_Retaliator.png
 #END RETALIATOR
+
+#BEGIN SYKSTRIKER
+#  - type: SKYSTRIKER.SPK
+#    singleImage: true
+#    width: 320
+#    height: 200
+#    files:
+#      0: Resources/Crafts/Skystriker/UfoPaedia_Skystriker.png
+#  - type: BASEBITS.PCK
+#    files:
+#      57: Resources/Crafts/Skystriker/BaseBits_Skystriker.png
+#  - type: INTICON.PCK
+#    files:
+#      24: Resources/Crafts/Skystriker/IntIcon_Minimised_Skystriker.png
+#      35: Resources/Crafts/Skystriker/IntIcon_Dogfight_Skystriker.png
+#END SKYSTRIKER
 
 #BEGIN ALLOY CANNON
   - type: ALLOY_CANNON.SPK
