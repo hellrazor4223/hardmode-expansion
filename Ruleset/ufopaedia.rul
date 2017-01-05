@@ -51,6 +51,20 @@ ufopaedia:
     text: STR_ALLOY_AMMO_UFOPEDIA
     text_width: 158
     listOrder: 33
+  - id: STR_ALLOY_AIRFRAME
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ALLOY_AIRFRAME
+    text: STR_ALLOY_AIRFRAME_UFOPEDIA
+    listOrder: 34
+  - id: STR_ALLOY_TANK_ARMOR
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    text: STR_ALLOY_TANK_ARMOR_UFOPEDIA
+    listOrder: 35
   - id: STR_LASER_WEAPONS
     type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -59,7 +73,14 @@ ufopaedia:
     image_id: LASER_WEAPONS.SPK
     text: STR_LASER_WEAPONS_UFOPEDIA
     text_width: 148
-    listOrder: 34
+    listOrder: 36
+  - id: STR_HOVERTANK
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_HOVERTANK
+    text: STR_HOVERTANK_UFOPEDIA
+    listOrder: 37
 #END RESEARCH REPORTS
 
 #BEGIN NEWS

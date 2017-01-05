@@ -26,8 +26,17 @@ extraStrings:
       STR_ALLOY_AMMO: "Alien Alloy Ammunition"
       STR_ALLOY_AMMO_UFOPEDIA: "With the knowledge of how to process the ultra-strong yet lightweight alien alloys, we can now manufacture alloy bullets capable of withstanding higher muzzle velocities without disintegrating, fired from alloy casings that are lighter yet stronger than previously possible."
 
+      STR_ALLOY_AIRFRAME: "Alien Alloy Airframe"
+      STR_ALLOY_AIRFRAME: "With our now basic understanding on how to shape and form the newly discovered Alien Alloys, we might be able to produce new improved airframes for our interceptors. It is even suspected that we may improve our troops transporters, once initial testing with the enhanced Airframes have been conducted."
+
+      STR_ALLOY_TANK_ARMOR: "Alloy HWP Armor"
+      STR_ALLOY_TANK_ARMOR_UFOPEDIA: "The great success, we achieved with improving our air interception and air transport capabilities with Alien Alloys, was giving one of our engineering teams some great ideas on how to apply this new knowledge to our Heavy Weapon Platforms. After some initial research, we were able to enhance the armor and speed of them, using Alien Alloys. As a side effect our targetting modules could be increased, resulting in better aim and reactions for the Heavy Weapon Platforms."
+
       STR_LASER_WEAPONS: "Laser Weapons"
       STR_LASER_WEAPONS_UFOPEDIA: "Lasers have been known for decades. The discovery of alien alloys  and  the information about optics found in the alien data slate, allows mankind now for the first time to design practical laser weaponry. It is in most ways superior to kinetic weapons, and will help our troops in combat against the aliens."
+
+      STR_HOVERTANK: "Hovering HWP's"
+      STR_HOVERTANK_UFOPEDIA: "After we now successfully replicated the core design of how the alien crafts work, our research and engineering team started at the adaptation of these new technologies to our Heavy Weapon Platforms. The result allow us now to build flying Heavy Weapon Platforms, granting those higher mobility, enhanced scouting and target acquisition capabilities."
 #END BRIEFINGS
 
 #BEGIN NEWS
@@ -126,8 +135,6 @@ extraStrings:
       STR_TANK_LASER_CANNON_CORPSE: "Damaged Tank/Laser"
       STR_TANK_LASER_CANNON_REPAIR: "Repair Tank/Laser"
 
-      STR_ALLOY_TANK_ARMOR: "Alloy HWP Armor"
-
       STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
       STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
       STR_ALLOY_TANK_CANNON_REPAIR: "Repair Alloy Tank/Cannon"
@@ -142,8 +149,6 @@ extraStrings:
       STR_ALLOY_TANK_LASER_CANNON_CORPSE: "Damaged Alloy Tank/Laser"
       STR_ALLOY_TANK_LASER_CANNON_REPAIR: "Repair Alloy Tank/Laser"
       STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor."
-
-      STR_HOVERTANK: "Hover HWP's"
 
       STR_HOVERTANK_LASER: "Hovertank/Laser"
       STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
@@ -305,7 +310,7 @@ extraStrings:
 
 #BEGIN STORY ITEMS
       STR_ALIEN_DATA_SLATE: "Alien Data Slate"
-      STR_ALIEN_DATA_SLATE_UFOPEDIA: "The examination of this slate and the translation of the data inside lead as to a further understanding of the alien technology, first results can be expected in the field of optics and alien alloy shaping. We also found clues that an even bigger data source of alien knowlegde exists, a object whose name can be roughly translated as Alien Data Core. This Alien Data Core may provide us with detailed information regarding the alien weaponry, we need to acquire this item at all cost. Currently it is suspected to be found on the most dangerous ufos we encounter." 
+      STR_ALIEN_DATA_SLATE_UFOPEDIA: "The examination of this slate and the translation of the data inside lead as to a further understanding of the alien technology, ground breaking results can be expected in the field of optics. We also found clues that an even bigger data source of alien knowlegde exists, a object whose name can be roughly translated as Alien Data Core. This Alien Data Core may provide us with detailed information regarding the alien weaponry, we need to acquire this item at all cost. Currently it is suspected to be found on the most dangerous ufos we encounter." 
 
       STR_ALIEN_DATA_CORE: "Alien Data Core"
       STR_ALIEN_DATA_CORE_UFOPEDIA: "This item holds an abundance of information, especially specifications of the alien plasma weapons, their energy generation and storage. With this we are finally able to fully understand the function of these weapons.  The equations for the plasma fields are rather complex and seems to be unique for each weapon they use, to solve these equations it is essential to have more knowledge on specific technical aspects of these weapons. Aliens with technical aptitude could provide big breakthroughs here."

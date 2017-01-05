@@ -41,7 +41,9 @@ Version 0.99.3
  - Added size check to Mapscripts and optimized spawns
  - Added proper Raceweights for Alien Retaliation
  - Added Manufacture dependency for Retaliators (they need a Interceptor now)
+ - Added some more UfoPaedia articles for some research topics (mostly early games stuff)
  - Changes to early game Research, Alien Alloy Techs are now fully available
+ 
 
 Version 0.99.2d
  - Simplyfied some Missionscripts
