@@ -1,4 +1,4 @@
-###BEGIN UFOPEDIA
+###BEGIN UFOPAEDIA
 ufopaedia:
 
 ##BEGIN BRIEFINGS & RESEARCH REPORTS & NEWS
@@ -1256,5 +1256,5 @@ ufopaedia:
     text: STR_SUPPLY_SHIP_UFOPEDIA
     listOrder: 12700
 ##END UFOS
-#Free Section Names: STR_UFOS for civilians and misc stuff and one additional one maybe used STR_MEDALS for commendatiosn mod
-###END UFOPEDIA
+#Free Section Names: STR_UFOS for civilians and misc stuff and one additional one maybe used STR_MEDALS for commendations mod
+###END UFOPAEDIA
