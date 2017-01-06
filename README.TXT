@@ -284,6 +284,7 @@ Additional X-Com Armor:
 
 Additional X-Com Craft:
 	Retaliator (Advanced Interceptor)
+	Skystriker (Improved Skyranger)
 	Thunder (Lightning replacement)
 
 Additional X-Com Craft Weapons:
