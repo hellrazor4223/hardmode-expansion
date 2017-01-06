@@ -994,17 +994,17 @@ manufacture:
 #END RETALIATOR
 
 #BEGIN SKYSTRIKER
-#  - name: STR_SKYSTRIKER
-#    category: STR_CRAFT
-#    requires:
-#      - STR_IMPROVED_SKYRANGER
-#    space: 40
-#    time: 8000
-#    cost: 550000
-#    requiredItems:
-#      STR_ALIEN_ALLOYS: 75
-#      STR_SKYRANGER: 1
-#    listOrder: 3202
+  - name: STR_SKYSTRIKER
+    category: STR_CRAFT
+    requires:
+      - STR_IMPROVED_SKYRANGER
+    space: 40
+    time: 8000
+    cost: 550000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 75
+      STR_SKYRANGER: 1
+    listOrder: 3202
 #END SKYSTRIKER
 
 #BEGIN THUNDER

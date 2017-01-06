@@ -345,12 +345,12 @@ research:
     listOrder: 100
     dependencies:
       - STR_ALLOY_AIRFRAME
-#  - name: STR_IMPROVED_SKYRANGER
-#    cost: 550
-#    points: 15
-#    listOrder: 101
-#    dependencies:
-#      - STR_IMPROVED_INTERCEPTOR
+  - name: STR_IMPROVED_SKYRANGER
+    cost: 550
+    points: 15
+    listOrder: 101
+    dependencies:
+      - STR_IMPROVED_INTERCEPTOR
   - name: STR_NEW_FIGHTER_TRANSPORTER
     cost: 1050
     points: 30

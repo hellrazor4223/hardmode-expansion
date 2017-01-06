@@ -267,24 +267,24 @@ ufopaedia:
       height: 60
     text: STR_RETALIATOR_UFOPEDIA
     listOrder: 201
-#  - id: STR_SKYSTRIKER
-#    type_id: 1
-#    section: STR_HEAVY_WEAPONS_PLATFORMS
-#    requires:
-#      - STR_IMPROVED_SKYRANGER
-#    image_id: SKYSTRIKER.SPK
-#    rect_stats:
-#      x: 160
-#      y: 5
-#      width: 160
-#      height: 60
-#    rect_text:
-#      x: 5
-#      y: 40
-#      width: 140
-#      height: 100
-#    text: STR_SKYSTRIKER_UFOPEDIA
-#    listOrder: 202
+  - id: STR_SKYSTRIKER
+    type_id: 1
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    requires:
+      - STR_IMPROVED_SKYRANGER
+    image_id: SKYSTRIKER.SPK
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_SKYSTRIKER_UFOPEDIA
+    listOrder: 202
   - delete: STR_LIGHTNING
   - id: STR_THUNDER
     type_id: 1

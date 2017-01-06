@@ -9,47 +9,47 @@ crafts:
 #END SKYRANGER
 
 #BEGIN SKYSTRIKER
-#  - type: STR_SKYSTRIKER
-#    requires:
-#      - STR_IMPROVED_SKYRANGER
-#    sprite: 24
-#    fuelMax: 2400
-#    damageMax: 360
-#    speedMax: 1200
-#    accel: 3
-#    soldiers: 16
-#    vehicles: 3
-#    costSell: 345000
-#    costRent: 250000
-#    refuelRate: 80
-#    score: 375
-#    battlescapeTerrainData:
-#      name: SKYSTRIKER
-#      mapDataSets:
-#        - BLANKS
-#        - SKYSTRIKER
-#        - SLIDEDOOR
-#      mapBlocks:
-#        - name: SKYSTRIKER
-#          width: 10
-#          length: 20
-#    deployment:
-#      - [4, 8, 1, 0]
-#      - [5, 8, 1, 0]
-#      - [4, 9, 1, 0]
-#      - [5, 9, 1, 0]
-#      - [4, 10, 1, 0]
-#      - [5, 10, 1, 0]
-#      - [4, 11, 1, 0]
-#      - [5, 11, 1, 0]
-#      - [4, 12, 1, 0]
-#      - [5, 12, 1, 0]
-#      - [4, 13, 1, 4]
-#      - [5, 13, 1, 4]
-#      - [4, 14, 1, 4]
-#      - [5, 14, 1, 4]
-#      - [4, 15, 1, 6]
-#      - [5, 15, 1, 2]
+  - type: STR_SKYSTRIKER
+    requires:
+      - STR_IMPROVED_SKYRANGER
+    sprite: 24
+    fuelMax: 2400
+    damageMax: 360
+    speedMax: 1200
+    accel: 3
+    soldiers: 16
+    vehicles: 3
+    costSell: 345000
+    costRent: 250000
+    refuelRate: 80
+    score: 375
+    battlescapeTerrainData:
+      name: SKYSTRIKER
+      mapDataSets:
+        - BLANKS
+        - SKYSTRIKER
+        - SLIDEDOOR
+      mapBlocks:
+        - name: SKYSTRIKER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 8, 1, 0]
+      - [5, 8, 1, 0]
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [4, 13, 1, 4]
+      - [5, 13, 1, 4]
+      - [4, 14, 1, 3]
+      - [5, 14, 1, 4]
+      - [4, 15, 1, 2]
+      - [5, 15, 1, 2]
 #END SKYSTRIKER
 
 #BEGIN THUNDER

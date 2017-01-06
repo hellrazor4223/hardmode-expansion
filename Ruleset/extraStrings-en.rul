@@ -112,9 +112,9 @@ extraStrings:
       STR_RETALIATOR: "RETALIATOR"
       STR_RETALIATOR_UFOPEDIA: "A standard interceptor which was refitted with an Alien Alloys airframe, which grants more survivability and more speed for optimal interdictions."
 
-#      STR_IMPROVED_SKYRANGER: "Improved Skyranger"
-#      STR_SKYSTRIKER: "SKYSTRIKER"
-#      STR_SKYSTRIKER_UFOPEDIA: "A standard Skyranger which was refitted with an Alien Alloys airframe and additional engines, allowing us to transport more troops faster to ground combats."
+      STR_IMPROVED_SKYRANGER: "Improved Skyranger"
+      STR_SKYSTRIKER: "SKYSTRIKER"
+      STR_SKYSTRIKER_UFOPEDIA: "A standard Skyranger which was refitted with an Alien Alloys airframe and additional engines, allowing us to transport more troops faster to ground combats."
 
       STR_THUNDER: "THUNDER"
       STR_THUNDER_UFOPEDIA: "Transport and Combat Craft. A crude but somewhat effectice replication of alien propulsion, navigation and construction."
