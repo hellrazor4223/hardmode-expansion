@@ -249,24 +249,6 @@ ufopaedia:
   - id: STR_INTERCEPTOR
     section: STR_HEAVY_WEAPONS_PLATFORMS
     listOrder: 200
-  - id: STR_RETALIATOR
-    type_id: 1
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    requires:
-      - STR_IMPROVED_INTERCEPTOR
-    image_id: RETALIATOR.SPK
-    rect_stats:
-      x: 5
-      y: 110
-      width: 140
-      height: 60
-    rect_text:
-      x: 5
-      y: 40
-      width: 210
-      height: 60
-    text: STR_RETALIATOR_UFOPEDIA
-    listOrder: 201
   - id: STR_SKYSTRIKER
     type_id: 1
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -284,6 +266,24 @@ ufopaedia:
       width: 140
       height: 100
     text: STR_SKYSTRIKER_UFOPEDIA
+    listOrder: 201
+  - id: STR_RETALIATOR
+    type_id: 1
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    requires:
+      - STR_IMPROVED_INTERCEPTOR
+    image_id: RETALIATOR.SPK
+    rect_stats:
+      x: 5
+      y: 110
+      width: 140
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 210
+      height: 60
+    text: STR_RETALIATOR_UFOPEDIA
     listOrder: 202
   - delete: STR_LIGHTNING
   - id: STR_THUNDER
