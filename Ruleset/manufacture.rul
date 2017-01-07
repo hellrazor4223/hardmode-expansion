@@ -184,6 +184,7 @@ manufacture:
   - name: STR_ALLOY_TANK_LASER_CANNON_REPAIR
     category: STR_MAINTENANCE
     requires:
+      - STR_LASER_CANNON
       - STR_ALLOY_TANK_ARMOR
       - STR_TANK_REPAIR
     space: 25
