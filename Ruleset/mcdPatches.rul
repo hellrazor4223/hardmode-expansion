@@ -1,9 +1,6 @@
 ###BEGIN MCDPATCHES
 MCDPatches:
 
-#BEGIN UFO WALL FIXES
-#END UFO WALL FIXES
-
 #BEGIN ALIEN REPRODUCTION
   - type: U_BASE
     data:
@@ -27,6 +24,31 @@ MCDPatches:
         TUWalk: 1
         TUFly: 1
         TUSlide: 1
+  - type: SKYSTRIKER
+    data:
+      - MCDIndex: 62
+        bigWall: 0
+        TUWalk: 1
+        TUFly: 1
+        TUSlide: 1
+      - MCDIndex: 63
+        TUWalk: 1
+        TUFly: 1
+        TUSlide: 1
+      - MCDIndex: 64
+        TUWalk: 1
+        TUFly: 1
+        TUSlide: 1
+  - type: THUNDER
+    data:
+      - MCDIndex: 38
+        TUWalk: 1
+        TUFly: 1
+        TUSlide: 1
+      - MCDIndex: 39
+        TUWalk: 1
+        TUFly: 1
+        TUSlide: 1
   - type: AVENGER
     data:
       - MCDIndex: 53
@@ -38,26 +60,6 @@ MCDPatches:
         TUFly: 1
         TUSlide: 1
       - MCDIndex: 55
-        TUWalk: 1
-        TUFly: 1
-        TUSlide: 1
-  - type: LIGHTNIN
-    data:
-      - MCDIndex: 38
-        TUWalk: 1
-        TUFly: 1
-        TUSlide: 1
-      - MCDIndex: 39
-        TUWalk: 1
-        TUFly: 1
-        TUSlide: 1
-  - type: THUNDER
-    data:
-      - MCDIndex: 38
-        TUWalk: 1
-        TUFly: 1
-        TUSlide: 1
-      - MCDIndex: 39
         TUWalk: 1
         TUFly: 1
         TUSlide: 1
