@@ -862,6 +862,7 @@ regions:
     areas:
       - [305, 335, -70, -30]
       - [300, 335, -30, -10]
+      - [315, 335, -10, 0]
     regionWeight: 5
     missionWeights:
       STR_ALIEN_RESEARCH: 15
@@ -931,7 +932,6 @@ regions:
       - [330, 5, 0,  15]
       - [325, 5, 15, 60]
       - [5, 55, 40, 60]
-      - [315, 335, -10, 0]
     regionWeight: 5
     missionWeights:
       STR_ALIEN_RESEARCH: 15

@@ -15,6 +15,7 @@ Version 0.99.3
  - Fix Increase lategame weapon variety
  - Fix Tile and Route issue on EXPANDEDUBASE21
  - Fix Missing Halfed fundingCap
+ - Fix missionZone values N/S Atlantic
  - Adjusted Raceweights slightly
  - Adjust Stats for Muton Elites and Muton Elite Guards
  - Added turned Versions for: UBASE_00
