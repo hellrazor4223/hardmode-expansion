@@ -6015,7 +6015,7 @@ Blaster Bomb#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Improved Interceptor#</dia:string>
+            <dia:string>#Improved Skyranger#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
@@ -11049,7 +11049,7 @@ Fire Bomb#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Improved Interceptor#</dia:string>
+            <dia:string>#Improved Skyranger#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
@@ -11097,7 +11097,7 @@ Fire Bomb#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Improved Skyranger#</dia:string>
+            <dia:string>#Improved Interceptor#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
