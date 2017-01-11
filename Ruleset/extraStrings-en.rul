@@ -4,7 +4,7 @@ extraStrings:
 ##BEGIN en-US
   - type: en-US
     strings: &STRINGS_EN
-      STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.3  WIP by hellrazor"
+      STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.3 WIP by hellrazor"
       STR_XCOM_CRAFT_ARMAMENT: "BRIEFINGS & NEWS & MISC"
       STR_HEAVY_WEAPONS_PLATFORMS: "CRAFTS & ARMAMENTS & HWPS"
       STR_UFO_COMPONENTS: "ALIEN UFOS"
