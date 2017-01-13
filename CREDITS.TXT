@@ -53,7 +53,7 @@ Credits go to:
 		- For the Blue Smoke Grenade Sprites
 	Shadow:
 		- For the Improved Interceptor (Retaliator)
-        - For the PowerSuit/FlyingSuit Inventory sprites
+		- For the PowerSuit/FlyingSuit Inventory sprites
 	Arthanor:
 		- For the Alloy Tanks Corpsesprite
 		- For the Alternate Explosionsprites
