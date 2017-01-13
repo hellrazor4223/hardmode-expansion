@@ -1,55 +1,152 @@
 #Hardmode Expansion Mod by hellrazor
 #Credits for Version 0.99.3
 Credits go to:
-	hellrazor (developer of this modpack)
-	Fatrat for his Elerium Bomb, Incendiary Grenade
-	Ivan Dogovich for all the vanilla HandObSprites, Combat Knife HitSound
-	Warboy1982 for Reproduction Mod, Shotgun Mod, AlloyVest Sprite, Sectopod HWP and the Combat Knife
-	CryptoCacuts for the Alloy Ground Tanks and the Blue Smoke Grenade
-	Shadow for the Improved Interceptor (Retaliator) and PowerSuit/FlyingSuit Inventory sprites
-	Arthanor Corpsesprite Alloy Tanks, alternate Explosionsprites
-	Roxies321 Sprites Heavy Laser Auto
-	Ryskeliini for the Taser Pistol and the Grenade Launcher
-	Robin x  Ryskeliini  for the Grey Armored Vest
-	Robin for Gazer and Waspite Aliens, and the alternate Smokesprite
-	oshiaki2115 for the SniperRifle
-	Murmur for the StunGrenade
-	Moriaty for the Alloy Ammo
-	bloodman123726, SolariusScorch for the AlloyVest
-	yrizoud for the MediPack Sprites
-	LouisdeFuines for Laser Sectopod Ruleset
-	trollworkout for Matching Laser, Plasma, Standard Weapons, Blaster Launcher and the awesome Muton Brain Guard Sprites
-	Cirix, Luke83 for Alien Inventory Sprites
-	luke83 for extra Ufo Maps, Expanded UBASE Maps, Expanded Terror Maps, Sectopod HWP
-	Phaedris for the Muton Commander sprites
-	clownagent for the Jumpsuit Ufopaedia ruleset
-	Hobbes, for the terrain pack, for UFOpedia NEWS strings
-	chaosshade for the PlasmaShotgun, Elerium Rocket, recolored Medikit Sprites, Blue Smoke Grenade Handob, StunGrenade HandOb,
-		Recolor of HeavyLaserAuto sprites.
-	civilian for Alloy Knife, Alloy Sword Sprites, for Improved TU reserve Sprite and Kneeling Indicator
-	shadics for the Better Personal Armor Sprites
-	aldorn for the recolored sprites for the Flashbang Grenade
-	SolariusScorch for Plasma Sniper Rifle Sprite, and several UFOpaedia tech pics.
-	SolariusScorch and all the other People who worked on YetMoreUFOs package, from which i took a lot of Maps.
-	Credit also goes to all people who made translation in the FMP (which i simple copied over, for the Items were i didn't had some.)
-	clownagent for FastRamp Ruleset und UFopaedia entry for the Jumpsuit.
-	Jukebox, for helping my finding the right PSI values to make Ethereals PSI immune but with same PSI AS.
-	MicktheMage for the Alloy Cannon UfoPaedia picture.
-	54x for the enhanced Vanilla Flying Suits Spriteset.
-	xOps for the Muton Brain Guard Inventory Picture, Muton Elite Ufopaedia Pictures, Sectoid Elite Sprites
-	Moriaty for the enhanced Power and Flying Suit Sprites
-	pWWWa for the new Plasma Hit Animation, Plasma Melee Weapons, Custom HitAnimation for Combat Knife, Alloy Knife and Alloy Sword
-	Falco for Sectopod HWP
-	nadir for helping formulate many of the new NEWS strings, Muton Berserker Texts
-	Dioxine for Alloy Knife sprites, and some Sprites for the Civilians
-	Hobbes - OpenXCom (OXC) ruleset, .MAP/RMP/MCD/PCK file design, Geoscape additions & all other terrains not listed below
-	Nachtwolf & Voller - Dawn City tilesets images (originally developed for UFO2000)
-	civilian - original OXC ruleset
-	Bagirov - Industrial terrain design (originally developed for UFO2000)
-	Solarius Scorch - AI routing for the Railyard UFO2000 terrain conversion, additional maps and tile images for Commercial UFO2000 terrain conversion.
-	XOps - Tileset graphics for the Atlantis Desert and Mu Jungle terrains, Muton Berserker Sprites and 1 Sound
-	Twilight Owl - original Airfield UFO2000 terrain
-	Cooper - Battleship Variants
-	Bloax for Muton Berserker Sounds
+	Everyone in #openxcom @freenode
+	Everyone in the OCX community, which somehow provided feedback, bugreports etc..
 
+	hellrazor:
+		- developing the modpack
+		- testplaying and debugging
+		- adding details
+		- balancing
+	SupSuper:
+		- For OpenXcom (Dude you made my dreams about X-Com come to reality!!!)
+		- For the patience to listen to my questions
+		- For fulfilling many feature requests
+		- For being receptive to sloppely Bug Reports
+	Warboy1982:
+		- For his contributions to the OpenXcom project
+		- For his patience dealing with a lot of my question
+		- For the Reproduction Mod
+		- For the Shotgun Mod
+		- For the AlloyVest Sprite
+		- For the Sectopod HWP
+		- For the Combat Knife
+	Hobbes:
+		- For inspiring me with his modding work and his fanfiction UFO Book!
+		- For answering many of my questions
+		- For his awesome Terrainpack Mod
+		- For many of the World News Strings
+	SolariusScorch:
+		- For the AlloyVest
+		- For the Plasma Sniper Rifle
+		- For several UfoPaedia Techpics
+		- For the SolarsNewUFO's Mod (Which i took the freedom to bugfix and made loads of new map variants for)
+		- For AI routing for the Railyard UFO2000 terrain conversion, additional maps and tile images for Commercial UFO2000 terrain conversion.
+		- For contributing to the YetMoreUFOs Mod from which is took a lot of the initial UFO Maps
+	Dioxine:
+		- Fir disagreeing with me (Honestly!)
+		- For the Alloy Knife sprites
+		- For a lot of Sprites for Civilians
+	Falko:
+		- For his OpenXcom Modding tools ( http://falkooxc2.pythonanywhere.com/ )
+		  The Sprite converter is so essential to my work!!
+	Fatrat:
+		- For the Elerium Bomb, which gave birth to some more bombs ;)
+		- For the Incendiary Grenade
+	Ivan Dogovich:
+		- For the Vanilla HandObSprites
+		- For the Combat Knife HitSound
+		- For the Install Video for OpenXcom and Mods
+	CryptoCactus:
+		- For the Alloy Ground Tanks
+		- For the Blue Smoke Grenade Sprites
+	Shadow:
+		- For the Improved Interceptor (Retaliator)
+        - For the PowerSuit/FlyingSuit Inventory sprites
+	Arthanor:
+		- For the Alloy Tanks Corpsesprite
+		- For the Alternate Explosionsprites
+	Roxies321:
+		- For the Heavy Laser Auto Sprites
+	Ryskeliini:
+		- For the Taser Pistol
+		- For the Grenade Launcher
+		- For the Grey Armored Vest
+	Robin:
+		- For the Grey Armored Vest
+		- For the Gazer Aliens
+		- For the Waspite Aliens
+		- For the alternate Smokesprite
+	trollworkout:
+		- For the Matching Laser Weapon Sprites
+		- For the Matching Plasma Weapon Sprites
+		- For the Matching Standard Weapons
+		- For the New Blaster Launcher Sprites
+		- For the Muton Elite Guard Sprites
+	xOps:
+		- For the Muton Elite Guard Inventory Picture
+		- For the Muton Elite Ufopaedia Pictures
+		- For the Sectoid Elite Sprites
+		- For the Tileset graphics for the Atlantis Desert and Mu Jungle terrains
+		- For the Muton Berserker Sprites and 1 Sound
+	luke83:
+		- For a lot of UFO Maps variants (Which I had the pleasure to rework and bugcheck and slightly expand)
+		- For the initial design of the Expanded Ubase Maps (I had great pleasure expanding those ;))
+		- For the initial design of the Expanded Terror Maps (Bugfixing those was a pain!)
+		- For the Vanilla Alien Inventory Sprites
+		- For the Sectopod HWP
+	pWWWa:
+		- For the new Plasma Hit Animation
+		- For the Plasma Melee Weapons
+		- For the Custom HitAnimations for the Combat Knife, Alloy Knife and Alloy Sword
+	chaosshade:
+		- For the PlasmaShotgun (Deadliest weapon ever after Blaster Launchers =))
+		- For the Elerium Rocket
+		- For the recolored Medikit Sprites
+		- For the Blue Smoke Grenade and StunGrenade HandOb
+		- For the Recolor of HeavyLaserAuto sprites
+	clownagent:
+		- For the Jumpsuit Ufopaedia ruleset
+		- For the initial Fastramp ruleset
+		- For the UFOPaedia entry for Jumpsuits
+	civilian:
+		- For the Alloy Knife
+		- For the Alloy Sword Sprites
+		- For the Improved TU reserve Sprite
+		- For the Kneeling Indicator
+	Moriaty:
+		- For the Alloy Ammo
+		- For the enhanced Power and Flying Suit Sprites
+	Bloax:
+		- For the Muton Berserker Sounds
+		- For the Skystriker UfoPaedia Picture
+	Cooper:
+		- For his nicely done Battleship Variants
+	bloodman123726:
+		- For the AlloyVest
+	yrizoud:
+		- For the Field Medi Pack Sprites
+	Phaedris:
+		- For the Muton Elite Sprites
+	LouisdeFuines:
+		- For the Laser Sectopod Ruleset
+	aldorn:
+		- For the Flashbang Grenade Sprites
+	Cirix:
+		- For the Vanilla Alien Inventory Sprites
+	MicktheMage:
+		- For the Alloy Cannon UfoPaedia picture
+	shadics:
+		- For the Better Personal Armor Sprites
+	Falco:
+		- For the Sectopod HWP
+	oshiaki2115:
+		- For the SniperRifle
+	Murmur:
+		- For the StunGrenade
+	54x:
+		- For the enhanced Vanilla Flying Suits Spriteset.
+	Jukebox:
+		- For helping me balancing PSI values
+	nadir:
+		- For helping formulate many of the new NEWS strings, Muton Berserker Texts
+	Nachtwolf & Voller:
+		- For the Dawn City tilesets images (originally developed for UFO2000)
+	Bagirov:
+		- For the Industrial terrain design (originally developed for UFO2000)
+	Twilight Owl:
+		- For the original Airfield UFO2000 terrain
+
+This list is for sure not complete.
 If i forgot someone, or something is incorrect, please let me know.
