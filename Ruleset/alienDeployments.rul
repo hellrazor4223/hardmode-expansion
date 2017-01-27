@@ -1469,18 +1469,18 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE: 1
+      STR_ALIEN_BASE: 2
       STR_ALIEN_RETALIATION: 1
       STR_ALIEN_ABDUCTION: 1
       STR_ALIEN_HARVEST: 1
-      STR_ALIEN_RESEARCH: 3
-      STR_ALIEN_TERROR: 1
+      STR_ALIEN_RESEARCH: 1
+      STR_ALIEN_TERROR: 2
       STR_SHIP_ATTACK: 1
       STR_DOCKED_SHIP: 1
       STR_ALIEN_SUPPLY: 90
-    genMissionFreq: 6
+    genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     alienBase: true # this is only to tell new battle mode what to do with this deployment
-    objectivesRequired: 16
+    objectivesRequired: 16 #MCD defined specialtype
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 250]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 10 #points aliens get for a base each day
@@ -1508,38 +1508,38 @@ alienDeployments:
     data:
       - alienRank: 6
         lowQty: 1
-        highQty: 2
-        dQty: 2
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 7
         lowQty: 1
-        highQty: 2
-        dQty: 2
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 8
         lowQty: 1
-        highQty: 2
-        dQty: 2
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 9
-        lowQty: 1
-        highQty: 3
-        dQty: 0
+        lowQty: 2
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 11
         lowQty: 1
-        highQty: 3
-        dQty: 0
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets: *RANK_11_LARGE
       - alienRank: 10
         lowQty: 1
-        highQty: 3
-        dQty: 0
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets: *RANK_10_LARGE
       - alienRank: 5
@@ -1551,31 +1551,31 @@ alienDeployments:
       - alienRank: 4
         lowQty: 1
         highQty: 3
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 3
         lowQty: 1
         highQty: 3
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
-        itemSets: *RANK_3_LARGE_HE
+        itemSets: *RANK_4_LARGE
       - alienRank: 2
         lowQty: 1
         highQty: 3
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets: *RANK_2_BASE
       - alienRank: 1
         lowQty: 2
         highQty: 4
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets: *RANK_1_LARGE
       - alienRank: 0
         lowQty: 1
         highQty: 2
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets: &RANK_0_CYDONIA
           -
@@ -1618,7 +1618,7 @@ alienDeployments:
     height: 4
     terrains:
       - MARS
-    shade: 15
+    shade: 10
     race: STR_CYDONIA_STAGE_1
     nextStage: STR_MARS_THE_FINAL_ASSAULT
     finalDestination: true
@@ -1654,20 +1654,20 @@ alienDeployments:
         itemSets: *EMPTY
       - alienRank: 9
         lowQty: 2
-        highQty: 3
-        dQty: 0
+        highQty: 4
+        dQty: 2
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 11
         lowQty: 1
         highQty: 3
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets: *RANK_11_LARGE
       - alienRank: 10
         lowQty: 1
         highQty: 3
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 60
         itemSets: *RANK_10_LARGE
       - alienRank: 5
@@ -1679,31 +1679,31 @@ alienDeployments:
       - alienRank: 4
         lowQty: 3
         highQty: 6
-        dQty: 0
+        dQty: 2
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 3
         lowQty: 3
         highQty: 6
-        dQty: 0
+        dQty: 2
         percentageOutsideUfo: 0
-        itemSets: *RANK_3_LARGE_HE
+        itemSets: *RANK_4_LARGE
       - alienRank: 2
         lowQty: 3
         highQty: 6
-        dQty: 0
+        dQty: 2
         percentageOutsideUfo: 0
         itemSets: *RANK_2_BASE
       - alienRank: 1
         lowQty: 3
         highQty: 6
-        dQty: 0
+        dQty: 2
         percentageOutsideUfo: 0
         itemSets: *RANK_1_LARGE
       - alienRank: 0
         lowQty: 2
         highQty: 3
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets: *RANK_0_CYDONIA
     width: 100
@@ -1725,7 +1725,7 @@ alienDeployments:
     script: BOSSBATTLE
     objectiveType: 14
     objectivesRequired: 4
-    cheatTurn: 0
+    cheatTurn: 3
 #END MARS THE FINAL ASSAULT
 ##END BASES
 

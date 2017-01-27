@@ -77,8 +77,9 @@ Features:
 
 Final Mission:
 Mars - Cydonia Landing takes place in a 80x80 Map.
+Spawnnumbers (Superhuman Difficulty): Minimum 47, Maximum 62
 Mars - the Final Assault takes place in a 100x100 Map.
-Loaded up with min 64 of the strongest enemy units you will encounter ingame.
+Spawnnumbers (Superhuman Difficulty): Minimum 61, Maximum 84
 Go and find the Brain and kill it!
 
 General Gameplay changes:
