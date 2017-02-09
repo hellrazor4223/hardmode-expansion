@@ -927,7 +927,7 @@ units:
   - type: STR_CHRYSSALID_TERRORIST
     stats:
       psiStrength: 75
-      aggression: 2
+      aggression: 3
     value: 13
     aggroSound: 49
 #END CHRYSSALID
@@ -970,7 +970,7 @@ units:
     deathSound: 6
     aggroSound: 112
     intelligence: 7
-    aggression: 2
+    aggression: 9
     energyRecovery: 70
     livingWeapon: true
 #END MUTON BERSERKER
