@@ -96,8 +96,6 @@ manufacture:
     space: 25
     time: 1200
     cost: 500000
-    requiredItems:
-      STR_LASER_CANNON: 1
     listOrder: 500
   - name: STR_TANK_LASER_CANNON_REPAIR
     category: STR_MAINTENANCE
@@ -179,7 +177,6 @@ manufacture:
     cost: 560000
     requiredItems:
       STR_ALIEN_ALLOYS: 16
-      STR_LASER_CANNON: 1
     listOrder: 506
   - name: STR_ALLOY_TANK_LASER_CANNON_REPAIR
     category: STR_MAINTENANCE
@@ -210,7 +207,6 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 20
       STR_ELERIUM_115: 20
-      STR_LASER_CANNON: 1
     listOrder: 508
   - name: STR_HOVERTANK_LASER_REPAIR
     category: STR_MAINTENANCE
@@ -242,7 +238,6 @@ manufacture:
     time: 1200
     cost: 800000
     requiredItems:
-      STR_SMALL_LAUNCHER: 1
       STR_ALIEN_ALLOYS: 24
       STR_ELERIUM_115: 20
     listOrder: 510
@@ -289,7 +284,6 @@ manufacture:
     time: 1200
     cost: 850000
     requiredItems:
-      STR_PLASMA_BEAM: 1
       STR_ALIEN_ALLOYS: 20
       STR_ELERIUM_115: 30
     listOrder: 600
@@ -321,7 +315,6 @@ manufacture:
     time: 1200
     cost: 900000
     requiredItems:
-      STR_BLASTER_LAUNCHER: 1
       STR_ALIEN_ALLOYS: 24
       STR_ELERIUM_115: 20
     listOrder: 700
@@ -987,10 +980,9 @@ manufacture:
       - STR_IMPROVED_INTERCEPTOR
     space: 30
     time: 6000
-    cost: 435000
+    cost: 735000
     requiredItems:
       STR_ALIEN_ALLOYS: 50
-      STR_INTERCEPTOR: 1
     listOrder: 3201
 #END RETALIATOR
 
@@ -1000,11 +992,10 @@ manufacture:
     requires:
       - STR_IMPROVED_SKYRANGER
     space: 40
-    time: 8000
-    cost: 550000
+    time: 9000
+    cost: 1100000
     requiredItems:
       STR_ALIEN_ALLOYS: 75
-      STR_SKYRANGER: 1
     listOrder: 3202
 #END SKYSTRIKER
 
@@ -1017,9 +1008,9 @@ manufacture:
     time: 18000
     cost: 2500000
     requiredItems:
-      STR_ALIEN_ALLOYS: 100
-      STR_UFO_POWER_SOURCE: 2
-      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_ALLOYS: 150
+      STR_UFO_POWER_SOURCE: 1
+      STR_UFO_NAVIGATION: 1
     listOrder: 3300
 #END THUNDER
 
@@ -1032,7 +1023,7 @@ manufacture:
     time: 14000
     cost: 5000000
     requiredItems:
-      STR_ALIEN_ALLOYS: 120
+      STR_ALIEN_ALLOYS: 100
       STR_UFO_POWER_SOURCE: 2
       STR_UFO_NAVIGATION: 1
     listOrder: 3400
@@ -1047,7 +1038,7 @@ manufacture:
     time: 34000
     cost: 10000000
     requiredItems:
-      STR_ALIEN_ALLOYS: 240
+      STR_ALIEN_ALLOYS: 300
       STR_UFO_POWER_SOURCE: 4
       STR_UFO_NAVIGATION: 2
     listOrder: 3500
