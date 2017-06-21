@@ -8798,7 +8798,7 @@ Celatid Corpse#</dia:string>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="61.5194,-30.1087"/>
-        <dia:point val="61.5095,-28.0503"/>
+        <dia:point val="61.5096,-28.0503"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11143,6 +11143,82 @@ Fire Bomb#</dia:string>
       <dia:connections>
         <dia:connection handle="0" to="O154" connection="13"/>
         <dia:connection handle="1" to="O279" connection="2"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Flowchart - Box" version="0" id="O281">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-3,60"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-3.05,59.95;8.08872,63.9413"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-3,60"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="11.038721117293747"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="3.8913477319956353"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="0.10000000149011612"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="padding">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Grav Shield#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="monospace" style="80" name="Courier-Bold"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.84666663408279419"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="2.51936,62.1523"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O282">
+      <dia:attribute name="obj_pos">
+        <dia:point val="11,62"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="7.92694,61.5952;11.0509,62.3186"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="11,62"/>
+        <dia:point val="8.03872,61.9457"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O131" connection="7"/>
+        <dia:connection handle="1" to="O281" connection="8"/>
       </dia:connections>
     </dia:object>
   </dia:layer>

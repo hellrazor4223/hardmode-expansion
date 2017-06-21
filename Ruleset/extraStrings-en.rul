@@ -181,7 +181,6 @@ extraStrings:
 #END TANKS
 
 #BEGIN ARMORS
-      STR_NONE_UC: "JUMPSUIT"
       STR_JUMPSUIT_UFOPEDIA: "The standard X-Com jumpsuit offers only basic protection, but guarantees a maximum of mobility. It is issued automatically to all X-Com operatives, who did not qualify for advanced armor."
 
       STR_SOLDIER_ARMOR_REPAIR: "Soldier Armor Repair"
