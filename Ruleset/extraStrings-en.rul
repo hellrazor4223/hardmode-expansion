@@ -398,7 +398,7 @@ extraStrings:
       STR_SECTOID_ELITE_NAVIGATOR: "Sectoid Elite Navigator"
       STR_SECTOID_ELITE_LEADER: "Sectoid Elite Leader"
       STR_SECTOID_ELITE_COMMANDER: "Sectoid Elite Commander"
-      STR_SECTOID_ELITE_UFOPEDIA: "Basically a Sectoid, this species shares many similarities with them, but it possesses far more capable psionic powers. They are also slightly taller, with smaller compacter heads. Astonishingly their vitals are much more stronger then normal Sectoids. When they operate on Earth they seem to be wearing some kind of environmental protection suit which also acts as a personal body armor."
+      STR_SECTOID_ELITE_UFOPEDIA: "Basically a Sectoid, this species shares many similarities with them, but it possesses far more capable psionic powers. They are also slightly taller, with smaller compacter heads. Astonishingly their vitals are much stronger then normal Sectoids. When they operate on Earth they seem to be wearing some kind of environmental protection suit which also acts as a personal body armor."
       STR_SECTOID_ELITE_CORPSE: "Sectoid Elite Corpse"
       STR_SECTOID_ELITE_AUTOPSY: "Sectoid Elite autopsy"
       STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA: "This species are indeed Sectoids, but their DNA is in some small part largely different, which would explain the slightly different proportions, the increased vitality and the much more powerful psionic powers."
@@ -431,7 +431,7 @@ extraStrings:
       STR_MUTON_BERSERKER_UFOPEDIA: "This hulking creature appears to be a subspecies of the Muton. It's much the same as the 'standard' variety, though overactive glands presumed similar to adrenal glands constantly flood its system with a hormone that keeps the creature in a constant state of rage, dulling its senses and giving it remarkable pain resistance. Its intelligence is sharply reduced compared to that of a standard Muton, so it seems to attack exclusively in close quarters."
       STR_MUTON_BERSERKER_CORPSE: "Muton Berserker Corpse"
       STR_MUTON_BERSERKER_AUTOPSY: "Muton Berserker autopsy"
-      STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: "Our initial findings shed a really dreadfull light on this creature. It is in its purest form a Muton, we only could identify really small changes in its genetic structure, mainly enforcing induced hormone levels to enrage it basically permanently. The induced pain reception and slightrly hardened outer skin, allow significant damage reduction from all weapons."
+      STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: "Our initial findings shed a really dreadfull light on this creature. It is in its purest form a Muton, we only could identify really small changes in its genetic structure, mainly enforcing induced hormone levels to enrage it basically permanently. The induced pain reception and slightly hardened outer skin, allow significant damage reduction from all weapons."
 
       STR_CYBERMITE: "Cybermite"
       STR_CYBERMITE_TERRORIST: "Cybermite Terrorist"
