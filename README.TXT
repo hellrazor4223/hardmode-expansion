@@ -86,8 +86,7 @@ General Gameplay changes:
 	Globe with 330 Cities (including vanilla ones)
 	Research costs are 1,5 times vanilla
 	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
-	10 Soldiers instead of 8 in the beginning
-	10 Armored Vests, which you need to equip on your Soldiers
+	8 Armored Vests, which you need to equip on your Soldiers
 	Melee Weapons apply Skill and Strength
 	X-Com Soldiers start with Melee Accuracy from range 40-60
 	More saner starting weapons stock and equipment for the Skyranger

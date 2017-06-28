@@ -8,10 +8,7 @@ Version 0.99.3
  - Fix Alien Grenade / Elerium Rocket Research and Graphic
  - Fix Wall issue for UFO_190m.MAP
  - Fix out of boundary nodes for some Maps
- - Fix UFOpaedia Typo - Alien Threat
- - Fix String Typo - Alien Launch Island Attack
- - Fix String Typo - News 5
- - Fix Several Strings typos in ufopaedia texts
+ - Fix Several extraStrings Typos
  - Fix Missing Name String for MALE_CIVILIAN
  - Fix mapScript for POLAR, MARSH and SWAMPS to reduce chance of UFO inaccessible
  - Fix Increase lategame weapon variety
@@ -46,7 +43,6 @@ Version 0.99.3
 	- Docked Ship
  - Added size check to Mapscripts and optimized spawns
  - Added proper Raceweights for Alien Retaliation
- - Added Manufacture dependency for Retaliators (they need a Interceptor now)
  - Added some more UfoPaedia articles for some research topics (mostly early games stuff)
  - Added SKYSTRIKER (Improved Skyranger)
  - Changes to early game Research, Alien Alloy Techs are now fully available
