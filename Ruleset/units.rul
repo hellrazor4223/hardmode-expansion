@@ -1,6 +1,210 @@
 ####BEGIN UNITS
 units:
 
+###BEGIN DRONES
+##BEGIN NORMAL DRONES
+#BEGIN DRONE SCOUT
+  - type: STR_DRONE_SCOUT
+    race: STR_DRONE_SCOUT
+    stats:
+      tu: 70
+      stamina: 110
+      health: 90
+      bravery: 110
+      reactions: 60
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: DRONE_SCOUT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 16
+    deathSound: 23
+    moveSound: 14
+#END DRONE SCOUT
+
+#BEGIN DRONE SCANNER
+  - type: STR_DRONE_SCANNER
+    race: STR_DRONE_SCANNER
+    stats:
+      tu: 70
+      stamina: 110
+      health: 90
+      bravery: 110
+      reactions: 60
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: DRONE_SCANNER_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 16
+    deathSound: 23
+    moveSound: 14
+    builtInWeapons:
+      - STR_DRONE_SCANNER_WEAPON
+#END DRONE SCANNER
+
+#BEGIN DRONE MEDIKIT
+  - type: STR_DRONE_MEDIKIT
+    race: STR_DRONE_MEDIKIT
+    stats:
+      tu: 70
+      stamina: 110
+      health: 90
+      bravery: 110
+      reactions: 60
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: DRONE_MEDIKIT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 16
+    deathSound: 23
+    moveSound: 14
+    builtInWeapons:
+      - STR_DRONE_MEDIKIT_WEAPON
+#END DRONE MEDIKIT
+
+#BEGIN DRONE TASER
+  - type: STR_DRONE_TASER
+    race: STR_DRONE_TASER
+    stats:
+      tu: 70
+      stamina: 110
+      health: 90
+      bravery: 110
+      reactions: 60
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: DRONE_TASER_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 16
+    deathSound: 23
+    moveSound: 14
+    builtInWeapons:
+      - STR_DRONE_TASER_WEAPON
+      - STR_DRONE_TASER_WEAPON_AMMO
+#END DRONE TASER
+##END NORMAL DRONES
+
+##BEGIN ALLOY DRONES
+#BEGIN ALLOY DRONE SCOUT
+  - type: STR_ALLOY_DRONE_SCOUT
+    race: STR_ALLOY_DRONE_SCOUT
+    stats:
+      tu: 80
+      stamina: 130
+      health: 90
+      bravery: 110
+      reactions: 70
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: ALLOY_DRONE_SCOUT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 14
+#END ALLOY DRONE SCOUT
+
+#BEGIN ALLOY DRONE SCANNER
+  - type: STR_ALLOY_DRONE_SCANNER
+    race: STR_ALLOY_DRONE_SCANNER
+    stats:
+      tu: 80
+      stamina: 130
+      health: 90
+      bravery: 110
+      reactions: 70
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: ALLOY_DRONE_SCANNER_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    builtInWeapons:
+      - STR_ALLOY_DRONE_SCANNER_WEAPON
+#END ALLOY DRONE SCANNER
+
+#BEGIN ALLOY DRONE MEDIKIT
+  - type: STR_ALLOY_DRONE_MEDIKIT
+    race: STR_ALLOY_DRONE_MEDIKIT
+    stats:
+      tu: 80
+      stamina: 130
+      health: 90
+      bravery: 110
+      reactions: 70
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: ALLOY_DRONE_MEDIKIT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    builtInWeapons:
+      - STR_ALLOY_DRONE_MEDIKIT_WEAPON
+#END ALLOY DRONE MEDIKIT
+
+#BEGIN ALLOY DRONE TASER
+  - type: STR_ALLOY_DRONE_TASER
+    race: STR_ALLOY_DRONE_TASER
+    stats:
+      tu: 80
+      stamina: 130
+      health: 90
+      bravery: 110
+      reactions: 70
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: ALLOY_DRONE_TASER_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    builtInWeapons:
+      - STR_ALLOY_DRONE_TASER_WEAPON
+      - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
+#END ALLOY DRONE TASER
+##END ALLOY DRONES
+###END DRONES
+
 ###BEGIN TANKS
 ##BEGIN NORMAL TANKS
 #BEGIN TANK CANNON
