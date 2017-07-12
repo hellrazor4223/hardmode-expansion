@@ -82,6 +82,17 @@ extraSprites:
       165: Resources/Items/SmallLauncher/BigOb_FireBomb.png
       166: Resources/Items/SmallLauncher/BigOb_SmokeBomb.png
       167: Resources/Units/MutonBerserker/BigOb_MutonBerserker_Corpse.png
+      168: Resources/Units/Drones/BigOb_DroneSmoke_Weapon.png
+      169: Resources/Units/Drones/BigOb_DroneScanner_Weapon.png
+      170: Resources/Units/Drones/BigOb_DroneTaser_Weapon.png
+      171: Resources/Units/Drones/DroneScout/BigOb_DroneScout_Corpse.png
+      172: Resources/Units/Drones/DroneScanner/BigOb_DroneScanner_Corpse.png
+      173: Resources/Units/Drones/DroneMedikit/BigOb_DroneMedikit_Corpse.png
+      174: Resources/Units/Drones/DroneTaser/BigOb_DroneTaser_Corpse.png
+      175: Resources/Units/Drones/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
+      176: Resources/Units/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
+      177: Resources/Units/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
+      178: Resources/Units/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
 ##END BIGOB
 
 ##BEGIN FLOOROB
@@ -175,6 +186,14 @@ extraSprites:
       178: Resources/Items/SmallLauncher/FloorOb_FireBomb.png
       179: Resources/Items/SmallLauncher/FloorOb_SmokeBomb.png
       180: Resources/Units/MutonBerserker/FloorOb_MutonBerserker_Corpse.png
+      181: Resources/Units/Drones/DroneScout/FloorOb_DroneScout_Corpse.png
+      182: Resources/Units/Drones/DroneScanner/FloorOb_DroneScanner_Corpse.png
+      183: Resources/Units/Drones/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
+      184: Resources/Units/Drones/DroneTaser/FloorOb_DroneTaser_Corpse.png
+      185: Resources/Units/Drones/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
+      186: Resources/Units/Drones/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
+      187: Resources/Units/Drones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
+      188: Resources/Units/Drones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
 ##END FLOOROB
 
 ##BEGIN HANDOB
@@ -323,6 +342,13 @@ extraSprites:
     subY: 3
     files:
       805: Resources/Items/SniperRifle/BulletSprite_SniperRifle_AA.png
+  - type: Projectiles#24
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      840: Resources/Units/Drones/BulletSprite_DroneTaser.png
 ##END PROJECTILES
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
@@ -349,6 +375,13 @@ extraSprites:
     files:
       8: Resources/Items/SpriteSheet_SmokeCloud.png
   - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/Items/HitAnimation_PlasmaNew.png
+  - type: SMOKE.PCK
     height: 80
     width: 160
     subX: 32
@@ -356,12 +389,12 @@ extraSprites:
     files:
       100: Resources/Items/TaserPistol/HitAnimation_TaserPistol.png
   - type: SMOKE.PCK
-    height: 40
-    width: 320
+    height: 80
+    width: 160
     subX: 32
     subY: 40
     files:
-      56: Resources/Items/HitAnimation_PlasmaNew.png
+      108: Resources/Units/Drones/HitAnimation_DroneTaser.png
 #END SMOKE
 
 #BEGIN X1
@@ -420,6 +453,15 @@ extraSprites:
 ##END CRAFTS
 
 ##BEGIN RESEARCH
+#BEGIN SUPPORT DRONES
+  - type: SUPPORT_DRONES_UFOPAEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Units/Drones/UfoPaedia_SupportDrones.png
+#END SUPPORT DRONES
+
 #BEGIN ALLOY AMMO
   - type: ALLOY_AMMO.SPK
     singleImage: true
@@ -493,7 +535,7 @@ extraSprites:
 #END PSIONICS
 ##END RESEARCH
 
-##BEGIN ARMOR SPRITES
+##BEGIN XCOM ARMOR
 #BEGIN ARMORED VEST
   - type: ARMOREDVEST.PCK
     width: 512
@@ -553,8 +595,92 @@ extraSprites:
     files:
       0: Resources/Units/ReinforcedFlyingSuit/SpriteSheet_ReinforcedFlyingSuit.png
 #END REINFORCED FLYING SUIT
+##BEGIN XCOM ARMOR
 
-##BEGIN ALLOY TANKS
+##BEGIN DRONES
+#BEGIN DRONE SCOUT
+  - type: DRONE_SCOUT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/DroneScout/SpriteSheet_DroneScout.png
+#END DRONE SCOUT
+
+#BEGIN DRONE SCANNER
+  - type: DRONE_SCANNER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/DroneScanner/SpriteSheet_DroneScanner.png
+#END DRONE SCANNER
+
+#BEGIN DRONE MEDIKIT
+  - type: DRONE_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/DroneMedikit/SpriteSheet_DroneMedikit.png
+#END DRONE MEDIKIT
+
+#BEGIN DRONE TASER
+  - type: DRONE_TASER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/DroneTaser/SpriteSheet_DroneTaser.png
+#END DRONE TASER
+
+#BEGIN ALLOY DRONE SCOUT
+  - type: ALLOY_DRONE_SCOUT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
+#END ALLOY DRONE SCOUT
+
+#BEGIN ALLOY DRONE SCANNER
+  - type: ALLOY_DRONE_SCANNER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
+#END ALLOY DRONE SANNER
+
+#BEGIN ALLOY DRONE MEDIKIT
+  - type: ALLOY_DRONE_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
+#END ALLOY DRONE MEDITKIT
+
+#BEGIN ALLOY DRONE TASER
+  - type: ALLOY_DRONE_TASER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Drones/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
+#END ALLOY DRONE TASER
+##END DRONES
+
+##BEGIN TANKS
+#BEGIN ALLOY TANKS
   - type: ALLOYTANKS.PCK
     width: 256
     height: 640
@@ -562,7 +688,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/AlloyTank/SpriteSheet_AlloyTanks.png
-##END ALLOY TANKS
+#END ALLOY TANKS
 
 #BEGIN WALKTERTANK PLASMA
   - type: WALKERTANK_PLASMA.PCK
@@ -573,7 +699,9 @@ extraSprites:
     files:
       0: Resources/Units/WalkertankPlasma/SpriteSheet_WalkertankPlasma.png
 #END WALKERTANK PLASMA
+##END TANKS
 
+##BEGIN ALIENS
 #BEGIN MUTON BERSERKER
   - type: MUTON_BERSERKER.PCK
     width: 256
@@ -815,8 +943,9 @@ extraSprites:
     files: 
       0: Resources/Units/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter_Autopsy.png
 #END CHRYSSALID SPITTER
+##END ALIENS
 
-#BEGIN CIVILIANS
+##BEGIN CIVILIANS
   - type: MALE_CIVILIAN2.PCK
     width: 512
     height: 720
@@ -873,8 +1002,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/SpriteSheet_FemaleCivilian_SuitBlue_HairBlond.png
-#END CIVILIANS
-##END ARMOR SPRITES
+##END CIVILIANS
 
 ##BEGIN ARMOR INVENTORY PICS
 #BEGIN ARMORED VEST

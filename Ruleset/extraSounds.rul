@@ -14,5 +14,7 @@ extraSounds:
       110: Resources/Units/MutonBerserker/Sound_Punch_MutonBerserker.wav
       111: Resources/Units/MutonBerserker/Sound_Hit_MutonBerserker.wav
       112: Resources/Units/MutonBerserker/Sound_Aggro_MutonBerserker.wav
+      113: Resources/Units/Drones/Sound_Shoot_DroneSmoke.wav
+      114: Resources/Units/Drones/Sound_Shoot_DroneTaser.wav
 ###END EXTRASOUNDS
 
