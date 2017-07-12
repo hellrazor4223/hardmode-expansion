@@ -188,6 +188,158 @@ armors:
 #END FLYING SUIT
 ##END XCOM ARMOR
 
+##BEGIN DRONES
+#BEGIN DRONE SCOUT ARMOR
+  - type: DRONE_SCOUT_ARMOR
+    spriteSheet: DRONE_SCOUT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DRONE_SCOUT_CORPSE
+    frontArmor: 45
+    sideArmor: 37
+    rearArmor: 30
+    underArmor: 30
+    drawingRoutine: 4
+    size: 1
+    damageModifier: &DRONE_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+    loftempsSet: [ 3 ]
+#END DRONE SCOUT ARMOR
+
+#BEGIN DRONE SCANNER ARMOR
+  - type: DRONE_SCANNER_ARMOR
+    spriteSheet: DRONE_SCANNER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DRONE_SCANNER_CORPSE
+    frontArmor: 35
+    sideArmor: 27
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END DRONE SCANNER ARMOR
+
+#BEGIN DRONE MEDIKIT ARMOR
+  - type: DRONE_MEDIKIT_ARMOR
+    spriteSheet: DRONE_MEDIKIT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DRONE_MEDIKIT_CORPSE
+    frontArmor: 35
+    sideArmor: 27
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END DRONE MEDIKIT ARMOR
+
+#BEGIN DRONE TASER ARMOR
+  - type: DRONE_TASER_ARMOR
+    spriteSheet: DRONE_TASER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DRONE_TASER_CORPSE
+    frontArmor: 35
+    sideArmor: 27
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END DRONE TASER ARMOR
+##END DRONE ARMORS
+
+##BEGIN ALLOY DRONE ARMORs
+#BEGIN ALLOY DRONE SCOUT ARMOR
+  - type: ALLOY_DRONE_SCOUT_ARMOR
+    spriteSheet: ALLOY_DRONE_SCOUT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_ALLOY_DRONE_SCOUT_CORPSE
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    drawingRoutine: 4
+    size: 1
+    damageModifier: &ALLOY_DRONE_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+    loftempsSet: [ 3 ]
+#END ALLOY DRONE SCOUT ARMOR
+
+#BEGIN ALLOY DRONE SCANNER ARMOR
+  - type: ALLOY_DRONE_SCANNER_ARMOR
+    spriteSheet: ALLOY_DRONE_SCANNER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_ALLOY_DRONE_SCANNER_CORPSE
+    frontArmor: 70
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END ALLOY DRONE SCANNER ARMOR
+
+#BEGIN ALLOY DRONE MEDIKIT ARMOR
+  - type: ALLOY_DRONE_MEDIKIT_ARMOR
+    spriteSheet: ALLOY_DRONE_MEDIKIT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_ALLOY_DRONE_MEDIKIT_CORPSE
+    frontArmor: 70
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END ALLOY DRONE MEDIKIT ARMOR
+
+#BEGIN ALLOY DRONE TASER ARMOR
+  - type: ALLOY_DRONE_TASER_ARMOR
+    spriteSheet: ALLOY_DRONE_TASER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_ALLOY_DRONE_TASER_CORPSE
+    frontArmor: 70
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END ALLOY DRONE TASER ARMOR
+##END DRONES
+
 ##BEGIN TANKS
 #BEGIN TANK CANNON ARMOR
   - type: TANK_CANNON_ARMOR
