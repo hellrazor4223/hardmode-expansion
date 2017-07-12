@@ -162,44 +162,48 @@ research:
     cost: 300
     points: 10
     listOrder: 31
+  - name: STR_SUPPORT_DRONES
+    cost: 150
+    points: 15
+    listOrder: 32
   - name: STR_EXPLOSIVE_AMMO
     cost: 100
     points: 10
-    listOrder: 32
+    listOrder: 33
   - name: STR_ALLOY_AMMO
     cost: 75
     points: 15
-    listOrder: 33
+    listOrder: 34
     dependencies:
       - STR_ALIEN_ALLOYS
   - name: STR_LASER_WEAPONS
     cost: 150
     points: 10
-    listOrder: 34
+    listOrder: 35
     dependencies:
       - STR_ALIEN_DATA_SLATE
   - name: STR_LAUNCHER_WEAPONS
     cost: 300
     points: 20
-    listOrder: 35
+    listOrder: 36
     dependencies:
       - STR_ALIEN_GRENADE
       - STR_ALIEN_DATA_SLATE
   - name: STR_PLASMA_WEAPONS
     cost: 200
     points: 20
-    listOrder: 36
+    listOrder: 37
     dependencies:
       - STR_ALIEN_DATA_SLATE
       - STR_ALIEN_DATA_CORE
   - name: STR_ALIEN_BIOLOGY
     cost: 300
     points: 20
-    listOrder: 37
+    listOrder: 38
     dependencies:
       - STR_ALIEN_BIOLOGY_UNLOCK
   - name: STR_ALIEN_BIOLOGY_UNLOCK
-    listOrder: 38
+    listOrder: 39
     dependencies:
       - STR_FLOATER_CORPSE
       - STR_SECTOID_CORPSE
@@ -226,29 +230,29 @@ research:
   - name: STR_ALIEN_LANGUAGE
     cost: 300
     points: 20
-    listOrder: 39
+    listOrder: 40
     dependencies:
       - STR_ALIEN_LANGUAGE_UNLOCK
   - name: STR_ALIEN_LANGUAGE_UNLOCK
-    listOrder: 40
+    listOrder: 41
     requires:
       - STR_THE_ALIEN_THREAT
     dependencies: *ALL_ALIVE_ALIENS
   - name: STR_ALIEN_POWER_SYSTEMS
     cost: 300
     points: 20
-    listOrder: 41
+    listOrder: 42
     dependencies:
       - STR_ALIEN_ALLOYS
       - STR_ELERIUM_115
   - name: STR_PSIONICS
     cost: 300
     points: 20
-    listOrder: 42
+    listOrder: 43
     dependencies:
       - STR_PSIONICS_UNLOCK
   - name: STR_PSIONICS_UNLOCK
-    listOrder: 43
+    listOrder: 44
     requires:
       - STR_THE_ALIEN_THREAT
     dependencies:
@@ -437,7 +441,7 @@ research:
 #END CRAFTS
 
 #BEGIN CRAFTWEAPONS
-#listOrder: 200-299
+#listOrder: 200-249
   - name: STR_ALLOY_CANNON
     cost: 300
     points: 20
@@ -471,6 +475,17 @@ research:
       - STR_HEAVY_PLASMA
       - STR_HEAVY_PLASMA_CLIP
 #END CRAFTWEAPONS
+
+#BEGIN DRONES
+#listOrder: 250-299
+  - name: STR_ALLOY_DRONE_ARMOR
+    cost: 630
+    points: 30
+    dependencies:
+      - STR_POWER_SUIT
+      - STR_ALIEN_DATA_SLATE
+    listOrder: 250
+#END DRONES
 
 #BEGIN TANKS
 #listOrder: 300-399
