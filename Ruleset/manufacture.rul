@@ -57,6 +57,268 @@ manufacture:
     listOrder: 400
 ##END CRAFTWEAPONS
 
+##BEGIN DRONES
+#BEGIN DRONE SCOUT
+  - name: STR_DRONE_SCOUT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_SUPPORT_DRONES
+    space: 10
+    time: 200
+    cost: 92500
+    requiredItems:
+      STR_DRONE_SCOUT_CORPSE: 1
+    producedItems:
+      STR_DRONE_SCOUT: 1
+    listOrder: 401
+#END DRONE SCOUT
+
+#BEGIN DRONE SCANNER
+  - name: STR_DRONE_SCANNER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    space: 10
+    time: 400
+    cost: 235000
+    requiredItems:
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_DRONE_SCANNER: 1
+    listOrder: 401
+  - name: STR_DRONE_SCANNER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    space: 10
+    time: 200
+    cost: 117500
+    requiredItems:
+      STR_DRONE_SCANNER_CORPSE: 1
+    producedItems:
+      STR_DRONE_SCANNER: 1
+    listOrder: 402
+#END DRONE SCANNER
+
+#BEGIN DRONE MEDIKIT
+  - name: STR_DRONE_MEDIKIT
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    space: 10
+    time: 400
+    cost: 235000
+    requiredItems:
+      STR_MEDI_KIT: 1
+    producedItems:
+      STR_DRONE_MEDIKIT: 1
+    listOrder: 403
+  - name: STR_DRONE_MEDIKIT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    space: 10
+    time: 200
+    cost: 117500
+    requiredItems:
+      STR_DRONE_MEDIKIT_CORPSE: 1
+    producedItems:
+      STR_DRONE_MEDIKIT: 1
+    listOrder: 404
+#END DRONE MEDIKIT
+
+#BEGIN DRONE TASER
+  - name: STR_DRONE_TASER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 10
+    time: 400
+    cost: 235000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    producedItems:
+      STR_DRONE_TASER: 1
+    listOrder: 405
+  - name: STR_DRONE_TASER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 10
+    time: 200
+    cost: 117500
+    requiredItems:
+      STR_DRONE_TASER_CORPSE: 1
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_DRONE_TASER: 1
+    listOrder: 406
+  - name: STR_DRONE_TASER_WEAPON_AMMO_X10
+    category: STR_HWP_CANNON_SHELLS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 2
+    time: 40
+    cost: 2000
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+        STR_DRONE_TASER_WEAPON_AMMO: 10
+    listOrder: 406
+#END DRONE TASER
+
+#BEGIN ALLOY DRONE SCOUT
+  - name: STR_ALLOY_DRONE_SCOUT
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+    space: 10
+    time: 600
+    cost: 255000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+    listOrder: 407
+  - name: STR_ALLOY_DRONE_SCOUT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+    space: 10
+    time: 300
+    cost: 127500
+    requiredItems:
+      STR_ALLOY_DRONE_SCOUT_CORPSE: 1
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+    listOrder: 407
+#END ALLOY DRONE SCOUT
+
+#BEGIN ALLOY DRONE SCANNER
+  - name: STR_ALLOY_DRONE_SCANNER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    space: 10
+    time: 600
+    cost: 255000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+    listOrder: 408
+  - name: STR_ALLOY_DRONE_SCANNER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    space: 10
+    time: 300
+    cost: 127500
+    requiredItems:
+      STR_ALLOY_DRONE_SCANNER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+    listOrder: 409
+#END ALLOY DRONE SCANNER
+
+#BEGIN ALLOY DRONE MEDIKIT
+  - name: STR_ALLOY_DRONE_MEDIKIT
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    space: 10
+    time: 600
+    cost: 255000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_MEDI_KIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+    listOrder: 410
+  - name: STR_ALLOY_DRONE_MEDIKIT_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    space: 10
+    time: 300
+    cost: 127500
+    requiredItems:
+      STR_ALLOY_DRONE_MEDIKIT_CORPSE: 1
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+    listOrder: 411
+#END ALLOY DRONE SCANNER
+
+#BEGIN ALLOY DRONE TASER
+  - name: STR_ALLOY_DRONE_TASER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 10
+    time: 600
+    cost: 255000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+    listOrder: 412
+  - name: STR_ALLOY_DRONE_TASER_REPAIR
+    category: STR_MAINTENANCE
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 10
+    time: 300
+    cost: 127500
+    requiredItems:
+      STR_ALLOY_DRONE_TASER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+    listOrder: 413
+  - name: STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10
+    category: STR_HWP_CANNON_SHELLS
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 2
+    time: 40
+    cost: 4000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    producedItems:
+        STR_ALLOY_DRONE_TASER_WEAPON_AMMO: 10
+    listOrder: 414
+#END ALLOY DRONE TASER
+##END DRONES
+
 ##BEGIN TANKS
 #BEGIN TANK CANNON
   - name: STR_TANK_CANNON_REPAIR
