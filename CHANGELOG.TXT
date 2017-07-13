@@ -17,6 +17,7 @@ Version 0.99.3
  - Fix missionZone values N/S Atlantic
  - Adjusted Raceweights slightly
  - Adjust Manufacture more to vanilla
+ - Adjust Muton Race - Added Muton Elite Leaders
  - Adjust Stats for Muton Elites and Muton Elite Guards
  - Adjust Race composition, Ranks and Spawnnumber for Final Mission Stages
  - Added turned Versions for: UBASE_00
