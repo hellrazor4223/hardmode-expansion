@@ -2,7 +2,7 @@
 #Credits for Version 0.99.3
 Credits go to:
 	Everyone in #openxcom @freenode
-	Everyone in the OCX community, which somehow provided feedback, bugreports etc..
+	Everyone in the OXC community, which somehow provided feedback, bugreports etc..
 
 	hellrazor:
 		- developing the modpack
@@ -48,6 +48,7 @@ Credits go to:
 		- For the Vanilla HandObSprites
 		- For the Combat Knife HitSound
 		- For the Install Video for OpenXcom and Mods
+		- For the additional Drone Sprites
 	CryptoCactus:
 		- For the Alloy Ground Tanks
 		- For the Blue Smoke Grenade Sprites
@@ -63,6 +64,7 @@ Credits go to:
 		- For the Taser Pistol
 		- For the Grenade Launcher
 		- For the Grey Armored Vest
+		- For the original Drones Sprite
 	Robin:
 		- For the Grey Armored Vest
 		- For the Gazer Aliens

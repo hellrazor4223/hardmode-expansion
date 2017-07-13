@@ -412,7 +412,7 @@ ufopaedia:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
     text: STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA
     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
     listOrder: 1156

@@ -1,9 +1,9 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requieres at least: openxcom_git_master_2016_08_28_1950 or newer
+This mod requires at least: openxcom_git_master_2017_06_26_2215 or newer
 
-README for Version 0.99.3 WIP
+README for Version 0.99.3
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
@@ -99,7 +99,7 @@ General Gameplay changes:
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
-	Alien Bases may also create Abdcution, Harvest and Research Missions in their regions
+	Alien Bases will also invoke Alien Missions in their regions (20% chance)
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 
 Economic:
@@ -145,6 +145,93 @@ Additional Alien Weapons:
 Additional Alien Missions:
 	Ship Attack
 	Docked Ship
+
+Additional Alien Races:
+	Waspite
+	Gazer
+	Sectoid Elite
+	Muton Elite
+	Muton Elite Guard
+	Muton Berserker
+	Armored Cyberdisc Terrorist
+	Armored Sectopod Terrorist
+	Chryssalid Spitter Terrorist
+
+Additional Alien UFOs:
+	Fighter (9 Maps)
+	Sentry (14 Maps)
+	Excavator (11)
+	Labship (4 Maps)
+
+Additional Vanilla Interior Variant Ufo Maps:
+	Medium Scout (8 Maps)
+	Large Scout (27 Maps)
+	Harvester (24 Maps)
+	Abductor (10 Maps)
+	Terror Ship (8 Maps)
+	Supply Ship (2 Maps)
+	Battleship (7 Maps)
+
+Additional X-Com Weapons:
+	Combat Knife
+	Alloy Knife
+	Alloy Blade
+	Taser Pistol
+	Shotgun
+	Sniper Rifle
+	Grenade Launcher
+	Elerium Rocket
+	Scatter Laser
+	Heavy Laser Replacements:
+		Heavy Laser/Sniper
+		Heavy Laser/Auto
+	Flashbang Grenade
+	Incendiary Grenade
+	Stun Grenade
+	Fire Bomb
+	Smoke Bomb
+
+All kinetic weapons also get Alloy Ammo once researched.
+Alloy Ammo adds +10 Damage on top of convential AP Ammo.
+
+Also 3 Medkits one avaible from start, the others are researchable.
+Research is Corpsebased and also requires Storyitems.
+
+Additional X-Com Tanks:
+	Drone/Scout
+	Drone/Scanner
+	Drone/Medikit
+	Drone/Taser
+	Alloy Drone/Scout
+	Alloy Drone/Scanner
+	Alloy Drone/Medikit
+	Alloy Drone/Taser
+	Alloy Tank Cannon
+	Alloy Tank Rocket Launcher
+	Alloy Tank Laser
+	Hovertank Laser
+	Hovertank Elerium Bomb
+	Walkertank Plasma
+
+Hovertank Launcher Ammo does 200 damage instead of 140
+
+Drones are 1x1 sized Tanks, fast and somewhat durable but stick to support and scouting roles.
+Drones allow you to bring a expendable unit and still have a big combat team ready.
+
+Additional X-Com Armor:
+	Grey Armored Vest
+	Alloy Vest
+	Reinforced Power Suit
+	Reinforced Flying Suit
+
+Additional X-Com Craft:
+	Retaliator (Advanced Interceptor)
+	Skystriker (Improved Skyranger)
+	Thunder (Lightning replacement)
+
+Additional X-Com Craft Weapons:
+	Alloy Cannon
+	Modified Range for Vanilla Weapons
 
 Additional Terrains:
 	Airfield
@@ -216,82 +303,7 @@ Additional Terrains:
 	Tundra Plane
 	Tundra Swamp
 
-Additional UFO Maps (darkened):
-	8 Medium Scout Maps
-	27 Large Scout Maps
-	24 Harvester Maps
-	10 Abductor Maps
-	8 Terror Ship Maps
-	2 Supply Ship Maps
-	7 Battleship Map
-	9 Fighter Maps
-	14 Sentry Maps
-	11 Excavator Maps
-	4 Labship Maps
-
-
-Additional Alien Races:
-	Waspite
-	Gazer
-	Sectoid Elite
-	Muton Elite
-	Muton Elite Guard
-	Muton Berserker
-	Armored Cyberdisc Terrorist
-	Armored Sectopod Terrorist
-	Chryssalid Spitter Terrorist
-
-Additional X-Com Weapons:
-	Combat Knife
-	Alloy Knife
-	Alloy Blade
-	Taser Pistol
-	Shotgun
-	Sniper Rifle
-	Grenade Launcher
-	Elerium Rocket
-	Scatter Laser
-	Heavy Laser Replacements:
-		Heavy Laser/Sniper
-		Heavy Laser/Auto
-	Flashbang Grenade
-	Incendiary Grenade
-	Stun Grenade
-	Fire Bomb
-	Smoke Bomb
-
-All kinetic weapons also get Alloy Ammo once researched.
-Alloy Ammo adds +10 Damage on top of convential AP Ammo.
-
-Also 3 Medkits one avaible from start, the others are researchable.
-Research is Corpsebased and also requires Storyitems.
-
-Additional X-Com Tanks:
-	Alloy Tank Cannon
-	Alloy Tank Rocket Launcher
-	Alloy Tank Laser
-	Hovertank Laser
-	Hovertank Elerium Bomb
-	Walkertank Plasma
-
-Hovertank Launcher Ammo does 200 damage instead of 140
-
-Additional X-Com Armor:
-	Grey Armored Vest
-	Alloy Vest
-	Reinforced Power Suit
-	Reinforced Flying Suit
-
-Additional X-Com Craft:
-	Retaliator (Advanced Interceptor)
-	Skystriker (Improved Skyranger)
-	Thunder (Lightning replacement)
-
-Additional X-Com Craft Weapons:
-	Alloy Cannon
-	Modified Range for Vanilla Weapons
-
-Supported Languages:
+Currently Supported Languages:
 	English:
 		en-US
 		en-GB
