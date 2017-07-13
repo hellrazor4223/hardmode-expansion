@@ -65,7 +65,7 @@ manufacture:
       - STR_SUPPORT_DRONES
     space: 10
     time: 200
-    cost: 92500
+    cost: 125000
     requiredItems:
       STR_DRONE_SCOUT_CORPSE: 1
     producedItems:
@@ -81,7 +81,7 @@ manufacture:
       - STR_MOTION_SCANNER
     space: 10
     time: 400
-    cost: 235000
+    cost: 300000
     requiredItems:
       STR_MOTION_SCANNER: 1
     producedItems:
@@ -94,7 +94,7 @@ manufacture:
       - STR_MOTION_SCANNER
     space: 10
     time: 200
-    cost: 117500
+    cost: 150000
     requiredItems:
       STR_DRONE_SCANNER_CORPSE: 1
     producedItems:
@@ -110,7 +110,7 @@ manufacture:
       - STR_MEDI_KIT
     space: 10
     time: 400
-    cost: 235000
+    cost: 300000
     requiredItems:
       STR_MEDI_KIT: 1
     producedItems:
@@ -123,7 +123,7 @@ manufacture:
       - STR_MEDI_KIT
     space: 10
     time: 200
-    cost: 117500
+    cost: 150000
     requiredItems:
       STR_DRONE_MEDIKIT_CORPSE: 1
     producedItems:
@@ -139,9 +139,9 @@ manufacture:
       - STR_ELERIUM_115
     space: 10
     time: 400
-    cost: 235000
+    cost: 300000
     requiredItems:
-      STR_ELERIUM_115: 2
+      STR_ELERIUM_115: 4
     producedItems:
       STR_DRONE_TASER: 1
     listOrder: 405
@@ -152,10 +152,10 @@ manufacture:
       - STR_ELERIUM_115
     space: 10
     time: 200
-    cost: 117500
+    cost: 150000
     requiredItems:
       STR_DRONE_TASER_CORPSE: 1
-      STR_ELERIUM_115: 1
+      STR_ELERIUM_115: 2
     producedItems:
       STR_DRONE_TASER: 1
     listOrder: 406
@@ -166,9 +166,9 @@ manufacture:
       - STR_ELERIUM_115
     space: 2
     time: 40
-    cost: 2000
+    cost: 3000
     requiredItems:
-      STR_ELERIUM_115: 1
+      STR_ELERIUM_115: 2
     producedItems:
         STR_DRONE_TASER_WEAPON_AMMO: 10
     listOrder: 406
@@ -182,9 +182,9 @@ manufacture:
       - STR_SUPPORT_DRONES
     space: 10
     time: 600
-    cost: 255000
+    cost: 320000
     requiredItems:
-      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_ALLOYS: 8
     producedItems:
       STR_ALLOY_DRONE_SCOUT: 1
     listOrder: 407
@@ -195,10 +195,10 @@ manufacture:
       - STR_SUPPORT_DRONES
     space: 10
     time: 300
-    cost: 127500
+    cost: 160000
     requiredItems:
       STR_ALLOY_DRONE_SCOUT_CORPSE: 1
-      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_SCOUT: 1
     listOrder: 407
@@ -213,9 +213,9 @@ manufacture:
       - STR_MOTION_SCANNER
     space: 10
     time: 600
-    cost: 255000
+    cost: 320000
     requiredItems:
-      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_ALLOYS: 8
       STR_MOTION_SCANNER: 1
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
@@ -228,10 +228,10 @@ manufacture:
       - STR_MOTION_SCANNER
     space: 10
     time: 300
-    cost: 127500
+    cost: 160000
     requiredItems:
       STR_ALLOY_DRONE_SCANNER_CORPSE: 1
-      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
     listOrder: 409
@@ -243,12 +243,12 @@ manufacture:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
     space: 10
     time: 600
-    cost: 255000
+    cost: 320000
     requiredItems:
-      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_ALLOYS: 8
       STR_MEDI_KIT: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
@@ -258,13 +258,13 @@ manufacture:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
     space: 10
     time: 300
-    cost: 127500
+    cost: 160000
     requiredItems:
       STR_ALLOY_DRONE_MEDIKIT_CORPSE: 1
-      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
     listOrder: 411
@@ -279,10 +279,10 @@ manufacture:
       - STR_ELERIUM_115
     space: 10
     time: 600
-    cost: 255000
+    cost: 320000
     requiredItems:
-      STR_ALIEN_ALLOYS: 4
-      STR_ELERIUM_115: 4
+      STR_ALIEN_ALLOYS: 8
+      STR_ELERIUM_115: 8
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
     listOrder: 412
@@ -294,11 +294,11 @@ manufacture:
       - STR_ELERIUM_115
     space: 10
     time: 300
-    cost: 127500
+    cost: 160000
     requiredItems:
       STR_ALLOY_DRONE_TASER_CORPSE: 1
-      STR_ALIEN_ALLOYS: 2
-      STR_ELERIUM_115: 2
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 4
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
     listOrder: 413
@@ -310,9 +310,9 @@ manufacture:
       - STR_ELERIUM_115
     space: 2
     time: 40
-    cost: 4000
+    cost: 6000
     requiredItems:
-      STR_ELERIUM_115: 2
+      STR_ELERIUM_115: 3
     producedItems:
         STR_ALLOY_DRONE_TASER_WEAPON_AMMO: 10
     listOrder: 414
