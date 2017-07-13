@@ -8,6 +8,7 @@ Version 0.99.3
  - Fix Alien Grenade / Elerium Rocket Research and Graphic
  - Fix Wall issue for UFO_190m.MAP
  - Fix out of boundary nodes for some Maps
+ - Fix missing usage information on medical items/drones
  - Fix Several extraStrings Typos
  - Fix Missing Name String for MALE_CIVILIAN
  - Fix mapScript for POLAR, MARSH and SWAMPS to reduce chance of UFO inaccessible

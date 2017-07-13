@@ -152,7 +152,7 @@ extraStrings:
       STR_DRONE_MEDIKIT_WEAPON: "Drone Medikit"
       STR_DRONE_MEDIKIT_CORPSE: "Damaged Drone/Medikit"
       STR_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
-      STR_DRONE_MEDIKIT_UFOPAEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit."
+      STR_DRONE_MEDIKIT_UFOPAEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit, it holds double the charges then the medikit."
 
       STR_DRONE_TASER: "Drone/Taser"
       STR_DRONE_TASER_WEAPON: "Drone Taser"
@@ -177,7 +177,7 @@ extraStrings:
       STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
       STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
       STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
-      STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Lets hope we can keep our soldiers better alive."
+      STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
 
       STR_ALLOY_DRONE_TASER: "Alloy Drone/Taser"
       STR_ALLOY_DRONE_TASER_WEAPON: "Alloy Drone Taser"
@@ -334,7 +334,12 @@ extraStrings:
       STR_HEAVY_LASER_AUTO_UFOPEDIA: "The heavy laser auto is extremly effective in close combat situations, when high dropping power is needed. The inability to aim this thing properly has been cursed by our soldiers, since it lacks a aimed shot."
 
       STR_FIELD_MEDI_PACK: "Field Medic Pack"
+      STR_FIELD_MEDI_PACK_UFOPEDIA: "The field medic pack combines a healing facility with pain killers and stimulants. In order to use the field medic pack you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the field medi pack icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 1 health restored.{NEWLINE}STIMULANT> This will restore 5 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 3 | STIMULANT: 3 | PAIN KILLER: 3"
+
+      STR_MEDI_KIT_UFOPEDIA: "The medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 3 health restored.{NEWLINE}STIMULANT> This will restore 10 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 6 | STIMULANT: 6 | PAIN KILLER: 6"
+
       STR_ADVANCED_MEDI_KIT: "Advanced Medi-Kit"
+      STR_ADVANCED_MEDI_KIT_UFOPEDIA: "The advanced medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the advanced medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the advanced medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 6 health restored.{NEWLINE}STIMULANT> This will restore 15 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 9 | STIMULANT: 9 | PAIN KILLER: 9"
 
       STR_FLASHBANG_GRENADE: "Flashbang Grenade"
       STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight."      
