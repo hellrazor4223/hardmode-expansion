@@ -27,7 +27,7 @@ items:
     requires:
       - STR_SUPPORT_DRONES
     size: 0.1
-    costBuy: 100
+    costBuy: 200
     costSell: 50
     transferTime: 48
     weight: 3
@@ -48,9 +48,9 @@ items:
     costSell: 100000
     transferTime: 72
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -65,8 +65,8 @@ items:
   - type: STR_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
-    bigSprite: 60
-    floorSprite: 73
+    bigSprite: 171
+    floorSprite: 181
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -82,9 +82,9 @@ items:
     size: 2
     costSell: 125000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -102,8 +102,8 @@ items:
       - STR_MOTION_SCANNER
     size: 2
     weight: 40
-    bigSprite: 61
-    floorSprite: 74
+    bigSprite: 172
+    floorSprite: 182
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -114,7 +114,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     weight: 3
-    bigSprite: 58
+    bigSprite: 169
     battleType: 7
     tuUse: 15
     flatRate: true
@@ -133,9 +133,9 @@ items:
     size: 2
     costSell: 125000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -153,8 +153,8 @@ items:
       - STR_MEDI_KIT
     size: 2
     weight: 40
-    bigSprite: 62
-    floorSprite: 75
+    bigSprite: 173
+    floorSprite: 183
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -170,9 +170,9 @@ items:
     tuUse: 10
     invWidth: 1
     invHeight: 2
-    painKiller: 10
-    heal: 10
-    stimulant: 10
+    painKiller: 12
+    heal: 12
+    stimulant: 12
     woundRecovery: 1
     healthRecovery: 3
     stunRecovery: 4
@@ -191,9 +191,9 @@ items:
     size: 2
     costSell: 140000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -208,8 +208,8 @@ items:
   - type: STR_DRONE_TASER_CORPSE
     size: 2
     weight: 40
-    bigSprite: 60
-    floorSprite: 76
+    bigSprite: 174
+    floorSprite: 184
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -220,9 +220,9 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     weight: 5
-    bigSprite: 59
-    bulletSprite: 12
-    fireSound: 101
+    bigSprite: 170
+    bulletSprite: 24
+    fireSound: 114
     compatibleAmmo:
       - STR_DRONE_TASER_WEAPON_AMMO
     accuracyAuto: 66
@@ -243,7 +243,7 @@ items:
     costSell: 500
     weight: 1
     hitSound: 54
-    hitAnimation: 56
+    hitAnimation: 108
     power: 40
     blastRadius: 0
     damageType: 6
@@ -262,9 +262,9 @@ items:
     size: 2
     costSell: 160000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -279,8 +279,8 @@ items:
   - type: STR_ALLOY_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
-    bigSprite: 64
-    floorSprite: 77
+    bigSprite: 175
+    floorSprite: 185
     invWidth: 2
     invHeight: 3
     armor: 60
@@ -297,9 +297,9 @@ items:
     size: 2
     costSell: 180000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -318,8 +318,8 @@ items:
       - STR_MOTION_SCANNER
     size: 2
     weight: 40
-    bigSprite: 65
-    floorSprite: 78
+    bigSprite: 176
+    floorSprite: 186
     invWidth: 2
     invHeight: 3
     recover: true
@@ -330,7 +330,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     weight: 3
-    bigSprite: 58
+    bigSprite: 169
     battleType: 7
     tuUse: 10
     flatRate: true
@@ -346,13 +346,13 @@ items:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
     size: 2
     costSell: 180000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -368,11 +368,11 @@ items:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
     size: 2
     weight: 40
-    bigSprite: 66
-    floorSprite: 79
+    bigSprite: 177
+    floorSprite: 187
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -382,20 +382,20 @@ items:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
     weight: 3
-    bigSprite: 24
+    bigSprite: 117
     battleType: 6
     tuUse: 5
     invWidth: 1
     invHeight: 2
-    painKiller: 16
-    heal: 16
-    stimulant: 16
+    painKiller: 18
+    heal: 18
+    stimulant: 18
     woundRecovery: 1
-    healthRecovery: 4
-    stunRecovery: 5
-    energyRecovery: 12
+    healthRecovery: 6
+    stunRecovery: 6
+    energyRecovery: 15
     flatRate: true
     recover: false
     fixedWeapon: true
@@ -411,9 +411,9 @@ items:
     size: 2
     costSell: 200000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -432,8 +432,8 @@ items:
       - STR_ELERIUM_115
     size: 2
     weight: 40
-    bigSprite: 67
-    floorSprite: 80
+    bigSprite: 178
+    floorSprite: 188
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -445,9 +445,9 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     weight: 5
-    bigSprite: 59
-    bulletSprite: 12
-    fireSound: 101
+    bigSprite: 170
+    bulletSprite: 24
+    fireSound: 114
     compatibleAmmo:
       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
     accuracyAuto: 80
@@ -469,7 +469,7 @@ items:
     costSell: 1000
     weight: 1
     hitSound: 54
-    hitAnimation: 56
+    hitAnimation: 108
     power: 60
     blastRadius: 0
     damageType: 6
