@@ -31,6 +31,9 @@ items:
     costSell: 50
     transferTime: 48
     weight: 3
+    bigSprite: -1
+    floorSprite: 12
+    hitAnimation: 56
     power: 60
     damageType: 9
     battleType: 2

@@ -332,7 +332,7 @@ manufacture:
       STR_TANK_CANNON_CORPSE: 1
     producedItems:
       STR_TANK_CANNON: 1
-    listOrder: 401
+    listOrder: 415
 #END TANK CANNON
 
 #BEGIN TANK ROCKET LAUNCHER
@@ -347,7 +347,7 @@ manufacture:
       STR_TANK_ROCKET_LAUNCHER_CORPSE: 1
     producedItems:
       STR_TANK_ROCKET_LAUNCHER: 1
-    listOrder: 402
+    listOrder: 416
 #END TANK ROCKET LAUNCHER
 
 #BEGIN TANK LASER CANNON
