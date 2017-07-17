@@ -38,6 +38,7 @@ Credits go to:
 		- Fir disagreeing with me (Honestly!)
 		- For the Alloy Knife sprites
 		- For a lot of Sprites for Civilians
+		- For the Commendations Mod
 	Falko:
 		- For his OpenXcom Modding tools ( http://falkooxc2.pythonanywhere.com/ )
 		  The Sprite converter is so essential to my work!!
@@ -49,6 +50,7 @@ Credits go to:
 		- For the Combat Knife HitSound
 		- For the Install Video for OpenXcom and Mods
 		- For the additional Drone Sprites
+		- For the Commendations Mod
 	CryptoCactus:
 		- For the Alloy Ground Tanks
 		- For the Blue Smoke Grenade Sprites
@@ -129,6 +131,8 @@ Credits go to:
 		- For the Vanilla Alien Inventory Sprites
 	MicktheMage:
 		- For the Alloy Cannon UfoPaedia picture
+	Shoes:
+		- For the Commendations Mod
 	shadics:
 		- For the Better Personal Armor Sprites
 	Falco:

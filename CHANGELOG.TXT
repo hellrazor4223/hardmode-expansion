@@ -48,6 +48,7 @@ Version 0.99.3
  - Added some more UfoPaedia articles for some research topics (mostly early games stuff)
  - Added SKYSTRIKER (Improved Skyranger)
  - Added Support Drones Mod
+ - Added Commendations Mod
  - Changes to early game Research, Alien Alloy Techs are now fully available
  
 

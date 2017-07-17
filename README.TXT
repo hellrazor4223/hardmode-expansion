@@ -48,6 +48,7 @@ Compability to other mods:
 	High Quality Sounds (http://www.openxcom.com/mod/high-quality-sounds) from Daedalus
 
 Not compatible:
+	Commendations Mod (already integrated)
 	PSX Static Cydonia Map
 	XcomUtil Improved Base Layout
 	XcomUtil Defensive Base Layout
@@ -81,6 +82,7 @@ Spawnnumbers (Superhuman Difficulty): Minimum 47, Maximum 62
 Mars - the Final Assault takes place in a 100x100 Map.
 Spawnnumbers (Superhuman Difficulty): Minimum 61, Maximum 84
 Go and find the Brain and kill it!
+Your Soldiers will be awarded with Medals (currently there are 61 Medals).
 
 General Gameplay changes:
 	Globe with 330 Cities (including vanilla ones)
