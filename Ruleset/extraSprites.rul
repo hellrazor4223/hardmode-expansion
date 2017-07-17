@@ -1344,7 +1344,7 @@ extraSprites:
 ##BEGIN COMMENDATIONS
   - type: Commendations #Hardcoded
     width: 31
-    height: 440
+    height: 496
     subX: 31
     subY: 8
     files:
