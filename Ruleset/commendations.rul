@@ -100,7 +100,7 @@ commendations:
     criteria:
       totalKillsByRace: [10, 10, 20, 20, 20, 20, 30, 30, 30, 30]
   - type: STR_MEDAL_ALIENS_KNOCKED_OUT
-    description: STR_MEDAL_ALIEN_KNOCKED_OUT_DESCRIPTION
+    description: STR_MEDAL_ALIENS_KNOCKED_OUT_DESCRIPTION
     sprite: 4
     criteria:
       killsWithCriteriaCareer: [4, 8, 12, 12, 12, 12, 16, 16, 16, 16]
