@@ -1346,5 +1346,435 @@ ufopaedia:
     text: STR_SUPPLY_SHIP_UFOPEDIA
     listOrder: 12700
 ##END UFOS
-#Free Section Names: STR_UFOS for civilians and misc stuff and one additional one maybe used STR_MEDALS for commendations mod
+#Free Section Names: STR_UFOS for civilians and misc stuff
+
+##BEGIN COMMENDATIONS
+  - id: STR_MEDAL_ALLUFOS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALLUFOS
+    text: STR_MEDAL_ALLUFOS_UFOPEDIA
+    text_width: 164
+    listOrder: 14000
+  - id: STR_MEDAL_STATGAIN
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: STATGAIN
+    text: STR_MEDAL_STATGAIN_UFOPEDIA
+    text_width: 164
+    listOrder: 14100
+  - id: STR_MEDAL_FLANKSHOT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: FLANKSHOT
+    text: STR_MEDAL_FLANKSHOT_UFOPEDIA
+    text_width: 164
+    listOrder: 14200
+  - id: STR_MEDAL_LUCKYSHOT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: LUCKYSHOT
+    text: STR_MEDAL_LUCKYSHOT_UFOPEDIA
+    text_width: 158
+    listOrder: 14300
+  - id: STR_MEDAL_SNIPER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: SNIPER
+    text: STR_MEDAL_SNIPER_UFOPEDIA
+    text_width: 158
+    listOrder: 14400
+  - id: STR_MEDAL_SECTOPOD_KILL
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: SECTOPOD_KILL
+    text: STR_MEDAL_SECTOPOD_KILL_UFOPEDIA
+    text_width: 158
+    listOrder: 14500
+  - id: STR_MEDAL_DOUBLEKILL
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: DOUBLEKILL
+    text: STR_MEDAL_DOUBLEKILL_UFOPEDIA
+    text_width: 158
+    listOrder: 14600
+  - id: STR_MEDAL_REACTIONFIRE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: REACTIONFIRE
+    text: STR_MEDAL_REACTIONFIRE_UFOPEDIA
+    text_width: 165
+    listOrder: 14700
+  - id: STR_MEDAL_REARSHOT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: REARSHOT
+    text: STR_MEDAL_REARSHOT_UFOPEDIA
+    text_width: 164
+    listOrder: 14800
+  - id: STR_MEDAL_REVIVE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: REVIVE
+    text: STR_MEDAL_REVIVE_UFOPEDIA
+    text_width: 164
+    listOrder: 14900
+  - id: STR_MEDAL_TOTAL_FRIENDLY_FIRED
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_FRIENDLY_FIRED
+    text: STR_MEDAL_TOTAL_FRIENDLY_FIRED_UFOPEDIA
+    text_width: 158
+    listOrder: 15000
+  - id: STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: IMPORTANT_ALIENS_KNOCKED_OUT
+    text: STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA
+    text_width: 162
+    listOrder: 15100
+  - id: STR_MEDAL_MERCY_CROSS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MERCY_CROSS
+    text: STR_MEDAL_MERCY_CROSS_UFOPEDIA
+    text_width: 164
+    listOrder: 15200
+  - id: STR_MEDAL_TOTAL_MISSION_COUNT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_MISSION_COUNT
+    text: STR_MEDAL_TOTAL_MISSION_COUNT_UFOPEDIA
+    text_width: 158
+    listOrder: 15300
+  - id: STR_MEDAL_NIKE_CROSS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: NIKE_CROSS
+    text: STR_MEDAL_NIKE_CROSS_UFOPEDIA
+    text_width: 164
+    listOrder: 15400
+  - id: STR_MEDAL_TRAP
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TRAP
+    text: STR_MEDAL_TRAP_UFOPEDIA
+    text_width: 158
+    listOrder: 15500
+  - id: STR_MEDAL_ALIEN_BASE_ASSAULT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALIEN_BASE_ASSAULT
+    text: STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA
+    text_width: 158
+    listOrder: 15600
+  - id: STR_MEDAL_VALIANT_CRUX
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: VALIANT_CRUX
+    text: STR_MEDAL_VALIANT_CRUX_UFOPEDIA
+    text_width: 158
+    listOrder: 15700
+  - id: STR_MEDAL_DAYS_WOUNDED
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: DAYS_WOUNDED
+    text: STR_MEDAL_DAYS_WOUNDED_UFOPEDIA
+    text_width: 158
+    listOrder: 15800
+  - id: STR_MEDAL_WOUNDED
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: WOUNDED
+    text: STR_MEDAL_WOUNDED_UFOPEDIA
+    text_width: 158
+    listOrder: 15900
+  - id: STR_MEDAL_ALIENS_KILLED_BY_RACE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALIENS_KILLED_BY_RACE
+    text: STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA
+    text_width: 158
+    listOrder: 16000
+  - id: STR_MEDAL_ALLBATTLETYPES
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALLBATTLETYPES
+    text: STR_MEDAL_ALLBATTLETYPES_UFOPEDIA
+    text_width: 164
+    listOrder: 16100
+  - id: STR_MEDAL_BASE_DEFENDER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: BASE_DEFENDER
+    text: STR_MEDAL_BASE_DEFENDER_UFOPEDIA
+    text_width: 158
+    listOrder: 16200
+  - id: STR_MEDAL_GRENADIER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: GRENADIER
+    text: STR_MEDAL_GRENADIER_UFOPEDIA
+    text_width: 158
+    listOrder: 16300
+  - id: STR_MEDAL_ANTITERROR
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ANTITERROR
+    text: STR_MEDAL_ANTITERROR_UFOPEDIA
+    text_width: 164
+    listOrder: 16400
+  - id: STR_MEDAL_TOTAL_MONTH_SERVICE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_MONTH_SERVICE
+    text: STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA
+    text_width: 158
+    listOrder: 16500
+  - id: STR_MEDAL_TOTAL_KNOCKED_OUT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_KNOCKED_OUT
+    text: STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA
+    text_width: 158
+    listOrder: 16600
+  - id: STR_MEDAL_MARTYR
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MARTYRER
+    text: STR_MEDAL_MARTYR_UFOPEDIA
+    text_width: 164
+    listOrder: 16700
+  - id: STR_MEDAL_SAPPER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: SAPPER
+    text: STR_MEDAL_SAPPER_UFOPEDIA
+    text_width: 158
+    listOrder: 16800
+  - id: STR_MEDAL_ALLMISSIONS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALLMISSIONS
+    text: STR_MEDAL_ALLMISSIONS_UFOPEDIA
+    text_width: 164
+    listOrder: 16900
+  - id: STR_MEDAL_WEAPON_PROFICIENCY
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: WEAPON_PROFICIENCY
+    text: STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA
+    text_width: 158
+    listOrder: 17000
+  - id: STR_MEDAL_ONE_MONTH_SERVICE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ONE_MONTH_SERVICE
+    text: STR_MEDAL_ONE_MONTH_SERVICE_UFOPEDIA
+    text_width: 158
+    listOrder: 17100
+  - id: STR_MEDAL_BESTSOLDIER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: BESTSOLDIER
+    text: STR_MEDAL_BESTSOLDIER_UFOPEDIA
+    text_width: 164
+    listOrder: 17200
+  - id: STR_MEDAL_HEADSHOT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: HEADSHOT
+    text: STR_MEDAL_HEADSHOT_UFOPEDIA
+    text_width: 164
+    listOrder: 17300
+  - id: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_IMPORTANT_MISSIONS
+    text: STR_MEDAL_TOTAL_IMPORTANT_MISSIONS_UFOPEDIA
+    text_width: 158
+    listOrder: 17400
+  - id: STR_MEDAL_SEVEN_IN_ONE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: SEVEN_IN_ONE
+    text: STR_MEDAL_SEVEN_IN_ONE_UFOPEDIA
+    text_width: 158
+    listOrder: 17500
+  - id: STR_MEDAL_ALIENS_KNOCKED_OUT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALIENS_KNOCKED_OUT
+    text: STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA
+    text_width: 158
+    listOrder: 17600
+  - id: STR_MEDAL_FALLEN
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: FALLEN
+    text: STR_MEDAL_FALLEN_UFOPEDIA
+    text_width: 158
+    listOrder: 17700
+  - id: STR_MEDAL_MIA
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MIA
+    text: STR_MEDAL_MIA_UFOPEDIA
+    text_width: 164
+    listOrder: 17800
+  - id: STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALIEN_SOLDIERS_KILLED_ALL_RACES
+    text: STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_UFOPEDIA
+    text_width: 158
+    listOrder: 17900
+  - id: STR_MEDAL_POSTMORTEM_KILL
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: POSTMORTEM_KILL
+    text: STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA
+    text_width: 164
+    listOrder: 18000
+  - id: STR_MEDAL_BRAVERYGAIN
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: BRAVERYGAIN
+    text: STR_MEDAL_BRAVERYGAIN_UFOPEDIA
+    text_width: 164
+    listOrder: 18100
+  - id: STR_MEDAL_TOTAL_MISSION_REGION_COUNT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_MISSION_REGION_COUNT
+    text: STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA
+    text_width: 158
+    listOrder: 18200
+  - id: STR_MEDAL_NIGHT_TERRORMISSION_COUNT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: NIGHT_TERRORMISSION_COUNT
+    text: STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA
+    text_width: 158
+    listOrder: 18300
+  - id: STR_MEDAL_BESTOFRANK
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: BESTOFRANK
+    text: STR_MEDAL_BESTOFRANK_UFOPEDIA
+    text_width: 164
+    listOrder: 18400
+  - id: STR_MEDAL_HEALER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: HEALER
+    text: STR_MEDAL_HEALER_UFOPEDIA
+    text_width: 164
+    listOrder: 18500
+  - id: STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALIENS_KILLED_BY_INCENDIARY
+    text: STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_UFOPEDIA
+    text_width: 158
+    listOrder: 18600
+  - id: STR_MEDAL_ALIENS_KILLED
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALIENS_KILLED
+    text: STR_MEDAL_ALIENS_KILLED_UFOPEDIA
+    text_width: 158
+    listOrder: 18700
+  - id: STR_MEDAL_STAR_OF_ASCLEPIUS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: STAR_OF_ASCLEPIUS
+    text: STR_MEDAL_STAR_OF_ASCLEPIUS_UFOPEDIA
+    text_width: 158
+    listOrder: 18800
+  - id: STR_MEDAL_TOTAL_LONE_SURVIVOR
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_LONE_SURVIVOR
+    text: STR_MEDAL_TOTAL_LONE_SURVIVOR_UFOPEDIA
+    text_width: 158
+    listOrder: 18900
+  - id: STR_MEDAL_PSIPANIC
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: PSIPANIC
+    text: STR_MEDAL_PSIPANIC_UFOPEDIA
+    text_width: 164
+    listOrder: 19000
+  - id: STR_MEDAL_MINDCONTROL
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MINDCONTROL
+    text: STR_MEDAL_MINDCONTROL_UFOPEDIA
+    text_width: 164
+    listOrder: 19100
+  - id: STR_MEDAL_MEDIKIT
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MEDIKIT
+    text: STR_MEDAL_MEDIKIT_UFOPEDIA
+    text_width: 164
+    listOrder: 19200
+  - id: STR_MEDAL_GLOBETROTTER
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: GLOBETROTTER
+    text: STR_MEDAL_GLOBETROTTER_UFOPEDIA
+    text_width: 164
+    listOrder: 19300
+  - id: STR_MEDAL_IRON_MAN
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: IRON_MAN
+    text: STR_MEDAL_IRON_MAN_UFOPEDIA
+    text_width: 158
+    listOrder: 19400
+  - id: STR_MEDAL_MAN_OF_STEEL
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MAN_OF_STEEL
+    text: STR_MEDAL_MAN_OF_STEEL_UFOPEDIA
+    text_width: 158
+    listOrder: 19500
+  - id: STR_MEDAL_SLAVEKILLS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: SLAVEKILLS
+    text: STR_MEDAL_SLAVEKILLS_UFOPEDIA
+    text_width: 164
+    listOrder: 19600
+  - id: STR_MEDAL_TOTAL_NIGHT_MISSIONS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: TOTAL_NIGHT_MISSIONS
+    text: STR_MEDAL_TOTAL_NIGHT_MISSIONS_UFOPEDIA
+    text_width: 164
+    listOrder: 19700
+  - id: STR_MEDAL_ORIGINAL8_NAME
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ORIGINAL8
+    text: STR_MEDAL_ORIGINAL8_UFOPEDIA
+    text_width: 164
+    listOrder: 19800
+  - id: STR_MEDAL_ALLRANKS
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: ALLRANKS
+    text: STR_MEDAL_ALLRANKS_UFOPEDIA
+    text_width: 164
+    listOrder: 19900
+  - id: STR_MEDAL_MELEE
+    type_id: 7
+    section: STR_COMMENDATIONS_UC
+    image_id: MELEE
+    text: STR_MEDAL_MELEE_UFOPEDIA
+    text_width: 164
+    listOrder: 20000
+##END COMMENDATIONS
 ###END UFOPAEDIA
