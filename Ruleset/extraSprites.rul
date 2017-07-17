@@ -1340,4 +1340,390 @@ extraSprites:
     files:
       0: Resources/Crafts/Ufos/UFO_Labship.png
 ##END UFOS
+
+##BEGIN COMMENDATIONS
+  - type: Commendations #Hardcoded
+    width: 31
+    height: 440
+    subX: 31
+    subY: 8
+    files:
+      0: Resources/Commendations/SpriteSheet_CommendationCommendations.png
+  - type: CommendationDecorations #Hardcoded
+    width: 31
+    height: 80
+    subX: 31
+    subY: 8
+    files:
+      0: Resources/Commendations/SpriteSheet_CommendationDecorations.png
+
+#BEGIN MEDALS
+  - type: ALIENS_KILLED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKilled.png
+  - type: ALIENS_KILLED_BY_INCENDIARY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKilledByIncendiary.png
+  - type: ALIENS_KILLED_BY_RACE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKilledByRace.png
+  - type: ALIENS_KNOCKED_OUT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AliensKnockedOut.png
+  - type: ALIEN_BASE_ASSAULT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AlienBaseAssault.png
+  - type: ALIEN_SOLDIERS_KILLED_ALL_RACES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AlienSoliersKilledAllRaces.png
+  - type: ALLBATTLETYPES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllBattleTypes.png
+  - type: ALLMISSIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllMissions.png
+  - type: ALLRANKS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllRanks.png
+  - type: ALLUFOS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AllUfos.png
+  - type: ANTITERROR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_AntiTerror.png
+  - type: BASE_DEFENDER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BaseDefender.png
+  - type: BESTOFRANK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BestOfRank.png
+  - type: BESTSOLDIER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BestSoldier.png
+  - type: BRAVERYGAIN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_BraveryGain.png
+  - type: DAYS_WOUNDED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_DaysWounded.png
+  - type: DOUBLEKILL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_DoubleKill.png
+  - type: FALLEN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Fallen.png
+  - type: FLANKSHOT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Flankshot.png
+  - type: GLOBETROTTER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Globetrotter.png
+  - type: GRENADIER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Grenadier.png
+  - type: HEADSHOT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Headshot.png
+  - type: HEALER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Healer.png
+  - type: IMPORTANT_ALIENS_KNOCKED_OUT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_ImportantAliensKnockedOut.png
+  - type: IRON_MAN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Ironman.png
+  - type: LUCKYSHOT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Luckyshot.png
+  - type: MAN_OF_STEEL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_ManOfSteel.png
+  - type: MARTYRER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Martyrer.png
+  - type: MEDIKIT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Medikit.png
+  - type: MELEE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Melee.png
+  - type: MERCY_CROSS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_MercyCross.png
+  - type: MIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Mia.png
+  - type: MINDCONTROL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_MindControl.png
+  - type: NIGHT_TERRORMISSION_COUNT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_NightTerrormissionCount.png
+  - type: NIKE_CROSS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_NikeCross.png
+  - type: ONE_MONTH_SERVICE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_OneMonthService.png
+  - type: ORIGINAL8
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Original8.png
+  - type: POSTMORTEM_KILL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_PostmortemKill.png
+  - type: PSIPANIC
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_PsiPanic.png
+  - type: REACTIONFIRE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Reactionfire.png
+  - type: REARSHOT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Rearshot.png
+  - type: REVIVE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Revive.png
+  - type: SAPPER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Sapper.png
+  - type: SECTOPOD_KILL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_SectopodKill.png
+  - type: SEVEN_IN_ONE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_SevenInOne.png
+  - type: SLAVEKILLS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Slavekills.png
+  - type: SNIPER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Sniper.png
+  - type: STAR_OF_ASCLEPIUS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_StarOfAsclepius.png
+  - type: STATGAIN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_StatGain.png
+  - type: TOTAL_FRIENDLY_FIRED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalFriendlyFired.png
+  - type: TOTAL_IMPORTANT_MISSIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalImportantMissions.png
+  - type: TOTAL_KNOCKED_OUT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalKnockedOut.png
+  - type: TOTAL_LONE_SURVIVOR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalLoneSurvivor.png
+  - type: TOTAL_MISSION_COUNT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalMissionCount.png
+  - type: TOTAL_MISSION_REGION_COUNT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalMissionRegionCount.png
+  - type: TOTAL_MONTH_SERVICE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalMonthService.png
+  - type: TOTAL_NIGHT_MISSIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_TotalNightMissions.png
+  - type: TRAP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Trap.png
+  - type: VALIANT_CRUX
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_ValiantCrux.png
+  - type: WEAPON_PROFICIENCY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_WeaponProficiency.png
+  - type: WOUNDED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Commendations/UfoPaedia/UfoPaedia_Medal_Wounded.png
+#END MEDALS
+##END COMMENDATIONS
 ###END EXTRASPRITES
