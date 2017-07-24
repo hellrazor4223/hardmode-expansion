@@ -164,7 +164,7 @@ extraStrings:
 
       STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
       STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
-      STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair AlLoy Drone/Scout"
+      STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
       STR_ALLOY_DRONE_SCOUT_UFOPAEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
 
       STR_ALLOY_DRONE_SCANNER: "Alloy Drone/Scanner"

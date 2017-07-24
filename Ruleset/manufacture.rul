@@ -201,7 +201,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_SCOUT: 1
-    listOrder: 407
+    listOrder: 408
 #END ALLOY DRONE SCOUT
 
 #BEGIN ALLOY DRONE SCANNER
@@ -219,7 +219,7 @@ manufacture:
       STR_MOTION_SCANNER: 1
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
-    listOrder: 408
+    listOrder: 409
   - name: STR_ALLOY_DRONE_SCANNER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -234,7 +234,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
-    listOrder: 409
+    listOrder: 410
 #END ALLOY DRONE SCANNER
 
 #BEGIN ALLOY DRONE MEDIKIT
@@ -252,7 +252,7 @@ manufacture:
       STR_MEDI_KIT: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-    listOrder: 410
+    listOrder: 411
   - name: STR_ALLOY_DRONE_MEDIKIT_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -267,7 +267,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-    listOrder: 411
+    listOrder: 412
 #END ALLOY DRONE SCANNER
 
 #BEGIN ALLOY DRONE TASER
@@ -285,7 +285,7 @@ manufacture:
       STR_ELERIUM_115: 8
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
-    listOrder: 412
+    listOrder: 413
   - name: STR_ALLOY_DRONE_TASER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -301,7 +301,7 @@ manufacture:
       STR_ELERIUM_115: 4
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
-    listOrder: 413
+    listOrder: 414
   - name: STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10
     category: STR_HWP_CANNON_SHELLS
     requires:
@@ -315,7 +315,7 @@ manufacture:
       STR_ELERIUM_115: 3
     producedItems:
         STR_ALLOY_DRONE_TASER_WEAPON_AMMO: 10
-    listOrder: 414
+    listOrder: 415
 #END ALLOY DRONE TASER
 ##END DRONES
 
