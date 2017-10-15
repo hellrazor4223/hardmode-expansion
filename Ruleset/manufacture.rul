@@ -71,6 +71,110 @@ manufacture:
     producedItems:
       STR_DRONE_SCOUT: 1
     listOrder: 401
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_SCOUT: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_DRONE_SCANNER: 1
+    listOrder: 402
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_SCOUT: 1
+      STR_MEDI_KIT: 1
+    producedItems:
+      STR_DRONE_MEDIKIT: 1
+    listOrder: 403
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_SCOUT: 1
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_DRONE_SCANNER: 1
+    listOrder: 404
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_SCOUT: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT
+    listOrder: 405
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_SCOUT: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+    listOrder: 406
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_SCOUT: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+    listOrder: 407
+  - name: STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ELERIUM_115: 8
+      STR_DRONE_SCOUT: 1
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+    listOrder: 408
 #END DRONE SCOUT
 
 #BEGIN DRONE SCANNER
@@ -86,7 +190,7 @@ manufacture:
       STR_MOTION_SCANNER: 1
     producedItems:
       STR_DRONE_SCANNER: 1
-    listOrder: 401
+    listOrder: 409
   - name: STR_DRONE_SCANNER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -99,7 +203,106 @@ manufacture:
       STR_DRONE_SCANNER_CORPSE: 1
     producedItems:
       STR_DRONE_SCANNER: 1
-    listOrder: 402
+    listOrder: 410
+  - name: STR_UPGRADE_DRONE_SCANNER_TO_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_MEDI_KIT
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_SCANNER: 1
+      STR_MEDI_KIT: 1
+    producedItems:
+      STR_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 411
+  - name: STR_UPGRADE_DRONE_SCANNER_TO_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_SCANNER: 1
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_DRONE_TASER: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 412
+  - name: STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 413
+  - name: STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+    listOrder: 414
+  - name: STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ADVANCED_MEDI_KIT: 1
+      STR_DRONE_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 415
+  - name: STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ELERIUM_115: 8
+      STR_DRONE_SCOUT: 1
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 416
 #END DRONE SCANNER
 
 #BEGIN DRONE MEDIKIT
@@ -115,7 +318,7 @@ manufacture:
       STR_MEDI_KIT: 1
     producedItems:
       STR_DRONE_MEDIKIT: 1
-    listOrder: 403
+    listOrder: 417
   - name: STR_DRONE_MEDIKIT_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -128,7 +331,110 @@ manufacture:
       STR_DRONE_MEDIKIT_CORPSE: 1
     producedItems:
       STR_DRONE_MEDIKIT: 1
-    listOrder: 404
+    listOrder: 418
+  - name: STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_MEDI_KIT
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_DRONE_SCANNER: 1
+      STR_MEDI_KIT: 1
+    listOrder: 419
+  - name: STR_UPGRADE_DRONE_MEDIKIT_TO_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+      - STR_ELERIUM_115
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_MEDIKIT: 1
+      STR_ELERIUM_115: 4
+    producedItems:
+      STR_DRONE_TASER: 1
+      STR_MEDI_KIT: 1
+    listOrder: 420
+  - name: STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_MEDIKIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_MEDI_KIT: 1
+    listOrder: 421
+  - name: STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+      STR_MEDI_KIT: 1
+    listOrder: 422
+  - name: STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ADVANCED_MEDI_KIT: 1
+      STR_DRONE_MEDIKIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_MEDI_KIT: 1
+    listOrder: 423
+  - name: STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ELERIUM_115: 8
+      STR_DRONE_MEDIKIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+      STR_MEDI_KIT: 1
+    listOrder: 424
 #END DRONE MEDIKIT
 
 #BEGIN DRONE TASER
@@ -144,7 +450,7 @@ manufacture:
       STR_ELERIUM_115: 4
     producedItems:
       STR_DRONE_TASER: 1
-    listOrder: 405
+    listOrder: 425
   - name: STR_DRONE_TASER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -158,7 +464,7 @@ manufacture:
       STR_ELERIUM_115: 2
     producedItems:
       STR_DRONE_TASER: 1
-    listOrder: 406
+    listOrder: 426
   - name: STR_DRONE_TASER_WEAPON_AMMO_X10
     category: STR_HWP_CANNON_SHELLS
     requires:
@@ -171,15 +477,115 @@ manufacture:
       STR_ELERIUM_115: 2
     producedItems:
         STR_DRONE_TASER_WEAPON_AMMO: 10
-    listOrder: 406
+    listOrder: 427
+  - name: STR_UPGRADE_DRONE_TASER_TO_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_TASER: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_DRONE_SCANNER: 1
+      STR_ELERIUM_115: 2
+    listOrder: 428
+  - name: STR_UPGRADE_DRONE_TASER_TO_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+      - STR_ELERIUM_115
+    space: 10
+    time: 300
+    cost: 75000
+    requiredItems:
+      STR_DRONE_TASER: 1
+      STR_MEDI_KIT: 1
+    producedItems:
+      STR_DRONE_MEDIKIT: 1
+      STR_ELERIUM_115: 2
+    listOrder: 429
+  - name: STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_DRONE_TASER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_ELERIUM_115: 2
+    listOrder: 430
+  - name: STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ALLOY_DRONE_TASER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+      STR_ELERIUM_115: 2
+    listOrder: 431
+  - name: STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ADVANCED_MEDI_KIT: 1
+      STR_DRONE_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 432
+  - name: STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 8
+      STR_ELERIUM_115: 4
+      STR_DRONE_SCOUT: 1
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+    listOrder: 433
 #END DRONE TASER
 
 #BEGIN ALLOY DRONE SCOUT
   - name: STR_ALLOY_DRONE_SCOUT
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
-      - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
     space: 10
     time: 600
     cost: 320000
@@ -187,12 +593,12 @@ manufacture:
       STR_ALIEN_ALLOYS: 8
     producedItems:
       STR_ALLOY_DRONE_SCOUT: 1
-    listOrder: 407
+    listOrder: 434
   - name: STR_ALLOY_DRONE_SCOUT_REPAIR
     category: STR_MAINTENANCE
     requires:
-      - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
     space: 10
     time: 300
     cost: 160000
@@ -201,16 +607,61 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_SCOUT: 1
-    listOrder: 408
+    listOrder: 435
+  - name: STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+    listOrder: 436
+  - name: STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+    listOrder: 437
+  - name: STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+    listOrder: 438
 #END ALLOY DRONE SCOUT
 
 #BEGIN ALLOY DRONE SCANNER
   - name: STR_ALLOY_DRONE_SCANNER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
-      - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
     space: 10
     time: 600
     cost: 320000
@@ -219,13 +670,13 @@ manufacture:
       STR_MOTION_SCANNER: 1
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
-    listOrder: 409
+    listOrder: 439
   - name: STR_ALLOY_DRONE_SCANNER_REPAIR
     category: STR_MAINTENANCE
     requires:
-      - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
     space: 10
     time: 300
     cost: 160000
@@ -234,7 +685,56 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
-    listOrder: 410
+    listOrder: 440
+  - name: STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 441
+  - name: STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 442
+  - name: STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+      STR_MOTION_SCANNER: 1
+    listOrder: 443
 #END ALLOY DRONE SCANNER
 
 #BEGIN ALLOY DRONE MEDIKIT
@@ -252,7 +752,7 @@ manufacture:
       STR_MEDI_KIT: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-    listOrder: 411
+    listOrder: 444
   - name: STR_ALLOY_DRONE_MEDIKIT_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -267,8 +767,57 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-    listOrder: 412
-#END ALLOY DRONE SCANNER
+    listOrder: 445
+  - name: STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    listOrder: 446
+  - name: STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    listOrder: 447
+  - name: STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_ALLOY_DRONE_TASER: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    listOrder: 448
+#END ALLOY DRONE MEDIKIT
 
 #BEGIN ALLOY DRONE TASER
   - name: STR_ALLOY_DRONE_TASER
@@ -285,7 +834,7 @@ manufacture:
       STR_ELERIUM_115: 8
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
-    listOrder: 413
+    listOrder: 449
   - name: STR_ALLOY_DRONE_TASER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -301,7 +850,7 @@ manufacture:
       STR_ELERIUM_115: 4
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
-    listOrder: 414
+    listOrder: 450
   - name: STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10
     category: STR_HWP_CANNON_SHELLS
     requires:
@@ -315,7 +864,56 @@ manufacture:
       STR_ELERIUM_115: 3
     producedItems:
         STR_ALLOY_DRONE_TASER_WEAPON_AMMO: 10
-    listOrder: 415
+    listOrder: 451
+  - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_TASER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCOUT: 1
+      STR_ELERIUM_115: 4
+    listOrder: 452
+  - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+      - STR_ELERIUM_115
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_TASER: 1
+      STR_MOTION_SCANNER: 1
+    producedItems:
+      STR_ALLOY_DRONE_SCANNER: 1
+      STR_ELERIUM_115: 4
+    listOrder: 453
+  - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT
+    category: STR_UPGRADE
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+      - STR_ADVANCED_MEDI_KIT
+      - STR_ALLOY_DRONE_ARMOR
+    space: 10
+    time: 450
+    cost: 100000
+    requiredItems:
+      STR_ALLOY_DRONE_TASER: 1
+      STR_ADVANCED_MEDI_KIT: 1
+    producedItems:
+      STR_ALLOY_DRONE_MEDIKIT: 1
+      STR_ELERIUM_115: 4
+    listOrder: 454
 #END ALLOY DRONE TASER
 ##END DRONES
 
@@ -332,7 +930,7 @@ manufacture:
       STR_TANK_CANNON_CORPSE: 1
     producedItems:
       STR_TANK_CANNON: 1
-    listOrder: 415
+    listOrder: 460
 #END TANK CANNON
 
 #BEGIN TANK ROCKET LAUNCHER
@@ -347,7 +945,7 @@ manufacture:
       STR_TANK_ROCKET_LAUNCHER_CORPSE: 1
     producedItems:
       STR_TANK_ROCKET_LAUNCHER: 1
-    listOrder: 416
+    listOrder: 461
 #END TANK ROCKET LAUNCHER
 
 #BEGIN TANK LASER CANNON

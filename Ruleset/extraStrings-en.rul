@@ -9,6 +9,7 @@ extraStrings:
       STR_HEAVY_WEAPONS_PLATFORMS: "CRAFTS / CRAFT ARMAMENTS AND HWPS"
       STR_UFO_COMPONENTS: "ALIEN UFOS"
       STR_UFOS: "EMPTY (Reserved)"
+      STR_UPGRADE: "Upgrade"
 
 #BEGIN BRIEFINGS
       STR_INITIAL_BRIEFING: "Initial Briefing"
@@ -20,11 +21,17 @@ extraStrings:
       STR_EXTRATERRESTRIAL_COMBAT_UNIT: "X-Com"
       STR_EXTRATERRESTRIAL_COMBAT_UNIT_UFOPEDIA: "On December 11, 1998, representatives from the world's most economically powerful countries gathered secretly in Geneva. After much debate, the decision was made to establish a covert independent body to combat, investigate and defeat the alien threat. This organization would be equipped with the world's finest pilots, soldiers, scientists and engineers, working together as one multi-national force.{NEWLINE}This organization was named the Extraterrestrial Combat Unit or in short form X-Com."
 
-      STR_EXPLOSIVE_AMMO: "Explosive Ammo"
-      STR_EXPLOSIVE_AMMO_UFOPEDIA: "Our advanced infantry weapons, the Heavy Cannon and the Auto Cannon can now also fire explosive rounds, which do HE damage. We have supplied our main weapon contractor with the plans and scematics to make this kind of ammo."
+      STR_SOLDIER_ARMOR_REPAIR: "Soldier Armor Repair"
+      STR_SOLDIER_ARMOR_REPAIR_UFOPEDIA: "Since we are running on a tight budget, it is imperative that we keep all armors our soldiers can wear in top shape. Procedures for repairing soldier armor has been put into action, as long as the corpses of those unfortunate to die from alien hands can be recovered."
+
+      STR_TANK_REPAIR: "HWP Repair"
+      STR_TANK_REPAIR_UFOPEDIA: "After initial debate between our scientific staff and our lead engineer we decided to enact procedures to repair any destroyed HWP's as long as their remains were recovered completly from a successful groundbattle mission. The repair cost of the units are roughly 50% of there initial production cost."
 
       STR_SUPPORT_DRONES: "Support Drones"
       STR_SUPPORT_DRONES_UFOPAEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
+
+      STR_EXPLOSIVE_AMMO: "Explosive Ammo"
+      STR_EXPLOSIVE_AMMO_UFOPEDIA: "Our advanced infantry weapons, the Heavy Cannon and the Auto Cannon can now also fire explosive rounds, which do HE damage. We have supplied our main weapon contractor with the plans and scematics to make this kind of ammo."
 
       STR_ALLOY_AMMO: "Alien Alloy Ammunition"
       STR_ALLOY_AMMO_UFOPEDIA: "With the knowledge of how to process the ultra-strong yet lightweight alien alloys, we can now manufacture alloy bullets capable of withstanding higher muzzle velocities without disintegrating, fired from alloy casings that are lighter yet stronger than previously possible."
@@ -141,18 +148,37 @@ extraStrings:
       STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
       STR_DRONE_SCOUT_REPAIR: "Repair Drone/Scout"
       STR_DRONE_SCOUT_UFOPAEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire."
+      STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "Drone/Scout -> Scanner"
+      STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "Drone/Scout -> Medikit"
+      STR_UPGRADE_DRONE_SCOUT_TO_TASER: "Drone/Scout -> Taser"
+      STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT: "Drone/Scout -> Alloy Scout"
+      STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER: "Drone/Scout -> Alloy Scanner"
+      STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Drone/Scout -> Alloy Medikit"
+      STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Drone/Scout -> Alloy Taser"
 
       STR_DRONE_SCANNER: "Drone/Scanner"
       STR_DRONE_SCANNER_WEAPON: "Drone Motion Scanner"
       STR_DRONE_SCANNER_CORPSE: "Damaged Drone/Scanner"
       STR_DRONE_SCANNER_REPAIR: "Repair Drone/Scanner"
       STR_DRONE_SCANNER_UFOPAEDIA: "To further increase the specialization on scouting and reconnaissance, we modified this scout drone with a slightly modified version of our handheld motion scanner, allowing it to be even more effective at detecting enemies on the battlefield and report their positions to our troops. Unfortunately, we had to reduce the armor quite a bit to fit the motion scanner and its computational equipment on the drone."
+      STR_UPGRADE_DRONE_SCANNER_TO_MEDIKIT: "Drone/Scanner -> Medikit"
+      STR_UPGRADE_DRONE_SCANNER_TO_TASER: "Drone/Scanner -> Taser"
+      STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "Drone/Scanner -> Alloy Scout"
+      STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER: "Drone/Scanner -> Alloy Scanner"
+      STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Drone/Scanner -> Alloy Medikit"
+      STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drone/Scanner -> Alloy Taser"
 
       STR_DRONE_MEDIKIT: "Drone/Medikit"
       STR_DRONE_MEDIKIT_WEAPON: "Drone Medikit"
       STR_DRONE_MEDIKIT_CORPSE: "Damaged Drone/Medikit"
       STR_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
       STR_DRONE_MEDIKIT_UFOPAEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit, it holds double the charges then the medikit."
+      STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "Drone/Medikit -> Scanner"
+      STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "Drone/Medikit -> Taser"
+      STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Drone/Medikit -> Alloy Scout"
+      STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Drone/Medikit -> Alloy Scanner"
+      STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: "Drone/Medikit -> Alloy Medikit"
+      STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drone/Medikit -> Alloy Taser"
 
       STR_DRONE_TASER: "Drone/Taser"
       STR_DRONE_TASER_WEAPON: "Drone Taser"
@@ -161,23 +187,38 @@ extraStrings:
       STR_DRONE_TASER_CORPSE: "Damaged Drone/Taser"
       STR_DRONE_TASER_REPAIR: "Repair Drone/Taser"
       STR_DRONE_TASER_UFOPAEDIA: "The purpose of this refitted scout drone is to capture alive aliens or neutralize civilians on the battlefield. The standard taser batteries available to us would unfortunately not supply it with a strong enough charge, the usage of some small quantities of the newly discovered Elerium-115 allows for a sufficient power supply. The armor of the drone had to be reduced, since the taser installment and its power packs take up quite some place."
+      STR_UPGRADE_DRONE_TASER_TO_SCANNER: "Drone/Taser -> Scanner"
+      STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: "Drone/Taser -> Medikit"
+      STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "Drone/Taser -> Alloy Scout"
+      STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "Drone/Taser -> Alloy Scanner"
+      STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drone/Taser -> Alloy Medikit"
+      STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
       STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
       STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
       STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
       STR_ALLOY_DRONE_SCOUT_UFOPAEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
+      STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Alloy Drone/Scout -> Alloy Scanner"
+      STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Alloy Drone/Scout -> Alloy Medikit"
+      STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Alloy Drone/Scout -> Alloy Taser"
 
       STR_ALLOY_DRONE_SCANNER: "Alloy Drone/Scanner"
       STR_ALLOY_DRONE_SCANNER_WEAPON: "Alloy Drone Motion Scanner"
       STR_ALLOY_DRONE_SCANNER_CORPSE: "Damaged Alloy Drone/Scanner"
       STR_ALLOY_DRONE_SCANNER_REPAIR: "Repair Alloy Drone/Scanner"
       STR_ALLOY_DRONE_SCANNER_UFOPAEDIA: "The refitting of the scanner drones with alloy armor has resulted in a much more durable version of them. We were able to compensate for some of the reduced armor and the motion scanner computing system is now way faster. Properly used our soldiers should be able to put these to a very effective use when fighting aliens."
+      STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "Alloy Drone/Scanner -> Alloy Scout"
+      STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Alloy Drone/Scanner -> Alloy Medikit"
+      STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Alloy Drone/Scanner -> Alloy Taser"
 
       STR_ALLOY_DRONE_MEDIKIT: "Alloy Drone/Medikit"
       STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
       STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
       STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
       STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
+      STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Medikit -> Alloy Scout"
+      STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Medikit -> Alloy Scanner"
+      STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Medikit -> Alloy Taser"
 
       STR_ALLOY_DRONE_TASER: "Alloy Drone/Taser"
       STR_ALLOY_DRONE_TASER_WEAPON: "Alloy Drone Taser"
@@ -186,11 +227,12 @@ extraStrings:
       STR_ALLOY_DRONE_TASER_CORPSE: "Damaged Alloy Drone/Taser"
       STR_ALLOY_DRONE_TASER_REPAIR: "Repair Alloy Drone/Taser"
       STR_ALLOY_DRONE_TASER_UFOPAEDIA: "The upgraded taser drone is more then optimal in capturing aliens alive or incapacitate civilians in dangerous environments. Refitted with alloy armor allowed to install a bigger power source and taser module. This allows a even bigger range and more charges, allowing us to even take out most of the aliens with ease."
+      STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "Alloy Drone/Taser -> Alloy Scout"
+      STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Alloy Drone/Taser -> Alloy Scanner"
+      STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Alloy Drone/Taser -> Alloy Medikit"
 #END DRONES
 
 #BEGIN TANKS
-      STR_TANK_REPAIR: "HWP Repair"
-      STR_TANK_REPAIR_UFOPEDIA: "After initial debate between our scientific staff and our lead engineer we decided to enact procedures to repair any destroyed HWP's as long as their remains were recovered completly from a successful groundbattle mission. The repair cost of the units are roughly 50% of there initial production cost."
       STR_TANK_CANNON_CORPSE: "Damaged Tank/Cannon"
       STR_TANK_CANNON_REPAIR: "Repair Tank/Cannon"
 
@@ -243,9 +285,6 @@ extraStrings:
 
 #BEGIN ARMORS
       STR_JUMPSUIT_UFOPEDIA: "The standard X-Com jumpsuit offers only basic protection, but guarantees a maximum of mobility. It is issued automatically to all X-Com operatives, who did not qualify for advanced armor."
-
-      STR_SOLDIER_ARMOR_REPAIR: "Soldier Armor Repair"
-      STR_SOLDIER_ARMOR_REPAIR_UFOPEDIA: "Since we are running on a tight budget, it is imperative that we keep all armors our soldiers can wear in top shape. Procedures for repairing soldier armor has been put into action, as long as the corpses of those unfortunate to die from alien hands can be recovered."
 
       STR_ARMORED_VEST: "Armored Vest"
       STR_ARMORED_VEST_UC: "ARMORED VEST"
