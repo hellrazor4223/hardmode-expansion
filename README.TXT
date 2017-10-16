@@ -219,6 +219,7 @@ Hovertank Launcher Ammo does 200 damage instead of 140
 
 Drones are 1x1 sized Tanks, fast and somewhat durable but stick to support and scouting roles.
 Drones allow you to bring a expendable unit and still have a big combat team ready.
+Drones can be upgraded.
 
 Additional X-Com Armor:
 	Grey Armored Vest
