@@ -1268,6 +1268,7 @@ items:
     power: 10
     strengthApplied: true
     damageType: 7
+    clipSize: -1
     accuracyMelee: 100
     skillApplied: true
     tuMelee: 25
@@ -1295,6 +1296,7 @@ items:
     power: 30
     strengthApplied: true
     damageType: 7
+    clipSize: -1
     accuracyMelee: 115
     skillApplied: true
     tuMelee: 25
@@ -1322,6 +1324,7 @@ items:
     power: 60
     strengthApplied: true
     damageType: 7
+    clipSize: -1
     accuracyMelee: 130
     skillApplied: true
     tuMelee: 25
@@ -2074,6 +2077,7 @@ items:
     power: 80
     strengthApplied: true
     damageType: 7
+    clipSize: -1
     accuracyMelee: 140
     skillApplied: true
     tuMelee: 20
@@ -2104,6 +2108,7 @@ items:
     power: 100
     strengthApplied: true
     damageType: 7
+    clipSize: -1
     accuracyMelee: 160
     skillApplied: true
     tuMelee: 20
