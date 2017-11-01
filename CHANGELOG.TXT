@@ -50,6 +50,7 @@ Version 0.99.3
  - Added Support Drones Mod
  - Added Support Drones Upgrade Manufacture
  - Added Commendations Mod
+ - Added PSXCutscenes Mod
  - Changes to early game Research, Alien Alloy Techs are now fully available
  
 

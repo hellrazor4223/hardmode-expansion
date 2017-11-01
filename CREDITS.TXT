@@ -153,6 +153,8 @@ Credits go to:
 		- For the Industrial terrain design (originally developed for UFO2000)
 	Twilight Owl:
 		- For the original Airfield UFO2000 terrain
+	sylandro:
+		- For the PSXCutscenes Mod
 
 This list is for sure not complete.
 If i forgot someone, or something is incorrect, please let me know.

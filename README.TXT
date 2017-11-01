@@ -103,6 +103,8 @@ General Gameplay changes:
 	Aliens do have more chances to score more points.
 	Alien Bases will also invoke Alien Missions in their regions (20% chance)
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
+	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
+	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%

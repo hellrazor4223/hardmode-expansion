@@ -1,0 +1,10 @@
+###BEGIN MUSICS
+musics:
+  - type: GameIntroMusic
+  - type: GameWinMusic
+  - type: GameLoseMusic
+  - type: MissionWinMusic
+  - type: MissionLoseMusic
+  - type: MissionAbortMusic
+  - type: TowardsCydoniaMusic
+###END MUSICS

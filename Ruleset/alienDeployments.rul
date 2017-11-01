@@ -42,6 +42,9 @@ alienDeployments:
     width: 40
     length: 40
     height: 8
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END SMALL SCOUT
 
 #BEGIN MEDIUM SCOUT
@@ -180,6 +183,9 @@ alienDeployments:
     width: 40
     length: 40
     height: 8
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END MEDIUM SCOUT
 
 #BEGIN FIGHTER
@@ -188,6 +194,9 @@ alienDeployments:
     width: 40
     length: 40
     height: 8
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END FIGHTER
 
 #BEGIN LARGE SCOUT
@@ -261,6 +270,9 @@ alienDeployments:
     length: 50
     height: 8
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END LARGE SCOUT
 
 #BEGIN EXCAVATOR
@@ -270,6 +282,9 @@ alienDeployments:
     length: 50
     height: 8
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END EXCAVATOR
 
 #BEGIN SENTRY
@@ -279,6 +294,9 @@ alienDeployments:
     length: 50
     height: 8
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END SENTRY
 
 #BEGIN HARVESTER
@@ -392,6 +410,9 @@ alienDeployments:
     length: 50
     height: 8
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END HARVESTER
 
 #BEGIN ABDUCTOR
@@ -443,6 +464,9 @@ alienDeployments:
     length: 50
     height: 8
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END ABDUCTOR
 
 #BEGIN TERROR SHIP
@@ -686,6 +710,9 @@ alienDeployments:
     length: 60
     height: 8
     cheatTurn: 10
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END TERROR SHIP
 
 #BEGIN LABSHIP
@@ -998,6 +1025,9 @@ alienDeployments:
     length: 60
     height: 8
     cheatTurn: 10
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END LABSHIP
 
 #BEGIN BATTLESHIP
@@ -1079,6 +1109,9 @@ alienDeployments:
     length: 60
     height: 8
     cheatTurn: 10
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END BATTLESHIP
 
 #BEGIN SUPPLY SHIP
@@ -1203,6 +1236,9 @@ alienDeployments:
     length: 50
     height: 8
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END SUPPLY SHIP
 
 #BEGIN COMMAND SHIP
@@ -1254,6 +1290,9 @@ alienDeployments:
     length: 80
     height: 8
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END COMMAND SHIP
 ##END UFOS
 
@@ -1485,6 +1524,9 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 10 #points aliens get for a base each day
     cheatTurn: 7 #Force Attack Mode
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END ALIEN BASE ASSAULT
 
 #BEGIN BASE DEFENSE
@@ -1501,6 +1543,9 @@ alienDeployments:
       background: BACK01.SCR
       music: GMENBASE
     cheatTurn: 14
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END BASE DEFENSE
 
 #BEGIN MARS LANDING
@@ -1622,13 +1667,15 @@ alienDeployments:
     race: STR_CYDONIA_STAGE_1
     nextStage: STR_MARS_THE_FINAL_ASSAULT
     finalDestination: true
-    loseCutscene: loseGame
     briefing:
+      cutscene: cydonia
       textOffset: -16
       palette: 6
       music: GMNEWMAR
       showTarget: false
     cheatTurn: 7
+    loseCutscene: loseGame
+    abortCutscene: loseGame
 #END MARS LANDING
 
 #BEGIN MARS THE FINAL ASSAULT
@@ -1713,8 +1760,6 @@ alienDeployments:
       - UBASE
     shade: 10
     race: STR_CYDONIA_STAGE_2
-    winCutscene: winGame
-    loseCutscene: loseGame
     briefing:
       textOffset: -16
       palette: 6
@@ -1726,6 +1771,9 @@ alienDeployments:
     objectiveType: 14
     objectivesRequired: 4
     cheatTurn: 3
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
 #END MARS THE FINAL ASSAULT
 ##END BASES
 
@@ -1750,6 +1798,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END TERROR MISSION
 
 #BEGIN TERROR MISSION BIG CITY
@@ -1774,6 +1825,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END END TERROR MISSION BIG CITY
 
 #BEGIN TERROR MISSION INDUSTRIAL
@@ -1798,6 +1852,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END END TERROR MISSION INDUSTRIAL
 
 #BEGIN TERROR MISSION SNOW
@@ -1820,6 +1877,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END TERROR MISSION SNOW
 
 #BEGIN TERROR MISSION TROPICAL
@@ -1839,6 +1899,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END TERROR MISSION TROPICAL
 
 #BEGIN MILITARY BASE ATTACK
@@ -1859,6 +1922,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END MILITARY BASE ATTACK
 
 #BEGIN AIRFIELD ATTACK
@@ -1885,6 +1951,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END AIRFIELD ATTACK
 
 #BEGIN PORT ATTACK
@@ -1906,6 +1975,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END PORT ATTACK
 
 #BEGIN ISLAND ATTACK
@@ -1926,6 +1998,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END ISLAND ATTACK
 ##END TERRORMISSIONS
 
@@ -1950,6 +2025,9 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 2000
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END DOCKED SHIP
 
 #BEGIN SHIP ATTACK
@@ -1977,6 +2055,9 @@ alienDeployments:
     objectiveFailed: [STR_SHIP_OPERATIONAL, -1000]
     objectivePopup: STR_SHIP_NAVIGATION_DESTROYED
     cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
 #END SHIP ATTACK
 ##END SPECIAL MISSIONS
 ###END ALIEN DEPLOYMENT
