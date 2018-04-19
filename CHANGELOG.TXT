@@ -20,6 +20,7 @@ Version 0.99.3
  - Adjust Manufacture more to vanilla
  - Adjust Muton Race - Added Muton Elite Leaders
  - Adjust Stats for Muton Elites and Muton Elite Guards
+ - Adjust Armor Damage Modifiers for Muton ELite, Muton Elite Guard, Holodrone, Armored Sectopod
  - Adjust Race composition, Ranks and Spawnnumber for Final Mission Stages
  - Added turned Versions for: UBASE_00
  - Added turned Versions for: UBASE_02

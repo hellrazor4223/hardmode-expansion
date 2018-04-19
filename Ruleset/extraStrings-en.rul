@@ -638,7 +638,7 @@ extraStrings:
 
       STR_MEDAL_ALIENS_KILLED_BY_RACE: "Alien Race Xenocide Medal"
       STR_MEDAL_ALIENS_KILLED_BY_RACE_DESCRIPTION: "Given to a soldier who has been successful in combating the {0} menace."
-      STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: " 'If you find yourself in a fair fight, you didn't plan your mission properly.'{NEWLINE}    -- (David Hackworth) {NEWLINE} {NEWLINE} Given to a soldier who has become a lethal machine in cutting down a specific alien race. This race has suffered such depradations by this XCOM hero, that they have come to calling him XenoCide. {NEWLINE} {NEWLINE} Award levels are 10, 20, and 30 Kills of a given race."
+      STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: " 'If you find yourself in a fair fight, you didn't plan your mission properly.'{NEWLINE}    -- (David Hackworth) {NEWLINE} {NEWLINE} Given to a soldier who has become a lethal machine in cutting down a specific alien race. This race has suffered such depredations by this XCOM hero, that they have come to calling him Xenocide. {NEWLINE} {NEWLINE} Award levels are 10, 20, and 30 Kills of a given race."
 
       STR_MEDAL_ALIENS_KNOCKED_OUT: "Order of Restraint"
       STR_MEDAL_ALIENS_KNOCKED_OUT_DESCRIPTION: "Given to a soldier who has used non-lethal force to take down many aliens."
@@ -764,7 +764,7 @@ extraStrings:
       STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "'Day does not forestall nightmares - Night is not needed for dreams - There is no better time than here - No better place than now' {NEWLINE}    -- Chase LeBlanc    {NEWLINE} {NEWLINE}  This award is given to soldiers who have witnessed the horrors of terror missions at night. Dangerous aliens lurk beyond the shadows and death comes quick to any who are not careful. Those who survive are truly brave individuals. {NEWLINE} {NEWLINE} This award is presented for each night Terror Mission up to 4 missions."
 
       STR_MEDAL_NIKE_CROSS: "Nike Cross"
-      STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Given to a soldier who single handedly killed every alien in a mission."
+      STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Given to a soldier who single-handedly killed or killed and stunned every alien in a mission."
       STR_MEDAL_NIKE_CROSS_UFOPEDIA: " 'You've got to believe that you are right to be a good soldier, that's why mercenaries are no good. It's emotion that makes a good fighting man - and knowing that you are fighting for a good cause.' {NEWLINE}    - Audie Murphy {NEWLINE} {NEWLINE} This decorations recognizes unparalleled battlefield prowess. Embodying Lethality, this warrior has proven their combat expertise in the most tangible means possible. {NEWLINE} {NEWLINE} This award is exclusively for soldiers who single handedly kill every alien in a singe mission. This award is presented up to three times."
 
       STR_MEDAL_ONE_MONTH_SERVICE: "XCOM Service Medal"
@@ -805,7 +805,7 @@ extraStrings:
 
       STR_MEDAL_SEVEN_IN_ONE: "Order of Glory"
       STR_MEDAL_SEVEN_IN_ONE_DESCRIPTION: "Given to a soldier who was instrumental in a missions success."
-      STR_MEDAL_SEVEN_IN_ONE_UFOPEDIA: "'If you take more than your fair share of objectives, you will have more than your fair share objectives to take.' {NEWLINE}     -- Murphy's Laws of Combat {NEWLINE} {NEWLINE} This citation is given to honor a soldier who has killed seven enemies in a single mission. This feat is unparralled and demonstrates the true grit of this lethal trooper. {NEWLINE} {NEWLINE}This award may be issued three times."
+      STR_MEDAL_SEVEN_IN_ONE_UFOPEDIA: "'If you take more than your fair share of objectives, you will have more than your fair share objectives to take.' {NEWLINE}     -- Murphy's Laws of Combat {NEWLINE} {NEWLINE} This citation is given to honor a soldier who has killed seven enemies in a single mission. This feat is unparalleled and demonstrates the true grit of this lethal trooper. {NEWLINE} {NEWLINE}This award may be issued three times."
 
       STR_MEDAL_SLAVEKILLS: "Master of Puppets"
       STR_MEDAL_SLAVEKILLS_DESCRIPTION: "Given to a soldier who has used aliens against one another."
@@ -813,7 +813,7 @@ extraStrings:
 
       STR_MEDAL_SNIPER: "Marksman Citation"
       STR_MEDAL_SNIPER_DESCRIPTION: "Given to a soldier who has landed long distance shots on intended targets."
-      STR_MEDAL_SNIPER_UFOPEDIA: "{NEWLINE}'My crosshairs steady, {NEWLINE} My trigger cold,{NEWLINE}I feel the recoil{NEWLINE} and watch him fold.{NEWLINE}The mission accomplished,{NEWLINE} I grab my gear.{NEWLINE}I'll clean my rifle{NEWLINE} in the rear.'{NEWLINE}   -- Marine Sniper{NEWLINE} {NEWLINE} This citation is designed to recognize expertise in dealing death from afar. {NEWLINE} {NEWLINE} Presented for every three longrange hits, this citation has four levels."
+      STR_MEDAL_SNIPER_UFOPEDIA: "{NEWLINE}'My crosshairs steady, {NEWLINE} My trigger cold,{NEWLINE}I feel the recoil{NEWLINE} and watch him fold.{NEWLINE}The mission accomplished,{NEWLINE} I grab my gear.{NEWLINE}I'll clean my rifle{NEWLINE} in the rear.'{NEWLINE}   -- Marine Sniper{NEWLINE} {NEWLINE} This citation is designed to recognize expertise in dealing death from afar. {NEWLINE} {NEWLINE} Presented for every three long-range hits, this citation has four levels."
 
       STR_MEDAL_STAR_OF_ASCLEPIUS: "Star of Asclepius"
       STR_MEDAL_STAR_OF_ASCLEPIUS_DESCRIPTION: "Given to a soldier who has been under heavy fire from the enemy threat."
@@ -833,7 +833,7 @@ extraStrings:
 
       STR_MEDAL_TOTAL_KNOCKED_OUT: "Medal of Heroism"
       STR_MEDAL_TOTAL_KNOCKED_OUT_DESCRIPTION: "Given to a soldier who has fought to the last ounce of strength."
-      STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA: "'Only a man who knows what it is like to be defeated can reach down to the bottom of his soul and come up with the extra ounce of power it takes to win when the match is even.'{NEWLINE}    -- Muhammad Ali {NEWLINE} {NEWLINE}  This medal is presented to a soldier who has fought to the last ounce of strength! This medal issued when as soldier has fallen unconcious on the field, yet survived. {NEWLINE} {NEWLINE} The medal is presented every two times a soldier passes out, up to 8 times (for four levels of citation)."
+      STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA: "'Only a man who knows what it is like to be defeated can reach down to the bottom of his soul and come up with the extra ounce of power it takes to win when the match is even.'{NEWLINE}    -- Muhammad Ali {NEWLINE} {NEWLINE}  This medal is presented to a soldier who has fought to the last ounce of strength! This medal issued when as soldier has fallen unconscious on the field, yet survived. {NEWLINE} {NEWLINE} The medal is presented every two times a soldier passes out, up to 8 times (for four levels of citation)."
 
       STR_MEDAL_TOTAL_LONE_SURVIVOR: "Star of Valor"
       STR_MEDAL_TOTAL_LONE_SURVIVOR_DESCRIPTION: "Given to a soldier who was the lone survivor of a mission."
@@ -844,20 +844,20 @@ extraStrings:
       STR_MEDAL_TOTAL_MISSION_COUNT_UFOPEDIA: "'Permanence, perseverance, and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak.'{NEWLINE}       --Thomas Carlyle{NEWLINE} {NEWLINE}  This decoration is awarded to soldiers who have participated in many missions. Their reliability and tenacity have made them trusted veterans of the force. {NEWLINE} {NEWLINE}      The award is issued at 4, 8, 12, 16, 20, 25, 30, 35, 40, and 50 missions."
 
       STR_MEDAL_TOTAL_MISSION_REGION_COUNT: "Campaign Ribbon"
-      STR_MEDAL_TOTAL_MISSION_REGION_COUNT_DESCRIPTION: "Given to a soldier who has succesfully defended many regions."
+      STR_MEDAL_TOTAL_MISSION_REGION_COUNT_DESCRIPTION: "Given to a soldier who has successfully defended many regions."
       STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: "'We need to thank all of our troops, and particularly those for whom we can never express enough gratitude... for they have given their lives so that all of us may be free.'{NEWLINE}    -Virgil Goode {NEWLINE} {NEWLINE}The countries of a given region recognize the skill and valor by which this trooper has protected their lives and property in this war against the Alien Menace. {NEWLINE} {NEWLINE} This medal is awarded for 10, 20 and 30 missions in a given region."
 
       STR_MEDAL_TOTAL_MONTH_SERVICE: "Longevity Medal"
       STR_MEDAL_TOTAL_MONTH_SERVICE_DESCRIPTION: "Given to a soldier who has served for many months."
-      STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: "This commendation is presented to soldiers who have served XCOM for extended periods of time. We recognize the tremendous sacrfice that these valiant troops make while remaining in XCOM service. This decoration is awarded to soldiers who have seen friends come and go and have been seasoned in the struggle of XCOM against the Foe. Their reliability and tenacity have made them a trusted veteran of the force.  {NEWLINE} {NEWLINE}   The commendation is issued for every three months of service."
+      STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: "This commendation is presented to soldiers who have served XCOM for extended periods of time. We recognize the tremendous sacrifice that these valiant troops make while remaining in XCOM service. This decoration is awarded to soldiers who have seen friends come and go and have been seasoned in the struggle of XCOM against the Foe. Their reliability and tenacity have made them a trusted veteran of the force.  {NEWLINE} {NEWLINE}   The commendation is issued for every three months of service."
 
       STR_MEDAL_TOTAL_NIGHT_MISSIONS: "Night Stalker"
       STR_MEDAL_TOTAL_NIGHT_MISSIONS_DESCRIPTION: "Given to a soldier who has been part of several night missions."
-      STR_MEDAL_TOTAL_NIGHT_MISSIONS_UFOPEDIA: " 'Out of the night that covers me,{NEWLINE}    Black as the pit from pole to pole,{NEWLINE}  I thank whatever gods may be {NEWLINE}     For my unconquerable soul.'{NEWLINE}- Invictus - By Wiliam Ernest Henly  {NEWLINE} {NEWLINE} Night Operations against a foe that can see almost twice as far as your soldiers is harrowing in the extreme.  {NEWLINE} {NEWLINE} This award issued for soldiers who participate in Night Missions.  One level of award is issued for every three night operations."
+      STR_MEDAL_TOTAL_NIGHT_MISSIONS_UFOPEDIA: " 'Out of the night that covers me,{NEWLINE}    Black as the pit from pole to pole,{NEWLINE}  I thank whatever gods may be {NEWLINE}     For my unconquerable soul.'{NEWLINE}- Invictus - By William Ernest Henly  {NEWLINE} {NEWLINE} Night Operations against a foe that can see almost twice as far as your soldiers is harrowing in the extreme.  {NEWLINE} {NEWLINE} This award issued for soldiers who participate in Night Missions.  One level of award is issued for every three night operations."
 
       STR_MEDAL_TRAP: "Prowler Cross"
       STR_MEDAL_TRAP_DESCRIPTION: "Given to a soldier for exploiting guerrilla tactics."
-      STR_MEDAL_TRAP_UFOPEDIA: "' Hello? Anybody home? {NEWLINE}Hello, Mr. Gopher! {NEWLINE}It's me, Mr. Squirrel. {NEWLINE}Just a harmless squirrel. {NEWLINE}Not a plastic explosive or anything. {NEWLINE}Nothing to be worried about. {NEWLINE}    - CaddyShack. ' {NEWLINE} {NEWLINE} This medal is awarded in recognition of mastery of killing the enemy with boobytraps and IEDs. There are four levels of award at 1, 3, 5, and 8 kills with proximity grenades."
+      STR_MEDAL_TRAP_UFOPEDIA: "' Hello? Anybody home? {NEWLINE}Hello, Mr. Gopher! {NEWLINE}It's me, Mr. Squirrel. {NEWLINE}Just a harmless squirrel. {NEWLINE}Not a plastic explosive or anything. {NEWLINE}Nothing to be worried about. {NEWLINE}    - CaddyShack. ' {NEWLINE} {NEWLINE} This medal is awarded in recognition of mastery of killing the enemy with booby-traps and IEDs. There are four levels of award at 1, 3, 5, and 8 kills with proximity grenades."
 
       STR_MEDAL_VALIANT_CRUX: "Valiant Crux"
       STR_MEDAL_VALIANT_CRUX_DESCRIPTION: "Given to a soldier who protected all civilians during a terror mission."
@@ -865,7 +865,7 @@ extraStrings:
 
       STR_MEDAL_WEAPON_PROFICIENCY: "Weapon Proficiency Medal"
       STR_MEDAL_WEAPON_PROFICIENCY_DESCRIPTION: "Given to a soldier who has shown distinction using a {0}."
-      STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: "'Anything worth shooting is worth shooting twice. Ammo is cheap. Life is expensive.'{NEWLINE}   -- US Ranger Rules for Gunfighting {NEWLINE} {NEWLINE} This medal is awarded to recognize a soldier's extreme prociency with a given weapon. They have become a true expert in their field and a master at their craft. {NEWLINE} {NEWLINE} This medal is awarded for 10, 20 and 30 kills with a specific weapon."
+      STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: "'Anything worth shooting is worth shooting twice. Ammo is cheap. Life is expensive.'{NEWLINE}   -- US Ranger Rules for Gunfighting {NEWLINE} {NEWLINE} This medal is awarded to recognize a soldier's extreme proficiency with a given weapon. They have become a true expert in their field and a master at their craft. {NEWLINE} {NEWLINE} This medal is awarded for 10, 20 and 30 kills with a specific weapon."
 
       STR_MEDAL_WOUNDED: "Purple Heart"
       STR_MEDAL_WOUNDED_DESCRIPTION: "Given to a soldier who was wounded on the battlefield."
