@@ -16,6 +16,7 @@ Version 0.99.3
  - Fix Tile and Route issue on EXPANDEDUBASE21
  - Fix Missing Halfed fundingCap
  - Fix missionZone values N/S Atlantic
+ - Fix NIKE Cross Commendation and some commendation spellings
  - Adjusted Raceweights slightly
  - Adjust Manufacture more to vanilla
  - Adjust Muton Race - Added Muton Elite Leaders
