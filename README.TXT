@@ -1,7 +1,7 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requires at least: openxcom_git_master_2017_06_26_2215 or newer
+This mod requires at least: openxcom_git_master_2018_04_24_2218 or newer
 
 README for Version 0.99.3
 ##################################################

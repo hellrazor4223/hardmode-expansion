@@ -382,7 +382,7 @@ commendations:
     description: STR_MEDAL_REVIVE_DESCRIPTION
     sprite: 42
     criteria:
-      totalRevives: [1, 1, 2, 2, 2, 2, 3, 3, 3, 3]
+      totalSoldierRevives: [1, 1, 2, 2, 2, 2, 3, 3, 3, 3]
   - type: STR_MEDAL_SAPPER
     description: STR_MEDAL_SAPPER_DESCRIPTION
     sprite: 43

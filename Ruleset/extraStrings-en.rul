@@ -792,7 +792,7 @@ extraStrings:
       STR_MEDAL_REARSHOT_UFOPEDIA: " Paris, in Greek mythology is renown for neutralizing an almost invulnerable hero, Achilles, with an arrow shot to his heel. {NEWLINE} {NEWLINE} The XCOM soldier who mimics Paris may find that he can exploit similar vulnerabilities in his Extraterrestrial adversaries. {NEWLINE}{NEWLINE} This commendation is issued for every three enemy kills from behind, up to four times."
 
       STR_MEDAL_REVIVE: "Angel's Cross"
-      STR_MEDAL_REVIVE_DESCRIPTION: "Given to a soldier who returned from the brink a fellow soldier."
+      STR_MEDAL_REVIVE_DESCRIPTION: "Given to a soldier who returned a fellow soldier from the brink of death."
       STR_MEDAL_REVIVE_UFOPEDIA: " ''No, you're not going to die on my watch.' said Doc. Just before the chopper arrived, his heart stopped.  Doc revived him again by pounding on his chest and giving him mouth-to-mouth.  The chopper finally arrived and we loaded him in.' {NEWLINE}-- Stephen Paul Campos {NEWLINE} {NEWLINE} When the soldier lies unconscious and bleeding on the battlefield, this trooper is their angel that knows what it takes to bring them back. {NEWLINE} {NEWLINE} This award is issued every time a casualty is revived, up to three times."
 
       STR_MEDAL_SAPPER: "Sapper Medal"
