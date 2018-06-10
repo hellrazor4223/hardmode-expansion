@@ -7624,7 +7624,7 @@ Launcher#</dia:string>
         <dia:point val="101.519,-40.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="101.158,-40.1587;101.881,-37.9385"/>
+        <dia:rectangle val="101.157,-40.1587;101.881,-37.9385"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="101.519,-40.1087"/>
@@ -7818,7 +7818,7 @@ Launcher#</dia:string>
         <dia:point val="101.519,-34.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="101.158,-34.1587;101.881,-31.8882"/>
+        <dia:rectangle val="101.157,-34.1587;101.881,-31.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="101.519,-34.1087"/>
@@ -7846,7 +7846,7 @@ Launcher#</dia:string>
         <dia:point val="101.519,-28.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="101.158,-28.1587;101.881,-25.9385"/>
+        <dia:rectangle val="101.157,-28.1587;101.881,-25.9385"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="101.519,-28.1087"/>
@@ -7922,7 +7922,7 @@ Launcher#</dia:string>
         <dia:point val="101.519,-22.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="101.158,-22.1587;101.881,-19.9385"/>
+        <dia:rectangle val="101.157,-22.1587;101.881,-19.9385"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="101.519,-22.1087"/>
@@ -8046,7 +8046,7 @@ Launcher#</dia:string>
         <dia:point val="101.519,-16.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="101.158,-16.1587;101.881,-13.8882"/>
+        <dia:rectangle val="101.157,-16.1587;101.881,-13.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="101.519,-16.1087"/>
@@ -8122,11 +8122,11 @@ Launcher#</dia:string>
         <dia:point val="101.519,-10.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="101.158,-10.1587;101.881,-7.93851"/>
+        <dia:rectangle val="101.157,-10.1587;101.881,-7.93853"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="101.519,-10.1087"/>
-        <dia:point val="101.519,-8.05031"/>
+        <dia:point val="101.519,-8.05033"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -8838,7 +8838,7 @@ Celatid Corpse#</dia:string>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="61.5194,-30.1087"/>
-        <dia:point val="61.5096,-28.0503"/>
+        <dia:point val="61.5095,-28.0503"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11089,7 +11089,7 @@ Fire Bomb#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Improved Skyranger#</dia:string>
+            <dia:string>#Improved Interceptor#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
@@ -12453,7 +12453,7 @@ Fire Bomb#</dia:string>
         <dia:point val="133.951,-3.05433"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.888,-3.41613;134.001,-2.69252"/>
+        <dia:rectangle val="131.888,-3.41613;134.001,-2.69253"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="133.951,-3.05433"/>
@@ -12481,7 +12481,7 @@ Fire Bomb#</dia:string>
         <dia:point val="134,2.94567"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.939,2.58387;134.05,3.30748"/>
+        <dia:rectangle val="131.939,2.58387;134.05,3.30747"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="134,2.94567"/>
@@ -12537,7 +12537,7 @@ Fire Bomb#</dia:string>
         <dia:point val="126.519,-19.1087"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.158,-19.1587;126.881,-16.8882"/>
+        <dia:rectangle val="126.157,-19.1587;126.881,-16.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="126.519,-19.1087"/>

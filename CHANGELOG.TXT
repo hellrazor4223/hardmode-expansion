@@ -36,7 +36,7 @@ Version 0.99.3
  - Added turned Versions for: EXPANDEDUBASE17
  - Added turned Versions for: EXPANDEDUBASE18 (Fake Brain Room)
  - Optimized Mapscript for Alien Bases
- - Optimized Mapscripot for Cydonia Final Assault
+ - Optimized Mapscript for Cydonia Final Assault
  - Added more Missions to Alien Bases to generate:
 	- Alien Research
 	- Alien Terror
