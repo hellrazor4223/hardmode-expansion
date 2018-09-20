@@ -1125,6 +1125,7 @@ units:
     stats:
       psiStrength: 150
     value: 13
+    capturable: true
 #END CYBERDISC
 
 #BEGIN CHRYSSALID
@@ -1141,6 +1142,7 @@ units:
     stats:
       psiStrength: 150
     value: 15
+    capturable: true
 #END SECTOPOD
 
 #BEGIN CELATID
