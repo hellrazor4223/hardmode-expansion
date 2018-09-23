@@ -125,7 +125,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 8
       STR_DRONE_SCOUT: 1
     producedItems:
-      STR_ALLOY_DRONE_SCOUT
+      STR_ALLOY_DRONE_SCOUT: 1
     listOrder: 405
   - name: STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER
     category: STR_UPGRADE
@@ -298,7 +298,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 8
       STR_ELERIUM_115: 8
-      STR_DRONE_SCOUT: 1
+      STR_DRONE_SCANNER: 1
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
       STR_MOTION_SCANNER: 1
@@ -557,7 +557,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 8
       STR_ADVANCED_MEDI_KIT: 1
-      STR_DRONE_SCANNER: 1
+      STR_DRONE_TASER: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
       STR_MOTION_SCANNER: 1
@@ -574,7 +574,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 8
       STR_ELERIUM_115: 4
-      STR_DRONE_SCOUT: 1
+      STR_DRONE_TASER: 1
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
     listOrder: 433
