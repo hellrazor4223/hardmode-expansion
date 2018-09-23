@@ -1,7 +1,7 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requires at least: openxcom_git_master_2018_04_24_2218 or newer
+This mod requires at least: openxcom_git_master_2018_09_17_0112 or newer
 
 README for Version 0.99.3
 ##################################################
@@ -309,9 +309,9 @@ Additional Terrains:
 	Tundra Swamp
 
 Currently Supported Languages:
-	English:
-		en-US
-		en-GB
+	English		US (en-US)
+	English		UK (en-GB)
+	Japanese	JA (ja)
 
 What is still missing so far:
 	More translations

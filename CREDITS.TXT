@@ -155,6 +155,7 @@ Credits go to:
 		- For the original Airfield UFO2000 terrain
 	sylandro:
 		- For the PSXCutscenes Mod
+	All translaters on the TRANSIFEX project (you guys are awesome)
 
 This list is for sure not complete.
 If i forgot someone, or something is incorrect, please let me know.

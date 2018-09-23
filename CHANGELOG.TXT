@@ -1,4 +1,8 @@
 Changelog:
+Version 0.99.4
+ - Added Support for Japanese language (TRANSIFEX)
+ - Updated Ruleset to be compatible with: openxcom_git_master_2018_09_17_0112
+
 Version 0.99.3
  - Final Ressource File Restructure
  - Turning THUNDER by 90 degree (Unified Craft MapSize)
