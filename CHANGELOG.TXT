@@ -4,6 +4,7 @@ Version 0.99.4
  - Added Support for British English language (TRANSIFEX)
  - Updated Ruleset to be compatible with: openxcom_git_master_2018_09_17_0112
  - Fix Wrong production requirements for some Drone Upgrades)
+ - Fix naming issue with Alloy Drone Medikit repair
 
 Version 0.99.3
  - Final Ressource File Restructure

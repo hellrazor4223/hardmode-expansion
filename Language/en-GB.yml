@@ -211,7 +211,7 @@ en-GB:
   STR_ALLOY_DRONE_MEDIKIT: "Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
-  STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
+  STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Medikit -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Medikit -> Alloy Scanner"
