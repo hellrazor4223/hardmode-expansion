@@ -119,7 +119,7 @@ terrains:
       - name: EXPANDEDUBASE01k #28 #Large Garden 2th Floor E
         width: 20
         length: 20
-      - name: EXPANDEDUBASE01l #29 #Large Garden 2th Floor W
+      - name: EXPANDEDUBASE01l #29 #Large Garden 2th Floor S
         width: 20
         length: 20
       - name: EXPANDEDUBASE02b #30 #Large Storage S
