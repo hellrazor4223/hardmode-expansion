@@ -1854,6 +1854,7 @@ items:
     accuracySnap: 75
     tuAuto: 50
     tuSnap: 33
+    autoShots: 4
     clipSize: -1
     battleType: 1
     twoHanded: true
