@@ -312,13 +312,13 @@ Currently Supported Languages:
 	English		US (en-US)
 	English		UK (en-GB)
 	Japanese	JA (ja)
+	Russian		RU (ru)
 
-What is still missing so far:
+Future planned additions:
 	More translations
-	2 interior variants vanilla Supply Ship
-	More Interior variants for Vanilla Abductors and Terrorships
 	Some 20x20 Maps Modules for Mars Terrain
-	Human faction for Special Missions
+	Intermediate Third Stage for Final Mission
+	Armed Humans for Terrormissions and Other Missions
 	Alien Commandship
 	Special Mission to aquire the Alien Data Slate (not done)
 	Special Mission to aquire the Alien Data Core (not done) 

@@ -300,7 +300,7 @@ en-US:
 
   STR_POWER_SUIT_CORPSE: "Damaged Power Suit"
   STR_POWER_SUIT_REPAIR: "Repair Power Suits"
-  STR_POWER_SUIT_UFOPEDIA: "A powerful new protection for soldiers, this armor is powered by an Elerium energy source, creating a light antigravity field and greatly amplifing the endurance of the wearer, it offers the best protection yet for combat troops."
+  STR_POWER_SUIT_UFOPEDIA: "A powerful new protection for soldiers, this armor is powered by an Elerium energy source, creating a light antigravity field and greatly amplifying the endurance of the wearer, it offers the best protection yet for combat troops."
 
   STR_FLYING_SUIT_CORPSE: "Damaged Flying Suit"
   STR_FLYING_SUIT_REPAIR: "Repair Flying Suit"
@@ -367,7 +367,7 @@ en-US:
   STR_HEAVY_LASER: "Heavy Laser/Sniper"
   STR_HEAVY_LASER_UFOPEDIA: "The heavy laser sniper is cumbersome, but extremely effective. It has been refitted with a sniper scope and is excellent for taking out aliens from a distance. The increased firepower comes at the cost of not having burst fire mode."
   STR_HEAVY_LASER_AUTO: "Heavy Laser/Auto"
-  STR_HEAVY_LASER_AUTO_UFOPEDIA: "The heavy laser auto is extremly effective in close combat situations, when high dropping power is needed. The inability to aim this thing properly has been cursed by our soldiers, since it lacks a aimed shot."
+  STR_HEAVY_LASER_AUTO_UFOPEDIA: "The heavy laser auto is extremly effective in mid range combat situations, when high dropping power is needed. The inability to aim this thing properly has been cursed by our soldiers, since it lacks a aimed shot."
 
   STR_FIELD_MEDI_PACK: "Field Medic Pack"
   STR_FIELD_MEDI_PACK_UFOPEDIA: "The field medic pack combines a healing facility with pain killers and stimulants. In order to use the field medic pack you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the field medi pack icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 1 health restored.{NEWLINE}STIMULANT> This will restore 5 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 3 | STIMULANT: 3 | PAIN KILLER: 3"
@@ -407,9 +407,9 @@ en-US:
 
   STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. A versatile and deadly weapon."
   STR_ELERIUM_BOMB: "Elerium Bomb"
-  STR_ELERIUM_BOMB_UFOPEDIA: "The Elerium Bomb, used by the aliens in all combat scenarios, is a powerful and deadly ammunition for the Small Launcher, which does HE area of effect damage."
+  STR_ELERIUM_BOMB_UFOPEDIA: "The Elerium Bomb, used by the aliens in all combat scenarios, is a powerful and deadly ammunition for the Small Launcher, which does high explosive area of effect damage."
   STR_FIRE_BOMB: "Fire Bomb"
-  STR_FIRE_BOMB_UFOPEDIA: "The Fire Bomb, basically a modified Elerium Bomb, which is changed from high explosive damage towards developing great heat inside a specific raduis, burning everything alive, this basically transforms the Small Launcher into a weapon for pyromaniacs."
+  STR_FIRE_BOMB_UFOPEDIA: "The Fire Bomb, basically a modified Elerium Bomb, which is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the Small Launcher into a weapon for pyromaniacs."
   STR_SMOKE_BOMB: "Smoke Bomb"
   STR_SMOKE_BOMB_UFOPEDIA: "The Smoke Bomb, a modified Stun Bomb, which can be used to generate smoke cover for our troops in the battlefield. Beware that Smoke can be used to your advantage and disadvantage!"
 #END WEAPONS
@@ -551,7 +551,7 @@ en-US:
 
   STR_ARMORED_CYBERDISC: "Armored Cyberdisc"
   STR_ARMORED_CYBERDISC_TERRORIST: "Armored Cyberdisc Terrorist"
-  STR_ARMORED_CYBERDISC_UFOPEDIA: "This seems to be a upgraded version of the privously encountered Cyberdisc, which we have faced in some serious fights. It's weapon was upgraded and is now capable of autofire."
+  STR_ARMORED_CYBERDISC_UFOPEDIA: "This seems to be a upgraded version of the priviously encountered Cyberdisc, which we have faced in some serious fights. It's weapon was upgraded and is now capable of autofire."
   STR_ARMORED_CYBERDISC_CORPSE: "Armored Cyberdisc Corpse"
   STR_ARMORED_CYBERDISC_AUTOPSY: "Armored Cyberdisc autopsy"
   STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "This Cyberdiscs armor has been significantly improved, making it highly resitant to HE ammo and completly immune to conventional weapons, lasers are required to destroy it."
@@ -561,14 +561,14 @@ en-US:
   STR_ARMORED_SECTOPOD_UFOPEDIA: "An improved version of the Sectopod that we encountered before. Its weapon is now capable of a destructive autofire and it is much tougher to destroy. The vulnerability towards laser weapons also doesn't exist anymore."
   STR_ARMORED_SECTOPOD_CORPSE: "Armored Sectopod Corpse"
   STR_ARMORED_SECTOPOD_AUTOPSY: "Armored Sectopod autopsy"
-  STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: "This Sectopods armor was improved, to make it more resistant against Laser Weapons, Stun Weapons and High explosives, it now is a really significant threat on the battlefield. Featuring a modified Heavy Plasma as its main cannon it can fire autobursts with 5 shots. Our best chance in destroying those hulking deathmachines seems to either melee combat or a flanking attempt, since the front armor seems nearly impenetrable."
+  STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: "This Sectopods armor was improved, to make it more resistant against Laser Weapons, Stun Weapons and High explosives, it now is a really significant threat on the battlefield. Featuring a modified Heavy Plasma as its main cannon it can fire autobursts with 5 shots. Our best chance in destroying those hulking deathmachines seems to be either melee combat or a flanking attempt, since the front armor is nearly impenetrable."
 
   STR_CHRYSSALID_SPITTER: "Chryssalid Spitter"
   STR_CHRYSSALID_SPITTER_TERRORIST: "Chryssalid Spitter Terrorist"
   STR_CHRYSSALID_SPITTER_UFOPEDIA: "This creature resembles an evolved Chryssalid. It retains the claws of its cousins, but also has the ability to spit its eggs quite a long way. It appears that the eggs are propelled by an extremely strong acid capable of eating through alien alloys."
   STR_CHRYSSALID_SPITTER_CORPSE: "Chryssalid Spitter Corpse"
-  STR_CHRYSSALID_SPITTER_AUTOPSY: "Chryssalid Spitter autopsy"
-  STR_CHRYSSALID_SPITTER_AUTOPSY_UFOPEDIA: "This strange creature appears to be a caste of the Chryssalid species. A membranous sac located within the cloaca produces an acidic compound, and provides pressure to eject the eggs at a high velocity to penetrate armour. With the help of the acid, this creature can implant victims from quite long ranges. It seems this creature was designed to infect large proportions of population in an even faster time."
+  STR_CHRYSSALID_SPITTER_AUTOPSY: "Chryssalid Spitter Autopsy"
+  STR_CHRYSSALID_SPITTER_AUTOPSY_UFOPEDIA: "This strange creature appears to be a more deadly variant of the Chryssalid species. A membranous sac located within the cloaca produces an acidic compound, and provides pressure to eject the eggs at a high velocity to penetrate armour. With the help of the acid, this creature can implant victims from quite long ranges. It seems this creature was designed to infect large proportions of population in an even faster time."
 
   STR_CYDONIA_STAGE_1: "Cydonia Mixed One"
   STR_CYDONIA_STAGE_2: "Cydonia Mixed Two"
