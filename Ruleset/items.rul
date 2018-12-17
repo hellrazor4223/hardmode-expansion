@@ -1158,7 +1158,7 @@ items:
     requires:
       - STR_ALLOY_VEST
     size: 0.8
-    costSell: 60000
+    costSell: 22000
     listOrder: 10599
   - type: STR_ALLOY_VEST_CORPSE
     name: STR_CORPSE
@@ -1174,6 +1174,8 @@ items:
 #END ALLOY VEST
 
 #BEGIN PERSONAL ARMOR
+  - type: STR_PERSONAL_ARMOR
+    costSell: 44000
   - type: STR_PERSONAL_ARMOR_CORPSE
     name: STR_CORPSE
     size: 0.8
@@ -1188,6 +1190,8 @@ items:
 #END PERSONAL ARMOR CORPSE
 
 #BEGIN POWER SUIT
+  - type: STR_POWER_SUIT
+    costSell: 88000
   - type: STR_POWER_SUIT_CORPSE
     name: STR_CORPSE
     size: 0.8
@@ -1202,6 +1206,8 @@ items:
 #END POWER SUIT
 
 #BEGIN FLYING SUIT
+  - type: STR_FLYING_SUIT
+    costSell: 116000
   - type: STR_FLYING_SUIT_CORPSE
     name: STR_CORPSE
     size: 0.8
@@ -1218,7 +1224,7 @@ items:
 #BEGIN REINFORCED POWER SUIT
   - type: STR_REINFORCED_POWER_SUIT
     size: 1.0
-    costSell: 170000
+    costSell: 168000
     listOrder: 10801
   - type: STR_REINFORCED_POWER_SUIT_CORPSE
     name: STR_CORPSE
@@ -1236,7 +1242,7 @@ items:
 #BEGIN REINFORCED FLYING SUIT
   - type: STR_REINFORCED_FLYING_SUIT
     size: 1.0
-    costSell: 230000
+    costSell: 232000
     listOrder: 10802
   - type: STR_REINFORCED_FLYING_SUIT_CORPSE
     name: STR_CORPSE
