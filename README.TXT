@@ -1,9 +1,9 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requires at least: openxcom_git_master_2018_09_17_0112 or newer
+This mod requires at least: openxcom_git_master_2018_12_05_1952 or newer
 
-README for Version 0.99.3
+README for Version 0.99.4
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
@@ -198,7 +198,7 @@ Additional X-Com Weapons:
 All kinetic weapons also get Alloy Ammo once researched.
 Alloy Ammo adds +10 Damage on top of convential AP Ammo.
 
-Also 3 Medkits one avaible from start, the others are researchable.
+Also 3 Medikits, one available from start, the others are researchable.
 Research is Corpsebased and also requires Storyitems.
 
 Additional X-Com Tanks:
@@ -221,13 +221,16 @@ Hovertank Launcher Ammo does 200 damage instead of 140
 
 Drones are 1x1 sized Tanks, fast and somewhat durable but stick to support and scouting roles.
 Drones allow you to bring a expendable unit and still have a big combat team ready.
-Drones can be upgraded.
+Drones can be upgraded and refitted.
 
 Additional X-Com Armor:
-	Grey Armored Vest
+	Armored Vest
 	Alloy Vest
 	Reinforced Power Suit
 	Reinforced Flying Suit
+
+Soldier Armors can be repaired if the corpse is recovered at the end of a successful mission.
+The soldier armors also can be upgraded to the next higher tier, once researched.
 
 Additional X-Com Craft:
 	Retaliator (Advanced Interceptor)

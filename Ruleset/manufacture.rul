@@ -1656,6 +1656,19 @@ manufacture:
     producedItems:
       STR_ARMORED_VEST: 1
     listOrder: 2601
+  - name: STR_UPGRADE_ARMORED_VEST_TO_ALLOY_VEST
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_VEST
+    space: 12
+    time: 400
+    cost: 24000
+    requiredItems:
+      STR_ARMORED_VEST: 1
+      STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_ALLOY_VEST: 1
+    listOrder: 2602
 #END ARMORED VEST
 
 #BEGIN ALLOY VEST
@@ -1667,8 +1680,8 @@ manufacture:
     time: 400
     cost: 44000
     requiredItems:
-      STR_ALIEN_ALLOYS: 2
-    listOrder: 2602
+      STR_ALIEN_ALLOYS: 3
+    listOrder: 2603
   - name: STR_ALLOY_VEST_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1682,7 +1695,20 @@ manufacture:
       STR_ALIEN_ALLOYS: 1
     producedItems:
       STR_ALLOY_VEST: 1
-    listOrder: 2603
+    listOrder: 2604
+  - name: STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR
+    category: STR_UPGRADE
+    requires:
+      - STR_PERSONAL_ARMOR
+    space: 12
+    time: 400
+    cost: 44000
+    requiredItems:
+      STR_ALLOY_VEST: 1
+      STR_ALIEN_ALLOYS: 3
+    producedItems:
+      STR_PERSONAL_ARMOR: 1
+    listOrder: 2605
 #END ALLOY VEST
 
 #BEGIN PERSONAL ARMOR
@@ -1710,6 +1736,34 @@ manufacture:
     producedItems:
       STR_PERSONAL_ARMOR: 1
     listOrder: 2701
+  - name: STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_POWER_SUIT
+    space: 16
+    time: 200
+    cost: 80000
+    requiredItems:
+      STR_PERSONAL_ARMOR: 1
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_POWER_SUIT: 1
+    listOrder: 2702
+  - name: STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_FLYING_SUIT
+    space: 16
+    time: 600
+    cost: 144000
+    requiredItems:
+      STR_PERSONAL_ARMOR: 1
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 16
+    producedItems:
+      STR_FLYING_SUIT: 1
+    listOrder: 2703
 #END PERSONAL ARMOR
 
 #BEGIN POWER SUIT
@@ -1739,6 +1793,47 @@ manufacture:
     producedItems:
       STR_POWER_SUIT: 1
     listOrder: 2801
+  - name: STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_FLYING_SUIT
+    space: 16
+    time: 400
+    cost: 64000
+    requiredItems:
+      STR_POWER_SUIT: 1
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_FLYING_SUIT: 1
+    listOrder: 2802
+  - name: STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_REINFORCED_POWER_SUIT
+    space: 20
+    time: 1000
+    cost: 168000
+    requiredItems:
+      STR_POWER_SUIT: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_REINFORCED_POWER_SUIT: 1
+    listOrder: 2803
+  - name: STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_REINFORCED_FLYING_SUIT
+    space: 20
+    time: 1400
+    cost: 296000
+    requiredItems:
+      STR_POWER_SUIT: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 16
+    producedItems:
+      STR_REINFORCED_FLYING_SUIT: 1
+    listOrder: 2804
 #END POWER SUIT
 
 #BEGIN FLYING SUIT
@@ -1768,6 +1863,33 @@ manufacture:
     producedItems:
       STR_FLYING_SUIT: 1
     listOrder: 2901
+  - name: STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_POWER_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_REINFORCED_POWER_SUIT
+    space: 20
+    time: 600
+    cost: 104000
+    requiredItems:
+      STR_FLYING_SUIT: 1
+      STR_ALIEN_ALLOYS: 12
+    producedItems:
+      STR_REINFORCED_POWER_SUIT: 1
+    listOrder: 2902
+  - name: STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_FLYING_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_REINFORCED_FLYING_SUIT
+    space: 20
+    time: 1000
+    cost: 232000
+    requiredItems:
+      STR_FLYING_SUIT: 1
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_REINFORCED_FLYING_SUIT: 1
+    listOrder: 2903
 #END FLYING SUIT
 
 #BEGIN REINFORCED POWER SUIT
@@ -1776,28 +1898,40 @@ manufacture:
     requires:
       - STR_REINFORCED_POWER_SUIT
     space: 20
-    time: 1500
-    cost: 250000
+    time: 2000
+    cost: 336000
     requiredItems:
-      STR_ALIEN_ALLOYS: 12
-      STR_ELERIUM_115: 8
-      STR_POWER_SUIT: 1
-    listOrder: 2902
+      STR_ALIEN_ALLOYS: 24
+      STR_ELERIUM_115: 16
+    listOrder: 2904
   - name: STR_REINFORCED_POWER_SUIT_REPAIR
     category: STR_MAINTENANCE
     requires:
       - STR_REINFORCED_POWER_SUIT
       - STR_SOLDIER_ARMOR_REPAIR
     space: 20
-    time: 750
-    cost: 125000
+    time: 1000
+    cost: 168000
     requiredItems:
       STR_REINFORCED_POWER_SUIT_CORPSE: 1
-      STR_ALIEN_ALLOYS: 6
-      STR_ELERIUM_115: 4
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 8
     producedItems:
       STR_REINFORCED_POWER_SUIT: 1
-    listOrder: 2903
+    listOrder: 2905
+  - name: STR_UPGRADE_REINFORCED_POWER_SUIT_TO_REINFORCED_FLYING_SUIT
+    category: STR_UPGRADE
+    requires:
+      - STR_REINFORCED_FLYING_SUIT
+    space: 20
+    time: 400
+    cost: 128000
+    requiredItems:
+      STR_REINFORCED_POWER_SUIT: 1
+      STR_ELERIUM_115: 8
+    producedItems:
+      STR_REINFORCED_FLYING_SUIT: 1
+    listOrder: 2906
 #END REINFORCED POWER SUIT
 
 #BEGIN REINFORCED FLYING SUIT
@@ -1806,28 +1940,27 @@ manufacture:
     requires:
       - STR_REINFORCED_FLYING_SUIT
     space: 20
-    time: 1500
-    cost: 370000
+    time: 2400
+    cost: 464000
     requiredItems:
-      STR_ALIEN_ALLOYS: 12
-      STR_ELERIUM_115: 8
-      STR_FLYING_SUIT: 1
-    listOrder: 2904
+      STR_ALIEN_ALLOYS: 24
+      STR_ELERIUM_115: 24
+    listOrder: 2907
   - name: STR_REINFORCED_FLYING_SUIT_REPAIR
     category: STR_MAINTENANCE
     requires:
       - STR_REINFORCED_FLYING_SUIT
       - STR_SOLDIER_ARMOR_REPAIR
     space: 20
-    time: 750
-    cost: 185000
+    time: 1200
+    cost: 232000
     requiredItems:
       STR_REINFORCED_FLYING_SUIT_CORPSE: 1
-      STR_ALIEN_ALLOYS: 6
-      STR_ELERIUM_115: 4
+      STR_ALIEN_ALLOYS: 12
+      STR_ELERIUM_115: 12
     producedItems:
       STR_REINFORCED_FLYING_SUIT: 1
-    listOrder: 2905
+    listOrder: 2908
 #END REINFORCED FLYING SUIT
 ##END ARMOR
 
