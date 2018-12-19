@@ -288,28 +288,38 @@ ja:
   STR_ARMORED_VEST_CORPSE: "破損したアーマーベスト"
   STR_ARMORED_VEST_REPAIR: "アーマーベストの修繕"
   STR_ARMORED_VEST_UFOPEDIA: "セラミック製の防弾ベストは弾丸や爆発物から身を守る。"
+  STR_UPGRADE_ARMORED_VEST_TO_ALLOY_VEST: "アーマーベスト -> 合金ベスト"
 
   STR_ALLOY_VEST: "合金ベスト"
   STR_ALLOY_VEST_UC: "合金ベスト"
   STR_ALLOY_VEST_CORPSE: "破損した合金ベスト"
   STR_ALLOY_VEST_REPAIR: "合金ベストの修繕"
   STR_ALLOY_VEST_UFOPEDIA: "この防弾ベストはエイリアン合金を用いる事で防御力が大幅に強化された。"
+  STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR: "合金ベスト -> 個人用アーマー"
 
   STR_PERSONAL_ARMOR_CORPSE: "破損した個人用アーマー"
   STR_PERSONAL_ARMOR_REPAIR: "個人用アーマーの修繕"
+  STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT: "個人用アーマー -> パワースーツ"
+  STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: "個人用アーマー -> 飛行スーツ"
 
   STR_POWER_SUIT_CORPSE: "破損したパワースーツ"
   STR_POWER_SUIT_REPAIR: "パワースーツの修繕"
   STR_POWER_SUIT_UFOPEDIA: "強力な新型の個人用アーマーでエレリウムの動力炉で駆動し、着用者の速度と筋力を大幅に強化して戦闘部隊に絶大な防御力を与える。"
+  STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT: "パワースーツ -> 飛行スーツ"
+  STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT: "パワースーツ -> 改良型パワースーツ"
+  STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: "パワースーツ -> 改良型飛行スーツ"
 
   STR_FLYING_SUIT_CORPSE: "破損した飛行スーツ"
   STR_FLYING_SUIT_REPAIR: "飛行スーツの修繕"
+  STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_POWER_SUIT: "飛行スーツ -> 改良型パワースーツ"
+  STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_FLYING_SUIT: "飛行スーツ -> 改良型飛行スーツ"
 
   STR_REINFORCED_POWER_SUIT: "改良型パワースーツ"
   STR_REINFORCED_POWER_SUIT_UC: "改良型パワースーツ"
   STR_REINFORCED_POWER_SUIT_CORPSE: "破損した改良型パワースーツ"
   STR_REINFORCED_POWER_SUIT_REPAIR: "改良型パワースーツの修理"
   STR_REINFORCED_POWER_SUIT_UFOPEDIA: "パワースーツの改良版。着用者の防御力と速度を更に上昇させる。"
+  STR_UPGRADE_REINFORCED_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: "改良型パワースーツ -> 改良型飛行スーツ"
 
   STR_REINFORCED_FLYING_SUIT: "改良型飛行スーツ"
   STR_REINFORCED_FLYING_SUIT_UC: "改良型飛行スーツ"
@@ -367,7 +377,7 @@ ja:
   STR_HEAVY_LASER: "重レーザー/スナイパー"
   STR_HEAVY_LASER_UFOPEDIA: "この重レーザーのスナイパーモデルは重くかさばるが威力は大きい。狙撃用スコープを備え、遠距離からでも容易にエイリアンを仕留める事ができる。増大した火力は連射機能を犠牲にして得られたものである。"
   STR_HEAVY_LASER_AUTO: "重レーザー/オート"
-  STR_HEAVY_LASER_AUTO_UFOPEDIA: "重レーザーオートは近距離で敵を確実に仕留めたい時に絶大な威力を発揮する。しかし精密射撃が不可能な構造の為、兵士達に不評を買っている。"
+  STR_HEAVY_LASER_AUTO_UFOPEDIA: "重レーザーオートは近距離で敵を確実に仕留めたい時に絶大な威力を発揮する。しかし精密射撃が不可能で、兵士達に不評を買っている。"
 
   STR_FIELD_MEDI_PACK: "野戦メディパック"
   STR_FIELD_MEDI_PACK_UFOPEDIA: "メディキットは鎮痛剤と興奮剤を組み合わせたもので、負傷した兵士の方を向いて、または気絶した兵士の体の上で使用する。メディキットをクリックしてメニューから’使用’を選び以下から選択。{NEWLINE}{NEWLINE}治療> 赤い部分が負傷した部位を示す。治療する部位を選択して‘治療’ボタンを押す。傷が治療され健康を回復する。{NEWLINE}{NEWLINE}興奮剤> スタミナを5回復し、気絶した兵士の意識を回復する。気絶した兵士の意識を回復させるには、身体の上に直接立って操作を行う。{NEWLINE}{NEWLINE}鎮痛剤> 負傷した兵の士気を現在のHPの上限まで回復させる。{NEWLINE}使用回数>治療ｘ3, 興奮剤ｘ3, 鎮痛剤ｘ3"
