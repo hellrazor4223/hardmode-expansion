@@ -1804,7 +1804,7 @@ items:
     fireSound: 11
     hitSound: 19
     hitAnimation: 36
-    power: 65
+    power: 60
     damageType: 4
     accuracyAuto: 60
     accuracySnap: 70
@@ -1829,7 +1829,7 @@ items:
 
 #BEGIN HEAVY LASER SNIPER
   - type: STR_HEAVY_LASER
-    power: 110
+    power: 100
     accuracySnap: 80
     accuracyAimed: 130
     tuSnap: 33
@@ -2205,7 +2205,7 @@ items:
     bulletSprite: 8
     hitSound: 19
     hitAnimation: 46
-    power: 85
+    power: 80
     damageType: 5
     clipSize: 16
     battleType: 2
@@ -2226,7 +2226,7 @@ items:
     bulletSprite: 8
     hitSound: 19
     hitAnimation: 56
-    power: 105
+    power: 100
     damageType: 5
     clipSize: 16
     battleType: 2
@@ -2278,7 +2278,7 @@ items:
     handSprite: 456
     hitSound: 19
     hitAnimation: 46
-    power: 100
+    power: 110
     damageType: 5
     clipSize: 16
     battleType: 2

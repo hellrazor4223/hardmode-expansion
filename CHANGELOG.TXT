@@ -9,6 +9,7 @@ Version 0.99.4
  - Fix Wrong production requirements for some Drone Upgrades)
  - Fix naming issue with Alloy Drone Medikit repair
  - Upgrade Heavy Laser Autoshot (now shots 4 times)
+ - Adjusted Weapondamage for balancing (Heavy Laser/Sniper, Scatter Laser, Plasma Shotgun, Plasma Sniper)
  - Adjusted Ruleset to latest changes in : openxcom_git_master_2018_09_17_0112 or newer
 
 Version 0.99.3
