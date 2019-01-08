@@ -101,7 +101,7 @@ General Gameplay changes:
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
-	Alien Bases will also invoke Alien Missions in their regions (20% chance)
+	Alien Bases will also invoke Alien Missions in their regions (10% chance)
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
@@ -122,7 +122,7 @@ Groundcombat changes:
 	Alien will use Explosives and Explosive Weaponry from Turn 1 in Ground Combats
 	Increased PSI Defenses for Aliens, but same Attack values (Soldier with PSI Str 80+ are fine as in vanilla)
 	Ethereals are immune to MC from Xcom
-	Aliens receive a Bravery Bonus (+10, Commanders are removed from Battleship and Base Defense Missions, increased numbers panic to quckly)
+	Aliens receive a Bravery Bonus (+10, Commanders are removed from Battleship and Base Defense Missions, increased numbers panic to quickly)
 	Aliens have more saner Melee accuracy stats
 	Kneeling Indicator and Improved TU Reserve Sprites
 	Better Smoke Animation
@@ -131,6 +131,8 @@ Groundcombat changes:
 	Chryssalids are slightly vulnarable to HE damage (as stated in the UFOpedia)
 	Sectopod does Laser Damage (as stated in UFOpedia)
 	Blaster Waypoints honor DOS Limitation (9 Waypoints)
+	Shotgun Class Weaponry for Xcom and Aliens
+	Dedicaded Melee Weaponry for Xcom and Aliens
 
 Storyitems:
 	Alien Data Slate (currently carried by Alien Base Commanders)
@@ -150,13 +152,13 @@ Additional Alien Missions:
 	Ship Attack
 	Docked Ship
 
-Additional Alien Races:
+Additional Alien Races/Units:
 	Waspite
 	Gazer
 	Sectoid Elite
 	Muton Elite
 	Muton Elite Guard
-	Muton Berserker
+	Muton Berserker Terrorist
 	Armored Cyberdisc Terrorist
 	Armored Sectopod Terrorist
 	Chryssalid Spitter Terrorist
@@ -167,7 +169,7 @@ Additional Alien UFOs:
 	Excavator (11)
 	Labship (4 Maps)
 
-Additional Vanilla Interior Variant Ufo Maps:
+Additional Interior UFO Variant Maps:
 	Medium Scout (8 Maps)
 	Large Scout (27 Maps)
 	Harvester (24 Maps)
@@ -229,8 +231,7 @@ Additional X-Com Armor:
 	Reinforced Power Suit
 	Reinforced Flying Suit
 
-Soldier Armors can be repaired if the corpse is recovered at the end of a successful mission.
-The soldier armors also can be upgraded to the next higher tier, once researched.
+Soldier Armor can be repaired and upgraded.
 
 Additional X-Com Craft:
 	Retaliator (Advanced Interceptor)
@@ -326,4 +327,3 @@ Future planned additions:
 	Special Mission to aquire the Alien Data Slate (not done)
 	Special Mission to aquire the Alien Data Core (not done) 
 	Special Mission to aquire the Psi Amp (not done)
-	Counsel Missions (useing Hobbes Special Mission from UFO Redux)
