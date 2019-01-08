@@ -5,6 +5,7 @@ Version 0.99.4
  - Added Translations for British English language  en-GB (TRANSIFEX)
  - Added turned Versions for UBASE_01 (4 Maps total)
  - Added alternate/turned Version 1 for UBASE_01 (4 maps total)
+ - Added alternate/turned Version 2 for UBASE_01 (4 maps total)
  - Added Soldier Armor Upgrades
  - Fix Wrong production requirements for some Drone Upgrades)
  - Fix naming issue with Alloy Drone Medikit repair

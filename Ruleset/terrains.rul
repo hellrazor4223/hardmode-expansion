@@ -60,16 +60,16 @@ terrains:
       - name: EXPANDEDUBASE_01h #12 #Large Garden Center S
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_01i #13 #Large Garden 2th Floor W
+      - name: EXPANDEDUBASE_01i #13 #Large Garden Tower E
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_01j #14 #Large Garden 2th Floor N
+      - name: EXPANDEDUBASE_01j #14 #Large Garden Tower S
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_01k #15 #Large Garden 2th Floor E
+      - name: EXPANDEDUBASE_01k #15 #Large Garden Tower W
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_01l #16 #Large Garden 2th Floor S
+      - name: EXPANDEDUBASE_01l #16 #Large Garden Tower N
         width: 20
         length: 20
       - name: UBASE_02 #17 #Large Storage E
@@ -248,117 +248,117 @@ terrains:
         width: 10
         length: 10
         groups: 7
-      - name: EXPANDEDUBASE_11b #65 #Entertainment Room Color Switched
+      - name: EXPANDEDUBASE_11b #66 #Entertainment Room Color Switched
         width: 10
         length: 10
         groups: 7
-      - name: EXPANDEDUBASE_11c #66 #Entertainment Room Pods
+      - name: EXPANDEDUBASE_11c #67 #Entertainment Room Pods
         width: 10
         length: 10
         groups: 7
-      - name: EXPANDEDUBASE_11d #67 #Entertainment Room Pods Color Switched
+      - name: EXPANDEDUBASE_11d #68 #Entertainment Room Pods Color Switched
         width: 10
         length: 10
         groups: 7
-      - name: UBASE_12 #68 #Small Power Source Pods #Air only
+      - name: UBASE_12 #69 #Small Power Source Pods #Air only
         width: 10
         length: 10
         groups: 9
-      - name: EXPANDEDUBASE_12b #69 #Small Power Source Pods Window #Air only
+      - name: EXPANDEDUBASE_12b #70 #Small Power Source Pods Window #Air only
         width: 10
         length: 10
         groups: 9
-      - name: UBASE_13 #70 #Crossing Food Pods
+      - name: UBASE_13 #71 #Crossing Food Pods
         width: 10
         length: 10
-      - name: UBASE_14 #71 #Small Garden #Inaccessible
+      - name: UBASE_14 #72 #Small Garden #Inaccessible
         width: 10
         length: 10
-      - name: UBASE_15 #72 #Brain Room W
+      - name: UBASE_15 #73 #Brain Room W
         width: 20
         length: 20
         groups: 4
-      - name: EXPANDEDUBASE_15b #73 #Brain Room N
+      - name: EXPANDEDUBASE_15b #74 #Brain Room N
         width: 20
         length: 20
         groups: 4
-      - name: EXPANDEDUBASE_15c #74 #Brain Room E
+      - name: EXPANDEDUBASE_15c #75 #Brain Room E
         width: 20
         length: 20
         groups: 4
-      - name: EXPANDEDUBASE_15d #75 #Brain Room S
+      - name: EXPANDEDUBASE_15d #76 #Brain Room S
         width: 20
         length: 20
         groups: 4
-      - name: EXPANDEDUBASE_16 #76 #Small Bunker Windows E
+      - name: EXPANDEDUBASE_16 #77 #Small Bunker Windows E
         width: 10
         length: 10
         groups: 8
-      - name: EXPANDEDUBASE_16b #77 #Small Bunker Windows S
+      - name: EXPANDEDUBASE_16b #78 #Small Bunker Windows S
         width: 10
         length: 10
         groups: 8
-      - name: EXPANDEDUBASE_16c #78 #Small Bunker Windows W
+      - name: EXPANDEDUBASE_16c #79 #Small Bunker Windows W
         width: 10
         length: 10
         groups: 8
-      - name: EXPANDEDUBASE_16d #79 #Small Bunker Windows N
+      - name: EXPANDEDUBASE_16d #80 #Small Bunker Windows N
         width: 10
         length: 10
         groups: 8
-      - name: EXPANDEDUBASE_17 #80 #Small Storage W
+      - name: EXPANDEDUBASE_17 #81 #Small Storage W
         width: 10
         length: 10
-      - name: EXPANDEDUBASE_17b #81 #Small Storage N
+      - name: EXPANDEDUBASE_17b #82 #Small Storage N
         width: 10
         length: 10
-      - name: EXPANDEDUBASE_17c #82 #Small Storage E
+      - name: EXPANDEDUBASE_17c #83 #Small Storage E
         width: 10
         length: 10
-      - name: EXPANDEDUBASE_17d #83 #Small Storage S
+      - name: EXPANDEDUBASE_17d #84 #Small Storage S
         width: 10
         length: 10
-      - name: EXPANDEDUBASE_18 #84 #Fake Brain Room W
+      - name: EXPANDEDUBASE_18 #85 #Fake Brain Room W
         width: 20
         length: 20
         groups: 5
-      - name: EXPANDEDUBASE_18b #85 #Fake Brain Room N
+      - name: EXPANDEDUBASE_18b #86 #Fake Brain Room N
         width: 20
         length: 20
         groups: 5
-      - name: EXPANDEDUBASE_18c #86 #Fake Brain Room E
+      - name: EXPANDEDUBASE_18c #87 #Fake Brain Room E
         width: 20
         length: 20
         groups: 5
-      - name: EXPANDEDUBASE_18d #87 #Fake Brain Room S
+      - name: EXPANDEDUBASE_18d #88 #Fake Brain Room S
         width: 20
         length: 20
         groups: 5
-      - name: EXPANDEDUBASE_19 #88 #Food Processing W
+      - name: EXPANDEDUBASE_19 #89 #Food Processing W
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_19b #89 #Food Processing N
+      - name: EXPANDEDUBASE_19b #90 #Food Processing N
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_19c #90 #Food Processing S
+      - name: EXPANDEDUBASE_19c #91 #Food Processing S
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_19d #91 #Food Processing E
+      - name: EXPANDEDUBASE_19d #92 #Food Processing E
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_20 #92 #Small Scout Module W
+      - name: EXPANDEDUBASE_20 #93 #Small Scout Module W
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_20b #93 #Small Scout Module N
+      - name: EXPANDEDUBASE_20b #94 #Small Scout Module N
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_20c #94 #Small Scout Module E
+      - name: EXPANDEDUBASE_20c #95 #Small Scout Module E
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_20d #95 #Small Scout Module S
+      - name: EXPANDEDUBASE_20d #96 #Small Scout Module S
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_21 #96 #Clone Lab
+      - name: EXPANDEDUBASE_21 #97 #Clone Lab
         width: 20
         length: 20
         groups: 6
