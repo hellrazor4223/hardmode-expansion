@@ -12,6 +12,7 @@ Version 0.99.4
  - Upgrade Heavy Laser Autoshot (now shots 4 times)
  - Adjusted Weapondamage for balancing (Heavy Laser/Sniper, Scatter Laser, Plasma Shotgun, Plasma Sniper)
  - Adjusted Ruleset to latest changes in : openxcom_git_master_2018_09_17_0112 or newer
+ - Adjusted Missions generated from Alien Bases (Region inheritance)
 
 Version 0.99.3
  - Final Ressource File Restructure

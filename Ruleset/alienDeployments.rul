@@ -1509,13 +1509,11 @@ alienDeployments:
     markerIcon: 7
     genMission:
       STR_ALIEN_BASE: 4
-      STR_ALIEN_RETALIATION: 2
-      STR_ALIEN_ABDUCTION: 2
-      STR_ALIEN_HARVEST: 2
-      STR_ALIEN_RESEARCH: 2
+      STR_ALIEN_RETALIATION: 3
+      STR_ALIEN_ABDUCTION: 3
+      STR_ALIEN_HARVEST: 3
+      STR_ALIEN_RESEARCH: 3
       STR_ALIEN_TERROR: 4
-      STR_SHIP_ATTACK: 2
-      STR_DOCKED_SHIP: 2
       STR_ALIEN_SUPPLY: 80
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     alienBase: true # this is only to tell new battle mode what to do with this deployment
