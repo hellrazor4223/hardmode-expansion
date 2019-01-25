@@ -1930,52 +1930,6 @@ items:
     armor: 45
     listOrder: 4003
 #END GRENADES
-
-#BEGIN FIRE BOMB
-  - type: STR_FIRE_BOMB
-    requires:
-      - STR_FIRE_BOMB
-    size: 0.1
-    costSell: 7600
-    weight: 3
-    bigSprite: 165
-    floorSprite: 178
-    handSprite: 608
-    hitSound: 0
-    hitAnimation: 0
-    bulletSprite: 17
-    power: 90
-    damageType: 2
-    clipSize: 1
-    battleType: 2
-    blastRadius: 5
-    armor: 30
-    attraction: 5
-    listOrder: 5702
-#END FIRE BOMB
-
-#BEGIN SMOKE BOMB
-  - type: STR_SMOKE_BOMB
-    requires:
-      - STR_SMOKE_BOMB
-    size: 0.1
-    costSell: 7600
-    weight: 3
-    bigSprite: 166
-    floorSprite: 179
-    handSprite: 616
-    hitSound: 0
-    hitAnimation: 56
-    bulletSprite: 18
-    power: 90
-    damageType: 9
-    clipSize: 1
-    battleType: 2
-    blastRadius: 5
-    armor: 30
-    attraction: 5
-    listOrder: 5703
-#END SMOKE BOMB
 ##END WEAPONS
 
 ##BEGIN EQUIPMENT
@@ -2382,6 +2336,46 @@ items:
     armor: 30
     attraction: 10
     listOrder: 5701
+  - type: STR_FIRE_BOMB
+    requires:
+      - STR_FIRE_BOMB
+    size: 0.1
+    costSell: 7600
+    weight: 3
+    bigSprite: 165
+    floorSprite: 178
+    handSprite: 608
+    hitSound: 0
+    hitAnimation: 0
+    bulletSprite: 17
+    power: 90
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    blastRadius: 5
+    armor: 30
+    attraction: 5
+    listOrder: 5702
+  - type: STR_SMOKE_BOMB
+    requires:
+      - STR_SMOKE_BOMB
+    size: 0.1
+    costSell: 7600
+    weight: 3
+    bigSprite: 166
+    floorSprite: 179
+    handSprite: 616
+    hitSound: 0
+    hitAnimation: 56
+    bulletSprite: 18
+    power: 90
+    damageType: 9
+    clipSize: 1
+    battleType: 2
+    blastRadius: 5
+    armor: 30
+    attraction: 5
+    listOrder: 5703
 #END SMALL LAUNCHER
 
 #BEGIN BLASTER LAUNCHER

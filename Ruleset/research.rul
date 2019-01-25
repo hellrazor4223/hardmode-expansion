@@ -829,15 +829,19 @@ research:
   - name: STR_FIRE_BOMB
     cost: 270
     points: 10
+    needItem: true
     listOrder: 619
     dependencies:
-      - STR_ELERIUM_BOMB
+      - STR_LAUNCHER_WEAPONS
+      - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_SMOKE_BOMB
     cost: 270
     points: 10
+    needItem: true
     listOrder: 619
     dependencies:
-      - STR_STUN_BOMB
+      - STR_LAUNCHER_WEAPONS
+      - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_SMALL_LAUNCHER_UNLOCK
     listOrder: 620
     requires:

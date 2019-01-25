@@ -242,6 +242,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_CLIP
@@ -252,6 +253,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -262,6 +264,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -342,6 +345,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
             - STR_STUN_BOMB
+            - STR_SMOKE_BOMB
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
@@ -352,6 +356,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
             - STR_STUN_BOMB
+            - STR_SMOKE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
@@ -362,6 +367,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
             - STR_STUN_BOMB
+            - STR_SMOKE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
@@ -604,10 +610,10 @@ alienDeployments:
             - STR_ALIEN_GRENADE
           -
             - STR_SMALL_LAUNCHER
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
@@ -618,6 +624,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
@@ -628,6 +635,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
@@ -648,6 +656,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_CLIP
@@ -658,6 +667,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -668,6 +678,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -790,14 +801,20 @@ alienDeployments:
             - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
           -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_SWORD
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_SWORD
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
             - STR_PLASMA_SWORD
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -900,6 +917,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
             - STR_STUN_BOMB
+            - STR_SMOKE_BOMB
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
@@ -911,6 +929,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
             - STR_STUN_BOMB
+            - STR_SMOKE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_CLIP
@@ -922,6 +941,7 @@ alienDeployments:
             - STR_STUN_BOMB
             - STR_STUN_BOMB
             - STR_STUN_BOMB
+            - STR_SMOKE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
@@ -944,6 +964,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
@@ -955,6 +976,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -1164,6 +1186,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_CLIP
@@ -1175,6 +1198,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -1186,6 +1210,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -1365,6 +1390,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_CLIP
@@ -1376,6 +1402,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
@@ -1387,6 +1414,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -1409,6 +1437,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -1420,6 +1449,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
