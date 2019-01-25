@@ -142,7 +142,7 @@ missionScripts:
     researchTriggers:
       STR_ALIEN_RESEARCH: true
     maxRuns: 1
-    varName: navigatorConsequenceAlienResearch
+    varName: navigatorConsequenceAlienResearchTerror
   - type: navigatorConsequenceAlienHarvest
     label: 13
     conditionals: [-11, -12]
@@ -165,7 +165,7 @@ missionScripts:
     researchTriggers:
       STR_ALIEN_HARVEST: true
     maxRuns: 1
-    varName: navigatorConsequenceAlienHarvest
+    varName: navigatorConsequenceAlienHarvestTerror
   - type: navigatorConsequenceAlienAbduction
     label: 15
     conditionals: [-11, -12, -13, -14]
@@ -188,7 +188,7 @@ missionScripts:
     researchTriggers:
       STR_ALIEN_ABDUCTION: true
     maxRuns: 1
-    varName: navigatorConsequenceAlienAbduction
+    varName: navigatorConsequenceAlienAbductionTerror
   - type: navigatorConsequenceAlienBase
     label: 17
     conditionals: [-11, -12, -13, -14, -15, -16]
@@ -211,7 +211,7 @@ missionScripts:
     researchTriggers:
       STR_ALIEN_BASE: true
     maxRuns: 1
-    varName: navigatorConsequenceAlienBase
+    varName: navigatorConsequenceAlienBaseTerror
   - type: navigatorConsequenceAlienSupply
     label: 19
     conditionals: [-11, -12, -13, -14, -15, -16, -17, -18]
@@ -256,7 +256,7 @@ missionScripts:
     researchTriggers:
       STR_ALIEN_BASE: true
     maxRuns: 1
-    varName: navigatorConsequenceAlienInfiltration
+    varName: navigatorConsequenceAlienInfiltrationTerror
   - type: navigatorConsequenceAlienRetaliation
     label: 23
     conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22]
@@ -292,7 +292,7 @@ missionScripts:
     researchTriggers:
       STR_SMALL_SCOUT: true
     maxRuns: 1
-    varName: engineerConsequenceSmallScout
+    varName: engineerConsequenceSmallScoutTerror
   - type: engineerConsequenceMediumScout
     label: 33
     conditionals: [-31, -32]
@@ -316,7 +316,7 @@ missionScripts:
     researchTriggers:
       STR_MEDIUM_SCOUT: true
     maxRuns: 1
-    varName: engineerConsequenceMediumScout
+    varName: engineerConsequenceMediumScoutTerror
   - type: engineerConsequenceLargeScout
     label: 35
     conditionals: [-31, -32, -33, -34]
@@ -341,7 +341,7 @@ missionScripts:
     researchTriggers:
       STR_LARGE_SCOUT: true
     maxRuns: 1
-    varName: engineerConsequenceLargeScout
+    varName: engineerConsequenceLargeScoutTerror
   - type: engineerConsequenceFighterShip
     label: 37
     conditionals: [-31, -32, -33, -34, -35, -36]
@@ -365,7 +365,7 @@ missionScripts:
     researchTriggers:
       STR_FIGHTER_SHIP: true
     maxRuns: 1
-    varName: engineerConsequenceFighterShip
+    varName: engineerConsequenceFighterShipTerror
   - type: engineerConsequenceSentryShip
     label: 39
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38]
@@ -390,7 +390,7 @@ missionScripts:
     researchTriggers:
       STR_SENTRY_SHIP: true
     maxRuns: 1
-    varName: engineerConsequenceSentryShip
+    varName: engineerConsequenceSentryShipTerror
   - type: engineerConsequenceExcavator
     label: 41
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40]
@@ -465,7 +465,7 @@ missionScripts:
     researchTriggers:
       STR_SUPPLY_SHIP: true
     maxRuns: 1
-    varName: engineerConsequenceSupplyShip
+    varName: engineerConsequenceSupplyShipTerror
   - type: engineerConsequenceTerrorShip
     label: 47
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46]
@@ -500,7 +500,7 @@ missionScripts:
     researchTriggers:
       STR_BATTLESHIP: true
     maxRuns: 1
-    varName: engineerConsequenceBattleShip
+    varName: engineerConsequenceBattleShipTerror
 #END ENGINEER CONSEQUENCE
 ##END CONSEQUENCES
 
