@@ -232,22 +232,37 @@ en-GB:
 #BEGIN TANKS
   STR_TANK_CANNON_CORPSE: "Damaged Tank/Cannon"
   STR_TANK_CANNON_REPAIR: "Repair Tank/Cannon"
+  STR_UPGRADE_TANK_CANNON_TO_ROCKET: "Tank/Cannon -> Tank/Rocket"
+  STR_UPGRADE_TANK_CANNON_TO_LASER: "Tank/Cannon -> Tank/Laser"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_CANNON: "Tank/Cannon -> Alloy Cannon"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: "Tank/Cannon -> Alloy Rocket"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: "Tank/Cannon -> Alloy Laser"
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Tank/Rocket"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Tank/Rocket"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: "Tank/Rocket -> Tank/Laser"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Tank/Rocket -> Alloy Cannon"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "Tank/Rocket -> Alloy Rocket"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Tank/Rocket -> Alloy Laser"
 
   STR_TANK_LASER_CANNON_CORPSE: "Damaged Tank/Laser"
   STR_TANK_LASER_CANNON_REPAIR: "Repair Tank/Laser"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "Tank/Laser -> Alloy Cannon"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "Tank/Laser -> Alloy Rocket"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "Tank/Laser -> Alloy Laser"
 
   STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_REPAIR: "Repair Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_UFOPEDIA: "This is a standard Canon HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but it is slightly faster can take much more abuse."
+  STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_ROCKET: "Alloy Tank/Cannon -> Alloy Rocket"
+  STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: "Alloy Tank/Cannon -> Alloy Laser"
 
   STR_ALLOY_TANK_ROCKET_LAUNCHER: "Alloy Tank/Rocket Launcher"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "This is a standard Rocket Launcher HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but its longevity under fire has been greatly increased, and it is somewhat quicker."
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Alloy Tank/Rocket -> Alloy Laser"
 
   STR_ALLOY_TANK_LASER_CANNON: "Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: "Damaged Alloy Tank/Laser"
@@ -258,6 +273,9 @@ en-GB:
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
   STR_HOVERTANK_LASER_REPAIR: "Repair Hovertank/Laser"
   STR_HOVERTANK_LASER_UFOPEDIA: "This complete new tank design is based upon UFO technology and our own laser technology. It combines 3 dimensional mobility and the firepower of the Laser Cannon into a very deadly combination."
+  STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB: "Hovertank/Laser -> Hovertank EBomb"
+  STR_UPGRADE_HOVERTANK_LASER_TO_PLASMA: "Hovertank/Laser -> Hovertank Plasma"
+  STR_UPGRADE_HOVERTANK_LASER_TO_LAUNCHER: "Hovertank/Laser -> Hovertank Launcher"
 
   STR_HWP_EBOMB_LAUNCHER: "Elerium Bomb Launcher"
   STR_HWP_EBOMB: "HWP Elerium Bomb"
@@ -265,9 +283,12 @@ en-GB:
   STR_HOVERTANK_EBOMB_CORPSE: "Damaged Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_REPAIR: "Repair Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_UFOPEDIA: "This tank design combines UFO technology and Small Launcher weaponry. The ability to fire Elerium Bombs from within midair should be deadly to most foes. It's main purpose is similar to our tracked Rocket Launcher tanks, but with an increased clip size."
+  STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: "Hovertank/EBomb -> Hovertank Plasma"
+  STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: "Hovertank/EBomb -> Hovertank Launcher"
 
   STR_HOVERTANK_PLASMA_CORPSE: "Damaged Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_REPAIR: "Repair Hovertank/Plasma"
+  STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "Hovertank/Plasma -> Hovertank Launcher"
 
   STR_HOVERTANK_LAUNCHER_CORPSE: "Damaged Hovertank/Launcher"
   STR_HOVERTANK_LAUNCHER_REPAIR: "Repair Hovertank/Launcher"

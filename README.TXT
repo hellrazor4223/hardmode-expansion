@@ -112,7 +112,8 @@ Economic:
 	Base Maintence Cost increased to 10% of base modules price
 	X-Com Wages and Hire Cost are 1.5 times Vanilla
 	X-Com Armors and Crafts are a lot more expensive to produce
-	Tanks and Armor are repairable, if the corpse is recovered intact
+	Drones, Tanks and Soldier Armor is repairable, if the corpses are recovered intact
+	Drones, Tanks and Soldier Armor is upgradeable
 
 Groundcombat changes:
 	Chronological Racemixes
@@ -221,9 +222,8 @@ Additional X-Com Tanks:
 
 Hovertank Launcher Ammo does 200 damage instead of 140
 
-Drones are 1x1 sized Tanks, fast and somewhat durable but stick to support and scouting roles.
-Drones allow you to bring a expendable unit and still have a big combat team ready.
-Drones can be upgraded and refitted.
+Drones can be upgraded, repaired and refitted.
+Tanks can be repaired and upgraded.
 
 Additional X-Com Armor:
 	Armored Vest

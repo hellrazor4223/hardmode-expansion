@@ -931,6 +931,68 @@ manufacture:
     producedItems:
       STR_TANK_CANNON: 1
     listOrder: 460
+  - name: STR_UPGRADE_TANK_CANNON_TO_ROCKET
+    category: STR_UPGRADE
+    space: 25
+    time: 200
+    cost: 60000
+    requiredItems:
+      STR_TANK_CANNON: 1
+    producedItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 461
+  - name: STR_UPGRADE_TANK_CANNON_TO_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+    space: 25
+    time: 200
+    cost: 80000
+    requiredItems:
+      STR_TANK_CANNON: 1
+    producedItems:
+      STR_TANK_LASER_CANNON: 1
+    listOrder: 462
+  - name: STR_UPGRADE_TANK_CANNON_TO_ALLOY_CANNON
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 400
+    cost: 140000
+    requiredItems:
+      STR_TANK_CANNON: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_CANNON: 1
+    listOrder: 463
+  - name: STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 400
+    cost: 160000
+    requiredItems:
+      STR_TANK_CANNON: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 464
+  - name: STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 600
+    cost: 200000
+    requiredItems:
+      STR_TANK_CANNON: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_LASER_CANNON: 1
+    listOrder: 465
 #END TANK CANNON
 
 #BEGIN TANK ROCKET LAUNCHER
@@ -945,7 +1007,60 @@ manufacture:
       STR_TANK_ROCKET_LAUNCHER_CORPSE: 1
     producedItems:
       STR_TANK_ROCKET_LAUNCHER: 1
-    listOrder: 461
+    listOrder: 470
+  - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_TANK_REPAIR
+      - STR_LASER_CANNON
+    space: 25
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+    producedItems:
+      STR_TANK_LASER_CANNON: 1
+    listOrder: 471
+  - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 400
+    cost: 120000
+    requiredItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_CANNON: 1
+    listOrder: 472
+  - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 400
+    cost: 140000
+    requiredItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 473
+  - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 600
+    cost: 180000
+    requiredItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_LASER_CANNON: 1
+    listOrder: 474
 #END TANK ROCKET LAUNCHER
 
 #BEGIN TANK LASER CANNON
@@ -954,22 +1069,62 @@ manufacture:
     requires:
       - STR_LASER_CANNON
     space: 25
-    time: 1200
+    time: 1000
     cost: 500000
-    listOrder: 500
+    listOrder: 480
   - name: STR_TANK_LASER_CANNON_REPAIR
     category: STR_MAINTENANCE
     requires:
       - STR_LASER_CANNON
       - STR_TANK_REPAIR
     space: 25
-    time: 600
+    time: 500
     cost: 250000
     requiredItems:
       STR_TANK_LASER_CANNON_CORPSE: 1
     producedItems:
       STR_TANK_LASER_CANNON: 1
-    listOrder: 501
+    listOrder: 481
+  - name: STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 200
+    cost: 60000
+    requiredItems:
+      STR_TANK_LASER_CANNON: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_CANNON: 1
+    listOrder: 482
+  - name: STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 200
+    cost: 80000
+    requiredItems:
+      STR_TANK_LASER_CANNON: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 483
+  - name: STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 400
+    cost: 120000
+    requiredItems:
+      STR_TANK_LASER_CANNON: 1
+      STR_ALIEN_ALLOYS: 16
+    producedItems:
+      STR_ALLOY_TANK_LASER_CANNON: 1
+    listOrder: 484
 #END TANK LASER CANNON
 
 #BEGIN ALLOY TANK CANNON
@@ -978,25 +1133,50 @@ manufacture:
     requires:
       - STR_ALLOY_TANK_ARMOR
     space: 25
-    time: 1000
-    cost: 480000
+    time: 1200
+    cost: 560000
     requiredItems:
       STR_ALIEN_ALLOYS: 16
-    listOrder: 502
+    listOrder: 490
   - name: STR_ALLOY_TANK_CANNON_REPAIR
     category: STR_MAINTENANCE
     requires:
       - STR_ALLOY_TANK_ARMOR
       - STR_TANK_REPAIR
     space: 25
-    time: 500
-    cost: 240000
+    time: 600
+    cost: 280000
     requiredItems:
       STR_ALLOY_TANK_CANNON_CORPSE: 1
       STR_ALIEN_ALLOYS: 8
     producedItems:
       STR_ALLOY_TANK_CANNON: 1
-    listOrder: 503
+    listOrder: 491
+  - name: STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_ROCKET
+    category: STR_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_ALLOY_TANK_CANNON: 1
+    producedItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    listOrder: 492
+  - name: STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 200
+    cost: 60000
+    requiredItems:
+      STR_ALLOY_TANK_CANNON: 1
+    producedItems:
+      STR_ALLOY_TANK_LASER_CANNON: 1
+    listOrder: 493
 #END ALLOY TANK CANNON
 
 #BEGIN ALLOY TANK ROCKET LAUNCHER
@@ -1005,25 +1185,38 @@ manufacture:
     requires:
       - STR_ALLOY_TANK_ARMOR
     space: 25
-    time: 1000
-    cost: 540000
+    time: 1200
+    cost: 580000
     requiredItems:
       STR_ALIEN_ALLOYS: 16
-    listOrder: 504
+    listOrder: 500
   - name: STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR
     category: STR_MAINTENANCE
     requires:
       - STR_ALLOY_TANK_ARMOR
       - STR_TANK_REPAIR
     space: 25
-    time: 500
-    cost: 270000
+    time: 600
+    cost: 290000
     requiredItems:
       STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: 1
       STR_ALIEN_ALLOYS: 8
     producedItems:
       STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
-    listOrder: 505
+    listOrder: 501
+  - name: STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER
+    category: STR_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 200
+    cost: 40000
+    requiredItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    producedItems:
+      STR_ALLOY_TANK_LASER_CANNON: 1
+    listOrder: 502
 #END ALLOY TANK ROCKET LAUNCHER
 
 #BEGIN ALLOY TANK LASER CANNON
@@ -1033,11 +1226,11 @@ manufacture:
       - STR_LASER_CANNON
       - STR_ALLOY_TANK_ARMOR
     space: 25
-    time: 1200
-    cost: 560000
+    time: 1400
+    cost: 620000
     requiredItems:
       STR_ALIEN_ALLOYS: 16
-    listOrder: 506
+    listOrder: 510
   - name: STR_ALLOY_TANK_LASER_CANNON_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1045,14 +1238,14 @@ manufacture:
       - STR_ALLOY_TANK_ARMOR
       - STR_TANK_REPAIR
     space: 25
-    time: 500
-    cost: 270000
+    time: 700
+    cost: 310000
     requiredItems:
       STR_ALLOY_TANK_LASER_CANNON_CORPSE: 1
       STR_ALIEN_ALLOYS: 8
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
-    listOrder: 507
+    listOrder: 511
 #END ALLOY TANK LASER CANNON
 
 #BEGIN HOVERTANK LASER
@@ -1062,12 +1255,12 @@ manufacture:
       - STR_LASER_CANNON
       - STR_HOVERTANK
     space: 30
-    time: 1200
+    time: 1400
     cost: 800000
     requiredItems:
       STR_ALIEN_ALLOYS: 20
       STR_ELERIUM_115: 20
-    listOrder: 508
+    listOrder: 520
   - name: STR_HOVERTANK_LASER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1075,7 +1268,7 @@ manufacture:
       - STR_HOVERTANK
       - STR_TANK_REPAIR
     space: 30
-    time: 600
+    time: 700
     cost: 400000
     requiredItems:
       STR_HOVERTANK_LASER_CORPSE: 1
@@ -1083,7 +1276,53 @@ manufacture:
       STR_ELERIUM_115: 10
     producedItems:
       STR_HOVERTANK_LASER: 1
-    listOrder: 509
+    listOrder: 521
+  - name: STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB
+    category: STR_UPGRADE
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_ELERIUM_BOMB
+      - STR_HOVERTANK
+      - STR_HWP_EBOMB_LAUNCHER
+    space: 25
+    time: 200
+    cost: 30000
+    requiredItems:
+      STR_HOVERTANK_LASER: 1
+      STR_ALIEN_ALLOYS: 4
+    producedItems:
+      STR_HOVERTANK_EBOMB: 1
+    listOrder: 522
+  - name: STR_UPGRADE_HOVERTANK_LASER_TO_PLASMA
+    category: STR_UPGRADE
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_HOVERTANK
+    space: 25
+    time: 400
+    cost: 60000
+    requiredItems:
+      STR_HOVERTANK_LASER: 1
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_PLASMA: 1
+    listOrder: 523
+  - name: STR_UPGRADE_HOVERTANK_LASER_TO_LAUNCHER
+    category: STR_UPGRADE
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+    space: 25
+    time: 400
+    cost: 100000
+    requiredItems:
+      STR_HOVERTANK_LASER: 1
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_LAUNCHER: 1
+    listOrder: 524
 #END HOVERTANK LASER
 
 #BEGIN HOVERTANK EBOMB
@@ -1095,12 +1334,12 @@ manufacture:
       - STR_HOVERTANK
       - STR_HWP_EBOMB_LAUNCHER
     space: 30
-    time: 1200
-    cost: 800000
+    time: 1400
+    cost: 830000
     requiredItems:
       STR_ALIEN_ALLOYS: 24
       STR_ELERIUM_115: 20
-    listOrder: 510
+    listOrder: 530
   - name: STR_HOVERTANK_EBOMB_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1110,15 +1349,15 @@ manufacture:
       - STR_HWP_EBOMB_LAUNCHER
       - STR_TANK_REPAIR
     space: 30
-    time: 600
-    cost: 400000
+    time: 700
+    cost: 415000
     requiredItems:
       STR_HOVERTANK_EBOMB_CORPSE: 1
       STR_ALIEN_ALLOYS: 12
       STR_ELERIUM_115: 10
     producedItems:
       STR_HOVERTANK_EBOMB: 1
-    listOrder: 511
+    listOrder: 531
   - name: STR_HWP_EBOMB
     category: STR_HWP_CANNON_SHELLS
     requires:
@@ -1130,8 +1369,36 @@ manufacture:
     time: 180
     cost: 6000
     requiredItems:
-      STR_ELERIUM_BOMB: 1
-    listOrder: 512
+      STR_ELERIUM_115: 2
+    listOrder: 532
+  - name: STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA
+    category: STR_UPGRADE
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_HOVERTANK
+    space: 25
+    time: 200
+    cost: 30000
+    requiredItems:
+      STR_HOVERTANK_EBOMB: 1
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_PLASMA: 1
+    listOrder: 533
+  - name: STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER
+    category: STR_UPGRADE
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+    space: 25
+    time: 200
+    cost: 70000
+    requiredItems:
+      STR_HOVERTANK_EBOMB: 1
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_HOVERTANK_LAUNCHER: 1
+    listOrder: 534
 #END HOVERTANK EBOMB
 
 #BEGIN HOVERTANK PLASMA
@@ -1141,8 +1408,8 @@ manufacture:
       - STR_PLASMA_CANNON
       - STR_HOVERTANK
     space: 30
-    time: 1200
-    cost: 850000
+    time: 1600
+    cost: 860000
     requiredItems:
       STR_ALIEN_ALLOYS: 20
       STR_ELERIUM_115: 30
@@ -1154,8 +1421,8 @@ manufacture:
       - STR_HOVERTANK
       - STR_TANK_REPAIR
     space: 30
-    time: 600
-    cost: 425000
+    time: 800
+    cost: 430000
     requiredItems:
       STR_HOVERTANK_PLASMA_CORPSE: 1
       STR_ALIEN_ALLOYS: 10
@@ -1163,6 +1430,19 @@ manufacture:
     producedItems:
       STR_HOVERTANK_PLASMA: 1
     listOrder: 601
+  - name: STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER
+    category: STR_UPGRADE
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+    space: 25
+    time: 200
+    cost: 40000
+    requiredItems:
+      STR_HOVERTANK_PLASMA: 1
+    producedItems:
+      STR_HOVERTANK_LAUNCHER: 1
+    listOrder: 602
 #END HOVERTANK PLASMA
 
 #BEGIN HOVERTANK LAUNCHER
@@ -1172,11 +1452,11 @@ manufacture:
       - STR_FUSION_MISSILE
       - STR_HOVERTANK
     space: 30
-    time: 1200
+    time: 1600
     cost: 900000
     requiredItems:
       STR_ALIEN_ALLOYS: 24
-      STR_ELERIUM_115: 20
+      STR_ELERIUM_115: 30
     listOrder: 700
   - name: STR_HOVERTANK_LAUNCHER_REPAIR
     category: STR_MAINTENANCE
@@ -1185,12 +1465,12 @@ manufacture:
       - STR_HOVERTANK
       - STR_TANK_REPAIR
     space: 30
-    time: 600
+    time: 800
     cost: 450000
     requiredItems:
       STR_HOVERTANK_LAUNCHER_CORPSE: 1
       STR_ALIEN_ALLOYS: 12
-      STR_ELERIUM_115: 10
+      STR_ELERIUM_115: 15
     producedItems:
       STR_HOVERTANK_LAUNCHER: 1
     listOrder: 701
@@ -1204,7 +1484,6 @@ manufacture:
     cost: 30000
     requiredItems:
       STR_BLASTER_BOMB: 1
-      STR_ALIEN_ALLOYS: 2
 #END HOVERTANK LAUNCHER
 
 #BEGIN WALKERTANK PLASMA
@@ -1214,13 +1493,13 @@ manufacture:
       - STR_PLASMA_CANNON
       - STR_WALKERTANK
     space: 30
-    time: 1500
-    cost: 1400000
+    time: 1600
+    cost: 1600000
     requiredItems:
       STR_ARMORED_SECTOPOD_TERRORIST: 1
       STR_ALIEN_ALLOYS: 30
       STR_ELERIUM_115: 30
-    listOrder: 702
+    listOrder: 720
   - name: STR_WALKERTANK_PLASMA_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1228,15 +1507,15 @@ manufacture:
       - STR_WALKERTANK
       - STR_TANK_REPAIR
     space: 30
-    time: 750
-    cost: 700000
+    time: 800
+    cost: 800000
     requiredItems:
       STR_WALKERTANK_PLASMA_CORPSE: 1
       STR_ALIEN_ALLOYS: 15
       STR_ELERIUM_115: 15
     producedItems:
       STR_WALKERTANK_PLASMA: 1
-    listOrder: 703
+    listOrder: 721
 #END WALKERTANK PLASMA
 ##END TANKS
 
