@@ -1622,7 +1622,7 @@ manufacture:
     time: 180
     cost: 6000
     requiredItems:
-      STR_ELERIUM_BOMB: 1
+      STR_ELERIUM_115: 2
     listOrder: 2202
   - name: STR_SMOKE_BOMB
     category: STR_AMMUNITION
@@ -1632,7 +1632,7 @@ manufacture:
     time: 180
     cost: 6000
     requiredItems:
-      STR_STUN_BOMB: 1
+      STR_ELERIUM_115: 2
     listOrder: 2203
 #END SMALL LAUNCHER
 
