@@ -650,13 +650,19 @@ research:
     listOrder: 508
     dependencies:
       - STR_STUN_BOMB
+  - name: STR_FIRE_GRENADE
+    cost: 150
+    points: 10
+    listOrder: 509
+    dependencies:
+      - STR_FIRE_BOMB
   - name: STR_MOTION_SCANNER
     cost: 270
     points: 20
-    listOrder: 509
+    listOrder: 510
   - name: STR_MEDI_KIT
     cost: 315
-    listOrder: 510
+    listOrder: 511
     dependencies:
       - STR_ALIEN_DATA_SLATE
       - STR_SNAKEMAN_AUTOPSY
@@ -664,7 +670,7 @@ research:
   - name: STR_ADVANCED_MEDI_KIT
     cost: 630
     points: 20
-    listOrder: 511
+    listOrder: 512
     dependencies:
       - STR_ALIEN_DATA_CORE
       - STR_MUTON_AUTOPSY
@@ -673,12 +679,12 @@ research:
   - name: STR_PSI_AMP
     cost: 750
     points: 20
-    listOrder: 512
+    listOrder: 513
     dependencies:
       - STR_MIND_SHIELD
       - STR_PSI_AMP_UNLOCK
   - name: STR_PSI_AMP_UNLOCK
-    listOrder: 513
+    listOrder: 514
     requires:
       - STR_ALIEN_ENTERTAINMENT
     dependencies: *ALL_ALIVE_MEDICS

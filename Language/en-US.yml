@@ -417,6 +417,9 @@ en-US:
   STR_STUN_GRENADE: "Stun Grenade"
   STR_STUN_GRENADE_UFOPEDIA: "A refitted stun bomb, which can now be thrown like a grenade, holds the same stun effect then it. We need stun bombs to produce it."
 
+  STR_FIRE_GRENADE: "Fire Grenade"
+  STR_FIRE_GRENADE_UFOPEDIA: "A refitted fire bomb, which can now be thrown like a grenade.Incendiary of the alien kind. We need fire bombs to produce it."
+
   STR_PLASMA_BLADE: "Plasma Blade"
   STR_PLASMA_BLADE_UFOPEDIA: "This device, essentially an alien combat knife, features a blade sharpened to a monomolecular edge. A magnetic envelope engulfs this blade in a plasma field, giving it the ability to rip through the heat-resistant ceramic inserts in modern body armour."
   STR_PLASMA_SWORD: "Plasma Sword"

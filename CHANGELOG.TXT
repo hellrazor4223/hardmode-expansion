@@ -8,6 +8,7 @@ Version 0.99.4
  - Added alternate/turned Version 2 for UBASE_01 (4 maps total)
  - Added Soldier Armor Upgrades
  - Added FloorOb Sprites for Vanilla Plasma Weapons
+ - Added Fire Grenade (converted Fire Bombs)
  - Fix Wrong production requirements for some Drone Upgrades)
  - Fix naming issue with Alloy Drone Medikit repair
  - Fix Runvarnames for some Missionscripts

@@ -93,6 +93,7 @@ extraSprites:
       176: Resources/Units/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
       177: Resources/Units/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
       178: Resources/Units/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+      179: Resources/Items/FireGrenade/BigOb_FireGrenade.png
 ##END BIGOB
 
 ##BEGIN FLOOROB
@@ -197,6 +198,7 @@ extraSprites:
       189: Resources/Items/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
       190: Resources/Items/PlasmaRifle/FloorOb_PlasmaRifle_Clip.png
       191: Resources/Items/HeavyPlasma/FloorOb_HeavyPlasma_Clip.png
+      192: Resources/Items/FireGrenade/FloorOb_FireGrenade.png
 ##END FLOOROB
 
 ##BEGIN HANDOB
@@ -286,6 +288,7 @@ extraSprites:
       600: Resources/Items/TaserPistol/HandOb_TaserPistol_Clip.png
       608: Resources/Items/SmallLauncher/HandOb_FireBomb.png
       616: Resources/Items/SmallLauncher/HandOb_SmokeBomb.png
+      624: Resources/Items/FireGrenade/HandOb_FireGrenade.png
 ##END HANDOB
 
 ##BEGIN TEXTURES

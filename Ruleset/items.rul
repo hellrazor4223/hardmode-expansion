@@ -1929,6 +1929,20 @@ items:
     blastRadius: 5
     armor: 45
     listOrder: 4003
+  - type: STR_FIRE_GRENADE
+    size: 0.1
+    costSell: 15300
+    weight: 4
+    bigSprite: 179
+    floorSprite: 192
+    handSprite: 624
+    hitAnimation: 0
+    power: 90
+    damageType: 6
+    battleType: 4
+    blastRadius: 5
+    armor: 45
+    listOrder: 4004
 #END GRENADES
 ##END WEAPONS
 

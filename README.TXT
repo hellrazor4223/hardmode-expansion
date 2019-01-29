@@ -195,8 +195,7 @@ Additional X-Com Weapons:
 	Flashbang Grenade
 	Incendiary Grenade
 	Stun Grenade
-	Fire Bomb
-	Smoke Bomb
+	Fire Grenade
 
 All kinetic weapons also get Alloy Ammo once researched.
 Alloy Ammo adds +10 Damage on top of convential AP Ammo.
