@@ -15,6 +15,7 @@ Version 0.99.4
  - Adjusted Ruleset to latest changes in : openxcom_git_master_2018_09_17_0112 or newer
  - Adjusted Missions generated from Alien Bases (Region inheritance)
  - Adjusted Smoke and Fire Bomb to be collectable (Burn Baby Burn)
+ - Adjust Alive Alien Interrogation Consequences
 
 Version 0.99.3
  - Final Ressource File Restructure

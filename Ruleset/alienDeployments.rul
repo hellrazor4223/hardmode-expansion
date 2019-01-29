@@ -1538,13 +1538,13 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE: 4
-      STR_ALIEN_RETALIATION: 3
-      STR_ALIEN_ABDUCTION: 3
-      STR_ALIEN_HARVEST: 3
-      STR_ALIEN_RESEARCH: 3
-      STR_ALIEN_TERROR: 4
-      STR_ALIEN_SUPPLY: 80
+      STR_ALIEN_BASE: 1
+      STR_ALIEN_RETALIATION: 1
+      STR_ALIEN_ABDUCTION: 2
+      STR_ALIEN_HARVEST: 2
+      STR_ALIEN_RESEARCH: 2
+      STR_ALIEN_TERROR: 2
+      STR_ALIEN_SUPPLY: 90
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     alienBase: true # this is only to tell new battle mode what to do with this deployment
     objectivesRequired: 16 #MCD defined specialtype

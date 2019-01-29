@@ -81,6 +81,8 @@ missionScripts:
 #BEGIN DOCKED SHIP
   - type: alienDockedShip
     label: 50
+    firstMonth: 0
+    lastMonth: 5
     missionWeights:
       0:
         STR_DOCKED_SHIP: 100
@@ -89,7 +91,7 @@ missionScripts:
         PORT_DOCKS: 100
     startDelay: 1500
     researchTriggers:
-      STR_ALIEN_DATA_SLATE: true
+      STR_ALIEN_CONTAINMENT: true
       STR_ETHEREAL_COMMANDER: false
     executionOdds: 30
     avoidRepeats: 40
@@ -110,7 +112,7 @@ missionScripts:
         SHIPPING_LANES: 100
     startDelay: 1500
     researchTriggers:
-      STR_ALIEN_DATA_SLATE: true
+      STR_ALIEN_CONTAINMENT: true
       STR_ETHEREAL_COMMANDER: false
     executionOdds: 30
     avoidRepeats: 24
@@ -137,7 +139,9 @@ missionScripts:
     conditionals: [-11]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_RESEARCH: true
@@ -160,7 +164,9 @@ missionScripts:
     conditionals: [-11, -12, -13]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_HARVEST: true
@@ -183,7 +189,9 @@ missionScripts:
     conditionals: [-11, -12, -13, -14, -15]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_ABDUCTION: true
@@ -206,7 +214,9 @@ missionScripts:
     conditionals: [-11, -12, -13, -14, -15, -16, -17]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_BASE: true
@@ -217,7 +227,9 @@ missionScripts:
     conditionals: [-11, -12, -13, -14, -15, -16, -17, -18]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_SUPPLY: true
@@ -228,7 +240,9 @@ missionScripts:
     conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_TERROR: true
@@ -251,7 +265,9 @@ missionScripts:
     conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_ALIEN_BASE: true
@@ -287,7 +303,9 @@ missionScripts:
     conditionals: [-31]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_SMALL_SCOUT: true
@@ -311,7 +329,9 @@ missionScripts:
     conditionals: [-31, -32, -33]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_MEDIUM_SCOUT: true
@@ -336,7 +356,9 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_LARGE_SCOUT: true
@@ -360,7 +382,9 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35, -36, -37]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_FIGHTER_SHIP: true
@@ -385,7 +409,9 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_SENTRY_SHIP: true
@@ -460,7 +486,9 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_SUPPLY_SHIP: true
@@ -471,7 +499,9 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_TERROR_SHIP: true
@@ -495,7 +525,9 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_SHIP_ATTACK: 25
+        STR_DOCKED_SHIP: 25
+        STR_ALIEN_TERROR: 25
     startDelay: 9000
     researchTriggers:
       STR_BATTLESHIP: true
