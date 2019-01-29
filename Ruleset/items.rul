@@ -2092,6 +2092,7 @@ items:
     listOrder: 5000
     dropoff: 2
   - type: STR_PLASMA_PISTOL_CLIP
+    floorSprite: 189
     handSprite: 360
     armor: 30
     attraction: 10
@@ -2107,6 +2108,7 @@ items:
     listOrder: 5200
     dropoff: 2
   - type: STR_PLASMA_RIFLE_CLIP
+    floorSprite: 190
     handSprite: 352
     armor: 30
     attraction: 10
@@ -2268,6 +2270,7 @@ items:
     costSell: 85800
     listOrder: 5400
   - type: STR_HEAVY_PLASMA_CLIP
+    floorSprite: 191
     handSprite: 328
     armor: 30
     attraction: 10
