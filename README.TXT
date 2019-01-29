@@ -20,18 +20,37 @@ Research progress is a must, but comes at costs.
 
 For playing you should choose difficulty Superhuman, since the mod is balanced 
 to be played on Superhuman difficulty, otherwise you wouldn't have the full experience.
-The difficulty will actually be higher then Superhuman.
+The difficulty will be actually far higher then Superhuman, considering mainly the changes in economy and research.
 Technologies will need alive aliens captures to unlock and will trigger additional mission.
 Research takes longer and you do not have access to a alien
 containment from the beginning. It is recommend to get between 200-250
 scientists by November. Otherwise the game becomes very difficult.
 
-Alive Interrogations require you to raid a nearby Alien Base early.
+The vanilla game always lacked proper weaponry sets including melee weapons, shotguns, sniper rifles. All of these have been added for the ballistic and laser weaponry for X-Com and the Alien plasma weapons.
+A extended set of additional grenades and small launcher ammo together with added grenade aluncher gives very good indirect fire possibilities. Small launcher acts as a artillery style weapon, arking shot ;).
+
+More armors, starting with ballistic vests up to reinforced power and flying suits expand the survival capabilities of your soldiers. Power armor also extends stamina and increases carry capacity.
+
+Have fun exploring the new drones and tanks, which will draw alien fire and help detecting targets to shot or support your wounded troops. Drones may even help with capturing alive aliens.
+
+A large number of terrains from Hobbes terrain pack and other mods (65+ additonal terrains) have been integrated and partially overworked (bugfixes mostly).
+A extended set of maps has been added, featering turned version and additonal maps modules to make fighting within alien bases more enjoyable and tactical challenging.
+Aliens have a couple of more UFO types, Fighter, Sentry, Excavator and LabShip.
+Vanilla UFOs and new UFOs types all have extended set of interior maps variants (total 124 map). So enjoy exploring these.
+
+Aircombat has been balanced, UFO's especially big ones will shot your interceptors.
+A faster and much more durable interception craft has been added, also a enhanced skyranger version, with a back door.
+Swarming Terrorships with interception craft is highly recommended.
+The Laser cannon is actually useable now ;)
+
+Being able to interrogate alive aliens requires you to raid a nearby Alien Base early.
 Otherwise you have no tech progress. The base is located in your starting
 region. For the time being also one of the Story Items is located in
 the alien base. Raid this base as early as possible!
-The game can only be won by capturing a Ethereal Commander who can unlock
-Cydonia or Bust. The gameplay is currently paced around 15 Month or more.
+The game can only be won by capturing and interrogating a Ethereal Commander who unlocks the final mission.
+
+However your run goes, let me know your feedback and how i can enhance the mod further.
+For a detailed list of changes (may contain spoilers) see the Features further down.
 
 For a real challenge play the game in Iron Man Mode!
 Please do no use the OpenXcom Iron Man option and enforce your own Iron Man Mode, its a big mod, so bugs may happen.
@@ -76,15 +95,23 @@ see CREDIT.TXT
 
 Features:
 
-Final Mission:
-Mars - Cydonia Landing takes place in a 80x80 Map.
-Spawnnumbers (Superhuman Difficulty): Minimum 47, Maximum 62
-Mars - the Final Assault takes place in a 100x100 Map.
-Spawnnumbers (Superhuman Difficulty): Minimum 61, Maximum 84
-Go and find the Brain and kill it!
-Your Soldiers will be awarded with Medals (currently there are 61 Medals).
+Additional Alien Races/Units:
+	Waspite
+	Gazer
+	Sectoid Elite
+	Muton Elite
+	Muton Elite Guard
+	Muton Berserker Terrorist
+	Armored Cyberdisc Terrorist
+	Armored Sectopod Terrorist
+	Chryssalid Spitter Terrorist
+
+Additional Alien Missions:
+	Ship Attack
+	Docked Ship
 
 General Gameplay changes:
+	Your Soldiers will be awarded with Medals (currently there are 61 Medals).
 	Globe with 330 Cities (including vanilla ones)
 	Research costs are 1,5 times vanilla
 	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
@@ -135,6 +162,8 @@ Groundcombat changes:
 	Shotgun Class Weaponry for Xcom and Aliens
 	Dedicaded Melee Weaponry for Xcom and Aliens
 
+To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
+
 Storyitems:
 	Alien Data Slate (currently carried by Alien Base Commanders)
 	Alien Data Core (currently located in Battleships)
@@ -146,23 +175,10 @@ Additional Alien Weapons:
 	Plasma Sniper Rifle
 	Small Launcher with Arcing Shot.
 	Elerium Bomb for Small Launcher
+	Smoke Bomb for Small Launcher
+	Fire Bomb for Small Launcher
 	Aliens will keep most weaponry through the game
 	Aliens have all weapons avaible from start
-
-Additional Alien Missions:
-	Ship Attack
-	Docked Ship
-
-Additional Alien Races/Units:
-	Waspite
-	Gazer
-	Sectoid Elite
-	Muton Elite
-	Muton Elite Guard
-	Muton Berserker Terrorist
-	Armored Cyberdisc Terrorist
-	Armored Sectopod Terrorist
-	Chryssalid Spitter Terrorist
 
 Additional Alien UFOs:
 	Fighter (9 Maps)
