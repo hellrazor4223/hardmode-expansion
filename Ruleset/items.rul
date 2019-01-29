@@ -1938,7 +1938,7 @@ items:
     handSprite: 624
     hitAnimation: 0
     power: 90
-    damageType: 6
+    damageType: 2
     battleType: 4
     blastRadius: 5
     armor: 45
