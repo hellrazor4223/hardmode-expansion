@@ -2284,6 +2284,7 @@ items:
     costSell: 85800
     listOrder: 5400
   - type: STR_HEAVY_PLASMA_CLIP
+    bigSprite: 180
     floorSprite: 191
     handSprite: 328
     armor: 30

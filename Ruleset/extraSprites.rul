@@ -94,6 +94,7 @@ extraSprites:
       177: Resources/Units/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
       178: Resources/Units/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
       179: Resources/Items/FireGrenade/BigOb_FireGrenade.png
+      180: Resources/Items/HeavyPlasma/BigOb_HeavyPlasma_Clip.png
 ##END BIGOB
 
 ##BEGIN FLOOROB

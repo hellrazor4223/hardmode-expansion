@@ -100,7 +100,6 @@ Credits go to:
 		- For the recolored Medikit Sprites
 		- For the Blue Smoke Grenade and StunGrenade HandOb
 		- For the Recolor of HeavyLaserAuto sprites
-		- For the FLoorOb Sprites for Vanilla Plasma Clips
 	clownagent:
 		- For the Jumpsuit Ufopaedia ruleset
 		- For the initial Fastramp ruleset
