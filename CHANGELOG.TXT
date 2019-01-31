@@ -6,6 +6,7 @@ Version 0.99.4
  - Added turned Versions for UBASE_01 (4 Maps total)
  - Added alternate/turned Version 1 for UBASE_01 (4 maps total)
  - Added alternate/turned Version 2 for UBASE_01 (4 maps total)
+ - Added turned Version for EXPANDEDUBASE_19 (4 maps total)
  - Added Soldier Armor Upgrades
  - Added FloorOb Sprites for Vanilla Plasma Weapons
  - Added Fire Grenade (converted Fire Bombs)
