@@ -358,7 +358,19 @@ terrains:
       - name: EXPANDEDUBASE_20d #96 #Small Scout Module S
         width: 20
         length: 20
-      - name: EXPANDEDUBASE_21 #97 #Clone Lab
+      - name: EXPANDEDUBASE_21 #97 #Clone Lab N
+        width: 20
+        length: 20
+        groups: 6
+      - name: EXPANDEDUBASE_21b #97 #Clone Lab E
+        width: 20
+        length: 20
+        groups: 6
+      - name: EXPANDEDUBASE_21c #97 #Clone Lab S
+        width: 20
+        length: 20
+        groups: 6
+      - name: EXPANDEDUBASE_21d #97 #Clone Lab W
         width: 20
         length: 20
         groups: 6
