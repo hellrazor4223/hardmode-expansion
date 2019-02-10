@@ -10,8 +10,10 @@ Version 0.99.4
  - Added turned Version for EXPANDEDUBASE_20 (4 maps total)
  - Added turned Version for EXPANDEDUBASE_21 (4 maps total) Clonelab
  - Added Soldier Armor Upgrades
+ - Added Tank Upgrades
  - Added FloorOb Sprites for Vanilla Plasma Weapons
  - Added Fire Grenade (converted Fire Bombs)
+ - Added Modified Sprite for U_EXT02 (remove shadows)
  - Fix Wrong production requirements for some Drone Upgrades)
  - Fix naming issue with Alloy Drone Medikit repair
  - Fix Runvarnames for some Missionscripts
