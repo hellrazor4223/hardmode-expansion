@@ -14,7 +14,7 @@ Version 0.99.4
  - Added FloorOb Sprites for Vanilla Plasma Weapons
  - Added Fire Grenade (converted Fire Bombs)
  - Added Modified Sprite for U_EXT02 (remove shadows)
- - Fix Wrong production requirements for some Drone Upgrades)
+ - Fix Wrong production requirements for some Drone Upgrades
  - Fix naming issue with Alloy Drone Medikit repair
  - Fix Runvarnames for some Missionscripts
  - Upgrade Heavy Laser Autoshot (now shots 4 times)

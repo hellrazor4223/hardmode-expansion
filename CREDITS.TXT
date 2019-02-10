@@ -1,5 +1,5 @@
 #Hardmode Expansion Mod by hellrazor
-#Credits for Version 0.99.3
+#Credits for Version 0.99.4
 Credits go to:
 	Everyone in #openxcom @freenode
 	Everyone in the OXC community, which somehow provided feedback, bugreports etc..
