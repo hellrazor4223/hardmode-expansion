@@ -1,4 +1,8 @@
 Changelog:
+
+Version 0.99.5
+ - Fixed missing energyRecovery for Drones
+
 Version 0.99.4
  - Added Translations for Japanese language, ja (TRANSIFEX)
  - Added Translations for Russian language, ru (TRANSIFEX)

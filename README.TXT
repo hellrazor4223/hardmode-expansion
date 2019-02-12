@@ -3,7 +3,7 @@
 
 This mod requires at least: openxcom_git_master_2018_12_05_1952 or newer
 
-README for Version 0.99.4
+README for Version 0.99.5
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
