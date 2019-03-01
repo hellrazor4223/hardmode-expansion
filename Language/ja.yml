@@ -232,22 +232,37 @@ ja:
 #BEGIN TANKS
   STR_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
   STR_TANK_CANNON_REPAIR: "戦車/キャノンの修理"
+  STR_UPGRADE_TANK_CANNON_TO_ROCKET: "戦車/キャノン->戦車/ロケット"
+  STR_UPGRADE_TANK_CANNON_TO_LASER: "戦車/キャノン->戦車/レーザー"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_CANNON: "戦車/キャノン->合金キャノン"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: "戦車/キャノン->合金ロケット"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: "戦車/キャノン->合金レーザー"
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "大破した戦車/ロケット"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "戦車/ロケットの修理"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: "戦車/ロケット->戦車/レーザー"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "戦車/ロケット->合金キャノン"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "戦車/ロケット->合金ロケット"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "戦車/ロケット->合金レーザー"
 
   STR_TANK_LASER_CANNON_CORPSE: "大破した戦車/レーザー"
   STR_TANK_LASER_CANNON_REPAIR: "戦車/レーザーの修理"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "戦車/レーザー->合金キャノン"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "戦車/レーザー->合金ロケット"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "戦車/レーザー->合金レーザー"
 
   STR_ALLOY_TANK_CANNON: "合金戦車/キャノン"
   STR_ALLOY_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
   STR_ALLOY_TANK_CANNON_REPAIR: "合金戦車/キャノンの修理"
   STR_ALLOY_TANK_CANNON_UFOPEDIA: "これは標準仕様のキャノンHWPに軽量で狂人なエイリアン合金製の装甲を採用したものだ。性能はあまり変わらないがより軽量で酷使に耐える。"
+  STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_ROCKET: "合金戦車/キャノン->合金ロケット"
+  STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: "合金戦車/キャノン->合金レーザー"
 
   STR_ALLOY_TANK_ROCKET_LAUNCHER: "合金戦車/ロケットランチャー"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "大破した合金戦車/ロケット"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "合金戦車/ロケットの修理"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "これは標準仕様のキャノンHWPに軽量で狂人なエイリアン合金製の装甲を採用したものだ。性能はあまり変わらないがより火線の下で堪える事が可能で、幾らか速度が増している。"
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "合金戦車/ロケット->合金レーザー"
 
   STR_ALLOY_TANK_LASER_CANNON: "合金戦車/レーザー"
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: "大破した合金戦車/レーザー"
@@ -258,6 +273,9 @@ ja:
   STR_HOVERTANK_LASER_CORPSE: "大破したホバー/レーザー"
   STR_HOVERTANK_LASER_REPAIR: "ホバー/レーザーの修理"
   STR_HOVERTANK_LASER_UFOPEDIA: "完全新設計となった戦車はUFOのテクノロジーと我々のレーザーテクノロジーを基盤としている。三次元的な機動性とレーザーキャノンによる火力は極めて優れた組み合わせと言えよう。"
+  STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB: "ホバー/レーザー->ホバー/Eボム"
+  STR_UPGRADE_HOVERTANK_LASER_TO_PLASMA: "ホバー/レーザー->ホバー/プラズマ"
+  STR_UPGRADE_HOVERTANK_LASER_TO_LAUNCHER: "ホバー/レーザー->ホバー/ランチャ"
 
   STR_HWP_EBOMB_LAUNCHER: "エレリウムボム・ランチャ"
   STR_HWP_EBOMB: "HWP用エレリウムボム"
@@ -265,9 +283,12 @@ ja:
   STR_HOVERTANK_EBOMB_CORPSE: "大破したホバー/エレリウムB"
   STR_HOVERTANK_EBOMB_REPAIR: "ホバー/エレリウムBの修理"
   STR_HOVERTANK_EBOMB_UFOPEDIA: "UFOと小型ランチャのテクノロジーを組み合わせて設計された。エレリウムボムを中空から発射できる事で殆どの敵にとって致命傷を与える事が可能。使用目的はキャタピラ式のランチャー戦車と同じだが、弾倉容量が増加している。"
+  STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: "ホバー/Eボム->ホバー/プラズマ"
+  STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: "ホバー/Eボム->ホバー/ランチャ"
 
   STR_HOVERTANK_PLASMA_CORPSE: "大破したホバー/プラズマ"
   STR_HOVERTANK_PLASMA_REPAIR: "ホバー/プラズマの修理"
+  STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "ホバー/プラズマ->ホバー/ランチャ"
 
   STR_HOVERTANK_LAUNCHER_CORPSE: "大破したホバー/ランチャ"
   STR_HOVERTANK_LAUNCHER_REPAIR: "ホバー/ランチャの修理"
@@ -395,6 +416,9 @@ ja:
 
   STR_STUN_GRENADE: "スタングレネード"
   STR_STUN_GRENADE_UFOPEDIA: "スタン・ボムを小型化したもので手りゅう弾として投擲が可能となった。効果も同じだが製造にはスタンボムが必要となる。"
+
+  STR_FIRE_GRENADE: "グレネード発射"
+  STR_FIRE_GRENADE_UFOPEDIA: "焼夷弾を投擲用に改造したものでエイリアン種族を焼き払う事ができる。製造には焼夷弾が必要。"
 
   STR_PLASMA_BLADE: "プラズマブレード"
   STR_PLASMA_BLADE_UFOPEDIA: "この装置は基本的にエイリアンが使うコンバットナイフで、刃先が単分子になっている。磁力線を用いて刃の周りにプラズマを纏わせ、近代の標準的なアーマーが使用している耐熱セラミックを引き裂く事ができる。"
