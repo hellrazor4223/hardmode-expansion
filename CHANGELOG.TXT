@@ -3,6 +3,7 @@ Changelog:
 Version 0.99.5
  - Fix missing energyRecovery for Drones
  - Fix Amsterdam name and string values
+ - Fix Armor values for Groundtiles in Alien Bases (Silacoids...)
  - Updated JA translation from transifex
 
 Version 0.99.4
