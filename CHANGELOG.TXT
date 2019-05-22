@@ -1,7 +1,8 @@
 Changelog:
 
 Version 0.99.5
- - Fixed missing energyRecovery for Drones
+ - Fix missing energyRecovery for Drones
+ - Fix Amsterdam name and string values
  - Updated JA translation from transifex
 
 Version 0.99.4
