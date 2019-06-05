@@ -4038,9 +4038,11 @@ terrains:
       - name: JUNGLEMOUNT00
         width: 10
         length: 10
+        groups: [0, 1]
       - name: JUNGLEMOUNT01
         width: 10
         length: 10
+        groups: [0, 1]
       - name: JUNGLEMOUNT02
         width: 10
         length: 10
@@ -4085,7 +4087,6 @@ terrains:
       - name: JUNGLEMOUNT15
         width: 10
         length: 10
-        groups: [0, 1]
 #END JUNGLEMOUNT
 
 #BEGIN JUNGLEPOLAR
