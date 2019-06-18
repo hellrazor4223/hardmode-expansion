@@ -1088,6 +1088,7 @@ manufacture:
   - name: STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON
     category: STR_UPGRADE
     requires:
+      - STR_LASER_CANNON
       - STR_ALLOY_TANK_ARMOR
     space: 25
     time: 200
@@ -1101,6 +1102,7 @@ manufacture:
   - name: STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET
     category: STR_UPGRADE
     requires:
+      - STR_LASER_CANNON
       - STR_ALLOY_TANK_ARMOR
     space: 25
     time: 200
