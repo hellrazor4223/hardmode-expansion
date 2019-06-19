@@ -6,4 +6,4 @@ Intall instructions:
  - Copy over the directory "Hardmode_Expansion" in your user mods directory.
  - Active "Hardmode_Expansion" under Mods
 
-This mod requieres at least: openxcom_git_master_2018_12_05_1952 or newer
+This mod requieres at least: openxcom_git_master_2019_06_17_0106 or newer

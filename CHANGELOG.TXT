@@ -1,5 +1,7 @@
 Changelog:
 
+Version 0.99.6
+
 Version 0.99.5
  - Fix Mod not loading for openxcom_git_master_2019_06_08_1528 or newer
  - Fix missing Requires for Tank Laser Cannon Upgrades

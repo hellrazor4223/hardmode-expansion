@@ -794,7 +794,7 @@
           <dia:attribute name="string">
             <dia:string>#Research Tree for 
 Hardmode Expansion Mod
- by hellrazor v.99.3#</dia:string>
+ by hellrazor v.99.6#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
@@ -6188,7 +6188,7 @@ Elerium Clip#</dia:string>
         <dia:point val="-31.2403,39.8913"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-41.8424,39.8413;-31.1903,42.1118"/>
+        <dia:rectangle val="-41.8425,39.8413;-31.1903,42.1118"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
         <dia:point val="-31.2403,39.8913"/>

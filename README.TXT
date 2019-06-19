@@ -1,9 +1,9 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requires at least: openxcom_git_master_2018_12_05_1952 or newer
+This mod requires at least: openxcom_git_master_2019_06_17_0106 or newer
 
-README for Version 0.99.5
+README for Version 0.99.6
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
