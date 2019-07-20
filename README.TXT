@@ -333,6 +333,12 @@ Currently Supported Languages:
 	Japanese	JA (ja)
 	Russian		RU (ru)
 
+Partially Supported Languages (50%+):
+	Italien		IT (it)
+	Polish		PL (pl)
+	German		DE (de)
+	Hungarien	HU (hu)
+
 Future planned additions:
 	More translations
 	Some 20x20 Maps Modules for Mars Terrain
