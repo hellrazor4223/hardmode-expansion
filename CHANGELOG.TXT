@@ -4,6 +4,7 @@ Version 0.99.6
  - Updated RU translations from transifex
  - Added partial language support for: DE, IT, HU, PL
  - Fix UFOPaedia string typos (thanks SIMON)
+ - Fix Index for xcom1 terrorweaponsprites
 
 Version 0.99.5
  - Fix Mod not loading for openxcom_git_master_2019_06_08_1528 or newer
