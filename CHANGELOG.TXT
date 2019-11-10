@@ -6,6 +6,7 @@ Version 0.99.6
  - Fix UFOPaedia string typos (thanks SIMON)
  - Fix Index for xcom1 terrorweaponsprites
  - Fix missing rank MUTON_15
+ - Fix UFOL83.MCD armor values for new MCD check
 
 Version 0.99.5
  - Fix Mod not loading for openxcom_git_master_2019_06_08_1528 or newer
