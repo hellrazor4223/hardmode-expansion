@@ -503,7 +503,7 @@ pl:
   STR_WASPITE_NAVIGATOR: "Szerszon nawigator"
   STR_WASPITE_LEADER: "Szerszon oficer"
   STR_WASPITE_COMMANDER: "Szerszon przywódca"
-  STR_WASPITE_UFOPEDIA: ""
+  STR_WASPITE_UFOPEDIA: "Szerszoni to elitarni żołnierze i terroryści.  Są bardzo agresywni, zmodyfikowani genetycznie oraz ulepszeni cybernetycznie, co czyni z nich groźnych przeciwników. Ich niezbyt mocna budowa wskazuje na to, że pełnią raczej rolę wsparcia ogniowego niż piechoty.  Spiralne urządzenia, które zastępują ich oryginalne ciała, generują pole antygrawitacyjne, które pozwala im unosić się w powietrzu."
   STR_WASPITE_CORPSE: "Zwłoki szerszona"
   STR_WASPITE_AUTOPSY: "Sekcja zwłok szerszona"
   STR_WASPITE_AUTOPSY_UFOPEDIA: ""
@@ -1111,7 +1111,7 @@ pl:
 # EUROPEAN CITIES
   STR_ABERDEEN: "Aberdeen"
   STR_ALEPPO: "Aleppo"
-  STR_AMSTERDAM: ""
+  STR_AMSTERDAM: "Amsterdam"
   STR_ANTALYA: "Anatolia"
   STR_ARCHANGEL: "Archangielsk"
   STR_ASTRAKHAN: "Astrachań"

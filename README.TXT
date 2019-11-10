@@ -3,7 +3,7 @@
 
 This mod requires at least: openxcom_git_master_2019_06_17_0106 or newer
 
-README for Version 0.99.6
+README for Version 0.99.7
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
@@ -338,6 +338,7 @@ Partially Supported Languages (50%+):
 	Polish		PL (pl)
 	German		DE (de)
 	Hungarien	HU (hu)
+	Czech		CS (cs)
 
 Future planned additions:
 	More translations

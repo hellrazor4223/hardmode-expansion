@@ -1,6 +1,6 @@
 ja:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - ハードモード拡張Mod{NEWLINE}v0.99.6 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.7 by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "任務とニュース"
   STR_HEAVY_WEAPONS_PLATFORMS: "機体 / 武装及びHWP"
   STR_UFO_COMPONENTS: "エイリアンのUFO"
@@ -503,7 +503,7 @@ ja:
   STR_WASPITE_NAVIGATOR: "ワスパイトのナビゲーター"
   STR_WASPITE_LEADER: "ワスパイトリーダー"
   STR_WASPITE_COMMANDER: "ワスパイトの司令官"
-  STR_WASPITE_UFOPEDIA: "ワスパイトはエリートクラスのテロ用潜入ユニットであり、戦闘員でもある。非常に好戦的で策略に長け、サイバネティクスで強化された強敵である。しかしながら概して脆弱であり、生粋の兵士という訳ではない様だ。本来持つ器官と置き換えられた渦巻き状の装置によって反重力を発生させ、浮遊が可能となっている。"
+  STR_WASPITE_UFOPEDIA: "ワスパイトはエリートクラスのテロ用スパイであり、戦闘員でもある。非常に好戦的で策略に長け、サイバネティクスで強化された強敵である。しかしながら概して脆弱であり、生粋の兵士という訳ではない様だ。本来持つ器官と置き換えられた渦巻き状の装置によって反重力を発生させ、浮遊が可能となっている。"
   STR_WASPITE_CORPSE: "ワスパイトの死体"
   STR_WASPITE_AUTOPSY: "ワスパイトの解剖"
   STR_WASPITE_AUTOPSY_UFOPEDIA: "この生物の解剖にあたっては正気を保つ事が辛い程であった。胴体にある渦巻き状の装置は生命維持を司り、非常に高度な生体工学に基づいて埋め込まれている。二本の機械の腕と唯一原形を保つものと思われる昆虫の様な頭部がその胴体に繋げられている。胴体の移植部分は炎を弱点とする。"

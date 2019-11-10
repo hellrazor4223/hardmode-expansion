@@ -503,7 +503,7 @@ de:
   STR_WASPITE_NAVIGATOR: "Waspite-Navigator"
   STR_WASPITE_LEADER: "Waspite-Anführer"
   STR_WASPITE_COMMANDER: "Waspite-Kommandant"
-  STR_WASPITE_UFOPEDIA: "Die Waspiten sind die Elite der Terror- und Kampfeinheiten. Sie sind sehr aggressiv, gentechnisch verändert und mit Kybernetik ausgestattet, was sie zu furchterregenden Gegnern macht. Aber ihre Zerbrechlichkeit lässt sie eher in der Rolle einer Artillerie als in der Rolle der Infanterie vermuten. Ihr Körper wurde mit einer spiralenförmigen Vorrichtung ersetzt und erzeugt ein Anti-Graviationsfeld und ermöglicht somit der Kreature durch die Luft zu schweben."
+  STR_WASPITE_UFOPEDIA: ""
   STR_WASPITE_CORPSE: "Toter Waspite "
   STR_WASPITE_AUTOPSY: "Waspite-Autopsie"
   STR_WASPITE_AUTOPSY_UFOPEDIA: "Die Anatomie dieser Kreature grenzt an Wahnsinn. Der Körper besteht aus einer spiralenförmigen Lebenserhaltungssystem, das eine symbiotische durch Biotechnik erzeugte Pflanze am Leben hält. An dieser Spirale sind zwei mechanische Arme und der Kopf eines Insekten-ähnlicher Kreatur angebracht. Der Kopf scheint das letzte übrig gebliebene Körperteil der eigentlichen Rasse zu sein. Der pflanzliche Teil ist besonders durch Feuer verwundbar."
@@ -1111,7 +1111,7 @@ de:
 # EUROPEAN CITIES
   STR_ABERDEEN: "Aberdeen"
   STR_ALEPPO: "Aleppo"
-  STR_AMSTERDAM: ""
+  STR_AMSTERDAM: "Amsterdam"
   STR_ANTALYA: "Antalya"
   STR_ARCHANGEL: "Archangelsk"
   STR_ASTRAKHAN: "Astrachan"

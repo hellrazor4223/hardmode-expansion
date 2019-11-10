@@ -311,11 +311,11 @@ it:
   STR_ARMORED_VEST_UFOPEDIA: ""
   STR_UPGRADE_ARMORED_VEST_TO_ALLOY_VEST: ""
 
-  STR_ALLOY_VEST: ""
+  STR_ALLOY_VEST: "Corpetto in Lega"
   STR_ALLOY_VEST_UC: "CORPETTO IN LEGA"
   STR_ALLOY_VEST_CORPSE: ""
   STR_ALLOY_VEST_REPAIR: ""
-  STR_ALLOY_VEST_UFOPEDIA: ""
+  STR_ALLOY_VEST_UFOPEDIA: "Questo corpetto balistico è rinforzato con Leghe Aliene per migliorare notevolmente la durata."
   STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR: ""
 
   STR_PERSONAL_ARMOR_CORPSE: "Armatura Personale Danneggiata"
@@ -359,9 +359,9 @@ it:
   STR_ALLOY_SWORD: "Spada Lega Aliena"
   STR_ALLOY_SWORD_UFOPEDIA: ""
 
-  STR_PISTOL_AA_CLIP: ""
+  STR_PISTOL_AA_CLIP: "Colpi in Lega per Pistola"
   STR_PISTOL_AA_CLIP_X3: ""
-  STR_RIFLE_AA_CLIP: ""
+  STR_RIFLE_AA_CLIP: "Colpi in Lega per Fucile"
   STR_RIFLE_AA_CLIP_X2: ""
 
   STR_TASER_PISTOL: "Pistola Taser"
@@ -375,13 +375,13 @@ it:
 
   STR_SNIPER_RIFLE: "Fucile di Precisione"
   STR_SNIPER_RIFLE_CLIP: "Caricatore Fucile di Precisione"
-  STR_SNIPER_RIFLE_AA_CLIP: ""
+  STR_SNIPER_RIFLE_AA_CLIP: "Caricatore in Lega Fucile di Precisione"
   STR_SNIPER_RIFLE_UFOPEDIA: "Fucile progettato per massimizzare la precisione di tiro. Abbina anche cartucce di grosso calibro per rendere i suoi colpi estremamente efficaci."
 
   STR_HC_AA_AMMO: ""
-  STR_HC_AA_AMMO_UFOPEDIA: ""
+  STR_HC_AA_AMMO_UFOPEDIA: "Questi colpi per il Cannone Pesante, sono fatti in Lega Aliena per una potenza maggiore."
   STR_AC_AA_AMMO: ""
-  STR_AC_AA_AMMO_UFOPEDIA: ""
+  STR_AC_AA_AMMO_UFOPEDIA: "I proiettili per il cannone automatico sono fatti in Lega Aliena per una maggiore potenza."
 
   STR_GRENADE_LAUNCHER: "Lancia Granate"
   STR_GRENADE_LAUNCHER_HE_AMMO: ""
@@ -687,19 +687,19 @@ it:
   STR_MEDAL_ALLBATTLETYPES_DESCRIPTION: "Dato ad un soldato che ha dimostrato abilità letali con qualsiasi tipo di armi"
   STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: ""
   STR_MEDAL_ALLMISSIONS: "Medaglia Ritorno dall'Inferno"
-  STR_MEDAL_ALLMISSIONS_DESCRIPTION: ""
+  STR_MEDAL_ALLMISSIONS_DESCRIPTION: "Dato ad un soldato che ha partecipato a qualsiasi tipo di missione"
   STR_MEDAL_ALLMISSIONS_UFOPEDIA: ""
 
-  STR_MEDAL_ALLRANKS: ""
-  STR_MEDAL_ALLRANKS_DESCRIPTION: ""
+  STR_MEDAL_ALLRANKS: "Nome Titolo"
+  STR_MEDAL_ALLRANKS_DESCRIPTION: "Data ad un soldato che ha ucciso soldati alieni di tutti i tipi."
   STR_MEDAL_ALLRANKS_UFOPEDIA: ""
 
   STR_MEDAL_ALLUFOS: "Distintivo TECHINT"
-  STR_MEDAL_ALLUFOS_DESCRIPTION: ""
+  STR_MEDAL_ALLUFOS_DESCRIPTION: "Dato ad un soldato che ha partecipato in missioni che hanno coinvolto qualsiasi tipo di UFO."
   STR_MEDAL_ALLUFOS_UFOPEDIA: ""
 
   STR_MEDAL_ANTITERROR: "Medaglia Erculea"
-  STR_MEDAL_ANTITERROR_DESCRIPTION: ""
+  STR_MEDAL_ANTITERROR_DESCRIPTION: "Data ad un soldato che ha ucciso tutti i tipi di armi del terrore."
   STR_MEDAL_ANTITERROR_UFOPEDIA: ""
 
   STR_MEDAL_BASE_DEFENDER: "Medaglia alla Difesa"
@@ -711,7 +711,7 @@ it:
   STR_MEDAL_BESTOFRANK_UFOPEDIA: ""
 
   STR_MEDAL_BESTSOLDIER: "Ordine Eroico"
-  STR_MEDAL_BESTSOLDIER_DESCRIPTION: ""
+  STR_MEDAL_BESTSOLDIER_DESCRIPTION: "Data postumo ad un soldato che è stato un esempio per tutti gli altri."
   STR_MEDAL_BESTSOLDIER_UFOPEDIA:  ""
 
   STR_MEDAL_BRAVERYGAIN: "Legione del Valore"
@@ -730,24 +730,24 @@ it:
   STR_MEDAL_FALLEN_DESCRIPTION: "Data ad un soldato per onorare la sua morte ed il suo impegno nella difesa della Terra."
   STR_MEDAL_FALLEN_UFOPEDIA: ""
 
-  STR_MEDAL_FLANKSHOT: ""
-  STR_MEDAL_FLANKSHOT_DESCRIPTION: ""
+  STR_MEDAL_FLANKSHOT: "Citazione \"Enfilade\""
+  STR_MEDAL_FLANKSHOT_DESCRIPTION: "Data ad un soldato che ha dimostrato grande tatticità, capace di fiancheggiare e uccidere nemici."
   STR_MEDAL_FLANKSHOT_UFOPEDIA: ""
 
   STR_MEDAL_GLOBETROTTER: "Giramondo"
-  STR_MEDAL_GLOBETROTTER_DESCRIPTION: ""
-  STR_MEDAL_GLOBETROTTER_UFOPEDIA: ""
+  STR_MEDAL_GLOBETROTTER_DESCRIPTION: "Data ad un soldato che ha difeso ogni singolo paese sulla terra dalla minaccia aliena."
+  STR_MEDAL_GLOBETROTTER_UFOPEDIA: "Data ad un soldato che ha difeso ogni singolo paese sulla terra dalla minaccia aliena."
 
   STR_MEDAL_GRENADIER: "Medaglia dei Granatieri"
   STR_MEDAL_GRENADIER_DESCRIPTION: "Data ad un soldato che ha lanciato un esplosivo uccidendo 3 alieni in una volta."
   STR_MEDAL_GRENADIER_UFOPEDIA: ""
 
   STR_MEDAL_HEADSHOT: "L'Ordine di Davide"
-  STR_MEDAL_HEADSHOT_DESCRIPTION: ""
+  STR_MEDAL_HEADSHOT_DESCRIPTION: "Data ad un soldato che con mano ferma ha inflitto più colpi alla testa."
   STR_MEDAL_HEADSHOT_UFOPEDIA: ""
 
   STR_MEDAL_HEALER: "Stella di Ippocrate"
-  STR_MEDAL_HEALER_DESCRIPTION: ""
+  STR_MEDAL_HEALER_DESCRIPTION: "Data ad un soldato che ha prestato servizio medico sul campo di battaglia."
   STR_MEDAL_HEALER_UFOPEDIA: ""
 
   STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT: "Croce del Fulmine"
@@ -766,72 +766,72 @@ it:
   STR_MEDAL_MAN_OF_STEEL_DESCRIPTION: "Data ad un soldato che è stato colpito varie volte durante una sola missione."
   STR_MEDAL_MAN_OF_STEEL_UFOPEDIA: ""
 
-  STR_MEDAL_MARTYR: ""
-  STR_MEDAL_MARTYR_DESCRIPTION: ""
-  STR_MEDAL_MARTYR_UFOPEDIA: ""
+  STR_MEDAL_MARTYR: "Medaglia del Sacrificio"
+  STR_MEDAL_MARTYR_DESCRIPTION: "Data postumo ad un soldato che non è rimasto ucciso da solo."
+  STR_MEDAL_MARTYR_UFOPEDIA: "Data postumo ad un soldato che non è rimasto ucciso da solo."
 
   STR_MEDAL_MEDIKIT: "Chirurgo da Campo"
-  STR_MEDAL_MEDIKIT_DESCRIPTION: ""
+  STR_MEDAL_MEDIKIT_DESCRIPTION: "Data ad un soldato che fa un uso regolare del medikit sul campo di battaglia."
   STR_MEDAL_MEDIKIT_UFOPEDIA: ""
 
-  STR_MEDAL_MELEE: ""
-  STR_MEDAL_MELEE_DESCRIPTION: ""
-  STR_MEDAL_MELEE_UFOPEDIA: ""
+  STR_MEDAL_MELEE: "Mano nella mano"
+  STR_MEDAL_MELEE_DESCRIPTION: "Data ad un soldato che ha ucciso gli alieni con un arma da mischia letale."
+  STR_MEDAL_MELEE_UFOPEDIA: "Data ad un soldato che ha ucciso gli alieni con un arma da mischia letale."
 
   STR_MEDAL_MERCY_CROSS: "Croce di Nike"
   STR_MEDAL_MERCY_CROSS_DESCRIPTION: "Data ad un soldato che ha ucciso da solo tutti gli alieni durante una missione."
   STR_MEDAL_MERCY_CROSS_UFOPEDIA: ""
 
-  STR_MEDAL_MIA: ""
-  STR_MEDAL_MIA_DESCRIPTION: ""
+  STR_MEDAL_MIA: "Ordine del Dimenticato"
+  STR_MEDAL_MIA_DESCRIPTION: "Data ad un soldato per onorare le sue perdite ed il suo impegno per la difesa della terra."
   STR_MEDAL_MIA_UFOPEDIA: ""
 
-  STR_MEDAL_MINDCONTROL: ""
-  STR_MEDAL_MINDCONTROL_DESCRIPTION: ""
-  STR_MEDAL_MINDCONTROL_UFOPEDIA: ""
+  STR_MEDAL_MINDCONTROL: "Imperio"
+  STR_MEDAL_MINDCONTROL_DESCRIPTION: "Data ad un soldato che si è impossessato della mente del nemico."
+  STR_MEDAL_MINDCONTROL_UFOPEDIA: "Data ad un soldato che si è impossessato della mente del nemico."
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Nastro della Notte più Lunga"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Data ad un soldato che ha assistito agli orrori delle missioni di terrore aliene di notte."
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: ""
 
   STR_MEDAL_NIKE_CROSS: "Croce di Nike"
-  STR_MEDAL_NIKE_CROSS_DESCRIPTION: ""
+  STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Data ad un soldato che ha ucciso con una mano o ucciso e stordito ogni tipo di alieni in una missione."
   STR_MEDAL_NIKE_CROSS_UFOPEDIA: ""
 
   STR_MEDAL_ONE_MONTH_SERVICE: ""
   STR_MEDAL_ONE_MONTH_SERVICE_DESCRIPTION: "Data a tutti i soldati di ritorno come riconoscimento per aver combattuto la minaccia Aliena, e per esser stati parte della forza per salvare l'umanità. Questa Medaglia non ha decorazioni aggiuntive."
   STR_MEDAL_ONE_MONTH_SERVICE_UFOPEDIA: ""
 
-  STR_MEDAL_ORIGINAL8_DESCRIPTION: ""
-  STR_MEDAL_ORIGINAL8_NAME: ""
+  STR_MEDAL_ORIGINAL8_DESCRIPTION: "Data ad un soldato che è stato in prima linea a combattere il nemico sconosciuto."
+  STR_MEDAL_ORIGINAL8_NAME: "Primo a servire"
   STR_MEDAL_ORIGINAL8_UFOPEDIA: ""
 
-  STR_MEDAL_POSTMORTEM_KILL: ""
-  STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: ""
-  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: ""
+  STR_MEDAL_POSTMORTEM_KILL: "Ordine del mietitore"
+  STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "Data postumo ad un soldato che ha mantenuto la sua presenza sul campo di battaglia a discapito della morte."
+  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: "Data postumo ad un soldato che ha mantenuto la sua presenza sul campo di battaglia a discapito della morte."
 
-  STR_MEDAL_PSIPANIC: ""
-  STR_MEDAL_PSIPANIC_DESCRIPTION: ""
-  STR_MEDAL_PSIPANIC_UFOPEDIA: ""
+  STR_MEDAL_PSIPANIC: "Crucio"
+  STR_MEDAL_PSIPANIC_DESCRIPTION: "Data ad un soldato che ha infranto la mente del nemico"
+  STR_MEDAL_PSIPANIC_UFOPEDIA: "Data ad un soldato che ha infranto la mente del nemico"
 
   STR_MEDAL_REACTIONFIRE: "Citazione alla Rapidità"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Data ad un soldato che ha dimostrato riflessi pronti, uccidendo degli alieni prima che potessero rivalersi."
   STR_MEDAL_REACTIONFIRE_UFOPEDIA: ""
 
-  STR_MEDAL_REARSHOT: ""
-  STR_MEDAL_REARSHOT_DESCRIPTION: ""
+  STR_MEDAL_REARSHOT: "Menzione Paris"
+  STR_MEDAL_REARSHOT_DESCRIPTION: "Data a un soldato che ha dimostrato astuzia, capace di sorprendere i nemici e ucciderli alle spalle."
   STR_MEDAL_REARSHOT_UFOPEDIA: ""
 
   STR_MEDAL_REVIVE: "Croce degli Angeli"
   STR_MEDAL_REVIVE_DESCRIPTION: ""
   STR_MEDAL_REVIVE_UFOPEDIA: ""
 
-  STR_MEDAL_SAPPER: ""
+  STR_MEDAL_SAPPER: "Medaglia dello zappatore"
   STR_MEDAL_SAPPER_DESCRIPTION: ""
   STR_MEDAL_SAPPER_UFOPEDIA: ""
 
-  STR_MEDAL_SECTOPOD_KILL: ""
-  STR_MEDAL_SECTOPOD_KILL_DESCRIPTION: ""
+  STR_MEDAL_SECTOPOD_KILL: "Citazione Minaccia Metallica"
+  STR_MEDAL_SECTOPOD_KILL_DESCRIPTION: "Data ad un soldato che uccide la piu' paurosa dei costrutti alieni: Il Settopoide!"
   STR_MEDAL_SECTOPOD_KILL_UFOPEDIA: ""
 
   STR_MEDAL_SEVEN_IN_ONE: "L'Ordine della Gloria"
@@ -874,7 +874,7 @@ it:
   STR_MEDAL_TOTAL_MISSION_COUNT_DESCRIPTION: "Data ad un soldato che ha partecipato a molte missioni."
   STR_MEDAL_TOTAL_MISSION_COUNT_UFOPEDIA: ""
 
-  STR_MEDAL_TOTAL_MISSION_REGION_COUNT: ""
+  STR_MEDAL_TOTAL_MISSION_REGION_COUNT: "Nastro della Campagna"
   STR_MEDAL_TOTAL_MISSION_REGION_COUNT_DESCRIPTION: "Data ad un soldato che ha difeso con successo varie regioni."
   STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: ""
 
@@ -957,8 +957,8 @@ it:
   MAP_AREA51URBAN: "Area 51"
   MAP_CARGOSHIP: "Nave Cargo"
   MAP_COMRCURBAN: "Commerciale"
-  MAP_CULTAFARMA: ""
-  MAP_CULTAFARMB: ""
+  MAP_CULTAFARMA: "Fattoria Avanzata A"
+  MAP_CULTAFARMB: "Fattoria Avanzata B"
   MAP_DESERTMOUNT: "Montagna Desertica"
   MAP_DESERTTEMPLE: "Tempio del Deserto"
   MAP_DESERTPLANE: "Piano Deserto"
@@ -1111,7 +1111,7 @@ it:
 # EUROPEAN CITIES
   STR_ABERDEEN: "Aberdeen"
   STR_ALEPPO: "Aleppo"
-  STR_AMSTERDAM: ""
+  STR_AMSTERDAM: "Amsterdam"
   STR_ANTALYA: "Antalya"
   STR_ARCHANGEL: ""
   STR_ASTRAKHAN: "Astrakhan"
