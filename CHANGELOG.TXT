@@ -2,6 +2,8 @@ Changelog:
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check
+ - Fix DANWDECOR.MCD armor values for new MCD check
+ - Fix AREA51Z.MCD armor values for new MCD check
  - Updated transifex Language files
  - Added partially Czech translation
 
