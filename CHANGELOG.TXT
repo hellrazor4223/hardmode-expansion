@@ -1,5 +1,8 @@
 Changelog:
 
+Version 0.99.8
+ - Adjust xcom score penalties
+
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check
  - Fix DANWDECOR.MCD armor values for new MCD check
