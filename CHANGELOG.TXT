@@ -2,6 +2,7 @@ Changelog:
 
 Version 0.99.8
  - Adjust xcom score penalties
+ - Fix Hair and Face recolor for Armored Vest and Alloy Vest
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check
