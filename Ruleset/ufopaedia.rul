@@ -36,7 +36,8 @@ ufopaedia:
     text: STR_TANK_REPAIR_UFOPEDIA
     listOrder: 31
   - id: STR_SUPPORT_DRONES
-    requires: STR_SUPPORT_DRONES
+    requires:
+      - STR_SUPPORT_DRONES
     type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: SUPPORT_DRONES_UFOPAEDIA.SPK
@@ -74,7 +75,8 @@ ufopaedia:
     text: STR_ALLOY_TANK_ARMOR_UFOPEDIA
     listOrder: 36
   - id: STR_ALLOY_DRONE_ARMOR
-    requires: STR_ALLOY_DRONE_ARMOR
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_ALLOY_DRONE_ARMOR_UFOPAEDIA

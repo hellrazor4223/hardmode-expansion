@@ -4,6 +4,8 @@ Version 0.99.8
  - Adjust xcom score penalties
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
  - Fix wrong asigned BigOb/FloorOb for Sailor
+ - Fix requires for Support Drone Ufopaedia Article
+ - Fix requires for Alloy Drone Armor Ufopaedia Article
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check
