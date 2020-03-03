@@ -973,15 +973,28 @@ mapScripts:
   - type: CARGOSHIP
     commands:
     - type: addCraft #Size 10x20
+      label: 1
       rects:
         - [1, 0, 1, 2]
+    - type: addCraft #Size 20x10
+      conditionals: [-1]
+      rects:
+        - [0, 1, 2, 1]
     - type: addBlock #Spawn Ship
       size: [3, 7]
 #END CARGOSHIP
 
 #BEGIN LINERSHIP
   - type: LINERSHIP
-    commands: #No Craft spawning here, we have a entry area instead
+    commands: #No Craft spawning here, we have a entry area instead until the map is adjusted to allow crafts to spawn properly
+#    - type: addCraft #Size 10x20
+#      label: 1
+#      rects:
+#        - [1, 0, 1, 2]
+#    - type: addCraft #Size 20x10
+#      conditionals: [-1]
+#      rects:
+#        - [0, 1, 2, 1]
     - type: addBlock
       size: [3,2]
       rects:
