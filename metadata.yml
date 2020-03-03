@@ -4,3 +4,4 @@ description: "More complex and challenging battlescape gameplay, research and ec
 author: "hellrazor"
 id: "hardmode-expansion"
 master: "xcom1"
+isMaster: true

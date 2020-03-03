@@ -1328,6 +1328,7 @@ units:
     aggression: 2
     energyRecovery: 60
     livingWeapon: true
+#END CHRYSSALID SPITTER
 ##END TERROR UNITS
 ###END ALIENS
 

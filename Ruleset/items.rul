@@ -31,7 +31,6 @@ items:
     costSell: 50
     transferTime: 48
     weight: 3
-    bigSprite: { mod: master, index: 61}
     floorSprite: 12
     hitAnimation: 56
     power: 60
@@ -926,7 +925,6 @@ items:
     costSell: 13000
     transferTime: 48
     weight: 3
-    bigSprite: { mod: master, index: 61}
     floorSprite: 176
     hitSound: 0
     hitAnimation: 0
@@ -2813,7 +2811,7 @@ items:
 #BEGIN MUTON BERSERKER WEAPON
   - type: MUTON_BERSERKER_WEAPON
     weight: 3
-    bigSprite: { mod: master, index: 61}
+    bigSprite: { mod: xcom1, index: 61}
     floorSprite: 31
     handSprite: 104
     meleeSound: 110
@@ -2835,7 +2833,7 @@ items:
 #BEGIN CYBERMITE WEAPON
   - type: CYBERMITE_WEAPON
     weight: 3
-    bigSprite: { mod: master, index: 59}
+    bigSprite: { mod: xcom1, index: 59}
     floorSprite: 31
     handSprite: 104
     hitSound: 54
@@ -2855,7 +2853,7 @@ items:
 #BEGIN HOLODRONE WEAPON
   - type: HOLODRONE_WEAPON
     weight: 3
-    bigSprite: { mod: master, index: 60}
+    bigSprite: { mod: xcom1, index: 60}
     floorSprite: 31
     handSprite: 104
     bulletSprite: 7
@@ -2882,7 +2880,7 @@ items:
 #BEGIN ARMORED CYBERDISC WEAPON
   - type: ARMORED_CYBERDISC_WEAPON
     weight: 3
-    bigSprite: { mod: master, index: 60}
+    bigSprite: { mod: xcom1, index: 60}
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
@@ -2909,7 +2907,7 @@ items:
 #BEGIN ARMORED SECTOPOD WEAPON
   - type: ARMORED_SECTOPOD_WEAPON
     weight: 3
-    bigSprite: { mod: master, index: 60}
+    bigSprite: { mod: xcom1, index: 60}
     floorSprite: 31
     handSprite: 104
     fireSound: 18
@@ -2937,7 +2935,7 @@ items:
 #BEGIN CHRYSSALID SPITTER WEAPON
   - type: CHRYSSALID_SPITTER_WEAPON
     weight: 3
-    bigSprite: { mod: master, index: 60}
+    bigSprite: { mod: xcom1, index: 60}
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
