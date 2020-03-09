@@ -945,7 +945,6 @@ en-US:
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
-  MAP_AIRFIELD: "Military Airfield"
   MAP_AIRFIELD1: "Airfield 1"
   MAP_AIRFIELD2: "Airfield 2"
   MAP_AIRFIELD3: "Airfield 3"
@@ -954,7 +953,6 @@ en-US:
   MAP_AIRFIELD6: "Airfield 6"
   MAP_AIRFIELD7: "Airfield 7"
   MAP_AIRFIELD8: "Airfield 8"
-  MAP_AREA51URBAN: "Area 51"
   MAP_CARGOSHIP: "Cargo Ship"
   MAP_COMRCURBAN: "Commercial"
   MAP_CULTAFARMA: "Expanded Farm A"

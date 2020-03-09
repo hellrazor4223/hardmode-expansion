@@ -1940,8 +1940,14 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - AREA51URBAN
-      - AIRFIELD
+      - AIRFIELD1
+      - AIRFIELD2
+      - AIRFIELD3
+      - AIRFIELD4
+      - AIRFIELD5
+      - AIRFIELD6
+      - AIRFIELD7
+      - AIRFIELD8
     alert: STR_MILITARY_BASE_ATTACK_ALERT
     briefing:
       palette: 2
@@ -1954,35 +1960,6 @@ alienDeployments:
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END MILITARY BASE ATTACK
-
-#BEGIN AIRFIELD ATTACK
-  - type: STR_AIRFIELD_ATTACK
-    data: *TERROR_SETS
-    width: 60
-    length: 60
-    height: 8
-    civilians: 24
-    terrains:
-      - AIRFIELD1
-      - AIRFIELD2
-      - AIRFIELD3
-      - AIRFIELD4
-      - AIRFIELD5
-      - AIRFIELD6
-      - AIRFIELD7
-      - AIRFIELD8
-    alert: STR_AIRFIELD_ATTACK_ALERT
-    briefing:
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 2000
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END AIRFIELD ATTACK
 
 #BEGIN PORT ATTACK
   - type: STR_PORT_ATTACK

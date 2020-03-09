@@ -487,8 +487,7 @@ globe:
         STR_TERROR_MISSION_TROPICAL: 100
     - id: -6
       deployments:
-        STR_MILITARY_BASE_ATTACK: 50
-        STR_AIRFIELD_ATTACK: 50
+        STR_MILITARY_BASE_ATTACK: 100
     - id: -7
       deployments:
         STR_PORT_ATTACK: 100
