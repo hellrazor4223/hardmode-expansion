@@ -9,8 +9,10 @@ Version 0.99.8
  - Fix requires for Support Drone Ufopaedia Article
  - Fix requires for Alloy Drone Armor Ufopaedia Article
  - Fix Craft spawn position for CargoShip
+ - Fix some typos while doing Terrorsite restructure
  - Remove AREA51 Terrains as requested from Hobbes
- - Downtown Terrain from TP4.3 and licance file
+ - Add Downtown Terrain from Terrain Pack 4.3
+ - Add Terrain Pack 4.3 Licence file
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check

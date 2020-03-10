@@ -1820,11 +1820,11 @@ alienDeployments:
       - EXPANDED_URBAN_MIX
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
-    briefing: &TERROR_MISSION_BRIEFING
+    briefing:
       title: STR_TERROR_MISSION
       desc: STR_TERROR_MISSION_BRIEFING
       palette: 2
-      music: GMENBASE    
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -1848,7 +1848,11 @@ alienDeployments:
       - EXPANDED_URBAN_MIX_SNOW
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
+    briefing:
+      title: STR_TERROR_MISSION_SNOW
+      desc: STR_TERROR_MISSION_BRIEFING
+      palette: 2
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -1878,7 +1882,11 @@ alienDeployments:
       - DOWNTOWNURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
+    briefing:
+      title: STR_TERROR_MISSION_SUBURB
+      desc: STR_TERROR_MISSION_BRIEFING
+      palette: 2
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -1910,7 +1918,7 @@ alienDeployments:
       title: STR_TERROR_MISSION_INDUSTRIAL
       desc: STR_TERROR_MISSION_INDUSTRIAL_BRIEFING
       palette: 2
-      music: GMENBASE    
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -1939,7 +1947,7 @@ alienDeployments:
       title: STR_TERROR_MISSION_PORT
       desc: STR_TERROR_MISSION_PORT_BRIEFING
       palette: 2
-      music: GMENBASE    
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -1960,7 +1968,11 @@ alienDeployments:
       - NATIVEURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
+    briefing:
+      title: STR_TERROR_MISSION_TROPICAL
+      desc: STR_TERROR_MISSION_BRIEFING
+      palette: 2
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -2017,7 +2029,7 @@ alienDeployments:
       title: STR_TERROR_MISSION_MILITARY_BASE
       desc: STR_TERROR_MISSION_MILITARY_BASE_BRIEFING
       palette: 2
-      music: GMENBASE    
+      music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1500
@@ -2041,10 +2053,10 @@ alienDeployments:
     alertBackground: BACK03.SCR
     briefing:
       title: STR_TERROR_MISSION_SHIP
-      desc: STR_TERROR_MISSION_MILITARY_BASE_BRIEFING
+      desc: STR_TERROR_MISSION_SHIP_BRIEFING
       palette: 2
       music: GMENBASE
-    markerName: STR_TERROR_MISSION_SHIP
+    markerName: STR_TERROR_SITE
     duration: [4, 10]
     popupDelay: [1, 1]
     despawnPenalty: 1500
@@ -2057,7 +2069,7 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END SHIP ATTACK
+#END TERROR MISSION SHIP
 ##END TERRORMISSIONS
 
 ###WILL BE REMOVED SPAWNS VIA PORT ATTACK
