@@ -1,7 +1,8 @@
 ####BEGIN MAPSCRIPTS
 mapScripts:
 
-###BEGIN EXPANDED UBASE
+##BEGIN ALIEN BASES
+#BEGIN EXPANDED UBASE
   - type: ALIENBASE
     commands:
     - type: addBlock #Add Entrances
@@ -40,9 +41,10 @@ mapScripts:
           - type: floor
             set: 1
             entry: 63
-###END EXPANDED UBASE
+#END EXPANDED UBASE
+##END ALIEN BASES
 
-###BEGIN FINAL
+##BEGIN FINAL
 #BEGIN MARS
   - type: MARS
     commands:
@@ -149,9 +151,10 @@ mapScripts:
             set: 1
             entry: 63
 #END BOSSBATTLE
-###END FINAL
+##END FINAL
 
 ###BEGIN TERROR MISSION SCRIPTS
+##BEGIN URBAN TERROR
 #BEGIN URBAN
   - type: URBAN
     commands:
@@ -352,7 +355,9 @@ mapScripts:
       freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
       maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] #Limiting numbers increases variety
 #END EXPANDED URBAN MIX
+##END URBAN TERROR
 
+##BEGIN SUBURB TERROR
 #BEGIN DAMNURBANA
   - type: DAWNURBANA
     commands:
@@ -425,6 +430,954 @@ mapScripts:
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END COMMERCIAL URBAN
 
+#BEGIN DOWNTOWN
+  - type: DOWNTOWNURBAN
+    commands:
+    - type: addBlock # Rail Station
+      size: 2
+      blocks: 8
+    - type: addLine
+      direction: horizontal
+      executionChances: 75
+    - type: checkBlock #Position 0,0
+      label: 1
+      size: 2
+      blocks: 8
+      rects:
+        - [0, 0, 1, 1]
+    - type: checkBlock
+      label: 2
+      conditionals: 1
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 2
+      rects:
+        - [0, 2, 1, 1]
+    - type: addBlock
+      conditionals: 2
+      blocks: 12
+      rects:
+        - [0, 2, 1, 1]
+    - type: checkBlock
+      label: 3
+      conditionals: 1
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 3
+      rects:
+        - [0, 3, 1, 1]
+    - type: addBlock
+      conditionals: 3
+      blocks: 12
+      rects:
+        - [0, 3, 1, 1]
+    - type: checkBlock
+      label: 4
+      conditionals: 1
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 4
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock
+      conditionals: 4
+      blocks: 12
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock
+      conditionals: 1
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [0, 0, 1, 5]
+    - type: checkBlock #Position 0,1
+      size: 2
+      label: 5
+      blocks: 8
+      rects:
+        - [0, 1, 1, 1]
+    - type: checkBlock
+      label: 6
+      conditionals: 5
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 6
+      rects:
+        - [0, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 6
+      rects:
+        - [0, 0, 1, 1]
+    - type: checkBlock
+      label: 7
+      conditionals: 5
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 7
+      rects:
+        - [0, 3, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 7
+      rects:
+        - [0, 3, 1, 1]
+    - type: checkBlock
+      label: 8
+      conditionals: 5
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 8
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 8
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock
+      conditionals: 5
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [0, 0, 1, 5]
+    - type: checkBlock #Position 0,2
+      size: 2
+      label: 9
+      blocks: 8
+      rects:
+        - [0, 2, 1, 1]
+    - type: checkBlock
+      label: 10
+      conditionals: 9
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 10
+      rects:
+        - [0, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 10
+      rects:
+        - [0, 0, 1, 1]
+    - type: checkBlock
+      label: 11
+      conditionals: 9
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 11
+      rects:
+        - [0, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 11
+      rects:
+        - [0, 1, 1, 1]
+    - type: checkBlock
+      label: 12
+      conditionals: 9
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 12
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 12
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock
+      conditionals: 9
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [0, 0, 1, 5]
+    - type: checkBlock #Position 0,3
+      size: 2
+      label: 13
+      blocks: 8
+      rects:
+        - [0, 3, 1, 1]
+    - type: checkBlock
+      label: 14
+      conditionals: 13
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 14
+      rects:
+        - [0, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 14
+      rects:
+        - [0, 0, 1, 1]
+    - type: checkBlock
+      label: 15
+      conditionals: 13
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 15
+      rects:
+        - [0, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 15
+      rects:
+        - [0, 1, 1, 1]
+    - type: checkBlock
+      label: 16
+      conditionals: 13
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 16
+      rects:
+        - [0, 2, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 16
+      rects:
+        - [0, 2, 1, 1]
+    - type: addBlock
+      conditionals: 13
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [0, 0, 1, 5]
+    - type: checkBlock #Position 1,0
+      label: 17
+      blocks: 8
+      size: 2
+      rects:
+        - [1, 0, 1, 1]
+    - type: checkBlock
+      label: 18
+      conditionals: 17
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 18
+      rects:
+        - [1, 2, 1, 1]
+    - type: addBlock
+      conditionals: 18
+      blocks: 12
+      rects:
+        - [1, 2, 1, 1]
+    - type: checkBlock
+      label: 19
+      conditionals: 17
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 19
+      rects:
+        - [1, 3, 1, 1]
+    - type: addBlock
+      conditionals: 19
+      blocks: 12
+      rects:
+        - [1, 3, 1, 1]
+    - type: checkBlock
+      label: 20
+      conditionals: 17
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 20
+      rects:
+        - [1, 4, 1, 1]
+    - type: addBlock
+      conditionals: 20
+      blocks: 12
+      rects:
+        - [1, 4, 1, 1]
+    - type: addBlock
+      conditionals: 17
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [1, 0, 1, 5]
+    - type: checkBlock #Position 1,1
+      label: 21
+      blocks: 8
+      size: 2
+      rects:
+        - [1, 1, 1, 1]
+    - type: checkBlock
+      label: 22
+      conditionals: 21
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 22
+      rects:
+        - [1, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 22
+      rects:
+        - [1, 0, 1, 1]
+    - type: checkBlock
+      label: 23
+      conditionals: 21
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 23
+      rects:
+        - [1, 3, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 23
+      rects:
+        - [1, 3, 1, 1]
+    - type: checkBlock
+      label: 24
+      conditionals: 21
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 24
+      rects:
+        - [1, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 24
+      rects:
+        - [1, 4, 1, 1]
+    - type: addBlock
+      conditionals: 21
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [1, 0, 1, 5]
+    - type: checkBlock #Position 1,2
+      label: 25
+      blocks: 8
+      size: 2
+      rects:
+        - [1, 2, 1, 1]
+    - type: checkBlock
+      label: 26
+      conditionals: 25
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 26
+      rects:
+        - [1, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 26
+      rects:
+        - [1, 0, 1, 1]
+    - type: checkBlock
+      label: 27
+      conditionals: 25
+      blocks: 10
+      rects:
+        - [1, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 27
+      rects:
+        - [1, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 27
+      rects:
+        - [1, 1, 1, 1]
+    - type: checkBlock
+      label: 28
+      conditionals: 25
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 28
+      rects:
+        - [1, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 28
+      rects:
+        - [1, 4, 1, 1]
+    - type: addBlock
+      conditionals: 25
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [1, 0, 1, 5]
+    - type: checkBlock #Position 1,3
+      label: 29
+      blocks: 8
+      size: 2
+      rects:
+        - [1, 3, 1, 1]
+    - type: checkBlock
+      label: 30
+      conditionals: 29
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 30
+      rects:
+        - [1, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 30
+      rects:
+        - [1, 0, 1, 1]
+    - type: checkBlock
+      label: 31
+      conditionals: 29
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 31
+      rects:
+        - [1, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 31
+      rects:
+        - [1, 1, 1, 1]
+    - type: checkBlock
+      label: 32
+      conditionals: 29
+      blocks: [10, 18, 19]
+      rects:
+        - [1, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 32
+      rects:
+        - [1, 2, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 32
+      rects:
+        - [1, 2, 1, 1]
+    - type: addBlock
+      conditionals: 29
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [1, 0, 1, 5]
+    - type: checkBlock #Position 2,0
+      label: 33
+      blocks: 8
+      size: 2
+      rects:
+        - [2, 0, 1, 1]
+    - type: checkBlock
+      label: 34
+      conditionals: 33
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 34
+      rects:
+        - [2, 2, 1, 1]
+    - type: addBlock
+      conditionals: 34
+      blocks: 12
+      rects:
+        - [2, 2, 1, 1]
+    - type: checkBlock
+      label: 35
+      conditionals: 33
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 35
+      rects:
+        - [2, 3, 1, 1]
+    - type: addBlock
+      conditionals: 35
+      blocks: 12
+      rects:
+        - [2, 3, 1, 1]
+    - type: checkBlock
+      label: 36
+      conditionals: 33
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 36
+      rects:
+        - [2, 4, 1, 1]
+    - type: addBlock
+      conditionals: 36
+      blocks: 12
+      rects:
+        - [2, 4, 1, 1]
+    - type: addBlock
+      conditionals: 33
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [2, 0, 1, 5]
+    - type: checkBlock #Position 2,1
+      label: 37
+      blocks: 8
+      size: 2
+      rects:
+        - [2, 1, 1, 1]
+    - type: checkBlock
+      label: 38
+      conditionals: 37
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 38
+      rects:
+        - [2, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 38
+      rects:
+        - [2, 0, 1, 1]
+    - type: checkBlock
+      label: 39
+      conditionals: 37
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 39
+      rects:
+        - [2, 3, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 39
+      rects:
+        - [2, 3, 1, 1]
+    - type: checkBlock
+      label: 40
+      conditionals: 37
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 40
+      rects:
+        - [2, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 40
+      rects:
+        - [2, 4, 1, 1]
+    - type: addBlock
+      conditionals: 37
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [2, 0, 1, 5]
+    - type: checkBlock #Position 2,2
+      label: 41
+      blocks: 8
+      size: 2
+      rects:
+        - [2, 2, 1, 1]
+    - type: checkBlock
+      label: 42
+      conditionals: 41
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 42
+      rects:
+        - [2, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 42
+      rects:
+        - [2, 0, 1, 1]
+    - type: checkBlock
+      label: 43
+      conditionals: 41
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 43
+      rects:
+        - [2, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 43
+      rects:
+        - [2, 1, 1, 1]
+    - type: checkBlock
+      label: 44
+      conditionals: 41
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 44
+      rects:
+        - [2, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 44
+      rects:
+        - [2, 4, 1, 1]
+    - type: addBlock
+      conditionals: 41
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [2, 0, 1, 5]
+    - type: checkBlock #Position 2,3
+      label: 45
+      blocks: 8
+      size: 2
+      rects:
+        - [2, 3, 1, 1]
+    - type: checkBlock
+      label: 46
+      conditionals: 45
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 46
+      rects:
+        - [2, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 46
+      rects:
+        - [2, 0, 1, 1]
+    - type: checkBlock
+      label: 47
+      conditionals: 45
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 47
+      rects:
+        - [2, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 47
+      rects:
+        - [2, 1, 1, 1]
+    - type: checkBlock
+      label: 48
+      conditionals: 45
+      blocks: [10, 18, 19]
+      rects:
+        - [2, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 48
+      rects:
+        - [2, 2, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 48
+      rects:
+        - [2, 2, 1, 1]
+    - type: addBlock
+      conditionals: 45
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [2, 0, 1, 5]
+    - type: checkBlock #Position 3,0
+      label: 49
+      blocks: 8
+      size: 2
+      rects:
+        - [3, 0, 1, 1]
+    - type: checkBlock
+      label: 50
+      conditionals: 49
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 50
+      rects:
+        - [3, 2, 1, 1]
+    - type: addBlock
+      conditionals: 50
+      blocks: 12
+      rects:
+        - [3, 2, 1, 1]
+    - type: checkBlock
+      label: 51
+      conditionals: 49
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 51
+      rects:
+        - [3, 3, 1, 1]
+    - type: addBlock
+      conditionals: 51
+      blocks: 12
+      rects:
+        - [3, 3, 1, 1]
+    - type: checkBlock
+      label: 52
+      conditionals: 49
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 52
+      rects:
+        - [3, 4, 1, 1]
+    - type: addBlock
+      conditionals: 52
+      blocks: 12
+      rects:
+        - [3, 4, 1, 1]
+    - type: addBlock
+      conditionals: 49
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [3, 0, 1, 5]
+    - type: checkBlock #Position 3,1
+      label: 53
+      blocks: 8
+      size: 2
+      rects:
+        - [3, 1, 1, 1]
+    - type: checkBlock
+      label: 54
+      conditionals: 53
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 54
+      rects:
+        - [3, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 54
+      rects:
+        - [3, 0, 1, 1]
+    - type: checkBlock
+      label: 55
+      conditionals: 53
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 3, 1, 1]
+    - type: removeBlock
+      conditionals: 55
+      rects:
+        - [3, 3, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 55
+      rects:
+        - [3, 3, 1, 1]
+    - type: checkBlock
+      label: 56
+      conditionals: 53
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 56
+      rects:
+        - [3, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 56
+      rects:
+        - [3, 4, 1, 1]
+    - type: addBlock
+      conditionals: 53
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [3, 0, 1, 5]
+    - type: checkBlock #Position 3,2
+      label: 57
+      blocks: 8
+      size: 2
+      rects:
+        - [3, 2, 1, 1]
+    - type: checkBlock
+      label: 58
+      conditionals: 57
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 58
+      rects:
+        - [3, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 58
+      rects:
+        - [3, 0, 1, 1]
+    - type: checkBlock
+      label: 59
+      conditionals: 57
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 59
+      rects:
+        - [3, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 59
+      rects:
+        - [3, 1, 1, 1]
+    - type: checkBlock
+      label: 60
+      conditionals: 57
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 4, 1, 1]
+    - type: removeBlock
+      conditionals: 60
+      rects:
+        - [3, 4, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 60
+      rects:
+        - [3, 4, 1, 1]
+    - type: addBlock
+      conditionals: 57
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [3, 0, 1, 5]
+    - type: checkBlock #Position 3,3
+      label: 61
+      blocks: 8
+      size: 2
+      rects:
+        - [3, 3, 1, 1]
+    - type: checkBlock
+      label: 62
+      conditionals: 61
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 0, 1, 1]
+    - type: removeBlock
+      conditionals: 62
+      rects:
+        - [3, 0, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 62
+      rects:
+        - [3, 0, 1, 1]
+    - type: checkBlock
+      label: 63
+      conditionals: 61
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 1, 1, 1]
+    - type: removeBlock
+      conditionals: 63
+      rects:
+        - [3, 1, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 63
+      rects:
+        - [3, 1, 1, 1]
+    - type: checkBlock
+      label: 64
+      conditionals: 61
+      blocks: [10, 18, 19]
+      rects:
+        - [3, 2, 1, 1]
+    - type: removeBlock
+      conditionals: 64
+      rects:
+        - [3, 2, 1, 1]
+    - type: addBlock
+      blocks: 12
+      conditionals: 64
+      rects:
+        - [3, 2, 1, 1]
+    - type: addBlock
+      conditionals: 61
+      blocks: [9, 21]
+      executions: 3
+      rects:
+        - [3, 0, 1, 5]
+    - type: addLine
+      direction: vertical
+      executionChances: 75
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      blocks: [2, 6, 14, 15]
+      executions: 3
+      maxUses: [1, 1, 1, 1]
+    - type: fillArea
+      blocks: [2, 3, 5, 7, 16, 17]
+#END DOWNTOWN
+##END SUBURB TERROR
+
+##BEGIN INDUSTRIAL TERROR
+#BEGIN INDUSTRIALURBAN
+  - type: INDUSTRIALURBAN
+    commands:
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+#END INDUSTRIALURBAN
+
 #BEGIN RAILYARDURBAN
   - type: RAILYARDURBAN
     commands:
@@ -448,19 +1401,172 @@ mapScripts:
       blocks: [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END RAILYARDURBAN
+##END INDUSTRIAL TERROR
 
-#BEGIN INDUSTRIALURBAN
-  - type: INDUSTRIALURBAN
+##BEGIN PORTINDUSTRIAL TERROR
+#BEGIN PORTUFO
+  - type: PORTTFTD
     commands:
+    - type: addCraft
+      rects:
+        - [0, 0, 4, 6]
+    - type: addBlock
+      rects:
+        - [5, 0, 1, 6]
+      executions: 6
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock
+      groups: 5
+      size: 2
+      rects:
+        - [0, 0, 4, 2]
+    - type: addBlock
+      size: 2
+      executions: 4
+      rects:
+        - [0, 2, 3, 2]
+    - type: fillArea
+#END PORTUFO
+
+#BEGIN PORTURBAN
+  - type: PORTURBAN
+    commands:
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [0, 0, 5, 6]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [0, 0, 5, 6]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [0, 0, 5, 6]
+    - type: removeBlock
+      rects:
+        - [5, 0, 1, 6]
+    - type: addBlock
+      rects:
+        - [5, 0, 1, 6]
+      executions: 6
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addCraft
+    - type: addBlock
+      groups: 5
+      size: 2
+      rects:
+        - [0, 0, 5, 3]
+    - type: addBlock
+      size: 2
+      executions: 4
+      rects:
+        - [0, 3, 4, 3]
+    - type: fillArea
+#END PORTURBAN
+
+#BEGIN PORTINDUSTRIALURBAN
+  - type: PORTINDUSTRIALURBAN
+    commands:
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
     - type: addCraft
     - type: addBlock
       size: 2
       executions: 4
+      blocks: [10, 11, 12, 13, 14, 24, 25, 26]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1]
     - type: fillArea
-      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-#END INDUSTRIALURBAN
+#END PORTINDUSTRIALURBAN
 
+#BEGIN PORTCARGOSHIP
+  - type: PORTCARGOSHIP
+    commands:
+    - type: resize
+      size: [6, 7, 8] #Make sure we have the right size
+    - type: addUFO #Pull in Ship as UFO
+      UFOName: STR_CARGOSHIPPORT
+      rects:
+        - [3, 0, 3, 7]
+    - type: addCraft
+      rects:
+        - [0, 0, 2, 7]
+    - type: addBlock #Pier to ship entry point
+      rects:
+        - [2, 0, 1, 1]
+      blocks: 35
+    - type: addBlock #Pier to Ship entry point
+      rects:
+        - [2, 2, 1, 1]
+      blocks: [33, 34, 36]
+    - type: addBlock #Rest of the Pier
+      rects:
+        - [2, 0, 1, 7]
+      executions: 5
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #2x2 sized Mapblocks
+      size: 2
+      executions: 3
+      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+#END PORTCARGOSHIP
+
+#BEGIN PORTLINERSHIP
+  - type: PORTLINERSHIP
+    commands:
+    - type: resize
+      size: [6, 7, 8] #Make sure we have the right size
+    - type: addUFO #Pull in Ship as UFO
+      UFOName: STR_LINERSHIPPORT
+      rects:
+        - [3, 0, 3, 7]
+    - type: addCraft
+      rects:
+        - [0, 0, 2, 7]
+    - type: addBlock #Pier to ship entry point
+      rects:
+        - [2, 0, 1, 1]
+      blocks: 35
+    - type: addBlock #Pier to Ship entry point
+      rects:
+        - [2, 2, 1, 1]
+      blocks: [33, 34, 36]
+    - type: addBlock #Rest of the Pier
+      rects:
+        - [2, 0, 1, 7]
+      executions: 5
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addBlock #2x2 sized Mapblocks
+      size: 2
+      executions: 3
+      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+#END PORTLINERSHIP
+##END PORTINDUSTRIAL TERROR
+
+##BEGIN EQUATORIAL TERROR
 #BEGIN NATIVEURBAN
   - type: NATIVEURBAN
     commands:
@@ -473,6 +1579,33 @@ mapScripts:
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END NATIVEURBAN
 
+#BEGIN ISLANDURBAN
+  - type: ISLANDURBAN
+    commands:
+    - type: addBlock #2x2 Waterfront blocks
+      size: 2
+      executions: 2
+      rects:
+        - [0,4,6,2]
+      blocks: [4, 5]
+    - type: addBlock #1x1 Waterfront blocks
+      groups: 2
+      executions: 2
+      rects:
+        - [0,5,6,1]
+    - type: addCraft
+    - type: addBlock #2x2 buildings
+      size: 2
+      executions: 3
+      blocks: [2, 3, 6]
+      freqs: [3, 3, 1]
+      maxUses: [3, 3, 3]
+    - type: fillArea
+      blocks: [0, 1, 8, 9, 10, 11, 12, 13, 14]
+#END ISLAND URBAN
+##END EQUATORIAL TERROR
+
+##BEGIN MILITARY BASE TERROR
 #BEGIN AIRFIELD1
   - type: AIRFIELD1
     commands:
@@ -723,197 +1856,14 @@ mapScripts:
     - type: fillArea
       blocks: [0, 3, 4, 6, 8, 9, 18, 19]
 #END AIRFIELD8
+##END MILITARY BASES TERROR
 
-#BEGIN PORTUFO
-  - type: PORTTFTD
-    commands:
-    - type: addCraft
-      rects:
-        - [0, 0, 4, 6]
-    - type: addBlock
-      rects:
-        - [5, 0, 1, 6]
-      executions: 6
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: addBlock
-      groups: 5
-      size: 2
-      rects:
-        - [0, 0, 4, 2]
-    - type: addBlock
-      size: 2
-      executions: 4
-      rects:
-        - [0, 2, 3, 2]
-    - type: fillArea
-#END PORTUFO
-
-#BEGIN PORTURBAN
-  - type: PORTURBAN
-    commands:
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 33
-      rects:
-        - [0, 0, 5, 6]
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-      rects:
-        - [0, 0, 5, 6]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [0, 0, 5, 6]
-    - type: removeBlock
-      rects:
-        - [5, 0, 1, 6]
-    - type: addBlock
-      rects:
-        - [5, 0, 1, 6]
-      executions: 6
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: addCraft
-    - type: addBlock
-      groups: 5
-      size: 2
-      rects:
-        - [0, 0, 5, 3]
-    - type: addBlock
-      size: 2
-      executions: 4
-      rects:
-        - [0, 3, 4, 3]
-    - type: fillArea
-#END PORTURBAN
-
-#BEGIN PORTINDUSTRIALURBAN
-  - type: PORTINDUSTRIALURBAN
-    commands:
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 33
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 4
-      blocks: [10, 11, 12, 13, 14, 24, 25, 26]
-      freqs: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: fillArea
-#END PORTINDUSTRIALURBAN
-
-#BEGIN ISLANDURBAN
-  - type: ISLANDURBAN
-    commands:
-    - type: addBlock #2x2 Waterfront blocks
-      size: 2
-      executions: 2
-      rects:
-        - [0,4,6,2]
-      blocks: [4, 5]
-    - type: addBlock #1x1 Waterfront blocks
-      groups: 2
-      executions: 2
-      rects:
-        - [0,5,6,1]
-    - type: addCraft
-    - type: addBlock #2x2 buildings
-      size: 2
-      executions: 3
-      blocks: [2, 3, 6]
-      freqs: [3, 3, 1]
-      maxUses: [3, 3, 3]
-    - type: fillArea
-      blocks: [0, 1, 8, 9, 10, 11, 12, 13, 14]
-#END ISLAND URBAN
-###END TERROR MISSION SCRIPTS
-
-###BEGIN SPECIAL MISSION SCRIPTS
-##BEGIN DOCKEDSHIP
-#BEGIN PORTCARGOSHIP
-  - type: PORTCARGOSHIP
-    commands:
-    - type: addUFO #Pull in Ship as UFO
-      UFOName: STR_CARGOSHIPPORT
-      rects:
-        - [3, 0, 3, 7]
-    - type: addCraft
-      rects:
-        - [0, 0, 2, 7]
-    - type: addBlock #Pier to ship entry point
-      rects:
-        - [2, 0, 1, 1]
-      blocks: 35
-    - type: addBlock #Pier to Ship entry point
-      rects:
-        - [2, 2, 1, 1]
-      blocks: [33, 34, 36]
-    - type: addBlock #Rest of the Pier
-      rects:
-        - [2, 0, 1, 7]
-      executions: 5
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: addBlock #2x2 sized Mapblocks
-      size: 2
-      executions: 3
-      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: fillArea
-#END PORTCARGOSHIP
-
-#BEGIN PORTLINERSHIP
-  - type: PORTLINERSHIP
-    commands:
-    - type: addUFO #Pull in Ship as UFO
-      UFOName: STR_LINERSHIPPORT
-      rects:
-        - [3, 0, 3, 7]
-    - type: addCraft
-      rects:
-        - [0, 0, 2, 7]
-    - type: addBlock #Pier to ship entry point
-      rects:
-        - [2, 0, 1, 1]
-      blocks: 35
-    - type: addBlock #Pier to Ship entry point
-      rects:
-        - [2, 2, 1, 1]
-      blocks: [33, 34, 36]
-    - type: addBlock #Rest of the Pier
-      rects:
-        - [2, 0, 1, 7]
-      executions: 5
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: addBlock #2x2 sized Mapblocks
-      size: 2
-      executions: 3
-      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: fillArea
-#END PORTLINERSHIP
-##END DOCKSHIP
-
-##BEGIN SHIPATTACK
+##BEGIN SHIP TERROR
 #BEGIN CARGOSHIP
   - type: CARGOSHIP
     commands:
+    - type: resize
+      size: [3, 7, 8] #Make sure we have the right size
     - type: addCraft #Size 10x20
       label: 1
       rects:
@@ -929,6 +1879,8 @@ mapScripts:
 #BEGIN LINERSHIP
   - type: LINERSHIP
     commands: #No Craft spawning here, we have a entry area instead until the map is adjusted to allow crafts to spawn properly
+    - type: resize
+      size: [3, 7, 8] #Make sure we have the right size
 #    - type: addCraft #Size 10x20
 #      label: 1
 #      rects:
@@ -946,8 +1898,8 @@ mapScripts:
       rects:
         - [0,0,3,5]
 #END LINERSHIP
-##END SHIPATTACK
-###END SPECIAL MISSION SCRIPTS
+##END SHIP TERROR
+###END TERROR MISSION SCRIPTS
 
 ###BEGIN GLOBE SCRIPTS
 #BEGIN DEFAULT

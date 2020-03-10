@@ -1819,71 +1819,20 @@ alienDeployments:
       - EXPANDED_TERROR
       - EXPANDED_URBAN_MIX
     alert: STR_ALIENS_TERRORISE
-    briefing:
+    alertBackground: BACK03.SCR
+    briefing: &TERROR_MISSION_BRIEFING
+      title: STR_TERROR_MISSION
+      desc: STR_TERROR_MISSION_BRIEFING
       palette: 2
       music: GMENBASE    
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1000
+    despawnPenalty: 1500
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END TERROR MISSION
-
-#BEGIN TERROR MISSION BIG CITY
-  - type: STR_TERROR_MISSION_BIG_CITY
-    data: *TERROR_SETS
-    width: 60
-    length: 60
-    height: 8
-    civilians: 24
-    terrains:
-      - EXPANDED_TERROR
-      - EXPANDED_URBAN_MIX
-      - DAWNURBANA
-      - DAWNURBANB
-      - COMRCURBAN
-      - RAILYARDURBAN
-    alert: STR_ALIENS_TERRORISE
-    briefing:
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 2000
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END END TERROR MISSION BIG CITY
-
-#BEGIN TERROR MISSION INDUSTRIAL
-  - type: STR_TERROR_MISSION_INDUSTRIAL
-    data: *TERROR_SETS
-    width: 60
-    length: 60
-    height: 8
-    civilians: 24
-    terrains:
-      - EXPANDED_TERROR
-      - EXPANDED_URBAN_MIX
-      - PORTURBAN
-      - PORTINDUSTRIALURBAN
-      - RAILYARDURBAN
-      - INDUSTRIALURBAN
-    alert: STR_ALIENS_TERRORISE
-    briefing:
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 2000
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END END TERROR MISSION INDUSTRIAL
 
 #BEGIN TERROR MISSION SNOW
   - type: STR_TERROR_MISSION_SNOW
@@ -1898,17 +1847,107 @@ alienDeployments:
       - EXPANDED_TERROR_SNOW
       - EXPANDED_URBAN_MIX_SNOW
     alert: STR_ALIENS_TERRORISE
-    briefing:
-      palette: 2
-      music: GMENBASE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 2000
+    despawnPenalty: 1500
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END TERROR MISSION SNOW
+
+#BEGIN TERROR MISSION SUBURB
+  - type: STR_TERROR_MISSION_SUBURB
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - EXPANDED_URBAN_MIX
+      - DAWNURBANA
+      - DAWNURBANA
+      - DAWNURBANB
+      - DAWNURBANB
+      - COMRCURBAN
+      - COMRCURBAN
+      - COMRCURBAN
+      - DOWNTOWNURBAN
+      - DOWNTOWNURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1500
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END TERROR MISSION SUBURB
+
+#BEGIN TERROR MISSION INDUSTRIAL
+  - type: STR_TERROR_MISSION_INDUSTRIAL
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - EXPANDED_URBAN_MIX
+      - PORTURBAN
+      - PORTINDUSTRIALURBAN
+      - RAILYARDURBAN
+      - RAILYARDURBAN
+      - INDUSTRIALURBAN
+      - INDUSTRIALURBAN
+      - INDUSTRIALURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_TERROR_MISSION_INDUSTRIAL
+      desc: STR_TERROR_MISSION_INDUSTRIAL_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1500
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END TERROR MISSION INDUSTRIAL
+
+#BEGIN TERROR MISSION PORT
+  - type: STR_TERROR_MISSION_PORT
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - PORTURBAN
+      - PORTTFTD
+      - PORTINDUSTRIALURBAN
+      - PORTCARGOSHIP
+      - PORTLINERSHIP
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_TERROR_MISSION_PORT
+      desc: STR_TERROR_MISSION_PORT_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1500
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END PORT ATTACK
 
 #BEGIN TERROR MISSION TROPICAL
   - type: STR_TERROR_MISSION_TROPICAL
@@ -1920,20 +1959,44 @@ alienDeployments:
     terrains:
       - NATIVEURBAN
     alert: STR_ALIENS_TERRORISE
-    briefing:
-      palette: 2
-      music: GMENBASE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 2000
+    despawnPenalty: 1500
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END TERROR MISSION TROPICAL
 
-#BEGIN MILITARY BASE ATTACK
-  - type: STR_MILITARY_BASE_ATTACK
+#BEGIN TERROR MISSION ISLAND
+  - type: STR_TERROR_MISSION_ISLAND
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - ISLANDURBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_TERROR_MISSION_ISLAND
+      desc: STR_TERROR_MISSION_ISLAND_BRIEFING
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1500
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END TERROR MISSION ISLAND
+
+#BEGIN TERROR MISSION MILITARY BASE
+  - type: STR_TERROR_MISSION_MILITARY_BASE
     data: *TERROR_SETS
     width: 60
     length: 60
@@ -1948,67 +2011,56 @@ alienDeployments:
       - AIRFIELD6
       - AIRFIELD7
       - AIRFIELD8
-    alert: STR_MILITARY_BASE_ATTACK_ALERT
-    briefing:
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 2000
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END MILITARY BASE ATTACK
-
-#BEGIN PORT ATTACK
-  - type: STR_PORT_ATTACK
-    data: *TERROR_SETS
-    width: 60
-    length: 60
-    height: 8
-    civilians: 24
-    terrains:
-      - PORTURBAN
-      - PORTTFTD
-      - PORTINDUSTRIALURBAN
-    alert: STR_PORT_ATTACK_ALERT
-    briefing:
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 2000
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END PORT ATTACK
-
-#BEGIN ISLAND ATTACK
-  - type: STR_ISLAND_ATTACK
-    data: *TERROR_SETS
-    width: 60
-    length: 60
-    height: 8
-    civilians: 24
-    terrains:
-      - ISLANDURBAN
-    alert: STR_ISLAND_ATTACK_ALERT
+    alert: STR_TERROR_MISSION_MILITARY_BASE_ALERT
     alertBackground: BACK03.SCR
     briefing:
+      title: STR_TERROR_MISSION_MILITARY_BASE
+      desc: STR_TERROR_MISSION_MILITARY_BASE_BRIEFING
       palette: 2
-      music: GMENBASE
+      music: GMENBASE    
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 2000
+    despawnPenalty: 1500
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ISLAND ATTACK
+#END TERROR MISSION MILITARY BASE
+
+#BEGIN TERROR MISSION SHIP
+  - type: STR_TERROR_MISSION_SHIP
+    data: *TERROR_SETS
+    width: 30
+    length: 70
+    height: 8
+    civilians: 24
+    terrains:
+      - CARGOSHIP
+      - LINERSHIP
+    alert: STR_TERROR_MISSION_SHIP_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_TERROR_MISSION_SHIP
+      desc: STR_TERROR_MISSION_MILITARY_BASE_BRIEFING
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_MISSION_SHIP
+    duration: [4, 10]
+    popupDelay: [1, 1]
+    despawnPenalty: 1500
+    objectiveType: 3
+    objectivesRequired: 5
+    objectiveComplete: [STR_TERROR_MISSION_SHIP_DISABLED, 250]
+    objectiveFailed: [STR_TERROR_MISSION_SHIP_OPERATIONAL, -1000]
+    objectivePopup: STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END SHIP ATTACK
 ##END TERRORMISSIONS
 
+###WILL BE REMOVED SPAWNS VIA PORT ATTACK
 ##BEGIN SPECIAL MISSIONS
 #BEGIN DOCKED SHIP
   - type: STR_DOCKED_SHIP
@@ -2028,13 +2080,14 @@ alienDeployments:
       palette: 2
       music: GMENBASE
     duration: [4, 10]
-    despawnPenalty: 2000
+    despawnPenalty: 1500
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END DOCKED SHIP
 
+###WILL BE REMOVED SPAWNS VIA GEOSCAPE TEXTURE ASIGNMENT (if this works)
 #BEGIN SHIP ATTACK
   - type: STR_SHIP_ATTACK
     data: *TERROR_SETS
@@ -2053,11 +2106,11 @@ alienDeployments:
     markerName: STR_HIJACKED_SHIP
     duration: [4, 10]
     popupDelay: [1, 1]
-    despawnPenalty: 2000
+    despawnPenalty: 1500
     objectiveType: 3
     objectivesRequired: 5
     objectiveComplete: [STR_SHIP_DISABLED, 250]
-    objectiveFailed: [STR_SHIP_OPERATIONAL, -1000]
+    objectiveFailed: [STR_SHIP_OPERATIONAL, -1500]
     objectivePopup: STR_SHIP_NAVIGATION_DESTROYED
     cheatTurn: 7
     winCutscene: winMiss

@@ -8,7 +8,8 @@ terrains:
   - delete: POLAR
   - delete: URBAN
 
-###BEGIN EXPANDED UBASE
+##BEGIN ALIEN BASES
+#BEGIN EXPANDED UBASE
   - name: UBASE
     mapDataSets:
       - BLANKS
@@ -374,10 +375,11 @@ terrains:
         width: 20
         length: 20
         groups: 6
-###END EXPANDED UBASE
+#END EXPANDED UBASE
+##END ALIEN BASES
 
-###BEGIN TERROR TERRAINS
-##BEGIN TERRORMISSION
+###BEGIN TERROR MISSIONS
+##BEGIN URBAN TERROR
 #BEGIN URBAN
   - name: URBAN
     mapDataSets:
@@ -388,12 +390,7 @@ terrains:
       - FRNITURE
     civilianTypes: &CIVILIANS_URBAN
       - MALE_CIVILIAN
-      - MALE_CIVILIAN3
-      - MALE_CIVILIAN4
-      - MALE_CIVILIAN6
       - FEMALE_CIVILIAN
-      - FEMALE_CIVILIAN2
-      - FEMALE_CIVILIAN3
     script: URBAN
     mapBlocks: &URBAN_MAPS
       - name: URBAN00 #0 #EW Street
@@ -447,6 +444,21 @@ terrains:
         width: 10
         length: 10
 #END URBAN
+
+#BEGIN URBAN SNOW
+  - name: URBAN_SNOW
+    mapDataSets:
+      - BLANKS
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+    civilianTypes: &CIVILIANS_URBAN_SNOW
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: URBAN
+    mapBlocks: *URBAN_MAPS
+#END URBAN SNOW
 
 #BEGIN MADURBAN
   - name: MADURBAN
@@ -583,6 +595,20 @@ terrains:
         width: 10
         length: 10
 #END MADURBAN
+
+#BEGIN MADURBAN SNOW
+  - name: MADURBAN_SNOW
+    mapDataSets:
+      - BLANKS
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+      - MADDECOR
+    script: MADURBAN
+    civilianTypes: *CIVILIANS_URBAN_SNOW
+    mapBlocks: *MADURBAN_MAPS
+#END MADURBAN SNOW
 
 #BEGIN EXPANDED TERROR
   - name: EXPANDED_TERROR
@@ -721,6 +747,20 @@ terrains:
         width: 10
         length: 10
 #END EXPANDED TERROR
+
+#BEGIN EXPANDED TERROR SNOW
+  - name: EXPANDED_TERROR_SNOW
+    mapDataSets:
+      - BLANKS
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+      - MADDECOR
+    civilianTypes: *CIVILIANS_URBAN_SNOW
+    script: EXPANDED_TERROR
+    mapBlocks: *EXPANDED_TERROR_MAPS
+#END EXPANDED TERROR SNOW
 
 #BEGIN EXPANDED URBAN MIX
   - name: EXPANDED_URBAN_MIX
@@ -951,11 +991,23 @@ terrains:
         width: 20
         length: 20
 #END EXPANDED URBAN MIX
-##END TERROR MISSION
 
-##BEGIN TERROR MISSION BIG CITY
-#EXPANDED TERROR IS HERE IN DEPLOYMENTS
+#BEGIN EXPANDED URBAN MIX SNOW
+  - name: EXPANDED_URBAN_MIX_SNOW
+    mapDataSets:
+      - BLANKS
+      - ROADS_SNOW
+      - URBITS_SNOW
+      - URBAN_SNOW
+      - FRNITURE
+      - MADDECOR
+    script: EXPANDED_URBAN_MIX
+    civilianTypes: *CIVILIANS_URBAN_SNOW
+    mapBlocks: *EXPANDED_URBAN_MIX_MAPS
+#END EXPANDED URBAN MIX SNOW
+##END URBAN TERROR
 
+##BEGIN SUBURB TERROR
 #BEGIN DAMNURBANA
   - name: DAWNURBANA
     mapDataSets:
@@ -965,14 +1017,9 @@ terrains:
       - DAWNURBAN
       - DAWNFRNITURE
       - DAWNDECOR
-    civilianTypes:
+    civilianTypes: &CIVILIANS_SUBURB
       - MALE_CIVILIAN
-      - MALE_CIVILIAN3
-      - MALE_CIVILIAN4
-      - MALE_CIVILIAN6
       - FEMALE_CIVILIAN
-      - FEMALE_CIVILIAN2
-      - FEMALE_CIVILIAN3
     script: DAWNURBANA
     mapBlocks:
       - name: DAWNURBAN00 #0 #
@@ -1128,14 +1175,7 @@ terrains:
       - DAWNURBAN
       - DAWNFRNITURE
       - DAWNDECOR
-    civilianTypes:
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
-      - MALE_CIVILIAN3
-      - MALE_CIVILIAN4
-      - FEMALE_CIVILIAN
-      - FEMALE_CIVILIAN2
-      - FEMALE_CIVILIAN3
+    civilianTypes: *CIVILIANS_SUBURB
     script: DAWNURBANB
     mapBlocks:
       - name: DAWNURBAN40 #0 #
@@ -1246,14 +1286,7 @@ terrains:
       - COMMERCE
       - COMFRN
       - COMDECOR
-    civilianTypes:
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
-      - MALE_CIVILIAN3
-      - MALE_CIVILIAN4
-      - FEMALE_CIVILIAN
-      - FEMALE_CIVILIAN2
-      - FEMALE_CIVILIAN3
+    civilianTypes: *CIVILIANS_SUBURB
     script: COMRCURBAN
     mapBlocks:
       - name: COMRCURBAN00 #0 #
@@ -1334,6 +1367,166 @@ terrains:
         groups: 4
 #BEGIN COMMERCIAL URBAN
 
+#BEGIN DOWNTOWN
+  - name: DOWNTOWNURBAN
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_SUBURB
+    script: DOWNTOWNURBAN
+    mapBlocks:
+      - name: DOWNTOWNURBAN00
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN01
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN02
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN03
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN05
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN06
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN07
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN08
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN09
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN10
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN11
+        width: 10
+        length: 10
+        groups: 4
+      - name: DOWNTOWNURBAN12
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: DOWNTOWNURBAN14
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN15
+        width: 20
+        length: 20
+      - name: DOWNTOWNURBAN16
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN17
+        width: 10
+        length: 10
+      - name: DOWNTOWNURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN19
+        width: 10
+        length: 10
+        groups: 2
+      - name: DOWNTOWNURBAN20
+        width: 10
+        length: 10
+        groups: 1
+      - name: DOWNTOWNURBAN21
+        width: 10
+        length: 10
+#END DOWNTOWN
+##END SUBURB TERROR
+
+##BEGIN INDUSTRIAL TERROR
+#BEGIN INDUSTRIALURBAN
+  - name: INDUSTRIALURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+    civilianTypes: &CIVILIANS_INDUSTRIAL
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: INDUSTRIALURBAN
+    mapBlocks: &INDUSTRIAL_MAPS
+      - name: INDUSTRIALURBAN00 #0 #
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01 #1 #
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02 #2 #
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03 #3 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04 #4 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05 #5 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06 #6 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07 #7 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08 #8 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09 #9 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10 #10 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11 #11 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12 #12 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13 #13 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14 #14 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15 #15 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16 #16 #
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17 #17 #
+        width: 10
+        length: 10
+        groups: 1
+#END INDUSTRIALURBAN
+
 #BEGIN RAILYARDURBAN
   - name: RAILYARDURBAN
     mapDataSets:
@@ -1343,12 +1536,7 @@ terrains:
       - ROADS
       - URBITS
       - FRNITURE
-    civilianTypes:
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
-      - MALE_CIVILIAN4
-      - FEMALE_CIVILIAN
-      - MALE_CIVILIAN7
+    civilianTypes: *CIVILIANS_INDUSTRIAL
     script: RAILYARDURBAN
     mapBlocks:
       - name: RAILYARDURBAN00 #0 #
@@ -1443,447 +1631,9 @@ terrains:
         width: 10
         length: 10
 #END RAILYARDURBAN
-##END TERROR MISSION BIG CITY
+##END INDUSTRIAL TERROR
 
-##BEGIN TERROR MISSION INDUSTRIAL
-#EXPANDED TERROR IS HERE IN DEPLOYMENTS
-#PORTURBAN IS HERE IN DEPLOYMENTS
-#PORTINDUSTRIALURBAN IS HERE IN DEPLOYMENTS
-#RAILYARDURBAN IS HERE INDEPLOYMENTS
-
-#BEGIN INDUSTRIALURBAN
-  - name: INDUSTRIALURBAN
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-    civilianTypes:
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
-      - MALE_CIVILIAN4
-      - FEMALE_CIVILIAN
-    script: INDUSTRIALURBAN
-    mapBlocks: &INDUSTRIAL_MAPS
-      - name: INDUSTRIALURBAN00 #0 #
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN01 #1 #
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN02 #2 #
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN03 #3 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN04 #4 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN05 #5 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN06 #6 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN07 #7 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN08 #8 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN09 #9 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN10 #10 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN11 #11 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN12 #12 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN13 #13 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN14 #14 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN15 #15 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN16 #16 #
-        width: 10
-        length: 10
-        groups: 1
-      - name: INDUSTRIALURBAN17 #17 #
-        width: 10
-        length: 10
-        groups: 1
-#END INDUSTRIALURBAN
-##END TERROR MISSION INDUSTRIAL
-
-##BEGIN TERROR MISSION SNOW
-#BEGIN URBAN SNOW
-  - name: URBAN_SNOW
-    mapDataSets:
-      - BLANKS
-      - ROADS_SNOW
-      - URBITS_SNOW
-      - URBAN_SNOW
-      - FRNITURE
-    civilianTypes: *CIVILIANS_URBAN
-    script: URBAN
-    mapBlocks: *URBAN_MAPS
-#END URBAN SNOW
-
-#BEGIN MADURBAN SNOW
-  - name: MADURBAN_SNOW
-    mapDataSets:
-      - BLANKS
-      - ROADS_SNOW
-      - URBITS_SNOW
-      - URBAN_SNOW
-      - FRNITURE
-      - MADDECOR
-    script: MADURBAN
-    civilianTypes: *CIVILIANS_URBAN
-    mapBlocks: *MADURBAN_MAPS
-#END MADURBAN SNOW
-
-#BEGIN EXPANDED TERROR SNOW
-  - name: EXPANDED_TERROR_SNOW
-    mapDataSets:
-      - BLANKS
-      - ROADS_SNOW
-      - URBITS_SNOW
-      - URBAN_SNOW
-      - FRNITURE
-      - MADDECOR
-    civilianTypes: *CIVILIANS_URBAN
-    script: EXPANDED_TERROR
-    mapBlocks: *EXPANDED_TERROR_MAPS
-#END EXPANDED TERROR SNOW
-
-#BEGIN EXPANDED URBAN MIX SNOW
-  - name: EXPANDED_URBAN_MIX_SNOW
-    mapDataSets:
-      - BLANKS
-      - ROADS_SNOW
-      - URBITS_SNOW
-      - URBAN_SNOW
-      - FRNITURE
-      - MADDECOR
-    script: EXPANDED_URBAN_MIX
-    civilianTypes: *CIVILIANS_URBAN
-    mapBlocks: *EXPANDED_URBAN_MIX_MAPS
-#END EXPANDED URBAN MIX SNOW
-##END TERROR MISSION SNOW
-
-##BEGIN TROPICAL TERROR MISSION
-#BEGIN NATIVEURBAN
-  - name: NATIVEURBAN
-    mapDataSets:
-      - BLANKS
-      - JUNGLE
-      - BARN
-      - FRNITURE
-      - URBITS
-      - CULTIVAT
-    script: NATIVEURBAN
-    civilianTypes:
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
-      - MALE_CIVILIAN3
-      - MALE_CIVILIAN4
-      - FEMALE_CIVILIAN
-      - FEMALE_CIVILIAN3
-    mapBlocks: &NATIVE_MAPS
-      - name: NATIVEURBAN00 #0 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN01 #1 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN02 #2 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN03 #3 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN04 #4 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN05 #5 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN06 #6 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN07 #7 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN08 #8 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN09 #9 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN10 #10 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN11 #11 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN12 #12 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN13 #13 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN14 #14 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN15 #15 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN16 #16 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN17 #17 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN18 #18 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN19 #19 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN20 #20 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN21 #21 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN22 #22 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN23 #23 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN24 #24 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN25 #25 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN26 #26 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN27 #27 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN28 #28 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN29 #29 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN30 #30 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN31 #31 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN32 #32 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN33 #33 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN34 #34 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN35 #35 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN36 #36 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN37 #37 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN38 #38 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN39 #39 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN40 #40 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN41 #41 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN42 #42 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN43 #43 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN44 #44 #
-        width: 20
-        length: 20
-      - name: NATIVEURBAN45 #45 #
-        width: 10
-        length: 10
-      - name: NATIVEURBAN46 #46 #
-        width: 10
-        length: 10
-        groups: 1
-#END NATIVEURBAN
-##END TROPICAL TERROR MISSION
-
-##BEGIN ALIENS ATTACK MILITARY BASE
-#BEGIN AIRFIELD1
-  - name: AIRFIELD1
-    mapDataSets: &AIRFIELD_MCDS
-      - BLANKS
-      - AIRFIELDA
-      - AIRFIELDB
-      - AREA51_AT4
-      - AIRFIELDC
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD1
-    mapBlocks: &AIRFIELD_MAPS
-      - name: AIRFIELD00 #0 #
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: AIRFIELD01 #1 #
-        width: 20
-        length: 20
-        groups: 2
-      - name: AIRFIELD02 #2 #
-        width: 20
-        length: 20
-        groups: 3
-      - name: AIRFIELD03 #3 #
-        width: 10
-        length: 10
-      - name: AIRFIELD04 #4 #
-        width: 10
-        length: 10
-      - name: AIRFIELD05 #5 #
-        width: 20
-        length: 20
-      - name: AIRFIELD06 #6 #
-        width: 10
-        length: 10
-      - name: AIRFIELD07 #7 #
-        width: 20
-        length: 20
-      - name: AIRFIELD08 #8 #
-        width: 10
-        length: 10
-      - name: AIRFIELD09 #9 #
-        width: 10
-        length: 10
-      - name: AIRFIELD10 #10 #
-        width: 20
-        length: 20
-      - name: AIRFIELD11 #11 #
-        width: 20
-        length: 20
-        groups: 4
-      - name: AIRFIELD12 #12 #
-        width: 20
-        length: 20
-      - name: AIRFIELD13 #13 #
-        width: 10
-        length: 10
-      - name: AIRFIELD14 #14 #
-        width: 20
-        length: 20
-      - name: AIRFIELD15 #15 #
-        width: 20
-        length: 20
-      - name: AIRFIELD16 #16 #
-        width: 20
-        length: 20
-      - name: AIRFIELD17 #17 #
-        width: 20
-        length: 20
-      - name: AIRFIELD18 #18 #
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: AIRFIELD19 #19 #
-        width: 10
-        length: 10
-        groups: [0, 1]
-#END AIRFIELD1
-
-#BEGIN AIRFIELD2
-  - name: AIRFIELD2
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD2
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD2
-
-#BEGIN AIRFIELD3
-  - name: AIRFIELD3
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD3
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD3
-
-#BEGIN AIRFIELD4
-  - name: AIRFIELD4
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD4
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD4
-
-#BEGIN AIRFIELD5
-  - name: AIRFIELD5
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD5
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD5
-
-#BEGIN AIRFIELD6
-  - name: AIRFIELD6
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD6
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD6
-
-#BEGIN AIRFIELD7
-  - name: AIRFIELD7
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD7
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD7
-
-#BEGIN AIRFIELD8
-  - name: AIRFIELD8
-    mapDataSets: *AIRFIELD_MCDS
-    civilianTypes: *CIVILIANS_URBAN
-    script: AIRFIELD8
-    mapBlocks: *AIRFIELD_MAPS
-#END AIRFIELD8
-##END ALIENS ATTACK MILITARY BASE
-
-##BEGIN PORT ATTACK
+##BEGIN PORTINDUSTRIAL TERROR
 #BEGIN PORTTFTD
   - name: PORTTFTD
     mapDataSets:
@@ -1893,15 +1643,9 @@ terrains:
       - ROADS
       - URBITS
       - SEAURBAN
-    civilianTypes: &CIVILIANS_PORT
+    civilianTypes: &CIVILIANS_PORTINDUSTRIAL
       - MALE_CIVILIAN
-      - MALE_CIVILIAN3
-      - MALE_CIVILIAN4
-      - MALE_CIVILIAN6
       - FEMALE_CIVILIAN
-      - FEMALE_CIVILIAN2
-      - FEMALE_CIVILIAN3
-      - MALE_CIVILIAN7
     script: PORTTFTD
     mapBlocks:
       - name: PORTUFO00 #0 #
@@ -1989,7 +1733,7 @@ terrains:
       - ROADS
       - URBITS
       - SEAURBAN
-    civilianTypes: *CIVILIANS_PORT
+    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
     script: PORTURBAN
     mapBlocks:
       - name: PORTUFO00 #0 #
@@ -2119,7 +1863,7 @@ terrains:
       - ROADS
       - URBITS
       - SEAURBAN
-    civilianTypes: *CIVILIANS_PORT
+    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
     script: PORTINDUSTRIALURBAN
     mapBlocks:
       - name: PORTUFO00 #0 #
@@ -2259,74 +2003,7 @@ terrains:
         length: 10
         groups: 1
 #END PORTINDUSTRIALURBAN
-##END PORT ATTACK
 
-##BEGIN ISLAND ATTACK
-#BEGIN ISLANDURBAN
-  - name: ISLANDURBAN
-    mapDataSets:
-      - BLANKS
-      - SEAURBAN
-      - ISLANDURBAN1
-      - ISLANDURBAN2
-      - ISLANDURBAN3
-    civilianTypes: *CIVILIANS_URBAN
-    script: ISLANDURBAN
-    mapBlocks:
-      - name: ISLANDURBAN00 #0 #
-        width: 10
-        length: 10
-        groups: 1
-      - name: ISLANDURBAN01 #1 #
-        width: 10
-        length: 10
-        groups: 1
-      - name: ISLANDURBAN02 #2 #
-        width: 20
-        length: 20
-      - name: ISLANDURBAN03 #3 #
-        width: 20
-        length: 20
-      - name: ISLANDURBAN04 #4 #
-        width: 20
-        length: 20
-      - name: ISLANDURBAN05 #5 #
-        width: 20
-        length: 20
-      - name: ISLANDURBAN06 #6 #
-        width: 20
-        length: 20
-      - name: ISLANDURBAN07 #7 #
-        width: 10
-        length: 10
-        groups: 2
-      - name: ISLANDURBAN08 #8 #
-        width: 10
-        length: 10
-      - name: ISLANDURBAN09 #9 #
-        width: 10
-        length: 10
-      - name: ISLANDURBAN10 #10 #
-        width: 10
-        length: 10
-      - name: ISLANDURBAN11 #11 #
-        width: 10
-        length: 10
-      - name: ISLANDURBAN12 #12 #
-        width: 10
-        length: 10
-      - name: ISLANDURBAN13 #13 #
-        width: 10
-        length: 10
-      - name: ISLANDURBAN14 #14 #
-        width: 10
-        length: 10
-#END ISLAND URBAN
-##END ISLAND ATTACK
-###END TERRORMISSION
-
-###BEGIN SPECIAL MISSIONS
-##BEGIN SHIP MISSIONS
 #BEGIN PORTCARGOSHIP
   - name: PORTCARGOSHIP
     mapDataSets:
@@ -2336,7 +2013,7 @@ terrains:
       - ROADS
       - URBITS
       - SEAURBAN
-    civilianTypes: *CIVILIANS_PORT
+    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
     script: PORTCARGOSHIP
     mapBlocks: &PORTSHIP_MAPS
       - name: PORTUFO00 #0 #
@@ -2540,11 +2217,373 @@ terrains:
       - ROADS
       - URBITS
       - SEAURBAN
-    civilianTypes: *CIVILIANS_PORT
+    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
     script: PORTLINERSHIP
     mapBlocks: *PORTSHIP_MAPS
 #END PORTLINERSHIP
+##END PORTINDUSTRIAL TERROR
 
+##BEGIN EQUATORIAL TERROR
+#BEGIN NATIVEURBAN
+  - name: NATIVEURBAN
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - BARN
+      - FRNITURE
+      - URBITS
+      - CULTIVAT
+    script: NATIVEURBAN
+    civilianTypes: &CIVILIANS_EQUATORIAL
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks: &NATIVE_MAPS
+      - name: NATIVEURBAN00 #0 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN01 #1 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN02 #2 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN03 #3 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN04 #4 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN05 #5 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN06 #6 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN07 #7 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN08 #8 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN09 #9 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN10 #10 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN11 #11 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN12 #12 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN13 #13 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN14 #14 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN15 #15 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN16 #16 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN17 #17 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN18 #18 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN19 #19 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN20 #20 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN21 #21 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN22 #22 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN23 #23 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN24 #24 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN25 #25 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN26 #26 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN27 #27 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN28 #28 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN29 #29 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN30 #30 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN31 #31 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN32 #32 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN33 #33 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN34 #34 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN35 #35 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN36 #36 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN37 #37 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN38 #38 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN39 #39 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN40 #40 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN41 #41 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN42 #42 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN43 #43 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN44 #44 #
+        width: 20
+        length: 20
+      - name: NATIVEURBAN45 #45 #
+        width: 10
+        length: 10
+      - name: NATIVEURBAN46 #46 #
+        width: 10
+        length: 10
+        groups: 1
+#END NATIVEURBAN
+
+#BEGIN ISLANDURBAN
+  - name: ISLANDURBAN
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - ISLANDURBAN1
+      - ISLANDURBAN2
+      - ISLANDURBAN3
+    civilianTypes: *CIVILIANS_EQUATORIAL
+    script: ISLANDURBAN
+    mapBlocks:
+      - name: ISLANDURBAN00 #0 #
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN01 #1 #
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLANDURBAN02 #2 #
+        width: 20
+        length: 20
+      - name: ISLANDURBAN03 #3 #
+        width: 20
+        length: 20
+      - name: ISLANDURBAN04 #4 #
+        width: 20
+        length: 20
+      - name: ISLANDURBAN05 #5 #
+        width: 20
+        length: 20
+      - name: ISLANDURBAN06 #6 #
+        width: 20
+        length: 20
+      - name: ISLANDURBAN07 #7 #
+        width: 10
+        length: 10
+        groups: 2
+      - name: ISLANDURBAN08 #8 #
+        width: 10
+        length: 10
+      - name: ISLANDURBAN09 #9 #
+        width: 10
+        length: 10
+      - name: ISLANDURBAN10 #10 #
+        width: 10
+        length: 10
+      - name: ISLANDURBAN11 #11 #
+        width: 10
+        length: 10
+      - name: ISLANDURBAN12 #12 #
+        width: 10
+        length: 10
+      - name: ISLANDURBAN13 #13 #
+        width: 10
+        length: 10
+      - name: ISLANDURBAN14 #14 #
+        width: 10
+        length: 10
+#END ISLAND URBAN
+##END EQUATORIAL TERROR
+
+##BEGIN MILITARY BASE TERROR
+#BEGIN AIRFIELD1
+  - name: AIRFIELD1
+    mapDataSets: &AIRFIELD_MCDS
+      - BLANKS
+      - AIRFIELDA
+      - AIRFIELDB
+      - AREA51_AT4
+      - AIRFIELDC
+    civilianTypes: &CIVILIANS_MILITARYBASE
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: AIRFIELD1
+    mapBlocks: &AIRFIELD_MAPS
+      - name: AIRFIELD00 #0 #
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD01 #1 #
+        width: 20
+        length: 20
+        groups: 2
+      - name: AIRFIELD02 #2 #
+        width: 20
+        length: 20
+        groups: 3
+      - name: AIRFIELD03 #3 #
+        width: 10
+        length: 10
+      - name: AIRFIELD04 #4 #
+        width: 10
+        length: 10
+      - name: AIRFIELD05 #5 #
+        width: 20
+        length: 20
+      - name: AIRFIELD06 #6 #
+        width: 10
+        length: 10
+      - name: AIRFIELD07 #7 #
+        width: 20
+        length: 20
+      - name: AIRFIELD08 #8 #
+        width: 10
+        length: 10
+      - name: AIRFIELD09 #9 #
+        width: 10
+        length: 10
+      - name: AIRFIELD10 #10 #
+        width: 20
+        length: 20
+      - name: AIRFIELD11 #11 #
+        width: 20
+        length: 20
+        groups: 4
+      - name: AIRFIELD12 #12 #
+        width: 20
+        length: 20
+      - name: AIRFIELD13 #13 #
+        width: 10
+        length: 10
+      - name: AIRFIELD14 #14 #
+        width: 20
+        length: 20
+      - name: AIRFIELD15 #15 #
+        width: 20
+        length: 20
+      - name: AIRFIELD16 #16 #
+        width: 20
+        length: 20
+      - name: AIRFIELD17 #17 #
+        width: 20
+        length: 20
+      - name: AIRFIELD18 #18 #
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AIRFIELD19 #19 #
+        width: 10
+        length: 10
+        groups: [0, 1]
+#END AIRFIELD1
+
+#BEGIN AIRFIELD2
+  - name: AIRFIELD2
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD2
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD2
+
+#BEGIN AIRFIELD3
+  - name: AIRFIELD3
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD3
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD3
+
+#BEGIN AIRFIELD4
+  - name: AIRFIELD4
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD4
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD4
+
+#BEGIN AIRFIELD5
+  - name: AIRFIELD5
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD5
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD5
+
+#BEGIN AIRFIELD6
+  - name: AIRFIELD6
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD6
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD6
+
+#BEGIN AIRFIELD7
+  - name: AIRFIELD7
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD7
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD7
+
+#BEGIN AIRFIELD8
+  - name: AIRFIELD8
+    mapDataSets: *AIRFIELD_MCDS
+    civilianTypes: *CIVILIANS_MILITARYBASE
+    script: AIRFIELD8
+    mapBlocks: *AIRFIELD_MAPS
+#END AIRFIELD8
+##END MILITARY BASE TERROR
+
+##BEGIN SHIP TERROR
 #BEGIN CARGOSHIP
   - name: CARGOSHIP
     mapDataSets:
@@ -2554,7 +2593,9 @@ terrains:
       - CARGOSHIP2
       - CARGOSHIP3
       - CARGOSHIP4
-    civilianTypes: *CIVILIANS_PORT
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
     script: CARGOSHIP
     mapBlocks:
       - name: CARGOSHIP00
@@ -2572,7 +2613,9 @@ terrains:
       - LINERSHIPC
       - LINERSHIPD
       - SEAURBAN
-    civilianTypes: *CIVILIANS_PORT
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
     script: LINERSHIP
     mapBlocks:
       - name: LINERSHIP00
@@ -2582,7 +2625,8 @@ terrains:
         width: 30
         length: 50
 #END LINERSHIP
-###END SPECIAL MISSIONS
+##END SHIP TERROR
+###END TERRORMISSION
 
 ###BEGIN GLOBE TERRAINS
 ##BEGIN URBANUFO

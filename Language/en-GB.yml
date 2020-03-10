@@ -904,34 +904,33 @@ en-US:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
-  STR_TERROR_MISSION_BIG_CITY: "TERROR MISSION (Big City)"
-  STR_TERROR_MISSION_BIG_CITY_BRIEFING: "Mission will be successful when all enemy units have been eliminated or neutralized. You must attempt to save the lives of any civilians in the area by neutralizing the alien menace. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_SNOW: "TERROR MISSION SNOW"
 
-  STR_TERROR_MISSION_INDUSTRIAL: "TERROR MISSION (Industrial)"
-  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: "Mission will be successful when all enemy units have been eliminated or neutralized. You must attempt to save the lives of any civilians in the area by neutralizing the alien menace. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_SUBURB: "TERROR MISSION SUBURB"
 
-  STR_TERROR_MISSION_SNOW: "TERROR MISSION (Snow)"
-  STR_TERROR_MISSION_SNOW_BRIEFING: "Mission will be successful when all enemy units have been eliminated or neutralized. You must attempt to save the lives of any civilians in the area by neutralizing the alien menace. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_INDUSTRIAL: "TERROR MISSION INDUSTRIAL"
+  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: "Aliens have launched a attack against a industrialized urban area. The production facilities and its civilian poputlation have been put to risk. our squad must eliminate all aliens and protect innocent bystanders from this alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 
-  STR_TERROR_MISSION_TROPICAL: "TERROR MISSION (Tropical)"
-  STR_TERROR_MISSION_TROPICAL_BRIEFING: "Mission will be successful when all enemy units have been eliminated or neutralized. You must attempt to save the lives of any civilians in the area by neutralizing the alien menace. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_PORT: "TERROR MISSION PORT"
+  STR_TERROR_MISSION_PORT_BRIEFING: "Aliens have launched an attack against a coastal site. The port and its civilian population have been put to risk. Your squad must eliminate all aliens and protect the innocent bystanders from this alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 
-  STR_MILITARY_BASE_ATTACK: "ALIENS ATTACK MILITARY BASE"
-  STR_MILITARY_BASE_ATTACK_ALERT: "ALIENS ATTACK{NEWLINE} MILITARY BASE IN"
-  STR_MILITARY_BASE_ATTACK_BRIEFING: "Aliens have launched an attack against a military base. The military base and its personal are at risk. Your squad must eliminate all aliens, provide backup to the already engaged military troops and protect any innocent bystanders from this alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_TROPICAL: "TERROR MISSION TROPICAL"
 
-  STR_AIRFIELD_ATTACK: "ALIENS LAUNCH AIRFIELD ATTACK"
-  STR_AIRFIELD_ATTACK_ALERT: "ALIENS LAUNCH{NEWLINE}AIRFIELD ATTACK IN"
-  STR_AIRFIELD_ATTACK_BRIEFING: "Aliens have launched an attack against an military airfield. The facility and its personel have been put to risk. Your squad must eliminate all aliens and recover the airfield from this alien incursion. To quit, place XCom operatives into the transport vehicule and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_ISLAND: "TERROR MISSION ISLAND"
+  STR_TERROR_MISSION_ISLAND_BRIEFING: "Aliens have launched an attack against surface sites. The island and its civilian population have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 
-  STR_PORT_ATTACK: "ALIENS LAUNCH PORT ATTACK"
-  STR_PORT_ATTACK_ALERT: "ALIENS LAUNCH{NEWLINE}PORT ATTACK ON"
-  STR_PORT_ATTACK_BRIEFING: "Aliens have launched an attack against a coastal site. The port and its civilian population have been put to risk. Your squad must eliminate all aliens and protect the innocent bystanders from this alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_MILITARY_BASE: "TERROR MISSION MILITARY BASE"
+  STR_TERROR_MISSION_MILITARY_BASE_ALERT: "ALIENS ATTACK{NEWLINE} MILITARY BASE IN"
+  STR_TERROR_MISSION_MILITARY_BASE_BRIEFING: "Aliens have launched an attack against a military base. The military base and its personal are at risk. Your squad must eliminate all aliens, provide backup to the already engaged military troops and protect any innocent bystanders from this alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 
-  STR_ISLAND_ATTACK: "ALIENS LAUNCH ISLAND ATTACK"
-  STR_ISLAND_ATTACK_ALERT: "ALIENS LAUNCH{NEWLINE}ISLAND ATTACK ON"
-  STR_ISLAND_ATTACK_BRIEFING: "Aliens have launched an attack against surface sites. The island and its civilian population have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_SHIP: "TERROR MISSION SHIP"
+  STR_TERROR_MISSION_SHIP_ALERT: "ALIENS ATTACK{NEWLINE} CIVILIAN SHIP AT SEA"
+  STR_TERROR_MISSION_SHIP_BRIEFING: "A civilian ship has been hijacked by the aliens and it is currently heading at full speed towards a heavily populated area.  The ship's navigation systems on its bridge must be destroyed to disable this ship and prevent a possible catastrophe.  To quit, place XCom operatives into the craft or exit area and click on the 'Abort Mission' icon."
+  STR_TERROR_MISSION_SHIP_DISABLED: "SHIP DISABLED"
+  STR_TERROR_MISSION_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
+  STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
 
+###REMOVED IN FUTURE
   STR_ALIEN_ACTIVITY_DETECTED: "ALIEN ACTIVITY DETECTED"
   STR_DOCKED_SHIP: "DOCKED SHIP"
   STR_DOCKED_SHIP_BRIEFING: "We are detecting an unidentified transmission coming from one of the ships docked at a local port. Your orders are to stop the alien activity and secure any data to help us understand their intentions. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
@@ -942,6 +941,7 @@ en-US:
   STR_SHIP_DISABLED: "SHIP DISABLED"
   STR_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
   STR_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
+###REMOVED IN FUTURE
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
@@ -960,6 +960,7 @@ en-US:
   MAP_DESERTMOUNT: "Desert Mountain"
   MAP_DESERTTEMPLE: "Desert Temple"
   MAP_DESERTPLANE: "Desert Plane"
+  MAP_DOWNTOWNURBAN: "Downtown"
   MAP_DAWNURBANA: "Dawn City A"
   MAP_DAWNURBANB: "Dawn City B"
   MAP_EXPANDED_TERROR: "Expanded Terror"
