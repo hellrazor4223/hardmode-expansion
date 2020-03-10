@@ -1,7 +1,6 @@
 Changelog:
 
 Version 0.99.8
- - Hardmode Expansion is now a master mod!
  - Adjust xcom score penalties
  - Adjust Terror Mission asignments
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
