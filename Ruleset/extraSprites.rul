@@ -1,87 +1,75 @@
 ###BEGIN EXTRASPRITES
 extraSprites:
+
 ##BEGIN BIGOB
+#VANILLA OVERWRITES ID: 0 - 56
   - type: BIGOBS.PCK
     files:
+
+#BEGIN ITEM BIGOBS
       3: Resources/Items/Pistol/BigOb_Pistol.png
       5: Resources/Items/LaserPistol/BigOb_LaserPistol.png
       6: Resources/Items/HeavyLaserSniper/BigOb_HeavyLaserSniper.png
       7: Resources/Items/AutoCannon/BigOb_AutoCannon.png
       15: Resources/Items/RocketLauncher/BigOb_RocketLauncher.png
       20: Resources/Items/SmokeGrenade/BigOb_SmokeGrenade.png
-      28: Resources/Units/PersonalArmor/BigOb_PersonalArmor_Corpse.png
       31: Resources/Items/PlasmaRifle/BigOb_PlasmaRifle.png
       32: Resources/Items/PlasmaPistol/BigOb_PlasmaPistol.png
       34: Resources/Items/PlasmaPistol/BigOb_PlasmaPistol_Clip.png
       35: Resources/Items/BlasterLauncher/BigOb_BlasterLauncher.png
       41: Resources/Items/PlasmaRifle/BigOb_PlasmaRifle_Clip.png
+      139: Resources/Items/CombatKnife/BigOb_CombatKnife.png
+      140: Resources/Items/AlloyKnife/BigOb_AlloyKnife.png
+      141: Resources/Items/AlloySword/BigOb_AlloySword.png
+      118: Resources/Items/TaserPistol/BigOb_TaserPistol.png
+      119: Resources/Items/TaserPistol/BigOb_TaserPistol_Clip.png
       100: Resources/Items/Pistol/BigOb_Pistol_AlienAlloy_Clip.png
-      101: Resources/Items/Rifle/BigOb_Rifle_AlienAlloy_Clip.png
       102: Resources/Items/Shotgun/BigOb_Shotgun.png
-      103: Resources/Items/ScatterLaser/BigOb_ScatterLaser.png
-      104: Resources/Items/Shotgun/BigOb_ShotgunAmmo.png
+      104: Resources/Items/Shotgun/BigOb_Shotgun_Clip.png
       105: Resources/Items/Shotgun/BigOb_Shotgun_AlienAlloy_Clip.png
+      101: Resources/Items/Rifle/BigOb_Rifle_AlienAlloy_Clip.png
       107: Resources/Items/SniperRifle/BigOb_SniperRifle.png
       108: Resources/Items/SniperRifle/BigOb_SniperRifle_Clip.png
       109: Resources/Items/SniperRifle/BigOb_SniperRifle_AlienAlloy_Clip.png
       110: Resources/Items/HeavyCannon/BigOb_HeavyCannon_AlienAlloy_Clip.png
       111: Resources/Items/AutoCannon/BigOb_AutoCannon_AlienAlloy_Clip.png
+      152: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher.png
+      153: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_HE_Ammo.png
+      154: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_IC_Ammo.png
+      155: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_Smoke_Ammo.png
+      150: Resources/Items/RocketLauncher/BigOb_EleriumRocket.png
+      103: Resources/Items/ScatterLaser/BigOb_ScatterLaser.png
       112: Resources/Items/HeavyLaserAuto/BigOb_HeavyLaserAuto.png
       113: Resources/Items/IncendiaryGrenade/BigOb_IncendiaryGrenade.png
+      151: Resources/Items/FlashBangGrenade/BigOb_FlashbangGrenade.png
       114: Resources/Items/StunGrenade/BigOb_StunGrenade.png
+      179: Resources/Items/FireGrenade/BigOb_FireGrenade.png
       115: Resources/Items/FieldMediPack/BigOb_FieldMediPack.png
       116: Resources/Items/MediKit/BigOb_MediKit.png
       117: Resources/Items/AdvancedMediKit/BigOb_AdvancedMediKit.png
-      118: Resources/Items/TaserPistol/BigOb_TaserPistol.png
-      119: Resources/Items/TaserPistol/BigOb_TaserPistol_Clip.png
+      161: Resources/Items/PlasmaBlade/BigOb_PlasmaBlade.png
+      162: Resources/Items/PlasmaSword/BigOb_PlasmaSword.png
       120: Resources/Items/PlasmaShotgun/BigOb_PlasmaShotgun.png
       121: Resources/Items/PlasmaShotgun/BigOb_PlasmaShotgun_Clip.png
       122: Resources/Items/PlasmaShotgun/BigOb_PlasmaShotgun_Elerium_Clip.png
       123: Resources/Items/PlasmaSniperRifle/BigOb_PlasmaSniperRifle.png
       124: Resources/Items/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Clip.png
-      125: Resources/Items/SmallLauncher/BigOb_EleriumBomb.png
-      126: Resources/Units/AlloyTank/BigOb_AlloyTank_Canon.png
-      127: Resources/Units/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
-      128: Resources/Units/AlloyTank/BigOb_AlloyTank_Laser.png
-      129: Resources/Units/ArmoredVest/BigOb_ArmoredVest_Corpse.png
-      130: Resources/Units/AlloyVest/BigOb_AlloyVest_Corpse.png
-      131: Resources/Units/Waspite/BigOb_Waspite_Corpse.png
-      132: Resources/Units/Cybermite/BigOb_Cybermite_Corpse.png
-      133: Resources/Units/Gazer/BigOb_Gazer_Corpse.png
-      134: Resources/Units/Holodrone/BigOb_Holodrone_Corpse.png
-      135: Resources/Units/MutonElite/BigOb_MutonElite_Corpse.png
-      136: Resources/Units/MutonEliteGuard/BigOb_MutonEliteGuard_Corpse.png
-      137: Resources/Items/AlienDataSlate/BigOb_AlienDataSlate.png
-      138: Resources/Items/AlienDataCore/BigOb_AlienDataCore.png
-      139: Resources/Items/CombatKnife/BigOb_CombatKnife.png
-      140: Resources/Items/AlloyKnife/BigOb_AlloyKnife.png
-      141: Resources/Items/AlloySword/BigOb_AlloySword.png
-      142: Resources/Units/MaleCivilian_Rocker/BigOb_MaleCivilian_Rocker_Corpse.png
-      143: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/BigOb_MaleCivilian_BlackVest_WhiteShirt_Corpse.png
-      144: Resources/Units/MaleCivilian_ConstructionWorker/BigOb_MaleCivilian_ConstructionWorker_Corpse.png
-      145: Resources/Units/MaleCivilian_Sailor/BigOb_MaleCivilian_Sailor_Corpse.png
-      146: Resources/Units/MaleCivilian_Baggydude/BigOb_MaleCivilian_Baggydude_Corpse.png
-      147: Resources/Units/MaleCivilian_Mechanic/BigOb_MaleCivilian_Mechanic_Corpse.png
-      148: Resources/Units/FemaleCivilian_SuitBlack_HairRed/BigOb_FemaleCivilian_SuitBlack_HairRed_Corpse.png
-      149: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/FloorOb_FemaleCivilian_SuitBlue_HairBlond_Corpse.png
-      150: Resources/Items/RocketLauncher/BigOb_EleriumRocket.png
-      151: Resources/Items/FlashBangGrenade/BigOb_FlashbangGrenade.png
-      152: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher.png
-      153: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_HE_Ammo.png
-      154: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_IC_Ammo.png
-      155: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_Smoke_Ammo.png
       156: Resources/Items/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Elerium_Clip.png
-      157: Resources/Units/FlyingSuit/BigOb_FlyingSuit_Corpse.png
-      158: Resources/Units/SectoidElite/BigOb_SectoidElite_Corpse.png
-      159: Resources/Units/ReinforcedPowerSuit/BigOb_ReinforcedPowerSuit_Corpse.png
-      160: Resources/Units/ReinforcedFlyingSuit/BigOb_ReinforcedFlyingSuit_Corpse.png
-      161: Resources/Items/PlasmaBlade/BigOb_PlasmaBlade.png
-      162: Resources/Items/PlasmaSword/BigOb_PlasmaSword.png
-      163: Resources/Units/WalkertankPlasma/BigOb_WalkertankPlasma.png
-      164: Resources/Units/ChryssalidSpitter/BigOb_ChryssalidSpitter_Corpse.png
+      180: Resources/Items/HeavyPlasma/BigOb_HeavyPlasma_Clip.png
+      125: Resources/Items/SmallLauncher/BigOb_EleriumBomb.png
       165: Resources/Items/SmallLauncher/BigOb_FireBomb.png
       166: Resources/Items/SmallLauncher/BigOb_SmokeBomb.png
-      167: Resources/Units/MutonBerserker/BigOb_MutonBerserker_Corpse.png
+      137: Resources/Items/AlienDataSlate/BigOb_AlienDataSlate.png
+      138: Resources/Items/AlienDataCore/BigOb_AlienDataCore.png
+#END ITEM BIGOBS
+
+#BEGIN UNIT BIGOBS
+      129: Resources/Units/ArmoredVest/BigOb_ArmoredVest_Corpse.png
+      130: Resources/Units/AlloyVest/BigOb_AlloyVest_Corpse.png
+      28: Resources/Units/PersonalArmor/BigOb_PersonalArmor_Corpse.png #VANILLA OVERWRITE
+      157: Resources/Units/FlyingSuit/BigOb_FlyingSuit_Corpse.png
+      159: Resources/Units/ReinforcedPowerSuit/BigOb_ReinforcedPowerSuit_Corpse.png
+      160: Resources/Units/ReinforcedFlyingSuit/BigOb_ReinforcedFlyingSuit_Corpse.png
       168: Resources/Units/Drones/BigOb_DroneSmoke_Weapon.png
       169: Resources/Units/Drones/BigOb_DroneScanner_Weapon.png
       170: Resources/Units/Drones/BigOb_DroneTaser_Weapon.png
@@ -93,13 +81,36 @@ extraSprites:
       176: Resources/Units/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
       177: Resources/Units/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
       178: Resources/Units/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
-      179: Resources/Items/FireGrenade/BigOb_FireGrenade.png
-      180: Resources/Items/HeavyPlasma/BigOb_HeavyPlasma_Clip.png
-##END BIGOB
+      126: Resources/Units/AlloyTank/BigOb_AlloyTank_Canon.png
+      127: Resources/Units/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
+      128: Resources/Units/AlloyTank/BigOb_AlloyTank_Laser.png
+      163: Resources/Units/WalkertankPlasma/BigOb_WalkertankPlasma.png
+      167: Resources/Units/MutonBerserker/BigOb_MutonBerserker_Corpse.png
+      131: Resources/Units/Waspite/BigOb_Waspite_Corpse.png
+      132: Resources/Units/Cybermite/BigOb_Cybermite_Corpse.png
+      133: Resources/Units/Gazer/BigOb_Gazer_Corpse.png
+      134: Resources/Units/Holodrone/BigOb_Holodrone_Corpse.png
+      158: Resources/Units/SectoidElite/BigOb_SectoidElite_Corpse.png
+      135: Resources/Units/MutonElite/BigOb_MutonElite_Corpse.png
+      136: Resources/Units/MutonEliteGuard/BigOb_MutonEliteGuard_Corpse.png
+      164: Resources/Units/ChryssalidSpitter/BigOb_ChryssalidSpitter_Corpse.png
+      142: Resources/Units/MaleCivilian_Rocker/BigOb_MaleCivilian_Rocker_Corpse.png
+      143: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/BigOb_MaleCivilian_BlackVest_WhiteShirt_Corpse.png
+      144: Resources/Units/MaleCivilian_ConstructionWorker/BigOb_MaleCivilian_ConstructionWorker_Corpse.png
+      145: Resources/Units/MaleCivilian_Sailor/BigOb_MaleCivilian_Sailor_Corpse.png
+      146: Resources/Units/MaleCivilian_Baggydude/BigOb_MaleCivilian_Baggydude_Corpse.png
+      147: Resources/Units/MaleCivilian_Mechanic/BigOb_MaleCivilian_Mechanic_Corpse.png
+      148: Resources/Units/FemaleCivilian_SuitBlack_HairRed/BigOb_FemaleCivilian_SuitBlack_HairRed_Corpse.png
+      149: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/FloorOb_FemaleCivilian_SuitBlue_HairBlond_Corpse.png
+#END UNIT BIGOBS
+##END BIGOBS
 
 ##BEGIN FLOOROB
+#VANILLA OVERWRITES ID: 0 - 72
   - type: FLOOROB.PCK
     files:
+
+#BEGIN ITEM FLOOROB
       5: Resources/Items/LaserPistol/FloorOb_LaserPistol.png
       6: Resources/Items/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png
       7: Resources/Items/AutoCannon/FloorOb_AutoCannon.png
@@ -107,87 +118,61 @@ extraSprites:
       20: Resources/Items/SmokeGrenade/FloorOb_SmokeGrenade.png
       30: Resources/Items/PlasmaRifle/FloorOb_PlasmaRifle.png
       34: Resources/Items/BlasterLauncher/FloorOb_BlasterLauncher.png
-      40: Resources/Units/PersonalArmor/FloorOb_PersonalArmor_Corpse.png
+      136: Resources/Items/CombatKnife/FloorOb_CombatKnife.png
+      137: Resources/Items/AlloyKnife/FloorOb_AlloyKnife.png
+      138: Resources/Items/AlloySword/FloorOb_AlloySword.png
+      113: Resources/Items/TaserPistol/FloorOb_TaserPistol.png
+      114: Resources/Items/TaserPistol/FloorOb_TaserPistol_Clip.png
+      172: Resources/Items/Pistol/FloorOb_Pistol_AA_Clip.png
       100: Resources/Items/Shotgun/FloorOb_Shotgun.png
-      101: Resources/Items/ScatterLaser/FloorOb_ScatterLaser.png
       102: Resources/Items/Shotgun/FloorOb_Shotgun_Clip.png
       103: Resources/Items/Shotgun/FloorOb_Shotgun_AlienAlloy_Clip.png
+      173: Resources/Items/Rifle/FloorOb_Rifle_AA_Clip.png
       105: Resources/Items/SniperRifle/FloorOb_SniperRifle.png
       106: Resources/Items/SniperRifle/FloorOb_SniperRifle_Clip.png
+      176: Resources/Items/SniperRifle/FloorOb_SniperRifle_AA_Clip.png
+      174: Resources/Items/HeavyCannon/FloorOb_HeavyCannon_AA_Clip.png
+      175: Resources/Items/AutoCannon/FloorOb_AutoCannon_AA_Clip.png
+      149: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher.png
+      150: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_HE_Ammo.png
+      151: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_IC_Ammo.png
+      152: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_Smoke_Ammo.png
+      147: Resources/Items/RocketLauncher/FloorOb_EleriumRocket.png
+      101: Resources/Items/ScatterLaser/FloorOb_ScatterLaser.png
       107: Resources/Items/HeavyLaserAuto/FloorOb_HeavyLaserAuto.png
       108: Resources/Items/IncendiaryGrenade/FloorOb_IncendiaryGrenade.png
+      148: Resources/Items/FlashBangGrenade/FloorOb_FlasbangGrenade.png
       109: Resources/Items/StunGrenade/FloorOb_StunGrenade.png
+      192: Resources/Items/FireGrenade/FloorOb_FireGrenade.png
       110: Resources/Items/FieldMediPack/FloorOb_FieldMediPack.png
       111: Resources/Items/MediKit/FloorOb_MediKit.png
       112: Resources/Items/AdvancedMediKit/FloorOb_AdvancedMediKit.png
-      113: Resources/Items/TaserPistol/FloorOb_TaserPistol.png
-      114: Resources/Items/TaserPistol/FloorOb_TaserPistol_Clip.png
+      166: Resources/Items/PlasmaBlade/FloorOb_PlasmaBlade.png
+      167: Resources/Items/PlasmaSword/FloorOb_PlasmaSword.png
+      189: Resources/Items/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
+      190: Resources/Items/PlasmaRifle/FloorOb_PlasmaRifle_Clip.png
       115: Resources/Items/PlasmaShotgun/FloorOb_PlasmaShotgun.png
       116: Resources/Items/PlasmaShotgun/FloorOb_PlasmaShotgun_Clip.png
       117: Resources/Items/PlasmaShotgun/FloorOb_PlasmaShotgun_Elerium_Clip.png
       118: Resources/Items/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle.png
       119: Resources/Items/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Clip.png
-      120: Resources/Items/SmallLauncher/FloorOb_EleriumBomb.png
-      121: Resources/Items/Elerium/FloorOb_Elerium.png
-      122: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_1.png
-      123: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
-      124: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_3.png
-      125: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_4.png
-      126: Resources/Units/ArmoredVest/FloorOb_ArmoredVest_Corpse.png
-      127: Resources/Units/AlloyVest/FloorOb_AlloyVest_Corpse.png
-      128: Resources/Units/Waspite/FloorOb_Waspite_Corpse.png
-      129: Resources/Units/Cybermite/FloorOb_Cybermite_Corpse.png
-      130: Resources/Units/Gazer/FloorOb_Gazer_Corpse.png
-      131: Resources/Units/Holodrone/FloorOb_Holodrone_Corpse.png
-      132: Resources/Units/MutonElite/FloorOb_MutonElite_Corpse.png
-      133: Resources/Units/MutonEliteGuard/FloorOb_MutonEliteGuard_Corpse.png
-      134: Resources/Items/AlienDataSlate/FloorOb_AlienDataSlate.png
-      135: Resources/Items/AlienDataCore/FloorOb_AlienDataCore.png
-      136: Resources/Items/CombatKnife/FloorOb_CombatKnife.png
-      137: Resources/Items/AlloyKnife/FloorOb_AlloyKnife.png
-      138: Resources/Items/AlloySword/FloorOb_AlloySword.png
-      139: Resources/Units/MaleCivilian_Rocker/FloorOb_MaleCivilian_Rocker_Corpse.png
-      140: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/FloorOb_MaleCivilian_BlackVest_WhiteShirt_Corpse.png
-      141: Resources/Units/MaleCivilian_ConstructionWorker/FloorOb_MaleCivilian_ConstructionWorker_Corpse.png
-      142: Resources/Units/MaleCivilian_Sailor/FloorOb_MaleCivilian_Sailor_Corpse.png
-      143: Resources/Units/MaleCivilian_Baggydude/FloorOb_MaleCivilian_Baggydude_Corpse.png
-      144: Resources/Units/MaleCivilian_Mechanic/FloorOb_MaleCivilian_Mechanic_Corpse.png
-      145: Resources/Units/FemaleCivilian_SuitBlack_HairRed/FloorOb_FemaleCivilian_SuitBlack_HairRed_Corpse.png
-      146: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/FloorOb_FemaleCivilian_SuitBlue_HairBlond_Corpse.png
-      147: Resources/Items/RocketLauncher/FloorOb_EleriumRocket.png
-      148: Resources/Items/FlashBangGrenade/FloorOb_FlasbangGrenade.png
-      149: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher.png
-      150: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_HE_Ammo.png
-      151: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_IC_Ammo.png
-      152: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_Smoke_Ammo.png
       153: Resources/Items/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Elerium_Clip.png
-      154: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_1.png
-      155: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_2.png
-      156: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_3.png
-      157: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_4.png
-      158: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_1.png
-      159: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_2.png
-      160: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_3.png
-      161: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_4.png
-      162: Resources/Units/FlyingSuit/FloorOb_FlyingSuit_Corpse.png
-      163: Resources/Units/SectoidElite/FloorOb_SectoidElite_Corpse.png
-      164: Resources/Units/ReinforcedPowerSuit/FloorOb_ReinforcedPowerSuit_Corpse.png
-      165: Resources/Units/ReinforcedFlyingSuit/FloorOb_ReinforcedFlyingSuit_Corpse.png
-      166: Resources/Items/PlasmaBlade/FloorOb_PlasmaBlade.png
-      167: Resources/Items/PlasmaSword/FloorOb_PlasmaSword.png
-      168: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_1.png
-      169: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_2.png
-      170: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_3.png
-      171: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_4.png
-      172: Resources/Items/Pistol/FloorOb_Pistol_AA_Clip.png
-      173: Resources/Items/Rifle/FloorOb_Rifle_AA_Clip.png
-      174: Resources/Items/HeavyCannon/FloorOb_HeavyCannon_AA_Clip.png
-      175: Resources/Items/AutoCannon/FloorOb_AutoCannon_AA_Clip.png
-      176: Resources/Items/SniperRifle/FloorOb_SniperRifle_AA_Clip.png
-      177: Resources/Units/ChryssalidSpitter/FloorOb_ChryssalidSpitter_Corpse.png
+      191: Resources/Items/HeavyPlasma/FloorOb_HeavyPlasma_Clip.png
+      120: Resources/Items/SmallLauncher/FloorOb_EleriumBomb.png
       178: Resources/Items/SmallLauncher/FloorOb_FireBomb.png
       179: Resources/Items/SmallLauncher/FloorOb_SmokeBomb.png
-      180: Resources/Units/MutonBerserker/FloorOb_MutonBerserker_Corpse.png
+      121: Resources/Items/Elerium/FloorOb_Elerium.png
+      134: Resources/Items/AlienDataSlate/FloorOb_AlienDataSlate.png
+      135: Resources/Items/AlienDataCore/FloorOb_AlienDataCore.png
+#END ITEM FLOOROB
+
+#BEGIN UNIT FLOOROB
+      126: Resources/Units/ArmoredVest/FloorOb_ArmoredVest_Corpse.png
+      127: Resources/Units/AlloyVest/FloorOb_AlloyVest_Corpse.png
+      40: Resources/Units/PersonalArmor/FloorOb_PersonalArmor_Corpse.png #VANILLA OVERWRITE
+      162: Resources/Units/FlyingSuit/FloorOb_FlyingSuit_Corpse.png
+      164: Resources/Units/ReinforcedPowerSuit/FloorOb_ReinforcedPowerSuit_Corpse.png
+      165: Resources/Units/ReinforcedFlyingSuit/FloorOb_ReinforcedFlyingSuit_Corpse.png
       181: Resources/Units/Drones/DroneScout/FloorOb_DroneScout_Corpse.png
       182: Resources/Units/Drones/DroneScanner/FloorOb_DroneScanner_Corpse.png
       183: Resources/Units/Drones/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
@@ -196,13 +181,46 @@ extraSprites:
       186: Resources/Units/Drones/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
       187: Resources/Units/Drones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
       188: Resources/Units/Drones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
-      189: Resources/Items/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
-      190: Resources/Items/PlasmaRifle/FloorOb_PlasmaRifle_Clip.png
-      191: Resources/Items/HeavyPlasma/FloorOb_HeavyPlasma_Clip.png
-      192: Resources/Items/FireGrenade/FloorOb_FireGrenade.png
+      122: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_1.png
+      123: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
+      124: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_3.png
+      125: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_4.png
+      168: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_1.png
+      169: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_2.png
+      170: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_3.png
+      171: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_4.png
+      180: Resources/Units/MutonBerserker/FloorOb_MutonBerserker_Corpse.png
+      128: Resources/Units/Waspite/FloorOb_Waspite_Corpse.png
+      129: Resources/Units/Cybermite/FloorOb_Cybermite_Corpse.png
+      130: Resources/Units/Gazer/FloorOb_Gazer_Corpse.png
+      131: Resources/Units/Holodrone/FloorOb_Holodrone_Corpse.png
+      163: Resources/Units/SectoidElite/FloorOb_SectoidElite_Corpse.png
+      154: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_1.png
+      155: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_2.png
+      156: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_3.png
+      157: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_4.png
+      132: Resources/Units/MutonElite/FloorOb_MutonElite_Corpse.png
+      133: Resources/Units/MutonEliteGuard/FloorOb_MutonEliteGuard_Corpse.png
+      158: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_1.png
+      159: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_2.png
+      160: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_3.png
+      161: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_4.png
+      177: Resources/Units/ChryssalidSpitter/FloorOb_ChryssalidSpitter_Corpse.png
+      139: Resources/Units/MaleCivilian_Rocker/FloorOb_MaleCivilian_Rocker_Corpse.png
+      140: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/FloorOb_MaleCivilian_BlackVest_WhiteShirt_Corpse.png
+      141: Resources/Units/MaleCivilian_ConstructionWorker/FloorOb_MaleCivilian_ConstructionWorker_Corpse.png
+      142: Resources/Units/MaleCivilian_Sailor/FloorOb_MaleCivilian_Sailor_Corpse.png
+      143: Resources/Units/MaleCivilian_Baggydude/FloorOb_MaleCivilian_Baggydude_Corpse.png
+      144: Resources/Units/MaleCivilian_Mechanic/FloorOb_MaleCivilian_Mechanic_Corpse.png
+      145: Resources/Units/FemaleCivilian_SuitBlack_HairRed/FloorOb_FemaleCivilian_SuitBlack_HairRed_Corpse.png
+      146: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/FloorOb_FemaleCivilian_SuitBlue_HairBlond_Corpse.png
+#END UNIT FLOOROB
 ##END FLOOROB
 
 ##BEGIN HANDOB
+#VANILLA OVERWRITES ID: 0 - 127
+
+#BEGIN ITEM HANDOB
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -215,8 +233,14 @@ extraSprites:
       56: Resources/Items/BlasterLauncher/HandOb_BlasterLauncher.png
       72: Resources/Items/RocketLauncher/HandOb_RocketLauncher.png
       112: Resources/Items/LaserPistol/HandOb_LaserPistol.png
+      416: Resources/Items/CombatKnife/HandOb_CombatKnife.png
+      424: Resources/Items/AlloySword/HandOb_AlloySword.png
+      312: Resources/Items/TaserPistol/HandOb_TaserPistol.png
+      600: Resources/Items/TaserPistol/HandOb_TaserPistol_Clip.png
       128: Resources/Items/Pistol/HandOb_Pistol_Clip.png
+      536: Resources/Items/Pistol/HandOb_Pistol_AA_Clip.png
       136: Resources/Items/Rifle/HandOb_Rifle_Clip.png
+      544: Resources/Items/Rifle/HandOb_Rifle_AA_Clip.png
   - type: HANDOB.PCK
     width: 128
     height: 80
@@ -224,6 +248,39 @@ extraSprites:
     subY: 40
     files:
       144: Resources/Items/Shotgun/HandOb_Shotgun.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      584: Resources/Items/Shotgun/HandOb_Shotgun_Clip.png
+      592: Resources/Items/Shotgun/HandOb_Shotgun_AA_Clip.png
+      160: Resources/Items/SniperRifle/HandOb_SniperRifle.png
+      568: Resources/Items/SniperRifle/HandOb_SniperRifle_Clip.png
+      576: Resources/Items/SniperRifle/HandOb_SniperRifle_AA_Clip.png
+      168: Resources/Items/HeavyCannon/HandOb_HeavyCannon_AP_Clip.png
+      176: Resources/Items/HeavyCannon/HandOb_HeavyCannon_HE_Clip.png
+      184: Resources/Items/HeavyCannon/HandOb_HeavyCannon_IN_Clip.png
+      560: Resources/Items/HeavyCannon/HandOb_HeavyCannon_AA_Clip.png
+      192: Resources/Items/AutoCannon/HandOb_AutoCannon_AP_Clip.png
+      200: Resources/Items/AutoCannon/HandOb_AutoCannon_HE_Clip.png
+      208: Resources/Items/AutoCannon/HandOb_AutoCannon_IN_Clip.png
+      552: Resources/Items/AutoCannon/HandOb_AutoCannon_AA_Clip.png
+      448: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher.png
+      472: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_HE_Ammo.png
+      480: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_IC_Ammo.png
+      488: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_Smoke_Ammo.png
+      216: Resources/Items/RocketLauncher/HandOb_SmallRocket.png
+      224: Resources/Items/RocketLauncher/HandOb_LargeRocket.png
+      232: Resources/Items/RocketLauncher/HandOb_IncendiaryRocket.png
+      528: Resources/Items/RocketLauncher/HandOb_EleriumRocket.png
+  - type: HANDOB.PCK
+    width: 128
+    height: 80
+    subX: 32
+    subY: 40
+    files:
       152: Resources/Items/ScatterLaser/HandOb_ScatterLaser.png
   - type: HANDOB.PCK
     width: 256
@@ -231,65 +288,39 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      160: Resources/Items/SniperRifle/HandOb_SniperRifle.png
-      168: Resources/Items/HeavyCannon/HandOb_HeavyCannon_AP_Clip.png
-      176: Resources/Items/HeavyCannon/HandOb_HeavyCannon_HE_Clip.png
-      184: Resources/Items/HeavyCannon/HandOb_HeavyCannon_IN_Clip.png
-      192: Resources/Items/AutoCannon/HandOb_AutoCannon_AP_Clip.png
-      200: Resources/Items/AutoCannon/HandOb_AutoCannon_HE_Clip.png
-      208: Resources/Items/AutoCannon/HandOb_AutoCannon_IN_Clip.png
-      216: Resources/Items/RocketLauncher/HandOb_SmallRocket.png
-      224: Resources/Items/RocketLauncher/HandOb_LargeRocket.png
-      232: Resources/Items/RocketLauncher/HandOb_IncendiaryRocket.png
       240: Resources/Items/HeavyLaserAuto/HandOb_HeavyLaserAuto.png
       248: Resources/Items/SmokeGrenade/HandOb_SmokeGrenade.png
       256: Resources/Items/ProxieGrenade/HandOb_ProxieGrenade.png
       264: Resources/Items/IncendiaryGrenade/HandOb_IncendiaryGrenade.png
+      440: Resources/Items/FlashBangGrenade/HandOb_FlashbangGrenade.png
+      432: Resources/Items/StunGrenade/HandOb_StunGrenade.png
+      624: Resources/Items/FireGrenade/HandOb_FireGrenade.png
       272: Resources/Items/HighExplosiv/HandOb_HighExplosiv.png
       280: Resources/Items/MotionScanner/HandOb_MotionScanner.png
       288: Resources/Items/FieldMediPack/HandOb_FieldMediPack.png
       296: Resources/Items/MediKit/HandOb_MediKit.png
       304: Resources/Items/AdvancedMediKit/HandOb_Advanced_MediKit.png
-      312: Resources/Items/TaserPistol/HandOb_TaserPistol.png
       320: Resources/Items/ElectroFlare/HandOb_ElectroFlare.png
-      328: Resources/Items/HeavyPlasma/HandOb_HeavyPlasma_Clip.png
-      336: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun.png
-      344: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle.png
-      352: Resources/Items/PlasmaRifle/HandOb_PlasmaRifle_Clip.png
-      360: Resources/Items/PlasmaPistol/HandOb_PlasmaPistol_Clip.png
-      368: Resources/Items/BlasterLauncher/HandOb_BlasterBomb.png
-      376: Resources/Items/SmallLauncher/HandOb_StunBomb.png
-      384: Resources/Items/SmallLauncher/HandOb_EleriumBomb.png
-      392: Resources/Items/AlienGrenade/HandOb_AlienGrenade.png
-      400: Resources/Items/Elerium/HandOb_Elerium.png
-      408: Resources/Items/MindProbe/HandOb_MindProbe.png
-      416: Resources/Items/CombatKnife/HandOb_CombatKnife.png
-      424: Resources/Items/AlloySword/HandOb_AlloySword.png
-      432: Resources/Items/StunGrenade/HandOb_StunGrenade.png
-      440: Resources/Items/FlashBangGrenade/HandOb_FlashbangGrenade.png
-      448: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher.png
-      456: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Clip.png
-      464: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Elerium_Clip.png
-      472: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_HE_Ammo.png
-      480: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_IC_Ammo.png
-      488: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_Smoke_Ammo.png
       496: Resources/Items/PlasmaBlade/HandOb_PlasmaBlade.png
       504: Resources/Items/PlasmaSword/HandOb_PlasmaSword.png
+      360: Resources/Items/PlasmaPistol/HandOb_PlasmaPistol_Clip.png
+      352: Resources/Items/PlasmaRifle/HandOb_PlasmaRifle_Clip.png
+      336: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun.png
       512: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun_Clip.png
       520: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun_Elerium_Clip.png
-      528: Resources/Items/RocketLauncher/HandOb_EleriumRocket.png
-      536: Resources/Items/Pistol/HandOb_Pistol_AA_Clip.png
-      544: Resources/Items/Rifle/HandOb_Rifle_AA_Clip.png
-      552: Resources/Items/AutoCannon/HandOb_AutoCannon_AA_Clip.png
-      560: Resources/Items/HeavyCannon/HandOb_HeavyCannon_AA_Clip.png
-      568: Resources/Items/SniperRifle/HandOb_SniperRifle_Clip.png
-      576: Resources/Items/SniperRifle/HandOb_SniperRifle_AA_Clip.png
-      584: Resources/Items/Shotgun/HandOb_Shotgun_Clip.png
-      592: Resources/Items/Shotgun/HandOb_Shotgun_AA_Clip.png
-      600: Resources/Items/TaserPistol/HandOb_TaserPistol_Clip.png
+      344: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle.png
+      456: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Clip.png
+      464: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Elerium_Clip.png
+      328: Resources/Items/HeavyPlasma/HandOb_HeavyPlasma_Clip.png
+      376: Resources/Items/SmallLauncher/HandOb_StunBomb.png
+      384: Resources/Items/SmallLauncher/HandOb_EleriumBomb.png
       608: Resources/Items/SmallLauncher/HandOb_FireBomb.png
       616: Resources/Items/SmallLauncher/HandOb_SmokeBomb.png
-      624: Resources/Items/FireGrenade/HandOb_FireGrenade.png
+      368: Resources/Items/BlasterLauncher/HandOb_BlasterBomb.png
+      392: Resources/Items/AlienGrenade/HandOb_AlienGrenade.png
+      408: Resources/Items/MindProbe/HandOb_MindProbe.png
+      400: Resources/Items/Elerium/HandOb_Elerium.png
+#END ITEM HANDOB
 ##END HANDOB
 
 ##BEGIN TEXTURES
@@ -602,7 +633,7 @@ extraSprites:
     files:
       0: Resources/Units/ReinforcedFlyingSuit/SpriteSheet_ReinforcedFlyingSuit.png
 #END REINFORCED FLYING SUIT
-##BEGIN XCOM ARMOR
+##END XCOM ARMOR
 
 ##BEGIN DRONES
 #BEGIN DRONE SCOUT
