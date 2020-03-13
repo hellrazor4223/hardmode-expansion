@@ -957,6 +957,16 @@ extraSprites:
     files: 
       0: Resources/Units/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter_Autopsy.png
 #END CHRYSSALID SPITTER
+
+#BEGIN SPITTER ZOMBIE
+  - type: SPITTER_ZOMBIE.PCK
+    width: 256
+    height: 480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/SpitterZombie/SpriteSheet_SpitterZombie.png
+#END SPITTER ZOMBIE
 ##END ALIENS
 
 ##BEGIN CIVILIANS

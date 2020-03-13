@@ -1329,6 +1329,34 @@ units:
     energyRecovery: 60
     livingWeapon: true
 #END CHRYSSALID SPITTER
+
+#BEGIN SPITTER ZOMBIE
+  - type: STR_SPITTER_ZOMBIE
+    race: STR_ZOMBIE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 50
+      stamina: 110
+      health: 84
+      bravery: 110
+      reactions: 50
+      firing: 0
+      throwing: 0
+      strength: 94
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+    armor: SPITTER_ZOMBIE_ARMOR
+    standHeight: 18
+    kneelHeight: 18
+    value: 18
+    intelligence: 3
+    aggression: 8
+    energyRecovery: 30
+    spawnUnit: STR_CHRYSSALID_SPITTER_TERRORIST
+    livingWeapon: true
+    # Zombies are silent on death, no deathSound
+#END SPITTER ZOMBIE
 ##END TERROR UNITS
 ###END ALIENS
 

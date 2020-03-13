@@ -1,6 +1,9 @@
 Changelog:
 
 Version 0.99.8
+ - Add Chryssalid Spitter Zombie
+ - Add Downtown Terrain from Terrain Pack 4.3
+ - Add Terrain Pack 4.3 Licence file
  - Adjust xcom score penalties
  - Adjust Terror Mission asignments
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
@@ -10,8 +13,6 @@ Version 0.99.8
  - Fix Craft spawn position for CargoShip
  - Fix some typos while doing Terrorsite restructure
  - Remove AREA51 Terrains as requested from Hobbes
- - Add Downtown Terrain from Terrain Pack 4.3
- - Add Terrain Pack 4.3 Licence file
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check

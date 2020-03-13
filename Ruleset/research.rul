@@ -2247,6 +2247,15 @@ research:
     needItem: true
     listOrder: 3523
 #END CHRYSSALID SPITTER
+
+#BEGIN SPITTER ZOMBIE
+  - name: STR_SPITTER_ZOMBIE_CORPSE
+    cost: 270
+    points: 50
+    lookup: STR_ZOMBIE_AUTOPSY
+    needItem: true
+    listOrder: 3524
+#END SPITTER ZOMBIE
 ##END ALIEN TERRORIST CORPSES
 
 #BEGIN ALIEN RESEARCH

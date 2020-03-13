@@ -2,7 +2,7 @@
 armors:
 
 ##BEGIN XCOM ARMORS
-#BEGIN ARMORED VES
+#BEGIN ARMORED VEST
   - type: STR_ARMORED_VEST_UC
     spriteSheet: ARMOREDVEST.PCK
     spriteInv: MAN_4
@@ -196,7 +196,7 @@ armors:
 #END FLYING SUIT
 ##END XCOM ARMOR
 
-##BEGIN DRONES
+##BEGIN XCOM TANK ARMORS
 #BEGIN DRONE SCOUT ARMOR
   - type: DRONE_SCOUT_ARMOR
     spriteSheet: DRONE_SCOUT.PCK
@@ -270,9 +270,7 @@ armors:
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END DRONE TASER ARMOR
-##END DRONE ARMORS
 
-##BEGIN ALLOY DRONE ARMORs
 #BEGIN ALLOY DRONE SCOUT ARMOR
   - type: ALLOY_DRONE_SCOUT_ARMOR
     spriteSheet: ALLOY_DRONE_SCOUT.PCK
@@ -346,9 +344,7 @@ armors:
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END ALLOY DRONE TASER ARMOR
-##END DRONES
 
-##BEGIN TANKS
 #BEGIN TANK CANNON ARMOR
   - type: TANK_CANNON_ARMOR
     spriteSheet: TANKS.PCK
@@ -616,9 +612,11 @@ armors:
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
 #END WALKERTANK PLASMA
-##END TANKS
+##END XCOM TANK ARMORS
+###END XCOM ARMORS
 
-##BEGIN ALIEN ARMORS
+###BEGIN ALIEN ARMORS
+##BEGIN ALIEN NORMAL ARMORS
 #BEGIN FLOATER ARMOR
   - type: FLOATER_ARMOR0
     spriteInv: floaterInventoryImage
@@ -881,7 +879,9 @@ armors:
     damageModifier: *MUTON_ELITE_GUAR_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END MUTON ELITE GUARD ARMOR
+##END ALIEN NORMAL ARMORS
 
+##BEGIN ALIEN TERROR ARMORS
 #BEGIN REAPER ARMOR
   - type: REAPER_ARMOR
     spriteSheet: X_REAP.PCK
@@ -1090,9 +1090,37 @@ armors:
     damageModifier: *CHRYSSALID_DAMAGE_MODIFER
     loftempsSet: [ 3 ]
 #END CHRYSSALID SPITTER ARMOR
-##END ALIEN ARMORS
 
-##BEGIN CIVILIANS
+#BEGIN SPITTER ZOMBIE
+  - type: SPITTER_ZOMBIE_ARMOR
+    spriteSheet: SPITTER_ZOMBIE.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_SPITTER_ZOMBIE_CORPSE
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 1.0
+      - 0.8
+      - 0.7
+      - 0.7
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    deathFrames: 18
+#END SPITTER ZOMBIE
+##END ALIEN TERROR ARMORS
+###END ALIEN ARMORS
+
+##BEGIN CIVILIANS ARMORS
+#BEGIN MALE ARMORS
   - type: CIVM_ARMOR
     allowInv: false
     frontArmor: 12
@@ -1194,6 +1222,9 @@ armors:
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+#END MALE ARMORS
+
+#BEGIN FEMALE ARMORS
   - type: FEMALE_CIVILIAN2_ARMOR
     spriteSheet: FEMALE_CIVILIAN2.PCK
     allowInv: false
@@ -1220,5 +1251,6 @@ armors:
     underArmor: 2
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+#END FEMALE ARMORS
 ##END CIVILIANS
 ###END ARMORS

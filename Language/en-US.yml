@@ -604,6 +604,9 @@ en-US:
   STR_CHRYSSALID_SPITTER_AUTOPSY: "Chryssalid Spitter Autopsy"
   STR_CHRYSSALID_SPITTER_AUTOPSY_UFOPEDIA: "This strange creature appears to be a more deadly variant of the Chryssalid species. A membranous sac located within the cloaca produces an acidic compound, and provides pressure to eject the eggs at a high velocity to penetrate armour. With the help of the acid, this creature can implant victims from quite long ranges. It seems this creature was designed to infect large proportions of population in an even faster time."
 
+  STR_SPITTER_ZOMBIE: "Spitter Zombie"
+  STR_SPITTER_ZOMBIE_CORPSE: "Spitter Zombie Corpse"
+
   STR_CYDONIA_STAGE_1: "Cydonia Mixed One"
   STR_CYDONIA_STAGE_2: "Cydonia Mixed Two"
 #END ALIEN RACES
