@@ -241,19 +241,7 @@ extraSprites:
       536: Resources/Items/Pistol/HandOb_Pistol_AA_Clip.png
       136: Resources/Items/Rifle/HandOb_Rifle_Clip.png
       544: Resources/Items/Rifle/HandOb_Rifle_AA_Clip.png
-  - type: HANDOB.PCK
-    width: 128
-    height: 80
-    subX: 32
-    subY: 40
-    files:
       144: Resources/Items/Shotgun/HandOb_Shotgun.png
-  - type: HANDOB.PCK
-    width: 256
-    height: 40
-    subX: 32
-    subY: 40
-    files:
       584: Resources/Items/Shotgun/HandOb_Shotgun_Clip.png
       592: Resources/Items/Shotgun/HandOb_Shotgun_AA_Clip.png
       160: Resources/Items/SniperRifle/HandOb_SniperRifle.png
@@ -275,19 +263,7 @@ extraSprites:
       224: Resources/Items/RocketLauncher/HandOb_LargeRocket.png
       232: Resources/Items/RocketLauncher/HandOb_IncendiaryRocket.png
       528: Resources/Items/RocketLauncher/HandOb_EleriumRocket.png
-  - type: HANDOB.PCK
-    width: 128
-    height: 80
-    subX: 32
-    subY: 40
-    files:
       152: Resources/Items/ScatterLaser/HandOb_ScatterLaser.png
-  - type: HANDOB.PCK
-    width: 256
-    height: 40
-    subX: 32
-    subY: 40
-    files:
       240: Resources/Items/HeavyLaserAuto/HandOb_HeavyLaserAuto.png
       248: Resources/Items/SmokeGrenade/HandOb_SmokeGrenade.png
       256: Resources/Items/ProxieGrenade/HandOb_ProxieGrenade.png
