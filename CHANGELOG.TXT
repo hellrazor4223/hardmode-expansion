@@ -12,6 +12,7 @@ Version 0.99.8
  - Fix requires for Alloy Drone Armor Ufopaedia Article
  - Fix Craft spawn position for CargoShip
  - Fix some typos while doing Terrorsite restructure
+ - Fix listorder for Taser Pistol/Pistol
  - Remove AREA51 Terrains as requested from Hobbes
 
 Version 0.99.7

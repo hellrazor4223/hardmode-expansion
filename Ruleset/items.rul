@@ -1340,6 +1340,49 @@ items:
     listOrder: 1804
 #END ALLOY SWORD
 
+#BEGIN TASER PISTOL
+  - type: STR_TASER_PISTOL
+    size: 0.2
+    costBuy: 1800
+    costSell: 600
+    weight: 5
+    bigSprite: 118
+    floorSprite: 113
+    handSprite: 312
+    bulletSprite: 12
+    fireSound: 103
+    compatibleAmmo:
+      - STR_TASER_PISTOL_CLIP
+    accuracySnap: 80
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 45
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    maxRange: 5
+    listOrder: 1805
+  - type: STR_TASER_PISTOL_CLIP
+    size: 0.1
+    costBuy: 200
+    costSell: 100
+    weight: 1
+    bigSprite: 119
+    floorSprite: 114
+    handSprite: 600
+    hitSound: 54
+    hitAnimation: 100
+    blastRadius: 0 
+    power: 40
+    damageType: 6
+    clipSize: 6
+    battleType: 2
+    armor: 20
+    listOrder: 1806
+#END TASER PISTOL
+
 #BEGIN PISTOL
   - type: STR_PISTOL
     compatibleAmmo:
@@ -1371,49 +1414,6 @@ items:
     armor: 20
     listOrder: 2001
 #END PISTOL
-
-#BEGIN TASER PISTOL
-  - type: STR_TASER_PISTOL
-    size: 0.2
-    costBuy: 1800
-    costSell: 600
-    weight: 5
-    bigSprite: 118
-    floorSprite: 113
-    handSprite: 312
-    bulletSprite: 12
-    fireSound: 103
-    compatibleAmmo:
-      - STR_TASER_PISTOL_CLIP
-    accuracySnap: 80
-    accuracyAimed: 100
-    tuSnap: 30
-    tuAimed: 45
-    battleType: 1
-    twoHanded: false
-    invWidth: 1
-    invHeight: 2
-    armor: 20
-    maxRange: 5
-    listOrder: 2002
-  - type: STR_TASER_PISTOL_CLIP
-    size: 0.1
-    costBuy: 200
-    costSell: 100
-    weight: 1
-    bigSprite: 119
-    floorSprite: 114
-    handSprite: 600
-    hitSound: 54
-    hitAnimation: 100
-    blastRadius: 0 
-    power: 40
-    damageType: 6
-    clipSize: 6
-    battleType: 2
-    armor: 20
-    listOrder: 2003
-#END TASER PISTOL
 
 #BEGIN RIFLE
   - type: STR_RIFLE
