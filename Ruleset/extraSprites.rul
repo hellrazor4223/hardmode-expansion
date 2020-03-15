@@ -7,101 +7,93 @@ extraSprites:
     files:
 
 #BEGIN ITEM BIGOBS
-      3: Resources/Items/Pistol/BigOb_Pistol.png
-      5: Resources/Items/LaserPistol/BigOb_LaserPistol.png
-      6: Resources/Items/HeavyLaserSniper/BigOb_HeavyLaserSniper.png
-      7: Resources/Items/AutoCannon/BigOb_AutoCannon.png
-      15: Resources/Items/RocketLauncher/BigOb_RocketLauncher.png
-      20: Resources/Items/SmokeGrenade/BigOb_SmokeGrenade.png
-      31: Resources/Items/PlasmaRifle/BigOb_PlasmaRifle.png
-      32: Resources/Items/PlasmaPistol/BigOb_PlasmaPistol.png
-      34: Resources/Items/PlasmaPistol/BigOb_PlasmaPistol_Clip.png
-      35: Resources/Items/BlasterLauncher/BigOb_BlasterLauncher.png
-      41: Resources/Items/PlasmaRifle/BigOb_PlasmaRifle_Clip.png
-      139: Resources/Items/CombatKnife/BigOb_CombatKnife.png
-      140: Resources/Items/AlloyKnife/BigOb_AlloyKnife.png
-      141: Resources/Items/AlloySword/BigOb_AlloySword.png
-      118: Resources/Items/TaserPistol/BigOb_TaserPistol.png
-      119: Resources/Items/TaserPistol/BigOb_TaserPistol_Clip.png
-      100: Resources/Items/Pistol/BigOb_Pistol_AlienAlloy_Clip.png
-      102: Resources/Items/Shotgun/BigOb_Shotgun.png
-      104: Resources/Items/Shotgun/BigOb_Shotgun_Clip.png
-      105: Resources/Items/Shotgun/BigOb_Shotgun_AlienAlloy_Clip.png
-      101: Resources/Items/Rifle/BigOb_Rifle_AlienAlloy_Clip.png
-      107: Resources/Items/SniperRifle/BigOb_SniperRifle.png
-      108: Resources/Items/SniperRifle/BigOb_SniperRifle_Clip.png
-      109: Resources/Items/SniperRifle/BigOb_SniperRifle_AlienAlloy_Clip.png
-      110: Resources/Items/HeavyCannon/BigOb_HeavyCannon_AlienAlloy_Clip.png
-      111: Resources/Items/AutoCannon/BigOb_AutoCannon_AlienAlloy_Clip.png
-      152: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher.png
-      153: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_HE_Ammo.png
-      154: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_IC_Ammo.png
-      155: Resources/Items/GrenadeLauncher/BigOb_GrenadeLauncher_Smoke_Ammo.png
-      150: Resources/Items/RocketLauncher/BigOb_EleriumRocket.png
-      103: Resources/Items/ScatterLaser/BigOb_ScatterLaser.png
-      112: Resources/Items/HeavyLaserAuto/BigOb_HeavyLaserAuto.png
-      113: Resources/Items/IncendiaryGrenade/BigOb_IncendiaryGrenade.png
-      151: Resources/Items/FlashBangGrenade/BigOb_FlashbangGrenade.png
-      179: Resources/Items/FireGrenade/BigOb_FireGrenade.png
-      114: Resources/Items/StunGrenade/BigOb_StunGrenade.png
-      115: Resources/Items/FieldMediPack/BigOb_FieldMediPack.png
-      116: Resources/Items/MediKit/BigOb_MediKit.png
-      117: Resources/Items/AdvancedMediKit/BigOb_AdvancedMediKit.png
-      161: Resources/Items/PlasmaBlade/BigOb_PlasmaBlade.png
-      162: Resources/Items/PlasmaSword/BigOb_PlasmaSword.png
-      120: Resources/Items/PlasmaShotgun/BigOb_PlasmaShotgun.png
-      121: Resources/Items/PlasmaShotgun/BigOb_PlasmaShotgun_Clip.png
-      122: Resources/Items/PlasmaShotgun/BigOb_PlasmaShotgun_Elerium_Clip.png
-      123: Resources/Items/PlasmaSniperRifle/BigOb_PlasmaSniperRifle.png
-      124: Resources/Items/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Clip.png
-      156: Resources/Items/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Elerium_Clip.png
-      180: Resources/Items/HeavyPlasma/BigOb_HeavyPlasma_Clip.png
-      125: Resources/Items/SmallLauncher/BigOb_EleriumBomb.png
-      165: Resources/Items/SmallLauncher/BigOb_FireBomb.png
-      166: Resources/Items/SmallLauncher/BigOb_SmokeBomb.png
-      137: Resources/Items/AlienDataSlate/BigOb_AlienDataSlate.png
-      138: Resources/Items/AlienDataCore/BigOb_AlienDataCore.png
+      3: Resources/Items/Xcom/Pistol/BigOb_Pistol.png
+      5: Resources/Items/Xcom/LaserPistol/BigOb_LaserPistol.png
+      6: Resources/Items/Xcom/HeavyLaserSniper/BigOb_HeavyLaserSniper.png
+      7: Resources/Items/Xcom/AutoCannon/BigOb_AutoCannon.png
+      15: Resources/Items/Xcom/RocketLauncher/BigOb_RocketLauncher.png
+      20: Resources/Items/Xcom/SmokeGrenade/BigOb_SmokeGrenade.png
+      31: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle.png
+      32: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol.png
+      34: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol_Clip.png
+      35: Resources/Items/Alien/BlasterLauncher/BigOb_BlasterLauncher.png
+      41: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle_Clip.png
+      139: Resources/Items/Xcom/CombatKnife/BigOb_CombatKnife.png
+      140: Resources/Items/Xcom/AlloyKnife/BigOb_AlloyKnife.png
+      141: Resources/Items/Xcom/AlloySword/BigOb_AlloySword.png
+      118: Resources/Items/Xcom/TaserPistol/BigOb_TaserPistol.png
+      119: Resources/Items/Xcom/TaserPistol/BigOb_TaserPistol_Clip.png
+      100: Resources/Items/Xcom/Pistol/BigOb_Pistol_AlienAlloy_Clip.png
+      102: Resources/Items/Xcom/Shotgun/BigOb_Shotgun.png
+      104: Resources/Items/Xcom/Shotgun/BigOb_Shotgun_Clip.png
+      105: Resources/Items/Xcom/Shotgun/BigOb_Shotgun_AlienAlloy_Clip.png
+      101: Resources/Items/Xcom/Rifle/BigOb_Rifle_AlienAlloy_Clip.png
+      107: Resources/Items/Xcom/SniperRifle/BigOb_SniperRifle.png
+      108: Resources/Items/Xcom/SniperRifle/BigOb_SniperRifle_Clip.png
+      109: Resources/Items/Xcom/SniperRifle/BigOb_SniperRifle_AlienAlloy_Clip.png
+      110: Resources/Items/Xcom/HeavyCannon/BigOb_HeavyCannon_AlienAlloy_Clip.png
+      111: Resources/Items/Xcom/AutoCannon/BigOb_AutoCannon_AlienAlloy_Clip.png
+      152: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher.png
+      153: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_HE_Ammo.png
+      154: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_IC_Ammo.png
+      155: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_Smoke_Ammo.png
+      150: Resources/Items/Xcom/RocketLauncher/BigOb_EleriumRocket.png
+      103: Resources/Items/Xcom/ScatterLaser/BigOb_ScatterLaser.png
+      112: Resources/Items/Xcom/HeavyLaserAuto/BigOb_HeavyLaserAuto.png
+      113: Resources/Items/Xcom/IncendiaryGrenade/BigOb_IncendiaryGrenade.png
+      151: Resources/Items/Xcom/FlashBangGrenade/BigOb_FlashbangGrenade.png
+      179: Resources/Items/Xcom/FireGrenade/BigOb_FireGrenade.png
+      114: Resources/Items/Xcom/StunGrenade/BigOb_StunGrenade.png
+      115: Resources/Items/Xcom/FieldMediPack/BigOb_FieldMediPack.png
+      116: Resources/Items/Xcom/MediKit/BigOb_MediKit.png
+      117: Resources/Items/Xcom/AdvancedMediKit/BigOb_AdvancedMediKit.png
+      161: Resources/Items/Alien/PlasmaBlade/BigOb_PlasmaBlade.png
+      162: Resources/Items/Alien/PlasmaSword/BigOb_PlasmaSword.png
+      120: Resources/Items/Alien/PlasmaShotgun/BigOb_PlasmaShotgun.png
+      121: Resources/Items/Alien/PlasmaShotgun/BigOb_PlasmaShotgun_Clip.png
+      122: Resources/Items/Alien/PlasmaShotgun/BigOb_PlasmaShotgun_Elerium_Clip.png
+      123: Resources/Items/Alien/PlasmaSniperRifle/BigOb_PlasmaSniperRifle.png
+      124: Resources/Items/Alien/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Clip.png
+      156: Resources/Items/Alien/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Elerium_Clip.png
+      180: Resources/Items/Alien/HeavyPlasma/BigOb_HeavyPlasma_Clip.png
+      125: Resources/Items/Alien/SmallLauncher/BigOb_EleriumBomb.png
+      165: Resources/Items/Alien/SmallLauncher/BigOb_FireBomb.png
+      166: Resources/Items/Alien/SmallLauncher/BigOb_SmokeBomb.png
+      137: Resources/Items/Alien/AlienDataSlate/BigOb_AlienDataSlate.png
+      138: Resources/Items/Alien/AlienDataCore/BigOb_AlienDataCore.png
 #END ITEM BIGOBS
 
 #BEGIN UNIT BIGOBS
-      129: Resources/Units/ArmoredVest/BigOb_ArmoredVest_Corpse.png
-      130: Resources/Units/AlloyVest/BigOb_AlloyVest_Corpse.png
-      28: Resources/Units/PersonalArmor/BigOb_PersonalArmor_Corpse.png #VANILLA OVERWRITE
-      157: Resources/Units/FlyingSuit/BigOb_FlyingSuit_Corpse.png
-      159: Resources/Units/ReinforcedPowerSuit/BigOb_ReinforcedPowerSuit_Corpse.png
-      160: Resources/Units/ReinforcedFlyingSuit/BigOb_ReinforcedFlyingSuit_Corpse.png
-      168: Resources/Units/Drones/BigOb_DroneSmoke_Weapon.png
-      169: Resources/Units/Drones/BigOb_DroneScanner_Weapon.png
-      170: Resources/Units/Drones/BigOb_DroneTaser_Weapon.png
-      171: Resources/Units/Drones/DroneScout/BigOb_DroneScout_Corpse.png
-      172: Resources/Units/Drones/DroneScanner/BigOb_DroneScanner_Corpse.png
-      173: Resources/Units/Drones/DroneMedikit/BigOb_DroneMedikit_Corpse.png
-      174: Resources/Units/Drones/DroneTaser/BigOb_DroneTaser_Corpse.png
-      175: Resources/Units/Drones/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
-      176: Resources/Units/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
-      177: Resources/Units/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
-      178: Resources/Units/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
-      126: Resources/Units/AlloyTank/BigOb_AlloyTank_Canon.png
-      127: Resources/Units/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
-      128: Resources/Units/AlloyTank/BigOb_AlloyTank_Laser.png
-      163: Resources/Units/WalkertankPlasma/BigOb_WalkertankPlasma.png
-      167: Resources/Units/MutonBerserker/BigOb_MutonBerserker_Corpse.png
-      131: Resources/Units/Waspite/BigOb_Waspite_Corpse.png
-      132: Resources/Units/Cybermite/BigOb_Cybermite_Corpse.png
-      133: Resources/Units/Gazer/BigOb_Gazer_Corpse.png
-      134: Resources/Units/Holodrone/BigOb_Holodrone_Corpse.png
-      158: Resources/Units/SectoidElite/BigOb_SectoidElite_Corpse.png
-      135: Resources/Units/MutonElite/BigOb_MutonElite_Corpse.png
-      136: Resources/Units/MutonEliteGuard/BigOb_MutonEliteGuard_Corpse.png
-      164: Resources/Units/ChryssalidSpitter/BigOb_ChryssalidSpitter_Corpse.png
-      142: Resources/Units/MaleCivilian_Rocker/BigOb_MaleCivilian_Rocker_Corpse.png
-      143: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/BigOb_MaleCivilian_BlackVest_WhiteShirt_Corpse.png
-      144: Resources/Units/MaleCivilian_ConstructionWorker/BigOb_MaleCivilian_ConstructionWorker_Corpse.png
-      145: Resources/Units/MaleCivilian_Sailor/BigOb_MaleCivilian_Sailor_Corpse.png
-      146: Resources/Units/MaleCivilian_Baggydude/BigOb_MaleCivilian_Baggydude_Corpse.png
-      147: Resources/Units/MaleCivilian_Mechanic/BigOb_MaleCivilian_Mechanic_Corpse.png
-      148: Resources/Units/FemaleCivilian_SuitBlack_HairRed/BigOb_FemaleCivilian_SuitBlack_HairRed_Corpse.png
-      149: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/FloorOb_FemaleCivilian_SuitBlue_HairBlond_Corpse.png
+      129: Resources/Units/Xcom/ArmoredVest/BigOb_ArmoredVest_Corpse.png
+      130: Resources/Units/Xcom/AlloyVest/BigOb_AlloyVest_Corpse.png
+      28: Resources/Units/Xcom/PersonalArmor/BigOb_PersonalArmor_Corpse.png #VANILLA OVERWRITE
+      157: Resources/Units/Xcom/FlyingSuit/BigOb_FlyingSuit_Corpse.png
+      159: Resources/Units/Xcom/ReinforcedPowerSuit/BigOb_ReinforcedPowerSuit_Corpse.png
+      160: Resources/Units/Xcom/ReinforcedFlyingSuit/BigOb_ReinforcedFlyingSuit_Corpse.png
+      168: Resources/Units/Xcom/Drones/BigOb_DroneSmoke_Weapon.png
+      169: Resources/Units/Xcom/Drones/BigOb_DroneScanner_Weapon.png
+      170: Resources/Units/Xcom/Drones/BigOb_DroneTaser_Weapon.png
+      171: Resources/Units/Xcom/Drones/DroneScout/BigOb_DroneScout_Corpse.png
+      172: Resources/Units/Xcom/Drones/DroneScanner/BigOb_DroneScanner_Corpse.png
+      173: Resources/Units/Xcom/Drones/DroneMedikit/BigOb_DroneMedikit_Corpse.png
+      174: Resources/Units/Xcom/Drones/DroneTaser/BigOb_DroneTaser_Corpse.png
+      175: Resources/Units/Xcom/Drones/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
+      176: Resources/Units/Xcom/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
+      177: Resources/Units/Xcom/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
+      178: Resources/Units/Xcom/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+      126: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Canon.png
+      127: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
+      128: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Laser.png
+      163: Resources/Units/Xcom/WalkertankPlasma/BigOb_WalkertankPlasma.png
+      167: Resources/Units/Alien/MutonBerserker/BigOb_MutonBerserker_Corpse.png
+      131: Resources/Units/Alien/Waspite/BigOb_Waspite_Corpse.png
+      132: Resources/Units/Alien/Cybermite/BigOb_Cybermite_Corpse.png
+      133: Resources/Units/Alien/Gazer/BigOb_Gazer_Corpse.png
+      134: Resources/Units/Alien/Holodrone/BigOb_Holodrone_Corpse.png
+      158: Resources/Units/Alien/SectoidElite/BigOb_SectoidElite_Corpse.png
+      135: Resources/Units/Alien/MutonElite/BigOb_MutonElite_Corpse.png
+      136: Resources/Units/Alien/MutonEliteGuard/BigOb_MutonEliteGuard_Corpse.png
+      164: Resources/Units/Alien/ChryssalidSpitter/BigOb_ChryssalidSpitter_Corpse.png
 #END UNIT BIGOBS
 ##END BIGOBS
 
@@ -111,109 +103,101 @@ extraSprites:
     files:
 
 #BEGIN ITEM FLOOROB
-      5: Resources/Items/LaserPistol/FloorOb_LaserPistol.png
-      6: Resources/Items/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png
-      7: Resources/Items/AutoCannon/FloorOb_AutoCannon.png
-      15: Resources/Items/RocketLauncher/FloorOb_RocketLauncher.png
-      20: Resources/Items/SmokeGrenade/FloorOb_SmokeGrenade.png
-      30: Resources/Items/PlasmaRifle/FloorOb_PlasmaRifle.png
-      34: Resources/Items/BlasterLauncher/FloorOb_BlasterLauncher.png
-      136: Resources/Items/CombatKnife/FloorOb_CombatKnife.png
-      137: Resources/Items/AlloyKnife/FloorOb_AlloyKnife.png
-      138: Resources/Items/AlloySword/FloorOb_AlloySword.png
-      113: Resources/Items/TaserPistol/FloorOb_TaserPistol.png
-      114: Resources/Items/TaserPistol/FloorOb_TaserPistol_Clip.png
-      172: Resources/Items/Pistol/FloorOb_Pistol_AA_Clip.png
-      100: Resources/Items/Shotgun/FloorOb_Shotgun.png
-      102: Resources/Items/Shotgun/FloorOb_Shotgun_Clip.png
-      103: Resources/Items/Shotgun/FloorOb_Shotgun_AlienAlloy_Clip.png
-      173: Resources/Items/Rifle/FloorOb_Rifle_AA_Clip.png
-      105: Resources/Items/SniperRifle/FloorOb_SniperRifle.png
-      106: Resources/Items/SniperRifle/FloorOb_SniperRifle_Clip.png
-      176: Resources/Items/SniperRifle/FloorOb_SniperRifle_AA_Clip.png
-      174: Resources/Items/HeavyCannon/FloorOb_HeavyCannon_AA_Clip.png
-      175: Resources/Items/AutoCannon/FloorOb_AutoCannon_AA_Clip.png
-      149: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher.png
-      150: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_HE_Ammo.png
-      151: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_IC_Ammo.png
-      152: Resources/Items/GrenadeLauncher/FloorOb_GrenadeLauncher_Smoke_Ammo.png
-      147: Resources/Items/RocketLauncher/FloorOb_EleriumRocket.png
-      101: Resources/Items/ScatterLaser/FloorOb_ScatterLaser.png
-      107: Resources/Items/HeavyLaserAuto/FloorOb_HeavyLaserAuto.png
-      108: Resources/Items/IncendiaryGrenade/FloorOb_IncendiaryGrenade.png
-      148: Resources/Items/FlashBangGrenade/FloorOb_FlasbangGrenade.png
-      192: Resources/Items/FireGrenade/FloorOb_FireGrenade.png
-      109: Resources/Items/StunGrenade/FloorOb_StunGrenade.png
-      110: Resources/Items/FieldMediPack/FloorOb_FieldMediPack.png
-      111: Resources/Items/MediKit/FloorOb_MediKit.png
-      112: Resources/Items/AdvancedMediKit/FloorOb_AdvancedMediKit.png
-      166: Resources/Items/PlasmaBlade/FloorOb_PlasmaBlade.png
-      167: Resources/Items/PlasmaSword/FloorOb_PlasmaSword.png
-      189: Resources/Items/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
-      190: Resources/Items/PlasmaRifle/FloorOb_PlasmaRifle_Clip.png
-      115: Resources/Items/PlasmaShotgun/FloorOb_PlasmaShotgun.png
-      116: Resources/Items/PlasmaShotgun/FloorOb_PlasmaShotgun_Clip.png
-      117: Resources/Items/PlasmaShotgun/FloorOb_PlasmaShotgun_Elerium_Clip.png
-      118: Resources/Items/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle.png
-      119: Resources/Items/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Clip.png
-      153: Resources/Items/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Elerium_Clip.png
-      191: Resources/Items/HeavyPlasma/FloorOb_HeavyPlasma_Clip.png
-      120: Resources/Items/SmallLauncher/FloorOb_EleriumBomb.png
-      178: Resources/Items/SmallLauncher/FloorOb_FireBomb.png
-      179: Resources/Items/SmallLauncher/FloorOb_SmokeBomb.png
-      121: Resources/Items/Elerium/FloorOb_Elerium.png
-      134: Resources/Items/AlienDataSlate/FloorOb_AlienDataSlate.png
-      135: Resources/Items/AlienDataCore/FloorOb_AlienDataCore.png
+      5: Resources/Items/Xcom/LaserPistol/FloorOb_LaserPistol.png
+      6: Resources/Items/Xcom/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png
+      7: Resources/Items/Xcom/AutoCannon/FloorOb_AutoCannon.png
+      15: Resources/Items/Xcom/RocketLauncher/FloorOb_RocketLauncher.png
+      20: Resources/Items/Xcom/SmokeGrenade/FloorOb_SmokeGrenade.png
+      30: Resources/Items/Alien/PlasmaRifle/FloorOb_PlasmaRifle.png
+      34: Resources/Items/Alien/BlasterLauncher/FloorOb_BlasterLauncher.png
+      136: Resources/Items/Xcom/CombatKnife/FloorOb_CombatKnife.png
+      137: Resources/Items/Xcom/AlloyKnife/FloorOb_AlloyKnife.png
+      138: Resources/Items/Xcom/AlloySword/FloorOb_AlloySword.png
+      113: Resources/Items/Xcom/TaserPistol/FloorOb_TaserPistol.png
+      114: Resources/Items/Xcom/TaserPistol/FloorOb_TaserPistol_Clip.png
+      172: Resources/Items/Xcom/Pistol/FloorOb_Pistol_AA_Clip.png
+      100: Resources/Items/Xcom/Shotgun/FloorOb_Shotgun.png
+      102: Resources/Items/Xcom/Shotgun/FloorOb_Shotgun_Clip.png
+      103: Resources/Items/Xcom/Shotgun/FloorOb_Shotgun_AlienAlloy_Clip.png
+      173: Resources/Items/Xcom/Rifle/FloorOb_Rifle_AA_Clip.png
+      105: Resources/Items/Xcom/SniperRifle/FloorOb_SniperRifle.png
+      106: Resources/Items/Xcom/SniperRifle/FloorOb_SniperRifle_Clip.png
+      176: Resources/Items/Xcom/SniperRifle/FloorOb_SniperRifle_AA_Clip.png
+      174: Resources/Items/Xcom/HeavyCannon/FloorOb_HeavyCannon_AA_Clip.png
+      175: Resources/Items/Xcom/AutoCannon/FloorOb_AutoCannon_AA_Clip.png
+      149: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher.png
+      150: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_HE_Ammo.png
+      151: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_IC_Ammo.png
+      152: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_Smoke_Ammo.png
+      147: Resources/Items/Xcom/RocketLauncher/FloorOb_EleriumRocket.png
+      101: Resources/Items/Xcom/ScatterLaser/FloorOb_ScatterLaser.png
+      107: Resources/Items/Xcom/HeavyLaserAuto/FloorOb_HeavyLaserAuto.png
+      108: Resources/Items/Xcom/IncendiaryGrenade/FloorOb_IncendiaryGrenade.png
+      148: Resources/Items/Xcom/FlashBangGrenade/FloorOb_FlasbangGrenade.png
+      192: Resources/Items/Xcom/FireGrenade/FloorOb_FireGrenade.png
+      109: Resources/Items/Xcom/StunGrenade/FloorOb_StunGrenade.png
+      110: Resources/Items/Xcom/FieldMediPack/FloorOb_FieldMediPack.png
+      111: Resources/Items/Xcom/MediKit/FloorOb_MediKit.png
+      112: Resources/Items/Xcom/AdvancedMediKit/FloorOb_AdvancedMediKit.png
+      166: Resources/Items/Alien/PlasmaBlade/FloorOb_PlasmaBlade.png
+      167: Resources/Items/Alien/PlasmaSword/FloorOb_PlasmaSword.png
+      189: Resources/Items/Alien/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
+      190: Resources/Items/Alien/PlasmaRifle/FloorOb_PlasmaRifle_Clip.png
+      115: Resources/Items/Alien/PlasmaShotgun/FloorOb_PlasmaShotgun.png
+      116: Resources/Items/Alien/PlasmaShotgun/FloorOb_PlasmaShotgun_Clip.png
+      117: Resources/Items/Alien/PlasmaShotgun/FloorOb_PlasmaShotgun_Elerium_Clip.png
+      118: Resources/Items/Alien/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle.png
+      119: Resources/Items/Alien/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Clip.png
+      153: Resources/Items/Alien/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Elerium_Clip.png
+      191: Resources/Items/Alien/HeavyPlasma/FloorOb_HeavyPlasma_Clip.png
+      120: Resources/Items/Alien/SmallLauncher/FloorOb_EleriumBomb.png
+      178: Resources/Items/Alien/SmallLauncher/FloorOb_FireBomb.png
+      179: Resources/Items/Alien/SmallLauncher/FloorOb_SmokeBomb.png
+      121: Resources/Items/Alien/Elerium/FloorOb_Elerium.png
+      134: Resources/Items/Alien/AlienDataSlate/FloorOb_AlienDataSlate.png
+      135: Resources/Items/Alien/AlienDataCore/FloorOb_AlienDataCore.png
 #END ITEM FLOOROB
 
 #BEGIN UNIT FLOOROB
-      126: Resources/Units/ArmoredVest/FloorOb_ArmoredVest_Corpse.png
-      127: Resources/Units/AlloyVest/FloorOb_AlloyVest_Corpse.png
-      40: Resources/Units/PersonalArmor/FloorOb_PersonalArmor_Corpse.png #VANILLA OVERWRITE
-      162: Resources/Units/FlyingSuit/FloorOb_FlyingSuit_Corpse.png
-      164: Resources/Units/ReinforcedPowerSuit/FloorOb_ReinforcedPowerSuit_Corpse.png
-      165: Resources/Units/ReinforcedFlyingSuit/FloorOb_ReinforcedFlyingSuit_Corpse.png
-      181: Resources/Units/Drones/DroneScout/FloorOb_DroneScout_Corpse.png
-      182: Resources/Units/Drones/DroneScanner/FloorOb_DroneScanner_Corpse.png
-      183: Resources/Units/Drones/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
-      184: Resources/Units/Drones/DroneTaser/FloorOb_DroneTaser_Corpse.png
-      185: Resources/Units/Drones/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
-      186: Resources/Units/Drones/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
-      187: Resources/Units/Drones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
-      188: Resources/Units/Drones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
-      122: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_1.png
-      123: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
-      124: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_3.png
-      125: Resources/Units/AlloyTank/FloorOb_AlloyTank_Corpse_4.png
-      168: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_1.png
-      169: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_2.png
-      170: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_3.png
-      171: Resources/Units/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_4.png
-      180: Resources/Units/MutonBerserker/FloorOb_MutonBerserker_Corpse.png
-      128: Resources/Units/Waspite/FloorOb_Waspite_Corpse.png
-      129: Resources/Units/Cybermite/FloorOb_Cybermite_Corpse.png
-      130: Resources/Units/Gazer/FloorOb_Gazer_Corpse.png
-      131: Resources/Units/Holodrone/FloorOb_Holodrone_Corpse.png
-      163: Resources/Units/SectoidElite/FloorOb_SectoidElite_Corpse.png
-      154: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_1.png
-      155: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_2.png
-      156: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_3.png
-      157: Resources/Units/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_4.png
-      132: Resources/Units/MutonElite/FloorOb_MutonElite_Corpse.png
-      133: Resources/Units/MutonEliteGuard/FloorOb_MutonEliteGuard_Corpse.png
-      158: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_1.png
-      159: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_2.png
-      160: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_3.png
-      161: Resources/Units/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_4.png
-      177: Resources/Units/ChryssalidSpitter/FloorOb_ChryssalidSpitter_Corpse.png
-      139: Resources/Units/MaleCivilian_Rocker/FloorOb_MaleCivilian_Rocker_Corpse.png
-      140: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/FloorOb_MaleCivilian_BlackVest_WhiteShirt_Corpse.png
-      141: Resources/Units/MaleCivilian_ConstructionWorker/FloorOb_MaleCivilian_ConstructionWorker_Corpse.png
-      142: Resources/Units/MaleCivilian_Sailor/FloorOb_MaleCivilian_Sailor_Corpse.png
-      143: Resources/Units/MaleCivilian_Baggydude/FloorOb_MaleCivilian_Baggydude_Corpse.png
-      144: Resources/Units/MaleCivilian_Mechanic/FloorOb_MaleCivilian_Mechanic_Corpse.png
-      145: Resources/Units/FemaleCivilian_SuitBlack_HairRed/FloorOb_FemaleCivilian_SuitBlack_HairRed_Corpse.png
-      146: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/FloorOb_FemaleCivilian_SuitBlue_HairBlond_Corpse.png
+      126: Resources/Units/Xcom/ArmoredVest/FloorOb_ArmoredVest_Corpse.png
+      127: Resources/Units/Xcom/AlloyVest/FloorOb_AlloyVest_Corpse.png
+      40: Resources/Units/Xcom/PersonalArmor/FloorOb_PersonalArmor_Corpse.png #VANILLA OVERWRITE
+      162: Resources/Units/Xcom/FlyingSuit/FloorOb_FlyingSuit_Corpse.png
+      164: Resources/Units/Xcom/ReinforcedPowerSuit/FloorOb_ReinforcedPowerSuit_Corpse.png
+      165: Resources/Units/Xcom/ReinforcedFlyingSuit/FloorOb_ReinforcedFlyingSuit_Corpse.png
+      181: Resources/Units/Xcom/Drones/DroneScout/FloorOb_DroneScout_Corpse.png
+      182: Resources/Units/Xcom/Drones/DroneScanner/FloorOb_DroneScanner_Corpse.png
+      183: Resources/Units/Xcom/Drones/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
+      184: Resources/Units/Xcom/Drones/DroneTaser/FloorOb_DroneTaser_Corpse.png
+      185: Resources/Units/Xcom/Drones/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
+      186: Resources/Units/Xcom/Drones/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
+      187: Resources/Units/Xcom/Drones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
+      188: Resources/Units/Xcom/Drones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
+      122: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_1.png
+      123: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
+      124: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_3.png
+      125: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_4.png
+      168: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_1.png
+      169: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_2.png
+      170: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_3.png
+      171: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_4.png
+      180: Resources/Units/Alien/MutonBerserker/FloorOb_MutonBerserker_Corpse.png
+      128: Resources/Units/Alien/Waspite/FloorOb_Waspite_Corpse.png
+      129: Resources/Units/Alien/Cybermite/FloorOb_Cybermite_Corpse.png
+      130: Resources/Units/Alien/Gazer/FloorOb_Gazer_Corpse.png
+      131: Resources/Units/Alien/Holodrone/FloorOb_Holodrone_Corpse.png
+      163: Resources/Units/Alien/SectoidElite/FloorOb_SectoidElite_Corpse.png
+      154: Resources/Units/Alien/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_1.png
+      155: Resources/Units/Alien/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_2.png
+      156: Resources/Units/Alien/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_3.png
+      157: Resources/Units/Alien/ArmoredCyberdisc/FloorOb_ArmoredCyberdisc_Corpse_4.png
+      132: Resources/Units/Alien/MutonElite/FloorOb_MutonElite_Corpse.png
+      133: Resources/Units/Alien/MutonEliteGuard/FloorOb_MutonEliteGuard_Corpse.png
+      158: Resources/Units/Alien/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_1.png
+      159: Resources/Units/Alien/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_2.png
+      160: Resources/Units/Alien/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_3.png
+      161: Resources/Units/Alien/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_4.png
+      177: Resources/Units/Alien/ChryssalidSpitter/FloorOb_ChryssalidSpitter_Corpse.png
 #END UNIT FLOOROB
 ##END FLOOROB
 
@@ -227,75 +211,75 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      16: Resources/Items/HeavyLaserSniper/HandOb_HeavyLaserSniper.png
-      32: Resources/Items/AutoCannon/HandOb_AutoCannon.png
-      48: Resources/Items/PlasmaRifle/HandOb_PlasmaRifle.png
-      56: Resources/Items/BlasterLauncher/HandOb_BlasterLauncher.png
-      72: Resources/Items/RocketLauncher/HandOb_RocketLauncher.png
-      112: Resources/Items/LaserPistol/HandOb_LaserPistol.png
-      416: Resources/Items/CombatKnife/HandOb_CombatKnife.png
-      424: Resources/Items/AlloySword/HandOb_AlloySword.png
-      312: Resources/Items/TaserPistol/HandOb_TaserPistol.png
-      600: Resources/Items/TaserPistol/HandOb_TaserPistol_Clip.png
-      128: Resources/Items/Pistol/HandOb_Pistol_Clip.png
-      536: Resources/Items/Pistol/HandOb_Pistol_AA_Clip.png
-      136: Resources/Items/Rifle/HandOb_Rifle_Clip.png
-      544: Resources/Items/Rifle/HandOb_Rifle_AA_Clip.png
-      144: Resources/Items/Shotgun/HandOb_Shotgun.png
-      584: Resources/Items/Shotgun/HandOb_Shotgun_Clip.png
-      592: Resources/Items/Shotgun/HandOb_Shotgun_AA_Clip.png
-      160: Resources/Items/SniperRifle/HandOb_SniperRifle.png
-      568: Resources/Items/SniperRifle/HandOb_SniperRifle_Clip.png
-      576: Resources/Items/SniperRifle/HandOb_SniperRifle_AA_Clip.png
-      168: Resources/Items/HeavyCannon/HandOb_HeavyCannon_AP_Clip.png
-      176: Resources/Items/HeavyCannon/HandOb_HeavyCannon_HE_Clip.png
-      184: Resources/Items/HeavyCannon/HandOb_HeavyCannon_IN_Clip.png
-      560: Resources/Items/HeavyCannon/HandOb_HeavyCannon_AA_Clip.png
-      192: Resources/Items/AutoCannon/HandOb_AutoCannon_AP_Clip.png
-      200: Resources/Items/AutoCannon/HandOb_AutoCannon_HE_Clip.png
-      208: Resources/Items/AutoCannon/HandOb_AutoCannon_IN_Clip.png
-      552: Resources/Items/AutoCannon/HandOb_AutoCannon_AA_Clip.png
-      448: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher.png
-      472: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_HE_Ammo.png
-      480: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_IC_Ammo.png
-      488: Resources/Items/GrenadeLauncher/HandOb_GrenadeLauncher_Smoke_Ammo.png
-      216: Resources/Items/RocketLauncher/HandOb_SmallRocket.png
-      224: Resources/Items/RocketLauncher/HandOb_LargeRocket.png
-      232: Resources/Items/RocketLauncher/HandOb_IncendiaryRocket.png
-      528: Resources/Items/RocketLauncher/HandOb_EleriumRocket.png
-      152: Resources/Items/ScatterLaser/HandOb_ScatterLaser.png
-      240: Resources/Items/HeavyLaserAuto/HandOb_HeavyLaserAuto.png
-      248: Resources/Items/SmokeGrenade/HandOb_SmokeGrenade.png
-      256: Resources/Items/ProxieGrenade/HandOb_ProxieGrenade.png
-      264: Resources/Items/IncendiaryGrenade/HandOb_IncendiaryGrenade.png
-      440: Resources/Items/FlashBangGrenade/HandOb_FlashbangGrenade.png
-      624: Resources/Items/FireGrenade/HandOb_FireGrenade.png
-      432: Resources/Items/StunGrenade/HandOb_StunGrenade.png
-      272: Resources/Items/HighExplosiv/HandOb_HighExplosiv.png
-      280: Resources/Items/MotionScanner/HandOb_MotionScanner.png
-      288: Resources/Items/FieldMediPack/HandOb_FieldMediPack.png
-      296: Resources/Items/MediKit/HandOb_MediKit.png
-      304: Resources/Items/AdvancedMediKit/HandOb_Advanced_MediKit.png
-      320: Resources/Items/ElectroFlare/HandOb_ElectroFlare.png
-      496: Resources/Items/PlasmaBlade/HandOb_PlasmaBlade.png
-      504: Resources/Items/PlasmaSword/HandOb_PlasmaSword.png
-      360: Resources/Items/PlasmaPistol/HandOb_PlasmaPistol_Clip.png
-      352: Resources/Items/PlasmaRifle/HandOb_PlasmaRifle_Clip.png
-      336: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun.png
-      512: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun_Clip.png
-      520: Resources/Items/PlasmaShotgun/HandOb_PlasmaShotgun_Elerium_Clip.png
-      344: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle.png
-      456: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Clip.png
-      464: Resources/Items/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Elerium_Clip.png
-      328: Resources/Items/HeavyPlasma/HandOb_HeavyPlasma_Clip.png
-      376: Resources/Items/SmallLauncher/HandOb_StunBomb.png
-      384: Resources/Items/SmallLauncher/HandOb_EleriumBomb.png
-      608: Resources/Items/SmallLauncher/HandOb_FireBomb.png
-      616: Resources/Items/SmallLauncher/HandOb_SmokeBomb.png
-      368: Resources/Items/BlasterLauncher/HandOb_BlasterBomb.png
-      392: Resources/Items/AlienGrenade/HandOb_AlienGrenade.png
-      408: Resources/Items/MindProbe/HandOb_MindProbe.png
-      400: Resources/Items/Elerium/HandOb_Elerium.png
+      16: Resources/Items/Xcom/HeavyLaserSniper/HandOb_HeavyLaserSniper.png
+      32: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon.png
+      48: Resources/Items/Alien/PlasmaRifle/HandOb_PlasmaRifle.png
+      56: Resources/Items/Alien/BlasterLauncher/HandOb_BlasterLauncher.png
+      72: Resources/Items/Xcom/RocketLauncher/HandOb_RocketLauncher.png
+      112: Resources/Items/Xcom/LaserPistol/HandOb_LaserPistol.png
+      416: Resources/Items/Xcom/CombatKnife/HandOb_CombatKnife.png
+      424: Resources/Items/Xcom/AlloySword/HandOb_AlloySword.png
+      312: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol.png
+      600: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol_Clip.png
+      128: Resources/Items/Xcom/Pistol/HandOb_Pistol_Clip.png
+      536: Resources/Items/Xcom/Pistol/HandOb_Pistol_AA_Clip.png
+      136: Resources/Items/Xcom/Rifle/HandOb_Rifle_Clip.png
+      544: Resources/Items/Xcom/Rifle/HandOb_Rifle_AA_Clip.png
+      144: Resources/Items/Xcom/Shotgun/HandOb_Shotgun.png
+      584: Resources/Items/Xcom/Shotgun/HandOb_Shotgun_Clip.png
+      592: Resources/Items/Xcom/Shotgun/HandOb_Shotgun_AA_Clip.png
+      160: Resources/Items/Xcom/SniperRifle/HandOb_SniperRifle.png
+      568: Resources/Items/Xcom/SniperRifle/HandOb_SniperRifle_Clip.png
+      576: Resources/Items/Xcom/SniperRifle/HandOb_SniperRifle_AA_Clip.png
+      168: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_AP_Clip.png
+      176: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_HE_Clip.png
+      184: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_IN_Clip.png
+      560: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_AA_Clip.png
+      192: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_AP_Clip.png
+      200: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_HE_Clip.png
+      208: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_IN_Clip.png
+      552: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_AA_Clip.png
+      448: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher.png
+      472: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher_HE_Ammo.png
+      480: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher_IC_Ammo.png
+      488: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher_Smoke_Ammo.png
+      216: Resources/Items/Xcom/RocketLauncher/HandOb_SmallRocket.png
+      224: Resources/Items/Xcom/RocketLauncher/HandOb_LargeRocket.png
+      232: Resources/Items/Xcom/RocketLauncher/HandOb_IncendiaryRocket.png
+      528: Resources/Items/Xcom/RocketLauncher/HandOb_EleriumRocket.png
+      152: Resources/Items/Xcom/ScatterLaser/HandOb_ScatterLaser.png
+      240: Resources/Items/Xcom/HeavyLaserAuto/HandOb_HeavyLaserAuto.png
+      248: Resources/Items/Xcom/SmokeGrenade/HandOb_SmokeGrenade.png
+      256: Resources/Items/Xcom/ProxieGrenade/HandOb_ProxieGrenade.png
+      264: Resources/Items/Xcom/IncendiaryGrenade/HandOb_IncendiaryGrenade.png
+      440: Resources/Items/Xcom/FlashBangGrenade/HandOb_FlashbangGrenade.png
+      624: Resources/Items/Xcom/FireGrenade/HandOb_FireGrenade.png
+      432: Resources/Items/Xcom/StunGrenade/HandOb_StunGrenade.png
+      272: Resources/Items/Xcom/HighExplosiv/HandOb_HighExplosiv.png
+      280: Resources/Items/Xcom/MotionScanner/HandOb_MotionScanner.png
+      288: Resources/Items/Xcom/FieldMediPack/HandOb_FieldMediPack.png
+      296: Resources/Items/Xcom/MediKit/HandOb_MediKit.png
+      304: Resources/Items/Xcom/AdvancedMediKit/HandOb_Advanced_MediKit.png
+      320: Resources/Items/Xcom/ElectroFlare/HandOb_ElectroFlare.png
+      496: Resources/Items/Alien/PlasmaBlade/HandOb_PlasmaBlade.png
+      504: Resources/Items/Alien/PlasmaSword/HandOb_PlasmaSword.png
+      360: Resources/Items/Alien/PlasmaPistol/HandOb_PlasmaPistol_Clip.png
+      352: Resources/Items/Alien/PlasmaRifle/HandOb_PlasmaRifle_Clip.png
+      336: Resources/Items/Alien/PlasmaShotgun/HandOb_PlasmaShotgun.png
+      512: Resources/Items/Alien/PlasmaShotgun/HandOb_PlasmaShotgun_Clip.png
+      520: Resources/Items/Alien/PlasmaShotgun/HandOb_PlasmaShotgun_Elerium_Clip.png
+      344: Resources/Items/Alien/PlasmaSniperRifle/HandOb_PlasmaSniperRifle.png
+      456: Resources/Items/Alien/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Clip.png
+      464: Resources/Items/Alien/PlasmaSniperRifle/HandOb_PlasmaSniperRifle_Elerium_Clip.png
+      328: Resources/Items/Alien/HeavyPlasma/HandOb_HeavyPlasma_Clip.png
+      376: Resources/Items/Alien/SmallLauncher/HandOb_StunBomb.png
+      384: Resources/Items/Alien/SmallLauncher/HandOb_EleriumBomb.png
+      608: Resources/Items/Alien/SmallLauncher/HandOb_FireBomb.png
+      616: Resources/Items/Alien/SmallLauncher/HandOb_SmokeBomb.png
+      368: Resources/Items/Alien/BlasterLauncher/HandOb_BlasterBomb.png
+      392: Resources/Items/Alien/AlienGrenade/HandOb_AlienGrenade.png
+      408: Resources/Items/Alien/MindProbe/HandOb_MindProbe.png
+      400: Resources/Items/Alien/Elerium/HandOb_Elerium.png
 #END ITEM HANDOB
 ##END HANDOB
 
@@ -314,55 +298,55 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      350: Resources/Items/BlasterLauncher/BulletSprite_BlasterLauncher.png
+      350: Resources/Items/Alien/BlasterLauncher/BulletSprite_BlasterLauncher.png
   - type: Projectiles
     width: 57
     height: 3
     subX: 3
     subY: 3
     files:
-      385: Resources/Items/SniperRifle/BulletSprite_SniperRifle.png
+      385: Resources/Items/Xcom/SniperRifle/BulletSprite_SniperRifle.png
   - type: Projectiles
     width: 65
     height: 6
     subX: 3
     subY: 3
     files:
-      420: Resources/Items/TaserPistol/BulletSprite_TaserPistol.png
+      420: Resources/Items/Xcom/TaserPistol/BulletSprite_TaserPistol.png
   - type: Projectiles
     width: 105
     height: 9
     subX: 3
     subY: 3
     files:
-      455: Resources/Items/GrenadeLauncher/BulletSprite_GrenadeLauncher.png
+      455: Resources/Items/Xcom/GrenadeLauncher/BulletSprite_GrenadeLauncher.png
   - type: Projectiles
     width: 105
     height: 3
     subX: 3
     subY: 3
     files:
-      560: Resources/Items/SmallLauncher/BulletSprite_EleriumBomb.png
-      595: Resources/Items/SmallLauncher/BulletSprite_FireBomb.png
-      630: Resources/Items/SmallLauncher/BulletSprite_SmokeBomb.png
-      665: Resources/Items/Pistol/BulletSprite_Pistol_AA.png
-      700: Resources/Items/Rifle/BulletSprite_Rifle_AA.png
-      735: Resources/Items/AutoCannon/BulletSprite_AutoCannon_AA.png
-      770: Resources/Items/HeavyCannon/BulletSprite_HeavyCannon_AA.png
+      560: Resources/Items/Alien/SmallLauncher/BulletSprite_EleriumBomb.png
+      595: Resources/Items/Alien/SmallLauncher/BulletSprite_FireBomb.png
+      630: Resources/Items/Alien/SmallLauncher/BulletSprite_SmokeBomb.png
+      665: Resources/Items/Xcom/Pistol/BulletSprite_Pistol_AA.png
+      700: Resources/Items/Xcom/Rifle/BulletSprite_Rifle_AA.png
+      735: Resources/Items/Xcom/AutoCannon/BulletSprite_AutoCannon_AA.png
+      770: Resources/Items/Xcom/HeavyCannon/BulletSprite_HeavyCannon_AA.png
   - type: Projectiles
     width: 57
     height: 3
     subX: 3
     subY: 3
     files:
-      805: Resources/Items/SniperRifle/BulletSprite_SniperRifle_AA.png
+      805: Resources/Items/Xcom/SniperRifle/BulletSprite_SniperRifle_AA.png
   - type: Projectiles#24
     width: 65
     height: 6
     subX: 3
     subY: 3
     files:
-      840: Resources/Units/Drones/BulletSprite_DroneTaser.png
+      840: Resources/Units/Xcom/Drones/BulletSprite_DroneTaser.png
 ##END PROJECTILES
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
@@ -373,11 +357,11 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      8:  Resources/Items/CombatKnife/HitAnimation_CombatKnife.png
-      12: Resources/Items/AlloyKnife/HitAnimation_AlloyKnife.png
-      16: Resources/Items/AlloySword/HitAnimation_AlloySword.png
-      20: Resources/Items/PlasmaBlade/HitAnimation_PlasmaBlade.png
-      24: Resources/Items/PlasmaSword/HitAnimation_PlasmaSword.png
+      8:  Resources/Items/Xcom/CombatKnife/HitAnimation_CombatKnife.png
+      12: Resources/Items/Xcom/AlloyKnife/HitAnimation_AlloyKnife.png
+      16: Resources/Items/Xcom/AlloySword/HitAnimation_AlloySword.png
+      20: Resources/Items/Alien/PlasmaBlade/HitAnimation_PlasmaBlade.png
+      24: Resources/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword.png
 #END HIT
 
 #BEGIN SMOKE
@@ -401,14 +385,14 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      100: Resources/Items/TaserPistol/HitAnimation_TaserPistol.png
+      100: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol.png
   - type: SMOKE.PCK
     height: 80
     width: 160
     subX: 32
     subY: 40
     files:
-      108: Resources/Units/Drones/HitAnimation_DroneTaser.png
+      108: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
 #END SMOKE
 
 #BEGIN X1
@@ -462,7 +446,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Items/AlloyCannon/UfoPaedia_AlloyCannon.png
+      0: Resources/Items/Xcom/AlloyCannon/UfoPaedia_AlloyCannon.png
 #END ALLOY CANNON
 ##END CRAFTS
 
@@ -473,7 +457,7 @@ extraSprites:
     width: 320
     height: 200
     files: 
-      0: Resources/Units/Drones/UfoPaedia_SupportDrones.png
+      0: Resources/Units/Xcom/Drones/UfoPaedia_SupportDrones.png
 #END SUPPORT DRONES
 
 #BEGIN ALLOY AMMO
@@ -557,7 +541,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/ArmoredVest/SpriteSheet_ArmoredVest.png
+      0: Resources/Units/Xcom/ArmoredVest/SpriteSheet_ArmoredVest.png
 #END ARMORED VEST
 
 #BEGIN ALLOY VEST
@@ -567,7 +551,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/AlloyVest/SpriteSheet_AlloyVest.png
+      0: Resources/Units/Xcom/AlloyVest/SpriteSheet_AlloyVest.png
 #END ALLOY VEST
 
 #BEGIN PERSONAL ARMOR
@@ -577,7 +561,7 @@ extraSprites:
     width: 256
     height: 1400
     files:
-      0: Resources/Units/PersonalArmor/SpriteSheet_PersonalArmor.png
+      0: Resources/Units/Xcom/PersonalArmor/SpriteSheet_PersonalArmor.png
 #END PERSONAL ARMOR
 
 #BEGIN FYLING SUIT
@@ -587,7 +571,7 @@ extraSprites:
     width: 256
     height: 1440
     files:
-      0: Resources/Units/FlyingSuit/SpriteSheet_FlyingSuit.png
+      0: Resources/Units/Xcom/FlyingSuit/SpriteSheet_FlyingSuit.png
 #END FLYING SUIT
 
 #BEGIN REINFORCED POWER SUIT
@@ -597,7 +581,7 @@ extraSprites:
     width: 256
     height: 1440
     files:
-      0: Resources/Units/ReinforcedPowerSuit/SpriteSheet_ReinforcedPowerSuit.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/SpriteSheet_ReinforcedPowerSuit.png
 #END REINFORCED POWER SUIT
 
 #BEGIN REINFORCED FYLING SUIT
@@ -607,7 +591,7 @@ extraSprites:
     width: 256
     height: 1440
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/SpriteSheet_ReinforcedFlyingSuit.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/SpriteSheet_ReinforcedFlyingSuit.png
 #END REINFORCED FLYING SUIT
 ##END XCOM ARMOR
 
@@ -619,7 +603,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/DroneScout/SpriteSheet_DroneScout.png
+      0: Resources/Units/Xcom/Drones/DroneScout/SpriteSheet_DroneScout.png
 #END DRONE SCOUT
 
 #BEGIN DRONE SCANNER
@@ -629,7 +613,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/DroneScanner/SpriteSheet_DroneScanner.png
+      0: Resources/Units/Xcom/Drones/DroneScanner/SpriteSheet_DroneScanner.png
 #END DRONE SCANNER
 
 #BEGIN DRONE MEDIKIT
@@ -639,7 +623,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/DroneMedikit/SpriteSheet_DroneMedikit.png
+      0: Resources/Units/Xcom/Drones/DroneMedikit/SpriteSheet_DroneMedikit.png
 #END DRONE MEDIKIT
 
 #BEGIN DRONE TASER
@@ -649,7 +633,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/DroneTaser/SpriteSheet_DroneTaser.png
+      0: Resources/Units/Xcom/Drones/DroneTaser/SpriteSheet_DroneTaser.png
 #END DRONE TASER
 
 #BEGIN ALLOY DRONE SCOUT
@@ -659,7 +643,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
+      0: Resources/Units/Xcom/Drones/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
 #END ALLOY DRONE SCOUT
 
 #BEGIN ALLOY DRONE SCANNER
@@ -669,7 +653,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
+      0: Resources/Units/Xcom/Drones/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
 #END ALLOY DRONE SANNER
 
 #BEGIN ALLOY DRONE MEDIKIT
@@ -679,7 +663,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
+      0: Resources/Units/Xcom/Drones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
 #END ALLOY DRONE MEDITKIT
 
 #BEGIN ALLOY DRONE TASER
@@ -689,7 +673,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Drones/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
+      0: Resources/Units/Xcom/Drones/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
 #END ALLOY DRONE TASER
 ##END DRONES
 
@@ -701,7 +685,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/AlloyTank/SpriteSheet_AlloyTanks.png
+      0: Resources/Units/Xcom/AlloyTank/SpriteSheet_AlloyTanks.png
 #END ALLOY TANKS
 
 #BEGIN WALKTERTANK PLASMA
@@ -711,7 +695,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/WalkertankPlasma/SpriteSheet_WalkertankPlasma.png
+      0: Resources/Units/Xcom/WalkertankPlasma/SpriteSheet_WalkertankPlasma.png
 #END WALKERTANK PLASMA
 ##END TANKS
 
@@ -723,19 +707,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/MutonBerserker/SpriteSheet_MutonBerserker.png
+      0: Resources/Units/Alien/MutonBerserker/SpriteSheet_MutonBerserker.png
   - type: MUTON_BERSERKER.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/MutonBerserker/UfoPaedia_MutonBerserker.png
+      0: Resources/Units/Alien/MutonBerserker/UfoPaedia_MutonBerserker.png
   - type: MUTON_BERSERKER_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/MutonBerserker/UfoPaedia_MutonBerserker_Autopsy.png
+      0: Resources/Units/Alien/MutonBerserker/UfoPaedia_MutonBerserker_Autopsy.png
 #END MUTON BERSERKER
 
 #BEGIN WASPITE
@@ -745,19 +729,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Waspite/SpriteSheet_Waspite.png
+      0: Resources/Units/Alien/Waspite/SpriteSheet_Waspite.png
   - type: WASPITE.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Waspite/UfoPaedia_Waspite.png
+      0: Resources/Units/Alien/Waspite/UfoPaedia_Waspite.png
   - type: WASPITE_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files: 
-      0: Resources/Units/Waspite/UfoPaedia_Waspite_Autopsy.png
+      0: Resources/Units/Alien/Waspite/UfoPaedia_Waspite_Autopsy.png
 #END WASPITE
 
 #BEGIN CYBERMITE
@@ -767,19 +751,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Cybermite/SpriteSheet_Cybermite.png
+      0: Resources/Units/Alien/Cybermite/SpriteSheet_Cybermite.png
   - type: CYBERMITE.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Cybermite/UfoPaedia_Cybermite.png
+      0: Resources/Units/Alien/Cybermite/UfoPaedia_Cybermite.png
   - type: CYBERMITE_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Cybermite/UfoPaedia_Cybermite_Autopsy.png
+      0: Resources/Units/Alien/Cybermite/UfoPaedia_Cybermite_Autopsy.png
 #END CYBERMITE
 
 #BEGIN GAZER
@@ -789,19 +773,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Gazer/SpriteSheet_Gazer.png
+      0: Resources/Units/Alien/Gazer/SpriteSheet_Gazer.png
   - type: GAZER.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Gazer/UfoPaedia_Gazer.png
+      0: Resources/Units/Alien/Gazer/UfoPaedia_Gazer.png
   - type: GAZER_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Gazer/UfoPaedia_Gazer_Autopsy.png
+      0: Resources/Units/Alien/Gazer/UfoPaedia_Gazer_Autopsy.png
 #END GAZER
 
 #BEGIN HOLODRONE
@@ -811,19 +795,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/Holodrone/SpriteSheet_Holodrone.png
+      0: Resources/Units/Alien/Holodrone/SpriteSheet_Holodrone.png
   - type: HOLODRONE.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Holodrone/UfoPaedia_Holodrone.png
+      0: Resources/Units/Alien/Holodrone/UfoPaedia_Holodrone.png
   - type: HOLODRONE_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/Holodrone/UfoPaedia_Holodrone_Autopsy.png
+      0: Resources/Units/Alien/Holodrone/UfoPaedia_Holodrone_Autopsy.png
 #END HOLODRONE
 
 #BEGIN SECTOID ELITE
@@ -833,19 +817,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/SectoidElite/SpriteSheet_SectoidElite.png
+      0: Resources/Units/Alien/SectoidElite/SpriteSheet_SectoidElite.png
   - type: SECTOID_ELITE.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/SectoidElite/UfoPaedia_SectoidElite.png
+      0: Resources/Units/Alien/SectoidElite/UfoPaedia_SectoidElite.png
   - type: SECTOID_ELITE_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/SectoidElite/UfoPaedia_SectoidElite_Autopsy.png
+      0: Resources/Units/Alien/SectoidElite/UfoPaedia_SectoidElite_Autopsy.png
 #END SECTOID ELITE
 
 #BEGIN ARMORED CYBERDISC
@@ -855,19 +839,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/ArmoredCyberdisc/SpriteSheet_ArmoredCyberdisc.png
+      0: Resources/Units/Alien/ArmoredCyberdisc/SpriteSheet_ArmoredCyberdisc.png
   - type: ARMORED_CYBERDISC.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/ArmoredCyberdisc/UfoPaedia_ArmoredCyberdisc.png
+      0: Resources/Units/Alien/ArmoredCyberdisc/UfoPaedia_ArmoredCyberdisc.png
   - type: ARMORED_CYBERDISC_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/ArmoredCyberdisc/UfoPaedia_ArmoredCyberdisc_Autopsy.png
+      0: Resources/Units/Alien/ArmoredCyberdisc/UfoPaedia_ArmoredCyberdisc_Autopsy.png
 #END ARMORED CYBERDISC
 
 #BEGIN MUTON ELITE
@@ -877,19 +861,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/MutonElite/SpriteSheet_MutonElite.png
+      0: Resources/Units/Alien/MutonElite/SpriteSheet_MutonElite.png
   - type: MUTON_ELITE.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/MutonElite/UfoPaedia_MutonElite.png
+      0: Resources/Units/Alien/MutonElite/UfoPaedia_MutonElite.png
   - type: MUTON_ELITE_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files: 
-      0: Resources/Units/MutonElite/UfoPaedia_MutonElite_Autopsy.png
+      0: Resources/Units/Alien/MutonElite/UfoPaedia_MutonElite_Autopsy.png
 #END MUTON ELITE
 
 #BEGIN ARMORED SECTOPOD
@@ -899,19 +883,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/ArmoredSectopod/SpriteSheet_ArmoredSectopod.png
+      0: Resources/Units/Alien/ArmoredSectopod/SpriteSheet_ArmoredSectopod.png
   - type: ARMORED_SECTOPOD.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/ArmoredSectopod/UfoPaedia_ArmoredSectopod.png
+      0: Resources/Units/Alien/ArmoredSectopod/UfoPaedia_ArmoredSectopod.png
   - type: ARMORED_SECTOPOD_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/ArmoredSectopod/UfoPaedia_ArmoredSectopod_Autopsy.png
+      0: Resources/Units/Alien/ArmoredSectopod/UfoPaedia_ArmoredSectopod_Autopsy.png
 #END ARMORED SECTOPOD
 
 #BEGIN MUTON ELITE GUARD
@@ -921,19 +905,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/MutonEliteGuard/SpriteSheet_MutonEliteGuard.png
+      0: Resources/Units/Alien/MutonEliteGuard/SpriteSheet_MutonEliteGuard.png
   - type: MUTON_ELITE_GUARD.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/MutonEliteGuard/UfoPaedia_MutonEliteGuard.png
+      0: Resources/Units/Alien/MutonEliteGuard/UfoPaedia_MutonEliteGuard.png
   - type: MUTON_ELITE_GUARD_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files: 
-      0: Resources/Units/MutonEliteGuard/UfoPaedia_MutonEliteGuard_Autopsy.png
+      0: Resources/Units/Alien/MutonEliteGuard/UfoPaedia_MutonEliteGuard_Autopsy.png
 #END MUTON ELITE GUARD
 
 #BEGIN CHRYSSALID SPITTER
@@ -943,19 +927,19 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/ChryssalidSpitter/SpriteSheet_ChryssalidSpitter.png
+      0: Resources/Units/Alien/ChryssalidSpitter/SpriteSheet_ChryssalidSpitter.png
   - type: CHRYSSALID_SPITTER.SPK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Units/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter.png
+      0: Resources/Units/Alien/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter.png
   - type: CHRYSSALID_SPITTER_AUTOPSY.SPK
     singleImage: true
     width: 320
     height: 200
     files: 
-      0: Resources/Units/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter_Autopsy.png
+      0: Resources/Units/Alien/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter_Autopsy.png
 #END CHRYSSALID SPITTER
 
 #BEGIN SPITTER ZOMBIE
@@ -965,67 +949,11 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/SpitterZombie/SpriteSheet_SpitterZombie.png
+      0: Resources/Units/Alien/SpitterZombie/SpriteSheet_SpitterZombie.png
 #END SPITTER ZOMBIE
 ##END ALIENS
 
 ##BEGIN CIVILIANS
-  - type: MALE_CIVILIAN2.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/MaleCivilian_Rocker/SpriteSheet_MaleCivilian_Rocker.png
-  - type: MALE_CIVILIAN3.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/MaleCivilian_BlackVest_WhiteShirt/SpriteSheet_MaleCivilian_BlackVest_WhiteShirt.png
-  - type: MALE_CIVILIAN4.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/MaleCivilian_ConstructionWorker/SpriteSheet_MaleCivilian_ConstructionWorker.png
-  - type: MALE_CIVILIAN5.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/MaleCivilian_Sailor/SpriteSheet_MaleCivilian_Sailor.png
-  - type: MALE_CIVILIAN6.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/MaleCivilian_Baggydude/SpriteSheet_MaleCivilian_Baggydude.png
-  - type: MALE_CIVILIAN7.PCK
-    width: 512
-    height: 200
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/MaleCivilian_Mechanic/SpriteSheet_MaleCivilian_Mechanic.png
-  - type: FEMALE_CIVILIAN2.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/FemaleCivilian_SuitBlack_HairRed/SpriteSheet_FemaleCivilian_SuitBlack_HairRed.png
-  - type: FEMALE_CIVILIAN3.PCK
-    width: 512
-    height: 720
-    subX: 32
-    subY: 40
-    files:
-      0: Resources/Units/FemaleCivilian_SuitBlue_HairBlond/SpriteSheet_FemaleCivilian_SuitBlue_HairBlond.png
 ##END CIVILIANS
 
 ##BEGIN ARMOR INVENTORY PICS
@@ -1033,245 +961,245 @@ extraSprites:
   - type: MAN_4M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Male_0.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Male_0.png
   - type: MAN_4M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Male_1.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Male_1.png
   - type: MAN_4M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Male_2.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Male_2.png
   - type: MAN_4M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Male_3.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Male_3.png
   - type: MAN_4F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Female_0.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Female_0.png
   - type: MAN_4F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Female_1.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Female_1.png
   - type: MAN_4F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Female_2.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Female_2.png
   - type: MAN_4F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/ArmoredVest/Inventory_ArmoredVest_Female_3.png
+      0: Resources/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_Female_3.png
 #END ARMORED VEST
 
 #BEGIN ALLOY VEST
   - type: MAN_5M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Male_0.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Male_0.png
   - type: MAN_5M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Male_1.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Male_1.png
   - type: MAN_5M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Male_2.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Male_2.png
   - type: MAN_5M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Male_3.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Male_3.png
   - type: MAN_5F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Female_0.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Female_0.png
   - type: MAN_5F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Female_1.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Female_1.png
   - type: MAN_5F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Female_2.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Female_2.png
   - type: MAN_5F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/AlloyVest/Inventory_AlloyVest_Female_3.png
+      0: Resources/Units/Xcom/AlloyVest/Inventory_AlloyVest_Female_3.png
 #END ALLOY VEST
 
 #BEGIN PERSONAL ARMOR
   - type: MAN_1F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Female_0.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Female_0.png
   - type: MAN_1F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Female_1.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Female_1.png
   - type: MAN_1F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Female_2.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Female_2.png
   - type: MAN_1F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Female_3.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Female_3.png
   - type: MAN_1M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Male_0.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Male_0.png
   - type: MAN_1M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Male_1.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Male_1.png
   - type: MAN_1M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Male_2.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Male_2.png
   - type: MAN_1M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/PersonalArmor/Inventory_PersonalArmor_Male_3.png
+      0: Resources/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_Male_3.png
 #END PERSONAL ARMOR
 
 #BEGIN POWER SUIT
   - type: MAN_2M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Male_0.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Male_0.png
   - type: MAN_2M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Male_1.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Male_1.png
   - type: MAN_2M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Male_2.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Male_2.png
   - type: MAN_2M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Male_3.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Male_3.png
   - type: MAN_2F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Female_0.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Female_0.png
   - type: MAN_2F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Female_1.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Female_1.png
   - type: MAN_2F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Female_2.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Female_2.png
   - type: MAN_2F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/PowerSuit/Inventory_PowerSuit_Female_3.png
+      0: Resources/Units/Xcom/PowerSuit/Inventory_PowerSuit_Female_3.png
 #END POWER SUIT
 
 #BEGIN FLYING SUIT
   - type: MAN_3M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Male_0.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Male_0.png
   - type: MAN_3M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Male_1.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Male_1.png
   - type: MAN_3M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Male_2.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Male_2.png
   - type: MAN_3M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Male_3.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Male_3.png
   - type: MAN_3F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Female_0.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Female_0.png
   - type: MAN_3F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Female_1.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Female_1.png
   - type: MAN_3F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Female_2.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Female_2.png
   - type: MAN_3F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/FlyingSuit/Inventory_FlyingSuit_Female_3.png
+      0: Resources/Units/Xcom/FlyingSuit/Inventory_FlyingSuit_Female_3.png
 #END FLYING SUIT
 
 #BEGIN REINFORCED POWER SUIT
   - type: MAN_6M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_0.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_0.png
   - type: MAN_6M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_1.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_1.png
   - type: MAN_6M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_2.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_2.png
   - type: MAN_6M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_3.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Male_3.png
   - type: MAN_6F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_0.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_0.png
   - type: MAN_6F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_1.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_1.png
   - type: MAN_6F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_2.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_2.png
   - type: MAN_6F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_3.png
+      0: Resources/Units/Xcom/ReinforcedPowerSuit/Inventory_ReinforcedPowerSuit_Female_3.png
 #END REINFORCED POWER SUIT
 
 #BEGIN REINFORCED FLYING SUIT
   - type: MAN_7M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_0.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_0.png
   - type: MAN_7M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_1.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_1.png
   - type: MAN_7M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_2.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_2.png
   - type: MAN_7M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_3.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Male_3.png
   - type: MAN_7F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_0.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_0.png
   - type: MAN_7F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_1.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_1.png
   - type: MAN_7F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_2.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_2.png
   - type: MAN_7F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_3.png
+      0: Resources/Units/Xcom/ReinforcedFlyingSuit/Inventory_ReinforcedFlyingSuit_Female_3.png
 #END REINFORCED FLYING SUIT
 
 #BEGIN ALIENS
@@ -1280,61 +1208,61 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Floater/Inventory_Floater.png
+      0: Resources/Units/Alien/Floater/Inventory_Floater.png
   - type: sectoidInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Sectoid/Inventory_Sectoid.png
+      0: Resources/Units/Alien/Sectoid/Inventory_Sectoid.png
   - type: snakemanInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Snakeman/Inventory_Snakeman.png
+      0: Resources/Units/Alien/Snakeman/Inventory_Snakeman.png
   - type: mutonInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Muton/Inventory_Muton.png
+      0: Resources/Units/Alien/Muton/Inventory_Muton.png
   - type: waspiteInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Waspite/Inventory_Waspite.png
+      0: Resources/Units/Alien/Waspite/Inventory_Waspite.png
   - type: gazerInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Gazer/Inventory_Gazer.png
+      0: Resources/Units/Alien/Gazer/Inventory_Gazer.png
   - type: sectoideliteInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/SectoidElite/Inventory_SectoidElite.png
+      0: Resources/Units/Alien/SectoidElite/Inventory_SectoidElite.png
   - type: mutoneliteInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/MutonElite/Inventory_MutonElite.png
+      0: Resources/Units/Alien/MutonElite/Inventory_MutonElite.png
   - type: etherealInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Ethereal/Inventory_Ethereal.png
+      0: Resources/Units/Alien/Ethereal/Inventory_Ethereal.png
   - type: mutoneliteguardInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/MutonEliteGuard/Inventory_MutonEliteGuard.png
+      0: Resources/Units/Alien/MutonEliteGuard/Inventory_MutonEliteGuard.png
 #END ALIENS
 ##END ARMOR INVENTORY PICS
 

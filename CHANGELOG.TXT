@@ -23,6 +23,7 @@ Version 0.99.8
  - Fix listorder for Stun and Fire Grenade
  - Remove AREA51 Terrains as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane
+ - Restructure Resources Files
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check

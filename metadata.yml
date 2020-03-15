@@ -4,3 +4,4 @@ description: "More complex and challenging gescape and battlescape gameplay, res
 author: "hellrazor"
 id: "hardmode-expansion"
 master: "xcom1"
+reservedSpace: 100
