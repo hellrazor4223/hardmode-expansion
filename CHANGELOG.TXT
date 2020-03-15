@@ -21,6 +21,7 @@ Version 0.99.8
  - Fix some typos while doing Terrorsite restructure
  - Fix listorder for Taser Pistol/Pistol
  - Remove AREA51 Terrains as requested from Hobbes
+ - Restructure Ufopaedia Section to be more sane
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check
