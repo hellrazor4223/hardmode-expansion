@@ -1716,19 +1716,6 @@ manufacture:
       STR_ELERIUM_115: 10
 #END PSI AMP
 
-#BEGIN STUN GRENADE
-  - name: STR_STUN_GRENADE
-    category: STR_WEAPON
-    requires:
-      - STR_STUN_GRENADE
-    space: 1
-    time: 10
-    cost: 1000
-    listOrder: 2402
-    requiredItems:
-      STR_STUN_BOMB: 1
-#END STUN GRENADE
-
 #BEGIN FIRE GRENADE
   - name: STR_FIRE_GRENADE
     category: STR_WEAPON
@@ -1737,10 +1724,24 @@ manufacture:
     space: 1
     time: 10
     cost: 1000
-    listOrder: 2403
+    listOrder: 2402
     requiredItems:
       STR_FIRE_BOMB: 1
+#END FIRE GRENADE
+
+#BEGIN STUN GRENADE
+  - name: STR_STUN_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_STUN_GRENADE
+    space: 1
+    time: 10
+    cost: 1000
+    listOrder: 2403
+    requiredItems:
+      STR_STUN_BOMB: 1
 #END STUN GRENADE
+
 ##END XCOM EQUIPMENT
 
 ##BEGIN ALIEN WEAPONS

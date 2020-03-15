@@ -644,18 +644,18 @@ research:
     listOrder: 507
     dependencies:
       - STR_SCATTER_LASER
-  - name: STR_STUN_GRENADE
+  - name: STR_FIRE_GRENADE
     cost: 150
     points: 10
     listOrder: 508
     dependencies:
-      - STR_STUN_BOMB
-  - name: STR_FIRE_GRENADE
+      - STR_FIRE_BOMB
+  - name: STR_STUN_GRENADE
     cost: 150
     points: 10
     listOrder: 509
     dependencies:
-      - STR_FIRE_BOMB
+      - STR_STUN_BOMB
   - name: STR_MOTION_SCANNER
     cost: 270
     points: 20

@@ -42,8 +42,8 @@ extraSprites:
       112: Resources/Items/HeavyLaserAuto/BigOb_HeavyLaserAuto.png
       113: Resources/Items/IncendiaryGrenade/BigOb_IncendiaryGrenade.png
       151: Resources/Items/FlashBangGrenade/BigOb_FlashbangGrenade.png
-      114: Resources/Items/StunGrenade/BigOb_StunGrenade.png
       179: Resources/Items/FireGrenade/BigOb_FireGrenade.png
+      114: Resources/Items/StunGrenade/BigOb_StunGrenade.png
       115: Resources/Items/FieldMediPack/BigOb_FieldMediPack.png
       116: Resources/Items/MediKit/BigOb_MediKit.png
       117: Resources/Items/AdvancedMediKit/BigOb_AdvancedMediKit.png
@@ -142,8 +142,8 @@ extraSprites:
       107: Resources/Items/HeavyLaserAuto/FloorOb_HeavyLaserAuto.png
       108: Resources/Items/IncendiaryGrenade/FloorOb_IncendiaryGrenade.png
       148: Resources/Items/FlashBangGrenade/FloorOb_FlasbangGrenade.png
-      109: Resources/Items/StunGrenade/FloorOb_StunGrenade.png
       192: Resources/Items/FireGrenade/FloorOb_FireGrenade.png
+      109: Resources/Items/StunGrenade/FloorOb_StunGrenade.png
       110: Resources/Items/FieldMediPack/FloorOb_FieldMediPack.png
       111: Resources/Items/MediKit/FloorOb_MediKit.png
       112: Resources/Items/AdvancedMediKit/FloorOb_AdvancedMediKit.png
@@ -269,8 +269,8 @@ extraSprites:
       256: Resources/Items/ProxieGrenade/HandOb_ProxieGrenade.png
       264: Resources/Items/IncendiaryGrenade/HandOb_IncendiaryGrenade.png
       440: Resources/Items/FlashBangGrenade/HandOb_FlashbangGrenade.png
-      432: Resources/Items/StunGrenade/HandOb_StunGrenade.png
       624: Resources/Items/FireGrenade/HandOb_FireGrenade.png
+      432: Resources/Items/StunGrenade/HandOb_StunGrenade.png
       272: Resources/Items/HighExplosiv/HandOb_HighExplosiv.png
       280: Resources/Items/MotionScanner/HandOb_MotionScanner.png
       288: Resources/Items/FieldMediPack/HandOb_FieldMediPack.png

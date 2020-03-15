@@ -20,6 +20,7 @@ Version 0.99.8
  - Fix Craft spawn position for CargoShip
  - Fix some typos while doing Terrorsite restructure
  - Fix listorder for Taser Pistol/Pistol
+ - Fix listorder for Stun and Fire Grenade
  - Remove AREA51 Terrains as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane
 

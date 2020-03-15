@@ -1466,7 +1466,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    listOrder: 2004
+    listOrder: 2202
     armor: 20
     aimRange: 10
     snapRange: 8
@@ -1487,7 +1487,7 @@ items:
     clipSize: 12
     battleType: 2
     armor: 20
-    listOrder: 2006
+    listOrder: 2203
     shotgunPellets: 6
   - type: STR_SHOTGUN_AA_CLIP
     requires:
@@ -1506,7 +1506,7 @@ items:
     clipSize: 12
     battleType: 2
     armor: 30
-    listOrder: 2007
+    listOrder: 2204
     shotgunPellets: 5
 #END SHOTGUN
 
@@ -1533,7 +1533,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 20
-    listOrder: 2202
+    listOrder: 2205
     snapRange: 22
     minRange: 16
     droppoff: 4
@@ -1553,7 +1553,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 20
-    listOrder: 2203
+    listOrder: 2206
   - type: STR_SNIPER_RIFLE_AA_CLIP
     requires:
       - STR_ALLOY_AMMO
@@ -1571,7 +1571,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 30
-    listOrder: 2204
+    listOrder: 2207
 #END SNIPER RIFLE
 
 #BEGIN HEAVY CANON
@@ -1913,20 +1913,6 @@ items:
     blastRadius: 3
     armor: 20
     listOrder: 4002
-  - type: STR_STUN_GRENADE
-    size: 0.1
-    costSell: 15300
-    weight: 4
-    bigSprite: 114
-    floorSprite: 109
-    handSprite: 432
-    hitAnimation: 64
-    power: 90
-    damageType: 6
-    battleType: 4
-    blastRadius: 5
-    armor: 45
-    listOrder: 4003
   - type: STR_FIRE_GRENADE
     size: 0.1
     costSell: 15300
@@ -1937,6 +1923,20 @@ items:
     hitAnimation: 0
     power: 90
     damageType: 2
+    battleType: 4
+    blastRadius: 5
+    armor: 45
+    listOrder: 4003
+  - type: STR_STUN_GRENADE
+    size: 0.1
+    costSell: 15300
+    weight: 4
+    bigSprite: 114
+    floorSprite: 109
+    handSprite: 432
+    hitAnimation: 64
+    power: 90
+    damageType: 6
     battleType: 4
     blastRadius: 5
     armor: 45
