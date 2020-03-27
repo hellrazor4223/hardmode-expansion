@@ -1900,15 +1900,15 @@ items:
     bigSprite: 113
     floorSprite: 108
     handSprite: 264
-    power: 60
+    power: 30
     damageType: 2
     battleType: 4
     blastRadius: 3
     armor: 30
     listOrder: 4001
-  - type: STR_HIGH_EXPLOSIVE
-    handSprite: 272
-    armor: 55
+#BEGIN INC GRENADE ITEM
+
+#BEGIN FLASHBANG GRENADE ITEM
   - type: STR_FLASHBANG_GRENADE
     size: 0.1
     costBuy: 500
@@ -1918,12 +1918,15 @@ items:
     floorSprite: 148
     handSprite: 440
     hitAnimation: 64
-    power: 40
+    power: 30
     damageType: 6
     battleType: 4
     blastRadius: 3
     armor: 20
     listOrder: 4002
+#BEGIN FLASHBANG GRENADE ITEM
+
+#BEGIN FIRE GRENADE ITEM
   - type: STR_FIRE_GRENADE
     size: 0.1
     costSell: 15300

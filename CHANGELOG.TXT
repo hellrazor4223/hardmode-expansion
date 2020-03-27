@@ -17,6 +17,7 @@ Version 0.99.8
  - Adjust Hovertank Laser and Plasma
  - Adjust Taser Pistol
  - Adjust Heavy and Auto Cannon
+ - Adjust Flashbang and Incendiary Grenade
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
  - Fix wrong asigned BigOb/FloorOb for Sailor
  - Fix requires for Support Drone Ufopaedia Article
