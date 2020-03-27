@@ -1,8 +1,9 @@
 ####BEGIN ITEMS
 items:
 
-###BEGIN CRAFTWEAPONS
-#BEGIN ALLOY CANNON
+###BEGIN XCOM ITEMS
+##BEGIN CRAFTWEAPONS ITEMS
+#BEGIN ALLOY CANNON ITEM
   - type: STR_ALLOY_CANNON
     requires:
       - STR_ALLOY_CANNON
@@ -18,11 +19,11 @@ items:
     transferTime: 48
     clipSize: 50
     listOrder: 602
-#END ALLOY CANNON
-###END CRAFTWEAPONS
+#END ALLOY CANNON ITEM
+##END CRAFTWEAPONS ITEMS
 
-###BEGIN DRONES
-#BEGIN DRONE SMOKE AMMO
+##BEGIN XCOM TANK ITEMS
+#BEGIN DRONE SMOKE AMMO ITEM
   - type: STR_DRONE_SMOKE_AMMO
     requires:
       - STR_SUPPORT_DRONES
@@ -38,10 +39,9 @@ items:
     battleType: 2
     clipSize: 3
     listOrder: 1071
-#END DRONE SMOKE AMMO
+#END DRONE SMOKE AMMO ITEM
 
-##BEGIN NORMAL DRONES
-#BEGIN DRONE SCOUT
+#BEGIN DRONE SCOUT ITEM
   - type: STR_DRONE_SCOUT
     requires:
       - STR_SUPPORT_DRONES
@@ -74,9 +74,9 @@ items:
     armor: 30
     recover: true
     listOrder: 4990
-#END DRONE SCOUT
+#END DRONE SCOUT ITEM
 
-#BEGIN DRONE SCANNER
+#BEGIN DRONE SCANNER ITEM
   - type: STR_DRONE_SCANNER
     requires:
       - STR_SUPPORT_DRONES
@@ -125,9 +125,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1073
-#END DRONE SCANNER
+#END DRONE SCANNER ITEM
 
-#BEGIN DRONE MEDIKIT
+#BEGIN DRONE MEDIKIT ITEM
   - type: STR_DRONE_MEDIKIT
     requires:
       - STR_SUPPORT_DRONES
@@ -183,9 +183,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1075
-#END DRONE MEDIKIT
+#END DRONE MEDIKIT ITEM
 
-#BEGIN DRONE TASER
+#BEGIN DRONE TASER ITEM
   - type: STR_DRONE_TASER
     requires:
       - STR_SUPPORT_DRONES
@@ -288,9 +288,9 @@ items:
     armor: 60
     recover: true
     listOrder: 4994
-#END ALLOY DRONE SCOUT
+#END ALLOY DRONE SCOUT ITEM
 
-#BEGIN ALLOY DRONE SCANNER
+#BEGIN ALLOY DRONE SCANNER ITEM
   - type: STR_ALLOY_DRONE_SCANNER
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -341,9 +341,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1081
-#END ALLOY DRONE SCANNER
+#END ALLOY DRONE SCANNER ITEM
 
-#BEGIN ALLOY DRONE MEDIKIT
+#BEGIN ALLOY DRONE MEDIKIT ITEM
   - type: STR_ALLOY_DRONE_MEDIKIT
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -402,9 +402,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1082
-#END ALLOY DRONE MEDIKIT
+#END ALLOY DRONE MEDIKIT ITEM
 
-#BEGIN ALLOY DRONE TASER
+#BEGIN ALLOY DRONE TASER ITEM
   - type: STR_ALLOY_DRONE_TASER
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -531,9 +531,9 @@ items:
     recover: false
     armor: 60
     listOrder: 9301
-#END TANK CANNON
+#END TANK CANNON ITEM
 
-#BEGIN TANK ROCKET LAUNCHER
+#BEGIN TANK ROCKET LAUNCHER ITEM
   - type: STR_TANK_ROCKET_LAUNCHER
     accuracySnap: 65
     listOrder: 1300
@@ -575,9 +575,9 @@ items:
     recover: false
     armor: 60
     listOrder: 9102
-#END TANK ROCKET LAUNCHER
+#END TANK ROCKET LAUNCHER ITEM
 
-#BEGIN TANK LASER CANNON
+#BEGIN TANK LASER CANNON ITEM
   - type: STR_TANK_LASER_CANNON_CORPSE
     size: 6 
     battleType: 11
@@ -616,11 +616,9 @@ items:
     recover: false
     armor: 60
     listOrder: 9303
-#END TANK LASER CANNON
-##END NORMAL TANKS
+#END TANK LASER CANNON ITEM
 
-##BEGIN ALLOY TANKS
-#BEGIN ALLOY TANK CANNON
+#BEGIN ALLOY TANK CANNON ITEM
   - type: STR_ALLOY_TANK_CANNON
     battleType: 1
     size: 6
@@ -683,9 +681,9 @@ items:
     recover: false
     armor: 80
     listOrder: 9304
-#END ALLOY TANK CANNON
+#END ALLOY TANK CANNON ITEM
 
-#BEGIN ALLOY TANK ROCKET
+#BEGIN ALLOY TANK ROCKET ITEM
   - type: STR_ALLOY_TANK_ROCKET_LAUNCHER
     battleType: 1
     size: 6
@@ -749,9 +747,9 @@ items:
     recover: false
     armor: 80
     listOrder: 9305
-#END ALLOY TANK ROCKET
+#END ALLOY TANK ROCKET ITEM
 
-#BEGIN ALLOY TANK LASER
+#BEGIN ALLOY TANK LASER ITEM
   - type: STR_ALLOY_TANK_LASER_CANNON
     damageType: 4
     battleType: 1
@@ -818,11 +816,9 @@ items:
     recover: false
     armor: 80
     listOrder: 9306
-#END ALLOY TANK LASER
-##END ALLOY TANKS
+#END ALLOY TANK LASER ITEM
 
-##BEGIN HOVERTANKS
-#BEGIN HOVERTANK LASER
+#BEGIN HOVERTANK LASER ITEM
   - type: STR_HOVERTANK_LASER
     damageType: 4
     battleType: 1
@@ -889,9 +885,9 @@ items:
     recover: false
     armor: 100
     listOrder: 8901
-#END HOVERTANK LASER
+#END HOVERTANK LASER ITEM
 
-#BEGIN HOVERTANK EBOMB
+#BEGIN HOVERTANK EBOMB ITEM
   - type: STR_HOVERTANK_EBOMB
     battleType: 1
     size: 6
@@ -1016,9 +1012,9 @@ items:
     recover: false
     armor: 100
     listOrder: 8903
-#BEGIN HOVERTANK PLASMA
+#BEGIN HOVERTANK PLASMA ITEM
 
-#BEGIN HOVERTANK LAUNCHER
+#BEGIN HOVERTANK LAUNCHER ITEM
   - type: STR_HWP_FUSION_BOMB
     power: 200
     listOrder: 1800
@@ -1060,10 +1056,9 @@ items:
     recover: false
     armor: 100
     listOrder: 8904
-#END HOVERTANK LAUNCHER
-##END HOVERTANKS
+#END HOVERTANK LAUNCHER ITEM
 
-##BEGIN WALKERTANK PLASMA
+#BEGIN WALKERTANK PLASMA ITEM
   - type: STR_WALKERTANK_PLASMA
     size: 6
     costSell: 1100000
@@ -1128,12 +1123,11 @@ items:
     recover: false
     armor: 100
     listOrder: 8905
-##END WALKERTANK PLASMA
-###END TANKS
+#END WALKERTANK PLASMA ITEM
+##END XCOM TANK ITEMS
 
-###BEGIN XCOM ITEMS
-##BEGIN ARMOR
-#BEGIN ARMORED VEST
+##BEGIN XCOM ARMOR ITEMS
+#BEGIN ARMORED VEST ITEM
   - type: STR_ARMORED_VEST
     size: 0.8
     costBuy: 20000
@@ -1149,9 +1143,9 @@ items:
     armor: 25
     recover: true
     listOrder: 4701
-#END ARMORED VEST
+#END ARMORED VEST ITEM
 
-#BEGIN ALLOY VEST
+#BEGIN ALLOY VEST ITEM
   - type: STR_ALLOY_VEST
     requires:
       - STR_ALLOY_VEST
@@ -1169,9 +1163,9 @@ items:
     armor: 35
     recover: true
     listOrder: 4702
-#END ALLOY VEST
+#END ALLOY VEST ITEM
 
-#BEGIN PERSONAL ARMOR
+#BEGIN PERSONAL ARMOR ITEM
   - type: STR_PERSONAL_ARMOR
     costSell: 44000
   - type: STR_PERSONAL_ARMOR_CORPSE
@@ -1185,9 +1179,9 @@ items:
     armor: 50
     recover: true
     listOrder: 4801
-#END PERSONAL ARMOR CORPSE
+#END PERSONAL ARMOR ITEM
 
-#BEGIN POWER SUIT
+#BEGIN POWER SUIT ITEM
   - type: STR_POWER_SUIT
     costSell: 88000
   - type: STR_POWER_SUIT_CORPSE
@@ -1201,9 +1195,9 @@ items:
     armor: 60
     recover: true
     listOrder: 4901
-#END POWER SUIT
+#END POWER SUIT ITEM
 
-#BEGIN FLYING SUIT
+#BEGIN FLYING SUIT ITEM
   - type: STR_FLYING_SUIT
     costSell: 116000
   - type: STR_FLYING_SUIT_CORPSE
@@ -1217,9 +1211,9 @@ items:
     armor: 70
     recover: true
     listOrder: 4902
-#END FLYING SUIT
+#END FLYING SUIT ITEM
 
-#BEGIN REINFORCED POWER SUIT
+#BEGIN REINFORCED POWER SUIT ITEM
   - type: STR_REINFORCED_POWER_SUIT
     size: 1.0
     costSell: 168000
@@ -1235,9 +1229,9 @@ items:
     armor: 80
     recover: true
     listOrder: 4903
-#END REINFORCED POWER SUIT
+#END REINFORCED POWER SUIT ITEM
 
-#BEGIN REINFORCED FLYING SUIT
+#BEGIN REINFORCED FLYING SUIT ITEM
   - type: STR_REINFORCED_FLYING_SUIT
     size: 1.0
     costSell: 232000
@@ -1253,11 +1247,11 @@ items:
     armor: 90
     recover: true
     listOrder: 4904
-#END REINFORCED FLYING SUIT
-##END ARMOR
+#END REINFORCED FLYING SUIT ITEM
+##END XCOM ARMOR ITEMS
 
-##BEGIN WEAPONS
-#BEGIN COMBAT KNIFE
+##BEGIN XCOM WEAPON ITEMS
+#BEGIN COMBAT KNIFE ITEM
   - type: STR_COMBAT_KNIFE
     size: 0.1
     costBuy: 100
@@ -1282,9 +1276,9 @@ items:
     invHeight: 2
     armor: 12
     listOrder: 1802
-#END COMBAT KNIFE
+#END COMBAT KNIFE ITEM
 
-#BEGIN ALLOY KNIFE
+#BEGIN ALLOY KNIFE ITEM
   - type: STR_ALLOY_KNIFE
     requires:
       - STR_ALLOY_KNIFE
@@ -1310,9 +1304,9 @@ items:
     invHeight: 2
     armor: 20
     listOrder: 1803
-#END ALLOY KNIFE
+#END ALLOY KNIFE ITEM
 
-#BEGIN ALLOY SWORD
+#BEGIN ALLOY SWORD ITEM
   - type: STR_ALLOY_SWORD
     requires:
       - STR_ALLOY_SWORD
@@ -1413,9 +1407,9 @@ items:
     battleType: 2
     armor: 20
     listOrder: 2001
-#END PISTOL
+#END PISTOL ITEM
 
-#BEGIN RIFLE
+#BEGIN RIFLE ITEM
   - type: STR_RIFLE
     compatibleAmmo:
       - STR_RIFLE_CLIP
@@ -1443,9 +1437,9 @@ items:
     battleType: 2
     listOrder: 2201
     armor: 30
-#END RIFLE
+#END RIFLE ITEM
 
-#BEGIN SHOTGUN
+#BEGIN SHOTGUN ITEM
   - type: STR_SHOTGUN
     size: 0.2
     costBuy: 3000
@@ -1508,11 +1502,11 @@ items:
     armor: 30
     listOrder: 2204
     shotgunPellets: 5
-#END SHOTGUN
+#END SHOTGUN ITEM
 
-#BEGIN SNIPER RIFLE
+#BEGIN SNIPER RIFLE ITEM
   - type: STR_SNIPER_RIFLE
-    size: 0.3
+    size: 0.2
     costBuy: 14000
     costSell: 6850
     weight: 8
@@ -1524,7 +1518,7 @@ items:
     compatibleAmmo:
       - STR_SNIPER_RIFLE_CLIP
       - STR_SNIPER_RIFLE_AA_CLIP
-    accuracySnap: 70
+    accuracySnap: 80
     accuracyAimed: 120
     tuSnap: 50
     tuAimed: 80
@@ -1655,9 +1649,9 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2801
-#END AUTO CANON
+#END AUTO CANNON ITEM
 
-#BEGIN GRENADE LAUNCHER
+#BEGIN GRENADE LAUNCHER ITEM
   - type: STR_GRENADE_LAUNCHER
     size: 0.2
     costBuy: 5000
@@ -1683,7 +1677,7 @@ items:
     arcingShot: true
     listOrder: 3001
     snapRange: 24
-    droppoff: 4
+    droppoff: 3 
   - type: STR_GRENADE_LAUNCHER_HE_AMMO
     size: 0.1
     costBuy: 200
@@ -1738,9 +1732,9 @@ items:
     blastRadius: 4
     armor: 20
     listOrder: 3004
-#END GRENADE LAUNCHER
+#END GRENADE LAUNCHER ITEM
 
-#BEGIN ROCKET LAUNCHER
+#BEGIN ROCKET LAUNCHER ITEM
   - type: STR_ROCKET_LAUNCHER
     compatibleAmmo:
       - STR_SMALL_ROCKET
@@ -1778,18 +1772,21 @@ items:
     blastRadius: 7
     armor: 20
     listOrder: 3401
-#END ROCKET LAUNCHER
+#END ROCKET LAUNCHER ITEM
 
-#BEGIN LASER PISTOL / RIFLE
+#BEGIN LASER PISTOL ITEM
   - type: STR_LASER_PISTOL
     armor: 30
     droppoff: 3
+#END LASER PISTOL ITEM
+
+#BEGIN LASER RIFLE ITEM
   - type: STR_LASER_RIFLE
     armor: 30
     droppoff: 3
-#END LASER PISTOL / RIFLE
+#END LASER RIFLE ITEM
 
-#BEGIN SCATTER LASER
+#BEGIN SCATTER LASER ITEM
   - type: STR_SCATTER_LASER
     requires:
       - STR_SCATTER_LASER
@@ -1823,9 +1820,9 @@ items:
     snapRange: 8
     autoRange: 6
     droppoff: 3
-#END SCATTER LASER
+#END SCATTER LASER ITEM
 
-#BEGIN HEAVY LASER SNIPER
+#BEGIN HEAVY LASER SNIPER ITEM
   - type: STR_HEAVY_LASER
     power: 100
     accuracySnap: 80
@@ -1836,9 +1833,9 @@ items:
     snapRange: 24
     minRange: 14
     droppoff: 3
-#END HEAVY LASER SNIPER
+#END HEAVY LASER SNIPER ITEM
 
-#BEGIN HEAVY LASER AUTO
+#BEGIN HEAVY LASER AUTO ITEM
   - type: STR_HEAVY_LASER_AUTO
     requires:
       - STR_HEAVY_LASER_AUTO
@@ -1869,18 +1866,27 @@ items:
     snapRange: 24
     autoRange: 14
     droppoff: 3
-#END HEAVY LASER AUTO
+#END HEAVY LASER AUTO ITEM
 
-#BEGIN GRENADES
+#BEGIN GRENADE ITEM
   - type: STR_GRENADE
     armor: 50
+#BEGIN GRENADE ITEM
+
+#BEGIN SMOKE GRENADE ITEM
   - type: STR_SMOKE_GRENADE
     handSprite: 248
     hitAnimation: 56
     armor: 30
+#BEGIN SMOKE GRENADE ITEM
+
+#BEGIN PROXIMITY GRENADE ITEM
   - type: STR_PROXIMITY_GRENADE
     handSprite: 256
     armor: 35
+#BEGIN PROXIMITY GRENADE ITEM
+
+#BEGIN INC GRENADE ITEM
   - type: STR_INC_GRENADE
     size: 0.1
     costBuy: 500
@@ -1927,6 +1933,9 @@ items:
     blastRadius: 5
     armor: 45
     listOrder: 4003
+#BEGIN FIRE GRENADE ITEM
+
+#BEGIN STUN GRENADE ITEM
   - type: STR_STUN_GRENADE
     size: 0.1
     costSell: 15300
@@ -1941,18 +1950,21 @@ items:
     blastRadius: 5
     armor: 45
     listOrder: 4004
-#END GRENADES
-##END WEAPONS
+#END STUN GRENADE ITEM
 
-##BEGIN EQUIPMENT
+#BEGIN HIGH EXPLOSIVE ITEM
+  - type: STR_HIGH_EXPLOSIVE
+    handSprite: 272
+    armor: 55
+#END HIGH EXPLOSIVE ITEM
+
+#BEGIN MOTION SCANNER ITEM
   - type: STR_MOTION_SCANNER
     handSprite: 280
     armor: 10
-  - type: STR_ELECTRO_FLARE
-    handSprite: 320
-    armor: 10
+#END MOTION SCANNER ITEM
 
-#BEGIN MEDI PACK
+#BEGIN MEDI PACK ITEM
   - type: STR_FIELD_MEDI_PACK
     size: 0.2
     costBuy: 15000
@@ -1975,9 +1987,9 @@ items:
     flatRate: true
     armor: 10
     listOrder: 4299
-#END MEDI PACK
+#END MEDI PACK ITEM
 
-#BEGIN MEDI KIT
+#BEGIN MEDI KIT ITEM
   - type: STR_MEDI_KIT
     requires:
       - STR_MEDI_KIT
@@ -2001,9 +2013,9 @@ items:
     flatRate: true
     armor: 20
     listOrder: 4300
-#END MEDI KIT
+#END MEDI KIT ITEM
 
-#BEGIN ADVANCED MEDI KIT
+#BEGIN ADVANCED MEDI KIT ITEM
   - type: STR_ADVANCED_MEDI_KIT
     requires:
       - STR_ADVANCED_MEDI_KIT
@@ -2027,14 +2039,20 @@ items:
     flatRate: true
     armor: 30
     listOrder: 4301
-#END ADVANCED MEDI KIT
-##END EQUIPMENT
+#END ADVANCED MEDI KIT ITEM
+
+#BEGIN ELECTRO FLARE ITEM
+  - type: STR_ELECTRO_FLARE
+    handSprite: 320
+    armor: 10
+#END ELECTRO FLARE ITEM
+##END XCOM WEAPON ITEMS
 ###END XCOM ITEMS
 
 
 ###BEGIN ALIEN ITEMS
-##BEGIN ALIEN WEAPONS
-#BEGIN PLASMA BLADE
+##BEGIN ALIEN WEAPON ITEMS
+#BEGIN PLASMA BLADE ITEM
   - type: STR_PLASMA_BLADE
     requires:
       - STR_PLASMA_BLADE
@@ -2063,9 +2081,9 @@ items:
     armor: 40
     attraction: 10
     listOrder: 4998
-#END PLASMA BLADE
+#END PLASMA BLADE ITEM
 
-#BEGIN PLASMA SWORD
+#BEGIN PLASMA SWORD ITEM
   - type: STR_PLASMA_SWORD
     requires:
       - STR_PLASMA_SWORD
@@ -2094,9 +2112,9 @@ items:
     recoveryPoints: 3
     attraction: 10
     listOrder: 4999
-#END PLASMA SWORD
+#END PLASMA SWORD ITEM
 
-#BEGIN PLASMA PISTOL
+#BEGIN PLASMA PISTOL ITEM
   - type: STR_PLASMA_PISTOL
     armor: 50
     attraction: 10
@@ -2110,9 +2128,9 @@ items:
     attraction: 10
     costSell: 2220
     listOrder: 5100
-#END PLASMA PISTOL
+#END PLASMA PISTOL ITEM
 
-#BEGIN PLASMA RIFLE
+#BEGIN PLASMA RIFLE ITEM
   - type: STR_PLASMA_RIFLE
     armor: 50
     attraction: 10
@@ -2126,9 +2144,9 @@ items:
     attraction: 10
     costSell: 3145
     listOrder: 5300
-#END PLASMA RIFLE
+#END PLASMA RIFLE ITEM
 
-#BEGIN PLASMA SHOTGUN
+#BEGIN PLASMA SHOTGUN ITEM
   - type: STR_PLASMA_SHOTGUN
     requires:
       - STR_PLASMA_SHOTGUN
@@ -2203,9 +2221,9 @@ items:
     attraction: 10
     shotgunPellets: 6
     listOrder: 5303
-#END PLASMA SHOTGUN
+#END PLASMA SHOTGUN ITEM
 
-#BEGIN PLASMA SNIPER RIFLE
+#BEGIN PLASMA SNIPER RIFLE ITEM
   - type: STR_PLASMA_SNIPER_RIFLE
     requires:
       - STR_PLASMA_SNIPER_RIFLE
@@ -2273,9 +2291,9 @@ items:
     armor: 30
     attraction: 10
     listOrder: 5306
-#END PLASMA SNIPER RIFLE
+#END PLASMA SNIPER RIFLE ITEM
 
-#BEGIN HEAVY PLASMA
+#BEGIN HEAVY PLASMA ITEM
   - type: STR_HEAVY_PLASMA
     armor: 50
     attraction: 10
@@ -2291,9 +2309,9 @@ items:
     costSell: 4795
     listOrder: 5500
     dropoff: 2
-#END HEAVY PLASMA
+#END HEAVY PLASMA ITEM
 
-#BEGIN SMALL LAUNCHER
+#BEGIN SMALL LAUNCHER ITEM
   - type: STR_SMALL_LAUNCHER
     requires:
       - STR_SMALL_LAUNCHER
@@ -2392,9 +2410,9 @@ items:
     armor: 30
     attraction: 5
     listOrder: 5703
-#END SMALL LAUNCHER
+#END SMALL LAUNCHER ITEM
 
-#BEGIN BLASTER LAUNCHER
+#BEGIN BLASTER LAUNCHER ITEM
   - type: STR_BLASTER_LAUNCHER
     armor: 50
     attraction: 10
@@ -2408,34 +2426,32 @@ items:
     costSell: 8514
     listOrder: 5900
     dropoff: 0
-#END BLASTER LAUNCHER
+#END BLASTER LAUNCHER ITEM
 
-#BEGIN ALIEN GRENADE
+#BEGIN ALIEN GRENADE ITEM
   - type: STR_ALIEN_GRENADE
     handSprite: 392
     armor: 45
     attraction: 6
     costSell: 7425
-#END ALIEN GRENADE
-##END ALIENS WEAPONS
+#END ALIEN GRENADE ITEM
 
-##BEGIN MISC
-#BEGHIN ELERIUM
+#BEGHIN ELERIUM ITEM
   - type: STR_ELERIUM_115
     handSprite: 400
     floorSprite: 121
     costSell: 2500
-#END ELERIUM
+#END ELERIUM ITEM
 
-#BEGIN MIND PROBE
+#BEGIN MIND PROBE ITEM
   - type: STR_MIND_PROBE
     handSprite: 408
     armor: 30
     attraction: 10
     costSell: 150000
-#END MIND PROBE
+#END MIND PROBE ITEM
 
-#BEGIN ALIEN DATA SLATE
+#BEGIN ALIEN DATA SLATE ITEM
   - type: STR_ALIEN_DATA_SLATE
     requires:
       - STR_ALIEN_DATA_SLATE
@@ -2449,9 +2465,9 @@ items:
     recoveryPoints: 25
     armor: 1000
     listOrder: 6201
-#END ALIEN DATA SLATE
+#END ALIEN DATA SLATE ITEM
 
-#BEGIN ALIEN DATA CORE
+#BEGIN ALIEN DATA CORE ITEM
   - type: STR_ALIEN_DATA_CORE
     requires:
       - STR_ALIEN_DATA_CORE
@@ -2465,39 +2481,39 @@ items:
     recoveryPoints: 50
     armor: 1000
     listOrder: 6202
-#BEGIN ALIEN DATA CORE
-##END MISC
+#BEGIN ALIEN DATA CORE ITEM
+##END ALIEN WEAPON ITEMS
 
-##BEGIN ALIEN CORPSES
-#BEGIN FLOATER CORPSE
+##BEGIN ALIEN CORPSE ITEMS
+#BEGIN FLOATER ITEM
   - type: STR_FLOATER_CORPSE
     costSell: 10000
     recoveryPoints: 3
     listOrder: 6300
-#END FLOATER CORPSE
+#END FLOATER ITEM
 
-#BEGIN SECTOID CORPSE
+#BEGIN SECTOID ITEM
   - type: STR_SECTOID_CORPSE
     costSell: 10000
     recoveryPoints: 3
     listOrder: 6400
-#END SECTOID CORPSE
+#END SECTOID ITEM
 
-#BEGIN SNAKEMAN CORPSE
+#BEGIN SNAKEMAN ITEM
   - type: STR_SNAKEMAN_CORPSE
     costSell: 10000
     recoveryPoints: 3
     listOrder: 6500
-#END SNAKEMAN CORPSE
+#END SNAKEMAN ITEM
 
-#BEGIN MUTON CORPSE
+#BEGIN MUTON ITEM
   - type: STR_MUTON_CORPSE
     costSell: 10000
     recoveryPoints: 3
     listOrder: 6600
-#END MUTON CORPSE
+#END MUTON ITEM
 
-#BEGIN WASPITE CORPSE
+#BEGIN WASPITE ITEM
   - type: STR_WASPITE_CORPSE
     size: 0.4
     costSell: 10000
@@ -2510,9 +2526,9 @@ items:
     battleType: 11
     armor: 26
     listOrder: 6700
-#END WASPITE CORPSE
+#END WASPITE ITEM
 
-#BEGIN GAZER CORPSE
+#BEGIN GAZER ITEM
   - type: STR_GAZER_CORPSE
     size: 0.4
     costSell: 10000
@@ -2525,9 +2541,9 @@ items:
     battleType: 11
     armor: 26
     listOrder: 6800
-#END GAZER CORPSE
+#END GAZER ITEM
 
-#BEGIN SECTOID ELITE CORPSE
+#BEGIN SECTOID ELITE ITEM
   - type: STR_SECTOID_ELITE_CORPSE
     size: 0.4
     costSell: 10000
@@ -2540,9 +2556,9 @@ items:
     battleType: 11
     armor: 26
     listOrder: 6900
-#END SECTOID ELITE CORPSE
+#END SECTOID ELITE ITEM
 
-#BEGIN MUTON ELITE CORPSE
+#BEGIN MUTON ELITE ITEM
   - type: STR_MUTON_ELITE_CORPSE
     size: 0.4
     costSell: 10000
@@ -2555,16 +2571,16 @@ items:
     battleType: 11
     armor: 26
     listOrder: 7000
-#END MUTON ELITE CORPSE
+#END MUTON ELITE ITEM
 
-#BEGIN ETHEREAL CORPSE
+#BEGIN ETHEREAL ITEM
   - type: STR_ETHEREAL_CORPSE
     costSell: 10000
     recoveryPoints: 5
     listOrder: 7100
-#END ETHEREAL CORPSE
+#END ETHEREAL ITEM
 
-#BEGIN MUTON ELITE GUARD CORPSE
+#BEGIN MUTON ELITE GUARD ITEM
   - type: STR_MUTON_ELITE_GUARD_CORPSE
     size: 0.4
     costSell: 10000
@@ -2577,15 +2593,15 @@ items:
     battleType: 11
     armor: 26
     listOrder: 7200
-#END MUTON ELITE GUARD CORPSE
+#END MUTON ELITE GUARD ITEM
 
-#BEGIN SILACOID CORPSE
+#BEGIN SILACOID ITEM
   - type: STR_SILACOID_CORPSE
     costSell: 10000
     listOrder: 7300
-#END SILACOID CORPSE
+#END SILACOID ITEM
 
-#BEGIN REAPER CORPSE
+#BEGIN REAPER ITEM
   - type: STR_REAPER_CORPSE
     costSell: 10000
     listOrder: 7400
@@ -2601,9 +2617,9 @@ items:
   - type: REAPER_CORPSE_4
     armor: 26
     listOrder: 7404
-#END REAPER CORPSE
+#END REAPER ITEM
 
-#BEGIN CYBERDISC CORPSE
+#BEGIN CYBERDISC ITEM
   - type: STR_CYBERDISC_CORPSE
     costSell: 10000
     listOrder: 7500
@@ -2619,16 +2635,16 @@ items:
   - type: CYBERDISC_CORPSE_4
     armor: 26
     listOrder: 7504
-#END CYBERDISC CORPSE
+#END CYBERDISC ITEM
 
-#BEGIN CHRYSSALID CORPSE
+#BEGIN CHRYSSALID ITEM
   - type: STR_CHRYSSALID_CORPSE
     costSell: 10000
     armor: 26
     listOrder: 7600
-#END CHRYSSALID CORPSE
+#END CHRYSSALID ITEM
 
-#BEGIN SECTOPOD CORPSE
+#BEGIN SECTOPOD ITEM
   - type: STR_SECTOPOD_CORPSE
     costSell: 10000
     listOrder: 7700
@@ -2644,15 +2660,15 @@ items:
   - type: SECTOPOD_CORPSE_4
     armor: 26
     listOrder: 7704
-#END SECTOPOD CORPSE
+#END SECTOPOD ITEM
 
-#BEGIN CELATID CORPSE
+#BEGIN CELATID ITEM
   - type: STR_CELATID_CORPSE
     costSell: 10000
     listOrder: 7800
-#END CELATID CORPSE
+#END CELATID ITEM
 
-#BEGIN MUTON BERSERKER CORPSE
+#BEGIN MUTON BERSERKER ITEM
   - type: STR_MUTON_BERSERKER_CORPSE
     size: 0.4
     costSell: 10000
@@ -2665,9 +2681,9 @@ items:
     battleType: 11
     armor: 26
     listOrder: 7900
-#END MUTON BERSERKER CORPSE
+#END MUTON BERSERKER ITEM
 
-#BEGIN CYBERMITE CORPSE
+#BEGIN CYBERMITE ITEM
   - type: STR_CYBERMITE_CORPSE
     size: 0.4
     costSell: 10000
@@ -2682,9 +2698,9 @@ items:
     armor: 26
     blastRadius: 5
     listOrder: 8000
-#END CYBERMITE CORPSE
+#END CYBERMITE ITEM
 
-#BEGIN HOLODRONE CORPSE
+#BEGIN HOLODRONE ITEM
   - type: STR_HOLODRONE_CORPSE
     size: 0.4
     costSell: 10000
@@ -2697,9 +2713,9 @@ items:
     battleType: 11
     armor: 26
     listOrder: 8100
-#END HOLODRONE CORPSE
+#END HOLODRONE ITEM
 
-#BEGIN ARMORED CYBERDISC CORPSE
+#BEGIN ARMORED CYBERDISC ITEM
   - type: STR_ARMORED_CYBERDISC_CORPSE
     size: 1
     costSell: 10000
@@ -2740,9 +2756,9 @@ items:
     recover: false
     armor: 26
     listOrder: 8204
-#END ARMORED CYBERDISC CORPSE
+#END ARMORED CYBERDISC ITEM
 
-#BEGIN ARMORED SECTOPOD CORPSE
+#BEGIN ARMORED SECTOPOD ITEM
   - type: STR_ARMORED_SECTOPOD_CORPSE
     size: 1
     costSell: 10000
@@ -2781,9 +2797,9 @@ items:
     recover: false
     armor: 26
     listOrder: 8304
-#END ARMORED SECTOPOD CORPSE
+#END ARMORED SECTOPOD ITEM
 
-#BEGIN CHRYSSALID SPITTER CORPSE
+#BEGIN CHRYSSALID SPITTER ITEM
   - type: STR_CHRYSSALID_SPITTER_CORPSE
     size: 0.4
     costSell: 10000
@@ -2796,19 +2812,19 @@ items:
     battleType: 11
     armor: 26
     listOrder: 8500
-#END CHRYSSALID SPITTER CORPSE
-##END ALIEN CORPSES
+#END CHRYSSALID SPITTER ITEM
+##END ALIEN CORPSE ITEMS
 
-##BEGIN TERROR UNIT WEAPONS
-#BEGIN SECTOPOD WEAPON
+##BEGIN ALIEN TERROR UNIT WEAPON ITEMS
+#BEGIN SECTOPOD WEAPON ITEM
   - type: SECTOPOD_WEAPON
     hitAnimation: 36
     bulletSprite: 7
     fireSound: 11
     listOrder: 11400
-#END SECTOPOD WEAPON
+#END SECTOPOD WEAPON ITEM
 
-#BEGIN MUTON BERSERKER WEAPON
+#BEGIN MUTON BERSERKER WEAPON ITEM
   - type: MUTON_BERSERKER_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 61}
@@ -2828,9 +2844,9 @@ items:
     recover: false
     flatRate: true
     listOrder: 11401
-#END MUTON BERSERKER WEAPON
+#END MUTON BERSERKER WEAPON ITEM
 
-#BEGIN CYBERMITE WEAPON
+#BEGIN CYBERMITE WEAPON ITEM
   - type: CYBERMITE_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 59}
@@ -2848,9 +2864,9 @@ items:
     invHeight: 3
     recover: false
     listOrder: 11402
-#END CYBERMITE WEAPON
+#END CYBERMITE WEAPON ITEM
 
-#BEGIN HOLODRONE WEAPON
+#BEGIN HOLODRONE WEAPON ITEM
   - type: HOLODRONE_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60}
@@ -2875,9 +2891,9 @@ items:
     recover: false
     autoShots: 5
     listOrder: 11403
-#END HOLODRONE WEAPON
+#END HOLODRONE WEAPON ITEM
 
-#BEGIN ARMORED CYBERDISC WEAPON
+#BEGIN ARMORED CYBERDISC WEAPON ITEM
   - type: ARMORED_CYBERDISC_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60}
@@ -2902,9 +2918,9 @@ items:
     invHeight: 3
     recover: false
     listOrder: 11404
-#END ARMORED CYBERDISC WEAPON
+#END ARMORED CYBERDISC WEAPON ITEM
 
-#BEGIN ARMORED SECTOPOD WEAPON
+#BEGIN ARMORED SECTOPOD WEAPON ITEM
   - type: ARMORED_SECTOPOD_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60}
@@ -2930,9 +2946,9 @@ items:
     recover: false
     autoShots: 5
     listOrder: 11405
-#END ARMORED SECTOPOD WEAPON
+#END ARMORED SECTOPOD WEAPON ITEM
 
-#BEGIN CHRYSSALID SPITTER WEAPON
+#BEGIN CHRYSSALID SPITTER WEAPON ITEM
   - type: CHRYSSALID_SPITTER_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60}
@@ -2955,9 +2971,9 @@ items:
     zombieUnit: STR_SPITTER_ZOMBIE
     flatRate: true
     listOrder: 11406
-#END CHRYSSALID SPITTER WEAPON
+#END CHRYSSALID SPITTER WEAPON ITEM
 
-#BEGIN SPITTER ZOMBIE WEAPON
+#BEGIN SPITTER ZOMBIE WEAPON ITEM
   - type: SPITTER_ZOMBIE_WEAPON
     weight: 3
     bigSprite: 57
@@ -2974,11 +2990,11 @@ items:
     recover: false
     flatRate: true
     listOrder: 11407
-#END SPITTER ZOMBIE WEAPON
-##END ADDITIONAL TERROR UNIT WEAPONS
+#END SPITTER ZOMBIE WEAPON ITEM
+##END ALIEN TERROR UNIT WEAPON ITEMS
 
-##BEGIN ALIVE ALIENS
-#BEGIN FLOATER
+##BEGIN ALIVE ALIEN ITEMS
+#BEGIN FLOATER ITEM
   - type: STR_FLOATER_SOLDIER
     costSell: 20000
     listOrder: 11600
@@ -2997,9 +3013,9 @@ items:
   - type: STR_FLOATER_COMMANDER
     costSell: 30000
     listOrder: 11605
-#END FLOATER
+#END FLOATER ITEM
 
-#BEGIN SECTOID
+#BEGIN SECTOID ITEM
   - type: STR_SECTOID_SOLDIER
     costSell: 20000
     listOrder: 11700
@@ -3018,9 +3034,9 @@ items:
   - type: STR_SECTOID_COMMANDER
     costSell: 30000
     listOrder: 11706
-#END SECTOID
+#END SECTOID ITEM
 
-#BEGIN SNAKEMAN
+#BEGIN SNAKEMAN ITEM
   - type: STR_SNAKEMAN_SOLDIER
     costSell: 20000
     listOrder: 11800
@@ -3036,9 +3052,9 @@ items:
   - type: STR_SNAKEMAN_COMMANDER
     costSell: 30000
     listOrder: 11804
-#END SNAKEMAN
+#END SNAKEMAN ITEM
 
-#BEGIN MUTON
+#BEGIN MUTON ITEM
   - type: STR_MUTON_SOLDIER
     costSell: 20000
     listOrder: 11900
@@ -3048,9 +3064,9 @@ items:
   - type: STR_MUTON_ENGINEER
     costSell: 30000
     listOrder: 11902
-#END MUTON
+#END MUTON ITEM
 
-#BEGIN WASPITE
+#BEGIN WASPITE ITEM
   - type: STR_WASPITE_SOLDIER
     size: 0.0
     recover: true
@@ -3087,9 +3103,9 @@ items:
     liveAlien: true
     costSell: 30000
     listOrder: 12005
-#END WASPITE
+#END WASPITE ITEM
 
-#BEGIN GAZER
+#BEGIN GAZER ITEM
   - type: STR_GAZER_SOLDIER
     size: 0.0
     recover: true
@@ -3126,9 +3142,9 @@ items:
     liveAlien: true
     costSell: 30000
     listOrder: 12105
-#END GAZER
+#END GAZER ITEM
 
-#BEGIN SECTOID ELITE
+#BEGIN SECTOID ELITE ITEM
   - type: STR_SECTOID_ELITE_SOLDIER
     size: 0.0
     recover: true
@@ -3165,9 +3181,9 @@ items:
     liveAlien: true
     costSell: 30000
     listOrder: 12205
-#END ARMORED SECTOID
+#END ARMORED SECTOID ITEM
 
-#BEGIN MUTON ELITE
+#BEGIN MUTON ELITE ITEM
   - type: STR_MUTON_ELITE_SOLDIER
     size: 0.0
     recover: true
@@ -3192,9 +3208,9 @@ items:
     liveAlien: true
     costSell: 30000
     listOrder: 12303
-#END MUTON ELITE
+#END MUTON ELITE ITEM
 
-#BEGIN ETHEREAL
+#BEGIN ETHEREAL ITEM
   - type: STR_ETHEREAL_SOLDIER
     costSell: 30000
     listOrder: 12400
@@ -3204,9 +3220,9 @@ items:
   - type: STR_ETHEREAL_COMMANDER
     costSell: 30000
     listOrder: 12402
-#END ETHEREAL
+#END ETHEREAL ITEM
 
-#BEGIN MUTON ELITE GUARD
+#BEGIN MUTON ELITE GUARD ITEM
   - type: STR_MUTON_ELITE_GUARD_SOLDIER
     size: 0.0
     recover: true
@@ -3225,210 +3241,152 @@ items:
     liveAlien: true
     costSell: 30000
     listOrder: 12502
-#END MUTON ELITE GUARDIANS
-##END ALIVE ALIENS
+#END MUTON ELITE GUARD ITEM
 
-##BEGIN ALIVE TERRORUNITS
-#BEGIN SILACOID
+#BEGIN SILACOID ITEM
   - type: STR_SILACOID_TERRORIST
     costSell: 20000
     listOrder: 12600
-#END SILACOID
+#END SILACOID ITEM
 
-#BEGIN REAPER
+#BEGIN REAPER ITEM
   - type: STR_REAPER_TERRORIST
     costSell: 20000
     listOrder: 12700
-#END REAPER
+#END REAPER ITEM
 
-#BEGIN CYBERDISC
+#BEGIN CYBERDISC ITEM
   - type: STR_CYBERDISC_TERRORIST
     costSell: 40000
     listOrder: 12800
-#END CYBERDISC
+#END CYBERDISC ITEM
 
-#BEGIN CHRYSSALID
+#BEGIN CHRYSSALID ITEM
   - type: STR_CHRYSSALID_TERRORIST
     costSell: 30000
     listOrder: 12900
-#END CHRYSSALID
+#END CHRYSSALID ITEM
 
-#BEGIN CELATID
+#BEGIN CELATID ITEM
   - type: STR_CELATID_TERRORIST
     costSell: 20000
     listOrder: 13000
-#END CELATID
+#END CELATID ITEM
 
-#BEGIN SECTOPOD
+#BEGIN SECTOPOD ITEM
   - type: STR_SECTOPOD_TERRORIST
     costSell: 40000
     listOrder: 13100
 #END SECTOPOD
 
-#BEGIN MUTON BERSERKER
+#BEGIN MUTON BERSERKER ITEM
   - type: STR_MUTON_BERSERKER_TERRORIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 13200
-#END MUTON BERSERKER
+#END MUTON BERSERKER ITEM
 
-#BEGIN CYBERMITE
+#BEGIN CYBERMITE ITEM
   - type: STR_CYBERMITE_TERRORIST
     recover: true
     size: 0.0
     liveAlien: true
     costSell: 30000
     listOrder: 13300
-#END CYBERMITE
+#END CYBERMITE ITEM
 
-#BEGIN HOLODRONE
+#BEGIN HOLODRONE ITEM
   - type: STR_HOLODRONE_TERRORIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 13400
-#END HOLODRONE
+#END HOLODRONE ITEM
 
-#BEGIN ARMORED CYBERDISC
+#BEGIN ARMORED CYBERDISC ITEM
   - type: STR_ARMORED_CYBERDISC_TERRORIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 13500
-#END ARMORED CYBERDISC
+#END ARMORED CYBERDISC ITEM
 
-#BEGIN ARMORED SECTOPOD
+#BEGIN ARMORED SECTOPOD ITEM
   - type: STR_ARMORED_SECTOPOD_TERRORIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 13600
-#END ARMORED SECTOPOD
+#END ARMORED SECTOPOD ITEM
 
-#BEGIN CHRYSSALID SPITTER
+#BEGIN CHRYSSALID SPITTER ITEM
   - type: STR_CHRYSSALID_SPITTER_TERRORIST
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 13700
-#END CHRYSSALID SPITTER
-##END ALIVE TERRORUNITS
+#END CHRYSSALID SPITTER ITEM
+##END ALIVE ALIEN ITEMS
 
-##BEGIN UFO COMPONENTS
+##BEGIN UFO COMPONENT ITEMS
+#BEGIN UFO POWER SOURCE ITEM
   - type: STR_UFO_POWER_SOURCE
     costSell: 125000
+#END UFO POWER SOURCE ITEM
+
+#BEGIN UFO NAVIGATION ITEM
   - type: STR_UFO_NAVIGATION
     costSell: 40000
+#BEGIN UFO NAVIGATION ITEM
+
+#BEGIN UFO CONSTRUCTION ITEM
   - type: STR_UFO_CONSTRUCTION
     costSell: 10000
+#BEGIN UFO CONSTRUCTION ITEM
+
+#BEGIN ALIEN FOOD ITEM
   - type: STR_ALIEN_FOOD
     costSell: 2500
+#END ALIEN FOOD ITEM
+
+#BEGIN ALIEN REPRODUCTION ITEM
   - type: STR_ALIEN_REPRODUCTION
     costSell: 20000
+#END ALIEN REPRODUCTION ITEM
+
+#BEGIN ALIEN ENTERTAINMENT ITEM
   - type: STR_ALIEN_ENTERTAINMENT
     costSell: 10000
+#END ALIEN ENTERTAINMENT ITEM
+
+#BEGIN ALIEN SURGERY ITEM
   - type: STR_ALIEN_SURGERY
     costSell: 19000
+#END ALIEN SURGERY ITEM
+
+#BEGIN EXAMINATION ROOM ITEM
   - type: STR_EXAMINATION_ROOM
     costSell: 4500
+#END EXAMINATION ROOM ITEM
+
+#BEGIN ALIEN ALLOY ITEM
   - type: STR_ALIEN_ALLOYS
     costSell: 3250
+#END ALIEN ALLOY ITEM
+
+#BEGIN ALIEN HABITAT ITEM
   - type: STR_ALIEN_HABITAT
     costSell: 10000
-##END UFO COMPONETS
+#END ALIEN HABITAT ITEM
+##END UFO COMPONENT ITEMS
 ###END ALIEN ITEMS
 
-###BEGIN CIVILIAN CORPSES
-##BEGIN MALE
-  - type: MALE_CIVILIAN2_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 142
-    floorSprite: 139
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9401
-  - type: MALE_CIVILIAN3_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 143
-    floorSprite: 140
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9402
-  - type: MALE_CIVILIAN4_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 144
-    floorSprite: 141
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9403
-  - type: MALE_CIVILIAN5_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 145
-    floorSprite: 142
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9404
-  - type: MALE_CIVILIAN6_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 146
-    floorSprite: 143
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9405
-  - type: MALE_CIVILIAN7_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 147
-    floorSprite: 144
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9406
-##END MALE
-
-##BEGIN FEMALE
-  - type: FEMALE_CIVILIAN2_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 148
-    floorSprite: 145
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9501
-  - type: FEMALE_CIVILIAN3_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: 149
-    floorSprite: 146
-    invWidth: 2
-    invHeight: 3
-    armor: 12
-    recover: false
-    listOrder: 9502
-##END FEMALE
-###END CIVILIAN CORPSES
+###BEGIN CIVILIAN ITEMS
+###END CIVILIAN ITEMS
 ####END ITEMS
