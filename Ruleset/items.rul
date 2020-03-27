@@ -1327,14 +1327,14 @@ items:
     invHeight: 3
     armor: 30
     listOrder: 1804
-#END ALLOY SWORD
+#END ALLOY SWORD ITEM
 
-#BEGIN TASER PISTOL
+#BEGIN TASER PISTOL ITEM
   - type: STR_TASER_PISTOL
     size: 0.2
     costBuy: 1800
     costSell: 600
-    weight: 5
+    weight: 3
     bigSprite: 118
     floorSprite: 113
     handSprite: 312
@@ -1351,7 +1351,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 20
-    maxRange: 5
+    maxRange: 14
     listOrder: 1805
   - type: STR_TASER_PISTOL_CLIP
     size: 0.1
@@ -1364,15 +1364,15 @@ items:
     hitSound: 54
     hitAnimation: 100
     blastRadius: 0 
-    power: 40
+    power: 30
     damageType: 6
-    clipSize: 6
+    clipSize: 10
     battleType: 2
     armor: 20
     listOrder: 1806
-#END TASER PISTOL
+#END TASER PISTOL ITEM
 
-#BEGIN PISTOL
+#BEGIN PISTOL ITEM
   - type: STR_PISTOL
     compatibleAmmo:
       - STR_PISTOL_CLIP
