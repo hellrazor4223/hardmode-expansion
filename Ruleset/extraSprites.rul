@@ -452,7 +452,7 @@ extraSprites:
 
 ##BEGIN RESEARCH
 #BEGIN SUPPORT DRONES
-  - type: SUPPORT_DRONES_UFOPAEDIA.SPK
+  - type: SUPPORT_DRONES.SPK
     singleImage: true
     width: 320
     height: 200

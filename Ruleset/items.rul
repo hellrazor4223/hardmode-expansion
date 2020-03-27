@@ -1682,7 +1682,7 @@ items:
     arcingShot: true
     listOrder: 3001
     snapRange: 24
-    droppoff: 3 
+    droppoff: 3
   - type: STR_GRENADE_LAUNCHER_HE_AMMO
     size: 0.1
     costBuy: 200
