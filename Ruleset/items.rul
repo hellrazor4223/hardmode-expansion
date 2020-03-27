@@ -1561,26 +1561,32 @@ items:
     battleType: 2
     armor: 30
     listOrder: 2207
-#END SNIPER RIFLE
+#END SNIPER RIFLE ITEM
 
-#BEGIN HEAVY CANON
+#BEGIN HEAVY CANNON ITEW
   - type: STR_HEAVY_CANNON
+    weight: 16
     compatibleAmmo:
       - STR_HC_AP_AMMO
       - STR_HC_HE_AMMO
       - STR_HC_I_AMMO
       - STR_HC_AA_AMMO
+    accuracySnap: 70
+    accuracyAimed: 100
     armor: 20
     droppoff: 4
   - type: STR_HC_AP_AMMO
+    weight: 5
     handSprite: 168
     armor: 20
   - type: STR_HC_HE_AMMO
+    weight: 5
     requires:
       - STR_EXPLOSIVE_AMMO
     handSprite: 176
     armor: 20
   - type: STR_HC_I_AMMO
+    weight: 5
     handSprite: 184
     armor: 20
   - type: STR_HC_AA_AMMO
@@ -1588,7 +1594,7 @@ items:
       - STR_ALLOY_AMMO
     size: 0.1
     costSell: 450
-    weight: 6
+    weight: 5
     bigSprite: 110
     floorSprite: 174
     handSprite: 560
@@ -1603,10 +1609,11 @@ items:
     invWidth: 2
     invHeight: 1
     listOrder: 2401
-#END HEAVY CANON
+#END HEAVY CANNON ITEM
 
-#BEGIN AUTO CANON
+#BEGIN AUTO CANNON ITEM
   - type: STR_AUTO_CANNON
+    weight: 16
     compatibleAmmo:
       - STR_AC_AP_AMMO
       - STR_AC_HE_AMMO
@@ -1615,21 +1622,24 @@ items:
     armor: 20
     droppoff: 4
   - type: STR_AC_AP_AMMO
+    weight: 5
     handSprite: 192
     armor: 20
   - type: STR_AC_HE_AMMO
+    weight: 5
     requires:
       - STR_EXPLOSIVE_AMMO
     handSprite: 200
     armor: 20
   - type: STR_AC_I_AMMO
+    weight: 5
     handSprite: 208
   - type: STR_AC_AA_AMMO
     requires:
       - STR_ALLOY_AMMO
     size: 0.1
     costSell: 800
-    weight: 6
+    weight: 5
     bigSprite: 111
     floorSprite: 175
     handSprite: 552
