@@ -4,12 +4,12 @@ Version 0.99.8
  - Add Chryssalid Spitter Zombie
  - Add Downtown Terrain from Terrain Pack 4.3
  - Add Terrain Pack 4.3 Licence file
- - Add Ufopaedia Graphics for Globetrotter Medal by holomorph
- - Add Ufopaedia Graphics for Martyr Medal by holomorph
- - Add Ufopaedia Graphics for Mindcontrol Medal by holomorph
- - Add Ufopaedia Graphics for PostMortemKill Medal by holomorph
- - Add Ufopaedia Graphics for PsiPanic Medal by holomorph
- - Add Ufopaedia Graphics for Slavekills Medal by holomorph
+ - Add Ufopaedia Graphics for Globetrotter Medal by Holomorph
+ - Add Ufopaedia Graphics for Martyr Medal by Holomorph
+ - Add Ufopaedia Graphics for Mindcontrol Medal by Holomorph
+ - Add Ufopaedia Graphics for PostMortemKill Medal by Holomorph
+ - Add Ufopaedia Graphics for PsiPanic Medal by Holomorph
+ - Add Ufopaedia Graphics for Slavekills Medal by Holomorph
  - Add missing Commencations Licence file
  - Adjust xcom score penalties
  - Adjust Terror Mission asignments

@@ -155,7 +155,7 @@ Credits go to:
 		- For the original Airfield UFO2000 terrain
 	sylandro:
 		- For the PSXCutscenes Mod
-	holomorph (http://holomorph.eu/):
+	Holomorph (http://holomorph.eu/):
 		- Ufopaedia Graphics for:
 			MEDAL_GLOBETROTTER
 			MEDAL_MARTYR
