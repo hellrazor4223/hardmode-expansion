@@ -1,201 +1,7 @@
-###BEGIN ARMORS
+####BEGIN ARMORS
 armors:
 
-##BEGIN XCOM ARMORS
-#BEGIN ARMORED VEST
-  - type: STR_ARMORED_VEST_UC
-    spriteSheet: ARMOREDVEST.PCK
-    spriteInv: MAN_4
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    corpseBattle:
-      - STR_ARMORED_VEST_CORPSE
-    storeItem: STR_ARMORED_VEST
-    weight: 4
-    stats:
-      stamina: -10
-    frontArmor: 20
-    sideArmor: 16
-    rearArmor: 8
-    underArmor: 8
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
-    loftempsSet: [ 3 ]
-#END ARMORED VEST
-
-#BEGIN ALLOY VEST
-  - type: STR_ALLOY_VEST_UC
-    spriteSheet: ALLOYVEST.PCK
-    spriteInv: MAN_5
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    corpseBattle:
-      - STR_ALLOY_VEST_CORPSE
-    storeItem: STR_ALLOY_VEST
-    weight: 2
-    stats:
-      stamina: -5
-    frontArmor: 30
-    sideArmor: 20
-    rearArmor: 16
-    underArmor: 16
-    damageModifier:
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
-    loftempsSet: [ 3 ]
-#END ALLOY VEST
-
-#BEGIN PERSONAL ARMOR
-  - type: STR_PERSONAL_ARMOR_UC
-    spriteSheet: XCOM_1.PCK
-    spriteInv: MAN_1
-    spriteFaceGroup: 6
-    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
-    spriteHairGroup: 9
-    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
-    corpseBattle:
-      - STR_PERSONAL_ARMOR_CORPSE
-    storeItem: STR_PERSONAL_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
-    damageModifier:
-      - 1.0
-      - 0.8
-      - 0.8
-      - 1.0
-      - 1.0
-      - 0.9
-      - 0.9
-      - 1.0
-      - 1.1
-      - 1.0
-    loftempsSet: [ 3 ]
-#END PERSONAL ARMOR
-
-#BEGIN POWER SUIT
-  - type: STR_POWER_SUIT_UC
-    spriteSheet: XCOM_2.PCK
-    spriteInv: MAN_2
-    corpseBattle:
-      - STR_POWER_SUIT_CORPSE
-    storeItem: STR_POWER_SUIT
-    weight: -10
-    stats:
-      stamina: +30
-    frontArmor: 100
-    sideArmor: 80
-    rearArmor: 70
-    underArmor: 60
-    damageModifier: &SUIT_DAMAGE_MODIFIER
-      - 1.0
-      - 0.6
-      - 0.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 3 ]
-    forcedTorso: 1
-#END POWER SUIT
-
-#BEGIN FLYING SUIT
-  - type: STR_FLYING_SUIT_UC
-    spriteSheet: FLYING_SUIT.PCK
-    spriteInv: MAN_3
-    corpseBattle:
-      - STR_FLYING_SUIT_CORPSE
-    storeItem: STR_FLYING_SUIT
-    weight: -10
-    stats:
-      stamina: +30
-    frontArmor: 110
-    sideArmor: 90
-    rearArmor: 80
-    underArmor: 70
-    movementType: 1
-    damageModifier: *SUIT_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-    forcedTorso: 2
-#END FLYING SUIT
-
-#BEGIN REINFORCED POWER SUIT
-  - type: STR_REINFORCED_POWER_SUIT_UC
-    spriteSheet: REINFORCED_POWER_SUIT.PCK
-    spriteInv: MAN_6
-    corpseBattle:
-      - STR_REINFORCED_POWER_SUIT_CORPSE
-    storeItem: STR_REINFORCED_POWER_SUIT
-    weight: -10
-    stats:
-      tu: +10
-      stamina: +30
-    frontArmor: 120
-    sideArmor: 100
-    rearArmor: 90
-    underArmor: 80
-    damageModifier: &REINFORCED_SUIT_DAMAGE_MODIFIER
-      - 1.0
-      - 0.6
-      - 0.0
-      - 1.0
-      - 0.9
-      - 0.9
-      - 0.8
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 3 ]
-    forcedTorso: 1
-#END REINFORCED POWER SUIT
-
-#BEGIN REINFORCED FLYING SUIT
-  - type: STR_REINFORCED_FLYING_SUIT_UC
-    spriteSheet: REINFORCED_FLYING_SUIT.PCK
-    spriteInv: MAN_7
-    corpseBattle:
-      - STR_REINFORCED_FLYING_SUIT_CORPSE
-    storeItem: STR_REINFORCED_FLYING_SUIT
-    weight: -10
-    stats:
-      tu: +10
-      stamina: +30
-    frontArmor: 130
-    sideArmor: 110
-    rearArmor: 100
-    underArmor: 90
-    movementType: 1
-    damageModifier: *REINFORCED_SUIT_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-    forcedTorso: 2
-#END FLYING SUIT
-##END XCOM ARMOR
-
+###BEGIN XCOM ARMORS
 ##BEGIN XCOM TANK ARMORS
 #BEGIN DRONE SCOUT ARMOR
   - type: DRONE_SCOUT_ARMOR
@@ -613,10 +419,205 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 #END WALKERTANK PLASMA
 ##END XCOM TANK ARMORS
+
+##BEGIN XCOM SOLDIER ARMORS
+#BEGIN ARMORED VEST ARMOR
+  - type: STR_ARMORED_VEST_UC
+    spriteSheet: ARMOREDVEST.PCK
+    spriteInv: MAN_4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_ARMORED_VEST_CORPSE
+    storeItem: STR_ARMORED_VEST
+    weight: 3
+    stats:
+      stamina: -8
+    frontArmor: 20
+    sideArmor: 16
+    rearArmor: 8
+    underArmor: 8
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+#END ARMORED VEST ARMOR
+
+#BEGIN ALLOY VEST ARMOR
+  - type: STR_ALLOY_VEST_UC
+    spriteSheet: ALLOYVEST.PCK
+    spriteInv: MAN_5
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_ALLOY_VEST_CORPSE
+    storeItem: STR_ALLOY_VEST
+    weight: 2
+    stats:
+      stamina: -4
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 16
+    underArmor: 16
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+#END ALLOY VEST ARMOR
+
+#BEGIN PERSONAL ARMOR ARMOR
+  - type: STR_PERSONAL_ARMOR_UC
+    spriteSheet: XCOM_1.PCK
+    spriteInv: MAN_1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_PERSONAL_ARMOR_CORPSE
+    storeItem: STR_PERSONAL_ARMOR
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+#END PERSONAL ARMOR ARMOR
+
+#BEGIN POWER SUIT ARMOR
+  - type: STR_POWER_SUIT_UC
+    spriteSheet: XCOM_2.PCK
+    spriteInv: MAN_2
+    corpseBattle:
+      - STR_POWER_SUIT_CORPSE
+    storeItem: STR_POWER_SUIT
+    weight: -10
+    stats:
+      stamina: +30
+    frontArmor: 100
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    damageModifier: &SUIT_DAMAGE_MODIFIER
+      - 1.0
+      - 0.6
+      - 0.0
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+#END POWER SUIT ARMOR
+
+#BEGIN FLYING SUIT ARMOR
+  - type: STR_FLYING_SUIT_UC
+    spriteSheet: FLYING_SUIT.PCK
+    spriteInv: MAN_3
+    corpseBattle:
+      - STR_FLYING_SUIT_CORPSE
+    storeItem: STR_FLYING_SUIT
+    weight: -10
+    stats:
+      stamina: +30
+    frontArmor: 110
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 70
+    movementType: 1
+    damageModifier: *SUIT_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END FLYING SUIT ARMOR
+
+#BEGIN REINFORCED POWER SUIT ARMOR
+  - type: STR_REINFORCED_POWER_SUIT_UC
+    spriteSheet: REINFORCED_POWER_SUIT.PCK
+    spriteInv: MAN_6
+    corpseBattle:
+      - STR_REINFORCED_POWER_SUIT_CORPSE
+    storeItem: STR_REINFORCED_POWER_SUIT
+    weight: -10
+    stats:
+      tu: +10
+      stamina: +30
+    frontArmor: 120
+    sideArmor: 100
+    rearArmor: 90
+    underArmor: 80
+    damageModifier: &REINFORCED_SUIT_DAMAGE_MODIFIER
+      - 1.0
+      - 0.6
+      - 0.0
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+#END REINFORCED POWER SUIT ARMOR
+
+#BEGIN REINFORCED FLYING SUIT ARMOR
+  - type: STR_REINFORCED_FLYING_SUIT_UC
+    spriteSheet: REINFORCED_FLYING_SUIT.PCK
+    spriteInv: MAN_7
+    corpseBattle:
+      - STR_REINFORCED_FLYING_SUIT_CORPSE
+    storeItem: STR_REINFORCED_FLYING_SUIT
+    weight: -10
+    stats:
+      tu: +10
+      stamina: +30
+    frontArmor: 130
+    sideArmor: 110
+    rearArmor: 100
+    underArmor: 90
+    movementType: 1
+    damageModifier: *REINFORCED_SUIT_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END FLYING SUIT ARMOR
+##END XCOM SOLDIER ARMORS
 ###END XCOM ARMORS
 
 ###BEGIN ALIEN ARMORS
-##BEGIN ALIEN NORMAL ARMORS
+##BEGIN ALIEN RACE ARMORS
 #BEGIN FLOATER ARMOR
   - type: FLOATER_ARMOR0
     spriteInv: floaterInventoryImage
@@ -649,7 +650,7 @@ armors:
     spriteInv: mutonInventoryImage
 #END MUTON ARMOR
 
-#BEGIN WASPITE ARMORS
+#BEGIN WASPITE ARMOR
   - type: WASPITE_ARMOR0
     spriteSheet: WASPITE.PCK
     spriteInv: waspiteInventoryImage
@@ -879,7 +880,7 @@ armors:
     damageModifier: *MUTON_ELITE_GUAR_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END MUTON ELITE GUARD ARMOR
-##END ALIEN NORMAL ARMORS
+##END ALIEN RACE ARMORS
 
 ##BEGIN ALIEN TERROR ARMORS
 #BEGIN REAPER ARMOR
@@ -1091,7 +1092,7 @@ armors:
     loftempsSet: [ 3 ]
 #END CHRYSSALID SPITTER ARMOR
 
-#BEGIN SPITTER ZOMBIE
+#BEGIN SPITTER ZOMBIE ARMOR
   - type: SPITTER_ZOMBIE_ARMOR
     spriteSheet: SPITTER_ZOMBIE.PCK
     allowInv: false
@@ -1115,142 +1116,10 @@ armors:
       - 0.0
     loftempsSet: [ 3 ]
     deathFrames: 18
-#END SPITTER ZOMBIE
+#END SPITTER ZOMBIE ARMOR
 ##END ALIEN TERROR ARMORS
 ###END ALIEN ARMORS
 
-##BEGIN CIVILIANS ARMORS
-#BEGIN MALE ARMORS
-  - type: CIVM_ARMOR
-    allowInv: false
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-  - type: MALE_CIVILIAN2_ARMOR
-    spriteSheet: MALE_CIVILIAN2.PCK
-    allowInv: false
-    corpseBattle:
-      - MALE_CIVILIAN2_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: &CIVILIAN_DAMAGE_MODIFIER
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 1.0
-    loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN3_ARMOR
-    spriteSheet: MALE_CIVILIAN3.PCK
-    allowInv: false
-    corpseBattle:
-      - MALE_CIVILIAN3_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN4_ARMOR
-    spriteSheet: MALE_CIVILIAN4.PCK
-    allowInv: false
-    corpseBattle:
-      - MALE_CIVILIAN4_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN5_ARMOR
-    spriteSheet: MALE_CIVILIAN5.PCK
-    allowInv: false
-    corpseBattle:
-      - MALE_CIVILIAN5_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN6_ARMOR
-    spriteSheet: MALE_CIVILIAN6.PCK
-    allowInv: false
-    corpseBattle:
-      - MALE_CIVILIAN6_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-  - type: MALE_CIVILIAN7_ARMOR
-    spriteSheet: MALE_CIVILIAN7.PCK
-    allowInv: false
-    corpseBattle:
-      - MALE_CIVILIAN7_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    drawingRoutine: 4
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-  - type: CIVF_ARMOR
-    allowInv: false
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-#END MALE ARMORS
-
-#BEGIN FEMALE ARMORS
-  - type: FEMALE_CIVILIAN2_ARMOR
-    spriteSheet: FEMALE_CIVILIAN2.PCK
-    allowInv: false
-    corpseBattle:
-      - FEMALE_CIVILIAN2_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-  - type: FEMALE_CIVILIAN3_ARMOR
-    spriteSheet: FEMALE_CIVILIAN3.PCK
-    allowInv: false
-    corpseBattle:
-      - FEMALE_CIVILIAN3_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
-    frontArmor: 12
-    sideArmor: 8
-    rearArmor: 5
-    underArmor: 2
-    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-#END FEMALE ARMORS
-##END CIVILIANS
-###END ARMORS
+###BEGIN CIVILIAN ARMORS
+###END CIVILIAN ARMORS
+####END ARMORS
