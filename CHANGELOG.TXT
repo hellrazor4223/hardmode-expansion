@@ -13,6 +13,7 @@ Version 0.99.8
  - Add missing Commencations Licence file
  - Adjust xcom score penalties
  - Adjust Terror Mission asignments
+ - Adjust Taser Drones
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
  - Fix wrong asigned BigOb/FloorOb for Sailor
  - Fix requires for Support Drone Ufopaedia Article

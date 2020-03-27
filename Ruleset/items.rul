@@ -228,12 +228,12 @@ items:
     compatibleAmmo:
       - STR_DRONE_TASER_WEAPON_AMMO
     accuracyAuto: 66
-    tuAuto: 50
-    autoShots: 2
+    tuAuto: 40
+    autoShots: 3
     battleType: 1
     invWidth: 1
     invHeight: 2
-    maxRange: 5
+    maxRange: 14
     recover: false
     fixedWeapon: true
     listOrder: 1077
@@ -246,17 +246,15 @@ items:
     weight: 1
     hitSound: 54
     hitAnimation: 108
-    power: 40
+    power: 30
     blastRadius: 0
     damageType: 6
     battleType: 2
-    clipSize: 6
+    clipSize: 12
     listOrder: 1078
-#END DRONE TASER
-##END NORMAL DRONES
+#END DRONE TASER ITEM
 
-##BEGIN ALLOY DRONES
-#BEGIN ALLOY DRONE SCOUT
+#BEGIN ALLOY DRONE SCOUT ITEM
   - type: STR_ALLOY_DRONE_SCOUT
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -453,12 +451,12 @@ items:
     compatibleAmmo:
       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
     accuracyAuto: 80
-    tuAuto: 40
+    tuAuto: 33
     autoShots: 3
     battleType: 1
     invWidth: 1
     invHeight: 2
-    maxRange: 6
+    maxRange: 18
     recover: false
     fixedWeapon: true
     listOrder: 1084
@@ -476,15 +474,11 @@ items:
     blastRadius: 0
     damageType: 6
     battleType: 2
-    clipSize: 9
+    clipSize: 18
     listOrder: 1085
-#END ALLOY DRONE TASER
-##END ALLOY DRONES
-###END DRONES
+#END ALLOY DRONE TASER ITEM
 
-###BEGIN TANKS
-##BEGIN NORMAL TANKS
-#BEGIN TANK CANNON
+#BEGIN TANK CANNON ITEM
   - type: STR_TANK_CANNON
     listOrder: 1100
     droppoff: 4
