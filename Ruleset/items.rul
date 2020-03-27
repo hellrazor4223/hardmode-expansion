@@ -831,8 +831,8 @@ items:
     accuracyAuto: 50
     accuracySnap: 60
     accuracyAimed: 95
-    autoShots: 2
-    tuAuto: 60
+    autoShots: 3
+    tuAuto: 50
     tuSnap: 33
     tuAimed: 75
     clipSize: -1
@@ -961,14 +961,15 @@ items:
     armor: 100
     listOrder: 8902
   - type: STR_HWP_EBOMB_LAUNCHER
-#END HOVERTANK EBOMB
+#END HOVERTANK EBOMB ITEM
 
-#BEGIN HOVERTANK PLASMA
+#BEGIN HOVERTANK PLASMA ITEM
   - type: STR_HOVERTANK_PLASMA
     power: 115
     accuracyAuto: 70
+    autoShots: 4
     tuAuto: 45
-    dropoff: 2
+    dropoff: 1
   - type: STR_HOVERTANK_PLASMA_CORPSE
     size: 6 
     battleType: 11
