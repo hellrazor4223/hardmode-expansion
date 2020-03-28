@@ -2,10 +2,87 @@
 manufacture:
 
 #BEGIN DELETE
+  - delete: STR_LIGHTNING
   - delete: STR_ALIEN_ALLOYS
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
 #END DELETE
 
-##BEGIN CRAFTWEAPONS
+##BEGIN CRAFT MANUS
+#BEGIN RETALIATOR MANU
+  - name: STR_RETALIATOR
+    category: STR_CRAFT
+    requires:
+      - STR_IMPROVED_INTERCEPTOR
+    space: 30
+    time: 6000
+    cost: 735000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 50
+    listOrder: 3201
+#END RETALIATOR MANU
+
+#BEGIN SKYSTRIKER MANU
+  - name: STR_SKYSTRIKER
+    category: STR_CRAFT
+    requires:
+      - STR_IMPROVED_SKYRANGER
+    space: 40
+    time: 9000
+    cost: 1100000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 75
+    listOrder: 3202
+#END SKYSTRIKER MANU
+
+#BEGIN THUNDER MANU
+  - name: STR_THUNDER
+    category: STR_CRAFT
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    space: 40
+    time: 18000
+    cost: 2500000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 150
+      STR_UFO_POWER_SOURCE: 1
+      STR_UFO_NAVIGATION: 1
+    listOrder: 3300
+#END THUNDER MANU
+
+#BEGIN FIRESTORM MANU
+  - name: STR_FIRESTORM
+    category: STR_CRAFT
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+    space: 40
+    time: 14000
+    cost: 5000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 100
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 1
+    listOrder: 3400
+#END FIRESTORM MANU
+
+#BEGIN AVENGER MANU
+  - name: STR_AVENGER
+    category: STR_CRAFT
+    requires:
+      - STR_ULTIMATE_CRAFT
+    space: 72
+    time: 34000
+    cost: 10000000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 300
+      STR_UFO_POWER_SOURCE: 4
+      STR_UFO_NAVIGATION: 2
+    listOrder: 3500
+#END AVENGER MANU
+##END CRAFT MANUS
+
+##BEGIN CRAFTWEAPON MANUS
+#BEGIN ALLOY CANNON MANU
   - name: STR_ALLOY_CANNON
     category: STR_CRAFT_WEAPON
     requires:
@@ -26,6 +103,9 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     listOrder: 191
+#BEGIN ALLOY CANNON MANU
+
+#BEGIN LASER CANNON MANU
   - name: STR_LASER_CANNON
     category: STR_CRAFT_WEAPON
     requires:
@@ -33,6 +113,9 @@ manufacture:
     space: 6
     time: 300
     cost: 182000
+#END LASER CANNON MANU
+
+#BEGIN PLASMA BEAM MANU
   - name: STR_PLASMA_BEAM
     category: STR_CRAFT_WEAPON
     requires:
@@ -44,6 +127,9 @@ manufacture:
       STR_ALIEN_ALLOYS: 10
       STR_ELERIUM_115: 20
     listOrder: 300
+#END PLASMA BEAM MANU
+
+#BEGIN FUSION BALL MANU
   - name: STR_FUSION_BALL
     category: STR_CRAFT_AMMUNITION
     requires:
@@ -55,10 +141,11 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
       STR_ELERIUM_115: 8
     listOrder: 400
-##END CRAFTWEAPONS
+#END FUSION BALL MANU
+##END CRAFTWEAPON MANUS
 
-##BEGIN DRONES
-#BEGIN DRONE SCOUT
+##BEGIN XCOM TANK MANUS
+#BEGIN DRONE SCOUT MANU
   - name: STR_DRONE_SCOUT_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -175,9 +262,9 @@ manufacture:
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
     listOrder: 408
-#END DRONE SCOUT
+#END DRONE SCOUT MANU
 
-#BEGIN DRONE SCANNER
+#BEGIN DRONE SCANNER MANU
   - name: STR_DRONE_SCANNER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -303,9 +390,9 @@ manufacture:
       STR_ALLOY_DRONE_TASER: 1
       STR_MOTION_SCANNER: 1
     listOrder: 416
-#END DRONE SCANNER
+#END DRONE SCANNER MANU
 
-#BEGIN DRONE MEDIKIT
+#BEGIN DRONE MEDIKIT MANU
   - name: STR_DRONE_MEDIKIT
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -435,9 +522,9 @@ manufacture:
       STR_ALLOY_DRONE_TASER: 1
       STR_MEDI_KIT: 1
     listOrder: 424
-#END DRONE MEDIKIT
+#END DRONE MEDIKIT MANU
 
-#BEGIN DRONE TASER
+#BEGIN DRONE TASER MANU
   - name: STR_DRONE_TASER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -578,9 +665,9 @@ manufacture:
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
     listOrder: 433
-#END DRONE TASER
+#END DRONE TASER MANU
 
-#BEGIN ALLOY DRONE SCOUT
+#BEGIN ALLOY DRONE SCOUT MANU
   - name: STR_ALLOY_DRONE_SCOUT
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -653,9 +740,9 @@ manufacture:
     producedItems:
       STR_ALLOY_DRONE_TASER: 1
     listOrder: 438
-#END ALLOY DRONE SCOUT
+#END ALLOY DRONE SCOUT MANU
 
-#BEGIN ALLOY DRONE SCANNER
+#BEGIN ALLOY DRONE SCANNER MANU
   - name: STR_ALLOY_DRONE_SCANNER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -735,9 +822,9 @@ manufacture:
       STR_ALLOY_DRONE_TASER: 1
       STR_MOTION_SCANNER: 1
     listOrder: 443
-#END ALLOY DRONE SCANNER
+#END ALLOY DRONE SCANNER MANU
 
-#BEGIN ALLOY DRONE MEDIKIT
+#BEGIN ALLOY DRONE MEDIKIT MANU
   - name: STR_ALLOY_DRONE_MEDIKIT
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -817,9 +904,9 @@ manufacture:
       STR_ALLOY_DRONE_TASER: 1
       STR_ADVANCED_MEDI_KIT: 1
     listOrder: 448
-#END ALLOY DRONE MEDIKIT
+#END ALLOY DRONE MEDIKIT MANU
 
-#BEGIN ALLOY DRONE TASER
+#BEGIN ALLOY DRONE TASER MANU
   - name: STR_ALLOY_DRONE_TASER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -914,11 +1001,9 @@ manufacture:
       STR_ALLOY_DRONE_MEDIKIT: 1
       STR_ELERIUM_115: 4
     listOrder: 454
-#END ALLOY DRONE TASER
-##END DRONES
+#END ALLOY DRONE TASER MANU
 
-##BEGIN TANKS
-#BEGIN TANK CANNON
+#BEGIN TANK CANNON MANU
   - name: STR_TANK_CANNON_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -993,9 +1078,9 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
     listOrder: 465
-#END TANK CANNON
+#END TANK CANNON MANU
 
-#BEGIN TANK ROCKET LAUNCHER
+#BEGIN TANK ROCKET LAUNCHER MANU
   - name: STR_TANK_ROCKET_LAUNCHER_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1061,9 +1146,9 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
     listOrder: 474
-#END TANK ROCKET LAUNCHER
+#END TANK ROCKET LAUNCHER MANU
 
-#BEGIN TANK LASER CANNON
+#BEGIN TANK LASER CANNON MANU
   - name: STR_TANK_LASER_CANNON
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1127,9 +1212,9 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
     listOrder: 484
-#END TANK LASER CANNON
+#END TANK LASER CANNON MANU
 
-#BEGIN ALLOY TANK CANNON
+#BEGIN ALLOY TANK CANNON MANU
   - name: STR_ALLOY_TANK_CANNON
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1179,9 +1264,9 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
     listOrder: 493
-#END ALLOY TANK CANNON
+#END ALLOY TANK CANNON MANU
 
-#BEGIN ALLOY TANK ROCKET LAUNCHER
+#BEGIN ALLOY TANK ROCKET LAUNCHER MANU
   - name: STR_ALLOY_TANK_ROCKET_LAUNCHER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1219,9 +1304,9 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
     listOrder: 502
-#END ALLOY TANK ROCKET LAUNCHER
+#END ALLOY TANK ROCKET LAUNCHER MANU
 
-#BEGIN ALLOY TANK LASER CANNON
+#BEGIN ALLOY TANK LASER CANNON MANU
   - name: STR_ALLOY_TANK_LASER_CANNON
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1248,9 +1333,9 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
     listOrder: 511
-#END ALLOY TANK LASER CANNON
+#END ALLOY TANK LASER CANNON MANU
 
-#BEGIN HOVERTANK LASER
+#BEGIN HOVERTANK LASER MANU
   - name: STR_HOVERTANK_LASER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1325,9 +1410,9 @@ manufacture:
     producedItems:
       STR_HOVERTANK_LAUNCHER: 1
     listOrder: 524
-#END HOVERTANK LASER
+#END HOVERTANK LASER MANU
 
-#BEGIN HOVERTANK EBOMB
+#BEGIN HOVERTANK EBOMB MANU
   - name: STR_HOVERTANK_EBOMB
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1401,9 +1486,9 @@ manufacture:
     producedItems:
       STR_HOVERTANK_LAUNCHER: 1
     listOrder: 534
-#END HOVERTANK EBOMB
+#END HOVERTANK EBOMB MANU
 
-#BEGIN HOVERTANK PLASMA
+#BEGIN HOVERTANK PLASMA MANU
   - name: STR_HOVERTANK_PLASMA
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1445,9 +1530,9 @@ manufacture:
     producedItems:
       STR_HOVERTANK_LAUNCHER: 1
     listOrder: 602
-#END HOVERTANK PLASMA
+#END HOVERTANK PLASMA MANU
 
-#BEGIN HOVERTANK LAUNCHER
+#BEGIN HOVERTANK LAUNCHER MANU
   - name: STR_HOVERTANK_LAUNCHER
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1486,9 +1571,9 @@ manufacture:
     cost: 30000
     requiredItems:
       STR_BLASTER_BOMB: 1
-#END HOVERTANK LAUNCHER
+#END HOVERTANK LAUNCHER MANU
 
-#BEGIN WALKERTANK PLASMA
+#BEGIN WALKERTANK PLASMA MANU
   - name: STR_WALKERTANK_PLASMA
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
@@ -1518,427 +1603,11 @@ manufacture:
     producedItems:
       STR_WALKERTANK_PLASMA: 1
     listOrder: 721
-#END WALKERTANK PLASMA
-##END TANKS
+#END WALKERTANK PLASMA MANU
+##END XCOM TANK MANUS
 
-##BEGIN XCOM WEAPONS         
-#BEGIN ALLOY AMMO
-  - name: STR_PISTOL_AA_CLIP_X3
-    category: STR_AMMUNITION
-    requires:
-      - STR_ALLOY_AMMO
-    space: 2
-    time: 20
-    cost: 1000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    producedItems:
-      STR_PISTOL_AA_CLIP: 3
-    listOrder: 880
-  - name: STR_RIFLE_AA_CLIP_X2
-    category: STR_AMMUNITION
-    requires:
-      - STR_ALLOY_AMMO
-    space: 2
-    time: 30
-    cost: 1500
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    producedItems:
-      STR_RIFLE_AA_CLIP: 2
-    listOrder: 881
-  - name: STR_SHOTGUN_AA_CLIP
-    category: STR_AMMUNITION
-    requires:
-      - STR_ALLOY_AMMO
-    space: 4
-    time: 40
-    cost: 2000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    producedItems:
-      STR_SHOTGUN_AA_CLIP: 1
-    listOrder: 883
-  - name: STR_SNIPER_RIFLE_AA_CLIP
-    category: STR_AMMUNITION
-    requires:
-      - STR_ALLOY_AMMO
-    space: 2
-    time: 40
-    cost: 3000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    producedItems:
-      STR_SNIPER_RIFLE_AA_CLIP: 1
-    listOrder: 885
-  - name: STR_HC_AA_AMMO
-    category: STR_AMMUNITION
-    requires:
-      - STR_ALLOY_AMMO
-    space: 2
-    time: 50
-    cost: 3000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-    producedItems:
-      STR_HC_AA_AMMO: 1
-    listOrder: 886
-  - name: STR_AC_AA_AMMO
-    category: STR_AMMUNITION
-    requires:
-      - STR_ALLOY_AMMO
-    space: 2
-    time: 50
-    cost: 3000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-    producedItems:
-      STR_AC_AA_AMMO: 1
-    listOrder: 887
-#END ALLOY AMMO
-
-#BEGIN ELERIUM ROCKET
-  - name: STR_ELERIUM_ROCKET
-    category: STR_AMMUNITION
-    requires:
-      - STR_ELERIUM_ROCKET
-    space: 10
-    time: 300
-    cost: 10000
-    requiredItems:
-      STR_ELERIUM_115: 3
-    listOrder: 888
-#END ELERIUM ROCKET
-
-#BEGIN ALLOY KNIFE
-  - name: STR_ALLOY_KNIFE
-    category: STR_WEAPON
-    requires:
-      - STR_ALLOY_KNIFE
-    space: 5
-    time: 200
-    cost: 4000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 1419
-#END ALLOY KNIFE
-
-#BEGIN ALLOY SWORD
-  - name: STR_ALLOY_SWORD
-    category: STR_WEAPON
-    requires:
-      - STR_ALLOY_SWORD
-    space: 5
-    time: 500
-    cost: 12000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 3
-    listOrder: 1420
-#END ALLOY SWORD
-
-#BEGIN LASER
-  - name: STR_LASER_PISTOL
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-      STR_ELERIUM_115: 1
-  - name: STR_LASER_RIFLE
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-      STR_ELERIUM_115: 2
-  - name: STR_SCATTER_LASER
-    category: STR_WEAPON
-    requires:
-      - STR_SCATTER_LASER
-    space: 4
-    time: 820
-    cost: 21000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-      STR_ELERIUM_115: 2
-    listOrder: 1001
-  - name: STR_HEAVY_LASER
-    requiredItems:
-      STR_ALIEN_ALLOYS: 3
-      STR_ELERIUM_115: 3
-  - name: STR_HEAVY_LASER_AUTO
-    category: STR_WEAPON
-    requires:
-      - STR_HEAVY_LASER_AUTO
-    space: 4
-    time: 700
-    cost: 32000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 3
-      STR_ELERIUM_115: 3
-    listOrder: 1101
-#END LASER
-##END XCOM WAEPONS
-
-##BEGIN XCOM EQUIPMENT
-#BEGIN MEDIKIT
-  - name: STR_MEDI_KIT
-    category: STR_EQUIPMENT
-    requires:
-      - STR_MEDI_KIT
-    space: 4
-    time: 420
-    cost: 56000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-      STR_ELERIUM_115: 1
-    listOrder: 1301
-#END MEDIKIT
-
-#BEGIN ADVANCED MEDI KIT
-  - name: STR_ADVANCED_MEDI_KIT
-    category: STR_EQUIPMENT
-    requires:
-      - STR_ADVANCED_MEDI_KIT
-    space: 4
-    time: 630
-    cost: 112000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 4
-      STR_ELERIUM_115: 2
-    listOrder: 1301
-#END ADVANCED MEDI KIT
-
-#BEGIN PSI AMP
-  - name: STR_PSI_AMP
-    category: STR_EQUIPMENT
-    requires:
-      - STR_PSI_AMP
-    space: 6
-    time: 1000
-    cost: 500000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 5
-      STR_ELERIUM_115: 10
-#END PSI AMP
-
-#BEGIN FIRE GRENADE
-  - name: STR_FIRE_GRENADE
-    category: STR_WEAPON
-    requires:
-      - STR_FIRE_GRENADE
-    space: 1
-    time: 10
-    cost: 1000
-    listOrder: 2402
-    requiredItems:
-      STR_FIRE_BOMB: 1
-#END FIRE GRENADE
-
-#BEGIN STUN GRENADE
-  - name: STR_STUN_GRENADE
-    category: STR_WEAPON
-    requires:
-      - STR_STUN_GRENADE
-    space: 1
-    time: 10
-    cost: 1000
-    listOrder: 2403
-    requiredItems:
-      STR_STUN_BOMB: 1
-#END STUN GRENADE
-
-##END XCOM EQUIPMENT
-
-##BEGIN ALIEN WEAPONS
-#BEGIN PLASMA BLADE
-  - name: STR_PLASMA_BLADE
-    category: STR_WEAPON
-    requires:
-      - STR_PLASMA_BLADE
-    space: 3
-    time: 650
-    cost: 48000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2 
-      STR_ELERIUM_115: 1
-    listOrder: 1498
-#END PLASMA BLADE
-
-#BEGIN PLASMA SWORD
-  - name: STR_PLASMA_SWORD
-    category: STR_WEAPON
-    requires:
-      - STR_PLASMA_SWORD
-    space: 3
-    time: 850
-    cost: 72000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 3 
-      STR_ELERIUM_115: 2
-    listOrder: 1499
-#END PLASMA SWORD
-
-#BEGIN PLASMA PISTOL
-  - name: STR_PLASMA_PISTOL
-    listOrder: 1500
-  - name: STR_PLASMA_PISTOL_CLIP
-    listOrder: 1600
-#END PLASMA PISTOL
-
-#BEGIN PLASMA RIFLE
-  - name: STR_PLASMA_RIFLE
-    category: STR_WEAPON
-    requires:
-      - STR_PLASMA_RIFLE
-      - STR_PLASMA_RIFLE_CLIP
-    space: 4
-    time: 820
-    cost: 88000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-    listOrder: 1700
-  - name: STR_PLASMA_RIFLE_CLIP
-    listOrder: 1800
-#END PLASMA RIFLE
-
-#BEGIN PLASMA SHOTGUN
-  - name: STR_PLASMA_SHOTGUN
-    category: STR_WEAPON
-    requires: 
-      - STR_PLASMA_SHOTGUN
-      - STR_PLASMA_SHOTGUN_CLIP
-    space: 5
-    time: 840
-    cost: 96000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-    listOrder: 1801
-  - name: STR_PLASMA_SHOTGUN_CLIP
-    category: STR_AMMUNITION
-    requires: 
-      - STR_PLASMA_SHOTGUN
-      - STR_PLASMA_SHOTGUN_CLIP
-    space: 5
-    time: 80
-    cost: 4000
-    requiredItems:
-      STR_ELERIUM_115: 2
-    listOrder: 1802
-  - name: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
-    category: STR_AMMUNITION
-    requires: 
-      - STR_PLASMA_SHOTGUN
-      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
-    space: 5
-    time: 120
-    cost: 5600
-    requiredItems:
-      STR_ELERIUM_115: 4
-    listOrder: 1803
-#END PLASMA SHOTGUN
-
-#BEGIN PLASMA SNIPER RIFLE
-  - name: STR_PLASMA_SNIPER_RIFLE
-    category: STR_WEAPON
-    requires:
-      - STR_PLASMA_SNIPER_RIFLE
-      - STR_PLASMA_SNIPER_RIFLE_CLIP
-    space: 4
-    time: 890
-    cost: 102000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-    listOrder: 1804
-  - name: STR_PLASMA_SNIPER_RIFLE_CLIP
-    category: STR_AMMUNITION
-    requires:
-      - STR_PLASMA_SNIPER_RIFLE_CLIP
-    space: 4
-    time: 80
-    cost: 5700
-    requiredItems:
-      STR_ELERIUM_115: 2
-    listOrder: 1805
-  - name: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
-    category: STR_AMMUNITION
-    requires:
-      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
-    space: 4
-    time: 100
-    cost: 7500
-    requiredItems:
-      STR_ELERIUM_115: 4
-    listOrder: 1806
-#END PLASMA SNIPER RIFLE
-
-#BEGIN HEAVY PLASMA
-  - name: STR_HEAVY_PLASMA
-    category: STR_WEAPON
-    requires:
-      - STR_HEAVY_PLASMA
-      - STR_HEAVY_PLASMA_CLIP
-    space: 4
-    time: 1000
-    cost: 122000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 4
-    listOrder: 1900
-  - name: STR_HEAVY_PLASMA_CLIP
-    category: STR_AMMUNITION
-    requires:
-      - STR_HEAVY_PLASMA_CLIP
-    space: 4
-    time: 80
-    cost: 6000
-    requiredItems:
-      STR_ELERIUM_115: 4
-    listOrder: 2000
-#END HEAVY PLASMA
-
-#BEGIN SMALL LAUNCHAR
-  - name: STR_SMALL_LAUNCHER
-    requiredItems:
-      STR_ALIEN_ALLOYS: 3
-    listOrder: 2100
-  - name: STR_STUN_BOMB
-    requiredItems:
-      STR_ELERIUM_115: 2
-    listOrder: 2200
-  - name: STR_ELERIUM_BOMB
-    category: STR_AMMUNITION
-    requires:
-      - STR_ELERIUM_BOMB
-    space: 2
-    time: 180
-    cost: 6000
-    requiredItems:
-      STR_ELERIUM_115: 2
-    listOrder: 2201
-  - name: STR_FIRE_BOMB
-    category: STR_AMMUNITION
-    requires:
-      - STR_FIRE_BOMB
-    space: 2
-    time: 180
-    cost: 6000
-    requiredItems:
-      STR_ELERIUM_115: 2
-    listOrder: 2202
-  - name: STR_SMOKE_BOMB
-    category: STR_AMMUNITION
-    requires:
-      - STR_SMOKE_BOMB
-    space: 2
-    time: 180
-    cost: 6000
-    requiredItems:
-      STR_ELERIUM_115: 2
-    listOrder: 2203
-#END SMALL LAUNCHER
-
-#Due to balancing reasons producing Blasterbombs
-#is to powerful, player needs to use only captured ones
-  - delete: STR_BLASTER_LAUNCHER
-  - delete: STR_BLASTER_BOMB
-##END ALIEN WEAPONS
-
-##BEGIN ARMOR
-#BEGIN ARMORED VEST
+##BEGIN XCOM ARMOR MANUS
+#BEGIN ARMORED VEST MANU
   - name: STR_ARMORED_VEST_REPAIR
     category: STR_MAINTENANCE
     requires:
@@ -1964,9 +1633,9 @@ manufacture:
     producedItems:
       STR_ALLOY_VEST: 1
     listOrder: 2602
-#END ARMORED VEST
+#END ARMORED VEST MANU
 
-#BEGIN ALLOY VEST
+#BEGIN ALLOY VEST MANU
   - name: STR_ALLOY_VEST
     category: STR_PERSONAL_ARMOR
     requires:
@@ -2004,9 +1673,9 @@ manufacture:
     producedItems:
       STR_PERSONAL_ARMOR: 1
     listOrder: 2605
-#END ALLOY VEST
+#END ALLOY VEST MANU
 
-#BEGIN PERSONAL ARMOR
+#BEGIN PERSONAL ARMOR MANU
   - name: STR_PERSONAL_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
@@ -2059,9 +1728,9 @@ manufacture:
     producedItems:
       STR_FLYING_SUIT: 1
     listOrder: 2703
-#END PERSONAL ARMOR
+#END PERSONAL ARMOR MANU
 
-#BEGIN POWER SUIT
+#BEGIN POWER SUIT MANU
   - name: STR_POWER_SUIT
     category: STR_PERSONAL_ARMOR
     requires:
@@ -2129,9 +1798,9 @@ manufacture:
     producedItems:
       STR_REINFORCED_FLYING_SUIT: 1
     listOrder: 2804
-#END POWER SUIT
+#END POWER SUIT MANU
 
-#BEGIN FLYING SUIT
+#BEGIN FLYING SUIT MANU
   - name: STR_FLYING_SUIT
     category: STR_PERSONAL_ARMOR
     requires:
@@ -2185,9 +1854,9 @@ manufacture:
     producedItems:
       STR_REINFORCED_FLYING_SUIT: 1
     listOrder: 2903
-#END FLYING SUIT
+#END FLYING SUIT MANU
 
-#BEGIN REINFORCED POWER SUIT
+#BEGIN REINFORCED POWER SUIT MANU
   - name: STR_REINFORCED_POWER_SUIT
     category: STR_PERSONAL_ARMOR
     requires:
@@ -2227,9 +1896,9 @@ manufacture:
     producedItems:
       STR_REINFORCED_FLYING_SUIT: 1
     listOrder: 2906
-#END REINFORCED POWER SUIT
+#END REINFORCED POWER SUIT MANU
 
-#BEGIN REINFORCED FLYING SUIT
+#BEGIN REINFORCED FLYING SUIT MANU
   - name: STR_REINFORCED_FLYING_SUIT
     category: STR_PERSONAL_ARMOR
     requires:
@@ -2256,81 +1925,441 @@ manufacture:
     producedItems:
       STR_REINFORCED_FLYING_SUIT: 1
     listOrder: 2908
-#END REINFORCED FLYING SUIT
-##END ARMOR
+#END REINFORCED FLYING SUIT MANU
+##END XCOM ARMOR MANUS
 
-##BEGIN CRAFTS
-  - delete: STR_LIGHTNING
-#BEGIN RETALIATOR
-  - name: STR_RETALIATOR
-    category: STR_CRAFT
+##BEGIN XCOM WEAPON MANUS
+#BEGIN ALLOY KNIFE MANU
+  - name: STR_ALLOY_KNIFE
+    category: STR_WEAPON
     requires:
-      - STR_IMPROVED_INTERCEPTOR
-    space: 30
-    time: 6000
-    cost: 735000
+      - STR_ALLOY_KNIFE
+    space: 5
+    time: 200
+    cost: 4000
     requiredItems:
-      STR_ALIEN_ALLOYS: 50
-    listOrder: 3201
-#END RETALIATOR
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 1419
+#END ALLOY KNIFE MANU
 
-#BEGIN SKYSTRIKER
-  - name: STR_SKYSTRIKER
-    category: STR_CRAFT
+#BEGIN ALLOY SWORD MANU
+  - name: STR_ALLOY_SWORD
+    category: STR_WEAPON
     requires:
-      - STR_IMPROVED_SKYRANGER
-    space: 40
-    time: 9000
-    cost: 1100000
+      - STR_ALLOY_SWORD
+    space: 5
+    time: 500
+    cost: 12000
     requiredItems:
-      STR_ALIEN_ALLOYS: 75
-    listOrder: 3202
-#END SKYSTRIKER
+      STR_ALIEN_ALLOYS: 3
+    listOrder: 1420
+#END ALLOY SWORD MANU
 
-#BEGIN THUNDER
-  - name: STR_THUNDER
-    category: STR_CRAFT
+#BEGIN PISTOL AA CLIP MANU
+  - name: STR_PISTOL_AA_CLIP_X3
+    category: STR_AMMUNITION
     requires:
-      - STR_NEW_FIGHTER_TRANSPORTER
-    space: 40
-    time: 18000
-    cost: 2500000
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 20
+    cost: 1000
     requiredItems:
-      STR_ALIEN_ALLOYS: 150
-      STR_UFO_POWER_SOURCE: 1
-      STR_UFO_NAVIGATION: 1
-    listOrder: 3300
-#END THUNDER
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_PISTOL_AA_CLIP: 3
+    listOrder: 880
+#END PISTOL AA CLIP MANU
 
-#BEGIN FIRESTORM
-  - name: STR_FIRESTORM
-    category: STR_CRAFT
+#BEGIN RIFLE AA CLIP MANU
+  - name: STR_RIFLE_AA_CLIP_X2
+    category: STR_AMMUNITION
     requires:
-      - STR_NEW_FIGHTER_CRAFT
-    space: 40
-    time: 14000
-    cost: 5000000
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 30
+    cost: 1500
     requiredItems:
-      STR_ALIEN_ALLOYS: 100
-      STR_UFO_POWER_SOURCE: 2
-      STR_UFO_NAVIGATION: 1
-    listOrder: 3400
-#END FIRESTORM
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_RIFLE_AA_CLIP: 2
+    listOrder: 881
+#END RIFL AA CLIP MANU
 
-#BEGIN AVENGER
-  - name: STR_AVENGER
-    category: STR_CRAFT
+#BEGIN SHOTGUN AA CLIP MANU
+  - name: STR_SHOTGUN_AA_CLIP
+    category: STR_AMMUNITION
     requires:
-      - STR_ULTIMATE_CRAFT
-    space: 72
-    time: 34000
-    cost: 10000000
+      - STR_ALLOY_AMMO
+    space: 4
+    time: 40
+    cost: 2000
     requiredItems:
-      STR_ALIEN_ALLOYS: 300
-      STR_UFO_POWER_SOURCE: 4
-      STR_UFO_NAVIGATION: 2
-    listOrder: 3500
-#END AVENGER
-##END CRAFTS
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_SHOTGUN_AA_CLIP: 1
+    listOrder: 883
+#END SHOTGUN AA CLIP MANU
+
+#BEGIN SNIPER RIFLE AA CLIP MANU
+  - name: STR_SNIPER_RIFLE_AA_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 40
+    cost: 3000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_SNIPER_RIFLE_AA_CLIP: 1
+    listOrder: 885
+#END SNIPER RIFLE AA CLIP MANU
+
+#BEGIN HEAVY CANNON AA CLIP MANU
+  - name: STR_HC_AA_AMMO
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 50
+    cost: 3000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_HC_AA_AMMO: 1
+    listOrder: 886
+#END HEAVY CANNON AA CLIP MANU
+
+#BEGIN AUTO CANNON AA CLIP MANU
+  - name: STR_AC_AA_AMMO
+    category: STR_AMMUNITION
+    requires:
+      - STR_ALLOY_AMMO
+    space: 2
+    time: 50
+    cost: 3000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_AC_AA_AMMO: 1
+    listOrder: 887
+#END AUTO CANNON AA CLIP MANU
+
+#BEGIN ELERIUM ROCKET MANU
+  - name: STR_ELERIUM_ROCKET
+    category: STR_AMMUNITION
+    requires:
+      - STR_ELERIUM_ROCKET
+    space: 10
+    time: 300
+    cost: 10000
+    requiredItems:
+      STR_ELERIUM_115: 3
+    listOrder: 888
+#END ELERIUM ROCKET MANU
+
+#BEGIN LASER PISTOL MANU
+  - name: STR_LASER_PISTOL
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 1
+#END LASER PISTOL MANU
+
+#BEGIN LASER RIFLE MANU
+  - name: STR_LASER_RIFLE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+#END LASER RIFLE MANU
+
+#BEGIN SCATTER LASER MANU
+  - name: STR_SCATTER_LASER
+    category: STR_WEAPON
+    requires:
+      - STR_SCATTER_LASER
+    space: 4
+    time: 820
+    cost: 21000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+    listOrder: 1001
+#END SCATTER LASER MANU
+
+#BEGIN HEAVY LASER MANU
+  - name: STR_HEAVY_LASER
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ELERIUM_115: 3
+#END HEAVY LASER MANU
+
+#BEGIN HEAVY LASER AUTO MANU
+  - name: STR_HEAVY_LASER_AUTO
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_LASER_AUTO
+    space: 4
+    time: 700
+    cost: 32000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ELERIUM_115: 3
+    listOrder: 1101
+#END HEAVY LASER AUTO MANU
+
+#BEGIN FIRE GRENADE MANU
+  - name: STR_FIRE_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_FIRE_GRENADE
+    space: 1
+    time: 10
+    cost: 1000
+    listOrder: 2402
+    requiredItems:
+      STR_FIRE_BOMB: 1
+#END FIRE GRENADE MANU
+
+#BEGIN STUN GRENADE MANU
+  - name: STR_STUN_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_STUN_GRENADE
+    space: 1
+    time: 10
+    cost: 1000
+    listOrder: 2403
+    requiredItems:
+      STR_STUN_BOMB: 1
+#END STUN GRENADE MANU
+
+#BEGIN MEDIKIT MANU
+  - name: STR_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MEDI_KIT
+    space: 4
+    time: 420
+    cost: 56000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 1
+    listOrder: 1301
+#END MEDIKIT MANU
+
+#BEGIN ADVANCED MEDI KIT MANU
+  - name: STR_ADVANCED_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_ADVANCED_MEDI_KIT
+    space: 4
+    time: 630
+    cost: 112000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 2
+    listOrder: 1301
+#END ADVANCED MEDI KIT MANU
+
+#BEGIN PSI AMP MANU
+  - name: STR_PSI_AMP
+    category: STR_EQUIPMENT
+    requires:
+      - STR_PSI_AMP
+    space: 6
+    time: 1000
+    cost: 500000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_ELERIUM_115: 10
+#END PSI AMP MANU
+##END XCOM WEAPON MANUS
+
+##BEGIN ALIEN WEAPON MANUS
+#BEGIN PLASMA BLADE MANU
+  - name: STR_PLASMA_BLADE
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_BLADE
+    space: 3
+    time: 650
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2 
+      STR_ELERIUM_115: 1
+    listOrder: 1498
+#END PLASMA BLADE MANU
+
+#BEGIN PLASMA SWORD MANU
+  - name: STR_PLASMA_SWORD
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_SWORD
+    space: 3
+    time: 850
+    cost: 72000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3 
+      STR_ELERIUM_115: 2
+    listOrder: 1499
+#END PLASMA SWORD MANU
+
+#BEGIN PLASMA PISTOL MANU
+  - name: STR_PLASMA_PISTOL
+    listOrder: 1500
+  - name: STR_PLASMA_PISTOL_CLIP
+    listOrder: 1600
+#END PLASMA PISTOL MANU
+
+#BEGIN PLASMA RIFLE MANU
+  - name: STR_PLASMA_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_RIFLE_CLIP
+    space: 4
+    time: 820
+    cost: 88000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1700
+  - name: STR_PLASMA_RIFLE_CLIP
+    listOrder: 1800
+#END PLASMA RIFLE MANU
+
+#BEGIN PLASMA SHOTGUN MANU
+  - name: STR_PLASMA_SHOTGUN
+    category: STR_WEAPON
+    requires: 
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_CLIP
+    space: 5
+    time: 840
+    cost: 96000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1801
+  - name: STR_PLASMA_SHOTGUN_CLIP
+    category: STR_AMMUNITION
+    requires: 
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_CLIP
+    space: 5
+    time: 80
+    cost: 4000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 1802
+  - name: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires: 
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    space: 5
+    time: 120
+    cost: 5600
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 1803
+#END PLASMA SHOTGUN MANU
+
+#BEGIN PLASMA SNIPER RIFLE MANU
+  - name: STR_PLASMA_SNIPER_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    space: 4
+    time: 890
+    cost: 102000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+    listOrder: 1804
+  - name: STR_PLASMA_SNIPER_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    space: 4
+    time: 80
+    cost: 5700
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 1805
+  - name: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    space: 4
+    time: 100
+    cost: 7500
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 1806
+#END PLASMA SNIPER RIFLE MANU
+
+#BEGIN HEAVY PLASMA MANU
+  - name: STR_HEAVY_PLASMA
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_PLASMA
+      - STR_HEAVY_PLASMA_CLIP
+    space: 4
+    time: 1000
+    cost: 122000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+    listOrder: 1900
+  - name: STR_HEAVY_PLASMA_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HEAVY_PLASMA_CLIP
+    space: 4
+    time: 80
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 2000
+#END HEAVY PLASMA MANU
+
+#BEGIN SMALL LAUNCHER MANU
+  - name: STR_SMALL_LAUNCHER
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+    listOrder: 2100
+  - name: STR_STUN_BOMB
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 2200
+  - name: STR_ELERIUM_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_ELERIUM_BOMB
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 2201
+  - name: STR_FIRE_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_FIRE_BOMB
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 2202
+  - name: STR_SMOKE_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMOKE_BOMB
+    space: 2
+    time: 180
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 2203
+#END SMALL LAUNCHER MANU
+##END ALIEN WEAPON MANUS
 ###END MANUFACTURE
-
