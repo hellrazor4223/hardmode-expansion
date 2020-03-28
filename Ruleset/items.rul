@@ -1334,7 +1334,7 @@ items:
     size: 0.2
     costBuy: 1800
     costSell: 600
-    weight: 3
+    weight: 5
     bigSprite: 118
     floorSprite: 113
     handSprite: 312
@@ -1357,7 +1357,7 @@ items:
     size: 0.1
     costBuy: 200
     costSell: 100
-    weight: 1
+    weight: 3
     bigSprite: 119
     floorSprite: 114
     handSprite: 600
