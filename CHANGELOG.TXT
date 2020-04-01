@@ -18,6 +18,7 @@ Version 0.99.8
  - Adjust Taser Pistol
  - Adjust Heavy and Auto Cannon
  - Adjust Flashbang and Incendiary Grenade
+ - Adjust Terrormissionasignments and Mission Calls
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
  - Fix wrong asigned BigOb/FloorOb for Sailor
  - Fix requires for Support Drone Ufopaedia Article
@@ -27,6 +28,7 @@ Version 0.99.8
  - Fix listorder for Taser Pistol/Pistol
  - Fix listorder for Stun and Fire Grenade
  - Remove AREA51 Terrains as requested from Hobbes
+ - Remove IMPROVEDGLOBE.DAT as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane
  - Restructure Resources Files
 

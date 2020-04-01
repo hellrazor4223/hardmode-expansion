@@ -501,32 +501,4 @@ alienMissions:
         timer: 6000
         objective: true
 #END ALIEN SUPPLY
-
-#BEGIN DOCKED SHIP
-  - type: STR_DOCKED_SHIP
-    points: 0
-    objective: 3 #Create a missionsite
-    spawnZone: 0 #Mission zone for terror missions in this we do not have any other defined so 0
-    raceWeights: *BASE_TERROR_INFILTRATION
-    waves:
-      - ufo: dummy #don't spawn a ufo, we only want the site
-        count: 1
-        trajectory: P10
-        timer: 20000
-        objective: true
-#END DOCKED SHIP
-
-#BEGIN SHIP ATTACK
-  - type: STR_SHIP_ATTACK
-    points: 0
-    objective: 3 #Create a missionsite
-    spawnZone: 0 #Mission zone for terror missions in this we do not have any other defined so 0
-    raceWeights: *BASE_TERROR_INFILTRATION
-    waves:
-      - ufo: dummy #don't spawn a ufo, we only want the site
-        count: 1
-        trajectory: P10
-        timer: 20000
-        objective: true
-#END SHIP ATTACK
 ###END ALIEN MISSIONS

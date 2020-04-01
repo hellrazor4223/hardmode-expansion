@@ -937,19 +937,6 @@ en-US:
   STR_TERROR_MISSION_SHIP_DISABLED: "SHIP DISABLED"
   STR_TERROR_MISSION_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
-
-###REMOVED IN FUTURE
-  STR_ALIEN_ACTIVITY_DETECTED: "ALIEN ACTIVITY DETECTED"
-  STR_DOCKED_SHIP: "DOCKED SHIP"
-  STR_DOCKED_SHIP_BRIEFING: "We are detecting an unidentified transmission coming from one of the ships docked at a local port. Your orders are to stop the alien activity and secure any data to help us understand their intentions. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
-
-  STR_HIJACKED_SHIP: "S.O.S. SIGNAL"
-  STR_SHIP_ATTACK: "SHIP ASSAULT MISSION"
-  STR_SHIP_ATTACK_BRIEFING: "A civilian ship has been hijacked by the aliens and it is currently heading at full speed towards a heavily populated area.  The ship's navigation systems on its bridge must be destroyed to disable this ship and prevent a possible catastrophe.  To quit, place XCom operatives into the craft or exit area and click on the 'Abort Mission' icon."
-  STR_SHIP_DISABLED: "SHIP DISABLED"
-  STR_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
-  STR_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
-###REMOVED IN FUTURE
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
@@ -1040,6 +1027,11 @@ en-US:
   FEMALE_CIVILIAN2: "Civilian"
   FEMALE_CIVILIAN3: "Civilian"
 #END CIVLIAN NAMES
+
+#BEGIN NEW REGIONS
+  STR_NORTH_PACIFIC: "North Pacific"
+  STR_SOUTH_PACIFIC: "South Pacific"
+#END NEW REGIONS
 
 #BEGIN CITY NAMES
 # NORTH AMERICAN CITIES
@@ -1190,8 +1182,11 @@ en-US:
   STR_ASWAN: "Aswan"
   STR_BEIRUT: "Beirut"
   STR_BENGHAZI: "Benghazi"
+  STR_CANARY_ISLANDS: "Canary Island"
   STR_DAMASCUS: "Damascus"
+  STR_DAKAR: "Dakar"
   STR_DJIBOUTI: "Djibouti"
+  STR_GAO: "Gao"
   STR_JERUSALEM: "Jerusalem"
   STR_KHARTOUM: "Khartoum"
   STR_NOUAKCHOTT: "Nouakchott"
@@ -1207,7 +1202,6 @@ en-US:
   STR_BAMAKO: "Bamako"
   STR_BENGUI: "Bengui"
   STR_BISSAU: "Bissau"
-  STR_DAKAR: "Dakar"
   STR_DARESSALAAM: "Dar es Salaam"
   STR_DURBAN: "Durban"
   STR_FREETOWN: "Freetown"
@@ -1259,6 +1253,7 @@ en-US:
   STR_SRI_LANKA: "Sri Lanka"
   STR_TASHKENT: "Tashkent"
   STR_TBILISI: "Tbilisi"
+  STR_URUMQI: "Urumqi"
   STR_YEREVAN: "Yerevan"
 
 # SOUTH EAST ASIAN CITIES
@@ -1273,7 +1268,6 @@ en-US:
   STR_HANOI: "Hanoi"
   STR_HARBIN: "Harbin"
   STR_HIROSHIMA: "Hiroshima"
-  STR_KHABAROVSK: "Khabarovsk"
   STR_KUALA: "Kuala Lumpur"
   STR_LASSA: "Lassa"
   STR_MEDAN: "Medan"
@@ -1287,17 +1281,20 @@ en-US:
   STR_TAIPEI: "Taipei"
   STR_TIANJIN: "Tianjin"
   STR_ULANBATOR: "Ulan Bator"
-  STR_URUMQI: "Urumqi"
   STR_VLADIVOSTOK: "Vladivostok"
   STR_WUHAN: "Wuhan"
   STR_XIAN: "Xian"
 
 # SIBERIAN CITIES
+  STR_ANADYR: "Anadyr"
   STR_CHEYLABINSK: "Cheylabinsk"
   STR_IRKUTSK: "Irkutsk"
+  STR_KHABAROVSK: "Khabarovsk"
   STR_KRASNOYARSK: "Krasnoyarsk"
+  STR_MAGADAN: "Magadan"
   STR_OMSK: "Omsk"
   STR_PETROPAVLOVSK: "Petropavlovsk"
+  STR_VORKUTA: "Vorkuta"
   STR_YAKUTSK: "Yakutsk"
   STR_YEKATERINBURG: "Yekaterinburg"
 
@@ -1308,6 +1305,7 @@ en-US:
   STR_CHRISTCHURCH: "Christchurch"
   STR_DARWIN: "Darwin"
   STR_FIJI: "Fiji"
+  STR_KIRIBATI: "Kiribati"
   STR_MAKASSAR: "Makassar"
   STR_NOUMEA: "Noumea"
   STR_PORTMORESBY: "Port Moresby"
@@ -1318,15 +1316,22 @@ en-US:
   STR_TOWNSVILLE: "Townsville"
   STR_WEIPA: "Weipa"
 
-# PACIFIC CITIES
+# NORTH PACIFIC CITIES
   STR_ANCHORAGE: "Anchorage"
-  STR_EASTER_ISLAND: "Easter Island"
-  STR_GALAPAGOS_ISLAND: "Galapagos Island"
+  STR_GUAM: "Guam"
   STR_HAWAII: "Hawaii"
   STR_MIDWAY_ISLAND: "Midway Island"
+  STR_KURIL_ISLANDS: "Kuril Island"
   STR_NOME: "Nome"
   STR_STLAWRENCE_ISLAND: "St. Lawrence"
   STR_TONGA: "Tonga"
+
+# SOUTH PACIFIC CITIES
+  STR_EASTER_ISLAND: "Easter Island"
+  STR_GALAPAGOS_ISLAND: "Galapagos Island"
+  STR_PITCAIRN: "Pitcairn Islands"
+  STR_NAURU: "Nauru"
+  STR_SAMOA: "Samoa"
 
 # NORTH ATLANTIC CITIES
   STR_AZORES: "Azores"
@@ -1340,15 +1345,21 @@ en-US:
 # SOUTH ATLANTIC CITIES
   STR_ASCENSION_ISLAND: "Ascension Island"
   STR_FALKLAND_ISLAND: "Falkland Island"
+  STR_SAINT_HELENA: "St. Helena Islands"
   STR_TRINDADE_ISLAND: "Trindade Island"
+  STR_TRISTAN: "Tristan Island"
 
 # INDIAN OCEAN CITIES
+  STR_DIEGO_GARCIA: "Diego Garcia"
+  STR_COCOS_ISLANDS: "Cocos Island"
   STR_MALDIVE_ISLAND: "Maldive Island"
   STR_MAURITIUS: "Mauritius"
   STR_SEYCHELLES_ISLAND: "Seychelles Island"
+  STR_REUNION: "Reunion Island"
 
 # ANTARTIC BASES/OUTPOSTS
-  STR_VOSTOKSTATION: "Vostok"
-  STR_MCMURDOSTATION: "McMurdo"
-  STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
+  STR_VOSTOK: "Vostok"
+  STR_MCMURDO: "McMurdo"
+  STR_AMUNDSEN: "Amundsen-Scott"
+  STR_BELLINGSHAUSEN: "Bellingshausen"
 #END CITY NAMES

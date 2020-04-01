@@ -106,13 +106,11 @@ Additional Alien Races/Units:
 	Armored Sectopod Terrorist
 	Chryssalid Spitter Terrorist
 
-Additional Alien Missions:
-	Ship Attack
-	Docked Ship
-
 General Gameplay changes:
 	Your Soldiers will be awarded with Medals (currently there are 61 Medals).
-	Globe with 330 Cities (including vanilla ones)
+	Globe with 347 Cities (including vanilla ones)
+	Better Globe with more textures
+	Terrormission will also attack Ships on Sea (TFTD Liner and Cargo Ship)
 	Research costs are 1,5 times vanilla
 	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
 	8 Armored Vests, which you need to equip on your Soldiers
@@ -259,7 +257,6 @@ Additional X-Com Craft Weapons:
 
 Additional Terrains:
 	Airfield
-	Area 51
 	Cargo Ship
 	City Snow
 	Commercial
@@ -271,6 +268,7 @@ Additional Terrains:
 	Desert Plane
 	Dawn City A
 	Dawn City B
+	Downtown
 	Expanded Terror
 	Expanded Terror Snow
 	Expanded Urban Mix

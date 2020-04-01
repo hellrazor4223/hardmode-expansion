@@ -285,10 +285,12 @@ extraSprites:
 
 ##BEGIN TEXTURES
   - type: TEXTURE.DAT
+    width: 672
+    height: 96
+    subX: 32
+    subY: 32
     files:
-      11: Resources/Geoscape/Texture15.png
-      24: Resources/Geoscape/Texture36.png
-      37: Resources/Geoscape/Texture57.png
+      0: Resources/Geoscape/GeoscapeTextures.png
 ##END TEXTURES
 
 ##BEGIN PROJECTILES

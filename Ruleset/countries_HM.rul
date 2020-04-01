@@ -1,6 +1,7 @@
-#From Hobbes Terrain Pack Nightly
 ###BEGIN COUNTRIES
 countries:
+
+#BEGIN DELETE
   - delete: STR_USA
   - delete: STR_RUSSIA
   - delete: STR_UK
@@ -17,6 +18,9 @@ countries:
   - delete: STR_SOUTH_AFRICA
   - delete: STR_EGYPT
   - delete: STR_CANADA
+#BEGIN DELETE
+
+#BEGIN USA
   - type: STR_USA
     fundingBase: 600
     fundingCap: 5000
@@ -33,6 +37,9 @@ countries:
       - [190, 219, -80, -53.6] #Alaska Main Body
       - [219, 224, -60.4, -57] #Alaska Juneau Box 1
       - [224, 230, -58.5, -54] #Alaska Juneau Box 2
+#END USA
+
+#BEGIN RUSSIA
   - type: STR_RUSSIA
     fundingBase: 230
     fundingCap: 4000
@@ -46,6 +53,9 @@ countries:
       - [134, 146.1, -50.5, -45.63] #Sakhalin Island Area
       - [130, 137.6, -45.63, -42.36] #Vladivostok Area
       - [19.16, 22.84, -55.5, -54.52] #Kaliningrad Area
+#END RUSSIA
+
+#BEGIN UK
   - type: STR_UK
     fundingBase: 240
     fundingCap: 3500
@@ -55,6 +65,9 @@ countries:
       - [352, 2, -60, -53.93] #Scotland and Northern Ireland
       - [353.9, 2, -53.93, -50] #Lower Part of England
       - [299.22, 302.33, 51.16, 52.66] #Falkland Islands
+#END UK
+
+#BEGIN FRANCE
   - type: STR_FRANCE
     fundingBase: 320
     fundingCap: 4000
@@ -64,7 +77,10 @@ countries:
       - [355, 7, -50, -43] #European France
       - [8.2, 9.88, -43, -41.3] #Corsica
       - [163.6, 167, 19.9, 22.71] #New Caledonia - E of Australia
-      - [304, 308, -6.8, -2.6] #French Guiana - N of Brazil   
+      - [304, 308, -6.8, -2.6] #French Guiana - N of Brazil
+#END FRANCE
+
+#BEGIN GERMANY
   - type: STR_GERMANY
     fundingBase: 250
     fundingCap: 4500
@@ -72,6 +88,9 @@ countries:
     labelLat: -50.31
     areas:
       - [6, 15, -55, -47.5]
+#END GERMANY
+
+#BEGIN ITALY
   - type: STR_ITALY
     fundingBase: 160
     fundingCap: 3000
@@ -83,6 +102,9 @@ countries:
       - [18, 18.9, -40.88, -39.5] #Eastern Tip of Mainland
       - [13.34, 15.5, -37, -36.4] #Bottom of Sicily
       - [7.7, 10.33, -41.3, -38.4] #Sardinia
+#END ITALY
+
+#BEGIN SPAIN
   - type: STR_SPAIN
     fundingBase: 140
     fundingCap: 2500
@@ -98,6 +120,9 @@ countries:
       - [352.917, 353.59, -40, -39] #C near Portugal 2
       - [352.32, 359.1, -37.6, -36.11] #Southern Part of Spain
       - [1.92, 3.7, -40.17, -39] #Maiorca
+#END SPAIN
+
+#BEGIN CHINA
   - type: STR_CHINA
     fundingBase: 245
     fundingCap: 3500
@@ -109,6 +134,9 @@ countries:
       - [122, 126.27, -52, -49.49]
       - [122.13, 129.48, -49.40, -41.85]
       - [108, 113, -22, -17.9] #Southern China near Hainan and Hainan Island
+#END CHINA
+
+#BEGIN JAPAN
   - type: STR_JAPAN
     fundingBase: 400
     fundingCap: 5000
@@ -119,6 +147,9 @@ countries:
       - [138, 147, -46, -40]
       - [129, 130, -34.2, -31.95]
       - [141, 146, -54, -45.6] #Sakhalin
+#END JAPAN
+
+#BEGIN INDIA
   - type: STR_INDIA
     fundingBase: 150
     fundingCap: 2500
@@ -129,6 +160,9 @@ countries:
       - [74, 79, -35, -30]
       - [85, 89, -27, -18]
       - [68, 70, -23.81, -21.27]
+#END INDIA
+
+#BEGIN BRAZIL
   - type: STR_BRAZIL
     fundingBase: 300
     fundingCap: 2000
@@ -144,6 +178,9 @@ countries:
       - [316, 325, 1.4, 24] #Eastern Brazil
       - [304, 316, 24, 26.3] #Southern Brazil 1
       - [303.78, 312, 26.3, 33] #Southern Brazil 2
+#END BRAZIL
+
+#BEGIN AUSTRALIA
   - type: STR_AUSTRALIA
     fundingBase: 280
     fundingCap: 2500
@@ -154,6 +191,9 @@ countries:
       - [144, 149, 40, 44.3] #Tasmania
       - [164, 177.2, 40, 47] #New Zealand 1
       - [172, 179, 33.5, 40] #New Zealand 2
+#END AUSTRALIA
+
+#BEGIN NIGERIA
   - type: STR_NIGERIA
     fundingBase: 180
     fundingCap: 1000
@@ -161,6 +201,9 @@ countries:
     labelLat: -10
     areas:
       - [3, 14, -14, -4]
+#END NIGERIA
+
+#BEGIN SOUTH AFRICA
   - type: STR_SOUTH_AFRICA
     fundingBase: 230
     fundingCap: 1500
@@ -169,6 +212,9 @@ countries:
     areas:
       - [15, 25, 26, 35]
       - [25, 33, 22, 35]
+#END SOUTH AFRICA
+
+#BEGIN EGYPT
   - type: STR_EGYPT
     fundingBase: 230
     fundingCap: 1000
@@ -176,6 +222,9 @@ countries:
     labelLat: -27
     areas:
       - [25, 35, -32, -22]
+#END EGYPT
+
+#BEGIN CANADA
   - type: STR_CANADA
     fundingBase: 230
     fundingCap: 2000
@@ -193,4 +242,5 @@ countries:
       - [281, 284.3, -44.5, -43.38] #Toronto Region 3
       - [293.5, 298, -45, -43.2] #Newfoundland 1
       - [305, 307.89, -49.37, -46.77] #Newfoundland 2
+#END CANADA
 ###END COUNTRIES
