@@ -851,6 +851,7 @@ regions:
       STR_ALIEN_RESEARCH: 6
       STR_ALIEN_ABDUCTION: 4
       STR_ALIEN_BASE: 9
+      STR_ALIEN_INFILTRATION: 8
     missionZones:
       -
         - [49.875, 80.125, -66.75, -46.5]
