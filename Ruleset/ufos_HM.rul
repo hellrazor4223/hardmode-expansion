@@ -691,35 +691,6 @@ ufos:
           width: 30
           length: 30
 #END LABSHIP
-
-#BEGIN COMMANDSHIP
-  - type: STR_COMMAND_SHIP
-    modSprite: InterceptionLabship
-    size: STR_VERY_LARGE
-    damageMax: 24000
-    speedMax: 6000
-    power: 200
-    range: 65
-    score: 2000
-    reload: 24
-    breakOffTime: 6000
-    missionScore: 10
-    battlescapeTerrainData:
-      name: UFO_220
-      mapDataSets:
-        - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_PODS
-        - U_BITS
-        - U_DISEC2
-        - U_OPER2
-        - UFOL83
-      mapBlocks:
-        - name: UFO_220
-          width: 40
-          length: 40
-#END COMMANDSHIP
 ##END REAL UFOS
 
 ##BEGIN SPECIAL UFOS

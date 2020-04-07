@@ -1265,60 +1265,6 @@ alienDeployments:
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END SUPPLY SHIP
-
-#BEGIN COMMAND SHIP
-  - type: STR_COMMAND_SHIP
-    data:
-      - alienRank: 11
-        lowQty: 1
-        highQty: 3
-        dQty: 0
-        percentageOutsideUfo: 50
-        itemSets: *RANK_11_LARGE
-      - alienRank: 10
-        lowQty: 1
-        highQty: 3
-        dQty: 0
-        percentageOutsideUfo: 60
-        itemSets: *RANK_10_LARGE
-      - alienRank: 5
-        lowQty: 4
-        highQty: 6
-        dQty: 4
-        percentageOutsideUfo: 50
-        itemSets: *RANK_5_LARGE
-      - alienRank: 4
-        lowQty: 1
-        highQty: 3
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets: *RANK_4_LARGE
-      - alienRank: 3
-        lowQty: 1
-        highQty: 3
-        dQty: 2
-        percentageOutsideUfo: 20
-        itemSets: *RANK_3_LARGE_NO_HE
-      - alienRank: 2
-        lowQty: 1
-        highQty: 3
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets: *RANK_2_LARGE
-      - alienRank: 1
-        lowQty: 1
-        highQty: 3
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets: *RANK_1_LARGE
-    width: 80
-    length: 80
-    height: 8
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END COMMAND SHIP
 ##END UFOS
 
 ##BEGIN BASES
@@ -2071,4 +2017,4 @@ alienDeployments:
     abortCutscene: abortMiss
 #END TERROR MISSION SHIP
 ##END TERRORMISSIONS
-###END ALIEN DEPLOYMENT
+###END ALIEN DEPLOYMENTS

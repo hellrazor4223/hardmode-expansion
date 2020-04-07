@@ -1902,6 +1902,7 @@ mapScripts:
 ###END TERROR MISSION SCRIPTS
 
 ###BEGIN GLOBE SCRIPTS
+##BEGIN VANILLA SCRIPT OVERWRITE
 #BEGIN DEFAULT
   - type: DEFAULT # forest, mountain, expanded farm
     commands:
@@ -2156,6 +2157,7 @@ mapScripts:
  #fill group 0
     - type: fillArea
 #END POLAR
+##END VANILLA SCRIPT OVERWRITE
 
 ##BEGIN URBANUFO
 #BEGIN INDUSTRIALUFO
@@ -2260,4 +2262,5 @@ mapScripts:
     - type: fillArea
       blocks: [0, 1, 2, 3]
 #END CRASHED PLANE
+###END GLOBE SCRIPTS
 ####END MAPSCRIPTS
