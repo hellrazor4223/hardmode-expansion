@@ -1365,7 +1365,7 @@ items:
     hitSound: 54
     hitAnimation: 100
     blastRadius: 0 
-    power: 30
+    power: 40
     damageType: 6
     clipSize: 10
     battleType: 2
@@ -1901,7 +1901,7 @@ items:
     bigSprite: 113
     floorSprite: 108
     handSprite: 264
-    power: 30
+    power: 40
     damageType: 2
     battleType: 4
     blastRadius: 3
@@ -1919,7 +1919,7 @@ items:
     floorSprite: 148
     handSprite: 440
     hitAnimation: 64
-    power: 30
+    power: 40
     damageType: 6
     battleType: 4
     blastRadius: 3
