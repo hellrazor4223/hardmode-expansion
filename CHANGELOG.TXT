@@ -27,6 +27,7 @@ Version 0.99.8
  - Fix some typos while doing Terrorsite restructure
  - Fix listorder for Taser Pistol/Pistol
  - Fix listorder for Stun and Fire Grenade
+ - Fix bulletsprite/arcingshot for Hovertank/Ebomb
  - Remove AREA51 Terrains as requested from Hobbes
  - Remove IMPROVEDGLOBE.DAT as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane

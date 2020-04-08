@@ -891,7 +891,7 @@ items:
     bigSprite: 40
     floorSprite: 0
     handSprite: 0
-    bulletSprite: 9
+    bulletSprite: 16
     fireSound: 53
     compatibleAmmo:
       - STR_HWP_EBOMB
@@ -910,6 +910,7 @@ items:
     turretType: 4
     listOrder: 1601
     dropoff: 2
+    arcingShot: true
   - type: STR_HWP_EBOMB
     size: 0.1
     costSell: 13000
