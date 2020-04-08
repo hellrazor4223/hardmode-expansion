@@ -1735,7 +1735,7 @@ items:
     damageType: 9
     clipSize: 1
     battleType: 2
-    blastRadius: 4
+    blastRadius: 3
     armor: 20
     listOrder: 3004
 #END GRENADE LAUNCHER ITEM
@@ -1883,6 +1883,7 @@ items:
   - type: STR_SMOKE_GRENADE
     handSprite: 248
     hitAnimation: 56
+    blastRadius: 3
     armor: 30
 #BEGIN SMOKE GRENADE ITEM
 
@@ -2415,7 +2416,7 @@ items:
     damageType: 9
     clipSize: 1
     battleType: 2
-    blastRadius: 5
+    blastRadius: 3
     armor: 30
     attraction: 5
     listOrder: 5703
