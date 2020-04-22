@@ -198,7 +198,7 @@ manufacture:
       STR_DRONE_SCOUT: 1
       STR_ELERIUM_115: 4
     producedItems:
-      STR_DRONE_SCANNER: 1
+      STR_DRONE_TASER: 1
     listOrder: 404
   - name: STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT
     category: STR_UPGRADE
