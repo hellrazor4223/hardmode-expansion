@@ -30,7 +30,7 @@ en-GB:
   STR_TANK_REPAIR_UFOPEDIA: "After initial debate between our scientific staff and our lead engineer we decided to enact procedures to repair any destroyed HWP's as long as their remains were recovered completly from a successful groundbattle mission. The repair cost of the units are roughly 50% of there initial production cost."
 
   STR_SUPPORT_DRONES: "Support Drones"
-  STR_SUPPORT_DRONES_UFOPAEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
+  STR_SUPPORT_DRONES_UFOPEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
 
   STR_EXPLOSIVE_AMMO: "Explosive Ammo"
   STR_EXPLOSIVE_AMMO_UFOPEDIA: "Our advanced infantry weapons, the Heavy Cannon and the Auto Cannon can now also fire explosive rounds, which do HE damage. We have supplied our main weapon contractor with the plans and scematics to make this kind of ammo."
@@ -45,7 +45,7 @@ en-GB:
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: "The great success, we achieved with improving our air interception and air transport capabilities with Alien Alloys, was giving one of our engineering teams some great ideas on how to apply this new knowledge to our Heavy Weapon Platforms. After some initial research, we were able to enhance the armor and speed of them, using Alien Alloys. As a side effect our targetting modules could be increased, resulting in better aim and reactions for the Heavy Weapon Platforms."
 
   STR_ALLOY_DRONE_ARMOR: "Alloy Drone Armor"
-  STR_ALLOY_DRONE_ARMOR_UFOPAEDIA: "Our engineers finally found a way to enhance our working procedures with alien alloys, to such a degree, that we are now able to produce our drones with an alloy armor. This will greatly increase their armor, speed and durability on the battlefield. We also were able to increase the intensity and capacity of each of the supplemental equipment. The drone scanner, medikit and taser now take less time to be operated in the field and also hold more charges. We hope that this advancement will allow to reduce our big casuality numbers further."
+  STR_ALLOY_DRONE_ARMOR_UFOPEDIA: "Our engineers finally found a way to enhance our working procedures with alien alloys, to such a degree, that we are now able to produce our drones with an alloy armor. This will greatly increase their armor, speed and durability on the battlefield. We also were able to increase the intensity and capacity of each of the supplemental equipment. The drone scanner, medikit and taser now take less time to be operated in the field and also hold more charges. We hope that this advancement will allow to reduce our big casuality numbers further."
 
   STR_LASER_WEAPONS: "Laser Weapons"
   STR_LASER_WEAPONS_UFOPEDIA: "Lasers have been known for decades. The discovery of alien alloys  and  the information about optics found in the alien data slate, allows mankind now for the first time to design practical laser weaponry. It is in most ways superior to kinetic weapons, and will help our troops in combat against the aliens."
@@ -149,7 +149,7 @@ en-GB:
   STR_DRONE_SCOUT: "Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
   STR_DRONE_SCOUT_REPAIR: "Repair Drone/Scout"
-  STR_DRONE_SCOUT_UFOPAEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire."
+  STR_DRONE_SCOUT_UFOPEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire."
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "Drone/Scout -> Scanner"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "Drone/Scout -> Medikit"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "Drone/Scout -> Taser"
@@ -162,7 +162,7 @@ en-GB:
   STR_DRONE_SCANNER_WEAPON: "Drone Motion Scanner"
   STR_DRONE_SCANNER_CORPSE: "Damaged Drone/Scanner"
   STR_DRONE_SCANNER_REPAIR: "Repair Drone/Scanner"
-  STR_DRONE_SCANNER_UFOPAEDIA: "To further increase the specialization on scouting and reconnaissance, we modified this scout drone with a slightly modified version of our handheld motion scanner, allowing it to be even more effective at detecting enemies on the battlefield and report their positions to our troops. Unfortunately, we had to reduce the armor quite a bit to fit the motion scanner and its computational equipment on the drone."
+  STR_DRONE_SCANNER_UFOPEDIA: "To further increase the specialization on scouting and reconnaissance, we modified this scout drone with a slightly modified version of our handheld motion scanner, allowing it to be even more effective at detecting enemies on the battlefield and report their positions to our troops. Unfortunately, we had to reduce the armor quite a bit to fit the motion scanner and its computational equipment on the drone."
   STR_UPGRADE_DRONE_SCANNER_TO_MEDIKIT: "Drone/Scanner -> Medikit"
   STR_UPGRADE_DRONE_SCANNER_TO_TASER: "Drone/Scanner -> Taser"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "Drone/Scanner -> Alloy Scout"
@@ -174,7 +174,7 @@ en-GB:
   STR_DRONE_MEDIKIT_WEAPON: "Drone Medikit"
   STR_DRONE_MEDIKIT_CORPSE: "Damaged Drone/Medikit"
   STR_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
-  STR_DRONE_MEDIKIT_UFOPAEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit, it holds double the charges then the medikit."
+  STR_DRONE_MEDIKIT_UFOPEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit, it holds double the charges then the medikit."
   STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "Drone/Medikit -> Scanner"
   STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "Drone/Medikit -> Taser"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Drone/Medikit -> Alloy Scout"
@@ -188,7 +188,7 @@ en-GB:
   STR_DRONE_TASER_WEAPON_AMMO_X10: "Drone Taser Charges [x10]"
   STR_DRONE_TASER_CORPSE: "Damaged Drone/Taser"
   STR_DRONE_TASER_REPAIR: "Repair Drone/Taser"
-  STR_DRONE_TASER_UFOPAEDIA: "The purpose of this refitted scout drone is to capture alive aliens or neutralize civilians on the battlefield. The standard taser batteries available to us would unfortunately not supply it with a strong enough charge, the usage of some small quantities of the newly discovered Elerium-115 allows for a sufficient power supply. The armor of the drone had to be reduced, since the taser installment and its power packs take up quite some place."
+  STR_DRONE_TASER_UFOPEDIA: "The purpose of this refitted scout drone is to capture alive aliens or neutralize civilians on the battlefield. The standard taser batteries available to us would unfortunately not supply it with a strong enough charge, the usage of some small quantities of the newly discovered Elerium-115 allows for a sufficient power supply. The armor of the drone had to be reduced, since the taser installment and its power packs take up quite some place."
   STR_UPGRADE_DRONE_TASER_TO_SCANNER: "Drone/Taser -> Scanner"
   STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: "Drone/Taser -> Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "Drone/Taser -> Alloy Scout"
@@ -199,7 +199,7 @@ en-GB:
   STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
-  STR_ALLOY_DRONE_SCOUT_UFOPAEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
+  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Alloy Drone/Scout -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Alloy Drone/Scout -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Alloy Drone/Scout -> Alloy Taser"
@@ -208,7 +208,7 @@ en-GB:
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Alloy Drone Motion Scanner"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "Damaged Alloy Drone/Scanner"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "Repair Alloy Drone/Scanner"
-  STR_ALLOY_DRONE_SCANNER_UFOPAEDIA: "The refitting of the scanner drones with alloy armor has resulted in a much more durable version of them. We were able to compensate for some of the reduced armor and the motion scanner computing system is now way faster. Properly used our soldiers should be able to put these to a very effective use when fighting aliens."
+  STR_ALLOY_DRONE_SCANNER_UFOPEDIA: "The refitting of the scanner drones with alloy armor has resulted in a much more durable version of them. We were able to compensate for some of the reduced armor and the motion scanner computing system is now way faster. Properly used our soldiers should be able to put these to a very effective use when fighting aliens."
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "Alloy Drone/Scanner -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Alloy Drone/Scanner -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Alloy Drone/Scanner -> Alloy Taser"
@@ -217,7 +217,7 @@ en-GB:
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Alloy Drone/Medikit"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Medikit -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Medikit -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Medikit -> Alloy Taser"
@@ -228,7 +228,7 @@ en-GB:
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Enhanced Drone Taser Charges [x10]"
   STR_ALLOY_DRONE_TASER_CORPSE: "Damaged Alloy Drone/Taser"
   STR_ALLOY_DRONE_TASER_REPAIR: "Repair Alloy Drone/Taser"
-  STR_ALLOY_DRONE_TASER_UFOPAEDIA: "The upgraded taser drone is more then optimal in capturing aliens alive or incapacitate civilians in dangerous environments. Refitted with alloy armor allowed to install a bigger power source and taser module. This allows a even bigger range and more charges, allowing us to even take out most of the aliens with ease."
+  STR_ALLOY_DRONE_TASER_UFOPEDIA: "The upgraded taser drone is more then optimal in capturing aliens alive or incapacitate civilians in dangerous environments. Refitted with alloy armor allowed to install a bigger power source and taser module. This allows a even bigger range and more charges, allowing us to even take out most of the aliens with ease."
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "Alloy Drone/Taser -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Alloy Drone/Taser -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Alloy Drone/Taser -> Alloy Medikit"
@@ -937,19 +937,6 @@ en-GB:
   STR_TERROR_MISSION_SHIP_DISABLED: "SHIP DISABLED"
   STR_TERROR_MISSION_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
-
-###REMOVED IN FUTURE
-  STR_ALIEN_ACTIVITY_DETECTED: "ALIEN ACTIVITY DETECTED"
-  STR_DOCKED_SHIP: "DOCKED SHIP"
-  STR_DOCKED_SHIP_BRIEFING: "We are detecting an unidentified transmission coming from one of the ships docked at a local port. Your orders are to stop the alien activity and secure any data to help us understand their intentions. To abort the mission return X-Com operatives to transport vehicle and click on the 'Abort Mission' icon."
-
-  STR_HIJACKED_SHIP: "S.O.S. SIGNAL"
-  STR_SHIP_ATTACK: "SHIP ASSAULT MISSION"
-  STR_SHIP_ATTACK_BRIEFING: "A civilian ship has been hijacked by the aliens and it is currently heading at full speed towards a heavily populated area.  The ship's navigation systems on its bridge must be destroyed to disable this ship and prevent a possible catastrophe.  To quit, place XCom operatives into the craft or exit area and click on the 'Abort Mission' icon."
-  STR_SHIP_DISABLED: "SHIP DISABLED"
-  STR_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
-  STR_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
-###REMOVED IN FUTURE
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
@@ -1040,6 +1027,11 @@ en-GB:
   FEMALE_CIVILIAN2: "Civilian"
   FEMALE_CIVILIAN3: "Civilian"
 #END CIVLIAN NAMES
+
+#BEGIN NEW REGIONS
+  STR_NORTH_PACIFIC: "North Pacific"
+  STR_SOUTH_PACIFIC: "South Pacific"
+#END NEW REGIONS
 
 #BEGIN CITY NAMES
 # NORTH AMERICAN CITIES
@@ -1191,7 +1183,9 @@ en-GB:
   STR_BEIRUT: "Beirut"
   STR_BENGHAZI: "Benghazi"
   STR_DAMASCUS: "Damascus"
+  STR_DAKAR: "Dakar"
   STR_DJIBOUTI: "Djibouti"
+  STR_GAO: "Gao"
   STR_JERUSALEM: "Jerusalem"
   STR_KHARTOUM: "Khartoum"
   STR_NOUAKCHOTT: "Nouakchott"
@@ -1207,7 +1201,6 @@ en-GB:
   STR_BAMAKO: "Bamako"
   STR_BENGUI: "Bengui"
   STR_BISSAU: "Bissau"
-  STR_DAKAR: "Dakar"
   STR_DARESSALAAM: "Dar es Salaam"
   STR_DURBAN: "Durban"
   STR_FREETOWN: "Freetown"
@@ -1259,6 +1252,7 @@ en-GB:
   STR_SRI_LANKA: "Sri Lanka"
   STR_TASHKENT: "Tashkent"
   STR_TBILISI: "Tbilisi"
+  STR_URUMQI: "Urumqi"
   STR_YEREVAN: "Yerevan"
 
 # SOUTH EAST ASIAN CITIES
@@ -1273,7 +1267,6 @@ en-GB:
   STR_HANOI: "Hanoi"
   STR_HARBIN: "Harbin"
   STR_HIROSHIMA: "Hiroshima"
-  STR_KHABAROVSK: "Khabarovsk"
   STR_KUALA: "Kuala Lumpur"
   STR_LASSA: "Lassa"
   STR_MEDAN: "Medan"
@@ -1287,17 +1280,20 @@ en-GB:
   STR_TAIPEI: "Taipei"
   STR_TIANJIN: "Tianjin"
   STR_ULANBATOR: "Ulan Bator"
-  STR_URUMQI: "Urumqi"
   STR_VLADIVOSTOK: "Vladivostok"
   STR_WUHAN: "Wuhan"
   STR_XIAN: "Xian"
 
 # SIBERIAN CITIES
+  STR_ANADYR: "Anadyr"
   STR_CHEYLABINSK: "Cheylabinsk"
   STR_IRKUTSK: "Irkutsk"
+  STR_KHABAROVSK: "Khabarovsk"
   STR_KRASNOYARSK: "Krasnoyarsk"
+  STR_MAGADAN: "Magadan"
   STR_OMSK: "Omsk"
   STR_PETROPAVLOVSK: "Petropavlovsk"
+  STR_VORKUTA: "Vorkuta"
   STR_YAKUTSK: "Yakutsk"
   STR_YEKATERINBURG: "Yekaterinburg"
 
@@ -1308,6 +1304,7 @@ en-GB:
   STR_CHRISTCHURCH: "Christchurch"
   STR_DARWIN: "Darwin"
   STR_FIJI: "Fiji"
+  STR_KIRIBATI: "Kiribati"
   STR_MAKASSAR: "Makassar"
   STR_NOUMEA: "Noumea"
   STR_PORTMORESBY: "Port Moresby"
@@ -1318,15 +1315,22 @@ en-GB:
   STR_TOWNSVILLE: "Townsville"
   STR_WEIPA: "Weipa"
 
-# PACIFIC CITIES
+# NORTH PACIFIC CITIES
   STR_ANCHORAGE: "Anchorage"
-  STR_EASTER_ISLAND: "Easter Island"
-  STR_GALAPAGOS_ISLAND: "Galapagos Island"
+  STR_GUAM: "Guam"
   STR_HAWAII: "Hawaii"
   STR_MIDWAY_ISLAND: "Midway Island"
+  STR_KURIL_ISLANDS: "Kuril Island"
   STR_NOME: "Nome"
   STR_STLAWRENCE_ISLAND: "St. Lawrence"
   STR_TONGA: "Tonga"
+
+# SOUTH PACIFIC CITIES
+  STR_EASTER_ISLAND: "Easter Island"
+  STR_GALAPAGOS_ISLAND: "Galapagos Island"
+  STR_PITCAIRN: "Pitcairn Islands"
+  STR_NAURU: "Nauru"
+  STR_SAMOA: "Samoa"
 
 # NORTH ATLANTIC CITIES
   STR_AZORES: "Azores"
@@ -1340,15 +1344,21 @@ en-GB:
 # SOUTH ATLANTIC CITIES
   STR_ASCENSION_ISLAND: "Ascension Island"
   STR_FALKLAND_ISLAND: "Falkland Island"
+  STR_SAINT_HELENA: "St. Helena Islands"
   STR_TRINDADE_ISLAND: "Trindade Island"
+  STR_TRISTAN: "Tristan Island"
 
 # INDIAN OCEAN CITIES
+  STR_DIEGO_GARCIA: "Diego Garcia"
+  STR_COCOS_ISLANDS: "Cocos Island"
   STR_MALDIVE_ISLAND: "Maldive Island"
   STR_MAURITIUS: "Mauritius"
   STR_SEYCHELLES_ISLAND: "Seychelles Island"
+  STR_REUNION: "Reunion Island"
 
 # ANTARTIC BASES/OUTPOSTS
-  STR_VOSTOKSTATION: "Vostok"
-  STR_MCMURDOSTATION: "McMurdo"
-  STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
+  STR_VOSTOK: "Vostok"
+  STR_MCMURDO: "McMurdo"
+  STR_AMUNDSEN: "Amundsen-Scott"
+  STR_BELLINGSHAUSEN: "Bellingshausen"
 #END CITY NAMES
