@@ -33,6 +33,7 @@ Version 0.99.8
  - Remove IMPROVEDGLOBE.DAT as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane
  - Restructure Resources Files
+ - Update Language files
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check

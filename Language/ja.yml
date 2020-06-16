@@ -2,9 +2,14 @@ ja:
 #BEGIN GENERAL
   STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.8 by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "任務とニュース"
-  STR_HEAVY_WEAPONS_PLATFORMS: "機体 / 武装及びHWP"
-  STR_UFO_COMPONENTS: "エイリアンのUFO"
-  STR_UFOS: "なし (保留)"
+  STR_HEAVY_WEAPONS_PLATFORMS: "基地の施設"
+  STR_WEAPONS_AND_EQUIPMENT: "XCOMの機体および軍備"
+  STR_ALIEN_ARTIFACTS: "重火器プラットフォーム（HWP）"
+  STR_BASE_FACILITIES: "兵装"
+  STR_ALIEN_LIFE_FORMS: "エイリアンの機体"
+  STR_ALIEN_RESEARCH_UC: "エイリアンたち"
+  STR_UFO_COMPONENTS: "エイリアンの研究"
+  STR_UFOS: "UFOとその部品"
   STR_UPGRADE: "アップグレード"
 #END GENERAL
 
@@ -25,7 +30,7 @@ ja:
   STR_TANK_REPAIR_UFOPEDIA: "科学者および技術者達と初期要綱について話し合った結果、作戦が成功し回収が可能な場合は破壊されたHWPも回収し、修理の後再利用する事が決定した。修理コストは製造に比べ約半分で済む。"
 
   STR_SUPPORT_DRONES: "支援ドローン"
-  STR_SUPPORT_DRONES_UFOPAEDIA: "全自動駆動するHWPの当初の構想と比較するとこれ等の小型ロボットは戦場で別の目的を達成する為の物だ。斥候および間接支援である。その特徴はコンパクさと十分な装甲を持つ事だが、戦場の情報収集をする事で兵の戦闘状況を大きく改善し、負傷者を減らす事ができる。我々の技術者はスキャナーや医療器具の搭載も可能だと言っている。"
+  STR_SUPPORT_DRONES_UFOPEDIA: "全自動駆動するHWPの当初の構想と比較するとこれ等の小型ロボットは戦場で別の目的を達成する為の物だ。斥候および間接支援である。その特徴はコンパクさと十分な装甲を持つ事だが、戦場の情報収集をする事で兵の戦闘状況を大きく改善し、負傷者を減らす事ができる。我々の技術者はスキャナーや医療器具の搭載も可能だと言っている。"
 
   STR_EXPLOSIVE_AMMO: "炸裂弾"
   STR_EXPLOSIVE_AMMO_UFOPEDIA: "我々が持つ歩兵用重キャノン砲やオートキャノンは爆発ダメージをもたらす炸裂弾を装填できる様になった。委託している武器業者に設計図を送り、この種の砲弾の製造供給を計画済みだ。"
@@ -40,7 +45,7 @@ ja:
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: "エイリアン合金を用いた追撃機および輸送機用の改善は大いに満足のいくものであったが、技術者チームはこの新しい手法をHWPにも応用するというアイディアを思いついた。初期テストを通じてその装甲と速度が改善される事が確認され、副次効果として照準周りにも余裕が生じた結果、HWPの照準力と反応速度が向上した。"
 
   STR_ALLOY_DRONE_ARMOR: "ドローン用合金装甲"
-  STR_ALLOY_DRONE_ARMOR_UFOPAEDIA: "我々のエンジニアはついにドローンにエイリアン合金製の装甲を装着可能にする改良工程を編み出した。これによりドローンの装甲力が強化され、戦場における移動速度と耐久力が増加したが、更に追加装備の容量増加と強化も可能となった。スキャナー、メディキット、そしてテーザーの実戦環境での作動時間が短縮され、その使用回数が増加した。こうした恩恵より、負傷者の数が大幅減るだろう。"
+  STR_ALLOY_DRONE_ARMOR_UFOPEDIA: "我々のエンジニアはついにドローンにエイリアン合金製の装甲を装着可能にする改良工程を編み出した。これによりドローンの装甲力が強化され、戦場における移動速度と耐久力が増加したが、更に追加装備の容量増加と強化も可能となった。スキャナー、メディキット、そしてテーザーの実戦環境での作動時間が短縮され、その使用回数が増加した。こうした恩恵より、負傷者の数が大幅減るだろう。"
 
   STR_LASER_WEAPONS: "レーザー兵器"
   STR_LASER_WEAPONS_UFOPEDIA: "レーザーは何十年も前から存在する技術だが、エイリアン合金の発見とエイリアンのデータスレートから回収した光学技術の情報により実用レベルの兵器として設計が可能となった。斥力を利用したタイプの武器よりあらゆる面で秀で、エイリアンとの戦いを助ける事になるだろう。"
@@ -144,7 +149,7 @@ ja:
   STR_DRONE_SCOUT: "ドローン/スカウト"
   STR_DRONE_SCOUT_CORPSE: "大破したドローン/スカウト"
   STR_DRONE_SCOUT_REPAIR: "ドローン/スカウトの修理"
-  STR_DRONE_SCOUT_UFOPAEDIA: "この小型で頑丈なドローンは偵察および哨戒用として設計されている。大型HWPの様に強力な武装や装甲は備えていないが陸上を素早く移動し、X-Com隊員を危険に晒す事なく偵察をし、敵を発見する。また、地上部隊や自身を火線から逸らす為に用いる近距離用の発煙筒を備えている。"
+  STR_DRONE_SCOUT_UFOPEDIA: "この小型で頑丈なドローンは偵察および哨戒用として設計されている。大型HWPの様に強力な武装や装甲は備えていないが陸上を素早く移動し、X-Com隊員を危険に晒す事なく偵察をし、敵を発見する。また、地上部隊や自身を火線から逸らす為に用いる近距離用の発煙筒を備えている。"
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "ドローン/スカウト -> スキャナー"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "ドローン/スカウト -> メディキット"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "ドローン/スカウト -> テーザー"
@@ -157,7 +162,7 @@ ja:
   STR_DRONE_SCANNER_WEAPON: "ドローン用モーションスキャナー"
   STR_DRONE_SCANNER_CORPSE: "大破したドローン/スキャナー"
   STR_DRONE_SCANNER_REPAIR: "ドローン/スキャナーの修理"
-  STR_DRONE_SCANNER_UFOPAEDIA: "増加する偵察および索敵任務の為にスカウトドローンを改良して携帯用モーションスキャナーを搭載した。これにより戦場における索敵と味方への情報伝達の効率が上昇した。しかしながらスキャナーとコンピュータ機器を装着する為に装甲がかなり貧弱になった。"
+  STR_DRONE_SCANNER_UFOPEDIA: "増加する偵察および索敵任務の為にスカウトドローンを改良して携帯用モーションスキャナーを搭載した。これにより戦場における索敵と味方への情報伝達の効率が上昇した。しかしながらスキャナーとコンピュータ機器を装着する為に装甲がかなり貧弱になった。"
   STR_UPGRADE_DRONE_SCANNER_TO_MEDIKIT: "ドローン/スキャナー -> メディキット"
   STR_UPGRADE_DRONE_SCANNER_TO_TASER: "ドローン/スキャナー -> テーザー"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "ドローン/スキャナー -> 合金スカウト"
@@ -169,7 +174,7 @@ ja:
   STR_DRONE_MEDIKIT_WEAPON: "ドローン用メディキット"
   STR_DRONE_MEDIKIT_CORPSE: "大破したドローン/メディキット"
   STR_DRONE_MEDIKIT_REPAIR: "ドローン/メディキットの修理"
-  STR_DRONE_MEDIKIT_UFOPAEDIA: "このスカウト用ドローンは携帯用メディキットの改造版を備えており、味方或いは敵が例え瀕死の状態でも手当をする事ができる。ドローン自体は従来通りスカウトにも用いる事が出来るが医療器具を搭載した分装甲が貧弱になっている事に注意しなければならない。搭載されているメディキットの効果は兵用のものと同じだが、容量が2倍に増えている。"
+  STR_DRONE_MEDIKIT_UFOPEDIA: "このスカウト用ドローンは携帯用メディキットの改造版を備えており、味方或いは敵が例え瀕死の状態でも手当をする事ができる。ドローン自体は従来通りスカウトにも用いる事が出来るが医療器具を搭載した分装甲が貧弱になっている事に注意しなければならない。搭載されているメディキットの効果は兵用のものと同じだが、容量が2倍に増えている。"
   STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "ドローン/メディキット -> スキャナー"
   STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "ドローン/メディキット -> テーザー"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "ドローン/メディキット -> 合金スカウト"
@@ -183,7 +188,7 @@ ja:
   STR_DRONE_TASER_WEAPON_AMMO_X10: "ドローン用テーザー電池[x10]"
   STR_DRONE_TASER_CORPSE: "大破したドローン/テーザー"
   STR_DRONE_TASER_REPAIR: "ドローン/テーザーの修理"
-  STR_DRONE_TASER_UFOPAEDIA: "この改良型のドローンの使用目的は戦場でエイリアンを生け捕りにしたり市民を無力化する事である。我々が用いてきた標準型のテーザー用バッテリーでは必要とされるだけの電流を発生させる事が不可能だった為、最近発見されたエレリウム115を用いて電力を確保している。テーザーとバッテリーがかなり容量を占めるので、その分装甲が弱くなっている。"
+  STR_DRONE_TASER_UFOPEDIA: "この改良型のドローンの使用目的は戦場でエイリアンを生け捕りにしたり市民を無力化する事である。我々が用いてきた標準型のテーザー用バッテリーでは必要とされるだけの電流を発生させる事が不可能だった為、最近発見されたエレリウム115を用いて電力を確保している。テーザーとバッテリーがかなり容量を占めるので、その分装甲が弱くなっている。"
   STR_UPGRADE_DRONE_TASER_TO_SCANNER: "ドローン/テーザー -> スキャナー"
   STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: "ドローン/テーザー -> メディキット"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "ドローン/テーザー -> 合金スカウト"
@@ -194,7 +199,7 @@ ja:
   STR_ALLOY_DRONE_SCOUT: "合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "大破した合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "合金ドローン/スカウトの修理"
-  STR_ALLOY_DRONE_SCOUT_UFOPAEDIA: "この改良型のドローンはエイリアン合金をボディーに用いており、その分高価なものとなったが移動速度と装甲が増した。但しエイリアンのプラズマ兵器及び他の全ての地上用兵器に対し生存率がアップした訳ではない点に注意しなければならない。上手に用いて敵を発見し、注意を逸らせ。内蔵された発煙筒を適時活用すれば強力な偵察兵となるだろう。"
+  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "この改良型のドローンはエイリアン合金をボディーに用いており、その分高価なものとなったが移動速度と装甲が増した。但しエイリアンのプラズマ兵器及び他の全ての地上用兵器に対し生存率がアップした訳ではない点に注意しなければならない。上手に用いて敵を発見し、注意を逸らせ。内蔵された発煙筒を適時活用すれば強力な偵察兵となるだろう。"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "合金ドローン/スカウト -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "合金ドローン/スカウト -> 合金メディキット"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "合金ドローン/スカウト -> 合金テーザー"
@@ -203,7 +208,7 @@ ja:
   STR_ALLOY_DRONE_SCANNER_WEAPON: "合金ドローン用モーションスキャナー"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "大破した合金ドローン/スキャナー"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "合金ドローン/スキャナーの修理"
-  STR_ALLOY_DRONE_SCANNER_UFOPAEDIA: "スキャナードローンにエイリアン合金製の装甲に換装する事でより頑丈となった。このお陰で弱体化した装甲をある程度埋め合わせる事が出来、更にモーションスキャナーのコンピューターシステムもかなり高速な物を搭載する事ができた。オリジナルモデルを使用した事がある兵ならばかなり効果的に戦闘で用いる事ができる筈だ。"
+  STR_ALLOY_DRONE_SCANNER_UFOPEDIA: "スキャナードローンにエイリアン合金製の装甲に換装する事でより頑丈となった。このお陰で弱体化した装甲をある程度埋め合わせる事が出来、更にモーションスキャナーのコンピューターシステムもかなり高速な物を搭載する事ができた。オリジナルモデルを使用した事がある兵ならばかなり効果的に戦闘で用いる事ができる筈だ。"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "合金ドローン/スキャナー -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "合金ドローン/スキャナー -> 合金メディキット"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "合金ドローン/スキャナー -> 合金テーザー"
@@ -212,7 +217,7 @@ ja:
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "合金ドローン用メディキット"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "合金ドローン/メディキットの修理"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。診断と治療モジュールの再設計のお陰でより迅速な野戦治療が可能となり、改良型メディキットの２倍の容量を持つ様になった。"
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。診断と治療モジュールの再設計のお陰でより迅速な野戦治療が可能となり、改良型メディキットの２倍の容量を持つ様になった。"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "合金ドローン/メディキット -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "合金ドローン/メディキット -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "合金ドローン/メディキット -> 合金テーザー"
@@ -223,7 +228,7 @@ ja:
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "合金ドローン用テーザー電池[x10]"
   STR_ALLOY_DRONE_TASER_CORPSE: "大破した合金ドローン/テーザー"
   STR_ALLOY_DRONE_TASER_REPAIR: "合金ドローン/テーザーの修理"
-  STR_ALLOY_DRONE_TASER_UFOPAEDIA: "改良型のテーザードローンはエイリアンを生け捕りにしたり民間人を無力化する事に関して最適化されているだけに留まらない。合金装甲に換装したお陰でより大容量の電源とテーザーユニットを搭載可能となり、そのお陰で射程と弾倉容量が増し、より多くの殆どの種類のエイリアンを簡単に仕留める事ができる。"
+  STR_ALLOY_DRONE_TASER_UFOPEDIA: "改良型のテーザードローンはエイリアンを生け捕りにしたり民間人を無力化する事に関して最適化されているだけに留まらない。合金装甲に換装したお陰でより大容量の電源とテーザーユニットを搭載可能となり、そのお陰で射程と弾倉容量が増し、より多くの殆どの種類のエイリアンを簡単に仕留める事ができる。"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "合金ドローン/テーザー -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "合金ドローン/テーザー -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "合金ドローン/テーザー -> 合金メディキット"
@@ -604,6 +609,9 @@ ja:
   STR_CHRYSSALID_SPITTER_AUTOPSY: "クリサリドスピッターの解剖"
   STR_CHRYSSALID_SPITTER_AUTOPSY_UFOPEDIA: "この奇妙な生物はクリサリドの上位種らしい。排出口内にある袋状の器官から酸化合物を射出し、その圧力で飛ばされる卵は非常に高速で装甲すら貫通する。この酸の力によりで遠く離れた犠牲者に卵を植え付けられる。この生物はより早く多くの人間を宿主と変化させる為に設計された様だ。"
 
+  STR_SPITTER_ZOMBIE: "スピッターゾンビ"
+  STR_SPITTER_ZOMBIE_CORPSE: "スピッターゾンビの死体"
+
   STR_CYDONIA_STAGE_1: "サイドニア 多種混合 I"
   STR_CYDONIA_STAGE_2: "サイドニア 多種混合 II"
 #END ALIEN RACES
@@ -904,48 +912,34 @@ ja:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
-  STR_TERROR_MISSION_BIG_CITY: "テロミッション (大都市)"
-  STR_TERROR_MISSION_BIG_CITY_BRIEFING: "全ての敵ユニットを倒すか無力化すると任務が達成される。エイリアンの脅威を一掃して、全力を挙げてエリア内の民間人の救助に努めなければならない。{NEWLINE}やむを得ず撤退する場合には、全ての隊員を輸送機に戻してから'任務中断'を実行すること。"
+  STR_TERROR_MISSION_SNOW: "テロ鎮圧:雪"
 
-  STR_TERROR_MISSION_INDUSTRIAL: "テロミッション (工業地帯)"
-  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: "全ての敵ユニットを倒すか無力化すると任務が達成される。エイリアンの脅威を一掃して、全力を挙げてエリア内の民間人の救助に努めなければならない。{NEWLINE}やむを得ず撤退する場合には、全ての隊員を輸送機に戻してから'任務中断'を実行すること。"
+  STR_TERROR_MISSION_SUBURB: "テロ鎮圧:郊外"
 
-  STR_TERROR_MISSION_SNOW: "テロミッション (雪)"
-  STR_TERROR_MISSION_SNOW_BRIEFING: "全ての敵ユニットを倒すか無力化すると任務が達成される。エイリアンの脅威を一掃して、全力を挙げてエリア内の民間人の救助に努めなければならない。{NEWLINE}やむを得ず撤退する場合には、全ての隊員を輸送機に戻してから'任務中断'を実行すること。"
+  STR_TERROR_MISSION_INDUSTRIAL: "テロ鎮圧:工業地帯"
+  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: "エイリアンが都市の工業地帯を襲撃した。施設と民間人が危険に晒されている。敵を一掃し民間人をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
 
-  STR_TERROR_MISSION_TROPICAL: "テロミッション (南国)"
-  STR_TERROR_MISSION_TROPICAL_BRIEFING: "全ての敵ユニットを倒すか無力化すると任務が達成される。エイリアンの脅威を一掃して、全力を挙げてエリア内の民間人の救助に努めなければならない。{NEWLINE}やむを得ず撤退する場合には、全ての隊員を輸送機に戻してから'任務中断'を実行すること。"
+  STR_TERROR_MISSION_PORT: "テロ鎮圧:港"
+  STR_TERROR_MISSION_PORT_BRIEFING: "エイリアンが港湾地区を襲撃した。施設と民間人が危険に晒されている。敵を一掃し民間人をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
 
-  STR_MILITARY_BASE_ATTACK: "エイリアンによる軍基地への襲撃"
-  STR_MILITARY_BASE_ATTACK_ALERT: "エイリアンの襲撃が{NEWLINE}起きている軍基地"
-  STR_MILITARY_BASE_ATTACK_BRIEFING: "エイリアンが軍基地に攻撃を仕掛けている。基地と兵が危険に晒されている。エイリアンを一掃し、交戦中の軍人を支援し無関係な者達をエイリアンの脅威から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
+  STR_TERROR_MISSION_TROPICAL: "テロ鎮圧:南国"
 
-  STR_AIRFIELD_ATTACK: "エイリアンによる空港への襲撃"
-  STR_AIRFIELD_ATTACK_ALERT: "エイリアンの襲撃が{NEWLINE}起きている空港"
-  STR_AIRFIELD_ATTACK_BRIEFING: "エイリアンが空港を襲撃した。施設と従業員達が危険に晒されている。敵を一掃し空港をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
+  STR_TERROR_MISSION_ISLAND: "テロ鎮圧:島"
+  STR_TERROR_MISSION_ISLAND_BRIEFING: "エイリアンが特定地区を襲撃した。島と民間人が危険に晒されている。敵を一掃し民間人をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
 
-  STR_PORT_ATTACK: "エイリアンによる港への襲撃"
-  STR_PORT_ATTACK_ALERT: "エイリアンの襲撃が{NEWLINE}起きている港"
-  STR_PORT_ATTACK_BRIEFING: "エイリアンが港湾地区を襲撃した。施設と民間人が危険に晒されている。敵を一掃し民間人をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
+  STR_TERROR_MISSION_MILITARY_BASE: "テロ鎮圧:軍基地"
+  STR_TERROR_MISSION_MILITARY_BASE_ALERT: "エイリアンが{NEWLINE}軍基地を襲撃中"
+  STR_TERROR_MISSION_MILITARY_BASE_BRIEFING: "エイリアンが軍基地に攻撃を仕掛けている。基地と兵が危険に晒されている。エイリアンを一掃し、交戦中の軍人を支援し無関係な者達をエイリアンの脅威から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
 
-  STR_ISLAND_ATTACK: "エイリアンによる島への襲撃"
-  STR_ISLAND_ATTACK_ALERT: "エイリアンの襲撃が{NEWLINE}起きている島"
-  STR_ISLAND_ATTACK_BRIEFING: "エイリアンが特定地区を襲撃した。島と民間人が危険に晒されている。敵を一掃し民間人をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
-
-  STR_ALIEN_ACTIVITY_DETECTED: "エイリアンの活動を探知"
-  STR_DOCKED_SHIP: "停泊中の船舶"
-  STR_DOCKED_SHIP_BRIEFING: "エイリアンの装置から発信された物と思わしき正体不明の信号を停泊中の船舶から探知した。今回の目標はエイリアンの活動を停止させ、彼らの意図を紐解く手がかりを入手する事である。{NEWLINE}中断する場合は輸送機まで全隊員を戻してから'任務中断'を実行すること。"
-
-  STR_HIJACKED_SHIP: "S.O.S.シグナル"
-  STR_SHIP_ATTACK: "船舶の強襲"
-  STR_SHIP_ATTACK_BRIEFING: "民間の船舶がエイリアンにハイジャックされ、現在人口過密地帯を目指し高速で運航している。ブリッジにある航行システムを破壊し、予期される大惨事を食い止めよ。{NEWLINE}ミッションは隊員を輸送機に戻すか退出エリアに移動させてから'任務中断'を実行する事で終了する。"
-  STR_SHIP_DISABLED: "船は停止した"
-  STR_SHIP_OPERATIONAL: "船は未だ航行中"
-  STR_SHIP_NAVIGATION_DESTROYED: "航行システムは破壊された"
+  STR_TERROR_MISSION_SHIP: "テロ鎮圧:船舶"
+  STR_TERROR_MISSION_SHIP_ALERT: "エイリアンが{NEWLINE}民間船を襲撃中"
+  STR_TERROR_MISSION_SHIP_BRIEFING: "民間の船舶がエイリアンにハイジャックされ、現在人口過密地帯を目指し高速で運航している。ブリッジにある航行システムを破壊し、予期される大惨事を食い止めよ。{NEWLINE}ミッションは隊員を輸送機に戻すか退出エリアに移動させてから'任務中断'を実行する事で終了する。"
+  STR_TERROR_MISSION_SHIP_DISABLED: "船は停止した"
+  STR_TERROR_MISSION_SHIP_OPERATIONAL: "船は未だ航行中"
+  STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "航行システムは破壊された"
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
-  MAP_AIRFIELD: "軍空港"
   MAP_AIRFIELD1: "空港 1"
   MAP_AIRFIELD2: "空港 2"
   MAP_AIRFIELD3: "空港 3"
@@ -954,7 +948,6 @@ ja:
   MAP_AIRFIELD6: "空港 6"
   MAP_AIRFIELD7: "空港 7"
   MAP_AIRFIELD8: "空港 8"
-  MAP_AREA51URBAN: "エリア 51"
   MAP_CARGOSHIP: "貨物船"
   MAP_COMRCURBAN: "商業地区"
   MAP_CULTAFARMA: "大農園 A"
@@ -962,6 +955,7 @@ ja:
   MAP_DESERTMOUNT: "砂漠と山"
   MAP_DESERTTEMPLE: "砂漠と寺院"
   MAP_DESERTPLANE: "砂漠と平原"
+  MAP_DOWNTOWNURBAN: "下町 A"
   MAP_DAWNURBANA: "夜明けの町 A"
   MAP_DAWNURBANB: "夜明けの町 B"
   MAP_EXPANDED_TERROR: "テロ拡張版"
@@ -1033,6 +1027,11 @@ ja:
   FEMALE_CIVILIAN2: "民間人"
   FEMALE_CIVILIAN3: "民間人"
 #END CIVLIAN NAMES
+
+#BEGIN NEW REGIONS
+  STR_NORTH_PACIFIC: "北太平洋"
+  STR_SOUTH_PACIFIC: "南太平洋"
+#END NEW REGIONS
 
 #BEGIN CITY NAMES
 # NORTH AMERICAN CITIES
@@ -1183,8 +1182,11 @@ ja:
   STR_ASWAN: "アスワン"
   STR_BEIRUT: "ベイルート"
   STR_BENGHAZI: "ベンガジ"
+  STR_CANARY_ISLANDS: "Canary Island"
   STR_DAMASCUS: "ダマスカス"
+  STR_DAKAR: "ダカール"
   STR_DJIBOUTI: "ジブチ"
+  STR_GAO: "ガオ"
   STR_JERUSALEM: "エルサレム"
   STR_KHARTOUM: "ハルツーム"
   STR_NOUAKCHOTT: "ヌアクショット"
@@ -1200,7 +1202,6 @@ ja:
   STR_BAMAKO: "バマコ"
   STR_BENGUI: "バンギ"
   STR_BISSAU: "ビサウ"
-  STR_DAKAR: "ダカール"
   STR_DARESSALAAM: "ダルエスサラーム"
   STR_DURBAN: "ダーバン"
   STR_FREETOWN: "フリータウン"
@@ -1252,6 +1253,7 @@ ja:
   STR_SRI_LANKA: "スリランカ"
   STR_TASHKENT: "タシュケント"
   STR_TBILISI: "トビリシ"
+  STR_URUMQI: "ウルムチ"
   STR_YEREVAN: "エレバン"
 
 # SOUTH EAST ASIAN CITIES
@@ -1266,7 +1268,6 @@ ja:
   STR_HANOI: "ハノイ"
   STR_HARBIN: "ハルビン"
   STR_HIROSHIMA: "広島"
-  STR_KHABAROVSK: "ハバロフスク"
   STR_KUALA: "クアラルンプール"
   STR_LASSA: "ラッサー"
   STR_MEDAN: "メダン"
@@ -1280,17 +1281,20 @@ ja:
   STR_TAIPEI: "台北"
   STR_TIANJIN: "天津"
   STR_ULANBATOR: "ウランバートル"
-  STR_URUMQI: "ウルムチ"
   STR_VLADIVOSTOK: "ウラジオストック"
   STR_WUHAN: "武漢"
   STR_XIAN: "西安"
 
 # SIBERIAN CITIES
+  STR_ANADYR: "アナディリ"
   STR_CHEYLABINSK: "チェリャンビスク"
   STR_IRKUTSK: "イルクーツク"
+  STR_KHABAROVSK: "ハバロフスク"
   STR_KRASNOYARSK: "クラスノヤルスク"
+  STR_MAGADAN: "マガダン"
   STR_OMSK: "オムスク"
   STR_PETROPAVLOVSK: "ペトロパブロフスク"
+  STR_VORKUTA: "ボルクタ"
   STR_YAKUTSK: "ヤクーツク"
   STR_YEKATERINBURG: "エカテリンブルク"
 
@@ -1301,6 +1305,7 @@ ja:
   STR_CHRISTCHURCH: "クライストチャーチ"
   STR_DARWIN: "ダーウィン"
   STR_FIJI: "フィジー"
+  STR_KIRIBATI: "キリバス"
   STR_MAKASSAR: "マカッサル"
   STR_NOUMEA: "ヌメア"
   STR_PORTMORESBY: "ポートモレスビー"
@@ -1311,15 +1316,22 @@ ja:
   STR_TOWNSVILLE: "タウンズビル"
   STR_WEIPA: "ウェイパ"
 
-# PACIFIC CITIES
+# NORTH PACIFIC CITIES
   STR_ANCHORAGE: "アンカレッジ"
-  STR_EASTER_ISLAND: "イースター島"
-  STR_GALAPAGOS_ISLAND: "ガラパゴス島"
+  STR_GUAM: "グァム"
   STR_HAWAII: "ハワイ"
   STR_MIDWAY_ISLAND: "ミッドウェイ島"
+  STR_KURIL_ISLANDS: "千島列島"
   STR_NOME: "ノーム"
   STR_STLAWRENCE_ISLAND: "セントローレンス"
   STR_TONGA: "トンガ"
+
+# SOUTH PACIFIC CITIES
+  STR_EASTER_ISLAND: "イースター島"
+  STR_GALAPAGOS_ISLAND: "ガラパゴス島"
+  STR_PITCAIRN: "ピトケアン諸島"
+  STR_NAURU: "ナウル"
+  STR_SAMOA: "サモア"
 
 # NORTH ATLANTIC CITIES
   STR_AZORES: "アゾレス"
@@ -1333,15 +1345,21 @@ ja:
 # SOUTH ATLANTIC CITIES
   STR_ASCENSION_ISLAND: "アセンション島"
   STR_FALKLAND_ISLAND: "フォークランド諸島"
+  STR_SAINT_HELENA: "セントヘレナ島"
   STR_TRINDADE_ISLAND: "トリンダージ島"
+  STR_TRISTAN: "トリスタン島"
 
 # INDIAN OCEAN CITIES
+  STR_DIEGO_GARCIA: "ジエゴ・ガルシア"
+  STR_COCOS_ISLANDS: "ココス島"
   STR_MALDIVE_ISLAND: "モルジブ諸島"
   STR_MAURITIUS: "モーリシャス"
   STR_SEYCHELLES_ISLAND: "セーシェル島"
+  STR_REUNION: "レユニオン島"
 
 # ANTARTIC BASES/OUTPOSTS
-  STR_VOSTOKSTATION: "ボストーク"
-  STR_MCMURDOSTATION: "マクマード"
-  STR_AMUNDSENSCOTTSTATION: "アムンゼン・スコット"
+  STR_VOSTOK: "ボストーク"
+  STR_MCMURDO: "マクマード"
+  STR_AMUNDSEN: "アムンゼン・スコット"
+  STR_BELLINGSHAUSEN: "ベリングスハウゼン"
 #END CITY NAMES
