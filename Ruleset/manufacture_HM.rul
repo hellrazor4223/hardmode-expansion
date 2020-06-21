@@ -836,7 +836,7 @@ manufacture:
     cost: 320000
     requiredItems:
       STR_ALIEN_ALLOYS: 8
-      STR_MEDI_KIT: 1
+      STR_ADVANCED_MEDI_KIT: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
     listOrder: 444
