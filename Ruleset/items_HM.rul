@@ -470,11 +470,11 @@ items:
     weight: 1
     hitSound: 54
     hitAnimation: 108
-    power: 60
+    power: 90
     blastRadius: 0
     damageType: 6
     battleType: 2
-    clipSize: 18
+    clipSize: 24
     listOrder: 1085
 #END ALLOY DRONE TASER ITEM
 
