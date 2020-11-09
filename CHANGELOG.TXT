@@ -11,6 +11,10 @@ Version 0.99.8
  - Add Ufopaedia Graphics for PsiPanic Medal by Holomorph
  - Add Ufopaedia Graphics for Slavekills Medal by Holomorph
  - Add missing Commencations Licence file
+ - Add new Manufacture categories for Drones/Tanks/Personal Armor
+ - Add more possible upgrades for tanks
+ - Adjust Armored Sectopod Damage modifiers
+ - Adjust sizes of tanks and drones/ammo slightly
  - Adjust xcom score penalties
  - Adjust Terror Mission asignments
  - Adjust Taser Drones
@@ -19,6 +23,8 @@ Version 0.99.8
  - Adjust Heavy and Auto Cannon
  - Adjust blastradius for Smoke Ammo/Grenades
  - Adjust Terrormissionasignments and Mission Calls
+ - Fix Mod not loading under OpenXcomExtended (Missing Zombie corpse)
+ - Fix Drones getting stunned/zombified under OpenXcomExtended
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
  - Fix wrong asigned BigOb/FloorOb for Sailor
  - Fix requires for Support Drone Ufopaedia Article
