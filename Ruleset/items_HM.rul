@@ -27,7 +27,7 @@ items:
   - type: STR_DRONE_SMOKE_AMMO
     requires:
       - STR_SUPPORT_DRONES
-    size: 0.1
+    size: 0.05
     costBuy: 200
     costSell: 50
     transferTime: 48
@@ -241,7 +241,7 @@ items:
     requires:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
-    size: 0.1
+    size: 0.01
     costSell: 500
     weight: 1
     hitSound: 54
@@ -465,7 +465,7 @@ items:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
-    size: 0.1
+    size: 0.01
     costSell: 1000
     weight: 1
     hitSound: 54
@@ -489,7 +489,7 @@ items:
     damageType: 3
     listOrder: 1200
   - type: STR_TANK_CANNON_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4905
   - type: TANK_CANNON_CORPSE_1
@@ -533,7 +533,7 @@ items:
     listOrder: 1300
     droppoff: 4
   - type: STR_TANK_ROCKET_LAUNCHER_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4906
   - type: TANK_ROCKET_LAUNCHER_CORPSE_1
@@ -573,7 +573,7 @@ items:
 
 #BEGIN TANK LASER CANNON ITEM
   - type: STR_TANK_LASER_CANNON_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4907
     droppoff: 3
@@ -615,7 +615,7 @@ items:
 #BEGIN ALLOY TANK CANNON ITEM
   - type: STR_ALLOY_TANK_CANNON
     battleType: 1
-    size: 6
+    size: 4
     costSell: 580000
     transferTime: 96
     weight: 1
@@ -639,7 +639,7 @@ items:
     listOrder: 1501
     droppoff: 4
   - type: STR_ALLOY_TANK_CANNON_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4908
   - type: ALLOY_TANK_CANNON_CORPSE_1
@@ -680,7 +680,7 @@ items:
 #BEGIN ALLOY TANK ROCKET ITEM
   - type: STR_ALLOY_TANK_ROCKET_LAUNCHER
     battleType: 1
-    size: 6
+    size: 4
     costSell: 640000
     transferTime: 96
     weight: 1
@@ -705,7 +705,7 @@ items:
     listOrder: 1502
     droppoff: 4
   - type: STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4909
   - type: ALLOY_TANK_ROCKET_LAUNCHER_CORPSE_1
@@ -747,7 +747,7 @@ items:
   - type: STR_ALLOY_TANK_LASER_CANNON
     damageType: 4
     battleType: 1
-    size: 6
+    size: 4
     costSell: 694000
     transferTime: 96
     weight: 1
@@ -774,7 +774,7 @@ items:
     listOrder: 1503
     droppoff: 3
   - type: STR_ALLOY_TANK_LASER_CANNON_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4910
   - type: ALLOY_TANK_LASER_CANNON_CORPSE_1
@@ -816,7 +816,7 @@ items:
   - type: STR_HOVERTANK_LASER
     damageType: 4
     battleType: 1
-    size: 6
+    size: 4
     costSell: 900000
     transferTime: 96
     weight: 1
@@ -843,7 +843,7 @@ items:
     listOrder: 1599
     droppoff: 3
   - type: STR_HOVERTANK_LASER_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4911
   - type: HOVERTANK_LASER_CORPSE_1
@@ -884,7 +884,7 @@ items:
 #BEGIN HOVERTANK EBOMB ITEM
   - type: STR_HOVERTANK_EBOMB
     battleType: 1
-    size: 6
+    size: 4
     costSell: 900000
     transferTime: 96
     weight: 1
@@ -926,7 +926,7 @@ items:
     blastRadius: 5
     listOrder: 1504
   - type: STR_HOVERTANK_EBOMB_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4912
   - type: HOVERTANK_EBOMB_CORPSE_1
@@ -972,7 +972,7 @@ items:
     tuAuto: 45
     dropoff: 1
   - type: STR_HOVERTANK_PLASMA_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4913
   - type: HOVERTANK_PLASMA_CORPSE_1
@@ -1017,7 +1017,7 @@ items:
     waypoints: 9
     dropoff: 0
   - type: STR_HOVERTANK_LAUNCHER_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4914
   - type: HOVERTANK_LAUNCHER_CORPSE_1
@@ -1056,7 +1056,7 @@ items:
 
 #BEGIN WALKERTANK PLASMA ITEM
   - type: STR_WALKERTANK_PLASMA
-    size: 6
+    size: 4
     costSell: 1100000
     transferTime: 96
     weight: 1
@@ -1084,7 +1084,7 @@ items:
     listOrder: 1801
     dropoff: 2
   - type: STR_WALKERTANK_PLASMA_CORPSE
-    size: 6 
+    size: 4
     battleType: 11
     listOrder: 4915
   - type: WALKERTANK_PLASMA_CORPSE_1
