@@ -1667,7 +1667,7 @@ manufacture:
 ##BEGIN XCOM ARMOR MANUS
 #BEGIN ARMORED VEST MANU
   - name: STR_ARMORED_VEST_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_SOLDIER_ARMOR_REPAIR
     space: 12
@@ -1679,7 +1679,7 @@ manufacture:
       STR_ARMORED_VEST: 1
     listOrder: 2601
   - name: STR_UPGRADE_ARMORED_VEST_TO_ALLOY_VEST
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_ALLOY_VEST
     space: 12
@@ -1705,7 +1705,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 3
     listOrder: 2603
   - name: STR_ALLOY_VEST_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_ALLOY_VEST
       - STR_SOLDIER_ARMOR_REPAIR
@@ -1719,7 +1719,7 @@ manufacture:
       STR_ALLOY_VEST: 1
     listOrder: 2604
   - name: STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_PERSONAL_ARMOR
     space: 12
@@ -1745,7 +1745,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 6
     listOrder: 2700
   - name: STR_PERSONAL_ARMOR_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_PERSONAL_ARMOR
       - STR_SOLDIER_ARMOR_REPAIR
@@ -1759,7 +1759,7 @@ manufacture:
       STR_PERSONAL_ARMOR: 1
     listOrder: 2701
   - name: STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_POWER_SUIT
     space: 16
@@ -1773,7 +1773,7 @@ manufacture:
       STR_POWER_SUIT: 1
     listOrder: 2702
   - name: STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_FLYING_SUIT
     space: 16
@@ -1801,7 +1801,7 @@ manufacture:
       STR_ELERIUM_115: 8
     listOrder: 2800
   - name: STR_POWER_SUIT_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_POWER_SUIT
       - STR_SOLDIER_ARMOR_REPAIR
@@ -1816,7 +1816,7 @@ manufacture:
       STR_POWER_SUIT: 1
     listOrder: 2801
   - name: STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_FLYING_SUIT
     space: 16
@@ -1829,7 +1829,7 @@ manufacture:
       STR_FLYING_SUIT: 1
     listOrder: 2802
   - name: STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_REINFORCED_POWER_SUIT
     space: 20
@@ -1843,7 +1843,7 @@ manufacture:
       STR_REINFORCED_POWER_SUIT: 1
     listOrder: 2803
   - name: STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_REINFORCED_FLYING_SUIT
     space: 20
@@ -1871,7 +1871,7 @@ manufacture:
       STR_ELERIUM_115: 16
     listOrder: 2900
   - name: STR_FLYING_SUIT_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_FLYING_SUIT
       - STR_SOLDIER_ARMOR_REPAIR
@@ -1886,7 +1886,7 @@ manufacture:
       STR_FLYING_SUIT: 1
     listOrder: 2901
   - name: STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_POWER_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_REINFORCED_POWER_SUIT
     space: 20
@@ -1899,7 +1899,7 @@ manufacture:
       STR_REINFORCED_POWER_SUIT: 1
     listOrder: 2902
   - name: STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_FLYING_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_REINFORCED_FLYING_SUIT
     space: 20
@@ -1927,7 +1927,7 @@ manufacture:
       STR_ELERIUM_115: 16
     listOrder: 2904
   - name: STR_REINFORCED_POWER_SUIT_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_REINFORCED_POWER_SUIT
       - STR_SOLDIER_ARMOR_REPAIR
@@ -1942,7 +1942,7 @@ manufacture:
       STR_REINFORCED_POWER_SUIT: 1
     listOrder: 2905
   - name: STR_UPGRADE_REINFORCED_POWER_SUIT_TO_REINFORCED_FLYING_SUIT
-    category: STR_UPGRADE
+    category: STR_CAT_PERSONAL_ARMOR_UPGRADE
     requires:
       - STR_REINFORCED_FLYING_SUIT
     space: 20
@@ -1969,7 +1969,7 @@ manufacture:
       STR_ELERIUM_115: 24
     listOrder: 2907
   - name: STR_REINFORCED_FLYING_SUIT_REPAIR
-    category: STR_MAINTENANCE
+    category: STR_CAT_PERSONAL_ARMOR_REPAIR
     requires:
       - STR_REINFORCED_FLYING_SUIT
       - STR_SOLDIER_ARMOR_REPAIR
