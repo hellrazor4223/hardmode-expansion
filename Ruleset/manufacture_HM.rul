@@ -234,7 +234,7 @@ manufacture:
     category: STR_CAT_DRONE_UPGRADE
     requires:
       - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
+      - STR_ADVANCED_MEDI_KIT
       - STR_ALLOY_DRONE_ARMOR
     space: 10
     time: 450
@@ -634,7 +634,6 @@ manufacture:
     category: STR_CAT_DRONE_UPGRADE
     requires:
       - STR_SUPPORT_DRONES
-      - STR_MOTION_SCANNER
       - STR_ELERIUM_115
       - STR_ADVANCED_MEDI_KIT
       - STR_ALLOY_DRONE_ARMOR
@@ -999,7 +998,7 @@ manufacture:
       STR_ADVANCED_MEDI_KIT: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-      STR_ELERIUM_115: 4
+      STR_ELERIUM_115: 8
     listOrder: 454
 #END ALLOY DRONE TASER MANU
 
