@@ -23,6 +23,7 @@ Version 0.99.8
  - Adjust Heavy and Auto Cannon
  - Adjust blastradius for Smoke Ammo/Grenades
  - Adjust Terrormissionasignments and Mission Calls
+ - Adjust Alloy Drone energy recovery
  - Fix Mod not loading under OpenXcomExtended (Missing Zombie corpse)
  - Fix Drones getting stunned/zombified under OpenXcomExtended
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest

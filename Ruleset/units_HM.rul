@@ -126,7 +126,7 @@ units:
     value: 15
     deathSound: 23
     moveSound: 14
-    energyRecovery: 50
+    energyRecovery: 55
 #END ALLOY DRONE SCOUT UNIT
 
 #BEGIN ALLOY DRONE SCANNER UNIT
@@ -150,7 +150,7 @@ units:
     value: 15
     deathSound: 23
     moveSound: 14
-    energyRecovery: 50
+    energyRecovery: 55
     builtInWeapons:
       - STR_ALLOY_DRONE_SCANNER_WEAPON
 #END ALLOY DRONE SCANNER UNIT
@@ -176,7 +176,7 @@ units:
     value: 15
     deathSound: 23
     moveSound: 14
-    energyRecovery: 50
+    energyRecovery: 55
     builtInWeapons:
       - STR_ALLOY_DRONE_MEDIKIT_WEAPON
 #END ALLOY DRONE MEDIKIT UNIT
@@ -202,7 +202,7 @@ units:
     value: 15
     deathSound: 23
     moveSound: 14
-    energyRecovery: 50
+    energyRecovery: 55
     builtInWeapons:
       - STR_ALLOY_DRONE_TASER_WEAPON
       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
