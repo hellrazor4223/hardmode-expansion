@@ -1349,5 +1349,285 @@ units:
 ###END ALIENS UNITS
 
 ###BEGIN CIVILIAN UNITS
+##BEGIN MALE UNITS
+#BEGIN MALE CIV UNIT
+  - type: MALE_CIVILIAN
+    value: 30
+#END MALE CIV UNIT
+
+##BEGIN MALE CIV 2 UNIT
+  - type: MALE_CIVILIAN2 #Rocker
+    race: STR_CIVILIAN
+    stats: &CIVILIAN_STATS
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: MALE_CIVILIAN2_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 2 UNIT
+
+#BEGIN MALE CIV 3 UNIT
+  - type: MALE_CIVILIAN3 #BlackVestWhiteShirt
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN3_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 3 UNIT
+
+#BEGIN MALE CIV 4 UNIT
+  - type: MALE_CIVILIAN4 #ConstructionWorker
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN4_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 4 UNIT
+
+#BEGIN MALE CIV 5 UNIT
+  - type: MALE_CIVILIAN5 #Sailor
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN5_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 5 UNIT
+
+#BEGIN MALE CIV 6 UNIT
+  - type: MALE_CIVILIAN6 #Baggydude
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN6_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 6 UNIT
+
+#BEGIN MALE CIV 7 UNIT
+  - type: MALE_CIVILIAN7 #MechanicGrey
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN7_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 7 UNIT
+
+#BEGIN MALE CIV 8 UNIT
+  - type: MALE_CIVILIAN8 #Islandman
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN8_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 8 UNIT
+
+#BEGIN MALE CIV 9 UNIT
+  - type: MALE_CIVILIAN9 #Vestdude
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN9_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 9 UNIT
+
+#BEGIN MALE CIV 10 UNIT
+  - type: MALE_CIVILIAN10 #BusinessmanSuitcase
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN10_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 10 UNIT
+
+#BEGIN MALE CIV 11 UNIT
+  - type: MALE_CIVILIAN11 #Brownzipper
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN11_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+#END MALE CIV 11 UNIT
+##END MALE UNITS
+
+##BEGIN FEMALE UNITS
+#BEGIN FEMALE CIV UNIT
+  - type: FEMALE_CIVILIAN
+    value: 30
+#END FEMALE CIV UNIT
+
+#BEGIN FEMALE CIV 2 UNIT
+  - type: FEMALE_CIVILIAN2 #SuitBlack
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN2_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 2 UNIT
+
+#BEGIN FEMALE CIV 3 UNIT
+  - type: FEMALE_CIVILIAN3 #SuitBlue
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN3_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 3 UNIT
+
+#BEGIN FEMALE CIV 4 UNIT
+  - type: FEMALE_CIVILIAN4 #ZipperBrown
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN4_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 4 UNIT
+
+#BEGIN FEMALE CIV 5 UNIT
+  - type: FEMALE_CIVILIAN5 #BikiniBlue
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN5_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 5 UNIT
+
+#BEGIN FEMALE CIV 6 UNIT
+  - type: FEMALE_CIVILIAN6 #TopHotpants
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEM6LE_CIVILIAN6_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 6 UNIT
+
+#BEGIN FEMALE CIV 7 UNIT
+  - type: FEMALE_CIVILIAN7 #BathingsuitBrown
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN7_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 7 UNIT
+
+#BEGIN FEMALE CIV 8 UNIT
+  - type: FEMALE_CIVILIAN8 #TrainingsuitBlack
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN8_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 8 UNIT
+
+#BEGIN FEMALE CIV 9 UNIT
+  - type: FEMALE_CIVILIAN9 #HemdTrousers
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN9_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 9 UNIT
+
+#BEGIN FEMALE CIV 10 UNIT
+  - type: FEMALE_CIVILIAN10 #TrainingsuitGrey
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN10_ARMOR
+    deathSound: 45
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+#END FEMALE CIV 10 UNIT
+##END FEMALE UNITS
 ###END CIVILIAN UNITS
 ####END UNITS
