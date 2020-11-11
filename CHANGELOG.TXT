@@ -13,6 +13,7 @@ Version 0.99.8
  - Add missing Commencations Licence file
  - Add new Manufacture categories for Drones/Tanks/Personal Armor
  - Add more possible upgrades for tanks
+ - Add partial language support for french (FR)
  - Adjust Armored Sectopod Damage modifiers
  - Adjust sizes of tanks and drones/ammo slightly
  - Adjust xcom score penalties
