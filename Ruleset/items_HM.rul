@@ -3402,5 +3402,255 @@ items:
 ###END ALIEN ITEMS
 
 ###BEGIN CIVILIAN ITEMS
+##BEGIN MALE ITEMS
+#BEGIN MALE CIVILIAN 2 ITEM
+  - type: MALE_CIVILIAN2_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 142
+    floorSprite: 139
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9401
+#END MALE CIVILIAN 2 ITEM
+
+#BEGIN MALE CIVILIAN 3 ITEM
+  - type: MALE_CIVILIAN3_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 143
+    floorSprite: 140
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9402
+#END MALE CIVILIAN 3 ITEM
+
+#BEGIN MALE CIVILIAN 4 ITEM
+  - type: MALE_CIVILIAN4_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 144
+    floorSprite: 141
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9403
+#END MALE CIVILIAN 4 ITEM
+
+#BEGIN MALE CIVILIAN 5 ITEM
+  - type: MALE_CIVILIAN5_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 145
+    floorSprite: 142
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9404
+#END MALE CIVILIAN 5 ITEM
+
+#BEGIN MALE CIVILIAN 6 ITEM
+  - type: MALE_CIVILIAN6_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 146
+    floorSprite: 143
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9405
+#END MALE CIVILIAN 6 ITEM
+
+#BEGIN MALE CIVILIAN 7 ITEM
+  - type: MALE_CIVILIAN7_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 147
+    floorSprite: 144
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9406
+#END MALE CIVILIAN 7 ITEM
+
+#BEGIN MALE CIVILIAN 8 ITEM
+  - type: MALE_CIVILIAN8_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 181
+    floorSprite: 193
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9407
+#END MALE CIVILIAN 8 ITEM
+
+#BEGIN MALE CIVILIAN 9 ITEM
+  - type: MALE_CIVILIAN9_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 182
+    floorSprite: 194
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9408
+#END MALE CIVILIAN 9 ITEM
+
+#BEGIN MALE CIVILIAN 10 ITEM
+  - type: MALE_CIVILIAN10_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 183
+    floorSprite: 195
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9409
+#END MALE CIVILIAN 10 ITEM
+
+#BEGIN MALE CIVILIAN 11 ITEM
+  - type: MALE_CIVILIAN11_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 184
+    floorSprite: 196
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9100
+#END MALE CIVILIAN 11 ITEM
+##END MALE ITEMS
+
+##BEGIN FEMALE ITEMS
+#BEGIN FEMALE CIVILIAN 2 ITEM
+  - type: FEMALE_CIVILIAN2_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 148
+    floorSprite: 145
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9501
+#END FEMALE CIVILIAN 2 ITEM
+
+#BEGIN FEMALE CIVILIAN 3 ITEM
+  - type: FEMALE_CIVILIAN3_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 149
+    floorSprite: 146
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9502
+#END FEMALE CIVILIAN 3 ITEM
+
+#BEGIN FEMALE CIVILIAN 4 ITEM
+  - type: FEMALE_CIVILIAN4_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 185
+    floorSprite: 197
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9503
+#END FEMALE CIVILIAN 4 ITEM
+
+#BEGIN FEMALE CIVILIAN 5 ITEM
+  - type: FEMALE_CIVILIAN5_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 186
+    floorSprite: 198
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9504
+#END FEMALE CIVILIAN 5 ITEM
+
+#BEGIN FEMALE CIVILIAN 6 ITEM
+  - type: FEMALE_CIVILIAN6_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 187
+    floorSprite: 199
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9505
+#END FEMALE CIVILIAN 6 ITEM
+
+#BEGIN FEMALE CIVILIAN 7 ITEM
+  - type: FEMALE_CIVILIAN7_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 188
+    floorSprite: 200
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9506
+#END FEMALE CIVILIAN 7 ITEM
+
+#BEGIN FEMALE CIVILIAN 8 ITEM
+  - type: FEMALE_CIVILIAN8_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 189
+    floorSprite: 201
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9507
+#END FEMALE CIVILIAN 8 ITEM
+
+#BEGIN FEMALE CIVILIAN 9 ITEM
+  - type: FEMALE_CIVILIAN9_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 190
+    floorSprite: 202
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9508
+#END FEMALE CIVILIAN 9 ITEM
+
+#BEGIN FEMALE CIVILIAN 10 ITEM
+  - type: FEMALE_CIVILIAN10_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 191
+    floorSprite: 203
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9509
+#END FEMALE CIVILIAN 10 ITEM
+##END FEMALE ITEMS
 ###END CIVILIAN ITEMS
 ####END ITEMS
