@@ -1,7 +1,7 @@
 ###BEGIN EXTRASPRITES
 extraSprites:
 
-##BEGIN BIGOB
+##BEGIN BIGOBS
 #VANILLA OVERWRITES ID: 0 - 56
   - type: BIGOBS.PCK
     files:
@@ -94,6 +94,25 @@ extraSprites:
       135: Resources/Units/Alien/MutonElite/BigOb_MutonElite_Corpse.png
       136: Resources/Units/Alien/MutonEliteGuard/BigOb_MutonEliteGuard_Corpse.png
       164: Resources/Units/Alien/ChryssalidSpitter/BigOb_ChryssalidSpitter_Corpse.png
+      142: Resources/Units/Civilian/MaleCivilian2/BigOb_MaleCivilian2_Corpse.png
+      143: Resources/Units/Civilian/MaleCivilian3/BigOb_MaleCivilian3_Corpse.png
+      144: Resources/Units/Civilian/MaleCivilian4/BigOb_MaleCivilian4_Corpse.png
+      145: Resources/Units/Civilian/MaleCivilian5/BigOb_MaleCivilian5_Corpse.png
+      146: Resources/Units/Civilian/MaleCivilian6/BigOb_MaleCivilian6_Corpse.png
+      147: Resources/Units/Civilian/MaleCivilian7/BigOb_MaleCivilian7_Corpse.png
+      148: Resources/Units/Civilian/FemaleCivilian2/BigOb_FemaleCivilian2_Corpse.png
+      149: Resources/Units/Civilian/FemaleCivilian3/BigOb_FemaleCivilian3_Corpse.png
+      181: Resources/Units/Civilian/MaleCivilian8/BigOb_MaleCivilian8_Corpse.png
+      182: Resources/Units/Civilian/MaleCivilian9/BigOb_MaleCivilian9_Corpse.png
+      183: Resources/Units/Civilian/MaleCivilian10/BigOb_MaleCivilian10_Corpse.png
+      184: Resources/Units/Civilian/MaleCivilian11/BigOb_MaleCivilian11_Corpse.png
+      185: Resources/Units/Civilian/FemaleCivilian4/BigOb_FemaleCivilian4_Corpse.png
+      186: Resources/Units/Civilian/FemaleCivilian5/BigOb_FemaleCivilian5_Corpse.png
+      187: Resources/Units/Civilian/FemaleCivilian6/BigOb_FemaleCivilian6_Corpse.png
+      188: Resources/Units/Civilian/FemaleCivilian7/BigOb_FemaleCivilian7_Corpse.png
+      189: Resources/Units/Civilian/FemaleCivilian8/BigOb_FemaleCivilian8_Corpse.png
+      190: Resources/Units/Civilian/FemaleCivilian9/BigOb_FemaleCivilian9_Corpse.png
+      191: Resources/Units/Civilian/FemaleCivilian10/BigOb_FemaleCivilian10_Corpse.png
 #END UNIT BIGOBS
 ##END BIGOBS
 
@@ -198,6 +217,25 @@ extraSprites:
       160: Resources/Units/Alien/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_3.png
       161: Resources/Units/Alien/ArmoredSectopod/FloorOb_ArmoredSectopod_Corpse_4.png
       177: Resources/Units/Alien/ChryssalidSpitter/FloorOb_ChryssalidSpitter_Corpse.png
+      139: Resources/Units/Civilian/MaleCivilian2/FloorOb_MaleCivilian2_Corpse.png
+      140: Resources/Units/Civilian/MaleCivilian3/FloorOb_MaleCivilian3_Corpse.png
+      141: Resources/Units/Civilian/MaleCivilian4/FloorOb_MaleCivilian4_Corpse.png
+      142: Resources/Units/Civilian/MaleCivilian5/FloorOb_MaleCivilian5_Corpse.png
+      143: Resources/Units/Civilian/MaleCivilian6/FloorOb_MaleCivilian6_Corpse.png
+      144: Resources/Units/Civilian/MaleCivilian7/FloorOb_MaleCivilian7_Corpse.png
+      145: Resources/Units/Civilian/FemaleCivilian2/FloorOb_FemaleCivilian2_Corpse.png
+      146: Resources/Units/Civilian/FemaleCivilian3/FloorOb_FemaleCivilian3_Corpse.png
+      193: Resources/Units/Civilian/MaleCivilian8/FloorOb_MaleCivilian8_Corpse.png
+      194: Resources/Units/Civilian/MaleCivilian9/FloorOb_MaleCivilian9_Corpse.png
+      195: Resources/Units/Civilian/MaleCivilian10/FloorOb_MaleCivilian10_Corpse.png
+      196: Resources/Units/Civilian/MaleCivilian11/FloorOb_MaleCivilian11_Corpse.png
+      197: Resources/Units/Civilian/FemaleCivilian4/FloorOb_FemaleCivilian4_Corpse.png
+      198: Resources/Units/Civilian/FemaleCivilian5/FloorOb_FemaleCivilian5_Corpse.png
+      199: Resources/Units/Civilian/FemaleCivilian6/FloorOb_FemaleCivilian6_Corpse.png
+      200: Resources/Units/Civilian/FemaleCivilian7/FloorOb_FemaleCivilian7_Corpse.png
+      201: Resources/Units/Civilian/FemaleCivilian8/FloorOb_FemaleCivilian8_Corpse.png
+      202: Resources/Units/Civilian/FemaleCivilian9/FloorOb_FemaleCivilian9_Corpse.png
+      203: Resources/Units/Civilian/FemaleCivilian10/FloorOb_FemaleCivilian10_Corpse.png
 #END UNIT FLOOROB
 ##END FLOOROB
 
@@ -956,6 +994,145 @@ extraSprites:
 ##END ALIENS
 
 ##BEGIN CIVILIANS
+#BEGIN MALE CIVILIAN
+  - type: MALE_CIVILIAN2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian2/SpriteSheet_MaleCivilian2.png
+  - type: MALE_CIVILIAN3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian3/SpriteSheet_MaleCivilian3.png
+  - type: MALE_CIVILIAN4.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian4/SpriteSheet_MaleCivilian4.png
+  - type: MALE_CIVILIAN5.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian5/SpriteSheet_MaleCivilian5.png
+  - type: MALE_CIVILIAN6.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian6/SpriteSheet_MaleCivilian6.png
+  - type: MALE_CIVILIAN7.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian7/SpriteSheet_MaleCivilian7.png
+  - type: MALE_CIVILIAN8.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian8/SpriteSheet_MaleCivilian8.png
+  - type: MALE_CIVILIAN9.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian9/SpriteSheet_MaleCivilian9.png
+  - type: MALE_CIVILIAN10.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian10/SpriteSheet_MaleCivilian10.png
+  - type: MALE_CIVILIAN11.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/MaleCivilian11/SpriteSheet_MaleCivilian11.png
+#END MALE CIVILIAN
+
+
+#BEGIN FEMALE CIVILIAN
+  - type: FEMALE_CIVILIAN2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian2/SpriteSheet_FemaleCivilian2.png
+  - type: FEMALE_CIVILIAN3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian3/SpriteSheet_FemaleCivilian3.png
+  - type: FEMALE_CIVILIAN4.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian4/SpriteSheet_FemaleCivilian4.png
+  - type: FEMALE_CIVILIAN5.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian5/SpriteSheet_FemaleCivilian5.png
+  - type: FEMALE_CIVILIAN6.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian6/SpriteSheet_FemaleCivilian6.png
+  - type: FEMALE_CIVILIAN7.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian7/SpriteSheet_FemaleCivilian7.png
+  - type: FEMALE_CIVILIAN8.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian8/SpriteSheet_FemaleCivilian8.png
+  - type: FEMALE_CIVILIAN9.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian9/SpriteSheet_FemaleCivilian9.png
+  - type: FEMALE_CIVILIAN10.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/FemaleCivilian10/SpriteSheet_FemaleCivilian10.png
+#END FEMALE CIVILIAN
 ##END CIVILIANS
 
 ##BEGIN ARMOR INVENTORY PICS
