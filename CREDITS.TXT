@@ -27,6 +27,7 @@ Credits go to:
 		- For answering many of my questions
 		- For his awesome Terrainpack Mod
 		- For many of the World News Strings
+		- For a lot of Sprites Conversions for Civilians
 	SolariusScorch:
 		- For the AlloyVest
 		- For the Plasma Sniper Rifle
@@ -34,6 +35,7 @@ Credits go to:
 		- For the SolarsNewUFO's Mod (Which i took the freedom to bugfix and made loads of new map variants for)
 		- For AI routing for the Railyard UFO2000 terrain conversion, additional maps and tile images for Commercial UFO2000 terrain conversion.
 		- For contributing to the YetMoreUFOs Mod from which is took a lot of the initial UFO Maps
+		- For a lot of Sprites for Civilians
 	Dioxine:
 		- Fir disagreeing with me (Honestly!)
 		- For the Alloy Knife sprites

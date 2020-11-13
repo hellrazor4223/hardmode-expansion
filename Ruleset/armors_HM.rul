@@ -1317,7 +1317,6 @@ armors:
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    drawingRoutine: 4
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END MALE CIVILIAN 9 ARMOR
@@ -1336,7 +1335,6 @@ armors:
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    drawingRoutine: 4
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END MALE CIVILIAN 10 ARMOR
@@ -1355,7 +1353,6 @@ armors:
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
-    drawingRoutine: 4
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END MALE CIVILIAN 11 ARMOR
@@ -1439,6 +1436,7 @@ armors:
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    drawingRoutine: 4
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END FEMALE CIVILIAN 5 ARMOR

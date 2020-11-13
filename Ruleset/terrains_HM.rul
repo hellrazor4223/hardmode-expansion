@@ -390,7 +390,18 @@ terrains:
       - FRNITURE
     civilianTypes: &CIVILIANS_URBAN
       - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN10
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN4
+      - FEMALE_CIVILIAN8
+      - FEMALE_CIVILIAN9
+      - FEMALE_CIVILIAN10
     script: URBAN
     mapBlocks: &URBAN_MAPS
       - name: URBAN00 #0 #EW Street
@@ -455,7 +466,16 @@ terrains:
       - FRNITURE
     civilianTypes: &CIVILIANS_URBAN_SNOW
       - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN10
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN4
+      - FEMALE_CIVILIAN9
     script: URBAN
     mapBlocks: *URBAN_MAPS
 #END URBAN SNOW
@@ -1019,7 +1039,22 @@ terrains:
       - DAWNDECOR
     civilianTypes: &CIVILIANS_SUBURB
       - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN10
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN4
+      - FEMALE_CIVILIAN6
+      - FEMALE_CIVILIAN7
+      - FEMALE_CIVILIAN8
+      - FEMALE_CIVILIAN9
+      - FEMALE_CIVILIAN10
     script: DAWNURBANA
     mapBlocks:
       - name: DAWNURBAN00 #0 #
@@ -1466,7 +1501,20 @@ terrains:
       - URBITS
     civilianTypes: &CIVILIANS_INDUSTRIAL
       - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN4
+      - FEMALE_CIVILIAN8
+      - FEMALE_CIVILIAN9
     script: INDUSTRIALURBAN
     mapBlocks: &INDUSTRIAL_MAPS
       - name: INDUSTRIALURBAN00 #0 #
@@ -1645,7 +1693,23 @@ terrains:
       - SEAURBAN
     civilianTypes: &CIVILIANS_PORTINDUSTRIAL
       - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN5
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN4
+      - FEMALE_CIVILIAN4
+      - FEMALE_CIVILIAN8
+      - FEMALE_CIVILIAN9
     script: PORTTFTD
     mapBlocks:
       - name: PORTUFO00 #0 #
@@ -2236,7 +2300,24 @@ terrains:
     script: NATIVEURBAN
     civilianTypes: &CIVILIANS_EQUATORIAL
       - MALE_CIVILIAN
+      - MALE_CIVILIAN2
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN8
+      - MALE_CIVILIAN8
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN10
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN5
+      - FEMALE_CIVILIAN5
+      - FEMALE_CIVILIAN6
+      - FEMALE_CIVILIAN7
+      - FEMALE_CIVILIAN7
+      - FEMALE_CIVILIAN8
+      - FEMALE_CIVILIAN10
     mapBlocks: &NATIVE_MAPS
       - name: NATIVEURBAN00 #0 #
         width: 10
@@ -2455,7 +2536,15 @@ terrains:
       - AIRFIELDC
     civilianTypes: &CIVILIANS_MILITARYBASE
       - MALE_CIVILIAN
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN9
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN2
+      - FEMALE_CIVILIAN3
+      - FEMALE_CIVILIAN4
     script: AIRFIELD1
     mapBlocks: &AIRFIELD_MAPS
       - name: AIRFIELD00 #0 #
@@ -2593,9 +2682,15 @@ terrains:
       - CARGOSHIP2
       - CARGOSHIP3
       - CARGOSHIP4
-    civilianTypes:
+    civilianTypes: &CIVILIANS_CARGOSHIP
       - MALE_CIVILIAN
+      - MALE_CIVILIAN4
+      - MALE_CIVILIAN5
+      - MALE_CIVILIAN5
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN11
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN4
     script: CARGOSHIP
     mapBlocks:
       - name: CARGOSHIP00
@@ -2613,9 +2708,22 @@ terrains:
       - LINERSHIPC
       - LINERSHIPD
       - SEAURBAN
-    civilianTypes:
+    civilianTypes: &CIVILIANS_LINERSHIP
       - MALE_CIVILIAN
+      - MALE_CIVILIAN3
+      - MALE_CIVILIAN5
+      - MALE_CIVILIAN5
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN8
+      - MALE_CIVILIAN10
       - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN5
+      - FEMALE_CIVILIAN6
+      - FEMALE_CIVILIAN7
+      - FEMALE_CIVILIAN8
+      - FEMALE_CIVILIAN9
+      - FEMALE_CIVILIAN10
     script: LINERSHIP
     mapBlocks:
       - name: LINERSHIP00
