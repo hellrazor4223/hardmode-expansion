@@ -1563,7 +1563,7 @@ units:
   - type: FEMALE_CIVILIAN6 #TopHotpants
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
-    armor: FEM6LE_CIVILIAN6_ARMOR
+    armor: FEMALE_CIVILIAN6_ARMOR
     deathSound: 45
     standHeight: 21
     kneelHeight: 14
