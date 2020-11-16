@@ -1761,9 +1761,9 @@ alienDeployments:
     civilians: 24
     terrains:
       - URBAN
-      - MADURBAN
+      #      - MADURBAN
       - EXPANDED_TERROR
-      - EXPANDED_URBAN_MIX
+      #      - EXPANDED_URBAN_MIX
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -1788,10 +1788,13 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - URBAN_SNOW
-      - MADURBAN_SNOW
-      - EXPANDED_TERROR_SNOW
-      - EXPANDED_URBAN_MIX_SNOW
+#Extra Insert to have something asigned
+      - URBAN
+      - EXPANDED_TERROR
+      #      - URBAN_SNOW
+      #      - MADURBAN_SNOW
+      #      - EXPANDED_TERROR_SNOW
+      #      - EXPANDED_URBAN_MIX_SNOW
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -1816,16 +1819,19 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - EXPANDED_URBAN_MIX
-      - DAWNURBANA
-      - DAWNURBANA
-      - DAWNURBANB
-      - DAWNURBANB
+#Extra Insert to have something asigned
+      - URBAN
+      - EXPANDED_TERROR
+        #      - EXPANDED_URBAN_MIX
+        #      - DAWNURBANA
+        #      - DAWNURBANA
+        #      - DAWNURBANB
+        #      - DAWNURBANB
       - COMRCURBAN
       - COMRCURBAN
       - COMRCURBAN
-      - DOWNTOWNURBAN
-      - DOWNTOWNURBAN
+        #      - DOWNTOWNURBAN
+        #      - DOWNTOWNURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -1850,14 +1856,18 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - EXPANDED_URBAN_MIX
-      - PORTURBAN
-      - PORTINDUSTRIALURBAN
-      - RAILYARDURBAN
-      - RAILYARDURBAN
-      - INDUSTRIALURBAN
-      - INDUSTRIALURBAN
-      - INDUSTRIALURBAN
+#Extra Insert to have something asigned
+      - URBAN
+      - EXPANDED_TERROR
+      - COMRCURBAN
+        #      - EXPANDED_URBAN_MIX
+        #      - PORTURBAN
+        #      - PORTINDUSTRIALURBAN
+        #      - RAILYARDURBAN
+        #      - RAILYARDURBAN
+        #      - INDUSTRIALURBAN
+        #      - INDUSTRIALURBAN
+        #      - INDUSTRIALURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -1882,11 +1892,11 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - PORTURBAN
+      #      - PORTURBAN
       - PORTTFTD
-      - PORTINDUSTRIALURBAN
-      - PORTCARGOSHIP
-      - PORTLINERSHIP
+      #      - PORTINDUSTRIALURBAN
+      #      - PORTCARGOSHIP
+      #      - PORTLINERSHIP
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -1911,7 +1921,11 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - NATIVEURBAN
+#Extra Insert to have something asigned
+      - URBAN
+      - EXPANDED_TERROR
+      - COMRCURBAN
+        #      - NATIVEURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
