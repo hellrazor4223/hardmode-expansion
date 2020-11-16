@@ -1892,7 +1892,7 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      #      - PORTURBAN
+      - PORTURBAN
       - PORTTFTD
       #      - PORTINDUSTRIALURBAN
       #      - PORTCARGOSHIP
