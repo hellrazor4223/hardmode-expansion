@@ -1173,8 +1173,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN2_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1201,8 +1200,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN3_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1219,8 +1217,7 @@ armors:
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
     corpseBattle:
       - MALE_CIVILIAN4_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1237,8 +1234,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN5_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1255,8 +1251,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN6_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1273,8 +1268,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN7_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1292,8 +1286,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN8_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1311,8 +1304,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN9_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1329,8 +1321,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN10_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1347,8 +1338,7 @@ armors:
     allowInv: false
     corpseBattle:
       - MALE_CIVILIAN11_CORPSE
-    corpseGeo:
-      - STR_CIVM_CORPSE
+    corpseGeo: CIVM_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1376,8 +1366,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN2_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1394,8 +1383,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN3_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1412,8 +1400,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN4_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1430,8 +1417,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN5_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1449,8 +1435,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN6_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1467,8 +1452,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN7_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1485,8 +1469,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN8_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1503,8 +1486,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN9_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1521,8 +1503,7 @@ armors:
     allowInv: false
     corpseBattle:
       - FEMALE_CIVILIAN10_CORPSE
-    corpseGeo:
-      - STR_CIVF_CORPSE
+    corpseGeo: CIVF_CORPSE
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5

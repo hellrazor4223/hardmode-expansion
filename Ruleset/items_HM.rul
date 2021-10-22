@@ -69,6 +69,7 @@ items:
     weight: 40
     bigSprite: 171
     floorSprite: 181
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -106,6 +107,7 @@ items:
     weight: 40
     bigSprite: 172
     floorSprite: 182
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -157,6 +159,7 @@ items:
     weight: 40
     bigSprite: 173
     floorSprite: 183
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -212,6 +215,7 @@ items:
     weight: 40
     bigSprite: 174
     floorSprite: 184
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -281,6 +285,7 @@ items:
     weight: 40
     bigSprite: 175
     floorSprite: 185
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 60
@@ -320,6 +325,7 @@ items:
     weight: 40
     bigSprite: 176
     floorSprite: 186
+    battleType: 11
     invWidth: 2
     invHeight: 3
     recover: true
@@ -373,6 +379,7 @@ items:
     weight: 40
     bigSprite: 177
     floorSprite: 187
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -434,6 +441,7 @@ items:
     weight: 40
     bigSprite: 178
     floorSprite: 188
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -943,6 +951,7 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 11
+    recover: false
     armor: 100
     listOrder: 8702
   - type: HOVERTANK_EBOMB_CORPSE_3
@@ -1042,6 +1051,7 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 11
+    recover: false
     armor: 100
     listOrder: 8804
   - type: HOVERTANK_LAUNCHER_CORPSE_4
@@ -1109,6 +1119,7 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 11
+    recover: false
     armor: 100
     listOrder: 8805
   - type: WALKERTANK_PLASMA_CORPSE_4
@@ -1136,6 +1147,7 @@ items:
     floorSprite: 126
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 25
     recover: true
     listOrder: 4701
@@ -1156,6 +1168,7 @@ items:
     floorSprite: 127
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 35
     recover: true
     listOrder: 4702
@@ -1172,6 +1185,7 @@ items:
     floorSprite: 40
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 50
     recover: true
     listOrder: 4801
@@ -1188,6 +1202,7 @@ items:
     floorSprite: 41
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 60
     recover: true
     listOrder: 4901
@@ -1204,6 +1219,7 @@ items:
     floorSprite: 162
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 70
     recover: true
     listOrder: 4902
@@ -1222,6 +1238,7 @@ items:
     floorSprite: 164
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 80
     recover: true
     listOrder: 4903
@@ -1240,6 +1257,7 @@ items:
     floorSprite: 165
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 90
     recover: true
     listOrder: 4904
@@ -2826,6 +2844,7 @@ items:
 
 #BEGIN SPITTER ZOMBIE ITEM
   - type: STR_SPITTER_ZOMBIE_CORPSE
+    battleType: 11
 #END SPITTER ZOMBIE ITEM
 ##END ALIEN CORPSE ITEMS
 
@@ -3411,6 +3430,7 @@ items:
     floorSprite: 139
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9401
@@ -3425,6 +3445,7 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 12
+    battleType: 11
     recover: false
     listOrder: 9402
 #END MALE CIVILIAN 3 ITEM
@@ -3437,6 +3458,7 @@ items:
     floorSprite: 141
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9403
@@ -3450,6 +3472,7 @@ items:
     floorSprite: 142
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9404
@@ -3463,6 +3486,7 @@ items:
     floorSprite: 143
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9405
@@ -3476,6 +3500,7 @@ items:
     floorSprite: 144
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9406
@@ -3489,6 +3514,7 @@ items:
     floorSprite: 193
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9407
@@ -3502,6 +3528,7 @@ items:
     floorSprite: 194
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9408
@@ -3515,6 +3542,7 @@ items:
     floorSprite: 195
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9409
@@ -3528,6 +3556,7 @@ items:
     floorSprite: 196
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9100
@@ -3543,6 +3572,7 @@ items:
     floorSprite: 145
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9501
@@ -3556,6 +3586,7 @@ items:
     floorSprite: 146
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9502
@@ -3569,6 +3600,7 @@ items:
     floorSprite: 197
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9503
@@ -3582,6 +3614,7 @@ items:
     floorSprite: 198
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9504
@@ -3595,6 +3628,7 @@ items:
     floorSprite: 199
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9505
@@ -3608,6 +3642,7 @@ items:
     floorSprite: 200
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9506
@@ -3621,6 +3656,7 @@ items:
     floorSprite: 201
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9507
@@ -3634,6 +3670,7 @@ items:
     floorSprite: 202
     invWidth: 2
     invHeight: 3
+    battleType: 11
     armor: 12
     recover: false
     listOrder: 9508
@@ -3645,6 +3682,7 @@ items:
     weight: 30
     bigSprite: 191
     floorSprite: 203
+    battleType: 11
     invWidth: 2
     invHeight: 3
     armor: 12
