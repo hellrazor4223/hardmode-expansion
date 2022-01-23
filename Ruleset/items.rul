@@ -249,7 +249,7 @@ items:
     costSell: 500
     weight: 1
     hitSound: 54
-    hitAnimation: 108
+    hitAnimation: 110
     power: 30
     blastRadius: 0
     damageType: 6
@@ -477,7 +477,7 @@ items:
     costSell: 1000
     weight: 1
     hitSound: 54
-    hitAnimation: 108
+    hitAnimation: 110
     power: 90
     blastRadius: 0
     damageType: 6
@@ -2144,22 +2144,49 @@ items:
 
 #BEGIN PLASMA PISTOL ITEM
   - type: STR_PLASMA_PISTOL
+    compatibleAmmo:
+      - STR_PLASMA_PISTOL_CLIP
+      - STR_PLASMA_PISTOL_ELERIUM_CLIP
     armor: 50
     attraction: 10
     costSell: 42000
-    listOrder: 5000
     dropoff: 2
+    listOrder: 5000
   - type: STR_PLASMA_PISTOL_CLIP
     floorSprite: 189
     handSprite: 360
+    bulletSprite: 8
     armor: 30
     attraction: 10
     costSell: 2220
     listOrder: 5100
+  - type: STR_PLASMA_PISTOL_ELERIUM_CLIP
+    requires:
+      - STR_PLASMA_PISTOL_ELERIUM_CLIP
+    size: 0.1
+    costsell: 3350
+    weight: 3
+    bigSprite: 192
+    floorSprite: 204
+    handSprite: 632
+    bulletSprite: 25
+    hitsound: 19
+    hitanimation: 120
+    power: 72
+    damageType: 5
+    clipSize: 26
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    listOrder: 5101
 #END PLASMA PISTOL ITEM
 
 #BEGIN PLASMA RIFLE ITEM
   - type: STR_PLASMA_RIFLE
+    compatibleAmmo:
+      - STR_PLASMA_RIFLE_CLIP
+      - STR_PLASMA_RIFLE_ELERIUM_CLIP
     armor: 50
     attraction: 10
     costSell: 63250
@@ -2172,6 +2199,26 @@ items:
     attraction: 10
     costSell: 3145
     listOrder: 5300
+  - type: STR_PLASMA_RIFLE_ELERIUM_CLIP
+    requires:
+      - STR_PLASMA_RIFLE_ELERIUM_CLIP
+    size: 0.1
+    costsell: 4718
+    weight: 3
+    bigSprite: 193
+    floorSprite: 205
+    handSprite: 640
+    bulletSprite: 25
+    hitSound: 19
+    hitAnimation: 120
+    power: 100
+    damageType: 5
+    clipSize: 28
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    listOrder: 5301
 #END PLASMA RIFLE ITEM
 
 #BEGIN PLASMA SHOTGUN ITEM
@@ -2202,7 +2249,7 @@ items:
     recoveryPoints: 4
     armor: 50
     attraction: 10
-    listOrder: 5301
+    listOrder: 5302
     aimRange: 12
     snapRange: 9
     autoRange: 7
@@ -2227,7 +2274,7 @@ items:
     armor: 30
     attraction: 10
     shotgunPellets: 6
-    listOrder: 5302
+    listOrder: 5303
   - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     requires:
       - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -2237,9 +2284,9 @@ items:
     bigSprite: 122
     floorSprite: 117
     handSprite: 520
-    bulletSprite: 8
+    bulletSprite: 25
     hitSound: 19
-    hitAnimation: 56
+    hitAnimation: 130
     power: 100
     damageType: 5
     clipSize: 16
@@ -2248,7 +2295,7 @@ items:
     armor: 30
     attraction: 10
     shotgunPellets: 6
-    listOrder: 5303
+    listOrder: 5304
 #END PLASMA SHOTGUN ITEM
 
 #BEGIN PLASMA SNIPER RIFLE ITEM
@@ -2277,7 +2324,7 @@ items:
     recoveryPoints: 4
     armor: 50
     attraction: 10
-    listOrder: 5304
+    listOrder: 5305
     snapRange: 26
     minRange: 10
     dropoff: 2
@@ -2290,6 +2337,7 @@ items:
     bigSprite: 124
     floorSprite: 119
     handSprite: 456
+    bulletSprite: 8
     hitSound: 19
     hitAnimation: 46
     power: 110
@@ -2299,7 +2347,7 @@ items:
     recoveryPoints: 1
     armor: 30
     attraction: 10
-    listOrder: 5305
+    listOrder: 5306
   - type: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
     requires:
       - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
@@ -2309,8 +2357,9 @@ items:
     bigSprite: 156
     floorSprite: 153
     handSprite: 464
+    bulletSprite: 25
     hitSound: 19
-    hitAnimation: 56
+    hitAnimation: 130
     power: 130
     damageType: 5
     clipSize: 16
@@ -2318,15 +2367,19 @@ items:
     recoveryPoints: 1
     armor: 30
     attraction: 10
-    listOrder: 5306
+    listOrder: 5307
 #END PLASMA SNIPER RIFLE ITEM
 
 #BEGIN HEAVY PLASMA ITEM
   - type: STR_HEAVY_PLASMA
+    compatibleAmmo:
+      - STR_HEAVY_PLASMA_CLIP
+      - STR_HEAVY_PLASMA_ELERIUM_CLIP
     armor: 50
     attraction: 10
     costSell: 85800
     listOrder: 5400
+    dropoff: 2
   - type: STR_HEAVY_PLASMA_CLIP
     bigSprite: 180
     floorSprite: 191
@@ -2336,7 +2389,26 @@ items:
     hitAnimation: 56
     costSell: 4795
     listOrder: 5500
-    dropoff: 2
+  - type: STR_HEAVY_PLASMA_ELERIUM_CLIP
+    requires:
+      - STR_HEAVY_PLASMA_ELERIUM_CLIP
+    size: 0.1
+    costSell: 7192
+    weight: 3
+    bigSprite: 194
+    floorSprite: 206
+    handSprite: 648
+    bulletSprite: 25
+    hitSound: 19
+    hitAnimation: 130
+    power: 135
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    recoveryPoints: 1
+    armor: 30
+    attraction: 10
+    listOrder: 5501
 #END HEAVY PLASMA ITEM
 
 #BEGIN SMALL LAUNCHER ITEM

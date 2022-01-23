@@ -439,6 +439,12 @@ pl:
   STR_PLASMA_SWORD: "Miecz plazmowy"
   STR_PLASMA_SWORD_UFOPEDIA: "Ta śmiercionośna broń w formie miecza składa się z dużej klingi, która przy ostrej krawędzi ma mikron szerokości, emitera plazmy oraz elektromagnesu. Przy aktywacji gorąca plazma wypełnia pole elektromagnetyczne otaczające ostrze, nagrzewając je do punktu, w którym tytan płynie jak woda."
 
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+
   STR_PLASMA_SHOTGUN: ""
   STR_PLASMA_SHOTGUN_CLIP: ""
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: ""
@@ -1033,8 +1039,20 @@ pl:
   MALE_CIVILIAN5: "Cywil"
   MALE_CIVILIAN6: "Cywil"
   MALE_CIVILIAN7: "Cywil"
+  MALE_CIVILIAN8: "Cywil"
+  MALE_CIVILIAN9: "Cywil"
+  MALE_CIVILIAN10: "Cywil"
+  MALE_CIVILIAN11: "Cywil"
+  FEMALE_CIVILIAN: "Cywil"
   FEMALE_CIVILIAN2: "Cywil"
   FEMALE_CIVILIAN3: "Cywil"
+  FEMALE_CIVILIAN4: "Cywil"
+  FEMALE_CIVILIAN5: "Cywil"
+  FEMALE_CIVILIAN6: "Cywil"
+  FEMALE_CIVILIAN7: "Cywil"
+  FEMALE_CIVILIAN8: "Cywil"
+  FEMALE_CIVILIAN9: "Cywil"
+  FEMALE_CIVILIAN10: "Cywil"
 #END CIVLIAN NAMES
 
 #BEGIN NEW REGIONS

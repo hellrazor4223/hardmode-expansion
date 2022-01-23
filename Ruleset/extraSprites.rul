@@ -49,6 +49,8 @@ extraSprites:
       117: Resources/Items/Xcom/AdvancedMediKit/BigOb_AdvancedMediKit.png
       161: Resources/Items/Alien/PlasmaBlade/BigOb_PlasmaBlade.png
       162: Resources/Items/Alien/PlasmaSword/BigOb_PlasmaSword.png
+      192: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol_Elerium_Clip.png
+      193: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle_Elerium_Clip.png
       120: Resources/Items/Alien/PlasmaShotgun/BigOb_PlasmaShotgun.png
       121: Resources/Items/Alien/PlasmaShotgun/BigOb_PlasmaShotgun_Clip.png
       122: Resources/Items/Alien/PlasmaShotgun/BigOb_PlasmaShotgun_Elerium_Clip.png
@@ -56,6 +58,7 @@ extraSprites:
       124: Resources/Items/Alien/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Clip.png
       156: Resources/Items/Alien/PlasmaSniperRifle/BigOb_PlasmaSniperRifle_Elerium_Clip.png
       180: Resources/Items/Alien/HeavyPlasma/BigOb_HeavyPlasma_Clip.png
+      194: Resources/Items/Alien/HeavyPlasma/BigOb_HeavyPlasma_Elerium_Clip.png
       125: Resources/Items/Alien/SmallLauncher/BigOb_EleriumBomb.png
       165: Resources/Items/Alien/SmallLauncher/BigOb_FireBomb.png
       166: Resources/Items/Alien/SmallLauncher/BigOb_SmokeBomb.png
@@ -161,7 +164,9 @@ extraSprites:
       166: Resources/Items/Alien/PlasmaBlade/FloorOb_PlasmaBlade.png
       167: Resources/Items/Alien/PlasmaSword/FloorOb_PlasmaSword.png
       189: Resources/Items/Alien/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
+      204: Resources/Items/Alien/PlasmaPistol/FloorOb_PlasmaPistol_Elerium_Clip.png
       190: Resources/Items/Alien/PlasmaRifle/FloorOb_PlasmaRifle_Clip.png
+      205: Resources/Items/Alien/PlasmaRifle/FloorOb_PlasmaRifle_Elerium_Clip.png
       115: Resources/Items/Alien/PlasmaShotgun/FloorOb_PlasmaShotgun.png
       116: Resources/Items/Alien/PlasmaShotgun/FloorOb_PlasmaShotgun_Clip.png
       117: Resources/Items/Alien/PlasmaShotgun/FloorOb_PlasmaShotgun_Elerium_Clip.png
@@ -169,6 +174,7 @@ extraSprites:
       119: Resources/Items/Alien/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Clip.png
       153: Resources/Items/Alien/PlasmaSniperRifle/FloorOb_PlasmaSniperRifle_Elerium_Clip.png
       191: Resources/Items/Alien/HeavyPlasma/FloorOb_HeavyPlasma_Clip.png
+      206: Resources/Items/Alien/HeavyPlasma/FloorOb_HeavyPlasma_Elerium_Clip.png
       120: Resources/Items/Alien/SmallLauncher/FloorOb_EleriumBomb.png
       178: Resources/Items/Alien/SmallLauncher/FloorOb_FireBomb.png
       179: Resources/Items/Alien/SmallLauncher/FloorOb_SmokeBomb.png
@@ -318,6 +324,9 @@ extraSprites:
       392: Resources/Items/Alien/AlienGrenade/HandOb_AlienGrenade.png
       408: Resources/Items/Alien/MindProbe/HandOb_MindProbe.png
       400: Resources/Items/Alien/Elerium/HandOb_Elerium.png
+      632: Resources/Items/Alien/PlasmaPistol/HandOb_PlasmaPistol_Elerium_Clip.png
+      640: Resources/Items/Alien/PlasmaRifle/HandOb_PlasmaRifle_Elerium_Clip.png
+      648: Resources/Items/Alien/HeavyPlasma/HandOb_HeavyPlasma_Elerium_Clip.png
 #END ITEM HANDOB
 ##END HANDOB
 
@@ -380,14 +389,21 @@ extraSprites:
     subY: 3
     files:
       805: Resources/Items/Xcom/SniperRifle/BulletSprite_SniperRifle_AA.png
-  - type: Projectiles#24
+  - type: Projectiles
     width: 65
     height: 6
     subX: 3
     subY: 3
     files:
       840: Resources/Units/Xcom/Drones/BulletSprite_DroneTaser.png
-##END PROJECTILES
+  - type: Projectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      875: Resources/Items/BulletSprite_PlasmaElerium.png
+##END PROJECTILES 25
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
 #BEGIN HIT
@@ -432,7 +448,15 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      108: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
+      110: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
+  - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      120: Resources/Items/HitAnimation_PlasmaElerium.png
+      130: Resources/Items/HitAnimation_PlasmaNewElerium.png
 #END SMOKE
 
 #BEGIN X1

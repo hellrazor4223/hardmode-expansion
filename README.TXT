@@ -337,6 +337,7 @@ Partially Supported Languages (50%+):
 	German		DE (de)
 	Hungarien	HU (hu)
 	Czech		CS (cs)
+	Korean		KO (ko)
 
 Future planned additions:
 	More translations

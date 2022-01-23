@@ -1,4 +1,4 @@
-en-GB:
+en-US:
 #BEGIN GENERAL
   STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.8 by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "BRIEFINGS AND NEWS"
@@ -438,6 +438,12 @@ en-GB:
   STR_PLASMA_BLADE_UFOPEDIA: "This device, essentially an alien combat knife, features a blade sharpened to a monomolecular edge. A magnetic envelope engulfs this blade in a plasma field, giving it the ability to rip through the heat-resistant ceramic inserts in modern body armour."
   STR_PLASMA_SWORD: "Plasma Sword"
   STR_PLASMA_SWORD_UFOPEDIA: "This lethal implement of sword combines a large blade, a micron thick at the edge, a plasma emitter, and an electromagnet. When activated, hot plasma floods the EM field surrounding the blade, superheating it to the point where its touch would make titanium run like water."
+
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: "Plasma Pistol Elerium Clip"
+
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: "Plasma Rifle Elerium Clip"
+
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: "Heavy Plasma Elerium Clip"
 
   STR_PLASMA_SHOTGUN: "Plasma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plasma Shotgun Shells"

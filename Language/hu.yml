@@ -439,6 +439,12 @@ hu:
   STR_PLASMA_SWORD: "Plazma Kard"
   STR_PLASMA_SWORD_UFOPEDIA: "Ez halálos kard ötvöz egy nagy pengét, egy mikron vastagságú élt, egy plazma emittert, és elektromágnest.  Amikor aktiválódik a forró plazma elárasztja a mágneses mező körül a pengét, és szupermagas hőmérsékletűre hevíti azt ami megérinti. Egy titán lemezen úgy megy át mintha csak víz lenne."
 
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+
   STR_PLASMA_SHOTGUN: "Plazma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plazma Shotgun Lőszer"
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: ""
@@ -678,7 +684,7 @@ hu:
 #BEGIN COMMENDATIONS
   STR_MEDAL_ALIENS_KILLED: "Érdem Csillag"
   STR_MEDAL_ALIENS_KILLED_DESCRIPTION: "Az a katona kapja aki sok idegent ölt meg."
-  STR_MEDAL_ALIENS_KILLED_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_UFOPEDIA: "'We may demonstrate to the enemy the unacceptable cost of his struggle by:{NEWLINE}  invading his territory;{NEWLINE}  conducting operations to increase his suffering;{NEWLINE}  or by wearing down the enemy.    {NEWLINE}  --Clauswitz'   {NEWLINE} {NEWLINE} This award is given to a soldier who has proven their lethality and killed many aliens.{NEWLINE} {NEWLINE}  Eligibility for the award starts at 10 kills. Additional awards are issued for every 10 kills after that."
 
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY: "Inferno Csillag"
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_DESCRIPTION: "Az a katona kapja aki gyújtófegyverekkel végzett az idegenekkel."
@@ -1033,8 +1039,20 @@ hu:
   MALE_CIVILIAN5: "Civil"
   MALE_CIVILIAN6: "Civil"
   MALE_CIVILIAN7: "Civil"
+  MALE_CIVILIAN8: "Civil"
+  MALE_CIVILIAN9: "Civil"
+  MALE_CIVILIAN10: "Civil"
+  MALE_CIVILIAN11: "Civil"
+  FEMALE_CIVILIAN: "Civil"
   FEMALE_CIVILIAN2: "Civil"
   FEMALE_CIVILIAN3: "Civil"
+  FEMALE_CIVILIAN4: "Civil"
+  FEMALE_CIVILIAN5: "Civil"
+  FEMALE_CIVILIAN6: "Civil"
+  FEMALE_CIVILIAN7: "Civil"
+  FEMALE_CIVILIAN8: "Civil"
+  FEMALE_CIVILIAN9: "Civil"
+  FEMALE_CIVILIAN10: "Civil"
 #END CIVLIAN NAMES
 
 #BEGIN NEW REGIONS

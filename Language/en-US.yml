@@ -439,6 +439,12 @@ en-US:
   STR_PLASMA_SWORD: "Plasma Sword"
   STR_PLASMA_SWORD_UFOPEDIA: "This lethal implement of sword combines a large blade, a micron thick at the edge, a plasma emitter, and an electromagnet. When activated, hot plasma floods the EM field surrounding the blade, superheating it to the point where its touch would make titanium run like water."
 
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: "Plasma Pistol Elerium Clip"
+
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: "Plasma Rifle Elerium Clip"
+
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: "Heavy Plasma Elerium Clip"
+
   STR_PLASMA_SHOTGUN: "Plasma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plasma Shotgun Shells"
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: "Plasma Shotgun Elerium Shells"

@@ -439,6 +439,12 @@ it:
   STR_PLASMA_SWORD: "Spada al Plasma"
   STR_PLASMA_SWORD_UFOPEDIA: "Questo attrezzo letale è una spada che combina grande lama di spessore un micron sul bordo, un emettitore di plasma e un elettromagnete. Quando attivato, il plasma caldo inonda il campo EM che circonda la lama, surriscaldandolo al punto in cui il suo tocco farebbe sciogliere il titanio come acqua."
 
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+
   STR_PLASMA_SHOTGUN: "Fucile da Caccia al Plasma"
   STR_PLASMA_SHOTGUN_CLIP: "Bossoli Fucile da Caccia al Plasma"
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: "Bossoli Elerium Fucile da Caccia al Plasma"
@@ -678,7 +684,7 @@ it:
 #BEGIN COMMENDATIONS
   STR_MEDAL_ALIENS_KILLED: "Stella al Merito"
   STR_MEDAL_ALIENS_KILLED_DESCRIPTION: "Data ad un soldato che ha ucciso molti alieni."
-  STR_MEDAL_ALIENS_KILLED_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_UFOPEDIA: "'Potremmo dimostrare al nemico il costo inaccettabile della sua lotta:{NEWLINE}  invadendo il suo territorio;{NEWLINE}   conducendo operazioni per aumentare la sua sofferenza;{NEWLINE}   o sfiancando il nemico.{NEWLINE}   --Clauswitz' {NEWLINE}{NEWLINE} Questo premio viene assegnato a un soldato che ha dimostrato la sua letalità e ucciso molti alieni.{NEWLINE}{NEWLINE}L'idoneità per il premio inizia a 10 uccisioni. Successivamente vengono emessi ulteriori premi per ogni 10 uccisioni."
 
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY: "Stella dell'Inferno"
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_DESCRIPTION: "Data ad un soldato che ha usato armi incendiarie per uccidere degli alieni."
@@ -686,15 +692,15 @@ it:
 
   STR_MEDAL_ALIENS_KILLED_BY_RACE: "Medaglia del Xenocidio di Razza Aliena"
   STR_MEDAL_ALIENS_KILLED_BY_RACE_DESCRIPTION: "Data ad un soldato che ha combattuto con successo la minaccia dei {0}"
-  STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: "'Se ti trovi in una lotta leale, non hai pianificato correttamente la tua missione.'{NEWLINE} -- (David Hackworth) {NEWLINE}{NEWLINE} Dato a un soldato che è diventato una macchina letale nel ridurre una specifica razza aliena. Questa razza ha subito tali depredazioni da questo eroe X-Com, tanto da aggiudicarsi il nome di Xenocida.{NEWLINE}{NEWLINE} I livelli premio sono 10, 20 e 30 Uccisioni di una determinata razza."
 
   STR_MEDAL_ALIENS_KNOCKED_OUT: "L'Ordine del Contenimento"
   STR_MEDAL_ALIENS_KNOCKED_OUT_DESCRIPTION: "Data ad un soldato che ha usato una forza non letale per abbattere vari nemici."
-  STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA: "'Ci sarà una ricompensa sostanziale per colui che trova il Millennium Falcon. Sei libero di usare tutti i metodi necessari, ma li voglio vivi. Nessuna disintegrazione.' -Darth Vader {NEWLINE}{NEWLINE} Presentato in riconoscimento di un soldato che ha imparato l'arte di catturare gli extraterrestri. Gli esemplari vivi possono essere incredibilmente importanti nella nostra comprensione della minaccia che affrontiamo.{NEWLINE}{NEWLINE} Il premio è emesso a 4, 8, 12 e 16 prigionieri."
 
   STR_MEDAL_ALIEN_BASE_ASSAULT: "Croce Terrestre"
   STR_MEDAL_ALIEN_BASE_ASSAULT_DESCRIPTION: "Data ad un soldato che ha fatto parte di un incursione ad una base aliena che ha avuto successo."
-  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: ""
+  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: "'Posiziona la tua armata in un pericolo mortale, ed essa soppravviverà; immergila in un stretto disperato, ed essa tornerà in sicurezza. - Sun Tzu' {NEWLINE}{NEWLINE} Ogni attacco ad una base nemica è un passo avanti verso la vittoria. Distruggere il nemico ai loro nodi di potere ci garantisce un progresso verso la supremazia suprema. {NEWLINE}[NEWLINE} Questo encomio viene presentato ai soldati che partecipano ad un assalto ad una base aliena. Questa può essere assegnata tre volte."
 
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES: "Ordine del Martello"
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_DESCRIPTION: "Data ad un soldato che ha ucciso soldati alieni di tutti i tipi."
@@ -702,7 +708,7 @@ it:
 
   STR_MEDAL_ALLBATTLETYPES: "Medaglia Armis Potens"
   STR_MEDAL_ALLBATTLETYPES_DESCRIPTION: "Dato ad un soldato che ha dimostrato abilità letali con qualsiasi tipo di armi"
-  STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: ""
+  STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: "\"Potente con Armi\" è il significato di Armis Potens. Un soldato di fanteria è addestrato a combattere con molti diversi tipi di armi per sconfiggere il nemico.{NEWLINE}{NEWLINE} Il premio riconosce la stessa agilità e letalità dimostrata da questi versatili guerrieri. {NEWLINE}{NEWLINE} Questo premio viene rilasciato a qualsiasi soldato che elimina il nemico con ogni tipo di arma. Questi includono armi da fuoco, corpo a corpo, granate e granate di prossimità. Ci sono quattro livelli di premio per 3, 6, 9 e 12 uccisioni."
   STR_MEDAL_ALLMISSIONS: "Medaglia Ritorno dall'Inferno"
   STR_MEDAL_ALLMISSIONS_DESCRIPTION: "Dato ad un soldato che ha partecipato a qualsiasi tipo di missione"
   STR_MEDAL_ALLMISSIONS_UFOPEDIA: ""
@@ -713,7 +719,7 @@ it:
 
   STR_MEDAL_ALLUFOS: "Distintivo TECHINT"
   STR_MEDAL_ALLUFOS_DESCRIPTION: "Dato ad un soldato che ha partecipato in missioni che hanno coinvolto qualsiasi tipo di UFO."
-  STR_MEDAL_ALLUFOS_UFOPEDIA: ""
+  STR_MEDAL_ALLUFOS_UFOPEDIA: "TECHINT, o Intelligenza Tecnica, implica l'acquisizione di conoscenze sulle capacità nemiche attraverso lo sfruttamento delle attrezzature catturate.{NEWLINE}{NEWLINE} XCOM acquisisce conoscenza e materiale da ogni UFO recuperato. {NEWLINE}{NEWLINE} I soldati coinvolti in missioni con ogni tipo di UFO riceveranno questo premio. Questo premio viene rilasciato una volta."
 
   STR_MEDAL_ANTITERROR: "Medaglia Erculea"
   STR_MEDAL_ANTITERROR_DESCRIPTION: "Data ad un soldato che ha ucciso tutti i tipi di armi del terrore."
@@ -733,15 +739,15 @@ it:
 
   STR_MEDAL_BRAVERYGAIN: "Legione del Valore"
   STR_MEDAL_BRAVERYGAIN_DESCRIPTION: "Data ad un soldato che è un esempio di coraggio."
-  STR_MEDAL_BRAVERYGAIN_UFOPEDIA: ""
+  STR_MEDAL_BRAVERYGAIN_UFOPEDIA: "'Ho imparato che il coraggio non era l'assenza di paura, ma il trionfo su di essa. L'uomo coraggioso non è colui che non ha paura, ma colui che conquista quella paura.' - Nelson Mandela {NEWLINE}{NEWLINE} Questo soldato è stato in situazioni intense e ha affrontato la paura in faccia! {NEWLINE}{NEWLINE} Questo premio viene assegnato per ogni aumento di 10 punti del coraggio di un soldato. Questo premio ha tre livelli."
 
   STR_MEDAL_DAYS_WOUNDED: "Cuore Cremisi"
   STR_MEDAL_DAYS_WOUNDED_DESCRIPTION: "Data ad un soldato che è rimasto ferito per un lungo periodo di tempo."
-  STR_MEDAL_DAYS_WOUNDED_UFOPEDIA: ""
+  STR_MEDAL_DAYS_WOUNDED_UFOPEDIA: "L'intenso sacrificio del guerriero ferito è onorato da questo premio. Veramente un \"Distintivo Rosso Al Coraggio\", questa medaglia onora il soldato gravemente ferito.{NEWLINE}{NEWLINE}Questo premio si basa sul numero cumulativo di giorni feriti e viene assegnato per ogni 30 giorni di recupero fino a 300 giorni."
 
   STR_MEDAL_DOUBLEKILL: "Citazione per le Prestazioni"
   STR_MEDAL_DOUBLEKILL_DESCRIPTION: "Data ad un soldato che ha agito mirabilmente sul campo di battaglia, uccidendo più di una minaccia ostile in breve successione."
-  STR_MEDAL_DOUBLEKILL_UFOPEDIA: ""
+  STR_MEDAL_DOUBLEKILL_UFOPEDIA: "'Un soldato nemico non è mai abbastanza, ma due sono troppi.' {NEWLINE} - Le Leggi di Murphy sul Combattimento' {NEWLINE}{NEWLINE} Questa citazione riconosce i soldati che eliminano due bersagli in rapida successione. Più velocemente eliminiamo il nemico, più velocemente torniamo a casa. {NEWLINE}{NEWLINE} Esistono quattro livelli di premio per questi tiratori veloci."
 
   STR_MEDAL_FALLEN: "L'Ordine dei Caduti"
   STR_MEDAL_FALLEN_DESCRIPTION: "Data ad un soldato per onorare la sua morte ed il suo impegno nella difesa della Terra."
@@ -757,7 +763,7 @@ it:
 
   STR_MEDAL_GRENADIER: "Medaglia dei Granatieri"
   STR_MEDAL_GRENADIER_DESCRIPTION: "Data ad un soldato che ha lanciato un esplosivo uccidendo 3 alieni in una volta."
-  STR_MEDAL_GRENADIER_UFOPEDIA: ""
+  STR_MEDAL_GRENADIER_UFOPEDIA: "'Le micce di cinque secondi bruciano sempre tre secondi. {NEWLINE} - La Legge di Murphy sul Combattimento' {NEWLINE}{NEWLINE} Questo encomio è presentato ai soldati che hanno sfruttato al massimo le loro granate X-Com! Oltre a una medaglia di competenza standard, riconosce la capacità di uccidere più nemici con una granata standard. {NEWLINE}{NEWLINE} Vengono assegnati quattro livelli di premio per aver ucciso tre nemici contemporaneamente con la bomba a mano standard e la granata di prossimità."
 
   STR_MEDAL_HEADSHOT: "L'Ordine di Davide"
   STR_MEDAL_HEADSHOT_DESCRIPTION: "Data ad un soldato che con mano ferma ha inflitto più colpi alla testa."
@@ -1033,8 +1039,20 @@ it:
   MALE_CIVILIAN5: "Civile"
   MALE_CIVILIAN6: "Civile"
   MALE_CIVILIAN7: "Civile"
+  MALE_CIVILIAN8: "Civile"
+  MALE_CIVILIAN9: "Civile"
+  MALE_CIVILIAN10: "Civile"
+  MALE_CIVILIAN11: "Civile"
+  FEMALE_CIVILIAN: "Civile"
   FEMALE_CIVILIAN2: "Civile"
   FEMALE_CIVILIAN3: "Civile"
+  FEMALE_CIVILIAN4: "Civile"
+  FEMALE_CIVILIAN5: "Civile"
+  FEMALE_CIVILIAN6: "Civile"
+  FEMALE_CIVILIAN7: "Civile"
+  FEMALE_CIVILIAN8: "Civile"
+  FEMALE_CIVILIAN9: "Civile"
+  FEMALE_CIVILIAN10: "Civile"
 #END CIVLIAN NAMES
 
 #BEGIN NEW REGIONS

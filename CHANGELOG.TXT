@@ -1,8 +1,9 @@
 Changelog:
 
 Version 0.99.8
+ - Add EleriumClips for Aliens
+ - Add more Civilians
  - Add Chryssalid Spitter Zombie
- - Add Downtown Terrain from Terrain Pack 4.3
  - Add Terrain Pack 4.3 Licence file
  - Add Ufopaedia Graphics for Globetrotter Medal by Holomorph
  - Add Ufopaedia Graphics for Martyr Medal by Holomorph

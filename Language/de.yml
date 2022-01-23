@@ -1,21 +1,21 @@
 de:
 #BEGIN GENERAL
-  STR_OPENXCOM: ""
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.8 by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "ANWEISUNGEN UND NEUIGKEITEN"
-  STR_HEAVY_WEAPONS_PLATFORMS: ""
-  STR_WEAPONS_AND_EQUIPMENT: ""
-  STR_ALIEN_ARTIFACTS: ""
-  STR_BASE_FACILITIES: ""
-  STR_ALIEN_LIFE_FORMS: ""
-  STR_ALIEN_RESEARCH_UC: ""
-  STR_UFO_COMPONENTS: ""
-  STR_UFOS: ""
+  STR_HEAVY_WEAPONS_PLATFORMS: "BASISEINRICHTUNGEN"
+  STR_WEAPONS_AND_EQUIPMENT: "XCOM-SCHIFFE & BORDWAFFEN"
+  STR_ALIEN_ARTIFACTS: "SCHWERE WAFFEN-PLATTFORMEN"
+  STR_BASE_FACILITIES: "WAFFEN UND AUSRÜSTUNG"
+  STR_ALIEN_LIFE_FORMS: "ALIENARTEFAKTE"
+  STR_ALIEN_RESEARCH_UC: "ALIENLEBENSFORMEN"
+  STR_UFO_COMPONENTS: "ALIENFORSCHUNG"
+  STR_UFOS: "UFOS & KOMPONENTEN"
   STR_CAT_DRONE: "Unterstützungsdrohnen"
-  STR_CAT_DRONE_UPGRADE: ""
-  STR_CAT_DRONE_REPAIR: ""
-  STR_CAT_TANK_UPGRADE: ""
-  STR_CAT_TANK_REPAIR: ""
-  STR_CAT_PERSONAL_ARMOR_UPGRADE: ""
+  STR_CAT_DRONE_UPGRADE: "Unterstützungsdrohnen aufrüsten"
+  STR_CAT_DRONE_REPAIR: "Unterstützungsdrohnen reparieren"
+  STR_CAT_TANK_UPGRADE: "SWTs modernisieren"
+  STR_CAT_TANK_REPAIR: "SWTs reparieren"
+  STR_CAT_PERSONAL_ARMOR_UPGRADE: "Persönliche Rüstung aufrüsten"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "Persönliche Rüstung reparieren"
 #END GENERAL
 
@@ -32,19 +32,19 @@ de:
   STR_SOLDIER_ARMOR_REPAIR: "Soldatenrüstungs-Reparatur"
   STR_SOLDIER_ARMOR_REPAIR_UFOPEDIA: "Da unser Budget knapp bemessen ist, ist es unabdinglich, alle Rüstungen für unsere Soldaten perfekt instandzuhalten. Anweisungen sind ergangen, wie Rüstungen reparieren zu sind, insofern die Leichen der armen Gefallenen geborgen wurden."
 
-  STR_TANK_REPAIR: ""
+  STR_TANK_REPAIR: "SWT-Reparatur"
   STR_TANK_REPAIR_UFOPEDIA: ""
 
   STR_SUPPORT_DRONES: "Unterstützungsdrohnen"
-  STR_SUPPORT_DRONES_UFOPEDIA: ""
+  STR_SUPPORT_DRONES_UFOPEDIA: "Verglichen mit unseren ersten Designs der schweren Waffenplattformen, streben diese kleinen Roboter auf dem Schlachtfeld nach einem anderen Ziel. Aufklärung und indirekte Truppentransport. Sie haben ein schlankes Design und umfangreiche Panzerung, für ihre Grösse. Informationssammlung auf dem Schlachtfeld wird die Kampffähigkeiten unserer Truppen stark verbessern und uns helfen, die Verluste zu verringern. Unsere Ingenieure glauben auch, dass wir sie mit Scannern oder medizinischer Ausrüstung ausstatten können."
 
   STR_EXPLOSIVE_AMMO: "Explosivmunition"
-  STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
+  STR_EXPLOSIVE_AMMO_UFOPEDIA: "Unsere fortschrittlichen Infanteriewaffen, die schwere Kanone und die Autokanone können jetzt explosive Munition verschiessen, die HE-Schaden macht. Wir haben unserem Hauptwaffenhändler die Pläne und Schemata gegeben, um diese Munition herzustellen."
 
   STR_ALLOY_AMMO: "Ausserirdische Legierungsmunition"
   STR_ALLOY_AMMO_UFOPEDIA: "Mit dem erlangten Wissen wie die ultra-starken aber dennoch leichten außerirdischen Legierungen zu bearbeiten, können wir Kugeln aus dieser Legierung herstellen. Sie können eine wesentlich höhere Mündungsgeschwindigkeit überstehen, ohne dass sie sich in der Luft auflösen. Die Hülsen sind aus außerirdischen Legierungen sind ebenfalls leichter und stabiler als es früher möglich war."
 
-  STR_ALLOY_AIRFRAME: ""
+  STR_ALLOY_AIRFRAME: "Alien-Legierungs-Aussenhaut"
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
 
   STR_ALLOY_TANK_ARMOR: ""
@@ -65,10 +65,10 @@ de:
   STR_NEWS_1_UFOPEDIA: "* Drei Tote in afrikanischen Dorf nach Einsatz einer 'Energiewaffe' gegen Haus {NEWLINE}* Flut ungeklärter Vermisstenmeldungen hält Kapstadt in Atem{NEWLINE}* Junger Mann in Berlin, Deutschland, berichtet von Kontakt mit überlegenen Außerirdischen, die ihm rieten, sich auf eine kommende Große Säuberung vorzubereiten.{NEWLINE}* Weltweite Mediennetzwerke jagen begehrten Aufnahmen lebender Außerirdischer hinterher {NEWLINE}* Menschenmassen sammeln sich nahe Tijuana um seltsame Lichter bei erratischen Bewegungen über der Stadt zu beobachten.{NEWLINE}* Selbsternannter Entführter behauptet von schwebenden rosa Humanoiden in Umhängen gefangen genommen worden zu sein."
 
   STR_NEWS_2: "Nachrichten aus Aller Welt"
-  STR_NEWS_2_UFOPEDIA: ""
+  STR_NEWS_2_UFOPEDIA: "* Lokale Medienportale beschwerten sich über die steigende Zensur der Regierungsaktivitäten in Russland.{NEWLINE}* Politische und ideologische Gruppen beschuldigen sich gegenseitig wegen der Feindseligkeit der Aliens.{NEWLINE}* Nicht länger allein - Dokumentation  soll 'exklusive' Informationen zu den Absichten der Aliens haben.{NEWLINE}* Königliche Astronomische Gesellschaft sagt, dass die ungewöhnlichen Lichter ein Sonnenfeuer als Ursache haben.{NEWLINE}* Russischer Popsänger bietet Aliens an 'sie zu entführen'... keine Antwort von den Alien-Eindringlingen.{NEWLINE}* Dublin-Einwohner berichten von grossen zweibeinigen Raubtieren, die das Vieh angreifen."
 
   STR_NEWS_3: "Nachrichten aus Aller Welt"
-  STR_NEWS_3_UFOPEDIA: ""
+  STR_NEWS_3_UFOPEDIA: "* In einigen Nationen glauben Aktivisten an eine Regierungsvertuschung in Bezug auf die plötzliche Ankunft aggressiver Aliens; Gerüchte über frühere Kontakte gehen um.{NEWLINE}* New York, Börsenkurs steigt weiter, Preise für Gold, Silber und Platin sind heute um 12% gestiege. Bankaktien fallen.{NEWLINE}* Bangalorische Polizei verhaftet Mann, der Eintrittskarten verkaufte, um einen gezähmten 'Alien' zu sehen.{NEWLINE}* Kleine, aber laute Minderheit warnt die Europäer weiter vor Alienaktivitäten; Befragungen zeigen wenig Besorgnis unter der Bevölkerung.{NEWLINE}* Gerüchte über Alienaktivitäten nahe New York werden skeptisch betrachtet.{NEWLINE}* Yellowstone Park-Ranger berichten von kleinen grauen Männchen, die mit jungen Frauen flüchten."
 
   STR_NEWS_4: "Nachrichten aus Aller Welt"
   STR_NEWS_4_UFOPEDIA: ""
@@ -176,72 +176,72 @@ de:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Drohne/Scanner-> Legierungs-Medikit"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drohne/Scanner-> Legierungs-Betäubungswaffe"
 
-  STR_DRONE_MEDIKIT: ""
-  STR_DRONE_MEDIKIT_WEAPON: ""
-  STR_DRONE_MEDIKIT_CORPSE: ""
-  STR_DRONE_MEDIKIT_REPAIR: ""
+  STR_DRONE_MEDIKIT: "Drohne/Medikit"
+  STR_DRONE_MEDIKIT_WEAPON: "Drohne Medikit"
+  STR_DRONE_MEDIKIT_CORPSE: "Beschädigte Drohne/Medikit"
+  STR_DRONE_MEDIKIT_REPAIR: "Drohne/Medikit reparieren"
   STR_DRONE_MEDIKIT_UFOPEDIA: ""
-  STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: ""
-  STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: ""
-  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: ""
-  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: ""
-  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: ""
+  STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "Drohne/Medikit -> Scanner"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "Drohne/Medikit -> Betäubungswaffe"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Drohne/Medikit -> Legierungs-Aufklärer"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Drohne/Medikit -> Legierungs-Scanner"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: "Drohne/Medikit -> Legierungs-Medikit"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drohne/Medikit -> Legierungs-Betäubungswaffe"
 
-  STR_DRONE_TASER: ""
-  STR_DRONE_TASER_WEAPON: ""
-  STR_DRONE_TASER_WEAPON_AMMO: ""
-  STR_DRONE_TASER_WEAPON_AMMO_X10: ""
-  STR_DRONE_TASER_CORPSE: ""
-  STR_DRONE_TASER_REPAIR: ""
+  STR_DRONE_TASER: "Drohne/Betäubungswaffe"
+  STR_DRONE_TASER_WEAPON: "Drohne Betäubungswaffe"
+  STR_DRONE_TASER_WEAPON_AMMO: "Drohne/Betäubungswaffe-Ladungen"
+  STR_DRONE_TASER_WEAPON_AMMO_X10: "Drohne Betäubungswaffe-Ladungen [x10]"
+  STR_DRONE_TASER_CORPSE: "Beschädigte Drohne/Betäubungswaffe"
+  STR_DRONE_TASER_REPAIR: "Drohne/Betäubungswaffe reparieren"
   STR_DRONE_TASER_UFOPEDIA: ""
-  STR_UPGRADE_DRONE_TASER_TO_SCANNER: ""
-  STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: ""
-  STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: ""
-  STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: ""
-  STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: ""
+  STR_UPGRADE_DRONE_TASER_TO_SCANNER: "Drohne/Betäubungswaffe -> Scanner"
+  STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: "Drohne/Betäubungswaffe -> Medikit"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "Drohne/Betäubungswaffe -> Legierungs-Aufklärer"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "Drohne/Betäubungswaffe -> Legierungs-Scanner"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drohne/Betäubungswaffe -> Legierungs-Medikit"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drohne/Betäubungswaffe -> Legierungs-Betäubungswaffe"
 
-  STR_ALLOY_DRONE_SCOUT: ""
-  STR_ALLOY_DRONE_SCOUT_CORPSE: ""
-  STR_ALLOY_DRONE_SCOUT_REPAIR: ""
+  STR_ALLOY_DRONE_SCOUT: "Legierungs-Drohne/Aufklärer"
+  STR_ALLOY_DRONE_SCOUT_CORPSE: "Beschädigte Legierungs-Drohne/Aufklärer"
+  STR_ALLOY_DRONE_SCOUT_REPAIR: "Legierungs-Drohne/Aufklärer reparieren"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: ""
-  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: ""
-  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: ""
-  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: ""
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Legierungs-Drohne/Aufklärer -> Legierungs-Scanner"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Aufklärer -> Legierungs-Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Legierungs-Drohne/Aufklärer -> Legierungs-Betäubungswaffe"
 
-  STR_ALLOY_DRONE_SCANNER: ""
-  STR_ALLOY_DRONE_SCANNER_WEAPON: ""
-  STR_ALLOY_DRONE_SCANNER_CORPSE: ""
-  STR_ALLOY_DRONE_SCANNER_REPAIR: ""
+  STR_ALLOY_DRONE_SCANNER: "Legierungs-Drohne/Scanner"
+  STR_ALLOY_DRONE_SCANNER_WEAPON: "Legierungs-Drohne/Bewegungsscanner"
+  STR_ALLOY_DRONE_SCANNER_CORPSE: "Beschädigte Legierungs-Drohne/Scanner"
+  STR_ALLOY_DRONE_SCANNER_REPAIR: "Legierungs-Drohne/Scanner reparieren"
   STR_ALLOY_DRONE_SCANNER_UFOPEDIA: ""
-  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: ""
-  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: ""
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "Legierungs-Drohne/Scanner -> Legierungs-Aufklärer"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Scanner -> Legierungs-Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Legierungs-Drohne/Scanner -> Legierungs-Betäubungswaffe"
 
-  STR_ALLOY_DRONE_MEDIKIT: ""
-  STR_ALLOY_DRONE_MEDIKIT_WEAPON: ""
-  STR_ALLOY_DRONE_MEDIKIT_CORPSE: ""
-  STR_ALLOY_DRONE_MEDIKIT_REPAIR: ""
+  STR_ALLOY_DRONE_MEDIKIT: "Legierungs-Drohne/Medikit"
+  STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Legierungs-Drohne Medikit"
+  STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Beschädigte Legierungs-Drohne/Medikit"
+  STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Legierungs-Drohne/Medikit reparieren"
   STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: ""
-  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: ""
-  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: ""
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Legierungs-Drohne/Medikit -> Legierungs-Aufklärer"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Legierungs-Drohne/Medikit -> Legierungs-Scanner"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Legierungs-Drohne/Medikit -> Legierungs-Betäubungswaffe"
 
-  STR_ALLOY_DRONE_TASER: ""
-  STR_ALLOY_DRONE_TASER_WEAPON: ""
-  STR_ALLOY_DRONE_TASER_WEAPON_AMMO: ""
-  STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: ""
-  STR_ALLOY_DRONE_TASER_CORPSE: ""
-  STR_ALLOY_DRONE_TASER_REPAIR: ""
+  STR_ALLOY_DRONE_TASER: "Legierungs-Drohne/Betäubungswaffe"
+  STR_ALLOY_DRONE_TASER_WEAPON: "Legierungs-Drohne Betäubungswaffe"
+  STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Legierungs-Drohne Betäubungswaffe-Ladungen"
+  STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Erweiterte Drohne Betäubungswaffe-Ladungen [x10]"
+  STR_ALLOY_DRONE_TASER_CORPSE: "Beschädigte Legierungs-Drohne/Betäubungswaffe"
+  STR_ALLOY_DRONE_TASER_REPAIR: "Legierungs-Drohne/Betäubungswaffe reparieren"
   STR_ALLOY_DRONE_TASER_UFOPEDIA: ""
-  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: ""
-  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Aufklärer"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Scanner"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Medikit"
 #END DRONES
 
 #BEGIN TANKS
-  STR_TANK_CANNON_CORPSE: ""
+  STR_TANK_CANNON_CORPSE: "Kaputter Panzer/Kanone"
   STR_TANK_CANNON_REPAIR: ""
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
   STR_UPGRADE_TANK_CANNON_TO_LASER: ""
@@ -256,7 +256,7 @@ de:
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
 
-  STR_TANK_LASER_CANNON_CORPSE: ""
+  STR_TANK_LASER_CANNON_CORPSE: "Damaged Tank/Laser"
   STR_TANK_LASER_CANNON_REPAIR: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: ""
@@ -284,7 +284,7 @@ de:
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: ""
 
   STR_HOVERTANK_LASER: ""
-  STR_HOVERTANK_LASER_CORPSE: ""
+  STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
   STR_HOVERTANK_LASER_REPAIR: ""
   STR_HOVERTANK_LASER_UFOPEDIA: ""
   STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB: ""
@@ -300,7 +300,7 @@ de:
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: ""
 
-  STR_HOVERTANK_PLASMA_CORPSE: ""
+  STR_HOVERTANK_PLASMA_CORPSE: "Damaged Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_REPAIR: ""
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: ""
 
@@ -335,24 +335,24 @@ de:
   STR_PERSONAL_ARMOR_CORPSE: "Beschädigte Persönliche Rüstung"
   STR_PERSONAL_ARMOR_REPAIR: "Persönliche Rüstung reparieren"
   STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT: "Persönliche Rüstung -> Energieanzug"
-  STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: ""
+  STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: "Persönliche Rüstung -> Fluganzug"
 
   STR_POWER_SUIT_CORPSE: "Beschädigter Energieanzug"
-  STR_POWER_SUIT_REPAIR: ""
+  STR_POWER_SUIT_REPAIR: "Energieanzug reparieren"
   STR_POWER_SUIT_UFOPEDIA: "Eine mächtige neue Abwehrwaffe: Diese Rüstung wird von einem Eleriumreaktor angetrieben und vergrößert die Stärke des Trägers erheblich, sie bietet den besten bekannten Schutz für Kampftruppen."
-  STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT: ""
-  STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT: ""
-  STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: ""
+  STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT: "Energieanzug -> Fluganzug"
+  STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT: "Energieanzug -> Verst. Energieanzug"
+  STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: "Energieanzug -> Verst. Fluganzug"
 
   STR_FLYING_SUIT_CORPSE: "Beschädigter Fluganzug"
-  STR_FLYING_SUIT_REPAIR: ""
-  STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_POWER_SUIT: ""
-  STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_FLYING_SUIT: ""
+  STR_FLYING_SUIT_REPAIR: "Fluganzug reparieren"
+  STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_POWER_SUIT: "Fluganzug -> Verst. Energieanzug"
+  STR_UPGRADE_FLYING_SUIT_TO_REINFORCED_FLYING_SUIT: "Fluganzug -> Verst. Fluganzug"
 
-  STR_REINFORCED_POWER_SUIT: ""
-  STR_REINFORCED_POWER_SUIT_UC: ""
-  STR_REINFORCED_POWER_SUIT_CORPSE: ""
-  STR_REINFORCED_POWER_SUIT_REPAIR: ""
+  STR_REINFORCED_POWER_SUIT: "Verstärkter Energieanzug"
+  STR_REINFORCED_POWER_SUIT_UC: "VERSTÄRKTER ENERGIEANZUG"
+  STR_REINFORCED_POWER_SUIT_CORPSE: "Beschädigter Verstärkter Energieanzug"
+  STR_REINFORCED_POWER_SUIT_REPAIR: "Verstärkter Energieanzug reparieren"
   STR_REINFORCED_POWER_SUIT_UFOPEDIA: ""
   STR_UPGRADE_REINFORCED_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: ""
 
@@ -422,24 +422,30 @@ de:
   STR_ADVANCED_MEDI_KIT: ""
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: ""
 
-  STR_FLASHBANG_GRENADE: ""
+  STR_FLASHBANG_GRENADE: "Blendgranate"
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""  
 
   STR_INC_GRENADE: "Brandgranate"
   STR_INC_GRENADE_UFOPEDIA: "Brandgranaten sind unersetzlich um die Nacht zu erhellen und laestige Vegetation aus dem Weg zu raeumen."
 
-  STR_STUN_GRENADE: "Betaeubungs-granate"
+  STR_STUN_GRENADE: "Betaeubungsgranate"
   STR_STUN_GRENADE_UFOPEDIA: ""
 
-  STR_FIRE_GRENADE: ""
+  STR_FIRE_GRENADE: "Feuergranate"
   STR_FIRE_GRENADE_UFOPEDIA: ""
 
-  STR_PLASMA_BLADE: "Plasmaklinge"
+  STR_PLASMA_BLADE: "Plasma-Klinge"
   STR_PLASMA_BLADE_UFOPEDIA: ""
   STR_PLASMA_SWORD: "Plasma-Schwert"
   STR_PLASMA_SWORD_UFOPEDIA: "Diese tödliche Schwertvariante kombiniert eine große Klinge, nur einen Mikrometer dick an der Schneide, einen Plasmaerzeuger und einen Elektromagneten. Wenn aktiviert, flutet Plasma das EM-Feld um die Klinge und überhitzt sie, bis ihre Berührung Titanium wie Wasser zerteilt."
 
-  STR_PLASMA_SHOTGUN: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+
+  STR_PLASMA_SHOTGUN: "Plasma-Schrotflinte"
   STR_PLASMA_SHOTGUN_CLIP: ""
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: ""
   STR_PLASMA_SHOTGUN_UFOPEDIA: ""
@@ -456,7 +462,7 @@ de:
   STR_SMALL_LAUNCHER_UFOPEDIA: ""
   STR_ELERIUM_BOMB: "Eleriumbombe"
   STR_ELERIUM_BOMB_UFOPEDIA: ""
-  STR_FIRE_BOMB: ""
+  STR_FIRE_BOMB: "Feuerbombe"
   STR_FIRE_BOMB_UFOPEDIA: ""
   STR_SMOKE_BOMB: "Rauchbombe"
   STR_SMOKE_BOMB_UFOPEDIA: ""
@@ -567,34 +573,34 @@ de:
 
   STR_ETHEREAL_15: "Ätherer"
 
-  STR_MUTON_ELITE_GUARD: ""
-  STR_MUTON_ELITE_GUARD_SOLDIER: ""
-  STR_MUTON_ELITE_GUARD_ENGINEER: ""
-  STR_MUTON_ELITE_GUARD_LEADER: ""
+  STR_MUTON_ELITE_GUARD: "Mutonen-Elite-Wache"
+  STR_MUTON_ELITE_GUARD_SOLDIER: "Mutonen-Elite-Wache-Soldat"
+  STR_MUTON_ELITE_GUARD_ENGINEER: "Mutonen-Elite-Wache-Ingenieur"
+  STR_MUTON_ELITE_GUARD_LEADER: "Mutonen-Elite-Wache-Anführer"
   STR_MUTON_ELITE_GUARD_UFOPEDIA: ""
-  STR_MUTON_ELITE_GUARD_CORPSE: ""
-  STR_MUTON_ELITE_GUARD_AUTOPSY: ""
+  STR_MUTON_ELITE_GUARD_CORPSE: "Mutonen-Elite-Wache-Leiche"
+  STR_MUTON_ELITE_GUARD_AUTOPSY: "Mutonen-Elite-Wache-Autopsie"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: ""
   
-  STR_MUTON_BERSERKER: "Muton Berserker"
-  STR_MUTON_BERSERKER_TERRORIST: ""
+  STR_MUTON_BERSERKER: "Muton-Berserker"
+  STR_MUTON_BERSERKER_TERRORIST: "Muton-Berserker-Terrorist"
   STR_MUTON_BERSERKER_UFOPEDIA: ""
-  STR_MUTON_BERSERKER_CORPSE: "Muton Berserker Leiche"
-  STR_MUTON_BERSERKER_AUTOPSY: ""
+  STR_MUTON_BERSERKER_CORPSE: "Muton-Berserker-Leiche"
+  STR_MUTON_BERSERKER_AUTOPSY: "Muton-Berserker-Autopsie"
   STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: ""
 
   STR_CYBERMITE: "Cybermite"
-  STR_CYBERMITE_TERRORIST: "Cybermite Terrorist"
+  STR_CYBERMITE_TERRORIST: "Cybermite-Terrorist"
   STR_CYBERMITE_CORPSE: "Toter Cybermite "
   STR_CYBERMITE_UFOPEDIA: ""
   STR_CYBERMITE_AUTOPSY: "Cybermite-Autopsie"
   STR_CYBERMITE_AUTOPSY_UFOPEDIA: ""
 
-  STR_HOLODRONE: "Holodrone"
-  STR_HOLODRONE_TERRORIST: "Holodrone-Terrorist"
+  STR_HOLODRONE: "Holo-Drohne"
+  STR_HOLODRONE_TERRORIST: "Holo-Drohne-Terrorist"
   STR_HOLODRONE_UFOPEDIA: ""
-  STR_HOLODRONE_CORPSE: "Holodrone-Leiche"
-  STR_HOLODRONE_AUTOPSY: "Holodrone Autopsie"
+  STR_HOLODRONE_CORPSE: "Holo-Drohne-Leiche"
+  STR_HOLODRONE_AUTOPSY: "Holo-Drohne-Autopsie"
   STR_HOLODRONE_AUTOPSY_UFOPEDIA: ""
 
   STR_ARMORED_CYBERDISC: ""
@@ -605,10 +611,10 @@ de:
   STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: ""
 
   STR_ARMORED_SECTOPOD: "Gepanzerter Sektopode"
-  STR_ARMORED_SECTOPOD_TERRORIST: ""
+  STR_ARMORED_SECTOPOD_TERRORIST: "Gepanzerter Sektopod-Terrorist"
   STR_ARMORED_SECTOPOD_UFOPEDIA: ""
   STR_ARMORED_SECTOPOD_CORPSE: "Gepanzerter Sektopodenkörper"
-  STR_ARMORED_SECTOPOD_AUTOPSY: "Gepanzerter Sektopoden Autopsie"
+  STR_ARMORED_SECTOPOD_AUTOPSY: "Gepanzerter Sektopod-Autopsie"
   STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: ""
 
   STR_CHRYSSALID_SPITTER: "Spuckerchryssalide "
@@ -626,26 +632,26 @@ de:
 #END ALIEN RACES
 
 #BEGIN ALIEN RESEARCH
-  STR_THE_ALIEN_THREAT: ""
+  STR_THE_ALIEN_THREAT: "Die Alienbedrohung"
   STR_THE_ALIEN_THREAT_UFOPEDIA: ""
 
-  STR_ALIEN_INVASION: ""
+  STR_ALIEN_INVASION: "Alieninvasion"
   STR_ALIEN_INVASION_UFOPEDIA: ""
 
   STR_ALIEN_ORIGINS_UFOPEDIA: ""
 
   STR_THE_MARTIAN_SOLUTION_UFOPEDIA: ""
 
-  STR_PLASMA_WEAPONS: ""
+  STR_PLASMA_WEAPONS: "Alien-Plasma-Waffen"
   STR_PLASMA_WEAPONS_UFOPEDIA: ""
 
-  STR_LAUNCHER_WEAPONS: ""
+  STR_LAUNCHER_WEAPONS: "Alien-Werfer-Waffen"
   STR_LAUNCHER_WEAPONS_UFOPEDIA: ""
 
   STR_ALIEN_BIOLOGY: "Alien Biologie"    
   STR_ALIEN_BIOLOGY_UFOPEDIA: ""
 
-  STR_ALIEN_LANGUAGE: ""
+  STR_ALIEN_LANGUAGE: "Aliensprache"
   STR_ALIEN_LANGUAGE_UFOPEDIA: ""
 
   STR_ALIEN_POWER_SYSTEMS: "Außerirdische Energiesysteme"
@@ -663,22 +669,22 @@ de:
 
 #BEGIN NEW UFOS
   STR_FIGHTER_SHIP: "Jäger"
-  STR_FIGHTER_SHIP_UFOPEDIA: ""
+  STR_FIGHTER_SHIP_UFOPEDIA: "Die außerirdischen Jäger werden nur zum Bekämpfen von irdischen Flugzeugen, einschließlich unserer eigenen Abfangjäger, gebaut. Sie sind für ihre Größe sehr gut ausgestattet. Sie besitzen aber nur eine kleine Besatzung."
 
   STR_SENTRY_SHIP: "Patrouillenschiff"
-  STR_SENTRY_SHIP_UFOPEDIA: ""
+  STR_SENTRY_SHIP_UFOPEDIA: "Der Zweck dieses kleinen UFOs sind Überwachung und Patrouillen. Die Bewaffnung ist dieses Schiffes stellt eine Bedrohung für unserer Abfangjäger dar."
 
   STR_EXCAVATOR: "Exkavator"
   STR_EXCAVATOR_UFOPEDIA: "Die Exkavatoren sind kleine Schiffe, die hauptsächlich mit dem Graben und der Konstruktion beauftragt sind. Sie stellen keine große Bedrohung für unsere Flugzeuge dar."
 
   STR_LAB_SHIP: "Laborschiff"
-  STR_LAB_SHIP_UFOPEDIA: ""
+  STR_LAB_SHIP_UFOPEDIA: "Die Laborschiffe sind große Flugobjekte, die mit der Aufgabe von wissenschaftlicher Natur und Operationen zur Ernte von biologischen Material vertraut sind. Die Laborschiffe sind viel größer als die Erntemaschinen und können somit komplexere Experimente ausführen. Die Anzahl der Besatzung ist hoch und sie sind recht gut ausgestattet."
 #END NEW UFOS
 
 #BEGIN COMMENDATIONS
   STR_MEDAL_ALIENS_KILLED: "Verdienst-Stern"
   STR_MEDAL_ALIENS_KILLED_DESCRIPTION: "Wird an einen Soldaten vergeben, der viele Aliens getötet hat."
-  STR_MEDAL_ALIENS_KILLED_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_UFOPEDIA: "\"Wir können dem Feind die unannehmbaren Kosten seines Kampfes demonstrieren, indem wir:{NEWLINE} in sein Territorium eindringen;{NEWLINE} Operationen durchführen, um sein Leiden zu erhöhen;{NEWLINE} oder indem du den Feind zermürbst.{NEWLINE} --Clausewitz' {NEWLINE} {NEWLINE} Diese Auszeichnung wird an einen Soldaten vergeben, der seine Tödlichkeit bewiesen hat und viele Außerirdische tötete. {NEWLINE} {NEWLINE} Die Berechtigung für diese Auszeichnung beginnt bei 10 Kills. \nDanach gibt es alle 10 Kills eine weitere Auszeichnung."
 
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY: "Inferno-Stern"
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_DESCRIPTION: "Wird an einem Soldaten vergeben, der mit Brandwaffen Aliens getötet hat"
@@ -686,15 +692,15 @@ de:
 
   STR_MEDAL_ALIENS_KILLED_BY_RACE: "Außerirdischenspeziesxenozidorden"
   STR_MEDAL_ALIENS_KILLED_BY_RACE_DESCRIPTION: "Für einen Soldaten, der die {0} Bedrohung erfolgreich bekämpft hat."
-  STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: "'Wenn Sie sich in einem fairen Kampf wiederfinden, haben Sie die Mission schlecht geplant.'{NEWLINE} -- (David Hackworth){NEWLINE}{NEWLINE}Für einen Soldaten, der eine Mordmaschine gegen eine bestimmte Spezies der Aliens geworden ist. Dieses Volk hat so unter der Nachstellung durch diesen X-Com-Helden gelitten, dass sie ihm den Namen Xenozid verliehen haben.{NEWLINE}{NEWLINE} Stufen der Auszeichnung sind 10, 20, and 30 Abschüsse der Spezies."
 
   STR_MEDAL_ALIENS_KNOCKED_OUT: "Orden der Zügelung"
   STR_MEDAL_ALIENS_KNOCKED_OUT_DESCRIPTION: "Für einen Soldaten, der zahlreiche Aliens mit nicht-tödlichen Methoden ausgeschalten hat."
-  STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA: "'Es wird eine umfangreiche Belohnung für denjenigen geben, der den Millenium Falken findet. Du hast die Erlaubnis alles zu tun was nötig ist, aber ich will sie lebend. Keine Auflösungen.' -Darth Vader {NEWLINE} {NEWLINE} Überreicht in Anerkennung eines Soldaten, der die Kunst Extra-Terrestrische lebend zu fangen gemeistert hat. Lebende Exemplare können unglaublich wichtig sein, um die Bedrohung, der wir gegenüber stehen, zu verstehen. {NEWLINE} {NEWLINE} Diese Auszeichnung wird bei 4, 8, 12, und 16 Gefangenen verliehen."
 
   STR_MEDAL_ALIEN_BASE_ASSAULT: "Terranisches kreuz"
   STR_MEDAL_ALIEN_BASE_ASSAULT_DESCRIPTION: "Für einen Soldaten, der an einem erfolgreichen Angriff auf eine Basis der Aliens teilgenommen hat."
-  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: ""
+  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: "'Schicke deine Armee in tödliche Gefahr, und sie wird überleben; schicke sie in eine verzweifelte Situation, und sie wird sie überwinden. - Sunzi'{NEWLINE}{NEWLINE}Jeder Angriff auf eine feindliche Festung ist ein Schritt Richtung Sieg. Den Feind an seiner Machtbasis zu zerstören, bringt uns der endgültigen Überlegenheit näher.{NEWLINE}{NEWLINE}Diese Auszeichnung wird Soldaten gewährt, die an einem Angriff auf eine Außerirdischen-Basis teilnehmen. Sie kann drei Mal verliehen werden."
 
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES: "Hammerorden"
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_DESCRIPTION: "Für einen Soldaten, der Aliensoldaten aller Arten getötet hat."
@@ -702,7 +708,7 @@ de:
 
   STR_MEDAL_ALLBATTLETYPES: "Medaille Armis Potens"
   STR_MEDAL_ALLBATTLETYPES_DESCRIPTION: "Für einen Soldaten, der an jeder Waffe mörderisches Geschick zeigt."
-  STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: ""
+  STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: "Armis Potens bedeutet 'Mächtig mit Waffen'. Ein Infanterist lernt den Umgang mit vielen verschiedenen Waffenarten, um den Feind zu besiegen.{NEWLINE}{NEWLINE}Diese Auszeichnung wertschätzt diese Vielseitigkeit und Tödlichkeit. {NEWLINE}{NEWLINE}Diese Auszeichnung wird Soldaten verliehen, die den Feind mit jeder Art von Waffe töten. Dies schließt Schusswaffen, Nahkampf, Granaten und Minen ein. Die Auszeichnung hat 4 Stufen für 3, 6, 9, und 12 Tötungen."
   STR_MEDAL_ALLMISSIONS: "Hölle-und-Zurück-Medaille"
   STR_MEDAL_ALLMISSIONS_DESCRIPTION: "Für einen Soldaten, der an jeder Art von Mission teilgenommen hat."
   STR_MEDAL_ALLMISSIONS_UFOPEDIA: ""
@@ -713,7 +719,7 @@ de:
 
   STR_MEDAL_ALLUFOS: "TECHINT Abzeichen"
   STR_MEDAL_ALLUFOS_DESCRIPTION: "Für einen Soldaten, der an Missionen für jeden UFO-Typ teilgenommen hat."
-  STR_MEDAL_ALLUFOS_UFOPEDIA: ""
+  STR_MEDAL_ALLUFOS_UFOPEDIA: "TECHINT oder Technical Intelligence bezieht sich auf Wissensaneignung\nüber feindliche Fähigkeiten durch die Ausnutzung eroberter Ausrüstung.{NEWLINE}{NEWLINE}X-COM gewinnt mit jedem geborgenen UFO an Wissen und Material.{NEWLINE}{NEWLINE}Soldaten erhalten die Auszeichnung für die Teilnahme in Missionen mit jedem UFO-Typ. Einmalige Auszeichnung."
 
   STR_MEDAL_ANTITERROR: "Herakles-Medaille"
   STR_MEDAL_ANTITERROR_DESCRIPTION: "Für einen Soldaten, der alle Arten von Terrorgegnern ausgeschalten hat."
@@ -733,15 +739,15 @@ de:
 
   STR_MEDAL_BRAVERYGAIN: "Legion der Tapferen"
   STR_MEDAL_BRAVERYGAIN_DESCRIPTION: "Für einen Soldaten, der ein Musterbeispiel an Mut war."
-  STR_MEDAL_BRAVERYGAIN_UFOPEDIA: ""
+  STR_MEDAL_BRAVERYGAIN_UFOPEDIA: "'Ich lernte, dass Mut nicht die Abwesenheit von Furcht war, sondern ihre Überwindung. Der Tapfere ist nicht der, der nichts fürchtet, sondern der seine Furcht besiegt.' - Nelson Mandela{NEWLINE}{NEWLINE}Dieser Soldat war tapfer in knappen Situationen und hat seine Furcht konfrontiert!{NEWLINE}{NEWLINE}Diese Auszeichnung wird für je 10 Punkte Verbesserung des Muts eines Soldaten verliehen und hat 3 Stufen."
 
   STR_MEDAL_DAYS_WOUNDED: "Scharlach-Herz"
   STR_MEDAL_DAYS_WOUNDED_DESCRIPTION: "Für einen Soldaten, der eine lange Zeit verwundet war."
-  STR_MEDAL_DAYS_WOUNDED_UFOPEDIA: ""
+  STR_MEDAL_DAYS_WOUNDED_UFOPEDIA: "Die Selbstaufopferung des verwundeten Kriegers wird mit dieser Auszeichnung geehrt. Wortwörtlich eine 'Rote Tapferkeitsmedaille', ehrt sie einen schwer verwundeten Soldaten.{NEWLINE}{NEWLINE} Diese Auszeichnung wird nach der Gesamtzahl von Verwundungstagen verliehen, für je 30 Erholungstage bis zu einem Maximum von 300."
 
   STR_MEDAL_DOUBLEKILL: "Leistungsbeschreibung"
   STR_MEDAL_DOUBLEKILL_DESCRIPTION: "Für einen Soldaten, der sich auf dem Schlachtfeld hervorgetan hat indem er mehr als eine Bedohung rasch hintereinander ausschaltete."
-  STR_MEDAL_DOUBLEKILL_UFOPEDIA: ""
+  STR_MEDAL_DOUBLEKILL_UFOPEDIA: "'Ein einziger feindlicher Soldat ist nie genug, aber zwei sind schon zu viele.'{NEWLINE} -- Murphy's Laws of Combat'{NEWLINE}{NEWLINE} Diese Belobigung ehrt Soldaten, die zwei Ziele schnell hintereinander ausschalten. Je schneller wir sie entfernen, desto schneller sind wir wieder daheim.{NEWLINE}{NEWLINE}Es gibt 4 Stufen dieser Auszeichnung für die Schnellschützen"
 
   STR_MEDAL_FALLEN: "Gefallenen-Orden"
   STR_MEDAL_FALLEN_DESCRIPTION: "Für einen Soldaten, um ihren Tod und ihre Hingabe an die Verteidigung der Erde zu ehren."
@@ -757,7 +763,7 @@ de:
 
   STR_MEDAL_GRENADIER: "Grenadier-Medaille"
   STR_MEDAL_GRENADIER_DESCRIPTION: "Für einen Soldaten, der 3 Außerirdische auf einen Schlag mit geworfenen Sprengstoffen getötet hat."
-  STR_MEDAL_GRENADIER_UFOPEDIA: ""
+  STR_MEDAL_GRENADIER_UFOPEDIA: " 'Eine Fünf-Sekunden-Zündschnur brennt immer drei Sekunden lang.{NEWLINE} -- Murphy's Laws of Combat'{NEWLINE}{NEWLINE}Diese Auszeichnung ist für die Soldaten, die ihre X-Com Granaten am besten eingesetzt haben! Mehr als eine normale Auszeichnung für Fertigkeit, belohnt es die Fähigkeit mehrere Gegner auf einmal zu töten.{NEWLINE}{NEWLINE}Vier Stufen der Auszeichnung werden vergeben für das Ausschalten dreier Gegner mit normalen Handgranaten und Annäherungsminen."
 
   STR_MEDAL_HEADSHOT: "Davidsorden"
   STR_MEDAL_HEADSHOT_DESCRIPTION: "Für einen Soldaten mit einer ruhigen Hand einer Reputation für Kopfschüsse."
@@ -765,18 +771,18 @@ de:
 
   STR_MEDAL_HEALER: "Hippokratischer Stern"
   STR_MEDAL_HEALER_DESCRIPTION: "Für einen Soldaten, der Feldmedizin durchführen musste."
-  STR_MEDAL_HEALER_UFOPEDIA: ""
+  STR_MEDAL_HEALER_UFOPEDIA: "'Wir hatten eine tiefe Wertschätzung für den stillen Sanitäter. Er war Krankenschwester, Doktor, Feldlazarett und Krankenhaus für uns. Über den Schlachtenlärm konnte man oft den Aufschrei 'Sanitäter!' hören, und Doc war immer da für das 3. Platoon.'{NEWLINE}- Robert W. Black{NEWLINE}{NEWLINE}Der Feldsanitäter ist ein lebenswichtiger Teil jeder Kampfeinheit. X-Com-Soldaten kümmern sich um ihre Verwundeten und helfen ihren Waffengefährten unter Feuer.{NEWLINE}{NEWLINE}Diese Auszeichnung wird für je 3 geheilte Wunden verliehen, bis zu 12 Wunden."
 
   STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT: "Blitzkreuz"
   STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_DESCRIPTION: "Für einen Soldaten, der wichtige Ziele gefangen genommen hat."
-  STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA: "Captain Steven Hiller: 'Weißte, das sollte mein freies Wochenende werden aber nööö: Jetzt muss ich deinen schweren Arsch durch die glühendheiße Wüste schleppen und deine Dreadlocks hängen hinten aus meinem Fallschirm raus.'{NEWLINE} - Independence Day{NEWLINE}{NEWLINE} Diese hohe Auszeichnung erkennt die Leistung an, ein wertvolles Ziel gefangen zu haben. Feindliche Anführer und Kommandanten gewähren uns ein besseres Verständnis der Ziele und Schwächen der Außerirdischen.{NEWLINE}{NEWLINE}Diese Auszeichnung wird einmalig jedem Soldaten verliehen, der ein wichtiges Ziel gefangennimmt."
 
   STR_MEDAL_IRON_MAN: "Iron Man"
   STR_MEDAL_IRON_MAN_DESCRIPTION: "Für einen Soldaten, der wahrlich ein eiserner Mann oder eine eiserne Frau ist."
   STR_MEDAL_IRON_MAN_UFOPEDIA: ""
 
   STR_MEDAL_LUCKYSHOT: "Belobigung für Glück"
-  STR_MEDAL_LUCKYSHOT_DESCRIPTION: ""
+  STR_MEDAL_LUCKYSHOT_DESCRIPTION: "Für einen Soldaten, der gegen aller Wahrscheinlichkeit sein beabsichtigtes Ziel traf."
   STR_MEDAL_LUCKYSHOT_UFOPEDIA: ""
 
   STR_MEDAL_MAN_OF_STEEL: "Mensch aus Stahl"
@@ -789,7 +795,7 @@ de:
 
   STR_MEDAL_MEDIKIT: "Feldchirurg"
   STR_MEDAL_MEDIKIT_DESCRIPTION: "Für einen Soldaten, der regelmäßig das Medikit auf dem Schlachtfeld einsetzte."
-  STR_MEDAL_MEDIKIT_UFOPEDIA: ""
+  STR_MEDAL_MEDIKIT_UFOPEDIA: "'...Aber diese Wunde war frisch, noch im Sechs-Stunden-Fenster - der grobe Maßstab für den Feldarzt, wenn es zu solchen Risiken kam. Wenn er nicht umsonst geprahlt hatte .... könnte er ein Leben retten.{NEWLINE}- Frank Gill Slaughter 'Battle Surgeon'{NEWLINE}{NEWLINE}Der Feldarzt ist besser als der Sanitäter und kennt alle seine Werkzeuge.{NEWLINE}{NEWLINE}Diese Auszeichnung wird an Sanitäter verliehen, die je 3 Mal Heilung, Stims und Schmerzmittel einsetzen. Sie hat 4 Stufen."
 
   STR_MEDAL_MELEE: "Nahkampfspange"
   STR_MEDAL_MELEE_DESCRIPTION: "Für einen Soldaten, der Außerirdische mit einer tödlichen Nahkampfwaffe ausschaltet."
@@ -801,7 +807,7 @@ de:
 
   STR_MEDAL_MIA: "Orden der Vergessenen"
   STR_MEDAL_MIA_DESCRIPTION: "Für einen Soldaten, der verlorenging, und seine Hingabe an die Verteidigung der Erde"
-  STR_MEDAL_MIA_UFOPEDIA: ""
+  STR_MEDAL_MIA_UFOPEDIA: " '...wir zollen den Männern und Frauen, die nicht vom Schlachtfeld zurückgekehrt sind, unseren Respekt... wir werden ihre Opfer niemals vergessen... wir werden ihr Andenken für immer ehren.' {NEWLINE}- Barack Dronenmord Obama{NEWLINE}{NEWLINE}Die entsetzliche Unabdinglichkeit, einen gefallenen Genossen zurückzulassen, kann nicht bestritten werden.  X-Com ehrt jene, die in solcher Weise mehr als ihren Teil geleistet haben.{NEWLINE}{NEWLINE}DIeser Orden ist für Soldaten, die vermisst werden. Wir ehren die, die nicht widerkehrten."
 
   STR_MEDAL_MINDCONTROL: "Imperio"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "Für einen Soldaten, der den Geist des Feindes überwältigt hat."
@@ -809,19 +815,19 @@ de:
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Längste-Nacht-Band"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Für einen Soldaten, der die Schrecken einer nächtlichen Terrormision bezeugen kann."
-  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: ""
+  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "'Der Tag verhindert keine Albträume - Die Nacht ist nicht nötig für Träume - Es gibt keine bessere Zeit, als hier - Keinen besseren Ort, als jetzt'{NEWLINE}    -- Chase LeBlanc   {NEWLINE}{NEWLINE}Diese Auszeichnung ist für Soldaten, die den Horror einer nächtlichen Terrormission miterleben mussten. Gefährliche Außerirdische lauern in den Schatten und sicherer Tod findet die Unvorsichtigen. Die Überlebenden können als tapfer gelten.{NEWLINE}{NEWLINE}Diese Auszeichnung wird in 4 Stufen für jede nächtliche Terrormission verliehen."
 
   STR_MEDAL_NIKE_CROSS: "Nike-Kreuz"
   STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Für einen Soldaten der im Alleingang alle Außerirdischen einer Mission getötet oder betäubt hat."
   STR_MEDAL_NIKE_CROSS_UFOPEDIA: ""
 
-  STR_MEDAL_ONE_MONTH_SERVICE: ""
+  STR_MEDAL_ONE_MONTH_SERVICE: "X-Com Dienstabzeichen"
   STR_MEDAL_ONE_MONTH_SERVICE_DESCRIPTION: "Für alle Soldaten, die ihren ersten Monat abschließen, als Dank für den Kampf gegen die außerirdische Bedrohung zum Schutz der Menschheit. Diese Medaille hat keine zusätzliche Dekorationen."
   STR_MEDAL_ONE_MONTH_SERVICE_UFOPEDIA: ""
 
   STR_MEDAL_ORIGINAL8_DESCRIPTION: "Für einen Soldaten, der mit als Erster den Unbekannten Feind bekämpfte"
   STR_MEDAL_ORIGINAL8_NAME: "Erster im Dienst"
-  STR_MEDAL_ORIGINAL8_UFOPEDIA: ""
+  STR_MEDAL_ORIGINAL8_UFOPEDIA: "Das X-Com Projekt ist ein streng geheimes Projekt, das vom Rat initiiert wurde, um der massiven globalen Alien-Invasion entgegenzuwirken, nachdem die konventionellen Militärs der Welt sie nicht aufhalten konnten.{NEWLINE}{NEWLINE}Nur wenige Menschen erfüllten die Voraussetzungen, um in das Projekt aufgenommen zu werden. Noch weniger werden überleben.{NEWLINE}{NEWLINE}Diese Auszeichnung wird dem ursprünglichen Kampfkomplement der Soldaten im X-Com Projekt verliehen."
 
   STR_MEDAL_POSTMORTEM_KILL: "Sensenmann-Orden"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "Posthum für einen Soldaten der trotz seines Ablebens auf der Wallstatt blieb."
@@ -833,7 +839,7 @@ de:
 
   STR_MEDAL_REACTIONFIRE: "Belobigung für Schnelligkeit"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Für einen Soldaten, der schnelle Reflexe zeigte, Aliens tötete bevor sie zurückschlagen konnten."
-  STR_MEDAL_REACTIONFIRE_UFOPEDIA: ""
+  STR_MEDAL_REACTIONFIRE_UFOPEDIA: " 'Lass dir in einer Gefechtssituation nicht von Emotionen wie Furcht und Zorn den Verstand trüben. Akzeptiere die Situation einfach und reagiere, sogar wenn deine Chancen unglaublich gering sind. Behalte einen klaren Kopf und du bist deinen Angreifern einen Schritt voraus.'{NEWLINE} -- Aaron B. Powell, Doomsday Diaries{NEWLINE}{NEWLINE}Diese Medaille ist für instinktive Killer mit blitzschnellen Reflexen. Gegner während ihrer eigenen Runde auszuschalten, reduziert die Gefahr für den ganzen Trupp.{NEWLINE}{NEWLINE}Diese Medaille wird für je zwei Reaktionsfeuer-Abschüsse vergeben, bis zu 4 Mal."
 
   STR_MEDAL_REARSHOT: "Paris-Empfehlung"
   STR_MEDAL_REARSHOT_DESCRIPTION: "Für einen Soldaten, der Schläue gezeigt hat und Feinde von hinten tötete."
@@ -841,7 +847,7 @@ de:
 
   STR_MEDAL_REVIVE: "Engelkreuz"
   STR_MEDAL_REVIVE_DESCRIPTION: "Für einen Soldaten, der einen Kameraden von der Schwelle des Todes zurückgeholt hat."
-  STR_MEDAL_REVIVE_UFOPEDIA: ""
+  STR_MEDAL_REVIVE_UFOPEDIA: " ''Nein, du stirbst nicht, wenn ich dabei bin.' sagte Doc. Gerade bevor der Heli kam, hörte sein Herz auf zu schlagen. Doc belebte ihn wieder, indem er auf seine Brust einschlug und ihn Mund-zu-Mund beatmete. Endlich landete der Helikopter und wir luden ihn an Bord.'{NEWLINE}-- Stephen Paul Campos{NEWLINE}{NEWLINE}Wenn ein Soldat ohnmächtig blutend auf dem Feld der Ehre liegt, weiß dieser Ordensträger, wie man ihn zurückholt.{NEWLINE}{NEWLINE}Diese Auszeichnung wird jedesmal vergeben, wenn ein Verwundeter wiederbelebt wird, bis zu 3 Mal."
 
   STR_MEDAL_SAPPER: "Saboteur-Medaille"
   STR_MEDAL_SAPPER_DESCRIPTION: "Für einen Soldaten, der einen metallischen Feind mit Brisanz-Sprengstoff tötete."
@@ -861,19 +867,19 @@ de:
 
   STR_MEDAL_SNIPER: "Scharfschützen-Belobigung"
   STR_MEDAL_SNIPER_DESCRIPTION: "Für einen Soldaten, der sein Ziel mit Hochdistanzschüssen traf."
-  STR_MEDAL_SNIPER_UFOPEDIA: ""
+  STR_MEDAL_SNIPER_UFOPEDIA: "{NEWLINE}'My crosshairs steady,{NEWLINE} My trigger cold,{NEWLINE}I feel the recoil{NEWLINE} and watch him fold.{NEWLINE}The mission accomplished,{NEWLINE} I grab my gear.{NEWLINE}I'll clean my rifle{NEWLINE} in the rear.'{NEWLINE}   -- Navy Seal Copypasta{NEWLINE}{NEWLINE}Diese Belobigung ehrt Expertise darin, Tod weit ins Feld zu schicken.{NEWLINE}{NEWLINE}Verliehen in 4 Stufen für je 3 Hochdistanz-Abschüsse."
 
   STR_MEDAL_STAR_OF_ASCLEPIUS: "Asclepius-Stern"
   STR_MEDAL_STAR_OF_ASCLEPIUS_DESCRIPTION: "Für einen Soldaten, der unter schweres Feuer geraten ist."
-  STR_MEDAL_STAR_OF_ASCLEPIUS_UFOPEDIA: ""
+  STR_MEDAL_STAR_OF_ASCLEPIUS_UFOPEDIA: "'Krieg ist Leben mal eine Zahl, die keiner kennt.'{NEWLINE}     -- Sebastian Junger.{NEWLINE}{NEWLINE}Indem er heftiges feindliches Feuer auf sich zog, hat dieser Soldat heldenmutig seine Gefährten gerettet.{NEWLINE}{NEWLINE}Diese Medaille geht an Soldaten, die 10 Mal vom Gegner anvisiert wurden. Sie hat 3 Stufen."
 
   STR_MEDAL_STATGAIN: "Athena-Belobigung"
   STR_MEDAL_STATGAIN_DESCRIPTION: "Für einen Soldaten, der sich der Selbstverbesserung hingibt."
-  STR_MEDAL_STATGAIN_UFOPEDIA: ""
+  STR_MEDAL_STATGAIN_UFOPEDIA: " 'Athene ist die Verkörperung von Weisheit, Kriegsführung, Zivilisation, Stärke, Strategie, Handwerk und Gerechtigkeit'{NEWLINE}{NEWLINE} X-Com-Truppen trainieren auf und abseits des Schlachtfelds, und jene, die ihre Fähigkeiten verbessern, verkörpern das Athenische Ideal.{NEWLINE}{NEWLINE}Diese Belobigung wird an Soldaten vergeben, die ihre gesamten Stats um 10 Punkte verbessern. Die Auszeichnung hat 10 Stufen, bis zu einer Verbesserung um 100 Punkte."
 
   STR_MEDAL_TOTAL_FRIENDLY_FIRED: "Schwarzes Kreuz"
   STR_MEDAL_TOTAL_FRIENDLY_FIRED_DESCRIPTION: "Für einen Soldaten, der Eigenbeschuss überlebt."
-  STR_MEDAL_TOTAL_FRIENDLY_FIRED_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_FRIENDLY_FIRED_UFOPEDIA: "'Kugeln diskriminieren nicht. Es sind Gleichstellungsprojektile.'{NEWLINE}    -- Peter Duysings{NEWLINE}{NEWLINE}Besser bekannt als: 'Duck dich, Karl!', wird diese Medaille an Soldaten vergeben, die von Eigenbeschuss getroffen wurden. Wie schon Murphy sagte: 'Friendly Fire Isn't.'{NEWLINE}{NEWLINE} Diese Belobigung wird bis zu 4 Mal vergeben."
 
   STR_MEDAL_TOTAL_IMPORTANT_MISSIONS: "Orden der Erde"
   STR_MEDAL_TOTAL_IMPORTANT_MISSIONS_DESCRIPTION: "Für einen Soldaten, der unabdinglich für die Verteidigung der Erde war."
@@ -881,7 +887,7 @@ de:
 
   STR_MEDAL_TOTAL_KNOCKED_OUT: "Heldentum-Medaille"
   STR_MEDAL_TOTAL_KNOCKED_OUT_DESCRIPTION: "Für einen Soldaten, der bis zum Letzten kämpfte."
-  STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA: "'Nur ein Mann, der weiß, wie es ist, besiegt zu werden, kann den Grund seiner Seele erreichen und das Extra Bisschen Stärke packen, die es braucht, um ein ausgeglichenes Match zu gewinnen.'{NEWLINE} -- Muhammad Ali{NEWLINE}{NEWLINE} Diese Medaille wird dem Soldaten verliehen, der bis zur letzten Neige seiner Stärke gekämpft hat! Diese Medaille wird an Soldaten verliehen, die auf dem Schlachtfeld ohnmächtig wurden, aber überlebten.{NEWLINE}{NEWLINE} Die Medaille wird für je zwei Ohnmachten verliehen, bis zu einem Maximum von 8 Stufen (für 4 Stufen der Zitierung)."
 
   STR_MEDAL_TOTAL_LONE_SURVIVOR: "Stern der Tapferkeit"
   STR_MEDAL_TOTAL_LONE_SURVIVOR_DESCRIPTION: "Für einen Soldaten, der als Einziger eine Mission überlebte."
@@ -893,11 +899,11 @@ de:
 
   STR_MEDAL_TOTAL_MISSION_REGION_COUNT: "Kampagnenband"
   STR_MEDAL_TOTAL_MISSION_REGION_COUNT_DESCRIPTION: "Für einen Soldaten, der erfolgreich viele Regionen verteidigte"
-  STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: "'Wir müssen all unseren Truppen danken, und vor allem denen, für die wir nie genug Dankbarkeit ausdrücken können... da sie ihr Leben gaben, damit wir alle frei sein können.'{NEWLINE}    -Virgil Goode{NEWLINE}{NEWLINE}DIe Länder einer bestimmten Region erkennen die Fertigkeiten und Tapferkeit an, mit denen dieser Soldat ihre Leben und ihr Eigentum gegen die Außerirdischen beschützt hat.{NEWLINE}{NEWLINE}Diese Medaille wird für 10, 20, und 30 Missionen in einer bestimmten Region verliehen."
 
   STR_MEDAL_TOTAL_MONTH_SERVICE: "Überlebensmedaille"
   STR_MEDAL_TOTAL_MONTH_SERVICE_DESCRIPTION: "Für einen Soldaten, der viele Monate gedient hat"
-  STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: "Diese Empfehlung wird Soldaten verliehen, die der X-Com längere Zeit gedient haben. Wir erkennen die enormen Opfer dieser tapferen Truppen im Dienste der X-Com an. Diese Dekoration wird Soldaten verliehen, die blieben, als ihre Freunde kamen und gingen und sich im Krieg mit dem Feind bewährt haben. Ihre Verlässlichkeit und Ausdauer haben sie zu vertrauten Veteranen gemacht.{NEWLINE}{NEWLINE}  Diese Auszeichnung wird für je 3 Monate Dienst verliehen."
 
   STR_MEDAL_TOTAL_NIGHT_MISSIONS: "Nachtjäger"
   STR_MEDAL_TOTAL_NIGHT_MISSIONS_DESCRIPTION: "Für einen Soldaten, der an mehreren Nachtmissionen teilnahm"
@@ -905,46 +911,46 @@ de:
 
   STR_MEDAL_TRAP: "Pirscher-Kreuz"
   STR_MEDAL_TRAP_DESCRIPTION: "Für einen Soldaten, der Guerilla-Taktiken nutzte"
-  STR_MEDAL_TRAP_UFOPEDIA: ""
+  STR_MEDAL_TRAP_UFOPEDIA: "' Hallo? Jemand zu Hause?{NEWLINE}Hallo, Mr. Gopher!{NEWLINE}Ich bin's, Mr. Eichhörnchen.{NEWLINE}Nur ein harmloses Eichhörnchen.{NEWLINE}Kein Plastiksprengstoff oder so.{NEWLINE}Nichts, worum man sich Sorgen machen müsste.{NEWLINE}    - CaddyShack. '{NEWLINE}{NEWLINE}Diese Medaille wird für Meisterschaft im Einsatz von Sprengfallen und Minen verliehen. Es gibt 4 Stufen der Auszeichnung für 1,3,5 und 8 Tötungen mit Annäherungsgranaten."
 
   STR_MEDAL_VALIANT_CRUX: "Ritterlichkeits-Crux"
   STR_MEDAL_VALIANT_CRUX_DESCRIPTION: "Für einen Soldaten, der alle Zivilisten während einer Terrormission beschützt hat."
-  STR_MEDAL_VALIANT_CRUX_UFOPEDIA: ""
+  STR_MEDAL_VALIANT_CRUX_UFOPEDIA: "'Der wahre Soldat kämpft, weil er liebt, was er in seinem Rücken hat und nicht, weil er hasst, was vor ihm steht.'{NEWLINE}    --G. K. CHESTERTON {NEWLINE}{NEWLINE}Wenn Terror losbricht, ist es nur eine winzige Schar, die so überwältigend zurückschlagen kann, dass alle unschuldigen Zivilisten von der unmenschlichen Bedrohung verschont bleiben.{NEWLINE}{NEWLINE}Alle Soldaten erhalten diese Auszeichnung für die Teilnahme an einer Terror Mission bei der alle Zivilisten gerettet wurden. Diese Auszeichnung hat 4 Stufen."
 
   STR_MEDAL_WEAPON_PROFICIENCY: "Waffenkönnen-Medaille"
   STR_MEDAL_WEAPON_PROFICIENCY_DESCRIPTION: "Für einen Soldaten der sich an {0}.auszeichnete."
-  STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: ""
+  STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: "'Alles, was wert ist, beschossen zu werten, ist wert, zweimal beschossen zu werden. Munition ist billig. Leben ist teuer.'{NEWLINE}   -- US Ranger Rules for Gunfighting{NEWLINE}{NEWLINE}Diese Medaille ehrt außerordentliche Fertigkeiten mit einer bestimmten Waffe. Dieser Soldat ist ein echter Experte in seinem Feld und ein Meister seines Faches.{NEWLINE}{NEWLINE}Diese Medaille wird für 10. 20. und 30 Abschüsse mit einer bestimmten Waffe verliehen."
 
   STR_MEDAL_WOUNDED: "Verwundetenabzeichen"
   STR_MEDAL_WOUNDED_DESCRIPTION: "Für einen Soldaten, der auf dem Schlachtfeld verwundet wurde"
-  STR_MEDAL_WOUNDED_UFOPEDIA: ""
+  STR_MEDAL_WOUNDED_UFOPEDIA: "Verletzungen, die man auf dem Schlachtfeld erhält, sind spürbare Beweise der Bereitschaft des XCOM-Soldaten sich in die Schusslinie zu begeben. Dieses Opfer wird in dieser Version der klassischen Auszeichnung für verwundete Soldaten geehrt. {NEWLINE} {NEWLINE} Diese Medaille wird Soldaten verliehen, die auf dem Schlachtfeld verletzt wurden. Einmalige Auszeichnung."
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
   STR_TERROR_MISSION_SNOW: "Terrormission Schnee"
 
-  STR_TERROR_MISSION_SUBURB: ""
+  STR_TERROR_MISSION_SUBURB: "TERRORMISSION VORSTADT"
 
-  STR_TERROR_MISSION_INDUSTRIAL: ""
+  STR_TERROR_MISSION_INDUSTRIAL: "TERRORMISSION INDUSTRIELL"
   STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: ""
 
-  STR_TERROR_MISSION_PORT: ""
+  STR_TERROR_MISSION_PORT: "TERRORMISSION HAFEN"
   STR_TERROR_MISSION_PORT_BRIEFING: ""
 
-  STR_TERROR_MISSION_TROPICAL: ""
+  STR_TERROR_MISSION_TROPICAL: "TERRORMISSION TROPISCH"
 
-  STR_TERROR_MISSION_ISLAND: ""
+  STR_TERROR_MISSION_ISLAND: "TERRORMISSION INSEL"
   STR_TERROR_MISSION_ISLAND_BRIEFING: ""
 
-  STR_TERROR_MISSION_MILITARY_BASE: ""
-  STR_TERROR_MISSION_MILITARY_BASE_ALERT: ""
+  STR_TERROR_MISSION_MILITARY_BASE: "TERRORMISSION MILITÄRBASIS"
+  STR_TERROR_MISSION_MILITARY_BASE_ALERT: "ALIENS GREIFEN{NEWLINE} MILITÄRBASIS AN, IN"
   STR_TERROR_MISSION_MILITARY_BASE_BRIEFING: ""
 
   STR_TERROR_MISSION_SHIP: ""
-  STR_TERROR_MISSION_SHIP_ALERT: ""
+  STR_TERROR_MISSION_SHIP_ALERT: "ALIENS GREIFEN{NEWLINE} ZIVILES SCHIFF AUF DEM MEER AN"
   STR_TERROR_MISSION_SHIP_BRIEFING: ""
-  STR_TERROR_MISSION_SHIP_DISABLED: ""
-  STR_TERROR_MISSION_SHIP_OPERATIONAL: ""
+  STR_TERROR_MISSION_SHIP_DISABLED: "SCHIFF MANÖVRIERUNFÄHIG"
+  STR_TERROR_MISSION_SHIP_OPERATIONAL: "SCHIFF NOCH FUNKTIONSFÄHIG"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "Navigationssystem zerstört"
 #END MISSION STRINGS & ALERTS
 
@@ -968,9 +974,9 @@ de:
   MAP_DAWNURBANA: "Dawn City A"
   MAP_DAWNURBANB: "Dawn City B"
   MAP_EXPANDED_TERROR: "Erweiterter Terror"
-  MAP_EXPANDED_TERROR_SNOW: ""
-  MAP_EXPANDED_URBAN_MIX: ""
-  MAP_EXPANDED_URBAN_MIX_SNOW: ""
+  MAP_EXPANDED_TERROR_SNOW: "Erweiterter Terror Schnee"
+  MAP_EXPANDED_URBAN_MIX: "Erweiterter Städtischer Mix"
+  MAP_EXPANDED_URBAN_MIX_SNOW: "Erweiterter Städtischer Mix Schnee"
   MAP_FORESTMOUNT: "Waldberg"
   MAP_FORESTPOLAR: "Waldsumpf"
   MAP_GRASSLANDDESERT: "Grasland-Wüste"
@@ -989,7 +995,7 @@ de:
   MAP_MADURBANUFO: "Erweitere Städtische UFO"
   MAP_MADURBAN_SNOW: "Erweitere Städtische Schnee"
   MAP_NATIVEURBAN: "Native (Farm + Jungle)"
-  MAP_NATIVEUFO: ""
+  MAP_NATIVEUFO: "Einheimisches UFO"
   MAP_POLARDESERT: "Polarwüste"
   MAP_POLARDESERTMOUNT: "Polarwüstenberg"
   MAP_POLARMOUNT: "Polarberg"
@@ -1033,13 +1039,25 @@ de:
   MALE_CIVILIAN5: "Zivilist"
   MALE_CIVILIAN6: "Zivilist"
   MALE_CIVILIAN7: "Zivilist"
+  MALE_CIVILIAN8: "Zivilistin"
+  MALE_CIVILIAN9: "Zivilistin"
+  MALE_CIVILIAN10: "Zivilistin"
+  MALE_CIVILIAN11: "Zivilistin"
+  FEMALE_CIVILIAN: "Zivilistin"
   FEMALE_CIVILIAN2: "Zivilistin"
   FEMALE_CIVILIAN3: "Zivilistin"
+  FEMALE_CIVILIAN4: "Zivilistin"
+  FEMALE_CIVILIAN5: "Zivilistin"
+  FEMALE_CIVILIAN6: "Zivilistin"
+  FEMALE_CIVILIAN7: "Zivilistin"
+  FEMALE_CIVILIAN8: "Zivilistin"
+  FEMALE_CIVILIAN9: "Zivilistin"
+  FEMALE_CIVILIAN10: "Zivilistin"
 #END CIVLIAN NAMES
 
 #BEGIN NEW REGIONS
-  STR_NORTH_PACIFIC: ""
-  STR_SOUTH_PACIFIC: ""
+  STR_NORTH_PACIFIC: "Nordpazifik"
+  STR_SOUTH_PACIFIC: "Südpazifik"
 #END NEW REGIONS
 
 #BEGIN CITY NAMES
@@ -1194,7 +1212,7 @@ de:
   STR_DAMASCUS: "Damaskus"
   STR_DAKAR: "Dakar"
   STR_DJIBOUTI: "Djibouti"
-  STR_GAO: ""
+  STR_GAO: "Gao"
   STR_JERUSALEM: "Jerusalem"
   STR_KHARTOUM: "Khartoum"
   STR_NOUAKCHOTT: "Nouakchott"
@@ -1208,7 +1226,7 @@ de:
   STR_ADDISABABA: "Addis Ababa"
   STR_ANTANANARIVO: "Antananarivo"
   STR_BAMAKO: "Bamako"
-  STR_BENGUI: ""
+  STR_BENGUI: "Bengui"
   STR_BISSAU: "Bissau"
   STR_DARESSALAAM: "Dar es Salaam"
   STR_DURBAN: "Durban"
@@ -1219,7 +1237,7 @@ de:
   STR_KANO: "Kano"
   STR_KIGALI: "Kigali"
   STR_LIBREVILLE: "Libreville"
-  STR_LILONGUE: ""
+  STR_LILONGUE: "Lilongue"
   STR_LUANDA: "Luanda"
   STR_LUSAKA: "Lusaka"
   STR_MAPUTO: "Maputo"
@@ -1228,8 +1246,8 @@ de:
   STR_NDJAMENA: "N'Djamena"
   STR_NIAMEY: "Niamey"
   STR_OUAGADOUGOU: "Ouagadougou"
-  STR_PORT_ELIZABETH: ""
-  STR_PORT_HARCOURT: ""
+  STR_PORT_ELIZABETH: "Port Elizabeth"
+  STR_PORT_HARCOURT: "Port Harcourt"
   STR_PORT_SAID: "Port Said"
   STR_WINDHOEK: "Windhoek"
   STR_YAOUNDE: "Yaounde"
@@ -1243,9 +1261,9 @@ de:
   STR_CHENNAI: "Chennai"
   STR_DOHA: "Doha"
   STR_DUBAI: "Dubai"
-  STR_DUSHAMBE: ""
+  STR_DUSHAMBE: "Dushambe"
   STR_GOA: "Goa"
-  STR_ISFAHAN: ""
+  STR_ISFAHAN: "Isfahan"
   STR_ISLAMABAD: "Islamabad"
   STR_ISTANBUL: "Istanbul"
   STR_KABUL: "Kabul"
@@ -1266,19 +1284,19 @@ de:
 
 # SOUTH EAST ASIAN CITIES
   STR_CHENGDU: "Chengdu"
-  STR_CHITTAGONG: ""
+  STR_CHITTAGONG: "Chittagong"
   STR_CHONGQING: "Chongqing"
   STR_DAVAO: "Davao City"
-  STR_DALIAN: ""
+  STR_DALIAN: "Dalian"
   STR_DHAKA: "Dhaka"
-  STR_GUANGZHOU: ""
+  STR_GUANGZHOU: "Guangzhou"
   STR_HAIKOU: "Haikou"
   STR_HANOI: "Hanoi"
   STR_HARBIN: "Harbin"
   STR_HIROSHIMA: "Hiroshima"
   STR_KUALA: "Kuala Lumpur"
   STR_LASSA: "Lassa"
-  STR_MEDAN: ""
+  STR_MEDAN: "Medan"
   STR_NAGASAKI: "Nagasaki"
   STR_OSAKA: "Osaka"
   STR_RANGOON: "Rangun"
@@ -1299,10 +1317,10 @@ de:
   STR_IRKUTSK: "Irkutsk"
   STR_KHABAROVSK: "Chabarowsk"
   STR_KRASNOYARSK: "Krasnojarsk"
-  STR_MAGADAN: ""
+  STR_MAGADAN: "Magadan"
   STR_OMSK: "Omsk"
   STR_PETROPAVLOVSK: "Petropawlowsk"
-  STR_VORKUTA: ""
+  STR_VORKUTA: "Vorkuta"
   STR_YAKUTSK: "Yakutsk"
   STR_YEKATERINBURG: "Jekaterinburg"
 
@@ -1313,7 +1331,7 @@ de:
   STR_CHRISTCHURCH: "Christchurch"
   STR_DARWIN: "Darwin"
   STR_FIJI: "Fidschi"
-  STR_KIRIBATI: ""
+  STR_KIRIBATI: "Kiribati"
   STR_MAKASSAR: "Makassar"
   STR_NOUMEA: "Noumea"
   STR_PORTMORESBY: "Port Moresby"
@@ -1329,7 +1347,7 @@ de:
   STR_GUAM: "Guam"
   STR_HAWAII: "Hawaii"
   STR_MIDWAY_ISLAND: "Midway-Atoll "
-  STR_KURIL_ISLANDS: ""
+  STR_KURIL_ISLANDS: "Kuril-Insel"
   STR_NOME: "Nome"
   STR_STLAWRENCE_ISLAND: "St. Lawrence"
   STR_TONGA: "Tonga"
@@ -1337,9 +1355,9 @@ de:
 # SOUTH PACIFIC CITIES
   STR_EASTER_ISLAND: "Osterinseln"
   STR_GALAPAGOS_ISLAND: "Galapagos-Inseln"
-  STR_PITCAIRN: ""
-  STR_NAURU: ""
-  STR_SAMOA: ""
+  STR_PITCAIRN: "Pitcairn-Inseln"
+  STR_NAURU: "Nauru"
+  STR_SAMOA: "Samoa"
 
 # NORTH ATLANTIC CITIES
   STR_AZORES: "Azuren"
@@ -1353,21 +1371,21 @@ de:
 # SOUTH ATLANTIC CITIES
   STR_ASCENSION_ISLAND: "Ascension"
   STR_FALKLAND_ISLAND: "Malwinen"
-  STR_SAINT_HELENA: ""
+  STR_SAINT_HELENA: "St. Helena-Inseln"
   STR_TRINDADE_ISLAND: "Trindade"
-  STR_TRISTAN: ""
+  STR_TRISTAN: "Trindade-Insel"
 
 # INDIAN OCEAN CITIES
-  STR_DIEGO_GARCIA: ""
-  STR_COCOS_ISLANDS: ""
+  STR_DIEGO_GARCIA: "Diego Garcia"
+  STR_COCOS_ISLANDS: "Kokosinsel"
   STR_MALDIVE_ISLAND: "Malediwen"
   STR_MAURITIUS: "Mauritius"
   STR_SEYCHELLES_ISLAND: "Seychellen"
-  STR_REUNION: ""
+  STR_REUNION: "Wiedervereinigungsinsel"
 
 # ANTARTIC BASES/OUTPOSTS
   STR_VOSTOK: "Wostok"
   STR_MCMURDO: "McMurdo"
   STR_AMUNDSEN: "Amundsen-Scott"
-  STR_BELLINGSHAUSEN: ""
+  STR_BELLINGSHAUSEN: "Bellingshausen"
 #END CITY NAMES
