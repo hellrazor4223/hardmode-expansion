@@ -472,8 +472,34 @@ research:
     points: 25
     listOrder: 204
     dependencies:
+      - STR_PLASMA_CANNON_DEP1
+      - STR_PLASMA_CANNON_DEP2
+      - STR_PLASMA_CANNON_DEP3
+      - STR_PLASMA_CANNON_DEP4
+  - name: STR_PLASMA_CANNON_DEP1
+    dependencies:
+      - STR_PLASMA_SNIPER_RIFLE
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    unlocks:
+      - STR_PLASMA_CANNON
+  - name: STR_PLASMA_CANNON_DEP2
+    dependencies:
+      - STR_PLASMA_SNIPER_RIFLE
+      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    unlocks:
+      - STR_PLASMA_CANNON
+  - name: STR_PLASMA_CANNON_DEP3
+    dependencies:
       - STR_HEAVY_PLASMA
       - STR_HEAVY_PLASMA_CLIP
+    unlocks:
+      - STR_PLASMA_CANNON
+  - name: STR_PLASMA_CANNON_DEP4
+    dependencies:
+      - STR_HEAVY_PLASMA
+      - STR_HEAVY_PLASMA_ELERIUM_CLIP
+    unlocks:
+      - STR_PLASMA_CANNON
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
@@ -722,8 +748,16 @@ research:
     dependencies:
       - STR_PLASMA_WEAPONS
       - STR_PLASMA_PISTOL_UNLOCK
-  - name: STR_PLASMA_PISTOL_UNLOCK
+  - name: STR_PLASMA_PISTOL_ELERIUM_CLIP
+    cost: 750
+    points: 7
+    needItem: true
     listOrder: 604
+    dependencies:
+      - STR_PLASMA_WEAPONS
+      - STR_PLASMA_PISTOL_UNLOCK
+  - name: STR_PLASMA_PISTOL_UNLOCK
+    listOrder: 605
     requires:
       - STR_PLASMA_WEAPONS
     dependencies: *ALL_ALIVE_ENGINEERS
@@ -731,88 +765,163 @@ research:
     cost: 1050
     points: 25
     needItem: true
-    listOrder: 605
+    listOrder: 606
     dependencies: &PLASMA_RIFLE_DEPS
-      - STR_PLASMA_PISTOL
-      - STR_PLASMA_PISTOL_CLIP
+      - STR_PLASMA_RIFLE_DEP1
+      - STR_PLASMA_RIFLE_DEP2
       - STR_PLASMA_RIFLE_UNLOCK
   - name: STR_PLASMA_RIFLE_CLIP
     cost: 600
     points: 6
     needItem: true
-    listOrder: 606
+    listOrder: 607
     dependencies: *PLASMA_RIFLE_DEPS
+  - name: STR_PLASMA_RIFLE_ELERIUM_CLIP
+    cost: 750
+    points: 9
+    needItem: true
+    listOrder: 608
+    dependencies: *PLASMA_RIFLE_DEPS
+  - name: STR_PLASMA_RIFLE_DEP1
+    dependencies:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_CLIP
+    unlocks:
+      - STR_PLASMA_RIFLE_DEP2
+  - name: STR_PLASMA_RIFLE_DEP2
+    dependencies:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_ELERIUM_CLIP
+    unlocks:
+      - STR_PLASMA_RIFLE_DEP1
+  - name: STR_PLASMA_RIFLE_UNLOCK
+    listOrder: 609
+    requires:
+      - STR_PLASMA_RIFLE_DEP1
+      - STR_PLASMA_RIFLE_DEP2
+    dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_PLASMA_SHOTGUN
     cost: 1050
     points: 25
     needItem: true
     listOrder: 607
-    dependencies: *PLASMA_RIFLE_DEPS
+    dependencies: &PLASMA_SHOTGUN_DEPS
+      - STR_PLASMA_SHOTGUN_DEP1
+      - STR_PLASMA_SHOTGUN_DEP2
+      - STR_PLASMA_SHOTGUN_UNLOCK
   - name: STR_PLASMA_SHOTGUN_CLIP
     cost: 600
     points: 6
     needItem: true
     listOrder: 608
-    dependencies: *PLASMA_RIFLE_DEPS
+    dependencies: *PLASMA_SHOTGUN_DEPS
   - name: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     cost: 750
     points: 10
     needItem: true
     listOrder: 609
-    dependencies: *PLASMA_RIFLE_DEPS
+    dependencies: *PLASMA_SHOTGUN_DEPS
+  - name: STR_PLASMA_SHOTGUN_DEP1
+    dependencies:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_CLIP
+    unlocks:
+      - STR_PLASMA_SHOTGUN_DEP2
+  - name: STR_PLASMA_SHOTGUN_DEP2
+    dependencies:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_ELERIUM_CLIP
+    unlocks:
+      - STR_PLASMA_SHOTGUN_DEP1
+  - name: STR_PLASMA_SHOTGUN_UNLOCK
+    listOrder: 610
+    requires:
+      - STR_PLASMA_SHOTGUN_DEP1
+      - STR_PLASMA_SHOTGUN_DEP2
+    dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_PLASMA_SNIPER_RIFLE
     cost: 1050
     points: 25
     needItem: true
-    listOrder: 610
-    dependencies: *PLASMA_RIFLE_DEPS
+    listOrder: 611
+    dependencies: &PLASMA_SNIPER_RIFLE_DEPS
+      - STR_PLASMA_SNIPER_RIFLE_DEP1
+      - STR_PLASMA_SNIPER_RIFLE_DEP2
+      - STR_PLASMA_SNIPER_RIFLE_UNLOCK
   - name: STR_PLASMA_SNIPER_RIFLE_CLIP
     cost: 600
     points: 6
     needItem: true
-    listOrder: 611
+    listOrder: 612
     dependencies: *PLASMA_RIFLE_DEPS
   - name: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
     cost: 750
     points: 10
     needItem: true
-    listOrder: 612
-    dependencies: *PLASMA_RIFLE_DEPS
-  - name: STR_PLASMA_RIFLE_UNLOCK
     listOrder: 613
+    dependencies: *PLASMA_RIFLE_DEPS
+  - name: STR_PLASMA_SNIPER_RIFLE_DEP1
+    dependencies:
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_RIFLE_CLIP
+    unlocks:
+      - STR_PLASMA_SNIPER_RIFLE_DEP2
+  - name: STR_PLASMA_SNIPER_RIFLE_DEP2
+    dependencies:
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_RIFLE_ELERIUM_CLIP
+    unlocks:
+      - STR_PLASMA_SNIPER_RIFLE_DEP1
+  - name: STR_PLASMA_SNIPER_RIFLE_UNLOCK
+    listOrder: 614
     requires:
-      - STR_PLASMA_PISTOL
-      - STR_PLASMA_PISTOL_CLIP
+      - STR_PLASMA_SNIPER_RIFLE_DEP1
+      - STR_PLASMA_SNIPER_RIFLE_DEP2
     dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_HEAVY_PLASMA
     cost: 1200
     points: 30
     needItem: true
-    listOrder: 614
-    dependencies:
-      - STR_PLASMA_RIFLE
-      - STR_PLASMA_RIFLE_CLIP
+    listOrder: 615
+    dependencies: &HEAVY_PLASMA_DEPS
+      - STR_HEAVY_PLASMA_DEP1
+      - STR_HEAVY_PLASMA_DEP2
       - STR_HEAVY_PLASMA_UNLOCK
   - name: STR_HEAVY_PLASMA_CLIP
     cost: 600
     points: 7
     needItem: true
-    listOrder: 615
-    dependencies:
-      - STR_PLASMA_RIFLE
-      - STR_PLASMA_RIFLE_CLIP
-      - STR_HEAVY_PLASMA_UNLOCK
-  - name: STR_HEAVY_PLASMA_UNLOCK
     listOrder: 616
+    dependencies:
+  - name: STR_HEAVY_PLASMA_ELERIUM_CLIP
+    cost: 750
+    points: 11
+    needItem: true
+    listOrder: 617
+    dependencies:
+  - name: STR_HEAVY_PLASMA_DEP1
+    dependencies:
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_CLIP
+    unlocks:
+      - STR_HEAVY_PLASMA_DEP2
+  - name: STR_HEAVY_PLASMA_DEP2
+    dependencies:
+      - STR_PLASMA_SHOTGUN
+      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    unlocks:
+      - STR_HEAVY_PLASMA_DEP1
+  - name: STR_HEAVY_PLASMA_UNLOCK
+    listOrder: 618
     requires:
-      - STR_PLASMA_RIFLE
-      - STR_PLASMA_RIFLE_CLIP
+      - STR_HEAVY_PLASMA_DEP1
+      - STR_HEAVY_PLASMA_DEP2
     dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_SMALL_LAUNCHER
     cost: 825
     points: 30
     needItem: true
-    listOrder: 617
+    listOrder: 619
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_SMALL_LAUNCHER_UNLOCK
@@ -820,7 +929,7 @@ research:
     cost: 270
     points: 10
     needItem: true
-    listOrder: 618
+    listOrder: 620
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_SMALL_LAUNCHER_UNLOCK
@@ -828,7 +937,7 @@ research:
     cost: 270
     points: 10
     needItem: true
-    listOrder: 619
+    listOrder: 621
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_SMALL_LAUNCHER_UNLOCK
@@ -836,7 +945,7 @@ research:
     cost: 270
     points: 10
     needItem: true
-    listOrder: 619
+    listOrder: 622
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_SMALL_LAUNCHER_UNLOCK
@@ -844,12 +953,12 @@ research:
     cost: 270
     points: 10
     needItem: true
-    listOrder: 619
+    listOrder: 623
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_SMALL_LAUNCHER_UNLOCK
-    listOrder: 620
+    listOrder: 624
     requires:
       - STR_LAUNCHER_WEAPONS
     dependencies: *ALL_ALIVE_ENGINEERS
@@ -857,7 +966,7 @@ research:
     cost: 1350
     points: 10
     needItem: true
-    listOrder: 621
+    listOrder: 625
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_ALIEN_DATA_CORE
@@ -866,13 +975,13 @@ research:
     cost: 450
     points: 10
     needItem: true
-    listOrder: 622
+    listOrder: 626
     dependencies:
       - STR_LAUNCHER_WEAPONS
       - STR_ALIEN_DATA_CORE
       - STR_BLASTER_LAUNCHER_UNLOCK
   - name: STR_BLASTER_LAUNCHER_UNLOCK
-    listOrder: 623
+    listOrder: 627
     requires:
       - STR_LAUNCHER_WEAPONS
       - STR_ALIEN_DATA_CORE
@@ -880,7 +989,7 @@ research:
   - name: STR_FUSION_MISSILE
     cost: 1720
     points: 25
-    listOrder: 624
+    listOrder: 628
     dependencies:
       - STR_BLASTER_LAUNCHER
       - STR_BLASTER_BOMB
@@ -888,26 +997,26 @@ research:
     cost: 300
     points: 20
     needItem: true
-    listOrder: 625
+    listOrder: 629
     dependencies:
       - STR_ELERIUM_115
   - name: STR_ELERIUM_115
     cost: 675
     points: 60
     needItem: true
-    listOrder: 626
+    listOrder: 630
   - name: STR_MIND_PROBE
     cost: 900
     points: 25
     needItem: true
-    listOrder: 627
+    listOrder: 631
     dependencies:
       - STR_ELERIUM_115
   - name: STR_ALIEN_DATA_SLATE
     cost: 500
     points: 50
     needItem: true
-    listOrder: 628
+    listOrder: 632
     dependencies:
       - STR_ALIEN_ALLOYS
       - STR_ELERIUM_115
@@ -916,7 +1025,7 @@ research:
     cost: 800
     points: 50
     needItem: true
-    listOrder: 629
+    listOrder: 633
     dependencies:
       - STR_ALIEN_DATA_SLATE
       - STR_ALIEN_ORIGINS
