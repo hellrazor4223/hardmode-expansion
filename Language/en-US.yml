@@ -440,17 +440,20 @@ en-US:
   STR_PLASMA_SWORD_UFOPEDIA: "This lethal implement of sword combines a large blade, a micron thick at the edge, a plasma emitter, and an electromagnet. When activated, hot plasma floods the EM field surrounding the blade, superheating it to the point where its touch would make titanium run like water."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: "Plasma Pistol Elerium Clip"
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: "A enhanced version of the power source for the small alien Plasma Pistol. It contains a unknown and not reproduceable  special spatial configuration of Elerium the source of all alien power."
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: "Plasma Rifle Elerium Clip"
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Rifle can accept. Enhanced firepower to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of Elerium."
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: "Heavy Plasma Elerium Clip"
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: "This enhanced ammo for the Heavy Plasma is based directly on Elerium, it has enourmus destructive Power and it contains a very large quantity of Elerium."
 
   STR_PLASMA_SHOTGUN: "Plasma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plasma Shotgun Shells"
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: "Plasma Shotgun Elerium Shells"
   STR_PLASMA_SHOTGUN_UFOPEDIA: "We were confused by this weapon at first but testing in the lab revealed that the rather diffuse beam it emits is extremely devastating up close but relatively ineffective at long range."
-  STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept.  When in use they cause it to emit a powerful pulse of plasma energy.  It contains a small quantity of Elerium."
-  STR_PLASMA_SHOTGUN_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept. When in use they cause it to discharge a burst of anti-matter that destroys anything it touches.  It contains a large quantity of Elerium."
+  STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept.  When in use they cause it to emit a powerful pulse of plasma energy. It contains a small quantity of Elerium."
+  STR_PLASMA_SHOTGUN_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept. When in use they cause it to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of Elerium."
 
   STR_PLASMA_SNIPER_RIFLE: "Plasma Sniper Rifle"
   STR_PLASMA_SNIPER_RIFLE_CLIP: "Plasma Sniper Rifle Clip"
