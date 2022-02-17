@@ -892,13 +892,13 @@ research:
     points: 7
     needItem: true
     listOrder: 616
-    dependencies:
+    dependencies: *HEAVY_PLASMA_DEPS
   - name: STR_HEAVY_PLASMA_ELERIUM_CLIP
     cost: 750
     points: 11
     needItem: true
     listOrder: 617
-    dependencies:
+    dependencies: *HEAVY_PLASMA_DEPS
   - name: STR_HEAVY_PLASMA_DEP1
     dependencies:
       - STR_PLASMA_SHOTGUN
