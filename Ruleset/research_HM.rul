@@ -176,34 +176,41 @@ research:
     listOrder: 34
     dependencies:
       - STR_ALIEN_ALLOYS
+  - name: STR_EHE_AMMO
+    cost: 100
+    points: 25
+    listOrder: 35
+    dependencies:
+      - STR_ALLOY_AMMO
+      - STR_ELERIUM_ROCKET
   - name: STR_LASER_WEAPONS
     cost: 150
     points: 10
-    listOrder: 35
+    listOrder: 36
     dependencies:
       - STR_ALIEN_DATA_SLATE
   - name: STR_LAUNCHER_WEAPONS
     cost: 300
     points: 20
-    listOrder: 36
+    listOrder: 37
     dependencies:
       - STR_ALIEN_GRENADE
       - STR_ALIEN_DATA_SLATE
   - name: STR_PLASMA_WEAPONS
     cost: 200
     points: 20
-    listOrder: 37
+    listOrder: 38
     dependencies:
       - STR_ALIEN_DATA_SLATE
       - STR_ALIEN_DATA_CORE
   - name: STR_ALIEN_BIOLOGY
     cost: 300
     points: 20
-    listOrder: 38
+    listOrder: 39
     dependencies:
       - STR_ALIEN_BIOLOGY_UNLOCK
   - name: STR_ALIEN_BIOLOGY_UNLOCK
-    listOrder: 39
+    listOrder: 40
     dependencies:
       - STR_FLOATER_CORPSE
       - STR_SECTOID_CORPSE
@@ -230,29 +237,29 @@ research:
   - name: STR_ALIEN_LANGUAGE
     cost: 300
     points: 20
-    listOrder: 40
+    listOrder: 41
     dependencies:
       - STR_ALIEN_LANGUAGE_UNLOCK
   - name: STR_ALIEN_LANGUAGE_UNLOCK
-    listOrder: 41
+    listOrder: 42
     requires:
       - STR_THE_ALIEN_THREAT
     dependencies: *ALL_ALIVE_ALIENS
   - name: STR_ALIEN_POWER_SYSTEMS
     cost: 300
     points: 20
-    listOrder: 42
+    listOrder: 43
     dependencies:
       - STR_ALIEN_ALLOYS
       - STR_ELERIUM_115
   - name: STR_PSIONICS
     cost: 300
     points: 20
-    listOrder: 43
+    listOrder: 44
     dependencies:
       - STR_PSIONICS_UNLOCK
   - name: STR_PSIONICS_UNLOCK
-    listOrder: 44
+    listOrder: 45
     requires:
       - STR_THE_ALIEN_THREAT
     dependencies:

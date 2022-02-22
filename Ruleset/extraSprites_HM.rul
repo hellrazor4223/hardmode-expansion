@@ -32,7 +32,9 @@ extraSprites:
       108: Resources/Items/Xcom/SniperRifle/BigOb_SniperRifle_Clip.png
       109: Resources/Items/Xcom/SniperRifle/BigOb_SniperRifle_AlienAlloy_Clip.png
       110: Resources/Items/Xcom/HeavyCannon/BigOb_HeavyCannon_AlienAlloy_Clip.png
+      195: Resources/Items/Xcom/HeavyCannon/BigOb_HeavyCannon_EleriumHighExplosive_Clip.png
       111: Resources/Items/Xcom/AutoCannon/BigOb_AutoCannon_AlienAlloy_Clip.png
+      196: Resources/Items/Xcom/AutoCannon/BigOb_AutoCannon_EleriumHighExplosive_Clip.png
       152: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher.png
       153: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_HE_Ammo.png
       154: Resources/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_IC_Ammo.png
@@ -146,7 +148,9 @@ extraSprites:
       106: Resources/Items/Xcom/SniperRifle/FloorOb_SniperRifle_Clip.png
       176: Resources/Items/Xcom/SniperRifle/FloorOb_SniperRifle_AA_Clip.png
       174: Resources/Items/Xcom/HeavyCannon/FloorOb_HeavyCannon_AA_Clip.png
+      207: Resources/Items/Xcom/HeavyCannon/FloorOb_HeavyCannon_EHE_Clip.png
       175: Resources/Items/Xcom/AutoCannon/FloorOb_AutoCannon_AA_Clip.png
+      208: Resources/Items/Xcom/AutoCannon/FloorOb_AutoCannon_EHE_Clip.png
       149: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher.png
       150: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_HE_Ammo.png
       151: Resources/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_IC_Ammo.png
@@ -279,10 +283,12 @@ extraSprites:
       176: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_HE_Clip.png
       184: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_IN_Clip.png
       560: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_AA_Clip.png
+      656: Resources/Items/Xcom/HeavyCannon/HandOb_HeavyCannon_EHE_Clip.png
       192: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_AP_Clip.png
       200: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_HE_Clip.png
       208: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_IN_Clip.png
       552: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_AA_Clip.png
+      664: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon_EHE_Clip.png
       448: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher.png
       472: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher_HE_Ammo.png
       480: Resources/Items/Xcom/GrenadeLauncher/HandOb_GrenadeLauncher_IC_Ammo.png
@@ -403,7 +409,9 @@ extraSprites:
     subY: 3
     files:
       875: Resources/Items/BulletSprite_PlasmaElerium.png
-##END PROJECTILES 25
+      910: Resources/Items/Xcom/HeavyCannon/BulletSprite_HeavyCannon_EHE.png
+      945: Resources/Items/Xcom/AutoCannon/BulletSprite_AutoCannon_EHE.png
+##END PROJECTILES ##INDEX 27
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
 #BEGIN HIT

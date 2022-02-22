@@ -61,27 +61,35 @@ ufopaedia:
     text: STR_ALLOY_AMMO_UFOPEDIA
     text_width: 158
     listOrder: 34
+  - id: STR_EHE_AMMO
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_EHE_AMMO
+    text: STR_EHE_AMMO_UFOPEDIA
+    text_width: 158
+    listOrder: 35
   - id: STR_ALLOY_AIRFRAME
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ALLOY_AIRFRAME
     text: STR_ALLOY_AIRFRAME_UFOPEDIA
-    listOrder: 35
+    listOrder: 36
   - id: STR_ALLOY_TANK_ARMOR
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_ALLOY_TANK_ARMOR
     text: STR_ALLOY_TANK_ARMOR_UFOPEDIA
-    listOrder: 36
+    listOrder: 37
   - id: STR_ALLOY_DRONE_ARMOR
     requires:
       - STR_ALLOY_DRONE_ARMOR
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_ALLOY_DRONE_ARMOR_UFOPEDIA
-    listOrder: 37
+    listOrder: 38
   - id: STR_LASER_WEAPONS
     type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -90,14 +98,14 @@ ufopaedia:
     image_id: LASER_WEAPONS.SPK
     text: STR_LASER_WEAPONS_UFOPEDIA
     text_width: 148
-    listOrder: 38
+    listOrder: 39
   - id: STR_HOVERTANK
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_HOVERTANK
     text: STR_HOVERTANK_UFOPEDIA
-    listOrder: 39
+    listOrder: 40
 #END XCOM RESEARCH REPORT UFOPAEDIAS
 
 #BEGIN XCOM NEWS UFOPAEDIAS
@@ -820,6 +828,14 @@ ufopaedia:
   - id: STR_HEAVY_CANNON
     section: STR_BASE_FACILITIES
     listOrder: 4200
+  - id: STR_HC_UFOPAEDIA_PAGE_2
+    section: STR_BASE_FACILITIES
+    title: STR_HEAVY_CANNON
+    type_id: 4
+    text: STR_HEAVY_CANNON_UFOPEDIA
+    requires:
+      - STR_ALLOY_AMMO
+    listOrder: 4201
   - id: STR_HC_AP_AMMO
     section: STR_NOT_AVAILABLE
     listOrder: 4300
@@ -838,12 +854,27 @@ ufopaedia:
     requires:
       - STR_ALLOY_AMMO
     listOrder: 4501
+  - id: STR_HC_EHE_AMMO
+    section: STR_BASE_FACILITIES
+    type_id: 4
+    text: STR_HC_EHE_AMMO_UFOPEDIA
+    requires:
+      - STR_EHE_AMMO
+    listOrder: 4502
 #END HEAVY CANNON UFOPAEDIA
 
 #BEGIN AUTO CANNON UFOPAEDIA
   - id: STR_AUTO_CANNON
     section: STR_BASE_FACILITIES
     listOrder: 4600
+  - id: STR_AC_UFOPAEDIA_PAGE_2
+    section: STR_BASE_FACILITIES
+    title: STR_AUTO_CANNON
+    type_id: 4
+    text: STR_AUTO_CANNON_UFOPEDIA
+    requires:
+      - STR_ALLOY_AMMO
+    listOrder: 4601
   - id: STR_AC_AP_AMMO
     section: STR_NOT_AVAILABLE
     listOrder: 4700
@@ -862,6 +893,13 @@ ufopaedia:
     requires:
       - STR_ALLOY_AMMO
     listOrder: 4901
+  - id: STR_AC_EHE_AMMO
+    type_id: 4
+    section: STR_BASE_FACILITIES
+    text: STR_AC_EHE_AMMO_UFOPEDIA
+    requires:
+      - STR_EHE_AMMO
+    listOrder: 4902
 #END AUTO CANNON UFOPAEDIA
 
 #BEGIN GRENADE LAUNCHER UFOPAEDIA

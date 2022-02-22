@@ -251,7 +251,6 @@ items:
     hitSound: 54
     hitAnimation: 110
     power: 30
-    blastRadius: 0
     damageType: 6
     battleType: 2
     clipSize: 12
@@ -479,7 +478,6 @@ items:
     hitSound: 54
     hitAnimation: 110
     power: 90
-    blastRadius: 0
     damageType: 6
     battleType: 2
     clipSize: 24
@@ -1382,7 +1380,6 @@ items:
     handSprite: 600
     hitSound: 54
     hitAnimation: 100
-    blastRadius: 0 
     power: 40
     damageType: 6
     clipSize: 10
@@ -1490,7 +1487,7 @@ items:
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
-    power: 25
+    power: 26
     damageType: 1
     clipSize: 12
     battleType: 2
@@ -1509,7 +1506,7 @@ items:
     bulletSprite: 20
     hitSound: 22
     hitAnimation: 26
-    power: 45
+    power: 46
     damageType: 1
     clipSize: 12
     battleType: 2
@@ -1556,7 +1553,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11
-    power: 45
+    power: 48
     damageType: 1
     clipSize: 10
     battleType: 2
@@ -1574,7 +1571,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 23
-    power: 55
+    power: 72
     damageType: 1
     clipSize: 10
     battleType: 2
@@ -1590,29 +1587,59 @@ items:
       - STR_HC_HE_AMMO
       - STR_HC_I_AMMO
       - STR_HC_AA_AMMO
+      - STR_HC_EHE_AMMO
     accuracySnap: 70
     accuracyAimed: 100
     armor: 20
+    listOrder: 2300
+    snapRange: 24
+    droppoff: 4
+  - type: STR_HC_UFOPAEDIA_PAGE_2
+    name: STR_HEAVY_CANNON
+    size: 0.3
+    weight: 16
+    bigSprite: 11
+    floorSprite: 11
+    handSprite: 24
+    bulletSprite: 4
+    fireSound: 12
+    compatibleAmmo:
+      - STR_HC_AA_AMMO
+      - STR_HC_EHE_AMMO
+    accuracySnap: 70
+    accuracyAimed: 100
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 20
+    listOrder: 2301
+    snapRange: 24
     droppoff: 4
   - type: STR_HC_AP_AMMO
     weight: 5
     handSprite: 168
     armor: 20
+    listOrder: 2400
   - type: STR_HC_HE_AMMO
     weight: 5
     requires:
       - STR_EXPLOSIVE_AMMO
     handSprite: 176
     armor: 20
+    listOrder: 2500
   - type: STR_HC_I_AMMO
     weight: 5
     handSprite: 184
     armor: 20
+    listOrder: 2600
   - type: STR_HC_AA_AMMO
     requires:
       - STR_ALLOY_AMMO
     size: 0.1
-    costSell: 450
+    costSell: 800
     weight: 5
     bigSprite: 110
     floorSprite: 174
@@ -1620,39 +1647,89 @@ items:
     hitSound: 13
     hitAnimation: 26
     bulletSprite: 22
-    power: 66
+    power: 84
     damageType: 1
     clipSize: 6
     battleType: 2
     armor: 30
     invWidth: 2
     invHeight: 1
-    listOrder: 2401
+    listOrder: 2601
+  - type: STR_HC_EHE_AMMO
+    requires:
+      - STR_EHE_AMMO
+    size: 0.1
+    costSell: 900
+    weight: 5
+    bigSprite: 195
+    floorSprite: 207
+    handSprite: 656
+    hitSound: 0
+    hitAnimation: 0
+    bulletSprite: 26
+    power: 78
+    damageType: 3
+    clipSize: 6
+    battleType: 2
+    blastRadius: 5
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    listOrder: 2602
 #END HEAVY CANNON ITEM
 
 #BEGIN AUTO CANNON ITEM
   - type: STR_AUTO_CANNON
-    weight: 16
     compatibleAmmo:
       - STR_AC_AP_AMMO
       - STR_AC_HE_AMMO
       - STR_AC_I_AMMO
       - STR_AC_AA_AMMO
+      - STR_AC_EHE_AMMO
     armor: 20
+    listOrder: 2700
+    droppoff: 4
+  - type: STR_AC_UFOPAEDIA_PAGE_2
+    size: 0.3
+    weight: 16
+    bigSprite: 7
+    floorSprite: 7
+    handSprite: 32
+    bulletSprite: 3
+    fireSound: 12
+    compatibleAmmo:
+      - STR_AC_AA_AMMO
+      - STR_AC_EHE_AMMO
+    accuracyAuto: 40
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuAuto: 40
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 20
+    listOrder: 2701
     droppoff: 4
   - type: STR_AC_AP_AMMO
     weight: 5
     handSprite: 192
     armor: 20
+    listOrder: 2800
   - type: STR_AC_HE_AMMO
     weight: 5
     requires:
       - STR_EXPLOSIVE_AMMO
     handSprite: 200
     armor: 20
+    listOrder: 2900
   - type: STR_AC_I_AMMO
     weight: 5
     handSprite: 208
+    armor: 20
+    listOrder: 3000
   - type: STR_AC_AA_AMMO
     requires:
       - STR_ALLOY_AMMO
@@ -1665,14 +1742,35 @@ items:
     hitSound: 13
     hitAnimation: 26
     bulletSprite: 21
-    power: 52
+    power: 63
     damageType: 1
     clipSize: 14
     battleType: 2
     armor: 20
     invWidth: 2
     invHeight: 1
-    listOrder: 2801
+    listOrder: 3001
+  - type: STR_AC_EHE_AMMO
+    requires:
+      - STR_EHE_AMMO
+    size: 0.1
+    costSell: 900
+    weight: 5
+    bigSprite: 196
+    floorSprite: 208
+    handSprite: 664
+    hitSound: 0
+    hitAnimation: 0
+    bulletSprite: 27
+    power: 66
+    damageType: 3
+    clipSize: 14
+    battleType: 2
+    blastRadius: 4
+    armor: 20
+    invWidth: 2
+    invHeight: 1
+    listOrder: 3002
 #END AUTO CANNON ITEM
 
 #BEGIN GRENADE LAUNCHER ITEM
@@ -1766,16 +1864,44 @@ items:
       - STR_INCENDIARY_ROCKET
       - STR_ELERIUM_ROCKET
     armor: 20
+    listOrder: 3100
+    snapRange: 24
+    droppoff: 3
+  - type: STR_ROCKET_LAUNCHER_UFOPAEDIA_PAGE_2
+    size: 0.4
+    weight: 10
+    bigSprite: 15
+    floorSprite: 15
+    handSprite: 72
+    bulletSprite: 0
+    fireSound: 52
+    compatibleAmmo:
+      - STR_ELERIUM_ROCKET
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 20
+    listOrder: 3101
+    snapRange: 24
     droppoff: 3
   - type: STR_SMALL_ROCKET
+    power: 80
     handSprite: 216
     armor: 20
+    listOrder: 3200
   - type: STR_LARGE_ROCKET
     handSprite: 224
     armor: 20
+    listOrder: 3300
   - type: STR_INCENDIARY_ROCKET
     handSprite: 232
     armor: 20
+    listOrder: 3400
   - type: STR_ELERIUM_ROCKET
     requires:
       - STR_ELERIUM_ROCKET
@@ -2441,6 +2567,32 @@ items:
     attraction: 10
     arcingShot: true
     listOrder: 5600
+    dropoff: 2
+  - type: STR_SMALL_LAUNCHER_UFOPAEDIA_PAGE_2
+    requires:
+      - STR_SMALL_LAUNCHER
+    size: 0.2
+    weight: 10
+    bigSprite: 37
+    floorSprite: 36
+    handSprite: 64
+    bulletSprite: 9
+    fireSound: 53
+    compatibleAmmo:
+      - STR_SMOKE_BOMB
+    accuracySnap: 65
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 4
+    armor: 50
+    attraction: 10
+    arcingShot: true
+    listOrder: 5601
     dropoff: 2
   - type: STR_STUN_BOMB
     handSprite: 376

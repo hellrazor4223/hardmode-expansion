@@ -2087,6 +2087,22 @@ manufacture:
     listOrder: 886
 #END HEAVY CANNON AA CLIP MANU
 
+#BEGIN HEAVY CANNON EHE CLIP MANU
+  - name: STR_HC_EHE_AMMO
+    category: STR_AMMUNITION
+    requires:
+      - STR_EHE_AMMO
+    space: 2
+    time: 60
+    cost: 3800
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_HC_EHE_AMMO: 1
+    listOrder: 887
+#END HEAVY CANNON EHE CLIP MANU
+
 #BEGIN AUTO CANNON AA CLIP MANU
   - name: STR_AC_AA_AMMO
     category: STR_AMMUNITION
@@ -2096,11 +2112,27 @@ manufacture:
     time: 50
     cost: 3000
     requiredItems:
-      STR_ALIEN_ALLOYS: 2
+      STR_ALIEN_ALLOYS: 1
     producedItems:
       STR_AC_AA_AMMO: 1
-    listOrder: 887
+    listOrder: 888
 #END AUTO CANNON AA CLIP MANU
+
+#BEGIN AUTO CANNON EHE CLIP MANU
+  - name: STR_AC_EHE_AMMO
+    category: STR_AMMUNITION
+    requires:
+      - STR_EHE_AMMO
+    space: 2
+    time: 60
+    cost: 3800
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_AC_EHE_AMMO: 1
+    listOrder: 889
+#END AUTO CANNON EHE CLIP MANU
 
 #BEGIN ELERIUM ROCKET MANU
   - name: STR_ELERIUM_ROCKET
@@ -2112,7 +2144,7 @@ manufacture:
     cost: 10000
     requiredItems:
       STR_ELERIUM_115: 3
-    listOrder: 888
+    listOrder: 890
 #END ELERIUM ROCKET MANU
 
 #BEGIN LASER PISTOL MANU
