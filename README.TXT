@@ -177,6 +177,7 @@ Additional Alien Weapons:
 	Fire Bomb for Small Launcher
 	Aliens will keep most weaponry through the game
 	Aliens have all weapons avaible from start
+	Aliens have a secondary clip type granting +20 Damage to all Plasma Weapons
 
 Additional Alien UFOs:
 	Fighter (9 Maps)
@@ -212,7 +213,9 @@ Additional X-Com Weapons:
 	Fire Grenade
 
 All kinetic weapons also get Alloy Ammo once researched.
-Alloy Ammo adds +10 Damage on top of convential AP Ammo.
+Alloy Ammo adds +10 Damage for Pistols and Rifles on top of convential AP Ammo.
+Shotguns, Sniper Rifles, Heavy Cannons and Auto Cannons get a 1,5 factor for AP Ammo.
+Heavy Cannons and Auto Cannons have access to Elerium-115 enhanced explosive ammunition.
 
 Also 3 Medikits, one available from start, the others are researchable.
 Research is Corpsebased and also requires Storyitems.
@@ -342,9 +345,6 @@ Partially Supported Languages (50%+):
 Future planned additions:
 	More translations
 	Some 20x20 Maps Modules for Mars Terrain
-	Intermediate Third Stage for Final Mission
 	Armed Humans for Terrormissions and Other Missions
-	Alien Commandship
 	Special Mission to aquire the Alien Data Slate (not done)
 	Special Mission to aquire the Alien Data Core (not done) 
-	Special Mission to aquire the Psi Amp (not done)

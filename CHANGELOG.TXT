@@ -1,6 +1,7 @@
 Changelog:
 
 Version 0.99.8
+ - Add Elerium High Explosive Ammo for Heavy Cannon and Auto Cannon
  - Add EleriumClips for Aliens
  - Add more Civilians
  - Add Chryssalid Spitter Zombie
@@ -42,6 +43,8 @@ Version 0.99.8
  - Fix wrong Map tiles for EXPANDEDUBASE_21b/d
  - Fix wrong manufacture dependency for Alloy Drone Medikit
  - Rebalance Taser Drones
+ - Rebalance Armored Sectopod
+ - Rebalance Alloy Ammo
  - Remove AREA51 Terrains as requested from Hobbes
  - Remove IMPROVEDGLOBE.DAT as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane
