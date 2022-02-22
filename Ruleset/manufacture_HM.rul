@@ -2263,9 +2263,27 @@ manufacture:
 
 #BEGIN PLASMA PISTOL MANU
   - name: STR_PLASMA_PISTOL
+    requires:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_CLIP
+      - STR_PLASMA_PISTOL_ELERIUM_CLIP
     listOrder: 1500
   - name: STR_PLASMA_PISTOL_CLIP
+    requires:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_CLIP
     listOrder: 1600
+  - name: STR_PLASMA_PISTOL_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_PISTOL
+      - STR_PLASMA_PISTOL_ELERIUM_CLIP
+    space: 4
+    time: 80
+    cost: 2350
+    requiredItems:
+      STR_ELERIUM_115: 2
+    listOrder: 1601
 #END PLASMA PISTOL MANU
 
 #BEGIN PLASMA RIFLE MANU
@@ -2274,6 +2292,7 @@ manufacture:
     requires:
       - STR_PLASMA_RIFLE
       - STR_PLASMA_RIFLE_CLIP
+      - STR_PLASMA_RIFLE_ELERIUM_CLIP
     space: 4
     time: 820
     cost: 88000
@@ -2281,7 +2300,21 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
     listOrder: 1700
   - name: STR_PLASMA_RIFLE_CLIP
+    requires:
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_RIFLE_CLIP
     listOrder: 1800
+  - name: STR_PLASMA_RIFLE_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_PLASMA_RIFLE
+      - STR_PLASMA_RIFLE_ELERIUM_CLIP
+    space: 4
+    time: 90
+    cost: 3850
+    requiredItems:
+      STR_ELERIUM_115: 4
+    listOrder: 1801
 #END PLASMA RIFLE MANU
 
 #BEGIN PLASMA SHOTGUN MANU
@@ -2290,6 +2323,7 @@ manufacture:
     requires: 
       - STR_PLASMA_SHOTGUN
       - STR_PLASMA_SHOTGUN_CLIP
+      - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     space: 5
     time: 840
     cost: 96000
@@ -2326,6 +2360,7 @@ manufacture:
     requires:
       - STR_PLASMA_SNIPER_RIFLE
       - STR_PLASMA_SNIPER_RIFLE_CLIP
+      - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
     space: 4
     time: 890
     cost: 102000
@@ -2360,6 +2395,7 @@ manufacture:
     requires:
       - STR_HEAVY_PLASMA
       - STR_HEAVY_PLASMA_CLIP
+      - STR_HEAVY_PLASMA_ELERIUM_CLIP
     space: 4
     time: 1000
     cost: 122000
@@ -2376,6 +2412,16 @@ manufacture:
     requiredItems:
       STR_ELERIUM_115: 4
     listOrder: 2000
+  - name: STR_HEAVY_PLASMA_ELERIUM_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HEAVY_PLASMA_ELERIUM_CLIP
+    space: 4
+    time: 100
+    cost: 8800
+    requiredItems:
+      STR_ELERIUM_115: 6
+    listOrder: 2001
 #END HEAVY PLASMA MANU
 
 #BEGIN SMALL LAUNCHER MANU

@@ -869,25 +869,33 @@ ufopaedia:
     type_id: 4
     section: STR_BASE_FACILITIES
     text: STR_GRENADE_LAUNCHER_UFOPEDIA
-    listOrder: 4902
+    listOrder: 4903
   - id: STR_GRENADE_LAUNCHER_HE_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-    listOrder: 4903
+    listOrder: 4904
   - id: STR_GRENADE_LAUNCHER_IC_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-    listOrder: 4904
+    listOrder: 4905
   - id: STR_GRENADE_LAUNCHER_SMOKE_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-    listOrder: 4905
+    listOrder: 4906
 #END GRENADE LAUNCHER UFOPAEDIA
 
 #BEGIN ROCKET LAUNCHER UFOPAEDIA
   - id: STR_ROCKET_LAUNCHER
     section: STR_BASE_FACILITIES
     listOrder: 5000
+  - id: STR_ROCKET_LAUNCHER_UFOPAEDIA_PAGE_2
+    section: STR_BASE_FACILITIES
+    title: STR_ROCKET_LAUNCHER
+    type_id: 4
+    text: STR_ROCKET_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_ELERIUM_ROCKET
+    listOrder: 5001
   - id: STR_SMALL_ROCKET
     section: STR_NOT_AVAILABLE
     listOrder: 5100
@@ -1185,6 +1193,15 @@ ufopaedia:
   - id: STR_SMALL_LAUNCHER
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 7200
+  - id: STR_SMALL_LAUNCHER_UFOPAEDIA_PAGE_2
+    section: STR_ALIEN_LIFE_FORMS
+    title: STR_SMALL_LAUNCHER
+    type_id: 4
+    text: STR_SMALL_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_SMALL_LAUNCHER
+      - STR_SMOKE_BOMB
+    listOrder: 7201
   - id: STR_STUN_BOMB
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 7300

@@ -38,14 +38,17 @@ en-US:
   STR_SUPPORT_DRONES: "Support Drones"
   STR_SUPPORT_DRONES_UFOPEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
 
-  STR_EXPLOSIVE_AMMO: "Explosive Ammo"
-  STR_EXPLOSIVE_AMMO_UFOPEDIA: "Our advanced infantry weapons, the Heavy Cannon and the Auto Cannon can now also fire explosive rounds, which do HE damage. We have supplied our main weapon contractor with the plans and scematics to make this kind of ammo."
+  STR_EXPLOSIVE_AMMO: "Explosive Ammunition"
+  STR_EXPLOSIVE_AMMO_UFOPEDIA: "Our advanced infantry weapons, the Heavy Cannon and the Auto Cannon can now also fire explosive rounds, which do HE damage. We have supplied our main weapon contractor with the plans and scematics to make this kind of ammunition."
 
   STR_ALLOY_AMMO: "Alien Alloy Ammunition"
   STR_ALLOY_AMMO_UFOPEDIA: "With the knowledge of how to process the ultra-strong yet lightweight alien alloys, we can now manufacture alloy bullets capable of withstanding higher muzzle velocities without disintegrating, fired from alloy casings that are lighter yet stronger than previously possible."
 
+  STR_EHE_AMMO: "Elerium Explosive Ammunition"
+  STR_EHE_AMMO_UFOPEDIA: "The combination of Alien Alloys for shell casings and the newly discovered element Elerium-115, allows for more deadly area of effect explosive rounds for our conventional weapons, the Heavy Cannon and Auto Cannon. Caution is advised, when using this kind ammunition in close quarters, wearing armor is highly recommended."
+
   STR_ALLOY_AIRFRAME: "Alien Alloy Airframe"
-  STR_ALLOY_AIRFRAME_UFOPEDIA: "With our now basic understanding on how to shape and form the newly discovered Alien Alloys, we might be able to produce new improved airframes for our interceptors. It is even suspected that we may improve our troops transporters, once initial testing with the enhanced Airframes have been conducted."
+  STR_ALLOY_AIRFRAME_UFOPEDIA: "With our now basic understanding on how to shape and form the newly discovered Alien Alloys, we might be able to produce new improved airframes for our aircrafts. Improving our troops transporters should be our first priority. After initial testing with the enhanced Airframes has been conducted, development for a Alien Alloy interceptor airframe can begin."
 
   STR_ALLOY_TANK_ARMOR: "Alloy HWP Armor"
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: "The great success, we achieved with improving our air interception and air transport capabilities with Alien Alloys, was giving one of our engineering teams some great ideas on how to apply this new knowledge to our Heavy Weapon Platforms. After some initial research, we were able to enhance the armor and speed of them, using Alien Alloys. As a side effect our targetting modules could be increased, resulting in better aim and reactions for the Heavy Weapon Platforms."
@@ -392,10 +395,14 @@ en-US:
   STR_SNIPER_RIFLE_AA_CLIP: "Sniper Rifle Alloy Clip"
   STR_SNIPER_RIFLE_UFOPEDIA: "This 12.7-mm caliber sniper rifle is more powerful than a standard rifle and has excellent accuracy. However, it is harder to use and has a low rate of fire."
 
-  STR_HC_AA_AMMO: "HC-AP Alloy Ammo"
+  STR_HC_AA_AMMO: "HC-AP Alloy Ammunition"
   STR_HC_AA_AMMO_UFOPEDIA: "This clip for the Heavy Cannon is made with Alien Alloys for increased power."
-  STR_AC_AA_AMMO: "AC-AP Alloy Ammo"
+  STR_HC_EHE_AMMO: "HC-EHE Elerium HE Ammunition"
+  STR_HC_EHE_AMMO_UFOPEDIA: "This clip for the Heavy Cannon combines Alien Alloys and Elerium-115 into one deadly area of effect explosive shell. Beware of the blast radius, when used in close quarter combat."
+  STR_AC_AA_AMMO: "AC-AP Alloy Ammunition"
   STR_AC_AA_AMMO_UFOPEDIA: "This clip for the Auto Cannon is made with Alien Alloys for increased power."
+  STR_AC_EHE_AMMO: "AC-EHE Elerium HE Ammunition"
+  STR_AC_EHE_AMMO_UFOPEDIA: "This clip for the Auto Cannon combines Alien Alloys and Elerium-115 into one deadly area of effect explosive shell. Beware of the blast radius, when used in close quarter combat."
 
   STR_GRENADE_LAUNCHER: "Grenade Launcher"
   STR_GRENADE_LAUNCHER_HE_AMMO: "40mm Grenade (HE)"
@@ -446,7 +453,7 @@ en-US:
   STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Rifle can accept. Enhanced firepower to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of Elerium."
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: "Heavy Plasma Elerium Clip"
-  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: "This enhanced ammo for the Heavy Plasma is based directly on Elerium, it has enourmus destructive Power and it contains a very large quantity of Elerium."
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: "This enhanced ammunition for the Heavy Plasma is based directly on Elerium, it has enourmus destructive Power and it contains a very large quantity of Elerium."
 
   STR_PLASMA_SHOTGUN: "Plasma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plasma Shotgun Shells"
@@ -460,7 +467,7 @@ en-US:
   STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP: "Plasma Sniper Rifle Elerium Clip"
   STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "This is an extremely precise and powerful weapon based on accelerating particles from within a minute anti-gravity field."
   STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "This small object is used as a power source for a Plasma Sniper Rifle - a precision alien weapon.  Contains a small quantity of Elerium."
-  STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP_UFOPEDIA: "This ammo for the Plasma Sniper Rifle is based directly on Elerium, it has enourmus destructive Power and it contains a large quantity of Elerium."
+  STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP_UFOPEDIA: "This ammunition for the Plasma Sniper Rifle is based directly on Elerium, it has enourmous destructive Power and it contains a large quantity of Elerium."
 
   STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. A versatile and deadly weapon."
   STR_ELERIUM_BOMB: "Elerium Bomb"
@@ -611,7 +618,7 @@ en-US:
   STR_ARMORED_CYBERDISC_UFOPEDIA: "This seems to be a upgraded version of the priviously encountered Cyberdisc, which we have faced in some serious fights. It's weapon was upgraded and is now capable of autofire."
   STR_ARMORED_CYBERDISC_CORPSE: "Armored Cyberdisc Corpse"
   STR_ARMORED_CYBERDISC_AUTOPSY: "Armored Cyberdisc autopsy"
-  STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "This Cyberdiscs armor has been significantly improved, making it highly resitant to HE ammo and completly immune to conventional weapons, lasers are required to destroy it."
+  STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "This Cyberdiscs armor has been significantly improved, making it highly resitant to High Explosive ammunition and very resistent to conventional weapons, lasers are recommended to destroy it."
 
   STR_ARMORED_SECTOPOD: "Armored Sectopod"
   STR_ARMORED_SECTOPOD_TERRORIST: "Armored Sectopod Terrorist"

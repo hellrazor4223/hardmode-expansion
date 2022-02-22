@@ -1067,7 +1067,7 @@ armors:
     size: 2
     damageModifier:
       - 1.0
-      - 0.6
+      - 0.8
       - 0.6
       - 0.6
       - 1.0

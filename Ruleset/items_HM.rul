@@ -1077,7 +1077,7 @@ items:
     fireSound: 18
     hitSound: 19
     hitAnimation: 56
-    power: 115
+    power: 125
     damageType: 5
     accuracyAuto: 50
     accuracySnap: 75
@@ -3034,7 +3034,7 @@ items:
     fireSound: 18
     hitSound: 19
     hitAnimation: 56
-    power: 115
+    power: 125
     damageType: 5
     accuracyAuto: 50
     accuracySnap: 75
