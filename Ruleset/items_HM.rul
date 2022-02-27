@@ -1466,7 +1466,7 @@ items:
     accuracySnap: 60
     accuracyAimed: 80
     tuSnap: 25
-    tuAimed: 33
+    tuAimed: 40
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -1596,6 +1596,8 @@ items:
     droppoff: 4
   - type: STR_HC_UFOPAEDIA_PAGE_2
     name: STR_HEAVY_CANNON
+    requires:
+      - STR_NOT_AVAILABLE
     size: 0.3
     weight: 16
     bigSprite: 11
@@ -1686,10 +1688,16 @@ items:
       - STR_AC_I_AMMO
       - STR_AC_AA_AMMO
       - STR_AC_EHE_AMMO
+    accuracyAuto: 40
+    accuracySnap: 60
+    accuracyAimed: 90
     armor: 20
     listOrder: 2700
     droppoff: 4
   - type: STR_AC_UFOPAEDIA_PAGE_2
+    name: STR_AUTO_CANNON
+    requires:
+      - STR_NOT_AVAILABLE
     size: 0.3
     weight: 16
     bigSprite: 7
@@ -1868,6 +1876,9 @@ items:
     snapRange: 24
     droppoff: 3
   - type: STR_ROCKET_LAUNCHER_UFOPAEDIA_PAGE_2
+    name: STR_ROCKET_LAUNCHER
+    requires:
+      - STR_NOT_AVAILABLE
     size: 0.4
     weight: 10
     bigSprite: 15
@@ -2569,8 +2580,9 @@ items:
     listOrder: 5600
     dropoff: 2
   - type: STR_SMALL_LAUNCHER_UFOPAEDIA_PAGE_2
+    name: STR_SMALL_LAUNCHER
     requires:
-      - STR_SMALL_LAUNCHER
+      - STR_NOT_AVAILABLE
     size: 0.2
     weight: 10
     bigSprite: 37
