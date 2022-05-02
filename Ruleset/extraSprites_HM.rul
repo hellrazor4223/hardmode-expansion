@@ -450,12 +450,6 @@ extraSprites:
     subY: 40
     files:
       100: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol.png
-  - type: SMOKE.PCK
-    height: 80
-    width: 160
-    subX: 32
-    subY: 40
-    files:
       110: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
   - type: SMOKE.PCK
     height: 40
