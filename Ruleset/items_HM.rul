@@ -253,6 +253,7 @@ items:
     power: 30
     damageType: 6
     battleType: 2
+    blastRadius: 0
     clipSize: 12
     listOrder: 1078
 #END DRONE TASER ITEM
@@ -480,6 +481,7 @@ items:
     power: 90
     damageType: 6
     battleType: 2
+    blastRadius: 0
     clipSize: 24
     listOrder: 1085
 #END ALLOY DRONE TASER ITEM
@@ -1384,6 +1386,7 @@ items:
     damageType: 6
     clipSize: 10
     battleType: 2
+    blastRadius: 0
     armor: 20
     listOrder: 1806
 #END TASER PISTOL ITEM
