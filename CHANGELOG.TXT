@@ -17,6 +17,7 @@ Version 0.99.8
  - Add more possible upgrades for tanks
  - Add partial language support for french (FR)
  - Add Overworked Research Tree by mlavia
+ - Add Rulesetbased globe info as replacement for Hobbes IMPROVEDGLOBE.DAT
  - Adjust Armored Sectopod Damage modifiers
  - Adjust sizes of tanks and drones/ammo slightly
  - Adjust xcom score penalties
@@ -30,6 +31,7 @@ Version 0.99.8
  - Adjust Alloy Drone energy recovery
  - Fix Mod not loading under OpenXcomExtended (Missing Zombie corpse)
  - Fix Drones getting stunned/zombified under OpenXcomExtended
+ - Fix Missing Sprites for Taser Drones
  - Fix Hair and Face recolor for Armored Vest and Alloy Vest
  - Fix wrong asigned BigOb/FloorOb for Sailor
  - Fix requires for Support Drone Ufopaedia Article
