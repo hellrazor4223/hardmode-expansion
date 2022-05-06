@@ -3,31 +3,31 @@ it:
   STR_OPENXCOM: ""
   STR_XCOM_CRAFT_ARMAMENT: "BRIEFING E NOTIZIE"
   STR_HEAVY_WEAPONS_PLATFORMS: "EDIFICI BASE"
-  STR_WEAPONS_AND_EQUIPMENT: ""
-  STR_ALIEN_ARTIFACTS: ""
-  STR_BASE_FACILITIES: ""
-  STR_ALIEN_LIFE_FORMS: ""
-  STR_ALIEN_RESEARCH_UC: ""
+  STR_WEAPONS_AND_EQUIPMENT: "VEICOLI ED ARMAMENTI X-COM"
+  STR_ALIEN_ARTIFACTS: "PIATTAFORME ARMI PESANTI"
+  STR_BASE_FACILITIES: "ARMI ED EQUIPAGGIAMENTO"
+  STR_ALIEN_LIFE_FORMS: "ARTEFATTI ALIENI"
+  STR_ALIEN_RESEARCH_UC: "FORME DI VITA ALIENE"
   STR_UFO_COMPONENTS: "RICERCA ALIENA"
   STR_UFOS: "UFO ALIENI & COMPONENTI"
   STR_CAT_DRONE: "Droni di Supporto"
-  STR_CAT_DRONE_UPGRADE: ""
-  STR_CAT_DRONE_REPAIR: ""
-  STR_CAT_TANK_UPGRADE: ""
-  STR_CAT_TANK_REPAIR: ""
-  STR_CAT_PERSONAL_ARMOR_UPGRADE: ""
+  STR_CAT_DRONE_UPGRADE: "Potenzia Droni di Supporto"
+  STR_CAT_DRONE_REPAIR: "Ripara Droni di Supporto"
+  STR_CAT_TANK_UPGRADE: "Potenzia HWP"
+  STR_CAT_TANK_REPAIR: "Ripara HWP"
+  STR_CAT_PERSONAL_ARMOR_UPGRADE: "Potenzia Armatura Personale"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "Restauro: Arm. Personale"
 #END GENERAL
 
 #BEGIN BRIEFINGS
   STR_INITIAL_BRIEFING: "Briefing Iniziale"
-  STR_INITIAL_BRIEFING_UFOPEDIA: ""
+  STR_INITIAL_BRIEFING_UFOPEDIA: "Siamo nel 1999 e gli UFO (Oggetti Volanti non Identificati) compaiono con inquietante regolarità nei cieli notturni.{NEWLINE}Casi di violenti rapimenti umani e di orribili esperimenti spargono il terrore nei cuori della popolazione globale, mentre casi di rapimenti umani da parte di UFO in aree scarsamente popolate dei paesi nel nostro mondo.{NEWLINE}L'isteria pubblica di massa non ha fatto altro che rendere evidente l'impotenza della terra contro una tecnologia di gran lunga superiore. Come risposta a ciò i governi mondiali hanno potenziato le loro capacità militari, e c'è un  blackout generale delle notizie nella maggior parte dei paesi colpiti. Gli scienziati hanno cercato di contattare gli alieni, ma non c'è stata alcuna risposta concreta."
 
   STR_KIRYU_KAI: "Il Kiryu-Kai"
-  STR_KIRYU_KAI_UFOPEDIA: ""
+  STR_KIRYU_KAI_UFOPEDIA: "Molti paesi presero in considerazione un attacco militare diretto contro gli invasori e inizialmente tentarono di occuparsi degli alieni indipendentemente. Nell'Agosto del 1998 la Kiryu-Kai, una forza di combattimento anti aliena, fù stabilita in Giappone. Equipaggiata con aerei di combattimento di fabbricazione Giapponese, la Kiryu-Kai sembrava a tutti gli effetti formidabile. Eppure dopo 5 mesi di costose operazioni, non erano ancora riusciti ad intercettare il primo UFO.{NEWLINE}La lezione era chiara - questo è un problema di tutto il mondo che non può essere risolto dai singoli paesi."
 
   STR_EXTRATERRESTRIAL_COMBAT_UNIT: "X-Com"
-  STR_EXTRATERRESTRIAL_COMBAT_UNIT_UFOPEDIA: ""
+  STR_EXTRATERRESTRIAL_COMBAT_UNIT_UFOPEDIA: "L'11 dicembre 1998 i rappresentanti dei paesi economicamente più potenti del mondo si riunirono segretamente a Ginevra. Dopo un lungo dibattito fu presa la decisione di istituire un ente indipendente segreto con lo scopo di combattere, analizzare e sconfiggere la minaccia aliena. Questa organizazione sarebbe stata composta dai migliori piloti, soldati, scienziati e ingegneri del mondo, uniti in un unica forza multinazionale.{NEWLINE} Il nome di questa organizazione è Unità di Combattimento Extraterrestre, la X-Com."
 
   STR_SOLDIER_ARMOR_REPAIR: "Restauro: Arm. Soldato"
   STR_SOLDIER_ARMOR_REPAIR_UFOPEDIA: ""
@@ -38,11 +38,14 @@ it:
   STR_SUPPORT_DRONES: "Droni di Supporto"
   STR_SUPPORT_DRONES_UFOPEDIA: ""
 
-  STR_EXPLOSIVE_AMMO: "Munizioni Esplosive"
+  STR_EXPLOSIVE_AMMO: ""
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "Munizioni Lega Aliena"
   STR_ALLOY_AMMO_UFOPEDIA: "Con la conoscenza di come elaborare le leghe aliene ultra resistenti ma leggere, ora possiamo fabbricare proiettili in lega capaci di resistere a velocità maggiori senza disintegrarsi, sparati da bossoli in lega più leggeri e più resistenti di quanto fosse possibile in precedenza."
+
+  STR_EHE_AMMO: ""
+  STR_EHE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AIRFRAME: ""
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
@@ -198,7 +201,7 @@ it:
   STR_UPGRADE_DRONE_TASER_TO_SCANNER: "Drone/Taser -> Scanner"
   STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: "Drone/Taser -> Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: ""
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "Drone/Taser -> Scanner in Lega"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drone/Taser -> Medikit in Lega"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Taser in Lega"
 
@@ -235,36 +238,36 @@ it:
   STR_ALLOY_DRONE_TASER_CORPSE: "Drone in Lega/Taser Danneggiato"
   STR_ALLOY_DRONE_TASER_REPAIR: "Restauro: Drone in Lega/Taser"
   STR_ALLOY_DRONE_TASER_UFOPEDIA: ""
-  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: ""
-  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "Drone in Lega /Taser -> Scout in Lega"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Drone in Lega/Taser -> Scanner in Lega"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drone in Lega/Taser -> Medikit in Lega"
 #END DRONES
 
 #BEGIN TANKS
   STR_TANK_CANNON_CORPSE: "Tank/Cannone Danneggiato"
   STR_TANK_CANNON_REPAIR: "Restauro: Tank/Cannone"
-  STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
-  STR_UPGRADE_TANK_CANNON_TO_LASER: ""
-  STR_UPGRADE_TANK_CANNON_TO_ALLOY_CANNON: ""
-  STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: ""
-  STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: ""
+  STR_UPGRADE_TANK_CANNON_TO_ROCKET: "Tank/Cannone -> Lanciarazzi"
+  STR_UPGRADE_TANK_CANNON_TO_LASER: "Tank/Cannone -> Laser"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_CANNON: "Tank/Cannone -> Cannone in Lega"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: "Tank/Cannone -> Lanciarazzi in Lega"
+  STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: "Tank/Cannone -> Laser in Lega"
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "Tank/Razzi Danneggiato"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "Restauro: Tank/Razzi"
-  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: ""
-  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
-  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: ""
-  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: "Tank/Lanciarazzi -> Laser"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Tank/Lanciarazzi -> Cannone in Lega"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "Tank/Lanciarazzi -> Lanciarazzi in Lega"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Tank/Lanciarazzi -> Laser in Lega"
 
   STR_TANK_LASER_CANNON_CORPSE: "Tank/Laser Danneggiato"
   STR_TANK_LASER_CANNON_REPAIR: "Restauro: Tank/Laser"
-  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: ""
-  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: ""
-  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: ""
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "Tank/Laser -> Cannone in Lega"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "Tank/Laser -> Lanciarazzi in Lega"
+  STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "Tank/Laser -> Laser in Lega"
 
   STR_ALLOY_TANK_CANNON: "Tank in Lega/Cannone"
   STR_ALLOY_TANK_CANNON_CORPSE: "Tank in Lega/Cannone Danneggiato"
-  STR_ALLOY_TANK_CANNON_REPAIR: ""
+  STR_ALLOY_TANK_CANNON_REPAIR: "Restauro: Tank in Lega/Cannone"
   STR_ALLOY_TANK_CANNON_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: ""
@@ -274,7 +277,7 @@ it:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Tank in Lega/Razzi Danneggiato"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: ""
-  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Tank in Lega/Lanciarazzi -> Laser in Lega"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: ""
 
   STR_ALLOY_TANK_LASER_CANNON: "Tank in Lega/Laser"
@@ -394,8 +397,12 @@ it:
 
   STR_HC_AA_AMMO: "Munizioni Prf. CanPes-LeAl"
   STR_HC_AA_AMMO_UFOPEDIA: "Questi colpi per il Cannone Pesante, sono fatti in Lega Aliena per una potenza maggiore."
+  STR_HC_EHE_AMMO: ""
+  STR_HC_EHE_AMMO_UFOPEDIA: ""
   STR_AC_AA_AMMO: ""
   STR_AC_AA_AMMO_UFOPEDIA: "I proiettili per il cannone automatico sono fatti in Lega Aliena per una maggiore potenza."
+  STR_AC_EHE_AMMO: ""
+  STR_AC_EHE_AMMO_UFOPEDIA: ""
 
   STR_GRENADE_LAUNCHER: "Lancia Granate"
   STR_GRENADE_LAUNCHER_HE_AMMO: "Granata 40mm (HE)"
@@ -440,10 +447,13 @@ it:
   STR_PLASMA_SWORD_UFOPEDIA: "Questo attrezzo letale è una spada che combina grande lama di spessore un micron sul bordo, un emettitore di plasma e un elettromagnete. Quando attivato, il plasma caldo inonda il campo EM che circonda la lama, surriscaldandolo al punto in cui il suo tocco farebbe sciogliere il titanio come acqua."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_SHOTGUN: "Fucile da Caccia al Plasma"
   STR_PLASMA_SHOTGUN_CLIP: "Bossoli Fucile da Caccia al Plasma"
@@ -688,7 +698,7 @@ it:
 
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY: "Stella dell'Inferno"
   STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_DESCRIPTION: "Data ad un soldato che ha usato armi incendiarie per uccidere degli alieni."
-  STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_BY_INCENDIARY_UFOPEDIA: "'Dei quattro elementi classici, il fuoco è di gran lunga il più primordiale. Il più impegnativo. Il più pericoloso. Il più trasformante. Il più viscerale. Il più divertente. Seriamente, quale nemico tremerebbe di paura se gli apparissi dinanzi e ti proclamassi grande mago dell'acqua?'{NEWLINE} -- The Rant {NEWLINE} {NEWLINE} Questo premio viene assegnato a coloro che hanno padroneggiato l'arte di distruggere il nemico con il fuoco. Il premio viene assegnato ogni cinque alieni bruciati, fino a quattro volte."
 
   STR_MEDAL_ALIENS_KILLED_BY_RACE: "Medaglia del Xenocidio di Razza Aliena"
   STR_MEDAL_ALIENS_KILLED_BY_RACE_DESCRIPTION: "Data ad un soldato che ha combattuto con successo la minaccia dei {0}"
@@ -704,18 +714,18 @@ it:
 
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES: "Ordine del Martello"
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_DESCRIPTION: "Data ad un soldato che ha ucciso soldati alieni di tutti i tipi."
-  STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_UFOPEDIA: ""
+  STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_UFOPEDIA: "'Non temerli, figlio mio. Li uccideremo tutti.'{NEWLINE} --The Kingdom {NEWLINE} {NEWLINE} Questa medaglia ricompensa il soldato che ha padroneggiato l'arte dell'uccidere alieni in ogni loro forma. Nessuna razza aliena è immune alla sua caccia. {NEWLINE} {NEWLINE} Questo premio viene assegnato per aver ucciso un soldato di ogni specie principale. Ulteriori premi vengono dati per 5, 10 e 15 uccisioni per ogni razza."
 
   STR_MEDAL_ALLBATTLETYPES: "Medaglia Armis Potens"
   STR_MEDAL_ALLBATTLETYPES_DESCRIPTION: "Dato ad un soldato che ha dimostrato abilità letali con qualsiasi tipo di armi"
   STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: "\"Potente con Armi\" è il significato di Armis Potens. Un soldato di fanteria è addestrato a combattere con molti diversi tipi di armi per sconfiggere il nemico.{NEWLINE}{NEWLINE} Il premio riconosce la stessa agilità e letalità dimostrata da questi versatili guerrieri. {NEWLINE}{NEWLINE} Questo premio viene rilasciato a qualsiasi soldato che elimina il nemico con ogni tipo di arma. Questi includono armi da fuoco, corpo a corpo, granate e granate di prossimità. Ci sono quattro livelli di premio per 3, 6, 9 e 12 uccisioni."
   STR_MEDAL_ALLMISSIONS: "Medaglia Ritorno dall'Inferno"
   STR_MEDAL_ALLMISSIONS_DESCRIPTION: "Dato ad un soldato che ha partecipato a qualsiasi tipo di missione"
-  STR_MEDAL_ALLMISSIONS_UFOPEDIA: ""
+  STR_MEDAL_ALLMISSIONS_UFOPEDIA: "'Puoi dirlo forte! {NEWLINE} Sono stato all'inferno e sono ritornato {NEWLINE} Quando fa caldo, mi scaldo a perdifiato {NEWLINE} In questo mondo freddo, l'accendino ho trovato {NEWLINE} Lasciamolo bruciare, fuoco rinato! {NEWLINE} - Kid Ink {NEWLINE}{NEWLINE} Questo soldato ha visto di tutto... UFO schiantati, UFO atterrati, missioni del terrore, difesa della base, persino sfondare la porta del nemico ed invadere la sua base. {NEWLINE} {NEWLINE}Questo encomio viene assegnato ai soldati che partecipano ad ogni tipo di missione."
 
   STR_MEDAL_ALLRANKS: "Nome Titolo"
   STR_MEDAL_ALLRANKS_DESCRIPTION: "Data ad un soldato che ha ucciso soldati alieni di tutti i tipi."
-  STR_MEDAL_ALLRANKS_UFOPEDIA: ""
+  STR_MEDAL_ALLRANKS_UFOPEDIA: " '.. questi piccoli marine vietnamiti hanno iniziato a fargli il culo e a prendergli il nome.' {NEWLINE}- Ralph Christopher 'River Rats' {NEWLINE} {NEWLINE} \"Taking names\" è un modo di dire inglese che viene dall'idea di battere un nemico in maniera così esagerata da rimuovere il suo nome dall'elenco truppe. {NEWLINE} {NEWLINE}Questo premio viene assegnato ad un soldato che ha ucciso un alieno di ogni rango, dal Soldato fino al Comandante."
 
   STR_MEDAL_ALLUFOS: "Distintivo TECHINT"
   STR_MEDAL_ALLUFOS_DESCRIPTION: "Dato ad un soldato che ha partecipato in missioni che hanno coinvolto qualsiasi tipo di UFO."
@@ -723,19 +733,19 @@ it:
 
   STR_MEDAL_ANTITERROR: "Medaglia Erculea"
   STR_MEDAL_ANTITERROR_DESCRIPTION: "Data ad un soldato che ha ucciso tutti i tipi di armi del terrore."
-  STR_MEDAL_ANTITERROR_UFOPEDIA: ""
+  STR_MEDAL_ANTITERROR_UFOPEDIA: "'Perché un vero eroe non si misura dalla forza dei suoi muscoli, ma da quella del suo cuore.'{NEWLINE} - Zeus (Hercules) {NEWLINE} {NEWLINE} Proprio come Ercole al suo tempo era famoso per aver ucciso molti mostri da incubo, anche il destinatario di questo premio ha ucciso la sua parte di terribili nemici. {NEWLINE} {NEWLINE} Questa medaglia è assegnata ai soldati che uccidono ogni tipo di unità terroristica del gioco. Ci sono quattro livelli per questo premio."
 
   STR_MEDAL_BASE_DEFENDER: "Medaglia alla Difesa"
   STR_MEDAL_BASE_DEFENDER_DESCRIPTION: "Data ad un soldato che ha fatto parte di una missione di difesa di una base che ha avuto successo."
-  STR_MEDAL_BASE_DEFENDER_UFOPEDIA: ""
+  STR_MEDAL_BASE_DEFENDER_UFOPEDIA: "'Non puoi scegliere il tuo campo di battaglia, Dio lo fa per te; ma puoi stabilire uno standard, dove uno standard non c'è mai stato.{NEWLINE} -- Nathalia Crane' {NEWLINE} {NEWLINE} Questa medaglia viene assegnata ad un guerriero che ha preso parte ad una missione di difesa della base di successo. Sebbene le orde aliene abbiano tentato di sopraffare quest'anima valorosa, sono riusciti a resistere e a far si che la XCOM mantenesse il controllo di questa cruciale struttura.{NEWLINE} {NEWLINE} I premi vengono assegnati fino ad un massimo di tre difese base di successo."
 
   STR_MEDAL_BESTOFRANK: "Stella Cadente"
   STR_MEDAL_BESTOFRANK_DESCRIPTION: "Dato postumo a un soldato che era una stella nascente nel suo rispettivo rango."
-  STR_MEDAL_BESTOFRANK_UFOPEDIA: ""
+  STR_MEDAL_BESTOFRANK_UFOPEDIA: "'Quando morirà,{NEWLINE} Prendilo e taglialo in piccole stelle... {NEWLINE}- Shakespeare --Romeo & Juliet {NEWLINE} {NEWLINE} Gli eroi della XCOM, siano essi reclute, sergenti, capitani o comandanti, meritano il riconoscimento per eccellenza quando muoiono. {NEWLINE} {NEWLINE} Quest'ordine viene conferito al soldato caduto di più alto rango al momento della sua morte. Questo premio viene consegnato al defunto come riconoscimento del suo elevato punteggio rispetto al suo rango. Più di un soldato può ricevere questo riconoscimento postumo per ogni livello."
 
   STR_MEDAL_BESTSOLDIER: "Ordine Eroico"
   STR_MEDAL_BESTSOLDIER_DESCRIPTION: "Data postumo ad un soldato che è stato un esempio per tutti gli altri."
-  STR_MEDAL_BESTSOLDIER_UFOPEDIA:  ""
+  STR_MEDAL_BESTSOLDIER_UFOPEDIA:  "'Morire non è nulla; non vivere è spaventoso.' {NEWLINE}- Victor Hugo, I Miserabili{NEWLINE} {NEWLINE} Quando gli eroi muoiono le loro gesta continuano a vivere. Le prodezze dei soldati XCOM non vengono dimenticate quando muoiono durante una gloriosa battaglia. {NEWLINE} {NEWLINE} Quest'ordine viene conferito al migliore dei soldati fra i caduti. Il premio viene assegnato ai nuovi membri fra i ranghi dei caduti per riconoscere che hanno il punteggio più alto al momento della loro morte. Più di un soldato può ricevere questo riconoscimento postumo."
 
   STR_MEDAL_BRAVERYGAIN: "Legione del Valore"
   STR_MEDAL_BRAVERYGAIN_DESCRIPTION: "Data ad un soldato che è un esempio di coraggio."
@@ -751,11 +761,11 @@ it:
 
   STR_MEDAL_FALLEN: "L'Ordine dei Caduti"
   STR_MEDAL_FALLEN_DESCRIPTION: "Data ad un soldato per onorare la sua morte ed il suo impegno nella difesa della Terra."
-  STR_MEDAL_FALLEN_UFOPEDIA: ""
+  STR_MEDAL_FALLEN_UFOPEDIA: "'Un eroe è qualcuno che ha dato la sua vita per qualcosa che è più grande di se stesso'{NEWLINE} -- Joseph Campebell {NEWLINE} {NEWLINE} Il prezzo più alto è stato pagato volontariamente, affinché l'umanità possa sopravvivere. Questo premio viene assegnato postumo a tutte le truppe XCOM cadute in battaglia. È giusto onorarli nella nostra memoria e nelle nostre azioni mentre ci adoperiamo per la causa per cui sono morti. {NEWLINE} {NEWLINE} Questo premio viene assegnato a tutti i soldati XCOM morti in battaglia."
 
   STR_MEDAL_FLANKSHOT: "Citazione \"Enfilade\""
   STR_MEDAL_FLANKSHOT_DESCRIPTION: "Data ad un soldato che ha dimostrato grande tatticità, capace di fiancheggiare e uccidere nemici."
-  STR_MEDAL_FLANKSHOT_UFOPEDIA: ""
+  STR_MEDAL_FLANKSHOT_UFOPEDIA: "'Il defilamento vuol dire posizionare (truppe o armi) in modo da poter sparare al nemico sui fianchi. ' {NEWLINE} - Dizionario Militare {NEWLINE}{NEWLINE} Una tattica militare onorata dai tempi antichi, l'attacco ai fianchi sfrutta la debolezza del nemico sia nell'armatura laterale e sia tenendo conto del fatto che le armi offensive del nemico sono puntate altrove. {NEWLINE} {NEWLINE} Questa citazione viene emessa ogni tre nemici uccisi sul fianco, fino a quattro volte."
 
   STR_MEDAL_GLOBETROTTER: "Giramondo"
   STR_MEDAL_GLOBETROTTER_DESCRIPTION: "Data ad un soldato che ha difeso ogni singolo paese sulla terra dalla minaccia aliena."
@@ -767,27 +777,27 @@ it:
 
   STR_MEDAL_HEADSHOT: "L'Ordine di Davide"
   STR_MEDAL_HEADSHOT_DESCRIPTION: "Data ad un soldato che con mano ferma ha inflitto più colpi alla testa."
-  STR_MEDAL_HEADSHOT_UFOPEDIA: ""
+  STR_MEDAL_HEADSHOT_UFOPEDIA: " 'La pietra s'infisse nella fronte di Golia, che cadde con la faccia a terra. ' - 1 Samuele 17:49 {NEWLINE}Davide è famoso per aver ucciso il gigante con la sua fionda e un tiro ben piazzato. {NEWLINE}{NEWLINE} Sebbene questo risultato si basi principalmente sulla fortuna e non fornisca danni maggiori rispetto ad altri colpi, è comunque degno di nota. {NEWLINE} {NEWLINE} Assegnato ai soldati XCOM che mettono a segno tre colpi alla testa. Ci sono quattro livelli di questo premio. "
 
   STR_MEDAL_HEALER: "Stella di Ippocrate"
   STR_MEDAL_HEALER_DESCRIPTION: "Data ad un soldato che ha prestato servizio medico sul campo di battaglia."
-  STR_MEDAL_HEALER_UFOPEDIA: ""
+  STR_MEDAL_HEALER_UFOPEDIA: " 'Avevamo un profondo apprezzamento per il silenzioso medico. Per noi era infermiere, dottore, pronto soccorso e ospedale. Sopra il fragore della battaglia si sentiva spesso il grido 'Medico!', e Doc era sempre lì per il 3° plotone.' {NEWLINE}- Robert W. Black {NEWLINE} {NEWLINE} Il medico da combattimento è una parte vitale di ogni unità militare. I soldati XCOM si prendono cura dei loro compagni e fanno il possibile per tenerli in forma. {NEWLINE} {NEWLINE} Questo premio è assegnato per ogni tre ferite curate, per un totale di dodici."
 
   STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT: "Croce del Fulmine"
   STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_DESCRIPTION: "Data ad un soldato che usato una forza non letale per abbattere un obiettivo importante."
-  STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_IMPORTANT_ALIENS_KNOCKED_OUT_UFOPEDIA: "Capitano Steven Hiller: 'Sai, questo doveva essere il mio fine settimana libero ma noooo. Mi hai portato qui fuori a trascinare il tuo pesante culo attraverso il deserto in fiamme con i tuoi dreadlock che spuntano dal retro del mio paracadute.'{NEWLINE} - Independence Day{NEWLINE} {NEWLINE} Questo encomio riconosce un risultato fondamentale nella cattura di un obiettivo di alto valore. I Leader e i Comandanti nemici ci aiuteranno a comprendere meglio gli obiettivi alieni e dei modi con cui possiamo sconfiggerli. {NEWLINE} {NEWLINE} Questo premio viene assegnato una volta a qualsiasi soldato che cattura uno di questi importanti obiettivi."
 
   STR_MEDAL_IRON_MAN: "Uomo d'Acciaio"
   STR_MEDAL_IRON_MAN_DESCRIPTION: "Data ad un soldato che è veramente un Uomo d'Acciaio, o una Donna d'Acciaio."
-  STR_MEDAL_IRON_MAN_UFOPEDIA: ""
+  STR_MEDAL_IRON_MAN_UFOPEDIA: "'Se sei a corto di tutto tranne che del nemico, sei in una zona di combattimento.'{NEWLINE} -- La Legge di Murphy sul Combattimento' {NEWLINE} {NEWLINE} Questo premio viene assegnato ai soldati che affrontano il nemico da soli. Solo i più duri ci provano e ancora meno sopravvivono. Il premio ha un solo livello."
 
   STR_MEDAL_LUCKYSHOT: "Citazione per la Buona Fortuna"
   STR_MEDAL_LUCKYSHOT_DESCRIPTION: "Data ad un soldato che ha vinto le probabilità, mandando a segno un imprevedibile colpo ad un altro bersaglio."
-  STR_MEDAL_LUCKYSHOT_UFOPEDIA: ""
+  STR_MEDAL_LUCKYSHOT_UFOPEDIA: "'La miglior fortuna di tutte è quella che fai per te stesso. {NEWLINE} -- Douglas MacArthur' {NEWLINE} {NEWLINE} Quando un soldato sfida continuamente la sorte e mette a segno dei colpi incredibili, diventa idoneo per questo premio. {NEWLINE} {NEWLINE} Presentato per ogni tre colpi fortunati, questo encomio ha quattro livelli."
 
   STR_MEDAL_MAN_OF_STEEL: "Uomo d'Acciaio"
   STR_MEDAL_MAN_OF_STEEL_DESCRIPTION: "Data ad un soldato che è stato colpito varie volte durante una sola missione."
-  STR_MEDAL_MAN_OF_STEEL_UFOPEDIA: ""
+  STR_MEDAL_MAN_OF_STEEL_UFOPEDIA: "Artù: 'Guarda, razza di idiota, non hai più braccia!' {NEWLINE}Cavaliere Nero-- 'Si che le ho.' {NEWLINE}Artù: (esasperato) 'Guarda!' {NEWLINE}Cavaliere Nero: 'Solo un graffio.'{NEWLINE} (Monty Python e il Sacro Graal) {NEWLINE} {NEWLINE} La costituzione ferrea di questo soldato (e forse la sua armatura) gli ha permesso di resistere a più colpi del nemico. {NEWLINE} {NEWLINE} Viene assegnato per essere stato colpito cinque volte, ed ha tre livelli."
 
   STR_MEDAL_MARTYR: "Medaglia del Sacrificio"
   STR_MEDAL_MARTYR_DESCRIPTION: "Data postumo ad un soldato che non è rimasto ucciso da solo."
@@ -795,7 +805,7 @@ it:
 
   STR_MEDAL_MEDIKIT: "Chirurgo da Campo"
   STR_MEDAL_MEDIKIT_DESCRIPTION: "Data ad un soldato che fa un uso regolare del medikit sul campo di battaglia."
-  STR_MEDAL_MEDIKIT_UFOPEDIA: ""
+  STR_MEDAL_MEDIKIT_UFOPEDIA: "'...Ma questa ferita era precoce, ben entro il periodo di sei ore - il parametro approssimativo di un chirurgo da campo per rischi di questo tipo. Se la sua vanteria fosse stata accurata .... potrebbe salvare una vita. {NEWLINE}- Frank Gill Slaughter 'Non l'amore, ma la morte' {NEWLINE} {NEWLINE} Il chirurgo da campo ha una abilità maggiore del medico da combattimento e sa come usare tutti gli strumenti a sua disposizione. {NEWLINE} {NEWLINE}Questo premio viene assegnato ai medici che dispensano cure, stimolanti e antidolorifici dai loro medikit. Viene assegnato ogni tre volte. Ci sono quattro livelli per questo premio."
 
   STR_MEDAL_MELEE: "Mano nella mano"
   STR_MEDAL_MELEE_DESCRIPTION: "Data ad un soldato che ha ucciso gli alieni con un arma da mischia letale."
@@ -803,11 +813,11 @@ it:
 
   STR_MEDAL_MERCY_CROSS: "Croce di Nike"
   STR_MEDAL_MERCY_CROSS_DESCRIPTION: "Data ad un soldato che ha ucciso da solo tutti gli alieni durante una missione."
-  STR_MEDAL_MERCY_CROSS_UFOPEDIA: ""
+  STR_MEDAL_MERCY_CROSS_UFOPEDIA: "'È meglio catturare un intero esercito piuttosto che distruggerlo, catturare un reggimento, un distaccamento o una compagnia intera piuttosto che distruggerli.' ― Sun Tzu {NEWLINE} {NEWLINE} I prigionieri alieni forniscono informazioni preziose. Cosa c'è di meglio che stordire l'intero equipaggio di un UFO?{NEWLINE} -- Farlo da soli? {NEWLINE} {NEWLINE} Il premio viene assegnato ai soldati che catturano da soli tutti i combattenti nemici durante una missione di combattimento tattico. Questo premio ha 3 livelli."
 
   STR_MEDAL_MIA: "Ordine del Dimenticato"
   STR_MEDAL_MIA_DESCRIPTION: "Data ad un soldato per onorare le sue perdite ed il suo impegno per la difesa della terra."
-  STR_MEDAL_MIA_UFOPEDIA: ""
+  STR_MEDAL_MIA_UFOPEDIA: " '...rendiamo omaggio agli uomini e alle donne che non sono tornati dal campo di battaglia... non dimenticheremo mai i loro sacrifici... onoreremo per sempre la loro memoria.' {NEWLINE}- Barack Obama {NEWLINE} {NEWLINE} Non si può negare la terribile convenienza della necessita di abbandonare un compagno caduto. La XCOM onora coloro che hanno dato il massimo in questo modo.{NEWLINE} {NEWLINE}L'ordine viene assegnato ai soldati che sono scomparsi in azione. Rendiamo onore a coloro che non sono tornati a casa."
 
   STR_MEDAL_MINDCONTROL: "Imperio"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "Data ad un soldato che si è impossessato della mente del nemico."
@@ -815,19 +825,19 @@ it:
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Nastro della Notte più Lunga"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Data ad un soldato che ha assistito agli orrori delle missioni di terrore aliene di notte."
-  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: ""
+  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "'Il giorno non previene gli incubi - La notte non è necessaria per i sogni - Non c'è momento migliore di questo - Non c'è posto migliore di adesso' {NEWLINE} -- Chase LeBlanc {NEWLINE} {NEWLINE}  Questo premio viene assegnato ai soldati che sono stati testimoni degli orrori delle missioni del terrore notturne. Pericolosi alieni si nascondono nelle ombre e la morte raggiunge rapidamente chi presta attenzione. Coloro che sopravvivono sono individui veramente coraggiosi. {NEWLINE} {NEWLINE} Questo premio viene assegnato per ogni Missione del Terrore notturna, fino ad un totale di 4."
 
   STR_MEDAL_NIKE_CROSS: "Croce di Nike"
   STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Data ad un soldato che ha ucciso con una mano o ucciso e stordito ogni tipo di alieni in una missione."
-  STR_MEDAL_NIKE_CROSS_UFOPEDIA: ""
+  STR_MEDAL_NIKE_CROSS_UFOPEDIA: " 'Devi credere di essere nel giusto per essere un buon soldato, ecco perché i mercenari non vanno bene. È l'emozione a rendere buono un combattente - e il sapere di combattere per una buona causa.' {NEWLINE} - Audie Murphy {NEWLINE} {NEWLINE} Questa onoreficenza riconosce una abilità sul campo di battaglia senza precedenti. Incarnando letalità ed efficienza, questo guerriero ha dimostrato la sua esperienza nel combattimento nel modo più tangibile e con qualsiasi mezzo necessario. {NEWLINE} {NEWLINE} Questo premio è riservato esclusivamente ai soldati che uccidono, o uccidono e stordiscono da soli ogni alieno in una singola missione. Questo premio viene assegnato fino a tre volte."
 
   STR_MEDAL_ONE_MONTH_SERVICE: "Croce dell'Onore XCOM"
   STR_MEDAL_ONE_MONTH_SERVICE_DESCRIPTION: "Data a tutti i soldati di ritorno come riconoscimento per aver combattuto la minaccia Aliena, e per esser stati parte della forza per salvare l'umanità. Questa Medaglia non ha decorazioni aggiuntive."
-  STR_MEDAL_ONE_MONTH_SERVICE_UFOPEDIA: ""
+  STR_MEDAL_ONE_MONTH_SERVICE_UFOPEDIA: "'Un uomo che non ha nulla per cui sia disposto a combattere; nulla che interessi più della sua sicurezza personale, è una creatura miserabile che non ha alcuna possibilità di essere libera se non creata e mantenuta dagli sforzi di uomini migliori di lui.'{NEWLINE} -- (John Stewart Mill) {NEWLINE} {NEWLINE} Questo premio viene assegnato a tutti i soldati che prestano servizio nella XCOM, come riconoscimento per aver combattuto la minaccia aliena, e per aver fatto parte della forza per la salvezza dell'umanità. Questa medaglia non ha decorazioni aggiuntive."
 
   STR_MEDAL_ORIGINAL8_DESCRIPTION: "Data ad un soldato che è stato in prima linea a combattere il nemico sconosciuto."
   STR_MEDAL_ORIGINAL8_NAME: "Primo a servire"
-  STR_MEDAL_ORIGINAL8_UFOPEDIA: ""
+  STR_MEDAL_ORIGINAL8_UFOPEDIA: " Il progetto XCOM è un progetto top-secret avviato dal Consiglio per contrastare la massiccia invasione aliena globale dopo che le forze armate convenzionali del mondo non sono riusciti a fermarli. {NEWLINE} {NEWLINE} Pochissimi individui hanno soddisfatto i requisiti per essere inclusi nel progetto. Ancora meno sopravviveranno. {NEWLINE} {NEWLINE} Questo premio viene assegnato ai componenti originali dei soldati nel progetto XCOM."
 
   STR_MEDAL_POSTMORTEM_KILL: "Ordine del mietitore"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "Data postumo ad un soldato che ha mantenuto la sua presenza sul campo di battaglia a discapito della morte."
@@ -839,27 +849,27 @@ it:
 
   STR_MEDAL_REACTIONFIRE: "Citazione alla Rapidità"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Data ad un soldato che ha dimostrato riflessi pronti, uccidendo degli alieni prima che potessero rivalersi."
-  STR_MEDAL_REACTIONFIRE_UFOPEDIA: ""
+  STR_MEDAL_REACTIONFIRE_UFOPEDIA: " 'Quando sei in una situazione di combattimento, non devi lasciare che la tua mente sia inquinata da emozioni come paura e rabbia. Accetta semplicemente la situazione e reagisci, anche se ti trovi di fronte a situazioni impossibili. Mantieni la mente lucida e sarai un passo avanti ai tuoi aggressori.' {NEWLINE} -- Aaron B. Powell, Doomsday Diaries {NEWLINE} {NEWLINE} Questa medaglia viene data ai soldati i cui riflessi fulminei li hanno resi assassini instintivi. Abbattere i bersagli durante il turno nemico riduce il pericolo per l'intera squadra. {NEWLINE} {NEWLINE} Questa medaglia viene assegnata per ogni due uccisioni con fuoco di reazione, fino ad un totale di quattro volte."
 
   STR_MEDAL_REARSHOT: "Menzione Paris"
   STR_MEDAL_REARSHOT_DESCRIPTION: "Data a un soldato che ha dimostrato astuzia, capace di sorprendere i nemici e ucciderli alle spalle."
-  STR_MEDAL_REARSHOT_UFOPEDIA: ""
+  STR_MEDAL_REARSHOT_UFOPEDIA: " Paride, nella mitologia greca, è famoso per aver neutralizzato un eroe quasi invulnerabile, Achille, con una freccia scoccata al suo tallone. {NEWLINE} {NEWLINE} Il soldato XCOM che imita Parida può scoprire di poter sfruttare simili vulnerabilità nei suoi avversari extraterrestri. {NEWLINE}{NEWLINE} Questo encomio viene emesso per ogni tre uccisioni nemiche alle spalle, per un totale di quattro volte."
 
   STR_MEDAL_REVIVE: "Croce degli Angeli"
   STR_MEDAL_REVIVE_DESCRIPTION: "Dato a un soldato che ha restituito un compagno di soldato dall'orlo della morte."
-  STR_MEDAL_REVIVE_UFOPEDIA: ""
+  STR_MEDAL_REVIVE_UFOPEDIA: " ''No, non morirai sotto i miei occhi.' disse Doc. Poco prima che arrivasse l'elicottero, il suo cuore si fermò. Doc lo rianimò di nuovo martellandogli il petto e facendogli la respirazione bocca a bocca. Finalmente arrivò l'elicottero e lo caricammo a bordo.' {NEWLINE}-- Stephen Paul Campos {NEWLINE} {NEWLINE} Quando un soldato giace a terra privo di sensi e sanguinante, questo agente è il suo angelo custode che sa cosa fare per riportarlo indietro. {NEWLINE} {NEWLINE} Questo premio viene assegnato ogni volta che una vittima viene rianimata, fino a tre volte."
 
   STR_MEDAL_SAPPER: "Medaglia dello zappatore"
   STR_MEDAL_SAPPER_DESCRIPTION: "Dato a un soldato che uccide un nemico di metallo con un alto pacco esplosivo"
-  STR_MEDAL_SAPPER_UFOPEDIA: ""
+  STR_MEDAL_SAPPER_UFOPEDIA: " 'C'è un carro armato al limitare della foresta. Ci passerà sopra come un rullo compressore... A meno che qualcuno non lo fermi con una carica a sacco.'{NEWLINE} .... 'Non restano molti uomini.'{NEWLINE} -- 'Vado io.' {NEWLINE} -- Juoksuhaudantie {NEWLINE} {NEWLINE} Questo premio viene assegnato ai soldati che uccidono un nemico metallico, come un Cyberdisco o un Sectopode, usando esplosivo ad alto potenziale. Estremamente pericolosi, questi atti di eroismo vengono riconosciuti con questo premio. {NEWLINE} {NEWLINE} Il premio viene assegnato per ogni uccisione di nemico robotico usando esplosivo ad alto potenziale e può essere assegnato fino a 10 volte."
 
   STR_MEDAL_SECTOPOD_KILL: "Citazione Minaccia Metallica"
   STR_MEDAL_SECTOPOD_KILL_DESCRIPTION: "Data ad un soldato che uccide la piu' paurosa dei costrutti alieni: Il Settopoide!"
-  STR_MEDAL_SECTOPOD_KILL_UFOPEDIA: ""
+  STR_MEDAL_SECTOPOD_KILL_UFOPEDIA: " 'Un robot non può recare danno all'umanità, né può permettere che, a causa del proprio mancato intervento, l'umanità riceva danno.' {NEWLINE}-Isaac Asimov: 'La Legge Zero della robotica' {NEWLINE} {NEWLINE} Anche il più coraggioso dei soldati può rabbrividire sentendo un Sectopode far tremare la terra. L'elevata difficoltà nell'abbattere questa minaccia metallica viene riconosciuta da questa citazione. {NEWLINE} {NEWLINE} Questo encomio viene assegnato ad ogni soldato che uccide un Sectopode, non importa in che modo. Sono disponibili dieci livelli per questo premio per un totale di dieci uccisioni."
 
   STR_MEDAL_SEVEN_IN_ONE: "L'Ordine della Gloria"
   STR_MEDAL_SEVEN_IN_ONE_DESCRIPTION: "Data ad un soldato che è stato importante nella riuscita di una missione."
-  STR_MEDAL_SEVEN_IN_ONE_UFOPEDIA: ""
+  STR_MEDAL_SEVEN_IN_ONE_UFOPEDIA: "'Se ti fai carico di più obiettivi di quanti te ne spettino, dovrai farti carico di ancora più obiettivi di quanti te ne spettino.' {NEWLINE} -- La Legge di Murphy sul Combattimento {NEWLINE} {NEWLINE} Questa citazione viene data in onore ad un soldato che ha ucciso sette nemici in una singola missione. Questa impresa non ha eguali e dimostra la vera grinta di questo letale combattente. {NEWLINE} {NEWLINE}Questo premio può essere assegnato per tre volte."
 
   STR_MEDAL_SLAVEKILLS: "Burattinaio"
   STR_MEDAL_SLAVEKILLS_DESCRIPTION: "Dato a un soldato che ha usato gli alieni l'uno contro l'altro."
@@ -871,59 +881,59 @@ it:
 
   STR_MEDAL_STAR_OF_ASCLEPIUS: "Stella di Asclepio"
   STR_MEDAL_STAR_OF_ASCLEPIUS_DESCRIPTION: "Data ad un soldato che è stato sottoposto al fuoco nemico dalla minaccia aliena."
-  STR_MEDAL_STAR_OF_ASCLEPIUS_UFOPEDIA: ""
+  STR_MEDAL_STAR_OF_ASCLEPIUS_UFOPEDIA: "'La guerra è la vita moltiplicata per un numero di cui nessuno ha mai sentito parlare.' {NEWLINE} -- Sebastian Junger. {NEWLINE} {NEWLINE} Attirando il fuoco intenso del nemico, questo soldato ha fornito un'assistenza eroica ai suoi compagni. {NEWLINE} {NEWLINE} Questa medaglia viene assegnata ai soldati che sono stati presi di mira dieci volte dal nemico. Questo premio ha tre livelli."
 
   STR_MEDAL_STATGAIN: "Citazione di Atena"
   STR_MEDAL_STATGAIN_DESCRIPTION: "Dato a un soldato che si è dedicato al miglioramento personale."
-  STR_MEDAL_STATGAIN_UFOPEDIA: ""
+  STR_MEDAL_STATGAIN_UFOPEDIA: " 'Atena è l'incarnazione della saggezza, della guerra, della civiltà, della forza, della strategia, dell'artigianato e della giustizia.' {NEWLINE} {NEWLINE} Le truppe XCOM si allenano dentro e fuori dal campo di battaglia e quelli che migliorano le loro abilità incarnano l'ideale ateniese.{NEWLINE} {NEWLINE} Questo encomio viene assegnato a soldati che migliorano le loro statistiche complessive di dieci punti. Ci sono dieci livelli per questo premio, riconoscendo un miglioramento totale di 100 punti."
 
   STR_MEDAL_TOTAL_FRIENDLY_FIRED: "Croce Nera"
   STR_MEDAL_TOTAL_FRIENDLY_FIRED_DESCRIPTION: "Data ad un soldato sopravvissuto a del fuoco amico."
-  STR_MEDAL_TOTAL_FRIENDLY_FIRED_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_FRIENDLY_FIRED_UFOPEDIA: "'I proiettili non fanno discriminazioni. Sono proiettili di pari opportunità.' {NEWLINE} -- Peter Duysings{NEWLINE} {NEWLINE} Conosciuta anche come: 'Avresti dovuto abbassarti Carl!' questa medaglia viene data ai soldati che sono stati colpiti dal fuoco amico. Come dice Murphy: 'Il fuoco amico non lo è.' {NEWLINE} {NEWLINE} Questo encomio può essere assegnato fino a quattro volte."
 
   STR_MEDAL_TOTAL_IMPORTANT_MISSIONS: "L'Ordine della Terra"
   STR_MEDAL_TOTAL_IMPORTANT_MISSIONS_DESCRIPTION: "Data ad un soldato che è stato importante nella difesa della Terra"
-  STR_MEDAL_TOTAL_IMPORTANT_MISSIONS_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_IMPORTANT_MISSIONS_UFOPEDIA: "'Coloro che contemplano la bellezza della terra trovano riserve di forza che resisteranno finché durerà la vita.'{NEWLINE} -- Rachel Carson {NEWLINE} {NEWLINE} Partecipando a missioni importanti, questo soldato ha svolto un ruolo cruciale nel difendere il nostro pianeta ed ha ostacolato l'attività aliena. {NEWLINE} {NEWLINE} Questa medaglia viene consegnata per missioni che non coinvolgono esploratori piccoli e medi nemici, il premio viene rilasciato a 3, 5, 10, 15, 20, 25, 30, 35, 40, e 50 missioni."
 
   STR_MEDAL_TOTAL_KNOCKED_OUT: "Medaglia all'Eroismo"
   STR_MEDAL_TOTAL_KNOCKED_OUT_DESCRIPTION: "Data ad un soldato che ha combattuto fino all'ultimo respiro."
-  STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_KNOCKED_OUT_UFOPEDIA: "'Solo l'uomo che sa cosa vuol dire essere sconfitto può arrivare fino in fondo alla sua anima e tirar fuori quel grammo di forza in più che serve per vincere quando la partita è pari.'{NEWLINE} -- Muhammad Ali {NEWLINE} {NEWLINE}  Questa medaglia viene consegnata a un soldato che ha combattuto fino all'ultimo grammo di forza! Questa medaglia viene rilasciata quando un soldato perde i sensi sul campo di battaglia, ma è sopravvissuto. {NEWLINE} {NEWLINE} La medaglia viene consegnata ogni due volte che un soldato perde i sensi, fino ad 8 volte (per quattro livelli di citazione)."
 
   STR_MEDAL_TOTAL_LONE_SURVIVOR: "Stella al Valore"
   STR_MEDAL_TOTAL_LONE_SURVIVOR_DESCRIPTION: "Data ad un soldato che è stato l'ultimo sopravvissuto di una missione."
-  STR_MEDAL_TOTAL_LONE_SURVIVOR_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_LONE_SURVIVOR_UFOPEDIA: "'Non mi arrenderò mai. La mia nazione si aspetta che io sia fisicamente più duro e mentalmente più forte dei miei nemici. Se abbattuto, io mi rialzerò: ogni volta. Attingerà da ogni grammo di forza rimasta per proteggere i miei compagni di squadra e per portare a termine la nostra missione. Io non sono mai fuori combattimento.'{NEWLINE} -- Marcus Luttrell {NEWLINE} {NEWLINE} Quando ormai la squadra è stata quasi eliminata del tutto, questo soldato ha mantenuto il sangue freddo ed è riuscito a riportare a casa la nave. {NEWLINE} {NEWLINE} L'unico superstite di una missione riceve questa medaglia una sola volta."
 
   STR_MEDAL_TOTAL_MISSION_COUNT: "Croce Militare"
   STR_MEDAL_TOTAL_MISSION_COUNT_DESCRIPTION: "Data ad un soldato che ha partecipato a molte missioni."
-  STR_MEDAL_TOTAL_MISSION_COUNT_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_MISSION_COUNT_UFOPEDIA: "'Permanenza, perseveranza e persistenza a dispetto di tutti gli ostacoli, scoraggiamenti e impossibilità: È questo che, fra tutte le cose, distingue l'anima forte da quella debole.'{NEWLINE} - Thomas Carlyle{NEWLINE}{NEWLINE}Questa decorazione viene assegnata ai soldati che hanno partecipato a molte missioni. La loro affidabilità e tenacia li hanno resi fidati veterani della compagnia.{NEWLINE}{NEWLINE}Il premio viene assegnato a 4, 8, 12, 16, 20, 25, 30, 35, 40 e 50 missioni."
 
   STR_MEDAL_TOTAL_MISSION_REGION_COUNT: "Nastro della Campagna"
   STR_MEDAL_TOTAL_MISSION_REGION_COUNT_DESCRIPTION: "Data ad un soldato che ha difeso con successo varie regioni."
-  STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_MISSION_REGION_COUNT_UFOPEDIA: "'Dobbiamo ringraziare tutte le nostre truppe, e in particolare coloro per i quali non potremo mai esprimere abbastanza gratitudine... poiché hanno dato la vita affinche tutti noi fossimo liberi.'{NEWLINE} -Virgil Goode {NEWLINE} {NEWLINE}I paesi di una determinata regione riconoscono l'abilità e il valore con cui questo soldato ha protetto la loro vita e prosperità in questa guerra contro la minaccia aliena. {NEWLINE} {NEWLINE} Questa medaglia viene assegnata per 10, 20 e 30 missioni in una determinata regione."
 
   STR_MEDAL_TOTAL_MONTH_SERVICE: "Medaglia al servizio"
   STR_MEDAL_TOTAL_MONTH_SERVICE_DESCRIPTION: "Data ad un soldato che ha prestato servizio per vari mesi."
-  STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_MONTH_SERVICE_UFOPEDIA: "Questo encomio viene presentato ai soldati che hanno prestato servizio nella XCOM per un lungo periodo di tempo. Riconosciamo l'enorme sacrificio richiesto dalle nostre valorose truppe pur rimanendo al servizio della XCOM. Questa decorazione viene assegnata ai soldati che hanno visto amici venire ed andarsene e sono diventati esperti nella lotta della XCOM contro il nemico. {NEWLINE} {NEWLINE} Questo encomio viene assegnato ogni tre mesi di servizio."
 
   STR_MEDAL_TOTAL_NIGHT_MISSIONS: "Night Stalker"
   STR_MEDAL_TOTAL_NIGHT_MISSIONS_DESCRIPTION: "Dato a un soldato che ha fatto parte di diverse missioni notturne."
-  STR_MEDAL_TOTAL_NIGHT_MISSIONS_UFOPEDIA: ""
+  STR_MEDAL_TOTAL_NIGHT_MISSIONS_UFOPEDIA: "'Dal profondo della notte che mi ricopre,{NEWLINE} Nera come il pozzo da un polo all'altro,{NEWLINE} Ringrazio gli dei qualunque essi siano {NEWLINE} Per la mia indomabile anima.'{NEWLINE}- Invictus - William Ernest Henly {NEWLINE} {NEWLINE} Le operazioni notturne contro un nemico che può vedere almeno due volte più lontano dei tuoi soldati possono essere estremamente strazianti. {NEWLINE} {NEWLINE} Questo premio viene assegnato ai soldati che partecipano a missioni notturne. Viene assegnato un livello per ogni tre operazioni notturne."
 
   STR_MEDAL_TRAP: "Croce del Predatore"
   STR_MEDAL_TRAP_DESCRIPTION: "Data ad un soldato per aver usato le tattiche di guerriglia."
-  STR_MEDAL_TRAP_UFOPEDIA: ""
+  STR_MEDAL_TRAP_UFOPEDIA: "' Ehilà? C'è nessuno? {NEWLINE}Ehilà, signor Gopher! {NEWLINE}Sono io, il signor scoiattolo. {NEWLINE}Un innoquo scoiattolo. {NEWLINE}Mica un esplosivo al plastico o roba del genere. {NEWLINE}Niente di cui preoccuparsi. {NEWLINE} - Palla da golf. ' {NEWLINE} {NEWLINE} Questa medaglia viene assegnata come riconoscimento della maestria nell'uccidere il nemico con trappole esplosive e IED. Questo premio ha quattro livelli, rispettivamente ad 1, 3, 5 e 8 uccisioni usando granate di prossimità."
 
   STR_MEDAL_VALIANT_CRUX: "Il Punto Cruciale"
   STR_MEDAL_VALIANT_CRUX_DESCRIPTION: "Data ad un soldato che ha protetto tutti i civili durante una missione del terrore."
-  STR_MEDAL_VALIANT_CRUX_UFOPEDIA: ""
+  STR_MEDAL_VALIANT_CRUX_UFOPEDIA: "'Il vero soldato combatte non perché odia ciò che ha davanti, ma perché ama ciò che ha dietro di lui.' {NEWLINE} --G. K. CHESTERTON {NEWLINE} {NEWLINE} Quando il terrore colpisce, sono in pochi a poter rispondere in modo così straordinario per far si che tutti gli spettatori innocenti siano risparmiati dall'ira della minaccia ultraterrena. {NEWLINE} {NEWLINE} Qualsiasi soldato che partecipa ad una missione del terrore dove sono stati salvati tutti i civili riceverà questo encomio. Questa medaglia ha quattro livelli."
 
   STR_MEDAL_WEAPON_PROFICIENCY: "Medaglia di Competenza con Armi"
   STR_MEDAL_WEAPON_PROFICIENCY_DESCRIPTION: "Data ad un soldato che ha dimostrato una differenza usando un {0}"
-  STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: ""
+  STR_MEDAL_WEAPON_PROFICIENCY_UFOPEDIA: "'A qualsiasi cosa contro cui valga la pena sparare vale la pena sparare due volte. Le munizioni costano poco. La vita non ha prezzo.'{NEWLINE} -- Regole dei ranger statunitensi per gli scontri a fuoco {NEWLINE} {NEWLINE} Questa medaglia viene assegnata per riconoscere la grande abilità di un soldato nell'usare una certa arma. È diventato un vero esperto nel suo campo ed un amestro nel suo mestiere. {NEWLINE} {NEWLINE} Questa medaglia viene assegnata per 10, 20 e 30 uccisioni con un'arma specifica."
 
   STR_MEDAL_WOUNDED: "Purple Heart"
   STR_MEDAL_WOUNDED_DESCRIPTION: "Data ad un soldato che è stato ferito sul campo di battaglia."
-  STR_MEDAL_WOUNDED_UFOPEDIA: ""
+  STR_MEDAL_WOUNDED_UFOPEDIA: "Le ferite ricevute sul campo di battaglia sono la prova tangibile della volontà dei soldati XCOM di mettersi in pericolo. Questo sacrificio viene onorato in questa versione del classico encomio per soldati feriti. {NEWLINE} {NEWLINE} Questa medaglia viene data ai soldati che osno stati feriti sul campo di battaglia. Questo premio viene rilasciato una volta sola."
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS

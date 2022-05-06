@@ -38,11 +38,14 @@ de:
   STR_SUPPORT_DRONES: "Unterstützungsdrohnen"
   STR_SUPPORT_DRONES_UFOPEDIA: "Verglichen mit unseren ersten Designs der schweren Waffenplattformen, streben diese kleinen Roboter auf dem Schlachtfeld nach einem anderen Ziel. Aufklärung und indirekte Truppentransport. Sie haben ein schlankes Design und umfangreiche Panzerung, für ihre Grösse. Informationssammlung auf dem Schlachtfeld wird die Kampffähigkeiten unserer Truppen stark verbessern und uns helfen, die Verluste zu verringern. Unsere Ingenieure glauben auch, dass wir sie mit Scannern oder medizinischer Ausrüstung ausstatten können."
 
-  STR_EXPLOSIVE_AMMO: "Explosivmunition"
-  STR_EXPLOSIVE_AMMO_UFOPEDIA: "Unsere fortschrittlichen Infanteriewaffen, die schwere Kanone und die Autokanone können jetzt explosive Munition verschiessen, die HE-Schaden macht. Wir haben unserem Hauptwaffenhändler die Pläne und Schemata gegeben, um diese Munition herzustellen."
+  STR_EXPLOSIVE_AMMO: ""
+  STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "Ausserirdische Legierungsmunition"
   STR_ALLOY_AMMO_UFOPEDIA: "Mit dem erlangten Wissen wie die ultra-starken aber dennoch leichten außerirdischen Legierungen zu bearbeiten, können wir Kugeln aus dieser Legierung herstellen. Sie können eine wesentlich höhere Mündungsgeschwindigkeit überstehen, ohne dass sie sich in der Luft auflösen. Die Hülsen sind aus außerirdischen Legierungen sind ebenfalls leichter und stabiler als es früher möglich war."
+
+  STR_EHE_AMMO: ""
+  STR_EHE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AIRFRAME: "Alien-Legierungs-Aussenhaut"
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
@@ -392,10 +395,14 @@ de:
   STR_SNIPER_RIFLE_AA_CLIP: "Scharfschützengewehr-Legierungs-Magazin"
   STR_SNIPER_RIFLE_UFOPEDIA: "Das Scharfschützengewehr mit Kaliber 12,7-mm ist tödlicher und genauer als das Standard-Gewehr. Dafür ist der Umgang schwieriger und die Feuerrate niedriger."
 
-  STR_HC_AA_AMMO: "SG-PB-Legierungsmunition"
+  STR_HC_AA_AMMO: ""
   STR_HC_AA_AMMO_UFOPEDIA: "Diese Muntion für das schwere Geschütz wurde mit außerirdischen Legierungen für erhöhte Feuerkraft gefertigt."
-  STR_AC_AA_AMMO: "AG-PB-Legierungsmunition"
+  STR_HC_EHE_AMMO: ""
+  STR_HC_EHE_AMMO_UFOPEDIA: ""
+  STR_AC_AA_AMMO: ""
   STR_AC_AA_AMMO_UFOPEDIA: "Diese Muntion für das automatische Geschütz wurde mit außerirdischen Legierungen für erhöhte Feuerkraft gefertigt."
+  STR_AC_EHE_AMMO: ""
+  STR_AC_EHE_AMMO_UFOPEDIA: ""
 
   STR_GRENADE_LAUNCHER: "Granatwerfer "
   STR_GRENADE_LAUNCHER_HE_AMMO: "40mm Granate (HE)"
@@ -440,10 +447,13 @@ de:
   STR_PLASMA_SWORD_UFOPEDIA: "Diese tödliche Schwertvariante kombiniert eine große Klinge, nur einen Mikrometer dick an der Schneide, einen Plasmaerzeuger und einen Elektromagneten. Wenn aktiviert, flutet Plasma das EM-Feld um die Klinge und überhitzt sie, bis ihre Berührung Titanium wie Wasser zerteilt."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_SHOTGUN: "Plasma-Schrotflinte"
   STR_PLASMA_SHOTGUN_CLIP: ""

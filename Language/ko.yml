@@ -38,14 +38,17 @@ ko:
   STR_SUPPORT_DRONES: "지원 드론"
   STR_SUPPORT_DRONES_UFOPEDIA: "무인 중화기 플랫폼에 비교할 때, 이 소형 로봇들은 정찰 및 간접 부대 지원을 목표로 합니다. 크기가 줄어듬에 따라 매끄러운 디자인과 포괄적인 장갑이 특징입니다. 전장에서의 정보 파악을 통해 우리 부대의 전투 능력이 크게 증가하고 손실을 줄이는 데 도움이 될 것입니다. 우리 엔지니어들은 드론에 스캐너나 의료 장비를 장착 할 수도 있다고 추측합니다."
 
-  STR_EXPLOSIVE_AMMO: "고폭탄약"
-  STR_EXPLOSIVE_AMMO_UFOPEDIA: "우리의 고급 보병 화기인 중형 유탄발사기와 기관총이 이제 고폭 피해를 입히는 폭발성 탄두를 발사할 수 있다. 이러한 종류의 탄약을 만들기 위한 계획과 설계도를 우리의 주된 무기 계약자에게 넘겨주었다."
+  STR_EXPLOSIVE_AMMO: ""
+  STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "외계 합금 탄약"
   STR_ALLOY_AMMO_UFOPEDIA: "극도로 강인하며 또한 가벼운 외계 합금의 가공하는 법을 알게 되어 이제 합금 탄약의 생산이 가능해졌다. 합금 탄두는 훨씬 더 높은 포구 초속을 분해되지 않고 견뎌내며 탄피 또한 외계 합금을 사용하여 훨씬 가벼워졌다. "
 
+  STR_EHE_AMMO: ""
+  STR_EHE_AMMO_UFOPEDIA: ""
+
   STR_ALLOY_AIRFRAME: "외계 합금 동체"
-  STR_ALLOY_AIRFRAME_UFOPEDIA: "신물질 외계 합금의 형태를 변형시키는 기초적인 이해에 기반하여 우리의 요격기를 위한 향상된 동체를 개발할 수 있을지도 모른다. 기초 실험이 끝나고 나면 향상된 병력 수송기를 개발할 수 있을지도 모른다."
+  STR_ALLOY_AIRFRAME_UFOPEDIA: ""
 
   STR_ALLOY_TANK_ARMOR: "합금 HWP 장갑"
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: "우리가 외계 합금으로 우리의 공중 요격 및 수송 능력을 끌어올린 이 위대한 성과는 우리 기술진 중 한 명에게 이 새로운 지식을 우리 무인 중화기에 어떻게 적용할 지에 대한 놀라운 지식을 주었다. 약간의 기초 연구 후, 우리는 외계 합금을 이용해 이들의 장갑과 속도를 개선할 수 있었다. 부수적으로 우리 조준장치도 커져서, 무인 중화기의 조준 및 반응이 더 나아졌다."
@@ -394,8 +397,12 @@ ko:
 
   STR_HC_AA_AMMO: ""
   STR_HC_AA_AMMO_UFOPEDIA: ""
+  STR_HC_EHE_AMMO: ""
+  STR_HC_EHE_AMMO_UFOPEDIA: ""
   STR_AC_AA_AMMO: ""
   STR_AC_AA_AMMO_UFOPEDIA: ""
+  STR_AC_EHE_AMMO: ""
+  STR_AC_EHE_AMMO_UFOPEDIA: ""
 
   STR_GRENADE_LAUNCHER: "유탄발사기"
   STR_GRENADE_LAUNCHER_HE_AMMO: ""
@@ -440,10 +447,13 @@ ko:
   STR_PLASMA_SWORD_UFOPEDIA: "이 치명적인 검의 구현체는 큰 검, 마이크로미터 두께의 칼날, 플라스마 발생기, 그리고 전자석이 결합한 것이다. 일단 작동하면, 뜨거운 플라스마가 검 주변의 전자기장을 타고 흐르며, 접촉점을 아주 뜨겁게 달구는데 그 접촉된 곳은 티타늄도 물처럼 녹아내릴 것이다."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_SHOTGUN: ""
   STR_PLASMA_SHOTGUN_CLIP: ""

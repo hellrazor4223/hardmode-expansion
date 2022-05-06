@@ -39,13 +39,16 @@ ja:
   STR_SUPPORT_DRONES_UFOPEDIA: "全自動駆動するHWPの当初の構想と比較するとこれ等の小型ロボットは戦場で別の目的を達成する為の物だ。斥候および間接支援である。その特徴はコンパクさと十分な装甲を持つ事だが、戦場の情報収集をする事で兵の戦闘状況を大きく改善し、負傷者を減らす事ができる。我々の技術者はスキャナーや医療器具の搭載も可能だと言っている。"
 
   STR_EXPLOSIVE_AMMO: "炸裂弾"
-  STR_EXPLOSIVE_AMMO_UFOPEDIA: "我々が持つ歩兵用重キャノン砲やオートキャノンは爆発ダメージをもたらす炸裂弾を装填できる様になった。委託している武器業者に設計図を送り、この種の砲弾の製造供給を計画済みだ。"
+  STR_EXPLOSIVE_AMMO_UFOPEDIA: "我々が持つ歩兵用重キャノン砲やオートキャノンは爆発ダメージをもたらす炸裂弾を装填できる様になった。この種の砲弾の供給の為に主な製造業者に対し生産計画表と設計図の受け渡しを済ませてある。"
 
   STR_ALLOY_AMMO: "エイリアン合金弾"
   STR_ALLOY_AMMO_UFOPEDIA: "恐ろしく強靱且つ軽量なエイリアン合金の生成法を習得した事により、摩擦熱に影響されず大きな初速を得られる弾丸の製造が可能となった。合金製の薬莢と弾頭により、今まで不可能とされていたレベルの軽量化と威力を実現した。"
 
+  STR_EHE_AMMO: "エレリウム炸裂弾"
+  STR_EHE_AMMO_UFOPEDIA: "エイリアン合金を薬莢に、そして新たに発見された元素であるE-115を起爆剤に用いる事で既存の火器、例えば重キャノンやオートキャノンなどで発射可能な極めて強力な榴弾を作る事ができる。ただしこの種の砲弾を狭い場所で用いる時にはアーマーを着用すべし。"
+
   STR_ALLOY_AIRFRAME: "合金製航空機用フレーム"
-  STR_ALLOY_AIRFRAME_UFOPEDIA: "最近発見されたエイリアン合金に関する新しい造形法によりインターセプター用に改良型の機体フレームを製造する事が可能となった。この新型フレームの初期試験が終わり次第、兵員輸送機の改良にも取り組む予定である。"
+  STR_ALLOY_AIRFRAME_UFOPEDIA: "最近発見されたエイリアン合金に関する新しい造形法により既存の航空機用に改良型の機体フレームを製造する事が可能となった。まずは兵員輸送機の改修を目指すべきだが、初期試験が終わり次第、インターセプター用の合金フレームの開発を始める予定である。"
 
   STR_ALLOY_TANK_ARMOR: "合金製HWP用装甲"
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: "エイリアン合金を用いた追撃機および輸送機用の改善は大いに満足のいくものであったが、技術者チームはこの新しい手法をHWPにも応用するというアイディアを思いついた。初期テストを通じてその装甲と速度が改善される事が確認され、副次効果として照準周りにも余裕が生じた結果、HWPの照準力と反応速度が向上した。"
@@ -392,10 +395,14 @@ ja:
   STR_SNIPER_RIFLE_AA_CLIP: "スナイパーライフル AA弾倉"
   STR_SNIPER_RIFLE_UFOPEDIA: "この12.7ミリ口径のスナイパーライフルは通常のライフルに比べ遙かに命中精度が高く、威力も高い。しかし扱いこなすのに技量を必要とし連射できない。"
 
-  STR_HC_AA_AMMO: "HC-AP AA弾"
+  STR_HC_AA_AMMO: "HC-AP 合金弾"
   STR_HC_AA_AMMO_UFOPEDIA: "このエイリアン合金製の重キャノン用弾倉は威力が増している。"
-  STR_AC_AA_AMMO: "AC-AP AA弾"
+  STR_HC_EHE_AMMO: "HC-EHE エレリウム榴弾"
+  STR_HC_EHE_AMMO_UFOPEDIA: "この重キャノン用砲弾はエイリアン合金とエレリウム115を用いたもので、致命的な範囲ダメージを与えられる。効果範囲が大きいので狭い場所での使用時は十分な注意が必要だ。"
+  STR_AC_AA_AMMO: "AC-AP 合金弾"
   STR_AC_AA_AMMO_UFOPEDIA: "このエイリアン合金製のオートキャノン用弾倉は威力が増している。"
+  STR_AC_EHE_AMMO: "AC-EHE エレリウム榴弾"
+  STR_AC_EHE_AMMO_UFOPEDIA: "このオートキャノン用砲弾はエイリアン合金とエレリウム115を用いたもので、致命的な範囲ダメージを与えられる。効果範囲が大きいので狭い場所での使用時は十分な注意が必要だ。"
 
   STR_GRENADE_LAUNCHER: "グレネードランチャー"
   STR_GRENADE_LAUNCHER_HE_AMMO: "46mm グレネード (HE)"
@@ -439,11 +446,14 @@ ja:
   STR_PLASMA_SWORD: "プラズマソード"
   STR_PLASMA_SWORD_UFOPEDIA: "ミクロン単位の厚さの刃先とプラズマ発生器そして電磁線を組み合わせたこの恐ろしい複合剣は起動するとプラズマが迸って刃の周りにEM層を形成し、触れるだけでチタンを液体にする程の超高熱を発する。"
 
-  STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP: "プラズマP E弾倉"
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: "エイリアンが使う小型のプラズマピストル用の強化バッテリー。エイリアンが必要とする動力は全て特殊な構造化を施したエレリウムから引き出しているが、その原理は未解明且つ複製不可である。"
 
-  STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+  STR_PLASMA_RIFLE_ELERIUM_CLIP: "プラズマR E弾倉"
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: "２種類あるプラズマライフル用弾倉のひとつ。接触と同時に全てを破壊する反物質の奔流を放つことでより火力が増している。多量のエレリウムを含有する。"
 
-  STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+  STR_HEAVY_PLASMA_ELERIUM_CLIP: "重プラズマ用 E弾倉"
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: "この重プラズマガン用の強化弾倉はエレリウムそのもののパワーを利用したもので、その破壊力はすさまじい。極めて大量のエレリウムを含有している。"
 
   STR_PLASMA_SHOTGUN: "プラズマショットガン"
   STR_PLASMA_SHOTGUN_CLIP: "プラズマショットガン シェル"
@@ -608,7 +618,7 @@ ja:
   STR_ARMORED_CYBERDISC_UFOPEDIA: "これは今まで遭遇した中でも強敵として認知されているサイバーディスクの強化バージョンで、兵器が改良されており、連射が可能となっている。"
   STR_ARMORED_CYBERDISC_CORPSE: "Amdサイバーディスクの残骸"
   STR_ARMORED_CYBERDISC_AUTOPSY: "Amdサイバーディスクの解剖"
-  STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "このサイバーディスクの装甲はかなり強化されており、HE弾に対し強い耐性を示し、通常の弾丸に対しては完全な防御力を持つ。破壊にはレーザーが必要だ。"
+  STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "このサイバーディスクの装甲はかなり強化されており、HE弾に対し強い耐性を示し且つ旧来の兵器がほぼ通用しない為、破壊するにはレーザーを推奨。"
 
   STR_ARMORED_SECTOPOD: "アーマードセクトポッド"
   STR_ARMORED_SECTOPOD_TERRORIST: "Amdセクトポッドのテロリスト"

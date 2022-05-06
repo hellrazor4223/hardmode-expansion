@@ -38,11 +38,14 @@ pl:
   STR_SUPPORT_DRONES: ""
   STR_SUPPORT_DRONES_UFOPEDIA: ""
 
-  STR_EXPLOSIVE_AMMO: "Amunicja burząca"
+  STR_EXPLOSIVE_AMMO: ""
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "Amunicja z obcych stopów"
   STR_ALLOY_AMMO_UFOPEDIA: "Zdolność kształtowania supertwardych, a przy tym lekkich obcych stopów metali pozwoliła nam stworzyć nowy typ amunicji dla naszej broni ręcznej.  Dzięki znacznie mocniejszym łuskom cechuje się ona większą prędkością wylotową, niż było to możliwe wcześniej, a więc zadaje większe obrażenia."
+
+  STR_EHE_AMMO: ""
+  STR_EHE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AIRFRAME: ""
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
@@ -394,8 +397,12 @@ pl:
 
   STR_HC_AA_AMMO: ""
   STR_HC_AA_AMMO_UFOPEDIA: "Ta amunicja do ręcznego działka została wykonana z obcych stopów celem zwiększenia jej siły."
+  STR_HC_EHE_AMMO: ""
+  STR_HC_EHE_AMMO_UFOPEDIA: ""
   STR_AC_AA_AMMO: ""
   STR_AC_AA_AMMO_UFOPEDIA: "Ta amunicja do ręcznego działka rotacyjnego została wykonana z obcych stopów celem zwiększenia jej siły."
+  STR_AC_EHE_AMMO: ""
+  STR_AC_EHE_AMMO_UFOPEDIA: ""
 
   STR_GRENADE_LAUNCHER: "Granatnik"
   STR_GRENADE_LAUNCHER_HE_AMMO: ""
@@ -440,10 +447,13 @@ pl:
   STR_PLASMA_SWORD_UFOPEDIA: "Ta śmiercionośna broń w formie miecza składa się z dużej klingi, która przy ostrej krawędzi ma mikron szerokości, emitera plazmy oraz elektromagnesu. Przy aktywacji gorąca plazma wypełnia pole elektromagnetyczne otaczające ostrze, nagrzewając je do punktu, w którym tytan płynie jak woda."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_SHOTGUN: ""
   STR_PLASMA_SHOTGUN_CLIP: ""
@@ -1289,7 +1299,7 @@ pl:
   STR_DAVAO: "Dawao City"
   STR_DALIAN: ""
   STR_DHAKA: "Dhaka"
-  STR_GUANGZHOU: ""
+  STR_GUANGZHOU: "Kanton"
   STR_HAIKOU: "Hajkou"
   STR_HANOI: "Hanoi"
   STR_HARBIN: "Harbin"

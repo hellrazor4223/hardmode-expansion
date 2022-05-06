@@ -349,6 +349,12 @@ Partially Supported Languages (50%+):
 	Hungarien	HU (hu)
 	Czech		CS (cs)
 	Korean		KO (ko)
+	Portugese	PT (pt_BR)
+	Spanish Latin America ES (es_419)
+	Spanish		ES (es_ES)
+
+	If you want to help translating this Mod or any other OpenXcom Mods, take a look at:
+	https://www.transifex.com/openxcom/openxcom-mods/content/
 
 Future planned additions:
 	More translations

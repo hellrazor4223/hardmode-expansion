@@ -32,6 +32,7 @@ Version 0.99.8
  - Adjust blastradius for Smoke Ammo/Grenades
  - Adjust Terrormissionasignments and Mission Calls
  - Adjust Alloy Drone energy recovery
+ - Add Language files for: pt_BR, es_ES, es_419
  - Fix Mod not loading under OpenXcomExtended (Missing Zombie corpse)
  - Fix Drones getting stunned/zombified under OpenXcomExtended
  - Fix Missing Sprites for Taser Drones
@@ -54,7 +55,7 @@ Version 0.99.8
  - Remove IMPROVEDGLOBE.DAT as requested from Hobbes
  - Restructure Ufopaedia Section to be more sane
  - Restructure Resources Files
- - Update Language files
+ - Update Language files for: ja, ru, de, fr, it, ko, pl, cs, hu, en-GB
  - Overwork README.TXT and CERDITS.TXT, to satisfy Terrain Pack Licence File
 
 Version 0.99.7

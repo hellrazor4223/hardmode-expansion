@@ -38,11 +38,14 @@ hu:
   STR_SUPPORT_DRONES: "Támogató Drónok"
   STR_SUPPORT_DRONES_UFOPEDIA: ""
 
-  STR_EXPLOSIVE_AMMO: "Robbanó Lőszer"
+  STR_EXPLOSIVE_AMMO: ""
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "Idegen Fém Lőszerek"
   STR_ALLOY_AMMO_UFOPEDIA: "Azzal a tudással felvértezve, hogy hogyan készítsünk ultra erős de könnyű idegen fém ötvözeteket, képessé váltunk az idegen fémen alapuló töltények előállítására, amelyek kibírják a nagyobb csőtorkolati sebességgel való kilövést szétesés nélkül, és könnyebbek de mégis erősebbek mint amit ezelőtt elképzelehetőnek tartottunk."
+
+  STR_EHE_AMMO: ""
+  STR_EHE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AIRFRAME: ""
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
@@ -394,8 +397,12 @@ hu:
 
   STR_HC_AA_AMMO: ""
   STR_HC_AA_AMMO_UFOPEDIA: "Ez a Nehéz Löveg Tár Idegen Fémmel megerősített változata, megnövelt hatóerővel."
+  STR_HC_EHE_AMMO: ""
+  STR_HC_EHE_AMMO_UFOPEDIA: ""
   STR_AC_AA_AMMO: ""
   STR_AC_AA_AMMO_UFOPEDIA: "Ez az Automata Löveg Tár Idegen Fémmel megerősített változata, megnövelt hatóerővel."
+  STR_AC_EHE_AMMO: ""
+  STR_AC_EHE_AMMO_UFOPEDIA: ""
 
   STR_GRENADE_LAUNCHER: "Gránátvető"
   STR_GRENADE_LAUNCHER_HE_AMMO: "40mm Gránát (ROBBANÓ)"
@@ -440,10 +447,13 @@ hu:
   STR_PLASMA_SWORD_UFOPEDIA: "Ez halálos kard ötvöz egy nagy pengét, egy mikron vastagságú élt, egy plazma emittert, és elektromágnest.  Amikor aktiválódik a forró plazma elárasztja a mágneses mező körül a pengét, és szupermagas hőmérsékletűre hevíti azt ami megérinti. Egy titán lemezen úgy megy át mintha csak víz lenne."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_PLASMA_SHOTGUN: "Plazma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plazma Shotgun Lőszer"
