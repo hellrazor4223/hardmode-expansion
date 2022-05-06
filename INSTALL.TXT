@@ -1,9 +1,20 @@
 #Hardmode Expansion Mod by hellrazor
 
-Intall instructions:
+#Prerequisites:
+This mod requires at least:
+OXC: openxcom_git_master_2019_11_10_1731 see: https://openxcom.org/git-builds/
+OXCE: OXCE v7.5.3 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
+Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
+
+#Install instructions:
  - Go to your Mod folder and delete the old "Hardmode_Expansion" directory.
  - Extract Zip file
  - Copy over the directory "Hardmode_Expansion" in your user mods directory.
  - Active "Hardmode_Expansion" under Mods
 
-This mod requieres at least: openxcom_git_master_2019_11_10_1731 or newer
+#Activate at least the following Recommended Advanced Options:
+	Save Preprimed Grenades (for Smoke Grenades)
+	Alternate Movement Methods (to fight faster)
+	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
+	Forced Craft launch (probably needed since your craft will get shot a lot)

@@ -1,11 +1,14 @@
 Changelog:
 
 Version 0.99.8
+ - Add Support for OXCE (HOOORAY!!!)
  - Add Elerium High Explosive Ammo for Heavy Cannon and Auto Cannon
  - Add EleriumClips for Aliens
  - Add more Civilians
  - Add Chryssalid Spitter Zombie
  - Add Terrain Pack 4.3 Licence file
+ - Add Terrain Pack 4.3 Author List
+ - Add Terrain Pack Licence Graphic (by-nc-sa.png)
  - Add Ufopaedia Graphics for Globetrotter Medal by Holomorph
  - Add Ufopaedia Graphics for Martyr Medal by Holomorph
  - Add Ufopaedia Graphics for Mindcontrol Medal by Holomorph
@@ -52,6 +55,7 @@ Version 0.99.8
  - Restructure Ufopaedia Section to be more sane
  - Restructure Resources Files
  - Update Language files
+ - Overwork README.TXT and CERDITS.TXT, to satisfy Terrain Pack Licence File
 
 Version 0.99.7
  - Fix UFOL83.MCD armor values for new MCD check

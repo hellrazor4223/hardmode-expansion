@@ -1,7 +1,12 @@
 #Hardmode Expansion Mod by hellrazor
 #Standalone intended
 
-This mod requires at least: openxcom_git_master_2019_11_10_1731 or newer
+#Prerequisites:
+This mod requires at least:
+OXC: openxcom_git_master_2019_11_10_1731 see: https://openxcom.org/git-builds/
+OXCE: OXCE v7.5.3 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
+Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
 README for Version 0.99.8
 ##################################################
@@ -24,10 +29,10 @@ The difficulty will be actually far higher then Superhuman, considering mainly t
 Technologies will need alive aliens captures to unlock and will trigger additional mission.
 Research takes longer and you do not have access to a alien
 containment from the beginning. It is recommend to get between 200-250
-scientists by November. Otherwise the game becomes very difficult.
+scientists by November. Otherwise the game becomes extremly difficult.
 
 The vanilla game always lacked proper weaponry sets including melee weapons, shotguns, sniper rifles. All of these have been added for the ballistic and laser weaponry for X-Com and the Alien plasma weapons.
-A extended set of additional grenades and small launcher ammo together with added grenade aluncher gives very good indirect fire possibilities. Small launcher acts as a artillery style weapon, arking shot ;).
+A extended set of additional grenades and small launcher ammo together with added grenade launcher gives very good indirect fire possibilities. Small launcher acts as a artillery style weapon, arking shot ;).
 
 More armors, starting with ballistic vests up to reinforced power and flying suits expand the survival capabilities of your soldiers. Power armor also extends stamina and increases carry capacity.
 
@@ -59,6 +64,8 @@ I hope you will enjoy this collection of 60+ Mods (i stopped counting)
 and please report any possible Bug you might find on the forum. 
 Feedback of any form is also appreciated.
 
+
+Compability to OpenXcom Extended is now given :>
 
 Compability to other mods:
 	This mod is intended to be a Standalone Mod.
@@ -92,6 +99,7 @@ Recommended Advanced Options:
 
 Creditlist:
 see CREDIT.TXT
+also see TERRAIN_PACK_AUTHORS.md for all Terrain Pack Credits (also added in CREDITS.TXT)
 
 Features:
 
@@ -258,7 +266,7 @@ Additional X-Com Craft Weapons:
 	Alloy Cannon
 	Modified Range for Vanilla Weapons
 
-Additional Terrains:
+Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN_PACK_AUTHORS.md for a detailed list!):
 	Airfield
 	Cargo Ship
 	City Snow
@@ -348,3 +356,23 @@ Future planned additions:
 	Armed Humans for Terrormissions and Other Missions
 	Special Mission to aquire the Alien Data Slate (not done)
 	Special Mission to aquire the Alien Data Core (not done) 
+
+Licence Notice:
+	All content from Hobbes Terrain Pack Mod Version 4.3 is under a Creatvie Common Licence!
+	All modified and bugfixes Terrain Pack Mod files, which I use are also under the same licence, see point derivates.
+
+	The XCOM Terrain Pack and its contents are being distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+	This license gives you the freedom to distribute and modify its materials for non-commercial proposes only and requires you to provide proper attribution.
+
+	For proper attribution you need to include on your mod's credits a mention to Terrain Pack as well as to include the repository link (https://github.com/Hobbes74/Terrain-Pack) as well as the specific terrain(s) you are using and their author(s) and their author's original mod page, if it exists.
+
+	In alternative, you can simply credit the entire pack on the top section of your authors/credits file because of its overall importance to your mod, while providing the above repository link.
+
+	Any derivatives made from the XCOM Terrain Pack also have the CC BY-NC-SA 4.0 license, which means that you cannot alter the original materials and share the modified versions without giving them the same CC BY-NC-SA 4.0 license (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+	You can find a full list of the authors along with the terrains and the versions/variants they contributed to on the AUTHORS file provided together with this LICENSE.
+
+	This license is irrevocable and permanent as long as you fully comply with these conditions.
+
+	Failure to comply with the terms stated above will result in an initial warning. If necessary, it will be followed by proper reporting of the license violation to the host site, and if the violation continues, revocation of your license and permission to use/modify/distribute the Terrain Pack.
