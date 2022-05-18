@@ -1,5 +1,8 @@
 Changelog:
 
+Version 0.99.9
+ - Fix wrong/missing Sprite for Spitterzombie
+
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)
  - Add Elerium High Explosive Ammo for Heavy Cannon and Auto Cannon

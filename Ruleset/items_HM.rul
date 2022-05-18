@@ -3248,7 +3248,7 @@ items:
 #BEGIN SPITTER ZOMBIE WEAPON ITEM
   - type: SPITTER_ZOMBIE_WEAPON
     weight: 3
-    bigSprite: 57
+    bigSprite: { mod: xcom1, index: 57}
     meleeSound: 48
     strengthApplied: true
     damageType: 7
