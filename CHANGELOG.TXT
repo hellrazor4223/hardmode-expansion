@@ -2,6 +2,7 @@ Changelog:
 
 Version 0.99.9
  - Fix wrong/missing Sprite for Spitterzombie
+ - Fix Plasma Weapon Research Bug
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)
