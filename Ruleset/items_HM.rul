@@ -1667,18 +1667,6 @@ items:
     handSprite: 168
     armor: 20
     listOrder: 2400
-  - type: STR_HC_HE_AMMO
-    weight: 5
-    requires:
-      - STR_EXPLOSIVE_AMMO
-    handSprite: 176
-    armor: 20
-    listOrder: 2500
-  - type: STR_HC_I_AMMO
-    weight: 5
-    handSprite: 184
-    armor: 20
-    listOrder: 2600
   - type: STR_HC_AA_AMMO
     requires:
       - STR_ALLOY_AMMO
@@ -1698,7 +1686,14 @@ items:
     armor: 30
     invWidth: 2
     invHeight: 1
-    listOrder: 2601
+    listOrder: 2401
+  - type: STR_HC_HE_AMMO
+    weight: 5
+    requires:
+      - STR_EXPLOSIVE_AMMO
+    handSprite: 176
+    armor: 20
+    listOrder: 2500
   - type: STR_HC_EHE_AMMO
     requires:
       - STR_EHE_AMMO
@@ -1719,7 +1714,12 @@ items:
     armor: 30
     invWidth: 2
     invHeight: 1
-    listOrder: 2602
+    listOrder: 2501
+  - type: STR_HC_I_AMMO
+    weight: 5
+    handSprite: 184
+    armor: 20
+    listOrder: 2600
 #END HEAVY CANNON ITEM
 
 #BEGIN AUTO CANNON ITEM
@@ -1771,18 +1771,6 @@ items:
     handSprite: 192
     armor: 20
     listOrder: 2800
-  - type: STR_AC_HE_AMMO
-    weight: 5
-    requires:
-      - STR_EXPLOSIVE_AMMO
-    handSprite: 200
-    armor: 20
-    listOrder: 2900
-  - type: STR_AC_I_AMMO
-    weight: 5
-    handSprite: 208
-    armor: 20
-    listOrder: 3000
   - type: STR_AC_AA_AMMO
     requires:
       - STR_ALLOY_AMMO
@@ -1802,7 +1790,14 @@ items:
     armor: 20
     invWidth: 2
     invHeight: 1
-    listOrder: 3001
+    listOrder: 2801
+  - type: STR_AC_HE_AMMO
+    weight: 5
+    requires:
+      - STR_EXPLOSIVE_AMMO
+    handSprite: 200
+    armor: 20
+    listOrder: 2900
   - type: STR_AC_EHE_AMMO
     requires:
       - STR_EHE_AMMO
@@ -1823,7 +1818,12 @@ items:
     armor: 20
     invWidth: 2
     invHeight: 1
-    listOrder: 3002
+    listOrder: 2901
+  - type: STR_AC_I_AMMO
+    weight: 5
+    handSprite: 208
+    armor: 20
+    listOrder: 3000
 #END AUTO CANNON ITEM
 
 #BEGIN GRENADE LAUNCHER ITEM
