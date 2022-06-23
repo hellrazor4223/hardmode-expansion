@@ -1310,8 +1310,8 @@ units:
     deathSound: 9
     aggroSound: 49
     builtInWeapons:
-      - CHRYSSALID_WEAPON
-      - CHRYSSALID_SPITTER_WEAPON
+      - CHRYSSALID_SPITTER_MELEE_WEAPON
+      - CHRYSSALID_SPITTER_RANGED_WEAPON
     intelligence: 10
     aggression: 4
     energyRecovery: 60

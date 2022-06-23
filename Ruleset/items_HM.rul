@@ -3291,8 +3291,26 @@ items:
     dropoff: 2
 #END ARMORED SECTOPOD WEAPON ITEM
 
-#BEGIN CHRYSSALID SPITTER WEAPON ITEM
-  - type: CHRYSSALID_SPITTER_WEAPON
+#BEGIN CHRYSSALID SPITTER WEAPON ITEMS
+  - type: CHRYSSALID_SPITTER_MELEE_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 61}
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 49
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 120
+    tuMelee: 10
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    zombieUnit: STR_SPITTER_ZOMBIE
+    flatRate: true
+  - type: CHRYSSALID_SPITTER_RANGED_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60}
     floorSprite: 31
@@ -3313,11 +3331,11 @@ items:
     recover: false
     zombieUnit: STR_SPITTER_ZOMBIE
     flatRate: true
-    listOrder: 11406
-    maxRange: 12
-    snapRange: 8
-    dropoff: 4
-#END CHRYSSALID SPITTER WEAPON ITEM
+    listOrder: 11407
+    maxRange: 20
+    snapRange: 12
+    dropoff: 10
+#END CHRYSSALID SPITTER WEAPON ITEMS
 
 #BEGIN SPITTER ZOMBIE WEAPON ITEM
   - type: SPITTER_ZOMBIE_WEAPON
@@ -3335,7 +3353,7 @@ items:
     clipSize: -1
     recover: false
     flatRate: true
-    listOrder: 11407
+    listOrder: 11408
 #END SPITTER ZOMBIE WEAPON ITEM
 ##END ALIEN TERROR UNIT WEAPON ITEMS
 

@@ -5,6 +5,7 @@ Version 0.99.9
  - Fix wrong/missing Sprite for Spitterzombie
  - Fix Plasma Weapon Research Bug
  - Fix Plasma Pistol Elerium Clip hitAnimation not showing
+ - Fix Spitter Zombie not spawning from Spitter melee attacks
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)
