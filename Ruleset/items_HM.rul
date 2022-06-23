@@ -2361,7 +2361,7 @@ items:
     handSprite: 632
     bulletSprite: 25
     hitsound: 19
-    hitanimation: 120
+    hitAnimation: 120
     power: 72
     damageType: 5
     clipSize: 26

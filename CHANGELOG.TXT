@@ -4,6 +4,7 @@ Version 0.99.9
  - Adjust UFO Extender Accuracy Settings
  - Fix wrong/missing Sprite for Spitterzombie
  - Fix Plasma Weapon Research Bug
+ - Fix Plasma Pistol Elerium Clip hitAnimation not showing
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)
