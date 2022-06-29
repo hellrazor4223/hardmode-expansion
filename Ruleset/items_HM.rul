@@ -1403,6 +1403,8 @@ items:
     invHeight: 2
     armor: 20
     maxRange: 15
+    snapRange: 10
+    dropoff: 4
     listOrder: 1805
   - type: STR_TASER_PISTOL_CLIP
     size: 0.1
@@ -1994,6 +1996,8 @@ items:
 #BEGIN LASER RIFLE ITEM
   - type: STR_LASER_RIFLE
     armor: 30
+    snapRange: 20
+    autoRange: 12
     dropoff: 3
 #END LASER RIFLE ITEM
 
@@ -3310,6 +3314,7 @@ items:
     recover: false
     zombieUnit: STR_SPITTER_ZOMBIE
     flatRate: true
+    listOrder: 11406
   - type: CHRYSSALID_SPITTER_RANGED_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60}
@@ -3328,6 +3333,7 @@ items:
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
+    arcingShot: true
     recover: false
     zombieUnit: STR_SPITTER_ZOMBIE
     flatRate: true
