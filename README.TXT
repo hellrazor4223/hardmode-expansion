@@ -138,6 +138,9 @@ General Gameplay changes:
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
+    Attacking landed Battleship performing a Infiltrationmission gives 66% to deny the infiltration (OCXE only)
+    Attacking landed Labship and/or Harvester on a Harvesting Mission give each 33% to deny mission success (OCXE only)
+    Attacking landed Labship and/or Abductors on a Abduction Mission give each 33% to deny mission success (OXCE only)
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%

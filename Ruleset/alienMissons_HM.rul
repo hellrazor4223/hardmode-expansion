@@ -14,7 +14,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE
   - type: STR_ALIEN_BASE
-    points: 50
+    points: 100
     objective: 2 #Built a alien base
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
@@ -195,6 +195,7 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 60
+        interruptPercentage: 66
 #END ALIEN INFILTRATION
 
 #BEGIN ALIEN RESEARCH
@@ -271,7 +272,7 @@ alienMissions:
 
 #BEGIN ALIEN ABDUCTION
   - type: STR_ALIEN_ABDUCTION
-    points: 50
+    points: 100
     raceWeights: *RESEARCH_ABDUCTION
     waves:
       - ufo: STR_SMALL_SCOUT
@@ -290,15 +291,17 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 9000
+        interruptPercentage: 33
       - ufo: STR_ABDUCTOR
         count: 2
         trajectory: P4
         timer: 60
+        interruptPercentage: 33
 #END ALIEN ABDUCTION
 
 #BEGIN ALIEN HARVEST
   - type: STR_ALIEN_HARVEST
-    points: 30
+    points: 60
     raceWeights:
       0:
         STR_FLOATER: 80
@@ -393,14 +396,17 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 3000
+        interruptPercentage: 33
       - ufo: STR_HARVESTER
         count: 1
         trajectory: P4
         timer: 750
+        interruptPercentage: 33
       - ufo: STR_LAB_SHIP
         count: 1
         trajectory: P2
         timer: 1500
+        interruptPercentage: 33
 #END ALIEN HARVEST
 
 #BEGIN ALIEN RETALIATION
