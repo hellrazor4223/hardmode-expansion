@@ -2,6 +2,8 @@ Changelog:
 
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings
+ - Adjust Armor Resistence for Reinforced Suits
+ - Adjusr Armor Redistance for lategame Enemies
  - Fix wrong/missing Sprite for Spitterzombie
  - Fix Plasma Weapon Research Bug
  - Fix Plasma Pistol Elerium Clip hitAnimation not showing
