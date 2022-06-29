@@ -2,4 +2,6 @@
 costEngineer: 37500
 costScientist: 45000
 alienFuel: [STR_ELERIUM_115, 25]
+allowCountriesToCancelAlienPact: true
+extraNerdyPediaInfo: true
 ###END VARS

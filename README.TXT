@@ -141,6 +141,7 @@ General Gameplay changes:
     Attacking landed Battleship performing a Infiltrationmission gives 66% to deny the infiltration (OCXE only)
     Attacking landed Labship and/or Harvester on a Harvesting Mission give each 33% to deny mission success (OCXE only)
     Attacking landed Labship and/or Abductors on a Abduction Mission give each 33% to deny mission success (OXCE only)
+    Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (OXCE only)
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%
