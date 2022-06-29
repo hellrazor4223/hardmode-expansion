@@ -3,7 +3,7 @@ Changelog:
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings
  - Adjust Armor Resistence for Reinforced Suits
- - Adjust Armor Redistance for lategame Enemies
+ - Adjust Armor Resistance for some Lategame Enemies
  - Fix wrong/missing Sprite for Spitterzombie
  - Fix Plasma Weapon Research Bug
  - Fix Plasma Pistol Elerium Clip hitAnimation not showing
@@ -16,6 +16,7 @@ Version 0.99.9
  - Add OXCE Missioninteruption for successful Ground Assault
  - Add and enable OXCE Spotter/Sniper AI
  - Add OXCE option to let Countries rejoin the Council once Pactbase is defeated
+ - Add OXCE medikit DOS targetting behaviour for drones and medikits
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)

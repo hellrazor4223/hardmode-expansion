@@ -138,8 +138,8 @@ General Gameplay changes:
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
-    Attacking landed Battleship performing a Infiltrationmission gives 66% to deny the infiltration (OCXE only)
-    Attacking landed Labship and/or Harvester on a Harvesting Mission give each 33% to deny mission success (OCXE only)
+    Attacking landed Battleship performing a Infiltrationmission gives 66% to deny the infiltration (OXCE only)
+    Attacking landed Labship and/or Harvester on a Harvesting Mission give each 33% to deny mission success (OXCE only)
     Attacking landed Labship and/or Abductors on a Abduction Mission give each 33% to deny mission success (OXCE only)
     Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (OXCE only)
 
@@ -172,6 +172,7 @@ Groundcombat changes:
 	Shotgun Class Weaponry for Xcom and Aliens
 	Dedicaded Melee Weaponry for Xcom and Aliens
     Sniper/Spotter AI actived, Soldiers and Terrorunits act as Spotter, Ranked aliens as Sniper (OXCE only)
+    Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

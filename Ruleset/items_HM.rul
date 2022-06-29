@@ -185,6 +185,7 @@ items:
     flatRate: true
     recover: false
     fixedWeapon: true
+    medikitTargetMatrix: 63
     listOrder: 1075
 #END DRONE MEDIKIT ITEM
 
@@ -408,6 +409,7 @@ items:
     flatRate: true
     recover: false
     fixedWeapon: true
+    medikitTargetMatrix: 63
     listOrder: 1082
 #END ALLOY DRONE MEDIKIT ITEM
 
@@ -2206,6 +2208,7 @@ items:
     tuUse: 15
     flatRate: true
     armor: 10
+    medikitTargetMatrix: 63
     listOrder: 4299
 #END MEDI PACK ITEM
 
@@ -2232,6 +2235,7 @@ items:
     tuUse: 10
     flatRate: true
     armor: 20
+    medikitTargetMatrix: 63
     listOrder: 4300
 #END MEDI KIT ITEM
 
@@ -2258,6 +2262,7 @@ items:
     tuUse: 5
     flatRate: true
     armor: 30
+    medikitTargetMatrix: 63
     listOrder: 4301
 #END ADVANCED MEDI KIT ITEM
 
