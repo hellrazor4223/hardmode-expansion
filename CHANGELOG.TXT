@@ -7,6 +7,7 @@ Version 0.99.9
  - Fix Plasma Pistol Elerium Clip hitAnimation not showing
  - Fix Spitter Zombie not spawning from Spitter melee attacks
  - Fix Sortorder for HC and AC Ammo
+ - Add OXCE Missioninteruption for successful Ground Assault
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)

@@ -1513,9 +1513,9 @@ items:
     invHeight: 3
     listOrder: 2202
     armor: 20
-    maxRange: 16
-    aimRange: 12
-    snapRange: 8
+    maxRange: 20
+    aimRange: 15
+    snapRange: 9
     dropoff: 12
   - type: STR_SHOTGUN_CLIP
     size: 0.1
@@ -2027,10 +2027,10 @@ items:
     shotgunPellets: 5
     listOrder: 3601
     armor: 30
-    maxRange: 18
-    aimRange: 14
-    snapRange: 10
-    autoRange: 6
+    maxRange: 20
+    aimRange: 17
+    snapRange: 11
+    autoRange: 7
     dropoff: 9
 #END SCATTER LASER ITEM
 
@@ -2443,8 +2443,8 @@ items:
     attraction: 10
     listOrder: 5302
     maxRange: 20
-    aimRange: 16
-    snapRange: 12
+    aimRange: 19
+    snapRange: 13
     autoRange: 9
     dropoff: 6
   - type: STR_PLASMA_SHOTGUN_CLIP
