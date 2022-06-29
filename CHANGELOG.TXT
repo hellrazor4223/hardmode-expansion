@@ -8,6 +8,7 @@ Version 0.99.9
  - Fix Spitter Zombie not spawning from Spitter melee attacks
  - Fix Sortorder for HC and AC Ammo
  - Add OXCE Missioninteruption for successful Ground Assault
+ - Add and enable OXCE Spotter/Sniper AI
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)

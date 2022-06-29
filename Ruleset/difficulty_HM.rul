@@ -1,8 +1,17 @@
 #BEGIN DIFFICULTY
-#difficultyCoefficient: [2, 3, 4, 5, 6]
-#aimAndArmorMultipliers: [1.0, 1.0, 1.0, 1.1, 1.2]
 turnAIUseGrenade: 0
 turnAIUseBlaster: 0
+ai.useDelayBlaster: 0
+ai.useDelayFirearm: 0
+ai.useDelayGrenade: 0
+ai.useDelayMelee: 0
+ai.useDelayPsionic: 0
+ai.extendedFireModeChoice: true
+ai.respectMaxRange: true
+ai.destroyBaseFacilities: true
+ai.fireChoiceIntelCoeff: 9
+ai.fireChoiceAggroCoeff: 3
+
 constants:
   - fireDamageRange: [7, 12]
 #END DIFFICULTY
