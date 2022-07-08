@@ -98,7 +98,7 @@ Recommended Advanced Options: (In OXCE this options are enabled when loading the
 	Alien Bleeding
 
 Creditlist:
-see CREDIT.TXT
+see CREDIT.TXT (https://openxcom.org/forum/index.php/topic,4965.0.html)
 also see TERRAIN_PACK_AUTHORS.md for all Terrain Pack Credits (also added in CREDITS.TXT)
 
 Features:
