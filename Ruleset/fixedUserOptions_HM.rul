@@ -1,0 +1,6 @@
+fixedUserOptions:
+  customInitialBase: false
+  battleInstantGrenade: false
+  weaponSelfDestruction: false
+
+

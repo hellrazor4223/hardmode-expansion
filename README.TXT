@@ -88,7 +88,7 @@ Not compatible:
 The list of included Mods is pretty big (60+) see Features.
 Mostly Graphics, New Units, Terrains and Weapons.
 
-Recommended Advanced Options:
+Recommended Advanced Options: (In OXCE this options are enabled when loading the mod for the first time)
 	Save Preprimed Grenades (for Smoke Grenades)
 	Alternate Movement Methods (to fight faster)
 	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)

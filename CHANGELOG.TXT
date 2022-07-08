@@ -16,6 +16,7 @@ Version 0.99.9
  - Add OXCE Missioninteruption for successful Ground Assault
  - Add OXCE option to let Countries rejoin the Council once Pactbase is defeated
  - Add OXCE medikit DOS targetting behaviour for drones and medikits
+ - Add OXCE recommended and fixed Useroption
 
 Version 0.99.8
  - Add Support for OXCE (HOOORAY!!!)

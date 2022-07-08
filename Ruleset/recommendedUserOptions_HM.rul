@@ -1,0 +1,10 @@
+recommendedUserOptions:
+  craftLaunchAlways: true
+  storageLimitsEnforced: true
+  canSellLiveAliens: true
+  sneakyAI: true
+  battleUFOExtenderAccuracy: true
+  includePrimeStateInSavedLayout: true
+  battleExplosionHeight: 3
+  strafe: true
+  alienBleeding: true
