@@ -870,8 +870,8 @@
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#Research Tree for 
-Hardmode Expansion Mod
- by hellrazor v.99.8+#</dia:string>
+Hardmode Expansion Mod 0.99.9
+ by hellrazor#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
