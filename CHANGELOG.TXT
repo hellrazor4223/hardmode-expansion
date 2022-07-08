@@ -14,7 +14,6 @@ Version 0.99.9
  - Fix missing arcingshot for Chryssalid Spitter
  - Fix missinf UFO Extender settings for Chryssalid Spitter Ranged Weapon
  - Add OXCE Missioninteruption for successful Ground Assault
- - Add and enable OXCE Spotter/Sniper AI
  - Add OXCE option to let Countries rejoin the Council once Pactbase is defeated
  - Add OXCE medikit DOS targetting behaviour for drones and medikits
 

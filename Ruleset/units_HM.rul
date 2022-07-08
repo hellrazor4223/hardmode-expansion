@@ -409,28 +409,24 @@ units:
       psiStrength: 42
       melee: 40
     value: 5
-    spotter: -1
 #END FLOATER SOLDIER UNIT
 
 #BEGIN FLOATER NAVIGATOR UNIT
   - type: STR_FLOATER_NAVIGATOR
     stats: *FLOATER_STATS
     value: 6
-    sniper: 33
 #END FLOATER NAVIGATOR UNIT
 
 #BEGIN FLOATER ENGINEER UNIT
   - type: STR_FLOATER_ENGINEER
     stats: *FLOATER_STATS
     value: 8
-    sniper: 33
 #END FLOATER ENGINEER UNIT
 
 #BEGIN FLOATER MEDIC UNIT
   - type: STR_FLOATER_MEDIC
     stats: *FLOATER_STATS
     value: 7
-    sniper: 33
 #END FLOATER MEDIC UNIT
 
 #BEGIN FLOATER LEADER UNIT
@@ -440,7 +436,6 @@ units:
       psiStrength: 60
       melee: 40
     value: 10
-    sniper: 33
 #END FLOATER LEADER UNIT
 
 #BEGIN FLOATER COMMANDER UNIT
@@ -450,7 +445,6 @@ units:
       psiStrength: 68
       melee: 40
     value: 13
-    sniper: 33
 #END FLOATER COMMANDER UNIT
 ##END FLOATER UNITS
 
@@ -462,28 +456,24 @@ units:
       psiStrength: 60
       melee: 30
     value: 6
-    spotter: -1
 #END SECTOID SOLDIER UNIT
 
 #BEGIN SECTOID NAVIGATOR UNIT
   - type: STR_SECTOID_NAVIGATOR
     stats: *SECTOID_STATS
     value: 7
-    sniper: 33
 #END SECTOID NAVIGATOR UNIT
 
 #BEGIN SECTOID ENGINEER UNIT
   - type: STR_SECTOID_ENGINEER
     stats: *SECTOID_STATS
     value: 9
-    sniper: 33
 #END SECTOID ENGINEER UNIT
 
 #BEGIN SECTOID MEDIC UNIT
   - type: STR_SECTOID_MEDIC
     stats: *SECTOID_STATS
     value: 8
-    sniper: 33
 #END SECTOID MEDIC UNIT
 
 #BEGIN SECTOID LEADER UNIT
@@ -494,7 +484,6 @@ units:
       psiSkill: 34
       melee: 30
     value: 13
-    sniper: 33
 #END SECTOID LEADER UNIT
 
 #BEGIN SECTOID COMMANDER UNIT
@@ -505,7 +494,6 @@ units:
       psiSkill: 40
       melee: 30
     value: 18
-    sniper: 33
 #END SECTOID COMMANDER UNIT
 ##END SECTOID UNITS
 
@@ -517,21 +505,18 @@ units:
       psiStrength: 60
       melee: 47
     value: 8
-    spotter: -1
 #END SNAKEMAN SOLDIER UNIT
 
 #BEGIN SNAKEMAN NAVIGATOR UNIT
   - type: STR_SNAKEMAN_NAVIGATOR
     stats: *SNAKEMAN_STATS
     value: 9
-    sniper: 33
 #END SNAKEMAN NAVIGATOR UNIT
 
 #BEGIN SNAKEMAN ENGINEER UNIT
   - type: STR_SNAKEMAN_ENGINEER
     stats: *SNAKEMAN_STATS
     value: 10
-    sniper: 33
 #END SNAKEMAN ENGINEER UNIT
 
 #BEGIN SNAKEMAN LEADER UNIT
@@ -541,7 +526,6 @@ units:
       psiStrength: 68
       melee: 47
     value: 14
-    sniper: 33
 #END SNAKEMAN LEADER UNIT
 
 #BEGIN SNAKEMAN COMMANDER UNIT
@@ -551,7 +535,6 @@ units:
       psiStrength: 75
       melee: 47
     value: 18
-    sniper: 33
 #END SNAKEMAN COMMANDER UNIT
 ##END SNAKEMAN
 
@@ -563,21 +546,18 @@ units:
       psiStrength: 40
       melee: 60
     value: 8
-    spotter: -1
 #END MUTON SOLDIER UNIT
 
 #BEGIN MUTON NAVIGATOR UNIT
   - type: STR_MUTON_NAVIGATOR
     stats: *MUTON_STATS
     value: 9
-    sniper: 33
 #END MUTON NAVIGATOR UNIT
 
 #BEGIN MUTON ENGINEER UNIT
   - type: STR_MUTON_ENGINEER
     stats: *MUTON_STATS
     value: 10
-    sniper: 33
 #END MUTON ENGINEER UNIT
 ##END MUTON UNITS
 
@@ -607,7 +587,6 @@ units:
     moveSound: 15
     intelligence: 5
     aggression: 2
-    spotter: -1
 #END WASPITE SOLDIER UNIT
 
 #BEGIN WASPITE ENGINEER UNIT
@@ -624,7 +603,6 @@ units:
     moveSound: 15
     intelligence: 7
     aggression: 2
-    sniper: 33
 #END WASPITE ENGINEER UNIT
 
 #BEGIN WASPITE NAVIGATOR UNIT
@@ -641,7 +619,6 @@ units:
     moveSound: 15
     intelligence: 5
     aggression: 2
-    sniper: 33
 #END WASPITE NAVIGATOR UNIT
 
 #BEGIN WASPITE MEDIC UNIT
@@ -658,7 +635,6 @@ units:
     moveSound: 15
     intelligence: 6
     aggression: 1
-    sniper: 33
 #END WASPITE MEDIC UNIT
 
 #BEGIN WASPITE LEADER UNIT
@@ -686,7 +662,6 @@ units:
     moveSound: 15
     intelligence: 6
     aggression: 0
-    sniper: 33
 #END WASPITE LEADER UNIT
 
 #BEGIN WASPITE COMMANDER UNIT
@@ -703,7 +678,6 @@ units:
     moveSound: 15
     intelligence: 8
     aggression: 0
-    sniper: 33
 #END WASPITE COMMANDER UNIT
 ##END WASPITE UNITS
 
@@ -732,7 +706,6 @@ units:
     intelligence: 6
     aggression: 2
     energyRecovery: 40
-    spotter: -1
 #END GAZER SOLDIER UNIT
 
 #BEGIN GAZER ENGINEER UNIT
@@ -748,7 +721,6 @@ units:
     intelligence: 6
     aggression: 1
     energyRecovery: 40
-    sniper: 33
 #END GAZER ENGINEER UNIT
 
 #BEGIN GAZER NAVIGATOR UNIT
@@ -764,7 +736,6 @@ units:
     intelligence: 6
     aggression: 1
     energyRecovery: 40
-    sniper: 33
 #END GAZER NAVIGATOR UNIT
 
 #BEGIN GAZER MEDIC UNIT
@@ -780,7 +751,6 @@ units:
     intelligence: 6
     aggression: 1
     energyRecovery: 40
-    sniper: 33
 #END GAZER MEDIC UNIT
 
 #BEGIN GAZER LEADER UNIT
@@ -807,7 +777,6 @@ units:
     intelligence: 8
     aggression: 1
     energyRecovery: 40
-    sniper: 33
 #END GAZER LEADER UNIT
 
 #BEGIN GAZER COMMANDER UNIT
@@ -823,7 +792,6 @@ units:
     intelligence: 8
     aggression: 1
     energyRecovery: 40
-    sniper: 33
 #END GAZER COMMANDER UNIT
 ##END GAZER UNITS
 
@@ -851,7 +819,6 @@ units:
     deathSound: 10
     intelligence: 7
     aggression: 2
-    spotter: -1
 #END SECTOID ELITE SOLDIER UNIT
 
 #BEGIN SECTOID ELITE ENGINEER UNIT
@@ -866,7 +833,6 @@ units:
     deathSound: 10
     intelligence: 8
     aggression: 1
-    sniper: 33
 #END SECTOID ELITE ENGINEER UNIT
 
 #BEGIN SECTOID ELITE NAVIGATOR UNIT
@@ -881,7 +847,6 @@ units:
     deathSound: 10
     intelligence: 8
     aggression: 1
-    sniper: 33
 #END SECTOID ELITE NAVIGATOR UNIT
 
 #BEGIN SECTOID ELITE MEDIC UNIT
@@ -896,7 +861,6 @@ units:
     deathSound: 10
     intelligence: 8
     aggression: 0
-    sniper: 33
 #END SECTOID ELITE MEDIC UNIT
 
 #BEGIN SECTOID ELITE LEADER UNIT
@@ -922,7 +886,6 @@ units:
     deathSound: 10
     intelligence: 7
     aggression: 1
-    sniper: 33
 #END SECTOID ELITE LEADER UNIT
 
 #BEGIN SECTOID ELITE COMMANDER UNIT
@@ -948,7 +911,6 @@ units:
     deathSound: 10
     intelligence: 8
     aggression: 0
-    sniper: 33
 #END SECTOID ELITE COMMANDER UNIT
 ##END SECTOID ELITE UNITS
 
@@ -977,7 +939,6 @@ units:
     intelligence: 5
     aggression: 2
     energyRecovery: 45
-    spotter: -1
 #END MUTON ELITE SOLDIER UNIT
 
 #BEGIN MUTON ELITE ENGINEER UNIT
@@ -993,7 +954,6 @@ units:
     intelligence: 7
     aggression: 1
     energyRecovery: 45
-    sniper: 33
 #END MUTON ELITE ENGINEER UNIT
 
 #BEGIN MUTON ELITE NAVIGATOR UNIT
@@ -1009,7 +969,6 @@ units:
     intelligence: 7
     aggression: 1
     energyRecovery: 45
-    sniper: 33
 #END MUTON ELITE NAVIGATOR UNIT
 
 #BEGIN MUTON ELITE LEADER UNIT
@@ -1036,7 +995,6 @@ units:
     intelligence: 8
     aggression: 0
     energyRecovery: 45
-    sniper: 33
 #END MUTON ELITE LEADER UNIT
 ##END MUTON ELITE UNITS
 
@@ -1049,7 +1007,6 @@ units:
       psiSkill: 12
       melee: 60
     value: 15
-    spotter: -1
 #END ETHEREAL SOLDIER UNIT
 
 #BEGIN ETHEREAL LEADER UNIT
@@ -1060,7 +1017,6 @@ units:
       psiSkill: 13
       melee: 60
     value: 20
-    sniper: 33
 #END ETHEREAL LEADER UNIT
 
 #BEGIN ETHEREAL COMMANDER UNIT
@@ -1071,7 +1027,6 @@ units:
       psiSkill: 14
       melee: 60
     value: 25
-    sniper: 33
 #END ETHEREAL COMMANDER UNIT
 ##END ETHEREAL UNITS
 
@@ -1100,7 +1055,6 @@ units:
     intelligence: 8
     aggression: 2
     energyRecovery: 60
-    spotter: -1
 #END MUTON ELITE GUARD SOLDIER UNIT
 
 #BEGIN MUTON ELITE GUARD ENGINEER UNIT
@@ -1116,7 +1070,6 @@ units:
     intelligence: 9
     aggression: 1
     energyRecovery: 60
-    sniper: 33
 #END MUTON ELITE GUARD ENGINEER UNIT
 
 #BEGIN MUTON ELITE GUARD LEADER UNIT
@@ -1143,7 +1096,6 @@ units:
     intelligence: 10
     aggression: 0
     energyRecovery: 60
-    sniper: 33
 #END MUTON ELITE GUARD LEADER UNIT
 ##END MUTON ELITE GUARD UNITS
 
@@ -1154,7 +1106,6 @@ units:
       psiStrength: 120
     value: 10
     aggroSound: 50
-    spotter: -1
 #END SILACOID UNIT
 
 #BEGIN REAPER UNIT
@@ -1163,7 +1114,6 @@ units:
       bravery: 100
       psiStrength: 42
     value: 10
-    spotter: -1
 #END REAPER UNIT
 
 #BEGIN CYBERDISC UNIT
@@ -1172,7 +1122,6 @@ units:
       psiStrength: 150
     value: 13
     capturable: true
-    spotter: -1
 #END CYBERDISC UNIT
 
 #BEGIN CHRYSSALID UNIT
@@ -1182,7 +1131,6 @@ units:
       aggression: 3
     value: 13
     aggroSound: 49
-    spotter: -1
 #END CHRYSSALID UNIT
 
 #BEGIN SECTOPOD UNIT
@@ -1191,7 +1139,6 @@ units:
       psiStrength: 150
     value: 15
     capturable: true
-    spotter: -1
 #END SECTOPOD UNIT
 
 #BEGIN CELATID UNIT
@@ -1200,7 +1147,6 @@ units:
       bravery: 100
       psiStrength: 120
     value: 10
-    spotter: -1
 #END CELATID UNIT
 
 #BEGIN MUTON BERSERKER UNIT
@@ -1229,7 +1175,6 @@ units:
     aggression: 9
     energyRecovery: 70
     livingWeapon: true
-    spotter: -1
 #END MUTON BERSERKER UNIT
 
 #BEGIN CYBERMITE UNIT
@@ -1256,7 +1201,6 @@ units:
     aggression: 2
     specab: 1
     livingWeapon: true
-    spotter: -1
 #END CYBERMITE UNIT
 
 #BEGIN HOLODRONE UNIT
@@ -1284,7 +1228,6 @@ units:
     intelligence: 2
     aggression: 2
     livingWeapon: true
-    spotter: -1
 #END HOLODRONE UNIT
 
 #BEGIN ARMORED CYBERDISC UNIT
@@ -1315,7 +1258,6 @@ units:
     energyRecovery: 50
     specab: 1
     livingWeapon: true
-    spotter: -1
 #END ARMORED CYBERDISC UNIT
 
 #BEGIN ARMORED SECTOPOD UNIT
@@ -1343,7 +1285,6 @@ units:
     aggression: 2
     energyRecovery: 60
     livingWeapon: true
-    spotter: -1
 #END ARMORED SECTOPOD UNIT
 
 #BEGIN CHRYSSALID SPITTER UNIT
@@ -1380,7 +1321,6 @@ units:
 
 #BEGIN ZOMBIE UNIT
   - type: STR_ZOMBIE
-    spotter: -1
 #END ZOMBIE UNIT
 
 #BEGIN SPITTER ZOMBIE UNIT
@@ -1409,7 +1349,6 @@ units:
     spawnUnit: STR_CHRYSSALID_SPITTER_TERRORIST
     livingWeapon: true
     # Zombies are silent on death, no deathSound
-    spotter: -1
 #END SPITTER ZOMBIE UNIT
 ##END ALIEN TERROR UNITS
 ###END ALIENS UNITS

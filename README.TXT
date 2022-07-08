@@ -171,7 +171,6 @@ Groundcombat changes:
 	Blaster Waypoints honor DOS Limitation (9 Waypoints)
 	Shotgun Class Weaponry for Xcom and Aliens
 	Dedicaded Melee Weaponry for Xcom and Aliens
-    Sniper/Spotter AI actived, Soldiers and Terrorunits act as Spotter, Ranked aliens as Sniper (OXCE only)
     Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
