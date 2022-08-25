@@ -2956,19 +2956,44 @@ items:
 
 #BEGIN CYBERDISC ITEM
   - type: STR_CYBERDISC_CORPSE
+    size: 1
     costSell: 10000
+    battleType: 11
+    power: 120
+    blastRadius: 6
     listOrder: 7500
   - type: CYBERDISC_CORPSE_1
+    name: STR_CYBERDISC_CORPSE
     armor: 26
+    floorSprite: 56
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
     listOrder: 7501
   - type: CYBERDISC_CORPSE_2
     armor: 26
+    floorSprite: 57
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
     listOrder: 7502
   - type: CYBERDISC_CORPSE_3
     armor: 26
+    floorSprite: 58
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
     listOrder: 7503
   - type: CYBERDISC_CORPSE_4
     armor: 26
+    floorSprite: 59
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
     listOrder: 7504
 #END CYBERDISC ITEM
 
@@ -2981,18 +3006,41 @@ items:
 
 #BEGIN SECTOPOD ITEM
   - type: STR_SECTOPOD_CORPSE
+    size: 1
     costSell: 10000
+    battleType: 11
     listOrder: 7700
   - type: SECTOPOD_CORPSE_1
+    name: SECTOPOD_CORPSE
     armor: 26
+    floorSprite: 60
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
     listOrder: 7701
   - type: SECTOPOD_CORPSE_2
     armor: 26
+    floorSprite: 61
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
     listOrder: 7702
   - type: SECTOPOD_CORPSE_3
     armor: 26
+    floorSprite: 62
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
     listOrder: 7703
   - type: SECTOPOD_CORPSE_4
+    floorSprite: 63
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
     armor: 26
     listOrder: 7704
 #END SECTOPOD ITEM

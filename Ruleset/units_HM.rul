@@ -1118,6 +1118,7 @@ units:
 
 #BEGIN CYBERDISC UNIT
   - type: STR_CYBERDISC_TERRORIST
+    liveAlien: "STR_CYBERDISC_TERRORIST"
     stats:
       psiStrength: 150
     value: 13
@@ -1135,6 +1136,7 @@ units:
 
 #BEGIN SECTOPOD UNIT
   - type: STR_SECTOPOD_TERRORIST
+    liveAlien: "STR_SECTOPOD_TERRORIST"
     stats:
       psiStrength: 150
     value: 15

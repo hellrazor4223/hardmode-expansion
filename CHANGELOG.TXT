@@ -1,5 +1,8 @@
 Changelog:
 
+Version 1.0
+ - Fix Bug for Mod not loading on OXCE 7.6.x
+
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings
  - Adjust Armor Resistence for Reinforced Suits
