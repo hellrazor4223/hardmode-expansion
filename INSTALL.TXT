@@ -13,8 +13,13 @@ Please report all issues and bugs here: https://openxcom.org/forum/index.php/top
  - Copy over the directory "Hardmode_Expansion" in your user mods directory.
  - Active "Hardmode_Expansion" under Mods
 
-#Activate at least the following Recommended Advanced Options:
-	Save Preprimed Grenades (for Smoke Grenades)
-	Alternate Movement Methods (to fight faster)
-	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
+#The following Recommended Advanced Options will be turned on, once you load the mod for the first time (OXCE only, Please enable them yourself if you use vanilla OXC):
 	Forced Craft launch (probably needed since your craft will get shot a lot)
+	Limit Storage Items (Using Autoseller Helps a lot, just be aware to not sell of stuff you wanna research!)
+	Sell Alive Alien (More cash for alive ones, helkps managing the Alien Containment)
+	Sneaky AI (Aliens are less likely to expose themselvbes to X-Com)
+	UFOExtenderAccuracy (Range limited Accuracy Dropoff)
+	Save Preprimed Grenades (for Smoke Grenades)
+	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
+	Alternate Movement Methods (to fight faster)
+	Alien Bleeding
