@@ -4,11 +4,11 @@
 #Prerequisites:
 This mod requires at least:
 OXC: openxcom_git_master_2022_04_29_0633 see: https://openxcom.org/git-builds/
-OXCE: OXCE v7.6.x see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v7.7.x see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
-README for Version 1.0
+README for Version 1.0 WIP
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #

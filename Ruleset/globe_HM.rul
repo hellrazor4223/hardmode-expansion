@@ -1585,31 +1585,31 @@ globe:
     - id: -1
       deployments: #109 Cities
         - STR_TERROR_MISSION: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -2
       deployments: #52 Cities
         - STR_TERROR_MISSION_SUBURB: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -3
       deployments: #45 Cities
         - STR_TERROR_MISSION_INDUSTRIAL: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -4
       deployments: #18 Cities
         - STR_TERROR_MISSION_SNOW: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -5
       deployments: #26 Cities
         - STR_TERROR_MISSION_TROPICAL: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -6
       deployments: #14 Cities
         - STR_TERROR_MISSION_ISLAND: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -7
       deployments: #83 Cities
         - STR_TERROR_MISSION_PORT: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 5
+        - STR_TERROR_MISSION_MILITARY_BASE: 10
     - id: -8
       deployments:
         STR_TERROR_MISSION_SHIP: 100

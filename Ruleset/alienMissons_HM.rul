@@ -42,14 +42,14 @@ alienMissions:
       7:
         STR_FLOATER_7: 5
         STR_SECTOID_7: 5
-        STR_SNAKEMAN_7: 10
-        STR_MUTON_7: 40
-        STR_WASPITE: 40
+        STR_SNAKEMAN_7: 30
+        STR_MUTON_7: 30
+        STR_WASPITE: 30
       8:
         STR_FLOATER_8: 3
         STR_SECTOID_8: 3
-        STR_SNAKEMAN_8: 10
-        STR_MUTON_8: 34
+        STR_SNAKEMAN_8: 20
+        STR_MUTON_8: 24
         STR_WASPITE_8: 30
         STR_GAZER: 20
       9:
@@ -60,13 +60,13 @@ alienMissions:
         STR_WASPITE_8: 3
         STR_GAZER: 70
       10:
-        STR_FLOATER_10: 3
-        STR_SECTOID_10: 3
-        STR_SNAKEMAN_10: 3
-        STR_MUTON_10: 14
-        STR_WASPITE_10: 3
-        STR_GAZER_10: 14
-        STR_SECTOID_ELITE: 60
+        STR_FLOATER_10: 5
+        STR_SECTOID_10: 5
+        STR_SNAKEMAN_10: 10
+        STR_MUTON_10: 10
+        STR_WASPITE_10: 10
+        STR_GAZER_10: 20
+        STR_SECTOID_ELITE: 40
       11:
         STR_SECTOID_ELITE: 80
         STR_MUTON_ELITE: 20
@@ -431,6 +431,10 @@ alienMissions:
         STR_SECTOID_5: 5
         STR_SNAKEMAN_5: 10
         STR_MUTON: 80
+      6:
+        STR_SECTOID_5: 10
+        STR_SNAKEMAN_5: 20
+        STR_MUTON: 70
       7:
         STR_FLOATER_7: 5
         STR_SECTOID_7: 5
