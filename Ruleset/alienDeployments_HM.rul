@@ -1687,12 +1687,13 @@ alienDeployments:
       STR_ALIEN_ABDUCTION: 2
       STR_ALIEN_HARVEST: 2
       STR_ALIEN_RESEARCH: 2
-      STR_ALIEN_TERROR: 2
-      STR_ALIEN_SUPPLY: 90
+      STR_ALIEN_TERROR: 12
+      STR_ALIEN_SUPPLY: 80
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
+    genMissionRaceFromAlienBase: false #Supply is still alien base race, all others pick from mission raceweights
     alienBase: true # this is only to tell new battle mode what to do with this deployment
     objectivesRequired: 16 #MCD defined specialtype
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 250]
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 10 #points aliens get for a base each day
     cheatTurn: 7 #Force Attack Mode
@@ -1971,7 +1972,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -1999,7 +2000,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2033,7 +2034,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2065,7 +2066,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2094,7 +2095,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2119,7 +2120,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2144,7 +2145,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2176,7 +2177,7 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     cheatTurn: 7
     winCutscene: winMiss
     loseCutscene: loseMiss
@@ -2203,10 +2204,10 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     popupDelay: [1, 1]
-    despawnPenalty: 1500
+    despawnPenalty: 2000
     objectiveType: 3
     objectivesRequired: 5
-    objectiveComplete: [STR_TERROR_MISSION_SHIP_DISABLED, 250]
+    objectiveComplete: [STR_TERROR_MISSION_SHIP_DISABLED, 500]
     objectiveFailed: [STR_TERROR_MISSION_SHIP_OPERATIONAL, -1000]
     objectivePopup: STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED
     cheatTurn: 7
