@@ -11,6 +11,11 @@ ai.respectMaxRange: true
 ai.destroyBaseFacilities: true
 ai.fireChoiceIntelCoeff: 9
 ai.fireChoiceAggroCoeff: 3
+surrenderMode: 0
+bughuntMinTurn: 9999
+bughuntMaxEnemies: 0
+bughuntLowMorale: 0
+bughuntTimeUnitsLeft: 0
 
 constants:
   - fireDamageRange: [7, 12]
