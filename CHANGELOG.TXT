@@ -3,6 +3,7 @@ Changelog:
 Version 1.0
  - Fix Bug for Mod not loading on OXCE 7.7.x
  - Adjust Raceweights for more Snakemen
+ - Add more randomness to Alien Mission starts
 
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings

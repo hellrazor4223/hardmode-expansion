@@ -86,6 +86,7 @@ missionScripts:
         STR_ALIEN_RESEARCH: 100
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_RESEARCH: true
     maxRuns: 1
@@ -97,6 +98,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_RESEARCH: true
     maxRuns: 1
@@ -109,6 +111,7 @@ missionScripts:
         STR_ALIEN_HARVEST: 100
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_HARVEST: true
     maxRuns: 1
@@ -120,6 +123,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_HARVEST: true
     maxRuns: 1
@@ -132,6 +136,7 @@ missionScripts:
         STR_ALIEN_ABDUCTION: 100
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_ABDUCTION: true
     maxRuns: 1
@@ -143,6 +148,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_ABDUCTION: true
     maxRuns: 1
@@ -155,6 +161,7 @@ missionScripts:
         STR_ALIEN_BASE: 100
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_BASE: true
     maxRuns: 1
@@ -166,6 +173,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_BASE: true
     maxRuns: 1
@@ -177,6 +185,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_SUPPLY: true
     maxRuns: 1
@@ -188,6 +197,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_TERROR: true
     maxRuns: 1
@@ -200,6 +210,7 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_INFILTRATION: true
     maxRuns: 1
@@ -211,6 +222,7 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     startDelay: 9000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_BASE: true
     maxRuns: 1
@@ -222,6 +234,7 @@ missionScripts:
       0:
         STR_ALIEN_RETALIATION: 100
     startDelay: 6000
+    randomDelay: 3000
     researchTriggers:
       STR_ALIEN_RETALIATION: true
     maxRuns: 1
@@ -236,6 +249,7 @@ missionScripts:
         STR_ALIEN_RESEARCH: 100
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_SMALL_SCOUT: true
     maxRuns: 1
@@ -246,7 +260,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_SMALL_SCOUT: true
     maxRuns: 1
@@ -260,6 +275,7 @@ missionScripts:
         STR_ALIEN_RETALIATION: 50
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_MEDIUM_SCOUT: true
     maxRuns: 1
@@ -270,7 +286,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_MEDIUM_SCOUT: true
     maxRuns: 1
@@ -285,6 +302,7 @@ missionScripts:
         STR_ALIEN_RETALIATION: 33
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_LARGE_SCOUT: true
     maxRuns: 1
@@ -295,7 +313,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_LARGE_SCOUT: true
     maxRuns: 1
@@ -309,6 +328,7 @@ missionScripts:
         STR_ALIEN_RETALIATION: 50
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_FIGHTER_SHIP: true
     maxRuns: 1
@@ -319,7 +339,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_FIGHTER_SHIP: true
     maxRuns: 1
@@ -334,6 +355,7 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 33
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_SENTRY_SHIP: true
     maxRuns: 1
@@ -344,7 +366,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_SENTRY_SHIP: true
     maxRuns: 1
@@ -370,6 +393,7 @@ missionScripts:
         STR_ALIEN_HARVEST: 33
         STR_ALIEN_RESEARCH: 33
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_ABDUCTOR: true
     maxRuns: 1
@@ -383,6 +407,7 @@ missionScripts:
         STR_ALIEN_HARVEST: 33
         STR_ALIEN_RESEARCH: 33
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_HARVESTER: true
     maxRuns: 1
@@ -396,6 +421,7 @@ missionScripts:
         STR_ALIEN_HARVEST: 33
         STR_ALIEN_RESEARCH: 33
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_LAB_SHIP: true
     maxRuns: 1
@@ -409,6 +435,7 @@ missionScripts:
         STR_ALIEN_BASE: 50
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_SUPPLY_SHIP: true
     maxRuns: 1
@@ -419,7 +446,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_SUPPLY_SHIP: true
     maxRuns: 1
@@ -430,7 +458,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_TERROR_SHIP: true
     maxRuns: 1
@@ -444,6 +473,7 @@ missionScripts:
         STR_ALIEN_BASE: 50
     executionOdds: 50
     startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_BATTLESHIP: true
     maxRuns: 1
@@ -454,7 +484,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
-    startDelay: 9000
+    startDelay: 6000
+    randomDelay: 6000
     researchTriggers:
       STR_BATTLESHIP: true
     maxRuns: 1
@@ -463,7 +494,7 @@ missionScripts:
 ##END CONSEQUENCES
 
 #BEGIN GET THE FUCK TO CYDONIA
-  - type: etherealInfiltrationNorthAmerica
+  - type: apocalypseInfiltrationNorthAmerica
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -471,14 +502,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationSouthAmerica
+  - type: apocalypseInfiltrationSouthAmerica
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -486,14 +518,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_SOUTH_AMERICA: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationEurope
+  - type: apocalypseInfiltrationEurope
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -501,14 +534,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_EUROPE: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationNorthAfrica
+  - type: apocalypseInfiltrationNorthAfrica
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -516,14 +550,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_SOUTHERN_AFRICA: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationSouthAfrica
+  - type: apocalypseInfiltrationSouthAfrica
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -531,14 +566,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_NORTH_AFRICA: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationCentralAsia
+  - type: apocalypseInfiltrationCentralAsia
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -546,14 +582,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_CENTRAL_ASIA: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationSouthEastAsia
+  - type: apocalypseInfiltrationSouthEastAsia
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -561,7 +598,8 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_SOUTH_EAST_ASIA: 100
@@ -569,7 +607,7 @@ missionScripts:
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationSibiria
+  - type: apocalypseInfiltrationSibiria
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -577,14 +615,15 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_SIBERIA: 100
     researchTriggers:
       STR_ULTIMATE_CRAFT: true
       STR_CYDONIA_OR_BUST: true
-  - type: etherealInfiltrationAustralAsia
+  - type: apocalypseInfiltrationAustralAsia
     firstMonth: 13
     lastMonth: -1
     missionWeights:
@@ -592,7 +631,8 @@ missionScripts:
         STR_ALIEN_INFILTRATION: 100
     raceWeights:
       0:
-        STR_ETHEREAL: 100
+        STR_ETHEREAL_15: 50
+        STR_MUTON_ELITE_GUARD: 50
     regionWeights:
       0:
         STR_AUSTRALASIA: 100
