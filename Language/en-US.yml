@@ -254,6 +254,7 @@ en-US:
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Tank/Rocket"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Tank/Rocket"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: "Tank/Rocket -> Cannon"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: "Tank/Rocket -> Laser"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Tank/Rocket -> Alloy Cannon"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "Tank/Rocket -> Alloy Rocket"
@@ -277,6 +278,7 @@ en-US:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "This is a standard Rocket Launcher HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but its longevity under fire has been greatly increased, and it is somewhat quicker."
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Alloy Tank/Rocket -> Alloy Cannon"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Alloy Tank/Rocket -> Alloy Laser"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: "Alloy Tank/Rocket -> Hover Laser"
 
@@ -309,6 +311,7 @@ en-US:
 
   STR_HOVERTANK_LAUNCHER_CORPSE: "Damaged Hovertank/Launcher"
   STR_HOVERTANK_LAUNCHER_REPAIR: "Repair Hovertank/Launcher"
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "Hovertank/Launcher -> Hover Plasma"
 
   STR_WALKERTANK: "Walking HWP's"
 

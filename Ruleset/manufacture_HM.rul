@@ -1092,6 +1092,16 @@ manufacture:
     producedItems:
       STR_TANK_ROCKET_LAUNCHER: 1
     listOrder: 470
+  - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON
+    category: STR_CAT_TANK_UPGRADE
+    space: 25
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_TANK_ROCKET_LAUNCHER: 1
+    producedItems:
+      STR_TANK_CANNON: 1
+    listOrder: 471
   - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER
     category: STR_CAT_TANK_UPGRADE
     requires:
@@ -1104,7 +1114,7 @@ manufacture:
       STR_TANK_ROCKET_LAUNCHER: 1
     producedItems:
       STR_TANK_LASER_CANNON: 1
-    listOrder: 471
+    listOrder: 472
   - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON
     category: STR_CAT_TANK_UPGRADE
     requires:
@@ -1117,7 +1127,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 16
     producedItems:
       STR_ALLOY_TANK_CANNON: 1
-    listOrder: 472
+    listOrder: 473
   - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET
     category: STR_CAT_TANK_UPGRADE
     requires:
@@ -1130,7 +1140,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 16
     producedItems:
       STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
-    listOrder: 473
+    listOrder: 474
   - name: STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER
     category: STR_CAT_TANK_UPGRADE
     requires:
@@ -1144,7 +1154,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 16
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
-    listOrder: 474
+    listOrder: 475
 #END TANK ROCKET LAUNCHER MANU
 
 #BEGIN TANK LASER CANNON MANU
@@ -1306,6 +1316,18 @@ manufacture:
     producedItems:
       STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
     listOrder: 501
+  - name: STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON
+    category: STR_CAT_TANK_UPGRADE
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    space: 25
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
+    producedItems:
+      STR_ALLOY_TANK_CANNON: 1
+    listOrder: 502
   - name: STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER
     category: STR_CAT_TANK_UPGRADE
     requires:
@@ -1318,7 +1340,7 @@ manufacture:
       STR_ALLOY_TANK_ROCKET_LAUNCHER: 1
     producedItems:
       STR_ALLOY_TANK_LASER_CANNON: 1
-    listOrder: 502
+    listOrder: 503
   - name: STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER
     category: STR_CAT_TANK_UPGRADE
     requires:
@@ -1334,7 +1356,7 @@ manufacture:
       STR_ELERIUM_115: 20
     producedItems:
       STR_HOVERTANK_LASER: 1
-    listOrder: 503
+    listOrder: 504
 #END ALLOY TANK ROCKET LAUNCHER MANU
 
 #BEGIN ALLOY TANK LASER CANNON MANU
@@ -1618,6 +1640,20 @@ manufacture:
     producedItems:
       STR_HOVERTANK_LAUNCHER: 1
     listOrder: 701
+  - name: STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA
+    category: STR_CAT_TANK_UPGRADE
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_HOVERTANK
+      - STR_FUSION_MISSILE
+    space: 30
+    time: 200
+    cost: 40000
+    requiredItems:
+      STR_HOVERTANK_LAUNCHER: 1
+    producedItems:
+      STR_HOVERTANK_PLASMA: 1
+    listOrder: 702
   - name: STR_HWP_FUSION_BOMB
     category: STR_HWP_CANNON_SHELLS
     requires:
