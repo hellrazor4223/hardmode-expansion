@@ -1002,19 +1002,19 @@ alienDeployments:
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_ELERIUM_CLIP
-            - STR_PLASMA_SWORD
+            - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_ELERIUM_CLIP
-            - STR_PLASMA_SWORD
+            - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_ELERIUM_CLIP
-            - STR_PLASMA_SWORD
+            - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 5
