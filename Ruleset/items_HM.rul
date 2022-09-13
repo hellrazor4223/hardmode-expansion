@@ -3404,7 +3404,7 @@ items:
     strengthApplied: true
     damageType: 7
     accuracyMelee: 100
-    tuMelee: 10
+    tuMelee: 15
     battleType: 3
     fixedWeapon: true
     invWidth: 2

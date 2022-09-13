@@ -6,6 +6,7 @@ Version 1.0
  - Fix Mars being only half height
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring
+ - Adjust Soitter Zombies to be more dangerous
  - Add more randomness to Alien Mission starts
  - Add more Upgrade Options to X-Com Tanks
  - Add Upgrade Option for Medikts

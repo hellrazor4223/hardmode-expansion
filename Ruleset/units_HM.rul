@@ -1330,15 +1330,15 @@ units:
     race: STR_ZOMBIE
     rank: STR_LIVE_TERRORIST
     stats:
-      tu: 50
-      stamina: 110
-      health: 84
+      tu: 75
+      stamina: 150
+      health: 126
       bravery: 110
       reactions: 50
       firing: 0
       throwing: 0
-      strength: 94
-      psiStrength: 80
+      strength: 114
+      psiStrength: 150
       psiSkill: 0
       melee: 80
     armor: SPITTER_ZOMBIE_ARMOR
@@ -1347,7 +1347,7 @@ units:
     value: 18
     intelligence: 3
     aggression: 8
-    energyRecovery: 30
+    energyRecovery: 50
     spawnUnit: STR_CHRYSSALID_SPITTER_TERRORIST
     livingWeapon: true
     # Zombies are silent on death, no deathSound
