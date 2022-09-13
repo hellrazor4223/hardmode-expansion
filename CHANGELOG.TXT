@@ -6,6 +6,7 @@ Version 1.0
  - Adjust Raceweights for more Snakemen
  - Add more randomness to Alien Mission starts
  - Add more Upgrade Options to X-Com Tanks
+ - Add Upgrade Option for Medikts
 
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings

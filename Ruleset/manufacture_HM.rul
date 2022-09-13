@@ -2270,6 +2270,21 @@ manufacture:
       STR_ALIEN_ALLOYS: 2
       STR_ELERIUM_115: 1
     listOrder: 1301
+  - name: STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_ADVANCED_MEDI_KIT
+      - STR_MEDI_KIT
+    space: 4
+    time: 110
+    cost: 56000
+    requiredItems:
+      STR_MEDI_KIT: 1
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_ADVANCED_MEDI_KIT: 1
+    listOrder: 1302
 #END MEDIKIT MANU
 
 #BEGIN ADVANCED MEDI KIT MANU
@@ -2283,7 +2298,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 4
       STR_ELERIUM_115: 2
-    listOrder: 1301
+    listOrder: 1303
 #END ADVANCED MEDI KIT MANU
 
 #BEGIN PSI AMP MANU
