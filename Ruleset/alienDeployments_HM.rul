@@ -1833,7 +1833,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
     width: 80
     length: 80
-    height: 4
+    height: 8
     terrains:
       - MARS
     shade: 10

@@ -3,6 +3,7 @@ Changelog:
 Version 1.0
  - Fix Bug for Mod not loading on OXCE 7.7.x
  - Fix Plasma Blade not being available in lategame to player
+ - Fix Mars being only half height
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring
  - Add more randomness to Alien Mission starts
