@@ -48,8 +48,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
-    builtInWeapons:
-      - STR_DRONE_SCANNER_WEAPON
+    builtInWeaponSets:
+      -
+        - STR_DRONE_SMOKE_WEAPON
 #END DRONE SCANNER UNIT
 
 #BEGIN DRONE MEDIKIT UNIT
@@ -74,8 +75,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
-    builtInWeapons:
-      - STR_DRONE_MEDIKIT_WEAPON
+    builtInWeaponSets:
+      -
+        - STR_DRONE_SMOKE_WEAPON
 #END DRONE MEDIKIT UNIT
 
 #BEGIN DRONE TASER UNIT
@@ -100,9 +102,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
-    builtInWeapons:
-      - STR_DRONE_TASER_WEAPON
-      - STR_DRONE_TASER_WEAPON_AMMO
+    builtInWeaponSets:
+      -
+        - STR_DRONE_SMOKE_WEAPON
 #END DRONE TASER UNIT
 
 #BEGIN ALLOY DRONE SCOUT UNIT
@@ -151,8 +153,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 55
-    builtInWeapons:
-      - STR_ALLOY_DRONE_SCANNER_WEAPON
+    builtInWeaponSets:
+      -
+        - STR_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE SCANNER UNIT
 
 #BEGIN ALLOY DRONE MEDIKIT UNIT
@@ -177,8 +180,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 55
-    builtInWeapons:
-      - STR_ALLOY_DRONE_MEDIKIT_WEAPON
+    builtInWeaponSets:
+      -
+        - STR_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE MEDIKIT UNIT
 
 #BEGIN ALLOY DRONE TASER UNIT
@@ -203,9 +207,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 55
-    builtInWeapons:
-      - STR_ALLOY_DRONE_TASER_WEAPON
-      - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
+    builtInWeaponSets:
+      -
+        - STR_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE TASER UNIT
 
 #BEGIN TANK CANNON UNIT
@@ -230,6 +234,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_TANK_SMOKE_WEAPON
 #END TANK CANNON UNIT
 
 #BEGIN TANK ROCKET LAUNCHER UNIT
@@ -243,6 +250,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_TANK_SMOKE_WEAPON
 #END TANK ROCKET LAUNCHER UNIT
 
 #BEGIN TANK LASER UNIT
@@ -256,6 +266,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_TANK_SMOKE_WEAPON
 #END TANK LASER UNIT
 
 #BEGIN ALLOY TANK CANNON UNIT
@@ -280,6 +293,9 @@ units:
     energyRecovery: 50
     deathSound: 23
     moveSound: 14
+    builtInWeaponSets:
+      -
+        - STR_ALLOY_TANK_SMOKE_WEAPON
 #END ALLOY TANK CANNON UNIT
 
 #BEGIN ALLOY TANK ROCKET LAUNCHER UNIT
@@ -293,6 +309,9 @@ units:
     energyRecovery: 50
     deathSound: 23
     moveSound: 14
+    builtInWeaponSets:
+      -
+        - STR_ALLOY_TANK_SMOKE_WEAPON
 #END ALLOY TANK ROCKET LAUNCHER UNIT
 
 #BEGIN ALLOY TANK LASER UNIT
@@ -306,6 +325,9 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_ALLOY_TANK_SMOKE_WEAPON
 #END ALLOY TANK LASER UNIT
 
 #BEGIN HOVERTANK LASER UNIT
@@ -331,6 +353,9 @@ units:
     deathSound: 23
     moveSound: 40
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_HOVERTANK_SMOKE_WEAPON
 #END HOVERTANK LASER UNIT
 
 #BEGIN HOVERTANK EBOMB UNIT
@@ -345,6 +370,9 @@ units:
     deathSound: 23
     moveSound: 40
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_HOVERTANK_SMOKE_WEAPON
 #END HOVERTANK EBOMB UNIT
 
 #BEGIN HOVERTANK PLASMA UNIT
@@ -359,6 +387,9 @@ units:
     deathSound: 23
     moveSound: 40
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_HOVERTANK_SMOKE_WEAPON
 #END HOVERTANK PLASMA UNIT
 
 #BEGIN HOVERTANK LAUNCHER UNIT
@@ -373,6 +404,9 @@ units:
     deathSound: 23
     moveSound: 40
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_HOVERTANK_SMOKE_WEAPON
 #END HOVERTANK LAUNCHER UNIT
 
 ##BEGIN WALKTERTANK PLASMA UNIT
@@ -397,6 +431,9 @@ units:
     deathSound: 23
     energyRecovery: 50
     livingWeapon: true
+    builtInWeaponSets:
+      -
+        - STR_WALKERTANK_SMOKE_WEAPON
 #END WALKERTANK PLASMA UNIT
 ###END XCOM TANK UNITS
 
@@ -1311,9 +1348,10 @@ units:
     value: 25
     deathSound: 9
     aggroSound: 49
-    builtInWeapons:
-      - CHRYSSALID_SPITTER_MELEE_WEAPON
-      - CHRYSSALID_SPITTER_RANGED_WEAPON
+    builtInWeaponSets:
+      -
+        - CHRYSSALID_SPITTER_MELEE_WEAPON
+        - CHRYSSALID_SPITTER_RANGED_WEAPON
     intelligence: 10
     aggression: 4
     energyRecovery: 60

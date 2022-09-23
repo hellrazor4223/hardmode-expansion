@@ -10,6 +10,8 @@ Version 1.0
  - Add more randomness to Alien Mission starts
  - Add more Upgrade Options to X-Com Tanks
  - Add Upgrade Option for Medikts
+ - Add Smoke Launcher to all Tanks (free ammo)
+ - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
 
 Version 0.99.9

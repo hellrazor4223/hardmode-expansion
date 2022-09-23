@@ -86,6 +86,7 @@ extraSprites:
       176: Resources/Units/Xcom/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
       177: Resources/Units/Xcom/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
       178: Resources/Units/Xcom/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+      197: Resources/Units/Xcom/AlloyTank/BigOb_TankSmoke_Weapon.png
       126: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Canon.png
       127: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
       128: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Laser.png

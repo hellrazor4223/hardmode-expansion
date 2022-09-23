@@ -23,23 +23,27 @@ items:
 ##END CRAFTWEAPONS ITEMS
 
 ##BEGIN XCOM TANK ITEMS
-#BEGIN DRONE SMOKE AMMO ITEM
-  - type: STR_DRONE_SMOKE_AMMO
-    requires:
-      - STR_SUPPORT_DRONES
-    size: 0.05
-    costBuy: 200
-    costSell: 50
-    transferTime: 48
-    weight: 3
-    floorSprite: 12
+#BEGIN DRONE SMOKE WEAPON ITEM
+  - type: STR_DRONE_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 168
+    bulletSprite: 4
     hitAnimation: 56
     power: 60
     damageType: 9
-    battleType: 2
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 33
+    battleType: 1
     clipSize: 3
-    listOrder: 1071
-#END DRONE SMOKE AMMO ITEM
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 3
+    listOrder: 1070
+#END DRONE SMOKE WEAPON ITEM
 
 #BEGIN DRONE SCOUT ITEM
   - type: STR_DRONE_SCOUT
@@ -52,18 +56,20 @@ items:
     weight: 40
     bigSprite: 168
     bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
     fireSound: 113
-    compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
     tuSnap: 33
     battleType: 1
+    clipSize: 3
     fixedWeapon: true
     arcingShot: true
     invWidth: 2
     invHeight: 3
     maxRange: 3
-    listOrder: 1070
+    listOrder: 1071
   - type: STR_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
@@ -85,19 +91,13 @@ items:
     size: 2
     costSell: 125000
     weight: 40
-    bigSprite: 168
-    bulletSprite: 4
-    fireSound: 113
-    compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
-    accuracySnap: 100
-    tuSnap: 33
-    battleType: 1
-    fixedWeapon: true
-    arcingShot: true
+    bigSprite: 169
+    battleType: 7
+    tuUse: 15
+    flatRate: true
     invWidth: 2
     invHeight: 3
-    maxRange: 3
+    fixedWeapon: true
     listOrder: 1072
   - type: STR_DRONE_SCANNER_CORPSE
     requires:
@@ -113,20 +113,6 @@ items:
     armor: 20
     recover: true
     listOrder: 4991
-  - type: STR_DRONE_SCANNER_WEAPON
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_MOTION_SCANNER
-    weight: 3
-    bigSprite: 169
-    battleType: 7
-    tuUse: 15
-    flatRate: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-    fixedWeapon: true
-    listOrder: 1073
 #END DRONE SCANNER ITEM
 
 #BEGIN DRONE MEDIKIT ITEM
@@ -137,19 +123,21 @@ items:
     size: 2
     costSell: 125000
     weight: 40
-    bigSprite: 168
-    bulletSprite: 4
-    fireSound: 113
-    compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
-    accuracySnap: 100
-    tuSnap: 33
-    battleType: 1
+    bigSprite: 24
+    battleType: 6
+    tuUse: 10
+    invWidth: 1
+    invHeight: 2
+    painKiller: 12
+    heal: 12
+    stimulant: 12
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    flatRate: true
     fixedWeapon: true
-    arcingShot: true
-    invWidth: 2
-    invHeight: 3
-    maxRange: 3
+    medikitTargetMatrix: 63
     listOrder: 1074
   - type: STR_DRONE_MEDIKIT_CORPSE
     requires:
@@ -165,28 +153,6 @@ items:
     armor: 20
     recover: true
     listOrder: 4992
-  - type: STR_DRONE_MEDIKIT_WEAPON
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
-    weight: 3
-    bigSprite: 24
-    battleType: 6
-    tuUse: 10
-    invWidth: 1
-    invHeight: 2
-    painKiller: 12
-    heal: 12
-    stimulant: 12
-    woundRecovery: 1
-    healthRecovery: 3
-    stunRecovery: 4
-    energyRecovery: 10
-    flatRate: true
-    recover: false
-    fixedWeapon: true
-    medikitTargetMatrix: 63
-    listOrder: 1075
 #END DRONE MEDIKIT ITEM
 
 #BEGIN DRONE TASER ITEM
@@ -197,19 +163,21 @@ items:
     size: 2
     costSell: 140000
     weight: 40
-    bigSprite: 168
-    bulletSprite: 4
-    fireSound: 113
+    bigSprite: 170
+    bulletSprite: 24
+    fireSound: 114
     compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
-    accuracySnap: 100
-    tuSnap: 33
+      - STR_DRONE_TASER_WEAPON_AMMO
+    accuracyAuto: 66
+    tuAuto: 40
+    autoShots: 2
     battleType: 1
+    invWidth: 1
+    invHeight: 2
     fixedWeapon: true
-    arcingShot: true
-    invWidth: 2
-    invHeight: 3
-    maxRange: 3
+    maxRange: 12
+    autoRange: 8
+    dropoff: 6
     listOrder: 1076
   - type: STR_DRONE_TASER_CORPSE
     size: 2
@@ -222,28 +190,6 @@ items:
     armor: 20
     recover: true
     listOrder: 4993
-  - type: STR_DRONE_TASER_WEAPON
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ELERIUM_115
-    weight: 5
-    bigSprite: 170
-    bulletSprite: 24
-    fireSound: 114
-    compatibleAmmo:
-      - STR_DRONE_TASER_WEAPON_AMMO
-    accuracyAuto: 66
-    tuAuto: 40
-    autoShots: 2
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    recover: false
-    fixedWeapon: true
-    listOrder: 1077
-    maxRange: 12
-    autoRange: 8
-    dropoff: 6
   - type: STR_DRONE_TASER_WEAPON_AMMO
     requires:
       - STR_SUPPORT_DRONES
@@ -258,8 +204,30 @@ items:
     battleType: 2
     blastRadius: 0
     clipSize: 12
-    listOrder: 1078
+    listOrder: 1077
 #END DRONE TASER ITEM
+
+#BEGIN DRONE SMOKE WEAPON ITEM
+  - type: STR_ALLOY_DRONE_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 168
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 30
+    battleType: 1
+    clipSize: 3
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 3
+    listOrder: 1078
+#END DRONE SMOKE WEAPON ITEM
 
 #BEGIN ALLOY DRONE SCOUT ITEM
   - type: STR_ALLOY_DRONE_SCOUT
@@ -271,12 +239,14 @@ items:
     weight: 40
     bigSprite: 168
     bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
     fireSound: 113
-    compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
     tuSnap: 33
     battleType: 1
+    clipSize: 3
     fixedWeapon: true
     arcingShot: true
     invWidth: 2
@@ -305,19 +275,13 @@ items:
     size: 2
     costSell: 180000
     weight: 40
-    bigSprite: 168
-    bulletSprite: 4
-    fireSound: 113
-    compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
-    accuracySnap: 100
-    tuSnap: 33
-    battleType: 1
-    fixedWeapon: true
-    arcingShot: true
+    bigSprite: 169
+    battleType: 7
+    tuUse: 10
+    flatRate: true
     invWidth: 2
     invHeight: 3
-    maxRange: 3
+    fixedWeapon: true
     listOrder: 1080
   - type: STR_ALLOY_DRONE_SCANNER_CORPSE
     requires:
@@ -333,21 +297,6 @@ items:
     invHeight: 3
     recover: true
     listOrder: 4995
-  - type: STR_ALLOY_DRONE_SCANNER_WEAPON
-    requires:
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_SUPPORT_DRONES
-      - STR_MOTION_SCANNER
-    weight: 3
-    bigSprite: 169
-    battleType: 7
-    tuUse: 10
-    flatRate: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-    fixedWeapon: true
-    listOrder: 1081
 #END ALLOY DRONE SCANNER ITEM
 
 #BEGIN ALLOY DRONE MEDIKIT ITEM
@@ -359,19 +308,21 @@ items:
     size: 2
     costSell: 180000
     weight: 40
-    bigSprite: 168
-    bulletSprite: 4
-    fireSound: 113
-    compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
-    accuracySnap: 100
-    tuSnap: 33
-    battleType: 1
+    bigSprite: 117
+    battleType: 6
+    tuUse: 5
+    invWidth: 1
+    invHeight: 2
+    painKiller: 18
+    heal: 18
+    stimulant: 18
+    woundRecovery: 1
+    healthRecovery: 6
+    stunRecovery: 6
+    energyRecovery: 15
+    flatRate: true
     fixedWeapon: true
-    arcingShot: true
-    invWidth: 2
-    invHeight: 3
-    maxRange: 3
+    medikitTargetMatrix: 63
     listOrder: 1081
   - type: STR_ALLOY_DRONE_MEDIKIT_CORPSE
     requires:
@@ -388,29 +339,6 @@ items:
     armor: 40
     recover: true
     listOrder: 4996
-  - type: STR_ALLOY_DRONE_MEDIKIT_WEAPON
-    requires:
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_SUPPORT_DRONES
-      - STR_ADVANCED_MEDI_KIT
-    weight: 3
-    bigSprite: 117
-    battleType: 6
-    tuUse: 5
-    invWidth: 1
-    invHeight: 2
-    painKiller: 18
-    heal: 18
-    stimulant: 18
-    woundRecovery: 1
-    healthRecovery: 6
-    stunRecovery: 6
-    energyRecovery: 15
-    flatRate: true
-    recover: false
-    fixedWeapon: true
-    medikitTargetMatrix: 63
-    listOrder: 1082
 #END ALLOY DRONE MEDIKIT ITEM
 
 #BEGIN ALLOY DRONE TASER ITEM
@@ -422,19 +350,21 @@ items:
     size: 2
     costSell: 200000
     weight: 40
-    bigSprite: 168
-    bulletSprite: 4
-    fireSound: 113
+    bigSprite: 170
+    bulletSprite: 24
+    fireSound: 114
     compatibleAmmo:
-      - STR_DRONE_SMOKE_AMMO
-    accuracySnap: 100
-    tuSnap: 33
+      - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
+    accuracyAuto: 80
+    tuAuto: 33
+    autoShots: 3
     battleType: 1
+    invWidth: 1
+    invHeight: 2
     fixedWeapon: true
-    arcingShot: true
-    invWidth: 2
-    invHeight: 3
-    maxRange: 3
+    maxRange: 14
+    autoRange: 10
+    dropoff: 2
     listOrder: 1083
   - type: STR_ALLOY_DRONE_TASER_CORPSE
     requires:
@@ -451,29 +381,6 @@ items:
     armor: 40
     recover: true
     listOrder: 4997
-  - type: STR_ALLOY_DRONE_TASER_WEAPON
-    requires:
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_SUPPORT_DRONES
-      - STR_ELERIUM_115
-    weight: 5
-    bigSprite: 170
-    bulletSprite: 24
-    fireSound: 114
-    compatibleAmmo:
-      - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
-    accuracyAuto: 80
-    tuAuto: 33
-    autoShots: 3
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    recover: false
-    fixedWeapon: true
-    listOrder: 1084
-    maxRange: 14
-    autoRange: 10
-    dropoff: 2
   - type: STR_ALLOY_DRONE_TASER_WEAPON_AMMO
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -491,6 +398,28 @@ items:
     clipSize: 24
     listOrder: 1085
 #END ALLOY DRONE TASER ITEM
+
+#BEGIN TANK SMOKE WEAPON ITEM
+  - type: STR_TANK_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 197
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 115
+    accuracySnap: 167
+    tuSnap: 33
+    battleType: 1
+    clipSize: 3
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 3
+    listOrder: 1199
+#END TANK SMOKE WEAPON ITEM
 
 #BEGIN TANK CANNON ITEM
   - type: STR_TANK_CANNON
@@ -594,6 +523,7 @@ items:
 #BEGIN TANK LASER CANNON ITEM
   - type: STR_TANK_LASER_CANNON
     size: 4
+    listOrder: 1500
     snapRange: 24
     autoRange: 14
     dropoff: 3
@@ -636,6 +566,28 @@ items:
     listOrder: 9303
 #END TANK LASER CANNON ITEM
 
+#BEGIN ALLOY TANK SMOKE WEAPON ITEM
+  - type: STR_ALLOY_TANK_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 197
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 115
+    accuracySnap: 154
+    tuSnap: 33
+    battleType: 1
+    clipSize: 3
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 3
+    listOrder: 1501
+#END ALLOY TANK SMOKE WEAPON ITEM
+
 #BEGIN ALLOY TANK CANNON ITEM
   - type: STR_ALLOY_TANK_CANNON
     battleType: 1
@@ -650,17 +602,17 @@ items:
     fireSound: 12
     compatibleAmmo:
       - STR_HWP_CANNON_SHELLS
-    accuracySnap: 60
     accuracyAuto: 45
+    accuracySnap: 60
     accuracyAimed: 90
+    tuAuto: 50
     tuSnap: 33
-    tuAuto: 45
-    tuAimed: 80
+    tuAimed: 66
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
     turretType: 0
-    listOrder: 1501
+    listOrder: 1502
     snapRange: 22
     autoRange: 12
     minRange: 5
@@ -721,7 +673,7 @@ items:
     accuracyAuto: 50
     accuracySnap: 65
     accuracyAimed: 115
-    tuAuto: 65
+    tuAuto: 55
     tuSnap: 45
     tuAimed: 75
     autoShots: 2
@@ -729,7 +681,7 @@ items:
     invWidth: 2
     invHeight: 3
     turretType: 1
-    listOrder: 1502
+    listOrder: 1503
     snapRange: 24
     autoRange: 12
     minRange: 5
@@ -790,18 +742,18 @@ items:
     hitAnimation: 36
     power: 110
     accuracyAuto: 45
-    accuracySnap: 55
+    accuracySnap: 60
     accuracyAimed: 90
     autoShots: 3
-    tuAuto: 60
+    tuAuto: 50
     tuSnap: 33
-    tuAimed: 75
+    tuAimed: 66
     clipSize: -1
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
     turretType: 2
-    listOrder: 1503
+    listOrder: 1504
     snapRange: 24
     autoRange: 14
     dropoff: 3
@@ -844,6 +796,28 @@ items:
     listOrder: 9306
 #END ALLOY TANK LASER ITEM
 
+#BEGIN HOVERTANK SMOKE WEAPON ITEM
+  - type: STR_HOVERTANK_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 197
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 115
+    accuracySnap: 143
+    tuSnap: 30
+    battleType: 1
+    clipSize: 3
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 3
+    listOrder: 1598
+#END HOVERTANK SMOKE WEAPON ITEM
+
 #BEGIN HOVERTANK LASER ITEM
   - type: STR_HOVERTANK_LASER
     damageType: 4
@@ -860,13 +834,13 @@ items:
     hitSound: 19
     hitAnimation: 36
     power: 110
-    accuracyAuto: 50
-    accuracySnap: 60
-    accuracyAimed: 95
+    accuracyAuto: 60
+    accuracySnap: 75
+    accuracyAimed: 90
     autoShots: 3
-    tuAuto: 50
-    tuSnap: 33
-    tuAimed: 75
+    tuAuto: 45
+    tuSnap: 30
+    tuAimed: 60
     clipSize: -1
     fixedWeapon: true
     invWidth: 2
@@ -1006,9 +980,12 @@ items:
   - type: STR_HOVERTANK_PLASMA
     power: 115
     accuracyAuto: 70
-    autoShots: 4
+    accuracySnap: 85
+    accuracyAimed: 100
     tuAuto: 45
-    dropoff: 1
+    tuSnap: 30
+    tuAimed: 60
+    autoShots: 4
     snapRange: 26
     autoRange: 16
     dropoff: 2
@@ -1096,6 +1073,28 @@ items:
     listOrder: 8904
 #END HOVERTANK LAUNCHER ITEM
 
+#BEGIN WALKERTANK SMOKE WEAPON ITEM
+  - type: STR_WALKERTANK_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 197
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 115
+    accuracySnap: 134
+    tuSnap: 25
+    battleType: 1
+    clipSize: 4
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 4
+    listOrder: 1801
+#END WALKERTANK SMOKE WEAPON ITEM
+
 #BEGIN WALKERTANK PLASMA ITEM
   - type: STR_WALKERTANK_PLASMA
     size: 4
@@ -1123,7 +1122,7 @@ items:
     invHeight: 3
     clipSize: -1
     autoShots: 5
-    listOrder: 1801
+    listOrder: 1802
     snapRange: 26
     autoRange: 16
     dropoff: 2

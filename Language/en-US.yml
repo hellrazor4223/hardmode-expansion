@@ -152,8 +152,7 @@ en-US:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SCOUT_SMOKE_WEAPON: "Drone Smoke Launcher"
-  STR_DRONE_SMOKE_AMMO: "Drone Smoke Pellets"
+  STR_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
 
   STR_DRONE_SCOUT: "Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
@@ -205,6 +204,8 @@ en-US:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drone/Taser -> Alloy Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
+  STR_ALLOY_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
+
   STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
@@ -244,6 +245,8 @@ en-US:
 #END DRONES
 
 #BEGIN TANKS
+  STR_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+
   STR_TANK_CANNON_CORPSE: "Damaged Tank/Cannon"
   STR_TANK_CANNON_REPAIR: "Repair Tank/Cannon"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: "Tank/Cannon -> Rocket"
@@ -266,6 +269,8 @@ en-US:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "Tank/Laser -> Alloy Rocket"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "Tank/Laser -> Alloy Laser"
 
+  STR_ALLOY_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+
   STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_REPAIR: "Repair Alloy Tank/Cannon"
@@ -287,6 +292,8 @@ en-US:
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "Repair Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor."
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "Alloy Tank/Laser -> Hover Laser"
+
+  STR_HOVERTANK_SMOKE_WEAPON: "Tank Smoke Launcher"
 
   STR_HOVERTANK_LASER: "Hovertank/Laser"
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
@@ -314,6 +321,7 @@ en-US:
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "Hovertank/Launcher -> Hover Plasma"
 
   STR_WALKERTANK: "Walking HWP's"
+  STR_WALKERTANK_SMOKE_WEAPON: "Tank Smoke Launcher"
 
   STR_WALKERTANK_PLASMA: "Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_CORPSE: "Damaged Walkertank/Plasma"
