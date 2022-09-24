@@ -424,6 +424,10 @@ items:
 #BEGIN TANK CANNON ITEM
   - type: STR_TANK_CANNON
     size: 4
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
     listOrder: 1100
     snapRange: 22
     minRange: 5
@@ -523,6 +527,10 @@ items:
 #BEGIN TANK LASER CANNON ITEM
   - type: STR_TANK_LASER_CANNON
     size: 4
+    accuracySnap: 55
+    accuracyAimed: 85
+    tuSnap: 33
+    tuAimed: 75
     listOrder: 1500
     snapRange: 24
     autoRange: 14
@@ -742,8 +750,8 @@ items:
     hitAnimation: 36
     power: 110
     accuracyAuto: 45
-    accuracySnap: 60
-    accuracyAimed: 90
+    accuracySnap: 55
+    accuracyAimed: 85
     autoShots: 3
     tuAuto: 50
     tuSnap: 33
@@ -834,9 +842,9 @@ items:
     hitSound: 19
     hitAnimation: 36
     power: 110
-    accuracyAuto: 60
-    accuracySnap: 75
-    accuracyAimed: 90
+    accuracyAuto: 45
+    accuracySnap: 55
+    accuracyAimed: 85
     autoShots: 3
     tuAuto: 45
     tuSnap: 30
@@ -1082,8 +1090,8 @@ items:
     power: 60
     damageType: 9
     fireSound: 115
-    accuracySnap: 134
-    tuSnap: 25
+    accuracySnap: 143
+    tuSnap: 30
     battleType: 1
     clipSize: 4
     recover: false
@@ -1110,9 +1118,9 @@ items:
     hitAnimation: 56
     power: 125
     damageType: 5
-    accuracyAuto: 50
-    accuracySnap: 75
-    accuracyAimed: 110
+    accuracyAuto: 70
+    accuracySnap: 85
+    accuracyAimed: 120
     tuAuto: 35
     tuSnap: 30
     tuAimed: 60
@@ -3327,9 +3335,9 @@ items:
     hitAnimation: 56
     power: 125
     damageType: 5
-    accuracyAuto: 50
-    accuracySnap: 75
-    accuracyAimed: 110
+    accuracyAuto: 70
+    accuracySnap: 85
+    accuracyAimed: 120
     tuAuto: 35
     tuSnap: 30
     tuAimed: 60
