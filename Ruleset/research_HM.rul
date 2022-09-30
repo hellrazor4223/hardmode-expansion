@@ -553,9 +553,24 @@ research:
     points: 15
     listOrder: 303
     dependencies:
+      - STR_WALKERTANK_DEP1
+      - STR_WALKERTANK_DEP2
+  - name: STR_WALKERTANK_DEP1
+    dependencies:
       - STR_HOVERTANK
+      - STR_LASER_CANNON
+      - STR_SECTOPOD_TERRORIST
+      - STR_SECTOPOD_CORPSE
+    unlocks:
+      - STR_WALKERTANK_DEP2
+  - name: STR_WALKERTANK_DEP2
+    dependencies:
+      - STR_HOVERTANK
+      - STR_PLASMA_CANNON
       - STR_ARMORED_SECTOPOD_TERRORIST
       - STR_ARMORED_SECTOPOD_CORPSE
+    unlocks:
+      - STR_WALKERTANK_DEP1
 #END TANKS
 
 #BEGIN ARMORS

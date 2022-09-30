@@ -108,7 +108,7 @@ armors:
     damageModifier: &ALLOY_DRONE_DAMAGE_MODIFIER
       - 1.0
       - 1.0
-      - 0.0
+      - 0.2
       - 0.8
       - 1.0
       - 1.0
@@ -272,7 +272,7 @@ armors:
     damageModifier: &ALLOY_TANK_DAMAGE_MODIFIER
       - 1.0
       - 1.0
-      - 0.0
+      - 0.2
       - 0.75
       - 1.0
       - 0.95
@@ -344,7 +344,7 @@ armors:
     damageModifier: &HOVERTANK_DAMAGE_MODIFIER
       - 1.0
       - 1.0
-      - 0.0
+      - 0.2
       - 0.75
       - 1.0
       - 0.9
@@ -421,7 +421,37 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 #END HOVERTANK LAUNCHER ARMOR
 
-#BEGIN WALKERTANK PLASMA
+#BEGIN WALKERTANK LASER ARMOR
+  - type: WALKERTANK_LASER_ARMOR
+    spriteSheet: WALKERTANK_LASER.PCK
+    allowInv: false
+    corpseBattle:
+      - WALKERTANK_LASER_CORPSE_1
+      - WALKERTANK_LASER_CORPSE_2
+      - WALKERTANK_LASER_CORPSE_3
+      - WALKERTANK_LASER_CORPSE_4
+    corpseGeo: STR_WALKERTANK_LASER_CORPSE
+    frontArmor: 145
+    sideArmor: 130
+    rearArmor: 100
+    underArmor: 90
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.75
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+#END WALKERTANK LASER ARMOR
+
+#BEGIN WALKERTANK PLASMA ARMOR
   - type: WALKERTANK_PLASMA_ARMOR
     spriteSheet: WALKERTANK_PLASMA.PCK
     allowInv: false
@@ -439,17 +469,17 @@ armors:
     size: 2
     damageModifier:
       - 1.0
-      - 0.6
-      - 0.6
+      - 1.0
+      - 0.2
       - 0.7
       - 1.0
       - 0.8
       - 0.8
       - 0.8
-      - 1.0
+      - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
-#END WALKERTANK PLASMA
+#END WALKERTANK PLASMA ARMOR
 ##END XCOM TANK ARMORS
 
 ##BEGIN XCOM SOLDIER ARMORS

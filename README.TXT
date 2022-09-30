@@ -247,6 +247,7 @@ Additional X-Com Tanks:
 	Alloy Tank Laser
 	Hovertank Laser
 	Hovertank Elerium Bomb
+	Walkertank Laser
 	Walkertank Plasma
 
 Hovertank Launcher Ammo does 200 damage instead of 140

@@ -1,6 +1,6 @@
 en-US:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 WIP by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "BRIEFINGS AND NEWS"
   STR_HEAVY_WEAPONS_PLATFORMS: "BASE FACILITIES"
   STR_WEAPONS_AND_EQUIPMENT: "X-COM CRAFT & ARMAMENT"
@@ -152,8 +152,7 @@ en-US:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SCOUT_SMOKE_WEAPON: "Drone Smoke Launcher"
-  STR_DRONE_SMOKE_AMMO: "Drone Smoke Pellets"
+  STR_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
 
   STR_DRONE_SCOUT: "Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
@@ -205,6 +204,8 @@ en-US:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drone/Taser -> Alloy Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
+  STR_ALLOY_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
+
   STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
@@ -244,6 +245,8 @@ en-US:
 #END DRONES
 
 #BEGIN TANKS
+  STR_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+
   STR_TANK_CANNON_CORPSE: "Damaged Tank/Cannon"
   STR_TANK_CANNON_REPAIR: "Repair Tank/Cannon"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: "Tank/Cannon -> Rocket"
@@ -254,6 +257,7 @@ en-US:
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Tank/Rocket"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Tank/Rocket"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: "Tank/Rocket -> Cannon"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: "Tank/Rocket -> Laser"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Tank/Rocket -> Alloy Cannon"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "Tank/Rocket -> Alloy Rocket"
@@ -264,6 +268,8 @@ en-US:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "Tank/Laser -> Alloy Cannon"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "Tank/Laser -> Alloy Rocket"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "Tank/Laser -> Alloy Laser"
+
+  STR_ALLOY_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
 
   STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
@@ -277,6 +283,7 @@ en-US:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "This is a standard Rocket Launcher HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but its longevity under fire has been greatly increased, and it is somewhat quicker."
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Alloy Tank/Rocket -> Alloy Cannon"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Alloy Tank/Rocket -> Alloy Laser"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: "Alloy Tank/Rocket -> Hover Laser"
 
@@ -285,6 +292,8 @@ en-US:
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "Repair Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor."
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "Alloy Tank/Laser -> Hover Laser"
+
+  STR_HOVERTANK_SMOKE_WEAPON: "Tank Smoke Launcher"
 
   STR_HOVERTANK_LASER: "Hovertank/Laser"
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
@@ -309,8 +318,16 @@ en-US:
 
   STR_HOVERTANK_LAUNCHER_CORPSE: "Damaged Hovertank/Launcher"
   STR_HOVERTANK_LAUNCHER_REPAIR: "Repair Hovertank/Launcher"
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "Hovertank/Launcher -> Hover Plasma"
 
   STR_WALKERTANK: "Walking HWP's"
+  STR_WALKERTANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+
+  STR_WALKERTANK_LASER: "Walkertank/Laser"
+  STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"
+  STR_WALKERTANK_LASER_REPAIR: "Repair Walkertank/Laser"
+  STR_WALKERTANK_LASER_UFOPEDIA: "Destroying the psionic link between a Sectopod and his mindpowered masters, allows us to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process and had to be removed, resulting in a slower processing speed, but a lowered the vulnerability for laser weapons. We need a undamaged Sectopod to attempt a hack."
+  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "Walkertank/Laser -> Walker Plasma"
 
   STR_WALKERTANK_PLASMA: "Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_CORPSE: "Damaged Walkertank/Plasma"
@@ -425,6 +442,7 @@ en-US:
   STR_FIELD_MEDI_PACK_UFOPEDIA: "The field medic pack combines a healing facility with pain killers and stimulants. In order to use the field medic pack you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the field medi pack icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 1 health restored.{NEWLINE}STIMULANT> This will restore 5 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 3 | STIMULANT: 3 | PAIN KILLER: 3"
 
   STR_MEDI_KIT_UFOPEDIA: "The medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 3 health restored.{NEWLINE}STIMULANT> This will restore 10 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 6 | STIMULANT: 6 | PAIN KILLER: 6"
+  STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: "Medi-Kit -> Advanced Medi-Kit"
 
   STR_ADVANCED_MEDI_KIT: "Advanced Medi-Kit"
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "The advanced medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the advanced medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the advanced medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 6 health restored.{NEWLINE}STIMULANT> This will restore 15 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 9 | STIMULANT: 9 | PAIN KILLER: 9"

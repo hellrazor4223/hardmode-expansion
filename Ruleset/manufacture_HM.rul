@@ -1666,12 +1666,69 @@ manufacture:
       STR_BLASTER_BOMB: 1
 #END HOVERTANK LAUNCHER MANU
 
+#BEGIN WALKERTANK LASER MANU
+  - name: STR_WALKERTANK_LASER
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_LASER_CANNON
+      - STR_WALKERTANK
+      - STR_SECTOPOD_CORPSE
+      - STR_SECTOPOD_TERRORIST
+    space: 30
+    time: 1600
+    cost: 1200000
+    requiredItems:
+      STR_SECTOPOD_TERRORIST: 1
+      STR_ALIEN_ALLOYS: 30
+      STR_ELERIUM_115: 20
+    listOrder: 720
+  - name: STR_WALKERTANK_LASER_REPAIR
+    category: STR_CAT_TANK_REPAIR
+    requires:
+      - STR_LASER_CANNON
+      - STR_WALKERTANK
+      - STR_SECTOPOD_CORPSE
+      - STR_SECTOPOD_TERRORIST
+      - STR_TANK_REPAIR
+    space: 30
+    time: 800
+    cost: 650000
+    requiredItems:
+      STR_WALKERTANK_LASER_CORPSE: 1
+      STR_ALIEN_ALLOYS: 15
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_WALKERTANK_LASER: 1
+    listOrder: 721
+  - name: STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA
+    category: STR_CAT_TANK_UPGRADE
+    requires:
+      - STR_LASER_CANNON
+      - STR_PLASMA_CANNON
+      - STR_WALKERTANK
+      - STR_SECTOPOD_CORPSE
+      - STR_SECTOPOD_TERRORIST
+      - STR_ARMORED_SECTOPOD_CORPSE
+      - STR_ARMORED_SECTOPOD_TERRORIST
+    space: 30
+    time: 200
+    cost: 40000
+    requiredItems:
+      STR_WALKERTANK_LASER: 1
+      STR_ELERIUM_115: 10
+    producedItems:
+      STR_WALKERTANK_PLASMA: 1
+    listOrder: 722
+#END WALKERTANK LASER MANU
+
 #BEGIN WALKERTANK PLASMA MANU
   - name: STR_WALKERTANK_PLASMA
     category: STR_HEAVY_WEAPONS_PLATFORM
     requires:
       - STR_PLASMA_CANNON
       - STR_WALKERTANK
+      - STR_ARMORED_SECTOPOD_CORPSE
+      - STR_ARMORED_SECTOPOD_TERRORIST
     space: 30
     time: 1600
     cost: 1600000
@@ -1679,12 +1736,14 @@ manufacture:
       STR_ARMORED_SECTOPOD_TERRORIST: 1
       STR_ALIEN_ALLOYS: 30
       STR_ELERIUM_115: 30
-    listOrder: 720
+    listOrder: 740
   - name: STR_WALKERTANK_PLASMA_REPAIR
     category: STR_CAT_TANK_REPAIR
     requires:
       - STR_PLASMA_CANNON
       - STR_WALKERTANK
+      - STR_ARMORED_SECTOPOD_CORPSE
+      - STR_ARMORED_SECTOPOD_TERRORIST
       - STR_TANK_REPAIR
     space: 30
     time: 800
@@ -1695,7 +1754,7 @@ manufacture:
       STR_ELERIUM_115: 15
     producedItems:
       STR_WALKERTANK_PLASMA: 1
-    listOrder: 721
+    listOrder: 741
 #END WALKERTANK PLASMA MANU
 ##END XCOM TANK MANUS
 

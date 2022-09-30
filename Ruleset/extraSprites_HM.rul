@@ -90,6 +90,7 @@ extraSprites:
       126: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Canon.png
       127: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
       128: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Laser.png
+      198: Resources/Units/Xcom/WalkertankLaser/BigOb_WalkertankLaser.png
       163: Resources/Units/Xcom/WalkertankPlasma/BigOb_WalkertankPlasma.png
       167: Resources/Units/Alien/MutonBerserker/BigOb_MutonBerserker_Corpse.png
       131: Resources/Units/Alien/Waspite/BigOb_Waspite_Corpse.png
@@ -207,6 +208,10 @@ extraSprites:
       123: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
       124: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_3.png
       125: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_4.png
+      209: Resources/Units/Xcom/WalkertankLaser/FloorOb_WalkertankLaser_Corpse_1.png
+      210: Resources/Units/Xcom/WalkertankLaser/FloorOb_WalkertankLaser_Corpse_2.png
+      211: Resources/Units/Xcom/WalkertankLaser/FloorOb_WalkertankLaser_Corpse_3.png
+      212: Resources/Units/Xcom/WalkertankLaser/FloorOb_WalkertankLaser_Corpse_4.png
       168: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_1.png
       169: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_2.png
       170: Resources/Units/Xcom/WalkertankPlasma/FloorOb_WalkertankPlasma_Corpse_3.png
@@ -754,6 +759,16 @@ extraSprites:
     files:
       0: Resources/Units/Xcom/AlloyTank/SpriteSheet_AlloyTanks.png
 #END ALLOY TANKS
+
+#BEGIN WALKTERTANK LASER
+  - type: WALKERTANK_LASER.PCK
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/WalkertankLaser/SpriteSheet_WalkertankLaser.png
+#END WALKERTANK LASER
 
 #BEGIN WALKTERTANK PLASMA
   - type: WALKERTANK_PLASMA.PCK

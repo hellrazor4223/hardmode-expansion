@@ -1103,6 +1103,76 @@ items:
     listOrder: 1801
 #END WALKERTANK SMOKE WEAPON ITEM
 
+#BEGIN WALKERTANK LASER ITEM
+  - type: STR_WALKERTANK_LASER
+    size: 4
+    costSell: 1000000
+    transferTime: 96
+    weight: 1
+    bigSprite: 198
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 7
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 110
+    damageType: 4
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    autoShots: 3
+    listOrder: 1802
+    snapRange: 24
+    autoRange: 14
+    dropoff: 3
+  - type: STR_WALKERTANK_LASER_CORPSE
+    size: 4
+    battleType: 11
+    listOrder: 4916
+  - type: STRWALKERTANK_LASER_CORPSE_1
+    name: STR_WALKERTANK_LASER_CORPSE
+    floorSprite: 209
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: -1
+    armor: 90
+    listOrder: 8609
+  - type: WALKERTANK_LASER_CORPSE_2
+    floorSprite: 210
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 90
+    listOrder: 8705
+  - type: WALKERTANK_LASER_CORPSE_3
+    floorSprite: 211
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 90
+    listOrder: 8805
+  - type: WALKERTANK_LASER_CORPSE_4
+    floorSprite: 212
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+    armor: 90
+    listOrder: 8905
+#END WALKERTANK PLASMA ITEM
+
 #BEGIN WALKERTANK PLASMA ITEM
   - type: STR_WALKERTANK_PLASMA
     size: 4
@@ -1130,14 +1200,14 @@ items:
     invHeight: 3
     clipSize: -1
     autoShots: 5
-    listOrder: 1802
+    listOrder: 1803
     snapRange: 26
     autoRange: 16
     dropoff: 2
   - type: STR_WALKERTANK_PLASMA_CORPSE
     size: 4
     battleType: 11
-    listOrder: 4915
+    listOrder: 4917
   - type: WALKERTANK_PLASMA_CORPSE_1
     name: STR_WALKERTANK_PLASMA_CORPSE
     floorSprite: 168
@@ -1146,7 +1216,7 @@ items:
     battleType: 11
     recoveryPoints: -1
     armor: 100
-    listOrder: 8609
+    listOrder: 8610
   - type: WALKERTANK_PLASMA_CORPSE_2
     floorSprite: 169
     invWidth: 0
@@ -1154,7 +1224,7 @@ items:
     battleType: 11
     recover: false
     armor: 100
-    listOrder: 8705
+    listOrder: 8706
   - type: WALKERTANK_PLASMA_CORPSE_3
     floorSprite: 170
     invWidth: 0
@@ -1162,7 +1232,7 @@ items:
     battleType: 11
     recover: false
     armor: 100
-    listOrder: 8805
+    listOrder: 8806
   - type: WALKERTANK_PLASMA_CORPSE_4
     floorSprite: 171
     invWidth: 0
@@ -1170,7 +1240,7 @@ items:
     battleType: 11
     recover: false
     armor: 100
-    listOrder: 8905
+    listOrder: 8906
 #END WALKERTANK PLASMA ITEM
 ##END XCOM TANK ITEMS
 
@@ -3213,13 +3283,14 @@ items:
 ##BEGIN ALIEN TERROR UNIT WEAPON ITEMS
 #BEGIN SECTOPOD WEAPON ITEM
   - type: SECTOPOD_WEAPON
-    hitAnimation: 36
-    bulletSprite: 7
     fireSound: 11
+    hitAnimation: 36
+    power: 110
+    bulletSprite: 7
     listOrder: 11400
-    snapRange: 26
-    autoRange: 16
-    dropoff: 2
+    snapRange: 24
+    autoRange: 14
+    dropoff: 3
 #END SECTOPOD WEAPON ITEM
 
 #BEGIN MUTON BERSERKER WEAPON ITEM

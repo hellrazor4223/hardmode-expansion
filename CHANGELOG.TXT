@@ -11,6 +11,7 @@ Version 1.0
  - Add more Upgrade Options to X-Com Tanks
  - Add Upgrade Option for Medikts
  - Add Smoke Launcher to all Tanks (free ammo)
+ - Add Walkertank/Laser (Sectopod converted)
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
 
