@@ -1138,7 +1138,7 @@ items:
     size: 4
     battleType: 11
     listOrder: 4916
-  - type: STRWALKERTANK_LASER_CORPSE_1
+  - type: WALKERTANK_LASER_CORPSE_1
     name: STR_WALKERTANK_LASER_CORPSE
     floorSprite: 209
     invWidth: 0
