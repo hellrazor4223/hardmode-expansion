@@ -1672,7 +1672,7 @@ alienDeployments:
     height: 2
     terrains:
       - UBASE
-    shade: 10
+    shade: 34
     script: ALIENBASE
     briefing:
       textOffset: -16
