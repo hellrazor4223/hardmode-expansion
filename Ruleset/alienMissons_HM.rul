@@ -195,7 +195,7 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 60
-        interruptPercentage: 66
+        interruptPercentage: 33
 #END ALIEN INFILTRATION
 
 #BEGIN ALIEN RESEARCH
@@ -291,12 +291,12 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 9000
-        interruptPercentage: 33
+        interruptPercentage: 11
       - ufo: STR_ABDUCTOR
         count: 2
         trajectory: P4
         timer: 60
-        interruptPercentage: 33
+        interruptPercentage: 11
 #END ALIEN ABDUCTION
 
 #BEGIN ALIEN HARVEST
@@ -396,17 +396,17 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 3000
-        interruptPercentage: 33
+        interruptPercentage: 11
       - ufo: STR_HARVESTER
         count: 1
         trajectory: P4
         timer: 750
-        interruptPercentage: 33
+        interruptPercentage: 11
       - ufo: STR_LAB_SHIP
         count: 1
         trajectory: P2
         timer: 1500
-        interruptPercentage: 33
+        interruptPercentage: 11
 #END ALIEN HARVEST
 
 #BEGIN ALIEN RETALIATION
