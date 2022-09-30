@@ -1400,7 +1400,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 12
-    listOrder: 1802
+    listOrder: 1803
 #END COMBAT KNIFE ITEM
 
 #BEGIN ALLOY KNIFE ITEM
@@ -1428,7 +1428,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 20
-    listOrder: 1803
+    listOrder: 1804
 #END ALLOY KNIFE ITEM
 
 #BEGIN ALLOY SWORD ITEM
@@ -1456,7 +1456,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    listOrder: 1804
+    listOrder: 1805
 #END ALLOY SWORD ITEM
 
 #BEGIN TASER PISTOL ITEM
@@ -1484,7 +1484,7 @@ items:
     maxRange: 15
     snapRange: 10
     dropoff: 4
-    listOrder: 1805
+    listOrder: 1806
   - type: STR_TASER_PISTOL_CLIP
     size: 0.1
     costBuy: 200
@@ -1501,7 +1501,7 @@ items:
     battleType: 2
     blastRadius: 0
     armor: 20
-    listOrder: 1806
+    listOrder: 1807
 #END TASER PISTOL ITEM
 
 #BEGIN PISTOL ITEM

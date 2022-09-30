@@ -326,7 +326,7 @@ en-US:
   STR_WALKERTANK_LASER: "Walkertank/Laser"
   STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"
   STR_WALKERTANK_LASER_REPAIR: "Repair Walkertank/Laser"
-  STR_WALKERTANK_LASER_UFOPEDIA: "Destroying the psionic link between a Sectopod and his mindpowered masters, allows us to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process and had to be removed, resulting in a slower processing speed, but a lowered the vulnerability for laser weapons. We need a undamaged Sectopod to attempt a hack."
+  STR_WALKERTANK_LASER_UFOPEDIA: "Destroying the psionic link between a Sectopod and his mindpowered masters, allows us to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process and had to be removed, resulting in a slower processing speed, but lowered the vulnerability for laser weapons. We need a undamaged Sectopod to attempt a hack."
   STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "Walkertank/Laser -> Walker Plasma"
 
   STR_WALKERTANK_PLASMA: "Walkertank/Plasma"
