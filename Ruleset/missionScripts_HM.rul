@@ -74,10 +74,8 @@ missionScripts:
     startDelay: 120
 #END MUTON GREATING
 
-#BEGIN MONTHLY ETHEREAL BASE
+#BEGIN ETHEREAL GREETING
   - type: gameEndEtherealBase
-    firstMonth: 13
-    lastMonth: -1
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
@@ -87,8 +85,12 @@ missionScripts:
         STR_ETHEREAL: 100
     startDelay: 120
     researchTriggers:
+      STR_ULTIMATE_CRAFT: true
+      STR_THE_MARTIAN_SOLUTION: true
       STR_ETHEREAL_COMMANDER: false
-#END MONTHLY ETHEREAL BASE
+    maxRuns: 2
+    varName: gameEndEtherealBase
+#END ETHEREAL GREETING
 ##END GAME ESSENTIAL
 
 ##BEGIN CONSEQUENCES
