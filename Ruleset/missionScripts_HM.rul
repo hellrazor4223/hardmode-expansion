@@ -46,6 +46,20 @@ missionScripts:
     startDelay: 120
 #END FLOATER START BASE
 
+#BEGIN SNAKEMAN GREATING
+  - type: snakemanGreeting
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 3
+    lastMonth: 3
+    1argetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_SNAKEMAN: 100
+    startDelay: 120
+#END SNAKEMAN GREATING
+
 #BEGIN MUTON GREATING
   - type: mutonGreeting
     missionWeights:
