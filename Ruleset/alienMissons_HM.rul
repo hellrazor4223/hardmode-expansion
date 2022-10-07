@@ -107,10 +107,14 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 6000
-      - ufo: STR_EXCAVATOR
-        count: 2
+      - ufo: STR_LARGE_SCOUT
+        count: 1
         trajectory: P4
         timer: 6000
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P4
+        timer: 0
       - ufo: STR_SUPPLY_SHIP
         count: 1
         trajectory: P5
@@ -176,9 +180,13 @@ alienMissions:
         trajectory: P7
         timer: 9000
       - ufo: STR_SENTRY_SHIP
-        count: 2
+        count: 1
         trajectory: P7
         timer: 60
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P7
+        timer: 0
       - ufo: STR_TERROR_SHIP
         count: 1
         trajectory: P7
@@ -264,10 +272,14 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 7800
-      - ufo: STR_EXCAVATOR
-        count: 2
+      - ufo: STR_LARGE_SCOUT
+        count: 1
         trajectory: P4
         timer: 9000
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P4
+        timer: 0
 #END ALIEN RESEARCH
 
 #BEGIN ALIEN ABDUCTION
@@ -283,7 +295,7 @@ alienMissions:
         count: 1
         trajectory: P1
         timer: 18000
-      - ufo: STR_EXCAVATOR
+      - ufo: STR_LARGE_SCOUT
         count: 1
         trajectory: P3
         timer: 9000
@@ -291,17 +303,16 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 9000
-        interruptPercentage: 11
       - ufo: STR_ABDUCTOR
         count: 2
         trajectory: P4
         timer: 60
-        interruptPercentage: 11
+        interruptPercentage: 33
 #END ALIEN ABDUCTION
 
 #BEGIN ALIEN HARVEST
   - type: STR_ALIEN_HARVEST
-    points: 60
+    points: 120
     raceWeights:
       0:
         STR_FLOATER: 80
@@ -380,7 +391,7 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 7800
-      - ufo: STR_FIGHTER_SHIP
+      - ufo: STR_MEDIUM_SCOUT
         count: 1
         trajectory: P2
         timer: 6000
@@ -388,7 +399,7 @@ alienMissions:
         count: 1
         trajectory: P0
         timer: 7800
-      - ufo: STR_SENTRY_SHIP
+      - ufo: STR_EXCAVATOR
         count: 1
         trajectory: P3
         timer: 9000
@@ -396,17 +407,15 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 3000
-        interruptPercentage: 11
       - ufo: STR_HARVESTER
         count: 1
         trajectory: P4
         timer: 750
-        interruptPercentage: 11
       - ufo: STR_LAB_SHIP
         count: 1
         trajectory: P2
         timer: 1500
-        interruptPercentage: 11
+        interruptPercentage: 33
 #END ALIEN HARVEST
 
 #BEGIN ALIEN RETALIATION
