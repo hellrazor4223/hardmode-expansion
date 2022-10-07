@@ -1716,6 +1716,7 @@ manufacture:
     requiredItems:
       STR_WALKERTANK_LASER: 1
       STR_ELERIUM_115: 10
+      STR_ARMORED_SECTOPOD_CORPSE: 1
     producedItems:
       STR_WALKERTANK_PLASMA: 1
     listOrder: 722
