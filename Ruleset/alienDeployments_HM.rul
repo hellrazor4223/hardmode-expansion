@@ -1672,7 +1672,7 @@ alienDeployments:
     height: 2
     terrains:
       - UBASE
-    shade: 34
+    shade: 10
     script: ALIENBASE
     briefing:
       textOffset: -16
@@ -1695,7 +1695,7 @@ alienDeployments:
     objectivesRequired: 16 #MCD defined specialtype
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 10 #points aliens get for a base each day
+    points: 34 #points aliens get for a base each day
     cheatTurn: 7 #Force Attack Mode
     winCutscene: winMiss
     loseCutscene: loseMiss
