@@ -4,10 +4,12 @@ Version 1.0
  - Fix Bug for Mod not loading on OXCE 7.7.x
  - Fix Plasma Blade not being available in lategame to player
  - Fix Mars being only half height
+ - Fix globa texture asignment, which prevent Terrorsites to spawn properly
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring
  - Adjust Soitter Zombies to be more dangerous
  - Add more randomness to Alien Mission starts
+ - Add Alien Base initiated Terror Missions without Scout Ships
  - Add more Upgrade Options to X-Com Tanks
  - Add Upgrade Option for Medikts
  - Add Smoke Launcher to all Tanks (free ammo)
