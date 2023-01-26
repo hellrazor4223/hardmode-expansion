@@ -1684,11 +1684,11 @@ alienDeployments:
     genMission:
       STR_ALIEN_BASE: 1
       STR_ALIEN_RETALIATION: 1
-      STR_ALIEN_ABDUCTION: 2
-      STR_ALIEN_HARVEST: 2
-      STR_ALIEN_RESEARCH: 2
-      STR_ALIEN_TERROR: 12
-      STR_ALIEN_SUPPLY: 80
+      STR_ALIEN_ABDUCTION: 1
+      STR_ALIEN_HARVEST: 1
+      STR_ALIEN_RESEARCH: 1
+      STR_ALIEN_BASE_TERROR_MISSION: 25
+      STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: false #Supply is still alien base race, all others pick from mission raceweights
     alienBase: true # this is only to tell new battle mode what to do with this deployment
@@ -2215,5 +2215,31 @@ alienDeployments:
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END TERROR MISSION SHIP
+
+#BEGIN TERROR MISSION DOCKED SHIP
+  - type: STR_TERROR_MISSION_DOCKED_SHIP
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    civilians: 24
+    terrains:
+      - PORTCARGOSHIP
+      - PORTLINERSHIP
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_TERROR_MISSION_PORT
+      desc: STR_TERROR_MISSION_PORT_BRIEFING
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END TERROR MISSION DOCKED SHIP
 ##END TERRORMISSIONS
 ###END ALIEN DEPLOYMENTS

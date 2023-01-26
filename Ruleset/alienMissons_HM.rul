@@ -520,4 +520,23 @@ alienMissions:
         timer: 6000
         objective: true
 #END ALIEN SUPPLY
+
+#BEGIN ALIEN BASE TERROR MISSION
+  - type: STR_ALIEN_BASE_TERROR_MISSION
+    points: 20
+    objective: 3 #Create a missionsite for a terrormission
+    spawnZone: 3 #Mission zone for terror missions
+    operationType: 5
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P0
+        timer: 26600
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+#END ALIEN BASE TERROR MISSION
 ###END ALIEN MISSIONS

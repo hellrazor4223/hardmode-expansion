@@ -1584,34 +1584,34 @@ globe:
           area: [0, 360, 0, 90]
     - id: -1
       deployments: #109 Cities
-        - STR_TERROR_MISSION: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION: 80
+        STR_TERROR_MISSION_MILITARY_BASE: 20
     - id: -2
       deployments: #52 Cities
-        - STR_TERROR_MISSION_SUBURB: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION_SUBURB: 80
+        STR_TERROR_MISSION_MILITARY_BASE: 20
     - id: -3
       deployments: #45 Cities
-        - STR_TERROR_MISSION_INDUSTRIAL: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION_INDUSTRIAL: 80
+        STR_TERROR_MISSION_MILITARY_BASE: 20
     - id: -4
       deployments: #18 Cities
-        - STR_TERROR_MISSION_SNOW: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION_SNOW: 80
+        STR_TERROR_MISSION_MILITARY_BASE: 20
     - id: -5
       deployments: #26 Cities
-        - STR_TERROR_MISSION_TROPICAL: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION_TROPICAL: 80
+        STR_TERROR_MISSION_MILITARY_BASE: 20
     - id: -6
       deployments: #14 Cities
-        - STR_TERROR_MISSION_ISLAND: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION_ISLAND: 80
+        STR_TERROR_MISSION_MILITARY_BASE: 20
     - id: -7
       deployments: #83 Cities
-        - STR_TERROR_MISSION_PORT: 100
-        - STR_TERROR_MISSION_MILITARY_BASE: 10
+        STR_TERROR_MISSION_PORT: 80
+        STR_TERROR_MISSION_DOCKED_SHIP: 20
     - id: -8
-      deployments:
+      deployments: #48 locations
         STR_TERROR_MISSION_SHIP: 100
 ##END TEXTURES
 ###END GLOBE
