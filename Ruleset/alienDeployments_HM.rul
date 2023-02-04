@@ -2037,15 +2037,9 @@ alienDeployments:
     height: 8
     civilians: 24
     terrains:
-      - EXPANDED_URBAN_MIX
-      - DAWNURBANA
       - DAWNURBANA
       - DAWNURBANB
-      - DAWNURBANB
       - COMRCURBAN
-      - COMRCURBAN
-      - COMRCURBAN
-      - DOWNTOWNURBAN
       - DOWNTOWNURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
@@ -2075,9 +2069,6 @@ alienDeployments:
       - PORTURBAN
       - PORTINDUSTRIALURBAN
       - RAILYARDURBAN
-      - RAILYARDURBAN
-      - INDUSTRIALURBAN
-      - INDUSTRIALURBAN
       - INDUSTRIALURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
