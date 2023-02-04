@@ -900,10 +900,23 @@ armors:
 #BEGIN ETHEREAL ARMOR
   - type: ETHEREAL_ARMOR0
     spriteInv: etherealInventoryImage
+    damageModifier: &ETHEREAL_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
   - type: ETHEREAL_ARMOR1
     spriteInv: etherealInventoryImage
+    damageModifier: *ETHEREAL_DAMAGE_MODIFIER
   - type: ETHEREAL_ARMOR2
     spriteInv: etherealInventoryImage
+    damageModifier: *ETHEREAL_DAMAGE_MODIFIER
 #END ETHEREAL ARMOR
 
 #BEGIN MUTON ELITE GUARD ARMOR
