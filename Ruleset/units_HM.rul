@@ -1384,7 +1384,6 @@ units:
     aggression: 4
     energyRecovery: 60
     livingWeapon: true
-    sniper: 66
 #END CHRYSSALID SPITTER UNIT
 
 #BEGIN ZOMBIE UNIT

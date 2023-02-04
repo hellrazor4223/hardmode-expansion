@@ -303,17 +303,17 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 9000
+        interruptPercentage: 33
       - ufo: STR_ABDUCTOR
         count: 2
         trajectory: P4
         timer: 60
-        interruptPercentage: 33
 #END ALIEN ABDUCTION
 
 #BEGIN ALIEN HARVEST
   - type: STR_ALIEN_HARVEST
     points: 120
-    raceWeights:
+    raceWeights: &HARVEST
       0:
         STR_FLOATER: 80
         STR_SECTOID: 20
@@ -523,7 +523,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE TERROR MISSION
   - type: STR_ALIEN_BASE_TERROR_MISSION
-    points: 20
+    points: 100
     objective: 3 #Create a missionsite for a terrormission
     spawnZone: 3 #Mission zone for terror missions
     operationType: 5
@@ -539,4 +539,70 @@ alienMissions:
         timer: 9000
         objective: true
 #END ALIEN BASE TERROR MISSION
+
+#BEGIN ALIEN BASE ABDUCTION MISSION
+  - type: STR_ALIEN_ABDUCTION
+    points: 150
+    operationType: 5
+    raceWeights: *RESEARCH_ABDUCTION
+    waves:
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P3
+        timer: 51000
+        interruptPercentage: 33
+      - ufo: STR_ABDUCTOR
+        count: 2
+        trajectory: P4
+        timer: 60
+#END ALIEN BASE ABDUCTION MISSION
+
+#BEGIN ALIEN BASE HARVEST MISSION
+  - type: STR_ALIEN_BASE_HARVEST_MISSION
+    points: 150
+    operationType: 5
+    raceWeights: *HARVEST
+    waves:
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 41400
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P2
+        timer: 1500
+        interruptPercentage: 33
+#END ALIEN BASE HARVEST MISSION
+
+#BEGIN ALIEN BASE BASE MISSION
+  - type: STR_ALIEN_BASE_BASE_MISSION
+    points: 250
+    objective: 2 #Built a alien base
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    operationType: 5
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_EXCAVATOR
+        count: 25501
+        trajectory: P4
+        timer: 0
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+        interruptPercentage: 33
+#END ALIEN BASE BASE MISSION
 ###END ALIEN MISSIONS

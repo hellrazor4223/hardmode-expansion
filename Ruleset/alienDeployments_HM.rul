@@ -1682,12 +1682,10 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE: 1
-      STR_ALIEN_RETALIATION: 1
-      STR_ALIEN_ABDUCTION: 1
-      STR_ALIEN_HARVEST: 1
-      STR_ALIEN_RESEARCH: 1
-      STR_ALIEN_BASE_TERROR_MISSION: 25
+      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_ABDUCTION: 10
+      STR_ALIEN_BASE_HARVEST: 10
+      STR_ALIEN_BASE_TERROR_MISSION: 20
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: false #Supply is still alien base race, all others pick from mission raceweights
