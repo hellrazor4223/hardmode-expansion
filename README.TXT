@@ -134,7 +134,7 @@ General Gameplay changes:
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
-	Alien Bases will also invoke Alien Missions in their regions (10% chance)
+	Alien Bases will generate missions without Scout Ship (Terror, Abduction, Harvest, Base), it is recommended to not tolerate more then 4 bases on earth at all time!
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes

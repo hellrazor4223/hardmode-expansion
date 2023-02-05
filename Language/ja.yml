@@ -1,6 +1,6 @@
 ja:
 #BEGIN GENERAL
-  STR_OPENXCOM: ""
+  STR_OPENXCOM: "OpenXcom - ハードモード拡張Mod{NEWLINE}v1.0 WIP by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "任務とニュース"
   STR_HEAVY_WEAPONS_PLATFORMS: "基地の施設"
   STR_WEAPONS_AND_EQUIPMENT: "XCOMの機体および軍備"
@@ -17,6 +17,10 @@ ja:
   STR_CAT_TANK_REPAIR: "HWPの修理"
   STR_CAT_PERSONAL_ARMOR_UPGRADE: "個人用アーマーの改修"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "個人用アーマーの修繕"
+  STR_ALIEN_BASE_TERROR_MISSION: "エイリアンのテロ活動"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "誘拐"
+  STR_ALIEN_BASE_HARVEST_MISSION: "繁殖"
+  STR_ALIEN_BASE_BASE_MISSION: "エイリアン基地"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -152,8 +156,7 @@ ja:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SCOUT_SMOKE_WEAPON: "ドローン用発煙筒"
-  STR_DRONE_SMOKE_AMMO: "ドローン用発煙弾"
+  STR_DRONE_SMOKE_WEAPON: "ドローン用発煙筒"
 
   STR_DRONE_SCOUT: "ドローン/スカウト"
   STR_DRONE_SCOUT_CORPSE: "大破したドローン/スカウト"
@@ -205,6 +208,8 @@ ja:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "ドローン/テーザー -> 合金メディキット"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "ドローン/テーザー -> 合金テーザー"
 
+  STR_ALLOY_DRONE_SMOKE_WEAPON: "ドローン用発煙筒"
+
   STR_ALLOY_DRONE_SCOUT: "合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "大破した合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "合金ドローン/スカウトの修理"
@@ -244,6 +249,8 @@ ja:
 #END DRONES
 
 #BEGIN TANKS
+  STR_TANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
+
   STR_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
   STR_TANK_CANNON_REPAIR: "戦車/キャノンの修理"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: "戦車/キャノン->戦車/ロケット"
@@ -254,6 +261,7 @@ ja:
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "大破した戦車/ロケット"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "戦車/ロケットの修理"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: "戦車/ロケット->キャノン"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: "戦車/ロケット->戦車/レーザー"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "戦車/ロケット->合金キャノン"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "戦車/ロケット->合金ロケット"
@@ -264,6 +272,8 @@ ja:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "戦車/レーザー->合金キャノン"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "戦車/レーザー->合金ロケット"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "戦車/レーザー->合金レーザー"
+
+  STR_ALLOY_TANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
 
   STR_ALLOY_TANK_CANNON: "合金戦車/キャノン"
   STR_ALLOY_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
@@ -277,6 +287,7 @@ ja:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "大破した合金戦車/ロケット"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "合金戦車/ロケットの修理"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "これは標準仕様のキャノンHWPに軽量で狂人なエイリアン合金製の装甲を採用したものだ。性能はあまり変わらないがより火線の下で堪える事が可能で、幾らか速度が増している。"
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "合金戦車/ロケット->合金キャノン"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "合金戦車/ロケット->合金レーザー"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: "合金戦車/ロケット->ホバー/レーザー"
 
@@ -285,6 +296,8 @@ ja:
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "合金戦車/レーザーの修理"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "X-Comのキャタピラ式HWPの頂点とも言える存在で、科学者達によって設計された強力なレーザーキャノンと軽量強靱なエイリアン合金製の装甲を兼ね備える。"
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "合金戦車/レーザー->ホバー/レーザー"
+
+  STR_HOVERTANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
 
   STR_HOVERTANK_LASER: "ホバー/レーザー"
   STR_HOVERTANK_LASER_CORPSE: "大破したホバー/レーザー"
@@ -309,8 +322,16 @@ ja:
 
   STR_HOVERTANK_LAUNCHER_CORPSE: "大破したホバー/ランチャ"
   STR_HOVERTANK_LAUNCHER_REPAIR: "ホバー/ランチャの修理"
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "ホバー/ランチャ->ホバー/プラズマ"
 
   STR_WALKERTANK: "歩行式HWP"
+  STR_WALKERTANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
+
+  STR_WALKERTANK_LASER: "歩行/レーザー"
+  STR_WALKERTANK_LASER_CORPSE: "大破した歩行/レーザー"
+  STR_WALKERTANK_LASER_REPAIR: "歩行/レーザーの修理"
+  STR_WALKERTANK_LASER_UFOPEDIA: "主と繋がるセクトポッドのサイオニックリンクを切断して精神制御から解放し制御システムをハッキングした。不幸なことにシステムを破壊したらしく中断を余儀なくされ、処理速度が大幅に低下したがレーザー兵器へのぜい弱性を緩和することが出来た。改めてハッキングするには無傷のセクトポッドが必要だ。"
+  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "歩行/レーザー->歩行/プラズマ"
 
   STR_WALKERTANK_PLASMA: "歩行/プラズマ"
   STR_WALKERTANK_PLASMA_CORPSE: "大破した歩行/プラズマ"
@@ -425,6 +446,7 @@ ja:
   STR_FIELD_MEDI_PACK_UFOPEDIA: "メディキットは鎮痛剤と興奮剤を組み合わせたもので、負傷した兵士の方を向いて、または気絶した兵士の体の上で使用する。メディキットをクリックしてメニューから’使用’を選び以下から選択。{NEWLINE}{NEWLINE}治療> 赤い部分が負傷した部位を示す。治療する部位を選択して‘治療’ボタンを押す。傷が治療され健康を回復する。{NEWLINE}{NEWLINE}興奮剤> スタミナを5回復し、気絶した兵士の意識を回復する。気絶した兵士の意識を回復させるには、身体の上に直接立って操作を行う。{NEWLINE}{NEWLINE}鎮痛剤> 負傷した兵の士気を現在のHPの上限まで回復させる。{NEWLINE}使用回数>治療ｘ3, 興奮剤ｘ3, 鎮痛剤ｘ3"
 
   STR_MEDI_KIT_UFOPEDIA: "メディキットは治療機能に鎮痛剤と興奮剤を組み合わせたもので、負傷した兵士の方を向いて、または気絶した兵士の体の上で使用する。メディキットをクリックしてメニューから’使用’を選び以下から選択。{NEWLINE}{NEWLINE}治療> 赤い部分が負傷した部位を示す。治療する部位を選択して‘治療’ボタンを押す。傷が治療され健康を回復する。{NEWLINE}{NEWLINE}興奮剤> スタミナを10回復し、気絶した兵士の意識を回復する。気絶した兵士の意識を回復させるには、身体の上に直接立って操作を行う。{NEWLINE}{NEWLINE}鎮痛剤> 負傷した兵の士気を現在のHPの上限まで回復させる。{NEWLINE}使用回数>治療ｘ6, 興奮剤ｘ6, 鎮痛剤ｘ6"
+  STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: "メディキット -> 改良型メディキット"
 
   STR_ADVANCED_MEDI_KIT: "改良型メディキット"
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "改良型メディキットは治療機能に鎮痛剤と興奮剤を組み合わせたもので、負傷した兵士の方を向いて、または気絶した兵士の体の上で使用する。メディキットをクリックしてメニューから’使用’を選び以下から選択。{NEWLINE}{NEWLINE}治療> 赤い部分が負傷した部位を示す。治療する部位を選択して‘治療’ボタンを押す。傷が治療され健康を回復する。{NEWLINE}{NEWLINE}興奮剤> スタミナを15回復し、気絶した兵士の意識を回復する。気絶した兵士の意識を回復させるには、身体の上に直接立って操作を行う。{NEWLINE}{NEWLINE}鎮痛剤> 負傷した兵の士気を現在のHPの上限まで回復させる。{NEWLINE}使用回数>治療ｘ9, 興奮剤ｘ9, 鎮痛剤ｘ9"
