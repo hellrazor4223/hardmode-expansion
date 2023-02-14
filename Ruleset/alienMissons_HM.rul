@@ -541,7 +541,7 @@ alienMissions:
 #END ALIEN BASE TERROR MISSION
 
 #BEGIN ALIEN BASE ABDUCTION MISSION
-  - type: STR_ALIEN_ABDUCTION
+  - type: STR_ALIEN_BASE_ABDUCTION_MISSION
     points: 150
     operationType: 5
     raceWeights: *RESEARCH_ABDUCTION
@@ -585,6 +585,8 @@ alienMissions:
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
     operationType: 5
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT
     raceWeights: *BASE_TERROR_INFILTRATION
     waves:
       - ufo: STR_EXCAVATOR
@@ -603,6 +605,7 @@ alienMissions:
         count: 1
         trajectory: P6
         timer: 60
+        objectiveOnTheLandingSite: true
         interruptPercentage: 33
 #END ALIEN BASE BASE MISSION
 ###END ALIEN MISSIONS

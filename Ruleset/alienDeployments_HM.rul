@@ -1,6 +1,18 @@
 ###BEGIN ALIEN DEPLOYMENTS
 alienDeployments:
 
+#BEGIN DELETE
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_ALIEN_BASE_ASSAULT
+#END DELETE
+
 ##BEGIN UFOS
 #BEGIN SMALL SCOUT
   - type: STR_SMALL_SCOUT
@@ -1682,9 +1694,9 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE_BASE_MISSION: 10
-      STR_ALIEN_BASE_ABDUCTION: 10
-      STR_ALIEN_BASE_HARVEST: 10
+      #STR_ALIEN_BASE_BASE_MISSION: 100
+      STR_ALIEN_BASE_ABDUCTION_MISSION: 10
+      STR_ALIEN_BASE_HARVEST_MISSION: 10
       STR_ALIEN_BASE_TERROR_MISSION: 20
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
