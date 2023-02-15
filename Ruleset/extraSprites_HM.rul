@@ -736,7 +736,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/Drones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
-#END ALLOY DRONE MEDITKIT
+#END ALLOY DRONE MEDIKIT
 
 #BEGIN ALLOY DRONE TASER
   - type: ALLOY_DRONE_TASER.PCK

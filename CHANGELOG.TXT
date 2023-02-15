@@ -1,7 +1,7 @@
 Changelog:
 
 Version 1.0
- - Fix Bug for Mod not loading on OXCE 7.7.x
+ - Fix Bug for Mod not loading on OXCE 7.7.x+
  - Fix Plasma Blade not being available in lategame to player
  - Fix Mars being only half height
  - Fix globa texture asignment, which prevent Terrorsites to spawn properly

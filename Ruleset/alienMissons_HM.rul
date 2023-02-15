@@ -131,7 +131,7 @@ alienMissions:
 
 #BEGIN ALIEN TERROR
   - type: STR_ALIEN_TERROR
-    points: 20
+    points: 100
     objective: 3 #Create a missionsite for a terrormission
     spawnZone: 3 #Mission zone for terror missions
     raceWeights: *BASE_TERROR_INFILTRATION
@@ -284,7 +284,7 @@ alienMissions:
 
 #BEGIN ALIEN ABDUCTION
   - type: STR_ALIEN_ABDUCTION
-    points: 100
+    points: 150
     raceWeights: *RESEARCH_ABDUCTION
     waves:
       - ufo: STR_SMALL_SCOUT
@@ -312,7 +312,7 @@ alienMissions:
 
 #BEGIN ALIEN HARVEST
   - type: STR_ALIEN_HARVEST
-    points: 120
+    points: 90
     raceWeights: &HARVEST
       0:
         STR_FLOATER: 80
@@ -559,7 +559,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE HARVEST MISSION
   - type: STR_ALIEN_BASE_HARVEST_MISSION
-    points: 150
+    points: 90
     operationType: 5
     raceWeights: *HARVEST
     waves:
@@ -580,7 +580,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE BASE MISSION
   - type: STR_ALIEN_BASE_BASE_MISSION
-    points: 250
+    points: 100
     objective: 2 #Built a alien base
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
@@ -590,9 +590,9 @@ alienMissions:
     raceWeights: *BASE_TERROR_INFILTRATION
     waves:
       - ufo: STR_EXCAVATOR
-        count: 25501
+        count: 1
         trajectory: P4
-        timer: 0
+        timer: 25501
       - ufo: STR_SUPPLY_SHIP
         count: 1
         trajectory: P5

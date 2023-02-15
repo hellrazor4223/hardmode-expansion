@@ -155,7 +155,7 @@ units:
     energyRecovery: 55
     builtInWeaponSets:
       -
-        - STR_DRONE_SMOKE_WEAPON
+        - STR_ALLOY_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE SCANNER UNIT
 
 #BEGIN ALLOY DRONE MEDIKIT UNIT
@@ -182,7 +182,7 @@ units:
     energyRecovery: 55
     builtInWeaponSets:
       -
-        - STR_DRONE_SMOKE_WEAPON
+        - STR_ALLOY_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE MEDIKIT UNIT
 
 #BEGIN ALLOY DRONE TASER UNIT
@@ -209,7 +209,7 @@ units:
     energyRecovery: 55
     builtInWeaponSets:
       -
-        - STR_DRONE_SMOKE_WEAPON
+        - STR_ALLOY_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE TASER UNIT
 
 #BEGIN TANK CANNON UNIT
