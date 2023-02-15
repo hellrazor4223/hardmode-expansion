@@ -5,6 +5,7 @@ Version 1.0
  - Fix Plasma Blade not being available in lategame to player
  - Fix Mars being only half height
  - Fix globa texture asignment, which prevent Terrorsites to spawn properly
+ - Fix missing Adv. Medikit Dependency
  - Rebalance lategame enemy PSI DEF
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring

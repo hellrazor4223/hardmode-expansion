@@ -726,6 +726,7 @@ research:
     listOrder: 512
     dependencies:
       - STR_ALIEN_DATA_CORE
+      - STR_MEDI_KIT
       - STR_MUTON_AUTOPSY
       - STR_CELATID_AUTOPSY
       - STR_SILACOID_AUTOPSY
