@@ -163,6 +163,26 @@ armors:
     zombiImmune: true
 #END ALLOY DRONE MEDIKIT ARMOR
 
+#BEGIN ALLOY DRONE ADVANCED MEDIKIT ARMOR
+  - type: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
+    spriteSheet: ALLOY_DRONE_MEDIKIT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE
+    frontArmor: 70
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END ALLOY DRONE ADVANCED MEDIKIT ARMOR
+
 #BEGIN ALLOY DRONE TASER ARMOR
   - type: ALLOY_DRONE_TASER_ARMOR
     spriteSheet: ALLOY_DRONE_TASER.PCK

@@ -185,6 +185,33 @@ units:
         - STR_ALLOY_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE MEDIKIT UNIT
 
+#BEGIN ALLOY DRONE ADVANCED MEDIKIT UNIT
+  - type: STR_ALLOY_DRONE_ADVANCED_MEDIKIT
+    race: STR_ALLOY_DRONE_ADVANCED_MEDIKIT
+    stats:
+      tu: 80
+      stamina: 130
+      health: 90
+      bravery: 110
+      reactions: 70
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 15
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 55
+    builtInWeaponSets:
+      -
+        - STR_ALLOY_DRONE_SMOKE_WEAPON
+#END ALLOY DRONE ADVANCED MEDIKIT UNIT
+
 #BEGIN ALLOY DRONE TASER UNIT
   - type: STR_ALLOY_DRONE_TASER
     race: STR_ALLOY_DRONE_TASER

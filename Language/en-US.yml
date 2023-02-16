@@ -168,6 +168,7 @@ en-US:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT: "Drone/Scout -> Alloy Scout"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER: "Drone/Scout -> Alloy Scanner"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Drone/Scout -> Alloy Medikit"
+  STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "Drone/Scout -> Alloy Adv. Medikit"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Drone/Scout -> Alloy Taser"
 
   STR_DRONE_SCANNER: "Drone/Scanner"
@@ -180,6 +181,7 @@ en-US:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "Drone/Scanner -> Alloy Scout"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER: "Drone/Scanner -> Alloy Scanner"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Drone/Scanner -> Alloy Medikit"
+  STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: "Drone/Scanner -> Alloy Adv. Medikit"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drone/Scanner -> Alloy Taser"
 
   STR_DRONE_MEDIKIT: "Drone/Medikit"
@@ -192,6 +194,7 @@ en-US:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Drone/Medikit -> Alloy Scout"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Drone/Medikit -> Alloy Scanner"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: "Drone/Medikit -> Alloy Medikit"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "Drone/Medikit -> Alloy Adv. Medikit"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drone/Medikit -> Alloy Taser"
 
   STR_DRONE_TASER: "Drone/Taser"
@@ -206,9 +209,10 @@ en-US:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "Drone/Taser -> Alloy Scout"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "Drone/Taser -> Alloy Scanner"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drone/Taser -> Alloy Medikit"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "Drone/Taser -> Alloy Adv. Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
-  STR_ALLOY_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
+  STR_ALLOY_DRONE_SMOKE_WEAPON: "Alloy Drone Smoke Launcher"
 
   STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
@@ -216,6 +220,7 @@ en-US:
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Alloy Drone/Scout -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Alloy Drone/Scout -> Alloy Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Scout -> Alloy Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Alloy Drone/Scout -> Alloy Taser"
 
   STR_ALLOY_DRONE_SCANNER: "Alloy Drone/Scanner"
@@ -225,16 +230,27 @@ en-US:
   STR_ALLOY_DRONE_SCANNER_UFOPEDIA: "The refitting of the scanner drones with alloy armor has resulted in a much more durable version of them. We were able to compensate for some of the reduced armor and the motion scanner computing system is now way faster. Properly used our soldiers should be able to put these to a very effective use when fighting aliens."
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "Alloy Drone/Scanner -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Alloy Drone/Scanner -> Alloy Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Scanner -> Alloy Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Alloy Drone/Scanner -> Alloy Taser"
 
   STR_ALLOY_DRONE_MEDIKIT: "Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Alloy Drone/Medikit"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. Holds double the charges of a Medikit."
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Medikit -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Medikit -> Alloy Scanner"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Medikit -> Alloy Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Medikit -> Alloy Taser"
+
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT: "Alloy Drone/Adv. Medikit"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "Alloy Drone Advanced Medikit"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: "Damaged Alloy Drone/Adv. Medikit"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: "Repair Alloy Drone/Adv. Medikit"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Adv. Medikit -> Alloy Scout"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Adv. Medikit -> Alloy Scanner"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Adv. Medikit -> Alloy Taser"
 
   STR_ALLOY_DRONE_TASER: "Alloy Drone/Taser"
   STR_ALLOY_DRONE_TASER_WEAPON: "Alloy Drone Taser"
@@ -246,6 +262,7 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "Alloy Drone/Taser -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Alloy Drone/Taser -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Alloy Drone/Taser -> Alloy Medikit"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Taser -> Alloy Adv. Medikit"
 #END DRONES
 
 #BEGIN TANKS
@@ -273,7 +290,7 @@ en-US:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "Tank/Laser -> Alloy Rocket"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "Tank/Laser -> Alloy Laser"
 
-  STR_ALLOY_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+  STR_ALLOY_TANK_SMOKE_WEAPON: "Alloy Tank Smoke Launcher"
 
   STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
@@ -297,7 +314,7 @@ en-US:
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor."
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "Alloy Tank/Laser -> Hover Laser"
 
-  STR_HOVERTANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+  STR_HOVERTANK_SMOKE_WEAPON: "Hovertank Smoke Launcher"
 
   STR_HOVERTANK_LASER: "Hovertank/Laser"
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
@@ -325,7 +342,7 @@ en-US:
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "Hovertank/Launcher -> Hover Plasma"
 
   STR_WALKERTANK: "Walking HWP's"
-  STR_WALKERTANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+  STR_WALKERTANK_SMOKE_WEAPON: "Walkertank Smoke Launcher"
 
   STR_WALKERTANK_LASER: "Walkertank/Laser"
   STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"

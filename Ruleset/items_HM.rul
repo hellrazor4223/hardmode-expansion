@@ -207,7 +207,7 @@ items:
     listOrder: 1077
 #END DRONE TASER ITEM
 
-#BEGIN DRONE SMOKE WEAPON ITEM
+#BEGIN ALLOY DRONE SMOKE WEAPON ITEM
   - type: STR_ALLOY_DRONE_SMOKE_WEAPON
     weight: 5
     bigSprite: 168
@@ -225,9 +225,9 @@ items:
     arcingShot: true
     invWidth: 2
     invHeight: 3
-    maxRange: 3
+    maxRange: 4
     listOrder: 1078
-#END DRONE SMOKE WEAPON ITEM
+#END ALLOY DRONE SMOKE WEAPON ITEM
 
 #BEGIN ALLOY DRONE SCOUT ITEM
   - type: STR_ALLOY_DRONE_SCOUT
@@ -304,6 +304,48 @@ items:
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    size: 2
+    costSell: 180000
+    weight: 40
+    bigSprite: 24
+    battleType: 6
+    tuUse: 10
+    invWidth: 1
+    invHeight: 2
+    painKiller: 12
+    heal: 12
+    stimulant: 12
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    flatRate: true
+    fixedWeapon: true
+    medikitTargetMatrix: 63
+    listOrder: 1081
+  - type: STR_ALLOY_DRONE_MEDIKIT_CORPSE
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    size: 2
+    weight: 40
+    bigSprite: 177
+    floorSprite: 187
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    recover: true
+    listOrder: 4996
+#END ALLOY DRONE MEDIKIT ITEM
+
+#BEGIN ALLOY DRONE ADVANCED MEDIKIT ITEM
+  - type: STR_ALLOY_DRONE_ADVANCED_MEDIKIT
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_SUPPORT_DRONES
       - STR_ADVANCED_MEDI_KIT
     size: 2
     costSell: 180000
@@ -323,8 +365,8 @@ items:
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
-    listOrder: 1081
-  - type: STR_ALLOY_DRONE_MEDIKIT_CORPSE
+    listOrder: 1082
+  - type: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -338,8 +380,8 @@ items:
     invHeight: 3
     armor: 40
     recover: true
-    listOrder: 4996
-#END ALLOY DRONE MEDIKIT ITEM
+    listOrder: 4997
+#END ALLOY DRONE ADVANCED MEDIKIT ITEM
 
 #BEGIN ALLOY DRONE TASER ITEM
   - type: STR_ALLOY_DRONE_TASER
@@ -380,7 +422,7 @@ items:
     invHeight: 3
     armor: 40
     recover: true
-    listOrder: 4997
+    listOrder: 4998
   - type: STR_ALLOY_DRONE_TASER_WEAPON_AMMO
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -592,7 +634,7 @@ items:
     arcingShot: true
     invWidth: 2
     invHeight: 3
-    maxRange: 3
+    maxRange: 4
     listOrder: 1501
 #END ALLOY TANK SMOKE WEAPON ITEM
 
@@ -822,7 +864,7 @@ items:
     arcingShot: true
     invWidth: 2
     invHeight: 3
-    maxRange: 3
+    maxRange: 5
     listOrder: 1598
 #END HOVERTANK SMOKE WEAPON ITEM
 
@@ -1091,15 +1133,15 @@ items:
     damageType: 9
     fireSound: 115
     accuracySnap: 143
-    tuSnap: 30
+    tuSnap: 24
     battleType: 1
-    clipSize: 4
+    clipSize: 6
     recover: false
     fixedWeapon: true
     arcingShot: true
     invWidth: 2
     invHeight: 3
-    maxRange: 4
+    maxRange: 5
     listOrder: 1801
 #END WALKERTANK SMOKE WEAPON ITEM
 

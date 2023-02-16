@@ -241,6 +241,7 @@ Additional X-Com Tanks:
 	Alloy Drone/Scout
 	Alloy Drone/Scanner
 	Alloy Drone/Medikit
+	Alloy Drone/Adv. Medikit
 	Alloy Drone/Taser
 	Alloy Tank Cannon
 	Alloy Tank Rocket Launcher
