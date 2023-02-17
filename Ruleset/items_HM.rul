@@ -373,8 +373,8 @@ items:
       - STR_ADVANCED_MEDI_KIT
     size: 2
     weight: 40
-    bigSprite: 177
-    floorSprite: 187
+    bigSprite: 199
+    floorSprite: 213
     battleType: 11
     invWidth: 2
     invHeight: 3

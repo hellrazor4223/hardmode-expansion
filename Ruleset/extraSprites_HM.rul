@@ -7,17 +7,17 @@ extraSprites:
     files:
 
 #BEGIN ITEM BIGOBS
-      3: Resources/Items/Xcom/Pistol/BigOb_Pistol.png
-      5: Resources/Items/Xcom/LaserPistol/BigOb_LaserPistol.png
-      6: Resources/Items/Xcom/HeavyLaserSniper/BigOb_HeavyLaserSniper.png
-      7: Resources/Items/Xcom/AutoCannon/BigOb_AutoCannon.png
-      15: Resources/Items/Xcom/RocketLauncher/BigOb_RocketLauncher.png
-      20: Resources/Items/Xcom/SmokeGrenade/BigOb_SmokeGrenade.png
-      31: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle.png
-      32: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol.png
-      34: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol_Clip.png
-      35: Resources/Items/Alien/BlasterLauncher/BigOb_BlasterLauncher.png
-      41: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle_Clip.png
+      3: Resources/Items/Xcom/Pistol/BigOb_Pistol.png #VANILLA OVERWRITE
+      5: Resources/Items/Xcom/LaserPistol/BigOb_LaserPistol.png #VANILLA OVERWRITE
+      6: Resources/Items/Xcom/HeavyLaserSniper/BigOb_HeavyLaserSniper.png #VANILLA OVERWRITE
+      7: Resources/Items/Xcom/AutoCannon/BigOb_AutoCannon.png #VANILLA OVERWRITE
+      15: Resources/Items/Xcom/RocketLauncher/BigOb_RocketLauncher.png #VANILLA OVERWRITE
+      20: Resources/Items/Xcom/SmokeGrenade/BigOb_SmokeGrenade.png #VANILLA OVERWRITE
+      31: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle.png #VANILLA OVERWRITE
+      32: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol.png #VANILLA OVERWRITE
+      34: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol_Clip.png #VANILLA OVERWRITE
+      35: Resources/Items/Alien/BlasterLauncher/BigOb_BlasterLauncher.png #VANILLA OVERWRITE
+      41: Resources/Items/Alien/PlasmaRifle/BigOb_PlasmaRifle_Clip.png #VANILLA OVERWRITE
       139: Resources/Items/Xcom/CombatKnife/BigOb_CombatKnife.png
       140: Resources/Items/Xcom/AlloyKnife/BigOb_AlloyKnife.png
       141: Resources/Items/Xcom/AlloySword/BigOb_AlloySword.png
@@ -85,6 +85,7 @@ extraSprites:
       175: Resources/Units/Xcom/Drones/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
       176: Resources/Units/Xcom/Drones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
       177: Resources/Units/Xcom/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
+      199: Resources/Units/Xcom/Drones/AlloyDroneAdvancedMedikit/BigOb_AlloyDroneAdvancedMedikit_Corpse.png
       178: Resources/Units/Xcom/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
       197: Resources/Units/Xcom/AlloyTank/BigOb_TankSmoke_Weapon.png
       126: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Canon.png
@@ -129,13 +130,13 @@ extraSprites:
     files:
 
 #BEGIN ITEM FLOOROB
-      5: Resources/Items/Xcom/LaserPistol/FloorOb_LaserPistol.png
-      6: Resources/Items/Xcom/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png
-      7: Resources/Items/Xcom/AutoCannon/FloorOb_AutoCannon.png
-      15: Resources/Items/Xcom/RocketLauncher/FloorOb_RocketLauncher.png
-      20: Resources/Items/Xcom/SmokeGrenade/FloorOb_SmokeGrenade.png
-      30: Resources/Items/Alien/PlasmaRifle/FloorOb_PlasmaRifle.png
-      34: Resources/Items/Alien/BlasterLauncher/FloorOb_BlasterLauncher.png
+      5: Resources/Items/Xcom/LaserPistol/FloorOb_LaserPistol.png #VANILLA OVERWRITE
+      6: Resources/Items/Xcom/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png #VANILLA OVERWRITE
+      7: Resources/Items/Xcom/AutoCannon/FloorOb_AutoCannon.png #VANILLA OVERWRITE
+      15: Resources/Items/Xcom/RocketLauncher/FloorOb_RocketLauncher.png #VANILLA OVERWRITE
+      20: Resources/Items/Xcom/SmokeGrenade/FloorOb_SmokeGrenade.png #VANILLA OVERWRITE
+      30: Resources/Items/Alien/PlasmaRifle/FloorOb_PlasmaRifle.png #VANILLA OVERWRITE
+      34: Resources/Items/Alien/BlasterLauncher/FloorOb_BlasterLauncher.png #VANILLA OVERWRITE
       136: Resources/Items/Xcom/CombatKnife/FloorOb_CombatKnife.png
       137: Resources/Items/Xcom/AlloyKnife/FloorOb_AlloyKnife.png
       138: Resources/Items/Xcom/AlloySword/FloorOb_AlloySword.png
@@ -203,6 +204,7 @@ extraSprites:
       185: Resources/Units/Xcom/Drones/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
       186: Resources/Units/Xcom/Drones/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
       187: Resources/Units/Xcom/Drones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
+      213: Resources/Units/Xcom/Drones/AlloyDroneAdvancedMedikit/FloorOb_AlloyDroneAdvancedMedikit_Corpse.png
       188: Resources/Units/Xcom/Drones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
       122: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_1.png
       123: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
@@ -265,12 +267,12 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      16: Resources/Items/Xcom/HeavyLaserSniper/HandOb_HeavyLaserSniper.png
-      32: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon.png
-      48: Resources/Items/Alien/PlasmaRifle/HandOb_PlasmaRifle.png
-      56: Resources/Items/Alien/BlasterLauncher/HandOb_BlasterLauncher.png
-      72: Resources/Items/Xcom/RocketLauncher/HandOb_RocketLauncher.png
-      112: Resources/Items/Xcom/LaserPistol/HandOb_LaserPistol.png
+      16: Resources/Items/Xcom/HeavyLaserSniper/HandOb_HeavyLaserSniper.png #VANILLA OVERWRITE
+      32: Resources/Items/Xcom/AutoCannon/HandOb_AutoCannon.png #VANILLA OVERWRITE
+      48: Resources/Items/Alien/PlasmaRifle/HandOb_PlasmaRifle.png #VANILLA OVERWRITE
+      56: Resources/Items/Alien/BlasterLauncher/HandOb_BlasterLauncher.png #VANILLA OVERWRITE
+      72: Resources/Items/Xcom/RocketLauncher/HandOb_RocketLauncher.png #VANILLA OVERWRITE
+      112: Resources/Items/Xcom/LaserPistol/HandOb_LaserPistol.png #VANILLA OVERWRITE
       416: Resources/Items/Xcom/CombatKnife/HandOb_CombatKnife.png
       424: Resources/Items/Xcom/AlloySword/HandOb_AlloySword.png
       312: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol.png
@@ -359,7 +361,7 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      350: Resources/Items/Alien/BlasterLauncher/BulletSprite_BlasterLauncher.png
+      350: Resources/Items/Alien/BlasterLauncher/BulletSprite_BlasterLauncher.png #VANILLA OVERWRITE
   - type: Projectiles
     width: 57
     height: 3
@@ -737,6 +739,16 @@ extraSprites:
     files:
       0: Resources/Units/Xcom/Drones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
 #END ALLOY DRONE MEDIKIT
+
+#BEGIN ALLOY DRONE ADVANCED MEDIKIT
+  - type: ALLOY_DRONE_ADVANCED_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/Drones/AlloyDroneAdvancedMedikit/SpriteSheet_AlloyDroneAdvancedMedikit.png
+#END ALLOY DRONE ADVANCED MEDIKIT
 
 #BEGIN ALLOY DRONE TASER
   - type: ALLOY_DRONE_TASER.PCK

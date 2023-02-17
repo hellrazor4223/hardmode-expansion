@@ -84,7 +84,7 @@
       </dia:attribute>
     </dia:object>
   </dia:layer>
-  <dia:layer name="Baumrahmen" visible="true">
+  <dia:layer name="Baumrahmen" visible="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O1">
       <dia:attribute name="obj_pos">
         <dia:point val="87,-5"/>
@@ -327,19 +327,19 @@
     </dia:object>
     <dia:object type="Standard - Box" version="0" id="O13">
       <dia:attribute name="obj_pos">
-        <dia:point val="119.003,-29"/>
+        <dia:point val="119.003,-30"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="118.953,-29.05;147.053,13.05"/>
+        <dia:rectangle val="118.953,-30.05;147.053,18.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="119.003,-29"/>
+        <dia:point val="119.003,-30"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="28"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="42"/>
+        <dia:real val="48"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -347,13 +347,13 @@
     </dia:object>
     <dia:object type="Standard - Box" version="0" id="O14">
       <dia:attribute name="obj_pos">
-        <dia:point val="119.003,16"/>
+        <dia:point val="119,20"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="118.953,15.95;147.053,46.05"/>
+        <dia:rectangle val="118.95,19.95;147.05,50.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="119.003,16"/>
+        <dia:point val="119,20"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="28"/>
@@ -792,7 +792,7 @@
       </dia:attribute>
     </dia:object>
   </dia:layer>
-  <dia:layer name="Normal" visible="true" active="true">
+  <dia:layer name="Normal" visible="true">
     <dia:object type="Flowchart - Box" version="0" id="O29">
       <dia:attribute name="obj_pos">
         <dia:point val="103,14"/>
@@ -8987,7 +8987,7 @@ Celatid Corpse#</dia:string>
         <dia:point val="16.5,0"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.1517,-0.0504816;16.8752,2.1118"/>
+        <dia:rectangle val="16.1517,-0.0504826;16.8753,2.1118"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="16.5,0"/>
@@ -11101,13 +11101,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O277">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,-17"/>
+        <dia:point val="121,-18"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,-17.05;132.089,-12.95"/>
+        <dia:rectangle val="120.95,-18.05;132.089,-13.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,-17"/>
+        <dia:point val="121,-18"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -11136,7 +11136,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.519,-14.7933"/>
+            <dia:point val="126.519,-15.7933"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11149,13 +11149,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O278">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,-23"/>
+        <dia:point val="134,-24"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,-23.05;145.089,-18.95"/>
+        <dia:rectangle val="133.95,-24.05;145.089,-19.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,-23"/>
+        <dia:point val="134,-24"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -11187,7 +11187,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,-20.7933"/>
+            <dia:point val="139.519,-21.7933"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11200,13 +11200,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O279">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,-23"/>
+        <dia:point val="121,-24"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,-23.05;132.089,-18.95"/>
+        <dia:rectangle val="120.95,-24.05;132.089,-19.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,-23"/>
+        <dia:point val="121,-24"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -11238,7 +11238,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.519,-20.7933"/>
+            <dia:point val="126.519,-21.7933"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11251,13 +11251,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O280">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,-11"/>
+        <dia:point val="121,-12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,-11.05;132.05,-6.95"/>
+        <dia:rectangle val="120.95,-12.05;132.05,-7.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,-11"/>
+        <dia:point val="121,-12"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -11289,7 +11289,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,-8.79333"/>
+            <dia:point val="126.5,-9.79333"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11302,13 +11302,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O281">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,-5"/>
+        <dia:point val="121,-6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,-5.05;132.05,-0.95"/>
+        <dia:rectangle val="120.95,-6.05;132.05,-1.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,-5"/>
+        <dia:point val="121,-6"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -11340,7 +11340,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,-2.79333"/>
+            <dia:point val="126.5,-3.79333"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11353,13 +11353,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O282">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,1"/>
+        <dia:point val="121,0"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,0.95;132.05,5.05"/>
+        <dia:rectangle val="120.95,-0.05;132.05,4.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,1"/>
+        <dia:point val="121,0"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -11391,7 +11391,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,3.20667"/>
+            <dia:point val="126.5,2.20667"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11404,13 +11404,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O283">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,7"/>
+        <dia:point val="121,12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,6.95;132.05,11.05"/>
+        <dia:rectangle val="120.95,11.95;132.05,16.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,7"/>
+        <dia:point val="121,12"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -11442,7 +11442,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,9.20667"/>
+            <dia:point val="126.5,14.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11567,13 +11567,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O288">
       <dia:attribute name="obj_pos">
-        <dia:point val="127,-27"/>
+        <dia:point val="127,-28"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.95,-27.05;138.05,-24.7211"/>
+        <dia:rectangle val="126.95,-28.05;138.05,-25.7211"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="127,-27"/>
+        <dia:point val="127,-28"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -11602,7 +11602,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="1.1288888454437256"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="132.5,-25.61"/>
+            <dia:point val="132.5,-26.61"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11615,13 +11615,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O289">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,-5"/>
+        <dia:point val="134,-6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,-5.05;145.089,-0.95"/>
+        <dia:rectangle val="133.95,-6.05;145.089,-1.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,-5"/>
+        <dia:point val="134,-6"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -11650,7 +11650,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,-2.79333"/>
+            <dia:point val="139.519,-3.79333"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11663,13 +11663,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O290">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,1"/>
+        <dia:point val="134,0"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,0.95;145.089,5.05"/>
+        <dia:rectangle val="133.95,-0.05;145.089,4.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,1"/>
+        <dia:point val="134,0"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -11689,7 +11689,7 @@ Armored Sectopod#</dia:string>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Advanced Medikit#</dia:string>
+            <dia:string>#Medikit#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="monospace" style="80" name="Courier-Bold"/>
@@ -11698,7 +11698,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,3.20667"/>
+            <dia:point val="139.519,2.20667"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11711,13 +11711,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O291">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,7"/>
+        <dia:point val="134,12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,6.95;145.089,11.05"/>
+        <dia:rectangle val="133.95,11.95;145.089,16.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,7"/>
+        <dia:point val="134,12"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -11746,7 +11746,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,9.20667"/>
+            <dia:point val="139.519,14.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -11759,14 +11759,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O292">
       <dia:attribute name="obj_pos">
-        <dia:point val="133.951,-3"/>
+        <dia:point val="133.951,-4"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.888,-3.3618;134.001,-2.6382"/>
+        <dia:rectangle val="131.888,-4.3618;134.001,-3.6382"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="133.951,-3"/>
-        <dia:point val="132,-3"/>
+        <dia:point val="133.951,-4"/>
+        <dia:point val="132,-4"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11787,14 +11787,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O293">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,3"/>
+        <dia:point val="134,2"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.939,2.6382;134.05,3.3618"/>
+        <dia:rectangle val="131.939,1.6382;134.05,2.3618"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="134,3"/>
-        <dia:point val="132.05,3"/>
+        <dia:point val="134,2"/>
+        <dia:point val="132.05,2"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11815,14 +11815,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O294">
       <dia:attribute name="obj_pos">
-        <dia:point val="133.95,9"/>
+        <dia:point val="133.95,14"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.938,8.6382;134,9.3618"/>
+        <dia:rectangle val="131.938,13.6382;134,14.3618"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="133.95,9"/>
-        <dia:point val="132.05,9"/>
+        <dia:point val="133.95,14"/>
+        <dia:point val="132.05,14"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11843,14 +11843,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O295">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.519,-19"/>
+        <dia:point val="126.519,-20"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.157,-19.05;126.881,-16.8882"/>
+        <dia:rectangle val="126.158,-20.05;126.881,-17.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.519,-19"/>
-        <dia:point val="126.519,-17"/>
+        <dia:point val="126.519,-20"/>
+        <dia:point val="126.519,-18"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11871,14 +11871,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O296">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.519,-13"/>
+        <dia:point val="126.519,-14"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.144,-13.0505;126.868,-10.8882"/>
+        <dia:rectangle val="126.144,-14.0505;126.868,-11.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.519,-13"/>
-        <dia:point val="126.5,-11"/>
+        <dia:point val="126.519,-14"/>
+        <dia:point val="126.5,-12"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11899,14 +11899,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O297">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.5,-7"/>
+        <dia:point val="126.5,-8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.138,-7.05;126.862,-4.8882"/>
+        <dia:rectangle val="126.138,-8.05;126.862,-5.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.5,-7"/>
-        <dia:point val="126.5,-5"/>
+        <dia:point val="126.5,-8"/>
+        <dia:point val="126.5,-6"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11927,14 +11927,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O298">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.5,-1"/>
+        <dia:point val="126.5,-2"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.138,-1.05;126.862,1.1118"/>
+        <dia:rectangle val="126.138,-2.05;126.862,0.111803"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.5,-1"/>
-        <dia:point val="126.5,1"/>
+        <dia:point val="126.5,-2"/>
+        <dia:point val="126.5,0"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11955,14 +11955,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O299">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.5,5"/>
+        <dia:point val="126.46,10.0449"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.138,4.95;126.862,7.06298"/>
+        <dia:rectangle val="126.112,9.99442;126.835,12.0669"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.5,5"/>
-        <dia:point val="126.5,6.95117"/>
+        <dia:point val="126.46,10.0449"/>
+        <dia:point val="126.48,11.9551"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -11977,22 +11977,22 @@ Armored Sectopod#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O282" connection="13"/>
+        <dia:connection handle="0" to="O344" connection="16"/>
         <dia:connection handle="1" to="O283" connection="16"/>
       </dia:connections>
     </dia:object>
     <dia:object type="Standard - ZigZagLine" version="1" id="O300">
       <dia:attribute name="obj_pos">
-        <dia:point val="139.519,-19"/>
+        <dia:point val="139.519,-20"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="128.917,-19.05;139.569,-16.8882"/>
+        <dia:rectangle val="128.917,-20.05;139.569,-17.8882"/>
       </dia:attribute>
       <dia:attribute name="orth_points">
+        <dia:point val="139.519,-20"/>
         <dia:point val="139.519,-19"/>
-        <dia:point val="139.519,-18"/>
+        <dia:point val="129.279,-19"/>
         <dia:point val="129.279,-18"/>
-        <dia:point val="129.279,-17"/>
       </dia:attribute>
       <dia:attribute name="orth_orient">
         <dia:enum val="1"/>
@@ -12018,13 +12018,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O301">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,-17"/>
+        <dia:point val="134,-18"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,-17.05;145.089,-12.95"/>
+        <dia:rectangle val="133.95,-18.05;145.089,-13.95"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,-17"/>
+        <dia:point val="134,-18"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -12053,7 +12053,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,-14.7933"/>
+            <dia:point val="139.519,-15.7933"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12066,14 +12066,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O302">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,-15"/>
+        <dia:point val="134,-16"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.976,-15.3618;134.05,-14.6382"/>
+        <dia:rectangle val="131.976,-16.3618;134.05,-15.6382"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="134,-15"/>
-        <dia:point val="132.088,-15"/>
+        <dia:point val="134,-16"/>
+        <dia:point val="132.088,-16"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -12129,13 +12129,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O304">
       <dia:attribute name="obj_pos">
-        <dia:point val="127,18"/>
+        <dia:point val="127,22"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.95,17.95;139.05,20.2789"/>
+        <dia:rectangle val="126.95,21.95;139.05,24.2789"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="127,18"/>
+        <dia:point val="127,22"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="12"/>
@@ -12164,7 +12164,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="1.1288888454437256"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="133,19.39"/>
+            <dia:point val="133,23.39"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12177,13 +12177,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O305">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,22"/>
+        <dia:point val="121,26"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,21.95;132.05,26.05"/>
+        <dia:rectangle val="120.95,25.95;132.05,30.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,22"/>
+        <dia:point val="121,26"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -12212,7 +12212,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,24.2067"/>
+            <dia:point val="126.5,28.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12225,13 +12225,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O306">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,34"/>
+        <dia:point val="121,38"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,33.95;132.05,38.05"/>
+        <dia:rectangle val="120.95,37.95;132.05,42.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,34"/>
+        <dia:point val="121,38"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -12260,7 +12260,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,36.2067"/>
+            <dia:point val="126.5,40.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12273,13 +12273,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O307">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,40"/>
+        <dia:point val="121,44"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,39.95;132.05,44.05"/>
+        <dia:rectangle val="120.95,43.95;132.05,48.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,40"/>
+        <dia:point val="121,44"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -12308,7 +12308,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,42.2067"/>
+            <dia:point val="126.5,46.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12321,13 +12321,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O308">
       <dia:attribute name="obj_pos">
-        <dia:point val="121,28"/>
+        <dia:point val="121,32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="120.95,27.95;132.05,32.05"/>
+        <dia:rectangle val="120.95,31.95;132.05,36.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="121,28"/>
+        <dia:point val="121,32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -12356,7 +12356,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="126.5,30.2067"/>
+            <dia:point val="126.5,34.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12369,13 +12369,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O309">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,22"/>
+        <dia:point val="134,26"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,21.95;145.089,26.05"/>
+        <dia:rectangle val="133.95,25.95;145.089,30.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,22"/>
+        <dia:point val="134,26"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -12404,7 +12404,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,24.2067"/>
+            <dia:point val="139.519,28.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12417,14 +12417,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O310">
       <dia:attribute name="obj_pos">
-        <dia:point val="132,24"/>
+        <dia:point val="132,28"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.95,23.6382;134.112,24.3618"/>
+        <dia:rectangle val="131.95,27.6382;134.112,28.3618"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="132,24"/>
-        <dia:point val="134,24"/>
+        <dia:point val="132,28"/>
+        <dia:point val="134,28"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -12445,14 +12445,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O311">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.5,26.0488"/>
+        <dia:point val="126.5,30.0488"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.138,25.9988;126.862,28.1118"/>
+        <dia:rectangle val="126.138,29.9988;126.862,32.1118"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.5,26.0488"/>
-        <dia:point val="126.5,28"/>
+        <dia:point val="126.5,30.0488"/>
+        <dia:point val="126.5,32"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -12473,14 +12473,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O312">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.5,32"/>
+        <dia:point val="126.5,36"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.138,31.95;126.862,34.1118"/>
+        <dia:rectangle val="126.138,35.95;126.862,38.1118"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.5,32"/>
-        <dia:point val="126.5,34"/>
+        <dia:point val="126.5,36"/>
+        <dia:point val="126.5,38"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -12501,14 +12501,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O313">
       <dia:attribute name="obj_pos">
-        <dia:point val="126.5,38"/>
+        <dia:point val="126.5,42"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.138,37.95;126.862,40.1118"/>
+        <dia:rectangle val="126.138,41.95;126.862,44.1118"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="126.5,38"/>
-        <dia:point val="126.5,40"/>
+        <dia:point val="126.5,42"/>
+        <dia:point val="126.5,44"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -12529,13 +12529,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O314">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,40"/>
+        <dia:point val="134,44"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,39.95;145.089,44.05"/>
+        <dia:rectangle val="133.95,43.95;145.089,48.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,40"/>
+        <dia:point val="134,44"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11.038721117293747"/>
@@ -12564,7 +12564,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.519,42.2067"/>
+            <dia:point val="139.519,46.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12577,14 +12577,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O315">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,42"/>
+        <dia:point val="134,46"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.888,41.6382;134.05,42.3618"/>
+        <dia:rectangle val="131.888,45.6382;134.05,46.3618"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="134,42"/>
-        <dia:point val="132,42"/>
+        <dia:point val="134,46"/>
+        <dia:point val="132,46"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -12764,13 +12764,13 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Flowchart - Box" version="0" id="O320">
       <dia:attribute name="obj_pos">
-        <dia:point val="134,28"/>
+        <dia:point val="134,32"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="133.95,27.95;145.05,32.05"/>
+        <dia:rectangle val="133.95,31.95;145.05,36.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="134,28"/>
+        <dia:point val="134,32"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="11"/>
@@ -12802,7 +12802,7 @@ Armored Sectopod#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="139.5,30.2067"/>
+            <dia:point val="139.5,34.2067"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -12815,14 +12815,14 @@ Armored Sectopod#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O321">
       <dia:attribute name="obj_pos">
-        <dia:point val="132,30"/>
+        <dia:point val="132,34"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="131.95,29.6382;134.112,30.3618"/>
+        <dia:rectangle val="131.95,33.6382;134.112,34.3618"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="132,30"/>
-        <dia:point val="134,30"/>
+        <dia:point val="132,34"/>
+        <dia:point val="134,34"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>
@@ -13435,7 +13435,7 @@ Explosive Ammo#</dia:string>
         <dia:point val="75.5,-11.6667"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="75.1382,-11.7167;75.8618,-9.93861"/>
+        <dia:rectangle val="75.1382,-11.7167;75.8618,-9.93863"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="75.5,-11.6667"/>
@@ -13591,6 +13591,161 @@ Explosive Ammo#</dia:string>
       <dia:connections>
         <dia:connection handle="0" to="O340" connection="13"/>
         <dia:connection handle="1" to="O236" connection="16"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Flowchart - Box" version="0" id="O344">
+      <dia:attribute name="obj_pos">
+        <dia:point val="121,6"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="120.95,5.95;131.93,10.05"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="121,6"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="10.880000001490115"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="0.10000000149011612"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="padding">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Alloy Drone/Adv. Medikit#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="monospace" style="80" name="Courier-Bold"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.84666663408279419"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="126.44,8.20667"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Flowchart - Box" version="0" id="O345">
+      <dia:attribute name="obj_pos">
+        <dia:point val="134,6"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="133.95,5.95;145.089,10.05"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="134,6"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="11.038721117293747"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="0.10000000149011612"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="padding">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Advanced Medikit#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="monospace" style="80" name="Courier-Bold"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.84666663408279419"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="139.519,8.20667"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O346">
+      <dia:attribute name="obj_pos">
+        <dia:point val="134,8"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="131.818,7.6382;134.05,8.3618"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="134,8"/>
+        <dia:point val="131.93,8"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O345" connection="7"/>
+        <dia:connection handle="1" to="O344" connection="16"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O347">
+      <dia:attribute name="obj_pos">
+        <dia:point val="126.5,4"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="126.118,3.94926;126.842,6.06296"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="126.5,4"/>
+        <dia:point val="126.471,5.95117"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O282" connection="13"/>
+        <dia:connection handle="1" to="O344" connection="16"/>
       </dia:connections>
     </dia:object>
   </dia:layer>
