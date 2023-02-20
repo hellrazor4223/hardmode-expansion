@@ -138,10 +138,10 @@ General Gameplay changes:
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
-    Attacking landed Battleship performing a Infiltrationmission gives 50% to deny the infiltration (OXCE only)
-    Attacking landed Battleship performing a Alien Base Mission from a Alien Base gives 33% to deny the mission success (OXCE only)
-    Attacking landed Labship on a Harvesting or Abduction Mission gives 33% to deny mission success (OXCE only)
-    Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
+	Attacking landed Battleship performing a Infiltrationmission gives 50% to deny the infiltration (OXCE only)
+	Attacking landed Battleship performing a Alien Base Mission from a Alien Base gives 33% to deny the mission success (OXCE only)
+	Attacking landed Labship on a Harvesting or Abduction Mission gives 33% to deny mission success (OXCE only)
+	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%
