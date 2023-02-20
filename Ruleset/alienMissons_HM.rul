@@ -203,7 +203,7 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 60
-        interruptPercentage: 33
+        interruptPercentage: 50
 #END ALIEN INFILTRATION
 
 #BEGIN ALIEN RESEARCH
