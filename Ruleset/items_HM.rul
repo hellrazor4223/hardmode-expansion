@@ -1436,7 +1436,8 @@ items:
     clipSize: -1
     accuracyMelee: 100
     skillApplied: true
-    tuMelee: 25
+    tuMelee: 7
+    flatRate: true
     battleType: 3
     twoHanded: false
     invWidth: 1
@@ -1464,7 +1465,8 @@ items:
     clipSize: -1
     accuracyMelee: 115
     skillApplied: true
-    tuMelee: 25
+    tuMelee: 6
+    flatRate: true
     battleType: 3
     twoHanded: false
     invWidth: 1
@@ -1492,7 +1494,8 @@ items:
     clipSize: -1
     accuracyMelee: 130
     skillApplied: true
-    tuMelee: 25
+    tuMelee: 10
+    flatRate: true
     battleType: 3
     twoHanded: false
     invWidth: 1
@@ -2415,7 +2418,7 @@ items:
     clipSize: -1
     accuracyMelee: 140
     skillApplied: true
-    tuMelee: 20
+    tuMelee: 5
     flatRate: true
     battleType: 3
     twoHanded: false
@@ -2446,7 +2449,7 @@ items:
     clipSize: -1
     accuracyMelee: 160
     skillApplied: true
-    tuMelee: 20
+    tuMelee: 10
     flatRate: true
     battleType: 3
     twoHanded: true

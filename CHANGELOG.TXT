@@ -11,6 +11,7 @@ Version 1.0
  - Adjust Terror Occurance and Scoring
  - Adjust Soitter Zombies to be more dangerous
  - Adjust Avenger Soldier spawn to match THUNDER
+ - Adjust Meleeweapons, more attacks possible
  - Add more randomness to Alien Mission starts
  - Add Alien Base execute Missions (Terror, Harvest, Abduction, Base), No Scouts
  - Add more Upgrade Options to X-Com Tanks
