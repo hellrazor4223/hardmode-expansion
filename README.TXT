@@ -255,7 +255,7 @@ Hovertank Launcher Ammo does 200 damage instead of 140
 
 Drones can be upgraded, repaired and refitted.
 Tanks can be repaired and upgraded.
-Tanks and Drones do have a weak Smoke Launcher for instant LOS block with limited range (3 tiles) and limited shots (clipsze 3).
+Tanks and Drones do have a weak Smoke Launcher for instant LOS block with limited range and limited shots.
 
 Additional X-Com Armor:
 	Armored Vest
@@ -347,10 +347,10 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 Currently Supported Languages:
 	English		US (en-US)
 	English		UK (en-GB)
-	Japanese	JA (ja)
-	Russian		RU (ru)
 
 Partially Supported Languages (50%+):
+	Japanese	JA (ja)
+	Russian		RU (ru)
 	Italien		IT (it)
 	Polish		PL (pl)
 	German		DE (de)
