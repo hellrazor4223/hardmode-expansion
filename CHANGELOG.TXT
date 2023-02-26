@@ -19,6 +19,7 @@ Version 1.0
  - Add Smoke Launcher to all Tanks (free ammo)
  - Add Walkertank/Laser (Sectopod converted)
  - Add Split Alloy Drone/Medikit -> Alloy Drone/Adv. Medikit
+ - Add Elerium Powered Stun Rod
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
 

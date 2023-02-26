@@ -742,6 +742,14 @@ research:
     requires:
       - STR_ALIEN_ENTERTAINMENT
     dependencies: *ALL_ALIVE_MEDICS
+  - name: STR_ELERIUM_STUN_ROD
+    cost: 150
+    points: 10
+    listOrder: 515
+    dependencies:
+      - STR_ALIEN_DATA_SLATE
+      - STR_ELERIUM_115
+      - STR_ALIEN_ALLOYS
 #END X-COM WEAPONS & EQUIPMENT
 
 #BEGIN ALIEN ARTEFACTS

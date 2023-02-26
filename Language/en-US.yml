@@ -474,6 +474,9 @@ en-US:
   STR_ADVANCED_MEDI_KIT: "Advanced Medi-Kit"
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "The advanced medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the advanced medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the advanced medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 6 health restored.{NEWLINE}STIMULANT> This will restore 15 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 9 | STIMULANT: 9 | PAIN KILLER: 9"
 
+  STR_ELERIUM_STUN_ROD: "Elerium Powered Stun Rod"
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: "Using Elerium-115 as a electric power source enabled us to increase the charge of electric shock, which can be discharged onto the enemy. This device can only be used in close combat, but will stun a living organism without killing it by using electric shocks."
+
   STR_FLASHBANG_GRENADE: "Flashbang Grenade"
   STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight."  
 

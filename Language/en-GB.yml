@@ -157,6 +157,7 @@ en-GB:
 
 #BEGIN DRONES
   STR_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
+  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Drones to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Drones in smoke cover might attract enemy grenades."
 
   STR_DRONE_SCOUT: "Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
@@ -213,6 +214,7 @@ en-GB:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
   STR_ALLOY_DRONE_SMOKE_WEAPON: "Alloy Drone Smoke Launcher"
+  STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "The technological advancements with Alien Alloys allowed for a stronger chase for the smoke launcher, giving it slightly higher range then our base design version. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Alloy Drones in smoke cover might attract enemy grenades."
 
   STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
@@ -267,6 +269,7 @@ en-GB:
 
 #BEGIN TANKS
   STR_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
+  STR_TANK_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Tanks to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Tanks in smoke cover might attract enemy grenades."
 
   STR_TANK_CANNON_CORPSE: "Damaged Tank/Cannon"
   STR_TANK_CANNON_REPAIR: "Repair Tank/Cannon"
@@ -291,6 +294,7 @@ en-GB:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "Tank/Laser -> Alloy Laser"
 
   STR_ALLOY_TANK_SMOKE_WEAPON: "Alloy Tank Smoke Launcher"
+  STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: "The technological advancements with Alien Alloys allowed for a stronger chase for the smoke launcher, giving it slightly higher range then our base design version. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Alloy Tanks in smoke cover might attract enemy grenades."
 
   STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
@@ -315,6 +319,7 @@ en-GB:
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "Alloy Tank/Laser -> Hover Laser"
 
   STR_HOVERTANK_SMOKE_WEAPON: "Hovertank Smoke Launcher"
+  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: "Replicating the UFO base designs allowed some further advancements with the Smoke launching chasey, extending its range further then before. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hovertanks are able to smoke each other in midair, be advised that floating Hovertanks might not be able to gain smoke cover be themselves. They might attract grenades."
 
   STR_HOVERTANK_LASER: "Hovertank/Laser"
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
@@ -343,6 +348,7 @@ en-GB:
 
   STR_WALKERTANK: "Walking HWP's"
   STR_WALKERTANK_SMOKE_WEAPON: "Walkertank Smoke Launcher"
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "Attaching our already advanced Smoke Launcher to converted enemy weaponry, showed some big advantages, we were able to double the ammo capacity for it. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Walkertanks are able to create an thick smoke screen between themselves or friends and any enemy unit nearby. Be advised that Walkertanks in smoke cover might attract Blaster Bombs or Grenades from the enemy."
 
   STR_WALKERTANK_LASER: "Walkertank/Laser"
   STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"
@@ -467,6 +473,9 @@ en-GB:
 
   STR_ADVANCED_MEDI_KIT: "Advanced Medi-Kit"
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "The advanced medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the advanced medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the advanced medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 6 health restored.{NEWLINE}STIMULANT> This will restore 15 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 9 | STIMULANT: 9 | PAIN KILLER: 9"
+
+  STR_ELERIUM_STUN_ROD: "Elerium Powered Stun Rod"
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: "Using Elerium-115 as a electric power source enabled us to increase the charge of electric shock, which can be discharged onto the enemy. This device can only be used in close combat, but will stun a living organism without killing it by using electric shocks."
 
   STR_FLASHBANG_GRENADE: "Flashbang Grenade"
   STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight."  

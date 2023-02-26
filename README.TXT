@@ -224,6 +224,7 @@ Additional X-Com Weapons:
 	Incendiary Grenade
 	Stun Grenade
 	Fire Grenade
+	Elerium Powered Stun Rod
 
 All kinetic weapons also get Alloy Ammo once researched.
 Alloy Ammo adds +10 Damage for Pistols and Rifles on top of convential AP Ammo.

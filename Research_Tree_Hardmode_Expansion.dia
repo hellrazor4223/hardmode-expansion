@@ -84,7 +84,7 @@
       </dia:attribute>
     </dia:object>
   </dia:layer>
-  <dia:layer name="Baumrahmen" visible="true" active="true">
+  <dia:layer name="Baumrahmen" visible="true">
     <dia:object type="Standard - Box" version="0" id="O1">
       <dia:attribute name="obj_pos">
         <dia:point val="87,-5"/>
@@ -792,7 +792,7 @@
       </dia:attribute>
     </dia:object>
   </dia:layer>
-  <dia:layer name="Normal" visible="true">
+  <dia:layer name="Normal" visible="true" active="true">
     <dia:object type="Flowchart - Box" version="0" id="O29">
       <dia:attribute name="obj_pos">
         <dia:point val="103,14"/>
@@ -11846,7 +11846,7 @@ Armored Sectopod#</dia:string>
         <dia:point val="126.519,-20"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="126.158,-20.05;126.881,-17.8882"/>
+        <dia:rectangle val="126.157,-20.05;126.881,-17.8882"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="126.519,-20"/>
@@ -13746,6 +13746,82 @@ Explosive Ammo#</dia:string>
       <dia:connections>
         <dia:connection handle="0" to="O282" connection="13"/>
         <dia:connection handle="1" to="O344" connection="16"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Flowchart - Box" version="0" id="O348">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-2,-44"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-2.05,-44.05;9.08872,-39.95"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-2,-44"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="11.038721117293747"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="0.10000000149011612"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="padding">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Elerium Powered Stun Rod#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="monospace" style="80" name="Courier-Bold"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.84666663408279419"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="3.51936,-41.7933"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O349">
+      <dia:attribute name="obj_pos">
+        <dia:point val="10.9509,-42"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="8.97604,-42.3618;11.0009,-41.6382"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="10.9509,-42"/>
+        <dia:point val="9.08784,-42"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="22"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O95" connection="16"/>
+        <dia:connection handle="1" to="O348" connection="16"/>
       </dia:connections>
     </dia:object>
   </dia:layer>
