@@ -2218,7 +2218,7 @@ alienDeployments:
     civilians: 24
     terrains:
       - CARGOSHIP
-      - LINERSHIP
+#      - LINERSHIP
     alert: STR_TERROR_MISSION_SHIP_ALERT
     alertBackground: BACK03.SCR
     briefing:

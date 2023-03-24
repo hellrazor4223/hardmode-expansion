@@ -28,6 +28,7 @@ Version 1.0
  - Add Taser Pistol Elerium Clip
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
+ - Disable LINERSHIP Terrain until Map allows for Craftspawn
 
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings
