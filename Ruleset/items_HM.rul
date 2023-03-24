@@ -2407,6 +2407,32 @@ items:
     listOrder: 4301
 #END ADVANCED MEDI KIT ITEM
 
+#BEGIN PSI AMP
+  - delete: STR_PSI_AMP
+  - type: STR_PSI_AMP
+    requires:
+      - STR_PSI_AMP
+    size: 0.1
+    costSell: 194700
+    weight: 10
+    bigSprite: 33
+    floorSprite: 32
+    handSprite: 88
+    hitSound: 36
+    battleType: 9
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    costMindControl:
+      time: 25
+      energy: 25
+    costPanic:
+      time: 25
+      energy: 25
+    flatRate: true
+    listOrder: 4400
+#END PSI AMP
+
 #BEGIN ELERIUM STUN ROD ITEM
   - type: STR_ELERIUM_STUN_ROD
     requires:

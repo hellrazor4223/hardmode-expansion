@@ -171,7 +171,8 @@ Groundcombat changes:
 	Blaster Waypoints honor DOS Limitation (9 Waypoints)
 	Shotgun Class Weaponry for Xcom and Aliens
 	Dedicaded Melee Weaponry for Xcom and Aliens
-    Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
+	Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
+	Psi-Amps use 25 TU and 25 Stamina (Energy) for Psi Panic or Psi Mind Control attack. Get your Stims ready! (OXCE only)
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

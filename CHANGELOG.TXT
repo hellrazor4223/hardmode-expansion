@@ -9,6 +9,7 @@ Version 1.0
  - Rebalance lategame enemy PSI DEF
  - Rebalance X-Com early armors and damage modifiers
  - Rebalance Damage Modifiers for Tanks/Alloy Drones
+ - Rebalance Psi Amps to use Stamina additionally to Time Units for Psi Panic and Mind Control
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring
  - Adjust Soitter Zombies to be more dangerous
