@@ -998,6 +998,8 @@ en-US:
   STR_TERROR_MISSION_PORT: "TERROR MISSION PORT"
   STR_TERROR_MISSION_PORT_BRIEFING: "Aliens have launched an attack against a coastal site. The port and its civilian population have been put to risk. Your squad must eliminate all aliens and protect the innocent bystanders from this alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 
+  STR_TERROR_MISSION_DOCKED_SHIP: "TERROR MISSION DOCKED SHIP"
+
   STR_TERROR_MISSION_TROPICAL: "TERROR MISSION TROPICAL"
 
   STR_TERROR_MISSION_ISLAND: "TERROR MISSION ISLAND"
