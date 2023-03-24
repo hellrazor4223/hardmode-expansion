@@ -20,6 +20,7 @@ Version 1.0
  - Add Walkertank/Laser (Sectopod converted)
  - Add Split Alloy Drone/Medikit -> Alloy Drone/Adv. Medikit
  - Add Elerium Powered Stun Rod
+ - Add Taser Pistol Elerium Clip
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
 

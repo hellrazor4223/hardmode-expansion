@@ -23,6 +23,7 @@ extraSprites:
       141: Resources/Items/Xcom/AlloySword/BigOb_AlloySword.png
       118: Resources/Items/Xcom/TaserPistol/BigOb_TaserPistol.png
       119: Resources/Items/Xcom/TaserPistol/BigOb_TaserPistol_Clip.png
+      201: Resources/Items/Xcom/TaserPistol/BigOb_TaserPistol_Elerium_Clip.png
       100: Resources/Items/Xcom/Pistol/BigOb_Pistol_AlienAlloy_Clip.png
       102: Resources/Items/Xcom/Shotgun/BigOb_Shotgun.png
       104: Resources/Items/Xcom/Shotgun/BigOb_Shotgun_Clip.png
@@ -143,6 +144,7 @@ extraSprites:
       138: Resources/Items/Xcom/AlloySword/FloorOb_AlloySword.png
       113: Resources/Items/Xcom/TaserPistol/FloorOb_TaserPistol.png
       114: Resources/Items/Xcom/TaserPistol/FloorOb_TaserPistol_Clip.png
+      215: Resources/Items/Xcom/TaserPistol/FloorOb_TaserPistol_Elerium_Clip.png
       172: Resources/Items/Xcom/Pistol/FloorOb_Pistol_AA_Clip.png
       100: Resources/Items/Xcom/Shotgun/FloorOb_Shotgun.png
       102: Resources/Items/Xcom/Shotgun/FloorOb_Shotgun_Clip.png
@@ -279,6 +281,7 @@ extraSprites:
       424: Resources/Items/Xcom/AlloySword/HandOb_AlloySword.png
       312: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol.png
       600: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol_Clip.png
+      680: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol_Elerium_Clip.png
       128: Resources/Items/Xcom/Pistol/HandOb_Pistol_Clip.png
       536: Resources/Items/Xcom/Pistol/HandOb_Pistol_AA_Clip.png
       136: Resources/Items/Xcom/Rifle/HandOb_Rifle_Clip.png

@@ -661,61 +661,69 @@ research:
     dependencies:
       - STR_ALLOY_KNIFE
       - STR_PERSONAL_ARMOR
+  - name: STR_TASER_PISTOL_ELERIUM_CLIP
+    cost: 200
+    points: 10
+    listOrder: 502
+    dependencies:
+      - STR_ALIEN_DATA_SLATE
+      - STR_ELERIUM_115
+      - STR_ALIEN_ALLOYS
   - name: STR_ELERIUM_ROCKET
     cost: 300
     points: 10
-    listOrder: 502
+    listOrder: 503
     dependencies:
       - STR_ALIEN_GRENADE
   - name: STR_LASER_PISTOL
     cost: 150
     points: 10
-    listOrder: 503
+    listOrder: 504
     dependencies:
       - STR_LASER_WEAPONS
   - name: STR_LASER_RIFLE
     cost: 450
     points: 10
-    listOrder: 504
+    listOrder: 505
     dependencies:
       - STR_LASER_PISTOL
   - name: STR_SCATTER_LASER
     cost: 600
     points: 10
-    listOrder: 505
+    listOrder: 506
     dependencies:
       - STR_LASER_PISTOL
   - name: STR_HEAVY_LASER
     cost: 690
     points: 10
-    listOrder: 506
+    listOrder: 507
     dependencies:
       - STR_LASER_RIFLE
   - name: STR_HEAVY_LASER_AUTO
     cost: 690
     points: 10
-    listOrder: 507
+    listOrder: 508
     dependencies:
       - STR_SCATTER_LASER
   - name: STR_FIRE_GRENADE
     cost: 150
     points: 10
-    listOrder: 508
+    listOrder: 509
     dependencies:
       - STR_FIRE_BOMB
   - name: STR_STUN_GRENADE
     cost: 150
     points: 10
-    listOrder: 509
+    listOrder: 510
     dependencies:
       - STR_STUN_BOMB
   - name: STR_MOTION_SCANNER
     cost: 270
     points: 20
-    listOrder: 510
+    listOrder: 511
   - name: STR_MEDI_KIT
     cost: 315
-    listOrder: 511
+    listOrder: 512
     dependencies:
       - STR_ALIEN_DATA_SLATE
       - STR_SNAKEMAN_AUTOPSY
@@ -723,7 +731,7 @@ research:
   - name: STR_ADVANCED_MEDI_KIT
     cost: 630
     points: 20
-    listOrder: 512
+    listOrder: 513
     dependencies:
       - STR_ALIEN_DATA_CORE
       - STR_MEDI_KIT
@@ -733,19 +741,19 @@ research:
   - name: STR_PSI_AMP
     cost: 750
     points: 20
-    listOrder: 513
+    listOrder: 514
     dependencies:
       - STR_MIND_SHIELD
       - STR_PSI_AMP_UNLOCK
   - name: STR_PSI_AMP_UNLOCK
-    listOrder: 514
+    listOrder: 515
     requires:
       - STR_ALIEN_ENTERTAINMENT
     dependencies: *ALL_ALIVE_MEDICS
   - name: STR_ELERIUM_STUN_ROD
-    cost: 150
+    cost: 250
     points: 10
-    listOrder: 515
+    listOrder: 516
     dependencies:
       - STR_ALIEN_DATA_SLATE
       - STR_ELERIUM_115

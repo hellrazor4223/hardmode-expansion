@@ -842,6 +842,13 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
     listOrder: 3707
+  - id: STR_TASER_PISTOL_ELERIUM_CLIP
+    requires:
+      - STR_TASER_PISTOL_ELERIUM_CLIP
+    type_id: 4
+    section: STR_BASE_FACILITIES
+    text: STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA
+    listOrder: 3708
 #END TASER PISTOL UFOPAEDIA
 
 #BEGIN PISTOL UFOPAEDIA

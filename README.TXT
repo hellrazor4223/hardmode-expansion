@@ -212,6 +212,7 @@ Additional X-Com Weapons:
 	Alloy Knife
 	Alloy Blade
 	Taser Pistol
+	Taser Pistol Elerium Clip
 	Shotgun
 	Sniper Rifle
 	Grenade Launcher

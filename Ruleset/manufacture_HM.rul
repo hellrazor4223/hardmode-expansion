@@ -2332,6 +2332,21 @@ manufacture:
     listOrder: 1420
 #END ALLOY SWORD MANU
 
+#BEGIN TASER PISTOL MANU
+  - name: STR_TASER_PISTOL_ELERIUM_CLIP_X2
+    category: STR_AMMUNITION
+    requires:
+      - STR_TASER_PISTOL_ELERIUM_CLIP
+    space: 2
+    time: 40
+    cost: 3200
+    requiredItems:
+      STR_ELERIUM_115: 1
+    producedItems:
+      STR_TASER_PISTOL_ELERIUM_CLIP: 2
+    listOrder: 879
+#END TASER PISTOL MANU
+
 #BEGIN PISTOL AA CLIP MANU
   - name: STR_PISTOL_AA_CLIP_X3
     category: STR_AMMUNITION
@@ -2367,7 +2382,7 @@ manufacture:
     category: STR_AMMUNITION
     requires:
       - STR_ALLOY_AMMO
-    space: 4
+    space: 2
     time: 40
     cost: 2000
     requiredItems:
@@ -2464,6 +2479,8 @@ manufacture:
     cost: 10000
     requiredItems:
       STR_ELERIUM_115: 3
+    producedItems:
+      STR_ELERIUM_ROCKET: 1
     listOrder: 890
 #END ELERIUM ROCKET MANU
 

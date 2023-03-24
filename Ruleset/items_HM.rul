@@ -1517,6 +1517,7 @@ items:
     fireSound: 103
     compatibleAmmo:
       - STR_TASER_PISTOL_CLIP
+      - STR_TASER_PISTOL_ELERIUM_CLIP
     accuracySnap: 80
     accuracyAimed: 100
     tuSnap: 30
@@ -1547,6 +1548,24 @@ items:
     blastRadius: 0
     armor: 20
     listOrder: 1807
+  - type: STR_TASER_PISTOL_ELERIUM_CLIP
+    requires:
+      - STR_TASER_PISTOL_ELERIUM_CLIP
+    size: 0.1
+    costSell: 1000
+    weight: 3
+    bigSprite: 201
+    floorSprite: 215
+    handSprite: 680
+    hitSound: 54
+    hitAnimation: 100
+    power: 60
+    damageType: 6
+    clipSize: 10
+    battleType: 2
+    blastRadius: 0
+    armor: 20
+    listOrder: 1808
 #END TASER PISTOL ITEM
 
 #BEGIN PISTOL ITEM
