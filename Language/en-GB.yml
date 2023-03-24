@@ -427,7 +427,10 @@ en-GB:
 
   STR_TASER_PISTOL: "Taser Pistol"
   STR_TASER_PISTOL_CLIP: "Taser Pistol Clip"
-  STR_TASER_PISTOL_UFOPEDIA: "A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 5 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset."
+  STR_TASER_PISTOL_UFOPEDIA: "A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 15 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset."
+  STR_TASER_PISTOL_ELERIUM_CLIP: "Taser Pistol Elerium Clip"
+  STR_TASER_PISTOL_ELERIUM_CLIP_X2: "Taser Pistol Elerium Clip [x2]"
+  STR_TASER_PISTOL_ELERIUM_UFOPEDIA: "These non-lethal weapon powercells derived from a very recent police design, capable of incapacitating targets up to 15 meters away. Using Elerium-115 to fuel these powercells gives a way higher stun capability as our former purely human made designs."
 
   STR_SHOTGUN: "Shotgun"
   STR_SHOTGUN_CLIP: "Shotgun Shells"
