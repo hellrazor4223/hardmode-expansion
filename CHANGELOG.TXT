@@ -7,6 +7,8 @@ Version 1.0
  - Fix globa texture asignment, which prevent Terrorsites to spawn properly
  - Fix missing Adv. Medikit Dependency
  - Rebalance lategame enemy PSI DEF
+ - Rebalance X-Com early armors and damage modifiers
+ - Rebalance Damage Modifiers for Tanks/Alloy Drones
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring
  - Adjust Soitter Zombies to be more dangerous

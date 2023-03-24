@@ -111,7 +111,7 @@ armors:
       - 0.2
       - 0.8
       - 1.0
-      - 1.0
+      - 0.9
       - 0.0
       - 1.0
       - 1.4
@@ -295,7 +295,7 @@ armors:
       - 0.2
       - 0.75
       - 1.0
-      - 0.95
+      - 0.9
       - 0.0
       - 0.9
       - 0.4
@@ -367,7 +367,7 @@ armors:
       - 0.2
       - 0.75
       - 1.0
-      - 0.9
+      - 0.85
       - 0.0
       - 0.9
       - 0.4
@@ -517,10 +517,10 @@ armors:
     weight: 3
     stats:
       stamina: -8
-    frontArmor: 20
-    sideArmor: 16
-    rearArmor: 8
-    underArmor: 8
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
     damageModifier:
       - 1.0
       - 1.0
@@ -549,17 +549,17 @@ armors:
     weight: 2
     stats:
       stamina: -4
-    frontArmor: 30
-    sideArmor: 20
-    rearArmor: 16
-    underArmor: 16
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 20
+    underArmor: 20
     damageModifier:
       - 1.0
       - 0.9
       - 1.0
       - 1.0
       - 1.0
-      - 1.0
+      - 0.95
       - 0.9
       - 1.0
       - 1.1
@@ -578,10 +578,10 @@ armors:
     corpseBattle:
       - STR_PERSONAL_ARMOR_CORPSE
     storeItem: STR_PERSONAL_ARMOR
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
     damageModifier:
       - 1.0
       - 0.8
@@ -616,7 +616,7 @@ armors:
       - 0.0
       - 1.0
       - 0.9
-      - 0.9
+      - 0.85
       - 0.8
       - 1.0
       - 1.0
@@ -665,8 +665,8 @@ armors:
       - 0.6
       - 0.0
       - 1.0
-      - 0.85
-      - 0.85
+      - 0.8
+      - 0.8
       - 0.8
       - 1.0
       - 1.0
