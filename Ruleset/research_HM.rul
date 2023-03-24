@@ -520,8 +520,8 @@ research:
     cost: 630
     points: 30
     dependencies:
-      - STR_POWER_SUIT
-      - STR_ALIEN_DATA_SLATE
+      - STR_SUPPORT_DRONES
+      - STR_PERSONAL_ARMOR
     listOrder: 250
 #END DRONES
 

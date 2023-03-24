@@ -16,6 +16,7 @@ Version 1.0
  - Adjust Avenger Soldier spawn to match THUNDER
  - Adjust Meleeweapons, more attacks possible
  - Adjust Alien Alloy Ammo for konventional Pistols, Rifles and Shotguns
+ - Adjust Alloy Drones Research being available after Personal Armor
  - Add more randomness to Alien Mission starts
  - Add Alien Base execute Missions (Terror, Harvest, Abduction, Base), No Scouts
  - Add more Upgrade Options to X-Com Tanks
