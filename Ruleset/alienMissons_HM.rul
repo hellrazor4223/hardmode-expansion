@@ -9,7 +9,6 @@ alienMissions:
   - delete: STR_ALIEN_BASE
   - delete: STR_ALIEN_TERROR
   - delete: STR_ALIEN_RETALIATION
-  - delete: STR_ALIEN_SUPPLY
 #END DELETE
 
 #BEGIN ALIEN BASE
