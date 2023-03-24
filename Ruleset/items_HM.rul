@@ -1594,7 +1594,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 19
-    power: 36
+    power: 39
     damageType: 1
     clipSize: 12
     battleType: 2
@@ -1627,7 +1627,7 @@ items:
     bulletSprite: 20
     hitSound: 22
     hitAnimation: 26
-    power: 40
+    power: 45
     damageType: 1
     clipSize: 20
     battleType: 2
@@ -1673,13 +1673,13 @@ items:
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
-    power: 26
+    power: 30
     damageType: 1
     clipSize: 12
     battleType: 2
     armor: 20
     listOrder: 2203
-    shotgunPellets: 6
+    shotgunPellets: 5
   - type: STR_SHOTGUN_AA_CLIP
     requires:
       - STR_ALLOY_AMMO
@@ -1692,7 +1692,7 @@ items:
     bulletSprite: 20
     hitSound: 22
     hitAnimation: 26
-    power: 46
+    power: 45
     damageType: 1
     clipSize: 12
     battleType: 2

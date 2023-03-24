@@ -228,8 +228,7 @@ Additional X-Com Weapons:
 	Elerium Powered Stun Rod
 
 All kinetic weapons also get Alloy Ammo once researched.
-Alloy Ammo adds +10 Damage for Pistols and Rifles on top of convential AP Ammo.
-Shotguns, Sniper Rifles, Heavy Cannons and Auto Cannons get a 1,5 factor for AP Ammo.
+Alloy Ammo for Pistols, Rifles, Shotguns, Sniper Rifles, Heavy Cannons and Auto Cannons get a 1,5 damage factor for AP Alien Alloy Ammo.
 Heavy Cannons and Auto Cannons have access to Elerium-115 enhanced explosive ammunition.
 
 Also 3 Medikits, one available from start, the others are researchable.
