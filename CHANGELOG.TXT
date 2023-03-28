@@ -26,6 +26,7 @@ Version 1.0
  - Add Split Alloy Drone/Medikit -> Alloy Drone/Adv. Medikit
  - Add Elerium Powered Stun Rod
  - Add Taser Pistol Elerium Clip
+ - Add additional construction cost for X-Com base modules, which require Alien tech research
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
  - Disable LINERSHIP Terrain until Map allows for Craftspawn

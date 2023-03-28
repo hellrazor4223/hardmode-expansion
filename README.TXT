@@ -121,7 +121,7 @@ General Gameplay changes:
 	Terrormission will also attack Ships on Sea (TFTD Liner and Cargo Ship)
 	Research costs are 1,5 times vanilla
 	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
-	8 Armored Vests, which you need to equip on your Soldiers
+	8 Armored Vests, which you can to equip on your Soldiers
 	Melee Weapons apply Skill and Strength
 	X-Com Soldiers start with Melee Accuracy from range 40-60
 	More saner starting weapons stock and equipment for the Skyranger
@@ -142,6 +142,7 @@ General Gameplay changes:
 	Attacking landed Battleship performing a Alien Base Mission from a Alien Base gives 33% to deny the mission success (OXCE only)
 	Attacking landed Labship on a Harvesting or Abduction Mission gives 33% to deny mission success (OXCE only)
 	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
+	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only)
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%

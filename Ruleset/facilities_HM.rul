@@ -1,9 +1,16 @@
 ###BEGIN FACILITIES
 facilities:
   - type: STR_ALIEN_CONTAINMENT
-    monthlyCost: 40000
     requires:
       - STR_ALIEN_CONTAINMENT
+    monthlyCost: 40000
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 30
+         STR_ALIEN_FOOD:
+           build: 10
+         STR_MIND_PROBE:
+           build: 1
   - type: STR_ACCESS_LIFT
     monthlyCost: 30000
   - type: STR_LIVING_QUARTERS
@@ -23,18 +30,59 @@ facilities:
   - type: STR_LASER_DEFENSES
     monthlyCost: 40000
   - type: STR_PLASMA_DEFENSES
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 40
+         STR_ELERIUM_115:
+           build: 20
+         STR_UFO_POWER_SOURCE:
+           build: 1
     monthlyCost: 60000
   - type: STR_FUSION_BALL_DEFENSES
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 60
+         STR_ELERIUM_115:
+           build: 30
+         STR_UFO_POWER_SOURCE:
+           build: 1
     monthlyCost: 80000
   - type: STR_GRAV_SHIELD
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 100
+         STR_ELERIUM_115:
+           build: 50
+         STR_UFO_POWER_SOURCE:
+           build: 4
     monthlyCost: 120000
   - type: STR_MIND_SHIELD
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 100
+         STR_ELERIUM_115:
+           build: 50
+         STR_UFO_POWER_SOURCE:
+           build: 4
     monthlyCost: 130000
   - type: STR_PSIONIC_LABORATORY
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 100
+         STR_UFO_NAVIGATION:
+           build: 2
+         STR_MIND_PROBE:
+           build: 2
     monthlyCost: 75000
   - type: STR_HYPER_WAVE_DECODER
+    buildCostItems:
+         STR_ALIEN_ALLOYS:
+           build: 60
+         STR_ELERIUM_115:
+           build: 30
+         STR_UFO_NAVIGATION:
+           build: 4
     monthlyCost: 140000
   - type: STR_HANGAR
     monthlyCost: 20000
 ###END FACILITIES
-
