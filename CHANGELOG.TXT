@@ -3,8 +3,8 @@ Changelog:
 Version 1.0
  - Fix Bug for Mod not loading on OXCE 7.7.x+
  - Fix Plasma Blade not being available in lategame to player
- - Fix Mars being only half height
- - Fix globa texture asignment, which prevent Terrorsites to spawn properly
+ - Fix Mars Terrain Height (4 -> 8)
+ - Fix globe texture asignment, which prevented Terrorsites from spawning properly
  - Fix missing Adv. Medikit Dependency
  - Rebalance lategame enemy PSI DEF
  - Rebalance X-Com early armors and damage modifiers
@@ -12,11 +12,11 @@ Version 1.0
  - Rebalance Psi Amps to use Stamina additionally to Time Units for Psi Panic and Mind Control
  - Adjust Raceweights for more Snakemen
  - Adjust Terror Occurance and Scoring
- - Adjust Soitter Zombies to be more dangerous
+ - Adjust Spitter Zombies to be more dangerous
  - Adjust Avenger Soldier spawn to match THUNDER
  - Adjust Meleeweapons, more attacks possible
  - Adjust Alien Alloy Ammo for konventional Pistols, Rifles and Shotguns
- - Adjust Alloy Drones Research being available after Personal Armor
+ - Adjust Alloy Drones Research being available after Data Slate
  - Add more randomness to Alien Mission starts
  - Add Alien Base execute Missions (Terror, Harvest, Abduction, Base), No Scouts
  - Add more Upgrade Options to X-Com Tanks
@@ -30,6 +30,7 @@ Version 1.0
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
  - Disable LINERSHIP Terrain until Map allows for Craftspawn
+ - Research tree Overwork so everything fits better
 
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings

@@ -186,8 +186,7 @@ research:
     points: 25
     listOrder: 35
     dependencies:
-      - STR_ALLOY_AMMO
-      - STR_ELERIUM_ROCKET
+      - STR_ALIEN_GRENADE
   - name: STR_LASER_WEAPONS
     cost: 150
     points: 10
@@ -199,8 +198,7 @@ research:
     points: 20
     listOrder: 37
     dependencies:
-      - STR_ALIEN_GRENADE
-      - STR_ALIEN_DATA_SLATE
+      - STR_ELERIUM_ROCKET
   - name: STR_PLASMA_WEAPONS
     cost: 200
     points: 20
@@ -521,6 +519,7 @@ research:
     points: 30
     dependencies:
       - STR_SUPPORT_DRONES
+      - STR_ALIEN_DATA_SLATE
       - STR_PERSONAL_ARMOR
     listOrder: 250
 #END DRONES
@@ -538,8 +537,24 @@ research:
     points: 30
     listOrder: 301
     dependencies:
+      - STR_HOVERTANK_DEP1
+      - STR_HOVERTANK_DEP2
+  - name: STR_HOVERTANK_DEP1
+    dependencies:
       - STR_UFO_CONSTRUCTION
       - STR_ALIEN_DATA_CORE
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_CORPSE
+    unlocks:
+      - STR_HOVERTANK_DEP2
+  - name: STR_HOVERTANK_DEP2
+    dependencies:
+      - STR_UFO_CONSTRUCTION
+      - STR_ALIEN_DATA_CORE
+      - STR_ARMORED_CYBERDISC_TERRORIST
+      - STR_ARMORED_CYBERDISC_CORPSE
+    unlocks:
+      - STR_HOVERTANK_DEP1
   - name: STR_HWP_EBOMB_LAUNCHER
     cost: 500
     points: 15
@@ -674,7 +689,7 @@ research:
     points: 10
     listOrder: 503
     dependencies:
-      - STR_ALIEN_GRENADE
+      - STR_EHE_AMMO
   - name: STR_LASER_PISTOL
     cost: 150
     points: 10
@@ -725,7 +740,6 @@ research:
     cost: 315
     listOrder: 512
     dependencies:
-      - STR_ALIEN_DATA_SLATE
       - STR_SNAKEMAN_AUTOPSY
       - STR_CHRYSSALID_AUTOPSY
   - name: STR_ADVANCED_MEDI_KIT
@@ -733,7 +747,6 @@ research:
     points: 20
     listOrder: 513
     dependencies:
-      - STR_ALIEN_DATA_CORE
       - STR_MEDI_KIT
       - STR_MUTON_AUTOPSY
       - STR_CELATID_AUTOPSY
@@ -755,7 +768,7 @@ research:
     points: 10
     listOrder: 516
     dependencies:
-      - STR_ALIEN_DATA_SLATE
+      - STR_TASER_PISTOL_ELERIUM_CLIP
       - STR_ELERIUM_115
       - STR_ALIEN_ALLOYS
 #END X-COM WEAPONS & EQUIPMENT
@@ -968,6 +981,7 @@ research:
     listOrder: 622
     dependencies:
       - STR_LAUNCHER_WEAPONS
+      - STR_ALIEN_DATA_SLATE
       - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_STUN_BOMB
     cost: 270
@@ -976,6 +990,7 @@ research:
     listOrder: 623
     dependencies:
       - STR_LAUNCHER_WEAPONS
+      - STR_ALIEN_DATA_SLATE
       - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_ELERIUM_BOMB
     cost: 270
@@ -984,6 +999,7 @@ research:
     listOrder: 624
     dependencies:
       - STR_LAUNCHER_WEAPONS
+      - STR_ALIEN_DATA_SLATE
       - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_FIRE_BOMB
     cost: 270
@@ -992,6 +1008,7 @@ research:
     listOrder: 625
     dependencies:
       - STR_LAUNCHER_WEAPONS
+      - STR_ALIEN_DATA_SLATE
       - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_SMOKE_BOMB
     cost: 270
@@ -1000,11 +1017,13 @@ research:
     listOrder: 626
     dependencies:
       - STR_LAUNCHER_WEAPONS
+      - STR_ALIEN_DATA_SLATE
       - STR_SMALL_LAUNCHER_UNLOCK
   - name: STR_SMALL_LAUNCHER_UNLOCK
     listOrder: 627
     requires:
       - STR_LAUNCHER_WEAPONS
+      - STR_ALIEN_DATA_SLATE
     dependencies: *ALL_ALIVE_ENGINEERS
   - name: STR_BLASTER_LAUNCHER
     cost: 1350
