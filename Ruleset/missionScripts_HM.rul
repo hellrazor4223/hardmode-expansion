@@ -51,8 +51,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_RETALIATION: 100
-    firstMonth: 3
-    lastMonth: 3
+    firstMonth: 4
+    lastMonth: 4
     1argetBaseOdds: 100
     raceWeights:
       0:
@@ -65,8 +65,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_RETALIATION: 100
-    firstMonth: 5
-    lastMonth: 5
+    firstMonth: 6
+    lastMonth: 6
     1argetBaseOdds: 100
     raceWeights:
       0:
