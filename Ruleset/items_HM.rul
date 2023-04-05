@@ -199,7 +199,7 @@ items:
     weight: 1
     hitSound: 54
     hitAnimation: 110
-    power: 30
+    power: 40
     damageType: 6
     battleType: 2
     blastRadius: 0
@@ -433,7 +433,7 @@ items:
     weight: 1
     hitSound: 54
     hitAnimation: 110
-    power: 90
+    power: 65
     damageType: 6
     battleType: 2
     blastRadius: 0
@@ -1559,7 +1559,7 @@ items:
     handSprite: 680
     hitSound: 54
     hitAnimation: 100
-    power: 60
+    power: 65
     damageType: 6
     clipSize: 10
     battleType: 2
@@ -1869,6 +1869,7 @@ items:
 
 #BEGIN AUTO CANNON ITEM
   - type: STR_AUTO_CANNON
+    weight: 16
     compatibleAmmo:
       - STR_AC_AP_AMMO
       - STR_AC_HE_AMMO
