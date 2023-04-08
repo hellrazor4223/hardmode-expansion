@@ -1,6 +1,7 @@
 Changelog:
 
 Version 1.0
+ - Research tree Overwork so everything fits better
  - Fix Bug for Mod not loading on OXCE 7.7.x+
  - Fix Plasma Blade not being available in lategame to player
  - Fix Mars Terrain Height (4 -> 8)
@@ -30,7 +31,6 @@ Version 1.0
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)
  - Disable LINERSHIP Terrain until Map allows for Craftspawn
- - Research tree Overwork so everything fits better
 
 Version 0.99.9
  - Adjust UFO Extender Accuracy Settings
