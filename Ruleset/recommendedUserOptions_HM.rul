@@ -1,10 +1,17 @@
 recommendedUserOptions:
+  showFundsOnGeoscape: true
   craftLaunchAlways: true
   storageLimitsEnforced: true
   canSellLiveAliens: true
-  sneakyAI: true
+  globeSeasons: true
+  anytimePsiTraining: true
   battleUFOExtenderAccuracy: true
-  includePrimeStateInSavedLayout: true
   battleExplosionHeight: 3
+  battleNewPreviewPath: 7
+  includePrimeStateInSavedLayout: true
+  showMoreStatsInInventoryView: true
+  sneakyAI: true
   strafe: true
   alienBleeding: true
+  oxceAutoSell: true
+  oxceLinks: true

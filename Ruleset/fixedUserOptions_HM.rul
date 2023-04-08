@@ -1,6 +1,5 @@
 fixedUserOptions:
-  customInitialBase: false
   battleInstantGrenade: false
   weaponSelfDestruction: false
-
-
+  allowPsiStrengthImprovement: false
+  soldiersDiaries: true
