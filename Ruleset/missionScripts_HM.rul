@@ -526,8 +526,7 @@ missionScripts:
     conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 50
-        STR_ALIEN_INFILTRATION: 50
+        STR_ALIEN_TERROR: 100
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
