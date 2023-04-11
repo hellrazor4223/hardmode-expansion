@@ -1,4 +1,9 @@
 #BEGIN DIFFICULTY
+difficultyDemigod: true
+difficultyCoefficient: [4, 4, 4, 4, 4]
+aimAndArmorMultipliers: [1.0, 1.0, 1.0, 1.0, 1.0]
+startingDifficulty: 4
+
 turnAIUseGrenade: 0
 turnAIUseBlaster: 0
 ai.useDelayBlaster: 0
