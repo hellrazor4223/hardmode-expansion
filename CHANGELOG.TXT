@@ -29,7 +29,6 @@ Version 1.0
  - Add Taser Pistol Elerium Clip
  - Add additional construction cost for X-Com base modules, which require Alien tech research
  - Add more recommendedUserOptions for inital Startup
- - Add No more PsiStrength improvement Option (Non DOS Behaviour)
  - Add Superhuman as default and only Difficulty
  - Refactor Drone Smoke (ammo is free now)
  - Disable Bug Hunt mode (Non vanilla behaviour)

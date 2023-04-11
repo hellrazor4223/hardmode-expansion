@@ -1,5 +1,4 @@
 fixedUserOptions:
   battleInstantGrenade: false
   weaponSelfDestruction: false
-  allowPsiStrengthImprovement: false
   soldiersDiaries: true
