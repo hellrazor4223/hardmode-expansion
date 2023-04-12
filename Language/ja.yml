@@ -156,18 +156,20 @@ ja:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SMOKE_WEAPON: "ドローン用発煙筒"
+  STR_DRONE_SMOKE_WEAPON: "ドローン用煙弾筒"
+  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "この小さな装置はドローン用の発煙弾筒で、小規模の煙幕を展開して敵の射線から自身や付近の味方を遮ることができる。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_DRONE_SCOUT: "ドローン/スカウト"
   STR_DRONE_SCOUT_CORPSE: "大破したドローン/スカウト"
   STR_DRONE_SCOUT_REPAIR: "ドローン/スカウトの修理"
-  STR_DRONE_SCOUT_UFOPEDIA: "この小型で頑丈なドローンは偵察および哨戒用として設計されている。大型HWPの様に強力な武装や装甲は備えていないが陸上を素早く移動し、X-Com隊員を危険に晒す事なく偵察をし、敵を発見する。また、地上部隊や自身を火線から逸らす為に用いる近距離用の発煙筒を備えている。"
+  STR_DRONE_SCOUT_UFOPEDIA: "この小型で頑丈なドローンは偵察および哨戒用として設計されている。大型HWPの様に強力な武装や装甲は備えていないが陸上を素早く移動し、X-Com隊員を危険に晒す事なく偵察をし、敵を発見する。また、地上部隊や自身を火線から逸らす為に用いる近距離用の煙弾筒を備えている。"
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "ドローン/スカウト -> スキャナー"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "ドローン/スカウト -> メディキット"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "ドローン/スカウト -> テーザー"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT: "ドローン/スカウト -> 合金スカウト"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER: "ドローン/スカウト -> 合金スキャナー"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "ドローン/スカウト -> 合金メディキット"
+  STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "ドローン/スカウト -> 合金メディキット改"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "ドローン/スカウト -> 合金テーザー"
 
   STR_DRONE_SCANNER: "ドローン/スキャナー"
@@ -180,6 +182,7 @@ ja:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "ドローン/スキャナー -> 合金スカウト"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER: "ドローン/スキャナー -> 合金スキャナー"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "ドローン/スキャナー -> 合金メディキット"
+  STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: "ドローン/スキャナー -> 合金メディキット改"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "ドローン/スキャナー -> 合金テーザー"
 
   STR_DRONE_MEDIKIT: "ドローン/メディキット"
@@ -192,6 +195,7 @@ ja:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "ドローン/メディキット -> 合金スカウト"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "ドローン/メディキット -> 合金スキャナー"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: "ドローン/メディキット -> 合金メディキット"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "ドローン/メディキット -> 合金メディキット改"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "ドローン/メディキット -> 合金テーザー"
 
   STR_DRONE_TASER: "ドローン/テーザー"
@@ -206,16 +210,19 @@ ja:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "ドローン/テーザー -> 合金スカウト"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "ドローン/テーザー -> 合金スキャナー"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "ドローン/テーザー -> 合金メディキット"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "ドローン/テーザー -> 合金メディキット改"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "ドローン/テーザー -> 合金テーザー"
 
-  STR_ALLOY_DRONE_SMOKE_WEAPON: "ドローン用発煙筒"
+  STR_ALLOY_DRONE_SMOKE_WEAPON: "合金ドローン用煙弾筒"
+  STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "エイリアン合金の先進性によって発煙弾筒がより頑丈になり射出距離も少々増した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。合金ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_ALLOY_DRONE_SCOUT: "合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "大破した合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "合金ドローン/スカウトの修理"
-  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "この改良型のドローンはエイリアン合金をボディーに用いており、その分高価なものとなったが移動速度と装甲が増した。但しエイリアンのプラズマ兵器及び他の全ての地上用兵器に対し生存率がアップした訳ではない点に注意しなければならない。上手に用いて敵を発見し、注意を逸らせ。内蔵された発煙筒を適時活用すれば強力な偵察兵となるだろう。"
+  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "この改良型のドローンはエイリアン合金をボディーに用いており、その分高価なものとなったが移動速度と装甲が増した。但しエイリアンのプラズマ兵器及び他の全ての地上用兵器に対し生存率がアップした訳ではない点に注意しなければならない。上手に用いて敵を発見し、注意を逸らせ。内蔵された煙弾筒を適時活用すれば強力な偵察兵となるだろう。"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "合金ドローン/スカウト -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "合金ドローン/スカウト -> 合金メディキット"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "合金ドローン/スカウト -> 合金メディキット改"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "合金ドローン/スカウト -> 合金テーザー"
 
   STR_ALLOY_DRONE_SCANNER: "合金ドローン/スキャナー"
@@ -225,16 +232,27 @@ ja:
   STR_ALLOY_DRONE_SCANNER_UFOPEDIA: "スキャナードローンにエイリアン合金製の装甲に換装する事でより頑丈となった。このお陰で弱体化した装甲をある程度埋め合わせる事が出来、更にモーションスキャナーのコンピューターシステムもかなり高速な物を搭載する事ができた。オリジナルモデルを使用した事がある兵ならばかなり効果的に戦闘で用いる事ができる筈だ。"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "合金ドローン/スキャナー -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "合金ドローン/スキャナー -> 合金メディキット"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: "合金ドローン/スキャナー -> 合金メディキット改"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "合金ドローン/スキャナー -> 合金テーザー"
 
   STR_ALLOY_DRONE_MEDIKIT: "合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "合金ドローン用メディキット"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "合金ドローン/メディキットの修理"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。診断と治療モジュールの再設計のお陰でより迅速な野戦治療が可能となり、改良型メディキットの２倍の容量を持つ様になった。"
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。従来型の２倍の容量を持つ。"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "合金ドローン/メディキット -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "合金ドローン/メディキット -> 合金スキャナー"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "合金ドローン/メディキット -> 合金メディキット改"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "合金ドローン/メディキット -> 合金テーザー"
+
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT: "合金ドローン/メディキット改"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "合金ドローン用メディキット改"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット改"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: "合金ドローン/メディキット改の修理"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。診断と治療モジュールの再設計のお陰でより迅速な野戦治療が可能となり、改良型メディキットの２倍の容量を持つ様になった。"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: "合金ドローン/メディキット改 -> 合金スカウト"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: "合金ドローン/メディキット改 -> 合金スキャナー"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: "合金ドローン/メディキット 改-> 合金テーザー"
 
   STR_ALLOY_DRONE_TASER: "合金ドローン/テーザー"
   STR_ALLOY_DRONE_TASER_WEAPON: "合金ドローン用テーザー"
@@ -246,10 +264,12 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "合金ドローン/テーザー -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "合金ドローン/テーザー -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "合金ドローン/テーザー -> 合金メディキット"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "合金ドローン/テーザー -> 合金メディキット改"
 #END DRONES
 
 #BEGIN TANKS
   STR_TANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
+  STR_TANK_SMOKE_WEAPON_UFOPEDIA: "この小さな装置は戦車用の発煙弾筒で、小規模の煙幕を展開して敵の射線から自身や付近の味方を遮ることができる。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。戦車を煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
   STR_TANK_CANNON_REPAIR: "戦車/キャノンの修理"
@@ -273,7 +293,8 @@ ja:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: "戦車/レーザー->合金ロケット"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: "戦車/レーザー->合金レーザー"
 
-  STR_ALLOY_TANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
+  STR_ALLOY_TANK_SMOKE_WEAPON: "合金戦車用煙弾筒"
+  STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: "エイリアン合金の先進性によって発煙弾筒がより頑丈になり射出距離も少々増した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。合金戦車を煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_ALLOY_TANK_CANNON: "合金戦車/キャノン"
   STR_ALLOY_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
@@ -297,7 +318,8 @@ ja:
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "X-Comのキャタピラ式HWPの頂点とも言える存在で、科学者達によって設計された強力なレーザーキャノンと軽量強靱なエイリアン合金製の装甲を兼ね備える。"
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "合金戦車/レーザー->ホバー/レーザー"
 
-  STR_HOVERTANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
+  STR_HOVERTANK_SMOKE_WEAPON: "ホバータンク用煙弾筒"
+  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: "UFOのフレーム設計を真似ることで発煙弾筒の更なる改良が可能となり射程もアップした。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ホバータンクを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_HOVERTANK_LASER: "ホバー/レーザー"
   STR_HOVERTANK_LASER_CORPSE: "大破したホバー/レーザー"
@@ -325,7 +347,8 @@ ja:
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "ホバー/ランチャ->ホバー/プラズマ"
 
   STR_WALKERTANK: "歩行式HWP"
-  STR_WALKERTANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
+  STR_WALKERTANK_SMOKE_WEAPON: "ウォーカー用煙弾筒"
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "鹵獲後X-Com用に改造した敵の兵器に改良型の発煙弾筒を装着した結果、大きなアドバンテージを得た。弾倉の容量が倍になったのだ。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ウォーカー戦車は自軍と敵軍の間に分厚い煙幕を展開可能で、敵のブラスター爆弾やグレネードを引き付けることができるかもしれない。"
 
   STR_WALKERTANK_LASER: "歩行/レーザー"
   STR_WALKERTANK_LASER_CORPSE: "大破した歩行/レーザー"
@@ -404,7 +427,10 @@ ja:
 
   STR_TASER_PISTOL: "テーザーピストル"
   STR_TASER_PISTOL_CLIP: "テーザーP弾倉"
-  STR_TASER_PISTOL_UFOPEDIA: "この非致死性武器は警察の要請によって最近設計されたもので、5mまでの射程内の標的を気絶させる。鈍器型のスタン武器ほど強力ではないが、上手くデザインされたグリップのお陰で扱いやすく、遠距離から使用できる長所だけ見ても有用性が高い。"
+  STR_TASER_PISTOL_UFOPEDIA: "この非致死性武器は警察の要請によって最近設計されたもので、15mまでの射程内の標的を気絶させる。鈍器型のスタン武器ほど強力ではないが、上手くデザインされたグリップのお陰で扱いやすく、遠距離から使用できる長所だけ見ても有用性が高い。"
+  STR_TASER_PISTOL_ELERIUM_CLIP: "テーザーピストル E弾倉"
+  STR_TASER_PISTOL_ELERIUM_CLIP_X2: "テーザーピストル E弾倉 [x2]"
+  STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA: "この非致死性武器は警察の要請によって最近設計されたもので、15mまでの射程内の標的を気絶させる。エレリウム115を使用した電池によって人類が設計した従来型のものより大幅にスタン性能が高まっている。"
 
   STR_SHOTGUN: "ショットガン"
   STR_SHOTGUN_CLIP: "ショットガンシェル"
@@ -450,6 +476,9 @@ ja:
 
   STR_ADVANCED_MEDI_KIT: "改良型メディキット"
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "改良型メディキットは治療機能に鎮痛剤と興奮剤を組み合わせたもので、負傷した兵士の方を向いて、または気絶した兵士の体の上で使用する。メディキットをクリックしてメニューから’使用’を選び以下から選択。{NEWLINE}{NEWLINE}治療> 赤い部分が負傷した部位を示す。治療する部位を選択して‘治療’ボタンを押す。傷が治療され健康を回復する。{NEWLINE}{NEWLINE}興奮剤> スタミナを15回復し、気絶した兵士の意識を回復する。気絶した兵士の意識を回復させるには、身体の上に直接立って操作を行う。{NEWLINE}{NEWLINE}鎮痛剤> 負傷した兵の士気を現在のHPの上限まで回復させる。{NEWLINE}使用回数>治療ｘ9, 興奮剤ｘ9, 鎮痛剤ｘ9"
+
+  STR_ELERIUM_STUN_ROD: "エレリウム駆動スタンロッド"
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: "エレリウム115を電源にすることでより強力になり敵めがけて電撃を浴びせかける事が可能となった。この装置は近接戦でしか使えないが生体を殺さずに気絶させることができる。"
 
   STR_FLASHBANG_GRENADE: "閃光グレネード"
   STR_FLASHBANG_GRENADE_UFOPEDIA: "標準的な閃光グレネード。音響、光そしてノイズを用いたもので標的を戦闘不能状態にする。"  
@@ -968,6 +997,8 @@ ja:
 
   STR_TERROR_MISSION_PORT: "テロ鎮圧:港"
   STR_TERROR_MISSION_PORT_BRIEFING: "エイリアンが港湾地区を襲撃した。施設と民間人が危険に晒されている。敵を一掃し民間人をエイリアンの手から守らなければならない。任務を中断する場合は全てのX-Com隊員を輸送機まで戻し、’任務を中断’を実行せよ。"
+
+  STR_TERROR_MISSION_DOCKED_SHIP: "テロ鎮圧:停泊中の船舶"
 
   STR_TERROR_MISSION_TROPICAL: "テロ鎮圧:南国"
 
