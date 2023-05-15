@@ -2555,7 +2555,7 @@ items:
     requires:
       - STR_PLASMA_PISTOL_ELERIUM_CLIP
     size: 0.1
-    costsell: 3350
+    costSell: 3350
     weight: 3
     bigSprite: 192
     floorSprite: 204
@@ -2596,7 +2596,7 @@ items:
     requires:
       - STR_PLASMA_RIFLE_ELERIUM_CLIP
     size: 0.1
-    costsell: 4718
+    costSell: 4718
     weight: 3
     bigSprite: 193
     floorSprite: 205
