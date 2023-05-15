@@ -1916,7 +1916,7 @@ manufacture:
       - STR_TANK_REPAIR
     space: 30
     time: 800
-    cost: 650000
+    cost: 600000
     requiredItems:
       STR_WALKERTANK_LASER_CORPSE: 1
       STR_ALIEN_ALLOYS: 15
@@ -1936,7 +1936,7 @@ manufacture:
       - STR_ARMORED_SECTOPOD_TERRORIST
     space: 30
     time: 200
-    cost: 40000
+    cost: 400000
     requiredItems:
       STR_WALKERTANK_LASER: 1
       STR_ELERIUM_115: 10

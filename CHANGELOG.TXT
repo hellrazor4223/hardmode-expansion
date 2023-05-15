@@ -8,6 +8,7 @@ Version 1.0
  - Fix globe texture asignment, which prevented Terrorsites from spawning properly
  - Fix missing Adv. Medikit Dependency
  - Fix PLasma Pistol/Rifle Clip sell prices
+ - Fix Walkertank/Laser upgrade pricing
  - Rebalance lategame enemy PSI DEF
  - Rebalance X-Com early armors and damage modifiers
  - Rebalance Damage Modifiers for Tanks/Alloy Drones
