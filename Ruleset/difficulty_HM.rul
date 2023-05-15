@@ -22,7 +22,4 @@ bughuntMinTurn: 9999
 bughuntMaxEnemies: 0
 bughuntLowMorale: 0
 bughuntTimeUnitsLeft: 0
-
-constants:
-  - fireDamageRange: [7, 12]
 #END DIFFICULTY

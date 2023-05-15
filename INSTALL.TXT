@@ -2,8 +2,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXC: openxcom_git_master_2022_04_29_0633 see: https://openxcom.org/git-builds/
-OXCE: OXCE v7.7.x see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v7.9 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -13,7 +12,7 @@ Please report all issues and bugs here: https://openxcom.org/forum/index.php/top
  - Copy over the directory "Hardmode_Expansion" in your user mods directory.
  - Active "Hardmode_Expansion" under Mods
 
-#The following Recommended Advanced Options will be turned on, once you load the mod for the first time (OXCE only, Please enable them yourself if you use vanilla OXC):
+#The following Recommended Advanced Options will be turned on, once you load the mod for the first time (OXCE only)
 	Forced Craft launch (probably needed since your craft will get shot a lot)
 	Limit Storage Items (Using Autoseller Helps a lot, just be aware to not sell of stuff you wanna research!)
 	Sell Alive Alien (More cash for alive ones, helkps managing the Alien Containment)
@@ -23,3 +22,9 @@ Please report all issues and bugs here: https://openxcom.org/forum/index.php/top
 	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
 	Alternate Movement Methods (to fight faster)
 	Alien Bleeding
+	FundsOnGeoscape (keep your finances in check)
+	Pathpreview with Energieview
+	OXCE Links
+	OXCE Autoseller
+	Psi Training anytime
+	More Stats on Inventory Screens
