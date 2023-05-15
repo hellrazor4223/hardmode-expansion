@@ -1,8 +1,9 @@
 #BEGIN DIFFICULTY
 difficultyDemigod: true
-difficultyCoefficient: [4, 4, 4, 4, 4]
+difficultyCoefficient: [0, 1, 2, 3, 4]
 aimAndArmorMultipliers: [1.0, 1.0, 1.0, 1.0, 1.0]
 startingDifficulty: 4
+defeatScore: -1500
 
 turnAIUseGrenade: 0
 turnAIUseBlaster: 0

@@ -1,0 +1,5 @@
+#BEGIN CONSTANTS
+constants:
+  - fireDamageRange: [7, 12]
+  - extendedExperienceAwardSystem: false
+#END CONSTANTS
