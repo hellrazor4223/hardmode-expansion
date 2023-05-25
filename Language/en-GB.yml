@@ -487,7 +487,7 @@ en-GB:
   STR_INC_GRENADE_UFOPEDIA: "Incendiary grenades are invaluable for lighting up the night and clearing obnoxious vegetation."
 
   STR_ALIEN_PROXY_GRENADE: "Alien Proximity Grenade"
-  STR_ALIEN_PROXY_GRENADE: "After understanding the inner workings of alien grenade fuse mechanism, we were able to replace it with our standard proximity detonators. This will enable our soldiers to set up more devasting ambushes for our alien foes."
+  STR_ALIEN_PROXY_GRENADE_UFOPEDIA: "After understanding the inner workings of alien grenade fuse mechanism, we were able to replace it with our standard proximity detonators. This will enable our soldiers to set up more devasting ambushes for our alien foes."
 
   STR_STUN_GRENADE: "Stun Grenade"
   STR_STUN_GRENADE_UFOPEDIA: "A refitted stun bomb, which can now be thrown like a grenade, holds the same stun effect then it. We need stun bombs to produce it."
