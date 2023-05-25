@@ -224,6 +224,7 @@ Additional X-Com Weapons:
 		Heavy Laser/Auto
 	Flashbang Grenade
 	Incendiary Grenade
+	Alien Proximity Grenade
 	Stun Grenade
 	Fire Grenade
 	Elerium Powered Stun Rod

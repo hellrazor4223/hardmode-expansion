@@ -45,6 +45,7 @@ extraSprites:
       112: Resources/Items/Xcom/HeavyLaserAuto/BigOb_HeavyLaserAuto.png
       113: Resources/Items/Xcom/IncendiaryGrenade/BigOb_IncendiaryGrenade.png
       151: Resources/Items/Xcom/FlashBangGrenade/BigOb_FlashbangGrenade.png
+      202: Resources/Items/Xcom/AlienProxieGrenade/BigOb_AlienProxieGrenade.png
       179: Resources/Items/Xcom/FireGrenade/BigOb_FireGrenade.png
       114: Resources/Items/Xcom/StunGrenade/BigOb_StunGrenade.png
       115: Resources/Items/Xcom/FieldMediPack/BigOb_FieldMediPack.png
@@ -166,6 +167,7 @@ extraSprites:
       107: Resources/Items/Xcom/HeavyLaserAuto/FloorOb_HeavyLaserAuto.png
       108: Resources/Items/Xcom/IncendiaryGrenade/FloorOb_IncendiaryGrenade.png
       148: Resources/Items/Xcom/FlashBangGrenade/FloorOb_FlasbangGrenade.png
+      216: Resources/Items/Xcom/AlienProxieGrenade/FloorOb_AlienProxieGrenade.png
       192: Resources/Items/Xcom/FireGrenade/FloorOb_FireGrenade.png
       109: Resources/Items/Xcom/StunGrenade/FloorOb_StunGrenade.png
       110: Resources/Items/Xcom/FieldMediPack/FloorOb_FieldMediPack.png
@@ -316,6 +318,7 @@ extraSprites:
       256: Resources/Items/Xcom/ProxieGrenade/HandOb_ProxieGrenade.png
       264: Resources/Items/Xcom/IncendiaryGrenade/HandOb_IncendiaryGrenade.png
       440: Resources/Items/Xcom/FlashBangGrenade/HandOb_FlashbangGrenade.png
+      688: Resources/Items/Xcom/AlienProxieGrenade/HandOb_AlienProxieGrenade.png
       624: Resources/Items/Xcom/FireGrenade/HandOb_FireGrenade.png
       432: Resources/Items/Xcom/StunGrenade/HandOb_StunGrenade.png
       272: Resources/Items/Xcom/HighExplosiv/HandOb_HighExplosiv.png

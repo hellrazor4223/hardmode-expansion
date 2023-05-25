@@ -720,32 +720,44 @@ research:
     listOrder: 508
     dependencies:
       - STR_SCATTER_LASER
-  - name: STR_FIRE_GRENADE
+  - name: STR_ALIEN_PROXY_GRENADE
     cost: 150
     points: 10
     listOrder: 509
+    dependencies:
+      - STR_ALIEN_GRENADE
+      - STR_ALIEN_PROXY_GRENADE_UNLOCK
+  - name: STR_ALIEN_PROXY_GRENADE_UNLOCK
+    listOrder: 510
+    requires:
+      - STR_ALIEN_GRENADE
+    dependencies: *ALL_ALIVE_ENGINEERS
+  - name: STR_FIRE_GRENADE
+    cost: 150
+    points: 10
+    listOrder: 511
     dependencies:
       - STR_FIRE_BOMB
   - name: STR_STUN_GRENADE
     cost: 150
     points: 10
-    listOrder: 510
+    listOrder: 512
     dependencies:
       - STR_STUN_BOMB
   - name: STR_MOTION_SCANNER
     cost: 270
     points: 20
-    listOrder: 511
+    listOrder: 513
   - name: STR_MEDI_KIT
     cost: 315
-    listOrder: 512
+    listOrder: 514
     dependencies:
       - STR_SNAKEMAN_AUTOPSY
       - STR_CHRYSSALID_AUTOPSY
   - name: STR_ADVANCED_MEDI_KIT
     cost: 630
     points: 20
-    listOrder: 513
+    listOrder: 515
     dependencies:
       - STR_MEDI_KIT
       - STR_MUTON_AUTOPSY
@@ -754,19 +766,19 @@ research:
   - name: STR_PSI_AMP
     cost: 750
     points: 20
-    listOrder: 514
+    listOrder: 516
     dependencies:
       - STR_MIND_SHIELD
       - STR_PSI_AMP_UNLOCK
   - name: STR_PSI_AMP_UNLOCK
-    listOrder: 515
+    listOrder: 517
     requires:
       - STR_ALIEN_ENTERTAINMENT
     dependencies: *ALL_ALIVE_MEDICS
   - name: STR_ELERIUM_STUN_ROD
     cost: 250
     points: 10
-    listOrder: 516
+    listOrder: 518
     dependencies:
       - STR_TASER_PISTOL_ELERIUM_CLIP
       - STR_ELERIUM_115
@@ -1257,6 +1269,7 @@ research:
     listOrder: 803
     lookup: STR_FLOATER
     unlocks: &ENGINEER_UNLOCKS
+      - STR_ALIEN_PROXY_GRENADE_UNLOCK
       - STR_ALIEN_LANGUAGE_UNLOCK
       - STR_ALIEN_INVASION_UNLOCK
       - STR_PLASMA_PISTOL_UNLOCK

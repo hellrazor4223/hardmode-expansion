@@ -2282,6 +2282,25 @@ items:
     listOrder: 4002
 #BEGIN FLASHBANG GRENADE ITEM
 
+#BEGIN ALIEN PROXY GRENADE ITEM
+  - type: STR_ALIEN_PROXY_GRENADE
+    requires:
+      - STR_ALIEN_PROXY_GRENADE
+    size: 0.1
+    costSell: 7425
+    weight: 3
+    bigSprite: 202
+    floorSprite: 216
+    handSprite: 688
+    hitAnimation: 0
+    power: 90
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
+    armor: 45
+    listOrder: 4003
+#END ALIEN PROXY GRENADE ITEM
+
 #BEGIN FIRE GRENADE ITEM
   - type: STR_FIRE_GRENADE
     size: 0.1
@@ -2296,7 +2315,7 @@ items:
     battleType: 4
     blastRadius: 5
     armor: 45
-    listOrder: 4003
+    listOrder: 4004
 #BEGIN FIRE GRENADE ITEM
 
 #BEGIN STUN GRENADE ITEM
@@ -2313,7 +2332,7 @@ items:
     battleType: 4
     blastRadius: 5
     armor: 45
-    listOrder: 4004
+    listOrder: 4005
 #END STUN GRENADE ITEM
 
 #BEGIN HIGH EXPLOSIVE ITEM

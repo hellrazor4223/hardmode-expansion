@@ -2533,6 +2533,19 @@ manufacture:
     listOrder: 1101
 #END HEAVY LASER AUTO MANU
 
+#BEGIN ALIEN PROXY GRENADE MANU
+  - name: STR_ALIEN_PROXY_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_ALIEN_PROXY_GRENADE
+    space: 1
+    time: 30
+    cost: 2500
+    listOrder: 1102
+    requiredItems:
+      STR_ALIEN_GRENADE: 1
+#END ALIEN PROXY  GRENADE MANU
+
 #BEGIN FIRE GRENADE MANU
   - name: STR_FIRE_GRENADE
     category: STR_WEAPON

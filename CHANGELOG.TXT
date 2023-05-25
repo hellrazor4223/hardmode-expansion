@@ -20,6 +20,7 @@ Version 1.0
  - Adjust Meleeweapons, more attacks possible
  - Adjust Alien Alloy Ammo for konventional Pistols, Rifles and Shotguns
  - Adjust Alloy Drones Research being available after Data Slate
+ - Add Alien Proxy Grenade (Alien Grenade conversion for X-Com)
  - Add more randomness to Alien Mission starts
  - Add Alien Base execute Missions (Terror, Harvest, Abduction, Base), No Scouts
  - Add more Upgrade Options to X-Com Tanks
