@@ -1543,7 +1543,7 @@ items:
     hitAnimation: 100
     power: 40
     damageType: 6
-    clipSize: 10
+    clipSize: 4
     battleType: 2
     blastRadius: 0
     armor: 20
@@ -1561,7 +1561,7 @@ items:
     hitAnimation: 100
     power: 65
     damageType: 6
-    clipSize: 10
+    clipSize: 6
     battleType: 2
     blastRadius: 0
     armor: 20
