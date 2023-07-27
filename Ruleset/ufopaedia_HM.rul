@@ -448,7 +448,8 @@ ufopaedia:
 ##BEGIN XCOM TANK UFOPAEDIAS
 #BEGIN DRONE SMOKE WEAPON
   - id: STR_DRONE_SMOKE_WEAPON
-    requires: STR_SUPPORT_DRONES
+    requires:
+      - STR_SUPPORT_DRONES
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_DRONE_SMOKE_WEAPON_UFOPEDIA
@@ -457,7 +458,8 @@ ufopaedia:
 
 #BEGIN DRONE SCOUT UFOPAEDIA
   - id: STR_DRONE_SCOUT
-    requires: STR_SUPPORT_DRONES
+    requires:
+      - STR_SUPPORT_DRONES
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
     text: STR_DRONE_SCOUT_UFOPEDIA
