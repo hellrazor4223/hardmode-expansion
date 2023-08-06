@@ -17,6 +17,10 @@ hu:
   STR_CAT_TANK_REPAIR: ""
   STR_CAT_PERSONAL_ARMOR_UPGRADE: ""
   STR_CAT_PERSONAL_ARMOR_REPAIR: ""
+  STR_ALIEN_BASE_TERROR_MISSION: "Idegen Terror"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "Idegen Emberrablás"
+  STR_ALIEN_BASE_HARVEST_MISSION: "Idegen Begyűjtés"
+  STR_ALIEN_BASE_BASE_MISSION: "Idegen Bázis"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -152,8 +156,8 @@ hu:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SCOUT_SMOKE_WEAPON: ""
-  STR_DRONE_SMOKE_AMMO: ""
+  STR_DRONE_SMOKE_WEAPON: ""
+  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "Drón/Felderítő"
   STR_DRONE_SCOUT_CORPSE: "Sérült Drón/Felderítő"
@@ -165,6 +169,7 @@ hu:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: ""
 
   STR_DRONE_SCANNER: "Drón/Szkenner"
@@ -177,6 +182,7 @@ hu:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: ""
 
   STR_DRONE_MEDIKIT: ""
@@ -189,6 +195,7 @@ hu:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: ""
 
   STR_DRONE_TASER: ""
@@ -203,7 +210,11 @@ hu:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: ""
+
+  STR_ALLOY_DRONE_SMOKE_WEAPON: ""
+  STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: ""
   STR_ALLOY_DRONE_SCOUT_CORPSE: ""
@@ -211,6 +222,7 @@ hu:
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: ""
 
   STR_ALLOY_DRONE_SCANNER: ""
@@ -220,6 +232,7 @@ hu:
   STR_ALLOY_DRONE_SCANNER_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: ""
 
   STR_ALLOY_DRONE_MEDIKIT: ""
@@ -229,7 +242,17 @@ hu:
   STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: ""
+
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: ""
 
   STR_ALLOY_DRONE_TASER: ""
   STR_ALLOY_DRONE_TASER_WEAPON: ""
@@ -241,9 +264,13 @@ hu:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
 #END DRONES
 
 #BEGIN TANKS
+  STR_TANK_SMOKE_WEAPON: ""
+  STR_TANK_SMOKE_WEAPON_UFOPEDIA: ""
+
   STR_TANK_CANNON_CORPSE: ""
   STR_TANK_CANNON_REPAIR: ""
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
@@ -254,6 +281,7 @@ hu:
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_TANK_ROCKET_LAUNCHER_REPAIR: ""
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: ""
@@ -264,6 +292,9 @@ hu:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: ""
+
+  STR_ALLOY_TANK_SMOKE_WEAPON: ""
+  STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_TANK_CANNON: ""
   STR_ALLOY_TANK_CANNON_CORPSE: ""
@@ -277,6 +308,7 @@ hu:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: ""
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: ""
 
@@ -285,6 +317,9 @@ hu:
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: ""
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: ""
+
+  STR_HOVERTANK_SMOKE_WEAPON: ""
+  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERTANK_LASER: ""
   STR_HOVERTANK_LASER_CORPSE: ""
@@ -309,8 +344,17 @@ hu:
 
   STR_HOVERTANK_LAUNCHER_CORPSE: ""
   STR_HOVERTANK_LAUNCHER_REPAIR: ""
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: ""
 
   STR_WALKERTANK: ""
+  STR_WALKERTANK_SMOKE_WEAPON: ""
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: ""
+
+  STR_WALKERTANK_LASER: ""
+  STR_WALKERTANK_LASER_CORPSE: ""
+  STR_WALKERTANK_LASER_REPAIR: ""
+  STR_WALKERTANK_LASER_UFOPEDIA: ""
+  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: ""
 
   STR_WALKERTANK_PLASMA: ""
   STR_WALKERTANK_PLASMA_CORPSE: ""
@@ -383,7 +427,10 @@ hu:
 
   STR_TASER_PISTOL: "Taser Pisztoly"
   STR_TASER_PISTOL_CLIP: ""
-  STR_TASER_PISTOL_UFOPEDIA: "Ez a nem halálos elektromos fegyver a rendőri szervektől érkezett, 5 méter távolságról képes a célpont megbénítására . Kevésbé erős a töltése mint a kábítópálcáé, de a pisztoly markolat könnyű kezelhetőséget biztosít és a hatótávolsága is értékes eszközzé teszi."
+  STR_TASER_PISTOL_UFOPEDIA: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP_X2: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_SHOTGUN: "Shotgun"
   STR_SHOTGUN_CLIP: "Shotgun Lőszer"
@@ -425,15 +472,22 @@ hu:
   STR_FIELD_MEDI_PACK_UFOPEDIA: "Az elsősegély-készlet tartalmaz kötszereket, fájdalom-csillapítókat és stimulánsokat. Használatához a páciens mellett, felé fordulva kell állni. Ha a katona bénult, fölé kell állni. Kattints az elsősegély-készlet ikonra és válaszd ki az 'Elsősegély-készlet'-et a menüből.{NEWLINE}GYÓGYÍTÁS> A vörös testrészek végzetes sebeket jeleznek. Kattints a sebesült tesztrészre. Kattints a 'Gyógyít' gombra. Egy végzetes seb meg lesz gyógyítva, és az egészség valamennyire helyreáll.{NEWLINE}STIMULÁNS> Visszaállítja az energiáját és újraéleszti az öntudatlan (lebénított) katonákat. Az újraélesztéshez a bénult katona fölé kell állni.{NEWLINE}FÁJDALOMCSILLAPÍTÓ> Visszaállítja a sebesült katona morálját annyival, amennyivel a sebesüléssel csökkent neki."
 
   STR_MEDI_KIT_UFOPEDIA: "Az elsősegély-készlet tartalmaz kötszereket, fájdalom-csillapítókat és stimulánsokat. Használatához a páciens mellett, felé fordulva kell állni. Ha a katona bénult, fölé kell állni. Kattints az elsősegély-készlet ikonra és válaszd ki az 'Elsősegély-készlet'-et a menüből.{NEWLINE}GYÓGYÍTÁS> A vörös testrészek végzetes sebeket jeleznek. Kattints a sebesült tesztrészre. Kattints a 'Gyógyít' gombra. Egy végzetes seb meg lesz gyógyítva, és az egészség valamennyire helyreáll.{NEWLINE}STIMULÁNS> Visszaállítja az energiáját és újraéleszti az öntudatlan (lebénított) katonákat. Az újraélesztéshez a bénult katona fölé kell állni.{NEWLINE}FÁJDALOMCSILLAPÍTÓ> Visszaállítja a sebesült katona morálját annyival, amennyivel a sebesüléssel csökkent neki."
+  STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: ""
 
   STR_ADVANCED_MEDI_KIT: ""
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "Az elsősegély-készlet tartalmaz kötszereket, fájdalom-csillapítókat és stimulánsokat. Használatához a páciens mellett, felé fordulva kell állni. Ha a katona bénult, fölé kell állni. Kattints az elsősegély-készlet ikonra és válaszd ki az 'Elsősegély-készlet'-et a menüből.{NEWLINE}GYÓGYÍTÁS> A vörös testrészek végzetes sebeket jeleznek. Kattints a sebesült tesztrészre. Kattints a 'Gyógyít' gombra. Egy végzetes seb meg lesz gyógyítva, és az egészség valamennyire helyreáll.{NEWLINE}STIMULÁNS> Visszaállítja az energiáját és újraéleszti az öntudatlan (lebénított) katonákat. Az újraélesztéshez a bénult katona fölé kell állni.{NEWLINE}FÁJDALOMCSILLAPÍTÓ> Visszaállítja a sebesült katona morálját annyival, amennyivel a sebesüléssel csökkent neki."
+
+  STR_ELERIUM_STUN_ROD: ""
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: ""
 
   STR_FLASHBANG_GRENADE: ""
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""  
 
   STR_INC_GRENADE: "Gyújtó Gránát"
   STR_INC_GRENADE_UFOPEDIA: "A gyújtógránátok felbecsülhetetlen értékűek az éjszakai terület megvilágításhoz és az elburjánzott növényzet megtisztításához."
+
+  STR_ALIEN_PROXY_GRENADE: ""
+  STR_ALIEN_PROXY_GRENADE_UFOPEDIA: ""
 
   STR_STUN_GRENADE: "Bénító Gránát"
   STR_STUN_GRENADE_UFOPEDIA: ""
@@ -946,6 +1000,8 @@ hu:
 
   STR_TERROR_MISSION_PORT: "TERROR KÜLDETÉS KIKÖTŐ"
   STR_TERROR_MISSION_PORT_BRIEFING: ""
+
+  STR_TERROR_MISSION_DOCKED_SHIP: ""
 
   STR_TERROR_MISSION_TROPICAL: "TERROR KÜLDETÉS TRÓPUS"
 

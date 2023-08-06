@@ -1,6 +1,6 @@
 de:
 #BEGIN GENERAL
-  STR_OPENXCOM: ""
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.3 von hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "ANWEISUNGEN UND NEUIGKEITEN"
   STR_HEAVY_WEAPONS_PLATFORMS: "BASISEINRICHTUNGEN"
   STR_WEAPONS_AND_EQUIPMENT: "XCOM-SCHIFFE & BORDWAFFEN"
@@ -17,6 +17,10 @@ de:
   STR_CAT_TANK_REPAIR: "SWTs reparieren"
   STR_CAT_PERSONAL_ARMOR_UPGRADE: "Persönliche Rüstung aufrüsten"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "Persönliche Rüstung reparieren"
+  STR_ALIEN_BASE_TERROR_MISSION: "Außerirdischer Terror"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "Außerirdische Entführung"
+  STR_ALIEN_BASE_HARVEST_MISSION: "Außerirdische Ernte"
+  STR_ALIEN_BASE_BASE_MISSION: "Alien-Basis"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -152,8 +156,8 @@ de:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SCOUT_SMOKE_WEAPON: "Drohnen Rauchwerfer"
-  STR_DRONE_SMOKE_AMMO: "Drohnen-Rauchkügelchen"
+  STR_DRONE_SMOKE_WEAPON: "Drohnen Rauchwerfer"
+  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "Drohne/Aufklärer"
   STR_DRONE_SCOUT_CORPSE: "Beschädigte Drohne/Aufklärer"
@@ -165,6 +169,7 @@ de:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT: "Drohne/Aufklärer -> Legierungs-Aufklärer"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER: "Drohne/Aufklärer -> Legierungs-Scanner"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Drohne/Aufklärer -> Legierungs-Medikit"
+  STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Drohne/Aufklärer -> Legierungs-Betäubungswaffe"
 
   STR_DRONE_SCANNER: "Drohne/Scanner"
@@ -177,6 +182,7 @@ de:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "Drohne/Scanner -> Legierungs-Aufklärer"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER: "Drohne/Scanner -> Legierungs-Scanner"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Drohne/Scanner-> Legierungs-Medikit"
+  STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drohne/Scanner-> Legierungs-Betäubungswaffe"
 
   STR_DRONE_MEDIKIT: "Drohne/Medikit"
@@ -189,6 +195,7 @@ de:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Drohne/Medikit -> Legierungs-Aufklärer"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Drohne/Medikit -> Legierungs-Scanner"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: "Drohne/Medikit -> Legierungs-Medikit"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drohne/Medikit -> Legierungs-Betäubungswaffe"
 
   STR_DRONE_TASER: "Drohne/Betäubungswaffe"
@@ -203,7 +210,11 @@ de:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "Drohne/Betäubungswaffe -> Legierungs-Aufklärer"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "Drohne/Betäubungswaffe -> Legierungs-Scanner"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drohne/Betäubungswaffe -> Legierungs-Medikit"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drohne/Betäubungswaffe -> Legierungs-Betäubungswaffe"
+
+  STR_ALLOY_DRONE_SMOKE_WEAPON: ""
+  STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: "Legierungs-Drohne/Aufklärer"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Beschädigte Legierungs-Drohne/Aufklärer"
@@ -211,6 +222,7 @@ de:
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Legierungs-Drohne/Aufklärer -> Legierungs-Scanner"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Aufklärer -> Legierungs-Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Legierungs-Drohne/Aufklärer -> Legierungs-Betäubungswaffe"
 
   STR_ALLOY_DRONE_SCANNER: "Legierungs-Drohne/Scanner"
@@ -220,6 +232,7 @@ de:
   STR_ALLOY_DRONE_SCANNER_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "Legierungs-Drohne/Scanner -> Legierungs-Aufklärer"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Scanner -> Legierungs-Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Legierungs-Drohne/Scanner -> Legierungs-Betäubungswaffe"
 
   STR_ALLOY_DRONE_MEDIKIT: "Legierungs-Drohne/Medikit"
@@ -229,7 +242,17 @@ de:
   STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Legierungs-Drohne/Medikit -> Legierungs-Aufklärer"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Legierungs-Drohne/Medikit -> Legierungs-Scanner"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Legierungs-Drohne/Medikit -> Legierungs-Betäubungswaffe"
+
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "Legierungs-Drohne/Betäubungswaffe"
   STR_ALLOY_DRONE_TASER_WEAPON: "Legierungs-Drohne Betäubungswaffe"
@@ -241,9 +264,13 @@ de:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Aufklärer"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Scanner"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Medikit"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
 #END DRONES
 
 #BEGIN TANKS
+  STR_TANK_SMOKE_WEAPON: ""
+  STR_TANK_SMOKE_WEAPON_UFOPEDIA: ""
+
   STR_TANK_CANNON_CORPSE: "Kaputter Panzer/Kanone"
   STR_TANK_CANNON_REPAIR: ""
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
@@ -254,6 +281,7 @@ de:
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_TANK_ROCKET_LAUNCHER_REPAIR: ""
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: ""
@@ -264,6 +292,9 @@ de:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: ""
+
+  STR_ALLOY_TANK_SMOKE_WEAPON: ""
+  STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_TANK_CANNON: ""
   STR_ALLOY_TANK_CANNON_CORPSE: ""
@@ -277,6 +308,7 @@ de:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: ""
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: ""
 
@@ -285,6 +317,9 @@ de:
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: ""
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: ""
+
+  STR_HOVERTANK_SMOKE_WEAPON: ""
+  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERTANK_LASER: ""
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
@@ -309,8 +344,17 @@ de:
 
   STR_HOVERTANK_LAUNCHER_CORPSE: ""
   STR_HOVERTANK_LAUNCHER_REPAIR: ""
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: ""
 
   STR_WALKERTANK: ""
+  STR_WALKERTANK_SMOKE_WEAPON: ""
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: ""
+
+  STR_WALKERTANK_LASER: ""
+  STR_WALKERTANK_LASER_CORPSE: ""
+  STR_WALKERTANK_LASER_REPAIR: ""
+  STR_WALKERTANK_LASER_UFOPEDIA: ""
+  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: ""
 
   STR_WALKERTANK_PLASMA: ""
   STR_WALKERTANK_PLASMA_CORPSE: ""
@@ -383,7 +427,10 @@ de:
 
   STR_TASER_PISTOL: "Elektroschockpistole"
   STR_TASER_PISTOL_CLIP: "Elektroschockpistolen-Munition"
-  STR_TASER_PISTOL_UFOPEDIA: "Aus der neuesten Technik für den Polizeieinsatz entwickelt, kann diese nicht-tödliche Waffe Ziele in einer Entfernung von 5 Metern kampfuntüchtig machen. Auch wenn der elektrische Schock nicht so stark ist wie ein Betäubungsstab, sprechen der elegante und gut handhabbarer Pistolengriff wie auch die Reichweite sehr für die Anschaffung."
+  STR_TASER_PISTOL_UFOPEDIA: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP_X2: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_SHOTGUN: "Schrotflinte"
   STR_SHOTGUN_CLIP: "Schrotpatronen"
@@ -425,15 +472,22 @@ de:
   STR_FIELD_MEDI_PACK_UFOPEDIA: "Der Feldmedizin-Koffer enthält Heil- und Schmerz- sowie Stimulansmittel. Um ihn zu benutzen, müssen Sie in die Richtung blicken, in der sich der verwundete Soldat befindet. Ist der Soldat betäubt, dann müssen Sie sich über ihn stellen. Klicken Sie das Feldmedizin-Koffer-Icon an, und wählen Sie aus dem Menü die Option 'Erste-Hilfe-Koffer nutzen'.{NEWLINE}HEILEN> Rote Körperteile zeigen an, daß sie schwer verletzt sind. Klicken Sie den entsprechenden Körperteil und dann den Knopf 'Heilen' an. Damit wird eine tödliche Wunde geheilt und 1 Gesundheit zugeführt.{NEWLINE}STIMULANS> Regeneriert 5 Energie und belebt bewusstlose (betäubte) Soldaten.{NEWLINE}SCHMERZMITTEL> Erhöht die Moral verwundeter Soldaten bis zu einer Stufe, die dem alten Gesundheitsniveau entspricht.{NEWLINE}MAX LADUNGEN> HEIL: 3 | STIMULANT: 3 | SCHMERZMITTEL: 3"
 
   STR_MEDI_KIT_UFOPEDIA: ""
+  STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: ""
 
   STR_ADVANCED_MEDI_KIT: ""
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: ""
+
+  STR_ELERIUM_STUN_ROD: ""
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: ""
 
   STR_FLASHBANG_GRENADE: "Blendgranate"
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""  
 
   STR_INC_GRENADE: "Brandgranate"
   STR_INC_GRENADE_UFOPEDIA: "Brandgranaten sind unersetzlich um die Nacht zu erhellen und laestige Vegetation aus dem Weg zu raeumen."
+
+  STR_ALIEN_PROXY_GRENADE: ""
+  STR_ALIEN_PROXY_GRENADE_UFOPEDIA: ""
 
   STR_STUN_GRENADE: "Betaeubungsgranate"
   STR_STUN_GRENADE_UFOPEDIA: ""
@@ -946,6 +1000,8 @@ de:
 
   STR_TERROR_MISSION_PORT: "TERRORMISSION HAFEN"
   STR_TERROR_MISSION_PORT_BRIEFING: ""
+
+  STR_TERROR_MISSION_DOCKED_SHIP: ""
 
   STR_TERROR_MISSION_TROPICAL: "TERRORMISSION TROPISCH"
 

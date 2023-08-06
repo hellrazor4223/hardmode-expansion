@@ -486,6 +486,9 @@ ja:
   STR_INC_GRENADE: "火炎手りゅう弾"
   STR_INC_GRENADE_UFOPEDIA: "火炎手りゅう弾は夜間の灯火用として、また邪魔な植物を焼き払いたい時に非常に役に立つ。"
 
+  STR_ALIEN_PROXY_GRENADE: "エイリアンの近接手りゅう弾"
+  STR_ALIEN_PROXY_GRENADE_UFOPEDIA: "エイリアンの手榴弾の着火機構の理解を進めた結果、我々の近接手榴弾の該当部品と入れ替える事が可能になった。エイリアンに対しより強烈な待ち伏せ攻撃が可能となる。"
+
   STR_STUN_GRENADE: "スタングレネード"
   STR_STUN_GRENADE_UFOPEDIA: "スタン・ボムを小型化したもので手りゅう弾として投擲が可能となった。効果も同じだが製造にはスタンボムが必要となる。"
 

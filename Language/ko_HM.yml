@@ -1,6 +1,6 @@
 ko:
 #BEGIN GENERAL
-  STR_OPENXCOM: ""
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.3 by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "브리핑 및 뉴스"
   STR_HEAVY_WEAPONS_PLATFORMS: "기지 시설"
   STR_WEAPONS_AND_EQUIPMENT: "X-COM 항공기 & 무장"
@@ -17,6 +17,10 @@ ko:
   STR_CAT_TANK_REPAIR: "HWP 수리"
   STR_CAT_PERSONAL_ARMOR_UPGRADE: "개인용 장갑복 업그레이드"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "개인용 장갑복 수리"
+  STR_ALIEN_BASE_TERROR_MISSION: "외계인 테러"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "외계인 납치"
+  STR_ALIEN_BASE_HARVEST_MISSION: ""
+  STR_ALIEN_BASE_BASE_MISSION: "외계인 기지"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -152,8 +156,8 @@ ko:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_SCOUT_SMOKE_WEAPON: "드론 연막탄 발사기"
-  STR_DRONE_SMOKE_AMMO: "드론 연막탄"
+  STR_DRONE_SMOKE_WEAPON: "드론 연막탄 발사기"
+  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "드론/스카웃"
   STR_DRONE_SCOUT_CORPSE: "파손된 드론/스카웃"
@@ -165,6 +169,7 @@ ko:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCOUT: "드론/스카웃 -> 합금 드론/스카웃"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_SCANNER: "드론/스카웃 -> 합금 드론/스캐너"
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "드론/스카웃 -> 합금 드론/메디키트"
+  STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "드론/스카웃 -> 합금 드론/테이저"
 
   STR_DRONE_SCANNER: "드론/스캐너"
@@ -177,6 +182,7 @@ ko:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "드론/스캐너 -> 합금 드론/스카웃"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCANNER: "드론/스캐너 -> 합금 드론/스캐너"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "드론/스캐너 -> 합금 드론/메디키트"
+  STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "드론/스캐너 -> 드론/테이저"
 
   STR_DRONE_MEDIKIT: "드론/메디키트"
@@ -189,6 +195,7 @@ ko:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "드론/메디키트 -> 합금 드론/스카우트"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "드론/메디키트 -> 합금 드론/스캐너"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_MEDIKIT: "드론/메디키트 -> 합금 드론/메디키트"
+  STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "드론/메디키트 -> 합금 드론/테이저"
 
   STR_DRONE_TASER: "드론/테이저"
@@ -203,7 +210,11 @@ ko:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "드론/테이저 -> 합금 드론/ 스카웃"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCANNER: "드론/테이저 -> 합금 드론/스캐너"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "드론/테이저 -> 합금 드론/메디키트"
+  STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "드론/테이저 -> 합금 드론/테이저"
+
+  STR_ALLOY_DRONE_SMOKE_WEAPON: ""
+  STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: "합금 드론/스카웃"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "파손된 합금 드론/스카웃"
@@ -211,6 +222,7 @@ ko:
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "외계 합금 골격으로 개조 된 정찰 드론. 값비싸지만 속도와 장갑을 향상시킬 수 있었습니다. 이제 외계 플라즈마 무기와 지구산 무기에 대한 생존력이 모두 크게 향상되었습니다. 적을 발견하거나 주의를 분산시키기 위해 사용하십시오. 연막 발사기는 필요한 경우 엄폐물을 만들어 낼 수 있어 이 드론이 강력한 정찰 도구가 되는데 도움을 줍니다."
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "합금 드론/스카웃 -> 합금 드론/스캐너"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "합금 드론/스카웃 -> 합금 드론/메디키트"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "합금 드론/스카웃 -> 합금 드론/테이저"
 
   STR_ALLOY_DRONE_SCANNER: "합금 드론/스캐너"
@@ -220,16 +232,27 @@ ko:
   STR_ALLOY_DRONE_SCANNER_UFOPEDIA: "기존 스캐너 드론에 합금 장갑판을 장착하여 더욱 강화되었고, 여유 공간을 이용해 동작 스캐너용 컴퓨터의 성능을 대폭 향상시켰습니다. 제대로만 사용한다면 병사들이 외계인과 싸우는 데 매우 유용하게 쓰일 것입니다."
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "합금 드론/스캐너 -> 합금 드론/스카웃"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "합금 드론/스캐너 -> 합금 드론/메디키트"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "합금 드론/스캐너 -> 합금 드론/테이저"
 
   STR_ALLOY_DRONE_MEDIKIT: "합금 드론/메디키트"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "합금 드론 메디키트"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "파손된 합금 드론/메디키트"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "합금 드론/메디키트 수리"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "기존 드론에 합금 장갑판을 장착하여 설계를 향상시킬 수 있었고, 이제 도움이 필요한 아군을 치료하기 위해 더 많은 의료 장비를 내장하고 있습니다. 또한 진단 및 적용 모듈을 재설계하여 기존보다 신속한 치료가 가능합니다. 향상된 메디키트보다 두 배의 용량을 가집니다."
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "합금 드론/메디키트 -> 합금 드론/스카웃"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "합금 드론/메디키트 -> 합금 드론/스캐너"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "합금 드론/메디키트 -> 합금 드론/테이저"
+
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: ""
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "기존 드론에 합금 장갑판을 장착하여 설계를 향상시킬 수 있었고, 이제 도움이 필요한 아군을 치료하기 위해 더 많은 의료 장비를 내장하고 있습니다. 또한 진단 및 적용 모듈을 재설계하여 기존보다 신속한 치료가 가능합니다. 향상된 메디키트보다 두 배의 용량을 가집니다."
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "합금 드론/테이저"
   STR_ALLOY_DRONE_TASER_WEAPON: "합금 드론 테이저"
@@ -241,9 +264,13 @@ ko:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCOUT: "합금 드론/테이저 -> 합금 드론/스카우트"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "합금 드론/테이저 -> 합금 드론/스캐너"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "합금 드론/테이저 -> 합금 드론/메디키트"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
 #END DRONES
 
 #BEGIN TANKS
+  STR_TANK_SMOKE_WEAPON: ""
+  STR_TANK_SMOKE_WEAPON_UFOPEDIA: ""
+
   STR_TANK_CANNON_CORPSE: "파손된 탱크/기관포"
   STR_TANK_CANNON_REPAIR: "탱크/기관포 수리"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
@@ -254,6 +281,7 @@ ko:
 
   STR_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "탱크/로켓 발사기 수리"
+  STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_LASER: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: ""
@@ -264,6 +292,9 @@ ko:
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_LASER: ""
+
+  STR_ALLOY_TANK_SMOKE_WEAPON: ""
+  STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_TANK_CANNON: ""
   STR_ALLOY_TANK_CANNON_CORPSE: ""
@@ -277,6 +308,7 @@ ko:
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "합금 탱크/로켓 발사기 수리"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: ""
+  STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: ""
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: ""
 
@@ -285,6 +317,9 @@ ko:
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "합금 탱크/레이저 수리"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: ""
+
+  STR_HOVERTANK_SMOKE_WEAPON: ""
+  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERTANK_LASER: ""
   STR_HOVERTANK_LASER_CORPSE: "파손된 호버탱크/렝저"
@@ -309,8 +344,17 @@ ko:
 
   STR_HOVERTANK_LAUNCHER_CORPSE: ""
   STR_HOVERTANK_LAUNCHER_REPAIR: "호버탱크/블래스터 수리"
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: ""
 
   STR_WALKERTANK: ""
+  STR_WALKERTANK_SMOKE_WEAPON: ""
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: ""
+
+  STR_WALKERTANK_LASER: ""
+  STR_WALKERTANK_LASER_CORPSE: ""
+  STR_WALKERTANK_LASER_REPAIR: ""
+  STR_WALKERTANK_LASER_UFOPEDIA: ""
+  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: ""
 
   STR_WALKERTANK_PLASMA: ""
   STR_WALKERTANK_PLASMA_CORPSE: ""
@@ -383,7 +427,10 @@ ko:
 
   STR_TASER_PISTOL: "테이저 권총"
   STR_TASER_PISTOL_CLIP: ""
-  STR_TASER_PISTOL_UFOPEDIA: "아주 최근의 경찰 제품으로부터 도출된 비치상 무기로, 최대 5미터 밖의 표적을 무력화하는 능력이 있다. 비록 이것이 타격형 기절 무기보다 덜 위력적인 충격을 전달하지만, 그 멋들어진 권총 손잡이는 다루기 쉽게 해 주며, 그 범위만으로도 가치있는 자산이 되게 해 준다."
+  STR_TASER_PISTOL_UFOPEDIA: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP_X2: ""
+  STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
 
   STR_SHOTGUN: "산탄총"
   STR_SHOTGUN_CLIP: "산탄"
@@ -425,15 +472,22 @@ ko:
   STR_FIELD_MEDI_PACK_UFOPEDIA: "야전 구급상자는 진통제 및 각성제를 겸비한 치료장치다. 야전 구급상자를 사용하려면 처치가 필요한 병사를 바라보고 있어야 한다. 해당 병사가 기절해 있을 경우에는 그 위에 서 있어야 한다. 야전 구급상자 아이콘을 클릭한 뒤 '메디키트 사용'을 선택한다.{NEWLINE}치료> 빨간색 신체 부위는 치명상을 나타낸다. 부상을 입은 부위를 클릭한다. '치료'버튼을 클릭한다. 하나의 치명상이 치료되며 1의 체력이 회복된다.{NEWLINE}각성제> 기력을 5만큼 회복시키고 의식불명(기절)에 빠진 병사를 일으킨다. 의식불명인 병사를 몸 위에 설 필요가 있다.{NEWLINE}진통제> 부상당한 병사의 사기를 잃어버린 체력만큼 회복시킨다.{NEWLINE}최대 사용 횟수> 치료: 3 | 각성제: 3 | 진통제: 3"
 
   STR_MEDI_KIT_UFOPEDIA: "메디키트는 진통제 및 각성제를 겸비한 치료장치다. 메디키트를 사용하려면 처치가 필요한 병사를 바라보고 있어야 한다. 해당 병사가 기절해 있을 경우에는 그 위에 서 있어야 한다. 메디키트 아이콘을 클릭한 뒤 '메디키트 사용'을 선택한다.{NEWLINE}치료> 빨간색 신체 부위는 치명상을 나타낸다. 부상을 입은 부위를 클릭한다. '치료'버튼을 클릭한다. 하나의 치명상이 치료되며 3의 체력이 회복된다.{NEWLINE}각성제> 기력을 10만큼 회복시키고 의식불명(기절)에 빠진 병사를 일으킨다. 의식불명인 병사를 몸 위에 설 필요가 있다.{NEWLINE}진통제> 부상당한 병사의 사기를 잃어버린 체력만큼 회복시킨다.{NEWLINE}최대 사용 횟수> 치료: 6 | 각성제: 6 | 진통제: 6"
+  STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: ""
 
   STR_ADVANCED_MEDI_KIT: "개량형 메디키트"
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "발전형 메디키트는 진통제 및 각성제를 겸비한 치료장치다. 발전형 메디키트를 사용하려면 처치가 필요한 병사를 바라보고 있어야 한다. 해당 병사가 기절해 있을 경우에는 그 위에 서 있어야 한다. 발전형 메디키트 아이콘을 클릭한 뒤 '메디키트 사용'을 선택한다.{NEWLINE}치료> 빨간색 신체 부위는 치명상을 나타낸다. 부상을 입은 부위를 클릭한다. '치료'버튼을 클릭한다. 하나의 치명상이 치료되며 6의 체력이 회복된다.{NEWLINE}각성제> 기력을 15만큼 회복시키고 의식불명(기절)에 빠진 병사를 일으킨다. 의식불명인 병사를 몸 위에 설 필요가 있다.{NEWLINE}진통제> 부상당한 병사의 사기를 잃어버린 체력만큼 회복시킨다.{NEWLINE}최대 사용 횟수> 치료: 9 | 각성제: 9 | 진통제: 9"
+
+  STR_ELERIUM_STUN_ROD: ""
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: ""
 
   STR_FLASHBANG_GRENADE: "섬광 수류탄"
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""  
 
   STR_INC_GRENADE: "방화 수류탄"
   STR_INC_GRENADE_UFOPEDIA: "소이 수류탄은 밤에 불을 밝히고 거슬리는 잡초를 청소하는 데 그만이다."
+
+  STR_ALIEN_PROXY_GRENADE: ""
+  STR_ALIEN_PROXY_GRENADE_UFOPEDIA: ""
 
   STR_STUN_GRENADE: "기절 수류탄"
   STR_STUN_GRENADE_UFOPEDIA: ""
@@ -946,6 +1000,8 @@ ko:
 
   STR_TERROR_MISSION_PORT: "항구 테러 임무"
   STR_TERROR_MISSION_PORT_BRIEFING: "외계인이 해안가에 공격을 감행하였다. 항구와 시민들이 위험에 처해 있다. 외계인의 위협을 제거하여 시민의 생명을 구해야 한다. 임무를 중단하려면 X-COM 요원을 수송선으로 돌려보내고 '임무 중단' 아이콘을 클릭한다."
+
+  STR_TERROR_MISSION_DOCKED_SHIP: ""
 
   STR_TERROR_MISSION_TROPICAL: "열대 테러 임무"
 
