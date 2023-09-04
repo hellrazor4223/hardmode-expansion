@@ -155,6 +155,7 @@ Economic:
 Groundcombat changes:
 	Chronological Racemixes
 	Aliens are earlier aware of your presence
+	Paniced Alien will pick up their weapons
 	Bigger Map for Terrormissions (60x60 and up to 24 Civilians)
 	Bigger Maps also for Battleship, Terrorships and Labship (all 60x60)
 	Alien will use Explosives and Explosive Weaponry from Turn 1 in Ground Combats
