@@ -1,5 +1,5 @@
 #Hardmode Expansion Mod by hellrazor
-#Credits for Version 0.99.9.3
+#Credits for Version 0.99.9.4
 
 Licence Notice:
 	All content from Hobbes Terrain Pack Mod Version 4.3 is under a Creatvie Common Licence!
