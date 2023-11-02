@@ -160,6 +160,9 @@ alienMissions:
     objective: 1
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
+    operationType: 0
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT
     raceWeights: *BASE_TERROR_INFILTRATION
     waves:
       - ufo: STR_SMALL_SCOUT
@@ -202,7 +205,9 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 60
-        interruptPercentage: 50
+        objective: true
+        objectiveOnTheLandingSite: true
+        interruptPercentage: 33
 #END ALIEN INFILTRATION
 
 #BEGIN ALIEN RESEARCH
@@ -505,6 +510,7 @@ alienMissions:
         count: 2
         trajectory: P8
         timer: 3000
+        interruptPercentage: 33
 #END ALIEN RETALIATION
 
 #BEGIN ALIEN SUPPLY

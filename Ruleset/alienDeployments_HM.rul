@@ -2230,6 +2230,7 @@ alienDeployments:
     duration: [4, 10]
     popupDelay: [1, 1]
     despawnPenalty: 2000
+    allowObjectiveRecovery: false
     objectiveType: 3
     objectivesRequired: 5
     objectiveComplete: [STR_TERROR_MISSION_SHIP_DISABLED, 500]
