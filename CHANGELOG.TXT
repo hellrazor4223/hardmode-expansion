@@ -3,6 +3,7 @@ Changelog:
 Version 0.99.9.4
  - Adjust UFO air/landed score
  - Fix Infiltration base prevention, if Battleship Attack successful
+ - Fix AlloyDroneTaser Sprite Background
 
 Version 0.99.9.3
  - Research tree Overwork so everything fits better
