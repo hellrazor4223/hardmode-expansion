@@ -90,6 +90,10 @@ extraSprites:
       177: Resources/Units/Xcom/Drones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
       199: Resources/Units/Xcom/Drones/AlloyDroneAdvancedMedikit/BigOb_AlloyDroneAdvancedMedikit_Corpse.png
       178: Resources/Units/Xcom/Drones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+      203: Resources/Units/Xcom/Drones/HoverDroneScout/BigOb_HoverDroneScout_Corpse.png
+      204: Resources/Units/Xcom/Drones/HoverDroneScanner/BigOb_HoverDroneScanner_Corpse.png
+      205: Resources/Units/Xcom/Drones/HoverDroneAdvancedMedikit/BigOb_HoverDroneAdvancedMedikit_Corpse.png
+      206: Resources/Units/Xcom/Drones/HoverDroneTaser/BigOb_HoverDroneTaser_Corpse.png
       197: Resources/Units/Xcom/AlloyTank/BigOb_TankSmoke_Weapon.png
       126: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_Canon.png
       127: Resources/Units/Xcom/AlloyTank/BigOb_AlloyTank_RocketLauncher.png
@@ -212,6 +216,10 @@ extraSprites:
       187: Resources/Units/Xcom/Drones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
       213: Resources/Units/Xcom/Drones/AlloyDroneAdvancedMedikit/FloorOb_AlloyDroneAdvancedMedikit_Corpse.png
       188: Resources/Units/Xcom/Drones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
+      217: Resources/Units/Xcom/Drones/HoverDroneScout/FloorOb_HoverDroneScout_Corpse.png
+      218: Resources/Units/Xcom/Drones/HoverDroneScanner/FloorOb_HoverDroneScanner_Corpse.png
+      219: Resources/Units/Xcom/Drones/HoverDroneAdvancedMedikit/FloorOb_HoverDroneAdvancedMedikit_Corpse.png
+      220: Resources/Units/Xcom/Drones/HoverDroneTaser/FloorOb_HoverDroneTaser_Corpse.png
       122: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_1.png
       123: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_2.png
       124: Resources/Units/Xcom/AlloyTank/FloorOb_AlloyTank_Corpse_3.png
@@ -790,6 +798,46 @@ extraSprites:
     files:
       0: Resources/Units/Xcom/Drones/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
 #END ALLOY DRONE TASER
+
+#BEGIN HOVERDRONE SCOUT
+  - type: HOVERDRONE_SCOUT.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/Drones/HoverDroneScout/SpriteSheet_HoverDroneScout.png
+#END HOVERDRONE SCOUT
+
+#BEGIN HOVERDRONE SCANNER
+  - type: HOVERDRONE_SCANNER.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/Drones/HoverDroneScanner/SpriteSheet_HoverDroneScanner.png
+#END HOVERDRONE SANNER
+
+#BEGIN HOVERDRONE ADVANCED MEDIKIT
+  - type: HOVERDRONE_ADVANCED_MEDIKIT.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/Drones/HoverDroneAdvancedMedikit/SpriteSheet_HoverDroneAdvancedMedikit.png
+#END HOVERDRONE ADVANCED MEDIKIT
+
+#BEGIN HOVERDRONE TASER
+  - type: HOVERDRONE_TASER.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/Drones/HoverDroneTaser/SpriteSheet_HoverDroneTaser.png
+#END HOVERDRONE TASER
 ##END DRONES
 
 ##BEGIN TANKS
