@@ -384,7 +384,7 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      420: Resources/Items/Xcom/TaserPistol/BulletSprite_TaserPistol.png
+      420: Resources/Items/Xcom/TaserPistol/BulletSprite_TaserPistol_Clip.png
   - type: Projectiles
     width: 105
     height: 9
@@ -428,7 +428,21 @@ extraSprites:
       875: Resources/Items/BulletSprite_PlasmaElerium.png
       910: Resources/Items/Xcom/HeavyCannon/BulletSprite_HeavyCannon_EHE.png
       945: Resources/Items/Xcom/AutoCannon/BulletSprite_AutoCannon_EHE.png
-##END PROJECTILES ##INDEX 27
+  - type: Projectiles
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      980: Resources/Items/Xcom/TaserPistol/BulletSprite_TaserPistol_Clip.png
+  - type: Projectiles
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      1005: Resources/Units/Xcom/Drones/BulletSprite_HoverDroneTaser.png
+##END PROJECTILES ##INDEX 28
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
 #BEGIN HIT
@@ -447,35 +461,43 @@ extraSprites:
 
 #BEGIN SMOKE
   - type: SMOKE.PCK
-    height: 40
     width: 384
+    height: 40
     subX: 32
     subY: 40
     files:
       8: Resources/Items/SpriteSheet_SmokeCloud.png
   - type: SMOKE.PCK
-    height: 40
     width: 320
+    height: 40
     subX: 32
     subY: 40
     files:
       56: Resources/Items/HitAnimation_PlasmaNew.png
   - type: SMOKE.PCK
-    height: 80
     width: 160
+    height: 80
     subX: 32
     subY: 40
     files:
-      100: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol.png
+      100: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol_Clip.png
       110: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
   - type: SMOKE.PCK
-    height: 40
     width: 320
+    height: 40
     subX: 32
     subY: 40
     files:
       120: Resources/Items/HitAnimation_PlasmaElerium.png
       130: Resources/Items/HitAnimation_PlasmaNewElerium.png
+  - type: SMOKE.PCK
+    width: 160
+    height: 80
+    subX: 32
+    subY: 40
+    files:
+      140: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol_Elerium_Clip.png
+      150: Resources/Units/Xcom/Drones/HitAnimation_HoverDroneTaser.png
 #END SMOKE
 
 #BEGIN X1

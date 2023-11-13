@@ -1513,7 +1513,6 @@ items:
     bigSprite: 118
     floorSprite: 113
     handSprite: 312
-    bulletSprite: 12
     fireSound: 103
     compatibleAmmo:
       - STR_TASER_PISTOL_CLIP
@@ -1539,6 +1538,7 @@ items:
     bigSprite: 119
     floorSprite: 114
     handSprite: 600
+    bulletSprite: 12
     hitSound: 54
     hitAnimation: 100
     power: 40
@@ -1557,9 +1557,10 @@ items:
     bigSprite: 201
     floorSprite: 215
     handSprite: 680
+    bulletSprite: 26
     hitSound: 54
-    hitAnimation: 100
-    power: 65
+    hitAnimation: 140
+    power: 60
     damageType: 6
     clipSize: 6
     battleType: 2
