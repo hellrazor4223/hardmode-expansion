@@ -858,7 +858,7 @@ items:
     accuracySnap: 143
     tuSnap: 30
     battleType: 1
-    clipSize: 3
+    clipSize: 4
     recover: false
     fixedWeapon: true
     arcingShot: true

@@ -4,6 +4,7 @@ Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful
  - Fix AlloyDroneTaser Sprite Background
  - Fix Alloy Drone Scout Weapon Range
+ - Fix Hovertank Smokeweapon Clipsize
  - Adjust UFO air/landed score
  - Add Taser Pistol Elerium Clip Animations
 
