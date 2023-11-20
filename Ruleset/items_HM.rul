@@ -50,7 +50,7 @@ items:
     requires:
       - STR_SUPPORT_DRONES
     size: 2
-    costBuy: 185000
+    costBuy: 250000
     costSell: 100000
     transferTime: 72
     weight: 40

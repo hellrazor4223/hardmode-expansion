@@ -5,6 +5,8 @@ Version 0.99.9.4
  - Fix AlloyDroneTaser Sprite Background
  - Fix Alloy Drone Scout Weapon Range
  - Fix Hovertank Smokeweapon Clipsize
+ - Fix SellPrice for Alloy Cannon Craftweapon
+ - Fix BuyPrice Drone Scout
  - Adjust UFO air/landed score
  - Add Taser Pistol Elerium Clip Animations
 
