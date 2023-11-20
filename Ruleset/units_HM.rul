@@ -2,6 +2,7 @@
 units:
 
 ###BEGIN XCOM TANK UNITS
+##BEGIN DRONES UNITS
 #BEGIN DRONE SCOUT UNIT
   - type: STR_DRONE_SCOUT
     race: STR_DRONE_SCOUT
@@ -239,6 +240,85 @@ units:
         - STR_ALLOY_DRONE_SMOKE_WEAPON
 #END ALLOY DRONE TASER UNIT
 
+#BEGIN HOVERDRONE SCOUT UNIT
+  - type: STR_HOVERDRONE_SCOUT
+    race: STR_HOVERDRONE_SCOUT
+    stats: &HOVERDRONE_STATS
+      tu: 90
+      stamina: 150
+      health: 90
+      bravery: 110
+      reactions: 80
+      firing: 110
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: HOVERDRONE_SCOUT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 60
+#END HOVERDRONE SCOUT UNIT
+
+#BEGIN HOVERDRONE SCANNER UNIT
+  - type: STR_HOVERDRONE_SCANNER
+    race: STR_HOVERDRONE_SCANNER
+    stats: *HOVERDRONE_STATS
+    armor: HOVERDRONE_SCANNER_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 60
+    builtInWeaponSets:
+      -
+        - STR_HOVERDRONE_SMOKE_WEAPON
+#END HOVERDRONE SCANNER UNIT
+
+#BEGIN HOVERDRONE ADVANCED MEDIKIT UNIT
+  - type: STR_HOVERDRONE_AVANCED_MEDIKIT
+    race: STR_HOVERDRONE_AVANCED_MEDIKIT
+    stats: *HOVERDRONE_STATS
+    armor: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 60
+    builtInWeaponSets:
+      -
+        - STR_HOVERDRONE_SMOKE_WEAPON
+#END HOVERDRONE ADVANCED MEDIKIT UNIT
+
+
+#BEGIN HOVERDRONE SCANNER UNIT
+  - type: STR_HOVERDRONE_TASER
+    race: STR_HOVERDRONE_TASER
+    stats: *HOVERDRONE_STATS
+    armor: HOVERDRONE_TASER_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    floatHeight: 6
+    value: 20
+    deathSound: 23
+    moveSound: 40
+    energyRecovery: 60
+    builtInWeaponSets:
+      -
+        - STR_HOVERDRONE_SMOKE_WEAPON
+#END HOVERDRONE SCANNER UNIT
+##END DRONES UNITS
+
+##BEGIN TANKS UNITS
 #BEGIN TANK CANNON UNIT
   - type: STR_TANK_CANNON
     race: STR_TANK_CANNON
@@ -489,6 +569,7 @@ units:
       -
         - STR_WALKERTANK_SMOKE_WEAPON
 #END WALKERTANK PLASMA UNIT
+##END TANKS UNITS
 ###END XCOM TANK UNITS
 
 ###BEGIN ALIEN UNITS
