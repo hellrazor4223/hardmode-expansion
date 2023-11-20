@@ -8,14 +8,14 @@ items:
     requires:
       - STR_ALLOY_CANNON
     size: 1.5
-    costSell: 45000
+    costSell: 101000
     transferTime: 48
     listOrder: 601
   - type: STR_ALLOY_CANNON_ROUNDS_X50
     requires:
       - STR_ALLOY_CANNON
     size: 0.1
-    costSell: 900
+    costSell: 10500
     transferTime: 48
     clipSize: 50
     listOrder: 602
