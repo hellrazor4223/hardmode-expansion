@@ -251,7 +251,7 @@ items:
     arcingShot: true
     invWidth: 2
     invHeight: 3
-    maxRange: 3
+    maxRange: 4
     listOrder: 1079
   - type: STR_ALLOY_DRONE_SCOUT_CORPSE
     size: 2
