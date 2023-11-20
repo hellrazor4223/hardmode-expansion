@@ -203,6 +203,104 @@ armors:
     zombiImmune: true
 #END ALLOY DRONE TASER ARMOR
 
+#BEGIN HOVERDRONE SCOUT ARMOR
+  - type: HOVERDRONE_SCOUT_ARMOR
+    spriteSheet: HOVERDRONE_SCOUT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_SCOUT_CORPSE
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: &HOVERDRONE_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.8
+      - 1.0
+      - 0.8
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+    loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE SCOUT ARMOR
+
+#BEGIN HOVERDRONE SCANNER ARMOR
+  - type: HOVERDRONE_SCANNER_ARMOR
+    spriteSheet: HOVERDRONE_SCANNER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_SCANNER_CORPSE
+    frontArmor: 110
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 80
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: *HOVERDRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE SCANNER ARMOR
+
+#BEGIN HOVERDRONE ADVANCED MEDIKIT ARMOR
+  - type: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
+    spriteSheet: HOVERDRONE_ADVANCED_MEDIKIT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_AVANCED_MEDIKIT_CORPSE
+    frontArmor: 110
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 80
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: *HOVERDRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE ADVANCED MEDIKIT ARMOR
+
+#BEGIN HOVERDRONE TASER ARMOR
+  - type: HOVERDRONE_TASER_ARMOR
+    spriteSheet: HOVERDRONE_TASER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_TASER_CORPSE
+    frontArmor: 110
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 80
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: *HOVERDRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE TASER ARMOR
+
 #BEGIN TANK CANNON ARMOR
   - type: TANK_CANNON_ARMOR
     spriteSheet: TANKS.PCK
