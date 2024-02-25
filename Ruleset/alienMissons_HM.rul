@@ -179,31 +179,31 @@ alienMissions:
         timer: 13800
       - ufo: STR_LARGE_SCOUT
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 9000
       - ufo: STR_SENTRY_SHIP
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 60
       - ufo: STR_EXCAVATOR
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 0
       - ufo: STR_TERROR_SHIP
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 60
       - ufo: STR_SUPPLY_SHIP
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 60
       - ufo: STR_LAB_SHIP
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 60
       - ufo: STR_BATTLESHIP
         count: 1
-        trajectory: P7
+        trajectory: P10
         timer: 60
         objective: true
         objectiveOnTheLandingSite: true

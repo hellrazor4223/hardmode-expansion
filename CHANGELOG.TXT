@@ -7,6 +7,7 @@ Version 0.99.9.4
  - Fix Hovertank Smokeweapon Clipsize
  - Fix SellPrice for Alloy Cannon Craftweapon
  - Fix BuyPrice Drone Scout
+ - Fix Infiltration UFO's attempting to land on water point sites
  - Adjust UFO air/landed score
  - Add Taser Pistol Elerium Clip Animations
 
