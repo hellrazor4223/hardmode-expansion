@@ -443,7 +443,7 @@ items:
 #END ALLOY DRONE TASER ITEM
 
 #BEGIN HOVERDRONE SMOKE WEAPON ITEM
-  - type: STR_HOVER_DRONE_SMOKE_WEAPON
+  - type: STR_HOVERDRONE_SMOKE_WEAPON
     weight: 5
     bigSprite: 168
     bulletSprite: 4
