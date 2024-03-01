@@ -703,7 +703,7 @@ armors:
     storeItem: STR_POWER_SUIT
     weight: -10
     stats:
-      stamina: +30
+      stamina: +25
     frontArmor: 100
     sideArmor: 80
     rearArmor: 70
@@ -732,7 +732,7 @@ armors:
     storeItem: STR_FLYING_SUIT
     weight: -10
     stats:
-      stamina: +30
+      stamina: +25
     frontArmor: 110
     sideArmor: 90
     rearArmor: 80
@@ -753,7 +753,8 @@ armors:
     weight: -10
     stats:
       tu: +10
-      stamina: +30
+      reactions: +10
+      stamina: +50
     frontArmor: 120
     sideArmor: 100
     rearArmor: 90
@@ -783,7 +784,8 @@ armors:
     weight: -10
     stats:
       tu: +10
-      stamina: +30
+      reactions: +10
+      stamina: +50
     frontArmor: 130
     sideArmor: 110
     rearArmor: 100

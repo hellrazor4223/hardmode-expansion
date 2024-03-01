@@ -9,6 +9,7 @@ Version 0.99.9.4
  - Fix BuyPrice Drone Scout
  - Fix Infiltration UFO's attempting to land on water point sites
  - Adjust UFO air/landed score
+ - Adjust Enhanced Power Armor Bonuses
  - Add Taser Pistol Elerium Clip Animations
 
 Version 0.99.9.3
