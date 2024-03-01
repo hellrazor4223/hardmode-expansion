@@ -217,7 +217,7 @@ items:
     damageType: 9
     fireSound: 113
     accuracySnap: 100
-    tuSnap: 30
+    tuSnap: 33
     battleType: 1
     clipSize: 3
     recover: false
@@ -295,6 +295,7 @@ items:
     battleType: 11
     invWidth: 2
     invHeight: 3
+    armor: 40
     recover: true
     listOrder: 4995
 #END ALLOY DRONE SCANNER ITEM
@@ -440,6 +441,185 @@ items:
     clipSize: 24
     listOrder: 1085
 #END ALLOY DRONE TASER ITEM
+
+#BEGIN HOVERDRONE SMOKE WEAPON ITEM
+  - type: STR_HOVER_DRONE_SMOKE_WEAPON
+    weight: 5
+    bigSprite: 168
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 30
+    battleType: 1
+    clipSize: 4
+    recover: false
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 5
+    listOrder: 1086
+#END HOVERDRONE SMOKE WEAPON ITEM
+
+#BEGIN HOVERDRONE SCOUT ITEM
+  - type: STR_HOVERDRONE_SCOUT
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+    size: 2
+    costSell: 200000
+    weight: 50
+    bigSprite: 168
+    bulletSprite: 4
+    hitAnimation: 56
+    power: 60
+    damageType: 9
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 30
+    battleType: 1
+    clipSize: 4
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 5
+    listOrder: 1087
+  - type: STR_HOVERDRONE_SCOUT_CORPSE
+    size: 2
+    weight: 50
+    bigSprite: 203
+    floorSprite: 217
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 100
+    recover: true
+    listOrder: 4999
+#END HOVERDRONE SCOUT ITEM
+
+#BEGIN HOVER DRONE SCANNER ITEM
+  - type: STR_HOVERDRONE_SCANNER
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    size: 2
+    costSell: 220000
+    weight: 50
+    bigSprite: 169
+    battleType: 7
+    tuUse: 5
+    flatRate: true
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    listOrder: 1088
+  - type: STR_HOVERDRONE_SCANNER_CORPSE
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    size: 2
+    weight: 50
+    bigSprite: 204
+    floorSprite: 218
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    recover: true
+    listOrder: 5000
+#END HOVERDRONE SCANNER ITEM
+
+#BEGIN HOVERDRONE ADVANCED MEDIKIT ITEM
+  - type: STR_HOVERDRONE_ADVANCED_MEDIKIT
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ADVANCED_MEDI_KIT
+    size: 2
+    costSell: 220000
+    weight: 50
+    bigSprite: 117
+    battleType: 6
+    tuUse: 5
+    invWidth: 1
+    invHeight: 2
+    painKiller: 18
+    heal: 18
+    stimulant: 18
+    woundRecovery: 1
+    healthRecovery: 6
+    stunRecovery: 6
+    energyRecovery: 15
+    flatRate: true
+    fixedWeapon: true
+    medikitTargetMatrix: 63
+    listOrder: 1089
+  - type: STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ADVANCED_MEDI_KIT
+    size: 2
+    weight: 50
+    bigSprite: 205
+    floorSprite: 219
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    recover: true
+    listOrder: 5001
+#END HOVERDRONE ADVANCED MEDIKIT ITEM
+
+#BEGIN HOVERDRONE TASER ITEM
+  - type: STR_HOVERDRONE_TASER
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    size: 2
+    costSell: 240000
+    weight: 50
+    bigSprite: 170
+    bulletSprite: 27
+    hitAnimation: 150
+    power: 90
+    damageType: 6
+    fireSound: 114
+    accuracyAuto: 90
+    tuAuto: 30
+    autoShots: 3
+    battleType: 1
+    clipSize: -1
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    maxRange: 16
+    autoRange: 12
+    dropoff: 2
+    listOrder: 1090
+  - type: STR_HOVERDRONE_TASER_CORPSE
+    requires:
+      - STR_HOVERDRONE_ARMOR
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    size: 2
+    weight: 50
+    bigSprite: 220
+    floorSprite: 206
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 80
+    recover: true
+    listOrder: 5002
+#END HOVERDRONE TASER ITEM
 
 #BEGIN TANK SMOKE WEAPON ITEM
   - type: STR_TANK_SMOKE_WEAPON
@@ -2517,7 +2697,7 @@ items:
     recoveryPoints: 1
     armor: 40
     attraction: 10
-    listOrder: 4998
+    listOrder: 5070
 #END PLASMA BLADE ITEM
 
 #BEGIN PLASMA SWORD ITEM
@@ -2548,7 +2728,7 @@ items:
     armor: 50
     recoveryPoints: 3
     attraction: 10
-    listOrder: 4999
+    listOrder: 5080
 #END PLASMA SWORD ITEM
 
 #BEGIN PLASMA PISTOL ITEM
@@ -2562,7 +2742,7 @@ items:
     snapRange: 18
     autoRange: 12
     dropoff: 2
-    listOrder: 5000
+    listOrder: 5090
   - type: STR_PLASMA_PISTOL_CLIP
     floorSprite: 189
     handSprite: 360
