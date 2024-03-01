@@ -542,7 +542,6 @@ research:
   - name: STR_HOVERTANK_DEP1
     dependencies:
       - STR_UFO_CONSTRUCTION
-      - STR_ALIEN_DATA_CORE
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_CORPSE
     unlocks:
@@ -550,7 +549,6 @@ research:
   - name: STR_HOVERTANK_DEP2
     dependencies:
       - STR_UFO_CONSTRUCTION
-      - STR_ALIEN_DATA_CORE
       - STR_ARMORED_CYBERDISC_TERRORIST
       - STR_ARMORED_CYBERDISC_CORPSE
     unlocks:
