@@ -262,7 +262,7 @@ armors:
     spriteSheet: HOVERDRONE_ADVANCED_MEDIKIT.PCK
     allowInv: false
     corpseBattle:
-      - STR_HOVERDRONE_AVANCED_MEDIKIT_CORPSE
+      - STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE
     frontArmor: 110
     sideArmor: 110
     rearArmor: 110
