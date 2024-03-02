@@ -522,6 +522,15 @@ research:
       - STR_ALIEN_DATA_SLATE
       - STR_PERSONAL_ARMOR
     listOrder: 250
+  - name: STR_HOVERDRONE_ARMOR
+    cost: 1260
+    points: 30
+    dependencies:
+      - STR_SUPPORT_DRONES
+      - STR_HOVERTANK
+      - STR_HOLODRONE_TERRORIST
+      - STR_HOLODRONE_CORPSE
+    listOrder: 251
 #END DRONES
 
 #BEGIN TANKS
@@ -540,6 +549,7 @@ research:
       - STR_HOVERTANK_DEP1
       - STR_HOVERTANK_DEP2
   - name: STR_HOVERTANK_DEP1
+    listOrder: 302
     dependencies:
       - STR_UFO_CONSTRUCTION
       - STR_CYBERDISC_TERRORIST
@@ -547,6 +557,7 @@ research:
     unlocks:
       - STR_HOVERTANK_DEP2
   - name: STR_HOVERTANK_DEP2
+    listOrder: 303
     dependencies:
       - STR_UFO_CONSTRUCTION
       - STR_ARMORED_CYBERDISC_TERRORIST
@@ -556,19 +567,20 @@ research:
   - name: STR_HWP_EBOMB_LAUNCHER
     cost: 500
     points: 15
-    listOrder: 302
+    listOrder: 304
     dependencies:
       - STR_HOVERTANK
       - STR_SMALL_LAUNCHER
       - STR_ELERIUM_BOMB
   - name: STR_WALKERTANK
-    cost: 1200
+    cost: 1440
     points: 15
-    listOrder: 303
+    listOrder: 305
     dependencies:
       - STR_WALKERTANK_DEP1
       - STR_WALKERTANK_DEP2
   - name: STR_WALKERTANK_DEP1
+    listOrder: 306
     dependencies:
       - STR_HOVERTANK
       - STR_LASER_CANNON
@@ -577,6 +589,7 @@ research:
     unlocks:
       - STR_WALKERTANK_DEP2
   - name: STR_WALKERTANK_DEP2
+    listOrder: 307
     dependencies:
       - STR_HOVERTANK
       - STR_PLASMA_CANNON
