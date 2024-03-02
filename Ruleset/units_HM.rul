@@ -251,7 +251,7 @@ units:
       reactions: 80
       firing: 100
       throwing: 0
-      strength: 50
+      strength: 60
       psiStrength: 120
       psiSkill: 0
       melee: 0

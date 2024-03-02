@@ -449,8 +449,8 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      1005: Resources/Units/Xcom/Drones/BulletSprite_HoverDroneTaser.png
-##END PROJECTILES ##INDEX 28
+      1015: Resources/Units/Xcom/Drones/BulletSprite_HoverDroneTaser.png
+##END PROJECTILES ##INDEX 298
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
 #BEGIN HIT

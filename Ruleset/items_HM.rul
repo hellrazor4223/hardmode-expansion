@@ -587,7 +587,8 @@ items:
     costSell: 240000
     weight: 50
     bigSprite: 170
-    bulletSprite: 27
+    bulletSprite: 29
+    hitSound: 54
     hitAnimation: 150
     power: 90
     damageType: 6
