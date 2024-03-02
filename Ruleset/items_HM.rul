@@ -596,6 +596,7 @@ items:
     tuAuto: 30
     autoShots: 3
     battleType: 1
+    blastRadius: 0
     clipSize: -1
     invWidth: 1
     invHeight: 2
