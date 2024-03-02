@@ -611,8 +611,8 @@ items:
       - STR_ELERIUM_115
     size: 2
     weight: 50
-    bigSprite: 220
-    floorSprite: 206
+    bigSprite: 206
+    floorSprite: 220
     battleType: 11
     invWidth: 2
     invHeight: 3
