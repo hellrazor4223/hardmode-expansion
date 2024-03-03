@@ -50,8 +50,8 @@ items:
     requires:
       - STR_SUPPORT_DRONES
     size: 2
-    costBuy: 250000
-    costSell: 100000
+    costBuy: 240000
+    costSell: 120000
     transferTime: 72
     weight: 40
     bigSprite: 168
@@ -89,7 +89,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     size: 2
-    costSell: 125000
+    costSell: 140000
     weight: 40
     bigSprite: 169
     battleType: 7
@@ -121,7 +121,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MEDI_KIT
     size: 2
-    costSell: 125000
+    costSell: 140000
     weight: 40
     bigSprite: 24
     battleType: 6
@@ -161,7 +161,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     size: 2
-    costSell: 140000
+    costSell: 160000
     weight: 40
     bigSprite: 170
     bulletSprite: 24
@@ -235,7 +235,7 @@ items:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
     size: 2
-    costSell: 160000
+    costSell: 180000
     weight: 40
     bigSprite: 168
     bulletSprite: 4
@@ -273,7 +273,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     size: 2
-    costSell: 180000
+    costSell: 200000
     weight: 40
     bigSprite: 169
     battleType: 7
@@ -307,7 +307,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MEDI_KIT
     size: 2
-    costSell: 180000
+    costSell: 200000
     weight: 40
     bigSprite: 24
     battleType: 6
@@ -349,7 +349,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ADVANCED_MEDI_KIT
     size: 2
-    costSell: 180000
+    costSell: 200000
     weight: 40
     bigSprite: 117
     battleType: 6
@@ -391,7 +391,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     size: 2
-    costSell: 200000
+    costSell: 220000
     weight: 40
     bigSprite: 170
     bulletSprite: 24
@@ -452,7 +452,7 @@ items:
     damageType: 9
     fireSound: 113
     accuracySnap: 100
-    tuSnap: 30
+    tuSnap: 25
     battleType: 1
     clipSize: 4
     recover: false
@@ -470,7 +470,7 @@ items:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
     size: 2
-    costSell: 200000
+    costSell: 240000
     weight: 50
     bigSprite: 168
     bulletSprite: 4
@@ -508,7 +508,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     size: 2
-    costSell: 220000
+    costSell: 260000
     weight: 50
     bigSprite: 169
     battleType: 7
@@ -542,7 +542,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ADVANCED_MEDI_KIT
     size: 2
-    costSell: 220000
+    costSell: 260000
     weight: 50
     bigSprite: 117
     battleType: 6
@@ -584,7 +584,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     size: 2
-    costSell: 240000
+    costSell: 280000
     weight: 50
     bigSprite: 170
     bulletSprite: 29
@@ -1038,7 +1038,7 @@ items:
     damageType: 9
     fireSound: 115
     accuracySnap: 143
-    tuSnap: 30
+    tuSnap: 25
     battleType: 1
     clipSize: 4
     recover: false
@@ -1315,7 +1315,7 @@ items:
     damageType: 9
     fireSound: 115
     accuracySnap: 143
-    tuSnap: 24
+    tuSnap: 20
     battleType: 1
     clipSize: 6
     recover: false
