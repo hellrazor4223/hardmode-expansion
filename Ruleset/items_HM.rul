@@ -479,7 +479,7 @@ items:
     damageType: 9
     fireSound: 113
     accuracySnap: 100
-    tuSnap: 30
+    tuSnap: 25
     battleType: 1
     clipSize: 4
     fixedWeapon: true
