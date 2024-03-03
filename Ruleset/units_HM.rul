@@ -258,7 +258,7 @@ units:
     armor: HOVERDRONE_SCOUT_ARMOR
     standHeight: 6
     kneelHeight: 6
-    floatHeight: 14
+    floatHeight: 16
     value: 20
     deathSound: 23
     moveSound: 40
@@ -272,7 +272,7 @@ units:
     armor: HOVERDRONE_SCANNER_ARMOR
     standHeight: 6
     kneelHeight: 6
-    floatHeight: 14
+    floatHeight: 16
     value: 20
     deathSound: 23
     moveSound: 40
@@ -289,7 +289,7 @@ units:
     armor: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
     standHeight: 6
     kneelHeight: 6
-    floatHeight: 14
+    floatHeight: 16
     value: 20
     deathSound: 23
     moveSound: 40
@@ -307,7 +307,7 @@ units:
     armor: HOVERDRONE_TASER_ARMOR
     standHeight: 6
     kneelHeight: 6
-    floatHeight: 14
+    floatHeight: 16
     value: 20
     deathSound: 23
     moveSound: 40
