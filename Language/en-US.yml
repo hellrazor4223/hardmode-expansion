@@ -41,9 +41,6 @@ en-US:
   STR_TANK_REPAIR: "HWP Repair"
   STR_TANK_REPAIR_UFOPEDIA: "After initial debate between our scientific staff and our lead engineer we decided to enact procedures to repair any destroyed HWP's as long as their remains were recovered completly from a successful groundbattle mission. The repair cost of the units are roughly 50% of there initial production cost."
 
-  STR_SUPPORT_DRONES: "Support Drones"
-  STR_SUPPORT_DRONES_UFOPEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
-
   STR_EXPLOSIVE_AMMO: "Explosive Ammunition"
   STR_EXPLOSIVE_AMMO_UFOPEDIA: "Our advanced infantry weapons, the Heavy Cannon and the Auto Cannon can now also fire explosive rounds, which do HE damage. We have supplied our main weapon contractor with the plans and scematics to make this kind of ammunition."
 
@@ -53,20 +50,29 @@ en-US:
   STR_EHE_AMMO: "Elerium Explosive Ammunition"
   STR_EHE_AMMO_UFOPEDIA: "The combination of Alien Alloys for shell casings and the newly discovered element Elerium-115, allows for more deadly area of effect explosive rounds for our conventional weapons, the Heavy Cannon and Auto Cannon. Caution is advised, when using this kind ammunition in close quarters, wearing armor is highly recommended."
 
+  STR_LASER_WEAPONS: "Laser Weapons"
+  STR_LASER_WEAPONS_UFOPEDIA: "Lasers have been known for decades. The discovery of alien alloys  and  the information about optics found in the alien data slate, allows mankind now for the first time to design practical laser weaponry. It is in most ways superior to kinetic weapons, and will help our troops in combat against the aliens."
+
   STR_ALLOY_AIRFRAME: "Alien Alloy Airframe"
   STR_ALLOY_AIRFRAME_UFOPEDIA: "With our now basic understanding on how to shape and form the newly discovered Alien Alloys, we might be able to produce new improved airframes for our aircrafts. Improving our troops transporters should be our first priority. After initial testing with the enhanced Airframes has been conducted, development for a Alien Alloy interceptor airframe can begin."
 
-  STR_ALLOY_TANK_ARMOR: "Alloy HWP Armor"
-  STR_ALLOY_TANK_ARMOR_UFOPEDIA: "The great success, we achieved with improving our air interception and air transport capabilities with Alien Alloys, was giving one of our engineering teams some great ideas on how to apply this new knowledge to our Heavy Weapon Platforms. After some initial research, we were able to enhance the armor and speed of them, using Alien Alloys. As a side effect our targetting modules could be increased, resulting in better aim and reactions for the Heavy Weapon Platforms."
+  STR_SUPPORT_DRONES: "Support Drones"
+  STR_SUPPORT_DRONES_UFOPEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
 
   STR_ALLOY_DRONE_ARMOR: "Alloy Drone Armor"
   STR_ALLOY_DRONE_ARMOR_UFOPEDIA: "Our engineers finally found a way to enhance our working procedures with alien alloys, to such a degree, that we are now able to produce our drones with an alloy armor. This will greatly increase their armor, speed and durability on the battlefield. We also were able to increase the intensity and capacity of each of the supplemental equipment. The drone scanner, medikit and taser now take less time to be operated in the field and also hold more charges. We hope that this advancement will allow to reduce our big casuality numbers further."
 
-  STR_LASER_WEAPONS: "Laser Weapons"
-  STR_LASER_WEAPONS_UFOPEDIA: "Lasers have been known for decades. The discovery of alien alloys  and  the information about optics found in the alien data slate, allows mankind now for the first time to design practical laser weaponry. It is in most ways superior to kinetic weapons, and will help our troops in combat against the aliens."
+  STR_HOVERDRONE_ARMOR: "Hoverdrone Armor"
+  STR_HOVERDRONE_ARMOR_UFOPEDIA: "Kung-Fu, the art of achieving perfection in one thing has led us to this. Refinement of our construction technics, in detail knowledge of applying and designing crafts and Heavy Weapon Platforms based on alien construction technics was needed to give our Support Drones a new edge on field - 3D mobility. As a bonus the armor has nearly the same level as those of our Hovering HWP's. Smoke screens can also be applied from within mid air within a certain range."
+
+  STR_ALLOY_TANK_ARMOR: "Alloy HWP Armor"
+  STR_ALLOY_TANK_ARMOR_UFOPEDIA: "The great success, we achieved with improving our air interception and air transport capabilities with Alien Alloys, was giving one of our engineering teams some great ideas on how to apply this new knowledge to our Heavy Weapon Platforms. After some initial research, we were able to enhance the armor and speed of them, using Alien Alloys. As a side effect our targetting modules could be increased, resulting in better aim and reactions for the Heavy Weapon Platforms."
 
   STR_HOVERTANK: "Hovering HWP's"
   STR_HOVERTANK_UFOPEDIA: "After we now successfully replicated the core design of how the alien crafts work, our research and engineering team started at the adaptation of these new technologies to our Heavy Weapon Platforms. The result allow us now to build flying Heavy Weapon Platforms, granting those higher mobility, enhanced scouting and target acquisition capabilities."
+
+  STR_WALKERTANK: "Walking HWP's"
+  STR_WALKERTANK_UFOPEDIA: "The most unbelievable thesis of how the aliens control these giant walking death machines has now been confirmed. A psionic link is established between biological alien units and these robots of death and despair over a small operational territory, in and around UFO's, alien bases or during a ongoing field mission.  We do now understand enough that we can attempt to remove this ability, by hacking a restarted and on the battelfield disabled unit, this will enable use to gain control of it and use it against its former masters! To attempt a hack we need a alive Sectopod of any kind and knowledge of its main weaponry."
 #END BRIEFINGS
 
 #BEGIN NEWS
@@ -226,6 +232,10 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Alloy Drone/Scout -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Scout -> Alloy Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Alloy Drone/Scout -> Alloy Taser"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_SCOUT: "Alloy Drone/Scout -> Hover Scout"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_SCANNER: "Alloy Drone/Scout -> Hover Scanner"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Scout -> Hover Adv. Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: "Alloy Drone/Scout -> Hover Taser"
 
   STR_ALLOY_DRONE_SCANNER: "Alloy Drone/Scanner"
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Alloy Drone Motion Scanner"
@@ -236,6 +246,10 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Alloy Drone/Scanner -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Scanner -> Alloy Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Alloy Drone/Scanner -> Alloy Taser"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_SCOUT: "Alloy Drone/Scanner -> Hover Scout"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_SCANNER: "Alloy Drone/Scanner -> Hover Scanner"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Scanner -> Hover Adv. Medikit"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: "Alloy Drone/Scanner -> Hover Taser"
 
   STR_ALLOY_DRONE_MEDIKIT: "Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
@@ -246,6 +260,10 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Medikit -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Medikit -> Alloy Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Medikit -> Alloy Taser"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_SCOUT: "Alloy Drone/Medikit -> Hover Scout"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_SCANNER: "Alloy Drone/Medikit -> Hover Scanner"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Medikit -> Hover Adv. Medikit"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: "Alloy Drone/Medikit -> Hover Taser"
 
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT: "Alloy Drone/Adv. Medikit"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "Alloy Drone Advanced Medikit"
@@ -255,6 +273,10 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Adv. Medikit -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Adv. Medikit -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Adv. Medikit -> Alloy Taser"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_SCOUT: "Alloy Drone/Adv. Medikit -> Hover Scout"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_SCANNER: "Alloy Drone/Adv. Medikit -> Hover Scanner"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Adv. Medikit -> Hover Adv. Medikit"
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "Alloy Drone/Adv. Medikit -> Hover Taser"
 
   STR_ALLOY_DRONE_TASER: "Alloy Drone/Taser"
   STR_ALLOY_DRONE_TASER_WEAPON: "Alloy Drone Taser"
@@ -267,6 +289,48 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Alloy Drone/Taser -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Alloy Drone/Taser -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Taser -> Alloy Adv. Medikit"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_SCOUT: "Alloy Drone/Taser -> Hover Scout"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_SCANNER: "Alloy Drone/Taser -> Hover Scanner"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Taser -> Hover Adv. Medikit"
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: "Alloy Drone/Taser -> Hover Taser"
+  
+  STR_HOVERDRONE_SMOKE_WEAPON: "Hoverdrone Smoke Launcher"
+  STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "Further advancing our engineering capabilities has also given us a boost in regard of the smoke pellets deploy range and capacity, which will allow for a effective way to hide before our enemies line of sight. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hoverdrones in smoke cover might attract enemy grenades."
+
+  STR_HOVERDRONE_SCOUT: "Hoverdrone/Scout"
+  STR_HOVERDRONE_SCOUT_CORPSE: "Damaged Hoverdrone/Scout"
+  STR_HOVERDRONE_SCOUT_REPAIR: "Repair Hoverdrone/Scout"
+  STR_HOVERDRONE_SCOUT_UFOPEDIA: "The scout version of our 3D maneuverable drones, features the same damage absorbtion as our floating Heavy Weapon Plattforms combined with a smaller size. Optimal for seaking out enemies in obscure or dangerous places. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
+  STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_SCANNER: "Hoverdrone/Scout -> Hover Scanner"
+  STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_ADVANCED_MEDIKIT: "Hoverdrone/Scout -> Hover Adv. Medikit"
+  STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: "Hoverdrone/Scout -> Hover Taser"
+
+  STR_HOVERDRONE_SCANNER: "Hoverdrone/Scanner"
+  STR_HOVERDRONE_SCANNER_WEAPON: "Hoverdrone Motion Scanner"
+  STR_HOVERDRONE_SCANNER_CORPSE: "Damaged Hoverdrone/Scanner"
+  STR_HOVERDRONE_SCANNER_REPAIR: "Repair Hoverdrone/Scanner"
+  STR_HOVERDRONE_SCANNER_UFOPEDIA: "Motion Scanner with 3D maneuverability - ready for use and abuse. We were able to further compensate for some of the reduced armor and the motion scanner computing system is the best we can offer. Properly used our soldiers should be able to put these to a very effective use when fighting aliens."
+  STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_SCOUT: "Hoverdrone/Scanner -> Hover Scout"
+  STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_ADVANCED_MEDIKIT: "Hoverdrone/Scanner -> Hover Adv. Medikit"
+  STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: "Hoverdrone/Scanner -> Hover Taser"
+
+  STR_HOVERDRONE_ADVANCED_MEDIKIT: "Hoverdrone/Adv. Medikit"
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: "Hoverdrone Advanced Medikit"
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: "Damaged Hoverdrone/Adv. Medikit"
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: "Repair Hoverdrone/Adv. Medikit"
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA: "The automated 3D maneuverable medic, ready for stimming, healing and reviving even in the most dangerous places, unfortunatly we had to reduce its armor. It now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit."
+  STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_SCOUT: "Hoverdrone/Adv. Medikit -> Hover Scout"
+  STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_SCANNER: "Hoverdrone/Adv. Medikit -> Hover Scanner"
+  STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "Hoverdrone/Adv. Medikit -> Hover Taser"
+
+  STR_HOVERDRONE_TASER: "Hoverdrone/Taser"
+  STR_HOVERDRONE_TASER_WEAPON: "Hoverdrone Taser"
+  STR_HOVERDRONE_TASER_CORPSE: "Damaged Hoverdrone/Taser"
+  STR_HOVERDRONE_TASER_REPAIR: "Repair Hoverdrone/Taser"
+  STR_HOVERDRONE_TASER_UFOPEDIA: "The 3D maneuvurable version of the taser armed drone is the most optimal in capturing aliens alive or incapacitate civilians in dangerous environments. Being refitted with our hovering chasis it was only natural to top into it Elerium-115 powered generator as power source for the taser module, granting it unlimited charges. To maintain autofire capability, we had to install a overcapicitor, reducing its armor. Extended taser wires allow for a even bigger range allowing us to even take out many of the aliens with ease."
+  STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_SCOUT: "Hoverdrone/Taser -> Hover Scout"
+  STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_SCANNER: "Hoverdrone/Taser -> Hover Scanner"
+  STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: "Hoverdrone/Taser -> Hover Adv. Medikit"
 #END DRONES
 
 #BEGIN TANKS
@@ -350,7 +414,7 @@ en-US:
 
   STR_WALKERTANK: "Walking HWP's"
   STR_WALKERTANK_SMOKE_WEAPON: "Walkertank Smoke Launcher"
-  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "Attaching our already advanced Smoke Launcher to converted enemy weaponry, showed some big advantages, we were able to double the ammo capacity for it. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Walkertanks are able to create an thick smoke screen between themselves or friends and any enemy unit nearby. Be advised that Walkertanks in smoke cover might attract Blaster Bombs or Grenades from the enemy."
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "Attaching our already advanced Smoke Launcher to converted enemy weaponry, showed some big advantages, we were able to nearly double the ammo capacity for it. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Walkertanks are able to create an thick smoke screen between themselves or friends and any enemy unit nearby. Be advised that Walkertanks in smoke cover might attract Blaster Bombs or Grenades from the enemy."
 
   STR_WALKERTANK_LASER: "Walkertank/Laser"
   STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"

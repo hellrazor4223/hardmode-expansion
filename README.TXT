@@ -250,6 +250,10 @@ Additional X-Com Tanks:
 	Alloy Tank Cannon
 	Alloy Tank Rocket Launcher
 	Alloy Tank Laser
+	Hoverdrone/Scout
+	Hoverdrone/Scanner
+	Hoverdrone/Adv. Medikit
+	Hoverdrone/Taser
 	Hovertank Laser
 	Hovertank Elerium Bomb
 	Walkertank Laser

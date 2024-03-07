@@ -2,7 +2,7 @@ Changelog:
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful
- - Fix AlloyDroneTaser Sprite Background
+ - Fix Alloy Drone Taser Sprite Background
  - Fix Alloy Drone Scout Weapon Range
  - Fix Hovertank Smokeweapon Clipsize
  - Fix SellPrice for Alloy Cannon Craftweapon
@@ -11,6 +11,7 @@ Version 0.99.9.4
  - Adjust UFO air/landed score
  - Adjust Enhanced Power Armor Bonuses
  - Add Taser Pistol Elerium Clip Animations
+ - Add support Hoverdrones for X-Com
 
 Version 0.99.9.3
  - Research tree Overwork so everything fits better

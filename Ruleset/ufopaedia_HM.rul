@@ -36,15 +36,6 @@ ufopaedia:
       - STR_TANK_REPAIR
     text: STR_TANK_REPAIR_UFOPEDIA
     listOrder: 31
-  - id: STR_SUPPORT_DRONES
-    requires:
-      - STR_SUPPORT_DRONES
-    type_id: 7
-    section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: SUPPORT_DRONES.SPK
-    text: STR_SUPPORT_DRONES_UFOPEDIA
-    text_width: 158
-    listOrder: 32
   - id: STR_EXPLOSIVE_AMMO
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -69,27 +60,6 @@ ufopaedia:
     text: STR_EHE_AMMO_UFOPEDIA
     text_width: 158
     listOrder: 35
-  - id: STR_ALLOY_AIRFRAME
-    type_id: 8
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ALLOY_AIRFRAME
-    text: STR_ALLOY_AIRFRAME_UFOPEDIA
-    listOrder: 36
-  - id: STR_ALLOY_TANK_ARMOR
-    type_id: 8
-    section: STR_XCOM_CRAFT_ARMAMENT
-    requires:
-      - STR_ALLOY_TANK_ARMOR
-    text: STR_ALLOY_TANK_ARMOR_UFOPEDIA
-    listOrder: 37
-  - id: STR_ALLOY_DRONE_ARMOR
-    requires:
-      - STR_ALLOY_DRONE_ARMOR
-    type_id: 8
-    section: STR_XCOM_CRAFT_ARMAMENT
-    text: STR_ALLOY_DRONE_ARMOR_UFOPEDIA
-    listOrder: 38
   - id: STR_LASER_WEAPONS
     type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
@@ -98,21 +68,58 @@ ufopaedia:
     image_id: LASER_WEAPONS.SPK
     text: STR_LASER_WEAPONS_UFOPEDIA
     text_width: 148
-    listOrder: 39
-  - id: STR_HOVERTANK
+    listOrder: 36
+  - id: STR_ALLOY_AIRFRAME
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
-      - STR_HOVERTANK
-    text: STR_HOVERTANK_UFOPEDIA
-    listOrder: 40
+      - STR_ALLOY_AIRFRAME
+    text: STR_ALLOY_AIRFRAME_UFOPEDIA
+    listOrder: 37
+  - id: STR_SUPPORT_DRONES
+    requires:
+      - STR_SUPPORT_DRONES
+    type_id: 7
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: SUPPORT_DRONES.SPK
+    text: STR_SUPPORT_DRONES_UFOPEDIA
+    text_width: 158
+    listOrder: 38
+  - id: STR_ALLOY_DRONE_ARMOR
+    requires:
+      - STR_ALLOY_DRONE_ARMOR
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_ALLOY_DRONE_ARMOR_UFOPEDIA
+    listOrder: 39
   - id: STR_HOVERDRONE_ARMOR
     type_id: 8
     section: STR_XCOM_CRAFT_ARMAMENT
     requires:
       - STR_HOVERDRONE_ARMOR
     text: STR_HOVERDRONE_ARMOR_UFOPEDIA
+    listOrder: 40
+  - id: STR_ALLOY_TANK_ARMOR
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    text: STR_ALLOY_TANK_ARMOR_UFOPEDIA
     listOrder: 41
+  - id: STR_HOVERTANK
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_HOVERTANK
+    text: STR_HOVERTANK_UFOPEDIA
+    listOrder: 42
+  - id: STR_WALKERTANK
+    type_id: 8
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_WALKERTANK
+    text: STR_WALKERTANK_UFOPEDIA
+    listOrder: 43
 #END XCOM RESEARCH REPORT UFOPAEDIAS
 
 #BEGIN XCOM NEWS UFOPAEDIAS
