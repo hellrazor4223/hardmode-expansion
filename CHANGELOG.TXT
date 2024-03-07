@@ -13,6 +13,7 @@ Version 0.99.9.4
  - Adjust Enhanced Power Armor Bonuses
  - Add Taser Pistol Elerium Clip Animations
  - Add support Hoverdrones for X-Com
+ - Add direct fire smoke acts as fire extinguisher (Smoke Grenades don't)
 
 Version 0.99.9.3
  - Research tree Overwork so everything fits better

@@ -42,6 +42,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 3
+    isFireExtinguisher: true
     listOrder: 1070
 #END DRONE SMOKE WEAPON ITEM
 
@@ -69,6 +70,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 3
+    isFireExtinguisher: true
     listOrder: 1071
   - type: STR_DRONE_SCOUT_CORPSE
     size: 2
@@ -226,6 +228,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 4
+    isFireExtinguisher: true
     listOrder: 1078
 #END ALLOY DRONE SMOKE WEAPON ITEM
 
@@ -252,6 +255,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 4
+    isFireExtinguisher: true
     listOrder: 1079
   - type: STR_ALLOY_DRONE_SCOUT_CORPSE
     size: 2
@@ -461,6 +465,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 5
+    isFireExtinguisher: true
     listOrder: 1086
 #END HOVERDRONE SMOKE WEAPON ITEM
 
@@ -487,6 +492,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 5
+    isFireExtinguisher: true
     listOrder: 1087
   - type: STR_HOVERDRONE_SCOUT_CORPSE
     size: 2
@@ -642,6 +648,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 3
+    isFireExtinguisher: true
     listOrder: 1199
 #END TANK SMOKE WEAPON ITEM
 
@@ -817,6 +824,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 4
+    isFireExtinguisher: true
     listOrder: 1501
 #END ALLOY TANK SMOKE WEAPON ITEM
 
@@ -1047,6 +1055,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 5
+    isFireExtinguisher: true
     listOrder: 1598
 #END HOVERTANK SMOKE WEAPON ITEM
 
@@ -1324,6 +1333,7 @@ items:
     invWidth: 2
     invHeight: 3
     maxRange: 5
+    isFireExtinguisher: true
     listOrder: 1801
 #END WALKERTANK SMOKE WEAPON ITEM
 
@@ -2236,6 +2246,7 @@ items:
     battleType: 2
     blastRadius: 3
     armor: 20
+    isFireExtinguisher: true
     listOrder: 3004
 #END GRENADE LAUNCHER ITEM
 
@@ -3138,6 +3149,7 @@ items:
     blastRadius: 3
     armor: 30
     attraction: 5
+    isFireExtinguisher: true
     listOrder: 5703
 #END SMALL LAUNCHER ITEM
 
