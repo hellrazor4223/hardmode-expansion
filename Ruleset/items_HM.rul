@@ -1855,6 +1855,8 @@ items:
     aimRange: 15
     snapRange: 9
     dropoff: 12
+    shotgunBehavior: 1
+    shotgunChoke: 60
   - type: STR_SHOTGUN_CLIP
     size: 0.1
     costBuy: 200
@@ -1873,6 +1875,8 @@ items:
     armor: 20
     listOrder: 2203
     shotgunPellets: 5
+    shotgunBehavior: 1
+    shotgunSpread: 60
   - type: STR_SHOTGUN_AA_CLIP
     requires:
       - STR_ALLOY_AMMO
@@ -1892,6 +1896,8 @@ items:
     armor: 30
     listOrder: 2204
     shotgunPellets: 5
+    shotgunBehavior: 1
+    shotgunSpread: 60
 #END SHOTGUN ITEM
 
 #BEGIN SNIPER RIFLE ITEM
@@ -2367,6 +2373,9 @@ items:
     invWidth: 1
     invHeight: 3
     shotgunPellets: 5
+    shotgunBehavior: 1
+    shotgunChoke: 70
+    shotgunSpread: 40
     listOrder: 3601
     armor: 30
     maxRange: 20
@@ -2861,6 +2870,8 @@ items:
     snapRange: 13
     autoRange: 9
     dropoff: 6
+    shotgunBehavior: 1
+    shotgunChoke: 80
   - type: STR_PLASMA_SHOTGUN_CLIP
     requires:
       - STR_PLASMA_SHOTGUN_CLIP
@@ -2881,6 +2892,8 @@ items:
     armor: 30
     attraction: 10
     shotgunPellets: 6
+    shotgunBehavior: 1
+    shotgunSpread: 50
     listOrder: 5303
   - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     requires:
@@ -2902,6 +2915,8 @@ items:
     armor: 30
     attraction: 10
     shotgunPellets: 6
+    shotgunBehavior: 1
+    shotgunSpread: 60
     listOrder: 5304
 #END PLASMA SHOTGUN ITEM
 
