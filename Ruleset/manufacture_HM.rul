@@ -3374,8 +3374,7 @@ manufacture:
   - name: STR_PLASMA_PISTOL
     requires:
       - STR_PLASMA_PISTOL
-      - STR_PLASMA_PISTOL_MANU_UNLOCK1
-      - STR_PLASMA_PISTOL_MANU_UNLOCK2
+      - STR_PLASMA_PISTOL_MANU_UNLOCK
     listOrder: 1500
   - name: STR_PLASMA_PISTOL_CLIP
     requires:
@@ -3400,8 +3399,7 @@ manufacture:
     category: STR_WEAPON
     requires:
       - STR_PLASMA_RIFLE
-      - STR_PLASMA_RIFLE_MANU_UNLOCK1
-      - STR_PLASMA_RIFLE_MANU_UNLOCK2
+      - STR_PLASMA_RIFLE_MANU_UNLOCK
     space: 4
     time: 820
     cost: 88000
@@ -3431,8 +3429,7 @@ manufacture:
     category: STR_WEAPON
     requires: 
       - STR_PLASMA_SHOTGUN
-      - STR_PLASMA_SHOTGUN_MANU_UNLOCK1
-      - STR_PLASMA_SHOTGUN_MANU_UNLOCK2
+      - STR_PLASMA_SHOTGUN_MANU_UNLOCK
     space: 5
     time: 840
     cost: 96000
@@ -3468,8 +3465,7 @@ manufacture:
     category: STR_WEAPON
     requires:
       - STR_PLASMA_SNIPER_RIFLE
-      - STR_PLASMA_SNIPER_RIFLE_MANU_UNLOCK1
-      - STR_PLASMA_SNIPER_RIFLE_MANU_UNLOCK2
+      - STR_PLASMA_SNIPER_RIFLE_MANU_UNLOCK
     space: 4
     time: 890
     cost: 102000
@@ -3503,8 +3499,7 @@ manufacture:
     category: STR_WEAPON
     requires:
       - STR_HEAVY_PLASMA
-      - STR_HEAVY_PLASMA_MANU_UNLOCK1
-      - STR_HEAVY_PLASMA_MANU_UNLOCK2
+      - STR_HEAVY_PLASMA_MANU_UNLOCK
     space: 4
     time: 1000
     cost: 122000

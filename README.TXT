@@ -3,17 +3,25 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v7.9 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v7.11 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
-README for Version 0.99.9.4
+README for Version 0.99.9.5
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
 ##################################################
 
 About this mod:
+My Personal approach on creating a sort of Long War Mod for the Original UFO - Defense.
+I originally created it as a player torture device *evilgrin*, but it turned out to be a Mod people like to play because of the challenge it offers.
+When designing this Mod, I decided to stick on the core Vanilla Original Game Principles and create basically a Expansion Pack, which
+offers a much better Research Tree, a Economy were you need money desperately, where you will face difficult decisions and set backs during your campaign.
+All this has been enriched with a lot of additional Weapons and Tanks, which all have a unique use case.
+Enemies, which will give a Nightmare during your dreams (at least I hope so, *grin*).
+Its a LONG war to free earth (ingame time: 14-16 Months). So are you ready for the ride?
+
 This mod intends to make the gameplay more challenging and deals with
 most of vanilla versions flaws, like overpowered Psi and early Plasma ownage.
 It sticks strongly towards the vanilla core components and builts upon them.
@@ -70,7 +78,7 @@ Compability to other mods:
 	This mod is intended to be a Standalone Mod.
 	Mods which only add new Items and New Crafts may not pose a problem.
 	UFO Extender Accuracy (Full support)
-	High Quality Sounds (http://www.openxcom.com/mod/high-quality-sounds) from Daedalus
+	High Quality Sounds (https://mod.io/g/openxcom/m/hqsounds-by-daedalus) from Daedalus
 
 Not compatible:
 	Commendations Mod (already integrated)
@@ -87,7 +95,7 @@ Not compatible:
 The list of included Mods is pretty big (60+) see Features.
 Mostly Graphics, New Units, Terrains and Weapons.
 
-Recommended Advanced Options: (In OXCE this options are enabled when loading the mod for the first time)
+Recommended Advanced Options: (In OXCE this options are enabled automatically when loading the mod for the first time)
 	Save Preprimed Grenades (for Smoke Grenades)
 	Alternate Movement Methods (to fight faster)
 	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
@@ -248,13 +256,15 @@ Additional X-Com Tanks:
 	Alloy Drone/Medikit
 	Alloy Drone/Adv. Medikit
 	Alloy Drone/Taser
-	Alloy Tank Cannon
-	Alloy Tank Rocket Launcher
-	Alloy Tank Laser
 	Hoverdrone/Scout
 	Hoverdrone/Scanner
 	Hoverdrone/Adv. Medikit
 	Hoverdrone/Taser
+
+Additional X-Com Tanks:
+	Alloy Tank Cannon
+	Alloy Tank Rocket Launcher
+	Alloy Tank Laser
 	Hovertank Laser
 	Hovertank Elerium Bomb
 	Walkertank Laser
@@ -262,8 +272,7 @@ Additional X-Com Tanks:
 
 Hovertank Launcher Ammo does 200 damage instead of 140
 
-Drones can be upgraded, repaired and refitted.
-Tanks can be repaired and upgraded.
+Drones and Tanks can be upgraded, repaired and refitted.
 Tanks and Drones do have a weak Smoke Launcher for instant LOS block with limited range and limited shots.
 
 Additional X-Com Armor:
@@ -356,9 +365,9 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 Currently Supported Languages:
 	English		US (en-US)
 	English		UK (en-GB)
+	Japanese JA (ja)	
 
 Partially Supported Languages (50%+):
-	Japanese	JA (ja)
 	Russian		RU (ru)
 	Italien		IT (it)
 	Polish		PL (pl)
@@ -372,13 +381,6 @@ Partially Supported Languages (50%+):
 
 	If you want to help translating this Mod or any other OpenXcom Mods, take a look at:
 	https://www.transifex.com/openxcom/openxcom-mods/content/
-
-Future planned additions:
-	More translations
-	Some 20x20 Maps Modules for Mars Terrain
-	Armed Humans for Terrormissions and Other Missions
-	Special Mission to aquire the Alien Data Slate (not done)
-	Special Mission to aquire the Alien Data Core (not done) 
 
 Licence Notice:
 	All content from Hobbes Terrain Pack Mod Version 4.3 is under a Creatvie Common Licence!
