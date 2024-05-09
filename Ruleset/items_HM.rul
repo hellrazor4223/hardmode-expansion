@@ -2630,7 +2630,7 @@ items:
     listOrder: 4301
 #END ADVANCED MEDI KIT ITEM
 
-#BEGIN PSI AMP
+#BEGIN PSI AMP ITEM
   - delete: STR_PSI_AMP
   - type: STR_PSI_AMP
     requires:
@@ -2654,7 +2654,7 @@ items:
       energy: 25
     flatRate: true
     listOrder: 4400
-#END PSI AMP
+#END PSI AMP ITEM
 
 #BEGIN ELERIUM STUN ROD ITEM
   - type: STR_ELERIUM_STUN_ROD
@@ -2684,7 +2684,39 @@ items:
   - type: STR_ELECTRO_FLARE
     handSprite: 320
     armor: 10
+    listOrder: 4600
 #END ELECTRO FLARE ITEM
+
+#BEGIN FIRE XTINGUISHER ITEM
+  - type: STR_FIRE_EXTINGUISHER
+    size: 0.2
+    costBuy: 700
+    costSell: 420
+    weight: 5
+    bigSprite: 220
+    floorSprite: 234
+    handSprite: 696
+    bulletSprite: 1
+    fireSound: 116
+    explosionHitSound: 116
+    hitAnimation: 72
+    power: 40
+    accuracyAimed: 100
+    tuAimed: 10
+    damageType: 9
+    damageAlter:
+      RandomType: 4
+      FixRadius: 3
+    battleType: 1
+    clipSize: 3
+    isFireExtinguisher: true
+    arcingShot: true
+    maxRange: 2
+    invWidth: 2
+    invHeight: 2
+    bulletSpeed: 80
+    listOrder: 4601
+#END FIRE EXTINGUISHER ITEM
 ##END XCOM WEAPON ITEMS
 ###END XCOM ITEMS
 
@@ -4233,7 +4265,7 @@ items:
 ###END ALIEN ITEMS
 
 ###BEGIN CIVILIAN ITEMS
-##BEGIN MALE ITEMS
+##BEGIN MALE CIVILIAN ITEMS
 #BEGIN MALE CIVILIAN 2 ITEM
   - type: MALE_CIVILIAN2_CORPSE
     name: STR_CORPSE
@@ -4371,11 +4403,11 @@ items:
     battleType: 11
     armor: 12
     recover: false
-    listOrder: 9100
+    listOrder: 9410
 #END MALE CIVILIAN 11 ITEM
-##END MALE ITEMS
+##END MALE CIVILIAN ITEMS
 
-##BEGIN FEMALE ITEMS
+##BEGIN FEMALE CIVILIAN ITEMS
 #BEGIN FEMALE CIVILIAN 2 ITEM
   - type: FEMALE_CIVILIAN2_CORPSE
     name: STR_CORPSE
@@ -4501,6 +4533,190 @@ items:
     recover: false
     listOrder: 9509
 #END FEMALE CIVILIAN 10 ITEM
-##END FEMALE ITEMS
+##END FEMALE CIVILIAN ITEMS
+
+##BEGIN ARMED CIVILIAN ITEMS
+#BEGIN FIREFIGHTER 0 ITEM
+  - type: FIREFIGHTER0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 207
+    floorSprite: 221
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9551
+#END FIREFIGHTER 0 ITEM
+
+#BEGIN PARAMEDIC 0 ITEM
+  - type: PARAMEDIC0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 208
+    floorSprite: 222
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9552
+#END PARAMEDIC 0 ITEM
+
+#BEGIN POLICE FEMALE 0 ITEM
+  - type: POLICE_FEMALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 209
+    floorSprite: 223
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9553
+#END POLICE FEMALE 0 ITEM
+
+#BEGIN POLICE MALE 0 ITEM
+  - type: POLICE_MALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 210
+    floorSprite: 224
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9554
+#END POLICE MALE 0 ITEM
+
+#BEGIN POLICE SWAT FEMALE 0 ITEM
+  - type: POLICE_SWAT_FEMALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 211
+    floorSprite: 225
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9555
+#END POLICE SWAT FEMALE 0 ITEM
+
+#BEGIN POLICE SWAT MALE 0 ITEM
+  - type: POLICE_SWAT_MALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 212
+    floorSprite: 226
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9556
+#END POLICE MALE 0 ITEM
+
+#BEGIN SCIENTIST FEMALE 0 ITEM
+  - type: SCIENTIST_FEMALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 213
+    floorSprite: 227
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9557
+#END SCIENTIST FEMALE 0 ITEM
+
+#BEGIN SOLDIER FEMALE GREEN 0 ITEM
+  - type: SOLDIER_FEMALE_GREEN0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 214
+    floorSprite: 228
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9558
+#END SOLDIER FEMALE GREEN 0 ITEM
+
+#BEGIN SOLDIER FEMALE GREEN 1 ITEM
+  - type: SOLDIER_FEMALE_GREEN1_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 215
+    floorSprite: 229
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9559
+#END SOLDIER FEMALE GREEN 1 ITEM
+
+#BEGIN SOLDIER MALE GREEN 0 ITEM
+  - type: SOLDIER_MALE_GREEN0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 216
+    floorSprite: 230
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9560
+#END SOLDIER MALE GREEN 0 ITEM
+
+#BEGIN SOLDIER MALE GREEN 1 ITEM
+  - type: SOLDIER_MALE_GREEN1_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 217
+    floorSprite: 231
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9561
+#END SOLDIER MALE GREEN 1 ITEM
+
+#BEGIN SOLDIER MALE GREEN 2 ITEM
+  - type: SOLDIER_MALE_GREEN2_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 218
+    floorSprite: 232
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9562
+#END SOLDIER MALE GREEN 2 ITEM
+
+#BEGIN SOLDIER MALE GREEN 3 ITEM
+  - type: SOLDIER_MALE_GREEN3_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 219
+    floorSprite: 233
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9563
+#END SOLDIER MALE GREEN 3 ITEM
+##END ARMED CIVILIAN ITEMS
 ###END CIVILIAN ITEMS
 ####END ITEMS

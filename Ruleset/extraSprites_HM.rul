@@ -52,6 +52,7 @@ extraSprites:
       116: Resources/Items/Xcom/MediKit/BigOb_MediKit.png
       117: Resources/Items/Xcom/AdvancedMediKit/BigOb_AdvancedMediKit.png
       200: Resources/Items/Xcom/EleriumStunRod/BigOb_EleriumStunRod.png
+      220: Resources/Items/XCom/FireExtinguisher/BigOb_FireExtinguisher.png
       161: Resources/Items/Alien/PlasmaBlade/BigOb_PlasmaBlade.png
       162: Resources/Items/Alien/PlasmaSword/BigOb_PlasmaSword.png
       192: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol_Elerium_Clip.png
@@ -128,6 +129,19 @@ extraSprites:
       189: Resources/Units/Civilian/FemaleCivilian8/BigOb_FemaleCivilian8_Corpse.png
       190: Resources/Units/Civilian/FemaleCivilian9/BigOb_FemaleCivilian9_Corpse.png
       191: Resources/Units/Civilian/FemaleCivilian10/BigOb_FemaleCivilian10_Corpse.png
+      207: Resources/Units/Civilian/Firefighter0/BigOb_Firefighter0_Corpse.png
+      208: Resources/Units/Civilian/Paramedic0/BigOb_Paramedic0_Corpse.png
+      209: Resources/Units/Civilian/PoliceFemale0/BigOb_PoliceFemale0_Corpse.png
+      210: Resources/Units/Civilian/PoliceMale0/BigOb_PoliceMale0_Corpse.png
+      211: Resources/Units/Civilian/PoliceSwatFemale0/BigOb_PoliceSwatFemale0_Corpse.png
+      212: Resources/Units/Civilian/PoliceSwatMale0/BigOb_PoliceSwatMale0_Corpse.png
+      213: Resources/Units/Civilian/ScientistFemale0/BigOb_ScientistFemale0_Corpse.png
+      214: Resources/Units/Civilian/SoldierFemaleGreen0/BigOb_SoldierFemaleGreen0_Corpse.png
+      215: Resources/Units/Civilian/SoldierFemaleGreen1/BigOb_SoldierFemaleGreen1_Corpse.png
+      216: Resources/Units/Civilian/SoldierMaleGreen0/BigOb_SoldierMaleGreen0_Corpse.png
+      217: Resources/Units/Civilian/SoldierMaleGreen1/BigOb_SoldierMaleGreen1_Corpse.png
+      218: Resources/Units/Civilian/SoldierMaleGreen2/BigOb_SoldierMaleGreen2_Corpse.png
+      219: Resources/Units/Civilian/SoldierMaleGreen3/BigOb_SoldierMaleGreen3_Corpse.png
 #END UNIT BIGOBS
 ##END BIGOBS
 
@@ -178,6 +192,7 @@ extraSprites:
       111: Resources/Items/Xcom/MediKit/FloorOb_MediKit.png
       112: Resources/Items/Xcom/AdvancedMediKit/FloorOb_AdvancedMediKit.png
       214: Resources/Items/Xcom/EleriumStunRod/FloorOb_EleriumStunRod.png
+      234: Resources/Items/XCom/FireExtinguisher/FloorOb_FireExtinguisher.png
       166: Resources/Items/Alien/PlasmaBlade/FloorOb_PlasmaBlade.png
       167: Resources/Items/Alien/PlasmaSword/FloorOb_PlasmaSword.png
       189: Resources/Items/Alien/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
@@ -268,6 +283,19 @@ extraSprites:
       201: Resources/Units/Civilian/FemaleCivilian8/FloorOb_FemaleCivilian8_Corpse.png
       202: Resources/Units/Civilian/FemaleCivilian9/FloorOb_FemaleCivilian9_Corpse.png
       203: Resources/Units/Civilian/FemaleCivilian10/FloorOb_FemaleCivilian10_Corpse.png
+      221: Resources/Units/Civilian/Firefighter0/FloorOb_Firefighter0_Corpse.png
+      222: Resources/Units/Civilian/Paramedic0/FloorOb_Paramedic0_Corpse.png
+      223: Resources/Units/Civilian/PoliceFemale0/FloorOb_PoliceFemale0_Corpse.png
+      224: Resources/Units/Civilian/PoliceMale0/FloorOb_PoliceMale0_Corpse.png
+      225: Resources/Units/Civilian/PoliceSwatFemale0/FloorOb_PoliceSwatFemale0_Corpse.png
+      226: Resources/Units/Civilian/PoliceSwatMale0/FloorOb_PoliceSwatMale0_Corpse.png
+      227: Resources/Units/Civilian/ScientistFemale0/FloorOb_ScientistFemale0_Corpse.png
+      228: Resources/Units/Civilian/SoldierFemaleGreen0/FloorOb_SoldierFemaleGreen0_Corpse.png
+      229: Resources/Units/Civilian/SoldierFemaleGreen1/FloorOb_SoldierFemaleGreen1_Corpse.png
+      230: Resources/Units/Civilian/SoldierMaleGreen0/FloorOb_SoldierMaleGreen0_Corpse.png
+      231: Resources/Units/Civilian/SoldierMaleGreen1/FloorOb_SoldierMaleGreen1_Corpse.png
+      232: Resources/Units/Civilian/SoldierMaleGreen2/FloorOb_SoldierMaleGreen2_Corpse.png
+      233: Resources/Units/Civilian/SoldierMaleGreen3/FloorOb_SoldierMaleGreen3_Corpse.png
 #END UNIT FLOOROB
 ##END FLOOROB
 
@@ -336,6 +364,7 @@ extraSprites:
       304: Resources/Items/Xcom/AdvancedMediKit/HandOb_Advanced_MediKit.png
       672: Resources/Items/Xcom/EleriumStunRod/HandOb_EleriumStunRod.png
       320: Resources/Items/Xcom/ElectroFlare/HandOb_ElectroFlare.png
+      696: Resources/Items/XCom/FireExtinguisher/HandOb_FireExtinguisher.png
       496: Resources/Items/Alien/PlasmaBlade/HandOb_PlasmaBlade.png
       504: Resources/Items/Alien/PlasmaSword/HandOb_PlasmaSword.png
       360: Resources/Items/Alien/PlasmaPistol/HandOb_PlasmaPistol_Clip.png
@@ -517,6 +546,7 @@ extraSprites:
     files:
       56: Resources/Items/SpriteSheet_SmokeExplosion.png
       64: Resources/Items/SpriteSheet_StunExplosion.png
+      72: Resources/Items/XCom/FireExtinguisher/SpriteSheet_FireExtinguisherExplosion.png
 #END X1
 ##END HIT & EXPLOSTION ANIMATIONS
 
@@ -1200,7 +1230,6 @@ extraSprites:
       0: Resources/Units/Civilian/MaleCivilian11/SpriteSheet_MaleCivilian11.png
 #END MALE CIVILIAN
 
-
 #BEGIN FEMALE CIVILIAN
   - type: FEMALE_CIVILIAN2.PCK
     width: 512
@@ -1266,6 +1295,100 @@ extraSprites:
     files:
       0: Resources/Units/Civilian/FemaleCivilian10/SpriteSheet_FemaleCivilian10.png
 #END FEMALE CIVILIAN
+
+#BEGIN ARMED CIVILIAN
+  - type: FIREFIGHTER0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/Firefighter0/Spritesheet_Firefighter0.png
+  - type: PARAMEDIC0.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/Paramedic0/Spritesheet_Paramedic0.png
+  - type: POLICE_FEMALE0.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/PoliceFemale0/Spritesheet_PoliceFemale0.png
+  - type: POLICE_MALE0.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: ../Resources/Units/Civilian/PoliceMale0/Spritesheet_PoliceMale0.png
+  - type: POLICE_SWAT_FEMALE0
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/PoliceSwatFemale0/SpriteSheet_PoliceSwatFemale0.png
+  - type: POLICE_SWAT_MALE0
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/PoliceSwatMale0/SpriteSheet_PoliceSwatMale0.png
+  - type: SCIENTIST_FEMALE0
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/ScientistFemale0/Spritesheet_ScientistFemale0.png
+  - type: SOLDIER_FEMALE_GREEN0
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/SoldierFemaleGreen0/Spritesheet_SoldierFemaleGreen0.png
+  - type: SOLDIER_FEMALE_GREEN1
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/SoldierFemaleGreen1/Spritesheet_SoldierFemaleGreen1.png
+  - type: SOLDIER_MALE_GREEN0
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/SoldierMaleGreen0/Spritesheet_SoldierMaleGreen0.png
+  - type: SOLDIER_MALE_GREEN1
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/SoldierMaleGreen1/Spritesheet_SoldierMaleGreen1.png
+  - type: SOLDIER_MALE_GREEN2
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/SoldierMaleGreen2/Spritesheet_SoldierMaleGreen2.png
+  - type: SOLDIER_MALE_GREEN3
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian/SoldierMaleGreen3/Spritesheet_SoldierMaleGreen3.png
+#END ARMED CIVILIAN
 ##END CIVILIANS
 
 ##BEGIN ARMOR INVENTORY PICS

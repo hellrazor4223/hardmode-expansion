@@ -1675,5 +1675,238 @@ armors:
     loftempsSet: [ 3 ]
 #END FEMALE CIVILIAN 10 ARMOR
 ##END FEMALE CIVILIAN ARMOR
+
+##BEGIN ARMED CIVILIAN ARMOR
+#BEGIN FIREFIGHTER 0 ARMOR
+  - type: FIREFIGHTER0_ARMOR
+    spriteSheet: FIREFIGHTER0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - FIREFIGHTER0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: &ARMED_CIVILIAN_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+#END FIREFIGHTER 0 ARMOR
+
+#BEGIN PARAMEDIC 0 ARMOR
+  - type: PARAMEDIC0_ARMOR
+    spriteSheet: PARAMEDIC0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - PARAMEDIC0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END PARAMEDIC 0 ARMOR
+
+#BEGIN POLICE FEMALE 0 ARMOR
+  - type: POLICE_FEMALE0_ARMOR
+    spriteSheet: POLICE_FEMALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - POLICE_FEMALE0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END POLICE FEMALE 0 ARMOR
+
+#BEGIN POLICE MALE 0 ARMOR
+  - type: POLICE_MALE0_ARMOR
+    spriteSheet: POLICE_MALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - POLICE_MALE0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END POLICE MALE 0 ARMOR
+
+#BEGIN POLICE SWAT FEMALE 0 ARMOR
+  - type: POLICE_SWAT_FEMALE0_ARMOR
+    spriteSheet: POLICE_SWAT_FEMALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - POLICE_SWAT_FEMALE0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END POLICE SWAT FEMALE 0 ARMOR
+
+#BEGIN POLICE SWAT MALE 0 ARMOR
+  - type: POLICE_SWAT_MALE0_ARMOR
+    spriteSheet: POLICE_SWAT_MALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - POLICE_SWAT_MALE0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END POLICE SWAT MALE 0 ARMOR
+
+#BEGIN SCIENTIST FEMALE 0 ARMOR
+  - type: SCIENTIST_FEMALE0_ARMOR
+    spriteSheet: SCIENTIST_FEMALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SCIENTIST_FEMALE0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SCIENTIST FEMALE 0 ARMOR
+
+#BEGIN SOLDIER FEMALE GREEN 0 ARMOR
+  - type: SOLDIER_FEMALE_GREEN0_ARMOR
+    spriteSheet: SOLDIER_FEMALE_GREEN0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SOLDIER_FEMALE_GREEN0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SOLDIER FEMALE GREEN 0 ARMOR
+
+#BEGIN SOLDIER FEMALE GREEN 1 ARMOR
+  - type: SOLDIER_FEMALE_GREEN1_ARMOR
+    spriteSheet: SOLDIER_FEMALE_GREEN1.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SOLDIER_FEMALE_GREEN1_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SOLDIER FEMALE GREEN 1 ARMOR
+
+#BEGIN SOLDIER MALE GREEN 0 ARMOR
+  - type: SOLDIER_MALE_GREEN0_ARMOR
+    spriteSheet: SOLDIER_MALE_GREEN0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SOLDIER_MALE_GREEN0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SOLDIER MALE GREEN 0 ARMOR
+
+#BEGIN SOLDIER MALE GREEN 1 ARMOR
+  - type: SOLDIER_MALE_GREEN1_ARMOR
+    spriteSheet: SOLDIER_MALE_GREEN1.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SOLDIER_MALE_GREEN1_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SOLDIER MALE GREEN 1 ARMOR
+
+#BEGIN SOLDIER MALE GREEN 2 ARMOR
+  - type: SOLDIER_MALE_GREEN2_ARMOR
+    spriteSheet: SOLDIER_MALE_GREEN2.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SOLDIER_MALE_GREEN2_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SOLDIER MALE GREEN 2 ARMOR
+
+#BEGIN SOLDIER MALE GREEN 3 ARMOR
+  - type: SOLDIER_MALE_GREEN3_ARMOR
+    spriteSheet: SOLDIER_MALE_GREEN3.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    allowInv: false
+    corpseBattle:
+      - SOLDIER_MALE_GREEN0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END SOLDIER MALE GREEN 3 ARMOR
+##END ARMED CIVILIAN ARMOR
 ###END CIVILIAN ARMORS
 ####END ARMORS

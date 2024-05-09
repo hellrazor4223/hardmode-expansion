@@ -560,6 +560,9 @@ en-US:
   STR_FIRE_GRENADE: "Fire Grenade"
   STR_FIRE_GRENADE_UFOPEDIA: "A refitted fire bomb, which can now be thrown like a grenade.Incendiary of the alien kind. We need fire bombs to produce it."
 
+  STR_FIRE_EXTINGUISHER: "Fire Extinguisher"
+  STR_FIRE_EXTINGUISHER_UFOPEDIA: "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations. It is not intended for use on an out-of-control fire, such as one which has reached the ceiling, endangers the user (i.e. no escape route, smoke, explosion hazard, etc.), or otherwise requires the expertise of a fire brigade."
+
   STR_PLASMA_BLADE: "Plasma Blade"
   STR_PLASMA_BLADE_UFOPEDIA: "This device, essentially an alien combat knife, features a blade sharpened to a monomolecular edge. A magnetic envelope engulfs this blade in a plasma field, giving it the ability to rip through the heat-resistant ceramic inserts in modern body armour."
   STR_PLASMA_SWORD: "Plasma Sword"
@@ -1190,6 +1193,36 @@ en-US:
   FEMALE_CIVILIAN9: "Civilian"
   FEMALE_CIVILIAN10: "Civilian"
 #END CIVLIAN NAMES
+
+#BEGIN ARMED CIVILIAN NAMES
+  STR_FIREFIGHTER0: "Firefighter"
+  STR_PARAMEDIC0: "Paramedic"
+  STR_POLICE_MALE0: "Police Officer"
+  STR_POLICE_FEMALE0: "Police Officer"
+  STR_POLICE_SWAT_MALE0: "Police SWAT Officer"
+  STR_POLICE_SWAT_FEMALE0: "Police SWAT Officer"
+  STR_SCIENTIST_FEMALE0: "Crazy Scientist"
+  STR_SOLDIER_FEMALE_GREEN0: "Army Soldier"
+  STR_SOLDIER_FEMALE_GREEN1: "Army Soldier"
+  STR_SOLDIER_MALE_GREEN0: "Army Soldier"
+  STR_SOLDIER_MALE_GREEN1: "Army Soldier"
+  STR_SOLDIER_MALE_GREEN2: "Army Soldier"
+  STR_SOLDIER_MALE_GREEN3: "Army Soldier"
+
+  FIREFIGHTER0_CORPSE: "Corpse"
+  PARAMEDIC0_CORPSE: "Corpse"
+  POLICE_MALE0_CORPSE: "Corpse"
+  POLICE_FEMALE0_CORPSE: "Corpse"
+  POLICE_SWAT_MALE0_CORPSE: "Corpse"
+  POLICE_SWAT_FEMALE0_CORPSE: "Corpse"
+  SCIENTIST_FEMALE0_CORPSE: "Corpse"
+  SOLDIER_FEMALE_GREEN0_CORPSE: "Corpse"
+  SOLDIER_FEMALE_GREEN1_CORPSE: "Corpse"
+  SOLDIER_MALE_GREEN0_CORPSE: "Corpse"
+  SOLDIER_MALE_GREEN1_CORPSE: "Corpse"
+  SOLDIER_MALE_GREEN2_CORPSE: "Corpse"
+  SOLDIER_MALE_GREEN3_CORPSE: "Corpse"
+#END ARMED CIVILIAN NAMES
 
 #BEGIN NEW REGIONS
   STR_NORTH_PACIFIC: "North Pacific"

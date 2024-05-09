@@ -1992,6 +1992,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - URBAN
       - MADURBAN
@@ -2020,6 +2027,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - URBAN_SNOW
       - MADURBAN_SNOW
@@ -2048,6 +2062,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - DAWNURBANA
       - DAWNURBANB
@@ -2076,6 +2097,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - EXPANDED_URBAN_MIX
       - PORTURBAN
@@ -2105,6 +2133,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - PORTURBAN
       - PORTTFTD
@@ -2134,6 +2169,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - NATIVEURBAN
     alert: STR_ALIENS_TERRORISE
@@ -2159,6 +2201,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - ISLANDURBAN
     alert: STR_ALIENS_TERRORISE
@@ -2184,6 +2233,16 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 2
+      STR_PARAMEDIC0: 2
+      STR_SCIENTIST_FEMALE0: 2
+      STR_SOLDIER_FEMALE_GREEN0: 1
+      STR_SOLDIER_FEMALE_GREEN1: 1
+      STR_SOLDIER_MALE_GREEN0: 1
+      STR_SOLDIER_MALE_GREEN1: 1
+      STR_SOLDIER_MALE_GREEN2: 1
+      STR_SOLDIER_MALE_GREEN3: 1
     terrains:
       - AIRFIELD1
       - AIRFIELD2
@@ -2216,6 +2275,9 @@ alienDeployments:
     length: 70
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
     terrains:
       - CARGOSHIP
 #      - LINERSHIP
@@ -2249,6 +2311,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
+    civiliansByType:
+      STR_FIREFIGHTER0: 1
+      STR_PARAMEDIC0: 1
+      STR_POLICE_MALE0: 1
+      STR_POLICE_FEMALE0: 1
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_FEMALE0: 2
     terrains:
       - PORTCARGOSHIP
       - PORTLINERSHIP

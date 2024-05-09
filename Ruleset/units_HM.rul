@@ -1529,17 +1529,17 @@ units:
 ###END ALIENS UNITS
 
 ###BEGIN CIVILIAN UNITS
-##BEGIN MALE UNITS
-#BEGIN MALE CIV UNIT
+##BEGIN MALE CIVILIAN UNITS
+#BEGIN MALE CIVILIAN UNIT
   - type: MALE_CIVILIAN
     value: 30
-#END MALE CIV UNIT
+#END MALE CIVILIAN UNIT
 
-##BEGIN MALE CIV 2 UNIT
+##BEGIN MALE CIVILIAN 2 UNIT
   - type: MALE_CIVILIAN2 #Rocker
     race: STR_CIVILIAN
     stats: &CIVILIAN_STATS
-      tu: 35
+      tu: 45
       stamina: 65
       health: 30
       bravery: 80
@@ -1557,9 +1557,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 2 UNIT
+#END MALE CIVILIAN 2 UNIT
 
-#BEGIN MALE CIV 3 UNIT
+#BEGIN MALE CIVILIAN 3 UNIT
   - type: MALE_CIVILIAN3 #BlackVestWhiteShirt
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1570,9 +1570,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 3 UNIT
+#END MALE CIVILIAN 3 UNIT
 
-#BEGIN MALE CIV 4 UNIT
+#BEGIN MALE CIVILIAN 4 UNIT
   - type: MALE_CIVILIAN4 #ConstructionWorker
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1583,9 +1583,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 4 UNIT
+#END MALE CIVILIAN 4 UNIT
 
-#BEGIN MALE CIV 5 UNIT
+#BEGIN MALE CIVILIAN 5 UNIT
   - type: MALE_CIVILIAN5 #Sailor
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1596,9 +1596,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 5 UNIT
+#END MALE CIVILIAN 5 UNIT
 
-#BEGIN MALE CIV 6 UNIT
+#BEGIN MALE CIVILIAN 6 UNIT
   - type: MALE_CIVILIAN6 #Baggydude
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1609,9 +1609,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 6 UNIT
+#END MALE CIVILIAN 6 UNIT
 
-#BEGIN MALE CIV 7 UNIT
+#BEGIN MALE CIVILIAN 7 UNIT
   - type: MALE_CIVILIAN7 #MechanicGrey
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1622,9 +1622,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 7 UNIT
+#END MALE CIVILIAN 7 UNIT
 
-#BEGIN MALE CIV 8 UNIT
+#BEGIN MALE CIVILIAN 8 UNIT
   - type: MALE_CIVILIAN8 #Islandman
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1635,9 +1635,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 8 UNIT
+#END MALE CIVILIAN 8 UNIT
 
-#BEGIN MALE CIV 9 UNIT
+#BEGIN MALE CIVILIAN 9 UNIT
   - type: MALE_CIVILIAN9 #Vestdude
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1648,9 +1648,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 9 UNIT
+#END MALE CIVILIAN 9 UNIT
 
-#BEGIN MALE CIV 10 UNIT
+#BEGIN MALE CIVILIAN 10 UNIT
   - type: MALE_CIVILIAN10 #BusinessmanSuitcase
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1661,9 +1661,9 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 10 UNIT
+#END MALE CIVILIAN 10 UNIT
 
-#BEGIN MALE CIV 11 UNIT
+#BEGIN MALE CIVILIAN 11 UNIT
   - type: MALE_CIVILIAN11 #Brownzipper
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
@@ -1674,140 +1674,901 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
-#END MALE CIV 11 UNIT
-##END MALE UNITS
+#END MALE CIVILIAN 11 UNIT
+##END MALE CIVILIAN UNITS
 
-##BEGIN FEMALE UNITS
-#BEGIN FEMALE CIV UNIT
+##BEGIN FEMALE CIVILIAN UNITS
+#BEGIN FEMALE CIVILIAN UNIT
   - type: FEMALE_CIVILIAN
     value: 30
-#END FEMALE CIV UNIT
+    deathSound: [44, 45, 46]
+#END FEMALE CIVILIAN UNIT
 
-#BEGIN FEMALE CIV 2 UNIT
+#BEGIN FEMALE CIVILIAN 2 UNIT
   - type: FEMALE_CIVILIAN2 #SuitBlack
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN2_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 2 UNIT
+#END FEMALE CIVILIAN 2 UNIT
 
-#BEGIN FEMALE CIV 3 UNIT
+#BEGIN FEMALE CIVILIAN 3 UNIT
   - type: FEMALE_CIVILIAN3 #SuitBlue
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN3_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 3 UNIT
+#END FEMALE CIVILIAN 3 UNIT
 
-#BEGIN FEMALE CIV 4 UNIT
+#BEGIN FEMALE CIVILIAN 4 UNIT
   - type: FEMALE_CIVILIAN4 #ZipperBrown
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN4_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 4 UNIT
+#END FEMALE CIVILIAN 4 UNIT
 
-#BEGIN FEMALE CIV 5 UNIT
+#BEGIN FEMALE CIVILIAN 5 UNIT
   - type: FEMALE_CIVILIAN5 #BikiniBlue
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN5_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 5 UNIT
+#END FEMALE CIVILIAN 5 UNIT
 
-#BEGIN FEMALE CIV 6 UNIT
+#BEGIN FEMALE CIVILIAN 6 UNIT
   - type: FEMALE_CIVILIAN6 #TopHotpants
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN6_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 6 UNIT
+#END FEMALE CIVILIAN 6 UNIT
 
-#BEGIN FEMALE CIV 7 UNIT
+#BEGIN FEMALE CIVILIAN 7 UNIT
   - type: FEMALE_CIVILIAN7 #BathingsuitBrown
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN7_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 7 UNIT
+#END FEMALE CIVILIAN 7 UNIT
 
-#BEGIN FEMALE CIV 8 UNIT
+#BEGIN FEMALE CIVILIAN 8 UNIT
   - type: FEMALE_CIVILIAN8 #TrainingsuitBlack
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN8_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 8 UNIT
+#END FEMALE CIVILIAN 8 UNIT
 
-#BEGIN FEMALE CIV 9 UNIT
+#BEGIN FEMALE CIVILIAN 9 UNIT
   - type: FEMALE_CIVILIAN9 #HemdTrousers
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN9_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 9 UNIT
+#END FEMALE CIVILIAN 9 UNIT
 
-#BEGIN FEMALE CIV 10 UNIT
+#BEGIN FEMALE CIVILIAN 10 UNIT
   - type: FEMALE_CIVILIAN10 #TrainingsuitGrey
     race: STR_CIVILIAN
     stats: *CIVILIAN_STATS
     armor: FEMALE_CIVILIAN10_ARMOR
-    deathSound: 45
     standHeight: 21
     kneelHeight: 14
     value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
-#END FEMALE CIV 10 UNIT
-##END FEMALE UNITS
+#END FEMALE CIVILIAN 10 UNIT
+##END FEMALE CIVILIAN UNITS
+
+##BEGIN ARMED CIVILIAN UNITS
+#BEGIN FIREFIGHTER 0 UNIT
+  - type: STR_FIREFIGHTER0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: FIREFIGHTER0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_FIRE_EXTINGUISHER
+      -
+        - STR_FIRE_EXTINGUISHER
+      -
+        - STR_FIRE_EXTINGUISHER
+      -
+        - STR_FIRE_EXTINGUISHER
+      -
+        - STR_FIRE_EXTINGUISHER
+      -
+        - STR_FIRE_EXTINGUISHER
+      -
+        - STR_FIRE_EXTINGUISHER
+#END FIREFIGHTER 0 UNIT
+
+#BEGIN PARAMEDIC 0 UNIT
+  - type: STR_PARAMEDIC0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: PARAMEDIC0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      -
+        - STR_FIELD_MEDI_PACK
+      -
+        - STR_FIELD_MEDI_PACK
+      -
+        - STR_FIELD_MEDI_PACK
+      -
+        - STR_FIELD_MEDI_PACK
+      -
+        - STR_FIELD_MEDI_PACK
+      -
+        - STR_FIELD_MEDI_PACK
+      -
+        - STR_FIELD_MEDI_PACK
+#END PARAMEDIC 0 UNIT
+
+#BEGIN POLICE FEMALE 0 UNIT
+  - type: STR_POLICE_FEMALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: POLICE_FEMALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets: &POLICE_WEAPONS
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_PISTOL
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_FLASHBANG_GRENADE
+#END POLICE FEMALE 0 UNIT
+
+#BEGIN POLICE MALE 0 UNIT
+  - type: STR_POLICE_MALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: POLICE_MALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets: *POLICE_WEAPONS
+#END POLICE MALE 0 UNIT
+
+#BEGIN POLICE SWAT FEMALE 0 UNIT
+  - type: STR_POLICE_SWAT_FEMALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: POLICE_SWAT_FEMALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+#END POLICE SWAT FEMALE 0 UNIT
+
+#BEGIN POLICE SWAT MALE 0 UNIT
+  - type: STR_POLICE_SWAT_MALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: POLICE_SWAT_MALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_FLASHBANG_GRENADE
+#END POLICE SWAT MALE 0 UNIT
+
+#BEGIN SCIENTIST FEMALE 0 UNIT
+  - type: STR_SCIENTIST_FEMALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: SCIENTIST_FEMALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+      -
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+        - STR_GRENADE
+#END SCIENTIST FEMALE 0 UNIT
+
+#BEGIN SOLDIER FEMALE GREEN 0 UNIT
+  - type: STR_SOLDIER_FEMALE_GREEN0
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SOLDIER_FEMALE_GREEN0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADEM
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_GRENADE_LAUNCHER
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_SMOKE_GRENADE
+      -
+        - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMOKE_GRENADE
+#END SOLDIER FEMALE GREEN 0 UNIT
+
+#BEGIN SOLDIER FEMALE GREEN 1 UNIT
+  - type: STR_SOLDIER_FEMALE_GREEN1
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SOLDIER_FEMALE_GREEN1_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+    builtInWeaponSets:
+      -
+        - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMOKE_GRENADE
+      -
+        - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_GRENADE_LAUNCHER
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADEM
+#END SOLDIER FEMALE GREEN 1 UNIT
+
+#BEGIN SOLDIER MALE GREEN 0 UNIT
+  - type: STR_SOLDIER_MALE_GREEN0
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SOLDIER_MALE_GREEN0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADEM
+      -
+        - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMOKE_GRENADE
+      -
+        - STR_GRENADE_LAUNCHER
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_SMOKE_GRENADE
+      -
+        - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+#END SOLDIER MALE GREEN 0 UNIT
+
+#BEGIN SOLDIER MALE GREEN 1 UNIT
+  - type: STR_SOLDIER_MALE_GREEN1
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SOLDIER_MALE_GREEN1_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADEM
+      -
+        - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMOKE_GRENADE
+      -
+        - STR_GRENADE_LAUNCHER
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_SMOKE_GRENADE
+#END SOLDIER MALE GREEN 1 UNIT
+
+#BEGIN SOLDIER MALE GREEN 2 UNIT
+  - type: STR_SOLDIER_MALE_GREEN2
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SOLDIER_MALE_GREEN2_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMOKE_GRENADE
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADEM
+      -
+        - STR_GRENADE_LAUNCHER
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_SMOKE_GRENADE
+      -
+        - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+#END SOLDIER MALE GREEN 2 UNIT
+
+#BEGIN SOLDIER MALE GREEN 3 UNIT
+  - type: STR_SOLDIER_MALE_GREEN3
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SOLDIER_MALE_GREEN3_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      -
+        - STR_RIFLE
+        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_HEAVY_CANNON
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_AUTO_CANNON
+        - STR_AC_AP_AMMO
+        - STR_AC_AP_AMMO
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADEM
+      -
+        - STR_GRENADE_LAUNCHER
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_GRENADE_LAUNCHER_HE_AMMO
+        - STR_SMOKE_GRENADE
+      -
+        - STR_ROCKET_LAUNCHER
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMOKE_GRENADE
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+#END SOLDIER MALE GREEN 3 UNIT
+##END ARMED CIVILIAN UNITS
 ###END CIVILIAN UNITS
 ####END UNITS

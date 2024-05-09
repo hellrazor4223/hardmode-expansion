@@ -2,7 +2,11 @@ Changelog:
 
 Version 0.99.9.5
  - Fix Heavy Plasma Manufacture unlock error
+ - Fix Wrong Deathsound for all Female Civilians
  - Adjust all Shotguns to behave like proper Ones
+ - Add Fire Extinguisher Item
+ - Add Armed Civilian to Terrorsites
+ - Add Army Soldiers to Military Bases
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful
