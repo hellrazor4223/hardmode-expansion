@@ -1992,13 +1992,13 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
+    civiliansByType: &CIVIANS_BY_TYPE_TERROR
+      STR_FIREFIGHTER0: 2
+      STR_PARAMEDIC0: 2
+      STR_POLICE_MALE0: 2
       STR_POLICE_FEMALE0: 2
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_SWAT_FEMALE0: 2
     terrains:
       - URBAN
       - MADURBAN
@@ -2027,13 +2027,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - URBAN_SNOW
       - MADURBAN_SNOW
@@ -2062,13 +2056,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - DAWNURBANA
       - DAWNURBANB
@@ -2097,13 +2085,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - EXPANDED_URBAN_MIX
       - PORTURBAN
@@ -2133,13 +2115,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - PORTURBAN
       - PORTTFTD
@@ -2169,13 +2145,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - NATIVEURBAN
     alert: STR_ALIENS_TERRORISE
@@ -2201,13 +2171,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - ISLANDURBAN
     alert: STR_ALIENS_TERRORISE
@@ -2237,12 +2201,12 @@ alienDeployments:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
       STR_SCIENTIST_FEMALE0: 2
-      STR_SOLDIER_FEMALE_GREEN0: 1
-      STR_SOLDIER_FEMALE_GREEN1: 1
-      STR_SOLDIER_MALE_GREEN0: 1
-      STR_SOLDIER_MALE_GREEN1: 1
-      STR_SOLDIER_MALE_GREEN2: 1
-      STR_SOLDIER_MALE_GREEN3: 1
+      STR_SOLDIER_FEMALE_GREEN0: 2
+      STR_SOLDIER_FEMALE_GREEN1: 2
+      STR_SOLDIER_MALE_GREEN0: 2
+      STR_SOLDIER_MALE_GREEN1: 2
+      STR_SOLDIER_MALE_GREEN2: 2
+      STR_SOLDIER_MALE_GREEN3: 2
     terrains:
       - AIRFIELD1
       - AIRFIELD2
@@ -2276,8 +2240,8 @@ alienDeployments:
     height: 8
     civilians: 24
     civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
+      STR_FIREFIGHTER0: 3
+      STR_PARAMEDIC0: 3
     terrains:
       - CARGOSHIP
 #      - LINERSHIP
@@ -2311,13 +2275,7 @@ alienDeployments:
     length: 60
     height: 8
     civilians: 24
-    civiliansByType:
-      STR_FIREFIGHTER0: 1
-      STR_PARAMEDIC0: 1
-      STR_POLICE_MALE0: 1
-      STR_POLICE_FEMALE0: 1
-      STR_POLICE_SWAT_MALE0: 2
-      STR_POLICE_FEMALE0: 2
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - PORTCARGOSHIP
       - PORTLINERSHIP
