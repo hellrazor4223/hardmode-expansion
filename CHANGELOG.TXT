@@ -4,6 +4,7 @@ Version 0.99.9.5
  - Fix Heavy Plasma Manufacture unlock error
  - Fix Wrong Deathsound for all Female Civilians
  - Fix Typos for Weaponlists
+ - Fix Typos in extraSprites
  - Adjust all Shotguns to behave like proper Ones
  - Add Fire Extinguisher Item
  - Add Armed Civilian to Terrorsites
