@@ -1324,7 +1324,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: ../Resources/Units/Civilian/PoliceMale0/Spritesheet_PoliceMale0.png
+      0: Resources/Units/Civilian/PoliceMale0/Spritesheet_PoliceMale0.png
   - type: POLICE_SWAT_FEMALE0
     width: 512
     height: 720
