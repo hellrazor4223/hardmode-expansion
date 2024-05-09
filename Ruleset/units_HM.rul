@@ -1999,7 +1999,7 @@ units:
     builtInWeaponSets:
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2011,7 +2011,7 @@ units:
         - STR_FLASHBANG_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2023,7 +2023,7 @@ units:
         - STR_FLASHBANG_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2035,7 +2035,7 @@ units:
         - STR_FLASHBANG_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2073,7 +2073,7 @@ units:
         - STR_FLASHBANG_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2085,7 +2085,7 @@ units:
         - STR_FLASHBANG_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2097,7 +2097,7 @@ units:
         - STR_FLASHBANG_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_FLASHBANG_GRENADE
@@ -2191,10 +2191,10 @@ units:
         - STR_SHOTGUN_CLIP
         - STR_SHOTGUN_CLIP
         - STR_GRENADE
-        - STR_SMOKE_GRENADEM
+        - STR_SMOKE_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_SMOKE_GRENADE
@@ -2286,7 +2286,7 @@ units:
         - STR_SMOKE_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_SMOKE_GRENADE
@@ -2295,7 +2295,7 @@ units:
         - STR_SHOTGUN_CLIP
         - STR_SHOTGUN_CLIP
         - STR_GRENADE
-        - STR_SMOKE_GRENADEM
+        - STR_SMOKE_GRENADE
 #END SOLDIER FEMALE GREEN 1 UNIT
 
 #BEGIN SOLDIER MALE GREEN 0 UNIT
@@ -2330,7 +2330,7 @@ units:
         - STR_SMOKE_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_SMOKE_GRENADE
@@ -2339,7 +2339,7 @@ units:
         - STR_SHOTGUN_CLIP
         - STR_SHOTGUN_CLIP
         - STR_GRENADE
-        - STR_SMOKE_GRENADEM
+        - STR_SMOKE_GRENADE
       -
         - STR_ROCKET_LAUNCHER
         - STR_SMALL_ROCKET
@@ -2398,7 +2398,7 @@ units:
         - STR_SMOKE_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_SMOKE_GRENADE
@@ -2407,7 +2407,7 @@ units:
         - STR_SHOTGUN_CLIP
         - STR_SHOTGUN_CLIP
         - STR_GRENADE
-        - STR_SMOKE_GRENADEM
+        - STR_SMOKE_GRENADE
       -
         - STR_HEAVY_CANNON
         - STR_HC_AP_AMMO
@@ -2478,7 +2478,7 @@ units:
         - STR_SMOKE_GRENADE
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_SMOKE_GRENADE
@@ -2487,7 +2487,7 @@ units:
         - STR_SHOTGUN_CLIP
         - STR_SHOTGUN_CLIP
         - STR_GRENADE
-        - STR_SMOKE_GRENADEM
+        - STR_SMOKE_GRENADE
       -
         - STR_GRENADE_LAUNCHER
         - STR_GRENADE_LAUNCHER_HE_AMMO
@@ -2528,7 +2528,7 @@ units:
     builtInWeaponSets:
       -
         - STR_RIFLE
-        - STR_PIFLE_CLIP
+        - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
         - STR_SMOKE_GRENADE
@@ -2549,7 +2549,7 @@ units:
         - STR_SHOTGUN_CLIP
         - STR_SHOTGUN_CLIP
         - STR_GRENADE
-        - STR_SMOKE_GRENADEM
+        - STR_SMOKE_GRENADE
       -
         - STR_GRENADE_LAUNCHER
         - STR_GRENADE_LAUNCHER_HE_AMMO
