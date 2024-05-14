@@ -1866,19 +1866,33 @@ units:
     deathSound: [44, 45, 46]
     builtInWeaponSets:
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
       -
-        - STR_FIELD_MEDI_PACK
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_TASER_PISTOL_CLIP
 #END PARAMEDIC 0 UNIT
 
 #BEGIN POLICE FEMALE 0 UNIT
@@ -2129,6 +2143,7 @@ units:
     kneelHeight: 14
     value: 30
     intelligence: 4
+    aggression: 6
     energyRecovery: 20
     deathSound: [44, 45, 46]
     builtInWeaponSets:

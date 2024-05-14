@@ -1991,7 +1991,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: &CIVIANS_BY_TYPE_TERROR
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2026,7 +2026,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - URBAN_SNOW
@@ -2055,7 +2055,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - DAWNURBANA
@@ -2084,7 +2084,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - EXPANDED_URBAN_MIX
@@ -2114,7 +2114,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - PORTURBAN
@@ -2144,7 +2144,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - NATIVEURBAN
@@ -2170,7 +2170,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - ISLANDURBAN
@@ -2196,17 +2196,17 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 8
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
       STR_SCIENTIST_FEMALE0: 2
-      STR_SOLDIER_FEMALE_GREEN0: 2
-      STR_SOLDIER_FEMALE_GREEN1: 2
-      STR_SOLDIER_MALE_GREEN0: 2
-      STR_SOLDIER_MALE_GREEN1: 2
-      STR_SOLDIER_MALE_GREEN2: 2
-      STR_SOLDIER_MALE_GREEN3: 2
+      STR_SOLDIER_FEMALE_GREEN0: 4
+      STR_SOLDIER_FEMALE_GREEN1: 4
+      STR_SOLDIER_MALE_GREEN0: 4
+      STR_SOLDIER_MALE_GREEN1: 4
+      STR_SOLDIER_MALE_GREEN2: 4
+      STR_SOLDIER_MALE_GREEN3: 4
     terrains:
       - AIRFIELD1
       - AIRFIELD2
@@ -2274,7 +2274,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    civilians: 24
+    civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - PORTCARGOSHIP
