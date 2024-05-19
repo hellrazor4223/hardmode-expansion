@@ -52,7 +52,7 @@ extraSprites:
       116: Resources/Items/Xcom/MediKit/BigOb_MediKit.png
       117: Resources/Items/Xcom/AdvancedMediKit/BigOb_AdvancedMediKit.png
       200: Resources/Items/Xcom/EleriumStunRod/BigOb_EleriumStunRod.png
-      220: Resources/Items/XCom/FireExtinguisher/BigOb_FireExtinguisher.png
+      220: Resources/Items/Xcom/FireExtinguisher/BigOb_FireExtinguisher.png
       161: Resources/Items/Alien/PlasmaBlade/BigOb_PlasmaBlade.png
       162: Resources/Items/Alien/PlasmaSword/BigOb_PlasmaSword.png
       192: Resources/Items/Alien/PlasmaPistol/BigOb_PlasmaPistol_Elerium_Clip.png
@@ -192,7 +192,7 @@ extraSprites:
       111: Resources/Items/Xcom/MediKit/FloorOb_MediKit.png
       112: Resources/Items/Xcom/AdvancedMediKit/FloorOb_AdvancedMediKit.png
       214: Resources/Items/Xcom/EleriumStunRod/FloorOb_EleriumStunRod.png
-      234: Resources/Items/XCom/FireExtinguisher/FloorOb_FireExtinguisher.png
+      234: Resources/Items/Xcom/FireExtinguisher/FloorOb_FireExtinguisher.png
       166: Resources/Items/Alien/PlasmaBlade/FloorOb_PlasmaBlade.png
       167: Resources/Items/Alien/PlasmaSword/FloorOb_PlasmaSword.png
       189: Resources/Items/Alien/PlasmaPistol/FloorOb_PlasmaPistol_Clip.png
@@ -364,7 +364,7 @@ extraSprites:
       304: Resources/Items/Xcom/AdvancedMediKit/HandOb_Advanced_MediKit.png
       672: Resources/Items/Xcom/EleriumStunRod/HandOb_EleriumStunRod.png
       320: Resources/Items/Xcom/ElectroFlare/HandOb_ElectroFlare.png
-      696: Resources/Items/XCom/FireExtinguisher/HandOb_FireExtinguisher.png
+      696: Resources/Items/Xcom/FireExtinguisher/HandOb_FireExtinguisher.png
       496: Resources/Items/Alien/PlasmaBlade/HandOb_PlasmaBlade.png
       504: Resources/Items/Alien/PlasmaSword/HandOb_PlasmaSword.png
       360: Resources/Items/Alien/PlasmaPistol/HandOb_PlasmaPistol_Clip.png
@@ -546,7 +546,7 @@ extraSprites:
     files:
       56: Resources/Items/SpriteSheet_SmokeExplosion.png
       64: Resources/Items/SpriteSheet_StunExplosion.png
-      72: Resources/Items/XCom/FireExtinguisher/SpriteSheet_FireExtinguisherExplosion.png
+      72: Resources/Items/Xcom/FireExtinguisher/SpriteSheet_FireExtinguisherExplosion.png
 #END X1
 ##END HIT & EXPLOSTION ANIMATIONS
 
