@@ -16,6 +16,7 @@ Version 0.99.9.5
  - Add Avatars and TinyRanks for Battlescape
  - Add OXCE Enemy Preview Background
  - Add OXCE Armor Preview for Craft Equip Screen
+ - Add OXCE Tank/Drone Preview for Craft Equip Screen
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful

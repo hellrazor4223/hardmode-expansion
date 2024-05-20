@@ -48,6 +48,7 @@ items:
 
 #BEGIN DRONE SCOUT ITEM
   - type: STR_DRONE_SCOUT
+    customItemPreviewIndex: 5
     requires:
       - STR_SUPPORT_DRONES
     size: 2
@@ -87,6 +88,7 @@ items:
 
 #BEGIN DRONE SCANNER ITEM
   - type: STR_DRONE_SCANNER
+    customItemPreviewIndex: 6
     requires:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
@@ -119,6 +121,7 @@ items:
 
 #BEGIN DRONE MEDIKIT ITEM
   - type: STR_DRONE_MEDIKIT
+    customItemPreviewIndex: 7
     requires:
       - STR_SUPPORT_DRONES
       - STR_MEDI_KIT
@@ -159,6 +162,7 @@ items:
 
 #BEGIN DRONE TASER ITEM
   - type: STR_DRONE_TASER
+    customItemPreviewIndex: 8
     requires:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
@@ -234,6 +238,7 @@ items:
 
 #BEGIN ALLOY DRONE SCOUT ITEM
   - type: STR_ALLOY_DRONE_SCOUT
+    customItemPreviewIndex: 9
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -272,6 +277,7 @@ items:
 
 #BEGIN ALLOY DRONE SCANNER ITEM
   - type: STR_ALLOY_DRONE_SCANNER
+    customItemPreviewIndex: 10
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -306,6 +312,7 @@ items:
 
 #BEGIN ALLOY DRONE MEDIKIT ITEM
   - type: STR_ALLOY_DRONE_MEDIKIT
+    customItemPreviewIndex: 11
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -348,6 +355,7 @@ items:
 
 #BEGIN ALLOY DRONE ADVANCED MEDIKIT ITEM
   - type: STR_ALLOY_DRONE_ADVANCED_MEDIKIT
+    customItemPreviewIndex: 12
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -390,6 +398,7 @@ items:
 
 #BEGIN ALLOY DRONE TASER ITEM
   - type: STR_ALLOY_DRONE_TASER
+    customItemPreviewIndex: 13
     requires:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -471,6 +480,7 @@ items:
 
 #BEGIN HOVERDRONE SCOUT ITEM
   - type: STR_HOVERDRONE_SCOUT
+    customItemPreviewIndex: 14
     requires:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -509,6 +519,7 @@ items:
 
 #BEGIN HOVER DRONE SCANNER ITEM
   - type: STR_HOVERDRONE_SCANNER
+    customItemPreviewIndex: 15
     requires:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -543,6 +554,7 @@ items:
 
 #BEGIN HOVERDRONE ADVANCED MEDIKIT ITEM
   - type: STR_HOVERDRONE_ADVANCED_MEDIKIT
+    customItemPreviewIndex: 16
     requires:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -585,6 +597,7 @@ items:
 
 #BEGIN HOVERDRONE TASER ITEM
   - type: STR_HOVERDRONE_TASER
+    customItemPreviewIndex: 17
     requires:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
@@ -654,6 +667,7 @@ items:
 
 #BEGIN TANK CANNON ITEM
   - type: STR_TANK_CANNON
+    customItemPreviewIndex: 0
     size: 4
     accuracySnap: 60
     accuracyAimed: 90
@@ -710,6 +724,7 @@ items:
 
 #BEGIN TANK ROCKET LAUNCHER ITEM
   - type: STR_TANK_ROCKET_LAUNCHER
+    customItemPreviewIndex: 0
     size: 4
     accuracySnap: 65
     listOrder: 1300
@@ -757,6 +772,7 @@ items:
 
 #BEGIN TANK LASER CANNON ITEM
   - type: STR_TANK_LASER_CANNON
+    customItemPreviewIndex: 0
     size: 4
     accuracySnap: 55
     accuracyAimed: 85
@@ -830,6 +846,7 @@ items:
 
 #BEGIN ALLOY TANK CANNON ITEM
   - type: STR_ALLOY_TANK_CANNON
+    customItemPreviewIndex: 1
     battleType: 1
     size: 4
     costSell: 580000
@@ -898,6 +915,7 @@ items:
 
 #BEGIN ALLOY TANK ROCKET ITEM
   - type: STR_ALLOY_TANK_ROCKET_LAUNCHER
+    customItemPreviewIndex: 1
     battleType: 1
     size: 4
     costSell: 640000
@@ -967,6 +985,7 @@ items:
 
 #BEGIN ALLOY TANK LASER ITEM
   - type: STR_ALLOY_TANK_LASER_CANNON
+    customItemPreviewIndex: 1
     damageType: 4
     battleType: 1
     size: 4
@@ -1061,6 +1080,7 @@ items:
 
 #BEGIN HOVERTANK LASER ITEM
   - type: STR_HOVERTANK_LASER
+    customItemPreviewIndex: 2
     damageType: 4
     battleType: 1
     size: 4
@@ -1132,6 +1152,7 @@ items:
 
 #BEGIN HOVERTANK EBOMB ITEM
   - type: STR_HOVERTANK_EBOMB
+    customItemPreviewIndex: 2
     battleType: 1
     size: 4
     costSell: 900000
@@ -1219,6 +1240,7 @@ items:
 
 #BEGIN HOVERTANK PLASMA ITEM
   - type: STR_HOVERTANK_PLASMA
+    customItemPreviewIndex: 2
     power: 115
     accuracyAuto: 70
     accuracySnap: 85
@@ -1270,6 +1292,8 @@ items:
 #BEGIN HOVERTANK PLASMA ITEM
 
 #BEGIN HOVERTANK LAUNCHER ITEM
+  - type: STR_HOVERTANK_LAUNCHER
+    customItemPreviewIndex: 2
   - type: STR_HWP_FUSION_BOMB
     power: 200
     listOrder: 1800
@@ -1339,6 +1363,7 @@ items:
 
 #BEGIN WALKERTANK LASER ITEM
   - type: STR_WALKERTANK_LASER
+    customItemPreviewIndex: 3
     size: 4
     costSell: 1000000
     transferTime: 96
@@ -1409,6 +1434,7 @@ items:
 
 #BEGIN WALKERTANK PLASMA ITEM
   - type: STR_WALKERTANK_PLASMA
+    customItemPreviewIndex: 4
     size: 4
     costSell: 1100000
     transferTime: 96

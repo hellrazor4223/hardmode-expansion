@@ -1805,6 +1805,16 @@ extraSprites:
     files:
       0: Resources/UI/QOL/CustomArmorPreviews_HM.png
 #END CUSTOM ARMOR PREVIEW
+
+#BEGIN CUSTOM ITEM PREVIEW
+  - type: CustomItemPreviews #Hardcoded
+    width: 216
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/UI/QOL/CustomItemPreviews_HM.png
+#END CUSTOM ITEM PREVIEW
 ##END UI QOL
 
 ##BEGIN COMMENDATIONS
