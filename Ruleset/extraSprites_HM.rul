@@ -2256,7 +2256,7 @@ extraSprites:
   - type: Flag109
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_United States.png
+      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_United_States.png
   - type: Flag110
     singleImage: true
     files:
