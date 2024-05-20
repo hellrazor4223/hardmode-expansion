@@ -179,7 +179,7 @@ Credits go to:
 	sylandro:
 		- For the PSXCutscenes Mod
 	NeoWorm:
-		- For the OXCE BaseMod
+		- For the Zero Content Base mod (https://openxcom.org/forum/index.php?topic=5551.msg84663#msg84663)
 	Holomorph (http://holomorph.eu/):
 		- Ufopaedia Graphics for:
 			MEDAL_GLOBETROTTER
