@@ -21,7 +21,8 @@ Licence Notice:
 	Failure to comply with the terms stated above will result in an initial warning. If necessary, it will be followed by proper reporting of the license violation to the host site, and if the violation continues, revocation of your license and permission to use/modify/distribute the Terrain Pack. 
 
 Credits go to:
-	Everyone in #openxcom @freenode
+	Everyone in #openxcom @Libera.chat
+	Everyone in #openxcom @Discord
 	Everyone in the OXC community, which somehow provided feedback, bugreports etc..
 
 	hellrazor:
@@ -177,6 +178,8 @@ Credits go to:
 		- For the original Airfield UFO2000 terrain
 	sylandro:
 		- For the PSXCutscenes Mod
+	NeoWorm:
+		- For the OXCE BaseMod
 	Holomorph (http://holomorph.eu/):
 		- Ufopaedia Graphics for:
 			MEDAL_GLOBETROTTER
