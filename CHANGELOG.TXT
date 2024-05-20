@@ -14,6 +14,7 @@ Version 0.99.9.5
  - Add TerrainHint DayNightIndicator
  - Add Stun, Burn and Bleeding Indicators for Battlescape
  - Add Avatars and TinyRanks for Battlescape
+ - Add OXCE Enemy Preview Background
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful

@@ -1788,6 +1788,13 @@ extraSprites:
     files:
       0: Resources/UI/QOL/TinyRanks.png
 #END TINY RANKS
+
+#BEGIN PREVIEW ALIEN INVENTORY
+  - type: AlienInventory #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/AlienInventory.png
+#END PREVIEW ALIEN INVENTORY
 ##END UI QOL
 
 ##BEGIN COMMENDATIONS
