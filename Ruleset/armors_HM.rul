@@ -601,8 +601,14 @@ armors:
 ##END XCOM TANK ARMORS
 
 ##BEGIN XCOM SOLDIER ARMORS
+#BEGIN BASIC OVERALL
+  - type: STR_NONE_UC
+    customArmorPreviewIndex: 0
+#END END BASIC OVERALL
+
 #BEGIN ARMORED VEST ARMOR
   - type: STR_ARMORED_VEST_UC
+    customArmorPreviewIndex: 1
     spriteSheet: ARMOREDVEST.PCK
     spriteInv: MAN_4
     spriteFaceGroup: 6
@@ -635,6 +641,7 @@ armors:
 
 #BEGIN ALLOY VEST ARMOR
   - type: STR_ALLOY_VEST_UC
+    customArmorPreviewIndex: 2
     spriteSheet: ALLOYVEST.PCK
     spriteInv: MAN_5
     spriteFaceGroup: 6
@@ -667,6 +674,7 @@ armors:
 
 #BEGIN PERSONAL ARMOR ARMOR
   - type: STR_PERSONAL_ARMOR_UC
+    customArmorPreviewIndex: 3
     spriteSheet: XCOM_1.PCK
     spriteInv: MAN_1
     spriteFaceGroup: 6
@@ -696,6 +704,7 @@ armors:
 
 #BEGIN POWER SUIT ARMOR
   - type: STR_POWER_SUIT_UC
+    customArmorPreviewIndex: 4
     spriteSheet: XCOM_2.PCK
     spriteInv: MAN_2
     corpseBattle:
@@ -725,6 +734,7 @@ armors:
 
 #BEGIN FLYING SUIT ARMOR
   - type: STR_FLYING_SUIT_UC
+    customArmorPreviewIndex: 5
     spriteSheet: FLYING_SUIT.PCK
     spriteInv: MAN_3
     corpseBattle:
@@ -745,6 +755,7 @@ armors:
 
 #BEGIN REINFORCED POWER SUIT ARMOR
   - type: STR_REINFORCED_POWER_SUIT_UC
+    customArmorPreviewIndex: 6
     spriteSheet: REINFORCED_POWER_SUIT.PCK
     spriteInv: MAN_6
     corpseBattle:
@@ -776,6 +787,7 @@ armors:
 
 #BEGIN REINFORCED FLYING SUIT ARMOR
   - type: STR_REINFORCED_FLYING_SUIT_UC
+    customArmorPreviewIndex: 7
     spriteSheet: REINFORCED_FLYING_SUIT.PCK
     spriteInv: MAN_7
     corpseBattle:

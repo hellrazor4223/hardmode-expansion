@@ -1795,6 +1795,16 @@ extraSprites:
     files:
       0: Resources/UI/QOL/AlienInventory.png
 #END PREVIEW ALIEN INVENTORY
+
+#BEGIN CUSTOM ARMOR PREVIEW
+  - type: CustomArmorPreviews #Hardcoded
+    width: 96
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/UI/QOL/CustomArmorPreviews_HM.png
+#END CUSTOM ARMOR PREVIEW
 ##END UI QOL
 
 ##BEGIN COMMENDATIONS
