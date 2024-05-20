@@ -110,6 +110,21 @@ also see TERRAIN_PACK_AUTHORS.md for all Terrain Pack Credits (also added in CRE
 
 Features:
 
+Quality of Live OXCE UI changes:
+	DayNightIndicator (Geoscape UI)
+	BleedingIndicator (Battlescape UI)
+	StunIndicator (Battlescape UI)
+	Burnindicator (Battlescape UI)
+	CustomArmorPreviews (Solder Armor)
+	CustomItemPreviews (For Tanks and Drones)
+	CustomEnemyPreview (Battlescape UI)
+	SoldierAvatars and TinyRanks (Battlescape UI)
+	SoldierKneelingIndicator (Battlescape UI)
+	Improved TU Reserve Sprites (Battlescape UI)
+	Better Smoke Animation (Battlescape UI)
+	New Plasma Hit Animation for Heavy Plasma (Battlescape UI)
+	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
+
 Additional Alien Races/Units:
 	Waspite
 	Gazer
@@ -171,10 +186,6 @@ Groundcombat changes:
 	Ethereals are immune to MC from Xcom
 	Aliens receive a Bravery Bonus (+10, Commanders are removed from Battleship and Base Defense Missions, increased numbers panic to quickly)
 	Aliens have more saner Melee accuracy stats
-	Kneeling Indicator and Improved TU Reserve Sprites
-	Better Smoke Animation
-	New Plasma Hit Animation for Heavy Plasma
-	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple)
 	Chryssalids are slightly vulnarable to HE damage (as stated in the UFOpedia)
 	Sectopod does Laser Damage (as stated in UFOpedia)
 	Blaster Waypoints honor DOS Limitation (9 Waypoints)
@@ -218,7 +229,7 @@ Additional Interior UFO Variant Maps:
 	Supply Ship (2 Maps)
 	Battleship (7 Maps)
 
-Additional X-Com Weapons:
+Additional X-Com Weapons/Items:
 	Combat Knife
 	Alloy Knife
 	Alloy Blade
@@ -238,13 +249,15 @@ Additional X-Com Weapons:
 	Stun Grenade
 	Fire Grenade
 	Elerium Powered Stun Rod
+	Fire Extinguisher
+	Field Medic Pack
+	Advanced Medikit
 
 All kinetic weapons also get Alloy Ammo once researched.
-Alloy Ammo for Pistols, Rifles, Shotguns, Sniper Rifles, Heavy Cannons and Auto Cannons get a 1,5 damage factor for AP Alien Alloy Ammo.
-Heavy Cannons and Auto Cannons have access to Elerium-115 enhanced explosive ammunition.
+Pistols, Rifles, Shotguns, Sniper Rifles, Heavy Cannons and Auto Cannons get a 1,5 damage factor for AA-Ammo (AP Alien Alloy Ammo).
+Heavy Cannons and Auto Cannons have access to EHE-Ammo (Elerium-115 enhanced explosive ammunition)
 
-Also 3 Medikits, one available from start, the others are researchable.
-Research is Corpsebased and also requires Storyitems.
+Medical Equipment Research depends on Corpse and StoryItem research.
 
 Additional X-Com Tanks:
 	Drone/Scout
@@ -323,7 +336,7 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 	Jungle Mountain
 	Jungle Swamp
 	Jungle Temple
-	Liner Ship
+	Liner Ship (Currently Inactive)
 	Expanded Urban
 	Expanded Urban UFO
 	Expanded Urban Snow
