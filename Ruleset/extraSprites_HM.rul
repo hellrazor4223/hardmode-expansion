@@ -1738,6 +1738,39 @@ extraSprites:
     files:
       0: Resources/UI/QOL/DayNightIndicator.png
 #END DAYNIGHT INDICATOR
+
+#BEGIN STUN INDICATOR
+  - type: BigStunIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/StunIndicator.png
+  - type: FloorStunIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/StunIndicator.png
+#END STUN INDICATOR
+
+#BEGIN BURN INDICATOR
+  - type: BigBurnIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/BurnIndicator.png
+  - type: FloorBurnIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/BurnIndicator.png
+#END BURN INDICATOR
+
+#BEGIN WOUND INDICATOR
+  - type: BigWoundIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/WoundIndicator.png
+  - type: FloorBurnIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/WoundIndicator.png
+#END WOUND INDICATOR
 ##END UI QOL
 
 ##BEGIN COMMENDATIONS

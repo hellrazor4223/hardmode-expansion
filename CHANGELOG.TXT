@@ -12,6 +12,7 @@ Version 0.99.9.5
  - Add Armed Civilian to Terrorsites
  - Add Army Soldiers to Military Bases
  - Add TerrainHint DayNightIndicator
+ - Add Stun, Burn and Bleeding Indicators for Battlescape
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful
