@@ -1771,6 +1771,23 @@ extraSprites:
     files:
       0: Resources/UI/QOL/WoundIndicator.png
 #END WOUND INDICATOR
+
+#BEGIN AVATAR BACKGROUND
+  - type: AvatarBackground #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/QOL/AvatarBackground.png
+#END AVATAR BACKGROUND
+
+#BEGIN TINY RANKS
+  - type: TinyRanks #Hardcoded
+    width: 42
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/UI/QOL/TinyRanks.png
+#END TINY RANKS
 ##END UI QOL
 
 ##BEGIN COMMENDATIONS
