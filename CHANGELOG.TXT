@@ -11,6 +11,7 @@ Version 0.99.9.5
  - Add Fire Extinguisher Item
  - Add Armed Civilian to Terrorsites
  - Add Army Soldiers to Military Bases
+ - Add TerrainHint DayNightIndicator
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful

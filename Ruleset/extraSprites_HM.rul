@@ -1728,6 +1728,18 @@ extraSprites:
       0: Resources/Crafts/Ufos/UFO_Labship.png
 ##END UFOS
 
+##BEGIN UI QOL
+#BEGIN DAYNIGHT INDICATOR
+  - type: DayNightIndicator #Hardcoded
+    width: 72
+    height: 24
+    subX: 24
+    subY: 24
+    files:
+      0: Resources/UI/QOL/DayNightIndicator.png
+#END DAYNIGHT INDICATOR
+##END UI QOL
+
 ##BEGIN COMMENDATIONS
   - type: Commendations #Hardcoded
     width: 31
