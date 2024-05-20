@@ -1,6 +1,9 @@
 ###BEGIN SOLDIER STATS
 soldiers:
   - type: STR_SOLDIER
+    soldierNames:
+      - delete
+      - Resources/UI/QOL/SoldierCountryNames/
     costBuy: 60000
     costSalary: 30000
     minStats:

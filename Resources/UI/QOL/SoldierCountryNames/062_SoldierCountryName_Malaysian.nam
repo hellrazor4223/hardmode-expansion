@@ -1,0 +1,2009 @@
+﻿lookWeights:
+  - 0
+  - 1
+  - 98
+  - 1
+maleFirst:
+  -	Ab
+  -	Abang
+  -	Abd Aziz
+  -	Abd Halim
+  -	Abd Hamid
+  -	Abd Rahim
+  -	Abd Rahman
+  -	Abd Rashid
+  -	Abd Razak
+  -	Abdul
+  -	Abdullah
+  -	Abu Bakar
+  -	Abu Hassan
+  -	Adam
+  -	Adi
+  -	Adnan
+  -	Adrian
+  -	Afiq
+  -	Ag
+  -	Ah Kow
+  -	Ahmad
+  -	Ahmed
+  -	Aidil
+  -	Aik
+  -	Aiman
+  -	Ak
+  -	Akmal
+  -	Alan
+  -	Albert
+  -	Alex
+  -	Alexander
+  -	Ali
+  -	Alias
+  -	Alif
+  -	Alvin
+  -	Amat
+  -	Amin
+  -	Aminuddin
+  -	Amir
+  -	Amiruddin
+  -	Amirul
+  -	Ammar
+  -	Amran
+  -	Anas
+  -	Andi
+  -	Andrew
+  -	Andy
+  -	Anthony
+  -	Anuar
+  -	Anwar
+  -	Arif
+  -	Ariffin
+  -	Arman
+  -	Arumugam
+  -	Asri
+  -	Asrul
+  -	Augustine
+  -	Awang
+  -	Azahar
+  -	Azhar
+  -	Azhari
+  -	Aziz
+  -	Azizan
+  -	Azizi
+  -	Azizul
+  -	Azlan
+  -	Azli
+  -	Azman
+  -	Azmi
+  -	Azri
+  -	Azrul
+  -	Azwan
+  -	Badrul
+  -	Bah
+  -	Baharuddin
+  -	Baharudin
+  -	Bak
+  -	Bakar
+  -	Bakri
+  -	Ban
+  -	Basri
+  -	Beng
+  -	Boon
+  -	Chan
+  -	Chandran
+  -	Chang
+  -	Charles
+  -	Chau
+  -	Cheang
+  -	Chee
+  -	Chek
+  -	Chen
+  -	Cheng
+  -	Cheong
+  -	Chi
+  -	Chin
+  -	Ching
+  -	Ch'ng
+  -	Chon
+  -	Chong
+  -	Choo
+  -	Choon
+  -	Choong
+  -	Chow
+  -	Christopher
+  -	Chu
+  -	Chuan
+  -	Chun
+  -	Chung
+  -	Chye
+  -	Daniel
+  -	Danny
+  -	Daud
+  -	David
+  -	Dennis
+  -	Eddy
+  -	Edward
+  -	Edwin
+  -	En
+  -	Encik
+  -	Eng
+  -	Engku
+  -	Eric
+  -	Faisal
+  -	Faiz
+  -	Faizal
+  -	Faizul
+  -	Farid
+  -	Fauzi
+  -	Firdaus
+  -	Foo
+  -	Fook
+  -	Francis
+  -	Ganesan
+  -	George
+  -	Ghazali
+  -	Gim
+  -	Guan
+  -	Hafiz
+  -	Hai
+  -	Hairul
+  -	Haji
+  -	Halim
+  -	Hamdan
+  -	Hamid
+  -	Hamzah
+  -	Han
+  -	Hang
+  -	Haris
+  -	Harun
+  -	Hasan
+  -	Hasbullah
+  -	Hashim
+  -	Hassan
+  -	Hee
+  -	Helmi
+  -	Heng
+  -	Henry
+  -	Herman
+  -	Hii
+  -	Hin
+  -	Hing
+  -	Hisham
+  -	Ho
+  -	Hock
+  -	Hoi
+  -	Hon
+  -	Hong
+  -	Hoon
+  -	How
+  -	Hua
+  -	Hun
+  -	Hung
+  -	Husin
+  -	Hussin
+  -	Hwa
+  -	Ibrahim
+  -	Idris
+  -	Imran
+  -	Ing
+  -	Irwan
+  -	Isa
+  -	Ishak
+  -	Iskandar
+  -	Ismail
+  -	Jaafar
+  -	Jackson
+  -	Jamal
+  -	Jamaluddin
+  -	Jamaludin
+  -	Jamil
+  -	Jasni
+  -	Jason
+  -	Jaya
+  -	Jee
+  -	Jeffery
+  -	Jeffrey
+  -	Jerry
+  -	Jian
+  -	Jimmy
+  -	Jin
+  -	Jit
+  -	Johan
+  -	Johari
+  -	John
+  -	Johnny
+  -	Jonathan
+  -	Jong
+  -	Joo
+  -	Joon
+  -	Joseph
+  -	Joshua
+  -	Jun
+  -	Junaidi
+  -	Jusoh
+  -	Justin
+  -	Ka
+  -	Kah
+  -	Kai
+  -	Kam
+  -	Kamal
+  -	Kamaruddin
+  -	Kamarudin
+  -	Kamarul
+  -	Kamarulzaman
+  -	Kamaruzaman
+  -	Kang
+  -	Kar
+  -	Karim
+  -	Kasim
+  -	Kassim
+  -	Kean
+  -	Keat
+  -	Kee
+  -	Kelvin
+  -	Ken
+  -	Keng
+  -	Kenneth
+  -	Kenny
+  -	Ket
+  -	Kevin
+  -	Khai
+  -	Khairil
+  -	Khairol
+  -	Khairuddin
+  -	Khairul
+  -	Khalid
+  -	Kheng
+  -	Khoon
+  -	Kian
+  -	Kiat
+  -	Kien
+  -	Kim
+  -	Kin
+  -	King
+  -	Kit
+  -	Koh
+  -	Kok
+  -	Kon
+  -	Kong
+  -	Koon
+  -	Krishnan
+  -	Kuan
+  -	Kum
+  -	Kumar
+  -	Kwan
+  -	Kwong
+  -	Lawrence
+  -	Leong
+  -	Liang
+  -	Lim
+  -	Lip
+  -	Lokman
+  -	Luqman
+  -	Mad
+  -	Mahadi
+  -	Mahamad
+  -	Mahmud
+  -	Mamat
+  -	Man
+  -	Mansor
+  -	Mark
+  -	Martin
+  -	Marzuki
+  -	Masri
+  -	Mat
+  -	Mathew
+  -	Mazlan
+  -	Megat
+  -	Meng
+  -	Meor
+  -	Michael
+  -	Micheal
+  -	Min
+  -	Ming
+  -	Mior
+  -	Mohamad
+  -	Mohamed
+  -	Mohammad
+  -	Mohammed
+  -	Mohan
+  -	Mohmad
+  -	Mokhtar
+  -	Muhamad
+  -	Muhammad
+  -	Muhammed
+  -	Mun
+  -	Muniandy
+  -	Murugan
+  -	Musa
+  -	Mustafa
+  -	Mustaffa
+  -	Nam
+  -	Nasir
+  -	Nazri
+  -	Nazrul
+  -	Nelson
+  -	Nicholas
+  -	Nordin
+  -	Norman
+  -	Omar
+  -	Osman
+  -	Othman
+  -	Pak
+  -	Patrick
+  -	Paul
+  -	Peng
+  -	Peter
+  -	Petrus
+  -	Philip
+  -	Ping
+  -	Rahim
+  -	Rahman
+  -	Rahmat
+  -	Raja
+  -	Ramesh
+  -	Ramlan
+  -	Ramlee
+  -	Ramli
+  -	Rashid
+  -	Ravi
+  -	Raymond
+  -	Razak
+  -	Razali
+  -	Richard
+  -	Ricky
+  -	Ridzuan
+  -	Rizal
+  -	Robert
+  -	Rosdi
+  -	Roslan
+  -	Roslee
+  -	Rosli
+  -	Rosman
+  -	Ruslan
+  -	Rusli
+  -	Saad
+  -	Sabri
+  -	Said
+  -	Saidin
+  -	Saiful
+  -	Salim
+  -	Salleh
+  -	Sam
+  -	Samsudin
+  -	Samsul
+  -	Samuel
+  -	Sang
+  -	Saravanan
+  -	Say
+  -	Sazali
+  -	See
+  -	Selamat
+  -	Seng
+  -	Seong
+  -	Shaari
+  -	Shafie
+  -	Shah
+  -	Shahril
+  -	Shahrizal
+  -	Shahrul
+  -	Shaiful
+  -	Shamsuddin
+  -	Shamsudin
+  -	Shamsul
+  -	Sharif
+  -	Sharul
+  -	Sheikh
+  -	Siang
+  -	Sie
+  -	Simon
+  -	Sin
+  -	Sing
+  -	Siong
+  -	Siva
+  -	Song
+  -	Soon
+  -	Stanley
+  -	Stephen
+  -	Steven
+  -	Subramaniam
+  -	Suhaimi
+  -	Sulaiman
+  -	Sun
+  -	Suresh
+  -	Syafiq
+  -	Syahrul
+  -	Syamsul
+  -	Syed
+  -	Sylvester
+  -	Tai
+  -	Tamil
+  -	Tan
+  -	Tat
+  -	Teck
+  -	Tee
+  -	Teik
+  -	Tek
+  -	Teng
+  -	Teong
+  -	Thean
+  -	Thiam
+  -	Thian
+  -	Thomas
+  -	Tiam
+  -	Tian
+  -	Tien
+  -	Tin
+  -	Ting
+  -	Tiong
+  -	Toh
+  -	Tong
+  -	Tony
+  -	Tuan
+  -	Tuck
+  -	Tze
+  -	Umar
+  -	Victor
+  -	Vincent
+  -	Voon
+  -	Vui
+  -	Wah
+  -	Wahab
+  -	Wai
+  -	Wee
+  -	Wei
+  -	Wen
+  -	Weng
+  -	William
+  -	Wilson
+  -	Wing
+  -	Wong
+  -	Wooi
+  -	Woon
+  -	Yahaya
+  -	Yahya
+  -	Yang
+  -	Yau
+  -	Yeong
+  -	Yeow
+  -	Yew
+  -	Yik
+  -	Yon
+  -	Yong
+  -	Yoon
+  -	Yoong
+  -	You
+  -	Yu
+  -	Yun
+  -	Yunus
+  -	Yusof
+  -	Yusoff
+  -	Yusri
+  -	Yusuf
+  -	Zahari
+  -	Zaidi
+  -	Zainal
+  -	Zaini
+  -	Zainol
+  -	Zainuddin
+  -	Zainudin
+  -	Zakaria
+  -	Zamri
+  -	Zhi
+  -	Zi
+  -	Zul
+  -	Zulkarnain
+  -	Zulkefli
+  -	Zulkifli
+femaleFirst:
+  -	Agnes
+  -	Ah Moi
+  -	Ah Mooi
+  -	Ah Moy
+  -	Ai
+  -	Aida
+  -	Aimi
+  -	Ain
+  -	Aina
+  -	Aini
+  -	Ainul
+  -	Aisah
+  -	Aishah
+  -	Aisyah
+  -	Alia
+  -	Alice
+  -	Amalina
+  -	Aminah
+  -	Amira
+  -	Amirah
+  -	Amy
+  -	Angela
+  -	Ani
+  -	Anis
+  -	Anisah
+  -	Anita
+  -	Aniza
+  -	Ann
+  -	Anna
+  -	Annie
+  -	Asiah
+  -	Asma
+  -	Asmah
+  -	Asnah
+  -	Atikah
+  -	Ayu
+  -	Azimah
+  -	Azizah
+  -	Azlin
+  -	Azlina
+  -	Azura
+  -	Badariah
+  -	Bedah
+  -	Bee
+  -	Betty
+  -	Bibi
+  -	Bunga
+  -	Caroline
+  -	Catherine
+  -	Cecilia
+  -	Chai
+  -	Che
+  -	Chew
+  -	Chia
+  -	Chiew
+  -	Chik
+  -	Choi
+  -	Chooi
+  -	Choy
+  -	Christina
+  -	Christine
+  -	Chui
+  -	Cik
+  -	Cynthia
+  -	Dayang
+  -	Dewi
+  -	Dg
+  -	Diana
+  -	Doris
+  -	Dyg
+  -	Ee
+  -	Elizabeth
+  -	Esah
+  -	Eshah
+  -	Esther
+  -	Evelyn
+  -	Fadilah
+  -	Fadzilah
+  -	Fairuz
+  -	Faizah
+  -	Farah
+  -	Farhana
+  -	Faridah
+  -	Fatimah
+  -	Fatin
+  -	Fauziah
+  -	Fazilah
+  -	Fei
+  -	Flora
+  -	Florence
+  -	Fong
+  -	Foong
+  -	Fui
+  -	Fung
+  -	Fuziah
+  -	Gaik
+  -	Gek
+  -	Geok
+  -	Grace
+  -	Guat
+  -	Habibah
+  -	Habsah
+  -	Hafizah
+  -	Halijah
+  -	Halimah
+  -	Haliza
+  -	Hamidah
+  -	Hamisah
+  -	Hamizah
+  -	Hanis
+  -	Hanisah
+  -	Hartini
+  -	Hasiah
+  -	Hasimah
+  -	Haslina
+  -	Haslinda
+  -	Hasliza
+  -	Hasmah
+  -	Hasnah
+  -	Hasni
+  -	Hawa
+  -	Hayati
+  -	Helen
+  -	Hooi
+  -	Huey
+  -	Hui
+  -	Husna
+  -	Hwee
+  -	Ida
+  -	Intan
+  -	Irene
+  -	Ivy
+  -	Jacqueline
+  -	Jamaliah
+  -	Jamiah
+  -	Jamilah
+  -	Jane
+  -	Jariah
+  -	Jennifer
+  -	Jenny
+  -	Jessica
+  -	Jia
+  -	Jing
+  -	Josephine
+  -	Julia
+  -	Juliana
+  -	Junaidah
+  -	Junainah
+  -	Juriah
+  -	Kalsom
+  -	Kamariah
+  -	Kamisah
+  -	Kamsiah
+  -	Karen
+  -	Kartini
+  -	Khadijah
+  -	Khairun
+  -	Khairunnisa
+  -	Khalijah
+  -	Khatijah
+  -	Kooi
+  -	Ku
+  -	Kui
+  -	Kwai
+  -	Kwee
+  -	Lai
+  -	Laila
+  -	Lan
+  -	Latifah
+  -	Latipah
+  -	Lay
+  -	Lean
+  -	Lee
+  -	Leng
+  -	Li
+  -	Lian
+  -	Lijah
+  -	Lily
+  -	Lin
+  -	Lina
+  -	Linda
+  -	Ling
+  -	Lisa
+  -	Liyana
+  -	Liza
+  -	Lucy
+  -	Lydia
+  -	Lye
+  -	Madam
+  -	Mahani
+  -	Mai
+  -	Maimon
+  -	Maimun
+  -	Maimunah
+  -	Maisarah
+  -	Maizatul
+  -	Mardiana
+  -	Margaret
+  -	Maria
+  -	Mariah
+  -	Mariam
+  -	Mariana
+  -	Mariani
+  -	Marina
+  -	Marlina
+  -	Mary
+  -	Maryam
+  -	Mas
+  -	Masitah
+  -	Maslina
+  -	Masnah
+  -	Masni
+  -	Mastura
+  -	May
+  -	Maziah
+  -	Mazlina
+  -	Maznah
+  -	Mazni
+  -	Mee
+  -	Mei
+  -	Mek
+  -	Melissa
+  -	Meriam
+  -	Michelle
+  -	Mimi
+  -	Minah
+  -	Moi
+  -	Monica
+  -	Mooi
+  -	Moy
+  -	Mui
+  -	Munah
+  -	Munirah
+  -	Murni
+  -	Nabila
+  -	Nabilah
+  -	Nadia
+  -	Nadiah
+  -	Naimah
+  -	Najihah
+  -	Najwa
+  -	Nancy
+  -	Natasha
+  -	Nazatul
+  -	Nazirah
+  -	Ng
+  -	Nguyen
+  -	Nik
+  -	Noor
+  -	Nooraini
+  -	Noorhayati
+  -	Nor
+  -	Nora
+  -	Noraida
+  -	Norain
+  -	Noraini
+  -	Noraishah
+  -	Norashikin
+  -	Norasikin
+  -	Noraziah
+  -	Norazila
+  -	Norazizah
+  -	Norazlina
+  -	Nordiana
+  -	Norhafiza
+  -	Norhafizah
+  -	Norhayati
+  -	Norhidayah
+  -	Noriah
+  -	Noridah
+  -	Norita
+  -	Noriza
+  -	Norizah
+  -	Norizan
+  -	Norlaila
+  -	Norlela
+  -	Norlia
+  -	Norliah
+  -	Norliana
+  -	Norlida
+  -	Norlina
+  -	Norliza
+  -	Norma
+  -	Normah
+  -	Normala
+  -	Norsiah
+  -	Norul
+  -	Nur
+  -	Nurain
+  -	Nuraini
+  -	Nurfatin
+  -	Nurhafizah
+  -	Nurhayati
+  -	Nurhidayah
+  -	Nurin
+  -	Nurliyana
+  -	Nurul
+  -	Nurulain
+  -	Nurulhuda
+  -	Nyet
+  -	Nyok
+  -	Nyuk
+  -	Oi
+  -	Olivia
+  -	Ooi
+  -	Patimah
+  -	Patricia
+  -	Pauline
+  -	Peck
+  -	Pei
+  -	Pek
+  -	Phaik
+  -	Pik
+  -	Pit
+  -	Poh
+  -	Poo
+  -	Pooi
+  -	Puan
+  -	Pui
+  -	Puteh
+  -	Puteri
+  -	Putri
+  -	Rabiah
+  -	Rabiatul
+  -	Radziah
+  -	Rafidah
+  -	Rahayu
+  -	Rahimah
+  -	Rahmah
+  -	Ramlah
+  -	Rashidah
+  -	Rasidah
+  -	Rebecca
+  -	Regina
+  -	Rina
+  -	Rita
+  -	Robiah
+  -	Rodziah
+  -	Rogayah
+  -	Rohaida
+  -	Rohana
+  -	Rohani
+  -	Rohaya
+  -	Rohayu
+  -	Rokiah
+  -	Ros
+  -	Rose
+  -	Rosiah
+  -	Rosidah
+  -	Rosita
+  -	Roslina
+  -	Roslinda
+  -	Rosliza
+  -	Rosmah
+  -	Rosmawati
+  -	Rosnah
+  -	Rosnani
+  -	Rosni
+  -	Rosnita
+  -	Rozana
+  -	Roziah
+  -	Rozita
+  -	Rubiah
+  -	Rukiah
+  -	Rusnah
+  -	Saadiah
+  -	Sabariah
+  -	Sabrina
+  -	Sadiah
+  -	Safiah
+  -	Sai
+  -	Saidah
+  -	Saidatul
+  -	Sakinah
+  -	Salamah
+  -	Salasiah
+  -	Salbiah
+  -	Salimah
+  -	Salina
+  -	Salma
+  -	Salmah
+  -	Salmi
+  -	Salmiah
+  -	Samsiah
+  -	Sandra
+  -	Saniah
+  -	Santhi
+  -	Sapiah
+  -	Sarah
+  -	Saraswathy
+  -	Sariah
+  -	Sarifah
+  -	Sarimah
+  -	Sarina
+  -	Sarinah
+  -	Saripah
+  -	Sau
+  -	Saudah
+  -	Saw
+  -	Sek
+  -	Selamah
+  -	Seok
+  -	Seow
+  -	Seri
+  -	Sew
+  -	Sh
+  -	Shamsiah
+  -	Sharifah
+  -	Sharipah
+  -	Sharon
+  -	Sheau
+  -	Shi
+  -	Shin
+  -	Shirley
+  -	Shu
+  -	Siah
+  -	Siau
+  -	Siaw
+  -	Siew
+  -	Sim
+  -	Siok
+  -	Siow
+  - Siti
+  -	Sitti
+  -	Siu
+  -	Sock
+  -	Sofiah
+  -	Soh
+  -	Sok
+  -	Som
+  -	Soo
+  -	Sooi
+  -	Sook
+  -	Sopiah
+  -	Sow
+  -	Sri
+  -	Stephanie
+  -	Su
+  -	Suan
+  -	Sue
+  -	Suet
+  -	Suhaida
+  -	Suhaila
+  -	Suhaili
+  -	Suhana
+  -	Sui
+  -	Suk
+  -	Suraya
+  -	Suria
+  -	Suriana
+  -	Suriani
+  -	Suriati
+  -	Susan
+  -	Suzana
+  -	Swee
+  -	Syafiqah
+  -	Syahirah
+  -	Syarifah
+  -	Syazwani
+  -	Sylvia
+  -	Sze
+  -	Tengku
+  -	Theresa
+  -	Timah
+  -	Umi
+  -	Ummi
+  -	Ummu
+  -	Veronica
+  -	Vijaya
+  -	Wan
+  -	Winnie
+  -	Xin
+  -	Yah
+  -	Yan
+  -	Yasmin
+  -	Yean
+  -	Yee
+  -	Yen
+  -	Yet
+  -	Yi
+  -	Yin
+  -	Ying
+  -	Yit
+  -	Yok
+  -	Yoke
+  -	Yook
+  -	Yuen
+  -	Yuet
+  -	Yuk
+  -	Zabedah
+  -	Zabidah
+  -	Zaharah
+  -	Zaidah
+  -	Zaimah
+  -	Zainab
+  -	Zainah
+  -	Zainon
+  -	Zainun
+  -	Zaiton
+  -	Zaitun
+  -	Zakiah
+  -	Zaleha
+  -	Zaliha
+  -	Zalina
+  -	Zanariah
+  -	Zarina
+  -	Zubaidah
+  -	Zuraida
+  -	Zuraidah
+  -	Zuraini
+  -	Zurina
+maleLast:
+  -	Abas
+  -	Abd Aziz
+  -	Abd Rahman
+  -	Abdul
+  -	Abdullah
+  -	Abidin
+  -	Abu
+  -	Abu Bakar
+  -	Adam
+  -	Adnan
+  -	Ahmad
+  -	Akhir
+  -	Ali
+  -	Alias
+  -	Alwi
+  -	Amat
+  -	Amin
+  -	Amir
+  -	Amran
+  -	Ang
+  -	Ani
+  -	Anthony
+  -	Anuar
+  -	Anwar
+  -	Arif
+  -	Ariff
+  -	Ariffin
+  -	Arifin
+  -	Aris
+  -	Arshad
+  -	Arumugam
+  -	Asri
+  -	Au
+  -	Aw
+  -	Awang
+  -	Azam
+  -	Azhar
+  -	Aziz
+  -	Azizi
+  -	Azlan
+  -	Azman
+  -	Azmi
+  -	Bahari
+  -	Bakar
+  -	Bakri
+  -	Balakrishnan
+  -	Balan
+  -	Basir
+  -	Basri
+  -	Bee
+  -	Beh
+  -	Bin
+  -	bin Abas
+  -	bin Abd Aziz
+  -	bin Abd Ghani
+  -	bin Abd Halim
+  -	bin Abd Hamid
+  -	bin Abd Jalil
+  -	bin Abd Kadir
+  -	bin Abd Karim
+  -	bin Abd Latif
+  -	bin Abd Majid
+  -	bin Abd Rahim
+  -	bin Abd Rahman
+  -	bin Abd Rashid
+  -	bin Abd Razak
+  -	bin Abd Samad
+  -	bin Abd Wahab
+  -	bin Abdul
+  -	bin Abdul Aziz
+  -	bin Abdul Ghani
+  -	bin Abdul Halim
+  -	bin Abdul Hamid
+  -	Bin Abdul Jalil
+  -	bin Abdul Kadir
+  -	Bin Abdul Karim
+  -	Bin Abdul Latif
+  -	bin Abdul Majid
+  -	bin Abdul Malek
+  -	bin Abdul Manaf
+  -	Bin Abdul Rahim
+  -	Bin Abdul Rahman
+  -	bin Abdul Rani
+  -	bin Abdul Rashid
+  -	bin Abdul Razak
+  -	bin Abdul Samad
+  -	bin Abdul Wahab
+  -	bin Abdullah
+  -	bin Abidin
+  -	bin Abu
+  -	bin Abu Bakar
+  -	bin Abu Hasan
+  -	bin Abu Hassan
+  -	bin Abu Samah
+  -	bin Abu Seman
+  -	bin Adam
+  -	bin Adnan
+  -	bin Ahmad
+  -	bin Ali
+  -	bin Alias
+  -	bin Aman
+  -	bin Amat
+  -	bin Amin
+  -	bin Amir
+  -	bin Amran
+  -	bin Anuar
+  -	bin Ariffin
+  -	bin Arifin
+  -	bin Aris
+  -	bin Arshad
+  -	bin Atan
+  -	bin Awang
+  -	bin Ayob
+  -	bin Ayub
+  -	bin Azhar
+  -	bin Aziz
+  -	bin Azizan
+  -	bin Azlan
+  -	bin Azman
+  -	bin Azmi
+  -	bin Baba
+  -	bin Bahari
+  -	bin Baharom
+  -	bin Baharuddin
+  -	bin Baharudin
+  -	bin Baharum
+  -	bin Bakar
+  -	bin Bakri
+  -	bin Basir
+  -	bin Basri
+  -	bin Bidin
+  -	bin Buang
+  -	bin Bujang
+  -	bin Chik
+  -	bin Dahlan
+  -	bin Darus
+  -	bin Daud
+  -	bin Deraman
+  -	bin Din
+  -	bin Dollah
+  -	bin Elias
+  -	bin Embong
+  -	bin Fadzil
+  -	bin Fauzi
+  -	bin Ghani
+  -	bin Ghazali
+  -	bin Halim
+  -	bin Hamat
+  -	bin Hamdan
+  -	bin Hamid
+  -	bin Hamzah
+  -	bin Hanafi
+  -	bin Haris
+  -	bin Haron
+  -	bin Harun
+  -	bin Hasan
+  -	bin Hashim
+  -	bin Hasim
+  -	bin Hassan
+  -	bin Hassim
+  -	bin Husain
+  -	bin Husin
+  -	bin Hussain
+  -	bin Hussein
+  -	bin Hussin
+  -	bin Ibrahim
+  -	bin Idris
+  -	bin Isa
+  -	bin Ishak
+  -	bin Ismail
+  -	bin Jaafar
+  -	bin Jaffar
+  -	bin Jalil
+  -	bin Jamal
+  -	bin Jamaluddin
+  -	bin Jamaludin
+  -	bin Jamil
+  -	bin Jantan
+  -	bin Johan
+  -	bin Johari
+  -	bin Jusoh
+  -	bin Kadir
+  -	bin Kamal
+  -	bin Kamaruddin
+  -	bin Kamarudin
+  -	bin Kamaruzaman
+  -	bin Kamis
+  -	bin Karim
+  -	bin Kasim
+  -	bin Kassim
+  -	bin Khairuddin
+  -	bin Khalid
+  -	bin Khamis
+  -	bin Latif
+  -	bin Long
+  -	bin Mahadi
+  -	bin Mahat
+  -	bin Mahmood
+  -	bin Mahmud
+  -	bin Majid
+  -	bin Mamat
+  -	bin Man
+  -	bin Mansor
+  -	bin Marzuki
+  -	bin Masri
+  -	bin Mat
+  -	bin Mazlan
+  -	bin Mohamad
+  -	bin Mohamed
+  -	bin Mohammad
+  -	bin Mohammed
+  -	bin Mokhtar
+  -	bin Muda
+  -	bin Muhamad
+  -	bin Muhammad
+  -	bin Musa
+  -	bin Mustafa
+  -	bin Mustaffa
+  -	bin Mustapa
+  -	bin Mustapha
+  -	bin Nasir
+  -	bin Nawi
+  -	bin Nayan
+  -	bin Nazri
+  -	bin Ngah
+  -	bin Noordin
+  -	bin Nordin
+  -	bin Omar
+  -	bin Osman
+  -	bin Othman
+  -	bin Puteh
+  -	bin Rahim
+  -	bin Rahman
+  -	bin Rahmat
+  -	bin Ramlan
+  -	bin Ramlee
+  -	bin Ramli
+  -	bin Ramly
+  -	bin Rashid
+  -	bin Razak
+  -	bin Razali
+  -	bin Romli
+  -	bin Rosdi
+  -	bin Roslan
+  -	bin Rosli
+  -	bin Rosman
+  -	bin Ruslan
+  -	bin Rusli
+  -	bin Saad
+  -	bin Saari
+  -	bin Saat
+  -	bin Sabri
+  -	bin Sahari
+  -	bin Said
+  -	bin Saidin
+  -	bin Saleh
+  -	bin Salim
+  -	bin Salleh
+  -	bin Samad
+  -	bin Samat
+  -	bin Samsuddin
+  -	bin Samsudin
+  -	bin Samsuri
+  -	bin Sani
+  -	bin Saudin
+  -	bin Sazali
+  -	bin Selamat
+  -	bin Seman
+  -	bin Shaari
+  -	bin Shafie
+  -	bin Shamsuddin
+  -	bin Shamsudin
+  -	bin Sharif
+  -	bin Shariff
+  -	bin Shuib
+  -	bin Sidek
+  -	bin Sudin
+  -	bin Suhaimi
+  -	bin Sulaiman
+  -	bin Sulong
+  -	bin Tahir
+  -	bin Taib
+  -	bin Talib
+  -	bin Umar
+  -	bin Wahab
+  -	bin Wahid
+  -	bin Yaacob
+  -	bin Yaakob
+  -	bin Yaakub
+  -	bin Yacob
+  -	bin Yahaya
+  -	bin Yahya
+  -	bin Yasin
+  -	bin Yunus
+  -	bin Yusof
+  -	bin Yusoff
+  -	bin Yusop
+  -	bin Yusuf
+  -	bin Zahari
+  -	bin Zaidi
+  -	bin Zainal
+  -	bin Zaini
+  -	bin Zainol
+  -	bin Zainon
+  -	bin Zainuddin
+  -	bin Zainudin
+  -	bin Zakaria
+  -	bin Zamri
+  -	bin Zulkefli
+  -	bin Zulkifli
+  -	Binti
+  -	binti Abas
+  -	binti Abdul
+  -	binti Abdullah
+  -	binti Abidin
+  -	binti Abu
+  -	binti Adam
+  -	binti Adnan
+  -	binti Ahmad
+  -	binti Ali
+  -	binti Alias
+  -	binti Aman
+  -	binti Amat
+  -	binti Amin
+  -	binti Amir
+  -	binti Amran
+  -	binti Anuar
+  -	binti Ariffin
+  -	binti Arifin
+  -	binti Aris
+  -	binti Arshad
+  -	binti Atan
+  -	binti Awang
+  -	binti Ayob
+  -	binti Ayub
+  -	binti Azhar
+  -	binti Aziz
+  -	binti Azizan
+  -	binti Azman
+  -	binti Azmi
+  -	binti Baba
+  -	binti Bahari
+  -	binti Baharom
+  -	binti Baharuddin
+  -	binti Baharudin
+  -	binti Bakar
+  -	binti Bakri
+  -	binti Basir
+  -	binti Basri
+  -	binti Bidin
+  -	binti Buang
+  -	binti Bujang
+  -	binti Chik
+  -	binti Dahlan
+  -	binti Darus
+  -	binti Daud
+  -	binti Deraman
+  -	binti Din
+  -	binti Dollah
+  -	binti Embong
+  -	binti Fauzi
+  -	binti Ghani
+  -	binti Ghazali
+  -	binti Halim
+  -	binti Hamdan
+  -	binti Hamid
+  -	binti Hamzah
+  -	binti Hanafi
+  -	binti Haris
+  -	binti Haron
+  -	binti Harun
+  -	binti Hasan
+  -	binti Hashim
+  -	binti Hasim
+  -	binti Hassan
+  -	binti Hassim
+  -	binti Husain
+  -	binti Husin
+  -	binti Hussain
+  -	binti Hussein
+  -	binti Hussin
+  -	binti Ibrahim
+  -	binti Idris
+  -	binti Isa
+  -	binti Ishak
+  -	binti Ismail
+  -	binti Jaafar
+  -	binti Jaffar
+  -	binti Jalil
+  -	binti Jamal
+  -	binti Jamaluddin
+  -	binti Jamaludin
+  -	binti Jamil
+  -	binti Jantan
+  -	binti Johan
+  -	binti Johari
+  -	binti Jusoh
+  -	binti Kadir
+  -	binti Kamal
+  -	binti Kamaruddin
+  -	binti Kamarudin
+  -	binti Kamaruzaman
+  -	binti Kamis
+  -	binti Karim
+  -	binti Kasim
+  -	binti Kassim
+  -	binti Khalid
+  -	binti Khamis
+  -	binti Long
+  -	binti Mahadi
+  -	binti Mahat
+  -	binti Mahmood
+  -	binti Mahmud
+  -	binti Majid
+  -	binti Mamat
+  -	binti Man
+  -	binti Mansor
+  -	binti Marzuki
+  -	binti Mat
+  -	binti Mazlan
+  -	binti Mohamad
+  -	binti Mohamed
+  -	binti Mohammad
+  -	binti Mohammed
+  -	binti Mokhtar
+  -	binti Muda
+  -	binti Muhamad
+  -	binti Muhammad
+  -	binti Musa
+  -	binti Mustafa
+  -	binti Mustaffa
+  -	binti Mustapa
+  -	binti Mustapha
+  -	binti Nasir
+  -	binti Nawi
+  -	binti Nayan
+  -	binti Nazri
+  -	binti Ngah
+  -	binti Noordin
+  -	binti Nordin
+  -	binti Omar
+  -	binti Osman
+  -	binti Othman
+  -	binti Puteh
+  -	binti Rahim
+  -	binti Rahman
+  -	binti Rahmat
+  -	binti Ramlan
+  -	binti Ramlee
+  -	binti Ramli
+  -	binti Ramly
+  -	binti Rashid
+  -	binti Razak
+  -	binti Razali
+  -	binti Romli
+  -	binti Rosdi
+  -	binti Roslan
+  -	binti Rosli
+  -	binti Ruslan
+  -	binti Rusli
+  -	binti Saad
+  -	binti Saari
+  -	binti Saat
+  -	binti Sabri
+  -	binti Said
+  -	binti Saidin
+  -	binti Saleh
+  -	binti Salim
+  -	binti Salleh
+  -	binti Samad
+  -	binti Samat
+  -	binti Samsuddin
+  -	binti Samsudin
+  -	binti Samsuri
+  -	binti Sani
+  -	binti Sazali
+  -	binti Selamat
+  -	binti Seman
+  -	binti Shaari
+  -	binti Shafie
+  -	binti Shamsuddin
+  -	binti Shamsudin
+  -	binti Sharif
+  -	binti Shariff
+  -	binti Sidek
+  -	binti Sudin
+  -	binti Suhaimi
+  -	binti Sulaiman
+  -	binti Sulong
+  -	binti Tahir
+  -	binti Taib
+  -	binti Talib
+  -	binti Umar
+  -	binti Wahab
+  -	binti Wahid
+  -	binti Yaacob
+  -	binti Yaakob
+  -	binti Yaakub
+  -	binti Yacob
+  -	binti Yahaya
+  -	binti Yahya
+  -	binti Yasin
+  -	binti Yunus
+  -	binti Yusof
+  -	binti Yusoff
+  -	binti Yusop
+  -	binti Yusuf
+  -	binti Zahari
+  -	binti Zaidi
+  -	binti Zainal
+  -	binti Zaini
+  -	binti Zainol
+  -	binti Zainon
+  -	binti Zainuddin
+  -	binti Zainudin
+  -	binti Zakaria
+  -	binti Zamri
+  -	binti Zulkefli
+  -	binti Zulkifli
+  -	Bong
+  -	Boo
+  -	Boon
+  -	Bujang
+  -	Cha
+  -	Chai
+  -	Cham
+  -	Chan
+  -	Chang
+  -	Chau
+  -	Che
+  -	Cheah
+  -	Chee
+  -	Chen
+  -	Cheng
+  -	Cheong
+  -	Chew
+  -	Chia
+  -	Chiam
+  -	Chiang
+  -	Chiew
+  -	Chik
+  -	Chin
+  -	Ching
+  -	Choi
+  -	Chok
+  -	Chong
+  -	Choo
+  -	Chow
+  -	Choy
+  -	Chu
+  -	Chua
+  -	Chuah
+  -	Chuan
+  -	Chun
+  -	Chung
+  -	Dali
+  -	Damit
+  -	Dan
+  -	Darus
+  -	Daud
+  -	David
+  -	Desa
+  -	Devi
+  -	Diah
+  -	Din
+  -	Ding
+  -	Dom
+  -	Ee
+  -	Eng
+  -	Er
+  -	Esa
+  -	Fadzil
+  -	Faizal
+  -	Fan
+  -	Fauzi
+  -	Firdaus
+  -	Fong
+  -	Foo
+  -	Foong
+  -	Francis
+  -	Fuad
+  -	Fung
+  -	Gan
+  -	Gani
+  -	George
+  -	Ghafar
+  -	Ghani
+  -	Ghazali
+  -	Goh
+  -	Gopal
+  -	Govindasamy
+  -	Ha
+  -	Hadi
+  -	Hafiz
+  -	Hakim
+  -	Halim
+  -	Hamdan
+  -	Hamid
+  -	Hamzah
+  -	Han
+  -	Hanafi
+  -	Hanafiah
+  -	Haris
+  -	Haron
+  -	Harun
+  -	Hasan
+  -	Hashim
+  -	Hassan
+  -	Hee
+  -	Heng
+  -	Hew
+  -	Hiew
+  -	Hing
+  -	Hisham
+  -	Ho
+  -	Hock
+  -	Hoe
+  -	Hoh
+  -	Hon
+  -	Hong
+  -	Hoo
+  -	Hooi
+  -	Hor
+  -	How
+  -	Hua
+  -	Huang
+  -	Huat
+  -	Hui
+  -	Husain
+  -	Husin
+  -	Hussain
+  -	Hussin
+  -	Ibrahim
+  -	Idris
+  -	Isa
+  -	Ishak
+  -	Ismail
+  -	Jaafar
+  -	Jais
+  -	Jali
+  -	Jalil
+  -	Jamal
+  -	Jamaludin
+  -	James
+  -	Jamil
+  -	Jani
+  -	Jau
+  -	Johari
+  -	John
+  -	Johnny
+  -	Jok
+  -	Joseph
+  -	Jusoh
+  -	Kadir
+  -	Kam
+  -	Kamal
+  -	Kamaruddin
+  -	Kamarudin
+  -	Kamil
+  -	Kan
+  -	Kang
+  -	Karim
+  -	Kasim
+  -	Kassim
+  -	Kaur
+  -	Kechik
+  -	Kee
+  -	Keong
+  -	Khairi
+  -	Khalid
+  -	Khan
+  -	Khaw
+  -	Khir
+  -	Kho
+  -	Khong
+  -	Khoo
+  -	Khor
+  -	Kiew
+  -	Kim
+  -	Ko
+  -	Koay
+  -	Koh
+  -	Kok
+  -	Kong
+  -	Koo
+  -	Kow
+  -	Krishnan
+  -	Ku
+  -	Kuan
+  -	Kumar
+  -	Kwan
+  -	Lah
+  -	Lai
+  -	Lam
+  -	Lan
+  -	Latif
+  -	Latiff
+  -	Latip
+  -	Lau
+  -	Law
+  -	Lazim
+  -	Lee
+  -	Leng
+  -	Leo
+  -	Leong
+  -	Leow
+  -	Lew
+  -	Li
+  -	Lian
+  -	Liang
+  -	Liau
+  -	Liaw
+  -	Liew
+  -	Lim
+  -	Lin
+  -	Ling
+  -	Liong
+  -	Liow
+  -	Liu
+  -	Loh
+  -	Loi
+  -	Lok
+  -	Loke
+  -	Long
+  -	Loo
+  -	Looi
+  -	Loong
+  -	Low
+  -	Lu
+  -	Lum
+  -	Lye
+  -	Ma
+  -	Mah
+  -	Mahmood
+  -	Mahmud
+  -	Majid
+  -	Mak
+  -	Malek
+  -	Malik
+  -	Mamat
+  -	Man
+  -	Manaf
+  -	Manan
+  -	Manap
+  -	Maniam
+  -	Mansor
+  -	Martin
+  -	Marzuki
+  -	Mas
+  -	Mat
+  -	Mazlan
+  -	Mei
+  -	Meng
+  -	Michael
+  -	Min
+  -	Ming
+  -	Moh
+  -	Mohamad
+  -	Mohamed
+  -	Mohammad
+  -	Mohammed
+  -	Mok
+  -	Mokhtar
+  -	Muda
+  -	Muhamad
+  -	Muhammad
+  -	Mun
+  -	Muniandy
+  -	Munusamy
+  -	Musa
+  -	Mustafa
+  -	Mustapha
+  -	Mutalib
+  -	Naim
+  -	Nair
+  -	Najib
+  -	Nasir
+  -	Nawawi
+  -	Nawi
+  -	Nayan
+  -	Nazir
+  -	Nazri
+  -	Neo
+  -	Neoh
+  -	Ng
+  -	Ngah
+  -	Ngau
+  -	Ngo
+  -	Ngu
+  -	Nizam
+  -	Noh
+  -	Noor
+  -	Noordin
+  -	Nor
+  -	Nordin
+  -	Oh
+  -	Omar
+  -	Ong
+  -	Ooi
+  -	Oon
+  -	Osman
+  -	Othman
+  -	Pan
+  -	Pang
+  -	Pauzi
+  -	Peng
+  -	Perumal
+  -	Peter
+  -	Phang
+  -	Philip
+  -	Phoon
+  -	Phua
+  -	Piah
+  -	Ping
+  -	Poh
+  -	Poon
+  -	Pua
+  -	Quah
+  -	Quek
+  -	Radzi
+  -	Rahim
+  -	Rahman
+  -	Rais
+  -	Raj
+  -	Raman
+  -	Ramasamy
+  -	Ramli
+  -	Rani
+  -	Rashid
+  -	Rasid
+  -	Rawi
+  -	Razak
+  -	Razali
+  -	Razi
+  -	Rejab
+  -	Ridzuan
+  -	Rizal
+  -	Robert
+  -	Rodzi
+  -	Ros
+  -	Rosdi
+  -	Roslan
+  -	Rosli
+  -	Rusli
+  -	Saad
+  -	Saat
+  -	Sabri
+  -	Sah
+  -	Said
+  -	Saidi
+  -	Salam
+  -	Saleh
+  -	Salim
+  -	Salleh
+  -	Samad
+  -	Samah
+  -	Saman
+  -	Samat
+  -	Samsudin
+  -	San
+  -	Sani
+  -	Saw
+  -	Seah
+  -	See
+  -	Seman
+  -	Seng
+  -	Seow
+  -	Shaari
+  -	Shafie
+  -	Shah
+  -	Sham
+  -	Sharif
+  -	Shariff
+  -	Shim
+  -	Shukor
+  -	Shukri
+  -	Sia
+  -	Siang
+  -	Sidek
+  -	Siew
+  -	Sim
+  -	Simon
+  -	Sin
+  -	Sing
+  -	Singh
+  -	Siong
+  -	Siow
+  -	Sobri
+  -	Soh
+  -	Som
+  -	Song
+  -	Soo
+  -	Soon
+  -	Soong
+  -	Stephen
+  -	Su
+  -	Subramaniam
+  -	Suhaimi
+  -	Sukri
+  -	Sulaiman
+  -	Suppiah
+  -	Taha
+  -	Tahir
+  -	Tai
+  -	Taib
+  -	Tajuddin
+  -	Tajudin
+  -	Talib
+  -	Tam
+  -	Tan
+  -	Tang
+  -	Tarmizi
+  -	Tay
+  -	Tee
+  -	Teh
+  -	Teng
+  -	Teo
+  -	Teoh
+  -	Tew
+  -	Tey
+  -	Tham
+  -	Then
+  -	Thien
+  -	Thomas
+  -	Thong
+  -	Tiew
+  -	Ting
+  -	Tiong
+  -	Toh
+  -	Tong
+  -	Too
+  -	Tsen
+  -	Tuan
+  -	Tung
+  -	Voo
+  -	Voon
+  -	Vun
+  -	Wah
+  -	Wahab
+  -	Wahid
+  -	Wai
+  -	Wan
+  -	Wang
+  -	Wee
+  -	Wei
+  -	William
+  -	Wong
+  -	Woo
+  -	Woon
+  -	Wu
+  -	Yaacob
+  -	Yahaya
+  -	Yahya
+  -	Yan
+  -	Yang
+  -	Yap
+  -	Yasin
+  -	Yassin
+  -	Yatim
+  -	Yau
+  -	Yazid
+  -	Yeap
+  -	Yee
+  -	Yen
+  -	Yeo
+  -	Yeoh
+  -	Yeong
+  -	Yeow
+  -	Yew
+  -	Yin
+  -	Ying
+  -	Yip
+  -	Yong
+  -	Yoong
+  -	Yow
+  -	Yu
+  -	Yuen
+  -	Yunos
+  -	Yunus
+  -	Yusof
+  -	Yusoff
+  -	Yusop
+  -	Yussof
+  -	Yusuf
+  -	Zahari
+  -	Zaid
+  -	Zaidi
+  -	Zain
+  -	Zainal
+  -	Zaini
+  -	Zainuddin
+  -	Zainudin
+  -	Zakaria
+  -	Zaki
+  -	Zaman
+  -	Zamri
+  -	Zawawi
+  -	Zin
+  -	Zubir
+  -	Zuki
+  -	Zulkifli

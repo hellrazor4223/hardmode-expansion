@@ -71,9 +71,6 @@ I hope you will enjoy this collection of 60+ Mods (i stopped counting)
 and please report any possible Bug you might find on the forum. 
 Feedback of any form is also appreciated.
 
-
-Compability to OpenXcom Extended is now given :>
-
 Compability to other mods:
 	This mod is intended to be a Standalone Mod.
 	Mods which only add new Items and New Crafts may not pose a problem.
@@ -95,14 +92,22 @@ Not compatible:
 The list of included Mods is pretty big (60+) see Features.
 Mostly Graphics, New Units, Terrains and Weapons.
 
-Recommended Advanced Options: (In OXCE this options are enabled automatically when loading the mod for the first time)
-	Save Preprimed Grenades (for Smoke Grenades)
-	Alternate Movement Methods (to fight faster)
-	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
-	Storage limits for recovered Items (sell directly after a mission)
-	Live Alien Sale (to clean out what you do not need)
+Recommended Advanced Options: (Enabled automatically when loading the mod for the first time)
 	Forced Craft launch (probably needed since your craft will get shot a lot)
+	Limit Storage Items (Using Autoseller Helps a lot, just be aware to not sell of stuff you wanna research!)
+	Sell Alive Alien (More cash for alive ones, helkps managing the Alien Containment)
+	Sneaky AI (Aliens are less likely to expose themselvbes to X-Com)
+	UFOExtenderAccuracy (Range limited Accuracy Dropoff)
+	Save Preprimed Grenades (for Smoke Grenades)
+	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
+	Alternate Movement Methods (to fight faster)
 	Alien Bleeding
+	FundsOnGeoscape (keep your finances in check)
+	Pathpreview with Energieview
+	OXCE Links
+	OXCE Autoseller
+	Psi Training anytime
+	More Stats on Inventory Screens
 
 Creditlist:
 see CREDIT.TXT (https://openxcom.org/forum/index.php/topic,4965.0.html)
@@ -115,8 +120,8 @@ Quality of Live OXCE UI changes:
 	BleedingIndicator (Battlescape UI)
 	StunIndicator (Battlescape UI)
 	Burnindicator (Battlescape UI)
-	CustomArmorPreviews (Solder Armor)
-	CustomItemPreviews (For Tanks and Drones)
+	CustomArmorPreviews (Soldier Armor)
+	CustomItemPreviews (Tanks and Drones)
 	CustomEnemyPreview (Battlescape UI)
 	SoldierAvatars and TinyRanks (Battlescape UI)
 	SoldierKneelingIndicator (Battlescape UI)
@@ -124,6 +129,7 @@ Quality of Live OXCE UI changes:
 	Better Smoke Animation (Battlescape UI)
 	New Plasma Hit Animation for Heavy Plasma (Battlescape UI)
 	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
+	SoldierCountryNames and SoldierCountryFlags from 115 Countries
 
 Additional Alien Races/Units:
 	Waspite

@@ -180,6 +180,8 @@ Credits go to:
 		- For the PSXCutscenes Mod
 	NeoWorm:
 		- For the Zero Content Base mod (https://openxcom.org/forum/index.php?topic=5551.msg84663#msg84663)
+	Blackwolf:
+		- For the OpenXcom Nationalities expanded Mod (https://openxcom.org/forum/index.php?topic=10976.msg160935#msg160935)
 	Holomorph (http://holomorph.eu/):
 		- Ufopaedia Graphics for:
 			MEDAL_GLOBETROTTER
