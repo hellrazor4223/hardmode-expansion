@@ -2207,13 +2207,6 @@ extraSprites:
       0: Resources/UI/QOL/TinyRanks.png
 #END TINY RANKS
 
-#BEGIN PREVIEW ALIEN INVENTORY
-  - type: AlienInventory #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/AlienInventory.png
-#END PREVIEW ALIEN INVENTORY
-
 #BEGIN CUSTOM ARMOR PREVIEW
   - type: CustomArmorPreviews #Hardcoded
     width: 96

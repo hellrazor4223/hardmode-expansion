@@ -15,7 +15,6 @@ Version 0.99.9.5
  - Add TerrainHint DayNightIndicator
  - Add Stun, Burn and Bleeding Indicators for Battlescape
  - Add Avatars and TinyRanks for Battlescape
- - Add OXCE Enemy Preview Background
  - Add OXCE Armor Preview for Craft Equip Screen
  - Add OXCE Tank/Drone Preview for Craft Equip Screen
  - Add SoldierNames and SoldierCountryFlags
