@@ -182,7 +182,7 @@ Credits go to:
 		- For the Zero Content Base mod (https://openxcom.org/forum/index.php?topic=5551.msg84663#msg84663)
 	Blackwolf:
 		- For the OpenXcom Nationalities expanded Mod (https://openxcom.org/forum/index.php?topic=10976.msg160935#msg160935)
-	Holomorph (http://holomorph.eu/):
+	Holomorph:
 		- Ufopaedia Graphics for:
 			MEDAL_GLOBETROTTER
 			MEDAL_MARTYR
@@ -190,6 +190,9 @@ Credits go to:
 			MEDAL_POSTMORTEM_KILL
 			MEDAL_PSIPANIC
 			MEDAL_SLAVEKILLS
+	cevaralien:
+		- for the final version of the commendation sprite
+
 	All translaters on the TRANSIFEX project (you guys are awesome)
 
 This list is for sure not complete.

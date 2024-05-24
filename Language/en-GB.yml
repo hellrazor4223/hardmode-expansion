@@ -896,7 +896,7 @@ en-GB:
 
   STR_MEDAL_GLOBETROTTER: "Globetrotter"
   STR_MEDAL_GLOBETROTTER_DESCRIPTION: "Given to a soldier who has defended every last country on Earth from the alien threat."
-  STR_MEDAL_GLOBETROTTER_UFOPEDIA: "Given to a soldier who has defended every last country on Earth from the alien threat."
+  STR_MEDAL_GLOBETROTTER_UFOPEDIA: ""
 
   STR_MEDAL_GRENADIER: "Grenadier's Medal"
   STR_MEDAL_GRENADIER_DESCRIPTION: "Given to a soldier who has used thrown explosives to kill 3 aliens at once."
@@ -928,7 +928,7 @@ en-GB:
 
   STR_MEDAL_MARTYR: "Medal of Sacrifice"
   STR_MEDAL_MARTYR_DESCRIPTION: "Given posthumously to a soldier who would not go down alone."
-  STR_MEDAL_MARTYR_UFOPEDIA: "Given posthumously to a soldier who would not go down alone."
+  STR_MEDAL_MARTYR_UFOPEDIA: ""
 
   STR_MEDAL_MEDIKIT: "Field Surgeon"
   STR_MEDAL_MEDIKIT_DESCRIPTION: "Given to a soldier who has made regular use of the medikit on the battlefield."
@@ -948,7 +948,7 @@ en-GB:
 
   STR_MEDAL_MINDCONTROL: "Imperio"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "Given to a soldier who has mastered the mind of the enemy."
-  STR_MEDAL_MINDCONTROL_UFOPEDIA: "Given to a soldier who has mastered the mind of the enemy."
+  STR_MEDAL_MINDCONTROL_UFOPEDIA: ""
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Longest Night Ribbon"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Given to a soldier who has witnessed the horrors of alien terror missions at night."
@@ -968,11 +968,11 @@ en-GB:
 
   STR_MEDAL_POSTMORTEM_KILL: "Order of the Reaper"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "Given posthumously to a soldier who maintained a presence on the battlefield in spite of death."
-  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: "Given posthumously to a soldier who maintained a presence on the battlefield in spite of death."
+  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: ""
 
   STR_MEDAL_PSIPANIC: "Crucio"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "Given to a soldier who has broken the mind of the enemy."
-  STR_MEDAL_PSIPANIC_UFOPEDIA: "Given to a soldier who has broken the mind of the enemy."
+  STR_MEDAL_PSIPANIC_UFOPEDIA: ""
 
   STR_MEDAL_REACTIONFIRE: "Swiftness Citation"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Given to a soldier who has demonstrated quick reflexes, killing aliens before they have a chance to retaliate."
@@ -1000,7 +1000,7 @@ en-GB:
 
   STR_MEDAL_SLAVEKILLS: "Master of Puppets"
   STR_MEDAL_SLAVEKILLS_DESCRIPTION: "Given to a soldier who has used aliens against one another."
-  STR_MEDAL_SLAVEKILLS_UFOPEDIA: "Given to a soldier who has turned aliens against one another."
+  STR_MEDAL_SLAVEKILLS_UFOPEDIA: ""
 
   STR_MEDAL_SNIPER: "Marksman Citation"
   STR_MEDAL_SNIPER_DESCRIPTION: "Given to a soldier who has landed long distance shots on intended targets."

@@ -7,6 +7,7 @@ Version 0.99.9.5
  - Fix Typos for Weaponlists
  - Fix Typos in extraSprites
  - Fix Position of Magadan City
+ - Fix Missing BT_PSIAMP for Psi Panic and Mind Control Commendations
  - Adjust all Shotguns to behave like proper Ones
  - Add Fire Extinguisher Item
  - Add Armed Civilian to Terrorsites
@@ -21,6 +22,7 @@ Version 0.99.9.5
  - Add Inventory images for all Civilians
  - Add Inventory images for all Aliens
  - Add Inventory images for all Tanks
+ - Add Final Version of the Commendation sprite provided by cevaralien
 
 
 Version 0.99.9.4
