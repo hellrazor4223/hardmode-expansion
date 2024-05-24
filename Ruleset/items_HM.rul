@@ -1087,7 +1087,7 @@ items:
     costSell: 900000
     transferTime: 96
     weight: 1
-    bigSprite: 128
+    bigSprite: 221
     floorSprite: 0
     handSprite: 0
     bulletSprite: 7
@@ -1106,7 +1106,7 @@ items:
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
-    turretType: 2
+    turretType: 3
     listOrder: 1599
     snapRange: 24
     autoRange: 14
@@ -1241,6 +1241,7 @@ items:
 #BEGIN HOVERTANK PLASMA ITEM
   - type: STR_HOVERTANK_PLASMA
     customItemPreviewIndex: 2
+    bigSprite: 222
     power: 115
     accuracyAuto: 70
     accuracySnap: 85
@@ -3683,22 +3684,15 @@ items:
 ##END ALIEN CORPSE ITEMS
 
 ##BEGIN ALIEN TERROR UNIT WEAPON ITEMS
-#BEGIN SECTOPOD WEAPON ITEM
-  - type: SECTOPOD_WEAPON
-    fireSound: 11
-    hitAnimation: 36
-    power: 110
-    bulletSprite: 7
-    listOrder: 11400
-    snapRange: 24
-    autoRange: 14
-    dropoff: 3
-#END SECTOPOD WEAPON ITEM
+#BEGIN ZOMBIE WEAPON
+  - type: ZOMBIE_WEAPON
+    bigSprite: 228
+#END ZOMBIE WEAPON
 
 #BEGIN MUTON BERSERKER WEAPON ITEM
   - type: MUTON_BERSERKER_WEAPON
     weight: 3
-    bigSprite: { mod: xcom1, index: 61}
+    bigSprite: 223
     floorSprite: 31
     handSprite: 104
     meleeSound: 110
@@ -3717,10 +3711,23 @@ items:
     listOrder: 11401
 #END MUTON BERSERKER WEAPON ITEM
 
+#BEGIN SECTOPOD WEAPON ITEM
+  - type: SECTOPOD_WEAPON
+    bigSprite: 224
+    fireSound: 11
+    hitAnimation: 36
+    power: 110
+    bulletSprite: 7
+    listOrder: 11400
+    snapRange: 24
+    autoRange: 14
+    dropoff: 3
+#END SECTOPOD WEAPON ITEM
+
 #BEGIN CYBERMITE WEAPON ITEM
   - type: CYBERMITE_WEAPON
     weight: 3
-    bigSprite: { mod: xcom1, index: 59}
+    bigSprite: 225
     floorSprite: 31
     handSprite: 104
     hitSound: 54
@@ -3800,7 +3807,7 @@ items:
 #BEGIN ARMORED SECTOPOD WEAPON ITEM
   - type: ARMORED_SECTOPOD_WEAPON
     weight: 3
-    bigSprite: { mod: xcom1, index: 60}
+    bigSprite: 226
     floorSprite: 31
     handSprite: 104
     fireSound: 18
@@ -3879,7 +3886,7 @@ items:
 #BEGIN SPITTER ZOMBIE WEAPON ITEM
   - type: SPITTER_ZOMBIE_WEAPON
     weight: 3
-    bigSprite: { mod: xcom1, index: 57}
+    bigSprite: 228
     meleeSound: 48
     strengthApplied: true
     damageType: 7

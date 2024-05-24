@@ -16,6 +16,6 @@ extraSounds:
       112: Resources/Units/Alien/MutonBerserker/Sound_Aggro_MutonBerserker.wav
       113: Resources/Units/Xcom/Drones/Sound_Shoot_DroneSmoke.wav
       114: Resources/Units/Xcom/Drones/Sound_Shoot_DroneTaser.wav
-      115: Resources/Units/Xcom/AlloyTank/Sound_Shoot_TankSmoke.wav
+      115: Resources/Units/Xcom/Tanks/Sound_Shoot_TankSmoke.wav
       116: Resources/Items/Xcom/FireExtinguisher/Sound_Shoot_FireExtinguisher.wav
 ###END EXTRASOUNDS

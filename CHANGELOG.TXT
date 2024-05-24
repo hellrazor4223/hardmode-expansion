@@ -18,6 +18,10 @@ Version 0.99.9.5
  - Add OXCE Armor Preview for Craft Equip Screen
  - Add OXCE Tank/Drone Preview for Craft Equip Screen
  - Add SoldierNames and SoldierCountryFlags
+ - Add Inventory images for all Civilians
+ - Add Inventory images for all Aliens
+ - Add Inventory images for all Tanks
+
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful

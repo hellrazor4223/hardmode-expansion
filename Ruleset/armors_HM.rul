@@ -304,6 +304,7 @@ armors:
 #BEGIN TANK CANNON ARMOR
   - type: TANK_CANNON_ARMOR
     spriteSheet: TANKS.PCK
+    spriteInv: tankcannonInventoryImage
     allowInv: false
     corpseBattle:
       - TANK_CANNON_CORPSE_1
@@ -334,6 +335,7 @@ armors:
 #BEGIN TANK ROCKET LAUNCHER ARMOR
   - type: TANK_ROCKET_LAUNCHER_ARMOR
     spriteSheet: TANKS.PCK
+    spriteInv: tankrocketlauncherInventoryImage
     allowInv: false
     corpseBattle:
       - TANK_ROCKET_LAUNCHER_CORPSE_1
@@ -354,6 +356,7 @@ armors:
 #BEGIN TANK LASER CANNON ARMOR
   - type: TANK_LASER_CANNON_ARMOR
     spriteSheet: TANKS.PCK
+    spriteInv: tanklasercannonInventoryImage
     allowInv: false
     corpseBattle:
       - TANK_LASER_CANNON_CORPSE_1
@@ -374,6 +377,7 @@ armors:
 #BEGIN ALLOY TANK CANNON ARMOR
   - type: ALLOY_TANK_CANNON_ARMOR
     spriteSheet: ALLOYTANKS.PCK
+    spriteInv: alloytankcannonInventoryImage
     allowInv: false
     corpseBattle:
       - ALLOY_TANK_CANNON_CORPSE_1
@@ -404,6 +408,7 @@ armors:
 #BEGIN ALLOY TANK ROCKET LAUNCHER
   - type: ALLOY_TANK_ROCKET_LAUNCHER_ARMOR
     spriteSheet: ALLOYTANKS.PCK
+    spriteInv: alloytankrocketlauncherInventoryImage
     allowInv: false
     corpseBattle:
       - ALLOY_TANK_ROCKET_LAUNCHER_CORPSE_1
@@ -424,6 +429,7 @@ armors:
 #BEGIN ALLOY TANK LASER CANNON ARMOR
   - type: ALLOY_TANK_LASER_CANNON_ARMOR
     spriteSheet: ALLOYTANKS.PCK
+    spriteInv: alloytanklasercannonInventoryImage
     allowInv: false
     corpseBattle:
       - ALLOY_TANK_LASER_CANNON_CORPSE_1
@@ -443,7 +449,8 @@ armors:
 
 #BEGIN HOVERTANK LASER ARMOR
   - type: HOVERTANK_LASER_ARMOR
-    spriteSheet: ALLOYTANKS.PCK
+    spriteSheet: HOVERTANK_LASER.PCK
+    spriteInv: hovertanklasercannonInventoryImage
     allowInv: false
     corpseBattle:
       - HOVERTANK_LASER_CORPSE_1
@@ -476,6 +483,7 @@ armors:
 #BEGIN HOVERTANK EBOMB ARMOR
   - type: HOVERTANK_EBOMB_ARMOR
     spriteSheet: TANKS.PCK
+    spriteInv: hovertanklauncherInventoryImage
     allowInv: false
     corpseBattle:
       - HOVERTANK_EBOMB_CORPSE_1
@@ -497,7 +505,8 @@ armors:
 
 #BEGIN HOVERTANK PLASMA ARMOR
   - type: HOVERTANK_PLASMA_ARMOR
-    spriteSheet: TANKS.PCK
+    spriteSheet: HOVERTANK_PLASMA.PCK
+    spriteInv: hovertankplasmacannonInventoryImage
     allowInv: false
     corpseBattle:
       - HOVERTANK_PLASMA_CORPSE_1
@@ -520,6 +529,7 @@ armors:
 #BEGIN HOVERTANK LAUNCHER ARMOR
   - type: HOVERTANK_LAUNCHER_ARMOR
     spriteSheet: TANKS.PCK
+    spriteInv: hovertanklauncherInventoryImage
     allowInv: false
     corpseBattle:
       - HOVERTANK_LAUNCHER_CORPSE_1
@@ -542,6 +552,7 @@ armors:
 #BEGIN WALKERTANK LASER ARMOR
   - type: WALKERTANK_LASER_ARMOR
     spriteSheet: WALKERTANK_LASER.PCK
+    spriteInv: walkertanklasercannonInventoryImage
     allowInv: false
     corpseBattle:
       - WALKERTANK_LASER_CORPSE_1
@@ -572,6 +583,7 @@ armors:
 #BEGIN WALKERTANK PLASMA ARMOR
   - type: WALKERTANK_PLASMA_ARMOR
     spriteSheet: WALKERTANK_PLASMA.PCK
+    spriteInv: walkertankplasmacannonInventoryImage
     allowInv: false
     corpseBattle:
       - WALKERTANK_PLASMA_CORPSE_1
@@ -1093,6 +1105,7 @@ armors:
 #BEGIN REAPER ARMOR
   - type: REAPER_ARMOR
     spriteSheet: X_REAP.PCK
+    spriteInv: reaperInventoryImage
     allowInv: false
     corpseBattle:
       - REAPER_CORPSE_1
@@ -1120,9 +1133,20 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 #END REAPER ARMOR
 
+#BEGIN SILACOID ARMOR
+  - type: SILACOID_ARMOR
+    spriteInv: silacoidInventoryImage
+#END SILACOID ARMOR
+
+#BEGIN CYBERDISC ARMOR
+  - type: CYBERDISC_ARMOR
+    spriteInv: cyberdiscInventoryImage
+#END CYBERDISC ARMOR
+
 #BEGIN CHRYSSALID ARMOR
   - type: CHRYSSALID_ARMOR
     spriteSheet: CHRYS.PCK
+    spriteInv: chryssalidInventoryImage
     allowInv: false
     corpseBattle:
       - STR_CHRYSSALID_CORPSE
@@ -1145,9 +1169,20 @@ armors:
     loftempsSet: [ 3 ]
 #END CHRYSSALID ARMOR
 
+#BEGIN ZOMBIE ARMOR
+  - type: ZOMBIE_ARMOR
+    spriteInv: zombieInventoryImage
+#END ZOMBIE ARMOR
+
+#BEGIN CELATID ARMOR
+  - type: CELATID_ARMOR
+    spriteInv: celatidInventoryImage
+#END CELATID ARMOR
+
 #BEGIN MUTON BERSERKER ARMOR
   - type: MUTON_BERSERKER_ARMOR
     spriteSheet: MUTON_BERSERKER.PCK
+    spriteInv: mutonberserkerInventoryImage
     allowInv: false
     corpseBattle:
       - STR_MUTON_BERSERKER_CORPSE
@@ -1170,61 +1205,10 @@ armors:
     loftempsSet: [ 4 ]
 #END MUTON BERSERKER ARMOR
 
-#BEGIN CYBERMITE ARMOR
-  - type: CYBERMITE_ARMOR
-    spriteSheet: CYBERMITE.PCK
-    allowInv: false
-    corpseBattle:
-      - STR_CYBERMITE_CORPSE
-    frontArmor: 30
-    sideArmor: 38
-    rearArmor: 38
-    underArmor: 30
-    drawingRoutine: 4
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 2 ]
-#END CYBERMITE ARMOR
-
-#BEGIN HOLODRONE ARMOR
-  - type: HOLODRONE_ARMOR
-    spriteSheet: HOLODRONE.PCK
-    allowInv: false
-    corpseBattle:
-      - STR_HOLODRONE_CORPSE
-    frontArmor: 70
-    sideArmor: 70
-    rearArmor: 70
-    underArmor: 70
-    drawingRoutine: 16
-    constantAnimation: true
-    movementType: 1
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.6
-      - 1.0
-      - 1.0
-      - 0.6
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 4 ]
-#END HOLODRONE ARMOR
-
 #BEGIN ARMORED CYBERDISC ARMOR
   - type: ARMORED_CYBERDISC_ARMOR
     spriteSheet: ARMORED_CYBERDISC.PCK
+    spriteInv: armoredcyberdiscInventoryImage
     allowInv: false
     corpseBattle:
       - ARMORED_CYBERDISC_CORPSE_1
@@ -1254,9 +1238,69 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 #END ARMORED CYBERDISC ARMOR
 
+#BEGIN CYBERMITE ARMOR
+  - type: CYBERMITE_ARMOR
+    spriteSheet: CYBERMITE.PCK
+    spriteInv: cybermiteInventoryImage
+    allowInv: false
+    corpseBattle:
+      - STR_CYBERMITE_CORPSE
+    frontArmor: 30
+    sideArmor: 38
+    rearArmor: 38
+    underArmor: 30
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+#END CYBERMITE ARMOR
+
+#BEGIN SECTOPOD ARMOR
+  - type: SECTOPOD_ARMOR
+    spriteInv: sectopodInventoryImage
+#END SECTOPOD ARMOR
+
+#BEGIN HOLODRONE ARMOR
+  - type: HOLODRONE_ARMOR
+    spriteSheet: HOLODRONE.PCK
+    spriteInv: holodroneInventoryImage
+    allowInv: false
+    corpseBattle:
+      - STR_HOLODRONE_CORPSE
+    frontArmor: 70
+    sideArmor: 70
+    rearArmor: 70
+    underArmor: 70
+    drawingRoutine: 16
+    constantAnimation: true
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 4 ]
+#END HOLODRONE ARMOR
+
 #BEGIN ARMORED SECTOPOD ARMOR
   - type: ARMORED_SECTOPOD_ARMOR
     spriteSheet: ARMORED_SECTOPOD.PCK
+    spriteInv: armoredsectopodInventoryImage
     allowInv: false
     corpseBattle:
       - ARMORED_SECTOPOD_CORPSE_1
@@ -1287,6 +1331,7 @@ armors:
 #BEGIN CHRYSSALID SPITTER ARMOR
   - type: CHRYSSALID_SPITTER_ARMOR
     spriteSheet: CHRYSSALID_SPITTER.PCK
+    spriteInv: chryssalidspitterInventoryImage
     allowInv: false
     corpseBattle:
       - STR_CHRYSSALID_SPITTER_CORPSE
@@ -1302,6 +1347,7 @@ armors:
 #BEGIN SPITTER ZOMBIE ARMOR
   - type: SPITTER_ZOMBIE_ARMOR
     spriteSheet: SPITTER_ZOMBIE.PCK
+    spriteInv: spitterzombieInventoryImage
     allowInv: false
     corpseBattle:
       - STR_SPITTER_ZOMBIE_CORPSE
@@ -1333,7 +1379,7 @@ armors:
   - type: CIVM_ARMOR
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilianInventoryImage
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1345,7 +1391,7 @@ armors:
     spriteSheet: MALE_CIVILIAN2.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian2InventoryImage
     corpseBattle:
       - MALE_CIVILIAN2_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1372,7 +1418,7 @@ armors:
     spriteSheet: MALE_CIVILIAN3.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian3InventoryImage
     corpseBattle:
       - MALE_CIVILIAN3_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1387,9 +1433,9 @@ armors:
 #BEGIN MALE CIVILIAN 4 ARMOR
   - type: MALE_CIVILIAN4_ARMOR #Construction Worker
     spriteSheet: MALE_CIVILIAN4.PCK
-    allowInv: false
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: malecivilian4InventoryImage
     corpseBattle:
       - MALE_CIVILIAN4_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1406,7 +1452,7 @@ armors:
     spriteSheet: MALE_CIVILIAN5.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian5InventoryImage
     corpseBattle:
       - MALE_CIVILIAN5_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1423,7 +1469,7 @@ armors:
     spriteSheet: MALE_CIVILIAN6.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian6InventoryImage
     corpseBattle:
       - MALE_CIVILIAN6_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1440,7 +1486,7 @@ armors:
     spriteSheet: MALE_CIVILIAN7.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian7InventoryImage
     corpseBattle:
       - MALE_CIVILIAN7_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1458,7 +1504,7 @@ armors:
     spriteSheet: MALE_CIVILIAN8.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian8InventoryImage
     corpseBattle:
       - MALE_CIVILIAN8_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1476,7 +1522,7 @@ armors:
     spriteSheet: MALE_CIVILIAN9.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian9InventoryImage
     corpseBattle:
       - MALE_CIVILIAN9_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1493,7 +1539,7 @@ armors:
     spriteSheet: MALE_CIVILIAN10.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian10InventoryImage
     corpseBattle:
       - MALE_CIVILIAN10_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1510,7 +1556,7 @@ armors:
     spriteSheet: MALE_CIVILIAN11.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: malecivilian11InventoryImage
     corpseBattle:
       - MALE_CIVILIAN11_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1526,7 +1572,7 @@ armors:
 ##BEGIN FEMALE CIVILIAN ARMOR
 #BEGIN CIVF ARMOR
   - type: CIVF_ARMOR
-    allowInv: false
+    spriteInv: femalecivilianInventoryImage
     frontArmor: 12
     sideArmor: 8
     rearArmor: 5
@@ -1538,7 +1584,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN2.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian2InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN2_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1555,7 +1601,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN3.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian3InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN3_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1572,7 +1618,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN4.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian4InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN4_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1589,7 +1635,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN5.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian5InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN5_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1607,7 +1653,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN6.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian6InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN6_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1624,7 +1670,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN7.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian7InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN7_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1641,7 +1687,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN8.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian8InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN8_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1658,7 +1704,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN9.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian9InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN9_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1675,7 +1721,7 @@ armors:
     spriteSheet: FEMALE_CIVILIAN10.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: femalecivilian10InventoryImage
     corpseBattle:
       - FEMALE_CIVILIAN10_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1694,7 +1740,7 @@ armors:
     spriteSheet: FIREFIGHTER0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: firefighter0InventoryImage
     corpseBattle:
       - FIREFIGHTER0_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1721,7 +1767,7 @@ armors:
     spriteSheet: PARAMEDIC0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: paramedic0InventoryImage
     corpseBattle:
       - PARAMEDIC0_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1738,7 +1784,7 @@ armors:
     spriteSheet: POLICE_FEMALE0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: policefemale0InventoryImage
     corpseBattle:
       - POLICE_FEMALE0_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1755,7 +1801,7 @@ armors:
     spriteSheet: POLICE_MALE0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: policemale0InventoryImage
     corpseBattle:
       - POLICE_MALE0_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1772,7 +1818,7 @@ armors:
     spriteSheet: POLICE_SWAT_FEMALE0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: policeswatfemale0InventoryImage
     corpseBattle:
       - POLICE_SWAT_FEMALE0_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1789,7 +1835,7 @@ armors:
     spriteSheet: POLICE_SWAT_MALE0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: policeswatmale0InventoryImage
     corpseBattle:
       - POLICE_SWAT_MALE0_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1806,7 +1852,7 @@ armors:
     spriteSheet: SCIENTIST_FEMALE0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: scientist0InventoryImage
     corpseBattle:
       - SCIENTIST_FEMALE0_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1823,7 +1869,7 @@ armors:
     spriteSheet: SOLDIER_FEMALE_GREEN0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: soldierfemalegreen0InventoryImage
     corpseBattle:
       - SOLDIER_FEMALE_GREEN0_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1840,7 +1886,7 @@ armors:
     spriteSheet: SOLDIER_FEMALE_GREEN1.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: soldierfemalegreen1InventoryImage
     corpseBattle:
       - SOLDIER_FEMALE_GREEN1_CORPSE
     corpseGeo: CIVF_CORPSE
@@ -1857,7 +1903,7 @@ armors:
     spriteSheet: SOLDIER_MALE_GREEN0.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: soldiermalegreen0InventoryImage
     corpseBattle:
       - SOLDIER_MALE_GREEN0_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1874,7 +1920,7 @@ armors:
     spriteSheet: SOLDIER_MALE_GREEN1.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: soldiermalegreen1InventoryImage
     corpseBattle:
       - SOLDIER_MALE_GREEN1_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1891,7 +1937,7 @@ armors:
     spriteSheet: SOLDIER_MALE_GREEN2.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: soldiermalegreen2InventoryImage
     corpseBattle:
       - SOLDIER_MALE_GREEN2_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1908,7 +1954,7 @@ armors:
     spriteSheet: SOLDIER_MALE_GREEN3.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
-    allowInv: false
+    spriteInv: soldiermalegreen3InventoryImage
     corpseBattle:
       - SOLDIER_MALE_GREEN0_CORPSE
     corpseGeo: CIVM_CORPSE
@@ -1920,5 +1966,4 @@ armors:
     loftempsSet: [ 3 ]
 #END SOLDIER MALE GREEN 3 ARMOR
 ##END ARMED CIVILIAN ARMOR
-###END CIVILIAN ARMORS
 ####END ARMORS
