@@ -931,6 +931,16 @@ extraSprites:
 ##END TANKS
 
 ##BEGIN ALIENS
+#BEGIN MUTON
+  - type: MUTON.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Units/Alien/Muton/SpriteSheet_Muton.png
+#END MUTON
+
 #BEGIN MUTON BERSERKER
   - type: MUTON_BERSERKER.PCK
     width: 256
