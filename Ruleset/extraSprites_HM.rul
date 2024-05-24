@@ -1923,13 +1923,13 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Civilian/MaleCivilian3/Inventory_MaleCivilian2.png
+      0: Resources/Units/Civilian/MaleCivilian3/Inventory_MaleCivilian3.png
   - type: malecivilian4InventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Civilian/MaleCivilian4/Inventory_MaleCivilian2.png
+      0: Resources/Units/Civilian/MaleCivilian4/Inventory_MaleCivilian4.png
   - type: malecivilian5InventoryImage
     width: 320
     height: 200
