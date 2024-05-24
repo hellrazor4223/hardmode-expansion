@@ -192,6 +192,8 @@ Credits go to:
 			MEDAL_SLAVEKILLS
 	cevaralien:
 		- for the final version of the commendation sprite
+	Xross:
+		- for the Tank Inventorypictures from his XCOM1 Visual Upgrade mod
 
 	All translaters on the TRANSIFEX project (you guys are awesome)
 
