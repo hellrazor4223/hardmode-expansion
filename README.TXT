@@ -177,6 +177,12 @@ Economic:
 	All Alien Items and Alive Aliens give less money when sold (50%)
 	Base Maintence Cost increased to 10% of base modules price
 	X-Com Wages and Hire Cost are 1.5 times Vanilla
+	X-Com Soldiers receive 10% more salary per rank compared to rookie wage:
+		- Squaddi:   33.000
+		- Sergent:   36.000
+        - Captain:   39.000
+		- Colonel:   42.000
+		- Commander: 45.000
 	X-Com Armors and Crafts are a lot more expensive to produce
 	Drones, Tanks and Soldier Armor is repairable, if the corpses are recovered intact
 	Drones, Tanks and Soldier Armor is upgradeable

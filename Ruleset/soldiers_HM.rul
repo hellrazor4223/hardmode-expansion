@@ -6,6 +6,11 @@ soldiers:
       - Resources/UI/QOL/SoldierCountryNames/
     costBuy: 60000
     costSalary: 30000
+    costSalarySquaddie: 3000
+    costSalarySergeant: 6000
+    costSalaryCaptain: 9000
+    costSalaryColonel: 12000
+    costSalaryCommander: 15000
     minStats:
       tu: 50
       stamina: 40

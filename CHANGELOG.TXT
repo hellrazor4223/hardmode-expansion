@@ -23,7 +23,7 @@ Version 0.99.9.5
  - Add Inventory images for all Aliens
  - Add Inventory images for all Tanks
  - Add Final Version of the Commendation sprite provided by cevaralien
-
+ - Add higher salaries for officers (10% increase per rank compare to base salary)
 
 Version 0.99.9.4
  - Fix Infiltration base prevention, if Battleship Attack successful
