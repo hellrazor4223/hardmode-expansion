@@ -1,2240 +1,2239 @@
-﻿#Brazil ethnic division roughly: 40% whites, 40% Mulatos/morenos/pardos/criollos/mestizos, 20% Negros y otros
-lookWeights:
+﻿lookWeights:
   - 20
   - 20
   - 40
   - 20
 maleFirst:
-  -	Abel
-  -	Abilio
-  -	Abraao
-  -	Adailton
-  -	Adair
-  -	Adalberto
-  -	Adao
-  -	Adauto
-  -	Adelino
-  -	Adelson
-  -	Ademar
-  -	Ademilson
-  -	Ademir
-  -	Adenilson
-  -	Adilson
-  -	Adolfo
-  -	Adrian
-  -	Adriano
-  -	Adrien
-  -	Afonso
-  -	Agenor
-  -	Agnaldo
-  -	Agostinho
-  -	Aguinaldo
-  -	Ailton
-  -	Airton
-  -	Alain
-  -	Alan
-  -	Albert
-  -	Alberto
-  -	Albino
-  -	Alcides
-  -	Aldo
-  -	Alessandro
-  -	Alessandro
-  -	Alex
-  -	Alexandre
-  -	Alexandro
-  -	Alexis
-  -	Alexsandro
-  -	Alfred
-  -	Alfredo
-  -	Ali
-  -	Alison
-  -	Alisson
-  -	Allan
-  -	Almir
-  -	Aloisio
-  -	Alphonse
-  -	Altair
-  -	Alvaro
-  -	Amadeu
-  -	Amarildo
-  -	Amaro
-  -	Amauri
-  -	Americo
-  -	Amilton
-  -	Ananias
-  -	Anderson
-  -	Andre
-  -	Andre
-  -	Andrey
-  -	Angelo
-  -	Angelo
-  -	Anselmo
-  -	Antenor
-  -	Anthony
-  -	Antonio
-  -	António
-  -	Aparecido
-  -	Ari
-  -	Ariel
-  -	Aristides
-  -	Arlindo
-  -	Armando
-  -	Arnaldo
-  -	Arne
-  -	Arthur
-  -	Arthur
-  -	Artur
-  -	Ary
-  -	Augusto
-  -	Aurelio
-  -	Avelino
-  -	Bart
-  -	Benedito
-  -	Benjamin
-  -	Bento
-  -	Bernard
-  -	Bernardo
-  -	Björn
-  -	Braz
-  -	Brecht
-  -	Breno
-  -	Bruno
-  -	Bruno
-  -	Bryan
-  -	Caio
-  -	Caique
-  -	Camiel
-  -	Carlos
-  -	Cassio
-  -	Caua
-  -	Cedric
-  -	Celio
-  -	Celso
-  -	Cesar
-  -	Cezar
-  -	Charles
-  -	Charles
-  -	Chris
-  -	Christian
-  -	Christian
-  -	Christoph
-  -	Christophe
-  -	Christopher
-  -	Cicero
-  -	Claude
-  -	Claudemir
-  -	Claudinei
-  -	Claudio
-  -	Claudio
-  -	Claudionor
-  -	Clayton
-  -	Cleber
-  -	Cleiton
-  -	Clement
-  -	Clodoaldo
-  -	Clovis
-  -	Constant
-  -	Cornelis
-  -	Cosme
-  -	Cristian
-  -	Cristiano
-  -	Damiao
-  -	Daniel
-  -	Daniele
-  -	Danilo
-  -	Danny
-  -	Darci
-  -	Darcy
-  -	Dario
-  -	Davi
-  -	David
-  -	Davy
-  -	Deivid
-  -	Denilson
-  -	Denis
-  -	Denis
-  -	Dennis
-  -	Diego
-  -	Diego
-  -	Dieter
-  -	Dimitri
-  -	Diogo
-  -	Dionisio
-  -	Dirceu
-  -	Divino
-  -	Djalma
-  -	Domingos
-  -	Dominiek
-  -	Dominique
-  -	Donald
-  -	Donizete
-  -	Dorival
-  -	Douglas
-  -	Durval
-  -	Eder
-  -	Ederson
-  -	Edgar
-  -	Edgard
-  -	Edilson
-  -	Edimar
-  -	Edimilson
-  -	Edinaldo
-  -	Edison
-  -	Edivaldo
-  -	Edivan
-  -	Edmar
-  -	Edmilson
-  -	Edmond
-  -	Edmundo
-  -	Ednaldo
-  -	Edouard
-  -	Edson
-  -	Eduard
-  -	Eduardo
-  -	Edvaldo
-  -	Edvan
-  -	Edward
-  -	Elcio
-  -	Eli
-  -	Elias
-  -	Elie
-  -	Eliel
-  -	Eliezer
-  -	Elio
-  -	Eliseu
-  -	Elizeu
-  -	Elly
-  -	Elson
-  -	Elton
-  -	Elvis
-  -	Emanoel
-  -	Emanuel
-  -	Emanuelle
-  -	Emerson
-  -	Emile
-  -	Emilio
-  -	Enio
-  -	Enzo
-  -	Eraldo
-  -	Eric
-  -	Eric
-  -	Erick
-  -	Erik
-  -	Erivaldo
-  -	Ernest
-  -	Ernesto
-  -	Erwin
-  -	Euclides
-  -	Eugeen
-  -	Eugenio
-  -	Euripedes
-  -	Evaldo
-  -	Evandro
-  -	Everaldo
-  -	Everson
-  -	Everton
-  -	Ewerton
-  -	Expedito
-  -	Ezequiel
-  -	Fabiano
-  -	Fabio
-  -	Fabio
-  -	Fabricio
-  -	Fagner
-  -	Felipe
-  -	Felix
-  -	Felix
-  -	Ferdinand
-  -	Fernand
-  -	Fernando
-  -	Filipe
-  -	Firmin
-  -	Flavio
-  -	Francesco
-  -	Francisco
-  -	Franciscus
-  -	Franck
-  -	Franco
-  -	Francois
-  -	François
-  -	Franklin
-  -	Frans
-  -	Franz
-  -	Fred
-  -	Freddy
-  -	Frédéric
-  -	Frederico
-  -	Frederik
-  -	Gabriel
-  -	Gabriel
-  -	Gabriele
-  -	Gabrielle
-  -	Gabrielle
-  -	Gaëtan
-  -	Gauthier
-  -	Gean
-  -	Geert
-  -	Gelson
-  -	Genesio
-  -	Genilson
-  -	Genival
-  -	Genivaldo
-  -	George
-  -	George
-  -	Geovane
-  -	Gerald
-  -	Geraldo
-  -	Gerard
-  -	Gerd
-  -	Germain
-  -	Gerrit
-  -	Gerson
-  -	Getulio
-  -	Gianni
-  -	Gilbert
-  -	Gilberto
-  -	Gilles
-  -	Gilmar
-  -	Gilson
-  -	Gilvan
-  -	Giovani
-  -	Giovanni
-  -	Giuseppe
-  -	Givaldo
-  -	Givanildo
-  -	Goncalo
-  -	Greet
-  -	Grégory
-  -	Guilherme
-  -	Guillaume
-  -	Guiseppe
-  -	Gunther
-  -	Gustaaf
-  -	Gustave
-  -	Gustavo
-  -	Guy
-  -	Hamilton
-  -	Haroldo
-  -	Hassan
-  -	Heitor
-  -	Heleno
-  -	Helio
-  -	Henk
-  -	Henri
-  -	Henrique
-  -	Henry
-  -	Herbert
-  -	Hervé
-  -	Herwig
-  -	Hicham
-  -	Higor
-  -	Hudson
-  -	Hugo
-  -	Hugo
-  -	Humberto
-  -	Iago
-  -	Ian
-  -	Ibrahim
-  -	Icaro
-  -	Ignace
-  -	Igor
-  -	Inacio
-  -	Irineu
-  -	Isaac
-  -	Isac
-  -	Isaias
-  -	Isaque
-  -	Ismael
-  -	Israel
-  -	Italo
-  -	Itamar
-  -	Ivan
-  -	Ivan
-  -	Ivanildo
-  -	Ivanir
-  -	Ivo
-  -	Ivo
-  -	Izaias
-  -	Jackson
-  -	Jacques
-  -	Jadson
-  -	Jailson
-  -	Jailton
-  -	Jaime
-  -	Jair
-  -	Jairo
-  -	James
-  -	James
-  -	Jan
-  -	Jardel
-  -	Jean
-  -	Jean-Christophe
-  -	Jean-Louis
-  -	Jean-Paul
-  -	Jean-Philippe
-  -	Jean-Phillipe
-  -	Jean-Pierre
-  -	Jef
-  -	Jeferson
-  -	Jefferson
-  -	Jeffrey
-  -	Jens
-  -	Jeremy
-  -	Jerome
-  -	Jeronimo
-  -	Jesse
-  -	Jesus
-  -	Jhonatan
-  -	Jimmy
-  -	Joachim
-  -	Joannes
-  -	Joao
-  -	Joaquim
-  -	Joel
-  -	Joelle
-  -	Joelson
-  -	John
-  -	John
-  -	Jonas
-  -	Jonas
-  -	Jonatas
-  -	Jonathan
-  -	Jonathan
-  -	Jorge
-  -	Joris
-  -	Jose
-  -	José
-  -	José
-  -	Joselito
-  -	Josenildo
-  -	Joseph
-  -	Josias
-  -	Josiel
-  -	Josimar
-  -	Josivaldo
-  -	Josue
-  -	Juan
-  -	Juarez
-  -	Jules
-  -	Juliano
-  -	Julio
-  -	Junior
-  -	Juraci
-  -	Juracy
-  -	Jurandir
-  -	Jurgen
-  -	Juscelino
-  -	Juvenal
-  -	Kaio
-  -	Kaique
-  -	Kamiel
-  -	Karel
-  -	Kaua
-  -	Kauan
-  -	Kaue
-  -	Kenneth
-  -	Kevin
-  -	Kleber
-  -	Kristiaan
-  -	Kristof
-  -	Laercio
-  -	Laurence
-  -	Lauro
-  -	Lazaro
-  -	Leandro
-  -	Leila
-  -	Leo
-  -	Léon
-  -	Leonard
-  -	Leonardo
-  -	Leonel
-  -	Leopold
-  -	Leslie
-  -	Levi
-  -	Lieven
-  -	Lilian
-  -	Lindomar
-  -	Lindsay
-  -	Lionel
-  -	Lodewijk
-  -	Lorenzo
-  -	Lorenzo
-  -	Lourdes
-  -	Lourenco
-  -	Lourival
-  -	Lucas
-  -	Lucas
-  -	Lucia
-  -	Luciana
-  -	Luciano
-  -	Lucimar
-  -	Lucio
-  -	Ludo
-  -	Ludovic
-  -	Ludovicus
-  -	Ludwig
-  -	Luis
-  -	Luiz
-  -	Luk
-  -	Luzia
-  -	Maarten
-  -	Maciel
-  -	Magno
-  -	Maicon
-  -	Manoel
-  -	Manuel
-  -	Manuel
-  -	Mara
-  -	Marc
-  -	Marcel
-  -	Marcelino
-  -	Marcelo
-  -	Marcia
-  -	Marciano
-  -	Marcilio
-  -	Marcio
-  -	Marco
-  -	Marcos
-  -	Marcus
-  -	Mariano
-  -	Marilene
-  -	Marilia
-  -	Marina
-  -	Mario
-  -	Marisa
-  -	Marius
-  -	Marivaldo
-  -	Marlene
-  -	Marli
-  -	Marlon
-  -	Marly
-  -	Marnix
-  -	Marta
-  -	Massimo
-  -	Mateus
-  -	Matheus
-  -	Mathias
-  -	Matthias
-  -	Mauricio
-  -	Maurilio
-  -	Maurits
-  -	Mauro
-  -	Max
-  -	Maxime
-  -	Maycon
-  -	Messias
-  -	Michael
-  -	Michaël
-  -	Michel
-  -	Michele
-  -	Michiel
-  -	Miguel
-  -	Miguel
-  -	Milton
-  -	Miriam
-  -	Moacir
-  -	Moises
-  -	Monica
-  -	Murilo
-  -	Mustapha
-  -	Nadir
-  -	Nair
-  -	Natalino
-  -	Natan
-  -	Natanael
-  -	Nathan
-  -	Neide
-  -	Nelci
-  -	Nelson
-  -	Nestor
-  -	Neusa
-  -	Neuza
-  -	Nico
-  -	Nicolas
-  -	Nicolas
-  -	Niels
-  -	Nilo
-  -	Nilson
-  -	Nilton
-  -	Nilza
-  -	Nivaldo
-  -	Norbert
-  -	Odair
-  -	Odilon
-  -	Olavo
-  -	Olga
-  -	Olivier
-  -	Omar
-  -	Omer
-  -	Onofre
-  -	Orlando
-  -	Oscar
-  -	Oscar
-  -	Osmar
-  -	Osvaldo
-  -	Oswaldo
-  -	Otacilio
-  -	Otavio
-  -	Pablo
-  -	Paolo
-  -	Pascal
-  -	Patrice
-  -	Patricia
-  -	Patrícia
-  -	Patrick
-  -	Patrick
-  -	Paulino
-  -	Paulo
-  -	Pedro
-  -	Pierre
-  -	Piet
-  -	Pieter
-  -	Pietro
-  -	Pietro
-  -	Pol
-  -	Quentin
-  -	Rafael
-  -	Raimundo
-  -	Ramon
-  -	Raoul
-  -	Raphael
-  -	Raul
-  -	Raymond
-  -	Regina
-  -	Reginaldo
-  -	Reinaldo
-  -	Renan
-  -	Renata
-  -	Renato
-  -	Rene
-  -	René
-  -	Ricardo
-  -	Richard
-  -	Richard
-  -	Rik
-  -	Rita
-  -	Rivaldo
-  -	Rob
-  -	Robert
-  -	Roberto
-  -	Robson
-  -	Rodolfo
-  -	Rodrigo
-  -	Roel
-  -	Roger
-  -	Rogerio
-  -	Rogério
-  -	Roland
-  -	Romain
-  -	Romario
-  -	Romeu
-  -	Romildo
-  -	Romulo
-  -	Ronald
-  -	Ronaldo
-  -	Ronny
-  -	Roque
-  -	Rosana
-  -	Rosangela
-  -	Roseli
-  -	Rosimar
-  -	Rubens
-  -	Rudi
-  -	Rudolf
-  -	Rudy
-  -	Rui
-  -	Ryan
-  -	Said
-  -	Salvador
-  -	Salvatore
-  -	Samir
-  -	Samuel
-  -	Samuel
-  -	Sander
-  -	Sandra
-  -	Sandro
-  -	Saulo
-  -	Sebastiao
-  -	Sebastien
-  -	Sébastien
-  -	Selma
-  -	Serge
-  -	Sergio
-  -	Sérgio
-  -	Severino
-  -	Sidnei
-  -	Sidney
-  -	Silas
-  -	Silvana
-  -	Silvano
-  -	Silvia
-  -	Silvio
-  -	Simone
-  -	Sirlei
-  -	Solange
-  -	Sonia
-  -	Stefano
-  -	Stephan
-  -	Stéphane
-  -	Steve
-  -	Steven
-  -	Sueli
-  -	Suely
-  -	Sylvain
-  -	Tania
-  -	Tarcisio
-  -	Tereza
-  -	Terezinha
-  -	Thales
-  -	Theo
-  -	Theo
-  -	Thiago
-  -	Thibault
-  -	Thijs
-  -	Tiago
-  -	Tim
-  -	Timothy
-  -	Tommy
-  -	Toon
-  -	Ulisses
-  -	Urbain
-  -	Vagner
-  -	Valdeci
-  -	Valdecir
-  -	Valdeir
-  -	Valdemar
-  -	Valdemir
-  -	Valdete
-  -	Valdinei
-  -	Valdir
-  -	Valdivino
-  -	Valdomiro
-  -	Valere
-  -	Valeria
-  -	Valmir
-  -	Valter
-  -	Vanderlei
-  -	Vanderson
-  -	Vania
-  -	Vera
-  -	Vicente
-  -	Victor
-  -	Vilma
-  -	Vilmar
-  -	Vilson
-  -	Vinicius
-  -	Vitor
-  -	Wagner
-  -	Waldemar
-  -	Waldir
-  -	Wallace
-  -	Walter
-  -	Wanderley
-  -	Wanderson
-  -	Ward
-  -	Washington
-  -	Welington
-  -	Wellington
-  -	Wendel
-  -	Werner
-  -	Wesley
-  -	Weslley
-  -	Weverton
-  -	Wilfried
-  -	William
-  -	Willian
-  -	Willy
-  -	Wilson
-  -	Wilton
-  -	Xavier
-  -	Yago
-  -	Yan
-  -	Yuri
-  -	Yvan
+  - Abel
+  - Abilio
+  - Abraao
+  - Adailton
+  - Adair
+  - Adalberto
+  - Adao
+  - Adauto
+  - Adelino
+  - Adelson
+  - Ademar
+  - Ademilson
+  - Ademir
+  - Adenilson
+  - Adilson
+  - Adolfo
+  - Adrian
+  - Adriano
+  - Adrien
+  - Afonso
+  - Agenor
+  - Agnaldo
+  - Agostinho
+  - Aguinaldo
+  - Ailton
+  - Airton
+  - Alain
+  - Alan
+  - Albert
+  - Alberto
+  - Albino
+  - Alcides
+  - Aldo
+  - Alessandro
+  - Alessandro
+  - Alex
+  - Alexandre
+  - Alexandro
+  - Alexis
+  - Alexsandro
+  - Alfred
+  - Alfredo
+  - Ali
+  - Alison
+  - Alisson
+  - Allan
+  - Almir
+  - Aloisio
+  - Alphonse
+  - Altair
+  - Alvaro
+  - Amadeu
+  - Amarildo
+  - Amaro
+  - Amauri
+  - Americo
+  - Amilton
+  - Ananias
+  - Anderson
+  - Andre
+  - Andre
+  - Andrey
+  - Angelo
+  - Angelo
+  - Anselmo
+  - Antenor
+  - Anthony
+  - Antonio
+  - António
+  - Aparecido
+  - Ari
+  - Ariel
+  - Aristides
+  - Arlindo
+  - Armando
+  - Arnaldo
+  - Arne
+  - Arthur
+  - Arthur
+  - Artur
+  - Ary
+  - Augusto
+  - Aurelio
+  - Avelino
+  - Bart
+  - Benedito
+  - Benjamin
+  - Bento
+  - Bernard
+  - Bernardo
+  - Björn
+  - Braz
+  - Brecht
+  - Breno
+  - Bruno
+  - Bruno
+  - Bryan
+  - Caio
+  - Caique
+  - Camiel
+  - Carlos
+  - Cassio
+  - Caua
+  - Cedric
+  - Celio
+  - Celso
+  - Cesar
+  - Cezar
+  - Charles
+  - Charles
+  - Chris
+  - Christian
+  - Christian
+  - Christoph
+  - Christophe
+  - Christopher
+  - Cicero
+  - Claude
+  - Claudemir
+  - Claudinei
+  - Claudio
+  - Claudio
+  - Claudionor
+  - Clayton
+  - Cleber
+  - Cleiton
+  - Clement
+  - Clodoaldo
+  - Clovis
+  - Constant
+  - Cornelis
+  - Cosme
+  - Cristian
+  - Cristiano
+  - Damiao
+  - Daniel
+  - Daniele
+  - Danilo
+  - Danny
+  - Darci
+  - Darcy
+  - Dario
+  - Davi
+  - David
+  - Davy
+  - Deivid
+  - Denilson
+  - Denis
+  - Denis
+  - Dennis
+  - Diego
+  - Diego
+  - Dieter
+  - Dimitri
+  - Diogo
+  - Dionisio
+  - Dirceu
+  - Divino
+  - Djalma
+  - Domingos
+  - Dominiek
+  - Dominique
+  - Donald
+  - Donizete
+  - Dorival
+  - Douglas
+  - Durval
+  - Eder
+  - Ederson
+  - Edgar
+  - Edgard
+  - Edilson
+  - Edimar
+  - Edimilson
+  - Edinaldo
+  - Edison
+  - Edivaldo
+  - Edivan
+  - Edmar
+  - Edmilson
+  - Edmond
+  - Edmundo
+  - Ednaldo
+  - Edouard
+  - Edson
+  - Eduard
+  - Eduardo
+  - Edvaldo
+  - Edvan
+  - Edward
+  - Elcio
+  - Eli
+  - Elias
+  - Elie
+  - Eliel
+  - Eliezer
+  - Elio
+  - Eliseu
+  - Elizeu
+  - Elly
+  - Elson
+  - Elton
+  - Elvis
+  - Emanoel
+  - Emanuel
+  - Emanuelle
+  - Emerson
+  - Emile
+  - Emilio
+  - Enio
+  - Enzo
+  - Eraldo
+  - Eric
+  - Eric
+  - Erick
+  - Erik
+  - Erivaldo
+  - Ernest
+  - Ernesto
+  - Erwin
+  - Euclides
+  - Eugeen
+  - Eugenio
+  - Euripedes
+  - Evaldo
+  - Evandro
+  - Everaldo
+  - Everson
+  - Everton
+  - Ewerton
+  - Expedito
+  - Ezequiel
+  - Fabiano
+  - Fabio
+  - Fabio
+  - Fabricio
+  - Fagner
+  - Felipe
+  - Felix
+  - Felix
+  - Ferdinand
+  - Fernand
+  - Fernando
+  - Filipe
+  - Firmin
+  - Flavio
+  - Francesco
+  - Francisco
+  - Franciscus
+  - Franck
+  - Franco
+  - Francois
+  - François
+  - Franklin
+  - Frans
+  - Franz
+  - Fred
+  - Freddy
+  - Frédéric
+  - Frederico
+  - Frederik
+  - Gabriel
+  - Gabriel
+  - Gabriele
+  - Gabrielle
+  - Gabrielle
+  - Gaëtan
+  - Gauthier
+  - Gean
+  - Geert
+  - Gelson
+  - Genesio
+  - Genilson
+  - Genival
+  - Genivaldo
+  - George
+  - George
+  - Geovane
+  - Gerald
+  - Geraldo
+  - Gerard
+  - Gerd
+  - Germain
+  - Gerrit
+  - Gerson
+  - Getulio
+  - Gianni
+  - Gilbert
+  - Gilberto
+  - Gilles
+  - Gilmar
+  - Gilson
+  - Gilvan
+  - Giovani
+  - Giovanni
+  - Giuseppe
+  - Givaldo
+  - Givanildo
+  - Goncalo
+  - Greet
+  - Grégory
+  - Guilherme
+  - Guillaume
+  - Guiseppe
+  - Gunther
+  - Gustaaf
+  - Gustave
+  - Gustavo
+  - Guy
+  - Hamilton
+  - Haroldo
+  - Hassan
+  - Heitor
+  - Heleno
+  - Helio
+  - Henk
+  - Henri
+  - Henrique
+  - Henry
+  - Herbert
+  - Hervé
+  - Herwig
+  - Hicham
+  - Higor
+  - Hudson
+  - Hugo
+  - Hugo
+  - Humberto
+  - Iago
+  - Ian
+  - Ibrahim
+  - Icaro
+  - Ignace
+  - Igor
+  - Inacio
+  - Irineu
+  - Isaac
+  - Isac
+  - Isaias
+  - Isaque
+  - Ismael
+  - Israel
+  - Italo
+  - Itamar
+  - Ivan
+  - Ivan
+  - Ivanildo
+  - Ivanir
+  - Ivo
+  - Ivo
+  - Izaias
+  - Jackson
+  - Jacques
+  - Jadson
+  - Jailson
+  - Jailton
+  - Jaime
+  - Jair
+  - Jairo
+  - James
+  - James
+  - Jan
+  - Jardel
+  - Jean
+  - Jean-Christophe
+  - Jean-Louis
+  - Jean-Paul
+  - Jean-Philippe
+  - Jean-Phillipe
+  - Jean-Pierre
+  - Jef
+  - Jeferson
+  - Jefferson
+  - Jeffrey
+  - Jens
+  - Jeremy
+  - Jerome
+  - Jeronimo
+  - Jesse
+  - Jesus
+  - Jhonatan
+  - Jimmy
+  - Joachim
+  - Joannes
+  - Joao
+  - Joaquim
+  - Joel
+  - Joelle
+  - Joelson
+  - John
+  - John
+  - Jonas
+  - Jonas
+  - Jonatas
+  - Jonathan
+  - Jonathan
+  - Jorge
+  - Joris
+  - Jose
+  - José
+  - José
+  - Joselito
+  - Josenildo
+  - Joseph
+  - Josias
+  - Josiel
+  - Josimar
+  - Josivaldo
+  - Josue
+  - Juan
+  - Juarez
+  - Jules
+  - Juliano
+  - Julio
+  - Junior
+  - Juraci
+  - Juracy
+  - Jurandir
+  - Jurgen
+  - Juscelino
+  - Juvenal
+  - Kaio
+  - Kaique
+  - Kamiel
+  - Karel
+  - Kaua
+  - Kauan
+  - Kaue
+  - Kenneth
+  - Kevin
+  - Kleber
+  - Kristiaan
+  - Kristof
+  - Laercio
+  - Laurence
+  - Lauro
+  - Lazaro
+  - Leandro
+  - Leila
+  - Leo
+  - Léon
+  - Leonard
+  - Leonardo
+  - Leonel
+  - Leopold
+  - Leslie
+  - Levi
+  - Lieven
+  - Lilian
+  - Lindomar
+  - Lindsay
+  - Lionel
+  - Lodewijk
+  - Lorenzo
+  - Lorenzo
+  - Lourdes
+  - Lourenco
+  - Lourival
+  - Lucas
+  - Lucas
+  - Lucia
+  - Luciana
+  - Luciano
+  - Lucimar
+  - Lucio
+  - Ludo
+  - Ludovic
+  - Ludovicus
+  - Ludwig
+  - Luis
+  - Luiz
+  - Luk
+  - Luzia
+  - Maarten
+  - Maciel
+  - Magno
+  - Maicon
+  - Manoel
+  - Manuel
+  - Manuel
+  - Mara
+  - Marc
+  - Marcel
+  - Marcelino
+  - Marcelo
+  - Marcia
+  - Marciano
+  - Marcilio
+  - Marcio
+  - Marco
+  - Marcos
+  - Marcus
+  - Mariano
+  - Marilene
+  - Marilia
+  - Marina
+  - Mario
+  - Marisa
+  - Marius
+  - Marivaldo
+  - Marlene
+  - Marli
+  - Marlon
+  - Marly
+  - Marnix
+  - Marta
+  - Massimo
+  - Mateus
+  - Matheus
+  - Mathias
+  - Matthias
+  - Mauricio
+  - Maurilio
+  - Maurits
+  - Mauro
+  - Max
+  - Maxime
+  - Maycon
+  - Messias
+  - Michael
+  - Michaël
+  - Michel
+  - Michele
+  - Michiel
+  - Miguel
+  - Miguel
+  - Milton
+  - Miriam
+  - Moacir
+  - Moises
+  - Monica
+  - Murilo
+  - Mustapha
+  - Nadir
+  - Nair
+  - Natalino
+  - Natan
+  - Natanael
+  - Nathan
+  - Neide
+  - Nelci
+  - Nelson
+  - Nestor
+  - Neusa
+  - Neuza
+  - Nico
+  - Nicolas
+  - Nicolas
+  - Niels
+  - Nilo
+  - Nilson
+  - Nilton
+  - Nilza
+  - Nivaldo
+  - Norbert
+  - Odair
+  - Odilon
+  - Olavo
+  - Olga
+  - Olivier
+  - Omar
+  - Omer
+  - Onofre
+  - Orlando
+  - Oscar
+  - Oscar
+  - Osmar
+  - Osvaldo
+  - Oswaldo
+  - Otacilio
+  - Otavio
+  - Pablo
+  - Paolo
+  - Pascal
+  - Patrice
+  - Patricia
+  - Patrícia
+  - Patrick
+  - Patrick
+  - Paulino
+  - Paulo
+  - Pedro
+  - Pierre
+  - Piet
+  - Pieter
+  - Pietro
+  - Pietro
+  - Pol
+  - Quentin
+  - Rafael
+  - Raimundo
+  - Ramon
+  - Raoul
+  - Raphael
+  - Raul
+  - Raymond
+  - Regina
+  - Reginaldo
+  - Reinaldo
+  - Renan
+  - Renata
+  - Renato
+  - Rene
+  - René
+  - Ricardo
+  - Richard
+  - Richard
+  - Rik
+  - Rita
+  - Rivaldo
+  - Rob
+  - Robert
+  - Roberto
+  - Robson
+  - Rodolfo
+  - Rodrigo
+  - Roel
+  - Roger
+  - Rogerio
+  - Rogério
+  - Roland
+  - Romain
+  - Romario
+  - Romeu
+  - Romildo
+  - Romulo
+  - Ronald
+  - Ronaldo
+  - Ronny
+  - Roque
+  - Rosana
+  - Rosangela
+  - Roseli
+  - Rosimar
+  - Rubens
+  - Rudi
+  - Rudolf
+  - Rudy
+  - Rui
+  - Ryan
+  - Said
+  - Salvador
+  - Salvatore
+  - Samir
+  - Samuel
+  - Samuel
+  - Sander
+  - Sandra
+  - Sandro
+  - Saulo
+  - Sebastiao
+  - Sebastien
+  - Sébastien
+  - Selma
+  - Serge
+  - Sergio
+  - Sérgio
+  - Severino
+  - Sidnei
+  - Sidney
+  - Silas
+  - Silvana
+  - Silvano
+  - Silvia
+  - Silvio
+  - Simone
+  - Sirlei
+  - Solange
+  - Sonia
+  - Stefano
+  - Stephan
+  - Stéphane
+  - Steve
+  - Steven
+  - Sueli
+  - Suely
+  - Sylvain
+  - Tania
+  - Tarcisio
+  - Tereza
+  - Terezinha
+  - Thales
+  - Theo
+  - Theo
+  - Thiago
+  - Thibault
+  - Thijs
+  - Tiago
+  - Tim
+  - Timothy
+  - Tommy
+  - Toon
+  - Ulisses
+  - Urbain
+  - Vagner
+  - Valdeci
+  - Valdecir
+  - Valdeir
+  - Valdemar
+  - Valdemir
+  - Valdete
+  - Valdinei
+  - Valdir
+  - Valdivino
+  - Valdomiro
+  - Valere
+  - Valeria
+  - Valmir
+  - Valter
+  - Vanderlei
+  - Vanderson
+  - Vania
+  - Vera
+  - Vicente
+  - Victor
+  - Vilma
+  - Vilmar
+  - Vilson
+  - Vinicius
+  - Vitor
+  - Wagner
+  - Waldemar
+  - Waldir
+  - Wallace
+  - Walter
+  - Wanderley
+  - Wanderson
+  - Ward
+  - Washington
+  - Welington
+  - Wellington
+  - Wendel
+  - Werner
+  - Wesley
+  - Weslley
+  - Weverton
+  - Wilfried
+  - William
+  - Willian
+  - Willy
+  - Wilson
+  - Wilton
+  - Xavier
+  - Yago
+  - Yan
+  - Yuri
+  - Yvan
 femaleFirst:
-  -	Adelaide
-  -	Adelia
-  -	Adelina
-  -	Adriana
-  -	Adriane
-  -	Adriele
-  -	Agatha
-  -	Alaide
-  -	Alana
-  -	Albertina
-  -	Alcione
-  -	Alda
-  -	Alessandra
-  -	Alexandra
-  -	Alexsandra
-  -	Alice
-  -	Alicia
-  -	Aline
-  -	Almerinda
-  -	Alzira
-  -	Amanda
-  -	Amelia
-  -	Ana
-  -	Analia
-  -	Andrea
-  -	Andreia
-  -	Andressa
-  -	Andreza
-  -	Angela
-  -	Angelica
-  -	Angelina
-  -	Angelita
-  -	Anita
-  -	Anna
-  -	Anne
-  -	Antonia
-  -	Antonieta
-  -	Aparecida
-  -	Ariane
-  -	Arlete
-  -	Augusta
-  -	Aurea
-  -	Aurora
-  -	Barbara
-  -	Beatriz
-  -	Benedita
-  -	Berenice
-  -	Bernadete
-  -	Bianca
-  -	Brenda
-  -	Bruna
-  -	Cacilda
-  -	Camila
-  -	Camilla
-  -	Candida
-  -	Carina
-  -	Carla
-  -	Carmelita
-  -	Carmem
-  -	Carmen
-  -	Carolina
-  -	Caroline
-  -	Cassia
-  -	Catarina
-  -	Catia
-  -	Cecilia
-  -	Celia
-  -	Celina
-  -	Cibele
-  -	Cicera
-  -	Cinthia
-  -	Cintia
-  -	Clara
-  -	Clarice
-  -	Claudete
-  -	Claudia
-  -	Claúdia
-  -	Claudineia
-  -	Cláudio
-  -	Cleide
-  -	Cleidiane
-  -	Cleonice
-  -	Cleusa
-  -	Cleuza
-  -	Conceicao
-  -	Creusa
-  -	Creuza
-  -	Cristiana
-  -	Cristiane
-  -	Cristina
-  -	Daiana
-  -	Daiane
-  -	Dalila
-  -	Dalva
-  -	Damiana
-  -	Daniela
-  -	Daniele
-  -	Daniella
-  -	Danielle
-  -	Dayana
-  -	Dayane
-  -	Debora
-  -	Deborah
-  -	Deise
-  -	Denise
-  -	Diana
-  -	Dilma
-  -	Dione
-  -	Dirce
-  -	Diva
-  -	Divina
-  -	Dolores
-  -	Domingas
-  -	Doralice
-  -	Dulce
-  -	Edilene
-  -	Edileuza
-  -	Edina
-  -	Edinalva
-  -	Edite
-  -	Edith
-  -	Edivania
-  -	Edna
-  -	Eduarda
-  -	Elaine
-  -	Elenice
-  -	Eliana
-  -	Eliane
-  -	Eliene
-  -	Eliete
-  -	Elisa
-  -	Elisabete
-  -	Elisabeth
-  -	Elisangela
-  -	Eliza
-  -	Elizabete
-  -	Elizabeth
-  -	Elizangela
-  -	Elizete
-  -	Ellen
-  -	Elóisa
-  -	Elvira
-  -	Elza
-  -	Emanuelly
-  -	Emilia
-  -	Emilly
-  -	Emily
-  -	Enedina
-  -	Erica
-  -	Erika
-  -	Estela
-  -	Ester
-  -	Esther
-  -	Eunice
-  -	Eurides
-  -	Eva
-  -	Evelyn
-  -	Fabiana
-  -	Fabiane
-  -	Fabiola
-  -	Fabricia
-  -	Fatima
-  -	Fernanda
-  -	Filomena
-  -	Flavia
-  -	Franciele
-  -	Francilene
-  -	Francinete
-  -	Francisca
-  -	Gabriela
-  -	Gabriella
-  -	Gabrielly
-  -	Geane
-  -	Geni
-  -	Geovana
-  -	Geovanna
-  -	Geralda
-  -	Gessica
-  -	Gilda
-  -	Gildete
-  -	Gilmara
-  -	Giovana
-  -	Giovanna
-  -	Gisele
-  -	Giselle
-  -	Gislaine
-  -	Gislene
-  -	Giulia
-  -	Glaucia
-  -	Gleice
-  -	Gloria
-  -	Graziela
-  -	Graziele
-  -	Guiomar
-  -	Helen
-  -	Helena
-  -	Hellen
-  -	Heloisa
-  -	Hilda
-  -	Iara
-  -	Idalina
-  -	Ieda
-  -	Ilda
-  -	Ilma
-  -	Ilza
-  -	Ines
-  -	Inez
-  -	Ingrid
-  -	Iolanda
-  -	Ione
-  -	Iracema
-  -	Iraci
-  -	Iracy
-  -	Irani
-  -	Irene
-  -	Iris
-  -	Irma
-  -	Isabel
-  -	Isabela
-  -	Isabella
-  -	Isabelle
-  -	Isabelly
-  -	Isadora
-  -	Isaura
-  -	Isis
-  -	Ivana
-  -	Ivanete
-  -	Ivani
-  -	Ivanilda
-  -	Ivanilde
-  -	Ivete
-  -	Ivone
-  -	Ivonete
-  -	Izabel
-  -	Izabela
-  -	Izaura
-  -	Jaciara
-  -	Jacira
-  -	Jacqueline
-  -	Jamile
-  -	Janaina
-  -	Jandira
-  -	Jane
-  -	Janete
-  -	Janice
-  -	Jaqueline
-  -	Jeane
-  -	Jenifer
-  -	Jeniffer
-  -	Jennifer
-  -	Jessica
-  -	Joana
-  -	Joaquina
-  -	Joelma
-  -	Joice
-  -	Joseane
-  -	Josefa
-  -	Josefina
-  -	Joselia
-  -	Josemar
-  -	Josiane
-  -	Josilene
-  -	Jovelina
-  -	Joyce
-  -	Jucilene
-  -	Judite
-  -	Judith
-  -	Julia
-  -	Juliana
-  -	Juliane
-  -	Julieta
-  -	Jurema
-  -	Jussara
-  -	Kamila
-  -	Karen
-  -	Karina
-  -	Karine
-  -	Karla
-  -	Karoline
-  -	Katia
-  -	Keila
-  -	Kelly
-  -	Lais
-  -	Lara
-  -	Larissa
-  -	Laryssa
-  -	Laura
-  -	Lavinia
-  -	Lazara
-  -	Leandra
-  -	Leda
-  -	Leidiane
-  -	Leonice
-  -	Leonilda
-  -	Leonor
-  -	Leticia
-  -	Lidia
-  -	Lidiane
-  -	Ligia
-  -	Liliane
-  -	Lindalva
-  -	Lindaura
-  -	Lindinalva
-  -	Livia
-  -	Lorena
-  -	Luan
-  -	Luana
-  -	Lucelia
-  -	Luci
-  -	Luciane
-  -	Luciene
-  -	Lucilene
-  -	Lucimara
-  -	Lucineia
-  -	Lucineide
-  -	Luisa
-  -	Luiza
-  -	Luzinete
-  -	Madalena
-  -	Magda
-  -	Maiara
-  -	Maira
-  -	Maisa
-  -	Manoela
-  -	Manuela
-  -	Manuella
-  -	Marcela
-  -	Marcilene
-  -	Margarete
-  -	Margareth
-  -	Margarida
-  -	Maria
-  -	Mária
-  -	Mariana
-  -	Mariane
-  -	Marilda
-  -	Marilza
-  -	Marinalva
-  -	Marineide
-  -	Marines
-  -	Marinete
-  -	Maristela
-  -	Mariza
-  -	Marizete
-  -	Marluce
-  -	Mary
-  -	Matilde
-  -	Maura
-  -	Mayara
-  -	Mayra
-  -	Meire
-  -	Melissa
-  -	Mercedes
-  -	Michelle
-  -	Milena
-  -	Milene
-  -	Mirian
-  -	Monique
-  -	Nadia
-  -	Naiara
-  -	Nara
-  -	Natalia
-  -	Natalina
-  -	Nathalia
-  -	Nayara
-  -	Neiva
-  -	Neli
-  -	Nicole
-  -	Nicolly
-  -	Nilda
-  -	Noemia
-  -	Norma
-  -	Nubia
-  -	Odete
-  -	Olinda
-  -	Olivia
-  -	Otilia
-  -	Paloma
-  -	Pamela
-  -	Paola
-  -	Paula
-  -	Paulina
-  -	Poliana
-  -	Priscila
-  -	Priscilla
-  -	Quiteria
-  -	Rafaela
-  -	Rafaella
-  -	Raiane
-  -	Raimunda
-  -	Raissa
-  -	Raquel
-  -	Rayane
-  -	Rayssa
-  -	Rebeca
-  -	Regiane
-  -	Rejane
-  -	Roberta
-  -	Romilda
-  -	Rosa
-  -	Rosalia
-  -	Rosalina
-  -	Rosane
-  -	Rose
-  -	Roseane
-  -	Rosely
-  -	Rosemary
-  -	Rosemeire
-  -	Rosiane
-  -	Rosilda
-  -	Rosilene
-  -	Rosimeire
-  -	Rosineide
-  -	Ruan
-  -	Rute
-  -	Ruth
-  -	Sabrina
-  -	Salete
-  -	Samara
-  -	Samira
-  -	Santina
-  -	Sára
-  -	Sarah
-  -	Sebastiana
-  -	Severina
-  -	Sheila
-  -	Shirley
-  -	Silmara
-  -	Silvania
-  -	Sirlene
-  -	Sofia
-  -	Sophia
-  -	Stefany
-  -	Stephanie
-  -	Suelen
-  -	Suellen
-  -	Suzana
-  -	Taina
-  -	Tainara
-  -	Tais
-  -	Talita
-  -	Tamara
-  -	Tamires
-  -	Tatiana
-  -	Tatiane
-  -	Telma
-  -	Teresa
-  -	Teresinha
-  -	Thaina
-  -	Thais
-  -	Thalia
-  -	Thalita
-  -	Thamires
-  -	Thayna
-  -	Thays
-  -	Thereza
-  -	Therezinha
-  -	Valdelice
-  -	Valdirene
-  -	Valentina
-  -	Valquiria
-  -	Vanda
-  -	Vanderleia
-  -	Vanessa
-  -	Vanilda
-  -	Vanusa
-  -	Veronica
-  -	Victoria
-  -	Virginia
-  -	Vitoria
-  -	Vivian
-  -	Viviane
-  -	Wilma
-  -	Yara
-  -	Yasmim
-  -	Yasmin
-  -	Zelia
-  -	Zenaide
-  -	Zenilda
-  -	Zilda
-  -	Zilma
-  -	Zuleide
-  -	Zulmira
+  - Adelaide
+  - Adelia
+  - Adelina
+  - Adriana
+  - Adriane
+  - Adriele
+  - Agatha
+  - Alaide
+  - Alana
+  - Albertina
+  - Alcione
+  - Alda
+  - Alessandra
+  - Alexandra
+  - Alexsandra
+  - Alice
+  - Alicia
+  - Aline
+  - Almerinda
+  - Alzira
+  - Amanda
+  - Amelia
+  - Ana
+  - Analia
+  - Andrea
+  - Andreia
+  - Andressa
+  - Andreza
+  - Angela
+  - Angelica
+  - Angelina
+  - Angelita
+  - Anita
+  - Anna
+  - Anne
+  - Antonia
+  - Antonieta
+  - Aparecida
+  - Ariane
+  - Arlete
+  - Augusta
+  - Aurea
+  - Aurora
+  - Barbara
+  - Beatriz
+  - Benedita
+  - Berenice
+  - Bernadete
+  - Bianca
+  - Brenda
+  - Bruna
+  - Cacilda
+  - Camila
+  - Camilla
+  - Candida
+  - Carina
+  - Carla
+  - Carmelita
+  - Carmem
+  - Carmen
+  - Carolina
+  - Caroline
+  - Cassia
+  - Catarina
+  - Catia
+  - Cecilia
+  - Celia
+  - Celina
+  - Cibele
+  - Cicera
+  - Cinthia
+  - Cintia
+  - Clara
+  - Clarice
+  - Claudete
+  - Claudia
+  - Claúdia
+  - Claudineia
+  - Cláudio
+  - Cleide
+  - Cleidiane
+  - Cleonice
+  - Cleusa
+  - Cleuza
+  - Conceicao
+  - Creusa
+  - Creuza
+  - Cristiana
+  - Cristiane
+  - Cristina
+  - Daiana
+  - Daiane
+  - Dalila
+  - Dalva
+  - Damiana
+  - Daniela
+  - Daniele
+  - Daniella
+  - Danielle
+  - Dayana
+  - Dayane
+  - Debora
+  - Deborah
+  - Deise
+  - Denise
+  - Diana
+  - Dilma
+  - Dione
+  - Dirce
+  - Diva
+  - Divina
+  - Dolores
+  - Domingas
+  - Doralice
+  - Dulce
+  - Edilene
+  - Edileuza
+  - Edina
+  - Edinalva
+  - Edite
+  - Edith
+  - Edivania
+  - Edna
+  - Eduarda
+  - Elaine
+  - Elenice
+  - Eliana
+  - Eliane
+  - Eliene
+  - Eliete
+  - Elisa
+  - Elisabete
+  - Elisabeth
+  - Elisangela
+  - Eliza
+  - Elizabete
+  - Elizabeth
+  - Elizangela
+  - Elizete
+  - Ellen
+  - Elóisa
+  - Elvira
+  - Elza
+  - Emanuelly
+  - Emilia
+  - Emilly
+  - Emily
+  - Enedina
+  - Erica
+  - Erika
+  - Estela
+  - Ester
+  - Esther
+  - Eunice
+  - Eurides
+  - Eva
+  - Evelyn
+  - Fabiana
+  - Fabiane
+  - Fabiola
+  - Fabricia
+  - Fatima
+  - Fernanda
+  - Filomena
+  - Flavia
+  - Franciele
+  - Francilene
+  - Francinete
+  - Francisca
+  - Gabriela
+  - Gabriella
+  - Gabrielly
+  - Geane
+  - Geni
+  - Geovana
+  - Geovanna
+  - Geralda
+  - Gessica
+  - Gilda
+  - Gildete
+  - Gilmara
+  - Giovana
+  - Giovanna
+  - Gisele
+  - Giselle
+  - Gislaine
+  - Gislene
+  - Giulia
+  - Glaucia
+  - Gleice
+  - Gloria
+  - Graziela
+  - Graziele
+  - Guiomar
+  - Helen
+  - Helena
+  - Hellen
+  - Heloisa
+  - Hilda
+  - Iara
+  - Idalina
+  - Ieda
+  - Ilda
+  - Ilma
+  - Ilza
+  - Ines
+  - Inez
+  - Ingrid
+  - Iolanda
+  - Ione
+  - Iracema
+  - Iraci
+  - Iracy
+  - Irani
+  - Irene
+  - Iris
+  - Irma
+  - Isabel
+  - Isabela
+  - Isabella
+  - Isabelle
+  - Isabelly
+  - Isadora
+  - Isaura
+  - Isis
+  - Ivana
+  - Ivanete
+  - Ivani
+  - Ivanilda
+  - Ivanilde
+  - Ivete
+  - Ivone
+  - Ivonete
+  - Izabel
+  - Izabela
+  - Izaura
+  - Jaciara
+  - Jacira
+  - Jacqueline
+  - Jamile
+  - Janaina
+  - Jandira
+  - Jane
+  - Janete
+  - Janice
+  - Jaqueline
+  - Jeane
+  - Jenifer
+  - Jeniffer
+  - Jennifer
+  - Jessica
+  - Joana
+  - Joaquina
+  - Joelma
+  - Joice
+  - Joseane
+  - Josefa
+  - Josefina
+  - Joselia
+  - Josemar
+  - Josiane
+  - Josilene
+  - Jovelina
+  - Joyce
+  - Jucilene
+  - Judite
+  - Judith
+  - Julia
+  - Juliana
+  - Juliane
+  - Julieta
+  - Jurema
+  - Jussara
+  - Kamila
+  - Karen
+  - Karina
+  - Karine
+  - Karla
+  - Karoline
+  - Katia
+  - Keila
+  - Kelly
+  - Lais
+  - Lara
+  - Larissa
+  - Laryssa
+  - Laura
+  - Lavinia
+  - Lazara
+  - Leandra
+  - Leda
+  - Leidiane
+  - Leonice
+  - Leonilda
+  - Leonor
+  - Leticia
+  - Lidia
+  - Lidiane
+  - Ligia
+  - Liliane
+  - Lindalva
+  - Lindaura
+  - Lindinalva
+  - Livia
+  - Lorena
+  - Luan
+  - Luana
+  - Lucelia
+  - Luci
+  - Luciane
+  - Luciene
+  - Lucilene
+  - Lucimara
+  - Lucineia
+  - Lucineide
+  - Luisa
+  - Luiza
+  - Luzinete
+  - Madalena
+  - Magda
+  - Maiara
+  - Maira
+  - Maisa
+  - Manoela
+  - Manuela
+  - Manuella
+  - Marcela
+  - Marcilene
+  - Margarete
+  - Margareth
+  - Margarida
+  - Maria
+  - Mária
+  - Mariana
+  - Mariane
+  - Marilda
+  - Marilza
+  - Marinalva
+  - Marineide
+  - Marines
+  - Marinete
+  - Maristela
+  - Mariza
+  - Marizete
+  - Marluce
+  - Mary
+  - Matilde
+  - Maura
+  - Mayara
+  - Mayra
+  - Meire
+  - Melissa
+  - Mercedes
+  - Michelle
+  - Milena
+  - Milene
+  - Mirian
+  - Monique
+  - Nadia
+  - Naiara
+  - Nara
+  - Natalia
+  - Natalina
+  - Nathalia
+  - Nayara
+  - Neiva
+  - Neli
+  - Nicole
+  - Nicolly
+  - Nilda
+  - Noemia
+  - Norma
+  - Nubia
+  - Odete
+  - Olinda
+  - Olivia
+  - Otilia
+  - Paloma
+  - Pamela
+  - Paola
+  - Paula
+  - Paulina
+  - Poliana
+  - Priscila
+  - Priscilla
+  - Quiteria
+  - Rafaela
+  - Rafaella
+  - Raiane
+  - Raimunda
+  - Raissa
+  - Raquel
+  - Rayane
+  - Rayssa
+  - Rebeca
+  - Regiane
+  - Rejane
+  - Roberta
+  - Romilda
+  - Rosa
+  - Rosalia
+  - Rosalina
+  - Rosane
+  - Rose
+  - Roseane
+  - Rosely
+  - Rosemary
+  - Rosemeire
+  - Rosiane
+  - Rosilda
+  - Rosilene
+  - Rosimeire
+  - Rosineide
+  - Ruan
+  - Rute
+  - Ruth
+  - Sabrina
+  - Salete
+  - Samara
+  - Samira
+  - Santina
+  - Sára
+  - Sarah
+  - Sebastiana
+  - Severina
+  - Sheila
+  - Shirley
+  - Silmara
+  - Silvania
+  - Sirlene
+  - Sofia
+  - Sophia
+  - Stefany
+  - Stephanie
+  - Suelen
+  - Suellen
+  - Suzana
+  - Taina
+  - Tainara
+  - Tais
+  - Talita
+  - Tamara
+  - Tamires
+  - Tatiana
+  - Tatiane
+  - Telma
+  - Teresa
+  - Teresinha
+  - Thaina
+  - Thais
+  - Thalia
+  - Thalita
+  - Thamires
+  - Thayna
+  - Thays
+  - Thereza
+  - Therezinha
+  - Valdelice
+  - Valdirene
+  - Valentina
+  - Valquiria
+  - Vanda
+  - Vanderleia
+  - Vanessa
+  - Vanilda
+  - Vanusa
+  - Veronica
+  - Victoria
+  - Virginia
+  - Vitoria
+  - Vivian
+  - Viviane
+  - Wilma
+  - Yara
+  - Yasmim
+  - Yasmin
+  - Zelia
+  - Zenaide
+  - Zenilda
+  - Zilda
+  - Zilma
+  - Zuleide
+  - Zulmira
 maleLast:
-  -	Abadia	
-  -	Abrantes	
-  -	Abreu	
-  -	Acosta	
-  -	Adao	
-  -	Affonso	
-  -	Afonso	
-  -	Aguiar	
-  -	Aires	
-  -	Albano	
-  -	Albino	
-  -	Albuquerque	
-  -	Alcantara	
-  -	Aleixo	
-  -	Alencar	
-  -	Alexandre	
-  -	Alexandrino	
-  -	Almeida	
-  -	Alonso	
-  -	Alvarenga	
-  -	Alvares	
-  -	Alvarez	
-  -	Alves	
-  -	Alves da Silva	
-  -	Alves de Lima	
-  -	Alves de Oliveira	
-  -	Alves de Sousa	
-  -	Alves de Souza	
-  -	Alves dos Santos	
-  -	Alves Ferreira	
-  -	Alves Pereira	
-  -	Alvim	
-  -	Amador	
-  -	Amancio	
-  -	Amaral	
-  -	Amarante	
-  -	Amaro	
-  -	Ambrosio	
-  -	Amorim	
-  -	Anacleto	
-  -	Anastacio	
-  -	Andrade	
-  -	Andre	
-  -	Anjos	
-  -	Antonio	
-  -	António	
-  -	Antunes	
-  -	Anunciacao	
-  -	Aparecida	
-  -	Aparecido	
-  -	Apolinario	
-  -	Aprigio	
-  -	Aquino	
-  -	Aragao	
-  -	Arantes	
-  -	Araujo	
-  -	Araújo	
-  -	Arcanjo	
-  -	Arruda	
-  -	Assis	
-  -	Assuncao	
-  -	Augusto	
-  -	Avelar	
-  -	Avelino	
-  -	Avila	
-  -	Ayres	
-  -	Azeredo	
-  -	Azevedo	
-  -	Bacelar	
-  -	Bahia	
-  -	Baia	
-  -	Balbino	
-  -	Balduino	
-  -	Baltazar	
-  -	Bandeira	
-  -	Baptista	
-  -	Barbieri	
-  -	Barbosa	
-  -	Barbosa da Silva	
-  -	Barboza	
-  -	Barcellos	
-  -	Barcelos	
-  -	Barreira	
-  -	Barreto	
-  -	Barros	
-  -	Barroso	
-  -	Basilio	
-  -	Basso	
-  -	Bastos	
-  -	Batalha	
-  -	Batista	
-  -	Batista da Silva	
-  -	Batista dos Santos	
-  -	Becker	
-  -	Belarmino	
-  -	Belchior	
-  -	Belem	
-  -	Belo	
-  -	Benedito	
-  -	Benevides	
-  -	Benites	
-  -	Bentes	
-  -	Bento	
-  -	Beraldo	
-  -	Bernardes	
-  -	Bernardi	
-  -	Bernardino	
-  -	Bernardo	
-  -	Berto	
-  -	Bertoldo	
-  -	Beserra	
-  -	Bessa	
-  -	Bezerra	
-  -	Bianchi	
-  -	Bispo	
-  -	Bitencourt	
-  -	Bittencourt	
-  -	Boaventura	
-  -	Bomfim	
-  -	Bonfim	
-  -	Bonifacio	
-  -	Borba	
-  -	Borges	
-  -	Bosco	
-  -	Botelho	
-  -	Braga	
-  -	Branco	
-  -	Brandao	
-  -	Brasil	
-  -	Braz	
-  -	Brito	
-  -	Britto	
-  -	Brum	
-  -	Bruno	
-  -	Bueno	
-  -	Cabral	
-  -	Caetano	
-  -	Caires	
-  -	Caitano	
-  -	Caixeta	
-  -	Calado	
-  -	Calazans	
-  -	Caldas	
-  -	Caldeira	
-  -	Calisto	
-  -	Calixto	
-  -	Camara	
-  -	Camargo	
-  -	Camargos	
-  -	Camelo	
-  -	Camilo	
-  -	Campelo	
-  -	Campos	
-  -	Candida	
-  -	Candido	
-  -	Cantanhede	
-  -	Canuto	
-  -	Cardoso	
-  -	Cardozo	
-  -	Carlos	
-  -	Carmo	
-  -	Carneiro	
-  -	Carolino	
-  -	Carreiro	
-  -	Carvalho	
-  -	Casagrande	
-  -	Cassemiro	
-  -	Cassiano	
-  -	Cassimiro	
-  -	Castelo	
-  -	Castilho	
-  -	Castro	
-  -	Catarino	
-  -	Cavalcante	
-  -	Cavalcanti	
-  -	Cavalheiro	
-  -	Celestino	
-  -	Cerqueira	
-  -	Cesar	
-  -	Cesario	
-  -	Cezar	
-  -	Cezario	
-  -	Chagas	
-  -	Chaves	
-  -	Cintra	
-  -	Cipriano	
-  -	Ciriaco	
-  -	Cirino	
-  -	Claro	
-  -	Claudino	
-  -	Clemente	
-  -	Clementino	
-  -	Coelho	
-  -	Coimbra	
-  -	Colares	
-  -	Colombo	
-  -	Conceição	
-  -	Conde	
-  -	Constantino	
-  -	Cordeiro	
-  -	Correa	
-  -	Corrêa	
-  -	Correia	
-  -	Cortes	
-  -	Cortez	
-  -	Costa	
-  -	Coutinho	
-  -	Couto	
-  -	Crisostomo	
-  -	Crispim	
-  -	Cristina	
-  -	Cruz	
-  -	Cunha	
-  -	Custodio	
-  -	da Anunciacao	
-  -	da Aparecida	
-  -	da Conceiçao	
-  -	da Conceicao Pereira	
-  -	da Conceicao Silva	
-  -	da Costa	
-  -	da Cruz	
-  -	da Cunha	
-  -	da Fonseca	
-  -	da Gama	
-  -	da Gloria	
-  -	da Graca	
-  -	da Guia	
-  -	da Hora	
-  -	da Luz	
-  -	da Mata	
-  -	da Mota	
-  -	da Motta	
-  -	da Paixao	
-  -	da Paz	
-  -	da Penha	
-  -	da Rocha	
-  -	da Rosa	
-  -	da Silva	
-  -	da Silva Oliveira	
-  -	da Silva Pereira	
-  -	da Silva Santos	
-  -	da Silveira	
-  -	da Trindade	
-  -	da Veiga	
-  -	Dal	
-  -	Dalla	
-  -	Damaceno	
-  -	Damasceno	
-  -	Damasio	
-  -	Daniel	
-  -	Dantas	
-  -	Darc	
-  -	Das Chagas	
-  -	Das Dores	
-  -	Das Gracas	
-  -	das Gracas Silva	
-  -	das Merces	
-  -	Das Neves	
-  -	das Virgens	
-  -	David	
-  -	de Abreu	
-  -	de Aguiar	
-  -	de Albuquerque	
-  -	de Alcantara	
-  -	de Alencar	
-  -	de Almeida	
-  -	de Alvarenga	
-  -	de Amorim	
-  -	de Andrade	
-  -	de Aquino	
-  -	de Araujo	
-  -	de Arruda	
-  -	de Assis	
-  -	de Assuncao	
-  -	de Avila	
-  -	de Azevedo	
-  -	de Barros	
-  -	de Borba	
-  -	de Brito	
-  -	de Camargo	
-  -	de Campos	
-  -	de Carvalho	
-  -	de Cassia	
-  -	de Castro	
-  -	de Deus	
-  -	de Faria	
-  -	de Farias	
-  -	de Fatima	
-  -	de Fatima Alves	
-  -	de Fatima da Silva	
-  -	de Fatima dos Santos	
-  -	de Fatima Ferreira	
-  -	de Fatima Oliveira	
-  -	de Fatima Pereira	
-  -	de Fatima Rodrigues	
-  -	de Fatima Silva	
-  -	de Figueiredo	
-  -	de Franca	
-  -	de Freitas	
-  -	de Godoi	
-  -	de Godoy	
-  -	de Goes	
-  -	de Gois	
-  -	de Holanda	
-  -	de Jesus	
-  -	de Jesus da Silva	
-  -	de Jesus Ferreira	
-  -	de Jesus Pereira	
-  -	de Jesus Santos	
-  -	de Jesus Silva	
-  -	de Lacerda	
-  -	de Lara	
-  -	de Lemos	
-  -	de Lima	
-  -	de Lira	
-  -	de Lourdes	
-  -	de Lourdes Alves	
-  -	de Lourdes da Silva	
-  -	de Lourdes Ferreira	
-  -	de Lourdes Pereira	
-  -	de Lourdes Silva	
-  -	de Lucena	
-  -	de Luna	
-  -	de Lurdes	
-  -	de Macedo	
-  -	de Magalhaes	
-  -	de Maria	
-  -	de Matos	
-  -	de Mattos	
-  -	de Medeiros	
-  -	de Mello	
-  -	de Melo	
-  -	de Mendonca	
-  -	de Menezes	
-  -	de Mesquita	
-  -	de Miranda	
-  -	de Moraes	
-  -	de Morais	
-  -	de Moura	
-  -	de Nazare	
-  -	de Oliveira	
-  -	de Olíveira	
-  -	de Padua	
-  -	de Paiva	
-  -	de Paula	
-  -	de Paulo	
-  -	de Pinho	
-  -	de Pontes	
-  -	de Quadros	
-  -	de Queiroz	
-  -	de Ramos	
-  -	de Resende	
-  -	de Rezende	
-  -	de Ribamar	
-  -	de Sa	
-  -	de Sales	
-  -	de Santana	
-  -	de Sena	
-  -	de Siqueira	
-  -	de Sousa	
-  -	de Souza	
-  -	de Toledo	
-  -	de Vargas	
-  -	de Vasconcelos	
-  -	Delfino	
-  -	Delgado	
-  -	Dias	
-  -	Dias da Silva	
-  -	Diniz	
-  -	Dionizio	
-  -	do Amaral	
-  -	do Amparo	
-  -	do Carmo	
-  -	do Carmo da Silva	
-  -	do Couto	
-  -	do Espirito Santo	
-  -	do Livramento	
-  -	do Monte	
-  -	do Nascimento	
-  -	do Prado	
-  -	do Rego	
-  -	do Rocio	
-  -	do Rosario	
-  -	do Socorro	
-  -	do Socorro da Silva	
-  -	do Socorro Silva	
-  -	do Vale	
-  -	Domiciano	
-  -	Domingos	
-  -	Domingues	
-  -	Donizetti	
-  -	Dornelas	
-  -	Dorneles	
-  -	Dornelles	
-  -	dos Anjos	
-  -	dos Passos	
-  -	dos Prazeres	
-  -	dos Reis	
-  -	dos Santos	
-  -	dos Santos Silva	
-  -	Dourado	
-  -	Duarte	
-  -	Duque	
-  -	Duraes	
-  -	Dutra	
-  -	Eduardo	
-  -	Eleuterio	
-  -	Elias	
-  -	Elisa	
-  -	Escobar	
-  -	Espindola	
-  -	Estevam	
-  -	Estevao	
-  -	Esteves	
-  -	Estrela	
-  -	Euzebio	
-  -	Evangelista	
-  -	Fagundes	
-  -	Falcao	
-  -	Faria	
-  -	Farias	
-  -	Faustino	
-  -	Favero	
-  -	Feitosa	
-  -	Feitoza	
-  -	Feliciano	
-  -	Felicio	
-  -	Felipe	
-  -	Felisberto	
-  -	Felix	
-  -	Felizardo	
-  -	Fermino	
-  -	Fernandes	
-  -	Fernandes da Silva	
-  -	Fernandez	
-  -	Ferrari	
-  -	Ferraz	
-  -	Ferreira	
-  -	Ferreira da Silva	
-  -	Ferreira de Souza	
-  -	Ferreira dos Santos	
-  -	Ferreira Lima	
-  -	Fialho	
-  -	Fideles	
-  -	Fidelis	
-  -	Figueira	
-  -	Figueiredo	
-  -	Figueredo	
-  -	Filgueira	
-  -	Firmino	
-  -	Firmo	
-  -	Fischer	
-  -	Fiuza	
-  -	Flor	
-  -	Florencio	
-  -	Florentino	
-  -	Flores	
-  -	Floriano	
-  -	Fogaca	
-  -	Fonseca	
-  -	Fonsêca	
-  -	Fontana	
-  -	Fontenele	
-  -	Fontes	
-  -	Fontoura	
-  -	Fortes	
-  -	Fortunato	
-  -	Fraga	
-  -	Fragoso	
-  -	Franca	
-  -	França	
-  -	Francelino	
-  -	Francisco	
-  -	Franco	
-  -	Frazao	
-  -	Freire	
-  -	Freires	
-  -	Freitas	
-  -	Froes	
-  -	Frota	
-  -	Frutuoso	
-  -	Furlan	
-  -	Furtado	
-  -	Gabriel	
-  -	Gadelha	
-  -	Galdino	
-  -	Galvao	
-  -	Gama	
-  -	Garcez	
-  -	Garcia	
-  -	Gaspar	
-  -	Geraldo	
-  -	Germano	
-  -	Gil	
-  -	Gimenes	
-  -	Gimenez	
-  -	Godinho	
-  -	Godoi	
-  -	Godoy	
-  -	Goes	
-  -	Gois	
-  -	Gomes	
-  -	Gomes da Silva	
-  -	Gomes de Oliveira	
-  -	Gomes dos Santos	
-  -	Gonçalves	
-  -	Gondim	
-  -	Gonsalves	
-  -	Gontijo	
-  -	Gonzaga	
-  -	Gonzales	
-  -	Gonzalez	
-  -	Goulart	
-  -	Gouvea	
-  -	Gouveia	
-  -	Graciano	
-  -	Gregorio	
-  -	Gualberto	
-  -	Guedes	
-  -	Guerra	
-  -	Guerreiro	
-  -	Guilherme	
-  -	Guimaraes	
-  -	Guimarães	
-  -	Gurgel	
-  -	Gusmao	
-  -	Henrique	
-  -	Henrique Alves	
-  -	Henrique Barbosa	
-  -	Henrique Costa	
-  -	Henrique da Silva	
-  -	Henrique de Oliveira	
-  -	Henrique de Souza	
-  -	Henrique dos Santos	
-  -	Henrique Ferreira	
-  -	Henrique Gomes	
-  -	Henrique Gonçalves	
-  -	Henrique Lima	
-  -	Henrique Lopes	
-  -	Henrique Martins	
-  -	Henrique Oliveira	
-  -	Henrique Pereira	
-  -	Henrique Ribeiro	
-  -	Henrique Rodrigues	
-  -	Henrique Santos	
-  -	Henrique Silva	
-  -	Henrique Soares	
-  -	Henrique Souza	
-  -	Henrique Vieira	
-  -	Henriques	
-  -	Hernandes	
-  -	Hipolito	
-  -	Hoffmann	
-  -	Holanda	
-  -	Honorato	
-  -	Honorio	
-  -	Ignacio	
-  -	Inacio	
-  -	Inocencio	
-  -	Izidio	
-  -	Izidoro	
-  -	Jacinto	
-  -	Januario	
-  -	Jardim	
-  -	Jesus	
-  -	Joaquim	
-  -	Jordao	
-  -	Jorge	
-  -	Jose	
-  -	Juliao	
-  -	Junior	
-  -	Junqueira	
-  -	Justino	
-  -	Justo	
-  -	Klein	
-  -	Kruger	
-  -	Kuhn	
-  -	Lacerda	
-  -	Lage	
-  -	Lago	
-  -	Lara	
-  -	Laureano	
-  -	Laurindo	
-  -	Leal	
-  -	Leandro	
-  -	Leao	
-  -	Leitao	
-  -	Leite	
-  -	Leme	
-  -	Lemes	
-  -	Lemos	
-  -	Leopoldino	
-  -	Lessa	
-  -	Liberato	
-  -	Lima	
-  -	Lima da Silva	
-  -	Limeira	
-  -	Linhares	
-  -	Lino	
-  -	Lins	
-  -	Lira	
-  -	Lisboa	
-  -	Lobato	
-  -	Loiola	
-  -	Longo	
-  -	Lopes	
-  -	Lopes da Silva	
-  -	Lopez	
-  -	Loureiro	
-  -	Lourenço	
-  -	Louzada	
-  -	Lucas	
-  -	Lucena	
-  -	Luciano	
-  -	Lucio	
-  -	Luiz	
-  -	Luíz	
-  -	Luna	
-  -	Lustosa	
-  -	Macedo	
-  -	Macena	
-  -	Machado	
-  -	Maciel	
-  -	Madeira	
-  -	Madureira	
-  -	Mafra	
-  -	Magalhaes	
-  -	Magela	
-  -	Magno	
-  -	Maia	
-  -	Malaquias	
-  -	Malta	
-  -	Mamede	
-  -	Manhaes	
-  -	Manoel	
-  -	Mantovani	
-  -	Marcal	
-  -	Marcelino	
-  -	Marcolino	
-  -	Marcon	
-  -	Marcondes	
-  -	Maria	
-  -	Mariano	
-  -	Marin	
-  -	Marinho	
-  -	Marins	
-  -	Marques	
-  -	Marquês	
-  -	Marques da Silva	
-  -	Martin	
-  -	Martinelli	
-  -	Martinez	
-  -	Martinho	
-  -	Martini	
-  -	Martins	
-  -	Martins da Silva	
-  -	Mascarenhas	
-  -	Mateus	
-  -	Mathias	
-  -	Matias	
-  -	Matos	
-  -	Mattos	
-  -	Maximiano	
-  -	Maximo	
-  -	Mayer	
-  -	Medeiros	
-  -	Medina	
-  -	Meira	
-  -	Meireles	
-  -	Meirelles	
-  -	Mello	
-  -	Melo	
-  -	Mendes	
-  -	Mendonca	
-  -	Mendonça	
-  -	Meneses	
-  -	Menezes	
-  -	Mesquita	
-  -	Messias	
-  -	Miguel	
-  -	Milani	
-  -	Militao	
-  -	Miranda	
-  -	Modesto	
-  -	Molina	
-  -	Monte	
-  -	Monteiro	
-  -	Montenegro	
-  -	Moraes	
-  -	Morais	
-  -	Morales	
-  -	Moreira	
-  -	Moreira da Silva	
-  -	Moreno	
-  -	Moretti	
-  -	Moro	
-  -	Mota	
-  -	Motta	
-  -	Moura	
-  -	Mourao	
-  -	Muller	
-  -	Munhoz	
-  -	Muniz	
-  -	Narciso	
-  -	Nascimento	
-  -	Natal	
-  -	Natividade	
-  -	Navarro	
-  -	Naves	
-  -	Nazario	
-  -	Negrao	
-  -	Negreiros	
-  -	Nepomuceno	
-  -	Neres	
-  -	Neri	
-  -	Neris	
-  -	Nery	
-  -	Neto	
-  -	Netto	
-  -	Neves	
-  -	Nicacio	
-  -	Nicolau	
-  -	Nobre	
-  -	Nobrega	
-  -	Nogueira	
-  -	Nolasco	
-  -	Nonato	
-  -	Noronha	
-  -	Novaes	
-  -	Novais	
-  -	Nunes	
-  -	Nunes da Silva	
-  -	Oliveira	
-  -	Oliveira da Silva	
-  -	Ortega	
-  -	Ortiz	
-  -	Osorio	
-  -	Pacheco	
-  -	Pacifico	
-  -	Padilha	
-  -	Paes	
-  -	Paim	
-  -	Paiva	
-  -	Paixao	
-  -	Palheta	
-  -	Palma	
-  -	Palmeira	
-  -	Pantoja	
-  -	Paranhos	
-  -	Parente	
-  -	Parreira	
-  -	Paschoal	
-  -	Pascoal	
-  -	Passos	
-  -	Patricio	
-  -	Patrocinio	
-  -	Paula	
-  -	Paulino	
-  -	Paulo	
-  -	Pavan	
-  -	Paz	
-  -	Pedreira	
-  -	Pedro	
-  -	Pedrosa	
-  -	Pedroso	
-  -	Peixoto	
-  -	Pena	
-  -	Penha	
-  -	Pereira	
-  -	Pereira da Silva	
-  -	Pereira de Oliveira	
-  -	Pereira de Souza	
-  -	Pereira dos Santos	
-  -	Peres	
-  -	Perez	
-  -	Pessanha	
-  -	Pessoa	
-  -	Pestana	
-  -	Petry	
-  -	Piedade	
-  -	Pimenta	
-  -	Pimentel	
-  -	Pina	
-  -	Pinheiro	
-  -	Pinho	
-  -	Pinto	
-  -	Pio	
-  -	Pires	
-  -	Policarpo	
-  -	Pompeu	
-  -	Ponciano	
-  -	Pontes	
-  -	Porfirio	
-  -	Portela	
-  -	Portella	
-  -	Portes	
-  -	Porto	
-  -	Portugal	
-  -	Prado	
-  -	Prata	
-  -	Prates	
-  -	Praxedes	
-  -	Prestes	
-  -	Procopio	
-  -	Proenca	
-  -	Prudencio	
-  -	Prudente	
-  -	Quadros	
-  -	Quaresma	
-  -	Queiroz	
-  -	Querino	
-  -	Quintanilha	
-  -	Quintino	
-  -	Quirino	
-  -	Rabello	
-  -	Rabelo	
-  -	Raimundo	
-  -	Ramalho	
-  -	Ramires	
-  -	Ramos	
-  -	Rangel	
-  -	Raposo	
-  -	Rebelo	
-  -	Reboucas	
-  -	Rech	
-  -	Rego	
-  -	Reis	
-  -	Resende	
-  -	Rezende	
-  -	Ribas	
-  -	Ribeiro	
-  -	Ribeiro da Silva	
-  -	Ribeiro dos Santos	
-  -	Ricardo	
-  -	Rios	
-  -	Roberto	
-  -	Rocha	
-  -	Rodrigues	
-  -	Rodriguês	
-  -	Rodrigues da Silva	
-  -	Rodrigues de Oliveira	
-  -	Rodrigues de Souza	
-  -	Rodrigues dos Santos	
-  -	Rodriguez	
-  -	Rolim	
-  -	Romano	
-  -	Romao	
-  -	Romeiro	
-  -	Romero	
-  -	Roque	
-  -	Rosa	
-  -	Rosa da Silva	
-  -	Rosa de Jesus	
-  -	Rosa dos Santos	
-  -	Roseno	
-  -	Rossi	
-  -	Roza	
-  -	Ruas	
-  -	Rufino	
-  -	Ruiz	
-  -	Sabino	
-  -	Sacramento	
-  -	Salazar	
-  -	Saldanha	
-  -	Sales	
-  -	Salgado	
-  -	Salles	
-  -	Salomao	
-  -	Salvador	
-  -	Salviano	
-  -	Sampaio	
-  -	Sanches	
-  -	Sanchez	
-  -	Sant	
-  -	Sant Ana	
-  -	Sant Anna	
-  -	Santana	
-  -	Santiago	
-  -	Santos	
-  -	Sántos	
-  -	Santos da Silva	
-  -	Saraiva	
-  -	Sardinha	
-  -	Sarmento	
-  -	Sartori	
-  -	Sato	
-  -	Scherer	
-  -	Schmidt	
-  -	Schmitt	
-  -	Schmitz	
-  -	Schneider	
-  -	Schultz	
-  -	Schulz	
-  -	Seabra	
-  -	Seixas	
-  -	Sena	
-  -	Serafim	
-  -	Serpa	
-  -	Serra	
-  -	Severino	
-  -	Severo	
-  -	Silva	
-  -	Silva dos Santos	
-  -	Silva Santos	
-  -	Silveira	
-  -	Silverio	
-  -	Silvestre	
-  -	Simao	
-  -	Simas	
-  -	Simoes	
-  -	Simon	
-  -	Simplicio	
-  -	Siqueira	
-  -	Soares	
-  -	Soares da Silva	
-  -	Sobral	
-  -	Sobreira	
-  -	Sobrinho	
-  -	Sodre	
-  -	Sousa	
-  -	Souto	
-  -	Souza	
-  -	Stein	
-  -	Taborda	
-  -	Targino	
-  -	Tavares	
-  -	Taveira	
-  -	Teixeira	
-  -	Teles	
-  -	Telles	
-  -	Tenorio	
-  -	Teodoro	
-  -	Teotonio	
-  -	Terra	
-  -	Terto	
-  -	Theodoro	
-  -	Thomaz	
-  -	Thome	
-  -	Tiburcio	
-  -	Timoteo	
-  -	Tobias	
-  -	Toledo	
-  -	Tolentino	
-  -	Tomaz	
-  -	Tome	
-  -	Torquato	
-  -	Torres	
-  -	Trajano	
-  -	Trevisan	
-  -	Trindade	
-  -	Uchoa	
-  -	Umbelino	
-  -	Urbano	
-  -	Valadares	
-  -	Vale	
-  -	Valente	
-  -	Valentim	
-  -	Valeriano	
-  -	Valerio	
-  -	Varela	
-  -	Vargas	
-  -	Vasconcellos	
-  -	Vasconcelos	
-  -	Vasques	
-  -	Vaz	
-  -	Veiga	
-  -	Veloso	
-  -	Venancio	
-  -	Venceslau	
-  -	Ventura	
-  -	Veras	
-  -	Verissimo	
-  -	Viana	
-  -	Vianna	
-  -	Vicente	
-  -	Vidal	
-  -	Viegas	
-  -	Vieira	
-  -	Vieira da Silva	
-  -	Vilar	
-  -	Vilas	
-  -	Vilas Boas	
-  -	Vilela	
-  -	Vilhena	
-  -	Vital	
-  -	Vitor	
-  -	Vitoriano	
-  -	Vitorino	
-  -	Vitorio	
-  -	Viturino	
-  -	Wagner	
-  -	Watanabe	
-  -	Weber	
-  -	Xavier	
-  -	Ximenes	
-  -	Zacarias	
-  -	Zago	
-  -	Zanella	
-  -	Zanetti	
-  -	Zeferino	
-  -	Zimmermann	
+  - Abadia
+  - Abrantes
+  - Abreu
+  - Acosta
+  - Adao
+  - Affonso
+  - Afonso
+  - Aguiar
+  - Aires
+  - Albano
+  - Albino
+  - Albuquerque
+  - Alcantara
+  - Aleixo
+  - Alencar
+  - Alexandre
+  - Alexandrino
+  - Almeida
+  - Alonso
+  - Alvarenga
+  - Alvares
+  - Alvarez
+  - Alves
+  - Alves da Silva
+  - Alves de Lima
+  - Alves de Oliveira
+  - Alves de Sousa
+  - Alves de Souza
+  - Alves dos Santos
+  - Alves Ferreira
+  - Alves Pereira
+  - Alvim
+  - Amador
+  - Amancio
+  - Amaral
+  - Amarante
+  - Amaro
+  - Ambrosio
+  - Amorim
+  - Anacleto
+  - Anastacio
+  - Andrade
+  - Andre
+  - Anjos
+  - Antonio
+  - António
+  - Antunes
+  - Anunciacao
+  - Aparecida
+  - Aparecido
+  - Apolinario
+  - Aprigio
+  - Aquino
+  - Aragao
+  - Arantes
+  - Araujo
+  - Araújo
+  - Arcanjo
+  - Arruda
+  - Assis
+  - Assuncao
+  - Augusto
+  - Avelar
+  - Avelino
+  - Avila
+  - Ayres
+  - Azeredo
+  - Azevedo
+  - Bacelar
+  - Bahia
+  - Baia
+  - Balbino
+  - Balduino
+  - Baltazar
+  - Bandeira
+  - Baptista
+  - Barbieri
+  - Barbosa
+  - Barbosa da Silva
+  - Barboza
+  - Barcellos
+  - Barcelos
+  - Barreira
+  - Barreto
+  - Barros
+  - Barroso
+  - Basilio
+  - Basso
+  - Bastos
+  - Batalha
+  - Batista
+  - Batista da Silva
+  - Batista dos Santos
+  - Becker
+  - Belarmino
+  - Belchior
+  - Belem
+  - Belo
+  - Benedito
+  - Benevides
+  - Benites
+  - Bentes
+  - Bento
+  - Beraldo
+  - Bernardes
+  - Bernardi
+  - Bernardino
+  - Bernardo
+  - Berto
+  - Bertoldo
+  - Beserra
+  - Bessa
+  - Bezerra
+  - Bianchi
+  - Bispo
+  - Bitencourt
+  - Bittencourt
+  - Boaventura
+  - Bomfim
+  - Bonfim
+  - Bonifacio
+  - Borba
+  - Borges
+  - Bosco
+  - Botelho
+  - Braga
+  - Branco
+  - Brandao
+  - Brasil
+  - Braz
+  - Brito
+  - Britto
+  - Brum
+  - Bruno
+  - Bueno
+  - Cabral
+  - Caetano
+  - Caires
+  - Caitano
+  - Caixeta
+  - Calado
+  - Calazans
+  - Caldas
+  - Caldeira
+  - Calisto
+  - Calixto
+  - Camara
+  - Camargo
+  - Camargos
+  - Camelo
+  - Camilo
+  - Campelo
+  - Campos
+  - Candida
+  - Candido
+  - Cantanhede
+  - Canuto
+  - Cardoso
+  - Cardozo
+  - Carlos
+  - Carmo
+  - Carneiro
+  - Carolino
+  - Carreiro
+  - Carvalho
+  - Casagrande
+  - Cassemiro
+  - Cassiano
+  - Cassimiro
+  - Castelo
+  - Castilho
+  - Castro
+  - Catarino
+  - Cavalcante
+  - Cavalcanti
+  - Cavalheiro
+  - Celestino
+  - Cerqueira
+  - Cesar
+  - Cesario
+  - Cezar
+  - Cezario
+  - Chagas
+  - Chaves
+  - Cintra
+  - Cipriano
+  - Ciriaco
+  - Cirino
+  - Claro
+  - Claudino
+  - Clemente
+  - Clementino
+  - Coelho
+  - Coimbra
+  - Colares
+  - Colombo
+  - Conceição
+  - Conde
+  - Constantino
+  - Cordeiro
+  - Correa
+  - Corrêa
+  - Correia
+  - Cortes
+  - Cortez
+  - Costa
+  - Coutinho
+  - Couto
+  - Crisostomo
+  - Crispim
+  - Cristina
+  - Cruz
+  - Cunha
+  - Custodio
+  - da Anunciacao
+  - da Aparecida
+  - da Conceiçao
+  - da Conceicao Pereira
+  - da Conceicao Silva
+  - da Costa
+  - da Cruz
+  - da Cunha
+  - da Fonseca
+  - da Gama
+  - da Gloria
+  - da Graca
+  - da Guia
+  - da Hora
+  - da Luz
+  - da Mata
+  - da Mota
+  - da Motta
+  - da Paixao
+  - da Paz
+  - da Penha
+  - da Rocha
+  - da Rosa
+  - da Silva
+  - da Silva Oliveira
+  - da Silva Pereira
+  - da Silva Santos
+  - da Silveira
+  - da Trindade
+  - da Veiga
+  - Dal
+  - Dalla
+  - Damaceno
+  - Damasceno
+  - Damasio
+  - Daniel
+  - Dantas
+  - Darc
+  - Das Chagas
+  - Das Dores
+  - Das Gracas
+  - das Gracas Silva
+  - das Merces
+  - Das Neves
+  - das Virgens
+  - David
+  - de Abreu
+  - de Aguiar
+  - de Albuquerque
+  - de Alcantara
+  - de Alencar
+  - de Almeida
+  - de Alvarenga
+  - de Amorim
+  - de Andrade
+  - de Aquino
+  - de Araujo
+  - de Arruda
+  - de Assis
+  - de Assuncao
+  - de Avila
+  - de Azevedo
+  - de Barros
+  - de Borba
+  - de Brito
+  - de Camargo
+  - de Campos
+  - de Carvalho
+  - de Cassia
+  - de Castro
+  - de Deus
+  - de Faria
+  - de Farias
+  - de Fatima
+  - de Fatima Alves
+  - de Fatima da Silva
+  - de Fatima dos Santos
+  - de Fatima Ferreira
+  - de Fatima Oliveira
+  - de Fatima Pereira
+  - de Fatima Rodrigues
+  - de Fatima Silva
+  - de Figueiredo
+  - de Franca
+  - de Freitas
+  - de Godoi
+  - de Godoy
+  - de Goes
+  - de Gois
+  - de Holanda
+  - de Jesus
+  - de Jesus da Silva
+  - de Jesus Ferreira
+  - de Jesus Pereira
+  - de Jesus Santos
+  - de Jesus Silva
+  - de Lacerda
+  - de Lara
+  - de Lemos
+  - de Lima
+  - de Lira
+  - de Lourdes
+  - de Lourdes Alves
+  - de Lourdes da Silva
+  - de Lourdes Ferreira
+  - de Lourdes Pereira
+  - de Lourdes Silva
+  - de Lucena
+  - de Luna
+  - de Lurdes
+  - de Macedo
+  - de Magalhaes
+  - de Maria
+  - de Matos
+  - de Mattos
+  - de Medeiros
+  - de Mello
+  - de Melo
+  - de Mendonca
+  - de Menezes
+  - de Mesquita
+  - de Miranda
+  - de Moraes
+  - de Morais
+  - de Moura
+  - de Nazare
+  - de Oliveira
+  - de Olíveira
+  - de Padua
+  - de Paiva
+  - de Paula
+  - de Paulo
+  - de Pinho
+  - de Pontes
+  - de Quadros
+  - de Queiroz
+  - de Ramos
+  - de Resende
+  - de Rezende
+  - de Ribamar
+  - de Sa
+  - de Sales
+  - de Santana
+  - de Sena
+  - de Siqueira
+  - de Sousa
+  - de Souza
+  - de Toledo
+  - de Vargas
+  - de Vasconcelos
+  - Delfino
+  - Delgado
+  - Dias
+  - Dias da Silva
+  - Diniz
+  - Dionizio
+  - do Amaral
+  - do Amparo
+  - do Carmo
+  - do Carmo da Silva
+  - do Couto
+  - do Espirito Santo
+  - do Livramento
+  - do Monte
+  - do Nascimento
+  - do Prado
+  - do Rego
+  - do Rocio
+  - do Rosario
+  - do Socorro
+  - do Socorro da Silva
+  - do Socorro Silva
+  - do Vale
+  - Domiciano
+  - Domingos
+  - Domingues
+  - Donizetti
+  - Dornelas
+  - Dorneles
+  - Dornelles
+  - dos Anjos
+  - dos Passos
+  - dos Prazeres
+  - dos Reis
+  - dos Santos
+  - dos Santos Silva
+  - Dourado
+  - Duarte
+  - Duque
+  - Duraes
+  - Dutra
+  - Eduardo
+  - Eleuterio
+  - Elias
+  - Elisa
+  - Escobar
+  - Espindola
+  - Estevam
+  - Estevao
+  - Esteves
+  - Estrela
+  - Euzebio
+  - Evangelista
+  - Fagundes
+  - Falcao
+  - Faria
+  - Farias
+  - Faustino
+  - Favero
+  - Feitosa
+  - Feitoza
+  - Feliciano
+  - Felicio
+  - Felipe
+  - Felisberto
+  - Felix
+  - Felizardo
+  - Fermino
+  - Fernandes
+  - Fernandes da Silva
+  - Fernandez
+  - Ferrari
+  - Ferraz
+  - Ferreira
+  - Ferreira da Silva
+  - Ferreira de Souza
+  - Ferreira dos Santos
+  - Ferreira Lima
+  - Fialho
+  - Fideles
+  - Fidelis
+  - Figueira
+  - Figueiredo
+  - Figueredo
+  - Filgueira
+  - Firmino
+  - Firmo
+  - Fischer
+  - Fiuza
+  - Flor
+  - Florencio
+  - Florentino
+  - Flores
+  - Floriano
+  - Fogaca
+  - Fonseca
+  - Fonsêca
+  - Fontana
+  - Fontenele
+  - Fontes
+  - Fontoura
+  - Fortes
+  - Fortunato
+  - Fraga
+  - Fragoso
+  - Franca
+  - França
+  - Francelino
+  - Francisco
+  - Franco
+  - Frazao
+  - Freire
+  - Freires
+  - Freitas
+  - Froes
+  - Frota
+  - Frutuoso
+  - Furlan
+  - Furtado
+  - Gabriel
+  - Gadelha
+  - Galdino
+  - Galvao
+  - Gama
+  - Garcez
+  - Garcia
+  - Gaspar
+  - Geraldo
+  - Germano
+  - Gil
+  - Gimenes
+  - Gimenez
+  - Godinho
+  - Godoi
+  - Godoy
+  - Goes
+  - Gois
+  - Gomes
+  - Gomes da Silva
+  - Gomes de Oliveira
+  - Gomes dos Santos
+  - Gonçalves
+  - Gondim
+  - Gonsalves
+  - Gontijo
+  - Gonzaga
+  - Gonzales
+  - Gonzalez
+  - Goulart
+  - Gouvea
+  - Gouveia
+  - Graciano
+  - Gregorio
+  - Gualberto
+  - Guedes
+  - Guerra
+  - Guerreiro
+  - Guilherme
+  - Guimaraes
+  - Guimarães
+  - Gurgel
+  - Gusmao
+  - Henrique
+  - Henrique Alves
+  - Henrique Barbosa
+  - Henrique Costa
+  - Henrique da Silva
+  - Henrique de Oliveirש
+  - Henrique de Souza
+  - Henrique dos Santos
+  - Henrique Ferreira
+  - Henrique Gomes
+  - Henrique Gonçalves
+  - Henrique Lima
+  - Henrique Lopes
+  - Henrique Martins
+  - Henrique Oliveira
+  - Henrique Pereira
+  - Henrique Ribeiro
+  - Henrique Rodrigues
+  - Henrique Santos
+  - Henrique Silva
+  - Henrique Soares
+  - Henrique Souza
+  - Henrique Vieira
+  - Henriques
+  - Hernandes
+  - Hipolito
+  - Hoffmann
+  - Holanda
+  - Honorato
+  - Honorio
+  - Ignacio
+  - Inacio
+  - Inocencio
+  - Izidio
+  - Izidoro
+  - Jacinto
+  - Januario
+  - Jardim
+  - Jesus
+  - Joaquim
+  - Jordao
+  - Jorge
+  - Jose
+  - Juliao
+  - Junior
+  - Junqueira
+  - Justino
+  - Justo
+  - Klein
+  - Kruger
+  - Kuhn
+  - Lacerda
+  - Lage
+  - Lago
+  - Lara
+  - Laureano
+  - Laurindo
+  - Leal
+  - Leandro
+  - Leao
+  - Leitao
+  - Leite
+  - Leme
+  - Lemes
+  - Lemos
+  - Leopoldino
+  - Lessa
+  - Liberato
+  - Lima
+  - Lima da Silva
+  - Limeira
+  - Linhares
+  - Lino
+  - Lins
+  - Lira
+  - Lisboa
+  - Lobato
+  - Loiola
+  - Longo
+  - Lopes
+  - Lopes da Silva
+  - Lopez
+  - Loureiro
+  - Lourenço
+  - Louzada
+  - Lucas
+  - Lucena
+  - Luciano
+  - Lucio
+  - Luiz
+  - Luíz
+  - Luna
+  - Lustosa
+  - Macedo
+  - Macena
+  - Machado
+  - Maciel
+  - Madeira
+  - Madureira
+  - Mafra
+  - Magalhaes
+  - Magela
+  - Magno
+  - Maia
+  - Malaquias
+  - Malta
+  - Mamede
+  - Manhaes
+  - Manoel
+  - Mantovani
+  - Marcal
+  - Marcelino
+  - Marcolino
+  - Marcon
+  - Marcondes
+  - Maria
+  - Mariano
+  - Marin
+  - Marinho
+  - Marins
+  - Marques
+  - Marquês
+  - Marques da Silva
+  - Martin
+  - Martinelli
+  - Martinez
+  - Martinho
+  - Martini
+  - Martins
+  - Martins da Silva
+  - Mascarenhas
+  - Mateus
+  - Mathias
+  - Matias
+  - Matos
+  - Mattos
+  - Maximiano
+  - Maximo
+  - Mayer
+  - Medeiros
+  - Medina
+  - Meira
+  - Meireles
+  - Meirelles
+  - Mello
+  - Melo
+  - Mendes
+  - Mendonca
+  - Mendonça
+  - Meneses
+  - Menezes
+  - Mesquita
+  - Messias
+  - Miguel
+  - Milani
+  - Militao
+  - Miranda
+  - Modesto
+  - Molina
+  - Monte
+  - Monteiro
+  - Montenegro
+  - Moraes
+  - Morais
+  - Morales
+  - Moreira
+  - Moreira da Silva
+  - Moreno
+  - Moretti
+  - Moro
+  - Mota
+  - Motta
+  - Moura
+  - Mourao
+  - Muller
+  - Munhoz
+  - Muniz
+  - Narciso
+  - Nascimento
+  - Natal
+  - Natividade
+  - Navarro
+  - Naves
+  - Nazario
+  - Negrao
+  - Negreiros
+  - Nepomuceno
+  - Neres
+  - Neri
+  - Neris
+  - Nery
+  - Neto
+  - Netto
+  - Neves
+  - Nicacio
+  - Nicolau
+  - Nobre
+  - Nobrega
+  - Nogueira
+  - Nolasco
+  - Nonato
+  - Noronha
+  - Novaes
+  - Novais
+  - Nunes
+  - Nunes da Silva
+  - Oliveira
+  - Oliveira da Silva
+  - Ortega
+  - Ortiz
+  - Osorio
+  - Pacheco
+  - Pacifico
+  - Padilha
+  - Paes
+  - Paim
+  - Paiva
+  - Paixao
+  - Palheta
+  - Palma
+  - Palmeira
+  - Pantoja
+  - Paranhos
+  - Parente
+  - Parreira
+  - Paschoal
+  - Pascoal
+  - Passos
+  - Patricio
+  - Patrocinio
+  - Paula
+  - Paulino
+  - Paulo
+  - Pavan
+  - Paz
+  - Pedreira
+  - Pedro
+  - Pedrosa
+  - Pedroso
+  - Peixoto
+  - Pena
+  - Penha
+  - Pereira
+  - Pereira da Silva
+  - Pereira de Oliveira
+  - Pereira de Souza
+  - Pereira dos Santos
+  - Peres
+  - Perez
+  - Pessanha
+  - Pessoa
+  - Pestana
+  - Petry
+  - Piedade
+  - Pimenta
+  - Pimentel
+  - Pina
+  - Pinheiro
+  - Pinho
+  - Pinto
+  - Pio
+  - Pires
+  - Policarpo
+  - Pompeu
+  - Ponciano
+  - Pontes
+  - Porfirio
+  - Portela
+  - Portella
+  - Portes
+  - Porto
+  - Portugal
+  - Prado
+  - Prata
+  - Prates
+  - Praxedes
+  - Prestes
+  - Procopio
+  - Proenca
+  - Prudencio
+  - Prudente
+  - Quadros
+  - Quaresma
+  - Queiroz
+  - Querino
+  - Quintanilha
+  - Quintino
+  - Quirino
+  - Rabello
+  - Rabelo
+  - Raimundo
+  - Ramalho
+  - Ramires
+  - Ramos
+  - Rangel
+  - Raposo
+  - Rebelo
+  - Reboucas
+  - Rech
+  - Rego
+  - Reis
+  - Resende
+  - Rezende
+  - Ribas
+  - Ribeiro
+  - Ribeiro da Silva
+  - Ribeiro dos Santos
+  - Ricardo
+  - Rios
+  - Roberto
+  - Rocha
+  - Rodrigues
+  - Rodriguês
+  - Rodrigues da Silva
+  - Rodrigues de Oliveira
+  - Rodrigues de Souza
+  - Rodrigues dos Santos
+  - Rodriguez
+  - Rolim
+  - Romano
+  - Romao
+  - Romeiro
+  - Romero
+  - Roque
+  - Rosa
+  - Rosa da Silva
+  - Rosa de Jesus
+  - Rosa dos Santos
+  - Roseno
+  - Rossi
+  - Roza
+  - Ruas
+  - Rufino
+  - Ruiz
+  - Sabino
+  - Sacramento
+  - Salazar
+  - Saldanha
+  - Sales
+  - Salgado
+  - Salles
+  - Salomao
+  - Salvador
+  - Salviano
+  - Sampaio
+  - Sanches
+  - Sanchez
+  - Sant
+  - Sant Ana
+  - Sant Anna
+  - Santana
+  - Santiago
+  - Santos
+  - Sántos
+  - Santos da Silva
+  - Saraiva
+  - Sardinha
+  - Sarmento
+  - Sartori
+  - Sato
+  - Scherer
+  - Schmidt
+  - Schmitt
+  - Schmitz
+  - Schneider
+  - Schultz
+  - Schulz
+  - Seabra
+  - Seixas
+  - Sena
+  - Serafim
+  - Serpa
+  - Serra
+  - Severino
+  - Severo
+  - Silva
+  - Silva dos Santos
+  - Silva Santos
+  - Silveira
+  - Silverio
+  - Silvestre
+  - Simao
+  - Simas
+  - Simoes
+  - Simon
+  - Simplicio
+  - Siqueira
+  - Soares
+  - Soares da Silva
+  - Sobral
+  - Sobreira
+  - Sobrinho
+  - Sodre
+  - Sousa
+  - Souto
+  - Souza
+  - Stein
+  - Taborda
+  - Targino
+  - Tavares
+  - Taveira
+  - Teixeira
+  - Teles
+  - Telles
+  - Tenorio
+  - Teodoro
+  - Teotonio
+  - Terra
+  - Terto
+  - Theodoro
+  - Thomaz
+  - Thome
+  - Tiburcio
+  - Timoteo
+  - Tobias
+  - Toledo
+  - Tolentino
+  - Tomaz
+  - Tome
+  - Torquato
+  - Torres
+  - Trajano
+  - Trevisan
+  - Trindade
+  - Uchoa
+  - Umbelino
+  - Urbano
+  - Valadares
+  - Vale
+  - Valente
+  - Valentim
+  - Valeriano
+  - Valerio
+  - Varela
+  - Vargas
+  - Vasconcellos
+  - Vasconcelos
+  - Vasques
+  - Vaz
+  - Veiga
+  - Veloso
+  - Venancio
+  - Venceslau
+  - Ventura
+  - Veras
+  - Verissimo
+  - Viana
+  - Vianna
+  - Vicente
+  - Vidal
+  - Viegas
+  - Vieira
+  - Vieira da Silva
+  - Vilar
+  - Vilas
+  - Vilas Boas
+  - Vilela
+  - Vilhena
+  - Vital
+  - Vitor
+  - Vitoriano
+  - Vitorino
+  - Vitorio
+  - Viturino
+  - Wagner
+  - Watanabe
+  - Weber
+  - Xavier
+  - Ximenes
+  - Zacarias
+  - Zago
+  - Zanella
+  - Zanetti
+  - Zeferino
+  - Zimmermann
