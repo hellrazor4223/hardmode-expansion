@@ -2,6 +2,7 @@ Changelog:
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation
+ - Fix UFO waterlanding possibilities
  - Fix Heavy Plasma Manufacture unlock error
  - Fix Wrong Deathsound for all Female Civilians
  - Fix Typos for Weaponlists

@@ -1400,7 +1400,6 @@ regions:
         - [151.5, 151.5, -46.5, -46.5, -4, STR_KURIL_ISLANDS]
         - [193.7, 193.7, -64.51, -64.51, -4, STR_NOME]
         - [193.45, 193.45, -60.17, -60.17, -4, STR_STLAWRENCE_ISLAND]
-        - [189, 189, 19, 19, -6, STR_TONGA]
 #END NEW CITIES
 
 #BEGIN SHIPPING LANES
@@ -1439,7 +1438,6 @@ regions:
         - [151.5, 151.5, -46.5, -46.5, -4, STR_KURIL_ISLANDS]
         - [193.7, 193.7, -64.51, -64.51, -4, STR_NOME]
         - [193.45, 193.45, -60.17, -60.17, -4, STR_STLAWRENCE_ISLAND]
-        - [189, 189, 19, 19, -6, STR_TONGA]
 #END NEW CITIES
 ##END NORTH PACIFIC
 
@@ -1473,8 +1471,9 @@ regions:
         - [241, 241, 26.5, 26.5, -6, STR_EASTER_ISLAND]
         - [269, 269, 1, 1, -6, STR_GALAPAGOS_ISLAND]
         - [-130.1, -130.1, 25.066, 25.066, -6, STR_PITCAIRN]
-        - [166.933, 166.933, 0.533, 0.533, -4, STR_NAURU]
         - [-172.333, -172.333, 13.583, 13.583, -6, STR_SAMOA]
+        - [189, 189, 19, 19, -6, STR_TONGA]
+        - [166.933, 166.933, 0.533, 0.533, -6, STR_NAURU]
 #END NEW CITIES
 
 #BEGIN SHIPPING LANES
@@ -1503,8 +1502,9 @@ regions:
         - [241, 241, 26.5, 26.5, -6, STR_EASTER_ISLAND]
         - [269, 269, 1, 1, -6, STR_GALAPAGOS_ISLAND]
         - [-130.1, -130.1, 25.066, 25.066, -6, STR_PITCAIRN]
-        - [166.933, 166.933, 0.533, 0.533, -4, STR_NAURU]
         - [-172.333, -172.333, 13.583, 13.583, -6, STR_SAMOA]
+        - [189, 189, 19, 19, -6, STR_TONGA]
+        - [166.933, 166.933, 0.533, 0.533, -6, STR_NAURU]
 #END NEW CITIES
 ##END SOUTH PACIFIC
 
