@@ -23,6 +23,9 @@ Version 0.99.9.5
  - Add Inventory images for all Civilians
  - Add Inventory images for all Aliens
  - Add Inventory images for all Tanks
+ - Add Ufopaedia images for all Tanks
+ - Add Ufopaedia images for all Drones
+ - Add Enhanced GUI Buttons and Backgrounds
  - Add Final Version of the Commendation sprite provided by cevaralien
  - Add higher salaries for officers (10% increase per rank compare to base salary)
 

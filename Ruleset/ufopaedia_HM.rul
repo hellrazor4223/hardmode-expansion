@@ -440,9 +440,9 @@ ufopaedia:
 #BEGIN ALLOY CANNON UFOPAEDIA
   - id: STR_ALLOY_CANNON_UC
     type_id: 2
+    section: STR_WEAPONS_AND_EQUIPMENT
     requires:
       - STR_ALLOY_CANNON
-    section: STR_WEAPONS_AND_EQUIPMENT
     image_id: ALLOY_CANNON.SPK
     text: STR_ALLOY_CANNON_UFOPEDIA
     listOrder: 2501
@@ -462,10 +462,10 @@ ufopaedia:
 ##BEGIN XCOM TANK UFOPAEDIAS
 #BEGIN DRONE SMOKE WEAPON
   - id: STR_DRONE_SMOKE_WEAPON
-    requires:
-      - STR_SUPPORT_DRONES
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
     text: STR_DRONE_SMOKE_WEAPON_UFOPEDIA
     listOrder: 2849
 #END DRONE SMOKE WEAPON
@@ -476,6 +476,7 @@ ufopaedia:
       - STR_SUPPORT_DRONES
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
+    image_id: DRONE_SCOUT.SPK
     text: STR_DRONE_SCOUT_UFOPEDIA
     weapon: STR_DRONE_SMOKE_WEAPON
     listOrder: 2850
@@ -488,6 +489,7 @@ ufopaedia:
     requires:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
+    image_id: DRONE_SCANNER.SPK
     text: STR_DRONE_SCANNER_UFOPEDIA
     weapon: STR_DRONE_SCANNER_WEAPON
     listOrder: 2851
@@ -500,6 +502,7 @@ ufopaedia:
     requires:
       - STR_SUPPORT_DRONES
       - STR_MEDI_KIT
+    image_id: DRONE_MEDIKIT.SPK
     text: STR_DRONE_MEDIKIT_UFOPEDIA
     weapon: STR_DRONE_MEDIKIT_WEAPON
     listOrder: 2852
@@ -512,6 +515,7 @@ ufopaedia:
     requires:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
+    image_id: DRONE_TASER.SPK
     text: STR_DRONE_TASER_UFOPEDIA
     weapon: STR_DRONE_TASER_WEAPON
     listOrder: 2853
@@ -519,11 +523,11 @@ ufopaedia:
 
 #BEGIN ALLOY DRONE SMOKE WEAPON
   - id: STR_ALLOY_DRONE_SMOKE_WEAPON
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_SUPPORT_DRONES
       - STR_ALLOY_DRONE_ARMOR
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
     text: STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA
     listOrder: 2854
 #END DRONE SMOKE WEAPON
@@ -535,6 +539,7 @@ ufopaedia:
       - STR_ALLOY_DRONE_ARMOR
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
+    image_id: ALLOY_DRONE_SCOUT.SPK
     text: STR_ALLOY_DRONE_SCOUT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_SMOKE_WEAPON
     listOrder: 2855
@@ -548,6 +553,7 @@ ufopaedia:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
+    image_id: ALLOY_DRONE_SCANNER.SPK
     text: STR_ALLOY_DRONE_SCANNER_UFOPEDIA
     weapon: STR_ALLOY_DRONE_SCANNER_WEAPON
     listOrder: 2856
@@ -561,6 +567,7 @@ ufopaedia:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_MEDI_KIT
+    image_id: ALLOY_DRONE_MEDIKIT.SPK
     text: STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_MEDIKIT_WEAPON
     listOrder: 2857
@@ -574,6 +581,7 @@ ufopaedia:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_ADVANCED_MEDI_KIT
+    image_id: ALLOY_DRONE_ADVANCED_MEDIKIT.SPK
     text: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON
     listOrder: 2858
@@ -587,6 +595,7 @@ ufopaedia:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
+    image_id: ALLOY_DRONE_TASER.SPK
     text: STR_ALLOY_DRONE_TASER_UFOPEDIA
     weapon: STR_ALLOY_DRONE_TASER_WEAPON
     listOrder: 2859
@@ -594,22 +603,23 @@ ufopaedia:
 
 #BEGIN HOVERDRONE SMOKE WEAPON
   - id: STR_HOVERDRONE_SMOKE_WEAPON
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_SUPPORT_DRONES
       - STR_HOVERDRONE_ARMOR
-    type_id: 4
-    section: STR_ALIEN_ARTIFACTS
     text: STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA
     listOrder: 2860
 #END DRONE SMOKE WEAPON
 
 #BEGIN HOVERDRONE SCOUT UFOPAEDIA
   - id: STR_HOVERDRONE_SCOUT
+    type_id: 3
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_SUPPORT_DRONES
       - STR_HOVERDRONE_ARMOR
-    type_id: 3
-    section: STR_ALIEN_ARTIFACTS
+    image_id: HOVERDRONE_SCOUT.SPK
     text: STR_HOVERDRONE_SCOUT_UFOPEDIA
     weapon: STR_HOVERDRONE_SMOKE_WEAPON
     listOrder: 2861
@@ -623,6 +633,7 @@ ufopaedia:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
+    image_id: HOVERDRONE_SCANNER.SPK
     text: STR_HOVERDRONE_SCANNER_UFOPEDIA
     weapon: STR_HOVERDRONE_SCANNER_WEAPON
     listOrder: 2862
@@ -636,6 +647,7 @@ ufopaedia:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_ADVANCED_MEDI_KIT
+    image_id: HOVERDRONE_ADVANCED_MEDIKIT.SPK
     text: STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA
     weapon: STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON
     listOrder: 2863
@@ -649,6 +661,7 @@ ufopaedia:
       - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
+    image_id: HOVERDRONE_TASER.SPK
     text: STR_HOVERDRONE_TASER_UFOPEDIA
     weapon: STR_HOVERDRONE_TASER_WEAPON
     listOrder: 2864
@@ -665,37 +678,41 @@ ufopaedia:
 #BEGIN TANK CANNON UFOPAEDIA
   - id: STR_TANK_CANNON
     section: STR_ALIEN_ARTIFACTS
+    image_id: TANK_CANNON.SPK
     listOrder: 3000
 #END TANK CANNON UFOPAEDIA
 
 #BEGIN TANK ROCKET UFOPAEDIA
   - id: STR_TANK_ROCKET_LAUNCHER
     section: STR_ALIEN_ARTIFACTS
+    image_id: TANK_ROCKET_LAUNCHER.SPK
     listOrder: 3100
 #END TANK ROCKET UFOPAEDIA
 
 #BEGIN TANK LASER UFOPAEDIA
   - id: STR_TANK_LASER_CANNON
     section: STR_ALIEN_ARTIFACTS
+    image_id: TANK_LASER.SPK
     listOrder: 3200
 #END TANK LASER UFOPAEDIA
 
 #BEGIN ALLOY TANK SMOKE WEAPON
   - id: STR_ALLOY_TANK_SMOKE_WEAPON
-    requires:
-      - STR_ALLOY_TANK_ARMOR
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALLOY_TANK_ARMOR
     text: STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA
     listOrder: 3201
 #END ALLOY TANK SMOKE WEAPON
 
 #BEGIN ALLOY TANK CANNON UFOPAEDIA
   - id: STR_ALLOY_TANK_CANNON
-    requires:
-      - STR_ALLOY_TANK_ARMOR
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    image_id: ALLOYTANK_CANNON.SPK
     weapon: STR_CANNON
     text: STR_ALLOY_TANK_CANNON_UFOPEDIA
     listOrder: 3202
@@ -703,10 +720,11 @@ ufopaedia:
 
 #BEGIN ALLOY TANK ROCKET UFOPAEDIA
   - id: STR_ALLOY_TANK_ROCKET_LAUNCHER
-    requires:
-      - STR_ALLOY_TANK_ARMOR
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    image_id: ALLOYTANK_ROCKET_LAUNCHER.SPK
     weapon: STR_ROCKET_LAUNCHER
     text: STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA
     listOrder: 3203
@@ -714,11 +732,12 @@ ufopaedia:
 
 #BEGIN ALLOY TANK LASER UFOPAEDIA
   - id: STR_ALLOY_TANK_LASER_CANNON
+    type_id: 3
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_LASER_CANNON
       - STR_ALLOY_TANK_ARMOR
-    type_id: 3
-    section: STR_ALIEN_ARTIFACTS
+    image_id: ALLOYTANK_LASER.SPK
     weapon: STR_LASER_CANNON
     text: STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA
     listOrder: 3204
@@ -738,10 +757,11 @@ ufopaedia:
   - id: STR_HOVERTANK_LASER
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
-    weapon: STR_LASER_CANNON
     requires:
       - STR_LASER_CANNON
       - STR_HOVERTANK
+    image_id: HOVERTANK_LASER.SPK
+    weapon: STR_LASER_CANNON
     text: STR_HOVERTANK_LASER_UFOPEDIA
     listOrder: 3299
 #END HOVERTANK LASER UFOPAEDIA
@@ -752,6 +772,7 @@ ufopaedia:
     requires:
       - STR_PLASMA_CANNON
       - STR_HOVERTANK
+    image_id: HOVERTANK_PLASMA.SPK
     listOrder: 3300
 #END HOVERTANK PLASMA UFOPAEDIA
 
@@ -759,10 +780,11 @@ ufopaedia:
   - id: STR_HOVERTANK_EBOMB
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
-    weapon: STR_HWP_EBOMB_LAUNCHER
     requires:
       - STR_HOVERTANK
       - STR_HWP_EBOMB_LAUNCHER
+    image_id: HOVERTANK_LAUNCHER.SPK
+    weapon: STR_HWP_EBOMB_LAUNCHER
     text: STR_HOVERTANK_EBOMB_UFOPEDIA
     listOrder: 3301
 #END HOVERTANK EBOMB UFOPAEDIA
@@ -773,15 +795,16 @@ ufopaedia:
     requires:
       - STR_FUSION_MISSILE
       - STR_HOVERTANK
+    image_id: HOVERTANK_LAUNCHER.SPK
     listOrder: 3400
 #END HOVERTANK LAUNCHER UFOPAEDIA
 
 #BEGIN WALKERTANK SMOKE WEAPON
   - id: STR_WALKERTANK_SMOKE_WEAPON
-    requires:
-      - STR_WALKERTANK
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_WALKERTANK
     text: STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA
     listOrder: 3401
 #END WALKERTANK SMOKE WEAPON
@@ -790,12 +813,13 @@ ufopaedia:
   - id: STR_WALKERTANK_LASER
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
-    weapon: STR_LASER_CANNON
     requires:
       - STR_LASER_CANNON
       - STR_WALKERTANK
       - STR_SECTOPOD_CORPSE
       - STR_SECTOPOD_TERRORIST
+    image_id: WALKERTANK_LASER.SPK
+    weapon: STR_LASER_CANNON
     text: STR_WALKERTANK_LASER_UFOPEDIA
     listOrder: 3401
 #END WALKERTANK PLASMA UFOPAEDIA
@@ -804,12 +828,13 @@ ufopaedia:
   - id: STR_WALKERTANK_PLASMA
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
-    weapon: STR_PLASMA_BEAM
     requires:
       - STR_PLASMA_CANNON
       - STR_WALKERTANK
       - STR_ARMORED_SECTOPOD_CORPSE
       - STR_ARMORED_SECTOPOD_TERRORIST
+    image_id: WALKERTANK_PLASMA.SPK
+    weapon: STR_PLASMA_BEAM
     text: STR_WALKERTANK_PLASMA_UFOPEDIA
     listOrder: 3402
 #END WALKERTANK PLASMA UFOPAEDIA

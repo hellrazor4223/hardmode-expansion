@@ -755,6 +755,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/Drones/DroneScout/SpriteSheet_DroneScout.png
+  - type: DRONE_SCOUT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneScout/UfoPaedia_DroneScout.png
 #END DRONE SCOUT
 
 #BEGIN DRONE SCANNER
@@ -765,6 +771,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/Drones/DroneScanner/SpriteSheet_DroneScanner.png
+  - type: DRONE_SCANNER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneScanner/UfoPaedia_DroneScanner.png
 #END DRONE SCANNER
 
 #BEGIN DRONE MEDIKIT
@@ -775,6 +787,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/Drones/DroneMedikit/SpriteSheet_DroneMedikit.png
+  - type: DRONE_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneMedikit/UfoPaedia_DroneMedikit.png
 #END DRONE MEDIKIT
 
 #BEGIN DRONE TASER
@@ -785,6 +803,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/Drones/DroneTaser/SpriteSheet_DroneTaser.png
+  - type: DRONE_TASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneTaser/UfoPaedia_DroneTaser.png
 #END DRONE TASER
 
 #BEGIN ALLOY DRONE SCOUT
@@ -795,6 +819,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
+  - type: ALLOY_DRONE_SCOUT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/UfoPaedia_AlloyDroneScout.png
 #END ALLOY DRONE SCOUT
 
 #BEGIN ALLOY DRONE SCANNER
@@ -805,6 +835,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
+  - type: ALLOY_DRONE_SCANNER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/UfoPaedia_AlloyDroneScanner.png
 #END ALLOY DRONE SANNER
 
 #BEGIN ALLOY DRONE MEDIKIT
@@ -815,6 +851,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
+  - type: ALLOY_DRONE_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/UfoPaedia_AlloyDroneMedikit.png
 #END ALLOY DRONE MEDIKIT
 
 #BEGIN ALLOY DRONE ADVANCED MEDIKIT
@@ -825,6 +867,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/SpriteSheet_AlloyDroneAdvancedMedikit.png
+  - type: ALLOY_DRONE_ADVANCED_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/UfoPaedia_AlloyDroneAdvancedMedikit.png
 #END ALLOY DRONE ADVANCED MEDIKIT
 
 #BEGIN ALLOY DRONE TASER
@@ -835,6 +883,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
+  - type: ALLOY_DRONE_TASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/UfoPaedia_AlloyDroneTaser.png
 #END ALLOY DRONE TASER
 
 #BEGIN HOVERDRONE SCOUT
@@ -845,6 +899,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/HoverDrones/HoverDroneScout/SpriteSheet_HoverDroneScout.png
+  - type: HOVERDRONE_SCOUT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneScout/UfoPaedia_HoverDroneScout.png
 #END HOVERDRONE SCOUT
 
 #BEGIN HOVERDRONE SCANNER
@@ -855,6 +915,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/HoverDrones/HoverDroneScanner/SpriteSheet_HoverDroneScanner.png
+  - type: HOVERDRONE_SCANNER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneScanner/UfoPaedia_HoverDroneScanner.png
 #END HOVERDRONE SANNER
 
 #BEGIN HOVERDRONE ADVANCED MEDIKIT
@@ -865,6 +931,12 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/HoverDrones/HoverDroneAdvancedMedikit/SpriteSheet_HoverDroneAdvancedMedikit.png
+  - type: HOVERDRONE_ADVANCED_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneAdvancedMedikit/UfoPaedia_HoverDroneAdvancedMedikit.png
 #END HOVERDRONE ADVANCED MEDIKIT
 
 #BEGIN HOVERDRONE TASER
@@ -875,10 +947,37 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/HoverDrones/HoverDroneTaser/SpriteSheet_HoverDroneTaser.png
+  - type: HOVERDRONE_TASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneTaser/UfoPaedia_HoverDroneTaser.png
 #END HOVERDRONE TASER
 ##END DRONES
 
 ##BEGIN TANKS
+#BEGIN TANKS
+  - type: TANK_CANNON.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Tanks/Tank_Canon/UfoPaedia_Tank_Cannon.png
+  - type: TANK_ROCKET_LAUNCHER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Tanks/Tank_RocketLauncher/UfoPaedia_Tank_RocketLauncher.png
+  - type: TANK_LASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Tanks/Tank_Laser/UfoPaedia_Tank_Laser.png
+#END TANKS
+
 #BEGIN ALLOY TANKS
   - type: ALLOYTANKS.PCK
     width: 256
@@ -887,9 +986,27 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/AlloyTanks/SpriteSheet_AlloyTanks.png
+  - type: ALLOYTANK_CANNON.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Canon/UfoPaedia_AlloyTank_Cannon.png
+  - type: ALLOYTANK_ROCKET_LAUNCHER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_RocketLauncher/UfoPaedia_AlloyTank_RocketLauncher.png
+  - type: ALLOYTANK_LASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Laser/UfoPaedia_AlloyTank_Laser.png
 #END ALLOY TANKS
 
-#BEGIN HOVERTANK LASER
+#BEGIN HOVERTANKS
   - type: HOVERTANK_LASER.PCK
     width: 256
     height: 640
@@ -897,9 +1014,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/HoverTanks/HoverTank_Laser/SpriteSheet_HoverTank_Laser.png
-#END HOVERTANK LASER
-
-#BEGIN HOVERTANK PLASMA
   - type: HOVERTANK_PLASMA.PCK
     width: 256
     height: 640
@@ -907,9 +1021,27 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/HoverTanks/HoverTank_Plasma/SpriteSheet_HoverTank_Plasma.png
-#END HOVERTANK PLASMA
+  - type: HOVERTANK_LASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverTanks/HoverTank_Laser/UfoPaedia_Hovertank_Laser.png
+  - type: HOVERTANK_PLASMA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverTanks/HoverTank_Plasma/UfoPaedia_Hovertank_Plasma.png
+  - type: HOVERTANK_LAUNCHER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverTanks/HoverTank_Launcher/UfoPaedia_Hovertank_Launcher.png
+#END HOVERTANKS
 
-#BEGIN WALKTERTANK LASER
+#BEGIN WALKTERTANKS
   - type: WALKERTANK_LASER.PCK
     width: 256
     height: 840
@@ -917,9 +1049,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/WalkerTanks/WalkerTank_Laser/SpriteSheet_WalkerTank_Laser.png
-#END WALKERTANK LASER
-
-#BEGIN WALKTERTANK PLASMA
   - type: WALKERTANK_PLASMA.PCK
     width: 256
     height: 840
@@ -927,7 +1056,19 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Xcom/WalkerTanks/WalkerTank_Plasma/SpriteSheet_WalkerTank_Plasma.png
-#END WALKERTANK PLASMA
+  - type: WALKERTANK_LASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/WalkerTanks/WalkerTank_Laser/UfoPaedia_Walkertank_Laser.png
+  - type: WALKERTANK_PLASMA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/WalkerTanks/WalkerTank_Plasma/UfoPaedia_Walkertank_Plasma.png
+#END WALKERTANKS
 ##END TANKS
 
 ##BEGIN ALIENS
@@ -2156,7 +2297,145 @@ extraSprites:
       0: Resources/Crafts/Ufos/UFO_Labship.png
 ##END UFOS
 
-##BEGIN UI QOL
+##BEGIN BATTLESCAPE INTERFACE
+#BEGIN STATUS INDICATORS
+  - type: BigStunIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_StunIndicator.png
+  - type: FloorStunIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_StunIndicator.png
+  - type: BigBurnIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_BurnIndicator.png
+  - type: FloorBurnIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_BurnIndicator.png
+  - type: BigWoundIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_WoundIndicator.png
+  - type: FloorWoundIndicator #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_WoundIndicator.png
+#END STATUS INDICATORS
+
+#BEGIN CONTROL BUTTONS
+  - type: oxceLinks #Hardcoded
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_oxceLinksButton.png
+  - type: oxceLinksInv #Hardcoded
+    width: 23
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_oxceLinksInvButton.png
+  - type: TFTDReserve #Hardcoded
+    width: 59
+    height: 24
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_TimeunitReserve.png
+  - type: KneelButton #Hardcoded
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_KneelButton.png
+  - type: AvatarBackground #Hardcoded
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_AvatarBackground.png
+  - type: TinyRanks #Hardcoded
+    width: 42
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_TinyRanks.png
+  - type: InvCopy #Hardcoded
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_InvCopyButton.png
+  - type: InvCopyActive #Hardcoded
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_InvCopyActiveButton.png
+  - type: InvPaste #Hardcoded
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_InvPasteButton.png
+  - type: InvPasteEmpty #Hardcoded
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_InvPasteEmptyButton.png
+  - type: ICONS.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_ControlButtons.png
+  - type: TAC01.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_InvTacButtons.png
+  - type: SPICONS.DAT
+    width: 64
+    height: 24
+    subX: 32
+    subY: 24
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_SpecialWeaponIcons.png
+#END CONTROL BUTTONS
+
+#BEGIN BORD BACKGROUNDS
+  - type: DETBORD.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_MotionscannerBord.png
+  - type: MEDIBORD.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_MedikitBord.png
+  - type: SCANBORD.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_MapBord.png
+  - type: UNIBORD.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_UnitBord.png
+#END BORD BACKGROUNDS
+##END BATTLESCAPE INTERFACE
+
+##BEGIN GEOGRAPH INTERFACE
 #BEGIN DAYNIGHT INDICATOR
   - type: DayNightIndicator #Hardcoded
     width: 72
@@ -2164,58 +2443,8 @@ extraSprites:
     subX: 24
     subY: 24
     files:
-      0: Resources/UI/QOL/DayNightIndicator.png
+      0: Resources/UI/Geograph/Sprite_GeographInterface_DayNightIndicator.png
 #END DAYNIGHT INDICATOR
-
-#BEGIN STUN INDICATOR
-  - type: BigStunIndicator #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/StunIndicator.png
-  - type: FloorStunIndicator #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/StunIndicator.png
-#END STUN INDICATOR
-
-#BEGIN BURN INDICATOR
-  - type: BigBurnIndicator #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/BurnIndicator.png
-  - type: FloorBurnIndicator #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/BurnIndicator.png
-#END BURN INDICATOR
-
-#BEGIN WOUND INDICATOR
-  - type: BigWoundIndicator #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/WoundIndicator.png
-  - type: FloorBurnIndicator #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/WoundIndicator.png
-#END WOUND INDICATOR
-
-#BEGIN AVATAR BACKGROUND
-  - type: AvatarBackground #Hardcoded
-    singleImage: true
-    files:
-      0: Resources/UI/QOL/AvatarBackground.png
-#END AVATAR BACKGROUND
-
-#BEGIN TINY RANKS
-  - type: TinyRanks #Hardcoded
-    width: 42
-    height: 7
-    subX: 7
-    subY: 7
-    files:
-      0: Resources/UI/QOL/TinyRanks.png
-#END TINY RANKS
 
 #BEGIN CUSTOM ARMOR PREVIEW
   - type: CustomArmorPreviews #Hardcoded
@@ -2224,7 +2453,7 @@ extraSprites:
     subX: 12
     subY: 20
     files:
-      0: Resources/UI/QOL/CustomArmorPreviews_HM.png
+      0: Resources/UI/Geograph/Sprite_GeographInterface_CustomArmorPreviews.png
 #END CUSTOM ARMOR PREVIEW
 
 #BEGIN CUSTOM ITEM PREVIEW
@@ -2234,472 +2463,535 @@ extraSprites:
     subX: 12
     subY: 20
     files:
-      0: Resources/UI/QOL/CustomItemPreviews_HM.png
+      0: Resources/UI/Geograph/Sprite_GeographInterface_CustomItemPreviews.png
 #END CUSTOM ITEM PREVIEW
+
+#BEGIN BORD BACKGROUNDS
+  - type: GEOBORD.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_Geobord.png
+  - type: GRAPHS.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_Geographbord.png
+  - type: INTERWIN.DAT
+    width: 160
+    height: 96
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_Interceptionbord.png
+  - type: BACK06.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_BaseSoldierStat_06.png
+  - type: BACK07.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_BaseInformation_07.png
+  - type: BACK08.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaWeaponsEquipment_08.png
+  - type: BACK09.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaFacilities_09.png
+  - type: BACK10.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaHWPAlienresearch_10.png
+  - type: BACK11.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaCrafts_11.png
+  - type: BACK15.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaCrafts_11.png
+#END BORD BACKGROUNDS
 
 #BEGIN SOLDIER COUNTRY FLAGS
   - type: Flag0
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Albania.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Albania.png
   - type: Flag1
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Algeria.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Algeria.png
   - type: Flag2
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Angola.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Angola.png
   - type: Flag3
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Argentina.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Argentina.png
   - type: Flag4
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Armenia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Armenia.png
   - type: Flag5
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Australia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Australia.png
   - type: Flag6
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Austria.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Austria.png
   - type: Flag7
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Azerbaijan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Azerbaijan.png
   - type: Flag8
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Bahrain.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Bahrain.png
   - type: Flag9
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Bangladesh.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Bangladesh.png
   - type: Flag10
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Belarus.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Belarus.png
   - type: Flag11
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Belgium.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Belgium.png
   - type: Flag12
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Bolivia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Bolivia.png
   - type: Flag13
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Bosnia_and_Hezergovina.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Bosnia_and_Hezergovina.png
   - type: Flag14
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Botswana.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Botswana.png
   - type: Flag15
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Brazil.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Brazil.png
   - type: Flag16
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Bulgaria.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Bulgaria.png
   - type: Flag17
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Burma.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Burma.png
   - type: Flag18
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Cameroon.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Cameroon.png
   - type: Flag19
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Canada.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Canada.png
   - type: Flag20
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Chad.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Chad.png
   - type: Flag21
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Chile.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Chile.png
   - type: Flag22
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_China.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_China.png
   - type: Flag23
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Colombia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Colombia.png
   - type: Flag24
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Congo.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Congo.png
   - type: Flag25
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Croatia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Croatia.png
   - type: Flag26
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Cuba.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Cuba.png
   - type: Flag27
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Czechia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Czechia.png
   - type: Flag28
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Denmark.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Denmark.png
   - type: Flag29
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Ecuador.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Ecuador.png
   - type: Flag30
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Egypt.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Egypt.png
   - type: Flag31
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_El_Salvador.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_El_Salvador.png
   - type: Flag32
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Estonia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Estonia.png
   - type: Flag33
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Ethiopia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Ethiopia.png
   - type: Flag34
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Faroe_Islands.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Faroe_Islands.png
   - type: Flag35
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Finland.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Finland.png
   - type: Flag36
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_France.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_France.png
   - type: Flag37
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Georgia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Georgia.png
   - type: Flag38
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Germany.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Germany.png
   - type: Flag39
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Ghana.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Ghana.png
   - type: Flag40
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Greece.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Greece.png
   - type: Flag41
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Guatemala.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Guatemala.png
   - type: Flag42
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Honduras.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Honduras.png
   - type: Flag43
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Hungary.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Hungary.png
   - type: Flag44
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Iceland.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Iceland.png
   - type: Flag45
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_India.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_India.png
   - type: Flag46
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Indonesia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Indonesia.png
   - type: Flag47
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Iran.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Iran.png
   - type: Flag48
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Iraq.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Iraq.png
   - type: Flag49
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Ireland.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Ireland.png
   - type: Flag50
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Israel.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Israel.png
   - type: Flag51
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Italy.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Italy.png
   - type: Flag52
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Ivory_Coast.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Ivory_Coast.png
   - type: Flag53
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Japan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Japan.png
   - type: Flag54
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Jordan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Jordan.png
   - type: Flag55
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Kazakhstan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Kazakhstan.png
   - type: Flag56
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Kenya.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Kenya.png
   - type: Flag57
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Kuwait.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Kuwait.png
   - type: Flag58
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Kyrgyzstan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Kyrgyzstan.png
   - type: Flag59
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Latvia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Latvia.png
   - type: Flag60
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Libya.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Libya.png
   - type: Flag61
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Lithuania.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Lithuania.png
   - type: Flag62
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Malaysia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Malaysia.png
   - type: Flag63
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Mali.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Mali.png
   - type: Flag64
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Mexico.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Mexico.png
   - type: Flag65
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Mongolia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Mongolia.png
   - type: Flag66
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Montenegro.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Montenegro.png
   - type: Flag67
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Morocco.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Morocco.png
   - type: Flag68
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Mozambique.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Mozambique.png
   - type: Flag69
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Netherlands.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Netherlands.png
   - type: Flag70
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_New_Zealand.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_New_Zealand.png
   - type: Flag71
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Nicaragua.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Nicaragua.png
   - type: Flag72
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Niger.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Niger.png
   - type: Flag73
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Nigeria.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Nigeria.png
   - type: Flag74
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_North_Macedonia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_North_Macedonia.png
   - type: Flag75
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Norway.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Norway.png
   - type: Flag76
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Pakistan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Pakistan.png
   - type: Flag77
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Panama.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Panama.png
   - type: Flag78
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Paraguay.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Paraguay.png
   - type: Flag79
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Peru.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Peru.png
   - type: Flag80
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Philippines.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Philippines.png
   - type: Flag81
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Poland.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Poland.png
   - type: Flag82
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Portugal.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Portugal.png
   - type: Flag83
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Qatar.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Qatar.png
   - type: Flag84
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Romania.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Romania.png
   - type: Flag85
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Russia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Russia.png
   - type: Flag86
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Saudi_Arabia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Saudi_Arabia.png
   - type: Flag87
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Senegal.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Senegal.png
   - type: Flag88
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Serbia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Serbia.png
   - type: Flag89
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Singapur.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Singapur.png
   - type: Flag90
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Slovakia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Slovakia.png
   - type: Flag91
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Slovenia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Slovenia.png
   - type: Flag92
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_South_Africa.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_South_Africa.png
   - type: Flag93
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_South_Korea.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_South_Korea.png
   - type: Flag94
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Spain.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Spain.png
   - type: Flag95
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Sudan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Sudan.png
   - type: Flag96
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Sweden.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Sweden.png
   - type: Flag97
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Switzerland.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Switzerland.png
   - type: Flag98
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Syria.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Syria.png
   - type: Flag99
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Taiwan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Taiwan.png
   - type: Flag100
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Tajikistan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Tajikistan.png
   - type: Flag101
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Tanzania.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Tanzania.png
   - type: Flag102
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Thailand.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Thailand.png
   - type: Flag103
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Tunisia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Tunisia.png
   - type: Flag104
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Turkey.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Turkey.png
   - type: Flag105
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Uganda.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Uganda.png
   - type: Flag106
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Ukraine.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Ukraine.png
   - type: Flag107
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_United_Arab_Emirates.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_United_Arab_Emirates.png
   - type: Flag108
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_United_Kingdom.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_United_Kingdom.png
   - type: Flag109
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_United_States.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_United_States.png
   - type: Flag110
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Uruguay.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Uruguay.png
   - type: Flag111
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Uzbekistan.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Uzbekistan.png
   - type: Flag112
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Venezuela.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Venezuela.png
   - type: Flag113
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Vietnam.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Vietnam.png
   - type: Flag114
     singleImage: true
     files:
-      0: Resources/UI/QOL/SoldierCountryFlags/SoldierCountryFlag_Zambia.png
+      0: Resources/UI/Soldiers/SoldierCountryFlags/SoldierCountryFlag_Zambia.png
 #END SOLDIER COUNTRY FLAGS
-##END UI QOL
+##END GEOGRAPH INTERFACE
 
 ##BEGIN COMMENDATIONS
   - type: Commendations #Hardcoded

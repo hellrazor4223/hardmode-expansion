@@ -127,6 +127,8 @@ Quality of Live OXCE UI changes:
 	SoldierKneelingIndicator (Battlescape UI)
 	Improved TU Reserve Sprites (Battlescape UI)
 	Better Smoke Animation (Battlescape UI)
+	Better looking Buttons for Inventory (Battlescape UI)
+	Better Backgrounds for some Screen (Geograph and Battlescape UI)
 	New Plasma Hit Animation for Heavy Plasma (Battlescape UI)
 	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
 	SoldierCountryNames and SoldierCountryFlags from 115 Countries
