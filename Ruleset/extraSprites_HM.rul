@@ -2526,7 +2526,7 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaCrafts_11.png
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UFOSiteRadarHyperwave_15.png
 #END BORD BACKGROUNDS
 
 #BEGIN SOLDIER COUNTRY FLAGS
