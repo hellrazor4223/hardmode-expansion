@@ -3,5 +3,8 @@ costEngineer: 37500
 costScientist: 45000
 alienFuel: [STR_ELERIUM_115, 25]
 allowCountriesToCancelAlienPact: true
+buildInfiltrationBaseCloseToTheCountry: true
+lessAliensDuringBaseDefense: true
 extraNerdyPediaInfo: true
+alienInventoryOffsetBigUnit: 0
 ###END VARS

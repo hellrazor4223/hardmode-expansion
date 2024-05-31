@@ -193,7 +193,7 @@ Credits go to:
 	cevaralien:
 		- for the final version of the commendation sprite
 	Xross:
-		- for the Tank Inventorypictures from his XCOM1 Visual Upgrade mod
+		- for the XCOM1 Visual Upgrade mod, I ripped some assets from
 
 	All translaters on the TRANSIFEX project (you guys are awesome)
 

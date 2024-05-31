@@ -10,6 +10,7 @@ Version 0.99.9.5
  - Fix Position of Magadan City
  - Fix Missing BT_PSIAMP for Psi Panic and Mind Control Commendations
  - Fix Background for some Drone/AlloyDrones Sprites
+ - Fix not working Cancel on Infiltration and Base building Alien Base
  - Adjust all Shotguns to behave like proper Ones
  - Add Fire Extinguisher Item
  - Add Armed Civilian to Terrorsites

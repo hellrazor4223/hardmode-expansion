@@ -209,7 +209,7 @@ alienMissions:
       - ufo: dummy #don't spawn a ufo, we only want the missionsite/alien base
         count: 1
         trajectory: P11
-        timer: 360
+        timer: 2880
         objective: true
         objectiveOnTheLandingSite: true
 #END ALIEN INFILTRATION
@@ -620,7 +620,7 @@ alienMissions:
       - ufo: dummy #don't spawn a ufo, we only want the missionsite/alien base
         count: 1
         trajectory: P11
-        timer: 360
+        timer: 2880
         objective: true
         objectiveOnTheLandingSite: true
 #END ALIEN BASE BASE MISSION

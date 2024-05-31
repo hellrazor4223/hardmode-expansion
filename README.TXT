@@ -128,7 +128,7 @@ Quality of Live OXCE UI changes:
 	Improved TU Reserve Sprites (Battlescape UI)
 	Better Smoke Animation (Battlescape UI)
 	Better looking Buttons for Inventory (Battlescape UI)
-	Better Backgrounds for some Screen (Geograph and Battlescape UI)
+	Better Backgrounds for some Screens (Geograph and Battlescape UI)
 	New Plasma Hit Animation for Heavy Plasma (Battlescape UI)
 	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
 	SoldierCountryNames and SoldierCountryFlags from 115 Countries
@@ -168,10 +168,11 @@ General Gameplay changes:
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
-	Attacking landed Battleship performing a Infiltrationmission gives 50% to deny the infiltration (OXCE only)
+	Attacking landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only)
 	Attacking landed Battleship performing a Alien Base Mission from a Alien Base gives 33% to deny the mission success (OXCE only)
 	Attacking landed Labship on a Harvesting or Abduction Mission gives 33% to deny mission success (OXCE only)
 	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
+	X-Com Base Defense damageging a Alien Battelship during a base attack will result in less Aliens spawning (roughly according with the damage done)
 	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only)
 
 Economic:
@@ -182,7 +183,7 @@ Economic:
 	X-Com Soldiers receive 10% more salary per rank compared to rookie wage:
 		- Squaddi:   33.000
 		- Sergent:   36.000
-        - Captain:   39.000
+		- Captain:   39.000
 		- Colonel:   42.000
 		- Commander: 45.000
 	X-Com Armors and Crafts are a lot more expensive to produce

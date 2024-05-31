@@ -2408,6 +2408,12 @@ extraSprites:
 #END CONTROL BUTTONS
 
 #BEGIN BORD BACKGROUNDS
+  - type: AlienInventory #Hardcoded
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UI/Battlecape/Sprite_BattlescapeInterface_AlienInventory.png
   - type: DETBORD.PCK
     width: 320
     height: 200
