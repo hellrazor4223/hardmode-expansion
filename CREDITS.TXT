@@ -194,6 +194,8 @@ Credits go to:
 		- for the final version of the commendation sprite
 	Xross:
 		- for the XCOM1 Visual Upgrade mod, I ripped some assets from
+	noblebright:
+		- for supporting me with a Wiki: https://hardmode-expansion.trigramreactor.net/master (Big Thanks Dude!)
 
 	All translaters on the TRANSIFEX project (you guys are awesome)
 

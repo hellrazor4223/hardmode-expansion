@@ -3,9 +3,13 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v7.11 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v7.12 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
+
+Wiki Links:
+https://hardmode-expansion.trigramreactor.net/master
+https://www.ufopaedia.org/index.php?title=Hardmode_Expansion
 
 README for Version 0.99.9.5
 ##################################################
@@ -20,45 +24,54 @@ When designing this Mod, I decided to stick on the core Vanilla Original Game Pr
 offers a much better Research Tree, a Economy were you need money desperately, where you will face difficult decisions and set backs during your campaign.
 All this has been enriched with a lot of additional Weapons and Tanks, which all have a unique use case.
 Enemies, which will give a Nightmare during your dreams (at least I hope so, *grin*).
-Its a LONG war to free earth (ingame time: 14-16 Months). So are you ready for the ride?
+Its a LONG war to free earth (ingame time: 15-17+ Months). So are you ready for the ride?
 
-This mod intends to make the gameplay more challenging and deals with
-most of vanilla versions flaws, like overpowered Psi and early Plasma ownage.
+This mod intends to make the gameplay more challenging and deals with most of vanilla versions flaws, like overpowered Psi and early Plasma ownage.
+
 It sticks strongly towards the vanilla core components and builts upon them.
-It is aimed at experienced X-Com players, who know the game well and are
-not afraid of a difficulty higher then Superhuman. The Aliens have more
-variants and your weapons will slowly become obsolete due to them.
-Research progress is a must, but comes at costs.
 
-For playing you should choose difficulty Superhuman, since the mod is balanced 
-to be played on Superhuman difficulty, otherwise you wouldn't have the full experience.
+It is aimed at experienced X-Com players, who know the game well and are not afraid of a difficulty higher then Superhuman.
+The Aliens have more variants and your weapons will slowly become obsolete due to them.
+Research progress is 
+a must, but comes at costs.
+
+For playing you should choose difficulty Superhuman, since the mod is balanced around it.
 The difficulty will be actually far higher then Superhuman, considering mainly the changes in economy and research.
 Technologies will need alive aliens captures to unlock and will trigger additional mission.
-Research takes longer and you do not have access to a alien
-containment from the beginning. It is recommend to get between 200-250
-scientists by November. Otherwise the game becomes extremly difficult.
+Research takes longer and you do not have access to a alien containment from the beginning. 
 
-The vanilla game always lacked proper weaponry sets including melee weapons, shotguns, sniper rifles. All of these have been added for the ballistic and laser weaponry for X-Com and the Alien plasma weapons.
-A extended set of additional grenades and small launcher ammo together with added grenade launcher gives very good indirect fire possibilities. Small launcher acts as a artillery style weapon, arking shot ;).
+It is recommend to get between 200-250 scientists by November.
+Otherwise the game becomes extremly difficult.
 
-More armors, starting with ballistic vests up to reinforced power and flying suits expand the survival capabilities of your soldiers. Power armor also extends stamina and increases carry capacity.
+The vanilla game always lacked proper weaponry sets including melee weapons, shotguns, sniper rifles.
+All of these have been added for the ballistic and laser weaponry for X-Com and the Alien plasma weapons.
+A extended set of additional grenades and small launcher ammo together with added grenade launcher gives very good indirect fire possibilities.
+Small launcher acts as a artillery style weapon, arking shot ;).
 
-Have fun exploring the new drones and tanks, which will draw alien fire and help detecting targets to shot or support your wounded troops. Drones may even help with capturing alive aliens.
+More armors, starting with ballistic vests up to reinforced power and flying suits expand the survival capabilities of your soldiers.
+Power armor also extends stamina and increases carry capacity.
+
+Have fun exploring the new drones and tanks, which will draw alien fire and help detecting targets to shot or support your wounded troops.
+Drones may even help with capturing alive aliens.
 
 A large number of terrains from Hobbes terrain pack and other mods (65+ additonal terrains) have been integrated and partially overworked (bugfixes mostly).
 A extended set of maps has been added, featering turned version and additonal maps modules to make fighting within alien bases more enjoyable and tactical challenging.
+
 Aliens have a couple of more UFO types, Fighter, Sentry, Excavator and LabShip.
 Vanilla UFOs and new UFOs types all have extended set of interior maps variants (total 124 map). So enjoy exploring these.
 
 Aircombat has been balanced, UFO's especially big ones will shot your interceptors.
 A faster and much more durable interception craft has been added, also a enhanced skyranger version, with a back door.
-Swarming Terrorships with interception craft is highly recommended.
-The Laser cannon is actually useable now ;)
+Swarming Terrorships with interception craft is highly recommended. The Laser cannon is actually useable now ;)
 
 Being able to interrogate alive aliens requires you to raid a nearby Alien Base early.
-Otherwise you have no tech progress. The base is located in your starting
-region. For the time being also one of the Story Items is located in
-the alien base. Raid this base as early as possible!
+Otherwise you have no tech progress.
+The base is located in your starting region.Raid this base as early as possible!
+
+You will also need these:
+Alien Data Slate (currently located on LabShips)
+Alien Data Core (currently located on Battleships)
+
 The game can only be won by capturing and interrogating a Ethereal Commander who unlocks the final mission.
 
 However your run goes, let me know your feedback and how i can enhance the mod further.
@@ -68,8 +81,9 @@ For a real challenge play the game in Iron Man Mode!
 Please do no use the OpenXcom Iron Man option and enforce your own Iron Man Mode, its a big mod, so bugs may happen.
 
 I hope you will enjoy this collection of 60+ Mods (i stopped counting) 
-and please report any possible Bug you might find on the forum. 
-Feedback of any form is also appreciated.
+and please report any possible Bug you might find on the forum: -> https://openxcom.org/forum/index.php/topic,4968.0.html
+
+Feedback of any form is also appreciated here: -> https://openxcom.org/forum/index.php?topic=3550.0
 
 Compability to other mods:
 	This mod is intended to be a Standalone Mod.
@@ -213,7 +227,7 @@ Groundcombat changes:
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
 Storyitems:
-	Alien Data Slate (currently carried by Alien Base Commanders)
+	Alien Data Slate (currently carried by alien Leaders on LabShips)
 	Alien Data Core (currently located in Battleships)
 
 Additional Alien Weapons:

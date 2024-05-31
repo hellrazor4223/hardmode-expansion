@@ -1217,21 +1217,25 @@ alienDeployments:
             - STR_PLASMA_RIFLE_ELERIUM_CLIP
             - STR_PLASMA_RIFLE_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
+            - STR_ALIEN_DATA_SLATE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1239,6 +1243,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
             - STR_PLASMA_SWORD
+            - STR_ALIEN_DATA_SLATE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1246,6 +1251,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
             - STR_PLASMA_SWORD
+            - STR_ALIEN_DATA_SLATE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1253,6 +1259,7 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_BLASTER_BOMB
             - STR_PLASMA_SWORD
+            - STR_ALIEN_DATA_SLATE
     width: 60
     length: 60
     height: 8
@@ -1642,43 +1649,36 @@ alienDeployments:
             - STR_PLASMA_RIFLE_CLIP
             - STR_PLASMA_RIFLE_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
             - STR_HEAVY_PLASMA_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_ELERIUM_CLIP
             - STR_PLASMA_RIFLE_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
           -
             - STR_PLASMA_SNIPER_RIFLE
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
             - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
-            - STR_ALIEN_DATA_SLATE
     width: 60
     length: 60
     height: 2
