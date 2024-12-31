@@ -3,7 +3,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v7.12 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v7.15 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -11,7 +11,7 @@ Wiki Links:
 https://hardmode-expansion.trigramreactor.net/master
 https://www.ufopaedia.org/index.php?title=Hardmode_Expansion
 
-README for Version 0.99.9.5
+README for Version 0.99.9.6
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
