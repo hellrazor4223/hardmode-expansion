@@ -2,6 +2,7 @@ Changelog:
 
 Version 0.99.9.6
  - Fix Wrong Inventorysprites for Alloy Tanks
+ - Update Language files for more translations
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

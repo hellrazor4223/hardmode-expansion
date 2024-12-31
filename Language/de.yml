@@ -1,6 +1,6 @@
 de:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion{NEWLINE}UFO Defense - Long War{NEWLINE}v0.99.9.6 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.6 by hellrazor"
   STR_XCOM_CRAFT_ARMAMENT: "ANWEISUNGEN UND NEUIGKEITEN"
   STR_HEAVY_WEAPONS_PLATFORMS: "BASISEINRICHTUNGEN"
   STR_WEAPONS_AND_EQUIPMENT: "XCOM-SCHIFFE & BORDWAFFEN"
@@ -11,7 +11,9 @@ de:
   STR_UFO_COMPONENTS: "ALIENFORSCHUNG"
   STR_UFOS: "UFOS & KOMPONENTEN"
   STR_CAT_DRONE: "Unterstützungsdrohnen"
-  STR_CAT_DRONE_UPGRADE: "Unterstützungsdrohnen aufrüsten"
+  STR_CAT_DRONE_UPGRADE: ""
+  STR_CAT_ALLOYDRONE_UPGRADE: ""
+  STR_CAT_HOVERDRONE_UPGRADE: ""
   STR_CAT_DRONE_REPAIR: "Unterstützungsdrohnen reparieren"
   STR_CAT_TANK_UPGRADE: "SWTs modernisieren"
   STR_CAT_TANK_REPAIR: "SWTs reparieren"
@@ -39,9 +41,6 @@ de:
   STR_TANK_REPAIR: "SWT-Reparatur"
   STR_TANK_REPAIR_UFOPEDIA: ""
 
-  STR_SUPPORT_DRONES: "Unterstützungsdrohnen"
-  STR_SUPPORT_DRONES_UFOPEDIA: "Verglichen mit unseren ersten Designs der schweren Waffenplattformen, streben diese kleinen Roboter auf dem Schlachtfeld nach einem anderen Ziel. Aufklärung und indirekte Truppentransport. Sie haben ein schlankes Design und umfangreiche Panzerung, für ihre Grösse. Informationssammlung auf dem Schlachtfeld wird die Kampffähigkeiten unserer Truppen stark verbessern und uns helfen, die Verluste zu verringern. Unsere Ingenieure glauben auch, dass wir sie mit Scannern oder medizinischer Ausrüstung ausstatten können."
-
   STR_EXPLOSIVE_AMMO: ""
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
@@ -51,20 +50,29 @@ de:
   STR_EHE_AMMO: ""
   STR_EHE_AMMO_UFOPEDIA: ""
 
+  STR_LASER_WEAPONS: "Laserwaffen"
+  STR_LASER_WEAPONS_UFOPEDIA: ""
+
   STR_ALLOY_AIRFRAME: "Alien-Legierungs-Aussenhaut"
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
 
-  STR_ALLOY_TANK_ARMOR: ""
-  STR_ALLOY_TANK_ARMOR_UFOPEDIA: ""
+  STR_SUPPORT_DRONES: "Unterstützungsdrohnen"
+  STR_SUPPORT_DRONES_UFOPEDIA: "Verglichen mit unseren ersten Designs der schweren Waffenplattformen, streben diese kleinen Roboter auf dem Schlachtfeld nach einem anderen Ziel. Aufklärung und indirekte Truppentransport. Sie haben ein schlankes Design und umfangreiche Panzerung, für ihre Grösse. Informationssammlung auf dem Schlachtfeld wird die Kampffähigkeiten unserer Truppen stark verbessern und uns helfen, die Verluste zu verringern. Unsere Ingenieure glauben auch, dass wir sie mit Scannern oder medizinischer Ausrüstung ausstatten können."
 
   STR_ALLOY_DRONE_ARMOR: ""
   STR_ALLOY_DRONE_ARMOR_UFOPEDIA: ""
 
-  STR_LASER_WEAPONS: "Laserwaffen"
-  STR_LASER_WEAPONS_UFOPEDIA: ""
+  STR_HOVERDRONE_ARMOR: ""
+  STR_HOVERDRONE_ARMOR_UFOPEDIA: ""
+
+  STR_ALLOY_TANK_ARMOR: ""
+  STR_ALLOY_TANK_ARMOR_UFOPEDIA: ""
 
   STR_HOVERTANK: "Schwebepanzer"
   STR_HOVERTANK_UFOPEDIA: ""
+
+  STR_WALKERTANK: ""
+  STR_WALKERTANK_UFOPEDIA: ""
 #END BRIEFINGS
 
 #BEGIN NEWS
@@ -224,6 +232,10 @@ de:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Aufklärer -> Legierungs-Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_TASER: "Legierungs-Drohne/Aufklärer -> Legierungs-Betäubungswaffe"
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_SCANNER: "Legierungs-Drohne/Scanner"
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Legierungs-Drohne/Bewegungsscanner"
@@ -234,6 +246,10 @@ de:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Scanner -> Legierungs-Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_TASER: "Legierungs-Drohne/Scanner -> Legierungs-Betäubungswaffe"
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_MEDIKIT: "Legierungs-Drohne/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Legierungs-Drohne Medikit"
@@ -244,6 +260,10 @@ de:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Legierungs-Drohne/Medikit -> Legierungs-Scanner"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_TASER: "Legierungs-Drohne/Medikit -> Legierungs-Betäubungswaffe"
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
@@ -253,6 +273,10 @@ de:
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "Legierungs-Drohne/Betäubungswaffe"
   STR_ALLOY_DRONE_TASER_WEAPON: "Legierungs-Drohne Betäubungswaffe"
@@ -265,6 +289,48 @@ de:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Scanner"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT: "Legierungs-Drohne/Betäubungswaffe -> Legierungs-Medikit"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: ""
+  
+  STR_HOVERDRONE_SMOKE_WEAPON: ""
+  STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: ""
+
+  STR_HOVERDRONE_SCOUT: ""
+  STR_HOVERDRONE_SCOUT_CORPSE: ""
+  STR_HOVERDRONE_SCOUT_REPAIR: ""
+  STR_HOVERDRONE_SCOUT_UFOPEDIA: ""
+  STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: ""
+
+  STR_HOVERDRONE_SCANNER: ""
+  STR_HOVERDRONE_SCANNER_WEAPON: ""
+  STR_HOVERDRONE_SCANNER_CORPSE: ""
+  STR_HOVERDRONE_SCANNER_REPAIR: ""
+  STR_HOVERDRONE_SCANNER_UFOPEDIA: ""
+  STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_ADVANCED_MEDIKIT: ""
+  STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: ""
+
+  STR_HOVERDRONE_ADVANCED_MEDIKIT: ""
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: ""
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: ""
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: ""
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA: ""
+  STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: ""
+
+  STR_HOVERDRONE_TASER: ""
+  STR_HOVERDRONE_TASER_WEAPON: ""
+  STR_HOVERDRONE_TASER_CORPSE: ""
+  STR_HOVERDRONE_TASER_REPAIR: ""
+  STR_HOVERDRONE_TASER_UFOPEDIA: ""
+  STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_SCOUT: ""
+  STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_SCANNER: ""
+  STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: ""
 #END DRONES
 
 #BEGIN TANKS
@@ -346,7 +412,6 @@ de:
   STR_HOVERTANK_LAUNCHER_REPAIR: ""
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: ""
 
-  STR_WALKERTANK: ""
   STR_WALKERTANK_SMOKE_WEAPON: ""
   STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -481,7 +546,7 @@ de:
   STR_ELERIUM_STUN_ROD_UFOPEDIA: ""
 
   STR_FLASHBANG_GRENADE: "Blendgranate"
-  STR_FLASHBANG_GRENADE_UFOPEDIA: ""
+  STR_FLASHBANG_GRENADE_UFOPEDIA: ""  
 
   STR_INC_GRENADE: "Brandgranate"
   STR_INC_GRENADE_UFOPEDIA: "Brandgranaten sind unersetzlich um die Nacht zu erhellen und laestige Vegetation aus dem Weg zu raeumen."
@@ -495,6 +560,9 @@ de:
   STR_FIRE_GRENADE: "Feuergranate"
   STR_FIRE_GRENADE_UFOPEDIA: ""
 
+  STR_FIRE_EXTINGUISHER: "Feuerlöscher"
+  STR_FIRE_EXTINGUISHER_UFOPEDIA: ""
+
   STR_PLASMA_BLADE: "Plasma-Klinge"
   STR_PLASMA_BLADE_UFOPEDIA: ""
   STR_PLASMA_SWORD: "Plasma-Schwert"
@@ -502,12 +570,15 @@ de:
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
   STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
+  STR_PLASMA_PISTOL_MANU_UNLOCK: ""
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: ""
   STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
+  STR_PLASMA_RIFLE_MANU_UNLOCK: ""
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: ""
   STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: ""
+  STR_HEAVY_PLASMA_MANU_UNLOCK: ""
 
   STR_PLASMA_SHOTGUN: "Plasma-Schrotflinte"
   STR_PLASMA_SHOTGUN_CLIP: ""
@@ -515,6 +586,7 @@ de:
   STR_PLASMA_SHOTGUN_UFOPEDIA: ""
   STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA: ""
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP_UFOPEDIA: ""
+  STR_PLASMA_SHOTGUN_MANU_UNLOCK: ""
 
   STR_PLASMA_SNIPER_RIFLE: "Plasmascharfschützengewehr"
   STR_PLASMA_SNIPER_RIFLE_CLIP: "Plasmascharfschützengewehrmunition"
@@ -522,6 +594,7 @@ de:
   STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Das ist eine extrem  genaue und mächtige Waffe, die auf beschleunigten Teilchen aus einem Antigravitationsfeld beruht."
   STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: ""
   STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP_UFOPEDIA: ""
+  STR_PLASMA_SNIPER_RIFLE_MANU_UNLOCK: ""
 
   STR_SMALL_LAUNCHER_UFOPEDIA: ""
   STR_ELERIUM_BOMB: "Eleriumbombe"
@@ -534,7 +607,7 @@ de:
 
 #BEGIN STORY ITEMS
   STR_ALIEN_DATA_SLATE: "Außerirdischer Datenträger"
-  STR_ALIEN_DATA_SLATE_UFOPEDIA: ""
+  STR_ALIEN_DATA_SLATE_UFOPEDIA: "" 
 
   STR_ALIEN_DATA_CORE: ""
   STR_ALIEN_DATA_CORE_UFOPEDIA: ""
@@ -645,7 +718,7 @@ de:
   STR_MUTON_ELITE_GUARD_CORPSE: "Mutonen-Elite-Wache-Leiche"
   STR_MUTON_ELITE_GUARD_AUTOPSY: "Mutonen-Elite-Wache-Autopsie"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: ""
-
+  
   STR_MUTON_BERSERKER: "Muton-Berserker"
   STR_MUTON_BERSERKER_TERRORIST: "Muton-Berserker-Terrorist"
   STR_MUTON_BERSERKER_UFOPEDIA: ""
@@ -712,7 +785,7 @@ de:
   STR_LAUNCHER_WEAPONS: "Alien-Werfer-Waffen"
   STR_LAUNCHER_WEAPONS_UFOPEDIA: ""
 
-  STR_ALIEN_BIOLOGY: "Alien Biologie"
+  STR_ALIEN_BIOLOGY: "Alien Biologie"    
   STR_ALIEN_BIOLOGY_UFOPEDIA: ""
 
   STR_ALIEN_LANGUAGE: "Aliensprache"
@@ -823,7 +896,7 @@ de:
 
   STR_MEDAL_GLOBETROTTER: "Weltenbummler"
   STR_MEDAL_GLOBETROTTER_DESCRIPTION: "Für einen Soldaten, der jedes einzelne Land der Erde vor der außerirdischen Bedrohung beschützt hat."
-  STR_MEDAL_GLOBETROTTER_UFOPEDIA: "Für einen Soldaten, der jedes einzelne Land der Erde vor der außerirdischen Bedrohung beschützt hat."
+  STR_MEDAL_GLOBETROTTER_UFOPEDIA: ""
 
   STR_MEDAL_GRENADIER: "Grenadier-Medaille"
   STR_MEDAL_GRENADIER_DESCRIPTION: "Für einen Soldaten, der 3 Außerirdische auf einen Schlag mit geworfenen Sprengstoffen getötet hat."
@@ -855,7 +928,7 @@ de:
 
   STR_MEDAL_MARTYR: "Medaille für Selbstaufopferung"
   STR_MEDAL_MARTYR_DESCRIPTION: "Posthum für einen Soldaten, der nicht alleine unterging."
-  STR_MEDAL_MARTYR_UFOPEDIA: "Posthum für einen Soldaten, der nicht alleine unterging."
+  STR_MEDAL_MARTYR_UFOPEDIA: ""
 
   STR_MEDAL_MEDIKIT: "Feldchirurg"
   STR_MEDAL_MEDIKIT_DESCRIPTION: "Für einen Soldaten, der regelmäßig das Medikit auf dem Schlachtfeld einsetzte."
@@ -875,7 +948,7 @@ de:
 
   STR_MEDAL_MINDCONTROL: "Imperio"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "Für einen Soldaten, der den Geist des Feindes überwältigt hat."
-  STR_MEDAL_MINDCONTROL_UFOPEDIA: "Für einen Soldaten, der den Geist des Feindes überwältigt hat."
+  STR_MEDAL_MINDCONTROL_UFOPEDIA: ""
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Längste-Nacht-Band"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Für einen Soldaten, der die Schrecken einer nächtlichen Terrormision bezeugen kann."
@@ -895,11 +968,11 @@ de:
 
   STR_MEDAL_POSTMORTEM_KILL: "Sensenmann-Orden"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "Posthum für einen Soldaten der trotz seines Ablebens auf der Wallstatt blieb."
-  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: "Posthum für einen Soldaten der trotz seines Ablebens auf der Wallstatt blieb."
+  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: ""
 
   STR_MEDAL_PSIPANIC: "Crucio"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "Für einen Soldaten, der den Geist des Feindes brach."
-  STR_MEDAL_PSIPANIC_UFOPEDIA: "Für einen Soldaten, der den Geist des Feindes brach."
+  STR_MEDAL_PSIPANIC_UFOPEDIA: ""
 
   STR_MEDAL_REACTIONFIRE: "Belobigung für Schnelligkeit"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Für einen Soldaten, der schnelle Reflexe zeigte, Aliens tötete bevor sie zurückschlagen konnten."
@@ -914,7 +987,7 @@ de:
   STR_MEDAL_REVIVE_UFOPEDIA: " ''Nein, du stirbst nicht, wenn ich dabei bin.' sagte Doc. Gerade bevor der Heli kam, hörte sein Herz auf zu schlagen. Doc belebte ihn wieder, indem er auf seine Brust einschlug und ihn Mund-zu-Mund beatmete. Endlich landete der Helikopter und wir luden ihn an Bord.'{NEWLINE}-- Stephen Paul Campos{NEWLINE}{NEWLINE}Wenn ein Soldat ohnmächtig blutend auf dem Feld der Ehre liegt, weiß dieser Ordensträger, wie man ihn zurückholt.{NEWLINE}{NEWLINE}Diese Auszeichnung wird jedesmal vergeben, wenn ein Verwundeter wiederbelebt wird, bis zu 3 Mal."
 
   STR_MEDAL_SAPPER: "Saboteur-Medaille"
-  STR_MEDAL_SAPPER_DESCRIPTION: "Für einen Soldaten, der einen metallischen Feind mit Brisanz-Sprengstoff tötete."
+  STR_MEDAL_SAPPER_DESCRIPTION: "Für einen Soldaten, der einen robotischen Feind mit Brisanz-Sprengstoff ausgeschaltet hat."
   STR_MEDAL_SAPPER_UFOPEDIA: ""
 
   STR_MEDAL_SECTOPOD_KILL: "Belobigung für Metall Monster"
@@ -927,7 +1000,7 @@ de:
 
   STR_MEDAL_SLAVEKILLS: "Puppenspieler"
   STR_MEDAL_SLAVEKILLS_DESCRIPTION: "Für einen Soldaten, der Außerirdische gegeneinander einsetzt."
-  STR_MEDAL_SLAVEKILLS_UFOPEDIA: "Für einen Soldaten, der die Außerirdischen gegeneinander einsetzte."
+  STR_MEDAL_SLAVEKILLS_UFOPEDIA: ""
 
   STR_MEDAL_SNIPER: "Scharfschützen-Belobigung"
   STR_MEDAL_SNIPER_DESCRIPTION: "Für einen Soldaten, der sein Ziel mit Hochdistanzschüssen traf."
@@ -1030,7 +1103,7 @@ de:
   MAP_AIRFIELD7: "Flugfeld 7"
   MAP_AIRFIELD8: "Flugfeld 8"
   MAP_CARGOSHIP: "Frachtschiff"
-  MAP_COMRCURBAN: "Commercial"
+  MAP_COMRCURBAN: "Kommerziell"
   MAP_CULTAFARMA: "Erweiterter Hof A"
   MAP_CULTAFARMB: "Erweiterter Hof B"
   MAP_DESERTMOUNT: "Wüstenberg"
@@ -1120,6 +1193,36 @@ de:
   FEMALE_CIVILIAN9: "Zivilistin"
   FEMALE_CIVILIAN10: "Zivilistin"
 #END CIVLIAN NAMES
+
+#BEGIN ARMED CIVILIAN NAMES
+  STR_FIREFIGHTER0: ""
+  STR_PARAMEDIC0: ""
+  STR_POLICE_MALE0: ""
+  STR_POLICE_FEMALE0: ""
+  STR_POLICE_SWAT_MALE0: ""
+  STR_POLICE_SWAT_FEMALE0: ""
+  STR_SCIENTIST_FEMALE0: ""
+  STR_SOLDIER_FEMALE_GREEN0: ""
+  STR_SOLDIER_FEMALE_GREEN1: ""
+  STR_SOLDIER_MALE_GREEN0: ""
+  STR_SOLDIER_MALE_GREEN1: ""
+  STR_SOLDIER_MALE_GREEN2: ""
+  STR_SOLDIER_MALE_GREEN3: ""
+
+  FIREFIGHTER0_CORPSE: "Toter"
+  PARAMEDIC0_CORPSE: "Toter"
+  POLICE_MALE0_CORPSE: "Toter"
+  POLICE_FEMALE0_CORPSE: "Toter"
+  POLICE_SWAT_MALE0_CORPSE: "Toter"
+  POLICE_SWAT_FEMALE0_CORPSE: "Toter"
+  SCIENTIST_FEMALE0_CORPSE: "Toter"
+  SOLDIER_FEMALE_GREEN0_CORPSE: "Toter"
+  SOLDIER_FEMALE_GREEN1_CORPSE: "Toter"
+  SOLDIER_MALE_GREEN0_CORPSE: "Toter"
+  SOLDIER_MALE_GREEN1_CORPSE: "Toter"
+  SOLDIER_MALE_GREEN2_CORPSE: "Toter"
+  SOLDIER_MALE_GREEN3_CORPSE: "Toter"
+#END ARMED CIVILIAN NAMES
 
 #BEGIN NEW REGIONS
   STR_NORTH_PACIFIC: "Nordpazifik"
