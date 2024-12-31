@@ -1855,19 +1855,19 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Canon/BigOb_AlloyTank_Canon_Weapon.png
+      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Canon/Inventory_AlloyTank_Canon.png
   - type: alloytankrocketlauncherInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_RocketLauncher/BigOb_AlloyTank_RocketLauncher_Weapon.png
+      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_RocketLauncher/Inventory_AlloyTank_RocketLauncher.png
   - type: alloytanklasercannonInventoryImage
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Laser/BigOb_AlloyTank_Laser_Weapon.png
+      0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Laser/Inventory_AlloyTank_Laser.png
 #END ALLOY TANKS
 
 #BEGIN HOVERTANKS
