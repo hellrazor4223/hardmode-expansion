@@ -568,7 +568,7 @@ Version 0.84
 
 Version 0.83
  - Fix Final Missions again due to changes in openxcom_git_master_2015_05_25_0957
- - Added one more Alien Leader to Labship (there was only one instead of 2...) 
+ - Added one more Alien Leader to Labship (there was only one instead of 2...)
 
 Version 0.82
  - Fix Alien Biology require (unneeded)
@@ -688,16 +688,16 @@ Version 0.61
  - Fix wrong named Supply Ship maps
  - Fix some minor string errors
 
-Version 0.6 
+Version 0.6
  - integrated luke83's extraUFO's
  - switched out a HeavyLaserAuto Sprite.
 
-Version 0.5 
+Version 0.5
  - Minor Bugfixes
  - new Sprites for Personal Armor, Smoke Grenade
  - added a Flashbang Grenade
 
-Version 0.4 
+Version 0.4
  - Bugfixes
  - Tiny Research rework
  - Fix Bug with Taser Pistol
@@ -711,7 +711,7 @@ Version 0.3 Bugfixes / Terrainpack update
  - Corrected some String typos for extraStrings.rul
  - Integrated Bugfixes from latest Terrainpack Ruleset.
 
-Version 0.2 
+Version 0.2
  - Bugfixes
  - Fix for Alloy Knife Popup when Alien Alloys are researched.
  - Fix for Alloy Shotgun Shells not been produced.
