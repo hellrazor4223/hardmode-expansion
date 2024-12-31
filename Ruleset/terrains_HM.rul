@@ -1899,7 +1899,7 @@ terrains:
       - name: PORTUFO27 #27 #
         width: 10
         length: 10
-        groups: 4   
+        groups: 4
       - name: PORTUFO28 #28 #
         width: 10
         length: 10
@@ -1993,7 +1993,7 @@ terrains:
       - name: PORTUFO27 #18 #
         width: 10
         length: 10
-        groups: 4   
+        groups: 4
       - name: PORTUFO28 #19 #
         width: 10
         length: 10

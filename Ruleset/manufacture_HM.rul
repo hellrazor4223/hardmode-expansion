@@ -3351,7 +3351,7 @@ manufacture:
     time: 650
     cost: 48000
     requiredItems:
-      STR_ALIEN_ALLOYS: 2 
+      STR_ALIEN_ALLOYS: 2
       STR_ELERIUM_115: 1
     listOrder: 1498
 #END PLASMA BLADE MANU
@@ -3365,7 +3365,7 @@ manufacture:
     time: 850
     cost: 72000
     requiredItems:
-      STR_ALIEN_ALLOYS: 3 
+      STR_ALIEN_ALLOYS: 3
       STR_ELERIUM_115: 2
     listOrder: 1499
 #END PLASMA SWORD MANU
@@ -3427,7 +3427,7 @@ manufacture:
 #BEGIN PLASMA SHOTGUN MANU
   - name: STR_PLASMA_SHOTGUN
     category: STR_WEAPON
-    requires: 
+    requires:
       - STR_PLASMA_SHOTGUN
       - STR_PLASMA_SHOTGUN_MANU_UNLOCK
     space: 5
@@ -3438,7 +3438,7 @@ manufacture:
     listOrder: 1801
   - name: STR_PLASMA_SHOTGUN_CLIP
     category: STR_AMMUNITION
-    requires: 
+    requires:
       - STR_PLASMA_SHOTGUN
       - STR_PLASMA_SHOTGUN_CLIP
     space: 5
@@ -3449,7 +3449,7 @@ manufacture:
     listOrder: 1802
   - name: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     category: STR_AMMUNITION
-    requires: 
+    requires:
       - STR_PLASMA_SHOTGUN
       - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     space: 5

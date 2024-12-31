@@ -2205,7 +2205,7 @@ items:
     costSell: 2250
     weight: 8
     bigSprite: 152
-    floorSprite: 149 
+    floorSprite: 149
     handSprite: 448
     fireSound: 105
     compatibleAmmo:
@@ -2294,7 +2294,7 @@ items:
     listOrder: 3100
     snapRange: 24
     minRange: 5
-    dropoff: 2 
+    dropoff: 2
   - type: STR_ROCKET_LAUNCHER_UFOPAEDIA_PAGE_2
     name: STR_ROCKET_LAUNCHER
     requires:
@@ -2320,7 +2320,7 @@ items:
     listOrder: 3101
     snapRange: 24
     minRange: 5
-    dropoff: 2 
+    dropoff: 2
   - type: STR_SMALL_ROCKET
     power: 80
     handSprite: 216
@@ -2500,7 +2500,7 @@ items:
     costBuy: 500
     costSell: 400
     weight: 3
-    bigSprite: 151 
+    bigSprite: 151
     floorSprite: 148
     handSprite: 440
     hitAnimation: 64
@@ -3119,7 +3119,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 2
-    recoveryPoints: 4 
+    recoveryPoints: 4
     armor: 50
     attraction: 10
     arcingShot: true

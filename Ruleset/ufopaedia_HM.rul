@@ -889,7 +889,7 @@ ufopaedia:
   - id: STR_REINFORCED_POWER_SUIT_UC
     type_id: 5
     section: STR_BASE_FACILITIES
-    requires: 
+    requires:
       - STR_REINFORCED_POWER_SUIT
     listOrder: 3701
     text: STR_REINFORCED_POWER_SUIT_UFOPEDIA
@@ -899,7 +899,7 @@ ufopaedia:
   - id: STR_REINFORCED_FLYING_SUIT_UC
     type_id: 5
     section: STR_BASE_FACILITIES
-    requires: 
+    requires:
       - STR_REINFORCED_FLYING_SUIT
     listOrder: 3702
     text: STR_REINFORCED_FLYING_SUIT_UFOPEDIA
@@ -1371,7 +1371,7 @@ ufopaedia:
     text: STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA
     listOrder: 6701
 #END PLASMA PISTOL UFOPAEDIA
-  
+
 #BEGIN PLASMA RIFLE UFOPAEDIA
   - id: STR_PLASMA_RIFLE
     section: STR_ALIEN_LIFE_FORMS
@@ -1387,7 +1387,7 @@ ufopaedia:
     text: STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA
     listOrder: 6901
 #END PLASMA RIFLE UFOPAEDIA
-  
+
 #BEGIN PLASMA SHOTGUN UFOPAEDIA
   - id: STR_PLASMA_SHOTGUN
     type_id: 4
@@ -1773,7 +1773,7 @@ ufopaedia:
       - STR_CYBERMITE
     image_id: CYBERMITE.SPK
     text: STR_CYBERMITE_UFOPEDIA
-    text_width: 158 
+    text_width: 158
     listOrder: 9903
   - id: STR_CYBERMITE_AUTOPSY
     type_id: 7
@@ -1795,7 +1795,7 @@ ufopaedia:
     image_id: HOLODRONE.SPK
     text: STR_HOLODRONE_UFOPEDIA
     text_width: 158
-    listOrder: 9905 
+    listOrder: 9905
   - id: STR_HOLODRONE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1927,7 +1927,7 @@ ufopaedia:
     type_id: 7
     section: STR_UFO_COMPONENTS
     requires:
-      - STR_LAUNCHER_WEAPONS    
+      - STR_LAUNCHER_WEAPONS
     image_id: LAUNCHER_WEAPONS.SPK
     text: STR_LAUNCHER_WEAPONS_UFOPEDIA
     text_width: 154
@@ -1939,7 +1939,7 @@ ufopaedia:
     type_id: 7
     section: STR_UFO_COMPONENTS
     requires:
-      - STR_PLASMA_WEAPONS    
+      - STR_PLASMA_WEAPONS
     image_id: PLASMA_WEAPONS.SPK
     text: STR_PLASMA_WEAPONS_UFOPEDIA
     text_width: 154

@@ -481,7 +481,7 @@ it:
   STR_ELERIUM_STUN_ROD_UFOPEDIA: ""
 
   STR_FLASHBANG_GRENADE: "Granata Flashbang"
-  STR_FLASHBANG_GRENADE_UFOPEDIA: ""  
+  STR_FLASHBANG_GRENADE_UFOPEDIA: ""
 
   STR_INC_GRENADE: "Granata Incendiaria"
   STR_INC_GRENADE_UFOPEDIA: "Le granate incendiarie sono inestimabili per illuminare la notte e eliminare l'odiosa vegetazione."
@@ -534,7 +534,7 @@ it:
 
 #BEGIN STORY ITEMS
   STR_ALIEN_DATA_SLATE: "Banca Dati Aliena"
-  STR_ALIEN_DATA_SLATE_UFOPEDIA: "" 
+  STR_ALIEN_DATA_SLATE_UFOPEDIA: ""
 
   STR_ALIEN_DATA_CORE: ""
   STR_ALIEN_DATA_CORE_UFOPEDIA: ""
@@ -645,7 +645,7 @@ it:
   STR_MUTON_ELITE_GUARD_CORPSE: "Cadavere Guardia d'élite Muton"
   STR_MUTON_ELITE_GUARD_AUTOPSY: "Autopsia: Guardia d'élite Muton"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: ""
-  
+
   STR_MUTON_BERSERKER: "Berserker Muton"
   STR_MUTON_BERSERKER_TERRORIST: "Berserker Muton Terrorista"
   STR_MUTON_BERSERKER_UFOPEDIA: ""
@@ -712,7 +712,7 @@ it:
   STR_LAUNCHER_WEAPONS: ""
   STR_LAUNCHER_WEAPONS_UFOPEDIA: ""
 
-  STR_ALIEN_BIOLOGY: "Biologia Aliena"    
+  STR_ALIEN_BIOLOGY: "Biologia Aliena"
   STR_ALIEN_BIOLOGY_UFOPEDIA: ""
 
   STR_ALIEN_LANGUAGE: "Linguaggio Alieno"

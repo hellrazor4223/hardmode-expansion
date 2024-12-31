@@ -32,13 +32,12 @@ It sticks strongly towards the vanilla core components and builts upon them.
 
 It is aimed at experienced X-Com players, who know the game well and are not afraid of a difficulty higher then Superhuman.
 The Aliens have more variants and your weapons will slowly become obsolete due to them.
-Research progress is 
-a must, but comes at costs.
+Research progress is a must, but comes at costs.
 
 For playing you should choose difficulty Superhuman, since the mod is balanced around it.
 The difficulty will be actually far higher then Superhuman, considering mainly the changes in economy and research.
 Technologies will need alive aliens captures to unlock and will trigger additional mission.
-Research takes longer and you do not have access to a alien containment from the beginning. 
+Research takes longer and you do not have access to a alien containment from the beginning.
 
 It is recommend to get between 200-250 scientists by November.
 Otherwise the game becomes extremly difficult.
@@ -80,7 +79,7 @@ For a detailed list of changes (may contain spoilers) see the Features further d
 For a real challenge play the game in Iron Man Mode!
 Please do no use the OpenXcom Iron Man option and enforce your own Iron Man Mode, its a big mod, so bugs may happen.
 
-I hope you will enjoy this collection of 60+ Mods (i stopped counting) 
+I hope you will enjoy this collection of 60+ Mods (i stopped counting)
 and please report any possible Bug you might find on the forum: -> https://openxcom.org/forum/index.php/topic,4968.0.html
 
 Feedback of any form is also appreciated here: -> https://openxcom.org/forum/index.php?topic=3550.0
@@ -407,7 +406,7 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 Currently Supported Languages:
 	English		US (en-US)
 	English		UK (en-GB)
-	Japanese JA (ja)	
+	Japanese	JA (ja)
 
 Partially Supported Languages (50%+):
 	Russian		RU (ru)

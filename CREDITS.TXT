@@ -4,9 +4,9 @@
 Licence Notice:
 	All content from Hobbes Terrain Pack Mod Version 4.3 is under a Creatvie Common Licence!
 
-	The XCOM Terrain Pack and its contents are being distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). 
+	The XCOM Terrain Pack and its contents are being distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
-	This license gives you the freedom to distribute and modify its materials for non-commercial proposes only and requires you to provide proper attribution. 
+	This license gives you the freedom to distribute and modify its materials for non-commercial proposes only and requires you to provide proper attribution.
 
 	For proper attribution you need to include on your mod's credits a mention to Terrain Pack as well as to include the repository link (https://github.com/Hobbes74/Terrain-Pack) as well as the specific terrain(s) you are using and their author(s) and their author's original mod page, if it exists.
 
@@ -16,9 +16,9 @@ Licence Notice:
 
 	You can find a full list of the authors along with the terrains and the versions/variants they contributed to on the AUTHORS file provided together with this LICENSE.
 
-	This license is irrevocable and permanent as long as you fully comply with these conditions. 
+	This license is irrevocable and permanent as long as you fully comply with these conditions.
 
-	Failure to comply with the terms stated above will result in an initial warning. If necessary, it will be followed by proper reporting of the license violation to the host site, and if the violation continues, revocation of your license and permission to use/modify/distribute the Terrain Pack. 
+	Failure to comply with the terms stated above will result in an initial warning. If necessary, it will be followed by proper reporting of the license violation to the host site, and if the violation continues, revocation of your license and permission to use/modify/distribute the Terrain Pack.
 
 Credits go to:
 	Everyone in #openxcom @Libera.chat
@@ -230,10 +230,10 @@ Nachtwolf
 Koralt
 * MCDEdit editor - (http://www.strategycore.co.uk/files/mcdedit/) included on the Modding Tools folder
 
-BB's 
+BB's
 * Creator of BB's Toolkit for XCOM (http://www.strategycore.co.uk/files/bbs-toolkit/)
 
-Falko 
+Falko
 * Creator of the OXC World Editor website (http://falkooxc2.pythonanywhere.com/worldeditor)
 
 Volutar
@@ -363,7 +363,7 @@ XOps & Hobbes
 * MU (TFTD) JUNGLE - OpenXCom, converted and combined JUNGLE XCOM and ATLANT TFTD terrains, additional artwork by XOps.
 
 Notes:
-* All of these terrains reuse and adapt the tilesets and artwork of the original XCOM and TFTD games terrains. It is impossible to provide in detail. the use/changes made to the tilesets (.MCD/.PCK/.TAB files) but the list specifies the terrains where original/additional artwork made by the authors was included. 
+* All of these terrains reuse and adapt the tilesets and artwork of the original XCOM and TFTD games terrains. It is impossible to provide in detail. the use/changes made to the tilesets (.MCD/.PCK/.TAB files) but the list specifies the terrains where original/additional artwork made by the authors was included.
 * Porting of UFO2000 original terrains to XCOM/UFO2000 required creating the necessary .RMP files for the AI to spawn and move the alien units.
 * Porting UFO/TFTD terrains to UFO2000 mainly required creating the .lua map generation files.
 * Combined terrains for OpenXCom was mostly done through OpenXCom map script rulesets, without changes done to the terrain's original files.

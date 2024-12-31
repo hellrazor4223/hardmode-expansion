@@ -607,7 +607,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Units/Xcom/Drones/UfoPaedia_SupportDrones.png
 #END SUPPORT DRONES
 
@@ -1122,7 +1122,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Units/Alien/Waspite/UfoPaedia_Waspite_Autopsy.png
 #END WASPITE
 
@@ -1254,7 +1254,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Units/Alien/MutonElite/UfoPaedia_MutonElite_Autopsy.png
 #END MUTON ELITE
 
@@ -1298,7 +1298,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Units/Alien/MutonEliteGuard/UfoPaedia_MutonEliteGuard_Autopsy.png
 #END MUTON ELITE GUARD
 
@@ -1320,7 +1320,7 @@ extraSprites:
     singleImage: true
     width: 320
     height: 200
-    files: 
+    files:
       0: Resources/Units/Alien/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter_Autopsy.png
 #END CHRYSSALID SPITTER
 

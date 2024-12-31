@@ -293,7 +293,7 @@ en-GB:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_SCANNER: "Alloy Drone/Taser -> Hover Scanner"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Taser -> Hover Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: "Alloy Drone/Taser -> Hover Taser"
-  
+
   STR_HOVERDRONE_SMOKE_WEAPON: "Hoverdrone Smoke Launcher"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "Further advancing our engineering capabilities has also given us a boost in regard of the smoke pellets deploy range and capacity, which will allow for a effective way to hide before our enemies line of sight. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hoverdrones in smoke cover might attract enemy grenades."
 
@@ -546,7 +546,7 @@ en-GB:
   STR_ELERIUM_STUN_ROD_UFOPEDIA: "Using Elerium-115 as a electric power source enabled us to increase the charge of electric shock, which can be discharged onto the enemy. This device can only be used in close combat, but will stun a living organism without killing it by using electric shocks."
 
   STR_FLASHBANG_GRENADE: "Flashbang Grenade"
-  STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight."  
+  STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight."
 
   STR_INC_GRENADE: "Incendiary Grenade"
   STR_INC_GRENADE_UFOPEDIA: "Incendiary grenades are invaluable for lighting up the night and clearing obnoxious vegetation."
@@ -607,7 +607,7 @@ en-GB:
 
 #BEGIN STORY ITEMS
   STR_ALIEN_DATA_SLATE: "Alien Data Slate"
-  STR_ALIEN_DATA_SLATE_UFOPEDIA: "The examination of this slate and the translation of the data inside lead as to a further understanding of the alien technology, ground breaking results can be expected in the field of optics. We also found clues that an even bigger data source of alien knowlegde exists, a object whose name can be roughly translated as Alien Data Core. This Alien Data Core may provide us with detailed information regarding the alien weaponry, we need to acquire this item at all cost. Currently it is suspected to be found on the most dangerous ufos we encounter." 
+  STR_ALIEN_DATA_SLATE_UFOPEDIA: "The examination of this slate and the translation of the data inside lead as to a further understanding of the alien technology, ground breaking results can be expected in the field of optics. We also found clues that an even bigger data source of alien knowlegde exists, a object whose name can be roughly translated as Alien Data Core. This Alien Data Core may provide us with detailed information regarding the alien weaponry, we need to acquire this item at all cost. Currently it is suspected to be found on the most dangerous ufos we encounter."
 
   STR_ALIEN_DATA_CORE: "Alien Data Core"
   STR_ALIEN_DATA_CORE_UFOPEDIA: "This item holds an abundance of information, especially specifications of the alien plasma weapons, their energy generation and storage. With this we are finally able to fully understand the function of these weapons.  The equations for the plasma fields are rather complex and seems to be unique for each weapon they use, to solve these equations it is essential to have more knowledge on specific technical aspects of these weapons. Aliens with technical aptitude could provide big breakthroughs here."
@@ -718,7 +718,7 @@ en-GB:
   STR_MUTON_ELITE_GUARD_CORPSE: "Muton Elite Guard Corpse"
   STR_MUTON_ELITE_GUARD_AUTOPSY: "Muton Elite Guard autopsy"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: "This creatures body shows a lot of battlescars and a lot of additional cybernetic implants, we also found signs of a strange form of drug in the bloodstream, it seems to instill total obedience and further testing has proven that several core body functions are starting to shut down if the druglevel in the bloodstream falls under a certain level. The outer skin is more a combat suit then a skin, highly resistant to laser, plasma and high explosive damage, it can be compared to our power suits."
-  
+
   STR_MUTON_BERSERKER: "Muton Berserker"
   STR_MUTON_BERSERKER_TERRORIST: "Muton Berserker Terrorist"
   STR_MUTON_BERSERKER_UFOPEDIA: "This hulking creature appears to be a subspecies of the Muton. It's much the same as the 'standard' variety, though overactive glands presumed similar to adrenal glands constantly flood its system with a hormone that keeps the creature in a constant state of rage, dulling its senses and giving it remarkable pain resistance. Its intelligence is sharply reduced compared to that of a standard Muton, so it seems to attack exclusively in close quarters."
@@ -785,7 +785,7 @@ en-GB:
   STR_LAUNCHER_WEAPONS: "Alien Launcher Weapons"
   STR_LAUNCHER_WEAPONS_UFOPEDIA: "The aliens seem to be deploying some kind of launcher weaponry which is pretty familar to our own rocket launchers. We need to get more information about these effective weapon systems from interrogations and the Alien Data Core."
 
-  STR_ALIEN_BIOLOGY: "Alien Biology"    
+  STR_ALIEN_BIOLOGY: "Alien Biology"
   STR_ALIEN_BIOLOGY_UFOPEDIA: "The alien DNA has some remarkable similarities on some points with our own, despite of that the level of genetic structure suggest that it is very old, definitly older than our own. Moreover, certain fragments seem to have been added artificially, probably extracted from Earth organisms. Our presumption is that this is some kind of environment adaptation on a genetic level. The immunology seems to be pretty weak, therefore it is critical that we establish how they feed themselves and how their reproductive cycle works, so we can house them properly for interrogations. A larger alien installations may provide answers."
 
   STR_ALIEN_LANGUAGE: "Alien Language"

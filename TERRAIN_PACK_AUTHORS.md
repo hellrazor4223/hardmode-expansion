@@ -23,10 +23,10 @@ Nachtwolf
 Koralt
 * MCDEdit editor - (http://www.strategycore.co.uk/files/mcdedit/) included on the Modding Tools folder
 
-BB's 
+BB's
 * Creator of BB's Toolkit for XCOM (http://www.strategycore.co.uk/files/bbs-toolkit/)
 
-Falko 
+Falko
 * Creator of the OXC World Editor website (http://falkooxc2.pythonanywhere.com/worldeditor)
 
 Volutar
@@ -156,7 +156,7 @@ XOps & Hobbes
 * MU (TFTD) JUNGLE - OpenXCom, converted and combined JUNGLE XCOM and ATLANT TFTD terrains, additional artwork by XOps.
 
 Notes:
-* All of these terrains reuse and adapt the tilesets and artwork of the original XCOM and TFTD games terrains. It is impossible to provide in detail. the use/changes made to the tilesets (.MCD/.PCK/.TAB files) but the list specifies the terrains where original/additional artwork made by the authors was included. 
+* All of these terrains reuse and adapt the tilesets and artwork of the original XCOM and TFTD games terrains. It is impossible to provide in detail. the use/changes made to the tilesets (.MCD/.PCK/.TAB files) but the list specifies the terrains where original/additional artwork made by the authors was included.
 * Porting of UFO2000 original terrains to XCOM/UFO2000 required creating the necessary .RMP files for the AI to spawn and move the alien units.
 * Porting UFO/TFTD terrains to UFO2000 mainly required creating the .lua map generation files.
 * Combined terrains for OpenXCom was mostly done through OpenXCom map script rulesets, without changes done to the terrain's original files.

@@ -1509,7 +1509,7 @@ regions:
 ##END SOUTH PACIFIC
 
 ##BEGIN NORTH ATLANTIC
-  - type: STR_NORTH_ATLANTIC 
+  - type: STR_NORTH_ATLANTIC
     cost: 500000
     areas:
       - [305, 335, -70, -30]
@@ -1687,7 +1687,7 @@ regions:
 ##END SOUTH ATLANTIC
 
 ##BEGIN INDIAN OCEAN
-  - type: STR_INDIAN_OCEAN 
+  - type: STR_INDIAN_OCEAN
     cost: 500000
     areas:
       - [55, 70, -15, 10]

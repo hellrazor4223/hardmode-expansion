@@ -353,7 +353,7 @@ alienMissions:
       9:
         STR_FLOATER_8: 5
         STR_SECTOID_8: 5
-        STR_MUTON_8: 25 
+        STR_MUTON_8: 25
         STR_WASPITE_8: 10
         STR_GAZER: 50
       10:
