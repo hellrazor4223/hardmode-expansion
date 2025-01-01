@@ -13,7 +13,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE
   - type: STR_ALIEN_BASE
-    points: 100
+    points: 75
     objective: 2 #Built a alien base
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
@@ -106,20 +106,12 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 6000
-      - ufo: STR_LARGE_SCOUT
-        count: 1
-        trajectory: P4
-        timer: 6000
       - ufo: STR_EXCAVATOR
-        count: 1
-        trajectory: P4
-        timer: 0
-      - ufo: STR_SUPPLY_SHIP
         count: 1
         trajectory: P5
         timer: 60
-      - ufo: STR_LAB_SHIP
-        count: 1
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
         trajectory: P5
         timer: 60
       - ufo: STR_BATTLESHIP
@@ -130,7 +122,7 @@ alienMissions:
 
 #BEGIN ALIEN TERROR
   - type: STR_ALIEN_TERROR
-    points: 100
+    points: 10
     objective: 3 #Create a missionsite for a terrormission
     spawnZone: 3 #Mission zone for terror missions
     raceWeights: *BASE_TERROR_INFILTRATION
@@ -185,15 +177,7 @@ alienMissions:
         count: 1
         trajectory: P10
         timer: 60
-      - ufo: STR_EXCAVATOR
-        count: 1
-        trajectory: P10
-        timer: 0
       - ufo: STR_TERROR_SHIP
-        count: 1
-        trajectory: P10
-        timer: 60
-      - ufo: STR_SUPPLY_SHIP
         count: 1
         trajectory: P10
         timer: 60
@@ -292,7 +276,7 @@ alienMissions:
 
 #BEGIN ALIEN ABDUCTION
   - type: STR_ALIEN_ABDUCTION
-    points: 150
+    points: 75
     raceWeights: *RESEARCH_ABDUCTION
     waves:
       - ufo: STR_SMALL_SCOUT
@@ -307,7 +291,7 @@ alienMissions:
         count: 1
         trajectory: P3
         timer: 9000
-      - ufo: STR_LAB_SHIP
+      - ufo: STR_ABDUCTOR
         count: 1
         trajectory: P3
         timer: 9000
@@ -320,7 +304,7 @@ alienMissions:
 
 #BEGIN ALIEN HARVEST
   - type: STR_ALIEN_HARVEST
-    points: 90
+    points: 45
     raceWeights: &HARVEST
       0:
         STR_FLOATER: 80
@@ -395,7 +379,7 @@ alienMissions:
         count: 1
         trajectory: P0
         timer: 7800
-      - ufo: STR_MEDIUM_SCOUT
+      - ufo: STR_SMALL_SCOUT
         count: 1
         trajectory: P2
         timer: 7800
@@ -419,7 +403,7 @@ alienMissions:
         count: 1
         trajectory: P4
         timer: 750
-      - ufo: STR_LAB_SHIP
+      - ufo: STR_BATTLESHIP
         count: 1
         trajectory: P2
         timer: 1500
@@ -428,7 +412,7 @@ alienMissions:
 
 #BEGIN ALIEN RETALIATION
   - type: STR_ALIEN_RETALIATION
-    points: 20
+    points: 0
     objective: 4 #Perform a base attack on a xcom base
     spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
     raceWeights: # In case of shootdown, race comes from UFO that triggered the mission.
@@ -519,7 +503,7 @@ alienMissions:
 
 #BEGIN ALIEN SUPPLY
   - type: STR_ALIEN_SUPPLY
-    points: 30
+    points: 100
     objective: 5 #Perform a supply run towards a existing alien base
     raceWeights: {} #Special case, race comes from base.
     waves:
@@ -532,7 +516,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE TERROR MISSION
   - type: STR_ALIEN_BASE_TERROR_MISSION
-    points: 100
+    points: 10
     objective: 3 #Create a missionsite for a terrormission
     spawnZone: 3 #Mission zone for terror missions
     operationType: 5
@@ -553,15 +537,19 @@ alienMissions:
 
 #BEGIN ALIEN BASE ABDUCTION MISSION
   - type: STR_ALIEN_BASE_ABDUCTION_MISSION
-    points: 150
+    points: 100
     operationType: 5
     raceWeights: *RESEARCH_ABDUCTION
     waves:
       - ufo: STR_LAB_SHIP
         count: 1
         trajectory: P3
-        timer: 51000
+        timer: 40000
         interruptPercentage: 33
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P3
+        timer: 9000
       - ufo: STR_ABDUCTOR
         count: 2
         trajectory: P4
@@ -574,15 +562,19 @@ alienMissions:
     operationType: 5
     raceWeights: *HARVEST
     waves:
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P3
+        timer: 38400
       - ufo: STR_HARVESTER
         count: 1
         trajectory: P4
-        timer: 41400
+        timer: 3000
       - ufo: STR_HARVESTER
         count: 1
         trajectory: P4
         timer: 750
-      - ufo: STR_LAB_SHIP
+      - ufo: STR_BATTLESHIP
         count: 1
         trajectory: P2
         timer: 1500
@@ -591,7 +583,7 @@ alienMissions:
 
 #BEGIN ALIEN BASE BASE MISSION
   - type: STR_ALIEN_BASE_BASE_MISSION
-    points: 100
+    points: 75
     objective: 2 #Built a alien base
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
@@ -603,13 +595,9 @@ alienMissions:
       - ufo: STR_EXCAVATOR
         count: 1
         trajectory: P4
-        timer: 25501
+        timer: 28501
       - ufo: STR_SUPPLY_SHIP
-        count: 1
-        trajectory: P5
-        timer: 60
-      - ufo: STR_LAB_SHIP
-        count: 1
+        count: 2
         trajectory: P5
         timer: 60
       - ufo: STR_BATTLESHIP
