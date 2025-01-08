@@ -158,6 +158,8 @@ mapScripts:
 #BEGIN URBAN
   - type: URBAN
     commands:
+    - type: addCraft
+    - type: addUFO
     - type: addLine #Add North - South Road
       label: 1
       direction: vertical
@@ -170,7 +172,6 @@ mapScripts:
     - type: addLine #Add Crossroads
       conditionals: [-1, -2]
       direction: both
-    - type: addCraft
     - type: addBlock #Spawn more 3 Level Appartments
       label: 3
       executionChances: 25
@@ -213,6 +214,7 @@ mapScripts:
   - type: MADURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine #Add North - South Road
       label: 1
       direction: vertical
@@ -264,6 +266,8 @@ mapScripts:
 #BEGIN EXPANDED TERROR
   - type: EXPANDED_TERROR
     commands:
+    - type: addCraft
+    - type: addUFO
     - type: addLine #Add North -South Road
       label: 1
       direction: vertical
@@ -276,7 +280,6 @@ mapScripts:
     - type: addLine #Add Crossroads
       conditionals: [-1, -2]
       direction: both
-    - type: addCraft
     - type: addBlock #Spawn massive more 4 Level Appartment Building
       label: 3
       executionChances: 50
@@ -308,6 +311,7 @@ mapScripts:
   - type: EXPANDED_URBAN_MIX
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine #Add North - South Road
       label: 1
       direction: vertical
@@ -362,6 +366,7 @@ mapScripts:
   - type: DAWNURBANA
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: vertical
@@ -386,6 +391,7 @@ mapScripts:
   - type: DAWNURBANB
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: vertical
@@ -410,6 +416,7 @@ mapScripts:
   - type: COMRCURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addLine
       label: 1
       direction: vertical
@@ -1355,6 +1362,7 @@ mapScripts:
       direction: vertical
       executionChances: 75
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       blocks: [2, 6, 14, 15]
@@ -1370,6 +1378,7 @@ mapScripts:
   - type: INDUSTRIALURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1394,6 +1403,7 @@ mapScripts:
       conditionals: [-1, -2]
       direction: both
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1408,6 +1418,9 @@ mapScripts:
   - type: PORTTFTD
     commands:
     - type: addCraft
+      rects:
+        - [0, 0, 4, 6]
+    - type: addUFO
       rects:
         - [0, 0, 4, 6]
     - type: addBlock
@@ -1460,6 +1473,7 @@ mapScripts:
       blocks: [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       groups: 5
       size: 2
@@ -1489,6 +1503,7 @@ mapScripts:
       conditionals: [-1, -2]
       direction: both
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1501,25 +1516,31 @@ mapScripts:
   - type: PORTCARGOSHIP
     commands:
     - type: resize
-      size: [6, 7, 8] #Make sure we have the right size
-    - type: addUFO #Pull in Ship as UFO
-      UFOName: STR_CARGOSHIPPORT
-      rects:
-        - [3, 0, 3, 7]
+      size: [7, 7, 8] #Make sure we have the right size
     - type: addCraft
       rects:
-        - [0, 0, 2, 7]
+        - [0, 0, 3, 7]
+    - type: addUFO
+      UFOName: STR_TERROR_SHIP
+      rects:
+        - [0, 0, 3, 7]
+    - type: addBlock
+      terrain: CARGOSHIPPORT
+      size: [3, 7]
+      executions: 1
+      rects:
+        - [4, 0, 3, 7]
     - type: addBlock #Pier to ship entry point
       rects:
-        - [2, 0, 1, 1]
+        - [3, 0, 1, 1]
       blocks: 35
     - type: addBlock #Pier to Ship entry point
       rects:
-        - [2, 2, 1, 1]
+        - [3, 2, 1, 1]
       blocks: [33, 34, 36]
     - type: addBlock #Rest of the Pier
       rects:
-        - [2, 0, 1, 7]
+        - [3, 0, 1, 7]
       executions: 5
       blocks: [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
@@ -1535,25 +1556,31 @@ mapScripts:
   - type: PORTLINERSHIP
     commands:
     - type: resize
-      size: [6, 7, 8] #Make sure we have the right size
-    - type: addUFO #Pull in Ship as UFO
-      UFOName: STR_LINERSHIPPORT
-      rects:
-        - [3, 0, 3, 7]
+      size: [7, 7, 8] #Make sure we have the right size
     - type: addCraft
       rects:
-        - [0, 0, 2, 7]
+        - [0, 0, 3, 7]
+    - type: addUFO
+      UFOName: STR_TERROR_SHIP
+      rects:
+        - [0, 0, 3, 7]
+    - type: addBlock
+      terrain: LINERSHIPPORT
+      size: [3, 7]
+      executions: 1
+      rects:
+        - [4, 0, 3, 7]
     - type: addBlock #Pier to ship entry point
       rects:
-        - [2, 0, 1, 1]
+        - [3, 0, 1, 1]
       blocks: 35
     - type: addBlock #Pier to Ship entry point
       rects:
-        - [2, 2, 1, 1]
+        - [3, 2, 1, 1]
       blocks: [33, 34, 36]
     - type: addBlock #Rest of the Pier
       rects:
-        - [2, 0, 1, 7]
+        - [3, 0, 1, 7]
       executions: 5
       blocks: [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
@@ -1571,6 +1598,7 @@ mapScripts:
   - type: NATIVEURBAN
     commands:
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1594,6 +1622,7 @@ mapScripts:
       rects:
         - [0,5,6,1]
     - type: addCraft
+    - type: addUFO
     - type: addBlock #2x2 buildings
       size: 2
       executions: 3
@@ -1626,6 +1655,7 @@ mapScripts:
         - [4, 4, 2, 2]
       blocks: [01, 02]
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 4
       blocks: [7, 10, 14, 15]
@@ -1659,6 +1689,7 @@ mapScripts:
         - [2, 4, 2, 2]
       blocks: 12
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 3
       blocks: [7, 10, 14, 15]
@@ -1692,6 +1723,7 @@ mapScripts:
         - [4, 2, 2, 2]
       blocks: 17
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 3
       blocks: [07, 10, 14, 15]
@@ -1721,6 +1753,7 @@ mapScripts:
         - [4, 4, 2, 2]
       blocks: 17
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 4
       blocks: [7, 10, 14, 15]
@@ -1758,6 +1791,7 @@ mapScripts:
         - [4, 4, 2, 2]
       blocks: 17
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 4
       blocks: [7, 10, 14, 15]
@@ -1791,6 +1825,7 @@ mapScripts:
         - [4, 0, 2, 2]
       blocks: 17
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 3
       blocks: [7, 10, 14, 15]
@@ -1824,6 +1859,7 @@ mapScripts:
         - [4, 4, 2, 2]
       blocks: 17
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 3
       blocks: [7, 10, 14, 15]
@@ -1849,6 +1885,7 @@ mapScripts:
         - [2, 4, 2, 2]
       blocks: [1, 2]
     - type: addCraft
+    - type: addUFO
     - type: addBlock
       executions: 4
       blocks: [7, 10, 14, 15]

@@ -2068,6 +2068,23 @@ terrains:
         groups: 1
 #END PORTINDUSTRIALURBAN
 
+
+#BEGIN CARGOSHIPPORT
+  - name: CARGOSHIPPORT
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - CARGOSHIP1
+      - CARGOSHIP2
+      - CARGOSHIP3
+      - CARGOSHIP4
+      - U_PODS
+    mapBlocks:
+      - name: CARGOSHIPPORT
+        width: 30
+        length: 70
+#END CARGOSHIPPORT
+
 #BEGIN PORTCARGOSHIP
   - name: PORTCARGOSHIP
     mapDataSets:
@@ -2271,6 +2288,22 @@ terrains:
         width: 10
         length: 10
 #END PORTCARGOSHIP
+
+#BEGIN LINERSHIPPORT
+  - name: LINERSHIPPORT
+    mapDataSets:
+      - BLANKS
+      - DECKSHIPUFO
+      - LINERSHIPA
+      - LINERSHIPB
+      - LINERSHIPC
+      - LINERSHIPD
+      - SEAURBAN
+    mapBlocks:
+      - name: LINERSHIPPORT
+        width: 30
+        length: 70
+#END LINERSHIPPORT
 
 #BEGIN PORTLINERSHIP
   - name: PORTLINERSHIP

@@ -2032,6 +2032,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: &CIVIANS_BY_TYPE_TERROR
       STR_FIREFIGHTER0: 2
@@ -2067,6 +2069,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
@@ -2096,6 +2100,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
@@ -2125,6 +2131,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
@@ -2155,6 +2163,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
@@ -2185,6 +2195,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
@@ -2211,6 +2223,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
@@ -2237,6 +2251,8 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
     civilians: 8
     civiliansByType:
       STR_FIREFIGHTER0: 2
@@ -2273,6 +2289,35 @@ alienDeployments:
     abortCutscene: abortMiss
 #END TERROR MISSION MILITARY BASE
 
+#BEGIN TERROR MISSION DOCKED SHIP
+  - type: STR_TERROR_MISSION_DOCKED_SHIP
+    data: *TERROR_SETS
+    width: 60
+    length: 60
+    height: 8
+    customUfo: STR_TERROR_SHIP
+    forcePercentageOutsideUfo: true
+    civilians: 18
+    civiliansByType: *CIVIANS_BY_TYPE_TERROR
+    terrains:
+      - PORTCARGOSHIP
+      - PORTLINERSHIP
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_TERROR_MISSION_PORT
+      desc: STR_TERROR_MISSION_PORT_BRIEFING
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 2000
+    cheatTurn: 7
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END TERROR MISSION DOCKED SHIP
+
 #BEGIN TERROR MISSION SHIP
   - type: STR_TERROR_MISSION_SHIP
     data: *TERROR_SETS
@@ -2308,32 +2353,5 @@ alienDeployments:
     loseCutscene: loseMiss
     abortCutscene: abortMiss
 #END TERROR MISSION SHIP
-
-#BEGIN TERROR MISSION DOCKED SHIP
-  - type: STR_TERROR_MISSION_DOCKED_SHIP
-    data: *TERROR_SETS
-    width: 60
-    length: 60
-    height: 8
-    civilians: 18
-    civiliansByType: *CIVIANS_BY_TYPE_TERROR
-    terrains:
-      - PORTCARGOSHIP
-      - PORTLINERSHIP
-    alert: STR_ALIENS_TERRORISE
-    alertBackground: BACK03.SCR
-    briefing:
-      title: STR_TERROR_MISSION_PORT
-      desc: STR_TERROR_MISSION_PORT_BRIEFING
-      palette: 2
-      music: GMENBASE
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 2000
-    cheatTurn: 7
-    winCutscene: winMiss
-    loseCutscene: loseMiss
-    abortCutscene: abortMiss
-#END TERROR MISSION DOCKED SHIP
 ##END TERRORMISSIONS
 ###END ALIEN DEPLOYMENTS

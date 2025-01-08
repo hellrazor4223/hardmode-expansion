@@ -708,39 +708,39 @@ ufos:
 
 ##BEGIN SPECIAL UFOS
 #BEGIN CARGOSHIPPORT
-  - type: STR_CARGOSHIPPORT
-    battlescapeTerrainData:
-      name: CARGOSHIPPORT
-      mapDataSets:
-        - BLANKS
-        - SEAURBAN
-        - CARGOSHIP1
-        - CARGOSHIP2
-        - CARGOSHIP3
-        - CARGOSHIP4
-        - U_PODS
-      mapBlocks:
-        - name: CARGOSHIPPORT
-          width: 30
-          length: 70
+#  - type: STR_CARGOSHIPPORT
+#    battlescapeTerrainData:
+#      name: CARGOSHIPPORT
+#      mapDataSets:
+#        - BLANKS
+#        - SEAURBAN
+#        - CARGOSHIP1
+#        - CARGOSHIP2
+#        - CARGOSHIP3
+#        - CARGOSHIP4
+#        - U_PODS
+#      mapBlocks:
+#        - name: CARGOSHIPPORT
+#          width: 30
+#          length: 70
 #END CARGOSHIPPORT
 
 #BEGIN LINERSHIPPORT
-  - type: STR_LINERSHIPPORT
-    battlescapeTerrainData:
-      name: LINERSHIPPORT
-      mapDataSets:
-        - BLANKS
-        - DECKSHIPUFO
-        - LINERSHIPA
-        - LINERSHIPB
-        - LINERSHIPC
-        - LINERSHIPD
-        - SEAURBAN
-      mapBlocks:
-        - name: LINERSHIPPORT
-          width: 30
-          length: 70
+#  - type: STR_LINERSHIPPORT
+#    battlescapeTerrainData:
+#      name: LINERSHIPPORT
+#      mapDataSets:
+#        - BLANKS
+#        - DECKSHIPUFO
+#        - LINERSHIPA
+#        - LINERSHIPB
+#        - LINERSHIPC
+#        - LINERSHIPD
+#        - SEAURBAN
+#      mapBlocks:
+#        - name: LINERSHIPPORT
+#          width: 30
+#          length: 70
 #END LINERSHIPPORT
 ##END SPECIAL UFOS
 ###END UFOS

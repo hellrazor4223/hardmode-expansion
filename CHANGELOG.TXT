@@ -6,6 +6,7 @@ Version 0.99.9.6
  - Fix Alien Data Slate Occurance
  - Update Language files for more translations
  - Adjust Alien Missions and Scoring slightly
+ - Add Terrorships Spawn on Terrorsites
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation
