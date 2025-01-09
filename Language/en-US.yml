@@ -168,6 +168,7 @@ en-US:
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Drones to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Drones in smoke cover might attract enemy grenades."
 
   STR_DRONE_SCOUT: "Drone/Scout"
+  DRONE_SCOUT_ARMOR: "Combat Analysis: Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
   STR_DRONE_SCOUT_REPAIR: "Repair Drone/Scout"
   STR_DRONE_SCOUT_UFOPEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire."
@@ -181,6 +182,7 @@ en-US:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Drone/Scout -> Alloy Taser"
 
   STR_DRONE_SCANNER: "Drone/Scanner"
+  DRONE_SCANNER_ARMOR: "Combat Analysis: Drone/Scanner"
   STR_DRONE_SCANNER_WEAPON: "Drone Motion Scanner"
   STR_DRONE_SCANNER_CORPSE: "Damaged Drone/Scanner"
   STR_DRONE_SCANNER_REPAIR: "Repair Drone/Scanner"
@@ -194,6 +196,7 @@ en-US:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drone/Scanner -> Alloy Taser"
 
   STR_DRONE_MEDIKIT: "Drone/Medikit"
+  DRONE_MEDIKIT_ARMOR: "Combat Analysis: Drone/Medikit"
   STR_DRONE_MEDIKIT_WEAPON: "Drone Medikit"
   STR_DRONE_MEDIKIT_CORPSE: "Damaged Drone/Medikit"
   STR_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
@@ -207,6 +210,7 @@ en-US:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drone/Medikit -> Alloy Taser"
 
   STR_DRONE_TASER: "Drone/Taser"
+  DRONE_TASER_ARMOR: "Combat Analysis: Drone/Taser"
   STR_DRONE_TASER_WEAPON: "Drone Taser"
   STR_DRONE_TASER_WEAPON_AMMO: "Drone Taser Charges"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "Drone Taser Charges [x10]"
@@ -225,6 +229,7 @@ en-US:
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "The technological advancements with Alien Alloys allowed for a stronger chase for the smoke launcher, giving it slightly higher range then our base design version. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Alloy Drones in smoke cover might attract enemy grenades."
 
   STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
+  ALLOY_DRONE_SCOUT_ARMOR: "Combat Analysis: Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
@@ -238,6 +243,7 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: "Alloy Drone/Scout -> Hover Taser"
 
   STR_ALLOY_DRONE_SCANNER: "Alloy Drone/Scanner"
+  ALLOY_DRONE_SCANNER_ARMOR: "Combat Analysis: Alloy Drone/Scanner"
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Alloy Drone Motion Scanner"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "Damaged Alloy Drone/Scanner"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "Repair Alloy Drone/Scanner"
@@ -252,6 +258,7 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: "Alloy Drone/Scanner -> Hover Taser"
 
   STR_ALLOY_DRONE_MEDIKIT: "Alloy Drone/Medikit"
+  ALLOY_DRONE_MEDIKIT_ARMOR: "Combat Analysis: Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Alloy Drone/Medikit"
@@ -266,6 +273,7 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: "Alloy Drone/Medikit -> Hover Taser"
 
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT: "Alloy Drone/Adv. Medikit"
+  ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR: "Combat Analysis: Alloy Drone/Adv. Medikit"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "Alloy Drone Advanced Medikit"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: "Damaged Alloy Drone/Adv. Medikit"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: "Repair Alloy Drone/Adv. Medikit"
@@ -279,6 +287,7 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "Alloy Drone/Adv. Medikit -> Hover Taser"
 
   STR_ALLOY_DRONE_TASER: "Alloy Drone/Taser"
+  ALLOY_DRONE_TASER_ARMOR: "Combat Analysis: Alloy Drone/Taser"
   STR_ALLOY_DRONE_TASER_WEAPON: "Alloy Drone Taser"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Alloy Drone Taser Charges"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Enhanced Drone Taser Charges [x10]"
@@ -298,6 +307,7 @@ en-US:
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "Further advancing our engineering capabilities has also given us a boost in regard of the smoke pellets deploy range and capacity, which will allow for a effective way to hide before our enemies line of sight. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hoverdrones in smoke cover might attract enemy grenades."
 
   STR_HOVERDRONE_SCOUT: "Hoverdrone/Scout"
+  HOVERDRONE_SCOUT_ARMOR: "Combat Analysis: Hoverdrone/Scout"
   STR_HOVERDRONE_SCOUT_CORPSE: "Damaged Hoverdrone/Scout"
   STR_HOVERDRONE_SCOUT_REPAIR: "Repair Hoverdrone/Scout"
   STR_HOVERDRONE_SCOUT_UFOPEDIA: "The scout version of our 3D maneuverable drones, features the same damage absorbtion as our floating Heavy Weapon Plattforms combined with a smaller size. Optimal for seaking out enemies in obscure or dangerous places. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
@@ -306,6 +316,7 @@ en-US:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: "Hoverdrone/Scout -> Hover Taser"
 
   STR_HOVERDRONE_SCANNER: "Hoverdrone/Scanner"
+  HOVERDRONE_SCANNER_ARMOR: "Combat Analysis: Hoverdrone/Scanner"
   STR_HOVERDRONE_SCANNER_WEAPON: "Hoverdrone Motion Scanner"
   STR_HOVERDRONE_SCANNER_CORPSE: "Damaged Hoverdrone/Scanner"
   STR_HOVERDRONE_SCANNER_REPAIR: "Repair Hoverdrone/Scanner"
@@ -315,6 +326,7 @@ en-US:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: "Hoverdrone/Scanner -> Hover Taser"
 
   STR_HOVERDRONE_ADVANCED_MEDIKIT: "Hoverdrone/Adv. Medikit"
+  HOVERDRONE_ADVANCED_MEDIKIT_ARMOR: "Combat Analysis: Hoverdrone/Adv. Medikit"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: "Hoverdrone Advanced Medikit"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: "Damaged Hoverdrone/Adv. Medikit"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: "Repair Hoverdrone/Adv. Medikit"
@@ -324,6 +336,7 @@ en-US:
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "Hoverdrone/Adv. Medikit -> Hover Taser"
 
   STR_HOVERDRONE_TASER: "Hoverdrone/Taser"
+  HOVERDRONE_TASER_ARMOR: "Combat Analysis: Hoverdrone/Taser"
   STR_HOVERDRONE_TASER_WEAPON: "Hoverdrone Taser"
   STR_HOVERDRONE_TASER_CORPSE: "Damaged Hoverdrone/Taser"
   STR_HOVERDRONE_TASER_REPAIR: "Repair Hoverdrone/Taser"
@@ -337,6 +350,7 @@ en-US:
   STR_TANK_SMOKE_WEAPON: "Tank Smoke Launcher"
   STR_TANK_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Tanks to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Tanks in smoke cover might attract enemy grenades."
 
+  TANK_CANNON_ARMOR: "Combat Analysis: Tank/Cannon"
   STR_TANK_CANNON_CORPSE: "Damaged Tank/Cannon"
   STR_TANK_CANNON_REPAIR: "Repair Tank/Cannon"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: "Tank/Cannon -> Rocket"
@@ -345,6 +359,7 @@ en-US:
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: "Tank/Cannon -> Alloy Rocket"
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: "Tank/Cannon -> Alloy Laser"
 
+  TANK_ROCKET_LAUNCHER_ARMOR: "Combat Analysis: Tank/Rocket"
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Tank/Rocket"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Tank/Rocket"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: "Tank/Rocket -> Cannon"
@@ -353,6 +368,7 @@ en-US:
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "Tank/Rocket -> Alloy Rocket"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Tank/Rocket -> Alloy Laser"
 
+  TANK_LASER_CANNON_ARMOR: "Combat Analysis: Tank/Laser"
   STR_TANK_LASER_CANNON_CORPSE: "Damaged Tank/Laser"
   STR_TANK_LASER_CANNON_REPAIR: "Repair Tank/Laser"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "Tank/Laser -> Alloy Cannon"
@@ -363,6 +379,7 @@ en-US:
   STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: "The technological advancements with Alien Alloys allowed for a stronger chase for the smoke launcher, giving it slightly higher range then our base design version. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Alloy Tanks in smoke cover might attract enemy grenades."
 
   STR_ALLOY_TANK_CANNON: "Alloy Tank/Cannon"
+  ALLOY_TANK_CANNON_ARMOR: "Combat Analysis: Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_REPAIR: "Repair Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_UFOPEDIA: "This is a standard Canon HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but it is slightly faster can take much more abuse."
@@ -370,7 +387,8 @@ en-US:
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: "Alloy Tank/Cannon -> Alloy Laser"
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_HOVER_LASER: "Alloy Tank/Cannon -> Hover Laser"
 
-  STR_ALLOY_TANK_ROCKET_LAUNCHER: "Alloy Tank/Rocket Launcher"
+  STR_ALLOY_TANK_ROCKET_LAUNCHER: "Alloy Tank/Rocket"
+  ALLOY_TANK_ROCKET_LAUNCHER_ARMOR: "Combat Analysis: Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "This is a standard Rocket Launcher HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but its longevity under fire has been greatly increased, and it is somewhat quicker."
@@ -379,6 +397,7 @@ en-US:
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: "Alloy Tank/Rocket -> Hover Laser"
 
   STR_ALLOY_TANK_LASER_CANNON: "Alloy Tank/Laser"
+  ALLOY_TANK_LASER_CANNON_ARMOR: "Combat Analysis: Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: "Damaged Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "Repair Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor."
@@ -388,6 +407,7 @@ en-US:
   STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: "Replicating the UFO base designs allowed some further advancements with the Smoke launching chasey, extending its range further then before. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hovertanks are able to smoke each other in midair, be advised that floating Hovertanks might not be able to gain smoke cover be themselves. They might attract grenades."
 
   STR_HOVERTANK_LASER: "Hovertank/Laser"
+  HOVERTANK_LASER_ARMOR: "Combat Analysis: Hovertank/Laser"
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
   STR_HOVERTANK_LASER_REPAIR: "Repair Hovertank/Laser"
   STR_HOVERTANK_LASER_UFOPEDIA: "This complete new tank design is based upon UFO technology and our own laser technology. It combines 3 dimensional mobility and the firepower of the Laser Cannon into a very deadly combination."
@@ -398,12 +418,14 @@ en-US:
   STR_HWP_EBOMB_LAUNCHER: "Elerium Bomb Launcher"
   STR_HWP_EBOMB: "HWP Elerium Bomb"
   STR_HOVERTANK_EBOMB: "Hovertank/Elerium Bomb"
+  HOVERTANK_EBOMB_ARMOR: "Combat Analysis: Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_CORPSE: "Damaged Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_REPAIR: "Repair Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_UFOPEDIA: "This tank design combines UFO technology and Small Launcher weaponry. The ability to fire Elerium Bombs from within midair should be deadly to most foes. It's main purpose is similar to our tracked Rocket Launcher tanks, but with an increased clip size."
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: "Hovertank/EBomb -> Hover Plasma"
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: "Hovertank/EBomb -> Hover Launcher"
 
+  HOVERTANK_PLASMA_ARMOR: "Combat Analysis: Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_CORPSE: "Damaged Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_REPAIR: "Repair Hovertank/Plasma"
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "Hovertank/Plasma -> Hover Launcher"
@@ -416,12 +438,14 @@ en-US:
   STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "Attaching our already advanced Smoke Launcher to converted enemy weaponry, showed some big advantages, we were able to nearly double the ammo capacity for it. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Walkertanks are able to create an thick smoke screen between themselves or friends and any enemy unit nearby. Be advised that Walkertanks in smoke cover might attract Blaster Bombs or Grenades from the enemy."
 
   STR_WALKERTANK_LASER: "Walkertank/Laser"
+  WALKERTANK_LASER_ARMOR: "Combat Analysis: Walkertank/Laser"
   STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"
   STR_WALKERTANK_LASER_REPAIR: "Repair Walkertank/Laser"
   STR_WALKERTANK_LASER_UFOPEDIA: "Destroying the psionic link between a Sectopod and his mindpowered masters, allows us to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process and had to be removed, resulting in a slower processing speed, but lowered the vulnerability for laser weapons. We need a undamaged Sectopod to attempt a hack."
   STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "Walkertank/Laser -> Walker Plasma"
 
   STR_WALKERTANK_PLASMA: "Walkertank/Plasma"
+  WALKERTANK_PLASMA_ARMOR: "Combat Analysis: Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_CORPSE: "Damaged Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_REPAIR: "Repair Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_UFOPEDIA: "After cutting the psionic link, so this unit is no longer controlleable by Ethereals, we managed to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process, resulting in a slower processing speed. We need a undamaged Armored Sectopod to attempt a hack."
@@ -614,6 +638,7 @@ en-US:
 #END STORY ITEMS
 
 #BEGIN ALIEN RACES
+  FLOATER_ARMOR0: "Combat Analysis: Floater"
   STR_FLOATER_1: "Floater"
   STR_FLOATER_3: "Floater"
   STR_FLOATER_5: "Floater"
@@ -624,6 +649,7 @@ en-US:
   STR_FLOATER_13: "Floater"
   STR_FLOATER_15: "Floater"
 
+  SECTOID_ARMOR0: "Combat Analysis: Sectoid"
   STR_SECTOID_3: "Sectoid"
   STR_SECTOID_5: "Sectoid"
   STR_SECTOID_7: "Sectoid"
@@ -633,6 +659,7 @@ en-US:
   STR_SECTOID_13: "Sectoid"
   STR_SECTOID_15: "Sectoid"
 
+  SNAKEMAN_ARMOR0: "Combat Analysis: Snakeman"
   STR_SNAKEMAN_5: "Snakeman"
   STR_SNAKEMAN_7: "Snakeman"
   STR_SNAKEMAN_8: "Snakeman"
@@ -641,6 +668,7 @@ en-US:
   STR_SNAKEMAN_13: "Snakeman"
   STR_SNAKEMAN_15: "Snakeman"
 
+  MUTON_ARMOR0: "Combat Analysis: Muton"
   STR_MUTON_7: "Muton"
   STR_MUTON_8: "Muton"
   STR_MUTON_10: "Muton"
@@ -648,6 +676,7 @@ en-US:
   STR_MUTON_13: "Muton"
   STR_MUTON_15: "Muton"
 
+  WASPITE_ARMOR0: "Combat Analysis: Waspite"
   STR_WASPITE: "Waspite"
   STR_WASPITE_8: "Waspite"
   STR_WASPITE_10: "Waspite"
@@ -665,6 +694,7 @@ en-US:
   STR_WASPITE_AUTOPSY: "Waspite autopsy"
   STR_WASPITE_AUTOPSY_UFOPEDIA: "The anatomy of this creature verges on insanity. The body consists of a spiral life support system device, combined with a symbiotic, bioengineered plant. Grafted on to the body, are a pair of mechanical arms and the insect-like head of the creature, which is presumably the only piece left of the original species. The plant portion of the body is vulnerable to fire."
 
+  GAZER_ARMOR0: "Combat Analysis: Gazer"
   STR_GAZER: "Gazer"
   STR_GAZER_10: "Gazer"
   STR_GAZER_12: "Gazer"
@@ -681,6 +711,7 @@ en-US:
   STR_GAZER_AUTOPSY: "Gazer autopsy"
   STR_GAZER_AUTOPSY_UFOPEDIA: "The single big eye is the most prominent anatomical feature of this alien; it has crustacean traits but it is much more evolved. The very thick armor is not simply worn; cybernetic implants stem from it and connect to the organs of the creature, it is a shell for the creature."
 
+  SECTOID_ELITE_ARMOR0: "Combat Analysis: Sectoid Elite"
   STR_SECTOID_ELITE: "Sectoid Elite"
   STR_SECTOID_ELITE_12: "Sectoid Elite"
   STR_SECTOID_ELITE_13: "Sectoid Elite"
@@ -696,6 +727,7 @@ en-US:
   STR_SECTOID_ELITE_AUTOPSY: "Sectoid Elite autopsy"
   STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA: "This species are indeed Sectoids, but their DNA is in some small part largely different, which would explain the slightly different proportions, the increased vitality and the much more powerful psionic powers."
 
+  MUTON_ELITE_ARMOR0: "Combat Analysis: Muton Elite"
   STR_MUTON_ELITE: "Muton Elite"
   STR_MUTON_ELITE_13: "Muton Elite"
   STR_MUTON_ELITE_15: "Muton Elite"
@@ -708,8 +740,10 @@ en-US:
   STR_MUTON_ELITE_AUTOPSY: "Muton Elite autopsy"
   STR_MUTON_ELITE_AUTOPSY_UFOPEDIA: "This specimen is identically to normal Mutons, but has undergone severe changes. Especially the armor has been significantly improved, also more implants for enemy tracking and more survival ability."
 
+  ETHEREAL_ARMOR0: "Combat Analysis: Ethereal"
   STR_ETHEREAL_15: "Ethereal"
 
+  MUTON_ELITE_GUARD_ARMOR0: "Combat Analysis: Muton Elite Guard"
   STR_MUTON_ELITE_GUARD: "Muton Elite Guard"
   STR_MUTON_ELITE_GUARD_SOLDIER: "Muton Elite Guard Soldier"
   STR_MUTON_ELITE_GUARD_ENGINEER: "Muton Elite Guard Engineer"
@@ -719,6 +753,19 @@ en-US:
   STR_MUTON_ELITE_GUARD_AUTOPSY: "Muton Elite Guard autopsy"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: "This creatures body shows a lot of battlescars and a lot of additional cybernetic implants, we also found signs of a strange form of drug in the bloodstream, it seems to instill total obedience and further testing has proven that several core body functions are starting to shut down if the druglevel in the bloodstream falls under a certain level. The outer skin is more a combat suit then a skin, highly resistant to laser, plasma and high explosive damage, it can be compared to our power suits."
 
+  REAPER_ARMOR: "Combat Analysis: Reaper"
+
+  SILACOID_ARMOR: "Combat Analysis: Silacoid"
+
+  CYBERDISC_ARMOR: "Combat Analysis: Cyberdisc"
+
+  REAPER_ARMOR: "Combat Analysis: Reaper"
+
+  CHRYSSALID_ARMOR: "Combat Analysis: Chryssalid"
+
+  CELATID_ARMOR: "Combat Analysis: Celatid"
+
+  MUTON_BERSERKER_ARMOR: "Combat Analysis: Muton Berserker"
   STR_MUTON_BERSERKER: "Muton Berserker"
   STR_MUTON_BERSERKER_TERRORIST: "Muton Berserker Terrorist"
   STR_MUTON_BERSERKER_UFOPEDIA: "This hulking creature appears to be a subspecies of the Muton. It's much the same as the 'standard' variety, though overactive glands presumed similar to adrenal glands constantly flood its system with a hormone that keeps the creature in a constant state of rage, dulling its senses and giving it remarkable pain resistance. Its intelligence is sharply reduced compared to that of a standard Muton, so it seems to attack exclusively in close quarters."
@@ -727,13 +774,17 @@ en-US:
   STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: "Our initial findings shed a really dreadfull light on this creature. It is in its purest form a Muton, we only could identify really small changes in its genetic structure, mainly enforcing induced hormone levels to enrage it basically permanently. The induced pain reception and slightly hardened outer skin, allow significant damage reduction from all weapons."
 
   STR_CYBERMITE: "Cybermite"
+  CYBERMITE_ARMOR: "Combat Analysis: Cybermite"
   STR_CYBERMITE_TERRORIST: "Cybermite Terrorist"
   STR_CYBERMITE_CORPSE: "Cybermite Corpse"
   STR_CYBERMITE_UFOPEDIA: "This miniature robot is an automated terror weapon and represents the pinnacle of the alien robotics. As soon as the powerful optical sensor spots a target, the creature runs to it and attacks. The miniaturized elerium core is set to ignite and explode once damaged enough, making the act of killing the creature deadly for anyone nearby."
   STR_CYBERMITE_AUTOPSY: "Cybermite autopsy"
   STR_CYBERMITE_AUTOPSY_UFOPEDIA: "The most prominent feature of incredibly complex robot is its weapon, an alloy sting linked to a miniaturized tank which, from the traces found, is presumably filled with a potent toxin. The power core is too damaged to be fully understood but it seems to be designed to be very susceptible to damage and its likely this will cause it to explode."
 
+  SECTOPOD_ARMOR: "Combat Analysis: Sectopod"
+
   STR_HOLODRONE: "Holodrone"
+  HOLODRONE_ARMOR: "Combat Analysis: Holodrone"
   STR_HOLODRONE_TERRORIST: "Holodrone Terrorist"
   STR_HOLODRONE_UFOPEDIA: "Holodrones are living, floating, artillery weapons. They are protected by plasma a bubble that interferes with plasma attacks and fire. It could be that they were developed specifically to fight plasma-equipped enemies. The mechanism runs too hot and radioactive to be applied to a human armor."
   STR_HOLODRONE_CORPSE: "Holodrone Corpse"
@@ -741,6 +792,7 @@ en-US:
   STR_HOLODRONE_AUTOPSY_UFOPEDIA: "A very complex automaton powered by a massive, for its size, elerium core. Two shafts stretch from this core and are used to spread the plasma bubble that envelops the creature. It is also evident that the core can overcharge and collect this extra energy to generate a powerful laser beam."
 
   STR_ARMORED_CYBERDISC: "Armored Cyberdisc"
+  ARMORED_CYBERDISC_ARMOR: "Combat Analysis: Armored Cyberdisc"
   STR_ARMORED_CYBERDISC_TERRORIST: "Armored Cyberdisc Terrorist"
   STR_ARMORED_CYBERDISC_UFOPEDIA: "This seems to be a upgraded version of the priviously encountered Cyberdisc, which we have faced in some serious fights. It's weapon was upgraded and is now capable of autofire."
   STR_ARMORED_CYBERDISC_CORPSE: "Armored Cyberdisc Corpse"
@@ -748,6 +800,7 @@ en-US:
   STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "This Cyberdiscs armor has been significantly improved, making it highly resitant to High Explosive ammunition and very resistent to conventional weapons, lasers are recommended to destroy it."
 
   STR_ARMORED_SECTOPOD: "Armored Sectopod"
+  ARMORED_SECTOPOD_ARMOR: "Combat Analysis: Armored Sectopod"
   STR_ARMORED_SECTOPOD_TERRORIST: "Armored Sectopod Terrorist"
   STR_ARMORED_SECTOPOD_UFOPEDIA: "An improved version of the Sectopod that we encountered before. Its weapon is now capable of a destructive autofire and it is much tougher to destroy. The vulnerability towards laser weapons also doesn't exist anymore."
   STR_ARMORED_SECTOPOD_CORPSE: "Armored Sectopod Corpse"
@@ -755,6 +808,7 @@ en-US:
   STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: "This Sectopods armor was improved, to make it more resistant against Laser Weapons, Stun Weapons and High explosives, it now is a really significant threat on the battlefield. Featuring a modified Heavy Plasma as its main cannon it can fire autobursts with 5 shots. Our best chance in destroying those hulking deathmachines seems to be either melee combat or a flanking attempt, since the front armor is nearly impenetrable."
 
   STR_CHRYSSALID_SPITTER: "Chryssalid Spitter"
+  CHRYSSALID_SPITTER_ARMOR: "Combat Analysis: Chryssalid Spitter"
   STR_CHRYSSALID_SPITTER_TERRORIST: "Chryssalid Spitter Terrorist"
   STR_CHRYSSALID_SPITTER_UFOPEDIA: "This creature resembles an evolved Chryssalid. It retains the claws of its cousins, but also has the ability to spit its eggs quite a long way. It appears that the eggs are propelled by an extremely strong acid capable of eating through alien alloys."
   STR_CHRYSSALID_SPITTER_CORPSE: "Chryssalid Spitter Corpse"

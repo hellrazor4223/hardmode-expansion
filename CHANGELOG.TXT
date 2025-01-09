@@ -7,6 +7,7 @@ Version 0.99.9.6
  - Update Language files for more translations
  - Adjust Alien Missions and Scoring slightly
  - Add Terrorships Spawn on Terrorsites
+ - Add Ufopaedia Articles for Armors / Combat Analysis
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

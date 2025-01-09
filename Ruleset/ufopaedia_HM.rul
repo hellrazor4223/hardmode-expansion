@@ -480,6 +480,12 @@ ufopaedia:
     text: STR_DRONE_SCOUT_UFOPEDIA
     weapon: STR_DRONE_SMOKE_WEAPON
     listOrder: 2850
+  - id: DRONE_SCOUT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+    listOrder: 2851
 #END DRONE SCOUT UFOPAEDIA
 
 #BEGIN DRONE SCANNER UFOPAEDIA
@@ -492,7 +498,14 @@ ufopaedia:
     image_id: DRONE_SCANNER.SPK
     text: STR_DRONE_SCANNER_UFOPEDIA
     weapon: STR_DRONE_SCANNER_WEAPON
-    listOrder: 2851
+    listOrder: 2852
+  - id: DRONE_SCANNER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MOTION_SCANNER
+    listOrder: 2853
 #END DRONE SCANNER UFOPAEDIA
 
 #BEGIN DRONE MEDIKIT UFOPAEDIA
@@ -505,7 +518,14 @@ ufopaedia:
     image_id: DRONE_MEDIKIT.SPK
     text: STR_DRONE_MEDIKIT_UFOPEDIA
     weapon: STR_DRONE_MEDIKIT_WEAPON
-    listOrder: 2852
+    listOrder: 2854
+  - id: DRONE_MEDIKIT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_MEDI_KIT
+    listOrder: 2855
 #END DRONE MEDIKIT UFOPAEDIA
 
 #BEGIN DRONE TASER UFOPAEDIA
@@ -518,7 +538,14 @@ ufopaedia:
     image_id: DRONE_TASER.SPK
     text: STR_DRONE_TASER_UFOPEDIA
     weapon: STR_DRONE_TASER_WEAPON
-    listOrder: 2853
+    listOrder: 2856
+  - id: DRONE_TASER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ELERIUM_115
+    listOrder: 2857
 #END DRONE TASER UFOPAEDIA
 
 #BEGIN ALLOY DRONE SMOKE WEAPON
@@ -529,7 +556,7 @@ ufopaedia:
       - STR_SUPPORT_DRONES
       - STR_ALLOY_DRONE_ARMOR
     text: STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA
-    listOrder: 2854
+    listOrder: 2858
 #END DRONE SMOKE WEAPON
 
 #BEGIN ALLOY DRONE SCOUT UFOPAEDIA
@@ -542,7 +569,14 @@ ufopaedia:
     image_id: ALLOY_DRONE_SCOUT.SPK
     text: STR_ALLOY_DRONE_SCOUT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_SMOKE_WEAPON
-    listOrder: 2855
+    listOrder: 2859
+  - id: ALLOY_DRONE_SCOUT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
+    listOrder: 2860
 #END ALLOY DRONE SCOUT UFOPAEDIA
 
 #BEGIN ALLOY DRONE SCANNER UFOPAEDIA
@@ -556,7 +590,15 @@ ufopaedia:
     image_id: ALLOY_DRONE_SCANNER.SPK
     text: STR_ALLOY_DRONE_SCANNER_UFOPEDIA
     weapon: STR_ALLOY_DRONE_SCANNER_WEAPON
-    listOrder: 2856
+    listOrder: 2861
+  - id: ALLOY_DRONE_SCANNER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_MOTION_SCANNER
+    listOrder: 2862
 #END ALLOY DRONE SCANNER UFOPAEDIA
 
 #BEGIN ALLOY DRONE MEDIKIT UFOPAEDIA
@@ -570,7 +612,15 @@ ufopaedia:
     image_id: ALLOY_DRONE_MEDIKIT.SPK
     text: STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_MEDIKIT_WEAPON
-    listOrder: 2857
+    listOrder: 2863
+  - id: ALLOY_DRONE_MEDIKIT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_MEDI_KIT
+    listOrder: 2864
 #END ALLOY DRONE MEDIKIT UFOPAEDIA
 
 #BEGIN ALLOY DRONE ADVANCED MEDIKIT UFOPAEDIA
@@ -584,7 +634,15 @@ ufopaedia:
     image_id: ALLOY_DRONE_ADVANCED_MEDIKIT.SPK
     text: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON
-    listOrder: 2858
+    listOrder: 2865
+  - id: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_ADVANCED_MEDI_KIT
+    listOrder: 2866
 #END ALLOY DRONE ADVANCED MEDIKIT UFOPAEDIA
 
 #BEGIN ALLOY DRONE TASER UFOPAEDIA
@@ -598,7 +656,15 @@ ufopaedia:
     image_id: ALLOY_DRONE_TASER.SPK
     text: STR_ALLOY_DRONE_TASER_UFOPEDIA
     weapon: STR_ALLOY_DRONE_TASER_WEAPON
-    listOrder: 2859
+    listOrder: 2867
+  - id: ALLOY_DRONE_TASER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_ALLOY_DRONE_ARMOR
+      - STR_ELERIUM_115
+    listOrder: 2868
 #END ALLOY DRONE TASER UFOPAEDIA
 
 #BEGIN HOVERDRONE SMOKE WEAPON
@@ -609,7 +675,7 @@ ufopaedia:
       - STR_SUPPORT_DRONES
       - STR_HOVERDRONE_ARMOR
     text: STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA
-    listOrder: 2860
+    listOrder: 2869
 #END DRONE SMOKE WEAPON
 
 #BEGIN HOVERDRONE SCOUT UFOPAEDIA
@@ -622,7 +688,14 @@ ufopaedia:
     image_id: HOVERDRONE_SCOUT.SPK
     text: STR_HOVERDRONE_SCOUT_UFOPEDIA
     weapon: STR_HOVERDRONE_SMOKE_WEAPON
-    listOrder: 2861
+    listOrder: 2870
+  - id: HOVERDRONE_SCOUT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
+    listOrder: 2871
 #END HOVERDRONE SCOUT UFOPAEDIA
 
 #BEGIN HOVERDRONE SCANNER UFOPAEDIA
@@ -630,13 +703,21 @@ ufopaedia:
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
       - STR_MOTION_SCANNER
     image_id: HOVERDRONE_SCANNER.SPK
     text: STR_HOVERDRONE_SCANNER_UFOPEDIA
     weapon: STR_HOVERDRONE_SCANNER_WEAPON
-    listOrder: 2862
+    listOrder: 2872
+  - id: HOVERDRONE_SCANNER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
+      - STR_MOTION_SCANNER
+    listOrder: 2873
 #END HOVERDRONE SCANNER UFOPAEDIA
 
 #BEGIN HOVERDRONE ADVANCED MEDIKIT UFOPAEDIA
@@ -644,13 +725,21 @@ ufopaedia:
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
       - STR_ADVANCED_MEDI_KIT
     image_id: HOVERDRONE_ADVANCED_MEDIKIT.SPK
     text: STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA
     weapon: STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON
-    listOrder: 2863
+    listOrder: 2874
+  - id: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
+      - STR_ADVANCED_MEDI_KIT
+    listOrder: 2875
 #END HOVERDRONE ADVANCED MEDIKIT UFOPAEDIA
 
 #BEGIN HOVERDRONE TASER UFOPAEDIA
@@ -658,13 +747,21 @@ ufopaedia:
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_HOVERDRONE_ARMOR
       - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
       - STR_ELERIUM_115
     image_id: HOVERDRONE_TASER.SPK
     text: STR_HOVERDRONE_TASER_UFOPEDIA
     weapon: STR_HOVERDRONE_TASER_WEAPON
-    listOrder: 2864
+    listOrder: 2876
+  - id: HOVERDRONE_TASER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_SUPPORT_DRONES
+      - STR_HOVERDRONE_ARMOR
+      - STR_ELERIUM_115
+    listOrder: 2877
 #END HOVERDRONE TASER UFOPAEDIA
 
 #BEGIN TANK SMOKE WEAPON
@@ -680,6 +777,10 @@ ufopaedia:
     section: STR_ALIEN_ARTIFACTS
     image_id: TANK_CANNON.SPK
     listOrder: 3000
+  - id: TANK_CANNON_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    listOrder: 3001
 #END TANK CANNON UFOPAEDIA
 
 #BEGIN TANK ROCKET UFOPAEDIA
@@ -687,6 +788,10 @@ ufopaedia:
     section: STR_ALIEN_ARTIFACTS
     image_id: TANK_ROCKET_LAUNCHER.SPK
     listOrder: 3100
+  - id: TANK_ROCKET_LAUNCHER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    listOrder: 3101
 #END TANK ROCKET UFOPAEDIA
 
 #BEGIN TANK LASER UFOPAEDIA
@@ -694,6 +799,12 @@ ufopaedia:
     section: STR_ALIEN_ARTIFACTS
     image_id: TANK_LASER.SPK
     listOrder: 3200
+  - id: TANK_LASER_CANNON_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_LASER_CANNON
+    listOrder: 3201
 #END TANK LASER UFOPAEDIA
 
 #BEGIN ALLOY TANK SMOKE WEAPON
@@ -703,7 +814,7 @@ ufopaedia:
     requires:
       - STR_ALLOY_TANK_ARMOR
     text: STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA
-    listOrder: 3201
+    listOrder: 3202
 #END ALLOY TANK SMOKE WEAPON
 
 #BEGIN ALLOY TANK CANNON UFOPAEDIA
@@ -716,6 +827,12 @@ ufopaedia:
     weapon: STR_CANNON
     text: STR_ALLOY_TANK_CANNON_UFOPEDIA
     listOrder: 3202
+  - id: ALLOY_TANK_CANNON_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    listOrder: 3203
 #END ALLOY TANK CANNON UFOPAEDIA
 
 #BEGIN ALLOY TANK ROCKET UFOPAEDIA
@@ -727,7 +844,13 @@ ufopaedia:
     image_id: ALLOYTANK_ROCKET_LAUNCHER.SPK
     weapon: STR_ROCKET_LAUNCHER
     text: STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA
-    listOrder: 3203
+    listOrder: 3204
+  - id: ALLOY_TANK_ROCKET_LAUNCHER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALLOY_TANK_ARMOR
+    listOrder: 3205
 #END ALLOY TANK ROCKET UFOPAEDIA
 
 #BEGIN ALLOY TANK LASER UFOPAEDIA
@@ -740,7 +863,14 @@ ufopaedia:
     image_id: ALLOYTANK_LASER.SPK
     weapon: STR_LASER_CANNON
     text: STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA
-    listOrder: 3204
+    listOrder: 3206
+  - id: ALLOY_TANK_LASER_CANNON_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_LASER_CANNON
+      - STR_ALLOY_TANK_ARMOR
+    listOrder: 3207
 #END ALLOY TANK LASER UFOPAEDIA
 
 #BEGIN HOVERTANK SMOKE WEAPON
@@ -750,7 +880,7 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA
-    listOrder: 3298
+    listOrder: 3297
 #END HOVERTANK SMOKE WEAPON
 
 #BEGIN HOVERTANK LASER UFOPAEDIA
@@ -763,6 +893,13 @@ ufopaedia:
     image_id: HOVERTANK_LASER.SPK
     weapon: STR_LASER_CANNON
     text: STR_HOVERTANK_LASER_UFOPEDIA
+    listOrder: 3298
+  - id: HOVERTANK_LASER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_LASER_CANNON
+      - STR_HOVERTANK
     listOrder: 3299
 #END HOVERTANK LASER UFOPAEDIA
 
@@ -774,6 +911,13 @@ ufopaedia:
       - STR_HOVERTANK
     image_id: HOVERTANK_PLASMA.SPK
     listOrder: 3300
+  - id: HOVERTANK_PLASMA_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_HOVERTANK
+    listOrder: 3301
 #END HOVERTANK PLASMA UFOPAEDIA
 
 #BEGIN HOVERTANK EBOMB UFOPAEDIA
@@ -781,12 +925,19 @@ ufopaedia:
     type_id: 3
     section: STR_ALIEN_ARTIFACTS
     requires:
-      - STR_HOVERTANK
       - STR_HWP_EBOMB_LAUNCHER
+      - STR_HOVERTANK
     image_id: HOVERTANK_LAUNCHER.SPK
     weapon: STR_HWP_EBOMB_LAUNCHER
     text: STR_HOVERTANK_EBOMB_UFOPEDIA
-    listOrder: 3301
+    listOrder: 3302
+  - id: HOVERTANK_EBOMB_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_HWP_EBOMB_LAUNCHER
+      - STR_HOVERTANK
+    listOrder: 3303
 #END HOVERTANK EBOMB UFOPAEDIA
 
 #BEGIN HOVERTANK LAUNCHER UFOPAEDIA
@@ -797,6 +948,13 @@ ufopaedia:
       - STR_HOVERTANK
     image_id: HOVERTANK_LAUNCHER.SPK
     listOrder: 3400
+  - id: HOVERTANK_LAUNCHER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_FUSION_MISSILE
+      - STR_HOVERTANK
+    listOrder: 3401
 #END HOVERTANK LAUNCHER UFOPAEDIA
 
 #BEGIN WALKERTANK SMOKE WEAPON
@@ -806,7 +964,7 @@ ufopaedia:
     requires:
       - STR_WALKERTANK
     text: STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA
-    listOrder: 3401
+    listOrder: 3402
 #END WALKERTANK SMOKE WEAPON
 
 #BEGIN WALKERTANK LASER UFOPAEDIA
@@ -821,7 +979,16 @@ ufopaedia:
     image_id: WALKERTANK_LASER.SPK
     weapon: STR_LASER_CANNON
     text: STR_WALKERTANK_LASER_UFOPEDIA
-    listOrder: 3401
+    listOrder: 3403
+  - id: WALKERTANK_LASER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_LASER_CANNON
+      - STR_WALKERTANK
+      - STR_SECTOPOD_CORPSE
+      - STR_SECTOPOD_TERRORIST
+    listOrder: 3404
 #END WALKERTANK PLASMA UFOPAEDIA
 
 #BEGIN WALKERTANK PLASMA UFOPAEDIA
@@ -836,7 +1003,16 @@ ufopaedia:
     image_id: WALKERTANK_PLASMA.SPK
     weapon: STR_PLASMA_BEAM
     text: STR_WALKERTANK_PLASMA_UFOPEDIA
-    listOrder: 3402
+    listOrder: 3405
+  - id: WALKERTANK_PLASMA_ARMOR
+    type_id: 5
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_CANNON
+      - STR_WALKERTANK
+      - STR_ARMORED_SECTOPOD_CORPSE
+      - STR_ARMORED_SECTOPOD_TERRORIST
+    listOrder: 3406
 #END WALKERTANK PLASMA UFOPAEDIA
 ##END XCOM TANK UFOPAEDIAS
 
@@ -1547,6 +1723,13 @@ ufopaedia:
   - id: STR_FLOATER_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 7900
+  - id: FLOATER_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_FLOATER
+      - STR_FLOATER_AUTOPSY
+    listOrder: 7901
 #END FLOATER UFOPAEDIA
 
 #BEGIN SECTOID UFOPAEDIA
@@ -1556,6 +1739,13 @@ ufopaedia:
   - id: STR_SECTOID_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 8100
+  - id: SECTOID_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_SECTOID
+      - STR_SECTOID_AUTOPSY
+    listOrder: 8101
 #END SECTOID UFOPAEDIA
 
 #BEGIN SNAKEMAN UFOPAEDIA
@@ -1565,6 +1755,13 @@ ufopaedia:
   - id: STR_SNAKEMAN_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 8300
+  - id: SNAKEMAN_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_SNAKEMAN
+      - STR_SNAKEMAN_AUTOPSY
+    listOrder: 8301
 #END SNAKEMAN UFOPAEDIA
 
 #BEGIN MUTON UFOPAEDIA
@@ -1574,6 +1771,13 @@ ufopaedia:
   - id: STR_MUTON_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 8500
+  - id: SNAKEMAN_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_SNAKEMAN
+      - STR_SNAKEMAN_AUTOPSY
+    listOrder: 8501
 #END MUTON UFOPAEDIA
 
 #BEGIN WASPITE UFOPAEDIA
@@ -1585,7 +1789,7 @@ ufopaedia:
     image_id: WASPITE.SPK
     text: STR_WASPITE_UFOPEDIA
     text_width: 158
-    listOrder: 8501
+    listOrder: 8502
   - id: STR_WASPITE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1594,7 +1798,14 @@ ufopaedia:
     image_id: WASPITE_AUTOPSY.SPK
     text: STR_WASPITE_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 8502
+    listOrder: 8503
+  - id: WASPITE_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_WASPITE
+      - STR_WASPITE_AUTOPSY
+    listOrder: 8504
 #END WASPITE UFOPAEDIA
 
 #BEGIN GAZER UFOPAEDIA
@@ -1606,7 +1817,7 @@ ufopaedia:
     image_id: GAZER.SPK
     text: STR_GAZER_UFOPEDIA
     text_width: 158
-    listOrder: 8503
+    listOrder: 8505
   - id: STR_GAZER_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1615,7 +1826,14 @@ ufopaedia:
     image_id: GAZER_AUTOPSY.SPK
     text: STR_GAZER_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 8504
+    listOrder: 8506
+  - id: GAZER_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_GAZER
+      - STR_GAZER_AUTOPSY
+    listOrder: 8507
 #END GAZER UFOPAEDIA
 
 #BEGIN SECTOID ELITE UFOPAEDIA
@@ -1627,7 +1845,7 @@ ufopaedia:
     image_id: SECTOID_ELITE.SPK
     text: STR_SECTOID_ELITE_UFOPEDIA
     text_width: 158
-    listOrder: 8505
+    listOrder: 8508
   - id: STR_SECTOID_ELITE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1636,7 +1854,14 @@ ufopaedia:
     image_id: SECTOID_ELITE_AUTOPSY.SPK
     text: STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 8506
+    listOrder: 8509
+  - id: SECTOID_ELITE_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_SECTOID_ELITE
+      - STR_SECTOID_ELITE_AUTOPSY
+    listOrder: 8510
 #END SECTOID ELITE UFOPAEDIA
 
 #BEGIN MUTON ELITE UFOPAEDIA
@@ -1648,7 +1873,7 @@ ufopaedia:
     image_id: MUTON_ELITE.SPK
     text: STR_MUTON_ELITE_UFOPEDIA
     text_width: 158
-    listOrder: 8507
+    listOrder: 8511
   - id: STR_MUTON_ELITE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1657,7 +1882,14 @@ ufopaedia:
     image_id: MUTON_ELITE_AUTOPSY.SPK
     text: STR_MUTON_ELITE_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 8508
+    listOrder: 8512
+  - id: MUTON_ELITE_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MUTON_ELITE
+      - STR_MUTON_ELITE_AUTOPSY
+    listOrder: 8513
 #END MUTON ELITE UFOPAEDIA
 
 #BEGIN ETHEREAL UFOPAEDIA
@@ -1667,6 +1899,13 @@ ufopaedia:
   - id: STR_ETHEREAL_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 8700
+  - id: ETHEREAL_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_ETHEREAL
+      - STR_ETHEREAL_AUTOPSY
+    listOrder: 8701
 #END ETHEREAL UFOPAEDIA
 
 #BEGIN MUTON ELITE GUARD UFOPAEDIA
@@ -1678,7 +1917,7 @@ ufopaedia:
     image_id: MUTON_ELITE_GUARD.SPK
     text: STR_MUTON_ELITE_GUARD_UFOPEDIA
     text_width: 158
-    listOrder: 8701
+    listOrder: 8702
   - id: STR_MUTON_ELITE_GUARD_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1687,26 +1926,47 @@ ufopaedia:
     image_id: MUTON_ELITE_GUARD_AUTOPSY.SPK
     text: STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 8702
+    listOrder: 8703
+  - id: MUTON_ELITE_GUARD_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MUTON_ELITE_GUARD
+      - STR_MUTON_ELITE_GUARD_AUTOPSY
+    listOrder: 8704
 #END MUTON ELITE GUARD UFOPAEDIA
-
-#BEGIN SILACOID UFOPAEDIA
-  - id: STR_SILACOID
-    section: STR_ALIEN_RESEARCH_UC
-    listOrder: 8800
-  - id: STR_SILACOID_AUTOPSY
-    section: STR_ALIEN_RESEARCH_UC
-    listOrder: 8900
-#END SILACOID UFOPAEDIA
 
 #BEGIN REAPER UFOPAEDIA
   - id: STR_REAPER
     section: STR_ALIEN_RESEARCH_UC
-    listOrder: 9000
+    listOrder: 8800
   - id: STR_REAPER_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
-    listOrder: 9100
+    listOrder: 8900
+  - id: REAPER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_REAPER
+      - STR_REAPER_AUTOPSY
+    listOrder: 8901
 #END REAPER UFOPAEDIA
+
+#BEGIN SILACOID UFOPAEDIA
+  - id: STR_SILACOID
+    section: STR_ALIEN_RESEARCH_UC
+    listOrder: 9000
+  - id: STR_SILACOID_AUTOPSY
+    section: STR_ALIEN_RESEARCH_UC
+    listOrder: 9100
+  - id: SILACOID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_SILACOID
+      - STR_SILACOID_AUTOPSY
+    listOrder: 9101
+#END SILACOID UFOPAEDIA
 
 #BEGNI CYBERDISC UFOPAEDIA
   - id: STR_CYBERDISC
@@ -1715,6 +1975,13 @@ ufopaedia:
   - id: STR_CYBERDISC_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 9300
+  - id: CYBERDISC_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_CYBERDISC
+      - STR_CYBERDISC_AUTOPSY
+    listOrder: 9301
 #END CYBERDISC UFOPAEDIA
 
 #BEGIN CHRYSSALID UFOPAEDIA
@@ -1724,6 +1991,13 @@ ufopaedia:
   - id: STR_CHRYSSALID_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 9500
+  - id: CHRYSSALID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_CHRYSSALID
+      - STR_CHRYSSALID_AUTOPSY
+    listOrder: 9501
 #END CHRYSSALID UFOPAEDIA
 
 #BEGIN SECTOPOD UFOPAEDIA
@@ -1733,6 +2007,13 @@ ufopaedia:
   - id: STR_SECTOPOD_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 9700
+  - id: SECTOPOD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_SECTOPOD
+      - STR_SECTOPOD_AUTOPSY
+    listOrder: 9701
 #END SECTOPOD UFOPAEDIA
 
 #BEGIN CELATID UFOPAEDIA
@@ -1742,6 +2023,13 @@ ufopaedia:
   - id: STR_CELATID_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 9900
+  - id: CELATID_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_CELATID
+      - STR_CELATID_AUTOPSY
+    listOrder: 9901
 #END CELATID UFOPAEDIA
 
 #BEGIN MUTON BERSERKER UFOPAEDIA
@@ -1763,6 +2051,13 @@ ufopaedia:
     text: STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA
     text_width: 158
     listOrder: 9902
+  - id: MUTON_BERSERKER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MUTON_BERSERKER
+      - STR_MUTON_BERSERKER_AUTOPSY
+    listOrder: 9903
 #END MUTON BERSERKER UFOPAEDIA
 
 #BEGIN CYBERMITE UFOPAEDIA
@@ -1774,7 +2069,7 @@ ufopaedia:
     image_id: CYBERMITE.SPK
     text: STR_CYBERMITE_UFOPEDIA
     text_width: 158
-    listOrder: 9903
+    listOrder: 9904
   - id: STR_CYBERMITE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1783,7 +2078,14 @@ ufopaedia:
     image_id: CYBERMITE_AUTOPSY.SPK
     text: STR_CYBERMITE_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 9904
+    listOrder: 9905
+  - id: CYBERMITE_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_CYBERMITE
+      - STR_CYBERMITE_AUTOPSY
+    listOrder: 9906
 #END CYBERMITE UFOPAEDIA
 
 #BEGIN HOLODRONE UFOPAEDIA
@@ -1795,7 +2097,7 @@ ufopaedia:
     image_id: HOLODRONE.SPK
     text: STR_HOLODRONE_UFOPEDIA
     text_width: 158
-    listOrder: 9905
+    listOrder: 9907
   - id: STR_HOLODRONE_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1804,7 +2106,14 @@ ufopaedia:
     image_id: HOLODRONE_AUTOPSY.SPK
     text: STR_HOLODRONE_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 9906
+    listOrder: 9908
+  - id: HOLODRONE_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_HOLODRONE
+      - STR_HOLODRONE_AUTOPSY
+    listOrder: 9909
 #END HOLODRONE UFOPAEDIA
 
 #BEGIN ARMORED CYBERDISC UFOPAEDIA
@@ -1816,7 +2125,7 @@ ufopaedia:
     image_id: ARMORED_CYBERDISC.SPK
     text: STR_ARMORED_CYBERDISC_UFOPEDIA
     text_width: 158
-    listOrder: 9907
+    listOrder: 9910
   - id: STR_ARMORED_CYBERDISC_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1825,7 +2134,14 @@ ufopaedia:
     image_id: ARMORED_CYBERDISC_AUTOPSY.SPK
     text: STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 9908
+    listOrder: 9911
+  - id: ARMORED_CYBERDISC_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_ARMORED_CYBERDISC
+      - STR_ARMORED_CYBERDISC_AUTOPSY
+    listOrder: 9912
 #END ARMORED CYBERDISC UFOPAEDIA
 
 #BEGIN ARMORED SECTOPOD UFOPAEDIA
@@ -1837,7 +2153,7 @@ ufopaedia:
     image_id: ARMORED_SECTOPOD.SPK
     text: STR_ARMORED_SECTOPOD_UFOPEDIA
     text_width: 158
-    listOrder: 9909
+    listOrder: 9913
   - id: STR_ARMORED_SECTOPOD_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1846,7 +2162,14 @@ ufopaedia:
     image_id: ARMORED_SECTOPOD_AUTOPSY.SPK
     text: STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 9910
+    listOrder: 9914
+  - id: ARMORED_SECTOPOD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_ARMORED_SECTOPOD
+      - STR_ARMORED_SECTOPOD_AUTOPSY
+    listOrder: 9915
 #END ARMORED SECTOPOD UFOPAEDIA
 
 #BEGIN CHRYSSALID SPITTER UFOPAEDIA
@@ -1858,7 +2181,7 @@ ufopaedia:
     image_id: CHRYSSALID_SPITTER.SPK
     text: STR_CHRYSSALID_SPITTER_UFOPEDIA
     text_width: 158
-    listOrder: 9911
+    listOrder: 9916
   - id: STR_CHRYSSALID_SPITTER_AUTOPSY
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
@@ -1867,7 +2190,14 @@ ufopaedia:
     image_id: CHRYSSALID_SPITTER_AUTOPSY.SPK
     text: STR_CHRYSSALID_SPITTER_AUTOPSY_UFOPEDIA
     text_width: 158
-    listOrder: 9912
+    listOrder: 9917
+  - id: CHRYSSALID_SPITTER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_CHRYSSALID_SPITTER
+      - STR_CHRYSSALID_SPITTER_AUTOPSY
+    listOrder: 9918
 #END CHRYSSALID SPITTER UFOPAEDIA
 ##END ALIEN LIFE FORM UFOPAEDIAS
 
