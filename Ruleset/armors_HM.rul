@@ -938,10 +938,10 @@ armors:
     spriteInv: gazerInventoryImage
     corpseBattle:
       - STR_GAZER_CORPSE
-    frontArmor: 60
-    sideArmor: 50
-    rearArmor: 40
-    underArmor: 40
+    frontArmor: 54
+    sideArmor: 44
+    rearArmor: 34
+    underArmor: 34
     drawingRoutine: 0
     damageModifier: *GAZER_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
@@ -950,10 +950,10 @@ armors:
     spriteInv: gazerInventoryImage
     corpseBattle:
       - STR_GAZER_CORPSE
-    frontArmor: 70
-    sideArmor: 60
-    rearArmor: 50
-    underArmor: 50
+    frontArmor: 58
+    sideArmor: 48
+    rearArmor: 38
+    underArmor: 38
     drawingRoutine: 0
     damageModifier: *GAZER_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
@@ -965,16 +965,16 @@ armors:
     spriteInv: sectoideliteInventoryImage
     corpseBattle:
       - STR_SECTOID_ELITE_CORPSE
-    frontArmor: 50
-    sideArmor: 40
-    rearArmor: 30
-    underArmor: 30
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 40
     damageModifier: &SECTOID_ELITE_DAMAGE_MODIFIER
       - 1.0
       - 0.6
       - 1.0
       - 1.0
-      - 0.8
+      - 1.0
       - 0.9
       - 1.0
       - 1.0
@@ -986,10 +986,10 @@ armors:
     spriteInv: sectoideliteInventoryImage
     corpseBattle:
       - STR_SECTOID_ELITE_CORPSE
-    frontArmor: 60
-    sideArmor: 50
-    rearArmor: 40
-    underArmor: 40
+    frontArmor: 64
+    sideArmor: 54
+    rearArmor: 44
+    underArmor: 44
     damageModifier: *SECTOID_ELITE_DAMAGE_MODIFIER
     loftempsSet: [ 2 ]
 #END SECTOID ELITE ARMOR
@@ -1009,7 +1009,7 @@ armors:
       - 1.0
       - 0.6
       - 1.0
-      - 0.9
+      - 0.8
       - 0.8
       - 1.0
       - 1.0
@@ -1022,10 +1022,10 @@ armors:
     spriteInv: mutoneliteInventoryImage
     corpseBattle:
       - STR_MUTON_ELITE_CORPSE
-    frontArmor: 70
-    sideArmor: 60
-    rearArmor: 40
-    underArmor: 40
+    frontArmor: 65
+    sideArmor: 55
+    rearArmor: 45
+    underArmor: 45
     drawingRoutine: 10
     damageModifier: *MUTON_ELITE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
@@ -1046,11 +1046,15 @@ armors:
 #BEGIN ETHEREAL ARMOR
   - type: ETHEREAL_ARMOR0
     spriteInv: etherealInventoryImage
+    frontArmor: 45
+    sideArmor: 45
+    rearArmor: 45
+    underArmor: 45
     damageModifier: &ETHEREAL_DAMAGE_MODIFIER
       - 1.0
       - 1.0
       - 0.7
-      - 0.9
+      - 0.8
       - 0.8
       - 0.8
       - 0.8
@@ -1059,9 +1063,17 @@ armors:
       - 0.0
   - type: ETHEREAL_ARMOR1
     spriteInv: etherealInventoryImage
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
     damageModifier: *ETHEREAL_DAMAGE_MODIFIER
   - type: ETHEREAL_ARMOR2
     spriteInv: etherealInventoryImage
+    frontArmor: 55
+    sideArmor: 55
+    rearArmor: 55
+    underArmor: 55
     damageModifier: *ETHEREAL_DAMAGE_MODIFIER
 #END ETHEREAL ARMOR
 
@@ -1071,16 +1083,16 @@ armors:
     spriteInv: mutoneliteguardInventoryImage
     corpseBattle:
       - STR_MUTON_ELITE_GUARD_CORPSE
-    frontArmor: 70
-    sideArmor: 60
-    rearArmor: 50
-    underArmor: 50
+    frontArmor: 80
+    sideArmor: 70
+    rearArmor: 60
+    underArmor: 60
     drawingRoutine: 10
     damageModifier: &MUTON_ELITE_GUAR_DAMAGE_MODIFIER
       - 1.0
       - 0.6
       - 1.0
-      - 0.9
+      - 0.8
       - 0.8
       - 0.8
       - 1.0
@@ -1093,10 +1105,10 @@ armors:
     spriteInv: mutoneliteguardInventoryImage
     corpseBattle:
       - STR_MUTON_ELITE_GUARD_CORPSE
-    frontArmor: 80
-    sideArmor: 70
-    rearArmor: 60
-    underArmor: 60
+    frontArmor: 90
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 70
     drawingRoutine: 10
     damageModifier: *MUTON_ELITE_GUAR_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
