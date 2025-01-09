@@ -4,6 +4,7 @@ Version 0.99.9.6
  - Fix Mod not loading on OXCE 8.0.0. (rapidyml)
  - Fix Wrong Inventorysprites for Alloy Tanks
  - Fix Alien Data Slate Occurance
+ - Fix wrong values on Snakeman / Waspite Armors
  - Update Language files for more translations
  - Adjust Alien Missions and Scoring slightly
  - Add Terrorships Spawn on Terrorsites

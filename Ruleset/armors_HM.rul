@@ -843,6 +843,8 @@ armors:
     spriteInv: snakemanInventoryImage
   - type: SNAKEMAN_ARMOR1
     spriteInv: snakemanInventoryImage
+    frontArmor: 24
+    sideArmor: 20
   - type: SNAKEMAN_ARMOR2
     spriteInv: snakemanInventoryImage
 #END SNAKEMAN ARMOR
@@ -862,10 +864,10 @@ armors:
     spriteInv: waspiteInventoryImage
     corpseBattle:
       - STR_WASPITE_CORPSE
-    frontArmor: 40
-    sideArmor: 36
-    rearArmor: 28
-    underArmor: 40
+    frontArmor: 34
+    sideArmor: 30
+    rearArmor: 22
+    underArmor: 34
     drawingRoutine: 1
     movementType: 1
     damageModifier: &WASPITE_DAMAGE_MODIFIER
@@ -885,10 +887,10 @@ armors:
     spriteInv: waspiteInventoryImage
     corpseBattle:
       - STR_WASPITE_CORPSE
-    frontArmor: 34
-    sideArmor: 30
-    rearArmor: 22
-    underArmor: 34
+    frontArmor: 38
+    sideArmor: 34
+    rearArmor: 26
+    underArmor: 38
     drawingRoutine: 1
     movementType: 1
     damageModifier: *WASPITE_DAMAGE_MODIFIER
@@ -898,10 +900,10 @@ armors:
     spriteInv: waspiteInventoryImage
     corpseBattle:
       - STR_WASPITE_CORPSE
-    frontArmor: 38
-    sideArmor: 34
-    rearArmor: 26
-    underArmor: 38
+    frontArmor: 42
+    sideArmor: 38
+    rearArmor: 30
+    underArmor: 42
     drawingRoutine: 1
     movementType: 1
     damageModifier: *WASPITE_DAMAGE_MODIFIER
