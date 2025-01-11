@@ -6,6 +6,7 @@ Version 0.99.9.6
  - Fix Alien Data Slate Occurance
  - Fix wrong values on Snakeman / Waspite Armors
  - Fix Hovertank Inventoryimage position
+ - Fix some Colors on some Inventory and Ufopaedia Pictures
  - Update Language files for more translations
  - Adjust Alien Missions and Scoring slightly
  - Adjust Armors for Gazers, Sectoid Elite, Muton Elite, Ethereals, Muton Elite Guard
