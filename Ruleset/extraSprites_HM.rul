@@ -1023,7 +1023,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Tanks/Tank_Canon/UfoPaedia_Tank_Cannon.png
-  - type: tankcannonInventoryImage
+  - type: tankcannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1038,7 +1038,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Tanks/Tank_RocketLauncher/UfoPaedia_Tank_RocketLauncher.png
-  - type: tankrocketlauncherInventoryImage
+  - type: tankrocketlauncherInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1053,7 +1053,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Tanks/Tank_Laser/UfoPaedia_Tank_Laser.png
-  - type: tanklasercannonInventoryImage
+  - type: tanklasercannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1075,7 +1075,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Canon/UfoPaedia_AlloyTank_Cannon.png
-  - type: alloytankcannonInventoryImage
+  - type: alloytankcannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1090,7 +1090,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyTanks/AlloyTank_RocketLauncher/UfoPaedia_AlloyTank_RocketLauncher.png
-  - type: alloytankrocketlauncherInventoryImage
+  - type: alloytankrocketlauncherInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1105,7 +1105,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyTanks/AlloyTank_Laser/UfoPaedia_AlloyTank_Laser.png
-  - type: alloytanklasercannonInventoryImage
+  - type: alloytanklasercannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1127,7 +1127,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/HoverTanks/HoverTank_Laser/UfoPaedia_Hovertank_Laser.png
-  - type: hovertanklasercannonInventoryImage
+  - type: hovertanklasercannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1149,7 +1149,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/HoverTanks/HoverTank_Plasma/UfoPaedia_Hovertank_Plasma.png
-  - type: hovertankplasmacannonInventoryImage
+  - type: hovertankplasmacannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1164,7 +1164,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/HoverTanks/HoverTank_Launcher/UfoPaedia_Hovertank_Launcher.png
-  - type: hovertanklauncherInventoryImage
+  - type: hovertanklauncherInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1186,7 +1186,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/WalkerTanks/WalkerTank_Laser/UfoPaedia_Walkertank_Laser.png
-  - type: walkertanklasercannonInventoryImage
+  - type: walkertanklasercannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1208,7 +1208,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/WalkerTanks/WalkerTank_Plasma/UfoPaedia_Walkertank_Plasma.png
-  - type: walkertankplasmacannonInventoryImage
+  - type: walkertankplasmacannonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1221,7 +1221,7 @@ extraSprites:
 ###BEGIN ALIEN SPRITES
 ##BEGIN ALIEN NON TERROR SPRITES
 #BEGIN FLOATER SPRITE
-  - type: floaterInventoryImage
+  - type: floaterInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1230,7 +1230,7 @@ extraSprites:
 #END FLOATER SPRITE
 
 #BEGIN SECTOID SPRITE
-  - type: sectoidInventoryImage
+  - type: sectoidInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1239,7 +1239,7 @@ extraSprites:
 #END SECTOID SPRITE
 
 #BEGIN SNAKEMAN SPRITE
-  - type: snakemanInventoryImage
+  - type: snakemanInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1255,7 +1255,7 @@ extraSprites:
     height: 680
     files:
       0: Resources/Units/Alien/Muton/SpriteSheet_Muton.png
-  - type: mutonInventoryImage
+  - type: mutonInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1283,7 +1283,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/Waspite/UfoPaedia_Waspite_Autopsy.png
-  - type: waspiteInventoryImage
+  - type: waspiteInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1311,7 +1311,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/Gazer/UfoPaedia_Gazer_Autopsy.png
-  - type: gazerInventoryImage
+  - type: gazerInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1339,7 +1339,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/SectoidElite/UfoPaedia_SectoidElite_Autopsy.png
-  - type: sectoideliteInventoryImage
+  - type: sectoideliteInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1367,7 +1367,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/MutonElite/UfoPaedia_MutonElite_Autopsy.png
-  - type: mutoneliteInventoryImage
+  - type: mutoneliteInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1376,7 +1376,7 @@ extraSprites:
 #END MUTON ELITE SPRITE
 
 #BEGIN ETHEREAL SPRITE
-  - type: etherealInventoryImage
+  - type: etherealInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1404,7 +1404,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/MutonEliteGuard/UfoPaedia_MutonEliteGuard_Autopsy.png
-  - type: mutoneliteguardInventoryImage
+  - type: mutoneliteguardInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1415,7 +1415,7 @@ extraSprites:
 
 ##BEGIN ALIEN TERROR SPRITES
 #BEGIN REAPER SPRITE
-  - type: reaperInventoryImage
+  - type: reaperInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1424,7 +1424,7 @@ extraSprites:
 #BEGIN REAPER SPRITE
 
 #BEGIN SILACOID SPRITE
-  - type: silacoidInventoryImage
+  - type: silacoidInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1433,7 +1433,7 @@ extraSprites:
 #BEGIN SILACOID SPRITE
 
 #BEGIN CYBERDISC SPRITE
-  - type: cyberdiscInventoryImage
+  - type: cyberdiscInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1442,7 +1442,7 @@ extraSprites:
 #END CYBERDISC SPRITE
 
 #BEGIN CHRYSSALID SPRITE
-  - type: chryssalidInventoryImage
+  - type: chryssalidInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1460,7 +1460,7 @@ extraSprites:
 #END ZOMBIE SPRITE
 
 #BEGIN CELATID SPRITE
-  - type: celatidInventoryImage
+  - type: celatidInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1488,7 +1488,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/MutonBerserker/UfoPaedia_MutonBerserker_Autopsy.png
-  - type: mutonberserkerInventoryImage
+  - type: mutonberserkerInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1516,7 +1516,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/ArmoredCyberdisc/UfoPaedia_ArmoredCyberdisc_Autopsy.png
-  - type: armoredcyberdiscInventoryImage
+  - type: armoredcyberdiscInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1544,7 +1544,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/Cybermite/UfoPaedia_Cybermite_Autopsy.png
-  - type: cybermiteInventoryImage
+  - type: cybermiteInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1553,7 +1553,7 @@ extraSprites:
 #END CYBERMITE SPRITE
 
 #BEGIN SECTOPOD SPRITE
-  - type: sectopodInventoryImage
+  - type: sectopodInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1581,7 +1581,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/Holodrone/UfoPaedia_Holodrone_Autopsy.png
-  - type: holodroneInventoryImage
+  - type: holodroneInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1609,7 +1609,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/ArmoredSectopod/UfoPaedia_ArmoredSectopod_Autopsy.png
-  - type: armoredsectopodInventoryImage
+  - type: armoredsectopodInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
@@ -1637,7 +1637,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Alien/ChryssalidSpitter/UfoPaedia_ChryssalidSpitter_Autopsy.png
-  - type: chryssalidspitterInventoryImage
+  - type: chryssalidspitterInventoryImage_CPAL
     width: 320
     height: 200
     singleImage: true
