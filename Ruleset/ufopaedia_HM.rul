@@ -1771,12 +1771,12 @@ ufopaedia:
   - id: STR_MUTON_AUTOPSY
     section: STR_ALIEN_RESEARCH_UC
     listOrder: 8500
-  - id: SNAKEMAN_ARMOR0
+  - id: MUTON_ARMOR0
     type_id: 5
     section: STR_ALIEN_RESEARCH_UC
     requires:
-      - STR_SNAKEMAN
-      - STR_SNAKEMAN_AUTOPSY
+      - STR_MUTON
+      - STR_MUTON_AUTOPSY
     listOrder: 8501
 #END MUTON UFOPAEDIA
 

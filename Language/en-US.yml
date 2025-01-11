@@ -430,6 +430,7 @@ en-US:
   STR_HOVERTANK_PLASMA_REPAIR: "Repair Hovertank/Plasma"
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "Hovertank/Plasma -> Hover Launcher"
 
+  HOVERTANK_LAUNCHER_ARMOR: "Combat Analysis: Hovertank/Launcher"
   STR_HOVERTANK_LAUNCHER_CORPSE: "Damaged Hovertank/Launcher"
   STR_HOVERTANK_LAUNCHER_REPAIR: "Repair Hovertank/Launcher"
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "Hovertank/Launcher -> Hover Plasma"
