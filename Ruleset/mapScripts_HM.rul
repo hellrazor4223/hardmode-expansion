@@ -1377,8 +1377,8 @@ mapScripts:
 #BEGIN INDUSTRIALURBAN
   - type: INDUSTRIALURBAN
     commands:
-    - type: addCraft
     - type: addUFO
+    - type: addCraft
     - type: addBlock
       size: 2
       executions: 4
@@ -1390,6 +1390,8 @@ mapScripts:
 #BEGIN RAILYARDURBAN
   - type: RAILYARDURBAN
     commands:
+    - type: addUFO
+    - type: addCraft
     - type: addLine
       label: 1
       direction: vertical
@@ -1402,8 +1404,6 @@ mapScripts:
     - type: addLine
       conditionals: [-1, -2]
       direction: both
-    - type: addCraft
-    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1417,12 +1417,12 @@ mapScripts:
 #BEGIN PORTUFO
   - type: PORTTFTD
     commands:
-    - type: addCraft
-      rects:
-        - [0, 0, 4, 6]
     - type: addUFO
       rects:
-        - [0, 0, 4, 6]
+        - [0, 0, 5, 5]
+    - type: addCraft
+      rects:
+        - [0, 0, 5, 5]
     - type: addBlock
       rects:
         - [5, 0, 1, 6]
@@ -1433,47 +1433,48 @@ mapScripts:
       groups: 5
       size: 2
       rects:
-        - [0, 0, 4, 2]
+        - [0, 0, 5, 2]
     - type: addBlock
       size: 2
-      executions: 4
       rects:
-        - [0, 2, 3, 2]
+        - [0, 0, 5, 5]
+      executions: 4
     - type: fillArea
 #END PORTUFO
 
 #BEGIN PORTURBAN
   - type: PORTURBAN
     commands:
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 33
+    - type: addUFO
       rects:
-        - [0, 0, 5, 6]
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
+        - [0, 0, 5, 5]
+    - type: addCraft
       rects:
-        - [0, 0, 5, 6]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [0, 0, 5, 6]
-    - type: removeBlock
-      rects:
-        - [5, 0, 1, 6]
+        - [0, 0, 5, 5]
     - type: addBlock
       rects:
         - [5, 0, 1, 6]
       executions: 6
       blocks: [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
-    - type: addCraft
-    - type: addUFO
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [0, 0, 5, 5]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [0, 0, 5, 5]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [0, 0, 5, 5]
     - type: addBlock
       groups: 5
       size: 2
@@ -1483,13 +1484,15 @@ mapScripts:
       size: 2
       executions: 4
       rects:
-        - [0, 3, 5, 3]
+        - [0, 0, 5, 5]
     - type: fillArea
 #END PORTURBAN
 
 #BEGIN PORTINDUSTRIALURBAN
   - type: PORTINDUSTRIALURBAN
     commands:
+    - type: addUFO
+    - type: addCraft
     - type: addLine
       label: 1
       direction: vertical
@@ -1502,8 +1505,6 @@ mapScripts:
     - type: addLine
       conditionals: [-1, -2]
       direction: both
-    - type: addCraft
-    - type: addUFO
     - type: addBlock
       size: 2
       executions: 4
@@ -1521,7 +1522,6 @@ mapScripts:
       rects:
         - [0, 0, 3, 7]
     - type: addUFO
-      UFOName: STR_TERROR_SHIP
       rects:
         - [0, 0, 3, 7]
     - type: addBlock
@@ -1561,7 +1561,6 @@ mapScripts:
       rects:
         - [0, 0, 3, 7]
     - type: addUFO
-      UFOName: STR_TERROR_SHIP
       rects:
         - [0, 0, 3, 7]
     - type: addBlock
@@ -1597,8 +1596,8 @@ mapScripts:
 #BEGIN NATIVEURBAN
   - type: NATIVEURBAN
     commands:
-    - type: addCraft
     - type: addUFO
+    - type: addCraft
     - type: addBlock
       size: 2
       executions: 4
@@ -1610,6 +1609,12 @@ mapScripts:
 #BEGIN ISLANDURBAN
   - type: ISLANDURBAN
     commands:
+    - type: addUFO
+      rects:
+        - [0,0,6,4]
+    - type: addCraft
+      rects:
+        - [0,0,6,4]
     - type: addBlock #2x2 Waterfront blocks
       size: 2
       executions: 2
@@ -1621,10 +1626,10 @@ mapScripts:
       executions: 2
       rects:
         - [0,5,6,1]
-    - type: addCraft
-    - type: addUFO
     - type: addBlock #2x2 buildings
       size: 2
+      rects:
+        - [0,0,6,4]
       executions: 4
       blocks: [2, 3, 6]
       freqs: [3, 3, 1]
@@ -1640,19 +1645,19 @@ mapScripts:
     commands:
     - type: addBlock # Hangar N
       rects:
-        - [5, 0, 2, 2]
+        - [4, 0, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Runway Center
       rects:
-        - [5, 2, 2, 2]
+        - [4, 2, 2, 2]
       blocks: 11
     - type: addBlock # Runway East
       rects:
-        - [5, 4, 2, 2]
+        - [4, 4, 2, 2]
       blocks: [1, 2]
     - type: addBlock # Hangar W
       rects:
-        - [3, 2, 2, 2]
+        - [2, 2, 2, 2]
       blocks: 12
     - type: addUFO
     - type: addCraft
@@ -1670,23 +1675,23 @@ mapScripts:
     commands:
     - type: addBlock # Hangar N
       rects:
-        - [5, 0, 2, 2]
+        - [4, 0, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Runway Center
       rects:
-        - [5, 2, 2, 2]
+        - [4, 2, 2, 2]
       blocks: 11
     - type: addBlock # Runway Center
       rects:
-        - [5, 4, 2, 2]
+        - [4, 4, 2, 2]
       blocks: 11
     - type: addBlock # Hangar W
       rects:
-        - [3, 5, 2, 2]
+        - [3, 4, 2, 2]
       blocks: 12
     - type: addBlock # Hangar W
       rects:
-        - [3, 3, 2, 2]
+        - [3, 2, 2, 2]
       blocks: 12
     - type: addUFO
     - type: addCraft
@@ -1704,15 +1709,15 @@ mapScripts:
     commands:
     - type: addBlock # Hangar East
       rects:
-        - [0, 5, 2, 2]
+        - [0, 4, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Runway East
       rects:
-        - [5, 5, 2, 2]
+        - [4, 4, 2, 2]
       blocks: [1, 2]
     - type: addBlock # Runway East
       rects:
-        - [5, 3, 2, 2]
+        - [4, 2, 2, 2]
       blocks: [1, 2]
     - type: addCraft
     - type: addUFO
@@ -1730,19 +1735,19 @@ mapScripts:
     commands:
     - type: addBlock # Runway South
       rects:
-        - [5, 5, 2, 2]
+        - [4, 4, 2, 2]
       blocks: 17
     - type: addBlock # Hangar W
       rects:
-        - [0, 5, 2, 2]
+        - [0, 4, 2, 2]
       blocks: 12
     - type: addBlock # Runway Center
       rects:
-        - [2, 5, 2, 2]
+        - [2, 4, 2, 2]
       blocks: 11
     - type: addBlock # Hangar N
       rects:
-        - [2, 3, 2, 2]
+        - [2, 2, 2, 2]
       blocks: [5, 16]
     - type: addUFO
     - type: addCraft
@@ -1760,23 +1765,23 @@ mapScripts:
     commands:
     - type: addBlock # Hangar W
       rects:
-        - [0, 5, 2, 2]
+        - [0, 4, 2, 2]
       blocks: 12
     - type: addBlock # Runway Center
       rects:
-        - [5, 5, 2, 2]
+        - [4, 4, 2, 2]
       blocks: 11
     - type: addBlock # Runway Center
       rects:
-        - [3, 5, 2, 2]
+        - [2, 4, 2, 2]
       blocks: 11
     - type: addBlock # Hangar N
       rects:
-        - [5, 3, 2, 2]
+        - [4, 2, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Hangar N
       rects:
-        - [3, 3, 2, 2]
+        - [2, 2, 2, 2]
       blocks: [5, 16]
     - type: addUFO
     - type: addCraft
@@ -1798,7 +1803,7 @@ mapScripts:
       blocks: 12
     - type: addBlock # Runway Center
       rects:
-        - [5, 0, 2, 2]
+        - [4, 0, 2, 2]
       blocks: 11
     - type: addBlock # Runway South
       rects:
@@ -1806,11 +1811,11 @@ mapScripts:
       blocks: 17
     - type: addBlock # Runway East
       rects:
-        - [5, 3, 2, 2]
+        - [4, 2, 2, 2]
       blocks: [1, 2]
     - type: addBlock # Runway East
       rects:
-        - [5, 5, 2, 2]
+        - [4, 4, 2, 2]
       blocks: [1]
     - type: addUFO
     - type: addCraft
@@ -1828,23 +1833,23 @@ mapScripts:
     commands:
     - type: addBlock # Hangar W
       rects:
-        - [0, 5, 2, 2]
+        - [0, 4, 2, 2]
       blocks: 12
     - type: addBlock # Runway Center
       rects:
-        - [5, 5, 2, 2]
+        - [4, 4, 2, 2]
       blocks: 11
     - type: addBlock # Runway South
       rects:
-        - [5, 2, 2, 2]
+        - [4, 2, 2, 2]
       blocks: 17
     - type: addBlock # Runway/Hangar East
       rects:
-        - [5, 0, 2, 2]
+        - [4, 0, 2, 2]
       blocks: [1, 2, 5, 16]
     - type: addBlock # Runway East
       rects:
-        - [5, 2, 2, 2]
+        - [4, 2, 2, 2]
       blocks: [1, 2]
     - type: addUFO
     - type: addCraft
@@ -1866,11 +1871,11 @@ mapScripts:
       blocks: [5, 16]
     - type: addBlock # Runway East
       rects:
-        - [0, 5, 2, 2]
+        - [0, 4, 2, 2]
       blocks: [1, 2]
     - type: addBlock # Runway East
       rects:
-        - [0, 3, 2, 2]
+        - [0, 2, 2, 2]
       blocks: [1, 2]
     - type: addUFO
     - type: addCraft
