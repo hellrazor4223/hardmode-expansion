@@ -1687,11 +1687,11 @@ mapScripts:
       blocks: 11
     - type: addBlock # Hangar W
       rects:
-        - [3, 4, 2, 2]
+        - [2, 4, 2, 2]
       blocks: 12
     - type: addBlock # Hangar W
       rects:
-        - [3, 2, 2, 2]
+        - [2, 2, 2, 2]
       blocks: 12
     - type: addUFO
     - type: addCraft
@@ -1707,18 +1707,22 @@ mapScripts:
 #BEGIN AIRFIELD3
   - type: AIRFIELD3
     commands:
-    - type: addBlock # Hangar East
+    - type: addBlock # Hangar W
       rects:
         - [0, 4, 2, 2]
-      blocks: [5, 16]
-    - type: addBlock # Runway East
+      blocks: 12
+    - type: addBlock # Runway South
+      rects:
+        - [2, 4, 2, 2]
+      blocks: 17
+    - type: addBlock # Runway Center
       rects:
         - [4, 4, 2, 2]
-      blocks: [1, 2]
-    - type: addBlock # Runway East
+      blocks: 11
+    - type: addBlock # Hangar N
       rects:
         - [4, 2, 2, 2]
-      blocks: [1, 2]
+      blocks: [5, 16]
     - type: addCraft
     - type: addUFO
     - type: addBlock
@@ -1835,14 +1839,14 @@ mapScripts:
       rects:
         - [0, 4, 2, 2]
       blocks: 12
+    - type: addBlock # Runway South
+      rects:
+        - [2, 4, 2, 2]
+      blocks: 17
     - type: addBlock # Runway Center
       rects:
         - [4, 4, 2, 2]
       blocks: 11
-    - type: addBlock # Runway South
-      rects:
-        - [4, 2, 2, 2]
-      blocks: 17
     - type: addBlock # Runway/Hangar East
       rects:
         - [4, 0, 2, 2]
