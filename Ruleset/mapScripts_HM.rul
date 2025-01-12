@@ -1438,7 +1438,7 @@ mapScripts:
     commands:
     - type: addUFO
     - type: addCraft
-    - type: addBlock:
+    - type: addBlock
       label: 1
       size: 3
       executions: 1
