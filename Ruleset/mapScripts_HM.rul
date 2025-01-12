@@ -452,237 +452,283 @@ mapScripts:
       blocks: 8
       rects:
         - [0, 0, 1, 1]
-    - type: checkBlock
+    - type: checkBlock #Search Roadblock
       label: 2
       conditionals: 1
       blocks: [10, 18, 19]
       rects:
         - [0, 2, 1, 1]
-    - type: removeBlock
+    - type: removeBlock #Remove Roadblock
       conditionals: 2
       rects:
         - [0, 2, 1, 1]
-    - type: addBlock
+    - type: addBlock #Add Road Rail Cross
       conditionals: 2
       blocks: 12
       rects:
         - [0, 2, 1, 1]
-    - type: checkBlock
+    - type: checkBlock #Search Roads
       label: 3
       conditionals: 1
       blocks: [10, 18, 19]
       rects:
         - [0, 3, 1, 1]
-    - type: removeBlock
+    - type: removeBlock #Remove Roadblock
       conditionals: 3
       rects:
         - [0, 3, 1, 1]
-    - type: addBlock
+    - type: addBlock #Add Road Rail Cross
       conditionals: 3
       blocks: 12
       rects:
         - [0, 3, 1, 1]
-    - type: checkBlock
+    - type: checkBlock #Search Roadblock
       label: 4
       conditionals: 1
       blocks: [10, 18, 19]
       rects:
         - [0, 4, 1, 1]
-    - type: removeBlock
+    - type: removeBlock #Remove Roadblock
       conditionals: 4
       rects:
         - [0, 4, 1, 1]
-    - type: addBlock
+    - type: addBlock #Add Road Rail Cross
       conditionals: 4
       blocks: 12
       rects:
         - [0, 4, 1, 1]
-    - type: addBlock
+    - type: checkBlock #Search Roadblock
+      label: 5
+      conditionals: 1
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 5, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 5
+      rects:
+        - [0, 5, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      conditionals: 5
+      blocks: 12
+      rects:
+        - [0, 5, 1, 1]
+    - type: addBlock #Add other Rails
       conditionals: 1
       blocks: [9, 21]
-      executions: 3
+      executions: 4
       rects:
-        - [0, 0, 1, 5]
+        - [0, 0, 1, 6]
     - type: checkBlock #Position 0,1
       size: 2
-      label: 5
+      label: 6
       blocks: 8
       rects:
         - [0, 1, 1, 1]
-    - type: checkBlock
-      label: 6
-      conditionals: 5
-      blocks: [10, 18, 19]
-      rects:
-        - [0, 0, 1, 1]
-    - type: removeBlock
-      conditionals: 6
-      rects:
-        - [0, 0, 1, 1]
-    - type: addBlock
-      blocks: 12
-      conditionals: 6
-      rects:
-        - [0, 0, 1, 1]
-    - type: checkBlock
+    - type: checkBlock #Search Roadblock
       label: 7
-      conditionals: 5
+      conditionals: 6
       blocks: [10, 18, 19]
       rects:
-        - [0, 3, 1, 1]
-    - type: removeBlock
+        - [0, 0, 1, 1]
+    - type: removeBlock #Remove Roadblock
       conditionals: 7
       rects:
-        - [0, 3, 1, 1]
-    - type: addBlock
+        - [0, 0, 1, 1]
+    - type: addBlock #Add Road Rail Cross
       blocks: 12
       conditionals: 7
       rects:
-        - [0, 3, 1, 1]
-    - type: checkBlock
+        - [0, 0, 1, 1]
+    - type: checkBlock #Search Roadblock
       label: 8
-      conditionals: 5
+      conditionals: 6
       blocks: [10, 18, 19]
       rects:
-        - [0, 4, 1, 1]
-    - type: removeBlock
+        - [0, 3, 1, 1]
+    - type: removeBlock #Remove Roadblock
       conditionals: 8
       rects:
-        - [0, 4, 1, 1]
-    - type: addBlock
+        - [0, 3, 1, 1]
+    - type: addBlock #Add Road Rail Cross
       blocks: 12
       conditionals: 8
       rects:
-        - [0, 4, 1, 1]
-    - type: addBlock
-      conditionals: 5
-      blocks: [9, 21]
-      executions: 3
+        - [0, 3, 1, 1]
+    - type: checkBlock #Search Roadblock
+      label: 9
+      conditionals: 6
+      blocks: [10, 18, 19]
       rects:
-        - [0, 0, 1, 5]
+        - [0, 4, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 9
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 9
+      rects:
+        - [0, 4, 1, 1]
+    - type: checkBlock #Search Roadblock
+      label: 10
+      conditionals: 6
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 5, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 10
+      rects:
+        - [0, 5, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 10
+      rects:
+        - [0, 5, 1, 1]
+    - type: addBlock #Add other Rails
+      conditionals: 6
+      blocks: [9, 21]
+      executions: 4
+      rects:
+        - [0, 0, 1, 6]
     - type: checkBlock #Position 0,2
       size: 2
-      label: 9
+      label: 11
       blocks: 8
       rects:
         - [0, 2, 1, 1]
-    - type: checkBlock
-      label: 10
-      conditionals: 9
-      blocks: [10, 18, 19]
-      rects:
-        - [0, 0, 1, 1]
-    - type: removeBlock
-      conditionals: 10
-      rects:
-        - [0, 0, 1, 1]
-    - type: addBlock
-      blocks: 12
-      conditionals: 10
-      rects:
-        - [0, 0, 1, 1]
-    - type: checkBlock
-      label: 11
-      conditionals: 9
-      blocks: [10, 18, 19]
-      rects:
-        - [0, 1, 1, 1]
-    - type: removeBlock
-      conditionals: 11
-      rects:
-        - [0, 1, 1, 1]
-    - type: addBlock
-      blocks: 12
-      conditionals: 11
-      rects:
-        - [0, 1, 1, 1]
-    - type: checkBlock
+    - type: checkBlock #Search Roadblock
       label: 12
-      conditionals: 9
+      conditionals: 11
       blocks: [10, 18, 19]
       rects:
-        - [0, 4, 1, 1]
-    - type: removeBlock
+        - [0, 0, 1, 1]
+    - type: removeBlock #Remove Roadblock
       conditionals: 12
       rects:
-        - [0, 4, 1, 1]
-    - type: addBlock
+        - [0, 0, 1, 1]
+    - type: addBlock #Add Road Rail Cross
       blocks: 12
       conditionals: 12
       rects:
-        - [0, 4, 1, 1]
-    - type: addBlock
-      conditionals: 9
-      blocks: [9, 21]
-      executions: 3
+        - [0, 0, 1, 1]
+    - type: checkBlock #Search Roadblock
+      label: 13
+      conditionals: 11
+      blocks: [10, 18, 19]
       rects:
-        - [0, 0, 1, 5]
+        - [0, 1, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 13
+      rects:
+        - [0, 1, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 13
+      rects:
+        - [0, 1, 1, 1]
+    - type: checkBlock #Search Roadblock
+      label: 14
+      conditionals: 11
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 4, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 14
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 14
+      rects:
+        - [0, 4, 1, 1]
+    - type: addBlock #Add other Rails
+      conditionals: 11
+      blocks: [9, 21]
+      executions: 4
+      rects:
+        - [0, 0, 1, 6]
     - type: checkBlock #Position 0,3
       size: 2
-      label: 13
+      label: 15
       blocks: 8
       rects:
         - [0, 3, 1, 1]
-    - type: checkBlock
-      label: 14
-      conditionals: 13
-      blocks: [10, 18, 19]
-      rects:
-        - [0, 0, 1, 1]
-    - type: removeBlock
-      conditionals: 14
-      rects:
-        - [0, 0, 1, 1]
-    - type: addBlock
-      blocks: 12
-      conditionals: 14
-      rects:
-        - [0, 0, 1, 1]
-    - type: checkBlock
-      label: 15
-      conditionals: 13
-      blocks: [10, 18, 19]
-      rects:
-        - [0, 1, 1, 1]
-    - type: removeBlock
-      conditionals: 15
-      rects:
-        - [0, 1, 1, 1]
-    - type: addBlock
-      blocks: 12
-      conditionals: 15
-      rects:
-        - [0, 1, 1, 1]
-    - type: checkBlock
+    - type: checkBlock #Search Roadblock
       label: 16
-      conditionals: 13
+      conditionals: 15
       blocks: [10, 18, 19]
       rects:
-        - [0, 2, 1, 1]
+        - [0, 0, 1, 1]
     - type: removeBlock
-      conditionals: 16
+      conditionals: 16 #Remove Roadblock
       rects:
-        - [0, 2, 1, 1]
-    - type: addBlock
+        - [0, 0, 1, 1]
+    - type: addBlock #Add Road Rail Cross
       blocks: 12
       conditionals: 16
       rects:
-        - [0, 2, 1, 1]
-    - type: addBlock
-      conditionals: 13
-      blocks: [9, 21]
-      executions: 3
-      rects:
-        - [0, 0, 1, 5]
-    - type: checkBlock #Position 1,0
+        - [0, 0, 1, 1]
+    - type: checkBlock #Search Roadblock
       label: 17
+      conditionals: 15
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 1, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 17
+      rects:
+        - [0, 1, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 17
+      rects:
+        - [0, 1, 1, 1]
+    - type: checkBlock #Search Roadblock
+      label: 18
+      conditionals: 15
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 2, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 18
+      rects:
+        - [0, 2, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 18
+      rects:
+        - [0, 2, 1, 1]
+    - type: checkBlock #Search Roadblock
+      label: 19
+      conditionals: 15
+      blocks: [10, 18, 19]
+      rects:
+        - [0, 5, 1, 1]
+    - type: removeBlock #Remove Roadblock
+      conditionals: 19
+      rects:
+        - [0, 5, 1, 1]
+    - type: addBlock #Add Road Rail Cross
+      blocks: 12
+      conditionals: 19
+      rects:
+        - [0, 5, 1, 1]
+    - type: addBlock #Add other Rails
+      conditionals: 15
+      blocks: [9, 21]
+      executions: 4
+      rects:
+        - [0, 0, 1, 6]
+      ##CHECK FOR POSITION 0,4!
+    - type: checkBlock #Position 1,0
+      label: 20
       blocks: 8
       size: 2
       rects:
         - [1, 0, 1, 1]
-    - type: checkBlock
-      label: 18
-      conditionals: 17
+    - type: checkBlock #Search Roadblock
+      label: 21
+      conditionals: 20
       blocks: [10, 18, 19]
       rects:
         - [1, 2, 1, 1]
@@ -1361,8 +1407,8 @@ mapScripts:
     - type: addLine
       direction: vertical
       executionChances: 75
-    - type: addCraft
     - type: addUFO
+    - type: addCraft
     - type: addBlock
       size: 2
       blocks: [2, 6, 14, 15]
@@ -1392,17 +1438,23 @@ mapScripts:
     commands:
     - type: addUFO
     - type: addCraft
-    - type: addLine
+    - type: addBlock:
       label: 1
-      direction: vertical
-      executionChances: 33
+      size: 3
+      executions: 1
+      executionChances: 25
     - type: addLine
       label: 2
       conditionals: -1
+      direction: vertical
+      executionChances: 33
+    - type: addLine
+      label: 3
+      conditionals: [-1, -2]
       executionChances: 50
       direction: horizontal
     - type: addLine
-      conditionals: [-1, -2]
+      conditionals: [-1, -2, -3]
       direction: both
     - type: addBlock
       size: 2
