@@ -1483,7 +1483,7 @@ mapScripts:
       size: 2
       executions: 4
       rects:
-        - [0, 3, 4, 3]
+        - [0, 3, 5, 3]
     - type: fillArea
 #END PORTURBAN
 
@@ -1625,7 +1625,7 @@ mapScripts:
     - type: addUFO
     - type: addBlock #2x2 buildings
       size: 2
-      executions: 3
+      executions: 4
       blocks: [2, 3, 6]
       freqs: [3, 3, 1]
       maxUses: [3, 3, 3]
@@ -1640,24 +1640,24 @@ mapScripts:
     commands:
     - type: addBlock # Hangar N
       rects:
-        - [4, 0, 2, 2]
+        - [5, 0, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Runway Center
       rects:
-        - [4, 2, 2, 2]
+        - [5, 2, 2, 2]
       blocks: 11
-    - type: addBlock # Hangar W
-      rects:
-        - [2, 2, 2, 2]
-      blocks: 12
     - type: addBlock # Runway East
       rects:
-        - [4, 4, 2, 2]
-      blocks: [01, 02]
-    - type: addCraft
+        - [5, 4, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Hangar W
+      rects:
+        - [3, 2, 2, 2]
+      blocks: 12
     - type: addUFO
+    - type: addCraft
     - type: addBlock
-      executions: 4
+      executions: 3
       blocks: [7, 10, 14, 15]
       maxUses: [1, 1, 1, 1]
     - type: fillArea
@@ -1670,26 +1670,26 @@ mapScripts:
     commands:
     - type: addBlock # Hangar N
       rects:
-        - [4, 0, 2, 2]
+        - [5, 0, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Runway Center
       rects:
-        - [4, 2, 2, 2]
+        - [5, 2, 2, 2]
       blocks: 11
     - type: addBlock # Runway Center
       rects:
-        - [4, 4, 2, 2]
+        - [5, 4, 2, 2]
       blocks: 11
     - type: addBlock # Hangar W
       rects:
-        - [2, 2, 2, 2]
+        - [3, 5, 2, 2]
       blocks: 12
     - type: addBlock # Hangar W
       rects:
-        - [2, 4, 2, 2]
+        - [3, 3, 2, 2]
       blocks: 12
-    - type: addCraft
     - type: addUFO
+    - type: addCraft
     - type: addBlock
       executions: 3
       blocks: [7, 10, 14, 15]
@@ -1702,26 +1702,18 @@ mapScripts:
 #BEGIN AIRFIELD3
   - type: AIRFIELD3
     commands:
-    - type: addBlock # Hangar N
+    - type: addBlock # Hangar East
       rects:
-        - [2, 0, 2, 2]
+        - [0, 5, 2, 2]
       blocks: [5, 16]
-    - type: addBlock # Runway Center
-      rects:
-        - [2, 2, 2, 2]
-      blocks: 11
-    - type: addBlock # Hangar W
-      rects:
-        - [0, 2, 2, 2]
-      blocks: 12
     - type: addBlock # Runway East
       rects:
-        - [2, 4, 2, 2]
+        - [5, 5, 2, 2]
       blocks: [1, 2]
-    - type: addBlock # Runway South
+    - type: addBlock # Runway East
       rects:
-        - [4, 2, 2, 2]
-      blocks: 17
+        - [5, 3, 2, 2]
+      blocks: [1, 2]
     - type: addCraft
     - type: addUFO
     - type: addBlock
@@ -1736,26 +1728,26 @@ mapScripts:
 #BEGIN AIRFIELD4
   - type: AIRFIELD4
     commands:
-    - type: addBlock # Hangar N
-      rects:
-        - [2, 2, 2, 2]
-      blocks: [5, 16]
-    - type: addBlock # Runway Center
-      rects:
-        - [2, 4, 2, 2]
-      blocks: 11
-    - type: addBlock # Hangar W
-      rects:
-        - [0, 4, 2, 2]
-      blocks: 12
     - type: addBlock # Runway South
       rects:
-        - [4, 4, 2, 2]
+        - [5, 5, 2, 2]
       blocks: 17
-    - type: addCraft
+    - type: addBlock # Hangar W
+      rects:
+        - [0, 5, 2, 2]
+      blocks: 12
+    - type: addBlock # Runway Center
+      rects:
+        - [2, 5, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar N
+      rects:
+        - [2, 3, 2, 2]
+      blocks: [5, 16]
     - type: addUFO
+    - type: addCraft
     - type: addBlock
-      executions: 4
+      executions: 3
       blocks: [7, 10, 14, 15]
       maxUses: [1, 1, 1, 1]
     - type: fillArea
@@ -1766,34 +1758,30 @@ mapScripts:
 #BEGIN AIRFIELD5
   - type: AIRFIELD5
     commands:
-    - type: addBlock # Hangar N
-      rects:
-        - [0, 2, 2, 2]
-      blocks: 16
-    - type: addBlock # Hangar N
-      rects:
-        - [2, 2, 2, 2]
-      blocks: 5
-    - type: addBlock # Runway Center
-      rects:
-        - [0, 4, 2, 2]
-      blocks: 11
-    - type: addBlock # Runway Center
-      rects:
-        - [2, 4, 2, 2]
-      blocks: 11
     - type: addBlock # Hangar W
       rects:
-        - [0, 4, 2, 2]
+        - [0, 5, 2, 2]
       blocks: 12
-    - type: addBlock # Runway South
+    - type: addBlock # Runway Center
       rects:
-        - [4, 4, 2, 2]
-      blocks: 17
-    - type: addCraft
+        - [5, 5, 2, 2]
+      blocks: 11
+    - type: addBlock # Runway Center
+      rects:
+        - [3, 5, 2, 2]
+      blocks: 11
+    - type: addBlock # Hangar N
+      rects:
+        - [5, 3, 2, 2]
+      blocks: [5, 16]
+    - type: addBlock # Hangar N
+      rects:
+        - [3, 3, 2, 2]
+      blocks: [5, 16]
     - type: addUFO
+    - type: addCraft
     - type: addBlock
-      executions: 4
+      executions: 3
       blocks: [7, 10, 14, 15]
       maxUses: [1, 1, 1, 1]
     - type: fillArea
@@ -1804,28 +1792,28 @@ mapScripts:
 #BEGIN AIRFIELD6
   - type: AIRFIELD6
     commands:
-    - type: addBlock # Runway Center
-      rects:
-        - [2, 0, 2, 2]
-      blocks: 11
     - type: addBlock # Hangar W
       rects:
         - [0, 0, 2, 2]
       blocks: 12
-    - type: addBlock # Runway East
+    - type: addBlock # Runway Center
       rects:
-        - [2, 4, 2, 2]
-      blocks: [1, 2]
-    - type: addBlock # Runway East
-      rects:
-        - [2, 2, 2, 2]
-      blocks: [1, 2]
+        - [5, 0, 2, 2]
+      blocks: 11
     - type: addBlock # Runway South
       rects:
-        - [4, 0, 2, 2]
+        - [2, 0, 2, 2]
       blocks: 17
-    - type: addCraft
+    - type: addBlock # Runway East
+      rects:
+        - [5, 3, 2, 2]
+      blocks: [1, 2]
+    - type: addBlock # Runway East
+      rects:
+        - [5, 5, 2, 2]
+      blocks: [1]
     - type: addUFO
+    - type: addCraft
     - type: addBlock
       executions: 3
       blocks: [7, 10, 14, 15]
@@ -1838,28 +1826,28 @@ mapScripts:
 #BEGIN AIRFIELD7
   - type: AIRFIELD7
     commands:
-    - type: addBlock # Runway Center
-      rects:
-        - [2, 4, 2, 2]
-      blocks: 11
     - type: addBlock # Hangar W
       rects:
-        - [0, 4, 2, 2]
+        - [0, 5, 2, 2]
       blocks: 12
+    - type: addBlock # Runway Center
+      rects:
+        - [5, 5, 2, 2]
+      blocks: 11
+    - type: addBlock # Runway South
+      rects:
+        - [5, 2, 2, 2]
+      blocks: 17
     - type: addBlock # Runway/Hangar East
       rects:
-        - [2, 0, 2, 2]
+        - [5, 0, 2, 2]
       blocks: [1, 2, 5, 16]
     - type: addBlock # Runway East
       rects:
-        - [2, 2, 2, 2]
+        - [5, 2, 2, 2]
       blocks: [1, 2]
-    - type: addBlock # Runway South
-      rects:
-        - [4, 4, 2, 2]
-      blocks: 17
-    - type: addCraft
     - type: addUFO
+    - type: addCraft
     - type: addBlock
       executions: 3
       blocks: [7, 10, 14, 15]
@@ -1874,20 +1862,20 @@ mapScripts:
     commands:
     - type: addBlock # Hangar East
       rects:
-        - [2, 0, 2, 2]
+        - [0, 0, 2, 2]
       blocks: [5, 16]
     - type: addBlock # Runway East
       rects:
-        - [2, 2, 2, 2]
+        - [0, 5, 2, 2]
       blocks: [1, 2]
     - type: addBlock # Runway East
       rects:
-        - [2, 4, 2, 2]
+        - [0, 3, 2, 2]
       blocks: [1, 2]
-    - type: addCraft
     - type: addUFO
+    - type: addCraft
     - type: addBlock
-      executions: 4
+      executions: 3
       blocks: [7, 10, 14, 15]
       maxUses: [1, 1, 1, 1]
     - type: fillArea

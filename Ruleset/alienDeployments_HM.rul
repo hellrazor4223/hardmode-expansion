@@ -2292,8 +2292,8 @@ alienDeployments:
 #BEGIN TERROR MISSION DOCKED SHIP
   - type: STR_TERROR_MISSION_DOCKED_SHIP
     data: *TERROR_SETS
-    width: 60
-    length: 60
+    width: 70
+    length: 70
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
