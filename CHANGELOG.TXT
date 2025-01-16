@@ -7,10 +7,12 @@ Version 0.99.9.6
  - Fix wrong values on Snakeman / Waspite Armors
  - Fix Hovertank Inventoryimage position
  - Fix some Colors on some Inventory and Ufopaedia Pictures
+ - Fix DOWNTOWNURBAN Mapscript for sizhe 60x60
  - Update Language files for more translations
  - Adjust Alien Missions and Scoring slightly
  - Adjust Armors for Gazers, Sectoid Elite, Muton Elite, Ethereals, Muton Elite Guard
  - Adjust Aliendeployment spawns to also enable lower Difficulties with proper scaling
+ - Adjust Terrorsite mapScripts for UFO spawn and proper block variety
  - Add Terrorships Spawn on Terrorsites
  - Add Ufopaedia Articles for Armors / Combat Analysis
 
