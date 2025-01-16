@@ -384,11 +384,11 @@ mapScripts:
       executions: 4
       blocks: [5, 6, 7, 8, 9, 10, 11, 12]
       freqs: [2, 3, 2, 3, 2, 3, 2, 3]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
     - type: fillArea
       blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END COMMERCIAL URBAN
 
 #BEGIN DAMNURBANA
@@ -413,11 +413,11 @@ mapScripts:
       executions: 4
       blocks: [20, 21, 22, 23, 24, 25, 27, 27]
       freqs: [3, 2, 2, 3, 3, 2, 2, 3]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
     - type: fillArea
       blocks: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
       freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END DAMNURBANA
 
 #BEGIN DAMNURBANB
@@ -442,11 +442,11 @@ mapScripts:
       executions: 4
       blocks: [20, 21, 22, 23, 24, 25, 27, 27]
       freqs: [2, 3, 3, 2, 2, 3, 3, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
     - type: fillArea
       blocks: [11, 12, 13, 14, 15, 16, 17, 18, 19]
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END DAMNURBANB
 
 #BEGIN DOWNTOWN
@@ -2211,7 +2211,7 @@ mapScripts:
     - type: fillArea
       blocks: [2, 3, 5, 7, 16, 17]
       freqs: [3, 2, 3, 3, 3, 3]
-	  maxUses: [3, 3, 3, 3, 3, 3]
+      maxUses: [3, 3, 3, 3, 3, 3]
 #END DOWNTOWN
 ##END SUBURB TERROR
 
@@ -2226,11 +2226,11 @@ mapScripts:
       executions: 4
       blocks: [0, 1, 2]
       freqs: [3, 2, 3]
-	  maxUses: [2, 2, 2]
+      maxUses: [2, 2, 2]
     - type: fillArea
       blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
       freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END INDUSTRIALURBAN
 
 #BEGIN RAILYARDURBAN
@@ -2262,12 +2262,12 @@ mapScripts:
       blocks: [10, 11, 12, 13, 14]
 #RAILYARDURBAN10 Not defined in terrains, ROUTES are missing
 #	  blocks: [11, 12, 13, 14, 15]
-	  freqs: [3, 2, 3, 2, 3]
-	  maxUses: [2, 2, 2, 2, 2]
+      freqs: [3, 2, 3, 2, 3]
+      maxUses: [2, 2, 2, 2, 2]
     - type: fillArea
       blocks: [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END RAILYARDURBAN
 ##END INDUSTRIAL TERROR
 
@@ -2298,12 +2298,12 @@ mapScripts:
         - [0, 0, 5, 5]
       executions: 4
       blocks: [17, 18, 19]
-	  freqs: [3, 2, 3]
-	  maxUses: [2, 2, 2]
+      freqs: [3, 2, 3]
+      maxUses: [2, 2, 2]
     - type: fillArea
       blocks: [0, 1, 10, 11, 12, 13, 14, 15, 16]
       freqs: [2, 3, 2, 3, 2, 3, 2, 3, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END PORTUFO
 
 #BEGIN PORTURBAN
@@ -2350,12 +2350,12 @@ mapScripts:
       rects:
         - [0, 0, 5, 5]
       blocks: [17, 18, 19, 21, 22, 23]
-	  freqs: [2, 3, 2, 2, 3, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2]
+      freqs: [2, 3, 2, 2, 3, 2]
+      maxUses: [2, 2, 2, 2, 2, 2]
     - type: fillArea
       blocks: [0, 1, 10, 11, 12, 13, 14, 15, 16]
       freqs: [2, 3, 2, 3, 2, 3, 2, 3, 2]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END PORTURBAN
 
 #BEGIN PORTINDUSTRIALURBAN
@@ -2497,8 +2497,8 @@ mapScripts:
       maxUses: [3, 3, 3]
     - type: fillArea
       blocks: [0, 1, 8, 9, 10, 11, 12, 13, 14]
-	  freqs: [1, 2, 3, 2, 1, 2, 3, 2, 1]
-	  maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      freqs: [1, 2, 3, 2, 1, 2, 3, 2, 1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END ISLAND URBAN
 
 #BEGIN NATIVEURBAN
@@ -2509,13 +2509,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-	  blocks: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
-	  freqs: [1, 2, 3, 2, 3, 2, 1, 2, 3, 2, 1]
-	  maxUses: freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+      freqs: [1, 2, 3, 2, 3, 2, 1, 2, 3, 2, 1]
+      maxUses: freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     - type: fillArea
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
       freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-	  freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END NATIVEURBAN
 ##END EQUATORIAL TERROR
 
