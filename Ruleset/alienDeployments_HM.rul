@@ -64,7 +64,7 @@ alienDeployments:
     data:
       - alienRank: 11
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: &RANK_11_NORMAL
@@ -93,19 +93,13 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 10
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: &RANK_10_NORMAL
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_BLADE
+            - STR_PLASMA_SWORD
             - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
@@ -117,21 +111,27 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_SWORD
-            - STR_ALIEN_GRENADE
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SWORD
             - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_SWORD
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 5
-        lowQty: 2
+        lowQty: 3
         highQty: 3
-        dQty: 2
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets: &RANK_5_NORMAL
           -
@@ -160,8 +160,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets: &RANK_4_NORMAL
           -
@@ -205,7 +205,7 @@ alienDeployments:
     data:
       - alienRank: 11
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: &RANK_11_MILITARY
@@ -234,7 +234,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 10
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: &RANK_10_MILITARY
@@ -244,35 +244,35 @@ alienDeployments:
             - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
           -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_ELERIUM_CLIP
             - STR_PLASMA_BLADE
             - STR_ALIEN_GRENADE
           -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_SWORD
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_ELERIUM_CLIP
             - STR_PLASMA_BLADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SWORD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SWORD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SWORD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_SWORD
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 5
-        lowQty: 2
+        lowQty: 3
         highQty: 3
-        dQty: 2
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets: &RANK_5_MILITARY
           -
@@ -301,8 +301,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets: &RANK_4_MILITARY
           -
@@ -346,32 +346,32 @@ alienDeployments:
     data: &LARGE_SCOUT_SETS
       - alienRank: 11
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_11_NORMAL
       - alienRank: 10
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_10_NORMAL
       - alienRank: 5
-        lowQty: 1
-        highQty: 3
-        dQty: 5
+        lowQty: 6
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 65
         itemSets: *RANK_5_NORMAL
       - alienRank: 4
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 25
         itemSets: *RANK_4_NORMAL
       - alienRank: 2
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 35
         itemSets: &RANK_2_NORMAL
           -
@@ -437,32 +437,32 @@ alienDeployments:
     data:
       - alienRank: 11
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_11_MILITARY
       - alienRank: 10
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_10_MILITARY
       - alienRank: 5
-        lowQty: 1
-        highQty: 3
-        dQty: 5
+        lowQty: 6
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 65
         itemSets: *RANK_5_MILITARY
       - alienRank: 4
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 25
         itemSets: *RANK_4_MILITARY
       - alienRank: 2
         lowQty: 1
-        highQty: 2
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 35
         itemSets: &RANK_2_MILITARY
           -
@@ -527,20 +527,20 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets: *RANK_10_NORMAL
       - alienRank: 5
-        lowQty: 5
-        highQty: 6
-        dQty: 4
+        lowQty: 10
+        highQty: 10
+        dQty: 0
         percentageOutsideUfo: 70
         itemSets: *RANK_5_NORMAL
       - alienRank: 4
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 20
         itemSets: *RANK_4_NORMAL
       - alienRank: 3
         lowQty: 1
-        highQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 20
         itemSets: &RANK_3_NORMAL_NO_HE
@@ -647,15 +647,15 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets: *RANK_10_NORMAL
       - alienRank: 5
-        lowQty: 3
+        lowQty: 6
         highQty: 6
-        dQty: 4
+        dQty: 0
         percentageOutsideUfo: 70
         itemSets: *RANK_5_NORMAL
       - alienRank: 4
         lowQty: 1
-        highQty: 1
-        dQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets: *RANK_4_NORMAL
       - alienRank: 3
@@ -689,10 +689,10 @@ alienDeployments:
   - type: STR_TERROR_SHIP
     data: &TERROR_SETS
       - alienRank: 6
-        lowQty: 1
-        highQty: 2
-        dQty: 2
-        percentageOutsideUfo: 50
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 75
         itemSets: &EMPTY
           -
             []
@@ -709,22 +709,22 @@ alienDeployments:
           -
             []
       - alienRank: 7
-        lowQty: 1
-        highQty: 2
-        dQty: 2
-        percentageOutsideUfo: 50
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 75
         itemSets: *EMPTY
       - alienRank: 8
-        lowQty: 1
-        highQty: 2
-        dQty: 2
-        percentageOutsideUfo: 50
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 75
         itemSets: *EMPTY
       - alienRank: 9
         lowQty: 1
         highQty: 3
         dQty: 0
-        percentageOutsideUfo: 50
+        percentageOutsideUfo: 66
         itemSets: *EMPTY
       - alienRank: 11
         lowQty: 1
@@ -739,9 +739,9 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets: *RANK_10_MILITARY
       - alienRank: 5
-        lowQty: 4
-        highQty: 5
-        dQty: 1
+        lowQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 70
         itemSets:
           -
@@ -773,7 +773,7 @@ alienDeployments:
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 4
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
@@ -811,9 +811,9 @@ alienDeployments:
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 3
-        lowQty: 1
-        highQty: 1
-        dQty: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -
@@ -833,9 +833,9 @@ alienDeployments:
             - STR_ALIEN_GRENADE
           -
             - STR_SMALL_LAUNCHER
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
             - STR_FIRE_BOMB
             - STR_FIRE_BOMB
           -
@@ -844,17 +844,17 @@ alienDeployments:
             - STR_ALIEN_GRENADE
           -
             - STR_SMALL_LAUNCHER
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
-            - STR_ELERIUM_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
+            - STR_FIRE_BOMB
             - STR_FIRE_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 2
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
@@ -869,7 +869,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
-            - STR_FIRE_BOMB
+            - STR_ELERIUM_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -880,7 +880,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
-            - STR_FIRE_BOMB
+            - STR_ELERIUM_BOMB
           -
             - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
@@ -891,7 +891,7 @@ alienDeployments:
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
             - STR_ELERIUM_BOMB
-            - STR_FIRE_BOMB
+            - STR_ELERIUM_BOMB
           -
             - STR_PLASMA_SHOTGUN
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
@@ -1030,9 +1030,9 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 5
-        lowQty: 4
-        highQty: 6
-        dQty: 4
+        lowQty: 6
+        highQty: 10
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: &RANK_5_LARGE
           -
@@ -1070,8 +1070,8 @@ alienDeployments:
             - STR_HEAVY_PLASMA_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 4
-        lowQty: 1
-        highQty: 3
+        lowQty: 2
+        highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
         itemSets: &RANK_4_LARGE
@@ -1111,9 +1111,9 @@ alienDeployments:
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 3
-        lowQty: 1
-        highQty: 3
-        dQty: 2
+        lowQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets: &RANK_3_LARGE_NO_HE
           -
@@ -1273,21 +1273,21 @@ alienDeployments:
   - type: STR_BATTLESHIP
     data: &BATTLESHIP_SET
       - alienRank: 6
-        lowQty: 1
-        highQty: 2
-        dQty: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 7
-        lowQty: 1
-        highQty: 2
-        dQty: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 8
-        lowQty: 1
-        highQty: 2
-        dQty: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 9
@@ -1309,25 +1309,25 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets: *RANK_10_LARGE
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
-        dQty: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *RANK_5_LARGE
       - alienRank: 4
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
         itemSets: *RANK_4_LARGE
       - alienRank: 3
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
         itemSets: *RANK_3_LARGE_NO_HE
       - alienRank: 2
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
@@ -1401,37 +1401,37 @@ alienDeployments:
         lowQty: 1
         highQty: 3
         dQty: 0
-        percentageOutsideUfo: 60
+        percentageOutsideUfo: 66
         itemSets: *RANK_11_MILITARY
       - alienRank: 10
         lowQty: 1
         highQty: 3
         dQty: 0
-        percentageOutsideUfo: 60
+        percentageOutsideUfo: 66
         itemSets: *RANK_10_MILITARY
       - alienRank: 5
-        lowQty: 5
-        highQty: 8
-        dQty: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *RANK_5_MILITARY
       - alienRank: 4
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
-        percentageOutsideUfo: 20
+        percentageOutsideUfo: 40
         itemSets: *RANK_4_MILITARY
       - alienRank: 3
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
-        percentageOutsideUfo: 20
+        percentageOutsideUfo: 40
         itemSets: *RANK_3_LARGE_NO_HE
       - alienRank: 2
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
-        percentageOutsideUfo: 20
+        percentageOutsideUfo: 40
         itemSets:
           -
             - STR_PLASMA_SNIPER_RIFLE
@@ -1530,21 +1530,21 @@ alienDeployments:
   - type: STR_ALIEN_BASE_ASSAULT
     data:
       - alienRank: 6
-        lowQty: 1
-        highQty: 2
-        dQty: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 7
-        lowQty: 1
-        highQty: 2
-        dQty: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 8
-        lowQty: 1
-        highQty: 2
-        dQty: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 9
@@ -1566,19 +1566,19 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets: *RANK_10_LARGE
       - alienRank: 5
-        lowQty: 5
-        highQty: 8
-        dQty: 4
+        lowQty: 6
+        highQty: 12
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_5_LARGE
       - alienRank: 4
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 3
-        lowQty: 1
+        lowQty: 2
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 0
@@ -1625,7 +1625,7 @@ alienDeployments:
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 2
-        lowQty: 1
+        lowQty: 2
         highQty: 4
         dQty: 0
         percentageOutsideUfo: 0
@@ -1776,87 +1776,87 @@ alienDeployments:
   - type: STR_MARS_CYDONIA_LANDING
     data:
       - alienRank: 6
-        lowQty: 1
-        highQty: 4
-        dQty: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 7
-        lowQty: 1
-        highQty: 4
-        dQty: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 8
-        lowQty: 1
-        highQty: 4
-        dQty: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 9
-        lowQty: 2
-        highQty: 4
-        dQty: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 10
-        lowQty: 2
-        highQty: 4
-        dQty: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 11
-        lowQty: 2
-        highQty: 4
-        dQty: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 13
-        lowQty: 1
+        lowQty: 2
         highQty: 4
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_11_LARGE
       - alienRank: 12
-        lowQty: 1
-        highQty: 4
-        dQty: 1
+        lowQty: 4
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_11_LARGE
       - alienRank: 5
-        lowQty: 5
-        highQty: 8
-        dQty: 4
+        lowQty: 8
+        highQty: 16
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_5_LARGE
       - alienRank: 4
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 3
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 2
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_2_BASE
       - alienRank: 1
         lowQty: 2
         highQty: 4
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_1_LARGE
       - alienRank: 0
-        lowQty: 1
+        lowQty: 2
         highQty: 2
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: &RANK_0_CYDONIA
           -
@@ -1919,86 +1919,86 @@ alienDeployments:
     data:
       - alienRank: 6
         lowQty: 2
-        highQty: 4
-        dQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 7
         lowQty: 2
-        highQty: 4
-        dQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 8
         lowQty: 2
-        highQty: 4
-        dQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 9
         lowQty: 2
-        highQty: 4
-        dQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 10
         lowQty: 2
-        highQty: 4
-        dQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 11
         lowQty: 2
-        highQty: 4
-        dQty: 2
+        highQty: 6
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 13
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_11_LARGE
       - alienRank: 12
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets: *RANK_11_LARGE
       - alienRank: 5
-        lowQty: 5
-        highQty: 12
-        dQty: 4
+        lowQty: 8
+        highQty: 16
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_5_LARGE
       - alienRank: 4
-        lowQty: 3
-        highQty: 6
-        dQty: 2
+        lowQty: 4
+        highQty: 8
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 3
-        lowQty: 3
-        highQty: 6
-        dQty: 2
+        lowQty: 4
+        highQty: 8
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 2
-        lowQty: 3
-        highQty: 6
-        dQty: 2
+        lowQty: 4
+        highQty: 8
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_2_BASE
       - alienRank: 1
-        lowQty: 3
-        highQty: 6
-        dQty: 2
+        lowQty: 4
+        highQty: 8
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_1_LARGE
       - alienRank: 0
         lowQty: 2
-        highQty: 3
-        dQty: 1
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_0_CYDONIA
     width: 100
