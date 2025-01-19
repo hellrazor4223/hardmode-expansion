@@ -41,7 +41,7 @@ missionScripts:
   - type: gameStartAlienBase
     missionWeights:
       0:
-        STR_ALIEN_BASE: 100
+        STR_ALIEN_BASE_GAMESTART: 100
     lastMonth: 0
     targetBaseOdds: 100
     raceWeights:

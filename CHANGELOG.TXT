@@ -9,6 +9,7 @@ Version 0.99.9.6
  - Fix some Colors on some Inventory and Ufopaedia Pictures
  - Fix DOWNTOWNURBAN Mapscript for size 60x60
  - Update Language files for more translations
+ - Unify Alien Base cancellation behaviour (exception Alien Base at Gamestart)
  - Adjust Alien Missions and Scoring slightly
  - Adjust Armors for Gazers, Sectoid Elite, Muton Elite, Ethereals, Muton Elite Guard
  - Adjust Aliendeployment spawns to also enable lower Difficulties with proper scaling

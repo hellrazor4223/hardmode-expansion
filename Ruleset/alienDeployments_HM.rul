@@ -1526,9 +1526,9 @@ alienDeployments:
 ##END UFOS
 
 ##BEGIN BASES
-#BEGIN ALIEN BASE ASSAULT
-  - type: STR_ALIEN_BASE_ASSAULT
-    data:
+#BEGIN ALIEN BASE GAMESTART ASSAULT
+  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT
+    data: &ALIEN_BASE_SET
       - alienRank: 6
         lowQty: 2
         highQty: 4
@@ -1726,7 +1726,43 @@ alienDeployments:
     terrains:
       - UBASE
     shade: 10
-    script: ALIENBASE
+    script: ALIEN_BASE_GAMESTART
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_ABDUCTION_MISSION: 10
+      STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_BASE_TERROR_MISSION: 20
+      STR_ALIEN_SUPPLY: 70
+    genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
+    genMissionRaceFromAlienBase: false #Supply is still alien base race, all others pick from mission raceweights
+    alienBase: true # this is only to tell new battle mode what to do with this deployment
+    objectivesRequired: 16 #MCD defined specialtype
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 34 #points aliens get for a base each day
+    cheatTurn: 7 #Force Attack Mode
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END ALIEN BASE GAMESTART ASSAULT
+
+#BEGIN ALIEN BASE ASSAULT
+  - type: STR_ALIEN_BASE_ASSAULT
+    data: *ALIEN_BASE_SET
+    width: 60
+    length: 60
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    script: ALIEN_BASE
     briefing:
       textOffset: -16
       background: BACK01.SCR

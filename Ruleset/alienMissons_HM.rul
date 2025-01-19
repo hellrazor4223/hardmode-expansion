@@ -11,11 +11,11 @@ alienMissions:
   - delete: STR_ALIEN_RETALIATION
 #END DELETE
 
-#BEGIN ALIEN BASE
-  - type: STR_ALIEN_BASE
+#BEGIN ALIEN BASE GAMESTART
+  - type: STR_ALIEN_BASE_GAMESTART
     points: 75
     objective: 2 #Built a alien base
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_ALIEN_BASE_GAMESTART_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
     raceWeights: &BASE_TERROR_INFILTRATION
       0:
@@ -118,6 +118,46 @@ alienMissions:
         count: 1
         trajectory: P6
         timer: 60
+#END ALIEN BASE GAMESTART
+
+#BEGIN ALIEN BASE
+  - type: STR_ALIEN_BASE
+    points: 75
+    objective: 2 #Built a alien base
+    siteType: STR_ALIEN_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    operationType: 0 #We operate from outer space
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 13500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P5
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+        interruptPercentage: 33
+      - ufo: dummy #don't spawn a ufo, we only want the missionsite/alien base
+        count: 1
+        trajectory: P11
+        timer: 2880
+        objective: true
+        objectiveOnTheLandingSite: true
 #END ALIEN BASE
 
 #BEGIN ALIEN TERROR

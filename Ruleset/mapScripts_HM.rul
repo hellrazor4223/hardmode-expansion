@@ -2,8 +2,8 @@
 mapScripts:
 
 ##BEGIN ALIEN BASES
-#BEGIN EXPANDED UBASE
-  - type: ALIENBASE
+#BEGIN ALIEN BASE GAMESTART
+  - type: ALIEN_BASE_GAMESTART
     commands:
     - type: addBlock #Add Entrances
       groups: 2
@@ -41,7 +41,47 @@ mapScripts:
           - type: floor
             set: 1
             entry: 63
-#END EXPANDED UBASE
+#END ALIEN BASE GAMESTART
+
+#BEGIN ALIEN BASE
+  - type: ALIEN_BASE
+    commands:
+    - type: addBlock #Add Entrances
+      groups: 2
+      executions: 2
+    - type: addBlock #Add Command Center
+      size: 2
+      groups: 3
+    - type: addBlock #Add 20x20 Map Blocks
+      size: 2
+      executions: 5
+      groups: [0, 6]
+      freqs: [6, 1]
+    - type: addBlock #Add Entertaiment Room
+      groups: 7
+    - type: addBlock #Add Impassable Power Source Block
+      groups: 9
+    - type: fillArea
+      groups: [0, 1, 8]
+      freqs: [3, 1, 1]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+#END ALIEN BASE
 ##END ALIEN BASES
 
 ##BEGIN FINAL

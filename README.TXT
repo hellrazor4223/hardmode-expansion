@@ -181,16 +181,18 @@ General Gameplay changes:
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
-	Attacking landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only)
-	Attacking landed Battleship performing a Alien Base Mission from a Alien Base gives 33% to deny the mission success (OXCE only)
-	Attacking landed Labship on a Harvesting or Abduction Mission gives 33% to deny mission success (OXCE only)
+	Attacking a landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only)
+	Attacking a landed Battleship performing a Alien Base Mission gives 33% to deny the mission success (OXCE only) (Exception Alien Base Mission at Gamestart)
+	Attacking a landed Battleship performing a Harvesting Mission from space gives 33% to deny the mission success (OXCE only)
+	Attacking a landed Labship performing a Harvesting or Abduction Mission from a Alien Base gives 33% to deny mission success (OXCE only)
+	Attacking the first spawning Abductor on a Abduction Mission from space gives 33% to deny the mission success (OXCE only)
 	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
-	X-Com Base Defense damageging a Alien Battelship during a base attack will result in less Aliens spawning (roughly according with the damage done)
+	X-Com Base Defense damaging a Alien Battelship during a base attack will result in less Aliens spawning (roughly according with the damage done)
 	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only)
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%
-	All Alien Items and Alive Aliens give less money when sold (50%)
+	All Alien Items and Alive Aliens give less money when sold (50% on Superhuman Difficulty)
 	Base Maintence Cost increased to 10% of base modules price
 	X-Com Wages and Hire Cost are 1.5 times Vanilla
 	X-Com Soldiers receive 10% more salary per rank compared to rookie wage:
