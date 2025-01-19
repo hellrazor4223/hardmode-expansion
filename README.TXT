@@ -380,6 +380,10 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 	Docked Liner Ship
 	Port TFTD
 	Port Modified
+	Railstation Urban
+	Railstation Commercial
+	Railstation Industrial
+	Railstation Portindustrial
 	Railyard
 	Savanna Desert
 	Savanna Desert Mountain
