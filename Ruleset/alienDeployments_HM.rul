@@ -2047,6 +2047,7 @@ alienDeployments:
       - MADURBAN
       - EXPANDED_TERROR
       - EXPANDED_URBAN_MIX
+      - RAILSTATION_EXPANDED_URBAN_MIX
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -2109,6 +2110,8 @@ alienDeployments:
       - DAWNURBANB
       - COMRCURBAN
       - DOWNTOWNURBAN
+      - RAILSTATION_COMMERCIAL_URBAN_MIX
+      - RAILSTATION_EXPANDED_URBAN_MIX
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -2136,11 +2139,11 @@ alienDeployments:
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
-      - EXPANDED_URBAN_MIX
-      - PORTURBAN
-      - PORTINDUSTRIALURBAN
-      - RAILYARDURBAN
       - INDUSTRIALURBAN
+      - PORTINDUSTRIALURBAN
+      - RAILSTATION_INDUSTRIALURBAN_MIX
+      - RAILSTATION_PORTINDUSTRIALURBAN_MIX
+      - RAILYARDURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -2170,7 +2173,6 @@ alienDeployments:
     terrains:
       - PORTURBAN
       - PORTTFTD
-      - PORTINDUSTRIALURBAN
       - PORTCARGOSHIP
       - PORTLINERSHIP
     alert: STR_ALIENS_TERRORISE

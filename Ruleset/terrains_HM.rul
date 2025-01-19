@@ -1412,7 +1412,7 @@ terrains:
       - PORTROADS
     civilianTypes: *CIVILIANS_SUBURB
     script: DOWNTOWNURBAN
-    mapBlocks:
+    mapBlocks: &DOWNTOWNURBAN_MAPS
       - name: DOWNTOWNURBAN00
         width: 10
         length: 10
@@ -1488,6 +1488,32 @@ terrains:
         width: 10
         length: 10
 #END DOWNTOWN
+
+#BEGIN RAILSTATION EXPANDED URBAN MIX
+  - name: RAILSTATION_EXPANDED_URBAN_MIX
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_SUBURB
+    script: RAILSTATION_EXPANDED_URBAN_MIX
+    mapBlocks: *DOWNTOWNURBAN_MAPS
+#END RAILSTATION EXPANDED URBAN MIX
+
+#BEGIN RAILSTATION EXPANDED URBAN MIX
+  - name: RAILSTATION_COMMERCIAL_URBAN_MIX
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_SUBURB
+    script: RAILSTATION_COMMERCIAL_URBAN_MIX
+    mapBlocks: *DOWNTOWNURBAN_MAPS
+#END RAILSTATION EXPANDED URBAN MIX
 ##END SUBURB TERROR
 
 ##BEGIN INDUSTRIAL TERROR
@@ -1574,6 +1600,182 @@ terrains:
         length: 10
         groups: 1
 #END INDUSTRIALURBAN
+
+#BEGIN PORTINDUSTRIALURBAN
+  - name: PORTINDUSTRIALURBAN
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+    civilianTypes: *CIVILIANS_INDUSTRIAL
+    script: PORTINDUSTRIALURBAN
+    mapBlocks:
+      - name: PORTUFO00 #0 #
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO01 #1 #
+        width: 10
+        length: 10
+        groups: 1
+      - name: PORTUFO10 #2 #
+        width: 10
+        length: 10
+      - name: PORTUFO11 #3 #
+        width: 10
+        length: 10
+      - name: PORTUFO12 #4 #
+        width: 10
+        length: 10
+      - name: PORTUFO13 #5 #
+        width: 10
+        length: 10
+      - name: PORTUFO14 #6 #
+        width: 10
+        length: 10
+      - name: PORTUFO15 #7 #
+        width: 10
+        length: 10
+      - name: PORTUFO16 #8 #
+        width: 10
+        length: 10
+      - name: PORTUFO17 #9 #
+        width: 20
+        length: 20
+      - name: PORTUFO18 #10 #
+        width: 20
+        length: 20
+      - name: PORTUFO19 #11 #
+        width: 20
+        length: 20
+      - name: PORTUFO21 #12 #
+        width: 20
+        length: 20
+      - name: PORTUFO22 #13 #
+        width: 20
+        length: 20
+      - name: PORTUFO23 #14 #
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO24 #15 #
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO25 #16 #
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO26 #17 #
+        width: 10
+        length: 10
+        groups: 2
+      - name: PORTUFO27 #18 #
+        width: 10
+        length: 10
+        groups: 4
+      - name: PORTUFO28 #19 #
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO29 #20 #
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO30 #21 #
+        width: 10
+        length: 10
+        groups: 3
+      - name: PORTUFO31 #22 #
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALURBAN00 #23 #
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN01 #24 #
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN02 #25 #
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03 #26 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04 #27 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05 #28 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06 #29 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07 #30 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08 #31 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09 #32 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10 #33 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11 #34 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN12 #35 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN13 #36 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14 #37 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15 #38 #
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16 #39 #
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17 #40 #
+        width: 10
+        length: 10
+        groups: 1
+#END PORTINDUSTRIALURBAN
+
+#BEGIN RAILSTATION INDUSTRIALURBAN MIX
+  - name: RAILSTATION_INDUSTRIALURBAN_MIX
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_SUBURB
+    script: RAILSTATION_INDUSTRIALURBAN_MIX
+    mapBlocks: *DOWNTOWNURBAN_MAPS
+#END RAILSTATION INDUSTRIALURBAN MIX
+
+#BEGIN RAILSTATION PORTINDUSTRIALURBAN MIX
+  - name: RAILSTATION_PORTINDUSTRIALURBAN_MIX
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_SUBURB
+    script: RAILSTATION_PORTINDUSTRIALURBAN_MIX
+    mapBlocks: *DOWNTOWNURBAN_MAPS
+#END RAILSTATION PORTINDUSTRIALURBAN MIX
 
 #BEGIN RAILYARDURBAN
   - name: RAILYARDURBAN
@@ -1918,173 +2120,6 @@ terrains:
         groups: 3
 #END PORTURBAN
 
-#BEGIN PORTINDUSTRIALURBAN
-  - name: PORTINDUSTRIALURBAN
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
-    script: PORTINDUSTRIALURBAN
-    mapBlocks:
-      - name: PORTUFO00 #0 #
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTUFO01 #1 #
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTUFO10 #2 #
-        width: 10
-        length: 10
-      - name: PORTUFO11 #3 #
-        width: 10
-        length: 10
-      - name: PORTUFO12 #4 #
-        width: 10
-        length: 10
-      - name: PORTUFO13 #5 #
-        width: 10
-        length: 10
-      - name: PORTUFO14 #6 #
-        width: 10
-        length: 10
-      - name: PORTUFO15 #7 #
-        width: 10
-        length: 10
-      - name: PORTUFO16 #8 #
-        width: 10
-        length: 10
-      - name: PORTUFO17 #9 #
-        width: 20
-        length: 20
-      - name: PORTUFO18 #10 #
-        width: 20
-        length: 20
-      - name: PORTUFO19 #11 #
-        width: 20
-        length: 20
-      - name: PORTUFO21 #12 #
-        width: 20
-        length: 20
-      - name: PORTUFO22 #13 #
-        width: 20
-        length: 20
-      - name: PORTUFO23 #14 #
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTUFO24 #15 #
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTUFO25 #16 #
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTUFO26 #17 #
-        width: 10
-        length: 10
-        groups: 2
-      - name: PORTUFO27 #18 #
-        width: 10
-        length: 10
-        groups: 4
-      - name: PORTUFO28 #19 #
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO29 #20 #
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO30 #21 #
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO31 #22 #
-        width: 10
-        length: 10
-        groups: 3
-      - name: INDUSTRIALURBAN00 #23 #
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN01 #24 #
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN02 #25 #
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN03 #26 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN04 #27 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN05 #28 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN06 #29 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN07 #30 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN08 #31 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN09 #32 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN10 #33 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN11 #34 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN12 #35 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN13 #36 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN14 #37 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN15 #38 #
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN16 #39 #
-        width: 10
-        length: 10
-        groups: 1
-      - name: INDUSTRIALURBAN17 #40 #
-        width: 10
-        length: 10
-        groups: 1
-#END PORTINDUSTRIALURBAN
-
-
-#BEGIN CARGOSHIPPORT
-  - name: CARGOSHIPPORT
-    mapDataSets:
-      - BLANKS
-      - SEAURBAN
-      - CARGOSHIP1
-      - CARGOSHIP2
-      - CARGOSHIP3
-      - CARGOSHIP4
-      - U_PODS
-    mapBlocks:
-      - name: CARGOSHIPPORT
-        width: 30
-        length: 70
-#END CARGOSHIPPORT
-
 #BEGIN PORTCARGOSHIP
   - name: PORTCARGOSHIP
     mapDataSets:
@@ -2289,6 +2324,36 @@ terrains:
         length: 10
 #END PORTCARGOSHIP
 
+#BEGIN CARGOSHIPPORT
+  - name: CARGOSHIPPORT
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - CARGOSHIP1
+      - CARGOSHIP2
+      - CARGOSHIP3
+      - CARGOSHIP4
+      - U_PODS
+    mapBlocks:
+      - name: CARGOSHIPPORT
+        width: 30
+        length: 70
+#END CARGOSHIPPORT
+
+#BEGIN PORTLINERSHIP
+  - name: PORTLINERSHIP
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - SEAURBAN
+    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
+    script: PORTLINERSHIP
+    mapBlocks: *PORTSHIP_MAPS
+#END PORTLINERSHIP
+
 #BEGIN LINERSHIPPORT
   - name: LINERSHIPPORT
     mapDataSets:
@@ -2304,20 +2369,6 @@ terrains:
         width: 30
         length: 70
 #END LINERSHIPPORT
-
-#BEGIN PORTLINERSHIP
-  - name: PORTLINERSHIP
-    mapDataSets:
-      - BLANKS
-      - PORTROADS
-      - PORTURBITS
-      - ROADS
-      - URBITS
-      - SEAURBAN
-    civilianTypes: *CIVILIANS_PORTINDUSTRIAL
-    script: PORTLINERSHIP
-    mapBlocks: *PORTSHIP_MAPS
-#END PORTLINERSHIP
 ##END PORTINDUSTRIAL TERROR
 
 ##BEGIN EQUATORIAL TERROR
