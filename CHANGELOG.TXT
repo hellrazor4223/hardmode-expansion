@@ -18,6 +18,7 @@ Version 0.99.9.6
  - Add DOWNTOWNURBAN Railstation to URBAN and INDUSTRIAL Terrosites
  - Add Ufopaedia Articles for Armors / Combat Analysis
  - Add Running will NOT trigger Mutual surprise
+ - Add Info for Melee Weapons that user strength increases damage
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

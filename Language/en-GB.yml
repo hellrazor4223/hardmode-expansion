@@ -503,13 +503,13 @@ en-GB:
 
 #BEGIN WEAPONS
   STR_COMBAT_KNIFE: "Combat Knife"
-  STR_COMBAT_KNIFE_UFOPEDIA: "Using its hardened edge and point, a trained field operative can silently kill a lightly-armored enemy with a single slash or thrust.{NEWLINE}Suitable for close encounters of any kind."
+  STR_COMBAT_KNIFE_UFOPEDIA: "Using its hardened edge and point, a trained field operative can silently kill a lightly-armored enemy with a single slash or thrust.{NEWLINE}Suitable for close encounters of any kind.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_ALLOY_KNIFE: "Alloy Knife"
-  STR_ALLOY_KNIFE_UFOPEDIA: "This combat knife was made from Alien Alloys, which allow for an edge sharper than any other material we can use for this purpose."
+  STR_ALLOY_KNIFE_UFOPEDIA: "This combat knife was made from Alien Alloys, which allow for an edge sharper than any other material we can use for this purpose.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_ALLOY_SWORD: "Alloy Sword"
-  STR_ALLOY_SWORD_UFOPEDIA: "This specially crafted sword is a formidable close combat weapon, utilizing a soldier's strength and skill to take down even heavily armored foes."
+  STR_ALLOY_SWORD_UFOPEDIA: "This specially crafted sword is a formidable close combat weapon, utilizing a soldier's strength and skill to take down even heavily armored foes.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_PISTOL_AA_CLIP: "Pistol Alloy Clip"
   STR_PISTOL_AA_CLIP_X3: "Pistol Alloy Clip [x3]"
@@ -590,9 +590,9 @@ en-GB:
   STR_FIRE_EXTINGUISHER_UFOPEDIA: "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations. It is not intended for use on an out-of-control fire, such as one which has reached the ceiling, endangers the user (i.e. no escape route, smoke, explosion hazard, etc.), or otherwise requires the expertise of a fire brigade."
 
   STR_PLASMA_BLADE: "Plasma Blade"
-  STR_PLASMA_BLADE_UFOPEDIA: "This device, essentially an alien combat knife, features a blade sharpened to a monomolecular edge. A magnetic envelope engulfs this blade in a plasma field, giving it the ability to rip through the heat-resistant ceramic inserts in modern body armour."
+  STR_PLASMA_BLADE_UFOPEDIA: "This device, essentially an alien combat knife, features a blade sharpened to a monomolecular edge. A magnetic envelope engulfs this blade in a plasma field, giving it the ability to rip through the heat-resistant ceramic inserts in modern body armour.{NEWLINE}The users strength value increases the damage done by its value."
   STR_PLASMA_SWORD: "Plasma Sword"
-  STR_PLASMA_SWORD_UFOPEDIA: "This lethal implement of sword combines a large blade, a micron thick at the edge, a plasma emitter, and an electromagnet. When activated, hot plasma floods the EM field surrounding the blade, superheating it to the point where its touch would make titanium run like water."
+  STR_PLASMA_SWORD_UFOPEDIA: "This lethal implement of sword combines a large blade, a micron thick at the edge, a plasma emitter, and an electromagnet. When activated, hot plasma floods the EM field surrounding the blade, superheating it to the point where its touch would make titanium run like water.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: "Plasma Pistol Elerium Clip"
   STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: "A enhanced version of the power source for the small alien Plasma Pistol. It contains a unknown and not reproduceable  special spatial configuration of Elerium the source of all alien power."
