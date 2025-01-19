@@ -2,4 +2,5 @@
 constants:
   - fireDamageRange: [7, 12]
   - extendedExperienceAwardSystem: false
+  - extendedRunningCost: true
 #END CONSTANTS
