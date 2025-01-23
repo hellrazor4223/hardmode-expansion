@@ -16,6 +16,7 @@ Version 0.99.9.6
  - Adjust Terrorsite mapScripts for UFO spawn and proper block variety
  - Adjust Alien Alloy recovery from Missionsites to give proper yield
  - Add Terrorships Spawn on Terrorsites
+ - Add Terrorship reappears after Terrorsite despawn or failed/aborted XCom Mission
  - Add DOWNTOWNURBAN Railstation to URBAN and INDUSTRIAL Terrosites
  - Add Ufopaedia Articles for Armors / Combat Analysis
  - Add Running will NOT trigger Mutual surprise
