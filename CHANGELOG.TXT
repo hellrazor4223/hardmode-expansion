@@ -22,6 +22,8 @@ Version 0.99.9.6
  - Add Running will NOT trigger Mutual surprise
  - Add Info for Melee Weapons that user strength increases damage
  - Add another Graphic for a DayNightIndicator
+ - Add Psi Animation by pWWWa
+ - Add Psi Miss Animation
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

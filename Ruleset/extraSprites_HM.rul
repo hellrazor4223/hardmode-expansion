@@ -2306,7 +2306,16 @@ extraSprites:
       16: Resources/Items/Xcom/AlloySword/HitAnimation_AlloySword.png
       20: Resources/Items/Alien/PlasmaBlade/HitAnimation_PlasmaBlade.png
       24: Resources/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword.png
+  - type: HIT.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      28: Resources/Items/PsiAnimation_8_frames.png
+      36: Resources/Items/PsiMissAnimation_8_frames.png
 #END HIT
+
 
 #BEGIN SMOKE
   - type: SMOKE.PCK

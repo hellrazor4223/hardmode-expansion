@@ -2671,6 +2671,10 @@ items:
     floorSprite: 32
     handSprite: 88
     hitSound: 36
+    psiAnimation: 28
+    psiAnimFrames: 8
+    psiMissAnimation: 36
+    psiMissAnimFrames: 8
     battleType: 9
     twoHanded: true
     invWidth: 1
@@ -3299,6 +3303,22 @@ items:
     armor: 1000
     listOrder: 6202
 #BEGIN ALIEN DATA CORE ITEM
+
+#BEGIN ALIEN PSI WEAPON
+# Special Psi Weapon for Aliens.
+# Usage of this is hard-coded.
+# DO NOT DELETE!
+  - type: ALIEN_PSI_WEAPON
+    hitSound: 36
+    psiAnimation: 28
+    psiAnimFrames: 8
+    psiMissAnimation: 36
+    psiMissAnimFrames: 8
+    battleType: 9
+    tuUse: 25
+    flatRate: true
+    recover: false
+#END ALIEN PSI WEAPON
 ##END ALIEN WEAPON ITEMS
 
 ##BEGIN ALIEN CORPSE ITEMS

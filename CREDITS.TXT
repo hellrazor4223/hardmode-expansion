@@ -118,6 +118,7 @@ Credits go to:
 		- For the new Plasma Hit Animation
 		- For the Plasma Melee Weapons
 		- For the Custom HitAnimations for the Combat Knife, Alloy Knife and Alloy Sword
+		- For the Custom PsiAnimation for Psi-Amp and the alien Psi Weapon
 	chaosshade:
 		- For the PlasmaShotgun (Deadliest weapon ever after Blaster Launchers =))
 		- For the Elerium Rocket
