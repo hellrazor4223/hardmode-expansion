@@ -1,0 +1,32 @@
+##BEGIN SCRIPTS
+extended:
+#BEGIN HIT RED FLASH
+  tags:
+    BattleUnit:
+      LAST_HIT_FRAME: int
+
+  scripts:
+    damageUnit:
+      - offset: 10
+        code: |
+          var int temp;
+          battle_game.getAnimFrame temp;
+          unit.setTag Tag.LAST_HIT_FRAME temp;
+          return;
+
+    recolorUnitSprite:
+      - offset: 10
+        code: |
+          var int temp;
+          
+          unit.getTag temp Tag.LAST_HIT_FRAME;
+          if neq temp 0;
+            sub temp anim_frame;
+            if gt temp -3; #only 3 frames after hit have changed color
+              set_color new_pixel 2; #red color
+            end;
+          end;
+          
+          return new_pixel;
+#END HIT RED FLASH
+##END SCRIPTS

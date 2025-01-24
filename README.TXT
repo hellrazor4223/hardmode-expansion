@@ -225,6 +225,7 @@ Groundcombat changes:
 	Psi-Amps use 25 TU and 25 Stamina (Energy) for Psi Panic or Psi Mind Control attack. Get your Stims ready! (OXCE only)
 	Direct fire smoke acts as fire extinguisher (Smoke Grenades don't)
 	Running will NOT trigger Mutual surprise, you will run towards your target!
+	Units being hit with will Flash red as a confirmation.
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
