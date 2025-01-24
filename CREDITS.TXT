@@ -74,6 +74,7 @@ Credits go to:
 		- For the Install Video for OpenXcom and Mods
 		- For the additional Drone Sprites
 		- For the Commendations Mod
+		- For the DayNightIndicator Graphic
 	CryptoCactus:
 		- For the Alloy Ground Tanks
 		- For the Blue Smoke Grenade Sprites
