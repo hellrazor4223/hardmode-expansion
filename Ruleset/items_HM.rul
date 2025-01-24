@@ -1676,7 +1676,7 @@ items:
     weight: 3
     bigSprite: 140
     floorSprite: 137
-    handSprite: 416
+    handSprite: 704
     meleeSound: 39
     meleeHitSound: 109
     meleeAnimation: 12

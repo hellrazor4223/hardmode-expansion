@@ -414,6 +414,7 @@ extraSprites:
 ##BEGIN XCOM ITEM HANDOB
 #BEGIN XCOM WEAPON ITEM HANDOB
       416: Resources/Items/Xcom/CombatKnife/HandOb_CombatKnife.png
+      704: Resources/Items/Xcom/AlloyKnife/HandOb_AlloyKnife.png
       424: Resources/Items/Xcom/AlloySword/HandOb_AlloySword.png
       312: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol.png
       600: Resources/Items/Xcom/TaserPistol/HandOb_TaserPistol_Clip.png

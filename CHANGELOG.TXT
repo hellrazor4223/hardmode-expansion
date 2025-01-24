@@ -24,6 +24,7 @@ Version 0.99.9.6
  - Add another Graphic for a DayNightIndicator
  - Add Psi Animation by pWWWa
  - Add Psi Miss Animation
+ - Add Missing HandOb for Alloy Knife
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation
