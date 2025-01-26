@@ -776,7 +776,7 @@ items:
   - type: STR_TANK_LASER_CANNON
     customItemPreviewIndex: 0
     size: 4
-    accuracySnap: 55
+    accuracySnap: 50
     accuracyAimed: 85
     tuSnap: 33
     tuAimed: 75
@@ -1002,8 +1002,8 @@ items:
     hitSound: 19
     hitAnimation: 36
     power: 110
-    accuracyAuto: 45
-    accuracySnap: 55
+    accuracyAuto: 50
+    accuracySnap: 65
     accuracyAimed: 85
     autoShots: 3
     tuAuto: 50
@@ -1097,10 +1097,10 @@ items:
     hitSound: 19
     hitAnimation: 36
     power: 110
-    accuracyAuto: 45
-    accuracySnap: 55
-    accuracyAimed: 85
-    autoShots: 3
+    accuracyAuto: 60
+    accuracySnap: 75
+    accuracyAimed: 90
+    autoShots: 4
     tuAuto: 45
     tuSnap: 30
     tuAimed: 60
@@ -3736,6 +3736,7 @@ items:
     hitAnimation: 36
     power: 110
     bulletSprite: 7
+    autoShots: 5
     listOrder: 11400
     snapRange: 24
     autoRange: 14
@@ -3816,6 +3817,7 @@ items:
     invWidth: 2
     invHeight: 3
     recover: false
+    autoShots: 4
     listOrder: 11404
     snapRange: 26
     autoRange: 16

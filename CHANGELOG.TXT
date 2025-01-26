@@ -15,6 +15,7 @@ Version 0.99.9.6
  - Adjust Aliendeployment spawns to also enable lower Difficulties with proper scaling
  - Adjust Terrorsite mapScripts for UFO spawn and proper block variety
  - Adjust Alien Alloy recovery from Missionsites to give proper yield
+ - Adjust Tank fire accuracies slightly
  - Add Terrorships Spawn on Terrorsites
  - Add Terrorship reappears after Terrorsite despawn or failed/aborted XCom Mission
  - Add DOWNTOWNURBAN Railstation to URBAN and INDUSTRIAL Terrosites
