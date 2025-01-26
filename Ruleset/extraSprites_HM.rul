@@ -2357,6 +2357,13 @@ extraSprites:
     files:
       140: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol_Elerium_Clip.png
       150: Resources/Units/Xcom/HoverDrones/HitAnimation_HoverDroneTaser.png
+  - type: SMOKE.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      160: Resources/Units/Alien/Celatid/HitAnimation_CelatidCloning.png
 #END SMOKE
 
 #BEGIN X1

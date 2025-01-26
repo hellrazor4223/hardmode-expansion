@@ -1323,6 +1323,18 @@ units:
       bravery: 100
       psiStrength: 120
     value: 10
+    builtInWeaponSets:
+      -
+        - CELATID_WEAPON
+        - STR_CELATID_EMBRYO1
+        - STR_CELATID_EMBRYO2
+        - STR_CELATID_EMBRYO3
+        - STR_CELATID_EMBRYO4
+        - STR_CELATID_EMBRYO5
+        - STR_CELATID_EMBRYO6
+        - STR_CELATID_EMBRYO7
+        - STR_CELATID_EMBRYO8
+        - STR_CELATID_EMBRYO9
 #END CELATID UNIT
 
 #BEGIN MUTON BERSERKER UNIT

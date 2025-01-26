@@ -1,10 +1,14 @@
 ##BEGIN SCRIPTS
 extended:
-#BEGIN HIT RED FLASH
+#BEGIN TAGS
   tags:
     BattleUnit:
       LAST_HIT_FRAME: int
+    RuleItem:
+      TIMER: int
+#END TAGS
 
+#BEGIN HIT RED FLASH SCRIPT
   scripts:
     damageUnit:
       - offset: 10
@@ -28,5 +32,51 @@ extended:
           end;
           
           return new_pixel;
-#END HIT RED FLASH
+#END HIT RED FLASH SCRIPT
+
+#BEGIN CELATID EMBRYO SCRIPT
+items:
+  - &STR_CELATID_EMBRYO_SCRIPT
+    type: STR_CELATID_EMBRYO
+    scripts:
+      createItem: |
+        var int timer;
+        var ptr RuleItem itemRuleset;
+        item.getRuleItem itemRuleset;
+        itemRuleset.getTag timer Tag.TIMER;
+        item.setFuseTimer timer;
+        return;
+      newTurnItem: |
+        var ptre BattleUnit itemOwner;
+        var int timer;
+        item.getOwner itemOwner;
+        #EMBRYO on floor needs to be unprimed
+        if eq itemOwner null;
+          item.setFuseTimer -1;
+        end;
+        #THE COST OF CLONING
+        item.getFuseTimer timer;
+        if eq timer 0;
+          itemOwner.setTimeUnits 0;
+        end;
+        return;
+  - type: STR_CELATID_EMBRYO1
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO2
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO3
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO4
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO5
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO6
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO7
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO8
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+  - type: STR_CELATID_EMBRYO9
+    refNode: *STR_CELATID_EMBRYO_SCRIPT
+#END CELATID EMBRYO SCRIPT
 ##END SCRIPTS

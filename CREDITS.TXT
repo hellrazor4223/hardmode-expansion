@@ -193,13 +193,15 @@ Credits go to:
 			MEDAL_PSIPANIC
 			MEDAL_SLAVEKILLS
 	cevaralien:
-		- for the final version of the commendation sprite
+		- For the final version of the commendation sprite
 	Xross:
-		- for the XCOM1 Visual Upgrade mod, I ripped some assets from
+		- For the XCOM1 Visual Upgrade mod, I ripped some assets from
 	noblebright:
-		- for supporting me with a Wiki: https://hardmode-expansion.trigramreactor.net/master (Big Thanks Dude!)
+		- For supporting me with a Wiki: https://hardmode-expansion.trigramreactor.net/master (Big Thanks Dude!)
 	CrazedHarpooner:
-		- for the Optimized Version of the DOWNTOWNURBAN mapScript (Thanks Dude:))
+		- For the Optimized Version of the DOWNTOWNURBAN mapScript (Thanks Dude:))
+	Kzer-Za:
+		- For the Initial Version of UFOpaedia Celatid Mod: https://openxcom.org/forum/index.php?topic=7307.0
 
 	All translaters on the TRANSIFEX project (you guys are awesome)
 

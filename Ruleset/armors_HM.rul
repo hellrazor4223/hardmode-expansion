@@ -1193,6 +1193,7 @@ armors:
 #BEGIN CELATID ARMOR
   - type: CELATID_ARMOR
     spriteInv: celatidInventoryImage
+    psiVision: 13
 #END CELATID ARMOR
 
 #BEGIN MUTON BERSERKER ARMOR

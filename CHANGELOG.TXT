@@ -27,6 +27,7 @@ Version 0.99.9.6
  - Add Psi Miss Animation
  - Add Missing HandOb for Alloy Knife
  - Add Script: RED HIT FLASH for all Battlescape units
+ - Add Ufopaedia Celatid (Selfclones every 7's Turn/Psivision 13 tiles)
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

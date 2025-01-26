@@ -3707,6 +3707,67 @@ items:
     bigSprite: 228
 #END ZOMBIE WEAPON
 
+#BEGIN CELATID WEAPON ITEM
+  - type: CELATID_WEAPON
+    maxRange: 16
+  - &STR_CELATID_EMBRYO
+    type: STR_CELATID_EMBRYO
+    size: 0.1
+    weight: 0
+    invWidth: 0
+    invHeight: 0
+    hitAnimation: 160
+    hitAnimFrames: 8
+    explosionHitSound: 7
+    power: 0
+    damageType: 3
+    battleType: 4
+    blastRadius: 0
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    fuseType: -1
+    isExplodingInHands: true
+    spawnUnit: STR_CELATID_TERRORIST
+    spawnUnitFaction: 1
+    recover: false
+  - type: STR_CELATID_EMBRYO1
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 13
+  - type: STR_CELATID_EMBRYO2
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 27
+  - type: STR_CELATID_EMBRYO3
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 41
+  - type: STR_CELATID_EMBRYO4
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 55
+  - type: STR_CELATID_EMBRYO5
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 69
+  - type: STR_CELATID_EMBRYO6
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 83
+  - type: STR_CELATID_EMBRYO7
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 97
+  - type: STR_CELATID_EMBRYO8
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 111
+  - type: STR_CELATID_EMBRYO9
+    refNode: *STR_CELATID_EMBRYO
+    tags:
+      TIMER: 125
+#END CELATID WEAPON ITEM
+
 #BEGIN MUTON BERSERKER WEAPON ITEM
   - type: MUTON_BERSERKER_WEAPON
     weight: 3
