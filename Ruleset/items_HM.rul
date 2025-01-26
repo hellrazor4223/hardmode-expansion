@@ -3732,40 +3732,22 @@ items:
     recover: false
   - type: STR_CELATID_EMBRYO1
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 13
   - type: STR_CELATID_EMBRYO2
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 27
   - type: STR_CELATID_EMBRYO3
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 41
   - type: STR_CELATID_EMBRYO4
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 55
   - type: STR_CELATID_EMBRYO5
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 69
   - type: STR_CELATID_EMBRYO6
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 83
   - type: STR_CELATID_EMBRYO7
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 97
   - type: STR_CELATID_EMBRYO8
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 111
   - type: STR_CELATID_EMBRYO9
     refNode: *STR_CELATID_EMBRYO
-    tags:
-      TIMER: 125
 #END CELATID WEAPON ITEM
 
 #BEGIN MUTON BERSERKER WEAPON ITEM
