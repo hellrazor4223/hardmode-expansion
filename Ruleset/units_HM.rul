@@ -446,7 +446,7 @@ units:
       health: 90
       bravery: 110
       reactions: 40
-      firing: 80
+      firing: 70
       throwing: 0
       strength: 60
       psiStrength: 120
