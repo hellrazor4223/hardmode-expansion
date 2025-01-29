@@ -28,6 +28,7 @@ Version 0.99.9.6
  - Add Missing HandOb for Alloy Knife
  - Add Script: RED HIT FLASH for all Battlescape units
  - Add Ufopaedia Celatid (Ability to Selfclone once on Earth and unlimited on Cydonia/Psivision 13 tiles)
+ - Add Custom Background for UFOpaedia Armor articles
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation
