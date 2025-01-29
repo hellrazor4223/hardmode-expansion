@@ -227,7 +227,8 @@ Groundcombat changes:
 	Running will NOT trigger Mutual surprise, you will run towards your target!
 	Units being hit will Flash red as a confirmation
 	Celatids can feel X-Com units through solid obeject within 13 tile range
-	Celatids can self clone every 7th Alien turn as stated in the UfoPaedia
+	Celatids can self clone themselves as stated in the UfoPaedia (on Earth inear growth pattern, each Celatid one Clone, Clones make new Clones)
+	Celatids in the Final Mission follow expotential growth pattern
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
