@@ -644,6 +644,8 @@ en-GB:
 
 #BEGIN ALIEN RACES
   FLOATER_ARMOR0: "Combat Analysis: Floater"
+  FLOATER_ARMOR1: "Combat Analysis: Floater"
+  FLOATER_ARMOR2: "Combat Analysis: Floater"
   STR_FLOATER_1: "Floater"
   STR_FLOATER_3: "Floater"
   STR_FLOATER_5: "Floater"
@@ -665,6 +667,8 @@ en-GB:
   STR_SECTOID_15: "Sectoid"
 
   SNAKEMAN_ARMOR0: "Combat Analysis: Snakeman"
+  SNAKEMAN_ARMOR1: "Combat Analysis: Snakeman"
+  SNAKEMAN_ARMOR2: "Combat Analysis: Snakeman"
   STR_SNAKEMAN_5: "Snakeman"
   STR_SNAKEMAN_7: "Snakeman"
   STR_SNAKEMAN_8: "Snakeman"
@@ -674,6 +678,8 @@ en-GB:
   STR_SNAKEMAN_15: "Snakeman"
 
   MUTON_ARMOR0: "Combat Analysis: Muton"
+  MUTON_ARMOR1: "Combat Analysis: Muton"
+  MUTON_ARMOR2: "Combat Analysis: Muton"
   STR_MUTON_7: "Muton"
   STR_MUTON_8: "Muton"
   STR_MUTON_10: "Muton"
@@ -682,6 +688,8 @@ en-GB:
   STR_MUTON_15: "Muton"
 
   WASPITE_ARMOR0: "Combat Analysis: Waspite"
+  WASPITE_ARMOR1: "Combat Analysis: Waspite"
+  WASPITE_ARMOR2: "Combat Analysis: Waspite"
   STR_WASPITE: "Waspite"
   STR_WASPITE_8: "Waspite"
   STR_WASPITE_10: "Waspite"
@@ -700,6 +708,8 @@ en-GB:
   STR_WASPITE_AUTOPSY_UFOPEDIA: "The anatomy of this creature verges on insanity. The body consists of a spiral life support system device, combined with a symbiotic, bioengineered plant. Grafted on to the body, are a pair of mechanical arms and the insect-like head of the creature, which is presumably the only piece left of the original species. The plant portion of the body is vulnerable to fire."
 
   GAZER_ARMOR0: "Combat Analysis: Gazer"
+  GAZER_ARMOR1: "Combat Analysis: Gazer"
+  GAZER_ARMOR2: "Combat Analysis: Gazer"
   STR_GAZER: "Gazer"
   STR_GAZER_10: "Gazer"
   STR_GAZER_12: "Gazer"
@@ -717,6 +727,8 @@ en-GB:
   STR_GAZER_AUTOPSY_UFOPEDIA: "The single big eye is the most prominent anatomical feature of this alien; it has crustacean traits but it is much more evolved. The very thick armor is not simply worn; cybernetic implants stem from it and connect to the organs of the creature, it is a shell for the creature."
 
   SECTOID_ELITE_ARMOR0: "Combat Analysis: Sectoid Elite"
+  SECTOID_ELITE_ARMOR1: "Combat Analysis: Sectoid Elite"
+  SECTOID_ELITE_ARMOR2: "Combat Analysis: Sectoid Elite"
   STR_SECTOID_ELITE: "Sectoid Elite"
   STR_SECTOID_ELITE_12: "Sectoid Elite"
   STR_SECTOID_ELITE_13: "Sectoid Elite"
@@ -733,6 +745,8 @@ en-GB:
   STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA: "This species are indeed Sectoids, but their DNA is in some small part largely different, which would explain the slightly different proportions, the increased vitality and the much more powerful psionic powers."
 
   MUTON_ELITE_ARMOR0: "Combat Analysis: Muton Elite"
+  MUTON_ELITE_ARMOR1: "Combat Analysis: Muton Elite"
+  MUTON_ELITE_ARMOR2: "Combat Analysis: Muton Elite"
   STR_MUTON_ELITE: "Muton Elite"
   STR_MUTON_ELITE_13: "Muton Elite"
   STR_MUTON_ELITE_15: "Muton Elite"
@@ -746,12 +760,17 @@ en-GB:
   STR_MUTON_ELITE_AUTOPSY_UFOPEDIA: "This specimen is identically to normal Mutons, but has undergone severe changes. Especially the armor has been significantly improved, also more implants for enemy tracking and more survival ability."
 
   ETHEREAL_ARMOR0: "Combat Analysis: Ethereal"
+  ETHEREAL_ARMOR1: "Combat Analysis: Ethereal"
+  ETHEREAL_ARMOR2: "Combat Analysis: Ethereal"
   STR_ETHEREAL_15: "Ethereal"
 
   MUTON_ELITE_GUARD_ARMOR0: "Combat Analysis: Muton Elite Guard"
+  MUTON_ELITE_GUARD_ARMOR1: "Combat Analysis: Muton Elite Guard"
+  MUTON_ELITE_GUARD_ARMOR2: "Combat Analysis: Muton Elite Guard"
   STR_MUTON_ELITE_GUARD: "Muton Elite Guard"
   STR_MUTON_ELITE_GUARD_SOLDIER: "Muton Elite Guard Soldier"
   STR_MUTON_ELITE_GUARD_ENGINEER: "Muton Elite Guard Engineer"
+  STR_MUTON_ELITE_GUARD_NAVIGATOR: "Muton Elite Guard Navigator"
   STR_MUTON_ELITE_GUARD_LEADER: "Muton Elite Guard Leader"
   STR_MUTON_ELITE_GUARD_UFOPEDIA: "The elite of elite, the strongest and thoughest and brightest warriors of the Muton race seem to get granted with a special position in the Starspawn, they possess a significant resistence towards psionic influences and it is yet unknown how their Ethereal masters keep them under control. We suspect some sort of loyality indoctrination or a form of drug to keep them obedient."
   STR_MUTON_ELITE_GUARD_CORPSE: "Muton Elite Guard Corpse"

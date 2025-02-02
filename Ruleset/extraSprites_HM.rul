@@ -2768,12 +2768,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/Geograph/Sprite_GeographInterface_UFOSiteRadarHyperwave_15.png
-  - type: BACK16.SCR
+  - type: BACK18.SCR
     width: 320
     height: 200
     singleImage: true
     files:
-      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaArmorBackground16.png
+      0: Resources/UI/Geograph/Sprite_GeographInterface_UfopaediaArmorBackground18.png
 #END BORD BACKGROUNDS
 
 #BEGIN SOLDIER COUNTRY FLAGS

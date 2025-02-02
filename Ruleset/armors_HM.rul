@@ -24,7 +24,7 @@ armors:
       - 1.0
       - 0.0
       - 1.0
-      - 1.4
+      - 0.4
       - 0.0
     loftempsSet: [ 3 ]
     fearImunne: true
@@ -114,7 +114,7 @@ armors:
       - 0.9
       - 0.0
       - 1.0
-      - 1.4
+      - 0.4
       - 0.0
     loftempsSet: [ 3 ]
     fearImunne: true
@@ -226,7 +226,7 @@ armors:
       - 0.8
       - 0.0
       - 1.0
-      - 1.4
+      - 0.4
       - 0.0
     loftempsSet: [ 3 ]
     fearImunne: true
@@ -831,8 +831,10 @@ armors:
     spriteInv: floaterInventoryImage
   - type: FLOATER_ARMOR1
     spriteInv: floaterInventoryImage
+    ufopediaType: FLOATER_ARMOR0
   - type: FLOATER_ARMOR2
     spriteInv: floaterInventoryImage
+    ufopediaType: FLOATER_ARMOR0
 #END FLOATER ARMOR
 
 #BEGIN SECTOID ARMOR
@@ -845,19 +847,24 @@ armors:
     spriteInv: snakemanInventoryImage
   - type: SNAKEMAN_ARMOR1
     spriteInv: snakemanInventoryImage
+    ufopediaType: SNAKEMAN_ARMOR0
     frontArmor: 24
     sideArmor: 20
   - type: SNAKEMAN_ARMOR2
     spriteInv: snakemanInventoryImage
+    ufopediaType: SNAKEMAN_ARMOR0
 #END SNAKEMAN ARMOR
 
 #BEGIN MUTON ARMOR
   - type: MUTON_ARMOR0
     spriteInv: mutonInventoryImage
+    ufopediaType: MUTON_ARMOR0
   - type: MUTON_ARMOR1
     spriteInv: mutonInventoryImage
+    ufopediaType: MUTON_ARMOR0
   - type: MUTON_ARMOR2
     spriteInv: mutonInventoryImage
+    ufopediaType: MUTON_ARMOR0
 #END MUTON ARMOR
 
 #BEGIN WASPITE ARMOR
@@ -887,6 +894,7 @@ armors:
   - type: WASPITE_ARMOR1
     spriteSheet: WASPITE.PCK
     spriteInv: waspiteInventoryImage
+    ufopediaType: WASPITE_ARMOR0
     corpseBattle:
       - STR_WASPITE_CORPSE
     frontArmor: 38
@@ -900,6 +908,7 @@ armors:
   - type: WASPITE_ARMOR2
     spriteSheet: WASPITE.PCK
     spriteInv: waspiteInventoryImage
+    ufopediaType: WASPITE_ARMOR0
     corpseBattle:
       - STR_WASPITE_CORPSE
     frontArmor: 42
@@ -938,6 +947,7 @@ armors:
   - type: GAZER_ARMOR1
     spriteSheet: GAZER.PCK
     spriteInv: gazerInventoryImage
+    ufopediaType: GAZER_ARMOR0
     corpseBattle:
       - STR_GAZER_CORPSE
     frontArmor: 54
@@ -950,6 +960,7 @@ armors:
   - type: GAZER_ARMOR2
     spriteSheet: GAZER.PCK
     spriteInv: gazerInventoryImage
+    ufopediaType: GAZER_ARMOR0
     corpseBattle:
       - STR_GAZER_CORPSE
     frontArmor: 58
@@ -986,12 +997,25 @@ armors:
   - type: SECTOID_ELITE_ARMOR1
     spriteSheet: SECTOID_ELITE.PCK
     spriteInv: sectoideliteInventoryImage
+    ufopediaType: SECTOID_ELITE_ARMOR0
     corpseBattle:
       - STR_SECTOID_ELITE_CORPSE
     frontArmor: 64
     sideArmor: 54
     rearArmor: 44
     underArmor: 44
+    damageModifier: *SECTOID_ELITE_DAMAGE_MODIFIER
+    loftempsSet: [ 2 ]
+  - type: SECTOID_ELITE_ARMOR2
+    spriteSheet: SECTOID_ELITE.PCK
+    spriteInv: sectoideliteInventoryImage
+    ufopediaType: SECTOID_ELITE_ARMOR0
+    corpseBattle:
+      - STR_SECTOID_ELITE_CORPSE
+    frontArmor: 68
+    sideArmor: 58
+    rearArmor: 48
+    underArmor: 48
     damageModifier: *SECTOID_ELITE_DAMAGE_MODIFIER
     loftempsSet: [ 2 ]
 #END SECTOID ELITE ARMOR
@@ -1022,6 +1046,7 @@ armors:
   - type: MUTON_ELITE_ARMOR1
     spriteSheet: MUTON_ELITE.PCK
     spriteInv: mutoneliteInventoryImage
+    ufopediaType: MUTON_ELITE_ARMOR0
     corpseBattle:
       - STR_MUTON_ELITE_CORPSE
     frontArmor: 65
@@ -1034,6 +1059,7 @@ armors:
   - type: MUTON_ELITE_ARMOR2
     spriteSheet: MUTON_ELITE.PCK
     spriteInv: mutoneliteInventoryImage
+    ufopediaType: MUTON_ELITE_ARMOR0
     corpseBattle:
       - STR_MUTON_ELITE_CORPSE
     frontArmor: 70
@@ -1065,6 +1091,7 @@ armors:
       - 0.0
   - type: ETHEREAL_ARMOR1
     spriteInv: etherealInventoryImage
+    ufopediaType: ETHEREAL_ARMOR0
     frontArmor: 50
     sideArmor: 50
     rearArmor: 50
@@ -1072,6 +1099,7 @@ armors:
     damageModifier: *ETHEREAL_DAMAGE_MODIFIER
   - type: ETHEREAL_ARMOR2
     spriteInv: etherealInventoryImage
+    ufopediaType: ETHEREAL_ARMOR0
     frontArmor: 55
     sideArmor: 55
     rearArmor: 55
@@ -1105,12 +1133,26 @@ armors:
   - type: MUTON_ELITE_GUARD_ARMOR1
     spriteSheet: MUTON_ELITE_GUARD.PCK
     spriteInv: mutoneliteguardInventoryImage
+    ufopediaType: MUTON_ELITE_GUARD_ARMOR0
     corpseBattle:
       - STR_MUTON_ELITE_GUARD_CORPSE
     frontArmor: 90
     sideArmor: 80
     rearArmor: 70
     underArmor: 70
+    drawingRoutine: 10
+    damageModifier: *MUTON_ELITE_GUAR_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+  - type: MUTON_ELITE_GUARD_ARMOR2
+    spriteSheet: MUTON_ELITE_GUARD.PCK
+    spriteInv: mutoneliteguardInventoryImage
+    ufopediaType: MUTON_ELITE_GUARD_ARMOR0
+    corpseBattle:
+      - STR_MUTON_ELITE_GUARD_CORPSE
+    frontArmor: 100
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 80
     drawingRoutine: 10
     damageModifier: *MUTON_ELITE_GUAR_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]

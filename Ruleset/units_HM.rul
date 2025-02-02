@@ -998,7 +998,7 @@ units:
     race: STR_SECTOID_ELITE
     rank: STR_LIVE_ENGINEER
     stats: *SECTOID_ELITE_STATS
-    armor: SECTOID_ELITE_ARMOR0
+    armor: SECTOID_ELITE_ARMOR1
     standHeight: 16
     kneelHeight: 12
     value: 12
@@ -1012,7 +1012,7 @@ units:
     race: STR_SECTOID_ELITE
     rank: STR_LIVE_NAVIGATOR
     stats: *SECTOID_ELITE_STATS
-    armor: SECTOID_ELITE_ARMOR0
+    armor: SECTOID_ELITE_ARMOR1
     standHeight: 16
     kneelHeight: 12
     value: 10
@@ -1026,7 +1026,7 @@ units:
     race: STR_SECTOID_ELITE
     rank: STR_LIVE_MEDIC
     stats: *SECTOID_ELITE_STATS
-    armor: SECTOID_ELITE_ARMOR0
+    armor: SECTOID_ELITE_ARMOR1
     standHeight: 16
     kneelHeight: 12
     value: 13
@@ -1051,7 +1051,7 @@ units:
       psiStrength: 80
       psiSkill: 30
       melee: 50
-    armor: SECTOID_ELITE_ARMOR1
+    armor: SECTOID_ELITE_ARMOR2
     standHeight: 16
     kneelHeight: 12
     value: 18
@@ -1076,7 +1076,7 @@ units:
       psiStrength: 80
       psiSkill: 35
       melee: 50
-    armor: SECTOID_ELITE_ARMOR1
+    armor: SECTOID_ELITE_ARMOR2
     standHeight: 16
     kneelHeight: 12
     value: 24
@@ -1234,7 +1234,7 @@ units:
     race: STR_MUTON_ELITE_GUARD
     rank: STR_LIVE_ENGINEER
     stats: *MUTON_ELITE_GUARD_STATS
-    armor: MUTON_ELITE_GUARD_ARMOR0
+    armor: MUTON_ELITE_GUARD_ARMOR1
     standHeight: 21
     kneelHeight: 16
     value: 18
@@ -1243,6 +1243,21 @@ units:
     aggression: 1
     energyRecovery: 60
 #END MUTON ELITE GUARD ENGINEER UNIT
+
+#BEGIN MUTON ELITE GUARD NAVIGATOR UNIT
+  - type: STR_MUTON_ELITE_GUARD_NAVIGATOR
+    race: STR_MUTON_ELITE_GUARD
+    rank: STR_LIVE_ENGINEER
+    stats: *MUTON_ELITE_GUARD_STATS
+    armor: MUTON_ELITE_GUARD_ARMOR1
+    standHeight: 21
+    kneelHeight: 16
+    value: 18
+    deathSound: 6
+    intelligence: 9
+    aggression: 1
+    energyRecovery: 60
+#END MUTON ELITE GUARD NAVIGATOR UNIT
 
 #BEGIN MUTON ELITE GUARD LEADER UNIT
   - type: STR_MUTON_ELITE_GUARD_LEADER
@@ -1260,7 +1275,7 @@ units:
       psiStrength: 160
       psiSkill: 0
       melee: 90
-    armor: MUTON_ELITE_GUARD_ARMOR1
+    armor: MUTON_ELITE_GUARD_ARMOR2
     standHeight: 21
     kneelHeight: 16
     value: 22

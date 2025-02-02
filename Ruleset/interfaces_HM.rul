@@ -1,5 +1,5 @@
 #BEGIN INTERFACES
 interfaces:
   - type: articleArmor
-    backgroundImage: BACK16.SCR
+    backgroundImage: BACK18.SCR
 #END INTERFACES
