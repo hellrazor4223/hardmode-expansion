@@ -1729,6 +1729,7 @@ ufopaedia:
     requires:
       - STR_FLOATER
       - STR_FLOATER_AUTOPSY
+    text: FLOATER_ARMOR0_UFOPEDIA
     listOrder: 7901
 #END FLOATER UFOPAEDIA
 
@@ -1745,6 +1746,7 @@ ufopaedia:
     requires:
       - STR_SECTOID
       - STR_SECTOID_AUTOPSY
+    text: SECTOID_ARMOR0_UFOPEDIA
     listOrder: 8101
 #END SECTOID UFOPAEDIA
 
@@ -1761,6 +1763,7 @@ ufopaedia:
     requires:
       - STR_SNAKEMAN
       - STR_SNAKEMAN_AUTOPSY
+    text: SNAKEMAN_ARMOR0_UFOPEDIA
     listOrder: 8301
 #END SNAKEMAN UFOPAEDIA
 
@@ -1777,6 +1780,7 @@ ufopaedia:
     requires:
       - STR_MUTON
       - STR_MUTON_AUTOPSY
+    text: MUTON_ARMOR0_UFOPEDIA
     listOrder: 8501
 #END MUTON UFOPAEDIA
 
@@ -1805,6 +1809,7 @@ ufopaedia:
     requires:
       - STR_WASPITE
       - STR_WASPITE_AUTOPSY
+    text: WASPITE_ARMOR0_UFOPEDIA
     listOrder: 8504
 #END WASPITE UFOPAEDIA
 
@@ -1833,6 +1838,7 @@ ufopaedia:
     requires:
       - STR_GAZER
       - STR_GAZER_AUTOPSY
+    text: GAZER_ARMOR0_UFOPEDIA
     listOrder: 8507
 #END GAZER UFOPAEDIA
 
@@ -1861,6 +1867,7 @@ ufopaedia:
     requires:
       - STR_SECTOID_ELITE
       - STR_SECTOID_ELITE_AUTOPSY
+    text: SECTOID_ELITE_ARMOR0_UFOPEDIA
     listOrder: 8510
 #END SECTOID ELITE UFOPAEDIA
 
@@ -1889,6 +1896,7 @@ ufopaedia:
     requires:
       - STR_MUTON_ELITE
       - STR_MUTON_ELITE_AUTOPSY
+    text: MUTON_ELITE_ARMOR0_UFOPEDIA
     listOrder: 8513
 #END MUTON ELITE UFOPAEDIA
 
@@ -1905,6 +1913,7 @@ ufopaedia:
     requires:
       - STR_ETHEREAL
       - STR_ETHEREAL_AUTOPSY
+    text: ETHEREAL_ARMOR0_UFOPEDIA
     listOrder: 8701
 #END ETHEREAL UFOPAEDIA
 
@@ -1933,6 +1942,7 @@ ufopaedia:
     requires:
       - STR_MUTON_ELITE_GUARD
       - STR_MUTON_ELITE_GUARD_AUTOPSY
+    text: MUTON_ELITE_GUARD_ARMOR0_UFOPEDIA
     listOrder: 8704
 #END MUTON ELITE GUARD UFOPAEDIA
 

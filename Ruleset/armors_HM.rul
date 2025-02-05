@@ -832,6 +832,7 @@ armors:
   - type: FLOATER_ARMOR1
     spriteInv: floaterInventoryImage
     ufopediaType: FLOATER_ARMOR0
+    underArmor: 14
   - type: FLOATER_ARMOR2
     spriteInv: floaterInventoryImage
     ufopediaType: FLOATER_ARMOR0
@@ -848,8 +849,10 @@ armors:
   - type: SNAKEMAN_ARMOR1
     spriteInv: snakemanInventoryImage
     ufopediaType: SNAKEMAN_ARMOR0
-    frontArmor: 24
-    sideArmor: 20
+    frontArmor: 23
+    sideArmor: 22
+    rearArmor: 19
+    underArmor: 16
   - type: SNAKEMAN_ARMOR2
     spriteInv: snakemanInventoryImage
     ufopediaType: SNAKEMAN_ARMOR0
