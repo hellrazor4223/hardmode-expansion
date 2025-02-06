@@ -1035,7 +1035,7 @@ en-US:
 
   STR_MEDAL_MINDCONTROL: "Imperio"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "Given to a soldier who has mastered the mind of the enemy."
-  STR_MEDAL_MINDCONTROL_UFOPEDIA: " 'The mind acts like​ an enemy for those who do not control it.​' {NEWLINE} --​ Bhagavad Gita {NEWLINE} {NEWLINE} This award is given to all soldier who are able to mindcontrol a enemy.  Presented for every three succesful attempts, this citation has four levels."
+  STR_MEDAL_MINDCONTROL_UFOPEDIA: " 'The mind acts like an enemy for those who do not control it.' {NEWLINE} -- Bhagavad Gita {NEWLINE} {NEWLINE} This award is given to all soldier who are able to mindcontrol a enemy.  Presented for every three succesful attempts, this citation has 4 levels."
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Longest Night Ribbon"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Given to a soldier who has witnessed the horrors of alien terror missions at night."
@@ -1059,7 +1059,7 @@ en-US:
 
   STR_MEDAL_PSIPANIC: "Crucio"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "Given to a soldier who has broken the mind of the enemy."
-  STR_MEDAL_PSIPANIC_UFOPEDIA: " 'The mind is ‌its own⁣ place, and in itself can make a heaven ⁢of hell, ​a ‌hell of​ heaven.' {NEWLINE} ‌--⁢ John ⁣Milton  {NEWLINE} {NEWLINE} This award is given to all soldier who are able to psionically panic a enemy. Presented for every three succesful attempts, this citation has four levels."
+  STR_MEDAL_PSIPANIC_UFOPEDIA: " 'The mind is its own place, and in itself can make a heaven of hell,a hell of heaven.' {NEWLINE} -- John Milton  {NEWLINE} {NEWLINE} This award is given to all soldier who are able to psionically panic a enemy. Presented for every three succesful attempts, this citation has 4 levels."
 
   STR_MEDAL_REACTIONFIRE: "Swiftness Citation"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Given to a soldier who has demonstrated quick reflexes, killing aliens before they have a chance to retaliate."
