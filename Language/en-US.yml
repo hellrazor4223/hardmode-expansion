@@ -983,7 +983,7 @@ en-US:
 
   STR_MEDAL_GLOBETROTTER: "Globetrotter"
   STR_MEDAL_GLOBETROTTER_DESCRIPTION: "Given to a soldier who has defended every last country on Earth from the alien threat."
-  STR_MEDAL_GLOBETROTTER_UFOPEDIA: ""
+  STR_MEDAL_GLOBETROTTER_UFOPEDIA: " ' Do not follow where the path may lead. Go instead where there is no path and leave a trail. ' {NEWLINE} -- Ralph Waldo Emerson {NEWLINE} {NEWLINE} This award is presented to every soldier for each mission done in all countries of earth."
 
   STR_MEDAL_GRENADIER: "Grenadier's Medal"
   STR_MEDAL_GRENADIER_DESCRIPTION: "Given to a soldier who has used thrown explosives to kill 3 aliens at once."
@@ -1015,7 +1015,7 @@ en-US:
 
   STR_MEDAL_MARTYR: "Medal of Sacrifice"
   STR_MEDAL_MARTYR_DESCRIPTION: "Given posthumously to a soldier who would not go down alone."
-  STR_MEDAL_MARTYR_UFOPEDIA: ""
+  STR_MEDAL_MARTYR_UFOPEDIA: " 'There is no man more free than the one who has nothing to lose.' {NEWLINE} -- Don Quixote {NEWLINE} {NEWLINE} This award is granted after the heaviest sacrifice in the line of duty, for every enemy taking to the grave, up to 10."
 
   STR_MEDAL_MEDIKIT: "Field Surgeon"
   STR_MEDAL_MEDIKIT_DESCRIPTION: "Given to a soldier who has made regular use of the medikit on the battlefield."
@@ -1035,7 +1035,7 @@ en-US:
 
   STR_MEDAL_MINDCONTROL: "Imperio"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "Given to a soldier who has mastered the mind of the enemy."
-  STR_MEDAL_MINDCONTROL_UFOPEDIA: ""
+  STR_MEDAL_MINDCONTROL_UFOPEDIA: " 'The mind acts like​ an enemy for those who do not control it.​' {NEWLINE} --​ Bhagavad Gita {NEWLINE} {NEWLINE} This award is given to all soldier who are able to mindcontrol a enemy.  Presented for every three succesful attempts, this citation has four levels."
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Longest Night Ribbon"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Given to a soldier who has witnessed the horrors of alien terror missions at night."
@@ -1055,11 +1055,11 @@ en-US:
 
   STR_MEDAL_POSTMORTEM_KILL: "Order of the Reaper"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "Given posthumously to a soldier who maintained a presence on the battlefield in spite of death."
-  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: ""
+  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: " 'There are roads which must not be followed, armies which must not be attacked, towns which must not be besieged, positions which must not be contested, commands of the sovereign which must not be obeyed.' {NEWLINE} -- Sun Tzu  {NEWLINE} {NEWLINE}  This award is granted postmortem, for every enemy taking to the grave, up to 10."
 
   STR_MEDAL_PSIPANIC: "Crucio"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "Given to a soldier who has broken the mind of the enemy."
-  STR_MEDAL_PSIPANIC_UFOPEDIA: ""
+  STR_MEDAL_PSIPANIC_UFOPEDIA: " 'The mind is ‌its own⁣ place, and in itself can make a heaven ⁢of hell, ​a ‌hell of​ heaven.' {NEWLINE} ‌--⁢ John ⁣Milton  {NEWLINE} {NEWLINE} This award is given to all soldier who are able to psionically panic a enemy. Presented for every three succesful attempts, this citation has four levels."
 
   STR_MEDAL_REACTIONFIRE: "Swiftness Citation"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Given to a soldier who has demonstrated quick reflexes, killing aliens before they have a chance to retaliate."
@@ -1087,7 +1087,7 @@ en-US:
 
   STR_MEDAL_SLAVEKILLS: "Master of Puppets"
   STR_MEDAL_SLAVEKILLS_DESCRIPTION: "Given to a soldier who has used aliens against one another."
-  STR_MEDAL_SLAVEKILLS_UFOPEDIA: ""
+  STR_MEDAL_SLAVEKILLS_UFOPEDIA: " 'To be accused was to be convicted, and to be convicted was to be punished; the one always following the other with immutable certainty.' {NEWLINE} -- Frederick Douglass {NEWLINE} {NEWLINE} This award is presented to each soldier, who is able to turn the aliens on each other, awarded every third time it has 4 levels."
 
   STR_MEDAL_SNIPER: "Marksman Citation"
   STR_MEDAL_SNIPER_DESCRIPTION: "Given to a soldier who has landed long distance shots on intended targets."
