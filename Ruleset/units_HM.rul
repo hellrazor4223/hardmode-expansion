@@ -1293,6 +1293,7 @@ units:
       psiStrength: 120
     value: 10
     aggroSound: 50
+    isLeeroyJenkins: true
 #END SILACOID UNIT
 
 #BEGIN REAPER UNIT
@@ -1301,6 +1302,7 @@ units:
       bravery: 100
       psiStrength: 42
     value: 10
+    isLeeroyJenkins: true
 #END REAPER UNIT
 
 #BEGIN CYBERDISC UNIT
@@ -1319,6 +1321,7 @@ units:
       aggression: 3
     value: 13
     aggroSound: 49
+    isLeeroyJenkins: true
 #END CHRYSSALID UNIT
 
 #BEGIN SECTOPOD UNIT
@@ -1432,6 +1435,7 @@ units:
     aggression: 9
     energyRecovery: 70
     livingWeapon: true
+    isLeeroyJenkins: true
 #END MUTON BERSERKER UNIT
 
 #BEGIN CYBERMITE UNIT
@@ -1458,6 +1462,7 @@ units:
     aggression: 2
     specab: 1
     livingWeapon: true
+    isLeeroyJenkins: true
 #END CYBERMITE UNIT
 
 #BEGIN HOLODRONE UNIT
@@ -1578,6 +1583,7 @@ units:
 
 #BEGIN ZOMBIE UNIT
   - type: STR_ZOMBIE
+    isLeeroyJenkins: true
 #END ZOMBIE UNIT
 
 #BEGIN SPITTER ZOMBIE UNIT
@@ -1605,6 +1611,7 @@ units:
     energyRecovery: 50
     spawnUnit: STR_CHRYSSALID_SPITTER_TERRORIST
     livingWeapon: true
+    isLeeroyJenkins: true
     # Zombies are silent on death, no deathSound
 #END SPITTER ZOMBIE UNIT
 ##END ALIEN TERROR UNITS

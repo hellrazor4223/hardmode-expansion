@@ -231,6 +231,7 @@ Groundcombat changes:
 	Celatids in the Final Mission follow expotential growth pattern
 	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successfull Zombification, this makes Armor really important!
 	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
+	Enemy Terror Units will Charge enemies, Units with Cahrge behaviour are: Silacoids, Reapers, Chryssalids Muton Berserkers, Cybermites and all Zombies
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
