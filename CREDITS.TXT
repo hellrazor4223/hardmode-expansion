@@ -43,6 +43,15 @@ Credits go to:
 		- For the AlloyVest Sprite
 		- For the Sectopod HWP
 		- For the Combat Knife
+	Yankees:
+		- For OpenXcom Extended
+		- For some Y-Scripts i use
+		- For the scripting hooks
+	Meridian:
+		- For OpenXcom Extended
+		- For the correct Implementaiton of Research code fixes! (I know it was a headache it also gave me one)
+		- For fullfilling my OXCE feature requests
+		- For managing the forum!
 	Hobbes:
 		- For inspiring me with his modding work and his fanfiction UFO Book!
 		- For answering many of my questions
@@ -200,6 +209,7 @@ Credits go to:
 		- For supporting me with a Wiki: https://hardmode-expansion.trigramreactor.net/master (Big Thanks Dude!)
 	CrazedHarpooner:
 		- For the Optimized Version of the DOWNTOWNURBAN mapScript (Thanks Dude:))
+		- For the Self Popping zombie script
 	Kzer-Za:
 		- For the Initial Version of UFOpaedia Celatid Mod: https://openxcom.org/forum/index.php?topic=7307.0
 
