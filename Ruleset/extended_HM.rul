@@ -4,9 +4,27 @@ extended:
   tags:
     BattleUnit:
       LAST_HIT_FRAME: int
+      AUTO_DEATH: int
+      DEATH_COUNTUP: int
     RuleItem:
       TIMER: int
 #END TAGS
+
+#BEGIN ZOMBIFICATION AFTER ARMOR PENETRATION
+  scripts:
+    damageUnit:
+    # Global fix to Transformation attacks like Chryssalid zombification
+    # Requires at least 1 hit point of damage before zombification triggers
+    # This applies to *every* weapon that zombifies.  It *has* to get through armor to work.
+      - offset: 4
+        code: |
+          if gt to_transform 0;
+            if eq to_health 0;
+              set to_transform 0;
+            end;
+          end;
+          return;
+#END ZOMBIFICATION AFTER ARMOR PENETRATION
 
 #BEGIN HIT RED FLASH SCRIPT
   scripts:
@@ -97,4 +115,54 @@ items:
     tags:
       TIMER: 125
 #END CELATID EMBRYO SCRIPT
+
+#BEGIN SELF POPPING CHRYSSALIDS
+armors:
+  - update: ZOMBIE_ARMOR
+    scripts:
+      createUnit: |
+        var int auto_death;
+        battle_game.randomRange auto_death 3 7;
+        unit.setTag Tag.AUTO_DEATH auto_death;
+        return;
+      newTurnUnit: |
+        var int auto_death;
+        unit.getTag auto_death Tag.AUTO_DEATH;
+        if gt auto_death 0;
+          var int death_countup;
+          unit.getTag death_countup Tag.DEATH_COUNTUP;
+          if eq side FACTION_HOSTILE;
+            add death_countup 1;
+            unit.setTag Tag.DEATH_COUNTUP death_countup;
+          else and eq side FACTION_PLAYER ge death_countup auto_death;
+            unit.setHealth 0;
+          end;
+        end;
+        return;
+#END SELF POPPING CHRYSSALIDS
+
+#BEGIN SELF POPPING CHRYSSALIDS SPITTERS
+armors:
+  - update: SPITTER_ZOMBIE_ARMOR
+    scripts:
+      createUnit: |
+        var int auto_death;
+        battle_game.randomRange auto_death 3 7;
+        unit.setTag Tag.AUTO_DEATH auto_death;
+        return;
+      newTurnUnit: |
+        var int auto_death;
+        unit.getTag auto_death Tag.AUTO_DEATH;
+        if gt auto_death 0;
+          var int death_countup;
+          unit.getTag death_countup Tag.DEATH_COUNTUP;
+          if eq side FACTION_HOSTILE;
+            add death_countup 1;
+            unit.setTag Tag.DEATH_COUNTUP death_countup;
+          else and eq side FACTION_PLAYER ge death_countup auto_death;
+            unit.setHealth 0;
+          end;
+        end;
+        return;
+#END SELF POPPING CHRYSSALIDS SPITTERS
 ##END SCRIPTS

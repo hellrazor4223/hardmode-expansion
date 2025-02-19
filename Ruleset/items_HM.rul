@@ -3927,9 +3927,9 @@ items:
     fireSound: 51
     hitSound: 19
     hitAnimation: 46
-    power: 140
+    power: 110
     clipSize: -1
-    damageType: 1
+    damageType: 8
     accuracySnap: 100
     tuSnap: 20
     battleType: 1

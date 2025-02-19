@@ -229,6 +229,8 @@ Groundcombat changes:
 	Celatids can feel X-Com units through solid obeject within 13 tile range
 	Celatids can self clone themselves as stated in the UfoPaedia (on Earth inear growth pattern, each Celatid one Clone, Clones make new Clones)
 	Celatids in the Final Mission follow expotential growth pattern
+	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successfull Zombification, this makes Armor really important!
+	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

@@ -16,6 +16,7 @@ Version 0.99.9.6
  - Adjust Terrorsite mapScripts for UFO spawn and proper block variety
  - Adjust Alien Alloy recovery from Missionsites to give proper yield
  - Adjust Tank fire accuracies slightly
+ - Adjust Zombification Weapons now need to penetrate Armor (no more guaranteed Instant Kill Zombies for Chryssalids)
  - Add Terrorships Spawn on Terrorsites
  - Add Terrorship reappears after Terrorsite despawn or failed/aborted XCom Mission
  - Add DOWNTOWNURBAN Railstation to URBAN and INDUSTRIAL Terrosites
@@ -30,6 +31,7 @@ Version 0.99.9.6
  - Add Ufopaedia Celatid (Ability to Selfclone once on Earth and unlimited on Cydonia/Psivision 13 tiles)
  - Add Custom Background for UFOpaedia Armor articles
  - Add 7 missing Commendation discriptions and proper criteria
+ - Add Self Popping Chryssalids Zombies and Chryssalid Spitter Zombies (3-7 turns random delay)
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation
