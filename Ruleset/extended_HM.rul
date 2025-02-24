@@ -10,34 +10,26 @@ extended:
       TIMER: int
 #END TAGS
 
-#BEGIN ZOMBIFICATION AFTER ARMOR PENETRATION
+#BEGIN HIT RED FLASH AND ZOMBIFICATION AFTER ARMOR PENETRATION
   scripts:
     damageUnit:
-    # Global fix to Transformation attacks like Chryssalid zombification
-    # Requires at least 1 hit point of damage before zombification triggers
-    # This applies to *every* weapon that zombifies.  It *has* to get through armor to work.
-      - offset: 4
+      - offset: 1
         code: |
+          var int temp;
+          battle_game.getAnimFrame temp;
+          unit.setTag Tag.LAST_HIT_FRAME temp;
+          # Global fix to Transformation attacks like Chryssalid zombification
+          # Requires at least 1 hit point of damage before zombification triggers
+          # This applies to *every* weapon that zombifies.  It *has* to get through armor to work.
           if gt to_transform 0;
             if eq to_health 0;
               set to_transform 0;
             end;
           end;
           return;
-#END ZOMBIFICATION AFTER ARMOR PENETRATION
-
-#BEGIN HIT RED FLASH SCRIPT
-  scripts:
-    damageUnit:
-      - offset: 10
-        code: |
-          var int temp;
-          battle_game.getAnimFrame temp;
-          unit.setTag Tag.LAST_HIT_FRAME temp;
-          return;
 
     recolorUnitSprite:
-      - offset: 10
+      - offset: 3
         code: |
           var int temp;
           
@@ -50,7 +42,7 @@ extended:
           end;
           
           return new_pixel;
-#END HIT RED FLASH SCRIPT
+#END HIT RED FLASH AND ZOMBIFICATION AFTER ARMOR PENETRATION
 
 #BEGIN CELATID EMBRYO SCRIPT
 items:
