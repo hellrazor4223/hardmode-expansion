@@ -60,6 +60,7 @@ Credits go to:
 		- For a lot of Sprites Conversions for Civilians
 	SolariusScorch:
 		- For the AlloyVest
+		- For the AlloyKnife HandOb
 		- For the Plasma Sniper Rifle
 		- For several UfoPaedia Techpics
 		- For the SolarsNewUFO's Mod (Which i took the freedom to bugfix and made loads of new map variants for)
@@ -69,6 +70,7 @@ Credits go to:
 	Dioxine:
 		- Fir disagreeing with me (Honestly!)
 		- For the Alloy Knife sprites
+		- For the AlloyKnife HandOb
 		- For a lot of Sprites for Civilians
 		- For the Commendations Mod
 	Falko:
@@ -124,7 +126,7 @@ Credits go to:
 		- For the Vanilla Alien Inventory Sprites
 		- For the Sectopod HWP
 	pWWWa:
-		- For the new Plasma Hit Animation
+		- For the Plasma HitAnimation for all Alien Plasma Weapons
 		- For the Plasma Melee Weapons
 		- For the Custom HitAnimations for the Combat Knife, Alloy Knife and Alloy Sword
 		- For the Custom PsiAnimation for Psi-Amp and the alien Psi Weapon

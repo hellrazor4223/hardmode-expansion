@@ -17,6 +17,7 @@ Version 0.99.9.6
  - Adjust Alien Alloy recovery from Missionsites to give proper yield
  - Adjust Tank fire accuracies slightly
  - Adjust Zombification Weapons now need to penetrate Armor (no more guaranteed Instant Kill Zombies for Chryssalids)
+ - Adjust Heavy Plasma Autoshot (now 4 instead of 3, YES it does a load of damage!)
  - Add Terrorships Spawn on Terrorsites
  - Add Terrorship reappears after Terrorsite despawn or failed/aborted XCom Mission
  - Add DOWNTOWNURBAN Railstation to URBAN and INDUSTRIAL Terrosites
@@ -33,6 +34,8 @@ Version 0.99.9.6
  - Add 7 missing Commendation discriptions and proper criteria
  - Add Self Popping Chryssalids Zombies and Chryssalid Spitter Zombies (3-7 turns random delay)
  - Add Charging behaviour to: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and Zombies
+ - Add new Melee hitAnimation graphics for AlloyKnife, AlloySword, PlasmaBlade, PlasmaSword (thx pWWWa)
+ - Add new hitAnimation graphics for all alien Plasma Weapons (thx pWWWa)
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

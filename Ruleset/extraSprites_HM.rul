@@ -2303,10 +2303,10 @@ extraSprites:
     subY: 40
     files:
       8:  Resources/Items/Xcom/CombatKnife/HitAnimation_CombatKnife.png
-      12: Resources/Items/Xcom/AlloyKnife/HitAnimation_AlloyKnife.png
-      16: Resources/Items/Xcom/AlloySword/HitAnimation_AlloySword.png
-      20: Resources/Items/Alien/PlasmaBlade/HitAnimation_PlasmaBlade.png
-      24: Resources/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword.png
+      16: Resources/Items/Xcom/AlloyKnife/HitAnimation_AlloyKnife_8_frames.png
+      24: Resources/Items/Xcom/AlloySword/HitAnimation_AlloySword_8_frames.png
+      32: Resources/Items/Alien/PlasmaBlade/HitAnimation_PlasmaBlade_8_frames.png
+      40: Resources/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword_8_frames.png
   - type: HIT.PCK
     height: 40
     width: 256
@@ -2327,43 +2327,34 @@ extraSprites:
     files:
       8: Resources/Items/SpriteSheet_SmokeCloud.png
   - type: SMOKE.PCK
-    width: 320
-    height: 40
-    subX: 32
-    subY: 40
-    files:
-      56: Resources/Items/HitAnimation_PlasmaNew.png
-  - type: SMOKE.PCK
     width: 160
     height: 80
     subX: 32
     subY: 40
     files:
       100: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol_Clip.png
-      110: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
-  - type: SMOKE.PCK
-    width: 320
-    height: 40
-    subX: 32
-    subY: 40
-    files:
-      120: Resources/Items/HitAnimation_PlasmaElerium.png
-      130: Resources/Items/HitAnimation_PlasmaNewElerium.png
-  - type: SMOKE.PCK
-    width: 160
-    height: 80
-    subX: 32
-    subY: 40
-    files:
-      140: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol_Elerium_Clip.png
-      150: Resources/Units/Xcom/HoverDrones/HitAnimation_HoverDroneTaser.png
+      110: Resources/Items/Xcom/TaserPistol/HitAnimation_TaserPistol_Elerium_Clip.png
+      120: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
+      130: Resources/Units/Xcom/HoverDrones/HitAnimation_HoverDroneTaser.png
   - type: SMOKE.PCK
     width: 256
     height: 40
     subX: 32
     subY: 40
     files:
-      160: Resources/Units/Alien/Celatid/HitAnimation_CelatidCloning.png
+      140: Resources/Units/Alien/Celatid/HitAnimation_CelatidCloning.png
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      150: Resources/Items/HitAnimation_Plasma_Small.png
+      160: Resources/Items/HitAnimation_Plasma_Medium.png
+      170: Resources/Items/HitAnimation_Plasma_Big.png
+      180: Resources/Items/HitAnimation_PlasmaElerium_Small.png
+      190: Resources/Items/HitAnimation_PlasmaElerium_Medium.png
+      200: Resources/Items/HitAnimation_PlasmaElerium_Big.png
 #END SMOKE
 
 #BEGIN X1

@@ -204,7 +204,8 @@ items:
     costSell: 500
     weight: 1
     hitSound: 54
-    hitAnimation: 110
+    hitAnimation: 120
+    hitAnimFrames: 5
     power: 40
     damageType: 6
     battleType: 2
@@ -446,7 +447,8 @@ items:
     costSell: 1000
     weight: 1
     hitSound: 54
-    hitAnimation: 110
+    hitAnimation: 120
+    hitAnimFrames: 5
     power: 65
     damageType: 6
     battleType: 2
@@ -608,7 +610,8 @@ items:
     bigSprite: 170
     bulletSprite: 29
     hitSound: 54
-    hitAnimation: 150
+    hitAnimation: 130
+    hitAnimFrames: 5
     power: 90
     damageType: 6
     fireSound: 114
@@ -1244,6 +1247,8 @@ items:
   - type: STR_HOVERTANK_PLASMA
     customItemPreviewIndex: 2
     bigSprite: 222
+    hitAnimation: 170
+    hitAnimFrames: 10
     power: 115
     accuracyAuto: 70
     accuracySnap: 85
@@ -1679,7 +1684,8 @@ items:
     handSprite: 704
     meleeSound: 39
     meleeHitSound: 109
-    meleeAnimation: 12
+    meleeAnimation: 16
+    meleeAnimFrames: 8
     power: 30
     strengthApplied: true
     damageType: 7
@@ -1708,7 +1714,8 @@ items:
     handSprite: 424
     meleeSound: 39
     meleeHitSound: 109
-    meleeAnimation: 16
+    meleeAnimation: 24
+    meleeAnimFrames: 8
     power: 60
     strengthApplied: true
     damageType: 7
@@ -1762,6 +1769,7 @@ items:
     bulletSprite: 12
     hitSound: 54
     hitAnimation: 100
+    hitAnimFrames: 5
     power: 40
     damageType: 6
     clipSize: 4
@@ -1780,7 +1788,8 @@ items:
     handSprite: 680
     bulletSprite: 26
     hitSound: 54
-    hitAnimation: 140
+    hitAnimation: 110
+    hitAnimFrames: 5
     power: 60
     damageType: 6
     clipSize: 6
@@ -2764,7 +2773,8 @@ items:
     handSprite: 496
     meleeSound: 106
     meleeHitSound: 107
-    meleeAnimation: 20
+    meleeAnimation: 32
+    meleeAnimFrames: 8
     power: 80
     strengthApplied: true
     damageType: 7
@@ -2795,7 +2805,8 @@ items:
     handSprite: 504
     meleeSound: 106
     meleeHitSound: 108
-    meleeAnimation: 24
+    meleeAnimation: 40
+    meleeAnimFrames: 8
     power: 100
     strengthApplied: true
     damageType: 7
@@ -2819,6 +2830,8 @@ items:
     compatibleAmmo:
       - STR_PLASMA_PISTOL_CLIP
       - STR_PLASMA_PISTOL_ELERIUM_CLIP
+    hitAnimation: 150
+    hitAnimFrames: 10
     armor: 50
     attraction: 10
     costSell: 42000
@@ -2845,7 +2858,8 @@ items:
     handSprite: 632
     bulletSprite: 25
     hitsound: 19
-    hitAnimation: 120
+    hitAnimation: 180
+    hitAnimFrames: 10
     power: 72
     damageType: 5
     clipSize: 26
@@ -2861,6 +2875,8 @@ items:
     compatibleAmmo:
       - STR_PLASMA_RIFLE_CLIP
       - STR_PLASMA_RIFLE_ELERIUM_CLIP
+    hitAnimation: 160
+    hitAnimFrames: 10
     armor: 50
     attraction: 10
     costSell: 63250
@@ -2886,7 +2902,8 @@ items:
     handSprite: 640
     bulletSprite: 25
     hitSound: 19
-    hitAnimation: 120
+    hitAnimation: 190
+    hitAnimFrames: 10
     power: 100
     damageType: 5
     clipSize: 28
@@ -2944,7 +2961,8 @@ items:
     handSprite: 512
     bulletSprite: 8
     hitSound: 19
-    hitAnimation: 46
+    hitAnimation: 160
+    hitAnimFrames: 10
     power: 80
     damageType: 5
     clipSize: 16
@@ -2967,7 +2985,8 @@ items:
     handSprite: 520
     bulletSprite: 25
     hitSound: 19
-    hitAnimation: 130
+    hitAnimation: 190
+    hitAnimFrames: 10
     power: 100
     damageType: 5
     clipSize: 16
@@ -3022,7 +3041,8 @@ items:
     handSprite: 456
     bulletSprite: 8
     hitSound: 19
-    hitAnimation: 46
+    hitAnimation: 160
+    hitAnimFrames: 10
     power: 110
     damageType: 5
     clipSize: 16
@@ -3042,7 +3062,8 @@ items:
     handSprite: 464
     bulletSprite: 25
     hitSound: 19
-    hitAnimation: 130
+    hitAnimation: 190
+    hitAnimFrames: 10
     power: 130
     damageType: 5
     clipSize: 16
@@ -3058,6 +3079,7 @@ items:
     compatibleAmmo:
       - STR_HEAVY_PLASMA_CLIP
       - STR_HEAVY_PLASMA_ELERIUM_CLIP
+    autoShots: 4
     armor: 50
     attraction: 10
     costSell: 85800
@@ -3071,7 +3093,8 @@ items:
     handSprite: 328
     armor: 30
     attraction: 10
-    hitAnimation: 56
+    hitAnimation: 170
+    hitAnimFrames: 10
     costSell: 4795
     listOrder: 5500
   - type: STR_HEAVY_PLASMA_ELERIUM_CLIP
@@ -3085,7 +3108,8 @@ items:
     handSprite: 648
     bulletSprite: 25
     hitSound: 19
-    hitAnimation: 130
+    hitAnimation: 200
+    hitAnimFrames: 10
     power: 135
     damageType: 5
     clipSize: 35
@@ -3707,6 +3731,12 @@ items:
     bigSprite: 228
 #END ZOMBIE WEAPON
 
+#BEGIN CYBERDISC WEAPON ITEMA
+  - type: CYBERDISC_WEAPON
+    hitAnimation: 170
+    hitAnimFrames: 10
+#END CYBERDISC WEAPON ITEM
+
 #BEGIN CELATID WEAPON ITEM
   - type: CELATID_WEAPON
     maxRange: 16
@@ -3716,7 +3746,7 @@ items:
     weight: 0
     invWidth: 0
     invHeight: 0
-    hitAnimation: 160
+    hitAnimation: 140
     hitAnimFrames: 8
     explosionHitSound: 7
     power: 0
@@ -3845,7 +3875,8 @@ items:
     bulletSprite: 8
     fireSound: 18
     hitSound: 19
-    hitAnimation: 46
+    hitAnimation: 170
+    hitAnimFrames: 10
     power: 130
     damageType: 5
     accuracyAuto: 40
@@ -3875,7 +3906,8 @@ items:
     handSprite: 104
     fireSound: 18
     hitSound: 19
-    hitAnimation: 56
+    hitAnimation: 170
+    hitAnimFrames: 10
     power: 125
     damageType: 5
     accuracyAuto: 70
