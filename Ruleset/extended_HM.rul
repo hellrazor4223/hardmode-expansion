@@ -1,4 +1,5 @@
 ##BEGIN SCRIPTS
+
 extended:
 #BEGIN TAGS
   tags:
@@ -8,10 +9,12 @@ extended:
       DEATH_COUNTUP: int
     RuleItem:
       TIMER: int
+      SELL_PRICE_BE: int
+      SELL_PRICE_VG: int
 #END TAGS
 
-#BEGIN HIT RED FLASH AND ZOMBIFICATION AFTER ARMOR PENETRATION
   scripts:
+#BEGIN HIT RED FLASH AND ZOMBIFICATION AFTER ARMOR PENETRATION
     damageUnit:
       - offset: 1
         code: |
@@ -29,7 +32,7 @@ extended:
           return;
 
     recolorUnitSprite:
-      - offset: 3
+      - offset: 2
         code: |
           var int temp;
           
@@ -44,8 +47,66 @@ extended:
           return new_pixel;
 #END HIT RED FLASH AND ZOMBIFICATION AFTER ARMOR PENETRATION
 
-#BEGIN CELATID EMBRYO SCRIPT
+#BEGIN ADJUSTED SELL PRICE BY DIFFICULTY
+    sellCostItem:
+      - offset: 3
+        code: |
+          var int temp;
+          geoscape_game.difficultyLevel temp;  # get difficulty
+          if eq temp DIFF_BEGINNER;
+            item_rule.getTag temp Tag.SELL_PRICE_BE;  # custom item sell price
+          if eq temp DIFF_EXPERIENCED;
+            item_rule.getTag temp Tag.SELL_PRICE_BE;  # custom item sell price
+          if eq temp DIFF_VETERAN;
+            item_rule.getTag temp Tag.SELL_PRICE_VG;  # custom item sell price
+          if eq temp DIFF_GENIUS;
+            item_rule.getTag temp Tag.SELL_PRICE_VG;  # custom item sell price
+            if neq temp 0;
+              set cost_current temp;
+            end;
+          end;
+
+          return cost_current;
+#END ADJUSTED SELL PRICE BY DIFFICULTY
+
 items:
+#BEGIN ADJUST SELL PRICE TAGS BY DIFFICULTY
+#FACTORS: BE: 1,786 VG: 1,282 TO SH (50% VANILLA)
+  - type: STR_PLASMA_BLADE
+    tags:
+      SELL_PRICE_BE: 32148
+      SELL_PRICE_VG: 23076
+  - type: STR_PLASMA_SWORD
+    tags:
+      SELL_PRICE_BE: 44650
+      SELL_PRICE_VG: 32050
+  - type: STR_PLASMA_PISTOL
+    tags:
+      SELL_PRICE_BE: 75012
+      SELL_PRICE_VG: 53844
+  - type: STR_PLASMA_PISTOL_CLIP
+    tags:
+      SELL_PRICE_BE: 3965
+      SELL_PRICE_VG: 2846
+  - type: STR_PLASMA_PISTOL_ELERIUM_CLIP
+    tags:
+      SELL_PRICE_BE: 5983
+      SELL_PRICE_VG: 4295
+  - type: STR_PLASMA_RIFLE
+    tags:
+      SELL_PRICE_BE: 112965
+      SELL_PRICE_VG: 81087
+  - type: STR_PLASMA_RIFLE_CLIP
+    tags:
+      SELL_PRICE_BE: 5617
+      SELL_PRICE_VG: 4032
+  - type: STR_PLASMA_RIFLE_ELERIUM_CLIP
+    tags:
+      SELL_PRICE_BE: 8426
+      SELL_PRICE_VG: 6049
+#END ADJUST SELL PRICE TAGS BY DIFFICULTY
+
+#BEGIN CELATID EMBRYO SCRIPT
   - &STR_CELATID_EMBRYO
     type: STR_CELATID_EMBRYO
     scripts:
