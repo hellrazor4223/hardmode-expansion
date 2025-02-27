@@ -1397,10 +1397,10 @@ items:
     invHeight: 3
     clipSize: -1
     autoShots: 3
-    listOrder: 1802
     snapRange: 24
     autoRange: 14
     dropoff: 3
+    listOrder: 1802
   - type: STR_WALKERTANK_LASER_CORPSE
     size: 4
     battleType: 11
@@ -1453,7 +1453,7 @@ items:
     bulletSprite: 8
     fireSound: 18
     hitSound: 19
-    hitAnimation: 56
+    hitAnimation: 200
     power: 125
     damageType: 5
     accuracyAuto: 70
@@ -1468,10 +1468,10 @@ items:
     invHeight: 3
     clipSize: -1
     autoShots: 5
-    listOrder: 1803
     snapRange: 26
     autoRange: 16
     dropoff: 2
+    listOrder: 1803
   - type: STR_WALKERTANK_PLASMA_CORPSE
     size: 4
     battleType: 11
@@ -1669,7 +1669,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 12
-    listOrder: 1803
+    listOrder: 1804
 #END COMBAT KNIFE ITEM
 
 #BEGIN ALLOY KNIFE ITEM
@@ -1699,7 +1699,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 20
-    listOrder: 1804
+    listOrder: 1805
 #END ALLOY KNIFE ITEM
 
 #BEGIN ALLOY SWORD ITEM
@@ -1729,7 +1729,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    listOrder: 1805
+    listOrder: 1806
 #END ALLOY SWORD ITEM
 
 #BEGIN TASER PISTOL ITEM
@@ -1757,7 +1757,7 @@ items:
     maxRange: 15
     snapRange: 10
     dropoff: 4
-    listOrder: 1806
+    listOrder: 1807
   - type: STR_TASER_PISTOL_CLIP
     size: 0.1
     costBuy: 200
@@ -1776,7 +1776,7 @@ items:
     battleType: 2
     blastRadius: 0
     armor: 20
-    listOrder: 1807
+    listOrder: 1808
   - type: STR_TASER_PISTOL_ELERIUM_CLIP
     requires:
       - STR_TASER_PISTOL_ELERIUM_CLIP
@@ -1796,7 +1796,7 @@ items:
     battleType: 2
     blastRadius: 0
     armor: 20
-    listOrder: 1808
+    listOrder: 1809
 #END TASER PISTOL ITEM
 
 #BEGIN PISTOL ITEM
@@ -2843,6 +2843,8 @@ items:
     floorSprite: 189
     handSprite: 360
     bulletSprite: 8
+    hitAnimation: 150
+    hitAnimFrames: 10
     armor: 30
     attraction: 10
     costSell: 2220
@@ -2887,6 +2889,8 @@ items:
   - type: STR_PLASMA_RIFLE_CLIP
     floorSprite: 190
     handSprite: 352
+    hitAnimation: 160
+    hitAnimFrames: 10
     armor: 30
     attraction: 10
     costSell: 3145
@@ -2942,7 +2946,6 @@ items:
     recoveryPoints: 4
     armor: 50
     attraction: 10
-    listOrder: 5302
     maxRange: 20
     aimRange: 19
     snapRange: 13
@@ -2950,6 +2953,7 @@ items:
     dropoff: 6
     shotgunBehavior: 1
     shotgunChoke: 80
+    listOrder: 5302
   - type: STR_PLASMA_SHOTGUN_CLIP
     requires:
       - STR_PLASMA_SHOTGUN_CLIP
@@ -3026,10 +3030,10 @@ items:
     recoveryPoints: 4
     armor: 50
     attraction: 10
-    listOrder: 5305
     snapRange: 28
     minRange: 8
     dropoff: 2
+    listOrder: 5305
   - type: STR_PLASMA_SNIPER_RIFLE_CLIP
     requires:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
