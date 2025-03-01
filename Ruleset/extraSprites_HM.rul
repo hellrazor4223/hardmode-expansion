@@ -2313,8 +2313,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      28: Resources/Items/PsiAnimation_8_frames.png
-      36: Resources/Items/PsiMissAnimation_8_frames.png
+      48: Resources/Items/PsiAnimation_8_frames.png
+      56: Resources/Items/PsiMissAnimation_8_frames.png
 #END HIT
 
 

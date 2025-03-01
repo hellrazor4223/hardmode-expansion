@@ -3334,9 +3334,9 @@ items:
 # DO NOT DELETE!
   - type: ALIEN_PSI_WEAPON
     hitSound: 36
-    psiAnimation: 28
+    psiAnimation: 48
     psiAnimFrames: 8
-    psiMissAnimation: 36
+    psiMissAnimation: 56
     psiMissAnimFrames: 8
     battleType: 9
     tuUse: 25
