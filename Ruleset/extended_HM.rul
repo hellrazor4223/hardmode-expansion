@@ -55,10 +55,22 @@ extended:
           geoscape_game.difficultyLevel temp;  # get difficulty
           if eq temp DIFF_BEGINNER;
             item_rule.getTag temp Tag.SELL_PRICE_BE;  # custom item sell price
+            if neq temp 0;
+              set cost_current temp;
+            end;
+          end;
           if eq temp DIFF_EXPERIENCED;
             item_rule.getTag temp Tag.SELL_PRICE_BE;  # custom item sell price
+            if neq temp 0;
+              set cost_current temp;
+            end;
+          end;
           if eq temp DIFF_VETERAN;
             item_rule.getTag temp Tag.SELL_PRICE_VG;  # custom item sell price
+            if neq temp 0;
+              set cost_current temp;
+            end;
+          end;
           if eq temp DIFF_GENIUS;
             item_rule.getTag temp Tag.SELL_PRICE_VG;  # custom item sell price
             if neq temp 0;
