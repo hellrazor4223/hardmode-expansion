@@ -53,29 +53,17 @@ extended:
         code: |
           var int temp;
           geoscape_game.difficultyLevel temp;  # get difficulty
-          if eq temp DIFF_BEGINNER;
+
+          if le temp DIFF_EXPERIENCED; # For BEGINNER and EXPERIENCED
             item_rule.getTag temp Tag.SELL_PRICE_BE;  # custom item sell price
-            if neq temp 0;
-              set cost_current temp;
-            end;
-          end;
-          if eq temp DIFF_EXPERIENCED;
-            item_rule.getTag temp Tag.SELL_PRICE_BE;  # custom item sell price
-            if neq temp 0;
-              set cost_current temp;
-            end;
-          end;
-          if eq temp DIFF_VETERAN;
+          else le temp DIFF_GENIUS; # For VETERAN and GENIUS
             item_rule.getTag temp Tag.SELL_PRICE_VG;  # custom item sell price
-            if neq temp 0;
-              set cost_current temp;
-            end;
+          else; # For SUPERHUMAN
+            set temp 0;
           end;
-          if eq temp DIFF_GENIUS;
-            item_rule.getTag temp Tag.SELL_PRICE_VG;  # custom item sell price
-            if neq temp 0;
-              set cost_current temp;
-            end;
+
+          if neq temp 0;
+            set cost_current temp;
           end;
 
           return cost_current;
@@ -116,6 +104,174 @@ items:
     tags:
       SELL_PRICE_BE: 8426
       SELL_PRICE_VG: 6049
+  - type: STR_PLASMA_SHOTGUN
+    tags:
+      SELL_PRICE_BE: 100463
+      SELL_PRICE_VG: 72113
+  - type: STR_PLASMA_SHOTGUN_CLIP
+    tags:
+      SELL_PRICE_BE: 4822
+      SELL_PRICE_VG: 3461
+  - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    tags:
+      SELL_PRICE_BE: 6876
+      SELL_PRICE_VG: 4936
+  - type: STR_PLASMA_SNIPER_RIFLE
+    tags:
+      SELL_PRICE_BE: 120555
+      SELL_PRICE_VG: 86535
+  - type: STR_PLASMA_SNIPER_RIFLE_CLIP
+    tags:
+      SELL_PRICE_BE: 4822
+      SELL_PRICE_VG: 3461
+  - type: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    tags:
+      SELL_PRICE_BE: 7242
+      SELL_PRICE_VG: 5199
+  - type: STR_HEAVY_PLASMA
+    tags:
+      SELL_PRICE_BE: 153239
+      SELL_PRICE_VG: 109996
+  - type: STR_HEAVY_PLASMA_CLIP
+    tags:
+      SELL_PRICE_BE: 8564
+      SELL_PRICE_VG: 6147
+  - type: STR_HEAVY_PLASMA_ELERIUM_CLIP
+    tags:
+      SELL_PRICE_BE: 12845
+      SELL_PRICE_VG: 9220
+  - type: STR_SMALL_LAUNCHER
+    tags:
+      SELL_PRICE_BE: 107160
+      SELL_PRICE_VG: 76920
+  - type: STR_STUN_BOMB
+    tags:
+      SELL_PRICE_BE: 13574
+      SELL_PRICE_VG: 9743
+  - type: STR_ELERIUM_BOMB
+    tags:
+      SELL_PRICE_BE: 13574
+      SELL_PRICE_VG: 9743
+  - type: STR_FIRE_BOMB
+    tags:
+      SELL_PRICE_BE: 13574
+      SELL_PRICE_VG: 9743
+  - type: STR_SMOKE_BOMB
+    tags:
+      SELL_PRICE_BE: 13574
+      SELL_PRICE_VG: 9743
+  - type: STR_BLASTER_LAUNCHER
+    tags:
+      SELL_PRICE_BE: 128592
+      SELL_PRICE_VG: 92304
+  - type: STR_BLASTER_BOMB
+    tags:
+      SELL_PRICE_BE: 15206
+      SELL_PRICE_VG: 10915
+  - type: STR_ALIEN_GRENADE
+    tags:
+      SELL_PRICE_BE: 13261
+      SELL_PRICE_VG: 9519
+  - type: STR_MIND_PROBE
+    tags:
+      SELL_PRICE_BE: 267900
+      SELL_PRICE_VG: 192300
+  - type: STR_ALIEN_DATA_SLATE
+    tags:
+      SELL_PRICE_BE: 89300
+      SELL_PRICE_VG: 64100
+  - type: STR_ALIEN_DATA_CORE
+    tags:
+      SELL_PRICE_BE: 178600
+      SELL_PRICE_VG: 128200
+  - type: STR_FLOATER_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_SECTOID_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_SNAKEMAN_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_MUTON_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_WASPITE_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_GAZER_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_SECTOID_ELITE_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_MUTON_ELITE_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_ETHEREAL_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_MUTON_ELITE_GUARD_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_SILACOID_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_REAPER_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_CYBERDISC_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_CHRYSSALID_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_SECTOPOD_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_CELATID_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_MUTON_BERSERKER_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_CYBERMITE_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_HOLODRONE_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_ARMORED_CYBERDISC_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_ARMORED_SECTOPOD_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
+  - type: STR_CHRYSSALID_SPITTER_CORPSE
+    tags:
+      SELL_PRICE_BE: 17860
+      SELL_PRICE_VG: 12820
 #END ADJUST SELL PRICE TAGS BY DIFFICULTY
 
 #BEGIN CELATID EMBRYO SCRIPT
