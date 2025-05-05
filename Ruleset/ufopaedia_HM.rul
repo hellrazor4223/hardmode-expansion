@@ -480,12 +480,12 @@ ufopaedia:
     text: STR_DRONE_SCOUT_UFOPEDIA
     weapon: STR_DRONE_SMOKE_WEAPON
     listOrder: 2850
-  - id: DRONE_SCOUT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-    listOrder: 2851
+#  - id: DRONE_SCOUT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#    listOrder: 2851
 #END DRONE SCOUT UFOPAEDIA
 
 #BEGIN DRONE SCANNER UFOPAEDIA
@@ -499,13 +499,13 @@ ufopaedia:
     text: STR_DRONE_SCANNER_UFOPEDIA
     weapon: STR_DRONE_SCANNER_WEAPON
     listOrder: 2852
-  - id: DRONE_SCANNER_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_MOTION_SCANNER
-    listOrder: 2853
+#  - id: DRONE_SCANNER_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_MOTION_SCANNER
+#    listOrder: 2853
 #END DRONE SCANNER UFOPAEDIA
 
 #BEGIN DRONE MEDIKIT UFOPAEDIA
@@ -519,13 +519,13 @@ ufopaedia:
     text: STR_DRONE_MEDIKIT_UFOPEDIA
     weapon: STR_DRONE_MEDIKIT_WEAPON
     listOrder: 2854
-  - id: DRONE_MEDIKIT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_MEDI_KIT
-    listOrder: 2855
+#  - id: DRONE_MEDIKIT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_MEDI_KIT
+#    listOrder: 2855
 #END DRONE MEDIKIT UFOPAEDIA
 
 #BEGIN DRONE TASER UFOPAEDIA
@@ -539,13 +539,13 @@ ufopaedia:
     text: STR_DRONE_TASER_UFOPEDIA
     weapon: STR_DRONE_TASER_WEAPON
     listOrder: 2856
-  - id: DRONE_TASER_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ELERIUM_115
-    listOrder: 2857
+#  - id: DRONE_TASER_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#   requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_ELERIUM_115
+#    listOrder: 2857
 #END DRONE TASER UFOPAEDIA
 
 #BEGIN ALLOY DRONE SMOKE WEAPON
@@ -570,13 +570,13 @@ ufopaedia:
     text: STR_ALLOY_DRONE_SCOUT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_SMOKE_WEAPON
     listOrder: 2859
-  - id: ALLOY_DRONE_SCOUT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ALLOY_DRONE_ARMOR
-    listOrder: 2860
+#  - id: ALLOY_DRONE_SCOUT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_ALLOY_DRONE_ARMOR
+#    listOrder: 2860
 #END ALLOY DRONE SCOUT UFOPAEDIA
 
 #BEGIN ALLOY DRONE SCANNER UFOPAEDIA
@@ -591,14 +591,14 @@ ufopaedia:
     text: STR_ALLOY_DRONE_SCANNER_UFOPEDIA
     weapon: STR_ALLOY_DRONE_SCANNER_WEAPON
     listOrder: 2861
-  - id: ALLOY_DRONE_SCANNER_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_MOTION_SCANNER
-    listOrder: 2862
+#  - id: ALLOY_DRONE_SCANNER_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_ALLOY_DRONE_ARMOR
+#      - STR_MOTION_SCANNER
+#    listOrder: 2862
 #END ALLOY DRONE SCANNER UFOPAEDIA
 
 #BEGIN ALLOY DRONE MEDIKIT UFOPAEDIA
@@ -613,14 +613,14 @@ ufopaedia:
     text: STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_MEDIKIT_WEAPON
     listOrder: 2863
-  - id: ALLOY_DRONE_MEDIKIT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_MEDI_KIT
-    listOrder: 2864
+#  - id: ALLOY_DRONE_MEDIKIT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_ALLOY_DRONE_ARMOR
+#      - STR_MEDI_KIT
+#    listOrder: 2864
 #END ALLOY DRONE MEDIKIT UFOPAEDIA
 
 #BEGIN ALLOY DRONE ADVANCED MEDIKIT UFOPAEDIA
@@ -635,14 +635,14 @@ ufopaedia:
     text: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA
     weapon: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON
     listOrder: 2865
-  - id: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_ADVANCED_MEDI_KIT
-    listOrder: 2866
+#  - id: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_ALLOY_DRONE_ARMOR
+#      - STR_ADVANCED_MEDI_KIT
+#    listOrder: 2866
 #END ALLOY DRONE ADVANCED MEDIKIT UFOPAEDIA
 
 #BEGIN ALLOY DRONE TASER UFOPAEDIA
@@ -657,14 +657,14 @@ ufopaedia:
     text: STR_ALLOY_DRONE_TASER_UFOPEDIA
     weapon: STR_ALLOY_DRONE_TASER_WEAPON
     listOrder: 2867
-  - id: ALLOY_DRONE_TASER_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_ALLOY_DRONE_ARMOR
-      - STR_ELERIUM_115
-    listOrder: 2868
+#  - id: ALLOY_DRONE_TASER_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_ALLOY_DRONE_ARMOR
+#      - STR_ELERIUM_115
+#    listOrder: 2868
 #END ALLOY DRONE TASER UFOPAEDIA
 
 #BEGIN HOVERDRONE SMOKE WEAPON
@@ -689,13 +689,13 @@ ufopaedia:
     text: STR_HOVERDRONE_SCOUT_UFOPEDIA
     weapon: STR_HOVERDRONE_SMOKE_WEAPON
     listOrder: 2870
-  - id: HOVERDRONE_SCOUT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_HOVERDRONE_ARMOR
-    listOrder: 2871
+#  - id: HOVERDRONE_SCOUT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_HOVERDRONE_ARMOR
+#    listOrder: 2871
 #END HOVERDRONE SCOUT UFOPAEDIA
 
 #BEGIN HOVERDRONE SCANNER UFOPAEDIA
@@ -710,14 +710,14 @@ ufopaedia:
     text: STR_HOVERDRONE_SCANNER_UFOPEDIA
     weapon: STR_HOVERDRONE_SCANNER_WEAPON
     listOrder: 2872
-  - id: HOVERDRONE_SCANNER_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_HOVERDRONE_ARMOR
-      - STR_MOTION_SCANNER
-    listOrder: 2873
+#  - id: HOVERDRONE_SCANNER_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_HOVERDRONE_ARMOR
+#      - STR_MOTION_SCANNER
+#    listOrder: 2873
 #END HOVERDRONE SCANNER UFOPAEDIA
 
 #BEGIN HOVERDRONE ADVANCED MEDIKIT UFOPAEDIA
@@ -732,14 +732,14 @@ ufopaedia:
     text: STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA
     weapon: STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON
     listOrder: 2874
-  - id: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_HOVERDRONE_ARMOR
-      - STR_ADVANCED_MEDI_KIT
-    listOrder: 2875
+#  - id: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_HOVERDRONE_ARMOR
+#      - STR_ADVANCED_MEDI_KIT
+#    listOrder: 2875
 #END HOVERDRONE ADVANCED MEDIKIT UFOPAEDIA
 
 #BEGIN HOVERDRONE TASER UFOPAEDIA
@@ -754,14 +754,14 @@ ufopaedia:
     text: STR_HOVERDRONE_TASER_UFOPEDIA
     weapon: STR_HOVERDRONE_TASER_WEAPON
     listOrder: 2876
-  - id: HOVERDRONE_TASER_ARMOR
-    type_id: 5
-    section: STR_ALIEN_ARTIFACTS
-    requires:
-      - STR_SUPPORT_DRONES
-      - STR_HOVERDRONE_ARMOR
-      - STR_ELERIUM_115
-    listOrder: 2877
+#  - id: HOVERDRONE_TASER_ARMOR
+#    type_id: 5
+#    section: STR_ALIEN_ARTIFACTS
+#    requires:
+#      - STR_SUPPORT_DRONES
+#      - STR_HOVERDRONE_ARMOR
+#      - STR_ELERIUM_115
+#    listOrder: 2877
 #END HOVERDRONE TASER UFOPAEDIA
 
 #BEGIN TANK SMOKE WEAPON
