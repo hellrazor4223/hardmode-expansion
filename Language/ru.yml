@@ -1,6 +1,7 @@
 ru:
 #BEGIN GENERAL
   STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.6 by hellrazor"
+  STR_GROUND: "НА ЗЕМЛЕ {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "БРИФИНГИ И НОВОСТИ"
   STR_HEAVY_WEAPONS_PLATFORMS: "МОДУЛИ БАЗЫ"
   STR_WEAPONS_AND_EQUIPMENT: "ТРАНСПОРТ И ВООРУЖЕНИЕ XCOM"
@@ -23,6 +24,9 @@ ru:
   STR_ALIEN_BASE_ABDUCTION_MISSION: "Похищение"
   STR_ALIEN_BASE_HARVEST_MISSION: ""
   STR_ALIEN_BASE_BASE_MISSION: "База пришельцев"
+  STR_ALIEN_BASE_GAMESTART: "База пришельцев"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT: "ШТУРМ БАЗЫ ПРИШЕЛЬЦЕВ"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: ""
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -168,6 +172,7 @@ ru:
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "Дрон/Разведчик"
+  DRONE_SCOUT_ARMOR: ""
   STR_DRONE_SCOUT_CORPSE: "Поврежденный Дрон/Разведчик"
   STR_DRONE_SCOUT_REPAIR: "Ремонт Дрона/Скаута"
   STR_DRONE_SCOUT_UFOPEDIA: "Этот небольшой прочный дрон разработан для проведения разведывательных операций. Хотя он не оснащен наступательным оружием или броней более крупных ТОП, он быстрый, позволяет наземным войскам быстро провести разведку позиций противника и может работать наводчиком, не подвергая риску оперативников X-Com. Он оснащен слабой системой постановки дымовой завесы, с небольшим радиусом, которая позволяет скрываться ему и наземным войскам на открытой местности или под обстрелом."
@@ -181,6 +186,7 @@ ru:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Дрон/Разведчик -> Тазер (СП)"
 
   STR_DRONE_SCANNER: "Дрон/Сканер"
+  DRONE_SCANNER_ARMOR: ""
   STR_DRONE_SCANNER_WEAPON: "Сканер движения Дрона"
   STR_DRONE_SCANNER_CORPSE: "Поврежденный Дрон/Сканер"
   STR_DRONE_SCANNER_REPAIR: "Ремонт Дрона/Сканнер"
@@ -194,6 +200,7 @@ ru:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Дрон/Сканер -> Тазер (СП)"
 
   STR_DRONE_MEDIKIT: "Дрон/Аптечка"
+  DRONE_MEDIKIT_ARMOR: ""
   STR_DRONE_MEDIKIT_WEAPON: "Аптечка Дрона"
   STR_DRONE_MEDIKIT_CORPSE: "Поврежденный Дрон/Аптечка"
   STR_DRONE_MEDIKIT_REPAIR: "Ремонт Дрона/Аптечка"
@@ -207,6 +214,7 @@ ru:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Дрон/Аптечка -> Тазер (СП)"
 
   STR_DRONE_TASER: "Дрон/Тазер"
+  DRONE_TASER_ARMOR: ""
   STR_DRONE_TASER_WEAPON: "Тазер Дрона"
   STR_DRONE_TASER_WEAPON_AMMO: "Заряды тазера Дрона"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "Заряды тазера Дрона [x10]"
@@ -225,6 +233,7 @@ ru:
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: "Дрон (СП)/Разведчик"
+  ALLOY_DRONE_SCOUT_ARMOR: ""
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Поврежденный Дрон (СП)/Разведчик"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Ремонт Дрона (СП)/Разведчик"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "Разведывательный дрон, который переоснащен шасси из сплавов пришельцев. Этот процесс, хоть и дорогостоящий, позволил нам усилить его броню и скорость. Мы убедились, что у него теперь достаточный запас прочности, чтобы выдержать плазменное оружие чужих всё земное вооружение. Используйте его с умом для обнаружения или отвлечения врагов. Устройство постановки дымовой завесы в случае необходимости гарантирует ему укрытие, что делает его весьма сильным разведчиком."
@@ -238,6 +247,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_SCANNER: "Дрон (СП)/Сканер"
+  ALLOY_DRONE_SCANNER_ARMOR: ""
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Сканер движения Дрона (СП)"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "Поврежденный Дрон (СП)/Сканер"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "Ремонт Дрона (СП)/Сканер"
@@ -252,6 +262,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_MEDIKIT: "Дрон (СП)/Аптечка"
+  ALLOY_DRONE_MEDIKIT_ARMOR: ""
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Аптечка Дрона (СП)"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Поврежденный Дрон (СП)/Аптечка"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Ремонт Дрона (СП)/Аптечка"
@@ -266,6 +277,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT: ""
+  ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: ""
@@ -279,6 +291,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "Дрон (СП)/Тазер"
+  ALLOY_DRONE_TASER_ARMOR: ""
   STR_ALLOY_DRONE_TASER_WEAPON: "Тазер Дрона (СП)"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Заряды тазера Дрона (СП)"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Улучшенные заряды тазера Дрона [x10]"
@@ -298,6 +311,7 @@ ru:
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERDRONE_SCOUT: ""
+  HOVERDRONE_SCOUT_ARMOR: ""
   STR_HOVERDRONE_SCOUT_CORPSE: ""
   STR_HOVERDRONE_SCOUT_REPAIR: ""
   STR_HOVERDRONE_SCOUT_UFOPEDIA: ""
@@ -306,6 +320,7 @@ ru:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_SCANNER: ""
+  HOVERDRONE_SCANNER_ARMOR: ""
   STR_HOVERDRONE_SCANNER_WEAPON: ""
   STR_HOVERDRONE_SCANNER_CORPSE: ""
   STR_HOVERDRONE_SCANNER_REPAIR: ""
@@ -315,6 +330,7 @@ ru:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_ADVANCED_MEDIKIT: ""
+  HOVERDRONE_ADVANCED_MEDIKIT_ARMOR: ""
   STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: ""
   STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: ""
   STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: ""
@@ -324,6 +340,7 @@ ru:
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_TASER: ""
+  HOVERDRONE_TASER_ARMOR: ""
   STR_HOVERDRONE_TASER_WEAPON: ""
   STR_HOVERDRONE_TASER_CORPSE: ""
   STR_HOVERDRONE_TASER_REPAIR: ""
@@ -337,6 +354,7 @@ ru:
   STR_TANK_SMOKE_WEAPON: ""
   STR_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
+  TANK_CANNON_ARMOR: ""
   STR_TANK_CANNON_CORPSE: "Поврежденный Танк/Пушка"
   STR_TANK_CANNON_REPAIR: "Ремонт Танка/Пушка"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
@@ -345,6 +363,7 @@ ru:
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: "Танк/Пушка -> Танк (СП)/Ракет. устан."
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: "Танк/Пушка -> Танк (СП)/Лазер"
 
+  TANK_ROCKET_LAUNCHER_ARMOR: ""
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "Поврежденный Танк/Ракетная установка"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "Ремонт Танка/Ракетная установка"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: ""
@@ -353,6 +372,7 @@ ru:
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "Танк/Ракет устан -> Танк (СП)/Ракет устан"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Танк/Ракет. устан. -> Танк (СП)/Лазер"
 
+  TANK_LASER_CANNON_ARMOR: ""
   STR_TANK_LASER_CANNON_CORPSE: "Поврежденный Танк/Лазер"
   STR_TANK_LASER_CANNON_REPAIR: "Ремонт Танка/Лазер"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "Танк/Лазер -> Танк (СП)/Пушка"
@@ -363,6 +383,7 @@ ru:
   STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_TANK_CANNON: "Танк (СП)/Пушка"
+  ALLOY_TANK_CANNON_ARMOR: ""
   STR_ALLOY_TANK_CANNON_CORPSE: "Поврежденный Танк (СП)/Пушка"
   STR_ALLOY_TANK_CANNON_REPAIR: "Ремонт Танка (СП)/Пушка"
   STR_ALLOY_TANK_CANNON_UFOPEDIA: "Это стандартная ТОП с пушкой, переоснащенная легкой и прочной броней из сплава пришельцев. Её боевые характеристики схожи с оригиналом, но она немного быстрее и может выдержать большее количество повреждений."
@@ -370,7 +391,8 @@ ru:
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: "Танк (СП)/Пушка -> Танк (СП)/Лазер"
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_HOVER_LASER: ""
 
-  STR_ALLOY_TANK_ROCKET_LAUNCHER: "Танк (СП)/Ракетная установка"
+  STR_ALLOY_TANK_ROCKET_LAUNCHER: ""
+  ALLOY_TANK_ROCKET_LAUNCHER_ARMOR: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Поврежденный Танк (СП)/Ракетная установка"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "Ремонт Танка (СП)/Ракетная установка"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "Это стандартная ТОП с ракетной установкой, переоснащенная легкой и прочной броней из сплава пришельцев. Ее боевые характеристики схожи с оригиналом, но её долговечность под обстрелом значительно увеличилась, так же, как и в некоторой степени скорость."
@@ -379,6 +401,7 @@ ru:
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: ""
 
   STR_ALLOY_TANK_LASER_CANNON: "Танк (СП)/Лазер"
+  ALLOY_TANK_LASER_CANNON_ARMOR: ""
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: "Поврежденный Танк (СП)/Лазер"
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "Ремонт Танка (СП)/Лазер"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "Вершина всей технологи ТОП X-Com. Здесь применены и мощная лазерная пушка, разработанная нашими учеными, и легкая и прочная броня из сплавов пришельцев."
@@ -388,6 +411,7 @@ ru:
   STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERTANK_LASER: "Ховертанк/Лазер"
+  HOVERTANK_LASER_ARMOR: ""
   STR_HOVERTANK_LASER_CORPSE: "Поврежденный Ховертанк/Лазер"
   STR_HOVERTANK_LASER_REPAIR: "Ремонт Ховертанка/Лазер"
   STR_HOVERTANK_LASER_UFOPEDIA: "Совершенно новый дизайн танка базируется на технологии НЛО и нашей собственной технологии лазера. Он объединяет мобильность в трех измерениях и огневую мощь лазерной пушки в очень смертоносную комбинацию. "
@@ -398,16 +422,19 @@ ru:
   STR_HWP_EBOMB_LAUNCHER: "Элериевый бомбомёт"
   STR_HWP_EBOMB: "Элериевая бомба ТОП"
   STR_HOVERTANK_EBOMB: "Ховертанк/Элериевая бомба"
+  HOVERTANK_EBOMB_ARMOR: ""
   STR_HOVERTANK_EBOMB_CORPSE: "Поврежденный Ховертанк/Элеривая бомба"
   STR_HOVERTANK_EBOMB_REPAIR: "Ремонт Ховертанка/Элериевая бомба"
   STR_HOVERTANK_EBOMB_UFOPEDIA: "Этот дизайн танка объединяет технологию НЛО и Малой пусковой установки. Способность стрелять элериевыми бомбами свысока, должна оказаться смертельной для большинства врагов. Область применения сопоставима с нашими наземными танками, оснащенными ракетными установка, но с более ёмким магазином."
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: ""
 
+  HOVERTANK_PLASMA_ARMOR: ""
   STR_HOVERTANK_PLASMA_CORPSE: "Поврежденный Ховертанк/Плазма"
   STR_HOVERTANK_PLASMA_REPAIR: "Починка Ховертанк/Плазма"
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: ""
 
+  HOVERTANK_LAUNCHER_ARMOR: ""
   STR_HOVERTANK_LAUNCHER_CORPSE: "Поврежденный Ховертанк/Пусковая установка"
   STR_HOVERTANK_LAUNCHER_REPAIR: "Ремонт Ховертанка/Пусковая установка"
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: ""
@@ -416,12 +443,14 @@ ru:
   STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_WALKERTANK_LASER: ""
+  WALKERTANK_LASER_ARMOR: ""
   STR_WALKERTANK_LASER_CORPSE: ""
   STR_WALKERTANK_LASER_REPAIR: ""
   STR_WALKERTANK_LASER_UFOPEDIA: ""
   STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: ""
 
   STR_WALKERTANK_PLASMA: "Шагающий танк/Плазма"
+  WALKERTANK_PLASMA_ARMOR: ""
   STR_WALKERTANK_PLASMA_CORPSE: "Поврежденный Шагающий танк/Плазма"
   STR_WALKERTANK_PLASMA_REPAIR: "Ремонт Шагающего танка/Плазма"
   STR_WALKERTANK_PLASMA_UFOPEDIA: "После прерывания псионической связи, эта боевая машина больше не подвластна контролю эфириалов и мы смогли взломать ее операционную систему. К сожалению, в процессе взлома некоторые системы оказались повреждены, поэтому скорость обработки снизилась. Для попытки взлома нам нужен неповрежденный бронированный сектопод."
@@ -477,13 +506,13 @@ ru:
 
 #BEGIN WEAPONS
   STR_COMBAT_KNIFE: "Боевой нож"
-  STR_COMBAT_KNIFE_UFOPEDIA: "Используя его острие и лезвие, тренированный оперативник может бесшумно убить легкобронированного противника одним ударом.{NEWLINE}Пригоден для ближнего боя любого рода."
+  STR_COMBAT_KNIFE_UFOPEDIA: ""
 
   STR_ALLOY_KNIFE: "Нож из сплавов пришельцев"
-  STR_ALLOY_KNIFE_UFOPEDIA: "Этот боевой нож изготовлен из сплавов пришельцев, что позволяет обеспечить остроту лезвия лучшего качества, чем из любых других доступных нам материалов."
+  STR_ALLOY_KNIFE_UFOPEDIA: ""
 
   STR_ALLOY_SWORD: "Меч из сплавов пришельцев"
-  STR_ALLOY_SWORD_UFOPEDIA: "Этот специально разработанный меч - грозное оружие ближнего боя. Солдат, используя свою силу и мастерство, с его помощью может нейтрализовать даже тяжелобронированных противников."
+  STR_ALLOY_SWORD_UFOPEDIA: ""
 
   STR_PISTOL_AA_CLIP: "Магазин для пистолета (СП)"
   STR_PISTOL_AA_CLIP_X3: "Магазин для пистолета (СП) [x3]"
@@ -564,9 +593,9 @@ ru:
   STR_FIRE_EXTINGUISHER_UFOPEDIA: ""
 
   STR_PLASMA_BLADE: "Плазменный клинок"
-  STR_PLASMA_BLADE_UFOPEDIA: "Это устройство по существу является боевым ножом пришельцев с мономолекулярной заточкой лезвия. Облако плазмы вокруг лезвия удерживается магнитным полем, что позволяет пробивать термостойкие керамические вставки в современной броне."
+  STR_PLASMA_BLADE_UFOPEDIA: ""
   STR_PLASMA_SWORD: "Плазменный меч"
-  STR_PLASMA_SWORD_UFOPEDIA: "Этот смертоносный вариант меча состоит из широкого клинка с лезвием толщиной в один микрон, плазменного эмиттера и электромагнита. При включении горячая плазма заполняет электромагнитное поле вокруг клинка, который затем раскаляется до температуры, при которой лезвие проходит сквозь титан как сквозь масло."
+  STR_PLASMA_SWORD_UFOPEDIA: ""
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
   STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
@@ -614,6 +643,10 @@ ru:
 #END STORY ITEMS
 
 #BEGIN ALIEN RACES
+  FLOATER_ARMOR0: ""
+  FLOATER_ARMOR1: ""
+  FLOATER_ARMOR2: ""
+  FLOATER_ARMOR0_UFOPEDIA: ""
   STR_FLOATER_1: "Летун"
   STR_FLOATER_3: "Летун"
   STR_FLOATER_5: "Летун"
@@ -624,6 +657,8 @@ ru:
   STR_FLOATER_13: "Летун"
   STR_FLOATER_15: "Летун"
 
+  SECTOID_ARMOR0: ""
+  SECTOID_ARMOR0_UFOPEDIA: ""
   STR_SECTOID_3: "Сектоид"
   STR_SECTOID_5: "Сектоид"
   STR_SECTOID_7: "Сектоид"
@@ -633,6 +668,10 @@ ru:
   STR_SECTOID_13: "Сектоид"
   STR_SECTOID_15: "Сектоид"
 
+  SNAKEMAN_ARMOR0: ""
+  SNAKEMAN_ARMOR1: ""
+  SNAKEMAN_ARMOR2: ""
+  SNAKEMAN_ARMOR0_UFOPEDIA: ""
   STR_SNAKEMAN_5: "Человекозмей"
   STR_SNAKEMAN_7: "Человекозмей"
   STR_SNAKEMAN_8: "Человекозмей"
@@ -641,6 +680,10 @@ ru:
   STR_SNAKEMAN_13: "Человекозмей"
   STR_SNAKEMAN_15: "Человекозмей"
 
+  MUTON_ARMOR0: ""
+  MUTON_ARMOR1: ""
+  MUTON_ARMOR2: ""
+  MUTON_ARMOR0_UFOPEDIA: ""
   STR_MUTON_7: "Мутон"
   STR_MUTON_8: "Мутон"
   STR_MUTON_10: "Мутон"
@@ -648,6 +691,10 @@ ru:
   STR_MUTON_13: "Мутон"
   STR_MUTON_15: "Мутон"
 
+  WASPITE_ARMOR0: ""
+  WASPITE_ARMOR1: ""
+  WASPITE_ARMOR2: ""
+  WASPITE_ARMOR0_UFOPEDIA: ""
   STR_WASPITE: "Васпит"
   STR_WASPITE_8: "Васпит"
   STR_WASPITE_10: "Васпит"
@@ -665,6 +712,10 @@ ru:
   STR_WASPITE_AUTOPSY: "Вскрытие Васпита"
   STR_WASPITE_AUTOPSY_UFOPEDIA: "Анатомия этого существа на грани безумия. Тело состоит из спиралевидной системы жизнеобеспечения соединенной с симбиотическим растением, выведенным путем генной инженерии. К телу прикреплена пара механических рук и насекомоподобная голова, предположительно являющаяся единственным фрагментом изначальных тел этого вида. Растительная часть тела уязвима к воздействию огня."
 
+  GAZER_ARMOR0: ""
+  GAZER_ARMOR1: ""
+  GAZER_ARMOR2: ""
+  GAZER_ARMOR0_UFOPEDIA: ""
   STR_GAZER: "Обсерватор"
   STR_GAZER_10: "Обсерватор"
   STR_GAZER_12: "Обсерватор"
@@ -681,6 +732,10 @@ ru:
   STR_GAZER_AUTOPSY: "Вскрытие обсерватора"
   STR_GAZER_AUTOPSY_UFOPEDIA: "Единственный большой глаз - самая яркая анатомическая особенность этого пришельца. Оно обладает чертами ракообразного, но на более поздней стадии эволюции. Толстостенная броня не просто надета - от нее к органам существа протянуты кибернетические импланты. По сути, это панцирь. "
 
+  SECTOID_ELITE_ARMOR0: ""
+  SECTOID_ELITE_ARMOR1: ""
+  SECTOID_ELITE_ARMOR2: ""
+  SECTOID_ELITE_ARMOR0_UFOPEDIA: ""
   STR_SECTOID_ELITE: "Сектоид-гвардеец"
   STR_SECTOID_ELITE_12: "Сектоид-гвардеец"
   STR_SECTOID_ELITE_13: "Сектоид-гвардеец"
@@ -696,6 +751,10 @@ ru:
   STR_SECTOID_ELITE_AUTOPSY: "Вскрытие сектоида-гвардейца"
   STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA: "Этот вид действительно является сектоидами, но их ДНК в некоторых участках разительно отличается, что может объяснить чуть иные пропорции, увеличенную стойкость и более мощные псионические силы."
 
+  MUTON_ELITE_ARMOR0: ""
+  MUTON_ELITE_ARMOR1: ""
+  MUTON_ELITE_ARMOR2: ""
+  MUTON_ELITE_ARMOR0_UFOPEDIA: ""
   STR_MUTON_ELITE: "Мутон-гвардеец"
   STR_MUTON_ELITE_13: "Мутон-гвардеец"
   STR_MUTON_ELITE_15: "Мутон-гвардеец"
@@ -708,17 +767,38 @@ ru:
   STR_MUTON_ELITE_AUTOPSY: "Вскрытие мутона-гвардейца"
   STR_MUTON_ELITE_AUTOPSY_UFOPEDIA: "Этот вид идентичен обычным мутонам, но подвергся разительным изменениям. В частности, значительно улучшена броня и установлено больше имплантов для отслеживания противника и увеличения шансов на выживание."
 
+  ETHEREAL_ARMOR0: ""
+  ETHEREAL_ARMOR1: ""
+  ETHEREAL_ARMOR2: ""
+  ETHEREAL_ARMOR0_UFOPEDIA: ""
   STR_ETHEREAL_15: "Эфириал"
 
+  MUTON_ELITE_GUARD_ARMOR0: ""
+  MUTON_ELITE_GUARD_ARMOR1: ""
+  MUTON_ELITE_GUARD_ARMOR2: ""
+  MUTON_ELITE_GUARD_ARMOR0_UFOPEDIA: ""
   STR_MUTON_ELITE_GUARD: "Мутон-гвардеец страж"
   STR_MUTON_ELITE_GUARD_SOLDIER: "Мутон-гвардеец страж солдат"
   STR_MUTON_ELITE_GUARD_ENGINEER: "Мутон-гвардеец страж инженер"
+  STR_MUTON_ELITE_GUARD_NAVIGATOR: ""
   STR_MUTON_ELITE_GUARD_LEADER: "Мутон-гвардеец лидер стражей"
   STR_MUTON_ELITE_GUARD_UFOPEDIA: "Лучшие из лучших, самые сильные, способные и сообразительные воины расы мутонов похоже получают особое место среди Звезднорожденных. Они обладают значительным сопротивлением псионическому воздействию и пока что неизвестно, как их хозяева-эфириалы держат их под контролем. Мы подозреваем применение внушения лояльности или использование наркотика для обеспечения их покорности."
   STR_MUTON_ELITE_GUARD_CORPSE: "Труп мутона-гвардейца стража"
   STR_MUTON_ELITE_GUARD_AUTOPSY: "Вскрытие мутона-гвардейца стража"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: "Тело этого существа покрыто множеством шрамов и содержит много кибернетических имплантов, также мы обнаружили признаки странного наркотика в кровеносной системе. Он, похоже, вызывает полную покорность и дальнейшие тесты показали, что если уровень наркотика в крови падает ниже определенного уровня, то это приводит к отказу нескольких жизненно важных систем тела. Внешний слой больше похож на боевой костюм, чем на кожу, обладает высоким сопротивлением к лазеру, плазме и взрывчатому урону, его можно сравнить с нашими силовыми скафандрами."
 
+  REAPER_ARMOR: ""
+
+  SILACOID_ARMOR: ""
+
+  CYBERDISC_ARMOR: ""
+
+  CHRYSSALID_ARMOR: ""
+
+  CELATID_ARMOR: ""
+  STR_CELATID_CYDONIA_TERRORIST: ""
+
+  MUTON_BERSERKER_ARMOR: ""
   STR_MUTON_BERSERKER: "Мутон-берсерк"
   STR_MUTON_BERSERKER_TERRORIST: "Мутон-берсерк террорист"
   STR_MUTON_BERSERKER_UFOPEDIA: "Это громадное существо похоже на подвид мутонов. По большому счету, это почти то же самое, что и \"стандартная\" разновидность, но гипертрофированные железы, похожие на аналог надпочечников, постоянно вырабатывают гормон, поддерживающий существо в состоянии постоянной ярости, притупляя его чувства и обеспечивая отличную устойчивость к боли. Его интеллект значительно снижен, в сравнении со стандартными мутонами, поэтому они предпочитают атаковать исключительно врукопашную."
@@ -727,13 +807,17 @@ ru:
   STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: "Наши изначальные открытия пролили свет на ужасающую природу этого существа. В своей сути, это чистейший вид мутона, в генетической структуре мы смогли обнаружить лишь мелкие изменения, в основном приводящие к тому, что вырабатываемые гормоны вводят его в почти что перманентное состояние ярости. Завышенный болевой порог и более прочная внешняя оболочка значительно снижают урон от всех видов оружия. "
 
   STR_CYBERMITE: "Кибержук"
+  CYBERMITE_ARMOR: ""
   STR_CYBERMITE_TERRORIST: "Кибержук-террорист"
   STR_CYBERMITE_CORPSE: "Останки кибержука"
   STR_CYBERMITE_UFOPEDIA: "Этот миниатюрный робот - автоматизированное оружие террора - представляет собой вершину робототехники пришельцев. Как только мощный оптический сенсор замечает цель, существо направляется к нему и атакует. Миниатюрное элериевое ядро настроено на возгорание и взрыв при получении определенного количества урона, что делает уничтожение этого существа смертельных для всех поблизости."
   STR_CYBERMITE_AUTOPSY: "Вскрытие кибержука"
   STR_CYBERMITE_AUTOPSY_UFOPEDIA: "Самая яркая особенность невероятно сложного робота - его оружие. Сплавное жало, прикрепленное к миниатюрному баку наполненному, судя по остаткам, мощным токсином. Блок питания слишком поврежден и не позволяет провести глубокий анализ, но похоже, что он разработан очень чутким к повреждениям и вероятно, что именно это приводит ко взрыву. "
 
+  SECTOPOD_ARMOR: ""
+
   STR_HOLODRONE: "Голодрон"
+  HOLODRONE_ARMOR: ""
   STR_HOLODRONE_TERRORIST: "Голодрон-террорист"
   STR_HOLODRONE_UFOPEDIA: "Голодроны - это живое, парящее артиллерийское орудие. Их защищает плазменная оболочка, блокирующая плазменные импульсы и огонь. Возможно, что их разрабатывали для борьбы именно с врагами, оснащенными плазменным оружием. Этот механизм генерирует слишком высокую температуру и чрезмерно радиоактивен для применения в человеческой броне."
   STR_HOLODRONE_CORPSE: "Останки голодрона"
@@ -741,6 +825,7 @@ ru:
   STR_HOLODRONE_AUTOPSY_UFOPEDIA: "Очень сложный механизм питается массивным, для своих габаритов, элериевым ядром. Из его ядра наружу выходят две трубки, по которым выводится обволакивающая существо плазменная оболочка. Также стало очевидно, что ядро может разгоняться и излишки энергии используются для генерирования мощного лазерного луча."
 
   STR_ARMORED_CYBERDISC: "Бронированный кибердиск"
+  ARMORED_CYBERDISC_ARMOR: ""
   STR_ARMORED_CYBERDISC_TERRORIST: "Бронированный кибердиск террорист"
   STR_ARMORED_CYBERDISC_UFOPEDIA: "Вероятно, это улучшенная версию Кибердиска, ранее встречавшегося нам в серьезных боях. Его оружие было усовершенствовано и теперь обладает возможностью ведения автоматического огня."
   STR_ARMORED_CYBERDISC_CORPSE: "Останки бронированного кибердиска"
@@ -748,6 +833,7 @@ ru:
   STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: ""
 
   STR_ARMORED_SECTOPOD: "Бронированный сектопод"
+  ARMORED_SECTOPOD_ARMOR: ""
   STR_ARMORED_SECTOPOD_TERRORIST: "Бронированный сектопод террорист"
   STR_ARMORED_SECTOPOD_UFOPEDIA: "Улучшенная версия встреченного нами ранее сектопода. Его оружие обладает разрушительной возможностью ведения автоматического огня, и сам сектопод стал гораздо крепче. Также исчезла его уязвимость к лазерному вооружению."
   STR_ARMORED_SECTOPOD_CORPSE: "Останки бронированного сектопода"
@@ -755,6 +841,7 @@ ru:
   STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: "Броня этого Сектопода была улучшена, что увеличило его устойчивость к лазерному, оглушающему вооружению и взрывчатке. Теперь это действительно серьезная угроза на поле боя. Он оснащен модифицированной тяжелой плазменной установкой в качестве основного оружия, которая может стрелять очередями по 5 выстрелов. Лучшие шансы на уничтожение этих громоздких машин смерти - рукопашный бой или обход с флангов, поскольку лобовая броня практически непробиваема. "
 
   STR_CHRYSSALID_SPITTER: "Крисалид-плевун"
+  CHRYSSALID_SPITTER_ARMOR: ""
   STR_CHRYSSALID_SPITTER_TERRORIST: "Крисалид-плевун террорист"
   STR_CHRYSSALID_SPITTER_UFOPEDIA: "Это существо похоже на эволюционировавшего крисалида. Оно всё еще обладает клешнями своих родственников, но теперь получило способность плеваться яйцами на большой дистанции. Похожее, что яйца приводятся в движение очень едкой кислотой, способной разъедать сплавы чужих."
   STR_CHRYSSALID_SPITTER_CORPSE: "Труп крисалида-плевуна"
@@ -936,7 +1023,7 @@ ru:
 
   STR_MEDAL_MELEE: "Врукопашную"
   STR_MEDAL_MELEE_DESCRIPTION: "Присваивается бойцам, уничтожившим противника с помощью оружия ближнего боя."
-  STR_MEDAL_MELEE_UFOPEDIA: "Присваивается бойцам, уничтожившим противника с помощью оружия ближнего боя."
+  STR_MEDAL_MELEE_UFOPEDIA: ""
 
   STR_MEDAL_MERCY_CROSS: "Крест Милосердия"
   STR_MEDAL_MERCY_CROSS_DESCRIPTION: "Вручается бойцам, единолично оглушившим всех пришельцев в ходе задания."
@@ -952,7 +1039,7 @@ ru:
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Лента \"За долгую ночь\""
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Вручается бойцам, лицезревшим ужасы террористических операций пришельцев во тьме ночной."
-  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "Я проснулся внезапно в ночной тишине, - И душа испугалась молчания ночи. - Я увидел на темной стене - Чьи-то скорбные очи.{NEWLINE}     -- Александр Блок{NEWLINE} {NEWLINE}  Вручается тем, кто видел ужасы ночных операций антитеррора. Опасные пришельцы рыщут в тенях и смерть быстро приходит к теМ, кто не осторожен. Те, кто выжил - воистину отважные люди.{NEWLINE} {NEWLINE}  Вручается за участие в ночной антитеррористический операции. Имеет четыре степени."
+  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: ""
 
   STR_MEDAL_NIKE_CROSS: "Крест Ники"
   STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Вручается бойцам, единолично уничтожившим или оглушившим всех пришельцев в ходе задания."
@@ -1145,6 +1232,10 @@ ru:
   MAP_PORTTFTD: "Порт из TFTD"
   MAP_PORTURBAN: "Порт модифицированный"
   MAP_RAILYARDURBAN: "Ж\\д станция"
+  MAP_RAILSTATION_EXPANDED_URBAN_MIX: ""
+  MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: ""
+  MAP_RAILSTATION_INDUSTRIALURBAN_MIX: ""
+  MAP_RAILSTATION_PORTINDUSTRIALURBAN_MIX: ""
   MAP_SAVANNADESERT: "Саванна, пустыня"
   MAP_SAVANNADESERTMOUNT: "Саванна, пустыня, горы"
   MAP_SAVANNAFOREST: "Саванна, лес"
@@ -1197,8 +1288,8 @@ ru:
 #BEGIN ARMED CIVILIAN NAMES
   STR_FIREFIGHTER0: ""
   STR_PARAMEDIC0: ""
-  STR_POLICE_MALE0: ""
-  STR_POLICE_FEMALE0: ""
+  STR_POLICE_MALE0: "ОФицер полиции"
+  STR_POLICE_FEMALE0: "ОФицер полиции"
   STR_POLICE_SWAT_MALE0: ""
   STR_POLICE_SWAT_FEMALE0: ""
   STR_SCIENTIST_FEMALE0: ""

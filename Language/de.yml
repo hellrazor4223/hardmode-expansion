@@ -1,6 +1,7 @@
 de:
 #BEGIN GENERAL
   STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.6 by hellrazor"
+  STR_GROUND: "BODEN {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "ANWEISUNGEN UND NEUIGKEITEN"
   STR_HEAVY_WEAPONS_PLATFORMS: "BASISEINRICHTUNGEN"
   STR_WEAPONS_AND_EQUIPMENT: "XCOM-SCHIFFE & BORDWAFFEN"
@@ -23,6 +24,9 @@ de:
   STR_ALIEN_BASE_ABDUCTION_MISSION: "Außerirdische Entführung"
   STR_ALIEN_BASE_HARVEST_MISSION: "Außerirdische Ernte"
   STR_ALIEN_BASE_BASE_MISSION: "Alien-Basis"
+  STR_ALIEN_BASE_GAMESTART: "Alien-Basis"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: ""
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -168,6 +172,7 @@ de:
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "Drohne/Aufklärer"
+  DRONE_SCOUT_ARMOR: ""
   STR_DRONE_SCOUT_CORPSE: "Beschädigte Drohne/Aufklärer"
   STR_DRONE_SCOUT_REPAIR: "Drohne/Aufklärer reparieren"
   STR_DRONE_SCOUT_UFOPEDIA: "Die kleine robust gebaute Drone dient zur Aufklärung im Gelände. Im Vergleich zu anderen SWTs verfügt die Drone über keinerlei offensiven Waffen oder die Panzerung derselbigen. Dafür ist sie schnell und erlaubt unseren Truppen, die gegnerischen Position auszukunftschaften, ohne unsere Agenten der Bedrohung auszusetzen. Außerdem besitzt die Drone einen Rauchwerfer, um sich und andere aus dem Schußfeld zu bringen. "
@@ -181,6 +186,7 @@ de:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Drohne/Aufklärer -> Legierungs-Betäubungswaffe"
 
   STR_DRONE_SCANNER: "Drohne/Scanner"
+  DRONE_SCANNER_ARMOR: ""
   STR_DRONE_SCANNER_WEAPON: "Drohnenbewegungsscanner"
   STR_DRONE_SCANNER_CORPSE: "Beschädigte Drohne/Scanner"
   STR_DRONE_SCANNER_REPAIR: "Drohne/Scanner reparieren"
@@ -194,6 +200,7 @@ de:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drohne/Scanner-> Legierungs-Betäubungswaffe"
 
   STR_DRONE_MEDIKIT: "Drohne/Medikit"
+  DRONE_MEDIKIT_ARMOR: ""
   STR_DRONE_MEDIKIT_WEAPON: "Drohne Medikit"
   STR_DRONE_MEDIKIT_CORPSE: "Beschädigte Drohne/Medikit"
   STR_DRONE_MEDIKIT_REPAIR: "Drohne/Medikit reparieren"
@@ -207,6 +214,7 @@ de:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drohne/Medikit -> Legierungs-Betäubungswaffe"
 
   STR_DRONE_TASER: "Drohne/Betäubungswaffe"
+  DRONE_TASER_ARMOR: ""
   STR_DRONE_TASER_WEAPON: "Drohne Betäubungswaffe"
   STR_DRONE_TASER_WEAPON_AMMO: "Drohne/Betäubungswaffe-Ladungen"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "Drohne Betäubungswaffe-Ladungen [x10]"
@@ -225,6 +233,7 @@ de:
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: "Legierungs-Drohne/Aufklärer"
+  ALLOY_DRONE_SCOUT_ARMOR: ""
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Beschädigte Legierungs-Drohne/Aufklärer"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Legierungs-Drohne/Aufklärer reparieren"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: ""
@@ -238,6 +247,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_SCANNER: "Legierungs-Drohne/Scanner"
+  ALLOY_DRONE_SCANNER_ARMOR: ""
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Legierungs-Drohne/Bewegungsscanner"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "Beschädigte Legierungs-Drohne/Scanner"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "Legierungs-Drohne/Scanner reparieren"
@@ -252,6 +262,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_MEDIKIT: "Legierungs-Drohne/Medikit"
+  ALLOY_DRONE_MEDIKIT_ARMOR: ""
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Legierungs-Drohne Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Beschädigte Legierungs-Drohne/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Legierungs-Drohne/Medikit reparieren"
@@ -266,6 +277,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT: ""
+  ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: ""
@@ -279,6 +291,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "Legierungs-Drohne/Betäubungswaffe"
+  ALLOY_DRONE_TASER_ARMOR: ""
   STR_ALLOY_DRONE_TASER_WEAPON: "Legierungs-Drohne Betäubungswaffe"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Legierungs-Drohne Betäubungswaffe-Ladungen"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Erweiterte Drohne Betäubungswaffe-Ladungen [x10]"
@@ -298,6 +311,7 @@ de:
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERDRONE_SCOUT: ""
+  HOVERDRONE_SCOUT_ARMOR: ""
   STR_HOVERDRONE_SCOUT_CORPSE: ""
   STR_HOVERDRONE_SCOUT_REPAIR: ""
   STR_HOVERDRONE_SCOUT_UFOPEDIA: ""
@@ -306,6 +320,7 @@ de:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_SCANNER: ""
+  HOVERDRONE_SCANNER_ARMOR: ""
   STR_HOVERDRONE_SCANNER_WEAPON: ""
   STR_HOVERDRONE_SCANNER_CORPSE: ""
   STR_HOVERDRONE_SCANNER_REPAIR: ""
@@ -315,6 +330,7 @@ de:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_ADVANCED_MEDIKIT: ""
+  HOVERDRONE_ADVANCED_MEDIKIT_ARMOR: ""
   STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: ""
   STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: ""
   STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: ""
@@ -324,6 +340,7 @@ de:
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_TASER: ""
+  HOVERDRONE_TASER_ARMOR: ""
   STR_HOVERDRONE_TASER_WEAPON: ""
   STR_HOVERDRONE_TASER_CORPSE: ""
   STR_HOVERDRONE_TASER_REPAIR: ""
@@ -337,6 +354,7 @@ de:
   STR_TANK_SMOKE_WEAPON: ""
   STR_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
+  TANK_CANNON_ARMOR: ""
   STR_TANK_CANNON_CORPSE: "Kaputter Panzer/Kanone"
   STR_TANK_CANNON_REPAIR: ""
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: ""
@@ -345,6 +363,7 @@ de:
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: ""
 
+  TANK_ROCKET_LAUNCHER_ARMOR: ""
   STR_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_TANK_ROCKET_LAUNCHER_REPAIR: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: ""
@@ -353,6 +372,7 @@ de:
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: ""
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: ""
 
+  TANK_LASER_CANNON_ARMOR: ""
   STR_TANK_LASER_CANNON_CORPSE: "Damaged Tank/Laser"
   STR_TANK_LASER_CANNON_REPAIR: ""
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: ""
@@ -363,6 +383,7 @@ de:
   STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_TANK_CANNON: ""
+  ALLOY_TANK_CANNON_ARMOR: ""
   STR_ALLOY_TANK_CANNON_CORPSE: ""
   STR_ALLOY_TANK_CANNON_REPAIR: ""
   STR_ALLOY_TANK_CANNON_UFOPEDIA: ""
@@ -371,6 +392,7 @@ de:
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_HOVER_LASER: ""
 
   STR_ALLOY_TANK_ROCKET_LAUNCHER: ""
+  ALLOY_TANK_ROCKET_LAUNCHER_ARMOR: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: ""
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: ""
@@ -379,6 +401,7 @@ de:
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: ""
 
   STR_ALLOY_TANK_LASER_CANNON: ""
+  ALLOY_TANK_LASER_CANNON_ARMOR: ""
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: ""
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: ""
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: ""
@@ -388,6 +411,7 @@ de:
   STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERTANK_LASER: ""
+  HOVERTANK_LASER_ARMOR: ""
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
   STR_HOVERTANK_LASER_REPAIR: ""
   STR_HOVERTANK_LASER_UFOPEDIA: ""
@@ -398,16 +422,19 @@ de:
   STR_HWP_EBOMB_LAUNCHER: ""
   STR_HWP_EBOMB: ""
   STR_HOVERTANK_EBOMB: ""
+  HOVERTANK_EBOMB_ARMOR: ""
   STR_HOVERTANK_EBOMB_CORPSE: ""
   STR_HOVERTANK_EBOMB_REPAIR: ""
   STR_HOVERTANK_EBOMB_UFOPEDIA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: ""
 
+  HOVERTANK_PLASMA_ARMOR: ""
   STR_HOVERTANK_PLASMA_CORPSE: "Damaged Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_REPAIR: ""
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: ""
 
+  HOVERTANK_LAUNCHER_ARMOR: ""
   STR_HOVERTANK_LAUNCHER_CORPSE: ""
   STR_HOVERTANK_LAUNCHER_REPAIR: ""
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: ""
@@ -416,12 +443,14 @@ de:
   STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_WALKERTANK_LASER: ""
+  WALKERTANK_LASER_ARMOR: ""
   STR_WALKERTANK_LASER_CORPSE: ""
   STR_WALKERTANK_LASER_REPAIR: ""
   STR_WALKERTANK_LASER_UFOPEDIA: ""
   STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: ""
 
   STR_WALKERTANK_PLASMA: ""
+  WALKERTANK_PLASMA_ARMOR: ""
   STR_WALKERTANK_PLASMA_CORPSE: ""
   STR_WALKERTANK_PLASMA_REPAIR: ""
   STR_WALKERTANK_PLASMA_UFOPEDIA: ""
@@ -477,13 +506,13 @@ de:
 
 #BEGIN WEAPONS
   STR_COMBAT_KNIFE: "Kampfmesser"
-  STR_COMBAT_KNIFE_UFOPEDIA: "Mit einer gehärteten Klinge und Spitze kann ein geübter Feldagent leicht-gepanzerte Ziele lautlos mit einem Hieb oder Stich töten.{NEWLINE}Geeignet für jegliche Form von Nahkämpfen."
+  STR_COMBAT_KNIFE_UFOPEDIA: ""
 
   STR_ALLOY_KNIFE: "Legierungs-Messer"
-  STR_ALLOY_KNIFE_UFOPEDIA: "Das Kampfmesser aus der Legierung besitzt eine Klinge schärfer als jedes andere Material für diesen Zweck ermöglichen würde."
+  STR_ALLOY_KNIFE_UFOPEDIA: ""
 
   STR_ALLOY_SWORD: "Legierungs-Schwert"
-  STR_ALLOY_SWORD_UFOPEDIA: "Dieses kunstvoll gefertigte Schwert ist eine beeindruckende Nahkampfwaffe. In Händen eines starken und fähigen Soldaten kann es selbst schwergepanzerte Gegner erschlagen."
+  STR_ALLOY_SWORD_UFOPEDIA: ""
 
   STR_PISTOL_AA_CLIP: "Legierungs-Pistolen-Magazin"
   STR_PISTOL_AA_CLIP_X3: "Legierungs-Pistolen-Magazin [x3]"
@@ -566,7 +595,7 @@ de:
   STR_PLASMA_BLADE: "Plasma-Klinge"
   STR_PLASMA_BLADE_UFOPEDIA: ""
   STR_PLASMA_SWORD: "Plasma-Schwert"
-  STR_PLASMA_SWORD_UFOPEDIA: "Diese tödliche Schwertvariante kombiniert eine große Klinge, nur einen Mikrometer dick an der Schneide, einen Plasmaerzeuger und einen Elektromagneten. Wenn aktiviert, flutet Plasma das EM-Feld um die Klinge und überhitzt sie, bis ihre Berührung Titanium wie Wasser zerteilt."
+  STR_PLASMA_SWORD_UFOPEDIA: ""
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: ""
   STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: ""
@@ -614,6 +643,10 @@ de:
 #END STORY ITEMS
 
 #BEGIN ALIEN RACES
+  FLOATER_ARMOR0: ""
+  FLOATER_ARMOR1: ""
+  FLOATER_ARMOR2: ""
+  FLOATER_ARMOR0_UFOPEDIA: ""
   STR_FLOATER_1: "Schweber"
   STR_FLOATER_3: "Schweber"
   STR_FLOATER_5: "Schweber"
@@ -624,6 +657,8 @@ de:
   STR_FLOATER_13: "Schweber"
   STR_FLOATER_15: "Schweber"
 
+  SECTOID_ARMOR0: ""
+  SECTOID_ARMOR0_UFOPEDIA: ""
   STR_SECTOID_3: "Sektoid"
   STR_SECTOID_5: "Sektoid"
   STR_SECTOID_7: "Sektoid"
@@ -633,6 +668,10 @@ de:
   STR_SECTOID_13: "Sektoid"
   STR_SECTOID_15: "Sektoid"
 
+  SNAKEMAN_ARMOR0: ""
+  SNAKEMAN_ARMOR1: ""
+  SNAKEMAN_ARMOR2: ""
+  SNAKEMAN_ARMOR0_UFOPEDIA: ""
   STR_SNAKEMAN_5: "Schlangenmensch"
   STR_SNAKEMAN_7: "Schlangenmensch"
   STR_SNAKEMAN_8: "Schlangenmensch"
@@ -641,6 +680,10 @@ de:
   STR_SNAKEMAN_13: "Schlangenmensch"
   STR_SNAKEMAN_15: "Schlangenmensch"
 
+  MUTON_ARMOR0: ""
+  MUTON_ARMOR1: ""
+  MUTON_ARMOR2: ""
+  MUTON_ARMOR0_UFOPEDIA: ""
   STR_MUTON_7: "Mutone"
   STR_MUTON_8: "Mutone"
   STR_MUTON_10: "Mutone"
@@ -648,6 +691,10 @@ de:
   STR_MUTON_13: "Mutone"
   STR_MUTON_15: "Mutone"
 
+  WASPITE_ARMOR0: ""
+  WASPITE_ARMOR1: ""
+  WASPITE_ARMOR2: ""
+  WASPITE_ARMOR0_UFOPEDIA: ""
   STR_WASPITE: "Waspite"
   STR_WASPITE_8: "Waspite"
   STR_WASPITE_10: "Waspite"
@@ -665,6 +712,10 @@ de:
   STR_WASPITE_AUTOPSY: "Waspite-Autopsie"
   STR_WASPITE_AUTOPSY_UFOPEDIA: "Die Anatomie dieser Kreature grenzt an Wahnsinn. Der Körper besteht aus einer spiralenförmigen Lebenserhaltungssystem, das eine symbiotische durch Biotechnik erzeugte Pflanze am Leben hält. An dieser Spirale sind zwei mechanische Arme und der Kopf eines Insekten-ähnlicher Kreatur angebracht. Der Kopf scheint das letzte übrig gebliebene Körperteil der eigentlichen Rasse zu sein. Der pflanzliche Teil ist besonders durch Feuer verwundbar."
 
+  GAZER_ARMOR0: ""
+  GAZER_ARMOR1: ""
+  GAZER_ARMOR2: ""
+  GAZER_ARMOR0_UFOPEDIA: ""
   STR_GAZER: "Starrer"
   STR_GAZER_10: "Starrer"
   STR_GAZER_12: "Starrer"
@@ -681,6 +732,10 @@ de:
   STR_GAZER_AUTOPSY: "Starrer Autopsie"
   STR_GAZER_AUTOPSY_UFOPEDIA: "Das einzige, große Auge ist das auffälligste anatomische Merkmal dieses Aliens; es hat einen krustentierähnlichen Aufbau, ist aber sehr viel weiter entwickelt. Die dicke Rüstung wird nicht bloß getragen; kybernetische Implantate wurzeln darin und verbinden sich mit den Organen des Geschöpfs. Es handelt sich um eine Schale."
 
+  SECTOID_ELITE_ARMOR0: ""
+  SECTOID_ELITE_ARMOR1: ""
+  SECTOID_ELITE_ARMOR2: ""
+  SECTOID_ELITE_ARMOR0_UFOPEDIA: ""
   STR_SECTOID_ELITE: "Sektoiden-Elite"
   STR_SECTOID_ELITE_12: "Sektoiden-Elite"
   STR_SECTOID_ELITE_13: "Sektoiden-Elite"
@@ -696,6 +751,10 @@ de:
   STR_SECTOID_ELITE_AUTOPSY: "Sektoiden-Elite Autopsie"
   STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA: "Diese Spezies ist in der Tat Sektoide, aber ihre DNS ist einem bestimmten Abschnitt vollkommen anders, was die unterschiedlichen Proportionen, die Lebenskraft und die überlegenen psionischen Kräfte erklären könnte."
 
+  MUTON_ELITE_ARMOR0: ""
+  MUTON_ELITE_ARMOR1: ""
+  MUTON_ELITE_ARMOR2: ""
+  MUTON_ELITE_ARMOR0_UFOPEDIA: ""
   STR_MUTON_ELITE: "Mutonen-Elite"
   STR_MUTON_ELITE_13: "Mutonen-Elite"
   STR_MUTON_ELITE_15: "Mutonen-Elite"
@@ -708,17 +767,38 @@ de:
   STR_MUTON_ELITE_AUTOPSY: "Mutonen-Elite Autopsie"
   STR_MUTON_ELITE_AUTOPSY_UFOPEDIA: "Dieses Subjekt ist identisch mit normalen Mutonen, aber wurde schwer verändert. Besonders die Rüstung wurde verbessert, aber auch die Implantate zum Verfolgen von Feinden und Überlebensfähigkeit."
 
+  ETHEREAL_ARMOR0: ""
+  ETHEREAL_ARMOR1: ""
+  ETHEREAL_ARMOR2: ""
+  ETHEREAL_ARMOR0_UFOPEDIA: ""
   STR_ETHEREAL_15: "Ätherer"
 
+  MUTON_ELITE_GUARD_ARMOR0: ""
+  MUTON_ELITE_GUARD_ARMOR1: ""
+  MUTON_ELITE_GUARD_ARMOR2: ""
+  MUTON_ELITE_GUARD_ARMOR0_UFOPEDIA: ""
   STR_MUTON_ELITE_GUARD: "Mutonen-Elite-Wache"
   STR_MUTON_ELITE_GUARD_SOLDIER: "Mutonen-Elite-Wache-Soldat"
   STR_MUTON_ELITE_GUARD_ENGINEER: "Mutonen-Elite-Wache-Ingenieur"
+  STR_MUTON_ELITE_GUARD_NAVIGATOR: ""
   STR_MUTON_ELITE_GUARD_LEADER: "Mutonen-Elite-Wache-Anführer"
   STR_MUTON_ELITE_GUARD_UFOPEDIA: ""
   STR_MUTON_ELITE_GUARD_CORPSE: "Mutonen-Elite-Wache-Leiche"
   STR_MUTON_ELITE_GUARD_AUTOPSY: "Mutonen-Elite-Wache-Autopsie"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: ""
 
+  REAPER_ARMOR: ""
+
+  SILACOID_ARMOR: ""
+
+  CYBERDISC_ARMOR: ""
+
+  CHRYSSALID_ARMOR: ""
+
+  CELATID_ARMOR: ""
+  STR_CELATID_CYDONIA_TERRORIST: ""
+
+  MUTON_BERSERKER_ARMOR: ""
   STR_MUTON_BERSERKER: "Muton-Berserker"
   STR_MUTON_BERSERKER_TERRORIST: "Muton-Berserker-Terrorist"
   STR_MUTON_BERSERKER_UFOPEDIA: ""
@@ -727,13 +807,17 @@ de:
   STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: ""
 
   STR_CYBERMITE: "Cybermite"
+  CYBERMITE_ARMOR: ""
   STR_CYBERMITE_TERRORIST: "Cybermite-Terrorist"
   STR_CYBERMITE_CORPSE: "Toter Cybermite "
   STR_CYBERMITE_UFOPEDIA: ""
   STR_CYBERMITE_AUTOPSY: "Cybermite-Autopsie"
   STR_CYBERMITE_AUTOPSY_UFOPEDIA: ""
 
+  SECTOPOD_ARMOR: ""
+
   STR_HOLODRONE: "Holo-Drohne"
+  HOLODRONE_ARMOR: ""
   STR_HOLODRONE_TERRORIST: "Holo-Drohne-Terrorist"
   STR_HOLODRONE_UFOPEDIA: ""
   STR_HOLODRONE_CORPSE: "Holo-Drohne-Leiche"
@@ -741,6 +825,7 @@ de:
   STR_HOLODRONE_AUTOPSY_UFOPEDIA: ""
 
   STR_ARMORED_CYBERDISC: ""
+  ARMORED_CYBERDISC_ARMOR: ""
   STR_ARMORED_CYBERDISC_TERRORIST: ""
   STR_ARMORED_CYBERDISC_UFOPEDIA: ""
   STR_ARMORED_CYBERDISC_CORPSE: ""
@@ -748,6 +833,7 @@ de:
   STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: ""
 
   STR_ARMORED_SECTOPOD: "Gepanzerter Sektopode"
+  ARMORED_SECTOPOD_ARMOR: ""
   STR_ARMORED_SECTOPOD_TERRORIST: "Gepanzerter Sektopod-Terrorist"
   STR_ARMORED_SECTOPOD_UFOPEDIA: ""
   STR_ARMORED_SECTOPOD_CORPSE: "Gepanzerter Sektopodenkörper"
@@ -755,6 +841,7 @@ de:
   STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: ""
 
   STR_CHRYSSALID_SPITTER: "Spuckerchryssalide "
+  CHRYSSALID_SPITTER_ARMOR: ""
   STR_CHRYSSALID_SPITTER_TERRORIST: "Spuckerchryssalide Terrorist"
   STR_CHRYSSALID_SPITTER_UFOPEDIA: ""
   STR_CHRYSSALID_SPITTER_CORPSE: ""
@@ -936,7 +1023,7 @@ de:
 
   STR_MEDAL_MELEE: "Nahkampfspange"
   STR_MEDAL_MELEE_DESCRIPTION: "Für einen Soldaten, der Außerirdische mit einer tödlichen Nahkampfwaffe ausschaltet."
-  STR_MEDAL_MELEE_UFOPEDIA: "Für einen Soldaten, der Außerirdische mit einer tödlichen Nahkampfwaffe ausschaltet."
+  STR_MEDAL_MELEE_UFOPEDIA: ""
 
   STR_MEDAL_MERCY_CROSS: "Gnadenkreuz"
   STR_MEDAL_MERCY_CROSS_DESCRIPTION: "Für einen Soldaten, der im Alleingang jeden Außerirdischen in einer Mission betäubt hat."
@@ -952,7 +1039,7 @@ de:
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "Längste-Nacht-Band"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "Für einen Soldaten, der die Schrecken einer nächtlichen Terrormision bezeugen kann."
-  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "'Der Tag verhindert keine Albträume - Die Nacht ist nicht nötig für Träume - Es gibt keine bessere Zeit, als hier - Keinen besseren Ort, als jetzt'{NEWLINE}    -- Chase LeBlanc   {NEWLINE}{NEWLINE}Diese Auszeichnung ist für Soldaten, die den Horror einer nächtlichen Terrormission miterleben mussten. Gefährliche Außerirdische lauern in den Schatten und sicherer Tod findet die Unvorsichtigen. Die Überlebenden können als tapfer gelten.{NEWLINE}{NEWLINE}Diese Auszeichnung wird in 4 Stufen für jede nächtliche Terrormission verliehen."
+  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: ""
 
   STR_MEDAL_NIKE_CROSS: "Nike-Kreuz"
   STR_MEDAL_NIKE_CROSS_DESCRIPTION: "Für einen Soldaten der im Alleingang alle Außerirdischen einer Mission getötet oder betäubt hat."
@@ -1145,6 +1232,10 @@ de:
   MAP_PORTTFTD: "Hafen TFTD"
   MAP_PORTURBAN: "Hafen Modifiziert"
   MAP_RAILYARDURBAN: "Zugdepot"
+  MAP_RAILSTATION_EXPANDED_URBAN_MIX: ""
+  MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: ""
+  MAP_RAILSTATION_INDUSTRIALURBAN_MIX: ""
+  MAP_RAILSTATION_PORTINDUSTRIALURBAN_MIX: ""
   MAP_SAVANNADESERT: "Savannenwüste"
   MAP_SAVANNADESERTMOUNT: "Savannenwüstenberg"
   MAP_SAVANNAFOREST: "Savannenwald"

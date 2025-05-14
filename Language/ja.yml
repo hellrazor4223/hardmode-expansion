@@ -1,6 +1,7 @@
 ja:
 #BEGIN GENERAL
   STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.6 by hellrazor"
+  STR_GROUND: "地面 {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "任務とニュース"
   STR_HEAVY_WEAPONS_PLATFORMS: "基地の施設"
   STR_WEAPONS_AND_EQUIPMENT: "XCOMの機体および軍備"
@@ -23,6 +24,9 @@ ja:
   STR_ALIEN_BASE_ABDUCTION_MISSION: "誘拐"
   STR_ALIEN_BASE_HARVEST_MISSION: "繁殖"
   STR_ALIEN_BASE_BASE_MISSION: "エイリアン基地"
+  STR_ALIEN_BASE_GAMESTART: "エイリアン基地"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT: "エイリアン基地への強襲"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: "XCom情報部はエイリアンの基地を発見した。コントロール・センターを破壊して基地の機能を完全に停止させるのが任務の目標である。任務は全ての敵を倒すか、または部隊が緑色の退出エリアに帰還すると終了する。('任務中断'を選択し撤退認せよ。)"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -168,6 +172,7 @@ ja:
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "この小さな装置はドローン用の発煙弾筒で、小規模の煙幕を展開して敵の射線から自身や付近の味方を遮ることができる。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_DRONE_SCOUT: "ドローン/スカウト"
+  DRONE_SCOUT_ARMOR: "戦闘分析：ドローン/スカウト"
   STR_DRONE_SCOUT_CORPSE: "大破したドローン/スカウト"
   STR_DRONE_SCOUT_REPAIR: "ドローン/スカウトの修理"
   STR_DRONE_SCOUT_UFOPEDIA: "この小型で頑丈なドローンは偵察および哨戒用として設計されている。大型HWPの様に強力な武装や装甲は備えていないが陸上を素早く移動し、X-Com隊員を危険に晒す事なく偵察をし、敵を発見する。また、地上部隊や自身を火線から逸らす為に用いる近距離用の煙弾筒を備えている。"
@@ -181,6 +186,7 @@ ja:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "ドローン/スカウト -> 合金テーザー"
 
   STR_DRONE_SCANNER: "ドローン/スキャナー"
+  DRONE_SCANNER_ARMOR: "戦闘分析：ドローン/スキャナー"
   STR_DRONE_SCANNER_WEAPON: "ドローン用モーションスキャナー"
   STR_DRONE_SCANNER_CORPSE: "大破したドローン/スキャナー"
   STR_DRONE_SCANNER_REPAIR: "ドローン/スキャナーの修理"
@@ -194,6 +200,7 @@ ja:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "ドローン/スキャナー -> 合金テーザー"
 
   STR_DRONE_MEDIKIT: "ドローン/メディキット"
+  DRONE_MEDIKIT_ARMOR: "戦闘分析：ドローン/メディキット"
   STR_DRONE_MEDIKIT_WEAPON: "ドローン用メディキット"
   STR_DRONE_MEDIKIT_CORPSE: "大破したドローン/メディキット"
   STR_DRONE_MEDIKIT_REPAIR: "ドローン/メディキットの修理"
@@ -207,6 +214,7 @@ ja:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "ドローン/メディキット -> 合金テーザー"
 
   STR_DRONE_TASER: "ドローン/テーザー"
+  DRONE_TASER_ARMOR: "戦闘分析：ドローン/テーザー"
   STR_DRONE_TASER_WEAPON: "ドローン用テーザー"
   STR_DRONE_TASER_WEAPON_AMMO: "ドローン用テーザー電池"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "ドローン用テーザー電池[x10]"
@@ -225,6 +233,7 @@ ja:
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "エイリアン合金の先進性によって発煙弾筒がより頑丈になり射出距離も少々増した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。合金ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_ALLOY_DRONE_SCOUT: "合金ドローン/スカウト"
+  ALLOY_DRONE_SCOUT_ARMOR: "戦闘分析：合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "大破した合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "合金ドローン/スカウトの修理"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "この改良型のドローンはエイリアン合金をボディーに用いており、その分高価なものとなったが移動速度と装甲が増した。但しエイリアンのプラズマ兵器及び他の全ての地上用兵器に対し生存率がアップした訳ではない点に注意しなければならない。上手に用いて敵を発見し、注意を逸らせ。内蔵された煙弾筒を適時活用すれば強力な偵察兵となるだろう。"
@@ -238,6 +247,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: "合金ドローン/スカウト -> ホバーテーザー"
 
   STR_ALLOY_DRONE_SCANNER: "合金ドローン/スキャナー"
+  ALLOY_DRONE_SCANNER_ARMOR: "戦闘分析：合金ドローン/スキャナー"
   STR_ALLOY_DRONE_SCANNER_WEAPON: "合金ドローン用モーションスキャナー"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "大破した合金ドローン/スキャナー"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "合金ドローン/スキャナーの修理"
@@ -252,6 +262,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: "合金ドローン/スキャナー -> ホバーテーザー"
 
   STR_ALLOY_DRONE_MEDIKIT: "合金ドローン/メディキット"
+  ALLOY_DRONE_MEDIKIT_ARMOR: "戦闘分析：合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "合金ドローン用メディキット"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "合金ドローン/メディキットの修理"
@@ -266,6 +277,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: "合金ドローン/メディキット -> ホバーテーザー"
 
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT: "合金ドローン/メディキット改"
+  ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR: "戦闘分析：合金ドローン/メディキット改"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "合金ドローン用メディキット改"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット改"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: "合金ドローン/メディキット改の修理"
@@ -279,6 +291,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "合金ドローン/メディキット改 -> ホバーテーザー"
 
   STR_ALLOY_DRONE_TASER: "合金ドローン/テーザー"
+  ALLOY_DRONE_TASER_ARMOR: "戦闘分析：合金ドローン/テーザー"
   STR_ALLOY_DRONE_TASER_WEAPON: "合金ドローン用テーザー"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "合金ドローン用テーザー電池"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "合金ドローン用テーザー電池[x10]"
@@ -298,6 +311,7 @@ ja:
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "さらなる技術の研さんよって敵の射線を遮る発煙弾筒の射程と装弾数が増加した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。改良型の煙幕は使い様で有利にもなれば不利にもなる。ホバードローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_HOVERDRONE_SCOUT: "ホバードローン/スカウト"
+  HOVERDRONE_SCOUT_ARMOR: "戦闘分析：ホバードローン/スカウト"
   STR_HOVERDRONE_SCOUT_CORPSE: "大破したホバードローン/スカウト"
   STR_HOVERDRONE_SCOUT_REPAIR: "ホバードローン/スカウトの修理"
   STR_HOVERDRONE_SCOUT_UFOPEDIA: "3D (立体的) 機動力を持つドローンの斥候タイプはHWP (重火器プラットフォーム) と同等の装甲を持ちながらより小型で、危険度が高いあるいは不明瞭な場所への侵入に特化している。索敵やかく乱に上手く用いよ。搭載された発煙筒は身を隠したい時に役立ち、このユニットをより一層強力なものにしている。"
@@ -306,6 +320,7 @@ ja:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: "ホバードローン/スカウト -> ホバーテーザー"
 
   STR_HOVERDRONE_SCANNER: "ホバードローン/スキャナー"
+  HOVERDRONE_SCANNER_ARMOR: "戦闘分析：ホバードローン/スキャナー"
   STR_HOVERDRONE_SCANNER_WEAPON: "ホバードローン用モーションスキャナー"
   STR_HOVERDRONE_SCANNER_CORPSE: "大破したホバードローン/スキャナー"
   STR_HOVERDRONE_SCANNER_REPAIR: "ホバードローン/スキャナーの修理"
@@ -315,6 +330,7 @@ ja:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: "ホバードローン/スキャナー -> ホバーテーザー"
 
   STR_HOVERDRONE_ADVANCED_MEDIKIT: "ホバードローン/メディキット改"
+  HOVERDRONE_ADVANCED_MEDIKIT_ARMOR: "戦闘分析：ホバードローン/メディキット改"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: "ホバードローン メディキット改"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: "大破したホバードローン/メディキット改"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: "ホバードローン/メディキット改の修理"
@@ -324,6 +340,7 @@ ja:
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "ホバードローン/メディキット改 -> ホバーテーザー"
 
   STR_HOVERDRONE_TASER: "ホバードローン/テーザー"
+  HOVERDRONE_TASER_ARMOR: "戦闘分析：ホバードローン/テーザー"
   STR_HOVERDRONE_TASER_WEAPON: "ホバードローン テーザー"
   STR_HOVERDRONE_TASER_CORPSE: "大破したホバードローン/テーザー"
   STR_HOVERDRONE_TASER_REPAIR: "ホバードローン/テーザーの修理"
@@ -337,6 +354,7 @@ ja:
   STR_TANK_SMOKE_WEAPON: "戦車用煙弾筒 (スモークディスチャージャー)"
   STR_TANK_SMOKE_WEAPON_UFOPEDIA: "この小さな装置は戦車用の発煙弾筒で、小規模の煙幕を展開して敵の射線から自身や付近の味方を遮ることができる。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。戦車を煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
+  TANK_CANNON_ARMOR: "戦闘分析：戦車/キャノン"
   STR_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
   STR_TANK_CANNON_REPAIR: "戦車/キャノンの修理"
   STR_UPGRADE_TANK_CANNON_TO_ROCKET: "戦車/キャノン->戦車/ロケット"
@@ -345,6 +363,7 @@ ja:
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_ROCKET: "戦車/キャノン->合金ロケット"
   STR_UPGRADE_TANK_CANNON_TO_ALLOY_LASER: "戦車/キャノン->合金レーザー"
 
+  TANK_ROCKET_LAUNCHER_ARMOR: "戦闘分析：戦車/ロケット"
   STR_TANK_ROCKET_LAUNCHER_CORPSE: "大破した戦車/ロケット"
   STR_TANK_ROCKET_LAUNCHER_REPAIR: "戦車/ロケットの修理"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_CANNON: "戦車/ロケット->キャノン"
@@ -353,6 +372,7 @@ ja:
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_ROCKET: "戦車/ロケット->合金ロケット"
   STR_UPGRADE_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "戦車/ロケット->合金レーザー"
 
+  TANK_LASER_CANNON_ARMOR: "戦闘分析：戦車/レーザー"
   STR_TANK_LASER_CANNON_CORPSE: "大破した戦車/レーザー"
   STR_TANK_LASER_CANNON_REPAIR: "戦車/レーザーの修理"
   STR_UPGRADE_TANK_LASER_CANNON_TO_ALLOY_CANNON: "戦車/レーザー->合金キャノン"
@@ -363,6 +383,7 @@ ja:
   STR_ALLOY_TANK_SMOKE_WEAPON_UFOPEDIA: "エイリアン合金の先進性によって発煙弾筒がより頑丈になり射出距離も少々増した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。合金戦車を煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_ALLOY_TANK_CANNON: "合金戦車/キャノン"
+  ALLOY_TANK_CANNON_ARMOR: "戦闘分析：合金戦車/キャノン"
   STR_ALLOY_TANK_CANNON_CORPSE: "大破した戦車/キャノン"
   STR_ALLOY_TANK_CANNON_REPAIR: "合金戦車/キャノンの修理"
   STR_ALLOY_TANK_CANNON_UFOPEDIA: "これは標準仕様のキャノンHWPに軽量で狂人なエイリアン合金製の装甲を採用したものだ。性能はあまり変わらないがより軽量で酷使に耐える。"
@@ -370,7 +391,8 @@ ja:
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: "合金戦車/キャノン->合金レーザー"
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_HOVER_LASER: "合金戦車/キャノン->ホバー/レーザー"
 
-  STR_ALLOY_TANK_ROCKET_LAUNCHER: "合金戦車/ロケットランチャー"
+  STR_ALLOY_TANK_ROCKET_LAUNCHER: "合金タンク/ロケットランチャー"
+  ALLOY_TANK_ROCKET_LAUNCHER_ARMOR: "戦闘分析：合金戦車/ロケット"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "大破した合金戦車/ロケット"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "合金戦車/ロケットの修理"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "これは標準仕様のキャノンHWPに軽量で狂人なエイリアン合金製の装甲を採用したものだ。性能はあまり変わらないがより火線の下で堪える事が可能で、幾らか速度が増している。"
@@ -379,51 +401,58 @@ ja:
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: "合金戦車/ロケット->ホバー/レーザー"
 
   STR_ALLOY_TANK_LASER_CANNON: "合金戦車/レーザー"
+  ALLOY_TANK_LASER_CANNON_ARMOR: "戦闘分析：合金戦車/レーザー"
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: "大破した合金戦車/レーザー"
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "合金戦車/レーザーの修理"
   STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "X-Comのキャタピラ式HWPの頂点とも言える存在で、科学者達によって設計された強力なレーザーキャノンと軽量強靱なエイリアン合金製の装甲を兼ね備える。"
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "合金戦車/レーザー->ホバー/レーザー"
 
-  STR_HOVERTANK_SMOKE_WEAPON: "ホバータンク用煙弾筒"
+  STR_HOVERTANK_SMOKE_WEAPON: "ホバー戦車用煙幕弾筒"
   STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: "UFOのフレーム設計を真似ることで発煙弾筒の更なる改良が可能となり射程もアップした。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ホバータンクを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
-  STR_HOVERTANK_LASER: "ホバー/レーザー"
-  STR_HOVERTANK_LASER_CORPSE: "大破したホバー/レーザー"
-  STR_HOVERTANK_LASER_REPAIR: "ホバー/レーザーの修理"
+  STR_HOVERTANK_LASER: "ホバー戦車/レーザー"
+  HOVERTANK_LASER_ARMOR: "戦闘分析：ホバー戦車/レーザー"
+  STR_HOVERTANK_LASER_CORPSE: "大破したホバー戦車/レーザー"
+  STR_HOVERTANK_LASER_REPAIR: "ホバー戦車/レーザーの修理"
   STR_HOVERTANK_LASER_UFOPEDIA: "完全新設計となった戦車はUFOのテクノロジーと我々のレーザーテクノロジーを基盤としている。三次元的な機動性とレーザーキャノンによる火力は極めて優れた組み合わせと言えよう。"
-  STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB: "ホバー/レーザー->ホバー/Eボム"
-  STR_UPGRADE_HOVERTANK_LASER_TO_PLASMA: "ホバー/レーザー->ホバー/プラズマ"
-  STR_UPGRADE_HOVERTANK_LASER_TO_LAUNCHER: "ホバー/レーザー->ホバー/ランチャ"
+  STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB: "ホバー戦車/レーザー->ホバー戦車/Eボム"
+  STR_UPGRADE_HOVERTANK_LASER_TO_PLASMA: "ホバー戦車/レーザー->ホバー戦車/プラズマ"
+  STR_UPGRADE_HOVERTANK_LASER_TO_LAUNCHER: "ホバー戦車/レーザー->ホバー戦車/ランチャ"
 
   STR_HWP_EBOMB_LAUNCHER: "エレリウムボム・ランチャ"
   STR_HWP_EBOMB: "HWP用エレリウムボム"
-  STR_HOVERTANK_EBOMB: "ホバー/エレリウムB"
-  STR_HOVERTANK_EBOMB_CORPSE: "大破したホバー/エレリウムB"
-  STR_HOVERTANK_EBOMB_REPAIR: "ホバー/エレリウムBの修理"
+  STR_HOVERTANK_EBOMB: "ホバー戦車/エレリウムB"
+  HOVERTANK_EBOMB_ARMOR: "戦闘分析：ホバー戦車/エレリウムB"
+  STR_HOVERTANK_EBOMB_CORPSE: "大破したホバー戦車/エレリウムB"
+  STR_HOVERTANK_EBOMB_REPAIR: "ホバー戦車/エレリウムBの修理"
   STR_HOVERTANK_EBOMB_UFOPEDIA: "UFOと小型ランチャのテクノロジーを組み合わせて設計された。エレリウムボムを中空から発射できる事で殆どの敵にとって致命傷を与える事が可能。使用目的はキャタピラ式のランチャー戦車と同じだが、弾倉容量が増加している。"
-  STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: "ホバー/Eボム->ホバー/プラズマ"
-  STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: "ホバー/Eボム->ホバー/ランチャ"
+  STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: "ホバー戦車/Eボム->ホバー戦車/プラズマ"
+  STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: "ホバー戦車/Eボム->ホバー戦車/ランチャ"
 
-  STR_HOVERTANK_PLASMA_CORPSE: "大破したホバー/プラズマ"
-  STR_HOVERTANK_PLASMA_REPAIR: "ホバー/プラズマの修理"
-  STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "ホバー/プラズマ->ホバー/ランチャ"
+  HOVERTANK_PLASMA_ARMOR: "戦闘分析：ホバー戦車/プラズマ"
+  STR_HOVERTANK_PLASMA_CORPSE: "大破したホバー戦車/プラズマ"
+  STR_HOVERTANK_PLASMA_REPAIR: "ホバー戦車/プラズマの修理"
+  STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "ホバー戦車/プラズマ->ホバー戦車/ランチャ"
 
-  STR_HOVERTANK_LAUNCHER_CORPSE: "大破したホバー/ランチャ"
-  STR_HOVERTANK_LAUNCHER_REPAIR: "ホバー/ランチャの修理"
-  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "ホバー/ランチャ->ホバー/プラズマ"
+  HOVERTANK_LAUNCHER_ARMOR: "戦闘分析：ホバー戦車/ランチャ"
+  STR_HOVERTANK_LAUNCHER_CORPSE: "大破したホバー戦車/ランチャ"
+  STR_HOVERTANK_LAUNCHER_REPAIR: "ホバー戦車/ランチャの修理"
+  STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "ホバー戦車/ランチャ->ホバー戦車/プラズマ"
 
   STR_WALKERTANK_SMOKE_WEAPON: "ウォーカー用煙弾筒"
-  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "改造した敵の兵器に改良型の発煙弾筒を装着した結果、大きなアドバンテージを得た。弾倉の容量が倍になったのだ。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ウォーカー戦車は自軍と敵軍の間に分厚い煙幕を展開可能で、敵のブラスター爆弾やグレネードを引き付けることができるかもしれない。"
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "改造した敵の兵器に改良型の発煙弾筒を装着した結果、大きなアドバンテージを得た。弾倉容量が倍になったのだ。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ウォーカー戦車は自軍と敵軍の間に分厚い煙幕を展開可能で、敵のブラスター爆弾やグレネードを引き付けることができるかもしれない。"
 
-  STR_WALKERTANK_LASER: "歩行/レーザー"
-  STR_WALKERTANK_LASER_CORPSE: "大破した歩行/レーザー"
-  STR_WALKERTANK_LASER_REPAIR: "歩行/レーザーの修理"
+  STR_WALKERTANK_LASER: "ウォーカー/レーザー"
+  WALKERTANK_LASER_ARMOR: "戦闘分析：ウォーカー/レーザー"
+  STR_WALKERTANK_LASER_CORPSE: "大破したウォーカー/レーザー"
+  STR_WALKERTANK_LASER_REPAIR: "ウォーカー/レーザーの修理"
   STR_WALKERTANK_LASER_UFOPEDIA: "主と繋がるセクトポッドのサイオニックリンクを切断して精神制御から解放し制御システムをハッキングした。不幸なことにシステムを破壊したらしく中断を余儀なくされ、処理速度が大幅に低下したがレーザー兵器へのぜい弱性を緩和することが出来た。改めてハッキングするには無傷のセクトポッドが必要だ。"
-  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "歩行/レーザー->歩行/プラズマ"
+  STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "ウォーカー/レーザー->ウォーカー/プラズマ"
 
-  STR_WALKERTANK_PLASMA: "歩行/プラズマ"
-  STR_WALKERTANK_PLASMA_CORPSE: "大破した歩行/プラズマ"
-  STR_WALKERTANK_PLASMA_REPAIR: "歩行/プラズマの修理"
+  STR_WALKERTANK_PLASMA: "ウォーカー/プラズマ"
+  WALKERTANK_PLASMA_ARMOR: "戦闘分析：ウォーカー/プラズマ"
+  STR_WALKERTANK_PLASMA_CORPSE: "大破したウォーカー/プラズマ"
+  STR_WALKERTANK_PLASMA_REPAIR: "ウォーカー/プラズマの修理"
   STR_WALKERTANK_PLASMA_UFOPEDIA: "サイオニックリンクを切断してエセリアルの制御から完全に解放されたこのマシンの制御システムを我々はハッキングした。不幸なことにその過程で何カ所かがダメージを負ってしまった為処理能力が下がってしまった。完全に無傷のセクトポッドがハッキングの為に必要だ。"
 #END TANKS
 
@@ -477,13 +506,13 @@ ja:
 
 #BEGIN WEAPONS
   STR_COMBAT_KNIFE: "コンバットナイフ"
-  STR_COMBAT_KNIFE_UFOPEDIA: "熟練兵士はこの硬化処理を施された切っ先と刃を用いて軽装の相手ならば静かに、そして一撃で仕留める事が出来る。{NEWLINE}あらゆる接近戦に対応可能。"
+  STR_COMBAT_KNIFE_UFOPEDIA: "硬化処理が施された刃と切っ先を持ち、訓練を受けた兵士が用いれば軽装甲の相手を一凪ぎ或いは一突きで倒す事ができる。{NEWLINE}あらゆる近接戦闘に適している{NEWLINE}威力は使用者の筋力に依存する。"
 
   STR_ALLOY_KNIFE: "合金ナイフ"
-  STR_ALLOY_KNIFE_UFOPEDIA: "このコンバットナイフはエイリアン合金製で、過去のどんな素材を用いて作られた刃物よりも頑丈で鋭い。"
+  STR_ALLOY_KNIFE_UFOPEDIA: "このコンバットナイフはエイリアン合金製で、過去のどんな素材を用いて作られた刃物よりも頑丈で鋭い。{NEWLINE}威力は使用者の筋力に依存する。"
 
   STR_ALLOY_SWORD: "合金ソード"
-  STR_ALLOY_SWORD_UFOPEDIA: "この特製の近接用武器は筋力と剣術スキルを兼ね備えた者が使えば重装甲の相手でさえも仕留められる。"
+  STR_ALLOY_SWORD_UFOPEDIA: "この特製の剣は近接戦闘武器として高い威力を誇り、筋力と剣技を十分に活かせば重装甲の敵さえも倒せる。{NEWLINE}威力は使用者の筋力に依存する。"
 
   STR_PISTOL_AA_CLIP: "ピストル AA弾倉"
   STR_PISTOL_AA_CLIP_X3: "ピストル AA弾倉[x3]"
@@ -564,9 +593,9 @@ ja:
   STR_FIRE_EXTINGUISHER_UFOPEDIA: "消火器は緊急時に 'ぼや' を消し止める為によく用いられる防火用品である。天井に届くような手の付けられない火災に対処する為のものではなく、使用者を逃げ遅れ、煙害、爆発などの危険に晒すので、そうした危険を避けるには訓練された消防士としての技量が必要となる。"
 
   STR_PLASMA_BLADE: "プラズマブレード"
-  STR_PLASMA_BLADE_UFOPEDIA: "この装置は基本的にエイリアンが使うコンバットナイフで、刃先が単分子になっている。磁力線を用いて刃の周りにプラズマを纏わせ、近代の標準的なアーマーが使用している耐熱セラミックを引き裂く事ができる。"
+  STR_PLASMA_BLADE_UFOPEDIA: "この装置はエイリアンが使うコンバットナイフで、刃先が単分子になっている。磁力線を用いて刃の周りにプラズマをまとわせる事で近代の標準的なアーマーが採用している耐熱セラミックをも切り裂く切れ味を持つ。{NEWLINE}威力は使用者の筋力に依存する。"
   STR_PLASMA_SWORD: "プラズマソード"
-  STR_PLASMA_SWORD_UFOPEDIA: "ミクロン単位の厚さの刃先とプラズマ発生器そして電磁線を組み合わせたこの恐ろしい複合剣は起動するとプラズマが迸って刃の周りにEM層を形成し、触れるだけでチタンを液体にする程の超高熱を発する。"
+  STR_PLASMA_SWORD_UFOPEDIA: "ミクロン単位の厚さの刃先とプラズマ発生器そして電磁線を組み合わせたこの恐ろしい複合剣は起動するとプラズマが迸って刃の周りにEM層を形成し、触れるだけでチタンを融解する程の超高熱を発する。{NEWLINE}威力は使用者の筋力に依存する。"
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: "プラズマP E弾倉"
   STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: "エイリアンが使う小型のプラズマピストル用の強化バッテリー。エイリアンが必要とする動力は全て特殊な構造化を施したエレリウムから引き出しているが、その原理は未解明且つ複製不可である。"
@@ -614,6 +643,10 @@ ja:
 #END STORY ITEMS
 
 #BEGIN ALIEN RACES
+  FLOATER_ARMOR0: "戦闘分析：フローター"
+  FLOATER_ARMOR1: "戦闘分析：フローター"
+  FLOATER_ARMOR2: "戦闘分析：フローター"
+  FLOATER_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋8、側面＋6、背面＋4、下面＋2"
   STR_FLOATER_1: "フローター"
   STR_FLOATER_3: "フローター"
   STR_FLOATER_5: "フローター"
@@ -624,6 +657,8 @@ ja:
   STR_FLOATER_13: "フローター"
   STR_FLOATER_15: "フローター"
 
+  SECTOID_ARMOR0: "戦闘分析：セクトイド"
+  SECTOID_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの装甲は増加しない。"
   STR_SECTOID_3: "セクトイド"
   STR_SECTOID_5: "セクトイド"
   STR_SECTOID_7: "セクトイド"
@@ -633,6 +668,10 @@ ja:
   STR_SECTOID_13: "セクトイド"
   STR_SECTOID_15: "セクトイド"
 
+  SNAKEMAN_ARMOR0: "戦闘分析：スネークマン"
+  SNAKEMAN_ARMOR1: "戦闘分析：スネークマン"
+  SNAKEMAN_ARMOR2: "戦闘分析：スネークマン"
+  SNAKEMAN_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋3、側面＋4、背面＋3、下面＋4"
   STR_SNAKEMAN_5: "スネークマン"
   STR_SNAKEMAN_7: "スネークマン"
   STR_SNAKEMAN_8: "スネークマン"
@@ -641,6 +680,10 @@ ja:
   STR_SNAKEMAN_13: "スネークマン"
   STR_SNAKEMAN_15: "スネークマン"
 
+  MUTON_ARMOR0: "戦闘分析：ミュートン"
+  MUTON_ARMOR1: "戦闘分析：ミュートン"
+  MUTON_ARMOR2: "戦闘分析：ミュートン"
+  MUTON_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋4、側面＋4、背面＋4、下面＋5"
   STR_MUTON_7: "ミュートン"
   STR_MUTON_8: "ミュートン"
   STR_MUTON_10: "ミュートン"
@@ -648,6 +691,10 @@ ja:
   STR_MUTON_13: "ミュートン"
   STR_MUTON_15: "ミュートン"
 
+  WASPITE_ARMOR0: "戦闘分析：ワスパイト"
+  WASPITE_ARMOR1: "戦闘分析：ワスパイト"
+  WASPITE_ARMOR2: "戦闘分析：ワスパイト"
+  WASPITE_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋4、側面＋4、背面＋3、下面＋4"
   STR_WASPITE: "ワスパイト"
   STR_WASPITE_8: "ワスパイト"
   STR_WASPITE_10: "ワスパイト"
@@ -657,7 +704,7 @@ ja:
   STR_WASPITE_SOLDIER: "ワスパイト兵士"
   STR_WASPITE_MEDIC: "ワスパイト衛生兵"
   STR_WASPITE_ENGINEER: "ワスパイトのエンジニア"
-  STR_WASPITE_NAVIGATOR: "ワスパイトのナビゲーター"
+  STR_WASPITE_NAVIGATOR: "ワスパイトの航海士"
   STR_WASPITE_LEADER: "ワスパイトリーダー"
   STR_WASPITE_COMMANDER: "ワスパイトの司令官"
   STR_WASPITE_UFOPEDIA: "ワスパイトはエリートクラスのテロ用スパイであり、戦闘員でもある。非常に好戦的で策略に長け、サイバネティクスで強化された強敵である。しかしながら概して脆弱であり、生粋の兵士という訳ではない様だ。本来持つ器官と置き換えられた渦巻き状の装置によって反重力を発生させ、浮遊が可能となっている。"
@@ -665,6 +712,10 @@ ja:
   STR_WASPITE_AUTOPSY: "ワスパイトの解剖"
   STR_WASPITE_AUTOPSY_UFOPEDIA: "この生物の解剖にあたっては正気を保つ事が辛い程であった。胴体にある渦巻き状の装置は生命維持を司り、非常に高度な生体工学に基づいて埋め込まれている。二本の機械の腕と唯一原形を保つものと思われる昆虫の様な頭部がその胴体に繋げられている。胴体の移植部分は炎を弱点とする。"
 
+  GAZER_ARMOR0: "戦闘分析：ゲイザー"
+  GAZER_ARMOR1: "戦闘分析：ゲイザー"
+  GAZER_ARMOR2: "戦闘分析：ゲイザー"
+  GAZER_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋4、側面＋4、背面＋4、下面＋4"
   STR_GAZER: "ゲイザー"
   STR_GAZER_10: "ゲイザー"
   STR_GAZER_12: "ゲイザー"
@@ -673,7 +724,7 @@ ja:
   STR_GAZER_SOLDIER: "ゲイザー兵士"
   STR_GAZER_MEDIC: "ゲイザー衛生兵"
   STR_GAZER_ENGINEER: "ゲイザーのエンジニア"
-  STR_GAZER_NAVIGATOR: "ゲイザーのナビゲーター"
+  STR_GAZER_NAVIGATOR: "ゲイザーの航海士"
   STR_GAZER_LEADER: "ゲイザーのリーダー"
   STR_GAZER_COMMANDER: "ゲイザーの司令官"
   STR_GAZER_UFOPEDIA: "ゲイザーは直立歩行する亀の様な姿で、見かけどおりの頑丈な体を持っている。無骨な重鎧はあらゆるタイプの攻撃に対しかなりの耐性を持つが、特に徹甲弾とプラズマ兵器に対し高い防御力がある。"
@@ -681,6 +732,10 @@ ja:
   STR_GAZER_AUTOPSY: "ゲイザーの解剖"
   STR_GAZER_AUTOPSY_UFOPEDIA: "このエイリアンに対する解剖学的な見解上最たる特徴といえば大きな単眼だろう。彼らは甲殻類としての痕跡を持つが、遙かに進化した生物である。非常に分厚い鎧は自動制御のインプラントが埋め込まれており、生体器官と連結して一種の甲羅になっている。"
 
+  SECTOID_ELITE_ARMOR0: "戦闘分析：セクトイドエリート"
+  SECTOID_ELITE_ARMOR1: "戦闘分析：セクトイドエリート"
+  SECTOID_ELITE_ARMOR2: "戦闘分析：セクトイドエリート"
+  SECTOID_ELITE_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋4、側面＋4、背面＋4、下面＋4"
   STR_SECTOID_ELITE: "セクトイド エリート"
   STR_SECTOID_ELITE_12: "セクトイド エリート"
   STR_SECTOID_ELITE_13: "セクトイド エリート"
@@ -696,6 +751,10 @@ ja:
   STR_SECTOID_ELITE_AUTOPSY: "セクトイド エリートの解剖"
   STR_SECTOID_ELITE_AUTOPSY_UFOPEDIA: "この種族は間違いなくセクトイドではあるが、DNAを見ると一部が大きく異なっている。その結果が身体上の特徴の差と生命力の強さ、そしてサイオニック能力の高さに繋がっているのだろう。"
 
+  MUTON_ELITE_ARMOR0: "戦闘分析：ミュートンエリート"
+  MUTON_ELITE_ARMOR1: "戦闘分析：ミュートンエリート"
+  MUTON_ELITE_ARMOR2: "戦闘分析：ミュートンエリート"
+  MUTON_ELITE_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋5、側面＋5、背面＋5、下面＋5"
   STR_MUTON_ELITE: "ミュートンエリート"
   STR_MUTON_ELITE_13: "ミュートンエリート"
   STR_MUTON_ELITE_15: "ミュートンエリート"
@@ -708,17 +767,38 @@ ja:
   STR_MUTON_ELITE_AUTOPSY: "ミュートンエリートの解剖"
   STR_MUTON_ELITE_AUTOPSY_UFOPEDIA: "この種は通常のミュートンと全く同一だが、極度の改良を施されている。特にアーマーは改良されており、インプラントもより多く埋め込まれ索敵能力と生存率を高めている。"
 
+  ETHEREAL_ARMOR0: "戦闘分析：エセリアル"
+  ETHEREAL_ARMOR1: "戦闘分析：エセリアル"
+  ETHEREAL_ARMOR2: "戦闘分析：エセリアル"
+  ETHEREAL_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋5、側面＋5、背面＋5、下面＋5"
   STR_ETHEREAL_15: "エセリアル"
 
+  MUTON_ELITE_GUARD_ARMOR0: "戦闘分析：ミュートンエリート衛兵"
+  MUTON_ELITE_GUARD_ARMOR1: "戦闘分析：ミュートンエリート衛兵"
+  MUTON_ELITE_GUARD_ARMOR2: "戦闘分析：ミュートンエリート衛兵"
+  MUTON_ELITE_GUARD_ARMOR0_UFOPEDIA: "これは対象種族の基本装甲値を示す。昇級する事でステータスは上昇するが耐性は不変のままである。このユニットの昇級時の装甲増加パターンは以下の通り：{NEWLINE}前面＋10、側面＋10、背面＋10、下面＋10"
   STR_MUTON_ELITE_GUARD: "ミュートンエリートガード"
   STR_MUTON_ELITE_GUARD_SOLDIER: "ミュートンエリート衛兵"
   STR_MUTON_ELITE_GUARD_ENGINEER: "ミュートンエリート衛工兵"
+  STR_MUTON_ELITE_GUARD_NAVIGATOR: "ミュートンエリート衛兵の航海士"
   STR_MUTON_ELITE_GUARD_LEADER: "ミュートンエリート衛長"
   STR_MUTON_ELITE_GUARD_UFOPEDIA: "ミュートン族の中でもエリート中のエリート、そして最もタフで聡明な戦士は星々の子らの間でも特別な地位にあるようだ。彼らはサイオニックに対し極めて高い耐性を示すが、どうやって主であるエセリアルが彼らを制御しているかは不明だ。何らかの形で忠誠の精神を叩き込まれたか、もしくは薬物による支配を受けているものと思われる。"
   STR_MUTON_ELITE_GUARD_CORPSE: "ミュートンエリートガードの死体"
   STR_MUTON_ELITE_GUARD_AUTOPSY: "ミュートンエリートガードの解剖"
   STR_MUTON_ELITE_GUARD_AUTOPSY_UFOPEDIA: "この生物の肉体には非常に多くの傷痕と追加サイバーインプラントが見られる。また、血液中に薬物がもたらしたと思われる奇妙な痕跡を発見した。おそらくそれは完全な服従を彼らに強いる為で、より精細な検査によってその薬物の含有率が一定以下になると彼らの身体機能が停止し始める事が判明した。外皮は皮膚というよりも戦闘スーツに近いもので、レーザー、プラズマ、高威力の爆発に対し高い耐性を示し、我々のパワースーツにほぼ等しい防御力を持っている。"
 
+  REAPER_ARMOR: "戦闘分析：リーパー"
+
+  SILACOID_ARMOR: "戦闘分析：シラコイド"
+
+  CYBERDISC_ARMOR: "戦闘分析：サイバーディスク"
+
+  CHRYSSALID_ARMOR: "戦闘分析：クリサリド"
+
+  CELATID_ARMOR: "戦闘分析：セラチド"
+  STR_CELATID_CYDONIA_TERRORIST: "セラチドのテロリスト"
+
+  MUTON_BERSERKER_ARMOR: "戦闘分析：ミュートンバーサーカー"
   STR_MUTON_BERSERKER: "ミュートンバーサーカー"
   STR_MUTON_BERSERKER_TERRORIST: "ミュートンバーサーカーのテロリスト"
   STR_MUTON_BERSERKER_UFOPEDIA: "この巨大な生物はミュートンの亜種らしい。多くの点で’通常’タイプと似ているが、過剰に発達したリンパ腺を見るとアドレナリンに似た物質がホルモンと共に常に体内に分泌され、激高状態を維持してその影響化にある間は苦痛に対し非常に強い耐性を持つ事ができる様だ。知能は通常タイプと比べるとかなり劣っており、主に近接攻撃に特化しているものと思われる。"
@@ -727,13 +807,17 @@ ja:
   STR_MUTON_BERSERKER_AUTOPSY_UFOPEDIA: "この生物に対する我々の当初の見解は大きく的を逸れていた。この状態こそがミュートンにとって最も純粋で、遺伝子構造上の改造が最も少なく、主にホルモンレベルを高めて恒久的に激怒した状態を保つ為の措置のみを施されたものと言える。痛覚が発生すると同時に外皮が若干堅くなり、あらゆる武器のダメージを逓減する。"
 
   STR_CYBERMITE: "サイバーマイト"
+  CYBERMITE_ARMOR: "戦闘分析：サイバーマイト"
   STR_CYBERMITE_TERRORIST: "サイバーマイトのテロリスト"
   STR_CYBERMITE_CORPSE: "サイバーマイトの死体"
   STR_CYBERMITE_UFOPEDIA: "このミニチュアロボットは自動化されたテロ兵器であり、エイリアンのロボット工学の粋を結集したものである。高性能の光学センサーが標的を捉えると同時に攻撃を開始すべく走り出す。ダメージを一定以上受けると小型化されたエレリウムコアに点火し爆発して周囲の者を巻き込むので、倒すのに非常な危険がつきまとう。"
   STR_CYBERMITE_AUTOPSY: "サイバーマイトの解剖"
   STR_CYBERMITE_AUTOPSY_UFOPEDIA: "この複雑な機構を備えたロボットの特徴として、強力な毒を備えていたと思われる小型タンクに連結した合金製のトゲを武器にしている点が挙げられる。動力炉は想定されるダメージに対し特に敏感に造られており、誘爆する様になっている。"
 
+  SECTOPOD_ARMOR: "戦闘分析：セクトポッド"
+
   STR_HOLODRONE: "ホロドローン"
+  HOLODRONE_ARMOR: "戦闘分析：ホロドローン"
   STR_HOLODRONE_TERRORIST: "ホロドローンのテロリスト"
   STR_HOLODRONE_UFOPEDIA: "ホロドローンは生物であり、浮遊する火砲である。彼らはプラズマから成る泡沫によってプラズマと火炎による攻撃から身を守る。プラズマエネルギーを用いた武器に対し特化して対抗できる様に造られたのかもしれない。体機能上かなりの発熱を伴う放射線を帯びているので人間が装着する様なアーマーは着ることが出来ない。"
   STR_HOLODRONE_CORPSE: "ホロドローンの死体"
@@ -741,6 +825,7 @@ ja:
   STR_HOLODRONE_AUTOPSY_UFOPEDIA: "この生物はそのサイズに見合わない巨大なエレリウムコアを動力源にした複雑な機構を持っている。動力源からは2本のシャフトが伸びており、体全体を覆うプラズマ泡を放射する。またこの動力炉を過充電させて発生する余剰エネルギーから強力なレーザー光線を造りだす。"
 
   STR_ARMORED_CYBERDISC: "アーマードサイバーディスク"
+  ARMORED_CYBERDISC_ARMOR: "戦闘分析：アーマードサイバーディスク"
   STR_ARMORED_CYBERDISC_TERRORIST: "Amdサイバーディスクのテロリスト"
   STR_ARMORED_CYBERDISC_UFOPEDIA: "これは今まで遭遇した中でも強敵として認知されているサイバーディスクの強化バージョンで、兵器が改良されており、連射が可能となっている。"
   STR_ARMORED_CYBERDISC_CORPSE: "Amdサイバーディスクの残骸"
@@ -748,6 +833,7 @@ ja:
   STR_ARMORED_CYBERDISC_AUTOPSY_UFOPEDIA: "このサイバーディスクの装甲はかなり強化されており、HE弾に対し強い耐性を示し且つ旧来の兵器がほぼ通用しない為、破壊するにはレーザーを推奨。"
 
   STR_ARMORED_SECTOPOD: "アーマードセクトポッド"
+  ARMORED_SECTOPOD_ARMOR: "戦闘分析：アーマードセクトポッド"
   STR_ARMORED_SECTOPOD_TERRORIST: "Amdセクトポッドのテロリスト"
   STR_ARMORED_SECTOPOD_UFOPEDIA: "既知のセクトポッドの改良版。兵器は連射機能を備え、装甲もかなり強化された為、破壊が難しくなった。更にレーザー兵器への脆弱性も完全に克服されている。"
   STR_ARMORED_SECTOPOD_CORPSE: "Amdセクトポッドの残骸"
@@ -755,6 +841,7 @@ ja:
   STR_ARMORED_SECTOPOD_AUTOPSY_UFOPEDIA: "このセクトポッドの装甲は強化され、レーザー、スタン、榴弾に対する耐性がかなり増大している。戦場で出会えば相当な脅威となるだろう。主力兵器に重プラズマ砲を備え、5連射が可能となっている。この強大な殺戮マシンを倒すとしたら近接攻撃あるいは挟撃によるしかないだろう。というのも前面装甲はほぼ貫通不可能だからだ。"
 
   STR_CHRYSSALID_SPITTER: "クリサリドのスピッター"
+  CHRYSSALID_SPITTER_ARMOR: "戦闘分析：クリサリドスピッター"
   STR_CHRYSSALID_SPITTER_TERRORIST: "クリサリドスピッターのテロリスト"
   STR_CHRYSSALID_SPITTER_UFOPEDIA: "この生物は進化したクリサリドと呼んでも構わないだろう。彼らの従兄弟達と同じ爪を持つが、卵を長射程で撃ち込む事が出来る。卵はエイリアン合金を腐食するほどの強酸を排出して飛ぶ。"
   STR_CHRYSSALID_SPITTER_CORPSE: "クリサリドスピッターの死体"
@@ -896,7 +983,7 @@ ja:
 
   STR_MEDAL_GLOBETROTTER: "旅巡章"
   STR_MEDAL_GLOBETROTTER_DESCRIPTION: "地球上のあらゆる国をエイリアンの危機から救った者に与えられる"
-  STR_MEDAL_GLOBETROTTER_UFOPEDIA: ""
+  STR_MEDAL_GLOBETROTTER_UFOPEDIA: "'道なりに進むな。むしろ道がなくとも足跡あらばそちらに向かえ'{NEWLINE} - ラルフ・ワルド・エマーソン{NEWLINE}{NEWLINE}この褒賞は地球上の全ての国でミッションを完了させた兵士に与えられる。"
 
   STR_MEDAL_GRENADIER: "榴弾章"
   STR_MEDAL_GRENADIER_DESCRIPTION: "爆発物で一度に３体のエイリアンを倒した兵に与えられる"
@@ -928,7 +1015,7 @@ ja:
 
   STR_MEDAL_MARTYR: "挺身メダル"
   STR_MEDAL_MARTYR_DESCRIPTION: "同士討ちで死亡した兵士に与えられる"
-  STR_MEDAL_MARTYR_UFOPEDIA: ""
+  STR_MEDAL_MARTYR_UFOPEDIA: "'失うものが無い者ほど強い者は居ない'{NEWLINE} - ドン・キホーテ{NEWLINE}{NEWLINE}この褒賞は任務の中で最も重要な犠牲を捧げた兵に与えられる。敵を墓場送りにする毎に10段階。　"
 
   STR_MEDAL_MEDIKIT: "野戦医労章"
   STR_MEDAL_MEDIKIT_DESCRIPTION: "戦場でメディキットをよく用いた兵に与えられる"
@@ -936,7 +1023,7 @@ ja:
 
   STR_MEDAL_MELEE: "武芸章"
   STR_MEDAL_MELEE_DESCRIPTION: "致死的な近接攻撃でエイリアンを倒した兵に与えられる"
-  STR_MEDAL_MELEE_UFOPEDIA: "致死的な近接攻撃でエイリアンを倒した兵に与えられる"
+  STR_MEDAL_MELEE_UFOPEDIA: "'活きた動きの流れ - 我々は常に形成の最中に在り、正すべきものは何も無い。あなたがもし堅苦しい教えに縛られてなければ起こり得るいかなる変化に対しても柔軟でいられるだろう。己と流れに心を開け、我が友よ。流れとは完全に開かれた生の瞬間に在る。凝り固まる事がなければ外界は自ずからあなたに開かれる。動きとは水が如し。そして鏡の如く反響を返す。'{NEWLINE} - ブルース・リー{NEWLINE}{NEWLINE}近接武器でエイリアンを倒す事に成功した兵に与えられる。4回毎に4段階まで。"
 
   STR_MEDAL_MERCY_CROSS: "慈愛章"
   STR_MEDAL_MERCY_CROSS_DESCRIPTION: "ミッション中に単身でエイリアンをスタンさせた兵に与えられる"
@@ -948,11 +1035,11 @@ ja:
 
   STR_MEDAL_MINDCONTROL: "インペリオ章"
   STR_MEDAL_MINDCONTROL_DESCRIPTION: "敵を精神支配した者に与えられる"
-  STR_MEDAL_MINDCONTROL_UFOPEDIA: ""
+  STR_MEDAL_MINDCONTROL_UFOPEDIA: "'心は制御不能な者にとっては敵となる'{NEWLINE} - バガヴァッド・ギーター{NEWLINE}{NEWLINE}敵のマインドコントロールに成功した兵に与えられる。3回成功する毎に与えられ、4段階。"
 
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT: "夜戦功労賞"
   STR_MEDAL_NIGHT_TERRORMISSION_COUNT_DESCRIPTION: "夜間のテロミッションによく堪えた者に与えられる"
-  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "'昼間でも悪夢から逃れる事はできない。夢は夜を必要としないからだ。此処より良い場所も今より良い時も無いのだ。' {NEWLINE}    -- チェイス・レブラン   {NEWLINE} {NEWLINE}  この褒章は夜間のテロミッションの恐怖を知った兵に与えられる。エイリアンは影の中で徘徊し、注意の無い者には速やかな死が訪れる。そんな戦いを生き抜いた者こそ真の兵と言えよう。 {NEWLINE} {NEWLINE} 夜間のテロミッションの度に4回まで受勲可能。"
+  STR_MEDAL_NIGHT_TERRORMISSION_COUNT_UFOPEDIA: "'昼間でも悪夢から逃れる事はできない。夢は夜を必要としないからだ。此処より良い場所も今より良い時も無いのだ。' {NEWLINE} - チェイス・レブラン   {NEWLINE} {NEWLINE}  この褒章は夜間のテロミッションの恐怖を知った兵に与えられる。エイリアンは影の中で徘徊し、注意の無い者には速やかな死が訪れる。そんな戦いを生き抜いた者こそ真の兵と言えよう。 {NEWLINE} {NEWLINE} 夜間のテロミッションの度に4回まで受勲可能。"
 
   STR_MEDAL_NIKE_CROSS: "ニケ十字章"
   STR_MEDAL_NIKE_CROSS_DESCRIPTION: "ミッション中に単身で全てのエイリアンを倒すかスタンさせた兵に与えられる"
@@ -968,11 +1055,11 @@ ja:
 
   STR_MEDAL_POSTMORTEM_KILL: "死神章"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "死後も戦場に残った兵士に与えられる"
-  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: ""
+  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: "'辿るべからざる道、戦うべからざる軍、攻むべからざる町、競うべからざる地位、従うべからざる統治がある。'{NEWLINE} - 孫子{NEWLINE}{NEWLINE}これは墓標の数を表し敵を倒す毎に与えられる。10段階まで。"
 
   STR_MEDAL_PSIPANIC: "クルシオ章"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "敵の士気を挫き、パニック状態にした者に与えられる"
-  STR_MEDAL_PSIPANIC_UFOPEDIA: ""
+  STR_MEDAL_PSIPANIC_UFOPEDIA: "'心は持ちよう。それ自体で地獄或いは極楽を生み出す'{NEWLINE} - ジョン・ミルトン{NEWLINE}{NEWLINE}敵をパニックに陥れた兵士全員に与えられる。3回成功する毎に与えられ、？段階あり。"
 
   STR_MEDAL_REACTIONFIRE: "敏腕章"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "素早い反応で敵の反撃を許さず倒した兵に与えられる"
@@ -1000,7 +1087,7 @@ ja:
 
   STR_MEDAL_SLAVEKILLS: "傀儡師章"
   STR_MEDAL_SLAVEKILLS_DESCRIPTION: "エイリアンを同士討ちさせた者に与えられる"
-  STR_MEDAL_SLAVEKILLS_UFOPEDIA: ""
+  STR_MEDAL_SLAVEKILLS_UFOPEDIA: "'責められるべきは罪人であり、罪人は罰せよ - 人は揺るぎない確信を備えた者に常に付き従う' {NEWLINE} - フレデリック・ダグラス{NEWLINE}{NEWLINE}この褒賞は敵を同士討ちさせた兵に対し与えられる。3回成功する毎に与えられ、4段階。"
 
   STR_MEDAL_SNIPER: "狙撃章"
   STR_MEDAL_SNIPER_DESCRIPTION: "長距離狙撃を成功させた兵に与えられる"
@@ -1145,6 +1232,10 @@ ja:
   MAP_PORTTFTD: "港 TFTD"
   MAP_PORTURBAN: "港 改訂版"
   MAP_RAILYARDURBAN: "鉄道"
+  MAP_RAILSTATION_EXPANDED_URBAN_MIX: "都市部の鉄道"
+  MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: "商業地区の鉄道"
+  MAP_RAILSTATION_INDUSTRIALURBAN_MIX: "工業地帯の鉄道"
+  MAP_RAILSTATION_PORTINDUSTRIALURBAN_MIX: "港湾の鉄道"
   MAP_SAVANNADESERT: "サバンナと砂漠"
   MAP_SAVANNADESERTMOUNT: "サバンナ砂漠と山"
   MAP_SAVANNAFOREST: "サバンナと森"
