@@ -36,6 +36,7 @@ Version 0.99.9.6
  - Add Charging behaviour to: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and Zombies
  - Add new Melee hitAnimation graphics for AlloyKnife, AlloySword, PlasmaBlade, PlasmaSword (thx pWWWa)
  - Add new hitAnimation graphics for all alien Plasma Weapons (thx pWWWa)
+ - Add Economy Balance Script for Beginner/Experienced and Veteran/Genius Difficulty
 
 Version 0.99.9.5
  - Fix Game Crash due to Mission invocation

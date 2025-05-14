@@ -2,7 +2,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v7.15 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v8.20 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 

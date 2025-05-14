@@ -3,7 +3,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v7.15 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v8.20 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -18,79 +18,62 @@ README for Version 0.99.9.6
 ##################################################
 
 About this mod:
-My Personal approach on creating a sort of Long War Mod for the Original UFO - Defense.
+My Personal approach on creating a sort of LONG WAR MOD for the ORIGNAL UFO - DEFENSE.
+
 I originally created it as a player torture device *evilgrin*, but it turned out to be a Mod people like to play because of the challenge it offers.
-When designing this Mod, I decided to stick on the core Vanilla Original Game Principles and create basically a Expansion Pack, which
-offers a much better Research Tree, a Economy were you need money desperately, where you will face difficult decisions and set backs during your campaign.
-All this has been enriched with a lot of additional Weapons and Tanks, which all have a unique use case.
-Enemies, which will give a Nightmare during your dreams (at least I hope so, *grin*).
-Its a LONG war to free earth (ingame time: 15-17+ Months). So are you ready for the ride?
+When designing this Mod, I decided to stick on the CORE VANILLA GAME PRINCIPLES and create basically a EXPANSION PACK.
 
-This mod intends to make the gameplay more challenging and deals with most of vanilla versions flaws, like overpowered Psi and early Plasma ownage.
+It offers a much better Research Tree, a Economy were you need money desperately, where you will face difficult decisions and set backs during your campaign.
+Earth itself has been receiving a major update with a updated and more fine tuned globa map with 340+ cities and 12 added additional Bioomes and 65+ new terrains and even more terrain combinations.
+The Alien also gained a few new UFO types, which they use on missions, additionaly all vanilla UFO's received a set of internal configurations, to make fights on UFO missions more tactically challenging.
+Alien Bases play a much bigger role during the campaign and a extended Map set for these has been added.
+All this has been enriched with a lot of additional Weapons, Drones and Tanks for Xcom and Aliens and als New or Advanced Alien Units and Species.
+There are repair and upgrade options for Armors, Drones and Tanks if you desire todo so.
 
-It sticks strongly towards the vanilla core components and builts upon them.
+Enemies and Combat Situations, which will give you a Nightmare during your dreams (at least I hope so, *grin*).
+Its a LONG WAR to free earth (INGAME TIME: 15-17+ Months). So are you ready for the ride?
 
-It is aimed at experienced X-Com players, who know the game well and are not afraid of a difficulty higher then Superhuman.
-The Aliens have more variants and your weapons will slowly become obsolete due to them.
-Research progress is a must, but comes at costs.
+The mod should be PLAYABLE under ALL DIFFICULTY LEVELS, due to the balanced economy.
+For FULL EXPERIENCE pick the preselected SUPERHUMAN DIFFICULTY ;)
 
-For playing you should choose difficulty Superhuman, since the mod is balanced around it.
-The difficulty will be actually far higher then Superhuman, considering mainly the changes in economy and research.
-Technologies will need alive aliens captures to unlock and will trigger additional mission.
-Research takes longer and you do not have access to a alien containment from the beginning.
+This mod is aimed at experienced X-Com players, who know the game well and are not afraid of a DIFFICULTY HIGHER then SUPERHUMAN.
 
-It is recommend to get between 200-250 scientists by November.
-Otherwise the game becomes extremly difficult.
+Some general advice when playing:
 
-The vanilla game always lacked proper weaponry sets including melee weapons, shotguns, sniper rifles.
-All of these have been added for the ballistic and laser weaponry for X-Com and the Alien plasma weapons.
-A extended set of additional grenades and small launcher ammo together with added grenade launcher gives very good indirect fire possibilities.
-Small launcher acts as a artillery style weapon, arking shot ;).
+	- For ALIEN CONTAINMENT and ALIVE INTERROGATIONS raid the Alien Base in your starting region, you need to kill/stun all enemies for success
+	- Unlocking LASER WEAPONS needs ALIVE INTERROGATIONS and ALIEN DATA SLATE (located on Labships)
+	- Unlocking PLASMA WEAPONS and ADVANCED ALIEN EXPLOSIVES needs ALIVE INTERROGATIONS and ALIEN DATA CORE (located on Battleships)
+	- Researching CRAFTS, Advanced HWPs, Advanced Soldier Armors requires ALIVE INTERROGATIONS (Alive Alien: Medics, Navigator, Engineers)
+	- ALIVE INTERROGATIONS will trigger Alien missions
+	- ALIEN BASES on earth will trigger missions on their own (keep their number in check or you will get outpaced!)
+	- It is strongly recommended to get LASERS before MUTONS arrive in June and getting PLASMA WEAPONS will help greatly against MUTON ELITES and other advanced species
+	- It is recommended to Reach the number of at least 100 SCIENTISTS by APRIL and around 250 SCIENTISTS by NOVEMBER of first ingame year
+	- RESEARCH is a huge COST INVESTMENT, plan accordingly with your finances
+	- Get used to manage and maintain at least 2 TO 3 ASSAULT TEAMS, by July (you can get more no problem)
+	- RADAR BASES are needed especially in the BEGINNING (stick with a simple Small Radar, its cheap, or whatever you can efford)
+	- RETALIATORs or optimal for shooting down TERROR SHIP, I recommend using at least 3 with Dual Laser cannons or Avalanche Misseles
+	- Get a SKYSTRIKER ASAP, its just the better Skyranger ;)
+	- Familerise yourself with the ADVANCED MOVEMENT OPTIONS (Running will not trigger mutual surprise, you have been warned!)
+	- Be WARNED about MELEE TERROR UNITS, they will ingore dangers in their way towards your units and they will CHARGE at you!
+	- For unlocking the FINAL MISSION a ETHEREAL COMMANDER is needed
+	- The DIFFICULTY will be actually far HIGHER then SUPERHUMAN, considering the changes in economy and research (even for lower difficulty levels)
+	- PLAY IRONMAN!! (Please enforce your own Ironman, having only one savegame for such a big mod, where bugs may happen is kinda a bad thing ok?)
 
-More armors, starting with ballistic vests up to reinforced power and flying suits expand the survival capabilities of your soldiers.
-Power armor also extends stamina and increases carry capacity.
-
-Have fun exploring the new drones and tanks, which will draw alien fire and help detecting targets to shot or support your wounded troops.
-Drones may even help with capturing alive aliens.
-
-A large number of terrains from Hobbes terrain pack and other mods (65+ additonal terrains) have been integrated and partially overworked (bugfixes mostly).
-A extended set of maps has been added, featering turned version and additonal maps modules to make fighting within alien bases more enjoyable and tactical challenging.
-
-Aliens have a couple of more UFO types, Fighter, Sentry, Excavator and LabShip.
-Vanilla UFOs and new UFOs types all have extended set of interior maps variants (total 124 map). So enjoy exploring these.
-
-Aircombat has been balanced, UFO's especially big ones will shot your interceptors.
-A faster and much more durable interception craft has been added, also a enhanced skyranger version, with a back door.
-Swarming Terrorships with interception craft is highly recommended. The Laser cannon is actually useable now ;)
-
-Being able to interrogate alive aliens requires you to raid a nearby Alien Base early.
-Otherwise you have no tech progress.
-The base is located in your starting region.Raid this base as early as possible!
-
-You will also need these:
-Alien Data Slate (currently located on LabShips)
-Alien Data Core (currently located on Battleships)
-
-The game can only be won by capturing and interrogating a Ethereal Commander who unlocks the final mission.
-
-However your run goes, let me know your feedback and how i can enhance the mod further.
+However your run goes, let me know your FEEDBACK and how i can IMPROVE the MOD further.
 For a detailed list of changes (may contain spoilers) see the Features further down.
 
-For a real challenge play the game in Iron Man Mode!
-Please do no use the OpenXcom Iron Man option and enforce your own Iron Man Mode, its a big mod, so bugs may happen.
+For BUGREPORTS please report in the FORUM:  -> https://openxcom.org/forum/index.php/topic,4968.0.html
+(savegame and screenshots for debugging are greatly appreciated):
 
-I hope you will enjoy this collection of 60+ Mods (i stopped counting)
-and please report any possible Bug you might find on the forum: -> https://openxcom.org/forum/index.php/topic,4968.0.html
+For FEEDBACK please leave a post here in the FORUM: -> https://openxcom.org/forum/index.php?topic=3550.0
 
-Feedback of any form is also appreciated here: -> https://openxcom.org/forum/index.php?topic=3550.0
+COMPATBILITY with OTHER MODS:
+	- This mod is intended to be a STANDALONE MOD.
+	- Mods which only add new Items and New Crafts may not pose a problem.
+	- UFO Extender Accuracy (Full support)
+	- High Quality Sounds (https://mod.io/g/openxcom/m/hqsounds-by-daedalus) from Daedalus (STRONGLY RECOMMENDED!)
 
-Compability to other mods:
-	This mod is intended to be a Standalone Mod.
-	Mods which only add new Items and New Crafts may not pose a problem.
-	UFO Extender Accuracy (Full support)
-	High Quality Sounds (https://mod.io/g/openxcom/m/hqsounds-by-daedalus) from Daedalus
-
-Not compatible:
+NOT compatible:
 	Commendations Mod (already integrated)
 	PSX Static Cydonia Map
 	XcomUtil Improved Base Layout
@@ -102,10 +85,8 @@ Not compatible:
 		itemLevels
 		alienMissions
 
-The list of included Mods is pretty big (60+) see Features.
-Mostly Graphics, New Units, Terrains and Weapons.
+RECOMMENDED ADVANCED OPTIONS: (Enabled automatically when loading the mod for the first time)
 
-Recommended Advanced Options: (Enabled automatically when loading the mod for the first time)
 	Forced Craft launch (probably needed since your craft will get shot a lot)
 	Limit Storage Items (Using Autoseller Helps a lot, just be aware to not sell of stuff you wanna research!)
 	Sell Alive Alien (More cash for alive ones, helkps managing the Alien Containment)
@@ -122,11 +103,11 @@ Recommended Advanced Options: (Enabled automatically when loading the mod for th
 	Psi Training anytime
 	More Stats on Inventory Screens
 
-Creditlist:
-see CREDIT.TXT (https://openxcom.org/forum/index.php/topic,4965.0.html)
-also see TERRAIN_PACK_AUTHORS.md for all Terrain Pack Credits (also added in CREDITS.TXT)
+CREDITLIST:
+	- CREDIT.TXT or the FORUM: ->(https://openxcom.org/forum/index.php/topic,4965.0.html)
+	- TERRAIN_PACK_AUTHORS.md for all Terrain Pack Credits (also added in CREDITS.TXT)
 
-Features:
+FEATURES:
 
 Quality of Live OXCE UI changes:
 	DayNightIndicator (Geoscape UI)
@@ -192,7 +173,10 @@ General Gameplay changes:
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%
-	All Alien Items and Alive Aliens give less money when sold (50% on Superhuman Difficulty)
+	All Alien Items and Alive Aliens give less money when sold:
+		- 50% Vanilla on Superhuman difficulty
+		- 64% Vanilla on Veteran/Genius difficulty
+		- 89% Vanilla on Beginner/Experienced difficulty
 	Base Maintence Cost increased to 10% of base modules price
 	X-Com Wages and Hire Cost are 1.5 times Vanilla
 	X-Com Soldiers receive 10% more salary per rank compared to rookie wage:
@@ -231,7 +215,7 @@ Groundcombat changes:
 	Celatids in the Final Mission follow expotential growth pattern
 	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successfull Zombification, this makes Armor really important!
 	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
-	Enemy Terror Units will Charge enemies, Units with Cahrge behaviour are: Silacoids, Reapers, Chryssalids Muton Berserkers, Cybermites and all Zombies
+	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
