@@ -2378,7 +2378,6 @@ alienDeployments:
       music: GMENBASE
     markerName: STR_TERROR_SITE
     duration: [4, 10]
-    popupDelay: [1, 1]
     despawnPenalty: 2000
     allowObjectiveRecovery: false
     objectiveType: 3
