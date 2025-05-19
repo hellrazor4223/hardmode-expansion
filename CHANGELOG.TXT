@@ -8,6 +8,7 @@ Version 0.99.9.7
  - Fix Game crashing Bug for Muton Elite Guard Navigators
  - Add Dustoff = Fuckoff
  - Update constants listing format
+ - Update AI value listing format
 
 Version 0.99.9.6
  - Fix Mod not loading on OXCE 8.0.0. (rapidyml)
