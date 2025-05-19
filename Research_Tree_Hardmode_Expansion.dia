@@ -951,7 +951,7 @@
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#Research Tree for 
-Hardmode Expansion Mod 0.99.9.6
+Hardmode Expansion Mod 0.99.9.7
  by hellrazor#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
@@ -6243,13 +6243,13 @@ Launcher#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O161">
       <dia:attribute name="obj_pos">
-        <dia:point val="55.0883,-9"/>
+        <dia:point val="55.087,-9"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="55.0383,-9.3618;57.0619,-8.6382"/>
+        <dia:rectangle val="55.037,-9.3618;57.0619,-8.6382"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="55.0883,-9"/>
+        <dia:point val="55.087,-9"/>
         <dia:point val="56.9501,-9"/>
       </dia:attribute>
       <dia:attribute name="numcp">

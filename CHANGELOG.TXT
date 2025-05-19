@@ -1,5 +1,7 @@
 Changelog:
 
+Version 0.99.9.7
+
 Version 0.99.9.6
  - Fix Mod not loading on OXCE 8.0.0. (rapidyml)
  - Fix Wrong Inventorysprites for Alloy Tanks

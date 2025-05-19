@@ -1,6 +1,6 @@
 ko:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.6 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.7 by hellrazor"
   STR_GROUND: "지면 {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "브리핑 및 뉴스"
   STR_HEAVY_WEAPONS_PLATFORMS: "기지 시설"
