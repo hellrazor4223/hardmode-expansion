@@ -7,6 +7,7 @@ Version 0.99.9.7
  - Fix UFO flight/landed scorering settings
  - Fix Game crashing Bug for Muton Elite Guard Navigators
  - Add Dustoff = Fuckoff
+ - Update constants listing format
 
 Version 0.99.9.6
  - Fix Mod not loading on OXCE 8.0.0. (rapidyml)
