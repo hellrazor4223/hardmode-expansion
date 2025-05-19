@@ -4242,12 +4242,18 @@ items:
     liveAlien: true
     costSell: 30000
     listOrder: 12501
-  - type: STR_MUTON_ELITE_GUARD_LEADER
+  - type: STR_MUTON_ELITE_GUARD_NAVIGATOR
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 12502
+  - type: STR_MUTON_ELITE_GUARD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 12503
 #END MUTON ELITE GUARD ITEM
 
 #BEGIN SILACOID ITEM
