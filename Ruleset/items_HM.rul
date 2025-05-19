@@ -1839,7 +1839,6 @@ items:
       - STR_RIFLE_CLIP
       - STR_RIFLE_AA_CLIP
     armor: 20
-    dropoff: 4
     snapRange: 18
     autoRange: 10
     dropoff: 4
@@ -2859,7 +2858,7 @@ items:
     floorSprite: 204
     handSprite: 632
     bulletSprite: 25
-    hitsound: 19
+    hitSound: 19
     hitAnimation: 180
     hitAnimFrames: 10
     power: 72
@@ -3861,7 +3860,6 @@ items:
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
-    clipSize: -1
     recover: false
     autoShots: 5
     listOrder: 11403

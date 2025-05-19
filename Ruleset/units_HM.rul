@@ -1318,7 +1318,7 @@ units:
   - type: STR_CHRYSSALID_TERRORIST
     stats:
       psiStrength: 75
-      aggression: 3
+    aggression: 3
     value: 13
     aggroSound: 49
     isLeeroyJenkins: true
