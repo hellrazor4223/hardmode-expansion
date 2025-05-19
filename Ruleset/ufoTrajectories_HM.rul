@@ -11,6 +11,13 @@ ufoTrajectories:
       - [0, 1, 20]
       - [0, 2, 30]
       - [0, 3, 60]
+      - [0, 3, 60]
+      - [0, 2, 30]
+      - [3, 1, 20]  # first number (3) is the mission site spawn zone
+      - [0, 0, 10]  # second number must be 0 (=UFO lands)
+      - [0, 1, 20]
+      - [0, 2, 30]
+      - [0, 3, 60]
       - [5, 4, 100] # changed second number from 0 to 4 so that the UFO doesn't land again
   - id: P10 #Alien Infiltrations should only target real Cities defined in missionZone: 6 (missionZone: 3 has Water Missionsite Points for Ship Attacks)
     groundTimer: 9000
