@@ -5,7 +5,7 @@ ufos:
 #BEGIN SMALL SCOUT
   - type: STR_SMALL_SCOUT
     score: 50
-    missionScore: 2
+    missionScore: 1
 #END SMALL SCOUT
 
 #BEGIN MEDIUM SCOUT
@@ -66,7 +66,7 @@ ufos:
     score: 125
     reload: 36
     breakOffTime: 300
-    missionScore: 4
+    missionScore: 2
     battlescapeTerrainData:
       name: UFO_120
       mapDataSets:
@@ -170,7 +170,7 @@ ufos:
     score: 250
     reload: 24
     breakOffTime: 500
-    missionScore: 6
+    missionScore: 3
     battlescapeTerrainData:
       name: UFO_130
       mapDataSets:
@@ -267,7 +267,7 @@ ufos:
     score: 250
     reload: 24
     breakOffTime: 500
-    missionScore: 6
+    missionScore: 3
     battlescapeTerrainData:
       name: UFO_140
       mapDataSets:
@@ -321,7 +321,7 @@ ufos:
     score: 500
     reload: 24
     breakOffTime: 2000
-    missionScore: 10
+    missionScore: 4
     battlescapeTerrainData:
       name: UFO_150
       mapDataSets:
@@ -369,7 +369,7 @@ ufos:
     score: 700
     reload: 24
     breakOffTime: 4000
-    missionScore: 12
+    missionScore: 6
     battlescapeTerrainData:
       name: UFO_160
       mapDataSets:
@@ -470,7 +470,7 @@ ufos:
     score: 400
     reload: 24
     breakOffTime: 3000
-    missionScore: 6
+    missionScore: 4
     battlescapeTerrainData:
       name: UFO_170
       mapDataSets:
@@ -557,7 +557,7 @@ ufos:
     score: 125
     reload: 24
     breakOffTime: 350
-    missionScore: 4
+    missionScore: 2
     battlescapeTerrainData:
       name: UFO_190
       mapDataSets:
@@ -622,7 +622,7 @@ ufos:
     score: 125
     reload: 24
     breakOffTime: 400
-    missionScore: 4
+    missionScore: 2
     battlescapeTerrainData:
       name: UFO_200
       mapDataSets:
@@ -678,7 +678,7 @@ ufos:
     score: 500
     reload: 24
     breakOffTime: 3000
-    missionScore: 10
+    missionScore: 6
     battlescapeTerrainData:
       name: UFO_210
       mapDataSets:

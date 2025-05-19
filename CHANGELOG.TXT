@@ -3,6 +3,8 @@ Changelog:
 Version 0.99.9.7
  - Fix Wrong Unknown Var definition in alienDeployments
  - Fix early GameStart AlienBaseMission and recurringTerror
+ - Fix some Ruleset Typos and Indentation Errors
+ - Fix UFO flight/landed scorering settings
 
 Version 0.99.9.6
  - Fix Mod not loading on OXCE 8.0.0. (rapidyml)
