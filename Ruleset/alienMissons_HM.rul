@@ -106,6 +106,10 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 6000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 6000
       - ufo: STR_EXCAVATOR
         count: 1
         trajectory: P5

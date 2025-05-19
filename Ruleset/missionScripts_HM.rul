@@ -47,7 +47,6 @@ missionScripts:
     raceWeights:
       0:
         STR_FLOATER: 100
-    startDelay: 120
 #END FLOATER START BASE
 
 #BEGIN MONTHLY STUFF
@@ -56,7 +55,6 @@ missionScripts:
       0:
         STR_ALIEN_TERROR: 100
     useTable: false
-    startDelay: 150
   - type: recon
     firstMonth: 1
   - type: invasion
@@ -72,7 +70,6 @@ missionScripts:
     raceWeights:
       0:
         STR_ETHEREAL: 100
-    startDelay: 120
     researchTriggers:
       STR_THE_MARTIAN_SOLUTION: true
       STR_ETHEREAL_COMMANDER: false
@@ -89,7 +86,6 @@ missionScripts:
         STR_ALIEN_RETALIATION: 100
     researchTriggers:
       STR_THE_MARTIAN_SOLUTION: true
-    startDelay: 150
     targetBaseOdds: 100
     useTable: false
 #END RESEARCH RETALIATION
@@ -103,7 +99,6 @@ missionScripts:
     firstMonth: 14
     targetBaseOdds: 100
     useTable: false
-    startDelay: 150
   - type: experiencedRetaliation
     minDifficulty: 1
     missionWeights:
@@ -112,7 +107,6 @@ missionScripts:
     firstMonth: 13
     targetBaseOdds: 100
     useTable: false
-    startDelay: 150
   - type: veteranRetaliation
     minDifficulty: 2
     missionWeights:
@@ -121,7 +115,6 @@ missionScripts:
     firstMonth: 12
     targetBaseOdds: 100
     useTable: false
-    startDelay: 150
   - type: geniusRetaliation
     minDifficulty: 3
     missionWeights:
@@ -130,7 +123,6 @@ missionScripts:
     firstMonth: 11
     targetBaseOdds: 100
     useTable: false
-    startDelay: 150
   - type: superhumanRetaliation
     minDifficulty: 4
     missionWeights:
@@ -139,7 +131,6 @@ missionScripts:
     firstMonth: 10
     targetBaseOdds: 100
     useTable: false
-    startDelay: 150
 #END DIFFICULTY BASED
 
 #BEGIN SNAKEMAN GREETING
@@ -154,7 +145,6 @@ missionScripts:
       0:
         STR_SNAKEMAN: 100
     useTable: false
-    startDelay: 150
 #END SNAKEMAN GREETING
 
 #BEGIN MUTON GREETING
@@ -169,7 +159,6 @@ missionScripts:
       0:
         STR_MUTON: 100
     useTable: false
-    startDelay: 150
 #END MUTON GREETING
 ##END RETALIATION
 
