@@ -460,6 +460,10 @@ items:
     tags:
       SELL_PRICE_BE: 53580
       SELL_PRICE_VG: 38460
+  - type: STR_MUTON_ELITE_GUARD_NAVIGATOR
+    tags:
+      SELL_PRICE_BE: 53580
+      SELL_PRICE_VG: 38460
   - type: STR_MUTON_ELITE_GUARD_LEADER
     tags:
       SELL_PRICE_BE: 53580

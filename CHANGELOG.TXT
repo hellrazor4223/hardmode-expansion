@@ -6,6 +6,7 @@ Version 0.99.9.7
  - Fix some Ruleset Typos and Indentation Errors
  - Fix UFO flight/landed scorering settings
  - Fix Game crashing Bug for Muton Elite Guard Navigators
+ - Fix missing Sellscript entry for Muton elite Guard Navigators
  - Add Dustoff = Fuckoff
  - Update constants listing format
  - Update AI value listing format
