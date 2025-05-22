@@ -1,5 +1,8 @@
 Changelog:
 
+Version 0.99.9.8
+ - Fix Wrong asigned BigOb for Alloy/DroneMedikit
+
 Version 0.99.9.7
  - Fix Wrong Unknown Var definition in alienDeployments
  - Fix early GameStart AlienBaseMission and recurringTerror

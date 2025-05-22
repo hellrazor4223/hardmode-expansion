@@ -128,7 +128,7 @@ items:
     size: 2
     costSell: 140000
     weight: 40
-    bigSprite: 24
+    bigSprite: 116
     battleType: 6
     tuUse: 10
     invWidth: 1
@@ -321,7 +321,7 @@ items:
     size: 2
     costSell: 200000
     weight: 40
-    bigSprite: 24
+    bigSprite: 116
     battleType: 6
     tuUse: 10
     invWidth: 1
