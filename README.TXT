@@ -11,7 +11,7 @@ Wiki Links:
 https://hardmode-expansion.trigramreactor.net/master
 https://www.ufopaedia.org/index.php?title=Hardmode_Expansion
 
-README for Version 0.99.9.7
+README for Version 0.99.9.8
 ##################################################
 # This Mod is aimed at experienced X-Com Players #
 #             Who like a challenge :)            #
