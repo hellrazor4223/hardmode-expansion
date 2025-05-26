@@ -981,7 +981,7 @@ units:
       firing: 58
       throwing: 64
       strength: 36
-      psiStrength: 80
+      psiStrength: 140
       psiSkill: 0
       melee: 50
     armor: SECTOID_ELITE_ARMOR0
@@ -1048,8 +1048,8 @@ units:
       firing: 62
       throwing: 68
       strength: 40
-      psiStrength: 80
-      psiSkill: 30
+      psiStrength: 150
+      psiSkill: 16
       melee: 50
     armor: SECTOID_ELITE_ARMOR2
     standHeight: 16
@@ -1073,8 +1073,8 @@ units:
       firing: 63
       throwing: 68
       strength: 40
-      psiStrength: 80
-      psiSkill: 35
+      psiStrength: 156
+      psiSkill: 18
       melee: 50
     armor: SECTOID_ELITE_ARMOR2
     standHeight: 16
@@ -1100,7 +1100,7 @@ units:
       firing: 66
       throwing: 62
       strength: 75
-      psiStrength: 130
+      psiStrength: 150
       psiSkill: 0
       melee: 70
     armor: MUTON_ELITE_ARMOR0
@@ -1156,7 +1156,7 @@ units:
       firing: 70
       throwing: 66
       strength: 75
-      psiStrength: 140
+      psiStrength: 150
       psiSkill: 0
       melee: 70
     armor: MUTON_ELITE_ARMOR2
@@ -1300,7 +1300,7 @@ units:
   - type: STR_REAPER_TERRORIST
     stats:
       bravery: 100
-      psiStrength: 42
+      psiStrength: 120
     value: 10
     isLeeroyJenkins: true
 #END REAPER UNIT
@@ -1320,7 +1320,7 @@ units:
 #BEGIN CHRYSSALID UNIT
   - type: STR_CHRYSSALID_TERRORIST
     stats:
-      psiStrength: 75
+      psiStrength: 130
     aggression: 3
     value: 13
     aggroSound: 49
@@ -1426,7 +1426,7 @@ units:
       firing: 0
       throwing: 0
       strength: 121
-      psiStrength: 150
+      psiStrength: 160
       psiSkill: 0
       melee: 87
     armor: MUTON_BERSERKER_ARMOR
@@ -1587,6 +1587,8 @@ units:
 
 #BEGIN ZOMBIE UNIT
   - type: STR_ZOMBIE
+    stats:
+      psiStrength: 120
     isLeeroyJenkins: true
 #END ZOMBIE UNIT
 
