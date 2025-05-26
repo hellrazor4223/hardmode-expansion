@@ -325,7 +325,7 @@ units:
     stats: &TANK_STATS
       tu: 70
       stamina: 100
-      health: 90
+      health: 120
       bravery: 110
       reactions: 20
       firing: 60
@@ -384,7 +384,7 @@ units:
     stats: &ALLOY_TANK_STATS
       tu: 80
       stamina: 100
-      health: 90
+      health: 120
       bravery: 110
       reactions: 30
       firing: 70
@@ -443,7 +443,7 @@ units:
     stats: &HOVERTANK_STATS
       tu: 100
       stamina: 100
-      health: 90
+      health: 120
       bravery: 110
       reactions: 40
       firing: 70
@@ -453,9 +453,9 @@ units:
       psiSkill: 0
       melee: 70
     armor: HOVERTANK_LASER_ARMOR
-    standHeight: 12
-    kneelHeight: 12
-    floatHeight: 6
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 30
     deathSound: 23
     moveSound: 40
@@ -470,9 +470,9 @@ units:
     race: STR_HOVERTANK_EBOMB
     stats: *HOVERTANK_STATS
     armor: HOVERTANK_EBOMB_ARMOR
-    standHeight: 12
-    kneelHeight: 12
-    floatHeight: 6
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 30
     deathSound: 23
     moveSound: 40
@@ -487,9 +487,9 @@ units:
     race: STR_HOVERTANK_PLASMA
     stats: *HOVERTANK_STATS
     armor: HOVERTANK_PLASMA_ARMOR
-    standHeight: 12
-    kneelHeight: 12
-    floatHeight: 6
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 30
     deathSound: 23
     moveSound: 40
@@ -504,9 +504,9 @@ units:
     race: STR_HOVERTANK_LAUNCHER
     stats: *HOVERTANK_STATS
     armor: HOVERTANK_LAUNCHER_ARMOR
-    standHeight: 12
-    kneelHeight: 12
-    floatHeight: 6
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 30
     deathSound: 23
     moveSound: 40
