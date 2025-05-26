@@ -1309,7 +1309,10 @@ units:
   - type: STR_CYBERDISC_TERRORIST
     liveAlien: "STR_CYBERDISC_TERRORIST"
     stats:
-      psiStrength: 150
+      psiStrength: 140
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 13
     capturable: true
 #END CYBERDISC UNIT
@@ -1329,8 +1332,9 @@ units:
     liveAlien: "STR_SECTOPOD_TERRORIST"
     stats:
       tu: 69
+      health: 120
       firing: 80
-      psiStrength: 150
+      psiStrength: 160
     value: 15
     capturable: true
 #END SECTOPOD UNIT
@@ -1481,9 +1485,9 @@ units:
       psiSkill: 0
       melee: 60
     armor: HOLODRONE_ARMOR
-    standHeight: 6
-    kneelHeight: 6
-    floatHeight: 11
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 15
     deathSound: 23
     moveSound: 104
@@ -1509,9 +1513,9 @@ units:
       psiSkill: 0
       melee: 0
     armor: ARMORED_CYBERDISC_ARMOR
-    standHeight: 15
-    kneelHeight: 15
-    floatHeight: 2
+    standHeight: 8
+    kneelHeight: 8
+    floatHeight: 8
     value: 16
     deathSound: 23
     moveSound: 40

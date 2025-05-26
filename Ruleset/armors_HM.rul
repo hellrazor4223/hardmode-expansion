@@ -1329,6 +1329,17 @@ armors:
 #BEGIN SECTOPOD ARMOR
   - type: SECTOPOD_ARMOR
     spriteInv: sectopodInventoryImage
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.5
+      - 0.75
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
 #END SECTOPOD ARMOR
 
 #BEGIN HOLODRONE ARMOR
@@ -1382,7 +1393,7 @@ armors:
       - 0.6
       - 0.7
       - 0.8
-      - 0.8
+      - 0.75
       - 0.9
       - 0.9
       - 1.0
