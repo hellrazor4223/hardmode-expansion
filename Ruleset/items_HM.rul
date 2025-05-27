@@ -38,6 +38,7 @@ items:
     clipSize: 3
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
@@ -229,6 +230,7 @@ items:
     clipSize: 3
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
@@ -472,6 +474,7 @@ items:
     clipSize: 4
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
@@ -662,6 +665,7 @@ items:
     clipSize: 3
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
@@ -841,6 +845,7 @@ items:
     clipSize: 3
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
@@ -1075,6 +1080,7 @@ items:
     clipSize: 4
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
@@ -1361,6 +1367,7 @@ items:
     clipSize: 6
     recover: false
     fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
     arcingShot: true
     invWidth: 2
     invHeight: 3
