@@ -308,6 +308,7 @@ Additional X-Com Tanks:
 Hovertank Launcher Ammo does 200 damage instead of 140
 
 Drones and Tanks can be upgraded, repaired and refitted.
+Drone Medical equipment is twice as effective as when being used by soldier, also has double the charges.
 Tanks and Drones do have a weak Smoke Launcher for instant LOS block with limited range and limited shots.
 
 Additional X-Com Armor:

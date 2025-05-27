@@ -138,9 +138,9 @@ items:
     heal: 12
     stimulant: 12
     woundRecovery: 1
-    healthRecovery: 3
-    stunRecovery: 4
-    energyRecovery: 10
+    healthRecovery: 6
+    stunRecovery: 8
+    energyRecovery: 20
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
@@ -332,9 +332,9 @@ items:
     heal: 12
     stimulant: 12
     woundRecovery: 1
-    healthRecovery: 3
-    stunRecovery: 4
-    energyRecovery: 10
+    healthRecovery: 6
+    stunRecovery: 8
+    energyRecovery: 20
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
@@ -375,9 +375,9 @@ items:
     heal: 18
     stimulant: 18
     woundRecovery: 1
-    healthRecovery: 6
-    stunRecovery: 6
-    energyRecovery: 15
+    healthRecovery: 12
+    stunRecovery: 16
+    energyRecovery: 30
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
@@ -576,9 +576,9 @@ items:
     heal: 18
     stimulant: 18
     woundRecovery: 1
-    healthRecovery: 6
-    stunRecovery: 6
-    energyRecovery: 15
+    healthRecovery: 12
+    stunRecovery: 16
+    energyRecovery: 30
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
