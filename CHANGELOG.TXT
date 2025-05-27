@@ -4,6 +4,7 @@ Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit
  - Fix Smokelauncher righthandedness for Drones/Tanks
  - Fix POLAR Maps no connection to UFO
+ - Fix Docked Ship mission stairs to be indestructable
  - Adjust Tank to behave like Tanks (they now can take some abuse for 2-3 turns)
  - Adjust Terrorunits in regard of floatheight and damage resistance
  - Adjust PSI Defense for some Terrorunits and some other enemies
