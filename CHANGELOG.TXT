@@ -9,6 +9,7 @@ Version 0.99.9.8
  - Adjust Terrorunits in regard of floatheight and damage resistance
  - Adjust PSI Defense for some Terrorunits and some other enemies
  - Adjust Drone Medikits are twice effective then normal ones (e.g.: max 12HP per fatal wound can be restored)
+ - Adjust HWP Rocket Clipsize and Damage slightly (for Tank/Rocket Launcher and Alloytank/Rocketlauncher)
 
 Version 0.99.9.7
  - Fix Wrong Unknown Var definition in alienDeployments

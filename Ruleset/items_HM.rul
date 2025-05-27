@@ -777,6 +777,10 @@ items:
     recover: false
     armor: 60
     listOrder: 9102
+  - type: STR_HWP_ROCKETS
+    size: 0.4
+    power: 100
+    clipSize: 12
 #END TANK ROCKET LAUNCHER ITEM
 
 #BEGIN TANK LASER CANNON ITEM

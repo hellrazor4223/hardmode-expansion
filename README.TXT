@@ -305,6 +305,7 @@ Additional X-Com Tanks:
 	Walkertank Laser
 	Walkertank Plasma
 
+HWP Rockets for Tank/Rocket Launcher and Alloytank/Rocket Launcher do 100 damage and have clipsize 12
 Hovertank Launcher Ammo does 200 damage instead of 140
 
 Drones and Tanks can be upgraded, repaired and refitted.
