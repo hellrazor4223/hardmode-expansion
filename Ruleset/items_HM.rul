@@ -23,6 +23,43 @@ items:
 ##END CRAFTWEAPONS ITEMS
 
 ##BEGIN XCOM DRONE ITEMS
+#BEGIN DRONE FLARE
+  - type: STR_DRONE_FLARE
+    name: STR_ELECTRO_FLARE
+    weight: 3
+    bigSprite: 55
+    floorSprite: 72
+    power: 15
+    battleType: 10
+    armor: 8
+    recover: false
+    listOrder: 1059
+#END DRONE FLARE
+
+#BEGIN DRONE FLARE WEAPON ITEM
+  - type: STR_DRONE_FLARE_WEAPON
+    weight: 5
+    bigSprite: 55
+    bulletSprite: 4
+    hitAnimation: 26
+    damageType: 1
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 33
+    battleType: 1
+    clipSize: 4
+    recover: false
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 14
+    spawnItem: STR_DRONE_FLARE
+    spawnItemChance: 100
+    listOrder: 1060
+#END DRONE FLARE WEAPON ITEM
+
 #BEGIN DRONE SMOKE WEAPON ITEM
   - type: STR_DRONE_SMOKE_WEAPON
     weight: 5
@@ -44,7 +81,7 @@ items:
     invHeight: 3
     maxRange: 3
     isFireExtinguisher: true
-    listOrder: 1070
+    listOrder: 1061
 #END DRONE SMOKE WEAPON ITEM
 
 #BEGIN DRONE SCOUT ITEM
@@ -73,7 +110,7 @@ items:
     invHeight: 3
     maxRange: 3
     isFireExtinguisher: true
-    listOrder: 1071
+    listOrder: 1062
   - type: STR_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
@@ -103,7 +140,7 @@ items:
     invWidth: 2
     invHeight: 3
     fixedWeapon: true
-    listOrder: 1072
+    listOrder: 1063
   - type: STR_DRONE_SCANNER_CORPSE
     requires:
       - STR_SUPPORT_DRONES
@@ -144,7 +181,7 @@ items:
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
-    listOrder: 1074
+    listOrder: 1064
   - type: STR_DRONE_MEDIKIT_CORPSE
     requires:
       - STR_SUPPORT_DRONES
@@ -185,7 +222,7 @@ items:
     maxRange: 12
     autoRange: 8
     dropoff: 6
-    listOrder: 1076
+    listOrder: 1065
   - type: STR_DRONE_TASER_CORPSE
     size: 2
     weight: 40
@@ -212,8 +249,32 @@ items:
     battleType: 2
     blastRadius: 0
     clipSize: 12
-    listOrder: 1077
+    listOrder: 1066
 #END DRONE TASER ITEM
+
+#BEGIN ALLOY DRONE FLARE WEAPON ITEM
+  - type: STR_ALLOY_DRONE_FLARE_WEAPON
+    weight: 5
+    bigSprite: 55
+    bulletSprite: 4
+    hitAnimation: 26
+    damageType: 1
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 33
+    battleType: 1
+    clipSize: 5
+    recover: false
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 16
+    spawnItem: STR_DRONE_FLARE
+    spawnItemChance: 100
+    listOrder: 1069
+#END ALLOY DRONE FLARE WEAPON ITEM
 
 #BEGIN ALLOY DRONE SMOKE WEAPON ITEM
   - type: STR_ALLOY_DRONE_SMOKE_WEAPON
@@ -236,7 +297,7 @@ items:
     invHeight: 3
     maxRange: 4
     isFireExtinguisher: true
-    listOrder: 1078
+    listOrder: 1070
 #END ALLOY DRONE SMOKE WEAPON ITEM
 
 #BEGIN ALLOY DRONE SCOUT ITEM
@@ -264,7 +325,7 @@ items:
     invHeight: 3
     maxRange: 4
     isFireExtinguisher: true
-    listOrder: 1079
+    listOrder: 1071
   - type: STR_ALLOY_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
@@ -295,7 +356,7 @@ items:
     invWidth: 2
     invHeight: 3
     fixedWeapon: true
-    listOrder: 1080
+    listOrder: 1072
   - type: STR_ALLOY_DRONE_SCANNER_CORPSE
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -338,7 +399,7 @@ items:
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
-    listOrder: 1081
+    listOrder: 1073
   - type: STR_ALLOY_DRONE_MEDIKIT_CORPSE
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -381,7 +442,7 @@ items:
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
-    listOrder: 1082
+    listOrder: 1074
   - type: STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -424,7 +485,7 @@ items:
     maxRange: 14
     autoRange: 10
     dropoff: 2
-    listOrder: 1083
+    listOrder: 1075
   - type: STR_ALLOY_DRONE_TASER_CORPSE
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -456,8 +517,32 @@ items:
     battleType: 2
     blastRadius: 0
     clipSize: 24
-    listOrder: 1085
+    listOrder: 1076
 #END ALLOY DRONE TASER ITEM
+
+#BEGIN HOVERDRONE FLARE WEAPON ITEM
+  - type: STR_HOVERDRONE_FLARE_WEAPON
+    weight: 5
+    bigSprite: 55
+    bulletSprite: 4
+    hitAnimation: 26
+    damageType: 1
+    fireSound: 113
+    accuracySnap: 100
+    tuSnap: 33
+    battleType: 1
+    clipSize: 6
+    recover: false
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 18
+    spawnItem: STR_DRONE_FLARE
+    spawnItemChance: 100
+    listOrder: 1079
+#END HOVERDRONE FLARE WEAPON ITEM
 
 #BEGIN HOVERDRONE SMOKE WEAPON ITEM
   - type: STR_HOVERDRONE_SMOKE_WEAPON
@@ -480,7 +565,7 @@ items:
     invHeight: 3
     maxRange: 5
     isFireExtinguisher: true
-    listOrder: 1086
+    listOrder: 1080
 #END HOVERDRONE SMOKE WEAPON ITEM
 
 #BEGIN HOVERDRONE SCOUT ITEM
@@ -508,7 +593,7 @@ items:
     invHeight: 3
     maxRange: 5
     isFireExtinguisher: true
-    listOrder: 1087
+    listOrder: 1081
   - type: STR_HOVERDRONE_SCOUT_CORPSE
     size: 2
     weight: 50
@@ -539,7 +624,7 @@ items:
     invWidth: 2
     invHeight: 3
     fixedWeapon: true
-    listOrder: 1088
+    listOrder: 1082
   - type: STR_HOVERDRONE_SCANNER_CORPSE
     requires:
       - STR_HOVERDRONE_ARMOR
@@ -582,7 +667,7 @@ items:
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
-    listOrder: 1089
+    listOrder: 1083
   - type: STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE
     requires:
       - STR_HOVERDRONE_ARMOR
@@ -630,7 +715,7 @@ items:
     maxRange: 16
     autoRange: 12
     dropoff: 2
-    listOrder: 1090
+    listOrder: 1084
   - type: STR_HOVERDRONE_TASER_CORPSE
     requires:
       - STR_HOVERDRONE_ARMOR
@@ -843,7 +928,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 115
-    accuracySnap: 154
+    accuracySnap: 143
     tuSnap: 33
     battleType: 1
     clipSize: 3
@@ -1114,9 +1199,9 @@ items:
     accuracySnap: 75
     accuracyAimed: 90
     autoShots: 4
-    tuAuto: 45
-    tuSnap: 30
-    tuAimed: 60
+    tuAuto: 50
+    tuSnap: 33
+    tuAimed: 66
     clipSize: -1
     fixedWeapon: true
     invWidth: 2
@@ -1263,7 +1348,7 @@ items:
     accuracyAuto: 70
     accuracySnap: 85
     accuracyAimed: 100
-    tuAuto: 45
+    tuAuto: 35
     tuSnap: 30
     tuAimed: 60
     autoShots: 4
