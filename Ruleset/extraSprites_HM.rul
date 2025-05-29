@@ -2420,7 +2420,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Units/Xcom/Drones/UfoPaedia_SupportDrones.png
+      0: Resources/Research/UfoPaedia_SupportDrones.png
 #END SUPPORT DRONES
 
 #BEGIN ALLOY AMMO
