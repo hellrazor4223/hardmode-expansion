@@ -858,13 +858,13 @@ ufopaedia:
     image_id: ALLOYTANK_CANNON.SPK
     weapon: STR_CANNON
     text: STR_ALLOY_TANK_CANNON_UFOPEDIA
-    listOrder: 3202
+    listOrder: 3203
   - id: ALLOY_TANK_CANNON_ARMOR
     type_id: 5
     section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_ALLOY_TANK_ARMOR
-    listOrder: 3203
+    listOrder: 3204
 #END ALLOY TANK CANNON UFOPAEDIA
 
 #BEGIN ALLOY TANK ROCKET UFOPAEDIA
@@ -876,13 +876,13 @@ ufopaedia:
     image_id: ALLOYTANK_ROCKET_LAUNCHER.SPK
     weapon: STR_ROCKET_LAUNCHER
     text: STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA
-    listOrder: 3204
+    listOrder: 3205
   - id: ALLOY_TANK_ROCKET_LAUNCHER_ARMOR
     type_id: 5
     section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_ALLOY_TANK_ARMOR
-    listOrder: 3205
+    listOrder: 3206
 #END ALLOY TANK ROCKET UFOPAEDIA
 
 #BEGIN ALLOY TANK LASER UFOPAEDIA
@@ -895,14 +895,14 @@ ufopaedia:
     image_id: ALLOYTANK_LASER.SPK
     weapon: STR_LASER_CANNON
     text: STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA
-    listOrder: 3206
+    listOrder: 3207
   - id: ALLOY_TANK_LASER_CANNON_ARMOR
     type_id: 5
     section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_LASER_CANNON
       - STR_ALLOY_TANK_ARMOR
-    listOrder: 3207
+    listOrder: 3208
 #END ALLOY TANK LASER UFOPAEDIA
 
 #BEGIN HOVERTANK SMOKE WEAPON

@@ -7,6 +7,7 @@ Version 0.99.9.8
  - Fix Docked Ship mission stairs to be destructable
  - Fix PORT maps pier be destructable
  - Fix minor error with Alien Proxie Grenade BigOb
+ - Fix minor error with Alloy Tank ufopaedia article order
  - Adjust Tank to behave like Tanks (they now can take some abuse for 2-3 turns)
  - Adjust Terrorunits in regard of floatheight and damage resistance
  - Adjust PSI Defense for some Terrorunits and some other enemies
