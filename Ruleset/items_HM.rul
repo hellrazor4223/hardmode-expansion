@@ -1982,7 +1982,6 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    listOrder: 2202
     armor: 20
     maxRange: 20
     aimRange: 15
@@ -1990,6 +1989,9 @@ items:
     dropoff: 12
     shotgunBehavior: 1
     shotgunChoke: 60
+    powerRangeThreshold: 20
+    powerRangeReduction: 50
+    listOrder: 2202
   - type: STR_SHOTGUN_CLIP
     size: 0.1
     costBuy: 200
@@ -2509,13 +2511,15 @@ items:
     shotgunBehavior: 1
     shotgunChoke: 70
     shotgunSpread: 40
-    listOrder: 3601
     armor: 30
     maxRange: 20
     aimRange: 17
     snapRange: 11
     autoRange: 7
     dropoff: 9
+    powerRangeThreshold: 20
+    powerRangeReduction: 50
+    listOrder: 3601
 #END SCATTER LASER ITEM
 
 #BEGIN HEAVY LASER SNIPER ITEM
@@ -3048,6 +3052,8 @@ items:
     dropoff: 6
     shotgunBehavior: 1
     shotgunChoke: 80
+    powerRangeThreshold: 20
+    powerRangeReduction: 50
     listOrder: 5302
   - type: STR_PLASMA_SHOTGUN_CLIP
     requires:
