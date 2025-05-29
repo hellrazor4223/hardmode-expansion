@@ -39,8 +39,8 @@ items:
 #BEGIN DRONE FLARE WEAPON ITEM
   - type: STR_DRONE_FLARE_WEAPON
     weight: 5
-    bigSprite: 55
-    bulletSprite: 4
+    bigSprite: 229
+    bulletSprite: 30
     hitAnimation: 26
     damageType: 1
     fireSound: 113
@@ -255,8 +255,8 @@ items:
 #BEGIN ALLOY DRONE FLARE WEAPON ITEM
   - type: STR_ALLOY_DRONE_FLARE_WEAPON
     weight: 5
-    bigSprite: 55
-    bulletSprite: 4
+    bigSprite: 229
+    bulletSprite: 30
     hitAnimation: 26
     damageType: 1
     fireSound: 113
@@ -523,8 +523,8 @@ items:
 #BEGIN HOVERDRONE FLARE WEAPON ITEM
   - type: STR_HOVERDRONE_FLARE_WEAPON
     weight: 5
-    bigSprite: 55
-    bulletSprite: 4
+    bigSprite: 229
+    bulletSprite: 30
     hitAnimation: 26
     damageType: 1
     fireSound: 113

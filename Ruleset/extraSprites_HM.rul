@@ -102,6 +102,7 @@ extraSprites:
 #END XCOM SOLDIER BIGOBS
 
 #BEGIN XCOM DRONE BIGOBS
+      229: Resources/Units/Xcom/Drones/BigOb_DroneFlare_Weapon.png
       168: Resources/Units/Xcom/Drones/BigOb_DroneSmoke_Weapon.png
       169: Resources/Units/Xcom/Drones/BigOb_DroneScanner_Weapon.png
       170: Resources/Units/Xcom/Drones/BigOb_DroneTaser_Weapon.png
@@ -2285,14 +2286,15 @@ extraSprites:
     subY: 3
     files:
       980: Resources/Items/Xcom/TaserPistol/BulletSprite_TaserPistol_Clip.png
+      1015: Resources/Units/Xcom/HoverDrones/BulletSprite_HoverDroneTaser.png
   - type: Projectiles
-    width: 65
-    height: 6
+    width: 105
+    height: 3
     subX: 3
     subY: 3
     files:
-      1015: Resources/Units/Xcom/HoverDrones/BulletSprite_HoverDroneTaser.png
-##END PROJECTILES ##INDEX 298
+      1050: Resources/Units/Xcom/Drones/BulletSprite_DroneFlare.png
+##END PROJECTILES ##INDEX 30
 
 ##BEGIN HIT & EXPLOSTION ANIMATIONS
 #BEGIN HIT
