@@ -16,6 +16,7 @@ Version 0.99.9.8
  - Add Flare launcher to Scout Drones for night missions (deploys Electroflares)
  - Add Shotguns Ammo looses power when shooting out of maxRange
  - Disable extendedRunningCost permanently (keep my Drones running and stopping for enemy spottings)
+ - Remove Dustoff = Fuckoff
 
 Version 0.99.9.7
  - Fix Wrong Unknown Var definition in alienDeployments
