@@ -3673,7 +3673,6 @@ terrains:
       - name: JUNGLEMOUNT00
         width: 10
         length: 10
-        groups: [0, 1]
       - name: JUNGLEMOUNT01
         width: 10
         length: 10
@@ -3714,7 +3713,6 @@ terrains:
       - name: JUNGLEMOUNT13
         width: 10
         length: 10
-        groups: [0, 1]
       - name: JUNGLEMOUNT14
         width: 10
         length: 10
