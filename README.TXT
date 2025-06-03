@@ -159,7 +159,7 @@ General Gameplay changes:
 	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
 	Alien Bases will generate missions without Scout Ship (Terror, Abduction, Harvest, Base), it is recommended to not tolerate more then 4 bases on earth at all time!
-	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (limited to 2 Missions per Month)
+	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (No limit, you get as many additional Missions as interrogation you did)
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
 	Attacking a landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only)

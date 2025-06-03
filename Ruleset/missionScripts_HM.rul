@@ -298,7 +298,6 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienResearch
   - type: navigatorConsequenceAlienResearchTerror
-    label: 12
     conditionals: [-11]
     missionWeights:
       0:
@@ -310,8 +309,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienResearchTerror
   - type: navigatorConsequenceAlienHarvest
-    label: 13
-    conditionals: [-11, -12]
+    label: 12
     missionWeights:
       0:
         STR_ALIEN_HARVEST: 100
@@ -323,8 +321,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienHarvest
   - type: navigatorConsequenceAlienHarvestTerror
-    label: 14
-    conditionals: [-11, -12, -13]
+    conditionals: [-12]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -335,8 +332,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienHarvestTerror
   - type: navigatorConsequenceAlienAbduction
-    label: 15
-    conditionals: [-11, -12, -13, -14]
+    label: 13
     missionWeights:
       0:
         STR_ALIEN_ABDUCTION: 100
@@ -348,8 +344,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienAbduction
   - type: navigatorConsequenceAlienAbductionTerror
-    label: 16
-    conditionals: [-11, -12, -13, -14, -15]
+    conditionals: [-13]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -360,8 +355,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienAbductionTerror
   - type: navigatorConsequenceAlienBase
-    label: 17
-    conditionals: [-11, -12, -13, -14, -15, -16]
+    label: 14
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
@@ -373,8 +367,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienBase
   - type: navigatorConsequenceAlienBaseTerror
-    label: 18
-    conditionals: [-11, -12, -13, -14, -15, -16, -17]
+    conditionals: [-14]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -385,8 +378,6 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienBaseTerror
   - type: navigatorConsequenceAlienSupply
-    label: 19
-    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -397,11 +388,9 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienSupply
   - type: navigatorConsequenceAlienTerror
-    label: 20
-    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19]
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_ALIEN_BASE_TERROR_MISSION: 100
     startDelay: 9000
     randomDelay: 3000
     researchTriggers:
@@ -409,8 +398,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienTerror
   - type: navigatorConsequenceAlienInfiltration
-    label: 21
-    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20]
+    label: 15
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
@@ -422,8 +410,7 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienInfiltration
   - type: navigatorConsequenceAlienInfiltrationTerror
-    label: 22
-    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21]
+    conditionals: [-15]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -434,8 +421,6 @@ missionScripts:
     maxRuns: 1
     varName: navigatorConsequenceAlienInfiltrationTerror
   - type: navigatorConsequenceAlienRetaliation
-    label: 23
-    conditionals: [-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22]
     missionWeights:
       0:
         STR_ALIEN_RETALIATION: 100
@@ -452,7 +437,10 @@ missionScripts:
     label: 31
     missionWeights:
       0:
-        STR_ALIEN_RESEARCH: 100
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -461,7 +449,6 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceSmallScout
   - type: engineerConsequenceSmallScoutTerror
-    label: 32
     conditionals: [-31]
     missionWeights:
       0:
@@ -473,12 +460,13 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceSmallScoutTerror
   - type: engineerConsequenceMediumScout
-    label: 33
-    conditionals: [-31, -32]
+    label: 32
     missionWeights:
       0:
-        STR_ALIEN_RESEARCH: 50
-        STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -487,8 +475,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceMediumScout
   - type: engineerConsequenceMediumScoutTerror
-    label: 34
-    conditionals: [-31, -32, -33]
+    conditionals: [-32]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -499,13 +486,13 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceMediumScoutTerror
   - type: engineerConsequenceLargeScout
-    label: 35
-    conditionals: [-31, -32, -33, -34]
+    label: 33
     missionWeights:
       0:
-        STR_ALIEN_RESEARCH: 33
-        STR_ALIEN_BASE: 33
-        STR_ALIEN_RETALIATION: 33
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -514,8 +501,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceLargeScout
   - type: engineerConsequenceLargeScoutTerror
-    label: 36
-    conditionals: [-31, -32, -33, -34, -35]
+    conditionals: [-33]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -526,12 +512,11 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceLargeScoutTerror
   - type: engineerConsequenceFighterShip
-    label: 37
-    conditionals: [-31, -32, -33, -34, -35, -36]
+    label: 34
     missionWeights:
       0:
-        STR_ALIEN_RESEARCH: 50
         STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_INFILTRATION: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -540,8 +525,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceFighterShip
   - type: engineerConsequenceFighterShipTerror
-    label: 38
-    conditionals: [-31, -32, -33, -34, -35, -36, -37]
+    conditionals: [-34]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -552,13 +536,11 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceFighterShipTerror
   - type: engineerConsequenceSentryShip
-    label: 39
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38]
+    label: 35
     missionWeights:
       0:
-        STR_ALIEN_BASE: 33
-        STR_ALIEN_RETALIATION: 33
-        STR_ALIEN_INFILTRATION: 33
+        STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_INFILTRATION: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -567,8 +549,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceSentryShip
   - type: engineerConsequenceSentryShipTerror
-    label: 40
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39]
+    conditionals: [-35]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -579,12 +560,12 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceSentryShipTerror
   - type: engineerConsequenceExcavator
-    label: 41
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40]
+    label: 36
     missionWeights:
       0:
-        STR_ALIEN_BASE: 50
-        STR_ALIEN_RESEARCH: 50
+        STR_ALIEN_BASE: 33
+        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_HARVEST: 33
     executionOdds: 50
     startDelay: 6000
     researchTriggers:
@@ -592,8 +573,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceExcavator
   - type: engineerConsequenceExcavatorTerror
-    label: 42
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41]
+    conditionals: [-36]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -604,13 +584,11 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceExcavatorTerror
   - type: engineerConsequenceAbductor
-    label: 43
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42]
+    label: 37
     missionWeights:
       0:
-        STR_ALIEN_ABDUCTION: 33
-        STR_ALIEN_HARVEST: 33
-        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_ABDUCTION: 50
+        STR_ALIEN_BASE_ABDUCTION_MISSION: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -619,8 +597,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceAbductor
   - type: engineerConsequenceAbductorTerror
-    label: 44
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43]
+    conditionals: [-37]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -631,13 +608,11 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceAbductorTerror
   - type: engineerConsequenceHarvester
-    label: 45
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44]
+    label: 38
     missionWeights:
       0:
-        STR_ALIEN_ABDUCTION: 33
-        STR_ALIEN_HARVEST: 33
-        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_HARVEST: 50
+        STR_ALIEN_BASE_HARVEST_MISSION: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -646,8 +621,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceHarvester
   - type: engineerConsequenceHarvesterTerror
-    label: 46
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45]
+    conditionals: [-38]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -658,14 +632,15 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceExcavatorTerror
   - type: engineerConsequenceLabShip
-    label: 47
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46]
+    label: 39
     missionWeights:
       0:
-        STR_ALIEN_ABDUCTION: 25
-        STR_ALIEN_HARVEST: 25
-        STR_ALIEN_BASE: 25
-        STR_ALIEN_INFILTRATION: 25
+        STR_ALIEN_RESEARCH: 30
+        STR_ALIEN_ABDUCTION: 30
+        STR_ALIEN_HARVEST: 30
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_BASE_ABDUCTION_MISSION: 30
+        STR_ALIEN_BASE_HARVEST_MISSION: 30
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -674,8 +649,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceLabShip
   - type: engineerConsequenceLabShipTerror
-    label: 48
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47]
+    conditionals: [-39]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -686,12 +660,11 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceLabShipTerror
   - type: engineerConsequenceSupplyShip
-    label: 49
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48]
+    label: 40
     missionWeights:
       0:
-        STR_ALIEN_INFILTRATION: 50
         STR_ALIEN_BASE: 50
+        STR_ALIEN_BASE_BASE_MISSION: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -700,8 +673,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceSupplyShip
   - type: engineerConsequenceSupplyShipTerror
-    label: 50
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49]
+    conditionals: [-40]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -712,8 +684,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceSupplyShipTerror
   - type: engineerConsequenceTerrorShip
-    label: 51
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50]
+    label: 41
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
@@ -725,8 +696,7 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceTerrorShip
   - type: engineerConsequenceTerrorShipTerror
-    label: 52
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51]
+    conditionals: [-41]
     missionWeights:
       0:
         STR_ALIEN_BASE_TERROR_MISSION: 100
@@ -737,12 +707,14 @@ missionScripts:
     maxRuns: 1
     varName: engineerConsequenceTerrorShipTerror
   - type: engineerConsequenceBattleShip
-    label: 53
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52]
     missionWeights:
       0:
-        STR_ALIEN_INFILTRATION: 50
-        STR_ALIEN_BASE: 50
+        STR_ALIEN_BASE: 30
+        STR_ALIEN_INFILTRATION: 10
+        STR_ALIEN_HARVEST: 30
+        STR_ALIEN_RETALIATION: 30
+        STR_ALIEN_BASE_BASE_MISSION: 30
+        STR_ALIEN_BASE_HARVEST_MISSION: 30
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -750,18 +722,6 @@ missionScripts:
       STR_BATTLESHIP: true
     maxRuns: 1
     varName: engineerConsequenceBattleShip
-  - type: engineerConsequenceBattleShipTerror
-    label: 54
-    conditionals: [-31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, -44, -45, -46, -47, -48, -49, -50, -51, -52, -53]
-    missionWeights:
-      0:
-        STR_ALIEN_BASE_TERROR_MISSION: 100
-    startDelay: 6000
-    randomDelay: 6000
-    researchTriggers:
-      STR_BATTLESHIP: true
-    maxRuns: 1
-    varName: engineerConsequenceBattleShipTerror
 #END ENGINEER CONSEQUENCE
 ##END CONSEQUENCES
 
