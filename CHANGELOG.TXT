@@ -19,6 +19,7 @@ Version 0.99.9.8
  - Add Flare launcher to Scout Drones for night missions (deploys Electroflares)
  - Add Shotguns Ammo looses power when shooting out of maxRange
  - Add Trigger for LABSHIP appereance after Alien Containment is build in any Xcom base
+ - Add Researchtriggers for Alien Base building instead of hardcoded Retaliations
  - Disable extendedRunningCost permanently (keep my Drones running and stopping for enemy spottings)
  - Remove Dustoff = Fuckoff
 

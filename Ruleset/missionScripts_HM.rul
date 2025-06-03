@@ -144,35 +144,144 @@ missionScripts:
     targetBaseOdds: 100
     useTable: false
 #END DIFFICULTY BASED
+##END RETALIATION
 
-#BEGIN SNAKEMAN GREETING
-  - type: snakemanGreeting
+#BEGIN RESEARCH BASED BASE BUILDING
+#BEGIN FLOATER BASE
+  - type: floaterResearchBase
     missionWeights:
       0:
-        STR_ALIEN_RETALIATION: 100
-    firstMonth: 4
-    lastMonth: 4
-    targetBaseOdds: 100
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_ALIEN_CONTAINMENT: true
+    raceWeights:
+      0:
+        STR_FLOATER: 100
+    useTable: false
+    maxRuns: 1
+    varName: floaterResearchBase
+#END SECTOID BASE
+
+#BEGIN SECTOID BASE
+  - type: sectoidResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_PSIONICS: true
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    useTable: false
+    maxRuns: 1
+    varName: sectoidResearchBase
+#END SECTOID BASE
+
+#BEGIN SNAKEMAN BASE
+  - type: snakemanResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_PERSONAL_ARMOR: true
     raceWeights:
       0:
         STR_SNAKEMAN: 100
     useTable: false
-#END SNAKEMAN GREETING
+    maxRuns: 1
+    varName: snakemanResearchBase
+#END SNAKEMAN BASE
 
-#BEGIN MUTON GREETING
-  - type: mutonGreeting
+#BEGIN MUTON BASE
+  - type: mutonResearchBase
     missionWeights:
       0:
-        STR_ALIEN_RETALIATION: 100
-    firstMonth: 6
-    lastMonth: 6
-    targetBaseOdds: 100
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_LASER_WEAPONS: true
     raceWeights:
       0:
         STR_MUTON: 100
     useTable: false
-#END MUTON GREETING
-##END RETALIATION
+    maxRuns: 1
+    varName: mutonResearchBase
+#END MUTON BASE
+
+#BEGIN WASPITE BASE
+  - type: waspiteResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_LAUNCHER_WEAPONS: true
+    raceWeights:
+      0:
+        STR_WASPITE: 100
+    useTable: false
+    maxRuns: 1
+    varName: waspiteResearchBase
+#END WASPITE BASE
+
+#BEGIN GAZER
+  - type: gazerResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_POWER_SUIT: true
+    raceWeights:
+      0:
+        STR_GAZER: 100
+    useTable: false
+    maxRuns: 1
+    varName: gazerResearchBase
+#END GAZER BASE
+
+#BEGIN SECTOID ELITE BASE
+  - type: sectoideliteResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_PSI_LAB: true
+    raceWeights:
+      0:
+        STR_SECTOID_ELITE: 100
+    useTable: false
+    maxRuns: 1
+    varName: sectoideliteResearchBase
+#END SECTOID ELITE BASE
+
+#BEGIN MUTON ELITE BASE
+  - type: mutoneliteResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_PLASMA_WEAPONS: true
+    raceWeights:
+      0:
+        STR_MUTON_ELITE: 100
+    useTable: false
+    maxRuns: 1
+    varName: mutoneliteResearchBase
+#END MUTON ELITE BASE
+
+#BEGIN MUTON ELITE GUARD BASE
+  - type: mutoneliteguardResearchBase
+    missionWeights:
+      0:
+        STR_ALIEN_BASE: 100
+    researchTriggers:
+      STR_PSI_AMP: true
+    raceWeights:
+      0:
+        STR_MUTON_ELITE_GUARD: 100
+    useTable: false
+    maxRuns: 1
+    varName: mutoneliteguardResearchBase
+#END MUTON ELITE GUARD BASE
+#END RESEARCH BASED BASE BUILDING
 
 ##BEGIN CONSEQUENCES
 #BEGIN NAVIGATOR CONSEQUENCE
