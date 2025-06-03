@@ -61,6 +61,18 @@ missionScripts:
     firstMonth: 6
 #END MONTHLY STUFF
 
+#BEGIN NONELUSIVE LABSHIP
+  - type: nonelusiveLabship
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    targetBaseOdds: 100
+    facilityTriggers:
+      STR_ALIEN_CONTAINMENT: true
+    maxRuns: 2
+    varName: nonelusiveLabship
+#END NONELUSIVE LABSHIP
+
 #BEGIN ETHEREAL GREETING
   - type: gameEndEtherealBase
     missionWeights:
