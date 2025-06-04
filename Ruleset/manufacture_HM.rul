@@ -1784,7 +1784,8 @@ manufacture:
     cost: 190000
     requiredItems:
       STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: 1
-      STR_ALIEN_ALLOYS: 4
+      STR_ALIEN_ALLOYS: 6
+      STR_ELERIUM_115: 8
     producedItems:
       STR_HOVERDRONE_ADVANCED_MEDIKIT: 1
     listOrder: 551
