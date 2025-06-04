@@ -37,6 +37,19 @@ missionScripts:
   - delete: superhumanRetaliation
 
 ##BEGIN GAME ESSENTIAL
+#BEGIN LABSHIP DELIVERY
+  - type: gameStart
+    missionWeights:
+      0:
+        STR_ALIEN_RESEARCH: 100
+    lastMonth: 0
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_FLOATER: 100
+    startDelay: 120
+#END LABSHIP DELIVERY
+
 #BEGIN FLOATER START BASE
   - type: gameStartAlienBase
     missionWeights:
