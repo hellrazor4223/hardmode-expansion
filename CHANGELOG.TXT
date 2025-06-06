@@ -23,6 +23,8 @@ Version 0.99.9.8
  - Add Trigger for LABSHIP appereance after Alien Containment is build in any Xcom base
  - Add Researchtriggers for Alien Base building instead of hardcoded Retaliations
  - Add Researchmission to be the first mission encountered timewise, with a LABSHIP
+ - Add Artworkposter from Holomorph
+ - Add Gameplaytrailer made by Holomorph
  - Disable extendedRunningCost permanently (keep my Drones running and stopping for enemy spottings)
  - Remove Dustoff = Fuckoff
 
