@@ -584,7 +584,7 @@ items:
 
 #BEGIN SELF POPPING CHRYSSALIDS
 armors:
-  - update: ZOMBIE_ARMOR
+  - type: ZOMBIE_ARMOR
     scripts:
       createUnit: |
         var int auto_death;
@@ -608,8 +608,7 @@ armors:
 #END SELF POPPING CHRYSSALIDS
 
 #BEGIN SELF POPPING CHRYSSALIDS SPITTERS
-armors:
-  - update: SPITTER_ZOMBIE_ARMOR
+  - type: SPITTER_ZOMBIE_ARMOR
     scripts:
       createUnit: |
         var int auto_death;
