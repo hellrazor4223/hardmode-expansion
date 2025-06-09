@@ -27,6 +27,7 @@ Version 0.99.9.8
  - Add Researchmission to be the first mission encountered timewise, with a LABSHIP
  - Add Artworkposter from Holomorph
  - Add Gameplaytrailer made by Holomorph
+ - Add Iventoryimages / Combat Analysis Articles for ufoPaedia for Drones and AlloyDrones
  - Disable extendedRunningCost permanently (keep my Drones running and stopping for enemy spottings)
  - Remove Dustoff = Fuckoff
 

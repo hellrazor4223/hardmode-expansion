@@ -822,6 +822,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Drones/DroneScout/UfoPaedia_DroneScout.png
+  - type: dronescoutInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/Drones/DroneScout/Inventory_DroneScout.png
 #END DRONE SCOUT SPRITE
 
 #BEGIN DRONE SCANNER SPRITE
@@ -838,6 +844,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Drones/DroneScanner/UfoPaedia_DroneScanner.png
+  - type: dronescannerInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/Drones/DroneScanner/Inventory_DroneScanner.png
 #END DRONE SCANNER SPRITE
 
 #BEGIN DRONE MEDIKIT SPRITE
@@ -854,6 +866,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Drones/DroneMedikit/UfoPaedia_DroneMedikit.png
+  - type: dronemedikitInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/Drones/DroneMedikit/Inventory_DroneMedikit.png
 #END DRONE MEDIKIT SPRITE
 
 #BEGIN DRONE TASER SPRITE
@@ -870,6 +888,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/Drones/DroneTaser/UfoPaedia_DroneTaser.png
+  - type: dronetaserInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/Drones/DroneTaser/Inventory_DroneTaser.png
 #END DRONE TASER SPRITE
 
 #BEGIN ALLOY DRONE SCOUT SPRITE
@@ -886,6 +910,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/UfoPaedia_AlloyDroneScout.png
+  - type: alloydronescoutInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/Inventory_AlloyDroneScout.png
 #END ALLOY DRONE SCOUT SPRITE
 
 #BEGIN ALLOY DRONE SCANNER SPRITE
@@ -902,6 +932,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/UfoPaedia_AlloyDroneScanner.png
+  - type: alloydronescannerInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/Inventory_AlloyDroneScanner.png
 #END ALLOY DRONE SANNER SPRITE
 
 #BEGIN ALLOY DRONE MEDIKIT SPRITE
@@ -918,6 +954,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/UfoPaedia_AlloyDroneMedikit.png
+  - type: alloydronemedikitInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/Inventory_AlloyDroneMedikit.png
 #END ALLOY DRONE MEDIKIT SPRITE
 
 #BEGIN ALLOY DRONE ADVANCED MEDIKIT SPRITE
@@ -934,6 +976,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/UfoPaedia_AlloyDroneAdvancedMedikit.png
+  - type: alloydroneadvancedmedikitInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/Inventory_AlloyDroneAdvancedMedikit.png
 #END ALLOY DRONE ADVANCED MEDIKIT SPRITE
 
 #BEGIN ALLOY DRONE TASER SPRITE
@@ -950,6 +998,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/UfoPaedia_AlloyDroneTaser.png
+  - type: alloydronetaserInventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/Inventory_AlloyDroneTaser.png
 #END ALLOY DRONE TASER SPRITE
 
 #BEGIN HOVERDRONE SCOUT SPRITE
