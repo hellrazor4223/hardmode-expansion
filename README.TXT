@@ -234,7 +234,7 @@ Additional Alien Weapons:
 	Fire Bomb for Small Launcher
 	Aliens will keep most weaponry through the game
 	Aliens have all weapons avaible from start
-	Aliens have a secondary clip type granting +20 Damage to all Plasma Weapons
+	Aliens have a secondary plasma weapon clip type granting +20 Damage to all Plasma Weapons, they will slowly transition to those exclusively.
 
 Additional Alien UFOs:
 	Fighter (9 Maps)

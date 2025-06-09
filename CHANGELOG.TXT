@@ -21,6 +21,7 @@ Version 0.99.9.8
  - Adjust HWP Rocket Clipsize and Damage slightly (for Tank/Rocket Launcher and Alloytank/Rocketlauncher)
  - Adjust Missions from Interrogating Alive Alien Ranks: Navigator, Engineer no longerhave a limit of 2 per month. You have been warned!
  - Adjust Shotguns Chokes/Spread to make hits more logical
+ - Adjust Alien Weaponry will now slowly transition from Green Plasma Clips to Golden Plasma Clips on all UFO's/Bases.
  - Add Flare launcher to Scout Drones for night missions (deploys Electroflares)
  - Add Shotguns Ammo looses power when shooting out of maxRange
  - Add Trigger for LABSHIP appereance after Alien Containment is build in any Xcom base
