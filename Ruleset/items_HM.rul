@@ -1988,7 +1988,7 @@ items:
     snapRange: 9
     dropoff: 12
     shotgunBehavior: 1
-    shotgunChoke: 60
+    shotgunChoke: 80
     powerRangeThreshold: 20
     powerRangeReduction: 50
     listOrder: 2202
@@ -2032,7 +2032,7 @@ items:
     listOrder: 2204
     shotgunPellets: 5
     shotgunBehavior: 1
-    shotgunSpread: 60
+    shotgunSpread: 40
 #END SHOTGUN ITEM
 
 #BEGIN SNIPER RIFLE ITEM
@@ -2509,8 +2509,8 @@ items:
     invHeight: 3
     shotgunPellets: 5
     shotgunBehavior: 1
-    shotgunChoke: 70
-    shotgunSpread: 40
+    shotgunChoke: 100
+    shotgunSpread: 30
     armor: 30
     maxRange: 20
     aimRange: 17
@@ -3051,7 +3051,7 @@ items:
     autoRange: 9
     dropoff: 6
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 120
     powerRangeThreshold: 20
     powerRangeReduction: 50
     listOrder: 5302
@@ -3077,7 +3077,7 @@ items:
     attraction: 10
     shotgunPellets: 6
     shotgunBehavior: 1
-    shotgunSpread: 50
+    shotgunSpread: 30
     listOrder: 5303
   - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     requires:
@@ -3101,7 +3101,7 @@ items:
     attraction: 10
     shotgunPellets: 6
     shotgunBehavior: 1
-    shotgunSpread: 60
+    shotgunSpread: 20
     listOrder: 5304
 #END PLASMA SHOTGUN ITEM
 
