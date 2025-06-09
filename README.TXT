@@ -85,7 +85,8 @@ NOT compatible:
 		itemLevels
 		alienMissions
 
-RECOMMENDED ADVANCED OPTIONS: (Enabled automatically when loading the mod for the first time)
+RECOMMENDED ADVANCED OPTIONS:
+Enabled automatically when loading the mod for the first time:
 
 	Forced Craft launch (probably needed since your craft will get shot a lot)
 	Limit Storage Items (Using Autoseller Helps a lot, just be aware to not sell of stuff you wanna research!)
@@ -96,12 +97,15 @@ RECOMMENDED ADVANCED OPTIONS: (Enabled automatically when loading the mod for th
 	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
 	Alternate Movement Methods (to fight faster)
 	Alien Bleeding
-	FundsOnGeoscape (keep your finances in check)
-	Pathpreview with Energieview
 	OXCE Links
 	OXCE Autoseller
 	Psi Training anytime
 	More Stats on Inventory Screens
+
+Need to be manually be enabled:
+
+	FundsOnGeoscape (keep your finances in check)
+	Pathpreview with Energieview
 
 CREDITLIST:
 	- CREDIT.TXT or the FORUM: ->(https://openxcom.org/forum/index.php/topic,4965.0.html)
@@ -139,6 +143,7 @@ Additional Alien Races/Units:
 	Chryssalid Spitter Terrorist
 
 General Gameplay changes:
+	X-Com starts with 2 Skyrangers and 1 Interceptor
 	Your Soldiers will be awarded with Medals (currently there are 61 Medals).
 	Globe with 347 Cities (including vanilla ones)
 	Better Globe with more textures
