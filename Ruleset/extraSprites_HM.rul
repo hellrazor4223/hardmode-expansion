@@ -2305,16 +2305,16 @@ extraSprites:
     subY: 40
     files:
       8:  Resources/Items/Xcom/CombatKnife/HitAnimation_CombatKnife.png
-      16: Resources/Items/Xcom/AlloyKnife/HitAnimation_AlloyKnife_8_frames.png
-      24: Resources/Items/Xcom/AlloySword/HitAnimation_AlloySword_8_frames.png
-      32: Resources/Items/Alien/PlasmaBlade/HitAnimation_PlasmaBlade_8_frames.png
-      40: Resources/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword_8_frames.png
   - type: HIT.PCK
     height: 40
     width: 256
     subX: 32
     subY: 40
     files:
+      16: Resources/Items/Xcom/AlloyKnife/HitAnimation_AlloyKnife_8_frames.png
+      24: Resources/Items/Xcom/AlloySword/HitAnimation_AlloySword_8_frames.png
+      32: Resources/Items/Alien/PlasmaBlade/HitAnimation_PlasmaBlade_8_frames.png
+      40: Resources/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword_8_frames.png
       48: Resources/Items/PsiAnimation_8_frames.png
       56: Resources/Items/PsiMissAnimation_8_frames.png
 #END HIT

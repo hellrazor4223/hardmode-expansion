@@ -12,6 +12,7 @@ Version 0.99.9.8
  - Fix ALIEN BASE maps equipment pile spawning on Elevator
  - Fix Aliens being able to spawn in other Xcom Base modules then Hangars and Access Lift
  - Fix wrong materials for Hoverdrone/Adv. Medikit repair cost
+ - Fix Hitanimations for Melee Weapons only showing 4 frames instaead of 8 (THX pWWa)
  - Adjust Tank to behave like Tanks (they now can take some abuse for 2-3 turns)
  - Adjust Terrorunits in regard of floatheight and damage resistance
  - Adjust PSI Defense for some Terrorunits and some other enemies
