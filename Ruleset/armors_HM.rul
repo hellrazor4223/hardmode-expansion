@@ -215,6 +215,7 @@ armors:
 #BEGIN HOVERDRONE SCOUT ARMOR
   - type: HOVERDRONE_SCOUT_ARMOR
     spriteSheet: HOVERDRONE_SCOUT.PCK
+    spriteInv: hoverdronescoutInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_SCOUT_CORPSE
@@ -247,6 +248,7 @@ armors:
 #BEGIN HOVERDRONE SCANNER ARMOR
   - type: HOVERDRONE_SCANNER_ARMOR
     spriteSheet: HOVERDRONE_SCANNER.PCK
+    spriteInv: hoverdronescannerInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_SCANNER_CORPSE
@@ -269,6 +271,7 @@ armors:
 #BEGIN HOVERDRONE ADVANCED MEDIKIT ARMOR
   - type: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
     spriteSheet: HOVERDRONE_ADVANCED_MEDIKIT.PCK
+    spriteInv: hoverdroneadvancedmedikitInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE
@@ -291,6 +294,7 @@ armors:
 #BEGIN HOVERDRONE TASER ARMOR
   - type: HOVERDRONE_TASER_ARMOR
     spriteSheet: HOVERDRONE_TASER.PCK
+    spriteInv: hoverdronetaserInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_TASER_CORPSE
