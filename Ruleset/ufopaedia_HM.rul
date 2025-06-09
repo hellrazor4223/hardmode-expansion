@@ -552,7 +552,7 @@ ufopaedia:
   - id: DRONE_TASER_ARMOR
     type_id: 5
     section: STR_ALIEN_ARTIFACTS
-   requires:
+    requires:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     listOrder: 2857
