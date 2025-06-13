@@ -221,6 +221,7 @@ Groundcombat changes:
 	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successfull Zombification, this makes Armor really important!
 	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
 	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
+	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

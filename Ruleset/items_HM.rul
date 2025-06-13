@@ -25,6 +25,16 @@ items:
 ##BEGIN XCOM DRONE ITEMS
 #BEGIN DRONE FLARE
   - type: STR_DRONE_FLARE
+    supportedInventorySections: &HOLSTER_ALLOWED
+     - STR_RIGHT_HAND
+     - STR_LEFT_HAND
+     - STR_RIGHT_LEG
+     - STR_LEFT_LEG
+     - STR_BELT
+     - STR_RIGHT_SHOULDER
+     - STR_LEFT_SHOULDER
+     - STR_BACK_PACK
+     - STR_HOLSTER
     name: STR_ELECTRO_FLARE
     weight: 3
     bigSprite: 55
@@ -1742,6 +1752,7 @@ items:
 ##BEGIN XCOM WEAPON ITEMS
 #BEGIN COMBAT KNIFE ITEM
   - type: STR_COMBAT_KNIFE
+    supportedInventorySections: *HOLSTER_ALLOWED
     size: 0.1
     costBuy: 100
     costSell: 50
@@ -1770,6 +1781,7 @@ items:
 
 #BEGIN ALLOY KNIFE ITEM
   - type: STR_ALLOY_KNIFE
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_ALLOY_KNIFE
     size: 0.1
@@ -1800,6 +1812,7 @@ items:
 
 #BEGIN ALLOY SWORD ITEM
   - type: STR_ALLOY_SWORD
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_ALLOY_SWORD
     size: 0.2
@@ -1830,6 +1843,7 @@ items:
 
 #BEGIN TASER PISTOL ITEM
   - type: STR_TASER_PISTOL
+    supportedInventorySections: *HOLSTER_ALLOWED
     size: 0.2
     costBuy: 1800
     costSell: 600
@@ -1855,6 +1869,15 @@ items:
     dropoff: 4
     listOrder: 1807
   - type: STR_TASER_PISTOL_CLIP
+    supportedInventorySections: &HOLSTER_FORBIDDEN
+     - STR_RIGHT_HAND
+     - STR_LEFT_HAND
+     - STR_RIGHT_LEG
+     - STR_LEFT_LEG
+     - STR_BELT
+     - STR_RIGHT_SHOULDER
+     - STR_LEFT_SHOULDER
+     - STR_BACK_PACK
     size: 0.1
     costBuy: 200
     costSell: 100
@@ -1874,6 +1897,7 @@ items:
     armor: 20
     listOrder: 1808
   - type: STR_TASER_PISTOL_ELERIUM_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_TASER_PISTOL_ELERIUM_CLIP
     size: 0.1
@@ -1897,6 +1921,7 @@ items:
 
 #BEGIN PISTOL ITEM
   - type: STR_PISTOL
+    supportedInventorySections: *HOLSTER_ALLOWED
     compatibleAmmo:
       - STR_PISTOL_CLIP
       - STR_PISTOL_AA_CLIP
@@ -1907,9 +1932,11 @@ items:
     autoRange: 8
     dropoff: 4
   - type: STR_PISTOL_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 128
     armor: 20
   - type: STR_PISTOL_AA_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ALLOY_AMMO
     size: 0.1
@@ -1931,6 +1958,7 @@ items:
 
 #BEGIN RIFLE ITEM
   - type: STR_RIFLE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     compatibleAmmo:
       - STR_RIFLE_CLIP
       - STR_RIFLE_AA_CLIP
@@ -1939,9 +1967,11 @@ items:
     autoRange: 10
     dropoff: 4
   - type: STR_RIFLE_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 136
     armor: 20
   - type: STR_RIFLE_AA_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ALLOY_AMMO
     size: 0.1
@@ -1963,6 +1993,7 @@ items:
 
 #BEGIN SHOTGUN ITEM
   - type: STR_SHOTGUN
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.2
     costBuy: 3000
     costSell: 2000
@@ -1993,6 +2024,7 @@ items:
     powerRangeReduction: 50
     listOrder: 2202
   - type: STR_SHOTGUN_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -2013,6 +2045,7 @@ items:
     shotgunBehavior: 1
     shotgunSpread: 60
   - type: STR_SHOTGUN_AA_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ALLOY_AMMO
     size: 0.1
@@ -2037,6 +2070,7 @@ items:
 
 #BEGIN SNIPER RIFLE ITEM
   - type: STR_SNIPER_RIFLE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.2
     costBuy: 14000
     costSell: 6850
@@ -2063,6 +2097,7 @@ items:
     minRange: 12
     dropoff: 4
   - type: STR_SNIPER_RIFLE_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 500
     costSell: 220
@@ -2080,6 +2115,7 @@ items:
     armor: 20
     listOrder: 2206
   - type: STR_SNIPER_RIFLE_AA_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ALLOY_AMMO
     size: 0.1
@@ -2308,6 +2344,7 @@ items:
 
 #BEGIN GRENADE LAUNCHER ITEM
   - type: STR_GRENADE_LAUNCHER
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.2
     costBuy: 5000
     costSell: 2250
@@ -2335,6 +2372,7 @@ items:
     minRange: 5
     dropoff: 2
   - type: STR_GRENADE_LAUNCHER_HE_AMMO
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -2353,6 +2391,7 @@ items:
     armor: 20
     listOrder: 3002
   - type: STR_GRENADE_LAUNCHER_IC_AMMO
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 600
     costSell: 400
@@ -2371,6 +2410,7 @@ items:
     armor: 20
     listOrder: 3003
   - type: STR_GRENADE_LAUNCHER_SMOKE_AMMO
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 300
     costSell: 200
@@ -2430,19 +2470,23 @@ items:
     minRange: 5
     dropoff: 2
   - type: STR_SMALL_ROCKET
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     power: 80
     handSprite: 216
     armor: 20
     listOrder: 3200
   - type: STR_LARGE_ROCKET
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 224
     armor: 20
     listOrder: 3300
   - type: STR_INCENDIARY_ROCKET
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 232
     armor: 20
     listOrder: 3400
   - type: STR_ELERIUM_ROCKET
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ELERIUM_ROCKET
     size: 0.2
@@ -2466,6 +2510,7 @@ items:
 
 #BEGIN LASER PISTOL ITEM
   - type: STR_LASER_PISTOL
+    supportedInventorySections: *HOLSTER_ALLOWED
     armor: 30
     snapRange: 16
     autoRange: 10
@@ -2474,6 +2519,7 @@ items:
 
 #BEGIN LASER RIFLE ITEM
   - type: STR_LASER_RIFLE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     armor: 30
     snapRange: 20
     autoRange: 12
@@ -2482,6 +2528,7 @@ items:
 
 #BEGIN SCATTER LASER ITEM
   - type: STR_SCATTER_LASER
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_SCATTER_LASER
     size: 0.2
@@ -2570,11 +2617,13 @@ items:
 
 #BEGIN GRENADE ITEM
   - type: STR_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     armor: 50
 #BEGIN GRENADE ITEM
 
 #BEGIN SMOKE GRENADE ITEM
   - type: STR_SMOKE_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 248
     hitAnimation: 56
     blastRadius: 3
@@ -2583,12 +2632,14 @@ items:
 
 #BEGIN PROXIMITY GRENADE ITEM
   - type: STR_PROXIMITY_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 256
     armor: 35
 #BEGIN PROXIMITY GRENADE ITEM
 
 #BEGIN INC GRENADE ITEM
   - type: STR_INC_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 500
     costSell: 400
@@ -2606,6 +2657,7 @@ items:
 
 #BEGIN FLASHBANG GRENADE ITEM
   - type: STR_FLASHBANG_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costBuy: 500
     costSell: 400
@@ -2624,6 +2676,7 @@ items:
 
 #BEGIN ALIEN PROXY GRENADE ITEM
   - type: STR_ALIEN_PROXY_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ALIEN_PROXY_GRENADE
     size: 0.1
@@ -2643,6 +2696,7 @@ items:
 
 #BEGIN FIRE GRENADE ITEM
   - type: STR_FIRE_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costSell: 15300
     weight: 4
@@ -2660,6 +2714,7 @@ items:
 
 #BEGIN STUN GRENADE ITEM
   - type: STR_STUN_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
     costSell: 15300
     weight: 4
@@ -2677,12 +2732,14 @@ items:
 
 #BEGIN HIGH EXPLOSIVE ITEM
   - type: STR_HIGH_EXPLOSIVE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 272
     armor: 55
 #END HIGH EXPLOSIVE ITEM
 
 #BEGIN MOTION SCANNER ITEM
   - type: STR_MOTION_SCANNER
+    supportedInventorySections: *HOLSTER_ALLOWED
     handSprite: 280
     armor: 10
 #END MOTION SCANNER ITEM
@@ -2715,6 +2772,7 @@ items:
 
 #BEGIN MEDI KIT ITEM
   - type: STR_MEDI_KIT
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_MEDI_KIT
     size: 0.1
@@ -2742,6 +2800,7 @@ items:
 
 #BEGIN ADVANCED MEDI KIT ITEM
   - type: STR_ADVANCED_MEDI_KIT
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_ADVANCED_MEDI_KIT
     size: 0.1
@@ -2770,6 +2829,7 @@ items:
 #BEGIN PSI AMP ITEM
   - delete: STR_PSI_AMP
   - type: STR_PSI_AMP
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_PSI_AMP
     size: 0.1
@@ -2793,8 +2853,15 @@ items:
     listOrder: 4400
 #END PSI AMP ITEM
 
+#BEGIN STUN ROD ITEM
+  - type: STR_ELERIUM_STUN_ROD
+    supportedInventorySections: *HOLSTER_ALLOWED
+    listOrder: 4500
+#END STUN ROD ITEM
+
 #BEGIN ELERIUM STUN ROD ITEM
   - type: STR_ELERIUM_STUN_ROD
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_ELERIUM_STUN_ROD
     size: 0.1
@@ -2819,6 +2886,7 @@ items:
 
 #BEGIN ELECTRO FLARE ITEM
   - type: STR_ELECTRO_FLARE
+    supportedInventorySections: *HOLSTER_ALLOWED
     handSprite: 320
     armor: 10
     listOrder: 4600
@@ -2862,6 +2930,7 @@ items:
 ##BEGIN ALIEN WEAPON ITEMS
 #BEGIN PLASMA BLADE ITEM
   - type: STR_PLASMA_BLADE
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_PLASMA_BLADE
     size: 0.2
@@ -2894,6 +2963,7 @@ items:
 
 #BEGIN PLASMA SWORD ITEM
   - type: STR_PLASMA_SWORD
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_PLASMA_SWORD
     size: 0.2
@@ -2926,6 +2996,7 @@ items:
 
 #BEGIN PLASMA PISTOL ITEM
   - type: STR_PLASMA_PISTOL
+    supportedInventorySections: *HOLSTER_ALLOWED
     compatibleAmmo:
       - STR_PLASMA_PISTOL_CLIP
       - STR_PLASMA_PISTOL_ELERIUM_CLIP
@@ -2939,6 +3010,7 @@ items:
     dropoff: 2
     listOrder: 5090
   - type: STR_PLASMA_PISTOL_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     floorSprite: 189
     handSprite: 360
     bulletSprite: 8
@@ -2949,6 +3021,7 @@ items:
     costSell: 2220
     listOrder: 5100
   - type: STR_PLASMA_PISTOL_ELERIUM_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_PISTOL_ELERIUM_CLIP
     size: 0.1
@@ -2973,6 +3046,7 @@ items:
 
 #BEGIN PLASMA RIFLE ITEM
   - type: STR_PLASMA_RIFLE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     compatibleAmmo:
       - STR_PLASMA_RIFLE_CLIP
       - STR_PLASMA_RIFLE_ELERIUM_CLIP
@@ -2986,6 +3060,7 @@ items:
     autoRange: 14
     dropoff: 2
   - type: STR_PLASMA_RIFLE_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     floorSprite: 190
     handSprite: 352
     hitAnimation: 160
@@ -2995,6 +3070,7 @@ items:
     costSell: 3145
     listOrder: 5300
   - type: STR_PLASMA_RIFLE_ELERIUM_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_RIFLE_ELERIUM_CLIP
     size: 0.1
@@ -3019,6 +3095,7 @@ items:
 
 #BEGIN PLASMA SHOTGUN ITEM
   - type: STR_PLASMA_SHOTGUN
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_SHOTGUN
     size: 0.2
@@ -3056,6 +3133,7 @@ items:
     powerRangeReduction: 50
     listOrder: 5302
   - type: STR_PLASMA_SHOTGUN_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_SHOTGUN_CLIP
     size: 0.1
@@ -3080,6 +3158,7 @@ items:
     shotgunSpread: 30
     listOrder: 5303
   - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     size: 0.1
@@ -3107,6 +3186,7 @@ items:
 
 #BEGIN PLASMA SNIPER RIFLE ITEM
   - type: STR_PLASMA_SNIPER_RIFLE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_SNIPER_RIFLE
     size: 0.2
@@ -3136,6 +3216,7 @@ items:
     dropoff: 2
     listOrder: 5305
   - type: STR_PLASMA_SNIPER_RIFLE_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
     size: 0.1
@@ -3157,6 +3238,7 @@ items:
     attraction: 10
     listOrder: 5306
   - type: STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
     size: 0.1
@@ -3193,6 +3275,7 @@ items:
     autoRange: 16
     dropoff: 2
   - type: STR_HEAVY_PLASMA_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     bigSprite: 180
     floorSprite: 191
     handSprite: 328
@@ -3203,6 +3286,7 @@ items:
     costSell: 4795
     listOrder: 5500
   - type: STR_HEAVY_PLASMA_ELERIUM_CLIP
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_HEAVY_PLASMA_ELERIUM_CLIP
     size: 0.1
@@ -3288,6 +3372,7 @@ items:
     minRange: 3
     dropoff: 2
   - type: STR_STUN_BOMB
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 376
     hitAnimation: 64
     bulletSprite: 9
@@ -3296,6 +3381,7 @@ items:
     costSell: 7600
     listOrder: 5700
   - type: STR_ELERIUM_BOMB
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ELERIUM_BOMB
     size: 0.1
@@ -3316,6 +3402,7 @@ items:
     attraction: 10
     listOrder: 5701
   - type: STR_FIRE_BOMB
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_FIRE_BOMB
     size: 0.1
@@ -3336,6 +3423,7 @@ items:
     attraction: 5
     listOrder: 5702
   - type: STR_SMOKE_BOMB
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_SMOKE_BOMB
     size: 0.1
@@ -3365,25 +3453,113 @@ items:
     costSell: 72000
     listOrder: 5800
     waypoints: 9
+#  - type: STR_BLASTER_LAUNCHER_UFOPAEDIA_PAGE_2
+#    ignoreInCraftEquip: true
+#    name: STR_BLASTER_LAUNCHER
+#    requires:
+#      - STR_NOT_AVAILABLE
+#    attraction: 10
+#    size: 0.3
+#    costSell: 72000
+#    weight: 16
+#    bigSprite: 35
+#    floorSprite: 34
+#    handSprite: 56
+#    bulletSprite: 10
+#    fireSound: 53
+#    compatibleAmmo:
+#      - STR_BLASTER_SMOKE_BOMB
+#    accuracyAimed: 120
+#    tuAimed: 66
+#    battleType: 1
+#    twoHanded: true
+#    waypoints: 9
+#    invWidth: 2
+#    invHeight: 3
+#    recoveryPoints: 5
+#    armor: 50
   - type: STR_BLASTER_BOMB
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 368
     armor: 30
     attraction: 10
     costSell: 8514
     listOrder: 5900
     dropoff: 0
+#  - type: STR_BLASTER_STUN_BOMB
+#    supportedInventorySections: *HOLSTER_FORBIDDEN
+#    requires:
+#      - STR_BLASTER_STUN_BOMB
+#    size: 0.2
+#    costSell: 17028
+#    weight: 3
+#    bigSprite:
+#    floorSprite:
+#    hitSound: 0
+#    hitAnimation: 64
+#    bulletSprite:
+#    power: 200
+#    damageType: 6
+#    clipSize: 1
+#    battleType: 2
+#    invWidth: 1
+#    invHeight: 2
+#    blastRadius: 10
+#    dropoff: 0
+#  - type: STR_BLASTER_FIRE_BOMB
+#    supportedInventorySections: *HOLSTER_FORBIDDEN
+#    requires:
+#      - STR_BLASTER_FIRE_BOMB
+#    size: 0.2
+#    costSell: 17028
+#    weight: 3
+#    bigSprite:
+#    floorSprite:
+#    hitSound: 0
+#    hitAnimation: 0
+#    bulletSprite:
+#    power: 200
+#    damageType: 2
+#    clipSize: 1
+#    battleType: 2
+#    invWidth: 1
+#    invHeight: 2
+#    blastRadius: 10
+#    dropoff: 0
+#  - type: STR_BLASTER_SMOKE_BOMB
+#    supportedInventorySections: *HOLSTER_FORBIDDEN
+#    requires:
+#      - STR_BLASTER_SMOKE_BOMB
+#    size: 0.2
+#    costSell: 17028
+#    weight: 3
+#    bigSprite:
+#    floorSprite:
+#    hitSound: 0
+#    hitAnimation: 64
+#    bulletSprite:
+#    power: 200
+#    damageType: 2
+#    clipSize: 1
+#    battleType: 2
+#    invWidth: 1
+#    invHeight: 2
+#    blastRadius: 10
+#    dropoff: 0
 #END BLASTER LAUNCHER ITEM
 
 #BEGIN ALIEN GRENADE ITEM
   - type: STR_ALIEN_GRENADE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 392
     armor: 45
     attraction: 6
     costSell: 7425
 #END ALIEN GRENADE ITEM
 
-#BEGHIN ELERIUM ITEM
+#BEGIN ELERIUM ITEM
   - type: STR_ELERIUM_115
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 400
     floorSprite: 121
     costSell: 2500
@@ -3399,6 +3575,7 @@ items:
 
 #BEGIN ALIEN DATA SLATE ITEM
   - type: STR_ALIEN_DATA_SLATE
+    supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
       - STR_ALIEN_DATA_SLATE
     size: 0.1
@@ -3836,7 +4013,7 @@ items:
     bigSprite: 228
 #END ZOMBIE WEAPON
 
-#BEGIN CYBERDISC WEAPON ITEMA
+#BEGIN CYBERDISC WEAPON ITEM
   - type: CYBERDISC_WEAPON
     hitAnimation: 170
     hitAnimFrames: 10
