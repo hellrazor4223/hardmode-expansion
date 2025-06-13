@@ -2153,6 +2153,7 @@ items:
     dropoff: 3
   - type: STR_HC_UFOPAEDIA_PAGE_2
     name: STR_HEAVY_CANNON
+    ignoreInCraftEquip: true
     requires:
       - STR_NOT_AVAILABLE
     size: 0.3
@@ -2256,6 +2257,7 @@ items:
     minRange: 3
     dropoff: 4
   - type: STR_AC_UFOPAEDIA_PAGE_2
+    ignoreInCraftEquip: true
     name: STR_AUTO_CANNON
     requires:
       - STR_NOT_AVAILABLE
@@ -2444,6 +2446,7 @@ items:
     minRange: 5
     dropoff: 2
   - type: STR_ROCKET_LAUNCHER_UFOPAEDIA_PAGE_2
+    ignoreInCraftEquip: true
     name: STR_ROCKET_LAUNCHER
     requires:
       - STR_NOT_AVAILABLE
@@ -3343,6 +3346,7 @@ items:
     minRange: 3
     dropoff: 2
   - type: STR_SMALL_LAUNCHER_UFOPAEDIA_PAGE_2
+    ignoreInCraftEquip: true
     name: STR_SMALL_LAUNCHER
     requires:
       - STR_NOT_AVAILABLE
