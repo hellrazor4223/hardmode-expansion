@@ -3457,31 +3457,6 @@ items:
     costSell: 72000
     listOrder: 5800
     waypoints: 9
-#  - type: STR_BLASTER_LAUNCHER_UFOPAEDIA_PAGE_2
-#    ignoreInCraftEquip: true
-#    name: STR_BLASTER_LAUNCHER
-#    requires:
-#      - STR_NOT_AVAILABLE
-#    attraction: 10
-#    size: 0.3
-#    costSell: 72000
-#    weight: 16
-#    bigSprite: 35
-#    floorSprite: 34
-#    handSprite: 56
-#    bulletSprite: 10
-#    fireSound: 53
-#    compatibleAmmo:
-#      - STR_BLASTER_SMOKE_BOMB
-#    accuracyAimed: 120
-#    tuAimed: 66
-#    battleType: 1
-#    twoHanded: true
-#    waypoints: 9
-#    invWidth: 2
-#    invHeight: 3
-#    recoveryPoints: 5
-#    armor: 50
   - type: STR_BLASTER_BOMB
     supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 368
@@ -3490,66 +3465,6 @@ items:
     costSell: 8514
     listOrder: 5900
     dropoff: 0
-#  - type: STR_BLASTER_STUN_BOMB
-#    supportedInventorySections: *HOLSTER_FORBIDDEN
-#    requires:
-#      - STR_BLASTER_STUN_BOMB
-#    size: 0.2
-#    costSell: 17028
-#    weight: 3
-#    bigSprite:
-#    floorSprite:
-#    hitSound: 0
-#    hitAnimation: 64
-#    bulletSprite:
-#    power: 200
-#    damageType: 6
-#    clipSize: 1
-#    battleType: 2
-#    invWidth: 1
-#    invHeight: 2
-#    blastRadius: 10
-#    dropoff: 0
-#  - type: STR_BLASTER_FIRE_BOMB
-#    supportedInventorySections: *HOLSTER_FORBIDDEN
-#    requires:
-#      - STR_BLASTER_FIRE_BOMB
-#    size: 0.2
-#    costSell: 17028
-#    weight: 3
-#    bigSprite:
-#    floorSprite:
-#    hitSound: 0
-#    hitAnimation: 0
-#    bulletSprite:
-#    power: 200
-#    damageType: 2
-#    clipSize: 1
-#    battleType: 2
-#    invWidth: 1
-#    invHeight: 2
-#    blastRadius: 10
-#    dropoff: 0
-#  - type: STR_BLASTER_SMOKE_BOMB
-#    supportedInventorySections: *HOLSTER_FORBIDDEN
-#    requires:
-#      - STR_BLASTER_SMOKE_BOMB
-#    size: 0.2
-#    costSell: 17028
-#    weight: 3
-#    bigSprite:
-#    floorSprite:
-#    hitSound: 0
-#    hitAnimation: 64
-#    bulletSprite:
-#    power: 200
-#    damageType: 2
-#    clipSize: 1
-#    battleType: 2
-#    invWidth: 1
-#    invHeight: 2
-#    blastRadius: 10
-#    dropoff: 0
 #END BLASTER LAUNCHER ITEM
 
 #BEGIN ALIEN GRENADE ITEM
