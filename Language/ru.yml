@@ -168,6 +168,8 @@ ru:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
+  STR_DRONE_FLARE_WEAPON: ""
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
   STR_DRONE_SMOKE_WEAPON: "Дымовая установка Дрона"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -204,7 +206,7 @@ ru:
   STR_DRONE_MEDIKIT_WEAPON: "Аптечка Дрона"
   STR_DRONE_MEDIKIT_CORPSE: "Поврежденный Дрон/Аптечка"
   STR_DRONE_MEDIKIT_REPAIR: "Ремонт Дрона/Аптечка"
-  STR_DRONE_MEDIKIT_UFOPEDIA: "Этот разведывательный дрон был оснащен слегка модифицированной версией нашей ручной аптечки, что позволяет ему лечить союзников и врагов даже в самых опасных ситуациях. Сам дрон может использоваться для разведывательных целей, но учтите - его броню пришлось ослабить для установки медицинского оборудования. Дрон можно использовать так же, как и солдата, экипированного аптечкой; зарядов в аптечке в два раза больше нормы."
+  STR_DRONE_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "Дрон/Аптечка -> Сканер"
   STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "Дрон/Аптечка -> Тазер"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Дрон/Аптечка -> Разведчик (СП)"
@@ -229,6 +231,8 @@ ru:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Дрон/Тазер -> Тазер (СП)"
 
+  STR_ALLOY_DRONE_FLARE_WEAPON: ""
+  STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -281,7 +285,7 @@ ru:
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: ""
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: ""
-  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "Оснащение прошлых дронов сплавной броней позволило также улучшить дизайн системы медицинской поддержки. Теперь в нем содержится больше медикаментов для лечения раненых друзей и врагов. Изменение дизайно модуля постановки диагноза и применения медикаментов также позволяет проводить более быстрое лечение. Содержится двойное количество зарядов Продвинутой Аптечки."
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: ""
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: ""
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: ""
@@ -307,6 +311,8 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: ""
 
+  STR_HOVERDRONE_FLARE_WEAPON: ""
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: ""
   STR_HOVERDRONE_SMOKE_WEAPON: ""
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: ""
 

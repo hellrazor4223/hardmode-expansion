@@ -168,6 +168,8 @@ ja:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
+  STR_DRONE_FLARE_WEAPON: ""
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
   STR_DRONE_SMOKE_WEAPON: "ドローン用煙弾筒"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "この小さな装置はドローン用の発煙弾筒で、小規模の煙幕を展開して敵の射線から自身や付近の味方を遮ることができる。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
@@ -204,7 +206,7 @@ ja:
   STR_DRONE_MEDIKIT_WEAPON: "ドローン用メディキット"
   STR_DRONE_MEDIKIT_CORPSE: "大破したドローン/メディキット"
   STR_DRONE_MEDIKIT_REPAIR: "ドローン/メディキットの修理"
-  STR_DRONE_MEDIKIT_UFOPEDIA: "このスカウト用ドローンは携帯用メディキットの改造版を備えており、味方或いは敵が例え瀕死の状態でも手当をする事ができる。ドローン自体は従来通りスカウトにも用いる事が出来るが医療器具を搭載した分装甲が貧弱になっている事に注意しなければならない。搭載されているメディキットの効果は兵用のものと同じだが、容量が2倍に増えている。"
+  STR_DRONE_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "ドローン/メディキット -> スキャナー"
   STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "ドローン/メディキット -> テーザー"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "ドローン/メディキット -> 合金スカウト"
@@ -229,6 +231,8 @@ ja:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "ドローン/テーザー -> 合金メディキット改"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "ドローン/テーザー -> 合金テーザー"
 
+  STR_ALLOY_DRONE_FLARE_WEAPON: ""
+  STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON: "合金ドローン用煙弾筒"
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "エイリアン合金の先進性によって発煙弾筒がより頑丈になり射出距離も少々増した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。合金ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
@@ -266,7 +270,7 @@ ja:
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "合金ドローン用メディキット"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "合金ドローン/メディキットの修理"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。従来型の２倍の容量を持つ。"
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "合金ドローン/メディキット -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "合金ドローン/メディキット -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "合金ドローン/メディキット -> 合金メディキット改"
@@ -281,7 +285,7 @@ ja:
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "合金ドローン用メディキット改"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット改"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: "合金ドローン/メディキット改の修理"
-  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "オリジナル版にエイリアン合金製の装甲に換装する事でメディキットによる支援方式を改善する事に成功し、手当が必要な敵および味方をより多くの医療品で治療できる様になった。診断と治療モジュールの再設計のお陰でより迅速な野戦治療が可能となり、改良型メディキットの２倍の容量を持つ様になった。"
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: "合金ドローン/メディキット改 -> 合金スカウト"
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: "合金ドローン/メディキット改 -> 合金スキャナー"
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: "合金ドローン/メディキット 改-> 合金テーザー"
@@ -307,6 +311,8 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: "合金ドローン/テーザー -> ホバーメディキット改"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: "合金ドローン/テーザー -> ホバーテーザー"
 
+  STR_HOVERDRONE_FLARE_WEAPON: ""
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: ""
   STR_HOVERDRONE_SMOKE_WEAPON: "ホバードローン用煙弾筒"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "さらなる技術の研さんよって敵の射線を遮る発煙弾筒の射程と装弾数が増加した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。改良型の煙幕は使い様で有利にもなれば不利にもなる。ホバードローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
@@ -334,7 +340,7 @@ ja:
   STR_HOVERDRONE_ADVANCED_MEDIKIT_WEAPON: "ホバードローン メディキット改"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE: "大破したホバードローン/メディキット改"
   STR_HOVERDRONE_ADVANCED_MEDIKIT_REPAIR: "ホバードローン/メディキット改の修理"
-  STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA: "3D (立体的) 機動が可能な自動化メディックは最も危険な戦場における沈痛、HP回復そして甦生に従事するが、不幸な事に装甲は減少した。反面、より多くの医療機器を搭載する事で敵味方双方に対し必要な治療を施すことができる様になった。診断機能と治療モジュールを再設計した結果、より素早い施術が可能となった。従来の倍量の改良型メディキットを搭載。"
+  STR_HOVERDRONE_ADVANCED_MEDIKIT_UFOPEDIA: ""
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_SCOUT: "ホバードローン/メディキット改 -> ホバースカウト"
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_SCANNER: "ホバードローン/メディキット改 -> ホバースキャナー"
   STR_UPGRADE_HOVERDRONE_ADVANCED_MEDIKIT_TO_HOVER_TASER: "ホバードローン/メディキット改 -> ホバーテーザー"

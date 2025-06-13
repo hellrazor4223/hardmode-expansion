@@ -35,6 +35,7 @@ Version 0.99.9.8
  - Add Iventoryimages / Combat Analysis Articles for ufoPaedia for Hoverdrones
  - Disable extendedRunningCost permanently (keep my Drones running and stopping for enemy spottings)
  - Remove Dustoff = Fuckoff
+ - Update Language Files from transifex
 
 Version 0.99.9.7
  - Fix Wrong Unknown Var definition in alienDeployments

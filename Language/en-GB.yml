@@ -168,6 +168,8 @@ en-GB:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
+  STR_DRONE_FLARE_WEAPON: "Drone Flare Launcher"
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: "This small attachement to our Drone/Scout allows to illuminate the night with Electro Flares. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Drone/Scout can now help our soldiers to see in the dark."
   STR_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Drones to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Drones in smoke cover might attract enemy grenades."
 
@@ -229,6 +231,8 @@ en-GB:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "Drone/Taser -> Alloy Adv. Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
+  STR_ALLOY_DRONE_FLARE_WEAPON: "Alloy Drone Flare Launcher"
+  STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: "Thanks to alien alloys the deployment range and clipsize was a little bit increased. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Alloy Drone/Scout can now help our soldiers to see in the dark."
   STR_ALLOY_DRONE_SMOKE_WEAPON: "Alloy Drone Smoke Launcher"
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "The technological advancements with Alien Alloys allowed for a stronger chase for the smoke launcher, giving it slightly higher range then our base design version. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Alloy Drones in smoke cover might attract enemy grenades."
 
@@ -307,6 +311,8 @@ en-GB:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Taser -> Hover Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: "Alloy Drone/Taser -> Hover Taser"
 
+  STR_HOVERDRONE_FLARE_WEAPON: "Hoverdrone Flare Launcher"
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: "Furthers advances in our technological development has lead to clip and deployment range increase to lauchn more Flares over a wider distance. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Hoverdrone/Scout can now help our soldiers to see in the dark."
   STR_HOVERDRONE_SMOKE_WEAPON: "Hoverdrone Smoke Launcher"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "Further advancing our engineering capabilities has also given us a boost in regard of the smoke pellets deploy range and capacity, which will allow for a effective way to hide before our enemies line of sight. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hoverdrones in smoke cover might attract enemy grenades."
 
