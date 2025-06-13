@@ -6,6 +6,9 @@ crafts:
 #BEGIN SKYRANGER
   - type: STR_SKYRANGER
     score: 300
+    vehicles: 6
+    maxSmallVehicles: 4
+    maxLargeVehicles: 2
 #END SKYRANGER
 
 #BEGIN SKYSTRIKER
@@ -18,7 +21,9 @@ crafts:
     speedMax: 1200
     accel: 3
     soldiers: 16
-    vehicles: 3
+    vehicles: 6
+    maxSmallVehicles: 4
+    maxLargeVehicles: 2
     costSell: 345000
     costRent: 250000
     refuelRate: 80
@@ -64,7 +69,9 @@ crafts:
     weapons: 1
     repairRate: 3
     soldiers: 20
-    vehicles: 3
+    vehicles: 6
+    maxSmallVehicles: 4
+    maxLargeVehicles: 2
     refuelItem: STR_ELERIUM_115
     refuelRate: 5
     score: 450
@@ -113,7 +120,9 @@ crafts:
     weapons: 2
     repairRate: 3
     soldiers: 26
-    vehicles: 4
+    vehicles: 7
+    maxSmallVehicles: 4
+    maxLargeVehicles: 3
     refuelItem: STR_ELERIUM_115
     refuelRate: 5
     score: 600

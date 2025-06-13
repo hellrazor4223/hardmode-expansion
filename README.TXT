@@ -144,6 +144,7 @@ Additional Alien Races/Units:
 
 General Gameplay changes:
 	X-Com starts with 2 Skyrangers and 1 Interceptor
+	X-Com Craft loose one Tank Slot but gain 4 Drone Slots
 	Your Soldiers will be awarded with Medals (currently there are 61 Medals).
 	Globe with 347 Cities (including vanilla ones)
 	Better Globe with more textures
