@@ -35,6 +35,7 @@ Version 0.99.9.8
  - Add Iventoryimages / Combat Analysis Articles for ufoPaedia for AlloyDrones
  - Add Iventoryimages / Combat Analysis Articles for ufoPaedia for Hoverdrones
  - Add Quickdraw Holster for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
+ - Add X-Com Craft loose one Tank Slot but gain 4 Drone Slots
  - Disable extendedRunningCost permanently (keep my Drones running and stopping for enemy spottings)
  - Remove Dustoff = Fuckoff
  - Update Language Files from transifex
