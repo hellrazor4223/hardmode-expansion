@@ -1,6 +1,6 @@
 en-GB:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.8 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.9 by hellrazor"
   STR_GROUND: "GROUND {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "BRIEFINGS AND NEWS"
   STR_HEAVY_WEAPONS_PLATFORMS: "BASE FACILITIES"
@@ -27,6 +27,7 @@ en-GB:
   STR_ALIEN_BASE_GAMESTART: "Alien Base"
   STR_ALIEN_BASE_GAMESTART_ASSAULT: "ALIEN BASE ASSAULT"
   STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: "X-Com operatives have gained entrance to an alien base. The control center must be destroyed to render the base inoperative. The mission will terminate when all enemies are eliminated, or when your squad has returned to the green exit area (click on the 'abort mission' icon to escape)."
+  STR_HOLSTER: "HOLSTER"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -76,12 +77,12 @@ en-GB:
   STR_HOVERTANK_UFOPEDIA: "After we now successfully replicated the core design of how the alien crafts work, our research and engineering team started at the adaptation of these new technologies to our Heavy Weapon Platforms. The result allow us now to build flying Heavy Weapon Platforms, granting those higher mobility, enhanced scouting and target acquisition capabilities."
 
   STR_WALKERTANK: "Walking HWP's"
-  STR_WALKERTANK_UFOPEDIA: "The most unbelievable thesis of how the aliens control these giant walking death machines has now been confirmed. A psionic link is established between biological alien units and these robots of death and despair over a small operational territory, in and around UFO's, alien bases or during a ongoing field mission.  We do now understand enough that we can attempt to remove this ability, by hacking a restarted and on the battelfield disabled unit, this will enable use to gain control of it and use it against its former masters! To attempt a hack we need a alive Sectopod of any kind and knowledge of its main weaponry."
+  STR_WALKERTANK_UFOPEDIA: "The most unbelievable thesis of how the aliens control these giant walking death machines has now been confirmed. A psionic link is established between biological alien units and these robots of death and despair over a small operational territory, in and around UFO's, alien bases or during a ongoing field mission.  We do now understand enough that we can attempt to remove this ability, by hacking a restarted and on the battelfield disabled unit, this will enable us to gain control of it and use it against its former masters! To attempt a hack we need a alive Sectopod of any kind and knowledge of its main weaponry."
 #END BRIEFINGS
 
 #BEGIN NEWS
   STR_NEWS_1: "World News Update"
-  STR_NEWS_1_UFOPEDIA: "* Three confirmed dead in small African village after 'energy weapon' strikes house.{NEWLINE}* Alarming number of mysterious disappearances in Cape Town puts residents on edge.{NEWLINE}* A young man in germany, Berlin, reports that he had contact with superiour extraterrestrial beings, which told him to be ready for the great things to come, the big sanatization.{NEWLINE}* Media networks across the globe scramble to acquire coveted footage of live aliens.{NEWLINE}* Crowds gather near Tijuana to view unusual lights seen flying erratically over the city.{NEWLINE}* Self-proclaimed abductees claim to be taken captive by pink, floating and caped humanoid creatures."
+  STR_NEWS_1_UFOPEDIA: "* Three confirmed dead in small African village after 'energy weapon' strikes house.{NEWLINE}* Alarming number of mysterious disappearances in Cape Town puts residents on edge.{NEWLINE}* A young man in germany, Berlin, reports that he had contact with superiour extraterrestrial beings, which told him to be ready for the great things to come, the big sanitization.{NEWLINE}* Media networks across the globe scramble to acquire coveted footage of live aliens.{NEWLINE}* Crowds gather near Tijuana to view unusual lights seen flying erratically over the city.{NEWLINE}* Self-proclaimed abductees claim to be taken captive by pink, floating and caped humanoid creatures."
 
   STR_NEWS_2: "World News Update"
   STR_NEWS_2_UFOPEDIA: "* Local media outlets outraged over increasing censorship of government activities in Russia.{NEWLINE}* Rival political and ideological groups are now placing the blame for alien hostility on each other.{NEWLINE}* No longer alone - Documentary claims to have 'exclusive' information on aliens intentions for Earth.{NEWLINE}* Royal Astronomical Society says recent sightings of unusual lights can be attributed to large solar flare.{NEWLINE}* Russian pop singer offers to allow aliens 'to abduct her'... no response from the alleged alien invaders.{NEWLINE}* Dublin residents report sighting large, bipedal predators attacking livestock."
@@ -169,15 +170,15 @@ en-GB:
 
 #BEGIN DRONES
   STR_DRONE_FLARE_WEAPON: "Drone Flare Launcher"
-  STR_DRONE_FLARE_WEAPON_UFOPEDIA: "This small attachement to our Drone/Scout allows to illuminate the night with Electro Flares. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Drone/Scout can now help our soldiers to see in the dark."
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: "This small attachment to our Drone/Scout allows to illuminate the night with Electroflares. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Drone/Scout can now help our soldiers to see in the dark."
   STR_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
-  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Drones to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Drones in smoke cover might attract enemy grenades."
+  STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Drones to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Be advised smoke can work to your advantage or disadvantage. Drones in smoke cover might attract enemy grenades."
 
   STR_DRONE_SCOUT: "Drone/Scout"
   DRONE_SCOUT_ARMOR: "Combat Analysis: Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
   STR_DRONE_SCOUT_REPAIR: "Repair Drone/Scout"
-  STR_DRONE_SCOUT_UFOPEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire."
+  STR_DRONE_SCOUT_UFOPEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire. Furthermore it can launch a limited number of Electroflares, for initial illumination at night missions."
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "Drone/Scout -> Scanner"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "Drone/Scout -> Medikit"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "Drone/Scout -> Taser"
@@ -240,7 +241,7 @@ en-GB:
   ALLOY_DRONE_SCOUT_ARMOR: "Combat Analysis: Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
-  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
+  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout. Furthermore it can launch a limited number of Electroflares, for initial illumination at night missions."
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Alloy Drone/Scout -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Alloy Drone/Scout -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Scout -> Alloy Adv. Medikit"
@@ -320,7 +321,7 @@ en-GB:
   HOVERDRONE_SCOUT_ARMOR: "Combat Analysis: Hoverdrone/Scout"
   STR_HOVERDRONE_SCOUT_CORPSE: "Damaged Hoverdrone/Scout"
   STR_HOVERDRONE_SCOUT_REPAIR: "Repair Hoverdrone/Scout"
-  STR_HOVERDRONE_SCOUT_UFOPEDIA: "The scout version of our 3D maneuverable drones, features the same damage absorbtion as our floating Heavy Weapon Plattforms combined with a smaller size. Optimal for seaking out enemies in obscure or dangerous places. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
+  STR_HOVERDRONE_SCOUT_UFOPEDIA: "The scout version of our 3D maneuverable drones, features the same damage absorbtion as our floating Heavy Weapon Plattforms combined with a smaller size. Optimal for seaking out enemies in obscure or dangerous places. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout. Furthermore it can launch a limited number of Electroflares, for initial illumination at night missions."
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_SCANNER: "Hoverdrone/Scout -> Hover Scanner"
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_ADVANCED_MEDIKIT: "Hoverdrone/Scout -> Hover Adv. Medikit"
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: "Hoverdrone/Scout -> Hover Taser"

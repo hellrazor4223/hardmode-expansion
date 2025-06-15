@@ -951,7 +951,7 @@
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#Research Tree for 
-Hardmode Expansion Mod 0.99.9.8
+Hardmode Expansion Mod 0.99.9.9
  by hellrazor#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">

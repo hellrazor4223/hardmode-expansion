@@ -1,6 +1,6 @@
 fr:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.8 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.9 by hellrazor"
   STR_GROUND: "SOL {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: ""
   STR_HEAVY_WEAPONS_PLATFORMS: ""
