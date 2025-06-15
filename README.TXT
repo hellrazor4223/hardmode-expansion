@@ -54,7 +54,7 @@ Some general advice when playing:
 	- RETALIATORs or optimal for shooting down TERROR SHIP, I recommend using at least 3 with Dual Laser cannons or Avalanche Misseles
 	- Get a SKYSTRIKER ASAP, its just the better Skyranger ;)
 	- Familerise yourself with the ADVANCED MOVEMENT OPTIONS
-	- Be WARNED about MELEE TERROR UNITS, they will ingore dangers in their way towards your units and they will CHARGE at you!
+	- Be WARNED about MELEE TERROR UNITS, they will ignore dangers in their way towards your units and they will CHARGE at you!
 	- For unlocking the FINAL MISSION a ETHEREAL COMMANDER is needed
 	- The DIFFICULTY will be actually far HIGHER then SUPERHUMAN, considering the changes in economy and research (even for lower difficulty levels)
 	- PLAY IRONMAN!! (Please enforce your own Ironman, having only one savegame for such a big mod, where bugs may happen is kinda a bad thing ok?)
@@ -198,7 +198,7 @@ Economic:
 Groundcombat changes:
 	Chronological Racemixes
 	Aliens are earlier aware of your presence
-	Paniked Alien will pick up their weapons
+	Panicked Alien will pick up their weapons
 	Bigger Map for Terrormissions (60x60 and up to 24 Civilians)
 	Bigger Maps also for Battleship, Terrorships and Labship (all 60x60)
 	Alien will use Explosives and Explosive Weaponry from Turn 1 in Ground Combats
