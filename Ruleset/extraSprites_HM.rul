@@ -938,7 +938,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/Inventory_AlloyDroneScanner.png
-#END ALLOY DRONE SANNER SPRITE
+#END ALLOY DRONE SCANNER SPRITE
 
 #BEGIN ALLOY DRONE MEDIKIT SPRITE
   - type: ALLOY_DRONE_MEDIKIT.PCK

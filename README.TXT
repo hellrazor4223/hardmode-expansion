@@ -53,7 +53,7 @@ Some general advice when playing:
 	- RADAR BASES are needed especially in the BEGINNING (stick with a simple Small Radar, its cheap, or whatever you can efford)
 	- RETALIATORs or optimal for shooting down TERROR SHIP, I recommend using at least 3 with Dual Laser cannons or Avalanche Misseles
 	- Get a SKYSTRIKER ASAP, its just the better Skyranger ;)
-	- Familerise yourself with the ADVANCED MOVEMENT OPTIONS (Running will not trigger mutual surprise, you have been warned!)
+	- Familerise yourself with the ADVANCED MOVEMENT OPTIONS
 	- Be WARNED about MELEE TERROR UNITS, they will ingore dangers in their way towards your units and they will CHARGE at you!
 	- For unlocking the FINAL MISSION a ETHEREAL COMMANDER is needed
 	- The DIFFICULTY will be actually far HIGHER then SUPERHUMAN, considering the changes in economy and research (even for lower difficulty levels)
@@ -127,7 +127,7 @@ Quality of Live OXCE UI changes:
 	Better Smoke Animation (Battlescape UI)
 	Better looking Buttons for Inventory (Battlescape UI)
 	Better Backgrounds for some Screens (Geograph and Battlescape UI)
-	New Plasma Hit Animation for Heavy Plasma (Battlescape UI)
+	New Plasma Hit Animations for all Plasma Weapons (Battlescape UI)
 	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
 	SoldierCountryNames and SoldierCountryFlags from 115 Countries
 
@@ -174,7 +174,7 @@ General Gameplay changes:
 	Attacking a landed Labship performing a Harvesting or Abduction Mission from a Alien Base gives 33% to deny mission success (OXCE only)
 	Attacking the first spawning Abductor on a Abduction Mission from space gives 33% to deny the mission success (OXCE only)
 	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
-	X-Com Base Defense damaging a Alien Battelship during a base attack will result in less Aliens spawning (roughly according with the damage done)
+	X-Com Base Defense damaging a Alien Battleship during a base attack will result in less Aliens spawning (roughly according with the damage done)
 	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only)
 
 Economic:
@@ -183,7 +183,7 @@ Economic:
 		- 50% Vanilla on Superhuman difficulty
 		- 64% Vanilla on Veteran/Genius difficulty
 		- 89% Vanilla on Beginner/Experienced difficulty
-	Base Maintence Cost increased to 10% of base modules price
+	Base Maintance Cost increased to 10% of base modules price
 	X-Com Wages and Hire Cost are 1.5 times Vanilla
 	X-Com Soldiers receive 10% more salary per rank compared to rookie wage:
 		- Squaddi:   33.000
@@ -198,7 +198,7 @@ Economic:
 Groundcombat changes:
 	Chronological Racemixes
 	Aliens are earlier aware of your presence
-	Paniced Alien will pick up their weapons
+	Paniked Alien will pick up their weapons
 	Bigger Map for Terrormissions (60x60 and up to 24 Civilians)
 	Bigger Maps also for Battleship, Terrorships and Labship (all 60x60)
 	Alien will use Explosives and Explosive Weaponry from Turn 1 in Ground Combats
@@ -206,7 +206,7 @@ Groundcombat changes:
 	Ethereals are immune to MC from Xcom
 	Aliens receive a Bravery Bonus (+10, Commanders are removed from Battleship and Base Defense Missions, increased numbers panic to quickly)
 	Aliens have more saner Melee accuracy stats
-	Chryssalids are slightly vulnarable to HE damage (as stated in the UFOpedia)
+	Chryssalids are slightly vulnerable to HE damage (as stated in the UFOpedia)
 	Sectopod does Laser Damage (as stated in UFOpedia)
 	Blaster Waypoints honor DOS Limitation (9 Waypoints)
 	Shotgun Class Weaponry for Xcom and Aliens
@@ -214,12 +214,11 @@ Groundcombat changes:
 	Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
 	Psi-Amps use 25 TU and 25 Stamina (Energy) for Psi Panic or Psi Mind Control attack. Get your Stims ready! (OXCE only)
 	Direct fire smoke acts as fire extinguisher (Smoke Grenades don't)
-	Running will NOT trigger Mutual surprise, you will run towards your target!
 	Units being hit will Flash red as a confirmation
-	Celatids can feel X-Com units through solid obeject within 13 tile range
-	Celatids can self clone themselves as stated in the UfoPaedia (on Earth inear growth pattern, each Celatid one Clone, Clones make new Clones)
+	Celatids can feel X-Com units through solid objects within 13 tile range
+	Celatids can self clone themselves as stated in the UfoPaedia (on Earth linear growth pattern, each Celatid one Clone, Clones make new Clones)
 	Celatids in the Final Mission follow expotential growth pattern
-	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successfull Zombification, this makes Armor really important!
+	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successful Zombification, this makes Armor really important!
 	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
 	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
@@ -240,7 +239,7 @@ Additional Alien Weapons:
 	Smoke Bomb for Small Launcher
 	Fire Bomb for Small Launcher
 	Aliens will keep most weaponry through the game
-	Aliens have all weapons avaible from start
+	Aliens have all weapons avaibel from start
 	Aliens have a secondary plasma weapon clip type granting +20 Damage to all Plasma Weapons, they will slowly transition to those exclusively.
 
 Additional Alien UFOs:
@@ -316,9 +315,9 @@ HWP Rockets for Tank/Rocket Launcher and Alloytank/Rocket Launcher do 100 damage
 Hovertank Launcher Ammo does 200 damage instead of 140
 
 Drones and Tanks can be upgraded, repaired and refitted.
-Drone Medical equipment is twice as effective as when being used by soldier, also has double the charges.
-Tanks and Drones do have a weak Smoke Launcher for instant LOS block with limited range and limited shots.
-Scout Drones have a Flare Launcher additionally to the smoke launcher.
+Drone Medical equipment is twice as effective as when Medikits are used by Soldiers, also has double the charges.
+Tanks and Drones do have a weak Smoke-Launcher for instant LOS block with limited range and limited shots.
+Scout Drones have a Electroflare-Launcher additionally to the Smoke-Launcher.
 
 Additional X-Com Armor:
 	Armored Vest
