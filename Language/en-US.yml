@@ -639,6 +639,13 @@ en-US:
   STR_FIRE_BOMB_UFOPEDIA: "The Fire Bomb, basically a modified Elerium Bomb, which is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the Small Launcher into a weapon for pyromaniacs."
   STR_SMOKE_BOMB: "Smoke Bomb"
   STR_SMOKE_BOMB_UFOPEDIA: "The Smoke Bomb, a modified Stun Bomb, which can be used to generate smoke cover for our troops in the battlefield. Beware that Smoke can be used to your advantage and disadvantage!"
+
+  STR_BLASTER_STUN_BOMB: "Blaster Stun Bomb"
+  STR_BLASTER_STUN_BOMB_UFOPEDIA: "The Blaster Stun Bomb is used for capturing large groups of live human specimens, but it can also be used against most alien races. It is fired from a Blaster Launcher."
+  STR_BLASTER_FIRE_BOMB: "Blaster Fire Bomb"
+  STR_BLASTER_FIRE_BOMB_UFOPEDIA: "The Blaster Fire Bomb, is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the Blaster Launcher into a weapon for extrem pyromaniacs."
+  STR_BLASTER_SMOKE_BOMB: "Blaster Smoke Bomb"
+  STR_BLASTER_SMOKE_BOMB_UFOPEDIA: "The Blaster Smoke Bomb can be used to generate smoke cover for our troops in the battlefield. Beware that Smoke can be used to your advantage and disadvantage!"
 #END WEAPONS
 
 #BEGIN STORY ITEMS

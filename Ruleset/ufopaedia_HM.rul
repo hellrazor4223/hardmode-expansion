@@ -1705,6 +1705,27 @@ ufopaedia:
   - id: STR_BLASTER_BOMB
     section: STR_ALIEN_LIFE_FORMS
     listOrder: 7500
+#  - id: STR_BLASTER_STUN_BOMB
+#    type_id: 4
+#    section: STR_ALIEN_LIFE_FORMS
+#    requires:
+#      - STR_BLASTER_STUN_BOMB
+#    text: STR_BLASTER_STUN_BOMB_UFOPEDIA
+#    listOrder: 7501
+#  - id: STR_BLASTER_FIRE_BOMB
+#    type_id: 4
+#    section: STR_ALIEN_LIFE_FORMS
+#    requires:
+#      - STR_BLASTER_FIRE_BOMB
+#    text: STR_BLASTER_FIRE_BOMB_UFOPEDIA
+#    listOrder: 7502
+#  - id: STR_BLASTER_SMOKE_BOMB
+#    type_id: 4
+#    section: STR_ALIEN_LIFE_FORMS
+#    requires:
+#      - STR_BLASTER_SMOKE_BOMB
+#    text: STR_BLASTER_SMOKE_BOMB_UFOPEDIA
+#    listOrder: 7503
 #END BLASTER LAUNCHER UFOPAEDIA
 
 #BEGIN ALIEN GRENADE UFOPAEDIA
