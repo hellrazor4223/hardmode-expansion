@@ -149,13 +149,13 @@ en-US:
 #END NEWS
 
 #BEGIN CRAFTS
-  STR_IMPROVED_INTERCEPTOR: "Improved Interceptor"
-  STR_RETALIATOR: "RETALIATOR"
-  STR_RETALIATOR_UFOPEDIA: "A standard interceptor which was refitted with an Alien Alloys airframe, which grants more survivability and more speed for optimal interdictions."
-
   STR_IMPROVED_SKYRANGER: "Improved Skyranger"
   STR_SKYSTRIKER: "SKYSTRIKER"
-  STR_SKYSTRIKER_UFOPEDIA: "A standard Skyranger which was refitted with an Alien Alloys airframe and additional engines, allowing us to transport more troops faster to ground combats."
+  STR_SKYSTRIKER_UFOPEDIA: "A standard Skyranger which was refitted with a alien alloy airframe and additional engines, allowing us to transport more troops faster to ground combats."
+
+  STR_IMPROVED_INTERCEPTOR: "Improved Interceptor"
+  STR_RETALIATOR: "RETALIATOR"
+  STR_RETALIATOR_UFOPEDIA: "A standard interceptor which was refitted with a alien alloy airframe, which grants more survivability and more speed for optimal interdictions."
 
   STR_THUNDER: "THUNDER"
   STR_THUNDER_UFOPEDIA: "Transport and Combat Craft. A crude but somewhat effectice replication of alien propulsion, navigation and construction."
@@ -169,8 +169,9 @@ en-US:
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
-  STR_DRONE_FLARE_WEAPON: "Drone Flare Launcher"
-  STR_DRONE_FLARE_WEAPON_UFOPEDIA: "This small attachment to our Drone/Scout allows to illuminate the night with Electroflares. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Drone/Scout can now help our soldiers to see in the dark."
+  STR_DRONE_FLARE_WEAPON: "Drone Electroflare Launcher"
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: "This small attachment to our Drone/Scout allows to illuminate the night with electroflares. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Drone/Scout can now help our soldiers to see in the dark."
+
   STR_DRONE_SMOKE_WEAPON: "Drone Smoke Launcher"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "This small device enables our Drones to launch a small smoke screen around themselves or other nearby units for line of sight protection. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Be advised smoke can work to your advantage or disadvantage. Drones in smoke cover might attract enemy grenades."
 
@@ -178,7 +179,7 @@ en-US:
   DRONE_SCOUT_ARMOR: "Combat Analysis: Drone/Scout"
   STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
   STR_DRONE_SCOUT_REPAIR: "Repair Drone/Scout"
-  STR_DRONE_SCOUT_UFOPEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire. Furthermore it can launch a limited number of Electroflares, for initial illumination at night missions."
+  STR_DRONE_SCOUT_UFOPEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armor of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire. Furthermore it can launch a limited number of electroflares, for initial illumination at night missions."
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "Drone/Scout -> Scanner"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "Drone/Scout -> Medikit"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "Drone/Scout -> Taser"
@@ -207,7 +208,7 @@ en-US:
   STR_DRONE_MEDIKIT_WEAPON: "Drone Medikit"
   STR_DRONE_MEDIKIT_CORPSE: "Damaged Drone/Medikit"
   STR_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
-  STR_DRONE_MEDIKIT_UFOPEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit, it holds double the charges then the Medikit and is twice effective."
+  STR_DRONE_MEDIKIT_UFOPEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit, it holds double the charges then the medikit and is twice effective."
   STR_UPGRADE_DRONE_MEDIKIT_TO_SCANNER: "Drone/Medikit -> Scanner"
   STR_UPGRADE_DRONE_MEDIKIT_TO_TASER: "Drone/Medikit -> Taser"
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Drone/Medikit -> Alloy Scout"
@@ -232,8 +233,9 @@ en-US:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT: "Drone/Taser -> Alloy Adv. Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drone/Taser -> Alloy Taser"
 
-  STR_ALLOY_DRONE_FLARE_WEAPON: "Alloy Drone Flare Launcher"
+  STR_ALLOY_DRONE_FLARE_WEAPON: "Alloy Drone Electroflare Launcher"
   STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: "Thanks to alien alloys the deployment range and clipsize was a little bit increased. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Alloy Drone/Scout can now help our soldiers to see in the dark."
+
   STR_ALLOY_DRONE_SMOKE_WEAPON: "Alloy Drone Smoke Launcher"
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "The technological advancements with Alien Alloys allowed for a stronger chase for the smoke launcher, giving it slightly higher range then our base design version. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Alloy Drones in smoke cover might attract enemy grenades."
 
@@ -241,7 +243,7 @@ en-US:
   ALLOY_DRONE_SCOUT_ARMOR: "Combat Analysis: Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair Alloy Drone/Scout"
-  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout. Furthermore it can launch a limited number of Electroflares, for initial illumination at night missions."
+  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout. Furthermore it can launch a limited number of electroflares, for initial illumination at night missions."
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "Alloy Drone/Scout -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "Alloy Drone/Scout -> Alloy Medikit"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Scout -> Alloy Adv. Medikit"
@@ -271,7 +273,7 @@ en-US:
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Alloy Drone/Medikit"
-  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. Holds double the charges of a Medikit and is twice effective."
+  STR_ALLOY_DRONE_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. Holds double the charges of a medikit and is twice effective."
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Medikit -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Medikit -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_ALLOY_ADVANCED_MEDIKIT: "Alloy Drone/Medikit -> Alloy Adv. Medikit"
@@ -286,7 +288,7 @@ en-US:
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_WEAPON: "Alloy Drone Advanced Medikit"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE: "Damaged Alloy Drone/Adv. Medikit"
   STR_ALLOY_DRONE_ADVANCED_MEDIKIT_REPAIR: "Repair Alloy Drone/Adv. Medikit"
-  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a Advanced Medikit and is twice effective."
+  STR_ALLOY_DRONE_ADVANCED_MEDIKIT_UFOPEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatioin module also allows for a more rapid treatment. Holds double the charges of a advanced medikit and is twice effective."
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCOUT: "Alloy Drone/Adv. Medikit -> Alloy Scout"
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_SCANNER: "Alloy Drone/Adv. Medikit -> Alloy Scanner"
   STR_UPGRADE_ALLOY_DRONE_ADVANCED_MEDIKIT_TO_ALLOY_TASER: "Alloy Drone/Adv. Medikit -> Alloy Taser"
@@ -312,8 +314,8 @@ en-US:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT: "Alloy Drone/Taser -> Hover Adv. Medikit"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: "Alloy Drone/Taser -> Hover Taser"
 
-  STR_HOVERDRONE_FLARE_WEAPON: "Hoverdrone Flare Launcher"
-  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: "Furthers advances in our technological development has lead to clip and deployment range increase to lauchn more Flares over a wider distance. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Hoverdrone/Scout can now help our soldiers to see in the dark."
+  STR_HOVERDRONE_FLARE_WEAPON: "Hoverdrone Electroflare Launcher"
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: "Furthers advances in our technological development has lead to clip and deployment range increase to launch more electoflares over a wider distance. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Hoverdrone/Scout can now help our soldiers to see in the dark."
   STR_HOVERDRONE_SMOKE_WEAPON: "Hoverdrone Smoke Launcher"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "Further advancing our engineering capabilities has also given us a boost in regard of the smoke pellets deploy range and capacity, which will allow for a effective way to hide before our enemies line of sight. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hoverdrones in smoke cover might attract enemy grenades."
 
@@ -393,7 +395,7 @@ en-US:
   ALLOY_TANK_CANNON_ARMOR: "Combat Analysis: Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_CORPSE: "Damaged Alloy Tank/Cannon"
   STR_ALLOY_TANK_CANNON_REPAIR: "Repair Alloy Tank/Cannon"
-  STR_ALLOY_TANK_CANNON_UFOPEDIA: "This is a standard Canon HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but it is slightly faster can take much more abuse."
+  STR_ALLOY_TANK_CANNON_UFOPEDIA: "This is a standard cannon HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, the main gun is now capabale of autofire and it is slightly faster and can take much more abuse."
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_ROCKET: "Alloy Tank/Cannon -> Alloy Rocket"
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_ALLOY_LASER: "Alloy Tank/Cannon -> Alloy Laser"
   STR_UPGRADE_ALLOY_TANK_CANNON_TO_HOVER_LASER: "Alloy Tank/Cannon -> Hover Laser"
@@ -402,7 +404,7 @@ en-US:
   ALLOY_TANK_ROCKET_LAUNCHER_ARMOR: "Combat Analysis: Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_CORPSE: "Damaged Alloy Tank/Rocket"
   STR_ALLOY_TANK_ROCKET_LAUNCHER_REPAIR: "Repair Alloy Tank/Rocket"
-  STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "This is a standard Rocket Launcher HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but its longevity under fire has been greatly increased, and it is somewhat quicker."
+  STR_ALLOY_TANK_ROCKET_LAUNCHER_UFOPEDIA: "This is a standard rocket launcher HWP that has been refitted with light, strong alien alloy armor. Its performance is similar to the original, but its longevity under fire has been greatly increased, and it is somewhat quicker. Its main gun can i now also operate in autoshot mode launching 2 misseles in one salvo."
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_CANNON: "Alloy Tank/Rocket -> Alloy Cannon"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_ALLOY_LASER: "Alloy Tank/Rocket -> Alloy Laser"
   STR_UPGRADE_ALLOY_TANK_ROCKET_LAUNCHER_TO_HOVER_LASER: "Alloy Tank/Rocket -> Hover Laser"
@@ -411,17 +413,17 @@ en-US:
   ALLOY_TANK_LASER_CANNON_ARMOR: "Combat Analysis: Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_CORPSE: "Damaged Alloy Tank/Laser"
   STR_ALLOY_TANK_LASER_CANNON_REPAIR: "Repair Alloy Tank/Laser"
-  STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor."
+  STR_ALLOY_TANK_LASER_CANNON_UFOPEDIA: "The pinnacle of X-Com tracked HWP technology. It employs both the powerful laser cannon designed by our scientists, and light, strong alien alloy armor. Its main weapon is capable of autofire burst mode, to quickly dispatch of close range targets."
   STR_UPGRADE_ALLOY_TANK_LASER_CANNON_TO_HOVER_LASER: "Alloy Tank/Laser -> Hover Laser"
 
   STR_HOVERTANK_SMOKE_WEAPON: "Hovertank Smoke Launcher"
-  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: "Replicating the UFO base designs allowed some further advancements with the Smoke launching chasey, extending its range further then before. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hovertanks are able to smoke each other in midair, be advised that floating Hovertanks might not be able to gain smoke cover be themselves. They might attract grenades."
+  STR_HOVERTANK_SMOKE_WEAPON_UFOPEDIA: "Replicating the UFO base designs allowed some further advancements with the smoke launching chasey, extending its range further then before. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hovertanks are able to smoke each other in midair, be advised that floating hovertanks might not be able to gain smoke cover be themselves. They might attract grenades."
 
   STR_HOVERTANK_LASER: "Hovertank/Laser"
   HOVERTANK_LASER_ARMOR: "Combat Analysis: Hovertank/Laser"
   STR_HOVERTANK_LASER_CORPSE: "Damaged Hovertank/Laser"
   STR_HOVERTANK_LASER_REPAIR: "Repair Hovertank/Laser"
-  STR_HOVERTANK_LASER_UFOPEDIA: "This complete new tank design is based upon UFO technology and our own laser technology. It combines 3 dimensional mobility and the firepower of the Laser Cannon into a very deadly combination."
+  STR_HOVERTANK_LASER_UFOPEDIA: "This complete new tank design is based upon UFO technology and our own laser technology. It combines 3 dimensional mobility and the firepower of the laser cannon into a very deadly combination. Autofire capabilites and the target selection unit have been further improved, allowing for strong burst and single fire mode over a bigger distance."
   STR_UPGRADE_HOVERTANK_LASER_TO_EBOMB: "Hovertank/Laser -> Hover EBomb"
   STR_UPGRADE_HOVERTANK_LASER_TO_PLASMA: "Hovertank/Laser -> Hover Plasma"
   STR_UPGRADE_HOVERTANK_LASER_TO_LAUNCHER: "Hovertank/Laser -> Hover Launcher"
@@ -432,13 +434,15 @@ en-US:
   HOVERTANK_EBOMB_ARMOR: "Combat Analysis: Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_CORPSE: "Damaged Hovertank/Elerium Bomb"
   STR_HOVERTANK_EBOMB_REPAIR: "Repair Hovertank/Elerium Bomb"
-  STR_HOVERTANK_EBOMB_UFOPEDIA: "This tank design combines UFO technology and Small Launcher weaponry. The ability to fire Elerium Bombs from within midair should be deadly to most foes. It's main purpose is similar to our tracked Rocket Launcher tanks, but with an increased clip size."
+  STR_HOVERTANK_EBOMB_UFOPEDIA: "This tank design combines UFO technology and small launcher weaponry. The ability to fire elerium bombs from within midair should be deadly to most foes. It's main purpose is similar to our tracked rocket launcher tanks, but with an increased clip size."
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: "Hovertank/EBomb -> Hover Plasma"
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: "Hovertank/EBomb -> Hover Launcher"
 
+  STR_HOVERTANK_PLASMA: "Hovertank/Plasma"
   HOVERTANK_PLASMA_ARMOR: "Combat Analysis: Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_CORPSE: "Damaged Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_REPAIR: "Repair Hovertank/Plasma"
+  STR_HOVERTANK_PLASMA_UFOPEDIA: "Alien technology has given the HWP a new lease of life. The added maneuverability of air travel and the power of plasma beams is a lethal combination. Capable of sustaining prolonged burst autofire at medium range and shooting precisely at targets shortly behind visual range, this tank can hold his own on the field easily."
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: "Hovertank/Plasma -> Hover Launcher"
 
   HOVERTANK_LAUNCHER_ARMOR: "Combat Analysis: Hovertank/Launcher"
@@ -447,20 +451,20 @@ en-US:
   STR_UPGRADE_HOVERTANK_LAUNCHER_TO_PLASMA: "Hovertank/Launcher -> Hover Plasma"
 
   STR_WALKERTANK_SMOKE_WEAPON: "Walkertank Smoke Launcher"
-  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "Attaching our already advanced Smoke Launcher to converted enemy weaponry, showed some big advantages, we were able to nearly double the ammo capacity for it. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Walkertanks are able to create an thick smoke screen between themselves or friends and any enemy unit nearby. Be advised that Walkertanks in smoke cover might attract Blaster Bombs or Grenades from the enemy."
+  STR_WALKERTANK_SMOKE_WEAPON_UFOPEDIA: "Attaching our already advanced smoke launcher to converted enemy weaponry, showed some big advantages, we were able to nearly double the ammo capacity for it. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Be advised smoke can work to your advantage or disadvantage. Walkertanks are able to create a thick smoke screen between themselves or friends and any enemy unit nearby. Be advised that Walkertanks in smoke cover might attract blaster bombs or grenades from the enemy."
 
   STR_WALKERTANK_LASER: "Walkertank/Laser"
   WALKERTANK_LASER_ARMOR: "Combat Analysis: Walkertank/Laser"
   STR_WALKERTANK_LASER_CORPSE: "Damaged Walkertank/Laser"
   STR_WALKERTANK_LASER_REPAIR: "Repair Walkertank/Laser"
-  STR_WALKERTANK_LASER_UFOPEDIA: "Destroying the psionic link between a Sectopod and his mindpowered masters, allows us to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process and had to be removed, resulting in a slower processing speed, but lowered the vulnerability for laser weapons. We need a undamaged Sectopod to attempt a hack."
+  STR_WALKERTANK_LASER_UFOPEDIA: "Destroying the psionic link between a sectopod and his mindpowered masters, allows us to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process and had to be removed, resulting in a slower processing speed, but lowered the vulnerability for laser weapons. We need a undamaged Sectopod to attempt a hack."
   STR_UPGRADE_WALKERTANK_LASER_TO_PLASMA: "Walkertank/Laser -> Walker Plasma"
 
   STR_WALKERTANK_PLASMA: "Walkertank/Plasma"
   WALKERTANK_PLASMA_ARMOR: "Combat Analysis: Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_CORPSE: "Damaged Walkertank/Plasma"
   STR_WALKERTANK_PLASMA_REPAIR: "Repair Walkertank/Plasma"
-  STR_WALKERTANK_PLASMA_UFOPEDIA: "After cutting the psionic link, so this unit is no longer controlleable by Ethereals, we managed to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process, resulting in a slower processing speed. We need a undamaged Armored Sectopod to attempt a hack."
+  STR_WALKERTANK_PLASMA_UFOPEDIA: "After cutting the psionic link, so this unit is no longer controlleable by ethereals, we managed to hack our way into its operating system. Unfortunatly some of systems were damaged in the hacking process, resulting in a slower processing speed. We need a undamaged Armored Sectopod to attempt a hack."
 #END TANKS
 
 #BEGIN ARMORS
@@ -477,17 +481,20 @@ en-US:
   STR_ALLOY_VEST_UC: "ALLOY VEST"
   STR_ALLOY_VEST_CORPSE: "Damaged Alloy Vest"
   STR_ALLOY_VEST_REPAIR: "Repair Alloy Vest"
-  STR_ALLOY_VEST_UFOPEDIA: "This ballistic vest is reinforced with Alien Alloys for greatly improved durability."
+  STR_ALLOY_VEST_UFOPEDIA: "This ballistic vest is reinforced with alien alloys for greatly improved durability and some plasma weapon resistance."
   STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR: "Alloy Vest -> Personal Armor"
 
+  STR_PERSONAL_ARMOR: "Personal Armor"
+  STR_PERSONAL_ARMOR_UC: "PERSONAL ARMOR"
   STR_PERSONAL_ARMOR_CORPSE: "Damaged Personal Armor"
   STR_PERSONAL_ARMOR_REPAIR: "Repair Personal Armor"
+  STR_PERSONAL_ARMOR_UFOPEDIA: "Using the newly discovered alien alloys, this completly new armor gives our men a fighting chance against the alien threat. We managed to give it a good resistance to the alien plasma weaponry, but only field testing will show us its real value."
   STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT: "Personal Armor -> Power Suit"
   STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: "Personal Armor -> Flying Suit"
 
   STR_POWER_SUIT_CORPSE: "Damaged Power Suit"
   STR_POWER_SUIT_REPAIR: "Repair Power Suit"
-  STR_POWER_SUIT_UFOPEDIA: "A powerful new protection for soldiers, this armor is powered by an Elerium energy source, creating a light antigravity field and greatly amplifying the endurance of the wearer, it offers the best protection yet for combat troops."
+  STR_POWER_SUIT_UFOPEDIA: "A powerful new protection for soldiers, this armor is powered by an elerium energy source, creating a light antigravity field and greatly amplifying the endurance of the wearer combined with increased plasma weapon resistance, it offers the best protection yet for combat troops."
   STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT: "Power Suit -> Flying Suit"
   STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT: "Power Suit -> Reinf. Power Suit"
   STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: "Power Suit -> Reinf. Flying Suit"
@@ -501,14 +508,14 @@ en-US:
   STR_REINFORCED_POWER_SUIT_UC: "REINFORCED POWER SUIT"
   STR_REINFORCED_POWER_SUIT_CORPSE: "Damaged Reinforced Power Suit"
   STR_REINFORCED_POWER_SUIT_REPAIR: "Repair Reinforced Power Suit"
-  STR_REINFORCED_POWER_SUIT_UFOPEDIA: "A upgraded version of our initial Power Suit design, it features a bigger protective ability and increases also the movement speed of the wearer."
+  STR_REINFORCED_POWER_SUIT_UFOPEDIA: "A upgraded version of our initial Power Suit design, it features a bigger protective ability, even better plasma weapon resistance, new enhanced servo motors, increasing the movement speed of the wearer and a targetting help system to increase reaction shot capabilities."
   STR_UPGRADE_REINFORCED_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: "Reinf. Power Suit -> Reinf. Flying Suit"
 
   STR_REINFORCED_FLYING_SUIT: "Reinforced Flying Suit"
   STR_REINFORCED_FLYING_SUIT_UC: "REINFORCED FLYING SUIT"
   STR_REINFORCED_FLYING_SUIT_CORPSE: "Damaged Reinforced Flying Suit"
   STR_REINFORCED_FLYING_SUIT_REPAIR: "Repair Reinforced Flying Suit"
-  STR_REINFORCED_FLYING_SUIT_UFOPEDIA: "This is a upgraded version of our former Flying Suit design, its protective abilities have been greatly improved and we also managed to increase the speed of the wearer somewhat."
+  STR_REINFORCED_FLYING_SUIT_UFOPEDIA: "This is a upgraded version of our former flying suit design, its protective abilities have been greatly improved, the enhanced servo motors from the enhanced power suit design also allows a increased movement speed of the wearer, the enhanced tagretting system for reactionshot also found its way into this design and further enhanced plasma weapon resistance. The best armor our troops can acquire."
 #END ARMORS
 
 #BEGIN WEAPONS
@@ -516,7 +523,7 @@ en-US:
   STR_COMBAT_KNIFE_UFOPEDIA: "Using its hardened edge and point, a trained field operative can silently kill a lightly-armored enemy with a single slash or thrust.{NEWLINE}Suitable for close encounters of any kind.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_ALLOY_KNIFE: "Alloy Knife"
-  STR_ALLOY_KNIFE_UFOPEDIA: "This combat knife was made from Alien Alloys, which allow for an edge sharper than any other material we can use for this purpose.{NEWLINE}The users strength value increases the damage done by its value."
+  STR_ALLOY_KNIFE_UFOPEDIA: "This combat knife was made from alien alloys, which allow for an edge sharper than any other material we can use for this purpose.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_ALLOY_SWORD: "Alloy Sword"
   STR_ALLOY_SWORD_UFOPEDIA: "This specially crafted sword is a formidable close combat weapon, utilizing a soldier's strength and skill to take down even heavily armored foes.{NEWLINE}The users strength value increases the damage done by its value."
@@ -531,7 +538,7 @@ en-US:
   STR_TASER_PISTOL_UFOPEDIA: "A non-lethal weapon derived from a very recent police design, capable of incapacitating targets up to 15 meters away. While it delivers a less powerful charge than blunt-force stun weapons, its stylish pistol grip grants easy handling, and the range alone makes it a worthwhile asset."
   STR_TASER_PISTOL_ELERIUM_CLIP: "Taser Pistol Elerium Clip"
   STR_TASER_PISTOL_ELERIUM_CLIP_X2: "Taser Pistol Elerium Clip [x2]"
-  STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA: "These non-lethal weapon powercells derived from a very recent police design, capable of incapacitating targets up to 15 meters away. Using Elerium-115 to fuel these powercells gives a way higher stun capability as our former purely human made designs."
+  STR_TASER_PISTOL_ELERIUM_CLIP_UFOPEDIA: "These non-lethal weapon powercells derived from a very recent police design, capable of incapacitating targets up to 15 meters away. Using elerium-115 to fuel these powercells gives a way higher stun capability as our former purely human made designs."
 
   STR_SHOTGUN: "Shotgun"
   STR_SHOTGUN_CLIP: "Shotgun Shells"
@@ -544,13 +551,13 @@ en-US:
   STR_SNIPER_RIFLE_UFOPEDIA: "This 12.7-mm caliber sniper rifle is more powerful than a standard rifle and has excellent accuracy. However, it is harder to use and has a low rate of fire."
 
   STR_HC_AA_AMMO: "HC-AP Alloy Ammunition"
-  STR_HC_AA_AMMO_UFOPEDIA: "This clip for the Heavy Cannon is made with Alien Alloys for increased power."
+  STR_HC_AA_AMMO_UFOPEDIA: "This clip for the Heavy Cannon is made with alien alloys for increased power and better target penetration against armored units."
   STR_HC_EHE_AMMO: "HC-EHE Elerium HE Ammunition"
-  STR_HC_EHE_AMMO_UFOPEDIA: "This clip for the Heavy Cannon combines Alien Alloys and Elerium-115 into one deadly area of effect explosive shell. Beware of the blast radius, when used in close quarter combat."
+  STR_HC_EHE_AMMO_UFOPEDIA: "This clip for the Heavy Cannon combines alien alloys and elerium-115 into one deadly area of effect explosive shell. Beware of the blast radius, when used in close quarter combat, deadly against most foes. Turning the Heavy Cannon into a small multirocket launcher."
   STR_AC_AA_AMMO: "AC-AP Alloy Ammunition"
-  STR_AC_AA_AMMO_UFOPEDIA: "This clip for the Auto Cannon is made with Alien Alloys for increased power."
+  STR_AC_AA_AMMO_UFOPEDIA: "This clip for the Auto Cannon is made with alien alloys for increased power and better target penetration against armored units."
   STR_AC_EHE_AMMO: "AC-EHE Elerium HE Ammunition"
-  STR_AC_EHE_AMMO_UFOPEDIA: "This clip for the Auto Cannon combines Alien Alloys and Elerium-115 into one deadly area of effect explosive shell. Beware of the blast radius, when used in close quarter combat."
+  STR_AC_EHE_AMMO_UFOPEDIA: "This clip for the Auto Cannon combines alien alloys and elerium-115 into one deadly area of effect explosive shell. Optimal for blasting low away at low armored enemies. Beware of the blast radius, when used in close quarter combat."
 
   STR_GRENADE_LAUNCHER: "Grenade Launcher"
   STR_GRENADE_LAUNCHER_HE_AMMO: "40mm Grenade (HE)"
@@ -559,15 +566,15 @@ en-US:
   STR_GRENADE_LAUNCHER_UFOPEDIA: "The M-79 Grenade launcher has a variety of different munition types at its disposal, contributing to its effectiveness in a wide range of situations."
 
   STR_ELERIUM_ROCKET: "Elerium Rocket"
-  STR_ELERIUM_ROCKET_UFOPEDIA: "We managed to put together an Elerium-115 warhead and supply it with a modified large rocket frame, so it is compatible with our standard rocket launcher. The increased explosive power this weapon brings on the field should be devasting."
+  STR_ELERIUM_ROCKET_UFOPEDIA: "We managed to put together an elerium-115 warhead and supply it with a modified large rocket frame, so it is compatible with our standard rocket launcher. The increased explosive power this weapon brings on the field should be devasting."
 
   STR_SCATTER_LASER: "Scatter Laser"
-  STR_SCATTER_LASER_UFOPEDIA: "Utilizing the properties of Alien Alloys, this scatter laser features a laser beam spread similar to a conventional shotgun. This allows for effective close quarter fighting and providing greater stopping power."
+  STR_SCATTER_LASER_UFOPEDIA: "Utilizing the properties of alien alloys, this scatter laser features a laser beam spread similar to a conventional shotgun. This allows for effective close quarter fighting and providing greater stopping power. This weapon also featues a close quarter double shot mode, only few enemies should be able to survives this."
 
   STR_HEAVY_LASER: "Heavy Laser/Sniper"
-  STR_HEAVY_LASER_UFOPEDIA: "The heavy laser sniper is cumbersome, but extremely effective. It has been refitted with a sniper scope and is excellent for taking out aliens from a distance. The increased firepower comes at the cost of not having burst fire mode."
+  STR_HEAVY_LASER_UFOPEDIA: "The Heavy Laser/Sniper is cumbersome, but extremely effective. It has been refitted with a sniper scope and is excellent for taking out aliens from a distance. The increased firepower comes at the cost of not having burst fire mode."
   STR_HEAVY_LASER_AUTO: "Heavy Laser/Auto"
-  STR_HEAVY_LASER_AUTO_UFOPEDIA: "The heavy laser auto is extremly effective in mid range combat situations, when high dropping power is needed. The inability to aim this thing properly has been cursed by our soldiers, since it lacks a aimed shot."
+  STR_HEAVY_LASER_AUTO_UFOPEDIA: "The Heavy Laser/Auto is extremly effective in mid range combat situations, when high dropping power is needed. The inability to aim this thing properly has been cursed by our soldiers, since it lacks a aimed shot. It makes up for this with auto burst rapidly releasing four high power laser beams cutting through nearly everything."
 
   STR_FIELD_MEDI_PACK: "Field Medic Pack"
   STR_FIELD_MEDI_PACK_UFOPEDIA: "The field medic pack combines a healing facility with pain killers and stimulants. In order to use the field medic pack you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the field medi pack icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 1 health restored.{NEWLINE}STIMULANT> This will restore 5 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 3 | STIMULANT: 3 | PAIN KILLER: 3"
@@ -579,13 +586,13 @@ en-US:
   STR_ADVANCED_MEDI_KIT_UFOPEDIA: "The advanced medi-kit pack combines a healing facility with pain killers and stimulants. In order to use the advanced medi-kit you must face towards the soldier requiring treatment. If the soldier is stunned you must stand over the body. Click on the advanced medi-kit icon and select 'use medi-kit' from the menu.{NEWLINE}HEALING> Red body parts show fatal wounds. Click on a body part that is wounded. Click on the 'Heal' button. One fatal wound will be cured and 6 health restored.{NEWLINE}STIMULANT> This will restore 15 energy and or revive unconscious (stunned) soldiers. In order to revive an unconscious soldier you must stand directly over the body.{NEWLINE}PAIN KILLER> This will restore the morale of wounded soldiers up to an amount equivalent to the soldier's lost health.{NEWLINE}MAX USES> HEAL: 9 | STIMULANT: 9 | PAIN KILLER: 9"
 
   STR_ELERIUM_STUN_ROD: "Elerium Powered Stun Rod"
-  STR_ELERIUM_STUN_ROD_UFOPEDIA: "Using Elerium-115 as a electric power source enabled us to increase the charge of electric shock, which can be discharged onto the enemy. This device can only be used in close combat, but will stun a living organism without killing it by using electric shocks."
+  STR_ELERIUM_STUN_ROD_UFOPEDIA: "Using elerium-115 as a electric power source enabled us to increase the charge of electric shock, which can be discharged onto the enemy. This device can only be used in close combat, but will stun a living organism without killing it by using electric shocks."
 
   STR_FLASHBANG_GRENADE: "Flashbang Grenade"
-  STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight."
+  STR_FLASHBANG_GRENADE_UFOPEDIA: "A basic Flashbang Grenade, using sound, light and noise, to render a target incapacitated and unable to fight. Good for getting civilians out of the way or attempting to capture a enemy alive."
 
   STR_INC_GRENADE: "Incendiary Grenade"
-  STR_INC_GRENADE_UFOPEDIA: "Incendiary grenades are invaluable for lighting up the night and clearing obnoxious vegetation."
+  STR_INC_GRENADE_UFOPEDIA: "The Incendiary Grenades are invaluable for lighting up the night and clearing obnoxious vegetation. Be aware that fire can spread and it is usually very effective against big enemy units."
 
   STR_ALIEN_PROXY_GRENADE: "Alien Proximity Grenade"
   STR_ALIEN_PROXY_GRENADE_UFOPEDIA: "After understanding the inner workings of alien grenade fuse mechanism, we were able to replace it with our standard proximity detonators. This will enable our soldiers to set up more devasting ambushes for our alien foes."
@@ -605,47 +612,47 @@ en-US:
   STR_PLASMA_SWORD_UFOPEDIA: "This lethal implement of sword combines a large blade, a micron thick at the edge, a plasma emitter, and an electromagnet. When activated, hot plasma floods the EM field surrounding the blade, superheating it to the point where its touch would make titanium run like water.{NEWLINE}The users strength value increases the damage done by its value."
 
   STR_PLASMA_PISTOL_ELERIUM_CLIP: "Plasma Pistol Elerium Clip"
-  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: "A enhanced version of the power source for the small alien Plasma Pistol. It contains a unknown and not reproduceable  special spatial configuration of Elerium the source of all alien power."
+  STR_PLASMA_PISTOL_ELERIUM_CLIP_UFOPEDIA: "A enhanced version of the power source for the small alien Plasma Pistol. It contains a unknown and not reproduceable  special spatial configuration of elerium-115 the source of all alien power."
   STR_PLASMA_PISTOL_MANU_UNLOCK: "Any Plasma Pistol Clip"
 
   STR_PLASMA_RIFLE_ELERIUM_CLIP: "Plasma Rifle Elerium Clip"
-  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Rifle can accept. Enhanced firepower to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of Elerium."
+  STR_PLASMA_RIFLE_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Rifle can accept. Enhanced firepower to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of elerium-115."
   STR_PLASMA_RIFLE_MANU_UNLOCK: "Any Plasma Rifle Clip"
 
   STR_HEAVY_PLASMA_ELERIUM_CLIP: "Heavy Plasma Elerium Clip"
-  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: "This enhanced ammunition for the Heavy Plasma is based directly on Elerium, it has enourmus destructive Power and it contains a very large quantity of Elerium."
+  STR_HEAVY_PLASMA_ELERIUM_CLIP_UFOPEDIA: "This enhanced ammunition for the Heavy Plasma is based directly on elerium-115 with a special spatial configuration, it has enourmus destructive power and it contains a very large quantity of elerium-115."
   STR_HEAVY_PLASMA_MANU_UNLOCK: "Any Heavy Plasma Clip"
 
   STR_PLASMA_SHOTGUN: "Plasma Shotgun"
   STR_PLASMA_SHOTGUN_CLIP: "Plasma Shotgun Shells"
   STR_PLASMA_SHOTGUN_ELERIUM_CLIP: "Plasma Shotgun Elerium Shells"
   STR_PLASMA_SHOTGUN_UFOPEDIA: "We were confused by this weapon at first but testing in the lab revealed that the rather diffuse beam it emits is extremely devastating up close but relatively ineffective at long range."
-  STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept.  When in use they cause it to emit a powerful pulse of plasma energy. It contains a small quantity of Elerium."
-  STR_PLASMA_SHOTGUN_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept. When in use they cause it to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of Elerium."
+  STR_PLASMA_SHOTGUN_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept.  When in use they cause it to emit a powerful pulse of plasma energy. It contains a small quantity of elerium-115."
+  STR_PLASMA_SHOTGUN_ELERIUM_CLIP_UFOPEDIA: "These are one of two types of ammunition the Plasma Shotgun can accept. When in use they cause it to discharge a burst of anti-matter that destroys anything it touches. It contains a large quantity of elerium-115 in a special spatial configuration."
   STR_PLASMA_SHOTGUN_MANU_UNLOCK: "Any Plasma Shotgun Clip"
 
   STR_PLASMA_SNIPER_RIFLE: "Plasma Sniper Rifle"
   STR_PLASMA_SNIPER_RIFLE_CLIP: "Plasma Sniper Rifle Clip"
   STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP: "Plasma Sniper Rifle Elerium Clip"
   STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "This is an extremely precise and powerful weapon based on accelerating particles from within a minute anti-gravity field."
-  STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "This small object is used as a power source for a Plasma Sniper Rifle - a precision alien weapon.  Contains a small quantity of Elerium."
-  STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP_UFOPEDIA: "This ammunition for the Plasma Sniper Rifle is based directly on Elerium, it has enourmous destructive Power and it contains a large quantity of Elerium."
+  STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "This small object is used as a power source for a Plasma Sniper Rifle - a precision alien weapon.  Contains a small quantity of elerium-115."
+  STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP_UFOPEDIA: "This ammunition for the Plasma Sniper Rifle is based directly on elerium-115 in a special spatial configuration, it has enourmous destructive power and it contains a large quantity of elerium-115."
   STR_PLASMA_SNIPER_RIFLE_MANU_UNLOCK: "Any Plasma Sniper Rifle Clip"
 
-  STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. A versatile and deadly weapon."
+  STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. A versatile and deadly weapon. Handheld artillery of the alien kind."
   STR_ELERIUM_BOMB: "Elerium Bomb"
-  STR_ELERIUM_BOMB_UFOPEDIA: "The Elerium Bomb, used by the aliens in all combat scenarios, is a powerful and deadly ammunition for the Small Launcher, which does high explosive area of effect damage."
+  STR_ELERIUM_BOMB_UFOPEDIA: "The Elerium Bomb, used by the aliens in all combat scenarios, is a powerful and deadly ammunition for the small launcher, which does high explosive area of effect damage."
   STR_FIRE_BOMB: "Fire Bomb"
-  STR_FIRE_BOMB_UFOPEDIA: "The Fire Bomb, basically a modified Elerium Bomb, which is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the Small Launcher into a weapon for pyromaniacs."
+  STR_FIRE_BOMB_UFOPEDIA: "The Fire Bomb, basically a modified elerium bomb, which is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the small sauncher into a weapon for pyromaniacs."
   STR_SMOKE_BOMB: "Smoke Bomb"
-  STR_SMOKE_BOMB_UFOPEDIA: "The Smoke Bomb, a modified Stun Bomb, which can be used to generate smoke cover for our troops in the battlefield. Beware that Smoke can be used to your advantage and disadvantage!"
+  STR_SMOKE_BOMB_UFOPEDIA: "The Smoke Bomb, maybe a modified stun bomb, which can be used to generate smoke cover for our troops in the battlefield. Beware that smoke can be used to your advantage and disadvantage!"
 
   STR_BLASTER_STUN_BOMB: "Blaster Stun Bomb"
-  STR_BLASTER_STUN_BOMB_UFOPEDIA: "The Blaster Stun Bomb is used for capturing large groups of live human specimens, but it can also be used against most alien races. It is fired from a Blaster Launcher."
+  STR_BLASTER_STUN_BOMB_UFOPEDIA: "The Blaster Stun Bomb is used for capturing large groups of live human specimens, but it can also be used against most alien races. It is fired from a blaster launcher."
   STR_BLASTER_FIRE_BOMB: "Blaster Fire Bomb"
-  STR_BLASTER_FIRE_BOMB_UFOPEDIA: "The Blaster Fire Bomb, is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the Blaster Launcher into a weapon for extrem pyromaniacs."
+  STR_BLASTER_FIRE_BOMB_UFOPEDIA: "The Blaster Fire Bomb, is changed from high explosive damage towards developing great heat inside a specific radius, burning everything alive, this basically transforms the blaster launcher into a weapon for extrem pyromaniacs."
   STR_BLASTER_SMOKE_BOMB: "Blaster Smoke Bomb"
-  STR_BLASTER_SMOKE_BOMB_UFOPEDIA: "The Blaster Smoke Bomb can be used to generate smoke cover for our troops in the battlefield. Beware that Smoke can be used to your advantage and disadvantage!"
+  STR_BLASTER_SMOKE_BOMB_UFOPEDIA: "The Blaster Smoke Bomb can be used to generate smoke a huge cover for our troops in the battlefield. Beware that smoke can be used to your advantage and disadvantage!"
 #END WEAPONS
 
 #BEGIN STORY ITEMS
@@ -741,7 +748,7 @@ en-US:
   STR_GAZER_NAVIGATOR: "Gazer Navigator"
   STR_GAZER_LEADER: "Gazer Leader"
   STR_GAZER_COMMANDER: "Gazer Commander"
-  STR_GAZER_UFOPEDIA: "Gazers look like standing turtles and are indeed as sturdy as they appear. Their bulky heavy armor grants formidable resistance against blows of any kind, praticularly armor piercing and plasma."
+  STR_GAZER_UFOPEDIA: "Gazers look like standing turtles and are indeed as sturdy as they appear. Their bulky heavy armor grants formidable resistance against blows of any kind, particularly armor piercing rounds and plasma weaponry."
   STR_GAZER_CORPSE: "Gazer Corpse"
   STR_GAZER_AUTOPSY: "Gazer autopsy"
   STR_GAZER_AUTOPSY_UFOPEDIA: "The single big eye is the most prominent anatomical feature of this alien; it has crustacean traits but it is much more evolved. The very thick armor is not simply worn; cybernetic implants stem from it and connect to the organs of the creature, it is a shell for the creature."
