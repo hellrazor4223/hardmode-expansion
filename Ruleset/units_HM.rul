@@ -1848,6 +1848,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_ENGINEER
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
@@ -1887,6 +1888,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SCIENTIST
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
@@ -1940,6 +1942,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 4
     energyRecovery: 20
     deathSound: [44, 45, 46]
@@ -2007,6 +2010,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
@@ -2032,6 +2036,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2100,6 +2105,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2168,6 +2174,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SCIENTIST
     intelligence: 4
     aggression: 6
     energyRecovery: 20
@@ -2222,6 +2229,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2290,6 +2298,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2358,6 +2367,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2426,6 +2436,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2494,6 +2505,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20
@@ -2562,6 +2574,7 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 30
+    civilianRecoveryType: STR_SOLDIER
     intelligence: 6
     aggression: 2
     energyRecovery: 20

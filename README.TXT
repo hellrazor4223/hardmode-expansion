@@ -145,24 +145,24 @@ Additional Alien Races/Units:
 General Gameplay changes:
 	X-Com starts with 2 Skyrangers and 1 Interceptor
 	X-Com Craft loose one Tank Slot but gain 4 Drone Slots
-	Your Soldiers will be awarded with Medals (currently there are 61 Medals).
-	Globe with 347 Cities (including vanilla ones)
-	Better Globe with more textures
-	Terrormission will also attack Ships on Sea (TFTD Liner and Cargo Ship)
-	Research costs are 1,5 times vanilla
-	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
-	8 Armored Vests, which you can to equip on your Soldiers
-	Melee Weapons apply Skill and Strength
 	X-Com Soldiers start with Melee Accuracy from range 40-60
-	More saner starting weapons stock and equipment for the Skyranger
+	X-Com Soldiers will be awarded with Medals (currently there are 61 Medals).
 	Defensive starting Base layout (with 1 Additional General Stores)
+	More saner starting weapons stock and equipment
+	8 Armored Vests, which you can to equip on your Soldiers
+	Better Globe with more textures
+	Globe with 347 Cities (including vanilla ones)
+	Terrormission will also attack Ships on Sea (TFTD Liner and Cargo Ship)
+	Terrormissions have multiple Alerts and Terrainhint
+	Research costs are 1,5 times vanilla
+	Melee Weapons apply Skill and Strength
+	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
 	Psi Amp is harder to get throu research
 	Psi Amp production is much more expensive
 	Corpses give access to World News and are needed for Meditkits
 	Alien Alloys can not be produced, they are as precious as Elerium-115 now
 	Elerium-115 recovery per UFO Power Source is 50% vanilla (25)
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
-	Terrormissions have multiple Alerts and Terrainhint
 	Aliens do have more chances to score more points.
 	Alien Bases will generate missions without Scout Ship (Terror, Abduction, Harvest, Base), it is recommended to not tolerate more then 4 bases on earth at all time!
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (No limit, you get as many additional Missions as interrogation you did)
@@ -196,6 +196,7 @@ Economic:
 	Drones, Tanks and Soldier Armor is upgradeable
 
 Groundcombat changes:
+	Units being hit will Flash red as a confirmation
 	Chronological Racemixes
 	Aliens are earlier aware of your presence
 	Panicked Alien will pick up their weapons
@@ -214,7 +215,6 @@ Groundcombat changes:
 	Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
 	Psi-Amps use 25 TU and 25 Stamina (Energy) for Psi Panic or Psi Mind Control attack. Get your Stims ready! (OXCE only)
 	Direct fire smoke acts as fire extinguisher (Smoke Grenades don't)
-	Units being hit will Flash red as a confirmation
 	Celatids can feel X-Com units through solid objects within 13 tile range
 	Celatids can self clone themselves as stated in the UfoPaedia (on Earth linear growth pattern, each Celatid one Clone, Clones make new Clones)
 	Celatids in the Final Mission follow expotential growth pattern
@@ -222,6 +222,7 @@ Groundcombat changes:
 	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
 	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
+	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
