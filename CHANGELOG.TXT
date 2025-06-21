@@ -1,6 +1,8 @@
 Changelog:
 
 Version 0.99.9.9
+ - Fix Spelling Errors / Text Corrections and clarifications
+ - Add Info about needed construction materials for X-Com base facilities
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit
