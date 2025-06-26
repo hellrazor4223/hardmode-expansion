@@ -10,5 +10,4 @@ Please report all issues and bugs here: https://openxcom.org/forum/index.php/top
  - Go to your Mod folder and delete the old "Hardmode_Expansion" directory.
  - Extract Zip file
  - Copy over the directory "Hardmode_Expansion" in your user mods directory.
- - Active "Hardmode_Expansion" under Mods
-
+ - Activate "Hardmode_Expansion" under Mods
