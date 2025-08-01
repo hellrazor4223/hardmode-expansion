@@ -2149,8 +2149,8 @@ items:
     armor: 20
     listOrder: 2300
     snapRange: 22
-    minRange: 5
-    dropoff: 3
+    minRange: 8
+    dropoff: 4
   - type: STR_HC_UFOPAEDIA_PAGE_2
     name: STR_HEAVY_CANNON
     ignoreInCraftEquip: true
@@ -2176,7 +2176,8 @@ items:
     invHeight: 3
     armor: 20
     listOrder: 2301
-    snapRange: 24
+    snapRange: 22
+    minRange: 8
     dropoff: 4
   - type: STR_HC_AP_AMMO
     weight: 5
@@ -2254,7 +2255,7 @@ items:
     listOrder: 2700
     snapRange: 20
     autoRange: 12
-    minRange: 3
+    minRange: 8
     dropoff: 4
   - type: STR_AC_UFOPAEDIA_PAGE_2
     ignoreInCraftEquip: true
@@ -2359,7 +2360,7 @@ items:
       - STR_GRENADE_LAUNCHER_HE_AMMO
       - STR_GRENADE_LAUNCHER_IC_AMMO
       - STR_GRENADE_LAUNCHER_SMOKE_AMMO
-    accuracySnap: 50
+    accuracySnap: 65
     accuracyAimed: 100
     tuSnap: 40
     tuAimed: 75
@@ -2371,8 +2372,8 @@ items:
     arcingShot: true
     listOrder: 3001
     snapRange: 24
-    minRange: 5
-    dropoff: 2
+    minRange: 8
+    dropoff: 4
   - type: STR_GRENADE_LAUNCHER_HE_AMMO
     supportedInventorySections: *HOLSTER_FORBIDDEN
     size: 0.1
@@ -2443,8 +2444,8 @@ items:
     armor: 20
     listOrder: 3100
     snapRange: 24
-    minRange: 5
-    dropoff: 2
+    minRange: 8
+    dropoff: 4
   - type: STR_ROCKET_LAUNCHER_UFOPAEDIA_PAGE_2
     ignoreInCraftEquip: true
     name: STR_ROCKET_LAUNCHER
@@ -2470,8 +2471,8 @@ items:
     armor: 20
     listOrder: 3101
     snapRange: 24
-    minRange: 5
-    dropoff: 2
+    minRange: 8
+    dropoff: 4
   - type: STR_SMALL_ROCKET
     supportedInventorySections: *HOLSTER_FORBIDDEN
     power: 80
@@ -2919,7 +2920,7 @@ items:
     clipSize: 3
     isFireExtinguisher: true
     arcingShot: true
-    maxRange: 2
+    maxRange: 4
     invWidth: 2
     invHeight: 2
     bulletSpeed: 80
