@@ -5,6 +5,7 @@ Version 0.99.9.9
  - Fix wrong manufacture times for Alloy Drone -> Hoverdrone upgrades
  - Add Info about needed construction materials for X-Com base facilities
  - Add Armed Civilians from Terror Attacks can be recruited as Soldiers/Scientists/Engineers
+ - Add Info for provided storage space at X-Com base facilities to Ufopaedia articles
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

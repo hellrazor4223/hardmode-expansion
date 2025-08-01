@@ -85,4 +85,5 @@ facilities:
     monthlyCost: 140000
   - type: STR_HANGAR
     monthlyCost: 20000
+    storage: 10
 ###END FACILITIES
