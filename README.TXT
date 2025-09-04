@@ -3,7 +3,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v8.20 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v8.40 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -197,7 +197,7 @@ Economic:
 
 Groundcombat changes:
 	Units being hit will Flash red as a confirmation
-	Chronological Racemixes
+	Chronological Racemixes for all UFOs, Alien Missions and Alien Bases
 	Aliens are earlier aware of your presence
 	Panicked Alien will pick up their weapons
 	Bigger Map for Terrormissions (60x60 and up to 24 Civilians)

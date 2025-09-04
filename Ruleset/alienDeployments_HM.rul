@@ -1529,22 +1529,68 @@ alienDeployments:
 ##BEGIN BASES
 #BEGIN ALIEN BASE GAMESTART ASSAULT
   - type: STR_ALIEN_BASE_GAMESTART_ASSAULT
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT: 100
+      2:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_02: 100
+      4:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_04: 100
+    alienRaceEvolution: &ALIEN_BASE_RACE_EVOLUTION
+      - [1, STR_FLOATER, STR_FLOATER_1]
+      - [3, STR_FLOATER_1, STR_FLOATER_3]
+      - [3, STR_SECTOID, STR_SECTOID_3]
+      - [5, STR_FLOATER_3, STR_FLOATER_5]
+      - [5, STR_SECTOID_3, STR_SECTOID_5]
+      - [5, STR_SNAKEMAN, STR_SNAKEMAN_5]
+      - [7, STR_FLOATER_5, STR_FLOATER_7]
+      - [7, STR_SECTOID_5, STR_SECTOID_7]
+      - [7, STR_SNAKEMAN_5, STR_SNAKEMAN_7]
+      - [7, STR_MUTON, STR_MUTON_7]
+      - [8, STR_FLOATER_7, STR_FLOATER_8]
+      - [8, STR_SECTOID_7, STR_SECTOID_8]
+      - [8, STR_SNAKEMAN_7, STR_SNAKEMAN_8]
+      - [8, STR_MUTON_7, STR_MUTON_8]
+      - [8, STR_WASPITE_7, STR_WASPITE_8]
+      - [10, STR_FLOATER_8, STR_FLOATER_10]
+      - [10, STR_SECTOID_8, STR_SECTOID_10]
+      - [10, STR_SNAKEMAN_8, STR_SNAKEMAN_10]
+      - [10, STR_MUTON_8, STR_MUTON_10]
+      - [10, STR_WASPITE_8, STR_WASPITE_10]
+      - [10, STR_GAZER_8, STR_GAZER_10]
+      - [13, STR_FLOATER_10, STR_FLOATER_13]
+      - [13, STR_SECTOID_10, STR_SECTOID_13]
+      - [13, STR_SNAKEMAN_10, STR_SNAKEMAN_13]
+      - [13, STR_MUTON_10, STR_MUTON_13]
+      - [13, STR_WASPITE_10, STR_WASPITE_13]
+      - [13, STR_GAZER_10, STR_GAZER_13]
+      - [13, STR_SECTOID_ELITE_10, STR_SECTOID_ELITE_13]
+      - [13, STR_MUTON_ELITE_10, STR_MUTON_ELITE_13]
+      - [15, STR_FLOATER_13, STR_FLOATER_15]
+      - [15, STR_SECTOID_13, STR_SECTOID_15]
+      - [15, STR_SNAKEMAN_13, STR_SNAKEMAN_15]
+      - [15, STR_MUTON_13, STR_MUTON_15]
+      - [15, STR_WASPITE_13, STR_WASPITE_15]
+      - [15, STR_GAZER_13, STR_GAZER_15]
+      - [15, STR_SECTOID_ELITE_13, STR_SECTOID_ELITE_15]
+      - [15, STR_MUTON_ELITE_13, STR_MUTON_ELITE_15]
+      - [15, STR_ETHEREAL, STR_ETHEREAL_15]
     data: &ALIEN_BASE_SET
       - alienRank: 6
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 7
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
       - alienRank: 8
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 50
         itemSets: *EMPTY
