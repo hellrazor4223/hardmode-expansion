@@ -6,6 +6,7 @@ Version 0.99.9.9
  - Fix Pistols in HOLSTER can not be reloaded
  - Adjust Dropoff/MinRange values for HC, AC, GL, RL
  - Adjust GL Snapshot accuracy
+ - Adjust Small Launcher Snapshot accuracy
  - Add Info about needed construction materials for X-Com base facilities
  - Add Armed Civilians from Terror Attacks can be recruited as Soldiers/Scientists/Engineers
  - Add Info for provided storage space at X-Com base facilities to Ufopaedia articles
