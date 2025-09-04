@@ -3330,7 +3330,7 @@ items:
       - STR_ELERIUM_BOMB
       - STR_FIRE_BOMB
       - STR_SMOKE_BOMB
-    accuracySnap: 65
+    accuracySnap: 75
     accuracyAimed: 110
     tuSnap: 40
     tuAimed: 75
