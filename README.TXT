@@ -26,7 +26,7 @@ When designing this Mod, I decided to stick on the CORE VANILLA GAME PRINCIPLES 
 It offers a much better Research Tree, a Economy were you need money desperately, where you will face difficult decisions and set backs during your campaign.
 Earth itself has been receiving a major update with a updated and more fine tuned globa map with 340+ cities and 12 added additional Bioomes and 65+ new terrains and even more terrain combinations.
 The Alien also gained a few new UFO types, which they use on missions, additionaly all vanilla UFO's received a set of internal configurations, to make fights on UFO missions more tactically challenging.
-Alien Bases play a much bigger role during the campaign and a extended Map set for these has been added.
+Alien Bases play a much bigger role during the campaign and a extended Map set and Upgrading Size over time has been added.
 All this has been enriched with a lot of additional Weapons, Drones and Tanks for Xcom and Aliens and als New or Advanced Alien Units and Species.
 There are repair and upgrade options for Armors, Drones and Tanks if you desire todo so.
 
@@ -143,39 +143,44 @@ Additional Alien Races/Units:
 	Chryssalid Spitter Terrorist
 
 General Gameplay changes:
-	X-Com starts with 2 Skyrangers and 1 Interceptor
-	X-Com Craft loose one Tank Slot but gain 4 Drone Slots
-	X-Com Soldiers start with Melee Accuracy from range 40-60
+	X-Com starts with 2 Skyrangers and 1 Interceptor.
+	X-Com Craft loose one Tank Slot but gain 4 Drone Slots.
+	X-Com Soldiers start with Melee Accuracy from range 40-60.
 	X-Com Soldiers will be awarded with Medals (currently there are 61 Medals).
-	Defensive starting Base layout (with 1 Additional General Stores)
-	More saner starting weapons stock and equipment
-	8 Armored Vests, which you can to equip on your Soldiers
-	Better Globe with more textures
-	Globe with 347 Cities (including vanilla ones)
-	Terrormission will also attack Ships on Sea (TFTD Liner and Cargo Ship)
-	Terrormissions have multiple Alerts and Terrainhint
-	Research costs are 1,5 times vanilla
-	Melee Weapons apply Skill and Strength
-	Alive Aliens are needed to unlock techs (-> Research Tree Graphic)
-	Psi Amp is harder to get throu research
-	Psi Amp production is much more expensive
-	Corpses give access to World News and are needed for Meditkits
-	Alien Alloys can not be produced, they are as precious as Elerium-115 now
-	Elerium-115 recovery per UFO Power Source is 50% vanilla (25)
-	Alien Alloys recovered from UFO mission are ~36% lower then vanilla
+	Defensive starting Base layout (with 1 Additional General Stores).
+	More saner starting weapons stock and equipment.
+	8 Armored Vests, which you can to equip on your Soldiers.
+	Better Globe with more textures.
+	Globe with 347 Cities (including vanilla ones).
+	Terrormission will also attack Ships on Sea (TFTD Liner and Cargo Ship).
+	Terrormissions have multiple Alerts and Terrainhint.
+	Research costs are 1,5 times vanilla.
+	Melee Weapons apply Skill and Strength.
+	Alive Aliens are needed to unlock techs (-> Research Tree Graphic).
+	Psi Amp is harder to get throu research.
+	Psi Amp production is much more expensive.
+	Corpses give access to World News and are needed for Meditkits.
+	Alien Alloys can not be produced, they are as precious as Elerium-115 now.
+	Elerium-115 recovery per UFO Power Source is 50% vanilla (25).
+	Alien Alloys recovered from UFO mission are ~36% lower then vanilla.
 	Aliens do have more chances to score more points.
-	Alien Bases will generate missions without Scout Ship (Terror, Abduction, Harvest, Base), it is recommended to not tolerate more then 4 bases on earth at all time!
-	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (No limit, you get as many additional Missions as interrogation you did)
-	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game
-	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes
-	Attacking a landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only)
-	Attacking a landed Battleship performing a Alien Base Mission gives 33% to deny the mission success (OXCE only) (Exception Alien Base Mission at Gamestart)
-	Attacking a landed Battleship performing a Harvesting Mission from space gives 33% to deny the mission success (OXCE only)
-	Attacking a landed Labship performing a Harvesting or Abduction Mission from a Alien Base gives 33% to deny mission success (OXCE only)
-	Attacking the first spawning Abductor on a Abduction Mission from space gives 33% to deny the mission success (OXCE only)
-	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only)
-	X-Com Base Defense damaging a Alien Battleship during a base attack will result in less Aliens spawning (roughly according with the damage done)
-	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only)
+	Alien Bases will upgrade in size over time (50x50 -> 2 Months -> 60x60 -> 4 Months -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
+	Alien Bases will upgrade the score they generate for the Alien when they upgrade in size.
+	Alien Bases will generate missions without Scout Ships depending on their current size, those mission will be of same species as the alien base generating them:
+		50x50 sized Alien Base: Supply, Abduction, Harvest
+		60x60 sized Alien Base: Supply, Abduction, Harvest, Base, Terror
+		70x70 sized Alien Base: Supply, Abduction, Harvest, Base, Terror, One time Infiltration, Retaliation
+	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (No limit, you get as many additional Missions as interrogation as you did).
+	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game.
+	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes.
+	Attacking a landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only).
+	Attacking a landed Battleship performing a Alien Base Mission gives 33% to deny the mission success (OXCE only) (Exception Alien Base Mission at Gamestart).
+	Attacking a landed Battleship performing a Harvesting Mission from space gives 33% to deny the mission success (OXCE only).
+	Attacking a landed Labship performing a Harvesting or Abduction Mission from a Alien Base gives 33% to deny mission success (OXCE only).
+	Attacking the first spawning Abductor on a Abduction Mission from space gives 33% to deny the mission success (OXCE only).
+	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only).
+	X-Com Base Defense damaging a Alien Battleship during a base attack will result in less Aliens spawning (roughly according with the damage done).
+	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only).
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%

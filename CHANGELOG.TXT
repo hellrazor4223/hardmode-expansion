@@ -10,6 +10,9 @@ Version 0.99.9.9
  - Add Armed Civilians from Terror Attacks can be recruited as Soldiers/Scientists/Engineers
  - Add Info for provided storage space at X-Com base facilities to Ufopaedia articles
  - Add Chronological Racemixes to Alien Bases
+ - Add Alien Bases Upgrading themselves in 3 stages: 50x50 -> 60x60 -> 70x70
+ - Add One Time Infiltration Mission to 70x70 Alien Base Mission generation
+ - Add Retaliation Mission to 70x70 Alien Base Mission generation
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

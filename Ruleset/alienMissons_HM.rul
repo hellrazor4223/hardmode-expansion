@@ -195,11 +195,12 @@ alienMissions:
   - type: STR_ALIEN_INFILTRATION
     points: 1500 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_ALIEN_BASE_ASSAULT_02
     spawnZone: 4 #Mission zone for alien bases
     operationType: 0
-    operationSpawnZone: 4 #Mission zone for alien bases
-    operationBaseType: STR_ALIEN_BASE_ASSAULT
+    endlessInfiltration: true
+    buildInfiltrationBaseCloseToTheCountry: true
+    infiltrateRandomCountryInTheRegion: true
     raceWeights: *BASE_TERROR_INFILTRATION
     waves:
       - ufo: STR_SMALL_SCOUT
@@ -240,7 +241,6 @@ alienMissions:
         trajectory: P11
         timer: 2880
         objective: true
-        objectiveOnTheLandingSite: true
 #END ALIEN INFILTRATION
 
 #BEGIN ALIEN RESEARCH
@@ -468,7 +468,7 @@ alienMissions:
     points: 0
     objective: 4 #Perform a base attack on a xcom base
     spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
-    raceWeights: # In case of shootdown, race comes from UFO that triggered the mission.
+    raceWeights: &RETALIATION # In case of shootdown, race comes from UFO that triggered the mission.
       0:
         STR_FLOATER: 100
       1:
@@ -573,7 +573,7 @@ alienMissions:
     points: 10
     objective: 3 #Create a missionsite for a terrormission
     spawnZone: 3 #Mission zone for terror missions
-    operationType: 5
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
     operationSpawnZone: 4 #Mission zone for alien bases
     operationBaseType: STR_ALIEN_BASE_ASSAULT
     raceWeights: *BASE_TERROR_INFILTRATION
@@ -592,7 +592,7 @@ alienMissions:
 #BEGIN ALIEN BASE ABDUCTION MISSION
   - type: STR_ALIEN_BASE_ABDUCTION_MISSION
     points: 100
-    operationType: 5
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
     raceWeights: *RESEARCH_ABDUCTION
     waves:
       - ufo: STR_LAB_SHIP
@@ -613,7 +613,7 @@ alienMissions:
 #BEGIN ALIEN BASE HARVEST MISSION
   - type: STR_ALIEN_BASE_HARVEST_MISSION
     points: 90
-    operationType: 5
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
     raceWeights: *HARVEST
     waves:
       - ufo: STR_BATTLESHIP
@@ -641,7 +641,7 @@ alienMissions:
     objective: 2 #Built a alien base
     siteType: STR_ALIEN_BASE_ASSAULT
     spawnZone: 4 #Mission zone for alien bases
-    operationType: 5
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
     operationSpawnZone: 4 #Mission zone for alien bases
     operationBaseType: STR_ALIEN_BASE_ASSAULT
     raceWeights: *BASE_TERROR_INFILTRATION
@@ -666,4 +666,58 @@ alienMissions:
         objective: true
         objectiveOnTheLandingSite: true
 #END ALIEN BASE BASE MISSION
+
+#BEGIN ALIEN BASE INFILTRATION MISSION
+  - type: STR_ALIEN_BASE_INFILTRATION_MISSION
+    points: 1500 #Pact score only awarded on month end
+    objective: 1
+    siteType: STR_ALIEN_BASE_ASSAULT_02
+    operationType: 4 #We Operate from a existing Alien base on Earth
+    endlessInfiltration: false
+    buildInfiltrationBaseCloseToTheCountry: true
+    infiltrateRandomCountryInTheRegion: true
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P10
+        timer: 54300
+      - ufo: STR_SENTRY_SHIP
+        count: 1
+        trajectory: P10
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P10
+        timer: 60
+      - ufo: STR_LAB_SHIP
+        count: 1
+        trajectory: P10
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P10
+        timer: 60
+        interruptPercentage: 33
+      - ufo: dummy #don't spawn a ufo, we only want the missionsite/alien base
+        count: 1
+        trajectory: P11
+        timer: 2880
+        objective: true
+#END ALIEN BASE INFILTRATION MISSION
+
+#BEGIN ALIEN BASE RETALIATION MISSION
+  - type: STR_ALIEN_BASE_RETALIATION_MISSION
+    points: 0
+    objective: 4 #Perform a base attack on a xcom base
+    operationType: 4 #We Operate from a existing Alien base on Earth
+    spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
+    raceWeights: *RETALIATION # In case of shootdown, race comes from UFO that triggered the mission.
+    waves:
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+        interruptPercentage: 33
+#END ALIEN BASE RETALIATION MISSION
 ###END ALIEN MISSIONS

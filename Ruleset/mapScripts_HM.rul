@@ -5,6 +5,42 @@ mapScripts:
 #BEGIN ALIEN BASE GAMESTART
   - type: ALIEN_BASE_GAMESTART
     commands:
+ #check for 70x70 map
+    - type: addBlock
+      label: 1
+      size: 1
+      rects:
+        - [6, 6, 1, 1]
+ #remove testblock on 70x70 map
+    - type: removeBlock
+      conditionals: [1]
+      rects:
+        - [6, 6, 1, 1]
+ #check for 60x60 map
+    - type: addBlock
+      label: 2
+      conditionals: [-1]
+      size: 1
+      rects:
+        - [5, 5, 1, 1]
+ #remove testblock on 60x60 map
+    - type: removeBlock
+      conditionals: [2]
+      rects:
+        - [5, 5, 1, 1]
+ #check for 50x50 map
+    - type: addBlock
+      label: 3
+      conditionals: [-2]
+      size: 1
+      rects:
+        - [4, 4, 1, 1]
+ #remove testblock on 50x50 map
+    - type: removeBlock
+      conditionals: [2]
+      rects:
+        - [4, 4, 1, 1]
+ #set essentials
     - type: addBlock #Add Entrances
       groups: 2
       executions: 2
@@ -14,13 +50,39 @@ mapScripts:
     - type: addBlock #Add Clone Lab
       size: 2
       groups: 6
+ #add block for 70x70 map
     - type: addBlock #Add 20x20 Map Blocks
+      conditionals: [1]
+      size: 2
+      executions: 4
+    - type: addBlock #Add Entertaiment Room
+      conditionals: [1]
+      groups: 7
+      executions: 2
+    - type: addBlock #Add Impassable Power Source Block
+      conditionals: [1]
+      groups: 9
+      executions: 2
+ #add block for 60x60 map
+    - type: addBlock #Add 20x20 Map Blocks
+      conditionals: [2]
       size: 2
       executions: 3
     - type: addBlock #Add Entertaiment Room
+      conditionals: [2]
       groups: 7
     - type: addBlock #Add Impassable Power Source Block
+      conditionals: [2]
       groups: 9
+ #add block for 50x50 map
+    - type: addBlock #Add 20x20 Map Blocks
+      conditionals: [3]
+      size: 2
+      executions: 1
+    - type: addBlock #Add Entertaiment Room
+      conditionals: [3]
+      groups: 7
+#fill the rest
     - type: fillArea
       groups: [0, 1, 8]
       freqs: [3, 1, 1]
@@ -46,21 +108,87 @@ mapScripts:
 #BEGIN ALIEN BASE
   - type: ALIEN_BASE
     commands:
+ #check for 70x70 map
+    - type: addBlock
+      label: 1
+      size: 1
+      rects:
+        - [6, 6, 1, 1]
+ #remove testblock on 70x70 map
+    - type: removeBlock
+      conditionals: [1]
+      rects:
+        - [6, 6, 1, 1]
+ #check for 60x60 map
+    - type: addBlock
+      label: 2
+      conditionals: [-1]
+      size: 1
+      rects:
+        - [5, 5, 1, 1]
+ #remove testblock on 60x60 map
+    - type: removeBlock
+      conditionals: [2]
+      rects:
+        - [5, 5, 1, 1]
+ #check for 50x50 map
+    - type: addBlock
+      label: 3
+      conditionals: [-2]
+      size: 1
+      rects:
+        - [4, 4, 1, 1]
+ #remove testblock on 50x50 map
+    - type: removeBlock
+      conditionals: [2]
+      rects:
+        - [4, 4, 1, 1]
+ #set essentials
     - type: addBlock #Add Entrances
       groups: 2
       executions: 2
     - type: addBlock #Add Command Center
       size: 2
       groups: 3
+ #add block for 70x70 map
     - type: addBlock #Add 20x20 Map Blocks
+      conditionals: [1]
+      size: 2
+      executions: 8
+      groups: [0, 6]
+      freqs: [6, 1]
+    - type: addBlock #Add Entertaiment Room
+      conditionals: [1]
+      groups: 7
+      executions: 2
+    - type: addBlock #Add Impassable Power Source Block
+      conditionals: [1]
+      groups: 9
+      executions: 2
+ #add block for 60x60 map
+    - type: addBlock #Add 20x20 Map Blocks
+      conditionals: [2]
       size: 2
       executions: 5
       groups: [0, 6]
       freqs: [6, 1]
     - type: addBlock #Add Entertaiment Room
+      conditionals: [2]
       groups: 7
     - type: addBlock #Add Impassable Power Source Block
+      conditionals: [2]
       groups: 9
+ #add block for 50x50 map
+    - type: addBlock #Add 20x20 Map Blocks
+      conditionals: [3]
+      size: 2
+      executions: 2
+      groups: [0, 6]
+      freqs: [6, 1]
+    - type: addBlock #Add Entertaiment Room
+      conditionals: [3]
+      groups: 7
+#fill the rest
     - type: fillArea
       groups: [0, 1, 8]
       freqs: [3, 1, 1]

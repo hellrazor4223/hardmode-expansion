@@ -1613,20 +1613,20 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets: *RANK_10_LARGE
       - alienRank: 5
-        lowQty: 6
-        highQty: 12
+        lowQty: 4
+        highQty: 10
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_5_LARGE
       - alienRank: 4
-        lowQty: 2
-        highQty: 2
+        lowQty: 1
+        highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_4_LARGE
       - alienRank: 3
-        lowQty: 2
-        highQty: 2
+        lowQty: 1
+        highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: &RANK_3_LARGE_HE
@@ -1672,8 +1672,8 @@ alienDeployments:
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 2
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: &RANK_2_BASE
@@ -1721,8 +1721,8 @@ alienDeployments:
             - STR_BLASTER_BOMB
             - STR_PLASMA_SWORD
       - alienRank: 1
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *RANK_1_LARGE
@@ -1731,7 +1731,7 @@ alienDeployments:
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets:
+        itemSets: &RANK_0_BASE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CLIP
@@ -1767,6 +1767,120 @@ alienDeployments:
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_PLASMA_SHOTGUN_ELERIUM_CLIP
             - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    script: ALIEN_BASE_GAMESTART
+    briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_BASE_ABDUCTION_MISSION: 10
+      STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_SUPPLY: 70
+    genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
+    genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
+    alienBase: true # this is only to tell new battle mode what to do with this deployment
+    objectivesRequired: 16 #MCD defined specialtype
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 17 #points aliens get for a base each day
+    cheatTurn: 14 #Force Attack Mode
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END ALIEN BASE GAMESTART ASSAULT
+
+#BEGIN ALIEN BASE GAMESTART ASSAULT 02
+  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT_02
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_02: 100
+      4:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_04: 100
+    alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
+    data: &ALIEN_BASE_SET_02
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 7
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_3_LARGE_HE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_2_BASE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_LARGE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_0_BASE
     width: 60
     length: 60
     height: 2
@@ -1775,6 +1889,8 @@ alienDeployments:
     shade: 10
     script: ALIEN_BASE_GAMESTART
     briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
       textOffset: -16
       background: BACK01.SCR
       showTarget: false
@@ -1788,7 +1904,7 @@ alienDeployments:
       STR_ALIEN_BASE_TERROR_MISSION: 20
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
-    genMissionRaceFromAlienBase: false #Supply is still alien base race, all others pick from mission raceweights
+    genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
     alienBase: true # this is only to tell new battle mode what to do with this deployment
     objectivesRequired: 16 #MCD defined specialtype
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
@@ -1798,11 +1914,177 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ALIEN BASE GAMESTART ASSAULT
+#END ALIEN BASE GAMESTART ASSAULT 02
+
+#BEGIN ALIEN BASE GAMESTART ASSAULT 04
+  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT_04
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_04: 100
+    alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
+    data: &ALIEN_BASE_SET_04
+      - alienRank: 6
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 7
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 8
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 9
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: *EMPTY
+      - alienRank: 11
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_11_LARGE
+      - alienRank: 10
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets: *RANK_10_LARGE
+      - alienRank: 5
+        lowQty: 8
+        highQty: 14
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_5_LARGE
+      - alienRank: 4
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_4_LARGE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_3_LARGE_HE
+      - alienRank: 2
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_2_BASE
+      - alienRank: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_1_LARGE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *RANK_0_BASE
+    width: 70
+    length: 70
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    script: ALIEN_BASE_GAMESTART
+    briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_ABDUCTION_MISSION: 10
+      STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_BASE_TERROR_MISSION: 20
+      STR_ALIEN_BASE_INFILTRATION_MISSION: 10
+      STR_ALIEN_BASE_RETALIATION_MISSION: 10
+      STR_ALIEN_SUPPLY: 60
+    genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
+    genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
+    alienBase: true # this is only to tell new battle mode what to do with this deployment
+    objectivesRequired: 16 #MCD defined specialtype
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 51 #points aliens get for a base each day
+    cheatTurn: 7 #Force Attack Mode
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END ALIEN BASE GAMESTART ASSAULT 04
 
 #BEGIN ALIEN BASE ASSAULT
   - type: STR_ALIEN_BASE_ASSAULT
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_ASSAULT: 100
+      2:
+        STR_ALIEN_BASE_ASSAULT_02: 100
+      4:
+        STR_ALIEN_BASE_ASSAULT_04: 100
+    alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
     data: *ALIEN_BASE_SET
+    width: 50
+    length: 50
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    script: ALIEN_BASE
+    briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_BASE_ABDUCTION_MISSION: 10
+      STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_SUPPLY: 70
+    genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
+    genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
+    alienBase: true # this is only to tell new battle mode what to do with this deployment
+    objectivesRequired: 16 #MCD defined specialtype
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 17 #points aliens get for a base each day
+    cheatTurn: 14 #Force Attack Mode
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END ALIEN BASE ASSAULT
+
+#BEGIN ALIEN BASE ASSAULT 02
+  - type: STR_ALIEN_BASE_ASSAULT_02
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_ASSAULT_02: 100
+      4:
+        STR_ALIEN_BASE_ASSAULT_04: 100
+    alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
+    data: *ALIEN_BASE_SET_02
     width: 60
     length: 60
     height: 2
@@ -1811,6 +2093,8 @@ alienDeployments:
     shade: 10
     script: ALIEN_BASE
     briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
       textOffset: -16
       background: BACK01.SCR
       showTarget: false
@@ -1824,7 +2108,7 @@ alienDeployments:
       STR_ALIEN_BASE_TERROR_MISSION: 20
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
-    genMissionRaceFromAlienBase: false #Supply is still alien base race, all others pick from mission raceweights
+    genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
     alienBase: true # this is only to tell new battle mode what to do with this deployment
     objectivesRequired: 16 #MCD defined specialtype
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
@@ -1834,7 +2118,51 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ALIEN BASE ASSAULT
+#END ALIEN BASE ASSAULT 02
+
+#BEGIN ALIEN BASE ASSAULT 04
+  - type: STR_ALIEN_BASE_ASSAULT_04
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_ASSAULT_04: 100
+    alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
+    data: *ALIEN_BASE_SET_04
+    width: 70
+    length: 70
+    height: 2
+    terrains:
+      - UBASE
+    shade: 10
+    script: ALIEN_BASE
+    briefing:
+      title: STR_ALIEN_BASE_ASSAULT
+      desc: STR_ALIEN_BASE_ASSAULT_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_ABDUCTION_MISSION: 10
+      STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_BASE_TERROR_MISSION: 20
+      STR_ALIEN_BASE_INFILTRATION_MISSION: 10
+      STR_ALIEN_BASE_RETALIATION_MISSION: 10
+      STR_ALIEN_SUPPLY: 60
+    genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
+    genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
+    alienBase: true # this is only to tell new battle mode what to do with this deployment
+    objectivesRequired: 16 #MCD defined specialtype
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 51 #points aliens get for a base each day
+    cheatTurn: 7 #Force Attack Mode
+    winCutscene: winMiss
+    loseCutscene: loseMiss
+    abortCutscene: abortMiss
+#END ALIEN BASE ASSAULT 04
 
 #BEGIN BASE DEFENSE
   - type: STR_BASE_DEFENSE
