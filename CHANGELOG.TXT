@@ -16,6 +16,7 @@ Version 0.99.9.9
  - Add Retaliation Mission to 70x70 Alien Base Mission generation
  - Add Enhanced Floater Spriter from Floater Variant Pack from The Martian
  - Add storageTiles to X-Com Bases for Base Defense Mission (No more Checkerboard pattern)
+ - Add Amiga Small and Large Fonts for better readability
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

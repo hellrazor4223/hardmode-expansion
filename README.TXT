@@ -130,6 +130,7 @@ Quality of Live OXCE UI changes:
 	New Plasma Hit Animations for all Plasma Weapons (Battlescape UI)
 	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
 	SoldierCountryNames and SoldierCountryFlags from 115 Countries
+	AmigaFonts for better readability (Geograph and Battlescape UI)
 
 Additional Alien Races/Units:
 	Waspite
