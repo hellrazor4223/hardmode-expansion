@@ -27,6 +27,10 @@ facilities:
     monthlyCost: 20000
   - type: STR_GENERAL_STORES
     monthlyCost: 15000
+    storageTiles:
+      - [1, 1, 1]
+      - [6, 1, 1]
+      - [6, 6, 1]
   - type: STR_LASER_DEFENSES
     monthlyCost: 40000
   - type: STR_PLASMA_DEFENSES
@@ -86,4 +90,6 @@ facilities:
   - type: STR_HANGAR
     monthlyCost: 20000
     storage: 10
+    storageTiles:
+      - [-1, -1, -1]
 ###END FACILITIES
