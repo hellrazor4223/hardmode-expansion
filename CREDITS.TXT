@@ -217,6 +217,8 @@ Credits go to:
 		- For the Self Popping zombie script
 	Kzer-Za:
 		- For the Initial Version of UFOpaedia Celatid Mod: https://openxcom.org/forum/index.php?topic=7307.0
+	The Martian:
+		- For the Floater Variant Pack: https://openxcom.org/forum/index.php?topic=9297.0
 
 	All translaters on the TRANSIFEX project (you guys are awesome)
 

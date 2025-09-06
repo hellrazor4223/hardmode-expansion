@@ -14,6 +14,7 @@ Version 0.99.9.9
  - Add Alien Bases Upgrading themselves in 3 stages: 50x50 -> 60x60 -> 70x70
  - Add One Time Infiltration Mission to 70x70 Alien Base Mission generation
  - Add Retaliation Mission to 70x70 Alien Base Mission generation
+ - Add Enhanced Floater Spriter from Floater Variant Pack from The Martian
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

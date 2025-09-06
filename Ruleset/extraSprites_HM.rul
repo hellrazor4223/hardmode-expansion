@@ -135,6 +135,7 @@ extraSprites:
 
 ##BEGIN ALIEN BIGOBS
 #BEGIN ALIEN NON TERROR BIGOBS
+      52: Resources/Units/Alien/Floater/BigOb_Floater_Corpse.png #VANILLA OVEWRITE
       131: Resources/Units/Alien/Waspite/BigOb_Waspite_Corpse.png
       133: Resources/Units/Alien/Gazer/BigOb_Gazer_Corpse.png
       158: Resources/Units/Alien/SectoidElite/BigOb_SectoidElite_Corpse.png
@@ -334,6 +335,7 @@ extraSprites:
 
 ##BEGIN ALIEN UNIT FLOOROB
 #BEGIN ALIEN NON TERROR FLOOROB
+      48: Resources/Units/Alien/Floater/FloorOb_Floater_Corpse.png #VANILLA OVERWRITE
       180: Resources/Units/Alien/MutonBerserker/FloorOb_MutonBerserker_Corpse.png
       128: Resources/Units/Alien/Waspite/FloorOb_Waspite_Corpse.png
       129: Resources/Units/Alien/Cybermite/FloorOb_Cybermite_Corpse.png
@@ -1301,6 +1303,13 @@ extraSprites:
 ###BEGIN ALIEN SPRITES
 ##BEGIN ALIEN NON TERROR SPRITES
 #BEGIN FLOATER SPRITE
+  - type: FLOATER.PCK
+    width: 512
+    height: 280
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Alien/Floater/SpriteSheet_Floater.png
   - type: floaterInventoryImage
     width: 320
     height: 200
