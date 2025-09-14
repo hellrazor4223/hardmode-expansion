@@ -2681,6 +2681,7 @@ alienDeployments:
       STR_SOLDIER_MALE_GREEN2: 4
       STR_SOLDIER_MALE_GREEN3: 4
     terrains:
+      - AREA51
       - AIRFIELD1
       - AIRFIELD2
       - AIRFIELD3
@@ -2689,6 +2690,7 @@ alienDeployments:
       - AIRFIELD6
       - AIRFIELD7
       - AIRFIELD8
+      - RAILSTATION_AREA51_MIX
     alert: STR_TERROR_MISSION_MILITARY_BASE_ALERT
     alertBackground: BACK03.SCR
     briefing:

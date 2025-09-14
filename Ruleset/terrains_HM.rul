@@ -2814,6 +2814,75 @@ terrains:
 ##END EQUATORIAL TERROR
 
 ##BEGIN MILITARY BASE TERROR
+#BEGIN AREA51
+  - name: AREA51
+    mapDataSets:
+      - BLANKS
+      - AREA_ROADS
+      - AREA_URBITS
+      - AREA_URBAN
+      - AREA_FRNITURE
+    script: AREA51
+    civilianTypes: &CIVILIANS_AREA51
+      - MALE_CIVILIAN
+      - MALE_CIVILIAN6
+      - MALE_CIVILIAN7
+      - MALE_CIVILIAN11
+      - FEMALE_CIVILIAN
+      - FEMALE_CIVILIAN4
+    mapBlocks:
+      - name: AREA00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AREA01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: AREA02
+        width: 10
+        length: 10
+        groups: 2
+      - name: AREA03
+        width: 10
+        length: 10
+        groups: 3
+      - name: AREA04
+        width: 10
+        length: 10
+        groups: 4
+      - name: AREA05
+        width: 20
+        length: 20
+      - name: AREA06
+        width: 20
+        length: 20
+      - name: AREA07
+        width: 20
+        length: 20
+      - name: AREA08
+        width: 20
+        length: 20
+      - name: AREA09
+        width: 20
+        length: 20
+      - name: AREA14
+        width: 10
+        length: 10
+      - name: AREA15
+        width: 10
+        length: 10
+      - name: AREA16
+        width: 10
+        length: 10
+      - name: AREA17
+        width: 10
+        length: 10
+      - name: AREA18
+        width: 10
+        length: 10
+#END AREA51
+
 #BEGIN AIRFIELD1
   - name: AIRFIELD1
     mapDataSets: &AIRFIELD_MCDS

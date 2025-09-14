@@ -19,6 +19,7 @@ Version 0.99.9.9
  - Add Amiga Small and Large Fonts for better readability
  - Add APARTMENT Terrain from Terrain Pack
  - Add SLUMURBAN Terrain from Terrain Pack
+ - Add AREA51 Terrain from Terrain Pack
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

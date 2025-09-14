@@ -344,6 +344,7 @@ Additional X-Com Craft Weapons:
 	Modified Range for Vanilla Weapons
 
 Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN_PACK_AUTHORS.md for a detailed list!):
+	Area 51
 	Apartment
 	Airfield
 	Cargo Ship
@@ -390,6 +391,7 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 	Docked Liner Ship
 	Port TFTD
 	Port Modified
+	Railstation Area 51
 	Railstation Apartment
 	Railstation Urban
 	Railstation Commercial
