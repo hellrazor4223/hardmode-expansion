@@ -2742,7 +2742,7 @@ alienDeployments:
     width: 30
     length: 70
     height: 8
-    civilians: 24
+    civilians: 16
     civiliansByType:
       STR_FIREFIGHTER0: 3
       STR_PARAMEDIC0: 3
@@ -2763,7 +2763,7 @@ alienDeployments:
     objectiveType: 3
     objectivesRequired: 5
     objectiveComplete: [STR_TERROR_MISSION_SHIP_DISABLED, 500]
-    objectiveFailed: [STR_TERROR_MISSION_SHIP_OPERATIONAL, -1000]
+    objectiveFailed: [STR_TERROR_MISSION_SHIP_OPERATIONAL, -500]
     objectivePopup: STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED
     cheatTurn: 7
     winCutscene: winMiss
