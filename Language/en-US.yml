@@ -1208,6 +1208,9 @@ en-US:
   STR_TERROR_MISSION_SHIP_DISABLED: "SHIP DISABLED"
   STR_TERROR_MISSION_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
+
+  STR_TERROR_MISSION_POLAR: "TERROR MISSION POLAR"
+  STR_TERROR_MISSION_POLAR_BRIEFING: "Aliens have launched an attack against Antartic research station. The research station and its civilian personal have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES

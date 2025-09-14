@@ -2723,7 +2723,7 @@ alienDeployments:
     alertBackground: BACK03.SCR
     briefing:
       title: STR_TERROR_MISSION_POLAR
-      desc: STR_TERROR_MISSION_BRIEFING
+      desc: STR_TERROR_MISSION_POLAR_BRIEFING
       palette: 2
       music: GMENBASE
     markerName: STR_TERROR_SITE
