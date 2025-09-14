@@ -406,6 +406,7 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 	Steppe Forest
 	Steppe Forest Mountain
 	Steppe Swamp
+	Slums
 	Taiga Desert
 	Taiga Desert Mountain
 	Taiga Forest

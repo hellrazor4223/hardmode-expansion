@@ -2557,6 +2557,7 @@ alienDeployments:
       - RAILSTATION_INDUSTRIALURBAN_MIX
       - RAILSTATION_PORTINDUSTRIALURBAN_MIX
       - RAILYARDURBAN
+      - SLUMURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
