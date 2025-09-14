@@ -388,6 +388,7 @@ terrains:
       - URBITS
       - URBAN
       - FRNITURE
+    script: URBAN
     civilianTypes: &CIVILIANS_URBAN
       - MALE_CIVILIAN
       - MALE_CIVILIAN2
@@ -402,7 +403,6 @@ terrains:
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN9
       - FEMALE_CIVILIAN10
-    script: URBAN
     mapBlocks: &URBAN_MAPS
       - name: URBAN00 #0 #EW Street
         width: 10
@@ -464,6 +464,7 @@ terrains:
       - URBITS_SNOW
       - URBAN_SNOW
       - FRNITURE
+    script: URBAN
     civilianTypes: &CIVILIANS_URBAN_SNOW
       - MALE_CIVILIAN
       - MALE_CIVILIAN2
@@ -476,7 +477,6 @@ terrains:
       - FEMALE_CIVILIAN3
       - FEMALE_CIVILIAN4
       - FEMALE_CIVILIAN9
-    script: URBAN
     mapBlocks: *URBAN_MAPS
 #END URBAN SNOW
 
@@ -639,8 +639,8 @@ terrains:
       - URBAN
       - FRNITURE
       - MADDECOR
-    civilianTypes: *CIVILIANS_URBAN
     script: EXPANDED_TERROR
+    civilianTypes: *CIVILIANS_URBAN
     mapBlocks: &EXPANDED_TERROR_MAPS
       - name: EXPANDEDTERROR00 #0 #Landingzone Dirt 1
         width: 10
@@ -777,8 +777,8 @@ terrains:
       - URBAN_SNOW
       - FRNITURE
       - MADDECOR
-    civilianTypes: *CIVILIANS_URBAN_SNOW
     script: EXPANDED_TERROR
+    civilianTypes: *CIVILIANS_URBAN_SNOW
     mapBlocks: *EXPANDED_TERROR_MAPS
 #END EXPANDED TERROR SNOW
 
@@ -1102,6 +1102,7 @@ terrains:
       - COMMERCE
       - COMFRN
       - COMDECOR
+    script: COMRCURBAN
     civilianTypes: &CIVILIANS_SUBURB
       - MALE_CIVILIAN
       - MALE_CIVILIAN2
@@ -1120,7 +1121,6 @@ terrains:
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN9
       - FEMALE_CIVILIAN10
-    script: COMRCURBAN
     mapBlocks:
       - name: COMRCURBAN00 #0 #
         width: 10

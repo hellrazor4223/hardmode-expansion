@@ -1798,7 +1798,7 @@ mapScripts:
       executions: 4
       blocks: [10, 11, 12, 13, 14]
 #RAILYARDURBAN10 Not defined in terrains, ROUTES are missing
-#	  blocks: [11, 12, 13, 14, 15]
+#      blocks: [11, 12, 13, 14, 15]
       freqs: [3, 2, 3, 2, 3]
       maxUses: [2, 2, 2, 2, 2]
     - type: fillArea
