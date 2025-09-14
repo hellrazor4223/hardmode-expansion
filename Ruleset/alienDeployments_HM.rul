@@ -2517,10 +2517,12 @@ alienDeployments:
     civilians: 18
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
+      - APARTMENT
       - DAWNURBANA
       - DAWNURBANB
       - COMRCURBAN
       - DOWNTOWNURBAN
+      - RAILSTATION_APARTMENT_MIX
       - RAILSTATION_COMMERCIAL_URBAN_MIX
       - RAILSTATION_EXPANDED_URBAN_MIX
     alert: STR_ALIENS_TERRORISE

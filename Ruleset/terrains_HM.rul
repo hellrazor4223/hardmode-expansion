@@ -1028,6 +1028,71 @@ terrains:
 ##END URBAN TERROR
 
 ##BEGIN SUBURB TERROR
+#BEGIN APARTMENT
+  - name: APARTMENT
+    mapDataSets:
+      - BLANKS
+      - APARTA
+      - APARTB
+      - APARTC
+      - APARTD
+    script: APARTMENT
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    mapBlocks:
+      - name: APARTMENT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: APARTMENT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: APARTMENT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: APARTMENT03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: APARTMENT04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: APARTMENT05
+        width: 20
+        length: 20
+      - name: APARTMENT06
+        width: 20
+        length: 20
+      - name: APARTMENT07
+        width: 20
+        length: 20
+      - name: APARTMENT08
+        width: 20
+        length: 20
+      - name: APARTMENT09
+        width: 20
+        length: 20
+      - name: APARTMENT14
+        width: 10
+        length: 10
+      - name: APARTMENT15
+        width: 10
+        length: 10
+      - name: APARTMENT16
+        width: 10
+        length: 10
+      - name: APARTMENT17
+        width: 10
+        length: 10
+      - name: APARTMENT18
+        width: 10
+        length: 10
+#END APARTMENT
+
 #BEGIN COMMERCIAL URBAN
   - name: COMRCURBAN
     mapDataSets:
@@ -1488,6 +1553,19 @@ terrains:
         width: 10
         length: 10
 #END DOWNTOWN
+
+#BEGIN RAILSTATION APARTMENT MIX
+  - name: RAILSTATION_APARTMENT_MIX
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_SUBURB
+    script: RAILSTATION_APARTMENT_MIX
+    mapBlocks: *DOWNTOWNURBAN_MAPS
+#END RAILSTATION APARTMENT MIX
 
 #BEGIN RAILSTATION EXPANDED URBAN MIX
   - name: RAILSTATION_EXPANDED_URBAN_MIX
