@@ -349,6 +349,7 @@ Additional Terrains (95% From Hobbes Terrain Pack Mod, see CREDIT.TXT or TERRAIN
 	Airfield
 	Cargo Ship
 	City Snow
+	Cold Isle
 	Commercial
 	Expanded Farm A
 	Expanded Farm B

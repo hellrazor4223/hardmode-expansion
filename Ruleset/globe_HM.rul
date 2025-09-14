@@ -1657,5 +1657,8 @@ globe:
     - id: -8
       deployments: #48 locations
         STR_TERROR_MISSION_SHIP: 100
+    - id: -9
+      deployments: #4 locations
+        STR_TERROR_MISSION_POLAR: 100
 ##END TEXTURES
 ###END GLOBE

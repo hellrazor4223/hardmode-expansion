@@ -3023,7 +3023,159 @@ terrains:
     script: AIRFIELD8
     mapBlocks: *AIRFIELD_MAPS
 #END AIRFIELD8
+
+#BEGIN RAILSTATION AREA51 MIX
+  - name: RAILSTATION_AREA51_MIX
+    mapDataSets:
+      - BLANKS
+      - FRNITURE
+      - DOWNTOWNROADS
+      - DOWNTOWNURBAN
+      - PORTROADS
+    civilianTypes: *CIVILIANS_AREA51
+    script: RAILSTATION_AREA51_MIX
+    mapBlocks: *DOWNTOWNURBAN_MAPS
+#END RAILSTATION AREA51 MIX
 ##END MILITARY BASE TERROR
+
+##BEGIN POLAR TERROR
+#BEGIN COLDISLE
+  - name: COLDISLE
+    mapDataSets:
+      - BLANKS
+      - COLDISLE
+      - POLARMOUNTBITS
+      - SEAURBAN
+      - COLDISLEB1
+      - COLDISLEB2
+    script: COLDISLE
+    civilianTypes: *CIVILIANS_URBAN_SNOW
+    mapBlocks:
+      - name: COLDISLE00
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE01
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE02
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE07
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE09
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE10
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE11
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE12
+        width: 20
+        length: 20
+      - name: COLDISLE13
+        width: 20
+        length: 20
+      - name: COLDISLE14
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE16
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE17
+        width: 10
+        length: 10
+      - name: COLDISLE18
+        width: 10
+        length: 10
+      - name: COLDISLE19
+        width: 10
+        length: 10
+      - name: COLDISLE20
+        width: 10
+        length: 10
+      - name: COLDISLE21
+        width: 10
+        length: 10
+      - name: COLDISLE22
+        width: 10
+        length: 10
+      - name: COLDISLE23
+        width: 10
+        length: 10
+      - name: COLDISLE24
+        width: 10
+        length: 10
+      - name: COLDISLE25
+        width: 10
+        length: 10
+      - name: COLDISLE26
+        width: 10
+        length: 10
+      - name: COLDISLE27
+        width: 20
+        length: 20
+      - name: COLDISLE28
+        width: 20
+        length: 20
+      - name: COLDISLE29
+        width: 20
+        length: 20
+      - name: COLDISLE30
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE31
+        width: 20
+        length: 20
+      - name: COLDISLE32
+        width: 20
+        length: 20
+      - name: COLDISLE33
+        width: 20
+        length: 20
+        groups: 4
+      - name: COLDISLE34
+        width: 20
+        length: 20
+        groups: 4
+#END COLDISLE
+##END POLAR TERROR
 
 ##BEGIN SHIP TERROR
 #BEGIN CARGOSHIP

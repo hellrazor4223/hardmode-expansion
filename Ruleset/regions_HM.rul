@@ -336,10 +336,10 @@ regions:
         - [115, 132.5, 21, 25.5]
       -
 #BEGIN NEW CITIES
-        - [299.474, 299.474, 73.638, 73.638, -4, STR_MCMURDO]
-        - [116.782, 116.782, 75.239, 75.239, -4, STR_VOSTOK]
-        - [0, 0, 90, 90, -4, STR_AMUNDSEN]
-        - [-58.96, -58.96, 62.2, 62.2, -4, STR_BELLINGSHAUSEN]
+        - [299.474, 299.474, 73.638, 73.638, -9, STR_MCMURDO]
+        - [116.782, 116.782, 75.239, 75.239, -9, STR_VOSTOK]
+        - [0, 0, 90, 90, -9, STR_AMUNDSEN]
+        - [-58.96, -58.96, 62.2, 62.2, -9, STR_BELLINGSHAUSEN]
 #END NEW CITIES
 ##END ANTARCTICA
 
