@@ -3169,11 +3169,11 @@ terrains:
       - name: COLDISLE33
         width: 20
         length: 20
-        groups: 4
+        groups: 5
       - name: COLDISLE34
         width: 20
         length: 20
-        groups: 4
+        groups: 5
 #END COLDISLE
 ##END POLAR TERROR
 

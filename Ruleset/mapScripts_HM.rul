@@ -2543,16 +2543,16 @@ mapScripts:
 #BEGIN COLDISLE
   - type: COLDISLE
     commands:
-    - type: addBlock
+    - type: addBlock #Shoreline
       blocks: [33, 34]
       rects:
         - [0, 4, 6, 6]
-    - type: addBlock
+    - type: addBlock #Shoreline
       blocks: [33, 34]
       rects:
         - [0, 4, 6, 6]
       executionChances: 50
-    - type: addBlock
+    - type: addBlock #Shoreline
       executions: 4
       rects:
         - [0, 5, 6, 1]
@@ -2561,25 +2561,18 @@ mapScripts:
     - type: addCraft
     - type: addUFO
     - type: addBlock
-      blocks: [13, 27]
-      executions: 2
-      maxUses: [1, 1]
-    - type: addBlock
-      blocks: 12
-      label: 1
-      executionChances: 50
-    - type: addBlock
-      executions: 2
-      conditionals: -1
-      blocks: [28, 29, 31, 32]
-      maxUses: [1, 1, 1, 1]
+      executions: 4
+      blocks: [12, 13, 27, 28, 29, 31, 32]
+      maxUses: [2, 2, 2, 2, 2, 2, 2]
+      freqs: [1, 1, 1, 2, 2, 2, 1]
     - type: addBlock
       executions: 10
       blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 #END COLDISLE
 ##END POLAR TERROR
 
