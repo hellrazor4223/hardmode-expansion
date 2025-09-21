@@ -2067,7 +2067,7 @@ mapScripts:
       maxUses: [2, 2, 2, 2, 2]
     - type: addBlock
       conditionals: -3
-      terrain: AREA51
+      terrain: APARTMENT
       size: 2
       executions: 2
       blocks: [7]
@@ -2494,8 +2494,27 @@ mapScripts:
       executionChances: 50
     - type: addBlock
       terrain: AREA51
+      label: 30
+      executionChances: 50
       size: 2
       executions: 4
+      blocks: [5, 6, 7, 8, 9]
+      freqs: [3, 2, 1, 2, 3]
+      maxUses: [2, 2, 2, 2, 2]
+    - type: addBlock
+      terrain: AREA51
+      conditionals: -30
+      size: 2
+      executions: 3
+      blocks: [5, 6, 7, 8, 9]
+      freqs: [3, 2, 1, 2, 3]
+      maxUses: [2, 2, 2, 2, 2]
+    - type: addBlock
+      conditionals: -30
+      terrain: APARTMENT
+      size: 2
+      executions: 2
+      blocks: [7]
     - type: fillArea
       terrain: AREA51
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
