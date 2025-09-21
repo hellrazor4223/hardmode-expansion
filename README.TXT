@@ -101,6 +101,8 @@ Enabled automatically when loading the mod for the first time:
 	OXCE Autoseller
 	Psi Training anytime
 	More Stats on Inventory Screens
+	GeoTrainingIndicator
+	UniformShootingSpread
 
 Need to be manually be enabled:
 
@@ -165,10 +167,10 @@ General Gameplay changes:
 	Elerium-115 recovery per UFO Power Source is 50% vanilla (25).
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla.
 	Aliens do have more chances to score more points.
-	Alien Bases will upgrade in size over time (50x50 -> 2 Months -> 60x60 -> 4 Months -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
+	Alien Bases will upgrade in size over time (50x50 -> 3 Months -> 60x60 -> 3 Months -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
 	Alien Bases will upgrade the score they generate for the Alien when they upgrade in size.
 	Alien Bases will generate missions without Scout Ships depending on their current size, those mission will be of same species as the alien base generating them:
-		50x50 sized Alien Base: Supply, Abduction, Harvest
+		50x50 sized Alien Base: Supply, Abduction, Harvest, Base
 		60x60 sized Alien Base: Supply, Abduction, Harvest, Base, Terror
 		70x70 sized Alien Base: Supply, Abduction, Harvest, Base, Terror, One time Infiltration, Retaliation
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (No limit, you get as many additional Missions as interrogation as you did).

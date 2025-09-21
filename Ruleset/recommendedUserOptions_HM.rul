@@ -15,3 +15,5 @@ recommendedUserOptions:
   alienBleeding: true
   oxceAutoSell: true
   oxceLinks: true
+  oxceGeoEnableTrainingIndicator: true
+  oxceUniformShootingSpread: true

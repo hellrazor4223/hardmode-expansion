@@ -8,6 +8,8 @@ Version 0.99.9.9
  - Adjust GL Snapshot accuracy
  - Adjust Small Launcher Snapshot accuracy
  - Adjust Score penalty for SHIP Terror Missions from -1000 to -500
+ - Enable UniformShootingSpread as recommendedUserOption
+ - Enable GeoTrainingIndicator as recommendedUserOption
  - Add Info about needed construction materials for X-Com base facilities
  - Add Armed Civilians from Terror Attacks can be recruited as Soldiers/Scientists/Engineers
  - Add Info for provided storage space at X-Com base facilities to Ufopaedia articles
