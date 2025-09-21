@@ -128,11 +128,11 @@ alienMissions:
   - type: STR_ALIEN_BASE
     points: 75
     objective: 2 #Built a alien base
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_ALIEN_BASE_ASSAULT_03
     spawnZone: 4 #Mission zone for alien bases
     operationType: 0 #We operate from outer space
     operationSpawnZone: 4 #Mission zone for alien bases
-    operationBaseType: STR_ALIEN_BASE_ASSAULT
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_03
     raceWeights: *BASE_TERROR_INFILTRATION
     waves:
       - ufo: STR_SMALL_SCOUT
@@ -195,9 +195,10 @@ alienMissions:
   - type: STR_ALIEN_INFILTRATION
     points: 1500 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT_02
+    siteType: STR_ALIEN_BASE_ASSAULT_03
     spawnZone: 4 #Mission zone for alien bases
     operationType: 0
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_03
     endlessInfiltration: true
     buildInfiltrationBaseCloseToTheCountry: true
     infiltrateRandomCountryInTheRegion: true
@@ -575,7 +576,7 @@ alienMissions:
     spawnZone: 3 #Mission zone for terror missions
     operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
     operationSpawnZone: 4 #Mission zone for alien bases
-    operationBaseType: STR_ALIEN_BASE_ASSAULT
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_03
     raceWeights: *BASE_TERROR_INFILTRATION
     waves:
       - ufo: STR_TERROR_SHIP
@@ -593,6 +594,8 @@ alienMissions:
   - type: STR_ALIEN_BASE_ABDUCTION_MISSION
     points: 100
     operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_03
     raceWeights: *RESEARCH_ABDUCTION
     waves:
       - ufo: STR_LAB_SHIP
@@ -614,6 +617,8 @@ alienMissions:
   - type: STR_ALIEN_BASE_HARVEST_MISSION
     points: 90
     operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_03
     raceWeights: *HARVEST
     waves:
       - ufo: STR_BATTLESHIP
@@ -667,12 +672,78 @@ alienMissions:
         objectiveOnTheLandingSite: true
 #END ALIEN BASE BASE MISSION
 
-#BEGIN ALIEN BASE INFILTRATION MISSION
-  - type: STR_ALIEN_BASE_INFILTRATION_MISSION
+#BEGIN ALIEN BASE BASE MISSION 03
+  - type: STR_ALIEN_BASE_BASE_MISSION_03
+    points: 75
+    objective: 2 #Built a alien base
+    siteType: STR_ALIEN_BASE_ASSAULT_03
+    spawnZone: 4 #Mission zone for alien bases
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_03
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P4
+        timer: 28501
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+        interruptPercentage: 33
+      - ufo: dummy #don't spawn a ufo, we only want the missionsite/alien base
+        count: 1
+        trajectory: P11
+        timer: 2880
+        objective: true
+        objectiveOnTheLandingSite: true
+#END ALIEN BASE BASE MISSION 03
+
+#BEGIN ALIEN BASE BASE MISSION 06
+  - type: STR_ALIEN_BASE_BASE_MISSION_06
+    points: 75
+    objective: 2 #Built a alien base
+    siteType: STR_ALIEN_BASE_ASSAULT_06
+    spawnZone: 4 #Mission zone for alien bases
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_06
+    raceWeights: *BASE_TERROR_INFILTRATION
+    waves:
+      - ufo: STR_EXCAVATOR
+        count: 1
+        trajectory: P4
+        timer: 28501
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P5
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P6
+        timer: 60
+        interruptPercentage: 33
+      - ufo: dummy #don't spawn a ufo, we only want the missionsite/alien base
+        count: 1
+        trajectory: P11
+        timer: 2880
+        objective: true
+        objectiveOnTheLandingSite: true
+#END ALIEN BASE BASE MISSION 06
+
+#BEGIN ALIEN BASE INFILTRATION MISSION 06
+  - type: STR_ALIEN_BASE_INFILTRATION_MISSION_06
     points: 1500 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT_02
-    operationType: 4 #We Operate from a existing Alien base on Earth
+    siteType: STR_ALIEN_BASE_ASSAULT_06
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_06
     endlessInfiltration: false
     buildInfiltrationBaseCloseToTheCountry: true
     infiltrateRandomCountryInTheRegion: true
@@ -704,13 +775,16 @@ alienMissions:
         trajectory: P11
         timer: 2880
         objective: true
-#END ALIEN BASE INFILTRATION MISSION
+#END ALIEN BASE INFILTRATION MISSION 06
 
-#BEGIN ALIEN BASE RETALIATION MISSION
-  - type: STR_ALIEN_BASE_RETALIATION_MISSION
+#BEGIN ALIEN BASE RETALIATION MISSION 06
+  - type: STR_ALIEN_BASE_RETALIATION_MISSION_06
     points: 0
     objective: 4 #Perform a base attack on a xcom base
-    operationType: 4 #We Operate from a existing Alien base on Earth
+    siteType: STR_ALIEN_BASE_ASSAULT_06
+    operationType: 5 #We Operate from a existing Alien base on Earth, if thereis non create one
+    operationSpawnZone: 4 #Mission zone for alien bases
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_06
     spawnUfo: STR_BATTLESHIP #Spawned for the final retaliation run
     raceWeights: *RETALIATION # In case of shootdown, race comes from UFO that triggered the mission.
     waves:
@@ -719,5 +793,5 @@ alienMissions:
         trajectory: P8
         timer: 3000
         interruptPercentage: 33
-#END ALIEN BASE RETALIATION MISSION
+#END ALIEN BASE RETALIATION MISSION 06
 ###END ALIEN MISSIONS

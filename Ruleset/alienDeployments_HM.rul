@@ -1532,10 +1532,10 @@ alienDeployments:
     alienBaseUpgrades:
       0:
         STR_ALIEN_BASE_GAMESTART_ASSAULT: 100
-      2:
-        STR_ALIEN_BASE_GAMESTART_ASSAULT_02: 100
-      4:
-        STR_ALIEN_BASE_GAMESTART_ASSAULT_04: 100
+      3:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_03: 100
+      6:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_06: 100
     alienRaceEvolution: &ALIEN_BASE_RACE_EVOLUTION
       - [1, STR_FLOATER, STR_FLOATER_1]
       - [3, STR_FLOATER_1, STR_FLOATER_3]
@@ -1786,6 +1786,7 @@ alienDeployments:
     genMission:
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_BASE_BASE_MISSION: 10
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
@@ -1800,15 +1801,15 @@ alienDeployments:
     abortCutscene: abortMiss
 #END ALIEN BASE GAMESTART ASSAULT
 
-#BEGIN ALIEN BASE GAMESTART ASSAULT 02
-  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT_02
+#BEGIN ALIEN BASE GAMESTART ASSAULT 03
+  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT_03
     alienBaseUpgrades:
       0:
-        STR_ALIEN_BASE_GAMESTART_ASSAULT_02: 100
-      4:
-        STR_ALIEN_BASE_GAMESTART_ASSAULT_04: 100
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_03: 100
+      3:
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_06: 100
     alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
-    data: &ALIEN_BASE_SET_02
+    data: &ALIEN_BASE_SET_03
       - alienRank: 6
         lowQty: 2
         highQty: 4
@@ -1898,7 +1899,7 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_BASE_MISSION_03: 20
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
       STR_ALIEN_BASE_TERROR_MISSION: 20
@@ -1914,15 +1915,15 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ALIEN BASE GAMESTART ASSAULT 02
+#END ALIEN BASE GAMESTART ASSAULT 03
 
-#BEGIN ALIEN BASE GAMESTART ASSAULT 04
-  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT_04
+#BEGIN ALIEN BASE GAMESTART ASSAULT 06
+  - type: STR_ALIEN_BASE_GAMESTART_ASSAULT_06
     alienBaseUpgrades:
       0:
-        STR_ALIEN_BASE_GAMESTART_ASSAULT_04: 100
+        STR_ALIEN_BASE_GAMESTART_ASSAULT_06: 100
     alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
-    data: &ALIEN_BASE_SET_04
+    data: &ALIEN_BASE_SET_06
       - alienRank: 6
         lowQty: 3
         highQty: 5
@@ -2012,13 +2013,13 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_BASE_MISSION_06: 30
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
-      STR_ALIEN_BASE_TERROR_MISSION: 20
-      STR_ALIEN_BASE_INFILTRATION_MISSION: 10
-      STR_ALIEN_BASE_RETALIATION_MISSION: 10
-      STR_ALIEN_SUPPLY: 60
+      STR_ALIEN_BASE_TERROR_MISSION: 30
+      STR_ALIEN_BASE_INFILTRATION_MISSION_06: 20
+      STR_ALIEN_BASE_RETALIATION_MISSION_06: 20
+      STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
     alienBase: true # this is only to tell new battle mode what to do with this deployment
@@ -2030,17 +2031,17 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ALIEN BASE GAMESTART ASSAULT 04
+#END ALIEN BASE GAMESTART ASSAULT 06
 
 #BEGIN ALIEN BASE ASSAULT
   - type: STR_ALIEN_BASE_ASSAULT
     alienBaseUpgrades:
       0:
         STR_ALIEN_BASE_ASSAULT: 100
-      2:
-        STR_ALIEN_BASE_ASSAULT_02: 100
-      4:
-        STR_ALIEN_BASE_ASSAULT_04: 100
+      3:
+        STR_ALIEN_BASE_ASSAULT_03: 100
+      6:
+        STR_ALIEN_BASE_ASSAULT_06: 100
     alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
     data: *ALIEN_BASE_SET
     width: 50
@@ -2062,6 +2063,7 @@ alienDeployments:
     genMission:
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
+      STR_ALIEN_BASE_BASE_MISSION: 10
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
@@ -2076,15 +2078,15 @@ alienDeployments:
     abortCutscene: abortMiss
 #END ALIEN BASE ASSAULT
 
-#BEGIN ALIEN BASE ASSAULT 02
-  - type: STR_ALIEN_BASE_ASSAULT_02
+#BEGIN ALIEN BASE ASSAULT 03
+  - type: STR_ALIEN_BASE_ASSAULT_03
     alienBaseUpgrades:
       0:
-        STR_ALIEN_BASE_ASSAULT_02: 100
-      4:
-        STR_ALIEN_BASE_ASSAULT_04: 100
+        STR_ALIEN_BASE_ASSAULT_03: 100
+      3:
+        STR_ALIEN_BASE_ASSAULT_06: 100
     alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
-    data: *ALIEN_BASE_SET_02
+    data: *ALIEN_BASE_SET_03
     width: 60
     length: 60
     height: 2
@@ -2102,7 +2104,7 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_BASE_MISSION_03: 20
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
       STR_ALIEN_BASE_TERROR_MISSION: 20
@@ -2118,15 +2120,15 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ALIEN BASE ASSAULT 02
+#END ALIEN BASE ASSAULT 03
 
-#BEGIN ALIEN BASE ASSAULT 04
-  - type: STR_ALIEN_BASE_ASSAULT_04
+#BEGIN ALIEN BASE ASSAULT 06
+  - type: STR_ALIEN_BASE_ASSAULT_06
     alienBaseUpgrades:
       0:
-        STR_ALIEN_BASE_ASSAULT_04: 100
+        STR_ALIEN_BASE_ASSAULT_06: 100
     alienRaceEvolution: *ALIEN_BASE_RACE_EVOLUTION
-    data: *ALIEN_BASE_SET_04
+    data: *ALIEN_BASE_SET_06
     width: 70
     length: 70
     height: 2
@@ -2144,13 +2146,13 @@ alienDeployments:
     markerName: STR_ALIEN_BASE
     markerIcon: 7
     genMission:
-      STR_ALIEN_BASE_BASE_MISSION: 10
+      STR_ALIEN_BASE_BASE_MISSION_06: 30
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
-      STR_ALIEN_BASE_TERROR_MISSION: 20
-      STR_ALIEN_BASE_INFILTRATION_MISSION: 10
-      STR_ALIEN_BASE_RETALIATION_MISSION: 10
-      STR_ALIEN_SUPPLY: 60
+      STR_ALIEN_BASE_TERROR_MISSION: 30
+      STR_ALIEN_BASE_INFILTRATION_MISSION_06: 20
+      STR_ALIEN_BASE_RETALIATION_MISSION_06: 20
+      STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
     alienBase: true # this is only to tell new battle mode what to do with this deployment
@@ -2162,7 +2164,7 @@ alienDeployments:
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
-#END ALIEN BASE ASSAULT 04
+#END ALIEN BASE ASSAULT 06
 
 #BEGIN BASE DEFENSE
   - type: STR_BASE_DEFENSE

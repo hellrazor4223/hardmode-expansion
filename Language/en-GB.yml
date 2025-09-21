@@ -27,10 +27,10 @@ en-GB:
   STR_ALIEN_BASE_INFILTRATION_MISSION: "Alien Infiltration"
   STR_ALIEN_BASE_RETALIATION_MISSION: "Alien Retaliation"
   STR_ALIEN_BASE_GAMESTART: "Alien Base"
-  STR_ALIEN_BASE_GAMESTART_02: "Alien Base"
-  STR_ALIEN_BASE_GAMESTART_04: "Alien Base"
-  STR_ALIEN_BASE_02: "Alien Base"
-  STR_ALIEN_BASE_04: "Alien Base"
+  STR_ALIEN_BASE_GAMESTART_03: "Alien Base"
+  STR_ALIEN_BASE_GAMESTART_06: "Alien Base"
+  STR_ALIEN_BASE_03: "Alien Base"
+  STR_ALIEN_BASE_06: "Alien Base"
   STR_HOLSTER: "HOLSTER"
 #END GENERAL
 
@@ -1208,9 +1208,14 @@ en-GB:
   STR_TERROR_MISSION_SHIP_DISABLED: "SHIP DISABLED"
   STR_TERROR_MISSION_SHIP_OPERATIONAL: "SHIP STILL OPERATIONAL"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "NAVIGATION SYSTEM DESTROYED"
+
+  STR_TERROR_MISSION_POLAR: "TERROR MISSION POLAR"
+  STR_TERROR_MISSION_POLAR_BRIEFING: "Aliens have launched an attack against Antartic research station. The research station and its civilian personal have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place XCom operatives into the transport vehicle and click on the 'Abort Mission' icon."
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
+  MAP_AREA51: "Area 51"
+  MAP_APARTMENT: "Apartment"
   MAP_AIRFIELD1: "Airfield 1"
   MAP_AIRFIELD2: "Airfield 2"
   MAP_AIRFIELD3: "Airfield 3"
@@ -1220,6 +1225,7 @@ en-GB:
   MAP_AIRFIELD7: "Airfield 7"
   MAP_AIRFIELD8: "Airfield 8"
   MAP_CARGOSHIP: "Cargo Ship"
+  MAP_COLDISLE: "Cold Isle"
   MAP_COMRCURBAN: "Commercial"
   MAP_CULTAFARMA: "Expanded Farm A"
   MAP_CULTAFARMB: "Expanded Farm B"
@@ -1262,6 +1268,8 @@ en-GB:
   MAP_PORTTFTD: "Port TFTD"
   MAP_PORTURBAN: "Port Modified"
   MAP_RAILYARDURBAN: "Railyard"
+  MAP_RAILSTATION_AREA51_MIX: "Railstation Area 51"
+  MAP_RAILSTATION_APARTMENT_MIX: "Railstation Apartment"
   MAP_RAILSTATION_EXPANDED_URBAN_MIX: "Railstation Urban"
   MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: "Railstation Commercial"
   MAP_RAILSTATION_INDUSTRIALURBAN_MIX: "Railstation Industrial"
@@ -1276,6 +1284,7 @@ en-GB:
   MAP_STEPPEFOREST: "Steppe Forest"
   MAP_STEPPEFORESTMOUNT: "Steppe Forest Mountain"
   MAP_STEPPEPOLAR: "Steppe Swamp"
+  MAP_SLUMURBAN: "Slums"
   MAP_TAIGADESERT: "Taiga Desert"
   MAP_TAIGADESERTMOUNT: "Taiga Desert Mountain"
   MAP_TAIGAFOREST: "Taiga Forest"
