@@ -1,6 +1,7 @@
 Changelog:
 
 Version 0.99.9.9
+ - Fix Loaderror for OXCE 8.5.8+ Validation
  - Fix Spelling Errors / Text Corrections and clarifications
  - Fix wrong manufacture times for Alloy Drone -> Hoverdrone upgrades
  - Fix Pistols in HOLSTER can not be reloaded
