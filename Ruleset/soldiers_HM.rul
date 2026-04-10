@@ -3,7 +3,7 @@ soldiers:
   - type: STR_SOLDIER
     soldierNames:
       - delete
-      - Resources/UI/Soldiers/SoldierCountryNames/
+      - Resources/Soldiers/SoldierCountryNames/
     costBuy: 60000
     costSalary: 30000
     costSalarySquaddie: 3000

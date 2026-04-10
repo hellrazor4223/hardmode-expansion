@@ -2,20 +2,20 @@
 extraSounds:
   - type: BATTLE.CAT
     files:
-      100: Resources/Items/Xcom/Shotgun/Sound_Shoot_Shotgun.wav
-      102: Resources/Items/Xcom/SniperRifle/Sound_Shoot_SniperRifle.wav
-      103: Resources/Items/Xcom/TaserPistol/Sound_Shoot_TaserPistol.wav
-      104: Resources/Units/Alien/Holodrone/Sound_Move_Holodrone.wav
-      105: Resources/Items/Xcom/GrenadeLauncher/Sound_Shoot_GrenadeLauncher.wav
-      106: Resources/Items/Sound_Hit_PlasmaMelee.wav
-      107: Resources/Items/Alien/PlasmaBlade/Sound_Slice_PlasmaBlade.wav
-      108: Resources/Items/Alien/PlasmaSword/Sound_Slice_PlasmaSword.wav
-      109: Resources/Items/Sound_Hit_NormalMelee.wav
-      110: Resources/Units/Alien/MutonBerserker/Sound_Punch_MutonBerserker.wav
-      111: Resources/Units/Alien/MutonBerserker/Sound_Hit_MutonBerserker.wav
-      112: Resources/Units/Alien/MutonBerserker/Sound_Aggro_MutonBerserker.wav
-      113: Resources/Units/Xcom/Drones/Sound_Shoot_DroneSmoke.wav
-      114: Resources/Units/Xcom/Drones/Sound_Shoot_DroneTaser.wav
-      115: Resources/Units/Xcom/Tanks/Sound_Shoot_TankSmoke.wav
-      116: Resources/Items/Xcom/FireExtinguisher/Sound_Shoot_FireExtinguisher.wav
+      100: Resources/Battlescape/Items/Xcom/Shotgun/Sound_Shoot_Shotgun.wav
+      102: Resources/Battlescape/Items/Xcom/SniperRifle/Sound_Shoot_SniperRifle.wav
+      103: Resources/Battlescape/Items/Xcom/TaserPistol/Sound_Shoot_TaserPistol.wav
+      104: Resources/Battlescape/Units/Alien/Holodrone/Sound_Move_Holodrone.wav
+      105: Resources/Battlescape/Items/Xcom/GrenadeLauncher/Sound_Shoot_GrenadeLauncher.wav
+      106: Resources/Battlescape/Items/Sound_Hit_PlasmaMelee.wav
+      107: Resources/Battlescape/Items/Alien/PlasmaBlade/Sound_Slice_PlasmaBlade.wav
+      108: Resources/Battlescape/Items/Alien/PlasmaSword/Sound_Slice_PlasmaSword.wav
+      109: Resources/Battlescape/Items/Sound_Hit_NormalMelee.wav
+      110: Resources/Battlescape/Units/Alien/MutonBerserker/Sound_Attack_MutonBerserker.wav
+      111: Resources/Battlescape/Units/Alien/MutonBerserker/Sound_Hit_MutonBerserker.wav
+      112: Resources/Battlescape/Units/Alien/MutonBerserker/Sound_Aggro_MutonBerserker.wav
+      113: Resources/Battlescape/Units/Xcom/Drones/Sound_Shoot_DroneSmoke.wav
+      114: Resources/Battlescape/Units/Xcom/Drones/Sound_Shoot_DroneTaser.wav
+      115: Resources/Battlescape/Units/Xcom/Tanks/Sound_Shoot_TankSmoke.wav
+      116: Resources/Battlescape/Items/Xcom/FireExtinguisher/Sound_Shoot_FireExtinguisher.wav
 ###END EXTRASOUNDS
