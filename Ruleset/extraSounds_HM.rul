@@ -68,12 +68,12 @@ extraSounds:
       38: Resources/Battlescape/Sound_Item_Place.wav #VANILLA OVERWRITE
       39: Resources/Battlescape/Sound_Item_Throw.wav #VANILLA OVERWRITE
       40: Resources/Battlescape/Units/Sound_Move_Hover.wav #VANILLA OVERWRITE
-      41: Resources/Battlescape/Units/Xcom/Sound_Death_XcomFemaleSoldier_f1.wav #VANILLA OVERWRITE
-      42: Resources/Battlescape/Units/Xcom/Sound_Death_XcomFemaleSoldier_f2.wav #VANILLA OVERWRITE
-      43: Resources/Battlescape/Units/Xcom/Sound_Death_XcomFemaleSoldier_f3.wav #VANILLA OVERWRITE
-      44: Resources/Battlescape/Units/Xcom/Sound_Death_XcomMaleSoldier_m1.wav #VANILLA OVERWRITE
-      45: Resources/Battlescape/Units/Xcom/Sound_Death_XcomMaleSoldier_m2.wav #VANILLA OVERWRITE
-      46: Resources/Battlescape/Units/Xcom/Sound_Death_XcomMaleSoldier_m3.wav #VANILLA OVERWRITE
+      41: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale01.wav #VANILLA OVERWRITE
+      42: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale02.wav #VANILLA OVERWRITE
+      43: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale03.wav #VANILLA OVERWRITE
+      44: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale01.wav #VANILLA OVERWRITE
+      45: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale02.wav #VANILLA OVERWRITE
+      46: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale03.wav #VANILLA OVERWRITE
       47: Resources/Battlescape/Units/Sound_Move_RockDrag.wav #VANILLA OVERWRITE
       48: Resources/Battlescape/Units/Alien/Reaper/Sound_Attack_Reaper.wav #VANILLA OVERWRITE
       49: Resources/Battlescape/Units/Alien/Chryssalid/Sound_Aggro_Chryssalid.wav #VANILLA OVERWRITE
@@ -111,6 +111,22 @@ extraSounds:
       81: Resources/Battlescape/Items/Xcom/HeavyLaserSniper/Sound_Shoot_HeavyLaserSniper.wav
       82: Resources/Battlescape/Units/Xcom/Drones/Sound_Hit_DroneTaser.wav
       83: Resources/Battlescape/Items/Xcom/TaserPistol/Sound_Hit_TaserPistol.wav
+      84: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale04.wav
+      85: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale05.wav
+      86: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale06.wav
+      87: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale07.wav
+      88: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale08.wav
+      89: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale09.wav
+      90: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale10.wav
+      91: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanFemale11.wav
+      92: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanMale01.wav
+      93: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanMale02.wav
+      94: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanMale03.wav
+      95: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanMale04.wav
+      96: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanMale05.wav
+      97: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanFemale01.wav
+      98: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanFemale02.wav
+      99: Resources/Battlescape/Units/HumanScreams/Berserk/Sound_Berserk_HumanFemale03.wav
       100: Resources/Battlescape/Items/Xcom/Shotgun/Sound_Shoot_Shotgun.wav
       102: Resources/Battlescape/Items/Xcom/SniperRifle/Sound_Shoot_SniperRifle.wav
       103: Resources/Battlescape/Items/Xcom/TaserPistol/Sound_Shoot_TaserPistol.wav
@@ -127,5 +143,32 @@ extraSounds:
       114: Resources/Battlescape/Units/Xcom/Drones/Sound_Shoot_DroneTaser.wav
       115: Resources/Battlescape/Units/Xcom/Tanks/Sound_Shoot_TankSmoke.wav
       116: Resources/Battlescape/Items/Xcom/FireExtinguisher/Sound_Shoot_FireExtinguisher.wav
+      117: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale04.wav
+      118: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale05.wav
+      119: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale06.wav
+      120: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale07.wav
+      121: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale08.wav
+      122: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale09.wav
+      123: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale10.wav
+      124: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale11.wav
+      125: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale12.wav
+      126: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale13.wav
+      127: Resources/Battlescape/Units/HumanScreams/Death/Sound_Death_HumanMale14.wav
+      128: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale01.wav
+      129: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale02.wav
+      130: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale03.wav
+      131: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale04.wav
+      132: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale05.wav
+      133: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale06.wav
+      134: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanFemale07.wav
+      135: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale01.wav
+      136: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale02.wav
+      137: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale03.wav
+      138: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale04wav
+      139: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale05.wav
+      140: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale06.wav
+      141: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale07.wav
+      142: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale08.wav
+      143: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale09.wav
 ##END BATTLE.CAT
 ###END EXTRASOUNDS

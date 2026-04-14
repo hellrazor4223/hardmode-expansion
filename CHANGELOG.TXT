@@ -25,7 +25,8 @@ Version 0.99.9.9
  - Add SLUMURBAN Terrain from Terrain Pack
  - Add AREA51 Terrain from Terrain Pack
  - Add COLDISLE Terrain from Terrain Pack
- - Merge HQSounds Mod from Deadalus
+ - Add HQSounds Mod from Deadalus
+ - Add more Death, Panic and Berserk Scream
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

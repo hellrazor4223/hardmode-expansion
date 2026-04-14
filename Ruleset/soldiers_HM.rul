@@ -51,4 +51,10 @@ soldiers:
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 25
+    deathMale: [41, 42, 43, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127]
+    deathFemale: [44, 45, 46, 84, 85, 86, 87, 88, 89, 90, 91]
+    panicMale: [135, 136, 137, 138, 139, 140, 141, 142, 143]
+    panicFemale: [128, 129, 130, 131, 132, 133, 134]
+    berserkMale: [92, 93, 94, 95, 96]
+    berserkFemale: [97, 98, 99]
 ###END SOLDIER STATS

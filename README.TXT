@@ -139,6 +139,7 @@ Quality of Live OXCE UI changes:
 	AmigaFonts for better readability (Geoscape and Battlescape UI)
 	High Quality Sound replacements for all Vanilla Sounds (Geoscape and Battlescape UI)
 	High Quality Sound replacements for some non Vanilla Weapons and Units (Battlescape UI)
+	More Death, Panic and Berserk Screams for Humans (Battlescape UI)
 
 Additional Alien Races/Units:
 	Waspite
