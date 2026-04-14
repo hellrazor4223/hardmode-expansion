@@ -30,7 +30,7 @@ craftWeapons:
 #BEGIN STINGRAY
   - type: STR_STINGRAY
     sprite: 0
-    sound: 5
+    sound: 15
     damage: 70
     range: 21
     accuracy: 70
@@ -64,7 +64,7 @@ craftWeapons:
 #BEGIN LASER CANNON
   - type: STR_LASER_CANNON_UC
     sprite: 4
-    sound: 8
+    sound: 14
     damage: 70
     range: 34
     accuracy: 50

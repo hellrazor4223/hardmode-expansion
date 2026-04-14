@@ -20,6 +20,10 @@ README for Version 0.99.9.9
 About this mod:
 My Personal approach on creating a sort of LONG WAR MOD for the ORIGNAL UFO - DEFENSE.
 
+This Mod behaves like a pot of water in which the player is set, while the mod is slowly turning up the temperature, to cook the player basically alive if he is not successful in beating the aliens.
+
+DO YOU DARE TO ENTER?
+
 I originally created it as a player torture device *evilgrin*, but it turned out to be a Mod people like to play because of the challenge it offers.
 When designing this Mod, I decided to stick on the CORE VANILLA GAME PRINCIPLES and create basically a EXPANSION PACK.
 
@@ -45,9 +49,9 @@ Some general advice when playing:
 	- Unlocking PLASMA WEAPONS and ADVANCED ALIEN EXPLOSIVES needs ALIVE INTERROGATIONS and ALIEN DATA CORE (located on Battleships)
 	- Researching CRAFTS, Advanced HWPs, Advanced Soldier Armors requires ALIVE INTERROGATIONS (Alive Alien: Medics, Navigator, Engineers)
 	- ALIVE INTERROGATIONS will trigger Alien missions
-	- ALIEN BASES on earth will trigger missions on their own (keep their number in check or you will get outpaced!)
+	- ALIEN BASES on earth will trigger missions on their own and grow in size and crew number over time (keep their number in check or you will get outpaced!)
 	- It is strongly recommended to get LASERS before MUTONS arrive in June and getting PLASMA WEAPONS will help greatly against MUTON ELITES and other advanced species
-	- It is recommended to Reach the number of at least 100 SCIENTISTS by APRIL and around 250 SCIENTISTS by NOVEMBER of first ingame year
+	- It is recommended to Reach the number of at least 100 SCIENTISTS by end of APRIL and around 250 SCIENTISTS by end of NOVEMBER of first ingame year (to give you a clue what to do)
 	- RESEARCH is a huge COST INVESTMENT, plan accordingly with your finances
 	- Get used to manage and maintain at least 2 TO 3 ASSAULT TEAMS, by July (you can get more no problem)
 	- RADAR BASES are needed especially in the BEGINNING (stick with a simple Small Radar, its cheap, or whatever you can efford)
@@ -71,7 +75,7 @@ COMPATBILITY with OTHER MODS:
 	- This mod is intended to be a STANDALONE MOD.
 	- Mods which only add new Items and New Crafts may not pose a problem.
 	- UFO Extender Accuracy (Full support)
-	- High Quality Sounds (https://mod.io/g/openxcom/m/hqsounds-by-daedalus) from Daedalus (STRONGLY RECOMMENDED!)
+	- High Quality Sounds (https://mod.io/g/openxcom/m/hqsounds-by-daedalus) from Daedalus (HAS BEEN MERGED INTO THE MOD PLEASE DISABLE!)
 
 NOT compatible:
 	Commendations Mod (already integrated)
@@ -128,11 +132,13 @@ Quality of Live OXCE UI changes:
 	Improved TU Reserve Sprites (Battlescape UI)
 	Better Smoke Animation (Battlescape UI)
 	Better looking Buttons for Inventory (Battlescape UI)
-	Better Backgrounds for some Screens (Geograph and Battlescape UI)
+	Better Backgrounds for some Screens (Geoscape and Battlescape UI)
 	New Plasma Hit Animations for all Plasma Weapons (Battlescape UI)
 	Colored Explosions (Grey: Smoke, Yellow: HE, Stun: Purple) (Battlescape UI)
 	SoldierCountryNames and SoldierCountryFlags from 115 Countries
-	AmigaFonts for better readability (Geograph and Battlescape UI)
+	AmigaFonts for better readability (Geoscape and Battlescape UI)
+	High Quality Sound replacements for all Vanilla Sounds (Geoscape and Battlescape UI)
+	High Quality Sound replacements for some non Vanilla Weapons and Units (Battlescape UI)
 
 Additional Alien Races/Units:
 	Waspite

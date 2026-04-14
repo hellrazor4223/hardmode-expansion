@@ -222,7 +222,9 @@ Credits go to:
 		- For the Floater Variant Pack: https://openxcom.org/forum/index.php?topic=9297.0
 	Hythlodaeus:
 		- For the AmigaFonts Mod: https://openxcom.org/forum/index.php?topic=1713.0
-
+	Daedalus:
+		- For the HQSounds Mod: https://mod.io/g/openxcom/m/hqsounds-by-daedalus
+		- For the HQSounds FMP Mod: https://mod.io/g/openxcom/m/hqsounds-final-mod-pack-by-daedalus
 	All translaters on the TRANSIFEX project (you guys are awesome)
 
 This list is for sure not complete.

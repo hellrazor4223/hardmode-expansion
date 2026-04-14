@@ -79,6 +79,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 113
+    explosionHitSound: 76
     accuracySnap: 100
     tuSnap: 33
     battleType: 1
@@ -110,6 +111,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 113
+    explosionHitSound: 76
     accuracySnap: 100
     tuSnap: 33
     battleType: 1
@@ -251,7 +253,7 @@ items:
     size: 0.01
     costSell: 500
     weight: 1
-    hitSound: 54
+    hitSound: 82
     hitAnimation: 120
     hitAnimFrames: 5
     power: 40
@@ -295,6 +297,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 113
+    explosionHitSound: 76
     accuracySnap: 100
     tuSnap: 33
     battleType: 1
@@ -325,6 +328,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 113
+    explosionHitSound: 76
     accuracySnap: 100
     tuSnap: 33
     battleType: 1
@@ -519,7 +523,7 @@ items:
     size: 0.01
     costSell: 1000
     weight: 1
-    hitSound: 54
+    hitSound: 82
     hitAnimation: 120
     hitAnimFrames: 5
     power: 65
@@ -563,6 +567,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 113
+    explosionHitSound: 76
     accuracySnap: 100
     tuSnap: 25
     battleType: 1
@@ -593,6 +598,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 113
+    explosionHitSound: 76
     accuracySnap: 100
     tuSnap: 25
     battleType: 1
@@ -707,7 +713,7 @@ items:
     weight: 50
     bigSprite: 170
     bulletSprite: 29
-    hitSound: 54
+    hitSound: 82
     hitAnimation: 130
     hitAnimFrames: 5
     power: 90
@@ -754,6 +760,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 115
+    explosionHitSound: 76
     accuracySnap: 167
     tuSnap: 33
     battleType: 1
@@ -882,6 +889,8 @@ items:
   - type: STR_TANK_LASER_CANNON
     customItemPreviewIndex: 0
     size: 4
+    fireSound: 70
+    hitSound: 19
     accuracySnap: 50
     accuracyAimed: 85
     tuSnap: 33
@@ -938,6 +947,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 115
+    explosionHitSound: 76
     accuracySnap: 143
     tuSnap: 33
     battleType: 1
@@ -1105,7 +1115,7 @@ items:
     floorSprite: 0
     handSprite: 0
     bulletSprite: 7
-    fireSound: 11
+    fireSound: 70
     hitSound: 19
     hitAnimation: 36
     power: 110
@@ -1173,6 +1183,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 115
+    explosionHitSound: 76
     accuracySnap: 143
     tuSnap: 25
     battleType: 1
@@ -1201,7 +1212,7 @@ items:
     floorSprite: 0
     handSprite: 0
     bulletSprite: 7
-    fireSound: 11
+    fireSound: 70
     hitSound: 19
     hitAnimation: 36
     power: 110
@@ -1460,6 +1471,7 @@ items:
     power: 60
     damageType: 9
     fireSound: 115
+    explosionHitSound: 76
     accuracySnap: 143
     tuSnap: 20
     battleType: 1
@@ -1878,7 +1890,7 @@ items:
     floorSprite: 114
     handSprite: 600
     bulletSprite: 12
-    hitSound: 54
+    hitSound: 83
     hitAnimation: 100
     hitAnimFrames: 5
     power: 40
@@ -1899,7 +1911,7 @@ items:
     floorSprite: 215
     handSprite: 680
     bulletSprite: 26
-    hitSound: 54
+    hitSound: 83
     hitAnimation: 110
     hitAnimFrames: 5
     power: 60
@@ -1914,6 +1926,7 @@ items:
 #BEGIN PISTOL ITEM
   - type: STR_PISTOL
     supportedInventorySections: *HOLSTER_ALLOWED
+    fireSound: 64
     compatibleAmmo:
       - STR_PISTOL_CLIP
       - STR_PISTOL_AA_CLIP
@@ -1959,6 +1972,7 @@ items:
      - STR_RIGHT_SHOULDER
      - STR_LEFT_SHOULDER
      - STR_BACK_PACK
+    fireSound: 65
     compatibleAmmo:
       - STR_RIFLE_CLIP
       - STR_RIFLE_AA_CLIP
@@ -2138,6 +2152,7 @@ items:
 #BEGIN HEAVY CANNON ITEW
   - type: STR_HEAVY_CANNON
     weight: 16
+    fireSound: 68
     compatibleAmmo:
       - STR_HC_AP_AMMO
       - STR_HC_HE_AMMO
@@ -2162,7 +2177,7 @@ items:
     floorSprite: 11
     handSprite: 24
     bulletSprite: 4
-    fireSound: 12
+    fireSound: 68
     compatibleAmmo:
       - STR_HC_AA_AMMO
       - STR_HC_EHE_AMMO
@@ -2242,6 +2257,7 @@ items:
 #BEGIN AUTO CANNON ITEM
   - type: STR_AUTO_CANNON
     weight: 16
+    fireSound: 67
     compatibleAmmo:
       - STR_AC_AP_AMMO
       - STR_AC_HE_AMMO
@@ -2268,7 +2284,7 @@ items:
     floorSprite: 7
     handSprite: 32
     bulletSprite: 3
-    fireSound: 12
+    fireSound: 67
     compatibleAmmo:
       - STR_AC_AA_AMMO
       - STR_AC_EHE_AMMO
@@ -2288,6 +2304,7 @@ items:
   - type: STR_AC_AP_AMMO
     weight: 5
     handSprite: 192
+    hitSound: 66
     armor: 20
     listOrder: 2800
   - type: STR_AC_AA_AMMO
@@ -2299,7 +2316,7 @@ items:
     bigSprite: 111
     floorSprite: 175
     handSprite: 552
-    hitSound: 13
+    hitSound: 66
     hitAnimation: 26
     bulletSprite: 21
     power: 63
@@ -2315,6 +2332,7 @@ items:
     requires:
       - STR_EXPLOSIVE_AMMO
     handSprite: 200
+    hitSound: 0
     armor: 20
     listOrder: 2900
   - type: STR_AC_EHE_AMMO
@@ -2341,6 +2359,7 @@ items:
   - type: STR_AC_I_AMMO
     weight: 5
     handSprite: 208
+    hitSound: 0
     armor: 20
     listOrder: 3000
 #END AUTO CANNON ITEM
@@ -2515,6 +2534,8 @@ items:
 #BEGIN LASER PISTOL ITEM
   - type: STR_LASER_PISTOL
     supportedInventorySections: *HOLSTER_ALLOWED
+    fireSound: 69
+    hitSound: 19
     armor: 30
     snapRange: 16
     autoRange: 10
@@ -2524,6 +2545,7 @@ items:
 #BEGIN LASER RIFLE ITEM
   - type: STR_LASER_RIFLE
     supportedInventorySections: *HOLSTER_FORBIDDEN
+    hitSound: 19
     armor: 30
     snapRange: 20
     autoRange: 12
@@ -2575,6 +2597,8 @@ items:
 
 #BEGIN HEAVY LASER SNIPER ITEM
   - type: STR_HEAVY_LASER
+    fireSound: 81
+    hitSound: 19
     power: 100
     accuracySnap: 80
     accuracyAimed: 130
@@ -2597,7 +2621,7 @@ items:
     floorSprite: 107
     handSprite: 240
     bulletSprite: 7
-    fireSound: 11
+    fireSound: 70
     hitSound: 19
     hitAnimation: 36
     power: 85
@@ -2630,6 +2654,7 @@ items:
     supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 248
     hitAnimation: 56
+    explosionHitSound: 76
     blastRadius: 3
     armor: 30
 #BEGIN SMOKE GRENADE ITEM
@@ -2670,6 +2695,7 @@ items:
     floorSprite: 148
     handSprite: 440
     hitAnimation: 64
+    explosionHitSound: 76
     power: 40
     damageType: 6
     battleType: 4
@@ -2726,6 +2752,7 @@ items:
     floorSprite: 109
     handSprite: 432
     hitAnimation: 64
+    explosionHitSound: 76
     power: 90
     damageType: 6
     battleType: 4
@@ -3018,6 +3045,7 @@ items:
     floorSprite: 189
     handSprite: 360
     bulletSprite: 8
+    hitSound: 73
     hitAnimation: 150
     hitAnimFrames: 10
     armor: 30
@@ -3035,7 +3063,7 @@ items:
     floorSprite: 204
     handSprite: 632
     bulletSprite: 25
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 180
     hitAnimFrames: 10
     power: 72
@@ -3067,6 +3095,7 @@ items:
     supportedInventorySections: *HOLSTER_FORBIDDEN
     floorSprite: 190
     handSprite: 352
+    hitSound: 73
     hitAnimation: 160
     hitAnimFrames: 10
     armor: 30
@@ -3084,7 +3113,7 @@ items:
     floorSprite: 205
     handSprite: 640
     bulletSprite: 25
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 190
     hitAnimFrames: 10
     power: 100
@@ -3147,7 +3176,7 @@ items:
     floorSprite: 116
     handSprite: 512
     bulletSprite: 8
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 160
     hitAnimFrames: 10
     power: 80
@@ -3172,7 +3201,7 @@ items:
     floorSprite: 117
     handSprite: 520
     bulletSprite: 25
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 190
     hitAnimFrames: 10
     power: 100
@@ -3200,7 +3229,7 @@ items:
     floorSprite: 118
     handSprite: 344
     bulletSprite: 8
-    fireSound: 18
+    fireSound: 80
     compatibleAmmo:
       - STR_PLASMA_SNIPER_RIFLE_CLIP
       - STR_PLASMA_SNIPER_RIFLE_ELERIUM_CLIP
@@ -3230,7 +3259,7 @@ items:
     floorSprite: 119
     handSprite: 456
     bulletSprite: 8
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 160
     hitAnimFrames: 10
     power: 110
@@ -3252,7 +3281,7 @@ items:
     floorSprite: 153
     handSprite: 464
     bulletSprite: 25
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 190
     hitAnimFrames: 10
     power: 130
@@ -3267,6 +3296,7 @@ items:
 
 #BEGIN HEAVY PLASMA ITEM
   - type: STR_HEAVY_PLASMA
+    fireSound: 72
     compatibleAmmo:
       - STR_HEAVY_PLASMA_CLIP
       - STR_HEAVY_PLASMA_ELERIUM_CLIP
@@ -3285,6 +3315,7 @@ items:
     handSprite: 328
     armor: 30
     attraction: 10
+    hitSound: 73
     hitAnimation: 170
     hitAnimFrames: 10
     costSell: 4795
@@ -3300,7 +3331,7 @@ items:
     floorSprite: 206
     handSprite: 648
     bulletSprite: 25
-    hitSound: 19
+    hitSound: 73
     hitAnimation: 200
     hitAnimFrames: 10
     power: 135
@@ -3380,6 +3411,7 @@ items:
     supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 376
     hitAnimation: 64
+    explosionHitSound: 76
     bulletSprite: 9
     armor: 30
     attraction: 10
@@ -3437,7 +3469,7 @@ items:
     bigSprite: 166
     floorSprite: 179
     handSprite: 616
-    hitSound: 0
+    explosionHitSound: 76
     hitAnimation: 56
     bulletSprite: 18
     power: 90
@@ -3458,31 +3490,6 @@ items:
     costSell: 72000
     listOrder: 5800
     waypoints: 9
-#  - type: STR_BLASTER_LAUNCHER_UFOPAEDIA_PAGE_2
-#    ignoreInCraftEquip: true
-#    name: STR_BLASTER_LAUNCHER
-#    requires:
-#      - STR_NOT_AVAILABLE
-#    attraction: 10
-#    size: 0.3
-#    costSell: 72000
-#    weight: 16
-#    bigSprite: 35
-#    floorSprite: 34
-#    handSprite: 56
-#    bulletSprite: 10
-#    fireSound: 53
-#    compatibleAmmo:
-#      - STR_BLASTER_SMOKE_BOMB
-#    accuracyAimed: 120
-#    tuAimed: 66
-#    battleType: 1
-#    twoHanded: true
-#    waypoints: 9
-#    invWidth: 2
-#    invHeight: 3
-#    recoveryPoints: 5
-#    armor: 50
   - type: STR_BLASTER_BOMB
     supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 368
@@ -3491,66 +3498,6 @@ items:
     costSell: 8514
     listOrder: 5900
     dropoff: 0
-#  - type: STR_BLASTER_STUN_BOMB
-#    supportedInventorySections: *HOLSTER_FORBIDDEN
-#    requires:
-#      - STR_BLASTER_STUN_BOMB
-#    size: 0.2
-#    costSell: 17028
-#    weight: 3
-#    bigSprite:
-#    floorSprite:
-#    hitSound: 0
-#    hitAnimation: 64
-#    bulletSprite:
-#    power: 200
-#    damageType: 6
-#    clipSize: 1
-#    battleType: 2
-#    invWidth: 1
-#    invHeight: 2
-#    blastRadius: 10
-#    dropoff: 0
-#  - type: STR_BLASTER_FIRE_BOMB
-#    supportedInventorySections: *HOLSTER_FORBIDDEN
-#    requires:
-#      - STR_BLASTER_FIRE_BOMB
-#    size: 0.2
-#    costSell: 17028
-#    weight: 3
-#    bigSprite:
-#    floorSprite:
-#    hitSound: 0
-#    hitAnimation: 0
-#    bulletSprite:
-#    power: 200
-#    damageType: 2
-#    clipSize: 1
-#    battleType: 2
-#    invWidth: 1
-#    invHeight: 2
-#    blastRadius: 10
-#    dropoff: 0
-#  - type: STR_BLASTER_SMOKE_BOMB
-#    supportedInventorySections: *HOLSTER_FORBIDDEN
-#    requires:
-#      - STR_BLASTER_SMOKE_BOMB
-#    size: 0.2
-#    costSell: 17028
-#    weight: 3
-#    bigSprite:
-#    floorSprite:
-#    hitSound: 0
-#    hitAnimation: 64
-#    bulletSprite:
-#    power: 200
-#    damageType: 2
-#    clipSize: 1
-#    battleType: 2
-#    invWidth: 1
-#    invHeight: 2
-#    blastRadius: 10
-#    dropoff: 0
 #END BLASTER LAUNCHER ITEM
 
 #BEGIN ALIEN GRENADE ITEM
@@ -3572,6 +3519,7 @@ items:
 
 #BEGIN MIND PROBE ITEM
   - type: STR_MIND_PROBE
+    hitSound: 37
     handSprite: 408
     armor: 30
     attraction: 10
@@ -4016,17 +3964,42 @@ items:
 #BEGIN ZOMBIE WEAPON
   - type: ZOMBIE_WEAPON
     bigSprite: 228
+    meleeSound: 63
 #END ZOMBIE WEAPON
 
 #BEGIN CYBERDISC WEAPON ITEM
   - type: CYBERDISC_WEAPON
     hitAnimation: 170
     hitAnimFrames: 10
+    fireSound: 72
+    hitSound: 73
 #END CYBERDISC WEAPON ITEM
+
+#BEGIN CHRYSSALID WEAPON ITEM
+  - type: CHRYSSALID_WEAPON
+    meleeSound: 62
+#END CHRYSSALID WEAPON ITEM
+
+#BEGIN SECTOPOD WEAPON ITEM
+  - type: SECTOPOD_WEAPON
+    bigSprite: 224
+    fireSound: 74
+    hitSound: 19
+    hitAnimation: 36
+    power: 110
+    bulletSprite: 7
+    autoShots: 5
+    listOrder: 11400
+    snapRange: 24
+    autoRange: 14
+    dropoff: 3
+#END SECTOPOD WEAPON ITEM
 
 #BEGIN CELATID WEAPON ITEM
   - type: CELATID_WEAPON
     maxRange: 16
+    fireSound: 51
+    hitSound: 73
   - &STR_CELATID_EMBRYO
     type: STR_CELATID_EMBRYO
     size: 0.1
@@ -4089,27 +4062,14 @@ items:
     listOrder: 11401
 #END MUTON BERSERKER WEAPON ITEM
 
-#BEGIN SECTOPOD WEAPON ITEM
-  - type: SECTOPOD_WEAPON
-    bigSprite: 224
-    fireSound: 11
-    hitAnimation: 36
-    power: 110
-    bulletSprite: 7
-    autoShots: 5
-    listOrder: 11400
-    snapRange: 24
-    autoRange: 14
-    dropoff: 3
-#END SECTOPOD WEAPON ITEM
-
 #BEGIN CYBERMITE WEAPON ITEM
   - type: CYBERMITE_WEAPON
     weight: 3
     bigSprite: 225
     floorSprite: 31
     handSprite: 104
-    hitSound: 54
+    meleeSound: 107
+    meleeHitSound: 106
     clipSize: -1
     power: 80
     damageType: 7
@@ -4130,7 +4090,7 @@ items:
     floorSprite: 31
     handSprite: 104
     bulletSprite: 7
-    fireSound: 11
+    fireSound: 70
     hitSound: 19
     hitAnimation: 36
     clipSize: -1
@@ -4159,8 +4119,8 @@ items:
     floorSprite: 31
     handSprite: 104
     bulletSprite: 8
-    fireSound: 18
-    hitSound: 19
+    fireSound: 72
+    hitSound: 73
     hitAnimation: 170
     hitAnimFrames: 10
     power: 130
@@ -4190,8 +4150,8 @@ items:
     bigSprite: 226
     floorSprite: 31
     handSprite: 104
-    fireSound: 18
-    hitSound: 19
+    fireSound: 75
+    hitSound: 73
     hitAnimation: 170
     hitAnimFrames: 10
     power: 125
@@ -4222,7 +4182,7 @@ items:
     bigSprite: { mod: xcom1, index: 61}
     floorSprite: 31
     handSprite: 104
-    meleeSound: 49
+    meleeSound: 62
     clipSize: -1
     strengthApplied: true
     damageType: 7
@@ -4268,7 +4228,7 @@ items:
   - type: SPITTER_ZOMBIE_WEAPON
     weight: 3
     bigSprite: 228
-    meleeSound: 48
+    meleeSound: 63
     strengthApplied: true
     damageType: 7
     accuracyMelee: 100

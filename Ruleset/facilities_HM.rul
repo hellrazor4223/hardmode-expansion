@@ -25,6 +25,8 @@ facilities:
     monthlyCost: 80000
   - type: STR_MISSILE_DEFENSES
     monthlyCost: 20000
+    fireSound: 5
+    hitSound: 12
   - type: STR_GENERAL_STORES
     monthlyCost: 15000
     storageTiles:
@@ -33,6 +35,8 @@ facilities:
       - [6, 6, 1]
   - type: STR_LASER_DEFENSES
     monthlyCost: 40000
+    fireSound: 14
+    hitSound: 12
   - type: STR_PLASMA_DEFENSES
     buildCostItems:
          STR_ALIEN_ALLOYS:
@@ -42,6 +46,8 @@ facilities:
          STR_UFO_POWER_SOURCE:
            build: 1
     monthlyCost: 60000
+    fireSound: 9
+    hitSound: 12
   - type: STR_FUSION_BALL_DEFENSES
     buildCostItems:
          STR_ALIEN_ALLOYS:
@@ -51,6 +57,8 @@ facilities:
          STR_UFO_POWER_SOURCE:
            build: 1
     monthlyCost: 80000
+    fireSound: 7
+    hitSound: 12
   - type: STR_GRAV_SHIELD
     buildCostItems:
          STR_ALIEN_ALLOYS:

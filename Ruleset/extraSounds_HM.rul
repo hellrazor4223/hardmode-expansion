@@ -1,7 +1,116 @@
 ###BEGIN EXTRASOUNDS
 extraSounds:
+
+##BEGIN GEO.CAT
+#VANILLA OVERWRITES ID: 0 - 13
+  - type: GEO.CAT
+    files:
+      0: Resources/Geoscape/Geoscape_Button_Press_1.wav #VANILLA OVERWRITE
+      1: Resources/Geoscape/Geoscape_Window_Close.wav #VANILLA OVERWRITE
+      2: Resources/Geoscape/Geoscape_Window_Open_1.wav #VANILLA OVERWRITE
+      3: Resources/Geoscape/Geoscape_Window_Open_2.wav #VANILLA OVERWRITE
+      4: Resources/Geoscape/Geoscape_Fire_Cannon.wav #VANILLA OVERWRITE
+      5: Resources/Geoscape/Geoscape_Fire_Missile.wav #VANILLA OVERWRITE
+      6: Resources/Geoscape/Geoscape_Button_Press_2.wav #VANILLA OVERWRITE
+      7: Resources/Geoscape/Geoscape_Fire_Fusionball.wav #VANILLA OVERWRITE
+      8: Resources/Geoscape/Geoscape_Ufo_Attack.wav #VANILLA OVERWRITE
+      9: Resources/Geoscape/Geoscape_Fire_Plasma.wav #VANILLA OVERWRITE
+      10: Resources/Geoscape/Geoscape_Plane_Hit.wav #VANILLA OVERWRITE
+      11: Resources/Geoscape/Geoscape_Ufo_Destroyed.wav #VANILLA OVERWRITE
+      12: Resources/Geoscape/Geoscape_Ufo_Hit.wav #VANILLA OVERWRITE
+      13: Resources/Geoscape/Geoscape_Plane_Destroyed.wav #VANILLA OVERWRITE
+      14: Resources/Geoscape/Geoscape_Fire_Laser.wav
+      15: Resources/Geoscape/Geoscape_Fire_MissileSmall.wav
+##END GEO.CAT
+
+##BEGIN BATTLE.CAT
+#VANILLA OVERWRITES ID: 0, 2 - 54
   - type: BATTLE.CAT
     files:
+      0: Resources/Battlescape/Units/Sound_Move_Slither.wav #VANILLA OVERWRITE SNAKEMAN MOVE
+      1: Resources/Battlescape/Units/Alien/Silacoid/Sound_Death_Silacoid.wav
+      2: Resources/Battlescape/Sound_Explode_Small.wav #VANILLA OVERWRITE
+      3: Resources/Battlescape/Sound_Door_Human.wav #VANILLA OVERWRITE
+      4: Resources/Battlescape/Items/Xcom/Sound_Fire_Conventional.wav #VANILLA OVERWRITE
+      5: Resources/Battlescape/Sound_Explode_Large.wav #VANILLA OVERWRITE
+      6: Resources/Battlescape/Units/Alien/Muton/Sound_Death_Muton.wav #VANILLA OVERWRITE
+      7: Resources/Battlescape/Units/Alien/Celatid/Sound_Death_Celatid.wav
+      8: Resources/Battlescape/Units/Alien/Snakeman/Sound_Death_Snakeman.wav #VANILLA OVERWRITE
+      9: Resources/Battlescape/Units/Alien/Ethereal/Sound_Death_Ethereal.wav #VANILLA OVERWRITE
+      10: Resources/Battlescape/Units/Alien/Sectoid/Sound_Death_Sectoid.wav #VANILLA OVERWRITE
+      11: Resources/Battlescape/Items/Xcom/LaserRifle/Sound_Shoot_LaserRifle.wav #VANILLA OVERWRITE
+      12: Resources/Battlescape/Items/Xcom/Sound_Fire_ConventionalCannon.wav #VANILLA OVERWRITE
+      13: Resources/Battlescape/Items/Xcom/HeavyCannon/Sound_Hit_HeavyCannon.wav #VANILLA OVERWRITE
+      14: Resources/Battlescape/Units/Sound_Move_Tank.wav #VANILLA OVERWRITE
+      15: Resources/Battlescape/Units/Sound_Move_HoverSmall_1.wav #VANILLA OVERWRITE
+      16: Resources/Battlescape/Units/Sound_Move_Slither.wav #VANILLA OVERWRITE
+      17: Resources/Battlescape/Sound_Item_Reload.wav #VANILLA OVERWRITE CELATID MOVE
+      18: Resources/Battlescape/Items/Alien/PlasmaRifle/Sound_Shoot_PlasmaRifle.wav #VANILLA OVERWRITE
+      19: Resources/Battlescape/Items/Sound_Hit_Laser.wav #VANILLA OVERWRITE
+      20: Resources/Battlescape/Sound_Door_AlienUfoMain.wav #VANILLA OVERWRITE
+      21: Resources/Battlescape/Sound_Door_AlienInner.wav #VANILLA OVERWRITE
+      22: Resources/Battlescape/Items/Xcom/Sound_Hit_Conventional.wav #VANILLA OVERWRITE
+      23: Resources/Battlescape/Units/Xcom/Tanks/Sound_Death_Tank.wav #VANILLA OVERWRITE
+      24: Resources/Battlescape/Units/Sound_Move_Metal1.wav #VANILLA OVERWRITE
+      25: Resources/Battlescape/Units/Sound_Move_Metal2.wav #VANILLA OVERWRITE
+      26: Resources/Battlescape/Units/Sound_Move_Ground1.wav #VANILLA OVERWRITE
+      27: Resources/Battlescape/Units/Sound_Move_Ground2.wav #VANILLA OVERWRITE
+      28: Resources/Battlescape/Units/Sound_Move_Martian1.wav #VANILLA OVERWRITE
+      29: Resources/Battlescape/Units/Sound_Move_Martian2.wav #VANILLA OVERWRITE
+      30: Resources/Battlescape/Units/Sound_Move_Water1.wav #VANILLA OVERWRITE
+      31: Resources/Battlescape/Units/Sound_Move_Water2.wav #VANILLA OVERWRITE
+      32: Resources/Battlescape/Units/Sound_Move_Sand1.wav #VANILLA OVERWRITE
+      33: Resources/Battlescape/Units/Sound_Move_Sand2.wav #VANILLA OVERWRITE
+      34: Resources/Battlescape/Units/Sound_Move_Snow1.wav #VANILLA OVERWRITE
+      35: Resources/Battlescape/Units/Sound_Move_Snow2.wav #VANILLA OVERWRITE
+      36: Resources/Battlescape/Sound_Attack_PsionicWeapon.wav #VANILLA OVERWRITE
+      37: Resources/Battlescape/Items/Alien/Mindprobe/Sound_Attack_Mindprobe.wav #VANILLA OVERWRITE
+      38: Resources/Battlescape/Sound_Item_Place.wav #VANILLA OVERWRITE
+      39: Resources/Battlescape/Sound_Item_Throw.wav #VANILLA OVERWRITE
+      40: Resources/Battlescape/Units/Sound_Move_Hover.wav #VANILLA OVERWRITE
+      41: Resources/Battlescape/Units/Xcom/Sound_Death_XcomFemaleSoldier_f1.wav #VANILLA OVERWRITE
+      42: Resources/Battlescape/Units/Xcom/Sound_Death_XcomFemaleSoldier_f2.wav #VANILLA OVERWRITE
+      43: Resources/Battlescape/Units/Xcom/Sound_Death_XcomFemaleSoldier_f3.wav #VANILLA OVERWRITE
+      44: Resources/Battlescape/Units/Xcom/Sound_Death_XcomMaleSoldier_m1.wav #VANILLA OVERWRITE
+      45: Resources/Battlescape/Units/Xcom/Sound_Death_XcomMaleSoldier_m2.wav #VANILLA OVERWRITE
+      46: Resources/Battlescape/Units/Xcom/Sound_Death_XcomMaleSoldier_m3.wav #VANILLA OVERWRITE
+      47: Resources/Battlescape/Units/Sound_Move_RockDrag.wav #VANILLA OVERWRITE
+      48: Resources/Battlescape/Units/Alien/Reaper/Sound_Attack_Reaper.wav #VANILLA OVERWRITE
+      49: Resources/Battlescape/Units/Alien/Chryssalid/Sound_Aggro_Chryssalid.wav #VANILLA OVERWRITE
+      50: Resources/Battlescape/Units/Alien/Silacoid/Sound_Attack_Silacoid.wav #VANILLA OVERWRITE
+      51: Resources/Battlescape/Units/Alien/Celatid/Sound_Attack_Celatid.wav #VANILLA OVERWRITE
+      52: Resources/Battlescape/Items/Xcom/RocketLauncher/Sound_Shoot_RocketLauncher.wav #VANILLA OVERWRITE
+      53: Resources/Battlescape/Items/Alien/BlasterLauncher/Sound_Shoot_BlasterLauncher.wav #VANILLA OVERWRITE
+      54: Resources/Battlescape/Items/Xcom/StunRod/Sound_Hit_StunRod.wav #VANILLA OVERWRITE
+      55: Resources/Battlescape/Units/Alien/Floater/Sound_Death_Floater.wav
+      56: Resources/Battlescape/Units/Alien/Reaper/Sound_Death_Reaper.wav
+      57: Resources/Battlescape/Units/Alien/Chryssalid/Sound_Death_Chryssalid.wav
+      58: Resources/Battlescape/Units/Alien/Zombie/Sound_Death_Zombie.wav
+      59: Resources/Battlescape/Units/Alien/SectoidElite/Sound_Death_SectoidElite.wav
+      60: Resources/Battlescape/Units/Alien/MutonElite/Sound_Death_MutonElite.wav
+      61: Resources/Battlescape/Units/Alien/MutonEliteGuard/Sound_Death_MutonEliteGuard.wav
+      62: Resources/Battlescape/Units/Alien/Chryssalid/Sound_Attack_Chryssalid.wav
+      63: Resources/Battlescape/Units/Alien/Zombie/Sound_Attack_Zombie.wav
+      64: Resources/Battlescape/Items/Xcom/Pistol/Sound_Shoot_Pistol.wav
+      65: Resources/Battlescape/Items/Xcom/Rifle/Sound_Shoot_Rifle.wav
+      66: Resources/Battlescape/Items/Xcom/AutoCannon/Sound_Hit_AutoCannon.wav
+      67: Resources/Battlescape/Items/Xcom/AutoCannon/Sound_Shoot_AutoCannon.wav
+      68: Resources/Battlescape/Items/Xcom/HeavyCannon/Sound_Shoot_HeavyCannon.wav
+      69: Resources/Battlescape/Items/Xcom/LaserPistol/Sound_Shoot_LaserPistol.wav
+      70: Resources/Battlescape/Items/Xcom/HeavyLaserAuto/Sound_Shoot_HeavyLaserAuto.wav
+      71: Resources/Battlescape/Items/Alien/PlasmaPistol/Sound_Shoot_PlasmaPistol.wav
+      72: Resources/Battlescape/Items/Alien/HeavyPlasma/Sound_Shoot_HeavyPlasma.wav
+      73: Resources/Battlescape/Items/Sound_Hit_Plasma.wav
+      74: Resources/Battlescape/Units/Alien/Sectopod/Sound_Shoot_Sectopod.wav
+      75: Resources/Battlescape/Units/Alien/ArmoredSectopod/Sound_Shoot_ArmoredSectopod.wav
+      76: Resources/Battlescape/Sound_Explode_SmokeStun.wav # explosionHitSound for Smoke and Stun
+      77: Resources/Battlescape/Units/Sound_Move_HoverSmall_2.wav #Hoverdrones/Waspite
+      78: Resources/Battlescape/Units/Alien/Gazer/Sound_Death_Gazer.wav
+      79: Resources/Battlescape/Units/Alien/Waspite/Sound_Death_Waspite.wav
+      80: Resources/Battlescape/Items/Alien/PlasmaSniperRifle/Sound_Shoot_PlasmaSniperRifle.wav
+      81: Resources/Battlescape/Items/Xcom/HeavyLaserSniper/Sound_Shoot_HeavyLaserSniper.wav
+      82: Resources/Battlescape/Units/Xcom/Drones/Sound_Hit_DroneTaser.wav
+      83: Resources/Battlescape/Items/Xcom/TaserPistol/Sound_Hit_TaserPistol.wav
       100: Resources/Battlescape/Items/Xcom/Shotgun/Sound_Shoot_Shotgun.wav
       102: Resources/Battlescape/Items/Xcom/SniperRifle/Sound_Shoot_SniperRifle.wav
       103: Resources/Battlescape/Items/Xcom/TaserPistol/Sound_Shoot_TaserPistol.wav
@@ -18,4 +127,5 @@ extraSounds:
       114: Resources/Battlescape/Units/Xcom/Drones/Sound_Shoot_DroneTaser.wav
       115: Resources/Battlescape/Units/Xcom/Tanks/Sound_Shoot_TankSmoke.wav
       116: Resources/Battlescape/Items/Xcom/FireExtinguisher/Sound_Shoot_FireExtinguisher.wav
+##END BATTLE.CAT
 ###END EXTRASOUNDS

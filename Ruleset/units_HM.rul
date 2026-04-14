@@ -190,7 +190,7 @@ units:
     floatHeight: 16
     value: 20
     deathSound: 23
-    moveSound: 40
+    moveSound: 77
     energyRecovery: 60
     builtInWeaponSets:
       -
@@ -207,7 +207,7 @@ units:
     floatHeight: 16
     value: 20
     deathSound: 23
-    moveSound: 40
+    moveSound: 77
     energyRecovery: 60
     builtInWeaponSets:
       -
@@ -224,7 +224,7 @@ units:
     floatHeight: 16
     value: 20
     deathSound: 23
-    moveSound: 40
+    moveSound: 77
     energyRecovery: 60
     builtInWeaponSets:
       -
@@ -241,7 +241,7 @@ units:
     floatHeight: 16
     value: 20
     deathSound: 23
-    moveSound: 40
+    moveSound: 77
     energyRecovery: 60
     builtInWeaponSets:
       -
@@ -507,6 +507,7 @@ units:
 ##BEGIN FLOATER UNITS
 #BEGIN FLOATER SOLDIER UNIT
   - type: STR_FLOATER_SOLDIER
+    deathSound: 55
     stats: &FLOATER_STATS
       bravery: 90
       psiStrength: 42
@@ -522,18 +523,21 @@ units:
 
 #BEGIN FLOATER ENGINEER UNIT
   - type: STR_FLOATER_ENGINEER
+    deathSound: 55
     stats: *FLOATER_STATS
     value: 8
 #END FLOATER ENGINEER UNIT
 
 #BEGIN FLOATER MEDIC UNIT
   - type: STR_FLOATER_MEDIC
+    deathSound: 55
     stats: *FLOATER_STATS
     value: 7
 #END FLOATER MEDIC UNIT
 
 #BEGIN FLOATER LEADER UNIT
   - type: STR_FLOATER_LEADER
+    deathSound: 55
     stats:
       bravery: 100
       psiStrength: 60
@@ -543,6 +547,7 @@ units:
 
 #BEGIN FLOATER COMMANDER UNIT
   - type: STR_FLOATER_COMMANDER
+    deathSound: 55
     stats:
       bravery: 100
       psiStrength: 68
@@ -554,6 +559,7 @@ units:
 ##BEGIN SECTOID UNITS
 #BEGIN SECTOID SOLDIER UNIT
   - type: STR_SECTOID_SOLDIER
+    deathSound: 10
     stats: &SECTOID_STATS
       bravery: 90
       psiStrength: 60
@@ -563,24 +569,28 @@ units:
 
 #BEGIN SECTOID NAVIGATOR UNIT
   - type: STR_SECTOID_NAVIGATOR
+    deathSound: 10
     stats: *SECTOID_STATS
     value: 7
 #END SECTOID NAVIGATOR UNIT
 
 #BEGIN SECTOID ENGINEER UNIT
   - type: STR_SECTOID_ENGINEER
+    deathSound: 10
     stats: *SECTOID_STATS
     value: 9
 #END SECTOID ENGINEER UNIT
 
 #BEGIN SECTOID MEDIC UNIT
   - type: STR_SECTOID_MEDIC
+    deathSound: 10
     stats: *SECTOID_STATS
     value: 8
 #END SECTOID MEDIC UNIT
 
 #BEGIN SECTOID LEADER UNIT
   - type: STR_SECTOID_LEADER
+    deathSound: 10
     stats:
       bravery: 100
       psiStrength: 60
@@ -591,6 +601,7 @@ units:
 
 #BEGIN SECTOID COMMANDER UNIT
   - type: STR_SECTOID_COMMANDER
+    deathSound: 10
     stats:
       bravery: 100
       psiStrength: 60
@@ -601,8 +612,10 @@ units:
 ##END SECTOID UNITS
 
 ##BEGIN SNAKEMAN UNITS
-#BEGIN SNAKEMAN SOLDIE UNIT
+#BEGIN SNAKEMAN SOLDIER UNIT
   - type: STR_SNAKEMAN_SOLDIER
+    deathSound: 8
+    moveSound: 1
     stats: &SNAKEMAN_STATS
       bravery: 90
       psiStrength: 60
@@ -612,18 +625,24 @@ units:
 
 #BEGIN SNAKEMAN NAVIGATOR UNIT
   - type: STR_SNAKEMAN_NAVIGATOR
+    deathSound: 8
+    moveSound: 1
     stats: *SNAKEMAN_STATS
     value: 9
 #END SNAKEMAN NAVIGATOR UNIT
 
 #BEGIN SNAKEMAN ENGINEER UNIT
   - type: STR_SNAKEMAN_ENGINEER
+    deathSound: 8
+    moveSound: 1
     stats: *SNAKEMAN_STATS
     value: 10
 #END SNAKEMAN ENGINEER UNIT
 
 #BEGIN SNAKEMAN LEADER UNIT
   - type: STR_SNAKEMAN_LEADER
+    deathSound: 8
+    moveSound: 1
     stats:
       bravery: 100
       psiStrength: 68
@@ -633,6 +652,8 @@ units:
 
 #BEGIN SNAKEMAN COMMANDER UNIT
   - type: STR_SNAKEMAN_COMMANDER
+    deathSound: 8
+    moveSound: 1
     stats:
       bravery: 100
       psiStrength: 75
@@ -644,6 +665,7 @@ units:
 ##BEGIN MUTON
 #BEGIN MUTON SOLDIER UNIT
   - type: STR_MUTON_SOLDIER
+    deathSound: 6
     stats: &MUTON_STATS
       bravery: 90
       psiStrength: 40
@@ -653,12 +675,14 @@ units:
 
 #BEGIN MUTON NAVIGATOR UNIT
   - type: STR_MUTON_NAVIGATOR
+    deathSound: 6
     stats: *MUTON_STATS
     value: 9
 #END MUTON NAVIGATOR UNIT
 
 #BEGIN MUTON ENGINEER UNIT
   - type: STR_MUTON_ENGINEER
+    deathSound: 6
     stats: *MUTON_STATS
     value: 10
 #END MUTON ENGINEER UNIT
@@ -686,8 +710,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 8
-    deathSound: 51
-    moveSound: 15
+    deathSound: 79
+    moveSound: 77
     intelligence: 5
     aggression: 2
 #END WASPITE SOLDIER UNIT
@@ -702,8 +726,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 10
-    deathSound: 51
-    moveSound: 15
+    deathSound: 79
+    moveSound: 77
     intelligence: 7
     aggression: 2
 #END WASPITE ENGINEER UNIT
@@ -718,8 +742,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 9
-    deathSound: 51
-    moveSound: 15
+    deathSound: 79
+    moveSound: 77
     intelligence: 5
     aggression: 2
 #END WASPITE NAVIGATOR UNIT
@@ -734,8 +758,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 11
-    deathSound: 51
-    moveSound: 15
+    deathSound: 79
+    moveSound: 77
     intelligence: 6
     aggression: 1
 #END WASPITE MEDIC UNIT
@@ -761,8 +785,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 14
-    deathSound: 51
-    moveSound: 15
+    deathSound: 79
+    moveSound: 77
     intelligence: 6
     aggression: 0
 #END WASPITE LEADER UNIT
@@ -777,8 +801,8 @@ units:
     kneelHeight: 16
     floatHeight: 2
     value: 18
-    deathSound: 51
-    moveSound: 15
+    deathSound: 79
+    moveSound: 77
     intelligence: 8
     aggression: 0
 #END WASPITE COMMANDER UNIT
@@ -805,7 +829,7 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 8
-    deathSound: 10
+    deathSound: 78
     intelligence: 6
     aggression: 2
     energyRecovery: 40
@@ -820,7 +844,7 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 10
-    deathSound: 10
+    deathSound: 78
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -835,7 +859,7 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 9
-    deathSound: 10
+    deathSound: 78
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -850,7 +874,7 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 1
-    deathSound: 10
+    deathSound: 78
     intelligence: 6
     aggression: 1
     energyRecovery: 40
@@ -876,7 +900,7 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 14
-    deathSound: 10
+    deathSound: 78
     intelligence: 8
     aggression: 1
     energyRecovery: 40
@@ -891,7 +915,7 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 18
-    deathSound: 10
+    deathSound: 78
     intelligence: 8
     aggression: 1
     energyRecovery: 40
@@ -919,7 +943,7 @@ units:
     standHeight: 16
     kneelHeight: 12
     value: 10
-    deathSound: 10
+    deathSound: 59
     intelligence: 7
     aggression: 2
 #END SECTOID ELITE SOLDIER UNIT
@@ -933,7 +957,7 @@ units:
     standHeight: 16
     kneelHeight: 12
     value: 12
-    deathSound: 10
+    deathSound: 59
     intelligence: 8
     aggression: 1
 #END SECTOID ELITE ENGINEER UNIT
@@ -947,7 +971,7 @@ units:
     standHeight: 16
     kneelHeight: 12
     value: 10
-    deathSound: 10
+    deathSound: 59
     intelligence: 8
     aggression: 1
 #END SECTOID ELITE NAVIGATOR UNIT
@@ -961,7 +985,7 @@ units:
     standHeight: 16
     kneelHeight: 12
     value: 13
-    deathSound: 10
+    deathSound: 59
     intelligence: 8
     aggression: 0
 #END SECTOID ELITE MEDIC UNIT
@@ -986,7 +1010,7 @@ units:
     standHeight: 16
     kneelHeight: 12
     value: 18
-    deathSound: 10
+    deathSound: 59
     intelligence: 7
     aggression: 1
 #END SECTOID ELITE LEADER UNIT
@@ -1011,7 +1035,7 @@ units:
     standHeight: 16
     kneelHeight: 12
     value: 24
-    deathSound: 10
+    deathSound: 59
     intelligence: 8
     aggression: 0
 #END SECTOID ELITE COMMANDER UNIT
@@ -1038,7 +1062,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 12
-    deathSound: 6
+    deathSound: 60
     intelligence: 5
     aggression: 2
     energyRecovery: 45
@@ -1053,7 +1077,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 14
-    deathSound: 6
+    deathSound: 60
     intelligence: 7
     aggression: 1
     energyRecovery: 45
@@ -1068,7 +1092,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 13
-    deathSound: 6
+    deathSound: 60
     intelligence: 7
     aggression: 1
     energyRecovery: 45
@@ -1094,7 +1118,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 20
-    deathSound: 6
+    deathSound: 60
     intelligence: 8
     aggression: 0
     energyRecovery: 45
@@ -1110,6 +1134,7 @@ units:
       psiSkill: 12
       melee: 60
     value: 15
+    deathSound: 9
 #END ETHEREAL SOLDIER UNIT
 
 #BEGIN ETHEREAL LEADER UNIT
@@ -1120,6 +1145,7 @@ units:
       psiSkill: 13
       melee: 60
     value: 20
+    deathSound: 9
 #END ETHEREAL LEADER UNIT
 
 #BEGIN ETHEREAL COMMANDER UNIT
@@ -1130,6 +1156,7 @@ units:
       psiSkill: 14
       melee: 60
     value: 25
+    deathSound: 9
 #END ETHEREAL COMMANDER UNIT
 ##END ETHEREAL UNITS
 
@@ -1154,7 +1181,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 16
-    deathSound: 6
+    deathSound: 61
     intelligence: 8
     aggression: 2
     energyRecovery: 60
@@ -1169,7 +1196,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 18
-    deathSound: 6
+    deathSound: 61
     intelligence: 9
     aggression: 1
     energyRecovery: 60
@@ -1184,7 +1211,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 18
-    deathSound: 6
+    deathSound: 61
     intelligence: 9
     aggression: 1
     energyRecovery: 60
@@ -1210,7 +1237,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 22
-    deathSound: 6
+    deathSound: 61
     intelligence: 10
     aggression: 0
     energyRecovery: 60
@@ -1223,7 +1250,9 @@ units:
     stats:
       psiStrength: 120
     value: 10
+    deathSound: 1
     aggroSound: 50
+    moveSound: 47
     isLeeroyJenkins: true
 #END SILACOID UNIT
 
@@ -1254,6 +1283,7 @@ units:
       psiStrength: 130
     aggression: 3
     value: 13
+    deathSound: 57
     aggroSound: 49
     isLeeroyJenkins: true
 #END CHRYSSALID UNIT
@@ -1504,7 +1534,7 @@ units:
     standHeight: 21
     kneelHeight: 16
     value: 25
-    deathSound: 9
+    deathSound: 57
     aggroSound: 49
     builtInWeaponSets:
       -
@@ -1518,6 +1548,7 @@ units:
 
 #BEGIN ZOMBIE UNIT
   - type: STR_ZOMBIE
+    deathSound: 58
     stats:
       psiStrength: 120
     isLeeroyJenkins: true
@@ -1527,6 +1558,7 @@ units:
   - type: STR_SPITTER_ZOMBIE
     race: STR_ZOMBIE
     rank: STR_LIVE_TERRORIST
+    deathSound: 58
     stats:
       tu: 75
       stamina: 150
@@ -1549,7 +1581,6 @@ units:
     spawnUnit: STR_CHRYSSALID_SPITTER_TERRORIST
     livingWeapon: true
     isLeeroyJenkins: true
-    # Zombies are silent on death, no deathSound
 #END SPITTER ZOMBIE UNIT
 ##END ALIEN TERROR UNITS
 ###END ALIENS UNITS
