@@ -226,6 +226,10 @@ Credits go to:
 	Daedalus:
 		- For the HQSounds Mod: https://mod.io/g/openxcom/m/hqsounds-by-daedalus
 		- For the HQSounds FMP Mod: https://mod.io/g/openxcom/m/hqsounds-final-mod-pack-by-daedalus
+	Niklas Jansson: (http://androidarts.com/)
+		- For the Vanilla Terror Weapon Graphics
+	Riccardo Gasperi:
+		- For the Vanilla Terror Weapon Graphics
 	All translaters on the TRANSIFEX project (you guys are awesome)
 
 This list is for sure not complete.

@@ -27,6 +27,7 @@ Version 0.99.9.9
  - Add COLDISLE Terrain from Terrain Pack
  - Add HQSounds Mod from Deadalus
  - Add more Death, Panic and Berserk Scream
+ - Add transparent Background to Vanilla Terror Unit Weapon Bigobs
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit
