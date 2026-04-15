@@ -156,7 +156,7 @@ en-GB:
 #BEGIN CRAFTS
   STR_IMPROVED_SKYRANGER: "Improved Skyranger"
   STR_SKYSTRIKER: "SKYSTRIKER"
-  STR_SKYSTRIKER_UFOPEDIA: "A standard Skyranger which was refitted with a Alien Alloy Airframe and additional engines, allowing us to transport more troops faster to ground combats."
+  STR_SKYSTRIKER_UFOPEDIA: "A Skyranger variant codenamed 'SkyStriker' with a redesigned airframe using the newly discovered Alien Alloys and new engines to allow X-Com to carry more troops and equipment to tactical operations in a more timely manner."
 
   STR_IMPROVED_INTERCEPTOR: "Improved Interceptor"
   STR_RETALIATOR: "RETALIATOR"
