@@ -101,8 +101,8 @@ extraSounds:
       71: Resources/Battlescape/Items/Alien/PlasmaPistol/Sound_Shoot_PlasmaPistol.wav
       72: Resources/Battlescape/Items/Alien/HeavyPlasma/Sound_Shoot_HeavyPlasma.wav
       73: Resources/Battlescape/Items/Sound_Hit_Plasma.wav
-      74: Resources/Battlescape/Units/Alien/Sectopod/Sound_Shoot_Sectopod.wav
-      75: Resources/Battlescape/Units/Alien/ArmoredSectopod/Sound_Shoot_ArmoredSectopod.wav
+      74: Resources/Battlescape/Units/Alien/Sectopod/Sound_Attack_Sectopod.wav
+      75: Resources/Battlescape/Units/Alien/ArmoredSectopod/Sound_Attack_ArmoredSectopod.wav
       76: Resources/Battlescape/Sound_Explode_SmokeStun.wav # explosionHitSound for Smoke and Stun
       77: Resources/Battlescape/Units/Sound_Move_HoverSmall_2.wav #Hoverdrones/Waspite
       78: Resources/Battlescape/Units/Alien/Gazer/Sound_Death_Gazer.wav
@@ -164,7 +164,7 @@ extraSounds:
       135: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale01.wav
       136: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale02.wav
       137: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale03.wav
-      138: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale04wav
+      138: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale04.wav
       139: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale05.wav
       140: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale06.wav
       141: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale07.wav
