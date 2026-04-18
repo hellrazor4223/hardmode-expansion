@@ -5,6 +5,7 @@ Version 0.99.9.9
  - Fix Spelling Errors / Text Corrections and clarifications
  - Fix wrong manufacture times for Alloy Drone -> Hoverdrone upgrades
  - Fix Pistols in HOLSTER can not be reloaded
+ - Fix Muton left arm animation while walking unarmed
  - Adjust Dropoff/MinRange values for HC, AC, GL, RL
  - Adjust GL Snapshot accuracy
  - Adjust Small Launcher Snapshot accuracy

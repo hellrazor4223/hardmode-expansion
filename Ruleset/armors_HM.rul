@@ -874,12 +874,15 @@ armors:
 #BEGIN MUTON ARMOR
   - type: MUTON_ARMOR0
     spriteInv: mutonInventoryImage
+    drawingRoutine: 0
     ufopediaType: MUTON_ARMOR0
   - type: MUTON_ARMOR1
     spriteInv: mutonInventoryImage
+    drawingRoutine: 0
     ufopediaType: MUTON_ARMOR0
   - type: MUTON_ARMOR2
     spriteInv: mutonInventoryImage
+    drawingRoutine: 0
     ufopediaType: MUTON_ARMOR0
 #END MUTON ARMOR
 
