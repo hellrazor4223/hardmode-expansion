@@ -107,6 +107,7 @@ Enabled automatically when loading the mod for the first time:
 	More Stats on Inventory Screens
 	GeoTrainingIndicator
 	UniformShootingSpread
+	BaseResearchReorder
 
 Need to be manually be enabled:
 

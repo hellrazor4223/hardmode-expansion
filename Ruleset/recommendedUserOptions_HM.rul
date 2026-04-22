@@ -17,3 +17,4 @@ recommendedUserOptions:
   oxceLinks: true
   oxceGeoEnableTrainingIndicator: true
   oxceUniformShootingSpread: true
+  oxceBaseResearchReorder: true

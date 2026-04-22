@@ -14,6 +14,7 @@ Version 0.99.9.9
  - Adjust Zombie autopop from 3-7 to 3-11 turns
  - Enable UniformShootingSpread as recommendedUserOption
  - Enable GeoTrainingIndicator as recommendedUserOption
+ - Enable BaseResearchReorder as recommendedUserOption
  - Add Info about needed construction materials for X-Com base facilities
  - Add Armed Civilians from Terror Attacks can be recruited as Soldiers/Scientists/Engineers
  - Add Info for provided storage space at X-Com base facilities to Ufopaedia articles
