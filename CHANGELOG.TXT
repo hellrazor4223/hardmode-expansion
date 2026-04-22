@@ -27,8 +27,10 @@ Version 0.99.9.9
  - Add AREA51 Terrain from Terrain Pack
  - Add COLDISLE Terrain from Terrain Pack
  - Add HQSounds Mod from Deadalus
- - Add more Death, Panic and Berserk Scream
+ - Add more Death, Panic and Berserk Screams for Civilians and Xcom Soldiers
  - Add transparent Background to Vanilla Terror Unit Weapon Bigobs
+ - Add Better Smoke Display behaveiour and color by thickness adjusted Smoke animation
+ - Add Xcom Soldiers with Blaster Launcher or Weapons which only have a Aimed Shot can now go Berserk
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

@@ -3,4 +3,6 @@ constants:
   fireDamageRange: [7, 12]
   extendedExperienceAwardSystem: false
   extendedRunningCost: false
+  extendedBerserkWithAimed: 2   # 0 = no aimed shots (default), 1 = only BA_AIMEDSHOT, 2 = both BA_AIMEDSHOT and BA_LAUNCH
+  extendedSmokeOffset: 2   # 0 = vanilla smoke, 1 = smoke animation jumps forward by 4 frames to actually show existing thicker smoke, 2 = Smoke animation is split into 3 groups of 4 showing actual density
 #END CONSTANTS

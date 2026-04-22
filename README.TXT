@@ -130,7 +130,7 @@ Quality of Live OXCE UI changes:
 	SoldierAvatars and TinyRanks (Battlescape UI)
 	SoldierKneelingIndicator (Battlescape UI)
 	Improved TU Reserve Sprites (Battlescape UI)
-	Better Smoke Animation (Battlescape UI)
+	Better Smoke Animation with Thickness Idicator(Battlescape UI)
 	Better looking Buttons for Inventory (Battlescape UI)
 	Better Backgrounds for some Screens (Geoscape and Battlescape UI)
 	New Plasma Hit Animations for all Plasma Weapons (Battlescape UI)
@@ -238,6 +238,7 @@ Groundcombat changes:
 	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
 	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
+	Xcom Soldiers with Blaster Launchers or Weapons which only have a Aimed Shot can now go Berserk with those weapons
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
