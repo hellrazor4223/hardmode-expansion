@@ -588,7 +588,7 @@ armors:
     scripts:
       createUnit: |
         var int auto_death;
-        battle_game.randomRange auto_death 3 7;
+        battle_game.randomRange auto_death 3 11;
         unit.setTag Tag.AUTO_DEATH auto_death;
         return;
       newTurnUnit: |
@@ -612,7 +612,7 @@ armors:
     scripts:
       createUnit: |
         var int auto_death;
-        battle_game.randomRange auto_death 3 7;
+        battle_game.randomRange auto_death 3 11;
         unit.setTag Tag.AUTO_DEATH auto_death;
         return;
       newTurnUnit: |

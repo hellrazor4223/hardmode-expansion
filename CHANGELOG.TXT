@@ -11,6 +11,7 @@ Version 0.99.9.9
  - Adjust GL Snapshot accuracy
  - Adjust Small Launcher Snapshot accuracy
  - Adjust Score penalty for SHIP Terror Missions from -1000 to -500
+ - Adjust Zombie autopop from 3-7 to 3-11 turns
  - Enable UniformShootingSpread as recommendedUserOption
  - Enable GeoTrainingIndicator as recommendedUserOption
  - Add Info about needed construction materials for X-Com base facilities

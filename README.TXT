@@ -229,11 +229,11 @@ Groundcombat changes:
 	Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)
 	Psi-Amps use 25 TU and 25 Stamina (Energy) for Psi Panic or Psi Mind Control attack. Get your Stims ready! (OXCE only)
 	Direct fire smoke acts as fire extinguisher (Smoke Grenades don't)
-	Celatids can feel X-Com units through solid objects within 13 tile range
+	Celatids can feel X-Com Soldiers through solid objects within 13 tile range
 	Celatids can self clone themselves as stated in the UfoPaedia (on Earth linear growth pattern, each Celatid one Clone, Clones make new Clones)
 	Celatids in the Final Mission follow expotential growth pattern
 	Chryssalid and Chryssalid Spitters have to penetrate Armor to make a successful Zombification, this makes Armor really important!
-	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-7 turn (random) on their own (No more safe Zombies!)
+	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-11 turn (random) on their own (No more safe Zombies!)
 	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
 	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
