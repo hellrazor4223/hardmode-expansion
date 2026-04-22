@@ -2,4 +2,9 @@
 interfaces:
   - type: articleArmor
     backgroundImage: BACK18.SCR
+  - type: soldierInfo
+    elements:
+      - id: numbers
+        color: 208   # Sets the base color of stat numbers on the soldier screen, default 208 (white)
+        color2: 48   # Sets the color of MAXED stat numbers, default 48 (green). To disable this feature set both colors to the same number.
 #END INTERFACES

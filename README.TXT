@@ -140,6 +140,7 @@ Quality of Live OXCE UI changes:
 	High Quality Sound replacements for all Vanilla Sounds (Geoscape and Battlescape UI)
 	High Quality Sound replacements for some non Vanilla Weapons and Units (Battlescape UI)
 	More Death, Panic and Berserk Screams for Humans (Battlescape UI)
+	Soldierinfo in Xcombases highlights maxxed out Stats (Geoscape UI)
 
 Additional Alien Races/Units:
 	Waspite

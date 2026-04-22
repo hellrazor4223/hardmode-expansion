@@ -33,6 +33,7 @@ Version 0.99.9.9
  - Add transparent Background to Vanilla Terror Unit Weapon Bigobs
  - Add Better Smoke Display behaveiour and color by thickness adjusted Smoke animation
  - Add Xcom Soldiers with Blaster Launcher or Weapons which only have a Aimed Shot can now go Berserk
+ - Add QoL in Xcom Soldier info screen to show maxxed out Stats
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit
