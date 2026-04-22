@@ -604,10 +604,6 @@ alienMissions:
         timer: 40000
         interruptPercentage: 33
       - ufo: STR_ABDUCTOR
-        count: 1
-        trajectory: P3
-        timer: 9000
-      - ufo: STR_ABDUCTOR
         count: 2
         trajectory: P4
         timer: 60

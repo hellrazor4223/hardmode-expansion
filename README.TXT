@@ -174,8 +174,8 @@ General Gameplay changes:
 	Elerium-115 recovery per UFO Power Source is 50% vanilla (25).
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla.
 	Aliens do have more chances to score more points.
-	Alien Bases will upgrade in size over time (50x50 -> 3 Months -> 60x60 -> 3 Months -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
-	Alien Bases will upgrade the score they generate for the Alien when they upgrade in size.
+	Alien Bases will upgrade in size after 3 months (50x50 -> 60x60 -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
+	Alien Bases will upgrade the score they generate for the Alien when they upgrade in size (17->34->51 points per day).
 	Alien Bases will generate missions without Scout Ships depending on their current size, those mission will be of same species as the alien base generating them:
 		50x50 sized Alien Base: Supply, Abduction, Harvest, Base
 		60x60 sized Alien Base: Supply, Abduction, Harvest, Base, Terror
@@ -183,12 +183,11 @@ General Gameplay changes:
 	Interrogating alive Navigators and Engineers will trigger additional monthly Aliens Missions (No limit, you get as many additional Missions as interrogation as you did).
 	Winning, losing or aborting a Mission will play a small cutscene from the Original PSX version of the game.
 	Flying towards, loosing or winning  Cydonia will play Original PSX Version cutscenes.
-	Attacking a landed Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only).
-	Attacking a landed Battleship performing a Alien Base Mission gives 33% to deny the mission success (OXCE only) (Exception Alien Base Mission at Gamestart).
-	Attacking a landed Battleship performing a Harvesting Mission from space gives 33% to deny the mission success (OXCE only).
-	Attacking a landed Labship performing a Harvesting or Abduction Mission from a Alien Base gives 33% to deny mission success (OXCE only).
-	Attacking the first spawning Abductor on a Abduction Mission from space gives 33% to deny the mission success (OXCE only).
-	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (limited to one country per Month - OXCE only).
+	Groundattacking or shooting down a Battleship performing a Infiltrationmission gives 33% to deny the Infiltration Base being built (OXCE only).
+	Groundattacking or shooting down a Battleship performing a Alien Base Mission gives 33% to deny the mission success (OXCE only) (Exception Alien Base Mission at Gamestart).
+	Groundattacking or shooting down a Battleship performing a Harvesting Mission gives 33% to deny the mission success (OXCE only).
+	Groundattacking or shooting down a Labship on a Abduction Mission gives 33% to deny the mission success (OXCE only).
+	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (OXCE only).
 	X-Com Base Defense damaging a Alien Battleship during a base attack will result in less Aliens spawning (roughly according with the damage done).
 	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only).
 
