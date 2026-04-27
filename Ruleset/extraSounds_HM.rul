@@ -170,5 +170,8 @@ extraSounds:
       141: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale07.wav
       142: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale08.wav
       143: Resources/Battlescape/Units/HumanScreams/Panic/Sound_Panic_HumanMale09.wav
+      144: Resources/Battlescape/Units/Alien/Silacoid/Sound_Aggro_Silacoid.wav
+      145: Resources/Battlescape/Units/Alien/Zombie/Sound_Aggro_Zombie.wav
+      146: Resources/Battlescape/Units/Alien/Reaper/Sound_Aggro_Reaper.wav
 ##END BATTLE.CAT
 ###END EXTRASOUNDS

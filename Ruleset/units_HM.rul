@@ -1251,7 +1251,7 @@ units:
       psiStrength: 120
     value: 10
     deathSound: 1
-    aggroSound: 50
+    aggroSound: 144
     moveSound: 47
     isLeeroyJenkins: true
 #END SILACOID UNIT
@@ -1262,6 +1262,7 @@ units:
       bravery: 100
       psiStrength: 120
     value: 10
+    aggroSound: 146
     isLeeroyJenkins: true
 #END REAPER UNIT
 
@@ -1549,6 +1550,7 @@ units:
 #BEGIN ZOMBIE UNIT
   - type: STR_ZOMBIE
     deathSound: 58
+    aggroSound: 145
     stats:
       psiStrength: 120
     isLeeroyJenkins: true
@@ -1559,6 +1561,7 @@ units:
     race: STR_ZOMBIE
     rank: STR_LIVE_TERRORIST
     deathSound: 58
+    aggroSound: 145
     stats:
       tu: 75
       stamina: 150
