@@ -7,4 +7,6 @@ buildInfiltrationBaseCloseToTheCountry: true
 lessAliensDuringBaseDefense: true
 extraNerdyPediaInfo: true
 alienInventoryOffsetBigUnit: 0
+enableUnitResponseSounds: true     # Global switch for turning ResponseSounds off or on
+unitResponseSoundsFrequency: [70, 70, 70, 40]     # How often the responsesounds will be triggered. [SelectUnit, StartMoving, SelectWeapon, Annoyed]
 ###END VARS

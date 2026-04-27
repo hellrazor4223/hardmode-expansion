@@ -240,6 +240,7 @@ Groundcombat changes:
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
 	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
 	Xcom Soldiers with Blaster Launchers or Weapons which only have a Aimed Shot can now go Berserk with those weapons
+	Soldier will now respond to your actions on the Battlescape with audio commentary
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

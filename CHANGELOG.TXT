@@ -36,6 +36,7 @@ Version 0.99.9.9
  - Add Xcom Soldiers with Blaster Launcher or Weapons which only have a Aimed Shot can now go Berserk
  - Add QoL in Xcom Soldier info screen to show maxxed out Stats
  - Add AggroSounds to all MeleeTerrorUnits missing it
+ - Add SoldierResponseSounds
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit
