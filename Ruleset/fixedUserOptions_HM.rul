@@ -2,3 +2,17 @@ fixedUserOptions:
   battleInstantGrenade: false
   weaponSelfDestruction: false
   soldiersDiaries: true
+  alienBleeding: true
+  sneakyAI: true
+  strafe: true
+  battleUFOExtenderAccuracy: true
+  battleExplosionHeight: 3
+  showMoreStatsInInventoryView: true
+  craftLaunchAlways: true
+  oxceEnableOffCentreShooting: true
+  oxceUniformShootingSpread: true
+  oxceBaseResearchReorder: true
+  oxceBaseFilterResearchable: true
+  oxceBaseManufactureFallbackButton: true
+  oxceGeoEnableTrainingIndicator: true
+  oxceEnableSlackingIndicator: true

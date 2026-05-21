@@ -4,6 +4,7 @@ costScientist: 45000
 alienFuel: [STR_ELERIUM_115, 25]
 allowCountriesToCancelAlienPact: true
 buildInfiltrationBaseCloseToTheCountry: true
+infiltrateRandomCountryInTheRegion: true
 lessAliensDuringBaseDefense: true
 extraNerdyPediaInfo: true
 alienInventoryOffsetBigUnit: 0

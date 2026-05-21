@@ -74,7 +74,7 @@ For FEEDBACK please leave a post here in the FORUM: -> https://openxcom.org/foru
 COMPATBILITY with OTHER MODS:
 	- This mod is intended to be a STANDALONE MOD.
 	- Mods which only add new Items and New Crafts may not pose a problem.
-	- UFO Extender Accuracy (Full support)
+	- UFO Extender Accuracy (Full support, enabled as default)
 	- High Quality Sounds (https://mod.io/g/openxcom/m/hqsounds-by-daedalus) from Daedalus (HAS BEEN MERGED INTO THE MOD PLEASE DISABLE!)
 
 NOT compatible:
@@ -89,30 +89,46 @@ NOT compatible:
 		itemLevels
 		alienMissions
 
-RECOMMENDED ADVANCED OPTIONS:
+ENABLED/RECOMMENDED ADVANCED OPTIONS:
+Enabled/Disabled automatically when loading the mod:
+	InstantGrenades: disabled
+	Selfdestruction of Alien weapons: disabled
+	Soldier Diaries: Enabled
+	Alien Bleeding: Enabled
+	Sneaky AI Behaviour: Enabled
+	Alternate Movement Methods (Strafing&Running): Enabled
+	UFOExtenderAccuracy (Range limited Accuracy Dropoff): Enabled
+	Explosion Height 3 (3D Explosions and Smoke Clouds): Enabled
+	More Stats on InventoryScreen: Enabled
+	Forced Craft launch: Enabled
+	Off center shooting (Soldiers adjust LOF is LOS is there): Enabled
+	Shootingspread is more uniform: Enabled
+	Researchlistorder can sorted by the player: Enabled
+	Manufacture Fallback and Infifity Buttons: Enabled
+	Indicators for idle Scientist, Engineers and Psis: Enabled
+
 Enabled automatically when loading the mod for the first time:
+	Limit Storage Items: Enabled
+	Can Sell Alive Alien: Enabled
+	Globe Seasons: Enabled
+	Psi Training anytime: Enabled
+	Save Preprimed Grenades: Enabled
+	OXCE Links: Enabled
+	OXCE Autoseller: Enabled
+	Smooth Bullet Camera: Enabled
+	Auto End Battle: Enabled
+	UFO Landing Alert: Enabled
+	Show Base Name in Popups: Enabled
+	Always Show Accuracy on Crosshair: Enabled
 
-	Forced Craft launch (probably needed since your craft will get shot a lot)
-	Limit Storage Items (Using Autoseller Helps a lot, just be aware to not sell of stuff you wanna research!)
-	Sell Alive Alien (More cash for alive ones, helkps managing the Alien Containment)
-	Sneaky AI (Aliens are less likely to expose themselvbes to X-Com)
-	UFOExtenderAccuracy (Range limited Accuracy Dropoff)
-	Save Preprimed Grenades (for Smoke Grenades)
-	Explosion Height 3 (to destroy buildings in 1 go with HE Packs / Large Rockets etc..)
-	Alternate Movement Methods (to fight faster)
-	Alien Bleeding
-	OXCE Links
-	OXCE Autoseller
-	Psi Training anytime
-	More Stats on Inventory Screens
-	GeoTrainingIndicator
-	UniformShootingSpread
-	BaseResearchReorder
+If you are upgrading the Mod, those will not ba loaded automatically, since it not the first start. To forceenable them set: oxceRecommendedOptionsWereSet: false in your options.cfg
 
-Need to be manually be enabled:
-
-	FundsOnGeoscape (keep your finances in check)
-	Pathpreview with Energieview
+The following strongly recommended Options have to be enabled manually:
+Options -> Geoscape -> Showfunds
+Options -> Battlescape -> Path Preview -> Arrows
+Options -> Battlescape -> Path Preview -> Time Units
+Options -> Battlescape -> Path Preview -> Energy
+Options -> Battlescape -> UI Options -> Death Notification
 
 CREDITLIST:
 	- CREDIT.TXT or the FORUM: ->(https://openxcom.org/forum/index.php/topic,4965.0.html)
@@ -122,6 +138,8 @@ FEATURES:
 
 Quality of Live OXCE UI changes:
 	DayNightIndicator (Geoscape UI)
+	SlackingIndicator (Geoscape UI)
+	PsiTrainingIndicator (Geoscape UI)
 	BleedingIndicator (Battlescape UI)
 	StunIndicator (Battlescape UI)
 	Burnindicator (Battlescape UI)

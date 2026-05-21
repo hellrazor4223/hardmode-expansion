@@ -12,9 +12,12 @@ Version 0.99.9.9
  - Adjust Small Launcher Snapshot accuracy
  - Adjust Score penalty for SHIP Terror Missions from -1000 to -500
  - Adjust Zombie autopop from 3-7 to 3-11 turns
- - Enable UniformShootingSpread as recommendedUserOption
+ - Enable OffCenterShooting as fixedUseroption
+ - Enable UniformShootingSpread as fixedUserOption
  - Enable GeoTrainingIndicator as recommendedUserOption
- - Enable BaseResearchReorder as recommendedUserOption
+ - Enable BaseResearchReorder as fixedUserOption
+ - Enable BaseFilterResearchable as fixedUseroption
+ - Enable Manufacture Infinity and Fallback Buttons as fixedUseroptions
  - Add Info about needed construction materials for X-Com base facilities
  - Add Armed Civilians from Terror Attacks can be recruited as Soldiers/Scientists/Engineers
  - Add Info for provided storage space at X-Com base facilities to Ufopaedia articles
@@ -37,6 +40,7 @@ Version 0.99.9.9
  - Add QoL in Xcom Soldier info screen to show maxxed out Stats
  - Add AggroSounds to all MeleeTerrorUnits missing it
  - Add SoldierResponseSounds
+ - Add RandomcountryInfiltration in Region
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

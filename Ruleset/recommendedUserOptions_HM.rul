@@ -1,20 +1,15 @@
 recommendedUserOptions:
   showFundsOnGeoscape: true
-  craftLaunchAlways: true
+  battleNewPreviewPath: 7
   storageLimitsEnforced: true
   canSellLiveAliens: true
   globeSeasons: true
   anytimePsiTraining: true
-  battleUFOExtenderAccuracy: true
-  battleExplosionHeight: 3
-  battleNewPreviewPath: 7
   includePrimeStateInSavedLayout: true
-  showMoreStatsInInventoryView: true
-  sneakyAI: true
-  strafe: true
-  alienBleeding: true
   oxceAutoSell: true
   oxceLinks: true
-  oxceGeoEnableTrainingIndicator: true
-  oxceUniformShootingSpread: true
-  oxceBaseResearchReorder: true
+  battleSmoothCamera: true
+  battleAutoEnd: true
+  oxceUfoLandingAlert: true
+  oxceShowBaseNameInPopups: true
+  oxceShowAccuracyOnCrosshair: 2
