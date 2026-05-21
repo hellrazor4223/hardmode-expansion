@@ -210,6 +210,7 @@ General Gameplay changes:
 	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (OXCE only).
 	X-Com Base Defense damaging a Alien Battleship during a base attack will result in less Aliens spawning (roughly according with the damage done).
 	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only).
+	Soldiers do have 144 different Avatars/Faces (72 Male, 72 Female)
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%

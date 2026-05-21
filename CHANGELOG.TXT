@@ -42,6 +42,7 @@ Version 0.99.9.9
  - Add SoldierResponseSounds
  - Add RandomcountryInfiltration in Region
  - Add more Civilians and some more Armed Civilians
+ - Add 144 Avatars for Soldiers (from X-Files Mod/Piratez/Extra-Faces Mod)
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

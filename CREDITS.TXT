@@ -68,12 +68,15 @@ Credits go to:
 		- For contributing to the YetMoreUFOs Mod from which is took a lot of the initial UFO Maps
 		- For a lot of Sprites for Civilians
 		- For Human Death, Panic and Berserk Screams
+		- For Soldierfaces and Layered Armor Sprites
 	Dioxine:
 		- Fir disagreeing with me (Honestly!)
 		- For the Alloy Knife sprites
 		- For the AlloyKnife HandOb
 		- For a lot of Sprites for Civilians
 		- For the Commendations Mod
+		- For Human Death, Panic and Berserk Screams
+		- For Soldierfaces and Layered Armor Sprites
 	Falko:
 		- For his OpenXcom Modding tools ( http://falkooxc2.pythonanywhere.com/ )
 		  The Sprite converter is so essential to my work!!
