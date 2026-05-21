@@ -396,6 +396,7 @@ terrains:
       - MALE_CIVILIAN9
       - MALE_CIVILIAN10
       - MALE_CIVILIAN11
+      - MALE_CIVILIAN12
       - FEMALE_CIVILIAN
       - FEMALE_CIVILIAN2
       - FEMALE_CIVILIAN3
@@ -403,6 +404,7 @@ terrains:
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN9
       - FEMALE_CIVILIAN10
+      - FEMALE_CIVILIAN11
     mapBlocks: &URBAN_MAPS
       - name: URBAN00 #0 #EW Street
         width: 10
@@ -466,17 +468,21 @@ terrains:
       - FRNITURE
     script: URBAN
     civilianTypes: &CIVILIANS_URBAN_SNOW
-      - MALE_CIVILIAN
-      - MALE_CIVILIAN2
       - MALE_CIVILIAN3
       - MALE_CIVILIAN9
       - MALE_CIVILIAN10
       - MALE_CIVILIAN11
+      - MALE_CIVILIAN13
+      - MALE_CIVILIAN14
+      - MALE_CIVILIAN15
       - FEMALE_CIVILIAN
       - FEMALE_CIVILIAN2
       - FEMALE_CIVILIAN3
       - FEMALE_CIVILIAN4
       - FEMALE_CIVILIAN9
+      - FEMALE_CIVILIAN12
+      - FEMALE_CIVILIAN13
+      - FEMALE_CIVILIAN14
     mapBlocks: *URBAN_MAPS
 #END URBAN SNOW
 
@@ -1112,6 +1118,8 @@ terrains:
       - MALE_CIVILIAN9
       - MALE_CIVILIAN10
       - MALE_CIVILIAN11
+      - MALE_CIVILIAN12
+      - MALE_CIVILIAN13
       - FEMALE_CIVILIAN
       - FEMALE_CIVILIAN2
       - FEMALE_CIVILIAN3
@@ -1121,6 +1129,8 @@ terrains:
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN9
       - FEMALE_CIVILIAN10
+      - FEMALE_CIVILIAN11
+      - FEMALE_CIVILIAN12
     mapBlocks:
       - name: COMRCURBAN00 #0 #
         width: 10
@@ -1613,12 +1623,14 @@ terrains:
       - MALE_CIVILIAN7
       - MALE_CIVILIAN9
       - MALE_CIVILIAN11
+      - MALE_CIVILIAN13
       - FEMALE_CIVILIAN
       - FEMALE_CIVILIAN2
       - FEMALE_CIVILIAN3
       - FEMALE_CIVILIAN4
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN9
+      - FEMALE_CIVILIAN12
     script: INDUSTRIALURBAN
     mapBlocks: &INDUSTRIAL_MAPS
       - name: INDUSTRIALURBAN00 #0 #
@@ -2109,6 +2121,7 @@ terrains:
       - MALE_CIVILIAN7
       - MALE_CIVILIAN9
       - MALE_CIVILIAN11
+      - MALE_CIVILIAN13
       - FEMALE_CIVILIAN
       - FEMALE_CIVILIAN2
       - FEMALE_CIVILIAN3
@@ -2116,6 +2129,7 @@ terrains:
       - FEMALE_CIVILIAN4
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN9
+      - FEMALE_CIVILIAN12
     script: PORTTFTD
     mapBlocks:
       - name: PORTUFO00 #0 #
@@ -2594,6 +2608,8 @@ terrains:
       - MALE_CIVILIAN8
       - MALE_CIVILIAN9
       - MALE_CIVILIAN10
+      - MALE_CIVILIAN12
+      - MALE_CIVILIAN13
       - FEMALE_CIVILIAN
       - FEMALE_CIVILIAN2
       - FEMALE_CIVILIAN3
@@ -2604,6 +2620,8 @@ terrains:
       - FEMALE_CIVILIAN7
       - FEMALE_CIVILIAN8
       - FEMALE_CIVILIAN10
+      - FEMALE_CIVILIAN11
+      - FEMALE_CIVILIAN12
     script: ISLANDURBAN
     mapBlocks:
       - name: ISLANDURBAN00 #0 #
@@ -3049,7 +3067,12 @@ terrains:
       - COLDISLEB1
       - COLDISLEB2
     script: COLDISLE
-    civilianTypes: *CIVILIANS_URBAN_SNOW
+    civilianTypes:
+      - MALE_CIVILIAN13
+      - MALE_CIVILIAN14
+      - MALE_CIVILIAN15
+      - FEMALE_CIVILIAN13
+      - FEMALE_CIVILIAN14
     mapBlocks:
       - name: COLDISLE00
         width: 10

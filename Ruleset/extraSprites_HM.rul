@@ -9,17 +9,13 @@ extraSprites:
 ###BEGIN ITEM BIGOBS
 ##BEGIN XCOM ITEM BIGOBS
 #BEGIN XCOM WEAPON ITEM BIGOBS
-      3: Resources/Battlescape/Items/Xcom/Pistol/BigOb_Pistol.png #VANILLA OVERWRITE
-      5: Resources/Battlescape/Items/Xcom/LaserPistol/BigOb_LaserPistol.png #VANILLA OVERWRITE
-      6: Resources/Battlescape/Items/Xcom/HeavyLaserSniper/BigOb_HeavyLaserSniper.png #VANILLA OVERWRITE
-      7: Resources/Battlescape/Items/Xcom/AutoCannon/BigOb_AutoCannon.png #VANILLA OVERWRITE
-      15: Resources/Battlescape/Items/Xcom/RocketLauncher/BigOb_RocketLauncher.png #VANILLA OVERWRITE
       139: Resources/Battlescape/Items/Xcom/CombatKnife/BigOb_CombatKnife.png
       140: Resources/Battlescape/Items/Xcom/AlloyKnife/BigOb_AlloyKnife.png
       141: Resources/Battlescape/Items/Xcom/AlloySword/BigOb_AlloySword.png
       118: Resources/Battlescape/Items/Xcom/TaserPistol/BigOb_TaserPistol.png
       119: Resources/Battlescape/Items/Xcom/TaserPistol/BigOb_TaserPistol_Clip.png
       201: Resources/Battlescape/Items/Xcom/TaserPistol/BigOb_TaserPistol_Elerium_Clip.png
+      3: Resources/Battlescape/Items/Xcom/Pistol/BigOb_Pistol.png #VANILLA OVERWRITE
       100: Resources/Battlescape/Items/Xcom/Pistol/BigOb_Pistol_AlienAlloy_Clip.png
       102: Resources/Battlescape/Items/Xcom/Shotgun/BigOb_Shotgun.png
       104: Resources/Battlescape/Items/Xcom/Shotgun/BigOb_Shotgun_Clip.png
@@ -30,14 +26,18 @@ extraSprites:
       109: Resources/Battlescape/Items/Xcom/SniperRifle/BigOb_SniperRifle_AlienAlloy_Clip.png
       110: Resources/Battlescape/Items/Xcom/HeavyCannon/BigOb_HeavyCannon_AlienAlloy_Clip.png
       195: Resources/Battlescape/Items/Xcom/HeavyCannon/BigOb_HeavyCannon_EleriumHighExplosive_Clip.png
+      7: Resources/Battlescape/Items/Xcom/AutoCannon/BigOb_AutoCannon.png #VANILLA OVERWRITE
       111: Resources/Battlescape/Items/Xcom/AutoCannon/BigOb_AutoCannon_AlienAlloy_Clip.png
       196: Resources/Battlescape/Items/Xcom/AutoCannon/BigOb_AutoCannon_EleriumHighExplosive_Clip.png
       152: Resources/Battlescape/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher.png
       153: Resources/Battlescape/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_HE_Ammo.png
       154: Resources/Battlescape/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_IC_Ammo.png
       155: Resources/Battlescape/Items/Xcom/GrenadeLauncher/BigOb_GrenadeLauncher_Smoke_Ammo.png
+      15: Resources/Battlescape/Items/Xcom/RocketLauncher/BigOb_RocketLauncher.png #VANILLA OVERWRITE
       150: Resources/Battlescape/Items/Xcom/RocketLauncher/BigOb_EleriumRocket.png
+      5: Resources/Battlescape/Items/Xcom/LaserPistol/BigOb_LaserPistol.png #VANILLA OVERWRITE
       103: Resources/Battlescape/Items/Xcom/ScatterLaser/BigOb_ScatterLaser.png
+      6: Resources/Battlescape/Items/Xcom/HeavyLaserSniper/BigOb_HeavyLaserSniper.png #VANILLA OVERWRITE
       112: Resources/Battlescape/Items/Xcom/HeavyLaserAuto/BigOb_HeavyLaserAuto.png
 #END XCOM WEAPON ITEM BIGOBS
 
@@ -169,6 +169,10 @@ extraSprites:
       182: Resources/Battlescape/Units/Civilian/MaleCivilian9/BigOb_MaleCivilian9_Corpse.png
       183: Resources/Battlescape/Units/Civilian/MaleCivilian10/BigOb_MaleCivilian10_Corpse.png
       184: Resources/Battlescape/Units/Civilian/MaleCivilian11/BigOb_MaleCivilian11_Corpse.png
+      230: Resources/Battlescape/Units/Civilian/MaleCivilian12/BigOb_MaleCivilian12_Corpse.png
+      231: Resources/Battlescape/Units/Civilian/MaleCivilian13/BigOb_MaleCivilian13_Corpse.png
+      232: Resources/Battlescape/Units/Civilian/MaleCivilian14/BigOb_MaleCivilian14_Corpse.png
+      233: Resources/Battlescape/Units/Civilian/MaleCivilian15/BigOb_MaleCivilian15_Corpse.png
 #END MALE CIVILIAN BIGOBS
 
 #BEGIN FEMALE CIVILIAN BIGOBS
@@ -181,6 +185,10 @@ extraSprites:
       189: Resources/Battlescape/Units/Civilian/FemaleCivilian8/BigOb_FemaleCivilian8_Corpse.png
       190: Resources/Battlescape/Units/Civilian/FemaleCivilian9/BigOb_FemaleCivilian9_Corpse.png
       191: Resources/Battlescape/Units/Civilian/FemaleCivilian10/BigOb_FemaleCivilian10_Corpse.png
+      234: Resources/Battlescape/Units/Civilian/FemaleCivilian11/BigOb_FemaleCivilian11_Corpse.png
+      235: Resources/Battlescape/Units/Civilian/FemaleCivilian12/BigOb_FemaleCivilian12_Corpse.png
+      236: Resources/Battlescape/Units/Civilian/FemaleCivilian13/BigOb_FemaleCivilian13_Corpse.png
+      237: Resources/Battlescape/Units/Civilian/FemaleCivilian14/BigOb_FemaleCivilian14_Corpse.png
 #END FEMALE CIVILIAN BIGOBS
 
 #BEGIN ARMED CIVILIAN BIGOBS
@@ -197,6 +205,13 @@ extraSprites:
       217: Resources/Battlescape/Units/Civilian/SoldierMaleGreen1/BigOb_SoldierMaleGreen1_Corpse.png
       218: Resources/Battlescape/Units/Civilian/SoldierMaleGreen2/BigOb_SoldierMaleGreen2_Corpse.png
       219: Resources/Battlescape/Units/Civilian/SoldierMaleGreen3/BigOb_SoldierMaleGreen3_Corpse.png
+      238: Resources/Battlescape/Units/Civilian/DoctorFemale0/BigOb_DoctorFemale0.png
+      239: Resources/Battlescape/Units/Civilian/DoctorMale0/BigOb_DoctorMale0.png
+      240: Resources/Battlescape/Units/Civilian/HunterFemale0/BigOb_HunterFemale0.png
+      241: Resources/Battlescape/Units/Civilian/HunterMale0/BigOb_HunterMale0.png
+      242: Resources/Battlescape/Units/Civilian/HunterMale1/BigOb_HunterMale1.png
+      243: Resources/Battlescape/Units/Civilian/TechnicianFemale0/BigOb_TechnicianFemale0.png
+      244: Resources/Battlescape/Units/Civilian/TechnicianMale0/BigOb_TechnicianMale0.png
 #END ARMED CIVILIAN BIGOBS
 ##END CIVILIAN BIGOBS
 ###END UNIT BIGOBS
@@ -210,11 +225,6 @@ extraSprites:
 ###BEGIN ITEM FLOOROB
 ##BEGIN XCOM ITEM FLOOROB
 #BEGIN XCOM WEAPON ITEM FLOOROB
-      5: Resources/Battlescape/Items/Xcom/LaserPistol/FloorOb_LaserPistol.png #VANILLA OVERWRITE
-      6: Resources/Battlescape/Items/Xcom/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png #VANILLA OVERWRITE
-      7: Resources/Battlescape/Items/Xcom/AutoCannon/FloorOb_AutoCannon.png #VANILLA OVERWRITE
-      15: Resources/Battlescape/Items/Xcom/RocketLauncher/FloorOb_RocketLauncher.png #VANILLA OVERWRITE
-      20: Resources/Battlescape/Items/Xcom/SmokeGrenade/FloorOb_SmokeGrenade.png #VANILLA OVERWRITE
       136: Resources/Battlescape/Items/Xcom/CombatKnife/FloorOb_CombatKnife.png
       137: Resources/Battlescape/Items/Xcom/AlloyKnife/FloorOb_AlloyKnife.png
       138: Resources/Battlescape/Items/Xcom/AlloySword/FloorOb_AlloySword.png
@@ -231,18 +241,23 @@ extraSprites:
       176: Resources/Battlescape/Items/Xcom/SniperRifle/FloorOb_SniperRifle_AA_Clip.png
       174: Resources/Battlescape/Items/Xcom/HeavyCannon/FloorOb_HeavyCannon_AA_Clip.png
       207: Resources/Battlescape/Items/Xcom/HeavyCannon/FloorOb_HeavyCannon_EHE_Clip.png
+      7: Resources/Battlescape/Items/Xcom/AutoCannon/FloorOb_AutoCannon.png #VANILLA OVERWRITE
       175: Resources/Battlescape/Items/Xcom/AutoCannon/FloorOb_AutoCannon_AA_Clip.png
       208: Resources/Battlescape/Items/Xcom/AutoCannon/FloorOb_AutoCannon_EHE_Clip.png
       149: Resources/Battlescape/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher.png
       150: Resources/Battlescape/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_HE_Ammo.png
       151: Resources/Battlescape/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_IC_Ammo.png
       152: Resources/Battlescape/Items/Xcom/GrenadeLauncher/FloorOb_GrenadeLauncher_Smoke_Ammo.png
+      15: Resources/Battlescape/Items/Xcom/RocketLauncher/FloorOb_RocketLauncher.png #VANILLA OVERWRITE
       147: Resources/Battlescape/Items/Xcom/RocketLauncher/FloorOb_EleriumRocket.png
+      5: Resources/Battlescape/Items/Xcom/LaserPistol/FloorOb_LaserPistol.png #VANILLA OVERWRITE
       101: Resources/Battlescape/Items/Xcom/ScatterLaser/FloorOb_ScatterLaser.png
+      6: Resources/Battlescape/Items/Xcom/HeavyLaserSniper/FloorOb_HeavyLaserSniper.png #VANILLA OVERWRITE
       107: Resources/Battlescape/Items/Xcom/HeavyLaserAuto/FloorOb_HeavyLaserAuto.png
 #END XCOM WEAPON ITEM FLOOROB
 
 #BEGIN XCOM GRENADE ITEM FLOOROB
+      20: Resources/Battlescape/Items/Xcom/SmokeGrenade/FloorOb_SmokeGrenade.png #VANILLA OVERWRITE
       108: Resources/Battlescape/Items/Xcom/IncendiaryGrenade/FloorOb_IncendiaryGrenade.png
       148: Resources/Battlescape/Items/Xcom/FlashBangGrenade/FloorOb_FlasbangGrenade.png
       216: Resources/Battlescape/Items/Xcom/AlienProxieGrenade/FloorOb_AlienProxieGrenade.png
@@ -371,6 +386,10 @@ extraSprites:
       194: Resources/Battlescape/Units/Civilian/MaleCivilian9/FloorOb_MaleCivilian9_Corpse.png
       195: Resources/Battlescape/Units/Civilian/MaleCivilian10/FloorOb_MaleCivilian10_Corpse.png
       196: Resources/Battlescape/Units/Civilian/MaleCivilian11/FloorOb_MaleCivilian11_Corpse.png
+      235: Resources/Battlescape/Units/Civilian/MaleCivilian12/FloorOb_MaleCivilian12_Corpse.png
+      236: Resources/Battlescape/Units/Civilian/MaleCivilian13/FloorOb_MaleCivilian13_Corpse.png
+      237: Resources/Battlescape/Units/Civilian/MaleCivilian14/FloorOb_MaleCivilian14_Corpse.png
+      238: Resources/Battlescape/Units/Civilian/MaleCivilian15/FloorOb_MaleCivilian15_Corpse.png
 #END MALE CIVILIAN FLOOROB
 
 #BEGIN FEMALE CIVILIAN FLOOROB
@@ -383,6 +402,10 @@ extraSprites:
       201: Resources/Battlescape/Units/Civilian/FemaleCivilian8/FloorOb_FemaleCivilian8_Corpse.png
       202: Resources/Battlescape/Units/Civilian/FemaleCivilian9/FloorOb_FemaleCivilian9_Corpse.png
       203: Resources/Battlescape/Units/Civilian/FemaleCivilian10/FloorOb_FemaleCivilian10_Corpse.png
+      239: Resources/Battlescape/Units/Civilian/FemaleCivilian11/FloorOb_FemaleCivilian11_Corpse.png
+      240: Resources/Battlescape/Units/Civilian/FemaleCivilian12/FloorOb_FemaleCivilian12_Corpse.png
+      241: Resources/Battlescape/Units/Civilian/FemaleCivilian13/FloorOb_FemaleCivilian13_Corpse.png
+      242: Resources/Battlescape/Units/Civilian/FemaleCivilian14/FloorOb_FemaleCivilian14_Corpse.png
 #END FEMALE CIVILIAN FLOOROB
 
 #BEGIN ARMED CIVILIAN FLOOROB
@@ -399,6 +422,13 @@ extraSprites:
       231: Resources/Battlescape/Units/Civilian/SoldierMaleGreen1/FloorOb_SoldierMaleGreen1_Corpse.png
       232: Resources/Battlescape/Units/Civilian/SoldierMaleGreen2/FloorOb_SoldierMaleGreen2_Corpse.png
       233: Resources/Battlescape/Units/Civilian/SoldierMaleGreen3/FloorOb_SoldierMaleGreen3_Corpse.png
+      243: Resources/Battlescape/Units/Civilian/DoctorFemale0/FloorOb_DoctorFemale0.png
+      244: Resources/Battlescape/Units/Civilian/DoctorMale0/FloorOb_DoctorMale0.png
+      245: Resources/Battlescape/Units/Civilian/HunterFemale0/FloorOb_HunterFemale0.png
+      246: Resources/Battlescape/Units/Civilian/HunterMale0/FloorOb_HunterMale0.png
+      247: Resources/Battlescape/Units/Civilian/HunterMale1/FloorOb_HunterMale1.png
+      248: Resources/Battlescape/Units/Civilian/TechnicianFemale0/FloorOb_TechnicianFemale0.png
+      249: Resources/Battlescape/Units/Civilian/TechnicianMale0/FloorOb_TechnicianMale0.png
 #END ARMED CIVILIAN FLOOROB
 ##END CIVILIAN FLOOROB
 ###END UNIT FLOOROB
@@ -1922,6 +1952,70 @@ extraSprites:
     files:
       0: Resources/Battlescape/Units/Civilian/MaleCivilian11/Inventory_MaleCivilian11.png
 #END MALE CIVILIAN11 SPRITE
+
+#BEGIN MALE CIVILIAN12 SPRITE
+  - type: MALE_CIVILIAN12.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian12/SpriteSheet_MaleCivilian12.png
+  - type: malecivilian12InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian12/Inventory_MaleCivilian12.png
+#END MALE CIVILIAN12 SPRITE
+
+#BEGIN MALE CIVILIAN13 SPRITE
+  - type: MALE_CIVILIAN13.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian13/SpriteSheet_MaleCivilian13.png
+  - type: malecivilian13InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian13/Inventory_MaleCivilian13.png
+#END MALE CIVILIAN13 SPRITE
+
+#BEGIN MALE CIVILIAN14 SPRITE
+  - type: MALE_CIVILIAN14.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian14/SpriteSheet_MaleCivilian14.png
+  - type: malecivilian14InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian14/Inventory_MaleCivilian14.png
+#END MALE CIVILIAN14 SPRITE
+
+#BEGIN MALE CIVILIAN15 SPRITE
+  - type: MALE_CIVILIAN15.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian15/SpriteSheet_MaleCivilian15.png
+  - type: malecivilian15InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/MaleCivilian15/Inventory_MaleCivilian15.png
+#END MALE CIVILIAN15 SPRITE
 ##END MALE CIVILIANS SPRITES
 
 ##BEGIN FEMALE CIVILIANS SPRITES
@@ -2077,6 +2171,70 @@ extraSprites:
     files:
       0: Resources/Battlescape/Units/Civilian/FemaleCivilian10/Inventory_FemaleCivilian10.png
 #END FEMALE CIVILIAN10 SPRITE
+
+#BEGIN FEMALE CIVILIAN11 SPRITE
+  - type: FEMALE_CIVILIAN11.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian11/SpriteSheet_FemaleCivilian11.png
+  - type: femalecivilian11InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian11/Inventory_FemaleCivilian11.png
+#END FEMALE CIVILIAN11 SPRITE
+
+#BEGIN FEMALE CIVILIAN12 SPRITE
+  - type: FEMALE_CIVILIAN12.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian12/SpriteSheet_FemaleCivilian12.png
+  - type: femalecivilian12InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian12/Inventory_FemaleCivilian12.png
+#END FEMALE CIVILIAN12 SPRITE
+
+#BEGIN FEMALE CIVILIAN13 SPRITE
+  - type: FEMALE_CIVILIAN13.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian13/SpriteSheet_FemaleCivilian13.png
+  - type: femalecivilian13InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian13/Inventory_FemaleCivilian13.png
+#END FEMALE CIVILIAN13 SPRITE
+
+#BEGIN FEMALE CIVILIAN14 SPRITE
+  - type: FEMALE_CIVILIAN14.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian14/SpriteSheet_FemaleCivilian14.png
+  - type: femalecivilian14InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/FemaleCivilian14/Inventory_FemaleCivilian14.png
+#END FEMALE CIVILIAN14 SPRITE
 ##END FEMALE CIVILIANS SPRITES
 
 ##BEGIN ARMED CIVILIANS SPRITES
@@ -2287,6 +2445,118 @@ extraSprites:
     files:
       0: Resources/Battlescape/Units/Civilian/SoldierMaleGreen3/Inventory_SoldierMaleGreen3.png
 #END SOLDIER MALE GREEN3 SPRITE
+
+#BEGIN DOCTOR FEMALE SPRITE
+  - type: DOCTOR_FEMALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/DoctorFemale0/Spritesheet_DoctorFemale0.png
+  - type: doctorfemale0InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/DoctorFemale0/Inventory_DoctorFemale0.png
+#END DOCTOR FEMALE SPRITE
+
+#BEGIN DOCTOR MALE SPRITE
+  - type: DOCTOR_MALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/DoctorMale0/Spritesheet_DoctorMale0.png
+  - type: doctormale0InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/DoctorMale0/Inventory_DoctorMale0.png
+#END DOCTOR MALE SPRITE
+
+#BEGIN HUNTER FEMALE SPRITE
+  - type: HUNTER_FEMALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/HunterFemale0/Spritesheet_HunterFemale0.png
+  - type: hunterfemale0InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/HunterFemale0/Inventory_HunterFemale0.png
+#END HUNTER FEMALE SPRITE
+
+#BEGIN HUNTER MALE0 SPRITE
+  - type: HUNTER_MALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/HunterMale0/Spritesheet_HunterMale0.png
+  - type: huntermale0InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/HunterMale0/Inventory_HunterMale0.png
+#END HUNTER MALE0 SPRITE
+
+#BEGIN HUNTER MALE1 SPRITE
+  - type: HUNTER_MALE1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/HunterMale1/Spritesheet_HunterMale1.png
+  - type: huntermale1InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/HunterMale1/Inventory_HunterMale1.png
+#END HUNTER MALE1 SPRITE
+
+#BEGIN TECHNICIAN FEMALE SPRITE
+  - type: TECHNICIAN_FEMALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/TechnicianFemale0/Spritesheet_TechnicianFemale0.png
+  - type: technicianfemale0InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/TechnicianFemale0/Inventory_TechnicianFemale0.png
+#END TECHNICIAN FEMALE SPRITE
+
+#BEGIN TECHNICIAN MALE SPRITE
+  - type: TECHNICIAN_MALE0.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Battlescape/Units/Civilian/TechnicianMale0/Spritesheet_TechnicianMale0.png
+  - type: technicianmale0InventoryImage
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape/Units/Civilian/TechnicianMale0/Inventory_TechnicianMale0.png
+#END TECHNICIAN FEMALE SPRITE
 ##END ARMED CIVILIAN SPRITES
 ###END CIVILIAN SPRITES
 ####END UNIT SPRITES

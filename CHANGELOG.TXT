@@ -41,6 +41,7 @@ Version 0.99.9.9
  - Add AggroSounds to all MeleeTerrorUnits missing it
  - Add SoldierResponseSounds
  - Add RandomcountryInfiltration in Region
+ - Add more Civilians and some more Armed Civilians
 
 Version 0.99.9.8
  - Fix Wrong asigned BigOb for Alloy/DroneMedikit

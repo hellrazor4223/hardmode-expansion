@@ -1758,6 +1758,66 @@ units:
     panicSound: *MALE_PANIC_SOUND
     berserkSound: *MALE_BERSERK_SOUND
 #END MALE CIVILIAN 11 UNIT
+
+#BEGIN MALE CIVILIAN 12 UNIT
+  - type: MALE_CIVILIAN12 #City Boy
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN12_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+#END MALE CIVILIAN 12 UNIT
+
+#BEGIN MALE CIVILIAN 13 UNIT
+  - type: MALE_CIVILIAN13 #Farmer
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN13_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+#END MALE CIVILIAN 13 UNIT
+
+#BEGIN MALE CIVILIAN 14 UNIT
+  - type: MALE_CIVILIAN14 #Polar Green
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN14_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+#END MALE CIVILIAN 14 UNIT
+
+#BEGIN MALE CIVILIAN 15 UNIT
+  - type: MALE_CIVILIAN15 #Polar Red
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: MALE_CIVILIAN15_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+#END MALE CIVILIAN 15 UNIT
 ##END MALE CIVILIAN UNITS
 
 ##BEGIN FEMALE CIVILIAN UNITS
@@ -1903,6 +1963,66 @@ units:
     panicSound: *FEMALE_PANIC_SOUND
     berserkSound: *FEMALE_BERSERK_SOUND
 #END FEMALE CIVILIAN 10 UNIT
+
+#BEGIN FEMALE CIVILIAN 11 UNIT
+  - type: FEMALE_CIVILIAN11 #City Girl
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN11_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+#END FEMALE CIVILIAN 11 UNIT
+
+#BEGIN FEMALE CIVILIAN 12 UNIT
+  - type: FEMALE_CIVILIAN12 #Farmer
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN12_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+#END FEMALE CIVILIAN 12 UNIT
+
+#BEGIN FEMALE CIVILIAN 13 UNIT
+  - type: FEMALE_CIVILIAN13 #Polar Green
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN13_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+#END FEMALE CIVILIAN 13 UNIT
+
+#BEGIN FEMALE CIVILIAN 14 UNIT
+  - type: FEMALE_CIVILIAN14 #Polar Red
+    race: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: FEMALE_CIVILIAN14_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+#END FEMALE CIVILIAN 14 UNIT
 ##END FEMALE CIVILIAN UNITS
 
 ##BEGIN ARMED CIVILIAN UNITS
@@ -1977,30 +2097,23 @@ units:
       -
         - STR_TASER_PISTOL
         - STR_TASER_PISTOL_CLIP
+      -
+        - STR_TASER_PISTOL
         - STR_TASER_PISTOL_CLIP
       -
         - STR_TASER_PISTOL
         - STR_TASER_PISTOL_CLIP
+      -
+        - STR_TASER_PISTOL
         - STR_TASER_PISTOL_CLIP
       -
         - STR_TASER_PISTOL
         - STR_TASER_PISTOL_CLIP
-        - STR_TASER_PISTOL_CLIP
       -
         - STR_TASER_PISTOL
         - STR_TASER_PISTOL_CLIP
-        - STR_TASER_PISTOL_CLIP
       -
         - STR_TASER_PISTOL
-        - STR_TASER_PISTOL_CLIP
-        - STR_TASER_PISTOL_CLIP
-      -
-        - STR_TASER_PISTOL
-        - STR_TASER_PISTOL_CLIP
-        - STR_TASER_PISTOL_CLIP
-      -
-        - STR_TASER_PISTOL
-        - STR_TASER_PISTOL_CLIP
         - STR_TASER_PISTOL_CLIP
 #END PARAMEDIC 0 UNIT
 
@@ -2726,6 +2839,420 @@ units:
         - STR_GRENADE
         - STR_SMOKE_GRENADE
 #END SOLDIER MALE GREEN 3 UNIT
+
+#BEGIN DOCTOR FEMALE 0 UNIT
+  - type: STR_DOCTOR_FEMALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: DOCTOR_FEMALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_SCIENTIST
+    intelligence: 4
+    aggression: 6
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+#END DOCTOR FEMALE 0 UNIT
+
+#BEGIN DOCTOR MALE 0 UNIT
+  - type: STR_DOCTOR_MALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: DOCTOR_MALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_SCIENTIST
+    intelligence: 4
+    aggression: 6
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_TASER_PISTOL
+        - STR_TASER_PISTOL_CLIP
+        - STR_FLASHBANG_GRENADE
+#END DOCTOR MALE 0 UNIT
+
+#BEGIN HUNTER FEMALE 0 UNIT
+  - type: STR_HUNTER_FEMALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: HUNTER_FEMALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_SOLDIER
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+#END HUNTER FEMALE 0 UNIT
+
+#BEGIN HUNTER MALE 0 UNIT
+  - type: STR_HUNTER_MALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: HUNTER_MALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_SOLDIER
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+      -
+        - STR_RIFLE
+        - STR_RIFLE_CLIP
+        - STR_RIFLE_CLIP
+      -
+        - STR_SHOTGUN
+        - STR_SHOTGUN_CLIP
+        - STR_SHOTGUN_CLIP
+#END HUNTER MALE 0 UNIT
+
+
+#BEGIN HUNTER MALE 1 UNIT
+  - type: STR_HUNTER_MALE1
+    race: STR_CIVILIAN
+    stats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: HUNTER_MALE1_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_SOLDIER
+    intelligence: 6
+    aggression: 2
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+      -
+        - STR_SNIPER_RIFLE
+        - STR_SNIPER_RIFLE_CLIP
+        - STR_SNIPER_RIFLE_CLIP
+#END HUNTER MALE 1 UNIT
+
+#BEGIN TECHNICIAN FEMALE 0 UNIT
+  - type: STR_TECHNICIAN_FEMALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: TECHNICIAN_FEMALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_ENGINEER
+    intelligence: 4
+    aggression: 8
+    energyRecovery: 20
+    deathSound: *FEMALE_DEATH_SOUND
+    panicSound: *FEMALE_PANIC_SOUND
+    berserkSound: *FEMALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+#END TECHNICIAN FEMALE 0 UNIT
+
+#BEGIN TECHNICIAN MALE 0 UNIT
+  - type: STR_TECHNICIAN_MALE0
+    race: STR_CIVILIAN
+    stats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 40
+      firing: 40
+      throwing: 50
+      strength: 30
+      psiStrength: 5
+      psiSkill: 0
+      melee: 30
+    armor: TECHNICIAN_MALE0_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    civilianRecoveryType: STR_ENGINEER
+    intelligence: 4
+    aggression: 8
+    energyRecovery: 20
+    deathSound: *MALE_DEATH_SOUND
+    panicSound: *MALE_PANIC_SOUND
+    berserkSound: *MALE_BERSERK_SOUND
+    builtInWeaponSets:
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+      -
+        - STR_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_INC_GRENADE
+        - STR_FLASHBANG_GRENADE
+#END TECHNICIAN MALE 0 UNIT
 ##END ARMED CIVILIAN UNITS
 ###END CIVILIAN UNITS
 ####END UNITS

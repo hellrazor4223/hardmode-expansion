@@ -4798,6 +4798,62 @@ items:
     recover: false
     listOrder: 9410
 #END MALE CIVILIAN 11 ITEM
+
+#BEGIN MALE CIVILIAN 12 ITEM
+  - type: MALE_CIVILIAN12_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 230
+    floorSprite: 235
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 12
+    recover: false
+    listOrder: 9411
+#END MALE CIVILIAN 12 ITEM
+
+#BEGIN MALE CIVILIAN 13 ITEM
+  - type: MALE_CIVILIAN13_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 231
+    floorSprite: 236
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 12
+    recover: false
+    listOrder: 9412
+#END MALE CIVILIAN 13 ITEM
+
+#BEGIN MALE CIVILIAN 14 ITEM
+  - type: MALE_CIVILIAN14_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 232
+    floorSprite: 237
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 12
+    recover: false
+    listOrder: 9413
+#END MALE CIVILIAN 14 ITEM
+
+#BEGIN MALE CIVILIAN 15 ITEM
+  - type: MALE_CIVILIAN15_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 233
+    floorSprite: 238
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 12
+    recover: false
+    listOrder: 9414
+#END MALE CIVILIAN 15 ITEM
 ##END MALE CIVILIAN ITEMS
 
 ##BEGIN FEMALE CIVILIAN ITEMS
@@ -4926,6 +4982,62 @@ items:
     recover: false
     listOrder: 9509
 #END FEMALE CIVILIAN 10 ITEM
+
+#BEGIN FEMALE CIVILIAN 11 ITEM
+  - type: FEMALE_CIVILIAN11_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 234
+    floorSprite: 239
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9510
+#END FEMALE CIVILIAN 11 ITEM
+
+#BEGIN FEMALE CIVILIAN 12 ITEM
+  - type: FEMALE_CIVILIAN12_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 235
+    floorSprite: 240
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9511
+#END FEMALE CIVILIAN 12 ITEM
+
+#BEGIN FEMALE CIVILIAN 13 ITEM
+  - type: FEMALE_CIVILIAN13_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 236
+    floorSprite: 241
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9512
+#END FEMALE CIVILIAN 13 ITEM
+
+#BEGIN FEMALE CIVILIAN 14 ITEM
+  - type: FEMALE_CIVILIAN14_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 237
+    floorSprite: 242
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9513
+#END FEMALE CIVILIAN 14 ITEM
 ##END FEMALE CIVILIAN ITEMS
 
 ##BEGIN ARMED CIVILIAN ITEMS
@@ -5110,6 +5222,104 @@ items:
     recover: false
     listOrder: 9563
 #END SOLDIER MALE GREEN 3 ITEM
+
+#BEGIN DOCTOR FEMALE 0 ITEM
+  - type: DOCTOR_FEMALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 238
+    floorSprite: 243
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9564
+#END DOCTOR FEMALE 0 ITEM
+
+#BEGIN DOCTOR MALE 0 ITEM
+  - type: DOCTOR_MALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 239
+    floorSprite: 244
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9565
+#END DOCTOR MALE 0 ITEM
+
+#BEGIN HUNTER FEMALE 0 ITEM
+  - type: HUNTER_FEMALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 240
+    floorSprite: 245
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9566
+#END HUNTER FEMALE 0 ITEM
+
+#BEGIN HUNTER MALE 0 ITEM
+  - type: HUNTER_MALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 241
+    floorSprite: 246
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9567
+#END HUNTER MALE 0 ITEM
+
+#BEGIN HUNTER MALE 1 ITEM
+  - type: HUNTER_MALE1_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 242
+    floorSprite: 247
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9568
+#END HUNTER MALE 1 ITEM
+
+#BEGIN TECHNICIAN FEMALE 0 ITEM
+  - type: TECHNICIAN_FEMALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 243
+    floorSprite: 248
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9569
+#END TECHNICIAN FEMALE 0 ITEM
+
+#BEGIN TECHNICIAN MALE 0 ITEM
+  - type: TECHNICIAN_MALE0_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 244
+    floorSprite: 249
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+    listOrder: 9570
+#END TECHNICIAN MALE 0 ITEM
 ##END ARMED CIVILIAN ITEMS
 ###END CIVILIAN ITEMS
 ####END ITEMS

@@ -2486,7 +2486,16 @@ alienDeployments:
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
     civilians: 18
-    civiliansByType: *CIVIANS_BY_TYPE_TERROR
+    civiliansByType:
+      STR_FIREFIGHTER0: 2
+      STR_PARAMEDIC0: 2
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_SWAT_FEMALE0: 2
+      STR_HUNTER_FEMALE0: 2
+      STR_HUNTER_MALE0: 2
+      STR_HUNTER_MALE1: 2
+      STR_DOCTOC_FEMALE0: 1
+      STR_DOCTOC_MALE0: 1
     terrains:
       - URBAN_SNOW
       - MADURBAN_SNOW
@@ -2616,7 +2625,14 @@ alienDeployments:
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
     civilians: 18
-    civiliansByType: *CIVIANS_BY_TYPE_TERROR
+    civiliansByType:
+      STR_FIREFIGHTER0: 2
+      STR_PARAMEDIC0: 2
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_SWAT_FEMALE0: 2
+      STR_HUNTER_FEMALE0: 2
+      STR_HUNTER_MALE0: 2
+      STR_HUNTER_MALE1: 2
     terrains:
       - NATIVEURBAN
     alert: STR_ALIENS_TERRORISE
@@ -2644,7 +2660,14 @@ alienDeployments:
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
     civilians: 18
-    civiliansByType: *CIVIANS_BY_TYPE_TERROR
+    civiliansByType:
+      STR_FIREFIGHTER0: 2
+      STR_PARAMEDIC0: 2
+      STR_POLICE_SWAT_MALE0: 2
+      STR_POLICE_SWAT_FEMALE0: 2
+      STR_HUNTER_FEMALE0: 2
+      STR_HUNTER_MALE0: 2
+      STR_HUNTER_MALE1: 2
     terrains:
       - ISLANDURBAN
     alert: STR_ALIENS_TERRORISE
@@ -2671,7 +2694,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 8
+    civilians: 6
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2682,6 +2705,10 @@ alienDeployments:
       STR_SOLDIER_MALE_GREEN1: 4
       STR_SOLDIER_MALE_GREEN2: 4
       STR_SOLDIER_MALE_GREEN3: 4
+      STR_DOCTOR_FEMALE0: 2
+      STR_DOCTOR_MALE0: 2
+      STR_TECHNICIAN_FEMALE0: 2
+      STR_TECHNICIAN_MALE0: 2
     terrains:
       - AREA51
       - AIRFIELD1
@@ -2718,7 +2745,14 @@ alienDeployments:
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
     civilians: 18
-    civiliansByType: *CIVIANS_BY_TYPE_TERROR
+    civiliansByType:
+      STR_FIREFIGHTER0: 2
+      STR_PARAMEDIC0: 2
+      STR_DOCTOR_FEMALE0: 2
+      STR_DOCTOR_MALE0: 2
+      STR_HUNTER_FEMALE0: 2
+      STR_HUNTER_MALE0: 2
+      STR_HUNTER_MALE1: 2
     terrains:
       - COLDISLE
     alert: STR_ALIENS_TERRORISE

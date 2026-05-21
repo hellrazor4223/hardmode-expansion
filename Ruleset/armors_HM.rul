@@ -1656,6 +1656,74 @@ armors:
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END MALE CIVILIAN 11 ARMOR
+
+#BEGIN MALE CIVILIAN 12 ARMOR
+  - type: MALE_CIVILIAN12_ARMOR #City Boy
+    spriteSheet: MALE_CIVILIAN12.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: malecivilian12InventoryImage
+    corpseBattle:
+      - MALE_CIVILIAN12_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END MALE CIVILIAN 12 ARMOR
+
+#BEGIN MALE CIVILIAN 13 ARMOR
+  - type: MALE_CIVILIAN13_ARMOR #Farmer
+    spriteSheet: MALE_CIVILIAN13.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: malecivilian13InventoryImage
+    corpseBattle:
+      - MALE_CIVILIAN13_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END MALE CIVILIAN 13 ARMOR
+
+#BEGIN MALE CIVILIAN 14 ARMOR
+  - type: MALE_CIVILIAN14_ARMOR #Polar Green
+    spriteSheet: MALE_CIVILIAN14.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: malecivilian14InventoryImage
+    corpseBattle:
+      - MALE_CIVILIAN14_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END MALE CIVILIAN 14 ARMOR
+
+#BEGIN MALE CIVILIAN 15 ARMOR
+  - type: MALE_CIVILIAN15_ARMOR #Polar Red
+    spriteSheet: MALE_CIVILIAN15.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: malecivilian15InventoryImage
+    corpseBattle:
+      - MALE_CIVILIAN15_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END MALE CIVILIAN 15 ARMOR
 ##END MALE CIVILIAN ARMOR
 
 ##BEGIN FEMALE CIVILIAN ARMOR
@@ -1821,6 +1889,77 @@ armors:
     damageModifier: *CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END FEMALE CIVILIAN 10 ARMOR
+
+#BEGIN FEMALE CIVILIAN 11 ARMOR
+  - type: FEMALE_CIVILIAN11_ARMOR #City Girl
+    spriteSheet: FEMALE_CIVILIAN11.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: femalecivilian11InventoryImage
+    corpseBattle:
+      - FEMALE_CIVILIAN11_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END FEMALE CIVILIAN 11 ARMOR
+
+#BEGIN FEMALE CIVILIAN 12 ARMOR
+  - type: FEMALE_CIVILIAN12_ARMOR #Farmer
+    spriteSheet: FEMALE_CIVILIAN12.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: femalecivilian12InventoryImage
+    corpseBattle:
+      - FEMALE_CIVILIAN12_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END FEMALE CIVILIAN 12 ARMOR
+
+#BEGIN FEMALE CIVILIAN 13 ARMOR
+  - type: FEMALE_CIVILIAN13_ARMOR #Polar Green
+    spriteSheet: FEMALE_CIVILIAN13.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: femalecivilian13InventoryImage
+    corpseBattle:
+      - FEMALE_CIVILIAN13_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END FEMALE CIVILIAN 13 ARMOR
+
+#BEGIN FEMALE CIVILIAN 14 ARMOR
+  - type: FEMALE_CIVILIAN14_ARMOR #Polar Green
+    spriteSheet: FEMALE_CIVILIAN14.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: femalecivilian14InventoryImage
+    corpseBattle:
+      - FEMALE_CIVILIAN14_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier: *CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END FEMALE CIVILIAN 14 ARMOR
 ##END FEMALE CIVILIAN ARMOR
 
 ##BEGIN ARMED CIVILIAN ARMOR
@@ -2054,5 +2193,127 @@ armors:
     damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
 #END SOLDIER MALE GREEN 3 ARMOR
+
+#BEGIN DOCTOR FEMALE 0 ARMOR
+  - type: DOCTOR_FEMALE0_ARMOR
+    spriteSheet: DOCTOR_FEMALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: doctorfemale0InventoryImage
+    corpseBattle:
+      - DOCTOR_FEMALE0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END DOCTOR FEMALE 0 ARMOR
+
+#BEGIN DOCTOR MALE 0 ARMOR
+  - type: DOCTOR_MALE0_ARMOR
+    spriteSheet: DOCTOR_MALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: doctormale0InventoryImage
+    corpseBattle:
+      - DOCTOR_MALE0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END DOCTOR MALE 0 ARMOR
+
+#BEGIN HUNTER FEMALE 0 ARMOR
+  - type: HUNTER_FEMALE0_ARMOR
+    spriteSheet: HUNTER_FEMALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: hunterfemale0InventoryImage
+    corpseBattle:
+      - HUNTER_FEMALE0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END HUNTER FEMALE 0 ARMOR
+
+#BEGIN HUNTER MALE 0 ARMOR
+  - type: HUNTER_MALE0_ARMOR
+    spriteSheet: HUNTER_MALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: huntermale0InventoryImage
+    corpseBattle:
+      - HUNTER_MALE0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END HUNTER MALE 0 ARMOR
+
+#BEGIN HUNTER MALE 1 ARMOR
+  - type: HUNTER_MALE1_ARMOR
+    spriteSheet: HUNTER_MALE1.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: huntermale1InventoryImage
+    corpseBattle:
+      - HUNTER_MALE1_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END HUNTER MALE 1 ARMOR
+
+#BEGIN TECHNICIAN FEMALE 0 ARMOR
+  - type: TECHNICIAN_FEMALE0_ARMOR
+    spriteSheet: TECHNICIAN_FEMALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: technicianfemale0InventoryImage
+    corpseBattle:
+      - TECHNICIAN_FEMALE0_CORPSE
+    corpseGeo: CIVF_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+#END TECHNICIAN FEMALE 0 ARMOR
+
+#BEGIN TECHNICIAN MALE 0 ARMOR
+  - type: TECHNICIAN_MALE0_ARMOR
+    spriteSheet: TECHNICIAN_MALE0.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 96, 96, 96, 96, 160, 163, 163]
+    spriteInv: technicianmale0InventoryImage
+    corpseBattle:
+      - TECHNICIAN_MALE0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 9
+    underArmor: 6
+    damageModifier: *ARMED_CIVILIAN_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+#END TECHNICIAN MALE 0 ARMOR
 ##END ARMED CIVILIAN ARMOR
 ####END ARMORS
