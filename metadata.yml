@@ -5,3 +5,5 @@ author: "hellrazor"
 id: "hardmode-expansion"
 master: "xcom1"
 reservedSpace: 100
+requiredExtendedEngine: "Extended"
+requiredExtendedVersion: "8.6"

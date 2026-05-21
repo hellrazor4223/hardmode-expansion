@@ -3,7 +3,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v8.40 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v8.60 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -121,7 +121,9 @@ Enabled automatically when loading the mod for the first time:
 	Show Base Name in Popups: Enabled
 	Always Show Accuracy on Crosshair: Enabled
 
-If you are upgrading the Mod, those will not ba loaded automatically, since it not the first start. To forceenable them set: oxceRecommendedOptionsWereSet: false in your options.cfg
+If you are upgrading the Mod, the recommended User Options will not be loaded automatically.
+
+To forceenable them set: oxceRecommendedOptionsWereSet: false in your options.cfg
 
 The following strongly recommended Options have to be enabled manually:
 Options -> Geoscape -> Showfunds

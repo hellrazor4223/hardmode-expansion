@@ -2,7 +2,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v8.40 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v8.60 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -11,3 +11,7 @@ Please report all issues and bugs here: https://openxcom.org/forum/index.php/top
  - Extract Zip file
  - Copy over the directory "Hardmode_Expansion" in your user mods directory.
  - Activate "Hardmode_Expansion" under Mods
+
+If you are upgrading the Mod, the recommended User Options will not be loaded automatically.
+
+To forceenable them set: oxceRecommendedOptionsWereSet: false in your options.cfg
