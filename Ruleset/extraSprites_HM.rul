@@ -569,9 +569,9 @@ extraSprites:
       0: Resources/Battlescape/Units/Xcom/ArmoredVest/SpriteSheet_ArmoredVest.png
   - typeSingle: SOLDIER__2__ARMORED_VEST
     fileSingle: Resources/Battlescape/Units/Xcom/ArmoredVest/Inventory_ArmoredVest.png
-  - typeSingle: SOLDIER__7__ARMORED_VEST_HELMET_NORMAL
+  - typeSingle: SOLDIER__8__ARMORED_VEST_HELMET_NORMAL
     fileSingle: Resources/Battlescape/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_HelmetNormal.png
-  - typeSingle: SOLDIER__7__ARMORED_VEST_HELMET_WIDE
+  - typeSingle: SOLDIER__8__ARMORED_VEST_HELMET_WIDE
     fileSingle: Resources/Battlescape/Units/Xcom/ArmoredVest/Inventory_ArmoredVest_HelmetWide.png
 #END ARMORED VEST SPRITE
 
@@ -585,9 +585,9 @@ extraSprites:
       0: Resources/Battlescape/Units/Xcom/AlloyVest/SpriteSheet_AlloyVest.png
   - typeSingle: SOLDIER__2__ALLOY_VEST
     fileSingle: Resources/Battlescape/Units/Xcom/AlloyVest/Inventory_AlloyVest.png
-  - typeSingle: SOLDIER__7__ALLOY_VEST_HELMET_NORMAL
+  - typeSingle: SOLDIER__8__ALLOY_VEST_HELMET_NORMAL
     fileSingle: Resources/Battlescape/Units/Xcom/AlloyVest/Inventory_AlloyVest_HelmetNormal.png
-  - typeSingle: SOLDIER__7__ALLOY_VEST_HELMET_WIDE
+  - typeSingle: SOLDIER__8__ALLOY_VEST_HELMET_WIDE
     fileSingle: Resources/Battlescape/Units/Xcom/AlloyVest/Inventory_AlloyVest_HelmetWide.png
 #END ALLOY VEST SPRITE
 
@@ -607,9 +607,9 @@ extraSprites:
     fileSingle: Resources/Battlescape/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_FemaleNormal.png
   - typeSingle: SOLDIER__1__PERSONAL_ARMOR_FEMALE_WIDE
     fileSingle: Resources/Battlescape/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_FemaleWide.png
-  - typeSingle: SOLDIER__4__PERSONAL_ARMOR_HEADGEAR_NORMAL
+  - typeSingle: SOLDIER__5__PERSONAL_ARMOR_HEADGEAR_NORMAL
     fileSingle: Resources/Battlescape/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_HeadgearNormal.png
-  - typeSingle: SOLDIER__4__PERSONAL_ARMOR_HEADGEAR_WIDE
+  - typeSingle: SOLDIER__5__PERSONAL_ARMOR_HEADGEAR_WIDE
     fileSingle: Resources/Battlescape/Units/Xcom/PersonalArmor/Inventory_PersonalArmor_HeadgearWide.png
 #END PERSONAL ARMOR SPRITE
 
@@ -945,876 +945,1167 @@ extraSprites:
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/BodyNude/Inventory_BodyNude_F71.png
 #END SOLDIERBODIES BODYNUDE SPRITE
 
-#BEGIN SOLDIERBODIES HEADS SPRITE
-  - typeSingle: SOLDIER__3__M0_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M0.png
-  - typeSingle: SOLDIER__3__M1_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M1.png
-  - typeSingle: SOLDIER__3__M2_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M2.png
-  - typeSingle: SOLDIER__3__M3_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M3.png
-  - typeSingle: SOLDIER__3__M4_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M4.png
-  - typeSingle: SOLDIER__3__M5_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M5.png
-  - typeSingle: SOLDIER__3__M6_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M6.png
-  - typeSingle: SOLDIER__3__M7_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M7.png
-  - typeSingle: SOLDIER__3__M8_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M8.png
-  - typeSingle: SOLDIER__3__M9_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M9.png
-  - typeSingle: SOLDIER__3__M10_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M10.png
-  - typeSingle: SOLDIER__3__M11_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M11.png
-  - typeSingle: SOLDIER__3__M12_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M12.png
-  - typeSingle: SOLDIER__3__M13_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M13.png
-  - typeSingle: SOLDIER__3__M14_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M14.png
-  - typeSingle: SOLDIER__3__M15_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M15.png
-  - typeSingle: SOLDIER__3__M16_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M16.png
-  - typeSingle: SOLDIER__3__M17_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M17.png
-  - typeSingle: SOLDIER__3__M18_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M18.png
-  - typeSingle: SOLDIER__3__M19_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M19.png
-  - typeSingle: SOLDIER__3__M20_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M20.png
-  - typeSingle: SOLDIER__3__M21_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M21.png
-  - typeSingle: SOLDIER__3__M22_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M22.png
-  - typeSingle: SOLDIER__3__M23_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M23.png
-  - typeSingle: SOLDIER__3__M24_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M24.png
-  - typeSingle: SOLDIER__3__M25_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M25.png
-  - typeSingle: SOLDIER__3__M26_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M26.png
-  - typeSingle: SOLDIER__3__M27_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M27.png
-  - typeSingle: SOLDIER__3__M28_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M28.png
-  - typeSingle: SOLDIER__3__M29_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M29.png
-  - typeSingle: SOLDIER__3__M30_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M30.png
-  - typeSingle: SOLDIER__3__M31_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M31.png
-  - typeSingle: SOLDIER__3__M32_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M32.png
-  - typeSingle: SOLDIER__3__M33_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M33.png
-  - typeSingle: SOLDIER__3__M34_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M34.png
-  - typeSingle: SOLDIER__3__M35_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M35.png
-  - typeSingle: SOLDIER__3__M36_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M36.png
-  - typeSingle: SOLDIER__3__M37_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M37.png
-  - typeSingle: SOLDIER__3__M38_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M38.png
-  - typeSingle: SOLDIER__3__M39_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M39.png
-  - typeSingle: SOLDIER__3__M40_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M40.png
-  - typeSingle: SOLDIER__3__M41_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M41.png
-  - typeSingle: SOLDIER__3__M42_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M42.png
-  - typeSingle: SOLDIER__3__M43_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M43.png
-  - typeSingle: SOLDIER__3__M44_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M44.png
-  - typeSingle: SOLDIER__3__M45_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M45.png
-  - typeSingle: SOLDIER__3__M46_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M46.png
-  - typeSingle: SOLDIER__3__M47_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M47.png
-  - typeSingle: SOLDIER__3__M48_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M48.png
-  - typeSingle: SOLDIER__3__M49_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M49.png
-  - typeSingle: SOLDIER__3__M50_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M50.png
-  - typeSingle: SOLDIER__3__M51_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M51.png
-  - typeSingle: SOLDIER__3__M52_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M52.png
-  - typeSingle: SOLDIER__3__M53_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M53.png
-  - typeSingle: SOLDIER__3__M54_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M54.png
-  - typeSingle: SOLDIER__3__M55_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M55.png
-  - typeSingle: SOLDIER__3__M56_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M56.png
-  - typeSingle: SOLDIER__3__M57_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M57.png
-  - typeSingle: SOLDIER__3__M58_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M58.png
-  - typeSingle: SOLDIER__3__M59_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M59.png
-  - typeSingle: SOLDIER__3__M60_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M60.png
-  - typeSingle: SOLDIER__3__M61_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M61.png
-  - typeSingle: SOLDIER__3__M62_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M62.png
-  - typeSingle: SOLDIER__3__M63_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M63.png
-  - typeSingle: SOLDIER__3__M64_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M64.png
-  - typeSingle: SOLDIER__3__M65_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M65.png
-  - typeSingle: SOLDIER__3__M66_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M66.png
-  - typeSingle: SOLDIER__3__M67_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M67.png
-  - typeSingle: SOLDIER__3__M68_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M68.png
-  - typeSingle: SOLDIER__3__M69_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M69.png
-  - typeSingle: SOLDIER__3__M70_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M70.png
-  - typeSingle: SOLDIER__3__M71_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_M71.png
-  - typeSingle: SOLDIER__3__F0_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F0.png
-  - typeSingle: SOLDIER__3__F1_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F1.png
-  - typeSingle: SOLDIER__3__F2_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F2.png
-  - typeSingle: SOLDIER__3__F3_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F3.png
-  - typeSingle: SOLDIER__3__F4_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F4.png
-  - typeSingle: SOLDIER__3__F5_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F5.png
-  - typeSingle: SOLDIER__3__F6_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F6.png
-  - typeSingle: SOLDIER__3__F7_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F7.png
-  - typeSingle: SOLDIER__3__F8_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F8.png
-  - typeSingle: SOLDIER__3__F9_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F9.png
-  - typeSingle: SOLDIER__3__F10_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F10.png
-  - typeSingle: SOLDIER__3__F11_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F11.png
-  - typeSingle: SOLDIER__3__F12_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F12.png
-  - typeSingle: SOLDIER__3__F13_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F13.png
-  - typeSingle: SOLDIER__3__F14_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F14.png
-  - typeSingle: SOLDIER__3__F15_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F15.png
-  - typeSingle: SOLDIER__3__F16_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F16.png
-  - typeSingle: SOLDIER__3__F17_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F17.png
-  - typeSingle: SOLDIER__3__F18_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F18.png
-  - typeSingle: SOLDIER__3__F19_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F19.png
-  - typeSingle: SOLDIER__3__F20_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F20.png
-  - typeSingle: SOLDIER__3__F21_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F21.png
-  - typeSingle: SOLDIER__3__F22_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F22.png
-  - typeSingle: SOLDIER__3__F23_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F23.png
-  - typeSingle: SOLDIER__3__F24_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F24.png
-  - typeSingle: SOLDIER__3__F25_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F25.png
-  - typeSingle: SOLDIER__3__F26_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F26.png
-  - typeSingle: SOLDIER__3__F27_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F27.png
-  - typeSingle: SOLDIER__3__F28_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F28.png
-  - typeSingle: SOLDIER__3__F29_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F29.png
-  - typeSingle: SOLDIER__3__F30_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F30.png
-  - typeSingle: SOLDIER__3__F31_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F31.png
-  - typeSingle: SOLDIER__3__F32_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F32.png
-  - typeSingle: SOLDIER__3__F33_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F33.png
-  - typeSingle: SOLDIER__3__F34_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F34.png
-  - typeSingle: SOLDIER__3__F35_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F35.png
-  - typeSingle: SOLDIER__3__F36_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F36.png
-  - typeSingle: SOLDIER__3__F37_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F37.png
-  - typeSingle: SOLDIER__3__F38_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F38.png
-  - typeSingle: SOLDIER__3__F39_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F39.png
-  - typeSingle: SOLDIER__3__F40_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F40.png
-  - typeSingle: SOLDIER__3__F41_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F41.png
-  - typeSingle: SOLDIER__3__F42_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F42.png
-  - typeSingle: SOLDIER__3__F43_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F43.png
-  - typeSingle: SOLDIER__3__F44_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F44.png
-  - typeSingle: SOLDIER__3__F45_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F45.png
-  - typeSingle: SOLDIER__3__F46_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F46.png
-  - typeSingle: SOLDIER__3__F47_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F47.png
-  - typeSingle: SOLDIER__3__F48_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F48.png
-  - typeSingle: SOLDIER__3__F49_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F49.png
-  - typeSingle: SOLDIER__3__F50_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F50.png
-  - typeSingle: SOLDIER__3__F51_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F51.png
-  - typeSingle: SOLDIER__3__F52_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F52.png
-  - typeSingle: SOLDIER__3__F53_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F53.png
-  - typeSingle: SOLDIER__3__F54_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F54.png
-  - typeSingle: SOLDIER__3__F55_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F55.png
-  - typeSingle: SOLDIER__3__F56_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F56.png
-  - typeSingle: SOLDIER__3__F57_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F57.png
-  - typeSingle: SOLDIER__3__F58_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F58.png
-  - typeSingle: SOLDIER__3__F59_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F59.png
-  - typeSingle: SOLDIER__3__F60_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F60.png
-  - typeSingle: SOLDIER__3__F61_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F61.png
-  - typeSingle: SOLDIER__3__F62_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F62.png
-  - typeSingle: SOLDIER__3__F63_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F63.png
-  - typeSingle: SOLDIER__3__F64_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F64.png
-  - typeSingle: SOLDIER__3__F65_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F65.png
-  - typeSingle: SOLDIER__3__F66_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F66.png
-  - typeSingle: SOLDIER__3__F67_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F67.png
-  - typeSingle: SOLDIER__3__F68_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F68.png
-  - typeSingle: SOLDIER__3__F69_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F69.png
-  - typeSingle: SOLDIER__3__F70_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F70.png
-  - typeSingle: SOLDIER__3__F71_HEAD
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Heads/Inventory_Head_F71.png
-#END SOLDIERBODIES HEADS SPRITE
+#BEGIN SOLDIERBODIES NECK SPRITE
+  - typeSingle: SOLDIER__3__M0_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M0.png
+  - typeSingle: SOLDIER__3__M1_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M1.png
+  - typeSingle: SOLDIER__3__M2_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M2.png
+  - typeSingle: SOLDIER__3__M3_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M3.png
+  - typeSingle: SOLDIER__3__M4_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M4.png
+  - typeSingle: SOLDIER__3__M5_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M5.png
+  - typeSingle: SOLDIER__3__M6_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M6.png
+  - typeSingle: SOLDIER__3__M7_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M7.png
+  - typeSingle: SOLDIER__3__M8_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M8.png
+  - typeSingle: SOLDIER__3__M9_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M9.png
+  - typeSingle: SOLDIER__3__M10_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M10.png
+  - typeSingle: SOLDIER__3__M11_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M11.png
+  - typeSingle: SOLDIER__3__M12_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M12.png
+  - typeSingle: SOLDIER__3__M13_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M13.png
+  - typeSingle: SOLDIER__3__M14_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M14.png
+  - typeSingle: SOLDIER__3__M15_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M15.png
+  - typeSingle: SOLDIER__3__M16_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M16.png
+  - typeSingle: SOLDIER__3__M17_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M17.png
+  - typeSingle: SOLDIER__3__M18_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M18.png
+  - typeSingle: SOLDIER__3__M19_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M19.png
+  - typeSingle: SOLDIER__3__M20_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M20.png
+  - typeSingle: SOLDIER__3__M21_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M21.png
+  - typeSingle: SOLDIER__3__M22_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M22.png
+  - typeSingle: SOLDIER__3__M23_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M23.png
+  - typeSingle: SOLDIER__3__M24_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M24.png
+  - typeSingle: SOLDIER__3__M25_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M25.png
+  - typeSingle: SOLDIER__3__M26_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M26.png
+  - typeSingle: SOLDIER__3__M27_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M27.png
+  - typeSingle: SOLDIER__3__M28_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M28.png
+  - typeSingle: SOLDIER__3__M29_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M29.png
+  - typeSingle: SOLDIER__3__M30_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M30.png
+  - typeSingle: SOLDIER__3__M31_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M31.png
+  - typeSingle: SOLDIER__3__M32_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M32.png
+  - typeSingle: SOLDIER__3__M33_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M33.png
+  - typeSingle: SOLDIER__3__M34_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M34.png
+  - typeSingle: SOLDIER__3__M35_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M35.png
+  - typeSingle: SOLDIER__3__M36_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M36.png
+  - typeSingle: SOLDIER__3__M37_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M37.png
+  - typeSingle: SOLDIER__3__M38_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M38.png
+  - typeSingle: SOLDIER__3__M39_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M39.png
+  - typeSingle: SOLDIER__3__M40_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M40.png
+  - typeSingle: SOLDIER__3__M41_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M41.png
+  - typeSingle: SOLDIER__3__M42_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M42.png
+  - typeSingle: SOLDIER__3__M43_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M43.png
+  - typeSingle: SOLDIER__3__M44_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M44.png
+  - typeSingle: SOLDIER__3__M45_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M45.png
+  - typeSingle: SOLDIER__3__M46_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M46.png
+  - typeSingle: SOLDIER__3__M47_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M47.png
+  - typeSingle: SOLDIER__3__M48_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M48.png
+  - typeSingle: SOLDIER__3__M49_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M49.png
+  - typeSingle: SOLDIER__3__M50_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M50.png
+  - typeSingle: SOLDIER__3__M51_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M51.png
+  - typeSingle: SOLDIER__3__M52_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M52.png
+  - typeSingle: SOLDIER__3__M53_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M53.png
+  - typeSingle: SOLDIER__3__M54_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M54.png
+  - typeSingle: SOLDIER__3__M55_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M55.png
+  - typeSingle: SOLDIER__3__M56_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M56.png
+  - typeSingle: SOLDIER__3__M57_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M57.png
+  - typeSingle: SOLDIER__3__M58_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M58.png
+  - typeSingle: SOLDIER__3__M59_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M59.png
+  - typeSingle: SOLDIER__3__M60_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M60.png
+  - typeSingle: SOLDIER__3__M61_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M61.png
+  - typeSingle: SOLDIER__3__M62_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M62.png
+  - typeSingle: SOLDIER__3__M63_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M63.png
+  - typeSingle: SOLDIER__3__M64_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M64.png
+  - typeSingle: SOLDIER__3__M65_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M65.png
+  - typeSingle: SOLDIER__3__M66_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M66.png
+  - typeSingle: SOLDIER__3__M67_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M67.png
+  - typeSingle: SOLDIER__3__M68_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M68.png
+  - typeSingle: SOLDIER__3__M69_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M69.png
+  - typeSingle: SOLDIER__3__M70_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M70.png
+  - typeSingle: SOLDIER__3__M71_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_M71.png
+  - typeSingle: SOLDIER__3__F0_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F0.png
+  - typeSingle: SOLDIER__3__F1_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F1.png
+  - typeSingle: SOLDIER__3__F2_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F2.png
+  - typeSingle: SOLDIER__3__F3_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F3.png
+  - typeSingle: SOLDIER__3__F4_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F4.png
+  - typeSingle: SOLDIER__3__F5_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F5.png
+  - typeSingle: SOLDIER__3__F6_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F6.png
+  - typeSingle: SOLDIER__3__F7_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F7.png
+  - typeSingle: SOLDIER__3__F8_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F8.png
+  - typeSingle: SOLDIER__3__F9_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F9.png
+  - typeSingle: SOLDIER__3__F10_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F10.png
+  - typeSingle: SOLDIER__3__F11_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F11.png
+  - typeSingle: SOLDIER__3__F12_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F12.png
+  - typeSingle: SOLDIER__3__F13_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F13.png
+  - typeSingle: SOLDIER__3__F14_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F14.png
+  - typeSingle: SOLDIER__3__F15_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F15.png
+  - typeSingle: SOLDIER__3__F16_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F16.png
+  - typeSingle: SOLDIER__3__F17_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F17.png
+  - typeSingle: SOLDIER__3__F18_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F18.png
+  - typeSingle: SOLDIER__3__F19_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F19.png
+  - typeSingle: SOLDIER__3__F20_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F20.png
+  - typeSingle: SOLDIER__3__F21_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F21.png
+  - typeSingle: SOLDIER__3__F22_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F22.png
+  - typeSingle: SOLDIER__3__F23_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F23.png
+  - typeSingle: SOLDIER__3__F24_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F24.png
+  - typeSingle: SOLDIER__3__F25_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F25.png
+  - typeSingle: SOLDIER__3__F26_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F26.png
+  - typeSingle: SOLDIER__3__F27_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F27.png
+  - typeSingle: SOLDIER__3__F28_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F28.png
+  - typeSingle: SOLDIER__3__F29_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F29.png
+  - typeSingle: SOLDIER__3__F30_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F30.png
+  - typeSingle: SOLDIER__3__F31_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F31.png
+  - typeSingle: SOLDIER__3__F32_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F32.png
+  - typeSingle: SOLDIER__3__F33_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F33.png
+  - typeSingle: SOLDIER__3__F34_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F34.png
+  - typeSingle: SOLDIER__3__F35_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F35.png
+  - typeSingle: SOLDIER__3__F36_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F36.png
+  - typeSingle: SOLDIER__3__F37_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F37.png
+  - typeSingle: SOLDIER__3__F38_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F38.png
+  - typeSingle: SOLDIER__3__F39_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F39.png
+  - typeSingle: SOLDIER__3__F40_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F40.png
+  - typeSingle: SOLDIER__3__F41_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F41.png
+  - typeSingle: SOLDIER__3__F42_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F42.png
+  - typeSingle: SOLDIER__3__F43_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F43.png
+  - typeSingle: SOLDIER__3__F44_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F44.png
+  - typeSingle: SOLDIER__3__F45_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F45.png
+  - typeSingle: SOLDIER__3__F46_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F46.png
+  - typeSingle: SOLDIER__3__F47_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F47.png
+  - typeSingle: SOLDIER__3__F48_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F48.png
+  - typeSingle: SOLDIER__3__F49_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F49.png
+  - typeSingle: SOLDIER__3__F50_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F50.png
+  - typeSingle: SOLDIER__3__F51_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F51.png
+  - typeSingle: SOLDIER__3__F52_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F52.png
+  - typeSingle: SOLDIER__3__F53_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F53.png
+  - typeSingle: SOLDIER__3__F54_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F54.png
+  - typeSingle: SOLDIER__3__F55_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F55.png
+  - typeSingle: SOLDIER__3__F56_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F56.png
+  - typeSingle: SOLDIER__3__F57_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F57.png
+  - typeSingle: SOLDIER__3__F58_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F58.png
+  - typeSingle: SOLDIER__3__F59_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F59.png
+  - typeSingle: SOLDIER__3__F60_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F60.png
+  - typeSingle: SOLDIER__3__F61_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F61.png
+  - typeSingle: SOLDIER__3__F62_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F62.png
+  - typeSingle: SOLDIER__3__F63_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F63.png
+  - typeSingle: SOLDIER__3__F64_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F64.png
+  - typeSingle: SOLDIER__3__F65_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F65.png
+  - typeSingle: SOLDIER__3__F66_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F66.png
+  - typeSingle: SOLDIER__3__F67_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F67.png
+  - typeSingle: SOLDIER__3__F68_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F68.png
+  - typeSingle: SOLDIER__3__F69_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F69.png
+  - typeSingle: SOLDIER__3__F70_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F70.png
+  - typeSingle: SOLDIER__3__F71_NECK
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Neck/Inventory_Neck_F71.png
+#END SOLDIERBODIES NECK SPRITE
+
+#BEGIN SOLDIERBODIES HEAD SPRITE
+  - typeSingle: SOLDIER__4__M0_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M0.png
+  - typeSingle: SOLDIER__4__M1_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M1.png
+  - typeSingle: SOLDIER__4__M2_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M2.png
+  - typeSingle: SOLDIER__4__M3_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M3.png
+  - typeSingle: SOLDIER__4__M4_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M4.png
+  - typeSingle: SOLDIER__4__M5_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M5.png
+  - typeSingle: SOLDIER__4__M6_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M6.png
+  - typeSingle: SOLDIER__4__M7_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M7.png
+  - typeSingle: SOLDIER__4__M8_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M8.png
+  - typeSingle: SOLDIER__4__M9_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M9.png
+  - typeSingle: SOLDIER__4__M10_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M10.png
+  - typeSingle: SOLDIER__4__M11_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M11.png
+  - typeSingle: SOLDIER__4__M12_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M12.png
+  - typeSingle: SOLDIER__4__M13_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M13.png
+  - typeSingle: SOLDIER__4__M14_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M14.png
+  - typeSingle: SOLDIER__4__M15_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M15.png
+  - typeSingle: SOLDIER__4__M16_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M16.png
+  - typeSingle: SOLDIER__4__M17_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M17.png
+  - typeSingle: SOLDIER__4__M18_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M18.png
+  - typeSingle: SOLDIER__4__M19_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M19.png
+  - typeSingle: SOLDIER__4__M20_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M20.png
+  - typeSingle: SOLDIER__4__M21_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M21.png
+  - typeSingle: SOLDIER__4__M22_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M22.png
+  - typeSingle: SOLDIER__4__M23_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M23.png
+  - typeSingle: SOLDIER__4__M24_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M24.png
+  - typeSingle: SOLDIER__4__M25_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M25.png
+  - typeSingle: SOLDIER__4__M26_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M26.png
+  - typeSingle: SOLDIER__4__M27_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M27.png
+  - typeSingle: SOLDIER__4__M28_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M28.png
+  - typeSingle: SOLDIER__4__M29_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M29.png
+  - typeSingle: SOLDIER__4__M30_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M30.png
+  - typeSingle: SOLDIER__4__M31_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M31.png
+  - typeSingle: SOLDIER__4__M32_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M32.png
+  - typeSingle: SOLDIER__4__M33_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M33.png
+  - typeSingle: SOLDIER__4__M34_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M34.png
+  - typeSingle: SOLDIER__4__M35_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M35.png
+  - typeSingle: SOLDIER__4__M36_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M36.png
+  - typeSingle: SOLDIER__4__M37_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M37.png
+  - typeSingle: SOLDIER__4__M38_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M38.png
+  - typeSingle: SOLDIER__4__M39_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M39.png
+  - typeSingle: SOLDIER__4__M40_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M40.png
+  - typeSingle: SOLDIER__4__M41_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M41.png
+  - typeSingle: SOLDIER__4__M42_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M42.png
+  - typeSingle: SOLDIER__4__M43_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M43.png
+  - typeSingle: SOLDIER__4__M44_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M44.png
+  - typeSingle: SOLDIER__4__M45_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M45.png
+  - typeSingle: SOLDIER__4__M46_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M46.png
+  - typeSingle: SOLDIER__4__M47_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M47.png
+  - typeSingle: SOLDIER__4__M48_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M48.png
+  - typeSingle: SOLDIER__4__M49_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M49.png
+  - typeSingle: SOLDIER__4__M50_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M50.png
+  - typeSingle: SOLDIER__4__M51_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M51.png
+  - typeSingle: SOLDIER__4__M52_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M52.png
+  - typeSingle: SOLDIER__4__M53_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M53.png
+  - typeSingle: SOLDIER__4__M54_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M54.png
+  - typeSingle: SOLDIER__4__M55_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M55.png
+  - typeSingle: SOLDIER__4__M56_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M56.png
+  - typeSingle: SOLDIER__4__M57_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M57.png
+  - typeSingle: SOLDIER__4__M58_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M58.png
+  - typeSingle: SOLDIER__4__M59_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M59.png
+  - typeSingle: SOLDIER__4__M60_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M60.png
+  - typeSingle: SOLDIER__4__M61_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M61.png
+  - typeSingle: SOLDIER__4__M62_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M62.png
+  - typeSingle: SOLDIER__4__M63_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M63.png
+  - typeSingle: SOLDIER__4__M64_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M64.png
+  - typeSingle: SOLDIER__4__M65_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M65.png
+  - typeSingle: SOLDIER__4__M66_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M66.png
+  - typeSingle: SOLDIER__4__M67_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M67.png
+  - typeSingle: SOLDIER__4__M68_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M68.png
+  - typeSingle: SOLDIER__4__M69_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M69.png
+  - typeSingle: SOLDIER__4__M70_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M70.png
+  - typeSingle: SOLDIER__4__M71_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_M71.png
+  - typeSingle: SOLDIER__4__F0_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F0.png
+  - typeSingle: SOLDIER__4__F1_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F1.png
+  - typeSingle: SOLDIER__4__F2_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F2.png
+  - typeSingle: SOLDIER__4__F3_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F3.png
+  - typeSingle: SOLDIER__4__F4_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F4.png
+  - typeSingle: SOLDIER__4__F5_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F5.png
+  - typeSingle: SOLDIER__4__F6_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F6.png
+  - typeSingle: SOLDIER__4__F7_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F7.png
+  - typeSingle: SOLDIER__4__F8_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F8.png
+  - typeSingle: SOLDIER__4__F9_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F9.png
+  - typeSingle: SOLDIER__4__F10_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F10.png
+  - typeSingle: SOLDIER__4__F11_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F11.png
+  - typeSingle: SOLDIER__4__F12_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F12.png
+  - typeSingle: SOLDIER__4__F13_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F13.png
+  - typeSingle: SOLDIER__4__F14_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F14.png
+  - typeSingle: SOLDIER__4__F15_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F15.png
+  - typeSingle: SOLDIER__4__F16_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F16.png
+  - typeSingle: SOLDIER__4__F17_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F17.png
+  - typeSingle: SOLDIER__4__F18_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F18.png
+  - typeSingle: SOLDIER__4__F19_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F19.png
+  - typeSingle: SOLDIER__4__F20_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F20.png
+  - typeSingle: SOLDIER__4__F21_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F21.png
+  - typeSingle: SOLDIER__4__F22_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F22.png
+  - typeSingle: SOLDIER__4__F23_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F23.png
+  - typeSingle: SOLDIER__4__F24_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F24.png
+  - typeSingle: SOLDIER__4__F25_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F25.png
+  - typeSingle: SOLDIER__4__F26_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F26.png
+  - typeSingle: SOLDIER__4__F27_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F27.png
+  - typeSingle: SOLDIER__4__F28_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F28.png
+  - typeSingle: SOLDIER__4__F29_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F29.png
+  - typeSingle: SOLDIER__4__F30_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F30.png
+  - typeSingle: SOLDIER__4__F31_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F31.png
+  - typeSingle: SOLDIER__4__F32_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F32.png
+  - typeSingle: SOLDIER__4__F33_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F33.png
+  - typeSingle: SOLDIER__4__F34_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F34.png
+  - typeSingle: SOLDIER__4__F35_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F35.png
+  - typeSingle: SOLDIER__4__F36_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F36.png
+  - typeSingle: SOLDIER__4__F37_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F37.png
+  - typeSingle: SOLDIER__4__F38_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F38.png
+  - typeSingle: SOLDIER__4__F39_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F39.png
+  - typeSingle: SOLDIER__4__F40_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F40.png
+  - typeSingle: SOLDIER__4__F41_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F41.png
+  - typeSingle: SOLDIER__4__F42_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F42.png
+  - typeSingle: SOLDIER__4__F43_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F43.png
+  - typeSingle: SOLDIER__4__F44_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F44.png
+  - typeSingle: SOLDIER__4__F45_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F45.png
+  - typeSingle: SOLDIER__4__F46_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F46.png
+  - typeSingle: SOLDIER__4__F47_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F47.png
+  - typeSingle: SOLDIER__4__F48_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F48.png
+  - typeSingle: SOLDIER__4__F49_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F49.png
+  - typeSingle: SOLDIER__4__F50_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F50.png
+  - typeSingle: SOLDIER__4__F51_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F51.png
+  - typeSingle: SOLDIER__4__F52_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F52.png
+  - typeSingle: SOLDIER__4__F53_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F53.png
+  - typeSingle: SOLDIER__4__F54_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F54.png
+  - typeSingle: SOLDIER__4__F55_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F55.png
+  - typeSingle: SOLDIER__4__F56_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F56.png
+  - typeSingle: SOLDIER__4__F57_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F57.png
+  - typeSingle: SOLDIER__4__F58_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F58.png
+  - typeSingle: SOLDIER__4__F59_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F59.png
+  - typeSingle: SOLDIER__4__F60_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F60.png
+  - typeSingle: SOLDIER__4__F61_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F61.png
+  - typeSingle: SOLDIER__4__F62_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F62.png
+  - typeSingle: SOLDIER__4__F63_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F63.png
+  - typeSingle: SOLDIER__4__F64_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F64.png
+  - typeSingle: SOLDIER__4__F65_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F65.png
+  - typeSingle: SOLDIER__4__F66_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F66.png
+  - typeSingle: SOLDIER__4__F67_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F67.png
+  - typeSingle: SOLDIER__4__F68_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F68.png
+  - typeSingle: SOLDIER__4__F69_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F69.png
+  - typeSingle: SOLDIER__4__F70_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F70.png
+  - typeSingle: SOLDIER__4__F71_HEAD
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/Head/Inventory_Head_F71.png
+#END SOLDIERBODIES HEAD SPRITE
 
 #BEGIN SOLDIERBODIES HAIR FRONT SPRITE
-  - typeSingle: SOLDIER__5__M0_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M0_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M0.png
-  - typeSingle: SOLDIER__5__M1_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M1_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M1.png
-  - typeSingle: SOLDIER__5__M2_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M2_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M2.png
-  - typeSingle: SOLDIER__5__M3_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M3_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M3.png
-  - typeSingle: SOLDIER__5__M4_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M4_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M4.png
-  - typeSingle: SOLDIER__5__M5_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M5_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M5.png
-  - typeSingle: SOLDIER__5__M6_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M6_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M6.png
-  - typeSingle: SOLDIER__5__M7_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M7_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M7.png
-  - typeSingle: SOLDIER__5__M8_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M8_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M8.png
-  - typeSingle: SOLDIER__5__M9_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M9_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M9.png
-  - typeSingle: SOLDIER__5__M10_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M10_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M10.png
-  - typeSingle: SOLDIER__5__M11_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M11_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M11.png
-  - typeSingle: SOLDIER__5__M12_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M12_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M12.png
-  - typeSingle: SOLDIER__5__M13_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M13_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M13.png
-  - typeSingle: SOLDIER__5__M14_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M14_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M14.png
-  - typeSingle: SOLDIER__5__M15_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M15_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M15.png
-  - typeSingle: SOLDIER__5__M16_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M16_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M16.png
-  - typeSingle: SOLDIER__5__M17_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M17_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M17.png
-  - typeSingle: SOLDIER__5__M18_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M18_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M18.png
-  - typeSingle: SOLDIER__5__M19_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M19_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M19.png
-  - typeSingle: SOLDIER__5__M20_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M20_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M20.png
-  - typeSingle: SOLDIER__5__M21_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M21_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M21.png
-  - typeSingle: SOLDIER__5__M22_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M22_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M22.png
-  - typeSingle: SOLDIER__5__M23_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M23_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M23.png
-  - typeSingle: SOLDIER__5__M24_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M24_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M24.png
-  - typeSingle: SOLDIER__5__M25_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M25_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M25.png
-  - typeSingle: SOLDIER__5__M26_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M26_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M26.png
-  - typeSingle: SOLDIER__5__M27_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M27_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M27.png
-  - typeSingle: SOLDIER__5__M28_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M28_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M28.png
-  - typeSingle: SOLDIER__5__M29_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M29_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M29.png
-  - typeSingle: SOLDIER__5__M30_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M30_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M30.png
-  - typeSingle: SOLDIER__5__M31_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M31_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M31.png
-  - typeSingle: SOLDIER__5__M32_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M32_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M32.png
-  - typeSingle: SOLDIER__5__M33_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M33_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M33.png
-  - typeSingle: SOLDIER__5__M34_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M34_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M34.png
-  - typeSingle: SOLDIER__5__M35_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M35_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M35.png
-  - typeSingle: SOLDIER__5__M36_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M36_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M36.png
-  - typeSingle: SOLDIER__5__M37_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M37_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M37.png
-  - typeSingle: SOLDIER__5__M38_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M38_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M38.png
-  - typeSingle: SOLDIER__5__M39_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M39_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M39.png
-  - typeSingle: SOLDIER__5__M40_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M40_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M40.png
-  - typeSingle: SOLDIER__5__M41_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M41_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M41.png
-  - typeSingle: SOLDIER__5__M42_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M42_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M42.png
-  - typeSingle: SOLDIER__5__M43_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M43_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M43.png
-  - typeSingle: SOLDIER__5__M44_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M44_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M44.png
-  - typeSingle: SOLDIER__5__M45_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M45_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M45.png
-  - typeSingle: SOLDIER__5__M46_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M46_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M46.png
-  - typeSingle: SOLDIER__5__M47_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M47_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M47.png
-  - typeSingle: SOLDIER__5__M48_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M48_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M48.png
-  - typeSingle: SOLDIER__5__M49_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M49_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M49.png
-  - typeSingle: SOLDIER__5__M50_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M50_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M50.png
-  - typeSingle: SOLDIER__5__M51_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M51_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M51.png
-  - typeSingle: SOLDIER__5__M52_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M52_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M52.png
-  - typeSingle: SOLDIER__5__M53_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M53_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M53.png
-  - typeSingle: SOLDIER__5__M54_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M54_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M54.png
-  - typeSingle: SOLDIER__5__M55_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M55_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M55.png
-  - typeSingle: SOLDIER__5__M56_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M56_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M56.png
-  - typeSingle: SOLDIER__5__M57_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M57_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M57.png
-  - typeSingle: SOLDIER__5__M58_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M58_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M58.png
-  - typeSingle: SOLDIER__5__M59_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M59_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M59.png
-  - typeSingle: SOLDIER__5__M60_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M60_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M60.png
-  - typeSingle: SOLDIER__5__M61_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M61_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M61.png
-  - typeSingle: SOLDIER__5__M62_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M62_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M62.png
-  - typeSingle: SOLDIER__5__M63_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M63_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M63.png
-  - typeSingle: SOLDIER__5__M64_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M64_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M64.png
-  - typeSingle: SOLDIER__5__M65_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M65_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M65.png
-  - typeSingle: SOLDIER__5__M66_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M66_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M66.png
-  - typeSingle: SOLDIER__5__M67_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M67_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M67.png
-  - typeSingle: SOLDIER__5__M68_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M68_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M68.png
-  - typeSingle: SOLDIER__5__M69_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M69_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M69.png
-  - typeSingle: SOLDIER__5__M70_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M70_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M70.png
-  - typeSingle: SOLDIER__5__M71_HAIR_FRONT
+  - typeSingle: SOLDIER__6__M71_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_M71.png
-  - typeSingle: SOLDIER__5__F0_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F0_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F0.png
-  - typeSingle: SOLDIER__5__F1_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F1_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F1.png
-  - typeSingle: SOLDIER__5__F2_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F2_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F2.png
-  - typeSingle: SOLDIER__5__F3_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F3_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F3.png
-  - typeSingle: SOLDIER__5__F4_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F4_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F4.png
-  - typeSingle: SOLDIER__5__F5_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F5_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F5.png
-  - typeSingle: SOLDIER__5__F6_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F6_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F6.png
-  - typeSingle: SOLDIER__5__F7_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F7_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F7.png
-  - typeSingle: SOLDIER__5__F8_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F8_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F8.png
-  - typeSingle: SOLDIER__5__F9_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F9_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F9.png
-  - typeSingle: SOLDIER__5__F10_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F10_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F10.png
-  - typeSingle: SOLDIER__5__F11_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F11_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F11.png
-  - typeSingle: SOLDIER__5__F12_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F12_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F12.png
-  - typeSingle: SOLDIER__5__F13_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F13_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F13.png
-  - typeSingle: SOLDIER__5__F14_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F14_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F14.png
-  - typeSingle: SOLDIER__5__F15_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F15_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F15.png
-  - typeSingle: SOLDIER__5__F16_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F16_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F16.png
-  - typeSingle: SOLDIER__5__F17_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F17_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F17.png
-  - typeSingle: SOLDIER__5__F18_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F18_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F18.png
-  - typeSingle: SOLDIER__5__F19_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F19_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F19.png
-  - typeSingle: SOLDIER__5__F20_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F20_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F20.png
-  - typeSingle: SOLDIER__5__F21_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F21_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F21.png
-  - typeSingle: SOLDIER__5__F22_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F22_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F22.png
-  - typeSingle: SOLDIER__5__F23_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F23_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F23.png
-  - typeSingle: SOLDIER__5__F24_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F24_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F24.png
-  - typeSingle: SOLDIER__5__F25_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F25_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F25.png
-  - typeSingle: SOLDIER__5__F26_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F26_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F26.png
-  - typeSingle: SOLDIER__5__F27_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F27_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F27.png
-  - typeSingle: SOLDIER__5__F28_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F28_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F28.png
-  - typeSingle: SOLDIER__5__F29_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F29_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F29.png
-  - typeSingle: SOLDIER__5__F30_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F30_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F30.png
-  - typeSingle: SOLDIER__5__F31_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F31_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F31.png
-  - typeSingle: SOLDIER__5__F32_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F32_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F32.png
-  - typeSingle: SOLDIER__5__F33_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F33_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F33.png
-  - typeSingle: SOLDIER__5__F34_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F34_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F34.png
-  - typeSingle: SOLDIER__5__F35_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F35_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F35.png
-  - typeSingle: SOLDIER__5__F36_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F36_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F36.png
-  - typeSingle: SOLDIER__5__F37_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F37_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F37.png
-  - typeSingle: SOLDIER__5__F38_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F38_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F38.png
-  - typeSingle: SOLDIER__5__F39_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F39_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F39.png
-  - typeSingle: SOLDIER__5__F40_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F40_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F40.png
-  - typeSingle: SOLDIER__5__F41_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F41_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F41.png
-  - typeSingle: SOLDIER__5__F42_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F42_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F42.png
-  - typeSingle: SOLDIER__5__F43_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F43_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F43.png
-  - typeSingle: SOLDIER__5__F44_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F44_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F44.png
-  - typeSingle: SOLDIER__5__F45_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F45_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F45.png
-  - typeSingle: SOLDIER__5__F46_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F46_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F46.png
-  - typeSingle: SOLDIER__5__F47_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F47_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F47.png
-  - typeSingle: SOLDIER__5__F48_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F48_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F48.png
-  - typeSingle: SOLDIER__5__F49_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F49_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F49.png
-  - typeSingle: SOLDIER__5__F50_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F50_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F50.png
-  - typeSingle: SOLDIER__5__F51_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F51_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F51.png
-  - typeSingle: SOLDIER__5__F52_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F52_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F52.png
-  - typeSingle: SOLDIER__5__F53_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F53_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F53.png
-  - typeSingle: SOLDIER__5__F54_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F54_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F54.png
-  - typeSingle: SOLDIER__5__F55_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F55_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F55.png
-  - typeSingle: SOLDIER__5__F56_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F56_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F56.png
-  - typeSingle: SOLDIER__5__F57_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F57_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F57.png
-  - typeSingle: SOLDIER__5__F58_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F58_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F58.png
-  - typeSingle: SOLDIER__5__F59_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F59_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F59.png
-  - typeSingle: SOLDIER__5__F60_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F60_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F60.png
-  - typeSingle: SOLDIER__5__F61_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F61_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F61.png
-  - typeSingle: SOLDIER__5__F62_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F62_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F62.png
-  - typeSingle: SOLDIER__5__F63_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F63_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F63.png
-  - typeSingle: SOLDIER__5__F64_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F64_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F64.png
-  - typeSingle: SOLDIER__5__F65_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F65_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F65.png
-  - typeSingle: SOLDIER__5__F66_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F66_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F66.png
-  - typeSingle: SOLDIER__5__F67_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F67_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F67.png
-  - typeSingle: SOLDIER__5__F68_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F68_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F68.png
-  - typeSingle: SOLDIER__5__F69_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F69_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F69.png
-  - typeSingle: SOLDIER__5__F70_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F70_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F70.png
-  - typeSingle: SOLDIER__5__F71_HAIR_FRONT
+  - typeSingle: SOLDIER__6__F71_HAIR_FRONT
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HairFront/Inventory_HairFront_F71.png
 #END SOLDIERBODIES HAIR FRONT SPRITE
 
 #BEGIN SOLDIERBODIES HEAD HELMET SPRITE
-  - typeSingle: SOLDIER__6__M0_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M0_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M0.png
-  - typeSingle: SOLDIER__6__M1_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M1_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M1.png
-  - typeSingle: SOLDIER__6__M2_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M2_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M2.png
-  - typeSingle: SOLDIER__6__M3_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M3_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M3.png
-  - typeSingle: SOLDIER__6__M4_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M4_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M4.png
-  - typeSingle: SOLDIER__6__M5_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M5_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M5.png
-  - typeSingle: SOLDIER__6__M6_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M6_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M6.png
-  - typeSingle: SOLDIER__6__M7_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M7_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M7.png
-  - typeSingle: SOLDIER__6__M8_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M8_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M8.png
-  - typeSingle: SOLDIER__6__M9_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M9_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M9.png
-  - typeSingle: SOLDIER__6__M10_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M10_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M10.png
-  - typeSingle: SOLDIER__6__M11_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M11_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M11.png
-  - typeSingle: SOLDIER__6__M12_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M12_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M12.png
-  - typeSingle: SOLDIER__6__M13_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M13_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M13.png
-  - typeSingle: SOLDIER__6__M14_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M14_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M14.png
-  - typeSingle: SOLDIER__6__M15_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M15_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M15.png
-  - typeSingle: SOLDIER__6__M16_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M16_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M16.png
-  - typeSingle: SOLDIER__6__M17_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M17_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M17.png
-  - typeSingle: SOLDIER__6__M18_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M18_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M18.png
-  - typeSingle: SOLDIER__6__M19_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M19_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M19.png
-  - typeSingle: SOLDIER__6__M20_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M20_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M20.png
-  - typeSingle: SOLDIER__6__M21_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M21_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M21.png
-  - typeSingle: SOLDIER__6__M22_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M22_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M22.png
-  - typeSingle: SOLDIER__6__M23_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M23_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M23.png
-  - typeSingle: SOLDIER__6__M24_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M24_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M24.png
-  - typeSingle: SOLDIER__6__M25_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M25_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M25.png
-  - typeSingle: SOLDIER__6__M26_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M26_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M26.png
-  - typeSingle: SOLDIER__6__M27_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M27_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M27.png
-  - typeSingle: SOLDIER__6__M28_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M28_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M28.png
-  - typeSingle: SOLDIER__6__M29_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M29_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M29.png
-  - typeSingle: SOLDIER__6__M30_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M30_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M30.png
-  - typeSingle: SOLDIER__6__M31_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M31_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M31.png
-  - typeSingle: SOLDIER__6__M32_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M32_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M32.png
-  - typeSingle: SOLDIER__6__M33_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M33_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M33.png
-  - typeSingle: SOLDIER__6__M34_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M34_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M34.png
-  - typeSingle: SOLDIER__6__M35_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M35_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M35.png
-  - typeSingle: SOLDIER__6__M36_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M36_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M36.png
-  - typeSingle: SOLDIER__6__M37_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M37_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M37.png
-  - typeSingle: SOLDIER__6__M38_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M38_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M38.png
-  - typeSingle: SOLDIER__6__M39_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M39_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M39.png
-  - typeSingle: SOLDIER__6__M40_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M40_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M40.png
-  - typeSingle: SOLDIER__6__M41_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M41_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M41.png
-  - typeSingle: SOLDIER__6__M42_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M42_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M42.png
-  - typeSingle: SOLDIER__6__M43_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M43_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M43.png
-  - typeSingle: SOLDIER__6__M44_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M44_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M44.png
-  - typeSingle: SOLDIER__6__M45_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M45_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M45.png
-  - typeSingle: SOLDIER__6__M46_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M46_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M46.png
-  - typeSingle: SOLDIER__6__M47_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M47_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M47.png
-  - typeSingle: SOLDIER__6__M48_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M48_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M48.png
-  - typeSingle: SOLDIER__6__M49_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M49_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M49.png
-  - typeSingle: SOLDIER__6__M50_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M50_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M50.png
-  - typeSingle: SOLDIER__6__M51_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M51_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M51.png
-  - typeSingle: SOLDIER__6__M52_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M52_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M52.png
-  - typeSingle: SOLDIER__6__M53_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M53_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M53.png
-  - typeSingle: SOLDIER__6__M54_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M54_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M54.png
-  - typeSingle: SOLDIER__6__M55_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M55_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M55.png
-  - typeSingle: SOLDIER__6__M56_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M56_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M56.png
-  - typeSingle: SOLDIER__6__M57_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M57_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M57.png
-  - typeSingle: SOLDIER__6__M58_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M58_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M58.png
-  - typeSingle: SOLDIER__6__M59_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M59_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M59.png
-  - typeSingle: SOLDIER__6__M60_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M60_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M60.png
-  - typeSingle: SOLDIER__6__M61_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M61_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M61.png
-  - typeSingle: SOLDIER__6__M62_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M62_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M62.png
-  - typeSingle: SOLDIER__6__M63_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M63_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M63.png
-  - typeSingle: SOLDIER__6__M64_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M64_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M64.png
-  - typeSingle: SOLDIER__6__M65_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M65_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M65.png
-  - typeSingle: SOLDIER__6__M66_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M66_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M66.png
-  - typeSingle: SOLDIER__6__M67_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M67_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M67.png
-  - typeSingle: SOLDIER__6__M68_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M68_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M68.png
-  - typeSingle: SOLDIER__6__M69_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M69_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M69.png
-  - typeSingle: SOLDIER__6__M70_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M70_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M70.png
-  - typeSingle: SOLDIER__6__M71_HEAD_HELMET
+  - typeSingle: SOLDIER__7__M71_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_M71.png
-  - typeSingle: SOLDIER__6__F0_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F0_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F0.png
-  - typeSingle: SOLDIER__6__F1_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F1_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F1.png
-  - typeSingle: SOLDIER__6__F2_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F2_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F2.png
-  - typeSingle: SOLDIER__6__F3_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F3_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F3.png
-  - typeSingle: SOLDIER__6__F4_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F4_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F4.png
-  - typeSingle: SOLDIER__6__F5_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F5_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F5.png
-  - typeSingle: SOLDIER__6__F6_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F6_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F6.png
-  - typeSingle: SOLDIER__6__F7_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F7_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F7.png
-  - typeSingle: SOLDIER__6__F8_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F8_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F8.png
-  - typeSingle: SOLDIER__6__F9_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F9_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F9.png
-  - typeSingle: SOLDIER__6__F10_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F10_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F10.png
-  - typeSingle: SOLDIER__6__F11_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F11_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F11.png
-  - typeSingle: SOLDIER__6__F12_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F12_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F12.png
-  - typeSingle: SOLDIER__6__F13_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F13_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F13.png
-  - typeSingle: SOLDIER__6__F14_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F14_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F14.png
-  - typeSingle: SOLDIER__6__F15_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F15_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F15.png
-  - typeSingle: SOLDIER__6__F16_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F16_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F16.png
-  - typeSingle: SOLDIER__6__F17_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F17_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F17.png
-  - typeSingle: SOLDIER__6__F18_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F18_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F18.png
-  - typeSingle: SOLDIER__6__F19_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F19_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F19.png
-  - typeSingle: SOLDIER__6__F20_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F20_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F20.png
-  - typeSingle: SOLDIER__6__F21_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F21_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F21.png
-  - typeSingle: SOLDIER__6__F22_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F22_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F22.png
-  - typeSingle: SOLDIER__6__F23_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F23_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F23.png
-  - typeSingle: SOLDIER__6__F24_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F24_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F24.png
-  - typeSingle: SOLDIER__6__F25_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F25_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F25.png
-  - typeSingle: SOLDIER__6__F26_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F26_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F26.png
-  - typeSingle: SOLDIER__6__F27_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F27_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F27.png
-  - typeSingle: SOLDIER__6__F28_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F28_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F28.png
-  - typeSingle: SOLDIER__6__F29_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F29_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F29.png
-  - typeSingle: SOLDIER__6__F30_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F30_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F30.png
-  - typeSingle: SOLDIER__6__F31_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F31_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F31.png
-  - typeSingle: SOLDIER__6__F32_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F32_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F32.png
-  - typeSingle: SOLDIER__6__F33_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F33_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F33.png
-  - typeSingle: SOLDIER__6__F34_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F34_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F34.png
-  - typeSingle: SOLDIER__6__F35_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F35_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F35.png
-  - typeSingle: SOLDIER__6__F36_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F36_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F36.png
-  - typeSingle: SOLDIER__6__F37_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F37_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F37.png
-  - typeSingle: SOLDIER__6__F38_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F38_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F38.png
-  - typeSingle: SOLDIER__6__F39_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F39_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F39.png
-  - typeSingle: SOLDIER__6__F40_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F40_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F40.png
-  - typeSingle: SOLDIER__6__F41_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F41_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F41.png
-  - typeSingle: SOLDIER__6__F42_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F42_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F42.png
-  - typeSingle: SOLDIER__6__F43_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F43_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F43.png
-  - typeSingle: SOLDIER__6__F44_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F44_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F44.png
-  - typeSingle: SOLDIER__6__F45_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F45_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F45.png
-  - typeSingle: SOLDIER__6__F46_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F46_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F46.png
-  - typeSingle: SOLDIER__6__F47_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F47_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F47.png
-  - typeSingle: SOLDIER__6__F48_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F48_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F48.png
-  - typeSingle: SOLDIER__6__F49_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F49_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F49.png
-  - typeSingle: SOLDIER__6__F50_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F50_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F50.png
-  - typeSingle: SOLDIER__6__F51_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F51_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F51.png
-  - typeSingle: SOLDIER__6__F52_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F52_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F52.png
-  - typeSingle: SOLDIER__6__F53_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F53_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F53.png
-  - typeSingle: SOLDIER__6__F54_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F54_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F54.png
-  - typeSingle: SOLDIER__6__F55_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F55_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F55.png
-  - typeSingle: SOLDIER__6__F56_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F56_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F56.png
-  - typeSingle: SOLDIER__6__F57_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F57_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F57.png
-  - typeSingle: SOLDIER__6__F58_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F58_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F58.png
-  - typeSingle: SOLDIER__6__F59_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F59_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F59.png
-  - typeSingle: SOLDIER__6__F60_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F60_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F60.png
-  - typeSingle: SOLDIER__6__F61_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F61_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F61.png
-  - typeSingle: SOLDIER__6__F62_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F62_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F62.png
-  - typeSingle: SOLDIER__6__F63_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F63_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F63.png
-  - typeSingle: SOLDIER__6__F64_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F64_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F64.png
-  - typeSingle: SOLDIER__6__F65_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F65_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F64.png
-  - typeSingle: SOLDIER__6__F66_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F66_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F66.png
-  - typeSingle: SOLDIER__6__F67_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F67_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F67.png
-  - typeSingle: SOLDIER__6__F68_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F68_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F68.png
-  - typeSingle: SOLDIER__6__F69_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F69_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F69.png
-  - typeSingle: SOLDIER__6__F70_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F70_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F70.png
-  - typeSingle: SOLDIER__6__F71_HEAD_HELMET
+  - typeSingle: SOLDIER__7__F71_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F71.png
 #END SOLDIERBODIES HEAD HELMET SPRITE
 ##END XCOM SOLDIER SPRITES
