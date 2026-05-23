@@ -17,28 +17,49 @@ README for Version 0.99.9.9
 #             Who like a challenge :)            #
 ##################################################
 
-About this mod:
-My Personal approach on creating a sort of LONG WAR MOD for the ORIGNAL UFO - DEFENSE.
+About This Mod:
 
-This Mod behaves like a pot of water in which the player is set, while the mod is slowly turning up the temperature, to cook the player basically alive if he is not successful in beating the aliens.
+This is my personal take on creating a true “LONG WAR” experience for the original UFO: Enemy Unknown / X-COM: UFO Defense.
+
+The mod is designed to constantly tighten the pressure on the player — if you fail to keep pace with the growing alien threat, the campaign will slowly spiral out of control until you are completely overwhelmed.
 
 DO YOU DARE TO ENTER?
 
-I originally created it as a player torture device *evilgrin*, but it turned out to be a Mod people like to play because of the challenge it offers.
-When designing this Mod, I decided to stick on the CORE VANILLA GAME PRINCIPLES and create basically a EXPANSION PACK.
+I originally created this mod as a kind of player torture device evil grin, but it eventually became something many players genuinely enjoy because of the intense challenge and long-term strategic depth it offers.
 
-It offers a much better Research Tree, a Economy were you need money desperately, where you will face difficult decisions and set backs during your campaign.
-Earth itself has been receiving a major update with a updated and more fine tuned globa map with 340+ cities and 12 added additional Bioomes and 65+ new terrains and even more terrain combinations.
-The Alien also gained a few new UFO types, which they use on missions, additionaly all vanilla UFO's received a set of internal configurations, to make fights on UFO missions more tactically challenging.
-Alien Bases play a much bigger role during the campaign and a extended Map set and Upgrading Size over time has been added.
-All this has been enriched with a lot of additional Weapons, Drones and Tanks for Xcom and Aliens and als New or Advanced Alien Units and Species.
-There are repair and upgrade options for Armors, Drones and Tanks if you desire todo so.
+While developing the mod, I intentionally stayed true to the core vanilla gameplay principles, treating it more like a massive expansion pack than a complete overhaul.
 
-Enemies and Combat Situations, which will give you a Nightmare during your dreams (at least I hope so, *grin*).
-Its a LONG WAR to free earth (INGAME TIME: 15-17+ Months). So are you ready for the ride?
+The mod features:
 
-The mod should be PLAYABLE under ALL DIFFICULTY LEVELS, due to the balanced economy.
-For FULL EXPERIENCE pick the preselected SUPERHUMAN DIFFICULTY ;)
+A greatly expanded and improved research tree
+A harsh and demanding economy where funding is always critical
+Difficult strategic decisions and painful setbacks throughout the campaign
+A heavily updated global map with 340+ cities
+12 additional biomes
+More than 65 new terrains and many new terrain combinations
+
+The aliens have also received major upgrades:
+
+Several new UFO types
+Reworked internal UFO layouts for more tactical mission combat
+Alien bases that play a much larger role during the campaign
+Expanded alien base maps that increase in size over time
+
+On top of that, the mod introduces:
+
+Numerous new weapons, drones, and tanks for X-COM and alien forces
+New and advanced alien units and species
+Repair and upgrade systems for armor, drones, and tanks
+
+Expect brutal enemies and combat scenarios that may haunt your nightmares (or at least, that’s the goal grin).
+
+This truly is a LONG WAR to reclaim Earth, with a full campaign lasting roughly 15–17+ in-game months.
+
+So… are you ready for the ride?
+
+The mod is designed to be playable on all difficulty levels thanks to its balanced economy system.
+
+However, for the full intended experience, the preselected SUPERHUMAN difficulty is highly recommended ;)
 
 This mod is aimed at experienced X-Com players, who know the game well and are not afraid of a DIFFICULTY HIGHER then SUPERHUMAN.
 
