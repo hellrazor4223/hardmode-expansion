@@ -1,6 +1,6 @@
 es-ES:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.9 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 by hellrazor"
   STR_GROUND: "EN TIERRA {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: ""
   STR_HEAVY_WEAPONS_PLATFORMS: ""
@@ -20,13 +20,9 @@ es-ES:
   STR_CAT_TANK_REPAIR: ""
   STR_CAT_PERSONAL_ARMOR_UPGRADE: ""
   STR_CAT_PERSONAL_ARMOR_REPAIR: ""
-  STR_ALIEN_BASE_TERROR_MISSION: "Terror Alien"
-  STR_ALIEN_BASE_ABDUCTION_MISSION: "Abducción Alienígena"
-  STR_ALIEN_BASE_HARVEST_MISSION: ""
-  STR_ALIEN_BASE_BASE_MISSION: "Base Alien"
-  STR_ALIEN_BASE_GAMESTART: "Base Alien"
-  STR_ALIEN_BASE_GAMESTART_ASSAULT: "ASALTO A BASE ALIEN"
-  STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: ""
+  STR_HOLSTER: ""
+  STR_SLACKING_INDICATOR: "S: {0} E: {1}"
+  STR_TRAINING_INDICATOR: "PSI {0}"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -49,7 +45,7 @@ es-ES:
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "Municiones de Aleación Alienígena"
-  STR_ALLOY_AMMO_UFOPEDIA: "Hemos aprendido a crear munición con las nuevas aleaciones alienígenas, lo que nos permiten crear balas que soportan mas la presión y cogen mayor velocidad al ser expulsada del cañón de las armas, también al ser mas resistentes aumenta su daño al impactar en objetivos. que los aliens empiecen a TEMER...."
+  STR_ALLOY_AMMO_UFOPEDIA: ""
 
   STR_EHE_AMMO: ""
   STR_EHE_AMMO_UFOPEDIA: ""
@@ -147,29 +143,42 @@ es-ES:
   STR_NEWS_22_UFOPEDIA: ""
 #END NEWS
 
-#BEGIN CRAFTS
-  STR_IMPROVED_INTERCEPTOR: "Interceptor Mejorado"
-  STR_RETALIATOR: ""
-  STR_RETALIATOR_UFOPEDIA: ""
+#BEGIN FACILITIES
+  STR_GENERAL_STORES_UFOPEDIA: ""
+  STR_HANGAR_UFOPEDIA: ""
+  STR_ALIEN_CONTAINMENT_UFOPEDIA: ""
+  STR_PLASMA_DEFENSES_UFOPEDIA: ""
+  STR_FUSION_BALL_DEFENSES_UFOPEDIA: ""
+  STR_GRAV_SHIELD_UFOPEDIA: ""
+  STR_MIND_SHIELD_UFOPEDIA: ""
+  STR_PSIONIC_LABORATORY_UFOPEDIA: ""
+  STR_HYPER_WAVE_DECODER_UFOPEDIA: ""
+#END FACILITIES
 
+#BEGIN CRAFTS
   STR_IMPROVED_SKYRANGER: "Skyranger Mejorado"
   STR_SKYSTRIKER: ""
   STR_SKYSTRIKER_UFOPEDIA: ""
+
+  STR_IMPROVED_INTERCEPTOR: "Interceptor Mejorado"
+  STR_RETALIATOR: ""
+  STR_RETALIATOR_UFOPEDIA: ""
 
   STR_THUNDER: ""
   STR_THUNDER_UFOPEDIA: ""
 #END CRAFTS
 
 #BEGIN CRAFTWEAPONS
-  STR_ALLOY_CANNON_UC: "CAÑÓN DE ALEACIÓN"
-  STR_ALLOY_CANNON: "Cañón de aleación"
-  STR_ALLOY_CANNON_ROUNDS_X50: "Mun Cañon aleación (x50)"
-  STR_ALLOY_CANNON_UFOPEDIA: "Gracias al estudio de nuevos materiales hemos podido crear este cañón mas avanzado."
+  STR_ALLOY_CANNON_UC: ""
+  STR_ALLOY_CANNON: ""
+  STR_ALLOY_CANNON_ROUNDS_X50: ""
+  STR_ALLOY_CANNON_UFOPEDIA: ""
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
   STR_DRONE_FLARE_WEAPON: ""
   STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_DRONE_SMOKE_WEAPON: ""
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -233,6 +242,7 @@ es-ES:
 
   STR_ALLOY_DRONE_FLARE_WEAPON: ""
   STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_ALLOY_DRONE_SMOKE_WEAPON: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -435,9 +445,11 @@ es-ES:
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: ""
 
+  STR_HOVERTANK_PLASMA: "Tanque Flotante/Plasma"
   HOVERTANK_PLASMA_ARMOR: ""
   STR_HOVERTANK_PLASMA_CORPSE: "Hovertanque/Plasma Dañado"
   STR_HOVERTANK_PLASMA_REPAIR: ""
+  STR_HOVERTANK_PLASMA_UFOPEDIA: ""
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: ""
 
   HOVERTANK_LAUNCHER_ARMOR: ""
@@ -476,11 +488,14 @@ es-ES:
   STR_ALLOY_VEST_UC: "CHALECO DE ALEACIÓN"
   STR_ALLOY_VEST_CORPSE: ""
   STR_ALLOY_VEST_REPAIR: ""
-  STR_ALLOY_VEST_UFOPEDIA: "Este chaleco balístico fue reforzado con aleaciones Alienígenas para una mayor protección."
+  STR_ALLOY_VEST_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR: ""
 
+  STR_PERSONAL_ARMOR: "Armadura Personal"
+  STR_PERSONAL_ARMOR_UC: ""
   STR_PERSONAL_ARMOR_CORPSE: "Armadura Personal Dañada"
   STR_PERSONAL_ARMOR_REPAIR: ""
+  STR_PERSONAL_ARMOR_UFOPEDIA: ""
   STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT: ""
   STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: ""
 
@@ -543,11 +558,11 @@ es-ES:
   STR_SNIPER_RIFLE_UFOPEDIA: "Este rifle de francotirador de calibre 12,7 mm es más poderoso que un rifle estándar y tiene una precisión excelente. Sin embargo, es más difícil de usar y tiene una baja tasa de fuego."
 
   STR_HC_AA_AMMO: ""
-  STR_HC_AA_AMMO_UFOPEDIA: "Este cargador para el cañón pesado se realiza con aleaciones Alíen para aumentar la potencia."
+  STR_HC_AA_AMMO_UFOPEDIA: ""
   STR_HC_EHE_AMMO: ""
   STR_HC_EHE_AMMO_UFOPEDIA: ""
   STR_AC_AA_AMMO: ""
-  STR_AC_AA_AMMO_UFOPEDIA: "Este cargador para el cañón automático se realiza con aleaciones aliens para aumentar la potencia."
+  STR_AC_AA_AMMO_UFOPEDIA: ""
   STR_AC_EHE_AMMO: ""
   STR_AC_EHE_AMMO_UFOPEDIA: ""
 
@@ -584,7 +599,7 @@ es-ES:
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""
 
   STR_INC_GRENADE: "Granada Incendiaria"
-  STR_INC_GRENADE_UFOPEDIA: "Las granadas incendiarias son invaluables para iluminar la noche y despejar la vegetación detestable."
+  STR_INC_GRENADE_UFOPEDIA: ""
 
   STR_ALIEN_PROXY_GRENADE: ""
   STR_ALIEN_PROXY_GRENADE_UFOPEDIA: ""
@@ -899,16 +914,16 @@ es-ES:
 
 #BEGIN NEW UFOS
   STR_FIGHTER_SHIP: "Caza"
-  STR_FIGHTER_SHIP_UFOPEDIA: "Los cazas se construyen únicamente para destruir aviones de la Tierra, incluidos nuestros interceptores. Están extremadamente bien armados para su tamaño, pero su tripulación es muy pequeña."
+  STR_FIGHTER_SHIP_UFOPEDIA: ""
 
   STR_SENTRY_SHIP: "Nave centinela"
-  STR_SENTRY_SHIP_UFOPEDIA: "Este pequeño OVNI tiene la tarea de observación y deberes de patrulla. Está armado para la guerra y supondrá un desafío para nuestros interceptores."
+  STR_SENTRY_SHIP_UFOPEDIA: ""
 
   STR_EXCAVATOR: "Excavadora"
-  STR_EXCAVATOR_UFOPEDIA: "Excavadoras son pequeñas naves que se utilizan principalmente para la excavación y construcción.  Representan una amenaza ligera."
+  STR_EXCAVATOR_UFOPEDIA: ""
 
   STR_LAB_SHIP: "Nave laboratorio"
-  STR_LAB_SHIP_UFOPEDIA: "Las naves de laboratorio son embarcaciones grandes, encargadas de grandes investigaciones y operaciones de cosecha. Mucho más grandes que los Cosechadores, están equipados para realizar experimentos complejos a bordo. Su tripulación es numerosa y bastante bien equipada."
+  STR_LAB_SHIP_UFOPEDIA: ""
 #END NEW UFOS
 
 #BEGIN COMMENDATIONS
@@ -1157,6 +1172,30 @@ es-ES:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
+  STR_ALIEN_BASE_TERROR_MISSION: "Terror Alien"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "Abducción Alienígena"
+  STR_ALIEN_BASE_HARVEST_MISSION: ""
+  STR_ALIEN_BASE_BASE_MISSION: "Base Alien"
+  STR_ALIEN_BASE_BASE_MISSION_03: "Base Alien"
+  STR_ALIEN_BASE_BASE_MISSION_06: "Base Alien"
+  STR_ALIEN_BASE_INFILTRATION_MISSION_06: "Infiltracion Alienigena"
+  STR_ALIEN_BASE_RETALIATION_MISSION_06: "Represalia Alienígena"
+
+  STR_ALIEN_BASE_GAMESTART: "Base Alien"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT: "ASALTO A BASE ALIEN"
+
+  STR_ALIEN_BASE_GAMESTART_03: "Base Alien"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_03: "ASALTO A BASE ALIEN"
+
+  STR_ALIEN_BASE_GAMESTART_06: "Base Alien"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_06: "ASALTO A BASE ALIEN"
+
+  STR_ALIEN_BASE_03: "Base Alien"
+  STR_ALIEN_BASE_ASSAULT_03: "ASALTO A BASE ALIEN"
+
+  STR_ALIEN_BASE_06: "Base Alien"
+  STR_ALIEN_BASE_ASSAULT_06: "ASALTO A BASE ALIEN"
+
   STR_TERROR_MISSION_SNOW: ""
 
   STR_TERROR_MISSION_SUBURB: ""
@@ -1184,9 +1223,14 @@ es-ES:
   STR_TERROR_MISSION_SHIP_DISABLED: ""
   STR_TERROR_MISSION_SHIP_OPERATIONAL: ""
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: ""
+
+  STR_TERROR_MISSION_POLAR: ""
+  STR_TERROR_MISSION_POLAR_BRIEFING: ""
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
+  MAP_AREA51: ""
+  MAP_APARTMENT: ""
   MAP_AIRFIELD1: ""
   MAP_AIRFIELD2: ""
   MAP_AIRFIELD3: ""
@@ -1196,6 +1240,7 @@ es-ES:
   MAP_AIRFIELD7: ""
   MAP_AIRFIELD8: ""
   MAP_CARGOSHIP: "Carguero"
+  MAP_COLDISLE: "Isla Helada"
   MAP_COMRCURBAN: "Comercial"
   MAP_CULTAFARMA: "Granja ampliada A"
   MAP_CULTAFARMB: "Granja ampliada B"
@@ -1238,6 +1283,8 @@ es-ES:
   MAP_PORTTFTD: "Puerto TFTD"
   MAP_PORTURBAN: "Puerto Modificado"
   MAP_RAILYARDURBAN: "Patio de Ferrocarril"
+  MAP_RAILSTATION_AREA51_MIX: ""
+  MAP_RAILSTATION_APARTMENT_MIX: ""
   MAP_RAILSTATION_EXPANDED_URBAN_MIX: ""
   MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: ""
   MAP_RAILSTATION_INDUSTRIALURBAN_MIX: ""
@@ -1252,6 +1299,7 @@ es-ES:
   MAP_STEPPEFOREST: "Bosque de la Estepa"
   MAP_STEPPEFORESTMOUNT: "Montaña de Bosque de la Estepa "
   MAP_STEPPEPOLAR: ""
+  MAP_SLUMURBAN: "Tugurios"
   MAP_TAIGADESERT: "Desierto de la Taiga"
   MAP_TAIGADESERTMOUNT: "Montaña en el Desierto de la Taiga"
   MAP_TAIGAFOREST: "Bosque en la Taiga"
@@ -1279,6 +1327,10 @@ es-ES:
   MALE_CIVILIAN9: "Civil"
   MALE_CIVILIAN10: "Civil"
   MALE_CIVILIAN11: "Civil"
+  MALE_CIVILIAN12: "Civil"
+  MALE_CIVILIAN13: "Civil"
+  MALE_CIVILIAN14: "Civil"
+  MALE_CIVILIAN15: "Civil"
   FEMALE_CIVILIAN: "Civil"
   FEMALE_CIVILIAN2: "Civil"
   FEMALE_CIVILIAN3: "Civil"
@@ -1289,6 +1341,10 @@ es-ES:
   FEMALE_CIVILIAN8: "Civil"
   FEMALE_CIVILIAN9: "Civil"
   FEMALE_CIVILIAN10: "Civil"
+  FEMALE_CIVILIAN11: "Civil"
+  FEMALE_CIVILIAN12: "Civil"
+  FEMALE_CIVILIAN13: "Civil"
+  FEMALE_CIVILIAN14: "Civil"
 #END CIVLIAN NAMES
 
 #BEGIN ARMED CIVILIAN NAMES
@@ -1305,20 +1361,13 @@ es-ES:
   STR_SOLDIER_MALE_GREEN1: ""
   STR_SOLDIER_MALE_GREEN2: ""
   STR_SOLDIER_MALE_GREEN3: ""
-
-  FIREFIGHTER0_CORPSE: "Cadaver"
-  PARAMEDIC0_CORPSE: "Cadaver"
-  POLICE_MALE0_CORPSE: "Cadaver"
-  POLICE_FEMALE0_CORPSE: "Cadaver"
-  POLICE_SWAT_MALE0_CORPSE: "Cadaver"
-  POLICE_SWAT_FEMALE0_CORPSE: "Cadaver"
-  SCIENTIST_FEMALE0_CORPSE: "Cadaver"
-  SOLDIER_FEMALE_GREEN0_CORPSE: "Cadaver"
-  SOLDIER_FEMALE_GREEN1_CORPSE: "Cadaver"
-  SOLDIER_MALE_GREEN0_CORPSE: "Cadaver"
-  SOLDIER_MALE_GREEN1_CORPSE: "Cadaver"
-  SOLDIER_MALE_GREEN2_CORPSE: "Cadaver"
-  SOLDIER_MALE_GREEN3_CORPSE: "Cadaver"
+  STR_DOCTOR_FEMALE0: ""
+  STR_DOCTOR_MALE0: ""
+  STR_HUNTER_FEMALE0: "Cazadora"
+  STR_HUNTER_MALE0: "Cazadora"
+  STR_HUNTER_MALE1: "Cazadora"
+  STR_TECHNICIAN_FEMALE0: ""
+  STR_TECHNICIAN_MALE0: ""
 #END ARMED CIVILIAN NAMES
 
 #BEGIN NEW REGIONS
@@ -1655,3 +1704,150 @@ es-ES:
   STR_AMUNDSEN: "Amundsen-Scott"
   STR_BELLINGSHAUSEN: ""
 #END CITY NAMES
+
+#BEGIN AVATAR NAMES
+  STR_AVATAR_NAME_1: "Bruce"
+  STR_AVATAR_NAME_2: "Gerard"
+  STR_AVATAR_NAME_3: "Keegan"
+  STR_AVATAR_NAME_4: "Silao"
+  STR_AVATAR_NAME_5: "Masha"
+  STR_AVATAR_NAME_6: "Brenda"
+  STR_AVATAR_NAME_7: "Selena"
+  STR_AVATAR_NAME_8: "Jesabel"
+  STR_AVATAR_NAME_9: "Rasmus"
+  STR_AVATAR_NAME_10: "Ben"
+  STR_AVATAR_NAME_11: "Ashok"
+  STR_AVATAR_NAME_12: "Tarik"
+  STR_AVATAR_NAME_13: "Trude"
+  STR_AVATAR_NAME_14: "Joan"
+  STR_AVATAR_NAME_15: "Medea"
+  STR_AVATAR_NAME_16: "Parvati"
+  STR_AVATAR_NAME_17: "Victor"
+  STR_AVATAR_NAME_18: "Jay"
+  STR_AVATAR_NAME_19: "Franco"
+  STR_AVATAR_NAME_20: "Bobby"
+  STR_AVATAR_NAME_21: "Irina"
+  STR_AVATAR_NAME_22: "Natalia"
+  STR_AVATAR_NAME_23: "Naomi"
+  STR_AVATAR_NAME_24: "Luna"
+  STR_AVATAR_NAME_25: "Bolo"
+  STR_AVATAR_NAME_26: "Semyon"
+  STR_AVATAR_NAME_27: "Ernesto"
+  STR_AVATAR_NAME_28: "Max"
+  STR_AVATAR_NAME_29: "Katherine"
+  STR_AVATAR_NAME_30: "Hanako"
+  STR_AVATAR_NAME_31: "Silvia"
+  STR_AVATAR_NAME_32: "Cho"
+  STR_AVATAR_NAME_33: "Remus"
+  STR_AVATAR_NAME_34: "Steffan"
+  STR_AVATAR_NAME_35: "Samuel"
+  STR_AVATAR_NAME_36: "Bruno"
+  STR_AVATAR_NAME_37: "Rena"
+  STR_AVATAR_NAME_38: "Ingrid"
+  STR_AVATAR_NAME_39: "Latoya"
+  STR_AVATAR_NAME_40: "Shani"
+  STR_AVATAR_NAME_41: "Hans"
+  STR_AVATAR_NAME_42: "Timur"
+  STR_AVATAR_NAME_43: "Hannibal"
+  STR_AVATAR_NAME_44: "José"
+  STR_AVATAR_NAME_45: "Maya"
+  STR_AVATAR_NAME_46: "Katya"
+  STR_AVATAR_NAME_47: ""
+  STR_AVATAR_NAME_48: "Dolores"
+  STR_AVATAR_NAME_49: "Yosif"
+  STR_AVATAR_NAME_50: "Tony"
+  STR_AVATAR_NAME_51: "Jackie"
+  STR_AVATAR_NAME_52: "John Vic"
+  STR_AVATAR_NAME_53: "Sigrun"
+  STR_AVATAR_NAME_54: "Petra"
+  STR_AVATAR_NAME_55: "Lucy"
+  STR_AVATAR_NAME_56: "Trisha"
+  STR_AVATAR_NAME_57: "Dirk"
+  STR_AVATAR_NAME_58: "Sean"
+  STR_AVATAR_NAME_59: "Augusto"
+  STR_AVATAR_NAME_60: "Olaniyan"
+  STR_AVATAR_NAME_61: "Astrid"
+  STR_AVATAR_NAME_62: "Eva"
+  STR_AVATAR_NAME_63: "Hua"
+  STR_AVATAR_NAME_64: "Olaniyi"
+  STR_AVATAR_NAME_65: "Vincent"
+  STR_AVATAR_NAME_66: "Sven"
+  STR_AVATAR_NAME_67: "Temuujin"
+  STR_AVATAR_NAME_68: "Darius"
+  STR_AVATAR_NAME_69: "Pamela"
+  STR_AVATAR_NAME_70: "Dominique"
+  STR_AVATAR_NAME_71: "Soo-jin"
+  STR_AVATAR_NAME_72: "Xenobia"
+  STR_AVATAR_NAME_73: "Pedro"
+  STR_AVATAR_NAME_74: "Adam"
+  STR_AVATAR_NAME_75: "Arnak"
+  STR_AVATAR_NAME_76: "Wesley"
+  STR_AVATAR_NAME_77: "Cristina"
+  STR_AVATAR_NAME_78: "Nancy"
+  STR_AVATAR_NAME_79: "Barbara"
+  STR_AVATAR_NAME_80: "Bashira"
+  STR_AVATAR_NAME_81: "Lucius"
+  STR_AVATAR_NAME_82: "Jimmy"
+  STR_AVATAR_NAME_83: "Wong"
+  STR_AVATAR_NAME_84: "Jacques"
+  STR_AVATAR_NAME_85: "Anna"
+  STR_AVATAR_NAME_86: "Tina"
+  STR_AVATAR_NAME_87: "Mei"
+  STR_AVATAR_NAME_88: "Gloria"
+  STR_AVATAR_NAME_89: "Anatoliy"
+  STR_AVATAR_NAME_90: "Bulat"
+  STR_AVATAR_NAME_91: "Gordon"
+  STR_AVATAR_NAME_92: "Ayub"
+  STR_AVATAR_NAME_93: ""
+  STR_AVATAR_NAME_94: "Sakura"
+  STR_AVATAR_NAME_95: "Li"
+  STR_AVATAR_NAME_96: "Victoria"
+  STR_AVATAR_NAME_97: ""
+  STR_AVATAR_NAME_98: ""
+  STR_AVATAR_NAME_99: ""
+  STR_AVATAR_NAME_100: ""
+  STR_AVATAR_NAME_101: ""
+  STR_AVATAR_NAME_102: ""
+  STR_AVATAR_NAME_103: ""
+  STR_AVATAR_NAME_104: ""
+  STR_AVATAR_NAME_105: ""
+  STR_AVATAR_NAME_106: ""
+  STR_AVATAR_NAME_107: ""
+  STR_AVATAR_NAME_108: ""
+  STR_AVATAR_NAME_109: ""
+  STR_AVATAR_NAME_110: ""
+  STR_AVATAR_NAME_111: ""
+  STR_AVATAR_NAME_112: ""
+  STR_AVATAR_NAME_113: ""
+  STR_AVATAR_NAME_114: ""
+  STR_AVATAR_NAME_115: ""
+  STR_AVATAR_NAME_116: ""
+  STR_AVATAR_NAME_117: ""
+  STR_AVATAR_NAME_118: ""
+  STR_AVATAR_NAME_119: ""
+  STR_AVATAR_NAME_120: ""
+  STR_AVATAR_NAME_121: ""
+  STR_AVATAR_NAME_122: ""
+  STR_AVATAR_NAME_123: ""
+  STR_AVATAR_NAME_124: ""
+  STR_AVATAR_NAME_125: ""
+  STR_AVATAR_NAME_126: ""
+  STR_AVATAR_NAME_127: ""
+  STR_AVATAR_NAME_128: ""
+  STR_AVATAR_NAME_129: ""
+  STR_AVATAR_NAME_130: ""
+  STR_AVATAR_NAME_131: ""
+  STR_AVATAR_NAME_132: ""
+  STR_AVATAR_NAME_133: ""
+  STR_AVATAR_NAME_134: "Monica"
+  STR_AVATAR_NAME_135: ""
+  STR_AVATAR_NAME_136: ""
+  STR_AVATAR_NAME_137: ""
+  STR_AVATAR_NAME_138: ""
+  STR_AVATAR_NAME_139: ""
+  STR_AVATAR_NAME_140: ""
+  STR_AVATAR_NAME_141: ""
+  STR_AVATAR_NAME_142: "Samantha"
+  STR_AVATAR_NAME_143: ""
+  STR_AVATAR_NAME_144: ""
+#END AVATAR NAMES

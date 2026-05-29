@@ -1,6 +1,6 @@
 ko:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.9 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 by hellrazor"
   STR_GROUND: "지면 {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "브리핑 및 뉴스"
   STR_HEAVY_WEAPONS_PLATFORMS: "기지 시설"
@@ -20,13 +20,9 @@ ko:
   STR_CAT_TANK_REPAIR: "HWP 수리"
   STR_CAT_PERSONAL_ARMOR_UPGRADE: "개인용 장갑복 업그레이드"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "개인용 장갑복 수리"
-  STR_ALIEN_BASE_TERROR_MISSION: "외계인 테러"
-  STR_ALIEN_BASE_ABDUCTION_MISSION: "외계인 납치"
-  STR_ALIEN_BASE_HARVEST_MISSION: ""
-  STR_ALIEN_BASE_BASE_MISSION: "외계인 기지"
-  STR_ALIEN_BASE_GAMESTART: "외계인 기지"
-  STR_ALIEN_BASE_GAMESTART_ASSAULT: "외계인 기지 강습"
-  STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: ""
+  STR_HOLSTER: ""
+  STR_SLACKING_INDICATOR: "S: {0} E: {1}"
+  STR_TRAINING_INDICATOR: "PSI {0}"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -49,30 +45,30 @@ ko:
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "외계 합금 탄약"
-  STR_ALLOY_AMMO_UFOPEDIA: "극도로 강인하며 또한 가벼운 외계 합금의 가공하는 법을 알게 되어 이제 합금 탄약의 생산이 가능해졌다. 합금 탄두는 훨씬 더 높은 포구 초속을 분해되지 않고 견뎌내며 탄피 또한 외계 합금을 사용하여 훨씬 가벼워졌다. "
+  STR_ALLOY_AMMO_UFOPEDIA: ""
 
   STR_EHE_AMMO: ""
   STR_EHE_AMMO_UFOPEDIA: ""
 
   STR_LASER_WEAPONS: "레이저 무기"
-  STR_LASER_WEAPONS_UFOPEDIA: "레이저는 수십 년 전에 알려졌다. 외계 합금과 외계인의 데이터 판에서 얻어낸 광학 관련 정보의 발견으로, 이제 인류는 최초로 실용적인 레이저 병기를 설계할 수 있게 되었다. 이건 대다수 측면에서 실탄 병기보다 우월하며, 외계인과의 싸움에서 우리 병력에 도움을 줄 것이다."
+  STR_LASER_WEAPONS_UFOPEDIA: ""
 
   STR_ALLOY_AIRFRAME: "외계 합금 동체"
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
 
   STR_SUPPORT_DRONES: "지원 드론"
-  STR_SUPPORT_DRONES_UFOPEDIA: "무인 중화기 플랫폼에 비교할 때, 이 소형 로봇들은 정찰 및 간접 부대 지원을 목표로 합니다. 크기가 줄어듬에 따라 매끄러운 디자인과 포괄적인 장갑이 특징입니다. 전장에서의 정보 파악을 통해 우리 부대의 전투 능력이 크게 증가하고 손실을 줄이는 데 도움이 될 것입니다. 우리 엔지니어들은 드론에 스캐너나 의료 장비를 장착 할 수도 있다고 추측합니다."
+  STR_SUPPORT_DRONES_UFOPEDIA: ""
 
-  STR_ALLOY_DRONE_ARMOR: "합금 드론 장갑"
-  STR_ALLOY_DRONE_ARMOR_UFOPEDIA: "우리 엔지니어들이 마침내 외계 합금 작업 절차를 향상시킬 수 있는 방법을 발견하였습니다. 이제 합금 장갑을 두른 드론을 만들 수 있게 되었습니다. 이를 통해 드론의 장갑과 속도 그리고 내구성이 크게 향상될 것입니다. 드론 보조 장비의 위력과 용량 또한 늘릴 수있었습니다. 드론 스캐너, 메디키트 및 테이저는 이제 작동 시 필요한 행동력이 줄고 더 많이 사용할 수 있습니다. 이러한 발달로 아군 사상자 수를 더더욱 줄일 수 있기를 희망합니다."
+  STR_ALLOY_DRONE_ARMOR: ""
+  STR_ALLOY_DRONE_ARMOR_UFOPEDIA: ""
 
   STR_HOVERDRONE_ARMOR: ""
   STR_HOVERDRONE_ARMOR_UFOPEDIA: ""
 
-  STR_ALLOY_TANK_ARMOR: "합금 HWP 장갑"
+  STR_ALLOY_TANK_ARMOR: ""
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: "우리가 외계 합금으로 우리의 공중 요격 및 수송 능력을 끌어올린 이 위대한 성과는 우리 기술진 중 한 명에게 이 새로운 지식을 우리 무인 중화기에 어떻게 적용할 지에 대한 놀라운 지식을 주었다. 약간의 기초 연구 후, 우리는 외계 합금을 이용해 이들의 장갑과 속도를 개선할 수 있었다. 부수적으로 우리 조준장치도 커져서, 무인 중화기의 조준 및 반응이 더 나아졌다."
 
-  STR_HOVERTANK: "호버 HWP"
+  STR_HOVERTANK: ""
   STR_HOVERTANK_UFOPEDIA: "외계인 함선이 어떻게 작동하는지에 대한 핵심 원리를 성공적으로 복제하게 된 이후, 우리 연구 및 기술진은 우리 무인 중화기에 이 새로운 기술을 적용하기 시작했다. 그 결과는 우리가 날아다니는 무인 중화기를 만들 수 있게 해 주며, 이들은 더 나은 운동성, 향상된 정찰 및 표적 획득 능력을 가진다."
 
   STR_WALKERTANK: ""
@@ -81,7 +77,7 @@ ko:
 
 #BEGIN NEWS
   STR_NEWS_1: "세계 신문 속보"
-  STR_NEWS_1_UFOPEDIA: "* 아프리카의 작은 마을에서 '에너지 무기'가 공격한 집에 3명의 사망자가 나왔습니다.{NEWLINE}* 케이프 타운에서 불가사의한 실종이 유의미할 정도로 증가하여 거주민들을 몰아붙인다.{NEWLINE}* 베를린의 한 젊은이는 자기가 고등한 외계 존재와 접촉했고, 그들이 놀라운 것을, 즉 대청소를, 맞을 준비를 하라고 말했다고 전했습니다.{NEWLINE}* 전 지구의 매체들은 살아있는 외계인의 비밀스런 자취를 수집하느라 비상입니다.{NEWLINE}* 이상한 빛을 보기 위해 티후아나 근처에 모인 군중들은 그게 도시로 부자연스럽게 날아가는 것을 목격했습니다.{NEWLINE}* 자칭 납치자들은 자신들이 핑크빛의 망토를 두르고 날아다니는 인간형 생물체에게 포로가 되었다고 주장합니다."
+  STR_NEWS_1_UFOPEDIA: ""
 
   STR_NEWS_2: "세계 신문 속보"
   STR_NEWS_2_UFOPEDIA: "* 지방 언론이 러시아에서 정부에 의한 검열이 증가하는 것에 격분하다{NEWLINE}* 정치와 이념적 라이벌들은 외계인의 호전성에 대해 서로를 비난하다.{NEWLINE}* 혼자가 아니다 - 다큐멘터리는 외계인이 지구에 가지는 의도에 대한 '독점적' 정보가 있다고 주장하다.{NEWLINE}* 왕립 천문학회는 최근의 이상한 빛의 목격은 거대한 태양 플레어일 수 있다고 밝히다.{NEWLINE}* 러시아 팝 가수가 '자신을 납치해' 달라고 하다... 외계인 침략자들의 응답은 없다.{NEWLINE}* 더블린 주거지에서 큰 이족보행 야수가 가축을 공격하는 것을 목격하다."
@@ -147,14 +143,26 @@ ko:
   STR_NEWS_22_UFOPEDIA: ""
 #END NEWS
 
-#BEGIN CRAFTS
-  STR_IMPROVED_INTERCEPTOR: "개량된 요격기"
-  STR_RETALIATOR: ""
-  STR_RETALIATOR_UFOPEDIA: ""
+#BEGIN FACILITIES
+  STR_GENERAL_STORES_UFOPEDIA: ""
+  STR_HANGAR_UFOPEDIA: ""
+  STR_ALIEN_CONTAINMENT_UFOPEDIA: ""
+  STR_PLASMA_DEFENSES_UFOPEDIA: ""
+  STR_FUSION_BALL_DEFENSES_UFOPEDIA: ""
+  STR_GRAV_SHIELD_UFOPEDIA: ""
+  STR_MIND_SHIELD_UFOPEDIA: ""
+  STR_PSIONIC_LABORATORY_UFOPEDIA: ""
+  STR_HYPER_WAVE_DECODER_UFOPEDIA: ""
+#END FACILITIES
 
+#BEGIN CRAFTS
   STR_IMPROVED_SKYRANGER: "개량형 스카이레인저"
   STR_SKYSTRIKER: ""
   STR_SKYSTRIKER_UFOPEDIA: ""
+
+  STR_IMPROVED_INTERCEPTOR: "개량된 요격기"
+  STR_RETALIATOR: ""
+  STR_RETALIATOR_UFOPEDIA: ""
 
   STR_THUNDER: ""
   STR_THUNDER_UFOPEDIA: ""
@@ -170,6 +178,7 @@ ko:
 #BEGIN DRONES
   STR_DRONE_FLARE_WEAPON: ""
   STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_DRONE_SMOKE_WEAPON: "드론 연막탄 발사기"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -177,7 +186,7 @@ ko:
   DRONE_SCOUT_ARMOR: ""
   STR_DRONE_SCOUT_CORPSE: "파손된 드론/스카웃"
   STR_DRONE_SCOUT_REPAIR: "드론/스카웃 수리"
-  STR_DRONE_SCOUT_UFOPEDIA: "이 작고 투박한 드론은 정찰용으로 설계되었다. 대형 HWP같이 공격용 병기나 두터운 장갑은 없지만, X-COM 부대원들이 안전하고 빠르게 지상의 적들을 파악하는데 도움을 준다. 내장된 연막 발사기는 약하고 사거리가 짧지만 엄폐물을 만들어내어 자기 자신과 부대원들을 개활지나 공격으로부터 숨기는데 도움을 준다."
+  STR_DRONE_SCOUT_UFOPEDIA: ""
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "드론/스카웃 -> 드론/스캐너"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "드론/스카웃 -> 드론/메디키트"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "드론/스카웃 -> 드론/테이저"
@@ -192,7 +201,7 @@ ko:
   STR_DRONE_SCANNER_WEAPON: "드론 동작 스캐너"
   STR_DRONE_SCANNER_CORPSE: "파손된 드론/스캐너"
   STR_DRONE_SCANNER_REPAIR: "드론/스캐너 수리"
-  STR_DRONE_SCANNER_UFOPEDIA: "정찰 능력을 더욱 향상시키 위해 우리는 기존 정찰 드론에 약간 개수된 동작 스캐너를 장착하여 X-COM 부대원들이 지상의 적들을 파악하는데 더욱 효과적이도록 하였습니다. 불행히도 드론에 모션 스캐너와 컴퓨팅 장비를 집어넣기 위해 장갑을 상당히 줄여야 했습니다."
+  STR_DRONE_SCANNER_UFOPEDIA: ""
   STR_UPGRADE_DRONE_SCANNER_TO_MEDIKIT: "드론/스캐너 -> 드론/메디키트"
   STR_UPGRADE_DRONE_SCANNER_TO_TASER: "드론/스캐너 -> 드론/테이저"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "드론/스캐너 -> 합금 드론/스카웃"
@@ -222,7 +231,7 @@ ko:
   STR_DRONE_TASER_WEAPON_AMMO_X10: "드론 테이저 탄창 [x10]"
   STR_DRONE_TASER_CORPSE: "파손된 드론/테이저"
   STR_DRONE_TASER_REPAIR: "드론/테이저 수리"
-  STR_DRONE_TASER_UFOPEDIA: "이 테이저 드론은 살아있는 외계인을 포착하거나 위험한 환경에서 민간인을 무력화하기 위해 개조되었습니다. 불행히도 기존 테이저 배터리의 위력이 충분하지 않아, 원할한 전력 공급을 위해 최근 발견된 일레륨-115를 사용하였습니다. 테이저 장치와 파워팩이 공간을 많이 차지하여 장갑을 줄여야 했습니다."
+  STR_DRONE_TASER_UFOPEDIA: ""
   STR_UPGRADE_DRONE_TASER_TO_SCANNER: "드론/테이저 -> 드론/스캐너"
   STR_UPGRADE_DRONE_TASER_TO_MEDIKIT: "드론/테이저 -> 드론/메디키트"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_SCOUT: "드론/테이저 -> 합금 드론/ 스카웃"
@@ -233,6 +242,7 @@ ko:
 
   STR_ALLOY_DRONE_FLARE_WEAPON: ""
   STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_ALLOY_DRONE_SMOKE_WEAPON: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -240,7 +250,7 @@ ko:
   ALLOY_DRONE_SCOUT_ARMOR: ""
   STR_ALLOY_DRONE_SCOUT_CORPSE: "파손된 합금 드론/스카웃"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "합금 드론/스카웃 수리"
-  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "외계 합금 골격으로 개조 된 정찰 드론. 값비싸지만 속도와 장갑을 향상시킬 수 있었습니다. 이제 외계 플라즈마 무기와 지구산 무기에 대한 생존력이 모두 크게 향상되었습니다. 적을 발견하거나 주의를 분산시키기 위해 사용하십시오. 연막 발사기는 필요한 경우 엄폐물을 만들어 낼 수 있어 이 드론이 강력한 정찰 도구가 되는데 도움을 줍니다."
+  STR_ALLOY_DRONE_SCOUT_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_SCANNER: "합금 드론/스카웃 -> 합금 드론/스캐너"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_MEDIKIT: "합금 드론/스카웃 -> 합금 드론/메디키트"
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_ALLOY_ADVANCED_MEDIKIT: ""
@@ -255,7 +265,7 @@ ko:
   STR_ALLOY_DRONE_SCANNER_WEAPON: "합금 드론 동작 스캐너"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "파손된 드론/스캐너"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "합금 드론/스캐너 수리"
-  STR_ALLOY_DRONE_SCANNER_UFOPEDIA: "기존 스캐너 드론에 합금 장갑판을 장착하여 더욱 강화되었고, 여유 공간을 이용해 동작 스캐너용 컴퓨터의 성능을 대폭 향상시켰습니다. 제대로만 사용한다면 병사들이 외계인과 싸우는 데 매우 유용하게 쓰일 것입니다."
+  STR_ALLOY_DRONE_SCANNER_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_SCOUT: "합금 드론/스캐너 -> 합금 드론/스카웃"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_MEDIKIT: "합금 드론/스캐너 -> 합금 드론/메디키트"
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_ALLOY_ADVANCED_MEDIKIT: ""
@@ -435,9 +445,11 @@ ko:
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: ""
 
+  STR_HOVERTANK_PLASMA: "호버탱크/플라스마"
   HOVERTANK_PLASMA_ARMOR: ""
   STR_HOVERTANK_PLASMA_CORPSE: "파손된 호버탱크/플라스마"
   STR_HOVERTANK_PLASMA_REPAIR: "호버탱크/플라즈마 수리"
+  STR_HOVERTANK_PLASMA_UFOPEDIA: ""
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: ""
 
   HOVERTANK_LAUNCHER_ARMOR: ""
@@ -479,8 +491,11 @@ ko:
   STR_ALLOY_VEST_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR: ""
 
+  STR_PERSONAL_ARMOR: "개인 갑옷"
+  STR_PERSONAL_ARMOR_UC: ""
   STR_PERSONAL_ARMOR_CORPSE: "손상된 개인 장갑복"
   STR_PERSONAL_ARMOR_REPAIR: "개인용 장갑복 수리"
+  STR_PERSONAL_ARMOR_UFOPEDIA: ""
   STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT: ""
   STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: ""
 
@@ -569,13 +584,13 @@ ko:
   STR_HEAVY_LASER_AUTO_UFOPEDIA: ""
 
   STR_FIELD_MEDI_PACK: ""
-  STR_FIELD_MEDI_PACK_UFOPEDIA: "야전 구급상자는 진통제 및 각성제를 겸비한 치료장치다. 야전 구급상자를 사용하려면 처치가 필요한 병사를 바라보고 있어야 한다. 해당 병사가 기절해 있을 경우에는 그 위에 서 있어야 한다. 야전 구급상자 아이콘을 클릭한 뒤 '메디키트 사용'을 선택한다.{NEWLINE}치료> 빨간색 신체 부위는 치명상을 나타낸다. 부상을 입은 부위를 클릭한다. '치료'버튼을 클릭한다. 하나의 치명상이 치료되며 1의 체력이 회복된다.{NEWLINE}각성제> 기력을 5만큼 회복시키고 의식불명(기절)에 빠진 병사를 일으킨다. 의식불명인 병사를 몸 위에 설 필요가 있다.{NEWLINE}진통제> 부상당한 병사의 사기를 잃어버린 체력만큼 회복시킨다.{NEWLINE}최대 사용 횟수> 치료: 3 | 각성제: 3 | 진통제: 3"
+  STR_FIELD_MEDI_PACK_UFOPEDIA: ""
 
-  STR_MEDI_KIT_UFOPEDIA: "메디키트는 진통제 및 각성제를 겸비한 치료장치다. 메디키트를 사용하려면 처치가 필요한 병사를 바라보고 있어야 한다. 해당 병사가 기절해 있을 경우에는 그 위에 서 있어야 한다. 메디키트 아이콘을 클릭한 뒤 '메디키트 사용'을 선택한다.{NEWLINE}치료> 빨간색 신체 부위는 치명상을 나타낸다. 부상을 입은 부위를 클릭한다. '치료'버튼을 클릭한다. 하나의 치명상이 치료되며 3의 체력이 회복된다.{NEWLINE}각성제> 기력을 10만큼 회복시키고 의식불명(기절)에 빠진 병사를 일으킨다. 의식불명인 병사를 몸 위에 설 필요가 있다.{NEWLINE}진통제> 부상당한 병사의 사기를 잃어버린 체력만큼 회복시킨다.{NEWLINE}최대 사용 횟수> 치료: 6 | 각성제: 6 | 진통제: 6"
+  STR_MEDI_KIT_UFOPEDIA: ""
   STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: ""
 
   STR_ADVANCED_MEDI_KIT: "개량형 메디키트"
-  STR_ADVANCED_MEDI_KIT_UFOPEDIA: "발전형 메디키트는 진통제 및 각성제를 겸비한 치료장치다. 발전형 메디키트를 사용하려면 처치가 필요한 병사를 바라보고 있어야 한다. 해당 병사가 기절해 있을 경우에는 그 위에 서 있어야 한다. 발전형 메디키트 아이콘을 클릭한 뒤 '메디키트 사용'을 선택한다.{NEWLINE}치료> 빨간색 신체 부위는 치명상을 나타낸다. 부상을 입은 부위를 클릭한다. '치료'버튼을 클릭한다. 하나의 치명상이 치료되며 6의 체력이 회복된다.{NEWLINE}각성제> 기력을 15만큼 회복시키고 의식불명(기절)에 빠진 병사를 일으킨다. 의식불명인 병사를 몸 위에 설 필요가 있다.{NEWLINE}진통제> 부상당한 병사의 사기를 잃어버린 체력만큼 회복시킨다.{NEWLINE}최대 사용 횟수> 치료: 9 | 각성제: 9 | 진통제: 9"
+  STR_ADVANCED_MEDI_KIT_UFOPEDIA: ""
 
   STR_ELERIUM_STUN_ROD: ""
   STR_ELERIUM_STUN_ROD_UFOPEDIA: ""
@@ -584,7 +599,7 @@ ko:
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""
 
   STR_INC_GRENADE: "방화 수류탄"
-  STR_INC_GRENADE_UFOPEDIA: "소이 수류탄은 밤에 불을 밝히고 거슬리는 잡초를 청소하는 데 그만이다."
+  STR_INC_GRENADE_UFOPEDIA: ""
 
   STR_ALIEN_PROXY_GRENADE: ""
   STR_ALIEN_PROXY_GRENADE_UFOPEDIA: ""
@@ -899,16 +914,16 @@ ko:
 
 #BEGIN NEW UFOS
   STR_FIGHTER_SHIP: "전투기"
-  STR_FIGHTER_SHIP_UFOPEDIA: "전투선은 지구 비행기를 부수기 위한 목적으로 만들어졌는데, 우리 요격기도 포함된다. 이들은 그 크기에 비해 극도로 잘 무장했지만, 승무원은 아주 적다."
+  STR_FIGHTER_SHIP_UFOPEDIA: ""
 
   STR_SENTRY_SHIP: "초계선"
-  STR_SENTRY_SHIP_UFOPEDIA: "이 소형 UFO는 관찰과 순찰 임무에 사용된다. 이것은 전쟁용 무기로 무장했고 우리 요격기에 약간의 도전이 될 것이다."
+  STR_SENTRY_SHIP_UFOPEDIA: ""
 
   STR_EXCAVATOR: "발굴선"
-  STR_EXCAVATOR_UFOPEDIA: "발굴선은 주로 굴착과 건설 작업에 사용되는 작은 배다. 이것은 우리 배에 작은 위협을 나타낸다."
+  STR_EXCAVATOR_UFOPEDIA: ""
 
   STR_LAB_SHIP: "연구함"
-  STR_LAB_SHIP_UFOPEDIA: "연구함은 대형 함선으로, 주요 연구와 수확 작전에 사용된다. 수확선보다 훨씬 큰, 이들은 탑승 중 복잡한 실험을 수행하도록 갖추어져 있다. 그 승무원은 많고 상당히 잘 장비했다."
+  STR_LAB_SHIP_UFOPEDIA: ""
 #END NEW UFOS
 
 #BEGIN COMMENDATIONS
@@ -922,15 +937,15 @@ ko:
 
   STR_MEDAL_ALIENS_KILLED_BY_RACE: "외계 종족 박멸 포장"
   STR_MEDAL_ALIENS_KILLED_BY_RACE_DESCRIPTION: "{0}의 위협을 성공적으로 퇴치한 병사에게 수여됩니다."
-  STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KILLED_BY_RACE_UFOPEDIA: " '만약 당신이 정정당당한 싸움이라 생각한다면, 임무를 제대로 계획하지 않은 것이다.'{NEWLINE}    -- (데이비드 핵워쓰){NEWLINE}{NEWLINE} 특정 외계인 종족을 베어 넘기는 치명적인 기계가 된 병사에게 주어진다. 이 종족은 이 XCOM 영웅에 의해 엄청난 피해를 당해, 외계인들은 그를 외계인 학살자로 부르기로 한다. {NEWLINE} {NEWLINE} 포상 등급은 주어진 종족에 대한 10, 20, 그리고 30마리 사살이다."
 
   STR_MEDAL_ALIENS_KNOCKED_OUT: "구속 훈장"
   STR_MEDAL_ALIENS_KNOCKED_OUT_DESCRIPTION: "비살상 수단으로 많은 외계인을 쓰러뜨린 병사에게 수여됩니다."
-  STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA: ""
+  STR_MEDAL_ALIENS_KNOCKED_OUT_UFOPEDIA: "'밀레니엄 팰컨 호를 찾는 자에게는 상당한 보상이 있을 것이다. 필요한 어떠한 방법도 자유롭게 쓰도록 하라, 그러나 난 그들을 산 채로 원한다. 박살 내지 마라.' -다스 베이더 {NEWLINE} {NEWLINE} 외계 생물을 산 채로 잡는 기술을 숙달한 병사를 기리고자 제공된다. 산 표본은 우리가 직면한 위협을 이해하는 데 믿을 수 없이 중요할 수 있다. {NEWLINE} {NEWLINE} 이 포상은 4, 8, 12, 16마리의 포로에 대해 수여된다."
 
   STR_MEDAL_ALIEN_BASE_ASSAULT: "지구인 십자장"
   STR_MEDAL_ALIEN_BASE_ASSAULT_DESCRIPTION: "성공적인 외계인 기지 공격 임무에 참가한 병사에게 수여됩니다."
-  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: ""
+  STR_MEDAL_ALIEN_BASE_ASSAULT_UFOPEDIA: "'죽게 될 상황에 처해 있다면, 군대는 진력을 다할 것이다; 군대를 사지에 빠트리면, 용기가 나오는 법이다 -  손자' {NEWLINE} {NEWLINE} 적 기지에 대한 모든 공격은 승리를 향한 한 걸음이다. 적을 자기 거점에서 물리치는 것은 궁극의 패권을 향한 우리 여정을 확고히 한다.{NEWLINE} {NEWLINE} 이 표창은 외계인 기지에 대한 강습에 참여한 병사에게 제공된다. 이건 세번 수여될 수 있다."
 
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES: "망치 훈장"
   STR_MEDAL_ALIEN_SOLDIERS_KILLED_ALL_RACES_DESCRIPTION: "다양한 종류의 외계 병사를 사살한 병사에게 수여됩니다."
@@ -1061,7 +1076,7 @@ ko:
 
   STR_MEDAL_POSTMORTEM_KILL: "사신의 훈장"
   STR_MEDAL_POSTMORTEM_KILL_DESCRIPTION: "목숨을 잃었음에도 전장에서 자신의 몫을 다한 병사에게 추서됩니다."
-  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: ""
+  STR_MEDAL_POSTMORTEM_KILL_UFOPEDIA: " 가서는 안 되는 길이 있다. 공격해서는 안 되는 군대가 있다. 공격해서는 안 되는 성이 있다, 투쟁해서는 안 되는 지형이 있다. 군주의 명을 수락해서는 안 되는 때가 있다.' {NEWLINE} -- 손자  {NEWLINE} {NEWLINE}  이 포상은 사후 추서되며, 함께 죽음으로 끌고 간 모든 적에 대해, 10마리까지 수여된다."
 
   STR_MEDAL_PSIPANIC: "크루시오"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "적의 정신을 붕괴시킨 병사에게 수여됩니다."
@@ -1157,15 +1172,39 @@ ko:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
+  STR_ALIEN_BASE_TERROR_MISSION: "외계인 테러"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "외계인 납치"
+  STR_ALIEN_BASE_HARVEST_MISSION: ""
+  STR_ALIEN_BASE_BASE_MISSION: "외계인 기지"
+  STR_ALIEN_BASE_BASE_MISSION_03: "외계인 기지"
+  STR_ALIEN_BASE_BASE_MISSION_06: "외계인 기지"
+  STR_ALIEN_BASE_INFILTRATION_MISSION_06: "외계인 침투"
+  STR_ALIEN_BASE_RETALIATION_MISSION_06: "외계인 보복"
+
+  STR_ALIEN_BASE_GAMESTART: "외계인 기지"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT: "외계인 기지 강습"
+
+  STR_ALIEN_BASE_GAMESTART_03: "외계인 기지"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_03: "외계인 기지 강습"
+
+  STR_ALIEN_BASE_GAMESTART_06: "외계인 기지"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_06: "외계인 기지 강습"
+
+  STR_ALIEN_BASE_03: "외계인 기지"
+  STR_ALIEN_BASE_ASSAULT_03: "외계인 기지 강습"
+
+  STR_ALIEN_BASE_06: "외계인 기지"
+  STR_ALIEN_BASE_ASSAULT_06: "외계인 기지 강습"
+
   STR_TERROR_MISSION_SNOW: "설경 테러 임무"
 
   STR_TERROR_MISSION_SUBURB: "교외 테러 임무"
 
   STR_TERROR_MISSION_INDUSTRIAL: "산업 구역 테러 임무"
-  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: "외계인이 산업화된 도회지에 공격을 감행하였다. 산업 시설과 시민들이 위험에 처해 있다. 외계인의 위협을 제거하여 시민의 생명을 구해야 한다. 임무를 중단하려면 X-COM 요원을 수송선으로 돌려보내고 '임무 중단' 아이콘을 클릭한다."
+  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: ""
 
   STR_TERROR_MISSION_PORT: "항구 테러 임무"
-  STR_TERROR_MISSION_PORT_BRIEFING: "외계인이 해안가에 공격을 감행하였다. 항구와 시민들이 위험에 처해 있다. 외계인의 위협을 제거하여 시민의 생명을 구해야 한다. 임무를 중단하려면 X-COM 요원을 수송선으로 돌려보내고 '임무 중단' 아이콘을 클릭한다."
+  STR_TERROR_MISSION_PORT_BRIEFING: ""
 
   STR_TERROR_MISSION_DOCKED_SHIP: ""
 
@@ -1180,13 +1219,18 @@ ko:
 
   STR_TERROR_MISSION_SHIP: "선박 테러 임무"
   STR_TERROR_MISSION_SHIP_ALERT: "외계인이 {NEWLINE} 민간인 선박을 공격!"
-  STR_TERROR_MISSION_SHIP_BRIEFING: "민간 선박이 외계인에 의해 납치되었고 현재 인구 밀집 지역을 향해 전속력으로 항해하고 있다. 참사를 막기 위해서는 교량에 있는 배의 항법 시스템을 파괴해사 배를 정지시켜야 한다. 임무를 중단하려면 X-COM 요원을 수송선으로 돌려보내고 '임무 중단' 아이콘을 클릭한다.\""
+  STR_TERROR_MISSION_SHIP_BRIEFING: ""
   STR_TERROR_MISSION_SHIP_DISABLED: "선박 정지됨!"
   STR_TERROR_MISSION_SHIP_OPERATIONAL: "선박 여전히 운항중!"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "항해 시설 파괴됨"
+
+  STR_TERROR_MISSION_POLAR: ""
+  STR_TERROR_MISSION_POLAR_BRIEFING: ""
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
+  MAP_AREA51: ""
+  MAP_APARTMENT: ""
   MAP_AIRFIELD1: "비행장 1"
   MAP_AIRFIELD2: "비행장 2"
   MAP_AIRFIELD3: "비행장 3"
@@ -1196,6 +1240,7 @@ ko:
   MAP_AIRFIELD7: "비행장 7"
   MAP_AIRFIELD8: "비행장 8"
   MAP_CARGOSHIP: "화물선~"
+  MAP_COLDISLE: "추운 섬"
   MAP_COMRCURBAN: "광고"
   MAP_CULTAFARMA: "확장 농장 A"
   MAP_CULTAFARMB: "확장 농장 B"
@@ -1238,6 +1283,8 @@ ko:
   MAP_PORTTFTD: "TFTD 항구"
   MAP_PORTURBAN: "개량된 항구"
   MAP_RAILYARDURBAN: "철도 조차장"
+  MAP_RAILSTATION_AREA51_MIX: ""
+  MAP_RAILSTATION_APARTMENT_MIX: ""
   MAP_RAILSTATION_EXPANDED_URBAN_MIX: ""
   MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: ""
   MAP_RAILSTATION_INDUSTRIALURBAN_MIX: ""
@@ -1252,6 +1299,7 @@ ko:
   MAP_STEPPEFOREST: "스텝 숲"
   MAP_STEPPEFORESTMOUNT: "스텝 산맥 숲"
   MAP_STEPPEPOLAR: "스텝 습지"
+  MAP_SLUMURBAN: "슬럼가"
   MAP_TAIGADESERT: "타이가 사막"
   MAP_TAIGADESERTMOUNT: "타이가 사막 산맥"
   MAP_TAIGAFOREST: "타이가 숲"
@@ -1279,6 +1327,10 @@ ko:
   MALE_CIVILIAN9: "민간인"
   MALE_CIVILIAN10: "민간인"
   MALE_CIVILIAN11: "민간인"
+  MALE_CIVILIAN12: "민간인"
+  MALE_CIVILIAN13: "민간인"
+  MALE_CIVILIAN14: "민간인"
+  MALE_CIVILIAN15: "민간인"
   FEMALE_CIVILIAN: "민간인"
   FEMALE_CIVILIAN2: "민간인"
   FEMALE_CIVILIAN3: "민간인"
@@ -1289,6 +1341,10 @@ ko:
   FEMALE_CIVILIAN8: "민간인"
   FEMALE_CIVILIAN9: "민간인"
   FEMALE_CIVILIAN10: "민간인"
+  FEMALE_CIVILIAN11: "민간인"
+  FEMALE_CIVILIAN12: "민간인"
+  FEMALE_CIVILIAN13: "민간인"
+  FEMALE_CIVILIAN14: "민간인"
 #END CIVLIAN NAMES
 
 #BEGIN ARMED CIVILIAN NAMES
@@ -1305,20 +1361,13 @@ ko:
   STR_SOLDIER_MALE_GREEN1: ""
   STR_SOLDIER_MALE_GREEN2: ""
   STR_SOLDIER_MALE_GREEN3: ""
-
-  FIREFIGHTER0_CORPSE: "시체"
-  PARAMEDIC0_CORPSE: "시체"
-  POLICE_MALE0_CORPSE: "시체"
-  POLICE_FEMALE0_CORPSE: "시체"
-  POLICE_SWAT_MALE0_CORPSE: "시체"
-  POLICE_SWAT_FEMALE0_CORPSE: "시체"
-  SCIENTIST_FEMALE0_CORPSE: "시체"
-  SOLDIER_FEMALE_GREEN0_CORPSE: "시체"
-  SOLDIER_FEMALE_GREEN1_CORPSE: "시체"
-  SOLDIER_MALE_GREEN0_CORPSE: "시체"
-  SOLDIER_MALE_GREEN1_CORPSE: "시체"
-  SOLDIER_MALE_GREEN2_CORPSE: "시체"
-  SOLDIER_MALE_GREEN3_CORPSE: "시체"
+  STR_DOCTOR_FEMALE0: ""
+  STR_DOCTOR_MALE0: ""
+  STR_HUNTER_FEMALE0: "사냥꾼"
+  STR_HUNTER_MALE0: "사냥꾼"
+  STR_HUNTER_MALE1: "사냥꾼"
+  STR_TECHNICIAN_FEMALE0: ""
+  STR_TECHNICIAN_MALE0: ""
 #END ARMED CIVILIAN NAMES
 
 #BEGIN NEW REGIONS
@@ -1655,3 +1704,150 @@ ko:
   STR_AMUNDSEN: "아문센-스콧"
   STR_BELLINGSHAUSEN: "벨링스하우젠"
 #END CITY NAMES
+
+#BEGIN AVATAR NAMES
+  STR_AVATAR_NAME_1: "브루스"
+  STR_AVATAR_NAME_2: "제라르"
+  STR_AVATAR_NAME_3: "키건"
+  STR_AVATAR_NAME_4: "실라오"
+  STR_AVATAR_NAME_5: "마샤"
+  STR_AVATAR_NAME_6: "브렌다"
+  STR_AVATAR_NAME_7: "셀레나"
+  STR_AVATAR_NAME_8: "예사벨"
+  STR_AVATAR_NAME_9: "라스무스"
+  STR_AVATAR_NAME_10: "벤"
+  STR_AVATAR_NAME_11: "에이쇽"
+  STR_AVATAR_NAME_12: "타릭"
+  STR_AVATAR_NAME_13: "트루드"
+  STR_AVATAR_NAME_14: "조안"
+  STR_AVATAR_NAME_15: "메데아"
+  STR_AVATAR_NAME_16: "파르바티"
+  STR_AVATAR_NAME_17: "빅터"
+  STR_AVATAR_NAME_18: "제이"
+  STR_AVATAR_NAME_19: "프랑코"
+  STR_AVATAR_NAME_20: "보비"
+  STR_AVATAR_NAME_21: "이리나"
+  STR_AVATAR_NAME_22: "나탈리아"
+  STR_AVATAR_NAME_23: "나오미"
+  STR_AVATAR_NAME_24: "루나"
+  STR_AVATAR_NAME_25: "볼로"
+  STR_AVATAR_NAME_26: "세미욘"
+  STR_AVATAR_NAME_27: "에르네스토"
+  STR_AVATAR_NAME_28: "최대"
+  STR_AVATAR_NAME_29: "캐서린"
+  STR_AVATAR_NAME_30: "하나코"
+  STR_AVATAR_NAME_31: "실비아"
+  STR_AVATAR_NAME_32: "조"
+  STR_AVATAR_NAME_33: "레무스"
+  STR_AVATAR_NAME_34: "스테판"
+  STR_AVATAR_NAME_35: "사무엘"
+  STR_AVATAR_NAME_36: "브루노"
+  STR_AVATAR_NAME_37: "레나"
+  STR_AVATAR_NAME_38: "잉그리드"
+  STR_AVATAR_NAME_39: "라토야"
+  STR_AVATAR_NAME_40: "샤니"
+  STR_AVATAR_NAME_41: "한스"
+  STR_AVATAR_NAME_42: "티무르"
+  STR_AVATAR_NAME_43: "한니발"
+  STR_AVATAR_NAME_44: "조제"
+  STR_AVATAR_NAME_45: "마야"
+  STR_AVATAR_NAME_46: "카트야"
+  STR_AVATAR_NAME_47: "마르타"
+  STR_AVATAR_NAME_48: "돌로레스"
+  STR_AVATAR_NAME_49: "이오시프"
+  STR_AVATAR_NAME_50: "토니"
+  STR_AVATAR_NAME_51: "재키"
+  STR_AVATAR_NAME_52: "존 빅"
+  STR_AVATAR_NAME_53: "시그룬"
+  STR_AVATAR_NAME_54: "페트라"
+  STR_AVATAR_NAME_55: "루시"
+  STR_AVATAR_NAME_56: "트리샤"
+  STR_AVATAR_NAME_57: "더크"
+  STR_AVATAR_NAME_58: "션"
+  STR_AVATAR_NAME_59: "아우구스토"
+  STR_AVATAR_NAME_60: "올라니얀"
+  STR_AVATAR_NAME_61: "아스트리드"
+  STR_AVATAR_NAME_62: "에바"
+  STR_AVATAR_NAME_63: "후아"
+  STR_AVATAR_NAME_64: "올라니이"
+  STR_AVATAR_NAME_65: "빈센트"
+  STR_AVATAR_NAME_66: "스벤"
+  STR_AVATAR_NAME_67: "테무진"
+  STR_AVATAR_NAME_68: "다리우스"
+  STR_AVATAR_NAME_69: "파멜라"
+  STR_AVATAR_NAME_70: "도미니크"
+  STR_AVATAR_NAME_71: "수진"
+  STR_AVATAR_NAME_72: "제노비아"
+  STR_AVATAR_NAME_73: "페드로"
+  STR_AVATAR_NAME_74: "아담"
+  STR_AVATAR_NAME_75: "아르낙"
+  STR_AVATAR_NAME_76: "웨슬리"
+  STR_AVATAR_NAME_77: "크리스티나"
+  STR_AVATAR_NAME_78: "낸시"
+  STR_AVATAR_NAME_79: "바버라"
+  STR_AVATAR_NAME_80: "바쉬라"
+  STR_AVATAR_NAME_81: "루시우스"
+  STR_AVATAR_NAME_82: "지미"
+  STR_AVATAR_NAME_83: "웡"
+  STR_AVATAR_NAME_84: "자케"
+  STR_AVATAR_NAME_85: "안나"
+  STR_AVATAR_NAME_86: "티나"
+  STR_AVATAR_NAME_87: "메이"
+  STR_AVATAR_NAME_88: "글로리아"
+  STR_AVATAR_NAME_89: "아나톨리이"
+  STR_AVATAR_NAME_90: "불라트"
+  STR_AVATAR_NAME_91: "고르돈"
+  STR_AVATAR_NAME_92: "아유브"
+  STR_AVATAR_NAME_93: "빌리에"
+  STR_AVATAR_NAME_94: "사쿠라"
+  STR_AVATAR_NAME_95: "리"
+  STR_AVATAR_NAME_96: "빅토리아"
+  STR_AVATAR_NAME_97: "윌리엄"
+  STR_AVATAR_NAME_98: "엣삼"
+  STR_AVATAR_NAME_99: "바샤르"
+  STR_AVATAR_NAME_100: "닉"
+  STR_AVATAR_NAME_101: "프레이야"
+  STR_AVATAR_NAME_102: "니콜"
+  STR_AVATAR_NAME_103: "샨티"
+  STR_AVATAR_NAME_104: "카밀라"
+  STR_AVATAR_NAME_105: "존"
+  STR_AVATAR_NAME_106: "매튜"
+  STR_AVATAR_NAME_107: "랜스"
+  STR_AVATAR_NAME_108: "베니토"
+  STR_AVATAR_NAME_109: "조야"
+  STR_AVATAR_NAME_110: "새미"
+  STR_AVATAR_NAME_111: "아르시야"
+  STR_AVATAR_NAME_112: "애시위니"
+  STR_AVATAR_NAME_113: "조"
+  STR_AVATAR_NAME_114: "버니"
+  STR_AVATAR_NAME_115: "타이론"
+  STR_AVATAR_NAME_116: "로베르토"
+  STR_AVATAR_NAME_117: "리즈"
+  STR_AVATAR_NAME_118: "샤론"
+  STR_AVATAR_NAME_119: "클라라"
+  STR_AVATAR_NAME_120: "아이샤"
+  STR_AVATAR_NAME_121: "로미오"
+  STR_AVATAR_NAME_122: "프레드"
+  STR_AVATAR_NAME_123: "사울"
+  STR_AVATAR_NAME_124: "밥"
+  STR_AVATAR_NAME_125: "브리타"
+  STR_AVATAR_NAME_126: "클로디아"
+  STR_AVATAR_NAME_127: "코라"
+  STR_AVATAR_NAME_128: "쉬바"
+  STR_AVATAR_NAME_129: "폭스"
+  STR_AVATAR_NAME_130: "발터"
+  STR_AVATAR_NAME_131: "나비엔"
+  STR_AVATAR_NAME_132: "에릭"
+  STR_AVATAR_NAME_133: "다나"
+  STR_AVATAR_NAME_134: "모니카"
+  STR_AVATAR_NAME_135: "리나"
+  STR_AVATAR_NAME_136: "코리나"
+  STR_AVATAR_NAME_137: "요나스"
+  STR_AVATAR_NAME_138: "매니"
+  STR_AVATAR_NAME_139: "에두아르도"
+  STR_AVATAR_NAME_140: "펠릭스"
+  STR_AVATAR_NAME_141: "마리타"
+  STR_AVATAR_NAME_142: "사만다"
+  STR_AVATAR_NAME_143: "엘레나"
+  STR_AVATAR_NAME_144: "제인"
+#END AVATAR NAMES

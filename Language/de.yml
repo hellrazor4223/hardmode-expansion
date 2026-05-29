@@ -1,6 +1,6 @@
 de:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v0.99.9.9 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 by hellrazor"
   STR_GROUND: "BODEN {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "ANWEISUNGEN UND NEUIGKEITEN"
   STR_HEAVY_WEAPONS_PLATFORMS: "BASISEINRICHTUNGEN"
@@ -20,13 +20,9 @@ de:
   STR_CAT_TANK_REPAIR: "SWTs reparieren"
   STR_CAT_PERSONAL_ARMOR_UPGRADE: "Persönliche Rüstung aufrüsten"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "Persönliche Rüstung reparieren"
-  STR_ALIEN_BASE_TERROR_MISSION: "Außerirdischer Terror"
-  STR_ALIEN_BASE_ABDUCTION_MISSION: "Außerirdische Entführung"
-  STR_ALIEN_BASE_HARVEST_MISSION: "Außerirdische Ernte"
-  STR_ALIEN_BASE_BASE_MISSION: "Alien-Basis"
-  STR_ALIEN_BASE_GAMESTART: "Alien-Basis"
-  STR_ALIEN_BASE_GAMESTART_ASSAULT: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
-  STR_ALIEN_BASE_GAMESTART_ASSAULT_BRIEFING: ""
+  STR_HOLSTER: ""
+  STR_SLACKING_INDICATOR: "W: {0} I: {1}"
+  STR_TRAINING_INDICATOR: "PSI {0}"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -49,7 +45,7 @@ de:
   STR_EXPLOSIVE_AMMO_UFOPEDIA: ""
 
   STR_ALLOY_AMMO: "Ausserirdische Legierungsmunition"
-  STR_ALLOY_AMMO_UFOPEDIA: "Mit dem erlangten Wissen wie die ultra-starken aber dennoch leichten außerirdischen Legierungen zu bearbeiten, können wir Kugeln aus dieser Legierung herstellen. Sie können eine wesentlich höhere Mündungsgeschwindigkeit überstehen, ohne dass sie sich in der Luft auflösen. Die Hülsen sind aus außerirdischen Legierungen sind ebenfalls leichter und stabiler als es früher möglich war."
+  STR_ALLOY_AMMO_UFOPEDIA: ""
 
   STR_EHE_AMMO: ""
   STR_EHE_AMMO_UFOPEDIA: ""
@@ -61,7 +57,7 @@ de:
   STR_ALLOY_AIRFRAME_UFOPEDIA: ""
 
   STR_SUPPORT_DRONES: "Unterstützungsdrohnen"
-  STR_SUPPORT_DRONES_UFOPEDIA: "Verglichen mit unseren ersten Designs der schweren Waffenplattformen, streben diese kleinen Roboter auf dem Schlachtfeld nach einem anderen Ziel. Aufklärung und indirekte Truppentransport. Sie haben ein schlankes Design und umfangreiche Panzerung, für ihre Grösse. Informationssammlung auf dem Schlachtfeld wird die Kampffähigkeiten unserer Truppen stark verbessern und uns helfen, die Verluste zu verringern. Unsere Ingenieure glauben auch, dass wir sie mit Scannern oder medizinischer Ausrüstung ausstatten können."
+  STR_SUPPORT_DRONES_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_ARMOR: ""
   STR_ALLOY_DRONE_ARMOR_UFOPEDIA: ""
@@ -72,7 +68,7 @@ de:
   STR_ALLOY_TANK_ARMOR: ""
   STR_ALLOY_TANK_ARMOR_UFOPEDIA: ""
 
-  STR_HOVERTANK: "Schwebepanzer"
+  STR_HOVERTANK: ""
   STR_HOVERTANK_UFOPEDIA: ""
 
   STR_WALKERTANK: ""
@@ -81,7 +77,7 @@ de:
 
 #BEGIN NEWS
   STR_NEWS_1: "Nachrichten aus Aller Welt"
-  STR_NEWS_1_UFOPEDIA: "* Drei Tote in afrikanischen Dorf nach Einsatz einer 'Energiewaffe' gegen Haus {NEWLINE}* Flut ungeklärter Vermisstenmeldungen hält Kapstadt in Atem{NEWLINE}* Junger Mann in Berlin, Deutschland, berichtet von Kontakt mit überlegenen Außerirdischen, die ihm rieten, sich auf eine kommende Große Säuberung vorzubereiten.{NEWLINE}* Weltweite Mediennetzwerke jagen begehrten Aufnahmen lebender Außerirdischer hinterher {NEWLINE}* Menschenmassen sammeln sich nahe Tijuana um seltsame Lichter bei erratischen Bewegungen über der Stadt zu beobachten.{NEWLINE}* Selbsternannter Entführter behauptet von schwebenden rosa Humanoiden in Umhängen gefangen genommen worden zu sein."
+  STR_NEWS_1_UFOPEDIA: ""
 
   STR_NEWS_2: "Nachrichten aus Aller Welt"
   STR_NEWS_2_UFOPEDIA: "* Lokale Medienportale beschwerten sich über die steigende Zensur der Regierungsaktivitäten in Russland.{NEWLINE}* Politische und ideologische Gruppen beschuldigen sich gegenseitig wegen der Feindseligkeit der Aliens.{NEWLINE}* Nicht länger allein - Dokumentation  soll 'exklusive' Informationen zu den Absichten der Aliens haben.{NEWLINE}* Königliche Astronomische Gesellschaft sagt, dass die ungewöhnlichen Lichter ein Sonnenfeuer als Ursache haben.{NEWLINE}* Russischer Popsänger bietet Aliens an 'sie zu entführen'... keine Antwort von den Alien-Eindringlingen.{NEWLINE}* Dublin-Einwohner berichten von grossen zweibeinigen Raubtieren, die das Vieh angreifen."
@@ -147,29 +143,42 @@ de:
   STR_NEWS_22_UFOPEDIA: ""
 #END NEWS
 
-#BEGIN CRAFTS
-  STR_IMPROVED_INTERCEPTOR: "Verbesserter Abfangjäger"
-  STR_RETALIATOR: "RÄCHER"
-  STR_RETALIATOR_UFOPEDIA: "Ein gewöhnlicher Abfangjäger, um einem Rumpf aus außerirdischen Legierungen ergänzt, der ihm bessere Haltbarkeit und höhere Geschwindigkeiten beim Anflug gewährt."
+#BEGIN FACILITIES
+  STR_GENERAL_STORES_UFOPEDIA: ""
+  STR_HANGAR_UFOPEDIA: ""
+  STR_ALIEN_CONTAINMENT_UFOPEDIA: ""
+  STR_PLASMA_DEFENSES_UFOPEDIA: ""
+  STR_FUSION_BALL_DEFENSES_UFOPEDIA: ""
+  STR_GRAV_SHIELD_UFOPEDIA: ""
+  STR_MIND_SHIELD_UFOPEDIA: ""
+  STR_PSIONIC_LABORATORY_UFOPEDIA: ""
+  STR_HYPER_WAVE_DECODER_UFOPEDIA: ""
+#END FACILITIES
 
+#BEGIN CRAFTS
   STR_IMPROVED_SKYRANGER: "Verbesserter Himmelshüter"
   STR_SKYSTRIKER: "HIMMELSSTÜRMER"
-  STR_SKYSTRIKER_UFOPEDIA: "Ein gewöhnlicher Skyranger wurde mit einem Rumpf aus Außerirdischen Legierungen und zusätzlichen Triebwerken ausgestattet, was uns erlaubt, mehr Truppen schneller zu transportieren."
+  STR_SKYSTRIKER_UFOPEDIA: ""
+
+  STR_IMPROVED_INTERCEPTOR: "Verbesserter Abfangjäger"
+  STR_RETALIATOR: "RÄCHER"
+  STR_RETALIATOR_UFOPEDIA: ""
 
   STR_THUNDER: "DONNER"
-  STR_THUNDER_UFOPEDIA: "Transport- und Kampfgefährt. Ein kruder aber ziemlich effektiver Nachbau außerirdischen Antriebs, Navigation und Konstruktion."
+  STR_THUNDER_UFOPEDIA: ""
 #END CRAFTS
 
 #BEGIN CRAFTWEAPONS
-  STR_ALLOY_CANNON_UC: "LEGIERUNGS-GESCHÜTZ"
-  STR_ALLOY_CANNON: "Legierungs-Geschütz"
-  STR_ALLOY_CANNON_ROUNDS_X50: "Munition für Legierungs-Geschütz (x50)"
-  STR_ALLOY_CANNON_UFOPEDIA: "Kürzliche Fortschritte in Materialkunde -durch Forschungen an Außerirdischen Legierungen- setzen uns in die Lage, eine fürchterliche Bordwaffe zu konstruieren, viel mächtiger als das bisherige Geschütz-"
+  STR_ALLOY_CANNON_UC: ""
+  STR_ALLOY_CANNON: ""
+  STR_ALLOY_CANNON_ROUNDS_X50: ""
+  STR_ALLOY_CANNON_UFOPEDIA: ""
 #END CRAFTWEAPONS
 
 #BEGIN DRONES
   STR_DRONE_FLARE_WEAPON: ""
   STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_DRONE_SMOKE_WEAPON: "Drohnen Rauchwerfer"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -177,7 +186,7 @@ de:
   DRONE_SCOUT_ARMOR: ""
   STR_DRONE_SCOUT_CORPSE: "Beschädigte Drohne/Aufklärer"
   STR_DRONE_SCOUT_REPAIR: "Drohne/Aufklärer reparieren"
-  STR_DRONE_SCOUT_UFOPEDIA: "Die kleine robust gebaute Drone dient zur Aufklärung im Gelände. Im Vergleich zu anderen SWTs verfügt die Drone über keinerlei offensiven Waffen oder die Panzerung derselbigen. Dafür ist sie schnell und erlaubt unseren Truppen, die gegnerischen Position auszukunftschaften, ohne unsere Agenten der Bedrohung auszusetzen. Außerdem besitzt die Drone einen Rauchwerfer, um sich und andere aus dem Schußfeld zu bringen. "
+  STR_DRONE_SCOUT_UFOPEDIA: ""
   STR_UPGRADE_DRONE_SCOUT_TO_SCANNER: "Drohne/Aufklärer -> Scanner"
   STR_UPGRADE_DRONE_SCOUT_TO_MEDIKIT: "Drohne/Aufklärer -> Medikit"
   STR_UPGRADE_DRONE_SCOUT_TO_TASER: "Drohne/Aufklärer -> Betäubungswaffe"
@@ -192,7 +201,7 @@ de:
   STR_DRONE_SCANNER_WEAPON: "Drohnenbewegungsscanner"
   STR_DRONE_SCANNER_CORPSE: "Beschädigte Drohne/Scanner"
   STR_DRONE_SCANNER_REPAIR: "Drohne/Scanner reparieren"
-  STR_DRONE_SCANNER_UFOPEDIA: "Um sie weiter auf Aufklärung und Ausspähung zu spezialisieren, haben wir diese Aufklärer-Drohne mit einer Variante unserer Bewegungsscanner ausgestattet, was sie noch effektiver darin macht, Gegner aufzuspüren und an unsere Truppen zu melden. Leider mussten wir die Panzerung reduzieren um den Scanner und das Rechner-Zubehör an der Drohne unterzubringen."
+  STR_DRONE_SCANNER_UFOPEDIA: ""
   STR_UPGRADE_DRONE_SCANNER_TO_MEDIKIT: "Drohne/Scanner -> Medikit"
   STR_UPGRADE_DRONE_SCANNER_TO_TASER: "Drohne/Scanner -> Betäubungswaffe"
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_SCOUT: "Drohne/Scanner -> Legierungs-Aufklärer"
@@ -233,6 +242,7 @@ de:
 
   STR_ALLOY_DRONE_FLARE_WEAPON: ""
   STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_ALLOY_DRONE_SMOKE_WEAPON: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
@@ -435,9 +445,11 @@ de:
   STR_UPGRADE_HOVERTANK_EBOMB_TO_PLASMA: ""
   STR_UPGRADE_HOVERTANK_EBOMB_TO_LAUNCHER: ""
 
+  STR_HOVERTANK_PLASMA: "Schwebepanzer/Plasma"
   HOVERTANK_PLASMA_ARMOR: ""
   STR_HOVERTANK_PLASMA_CORPSE: "Damaged Hovertank/Plasma"
   STR_HOVERTANK_PLASMA_REPAIR: ""
+  STR_HOVERTANK_PLASMA_UFOPEDIA: ""
   STR_UPGRADE_HOVERTANK_PLASMA_TO_LAUNCHER: ""
 
   HOVERTANK_LAUNCHER_ARMOR: ""
@@ -476,17 +488,20 @@ de:
   STR_ALLOY_VEST_UC: "LEGIERUNGS-WESTE"
   STR_ALLOY_VEST_CORPSE: "Beschädigte Legierungs-Weste"
   STR_ALLOY_VEST_REPAIR: "Legierungs-Weste reparieren"
-  STR_ALLOY_VEST_UFOPEDIA: "Die ballistische Weste ist mit Außerirdischen Legierungen verstärkt."
+  STR_ALLOY_VEST_UFOPEDIA: ""
   STR_UPGRADE_ALLOY_VEST_TO_PERSONAL_ARMOR: "Legierungs-Weste -> Persönliche Rüstung"
 
+  STR_PERSONAL_ARMOR: "Persönliche Rüstung"
+  STR_PERSONAL_ARMOR_UC: ""
   STR_PERSONAL_ARMOR_CORPSE: "Beschädigte Persönliche Rüstung"
   STR_PERSONAL_ARMOR_REPAIR: "Persönliche Rüstung reparieren"
+  STR_PERSONAL_ARMOR_UFOPEDIA: ""
   STR_UPGRADE_PERSONAL_ARMOR_TO_POWER_SUIT: "Persönliche Rüstung -> Energieanzug"
   STR_UPGRADE_PERSONAL_ARMOR_TO_FLYING_SUIT: "Persönliche Rüstung -> Fluganzug"
 
   STR_POWER_SUIT_CORPSE: "Beschädigter Energieanzug"
   STR_POWER_SUIT_REPAIR: "Energieanzug reparieren"
-  STR_POWER_SUIT_UFOPEDIA: "Eine mächtige neue Abwehrwaffe: Diese Rüstung wird von einem Eleriumreaktor angetrieben und vergrößert die Stärke des Trägers erheblich, sie bietet den besten bekannten Schutz für Kampftruppen."
+  STR_POWER_SUIT_UFOPEDIA: ""
   STR_UPGRADE_POWER_SUIT_TO_FLYING_SUIT: "Energieanzug -> Fluganzug"
   STR_UPGRADE_POWER_SUIT_TO_REINFORCED_POWER_SUIT: "Energieanzug -> Verst. Energieanzug"
   STR_UPGRADE_POWER_SUIT_TO_REINFORCED_FLYING_SUIT: "Energieanzug -> Verst. Fluganzug"
@@ -543,11 +558,11 @@ de:
   STR_SNIPER_RIFLE_UFOPEDIA: "Das Scharfschützengewehr mit Kaliber 12,7-mm ist tödlicher und genauer als das Standard-Gewehr. Dafür ist der Umgang schwieriger und die Feuerrate niedriger."
 
   STR_HC_AA_AMMO: ""
-  STR_HC_AA_AMMO_UFOPEDIA: "Diese Muntion für das schwere Geschütz wurde mit außerirdischen Legierungen für erhöhte Feuerkraft gefertigt."
+  STR_HC_AA_AMMO_UFOPEDIA: ""
   STR_HC_EHE_AMMO: ""
   STR_HC_EHE_AMMO_UFOPEDIA: ""
   STR_AC_AA_AMMO: ""
-  STR_AC_AA_AMMO_UFOPEDIA: "Diese Muntion für das automatische Geschütz wurde mit außerirdischen Legierungen für erhöhte Feuerkraft gefertigt."
+  STR_AC_AA_AMMO_UFOPEDIA: ""
   STR_AC_EHE_AMMO: ""
   STR_AC_EHE_AMMO_UFOPEDIA: ""
 
@@ -561,15 +576,15 @@ de:
   STR_ELERIUM_ROCKET_UFOPEDIA: "Wir haben erfolgreich einen Elerium-115-Sprengkopf zusammengebaut und auf einen modifizierten Raketenkörper gesetzt, sodass er mit unserem Standard-Raketenwerfer kompatibel ist. Die zusätzliche Sprengkraft dieser neuen Waffe sollte im Feld verheerend wirken."
 
   STR_SCATTER_LASER: "Streulaser"
-  STR_SCATTER_LASER_UFOPEDIA: "Dank den Besonderheiten außerirdischer Werkstoffe zerstreut diese Waffe ihren Laserstrahl nicht unähnlich einer Ladung konventionellen Schrotes. Dies verbessert die Wirkung auf kurze Distanzen und das Tötungspotential."
+  STR_SCATTER_LASER_UFOPEDIA: ""
 
   STR_HEAVY_LASER: "Schwerer Präzisionslaser"
-  STR_HEAVY_LASER_UFOPEDIA: "Der schwere Präzisionslaser ist sperrig, aber höchst effektiv. Es wurde mit einem Zielfernrohr ausgestatted um Aliens besser aus der Ferne ausschalten zu können. Die höhere Feuerkraft verhindert leider automatisches Feuer."
+  STR_HEAVY_LASER_UFOPEDIA: ""
   STR_HEAVY_LASER_AUTO: "Schwerer Maschinen-Laser"
-  STR_HEAVY_LASER_AUTO_UFOPEDIA: "Der schwere Maschinenlaser ist hocheffektiv auf mittlere Kampfdistanz, wenn hohes Tötungspotential gefragt ist. Unsere Soldaten verfluchen die Unmöglichkeit, mit diesem Ding richtig zu zielen: es hat keinen Gezielten Schuss-Modus"
+  STR_HEAVY_LASER_AUTO_UFOPEDIA: ""
 
   STR_FIELD_MEDI_PACK: "Feldmedizin-Koffer"
-  STR_FIELD_MEDI_PACK_UFOPEDIA: "Der Feldmedizin-Koffer enthält Heil- und Schmerz- sowie Stimulansmittel. Um ihn zu benutzen, müssen Sie in die Richtung blicken, in der sich der verwundete Soldat befindet. Ist der Soldat betäubt, dann müssen Sie sich über ihn stellen. Klicken Sie das Feldmedizin-Koffer-Icon an, und wählen Sie aus dem Menü die Option 'Erste-Hilfe-Koffer nutzen'.{NEWLINE}HEILEN> Rote Körperteile zeigen an, daß sie schwer verletzt sind. Klicken Sie den entsprechenden Körperteil und dann den Knopf 'Heilen' an. Damit wird eine tödliche Wunde geheilt und 1 Gesundheit zugeführt.{NEWLINE}STIMULANS> Regeneriert 5 Energie und belebt bewusstlose (betäubte) Soldaten.{NEWLINE}SCHMERZMITTEL> Erhöht die Moral verwundeter Soldaten bis zu einer Stufe, die dem alten Gesundheitsniveau entspricht.{NEWLINE}MAX LADUNGEN> HEIL: 3 | STIMULANT: 3 | SCHMERZMITTEL: 3"
+  STR_FIELD_MEDI_PACK_UFOPEDIA: ""
 
   STR_MEDI_KIT_UFOPEDIA: ""
   STR_UPGRADE_MEDI_KIT_TO_ADVANCED_MEDI_KIT: ""
@@ -584,7 +599,7 @@ de:
   STR_FLASHBANG_GRENADE_UFOPEDIA: ""
 
   STR_INC_GRENADE: "Brandgranate"
-  STR_INC_GRENADE_UFOPEDIA: "Brandgranaten sind unersetzlich um die Nacht zu erhellen und laestige Vegetation aus dem Weg zu raeumen."
+  STR_INC_GRENADE_UFOPEDIA: ""
 
   STR_ALIEN_PROXY_GRENADE: ""
   STR_ALIEN_PROXY_GRENADE_UFOPEDIA: ""
@@ -733,7 +748,7 @@ de:
   STR_GAZER_NAVIGATOR: "Starrer-Navigator"
   STR_GAZER_LEADER: "Starrer-Anführer"
   STR_GAZER_COMMANDER: "Starrer-Kommandant"
-  STR_GAZER_UFOPEDIA: "Starrer sehen aus wie aufrecht stehende Schildkröten und sind auch tatsächlich so stabil, wie sie aussehen. Ihre sperrige schwere Rüstung bietet eine eindrucksvolle Widerstandskraft gegen Treffer jeder Art, insbesondere von panzerbrechenden Treffern und Plasma."
+  STR_GAZER_UFOPEDIA: ""
   STR_GAZER_CORPSE: "Starrer-Leiche"
   STR_GAZER_AUTOPSY: "Starrer Autopsie"
   STR_GAZER_AUTOPSY_UFOPEDIA: "Das einzige, große Auge ist das auffälligste anatomische Merkmal dieses Aliens; es hat einen krustentierähnlichen Aufbau, ist aber sehr viel weiter entwickelt. Die dicke Rüstung wird nicht bloß getragen; kybernetische Implantate wurzeln darin und verbinden sich mit den Organen des Geschöpfs. Es handelt sich um eine Schale."
@@ -768,7 +783,7 @@ de:
   STR_MUTON_ELITE_ENGINEER: "Mutonen-Elite-Ingenieur"
   STR_MUTON_ELITE_NAVIGATOR: "Mutonen-Elite-Navigator"
   STR_MUTON_ELITE_LEADER: "Mutonen-Elite-Anführer"
-  STR_MUTON_ELITE_UFOPEDIA: "Physisch identisch mit Mutonen, wurde die Mutonen-Elite schweren kybernetischen Eingriffen und genetischer Manipulation unterzogen. So weit sind sie der fitteste, schlaueste und gefährlichste Feind, dem wir gegenübertreten mussten. Die ursprüngliche Stammesnatur der Mutonen scheint sich in diesen Eliten auszukristallisieren, da sie durch einen langen Selektionsprozess gehen müssen und nur die stärksten und verschlagensten zu Mitgliedern der Elite werden."
+  STR_MUTON_ELITE_UFOPEDIA: ""
   STR_MUTON_ELITE_CORPSE: "Tote Mutonen-Elite"
   STR_MUTON_ELITE_AUTOPSY: "Mutonen-Elite Autopsie"
   STR_MUTON_ELITE_AUTOPSY_UFOPEDIA: "Dieses Subjekt ist identisch mit normalen Mutonen, aber wurde schwer verändert. Besonders die Rüstung wurde verbessert, aber auch die Implantate zum Verfolgen von Feinden und Überlebensfähigkeit."
@@ -899,16 +914,16 @@ de:
 
 #BEGIN NEW UFOS
   STR_FIGHTER_SHIP: "Jäger"
-  STR_FIGHTER_SHIP_UFOPEDIA: "Die außerirdischen Jäger werden nur zum Bekämpfen von irdischen Flugzeugen, einschließlich unserer eigenen Abfangjäger, gebaut. Sie sind für ihre Größe sehr gut ausgestattet. Sie besitzen aber nur eine kleine Besatzung."
+  STR_FIGHTER_SHIP_UFOPEDIA: ""
 
   STR_SENTRY_SHIP: "Patrouillenschiff"
-  STR_SENTRY_SHIP_UFOPEDIA: "Der Zweck dieses kleinen UFOs sind Überwachung und Patrouillen. Die Bewaffnung ist dieses Schiffes stellt eine Bedrohung für unserer Abfangjäger dar."
+  STR_SENTRY_SHIP_UFOPEDIA: ""
 
   STR_EXCAVATOR: "Exkavator"
-  STR_EXCAVATOR_UFOPEDIA: "Die Exkavatoren sind kleine Schiffe, die hauptsächlich mit dem Graben und der Konstruktion beauftragt sind. Sie stellen keine große Bedrohung für unsere Flugzeuge dar."
+  STR_EXCAVATOR_UFOPEDIA: ""
 
   STR_LAB_SHIP: "Laborschiff"
-  STR_LAB_SHIP_UFOPEDIA: "Die Laborschiffe sind große Flugobjekte, die mit der Aufgabe von wissenschaftlicher Natur und Operationen zur Ernte von biologischen Material vertraut sind. Die Laborschiffe sind viel größer als die Erntemaschinen und können somit komplexere Experimente ausführen. Die Anzahl der Besatzung ist hoch und sie sind recht gut ausgestattet."
+  STR_LAB_SHIP_UFOPEDIA: ""
 #END NEW UFOS
 
 #BEGIN COMMENDATIONS
@@ -1157,6 +1172,30 @@ de:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
+  STR_ALIEN_BASE_TERROR_MISSION: "Außerirdischer Terror"
+  STR_ALIEN_BASE_ABDUCTION_MISSION: "Außerirdische Entführung"
+  STR_ALIEN_BASE_HARVEST_MISSION: "Außerirdische Ernte"
+  STR_ALIEN_BASE_BASE_MISSION: "Alien-Basis"
+  STR_ALIEN_BASE_BASE_MISSION_03: "Alien-Basis"
+  STR_ALIEN_BASE_BASE_MISSION_06: "Alien-Basis"
+  STR_ALIEN_BASE_INFILTRATION_MISSION_06: "Außerirdische Infiltration"
+  STR_ALIEN_BASE_RETALIATION_MISSION_06: "Außerirdischen-Vergeltung"
+
+  STR_ALIEN_BASE_GAMESTART: "Alien-Basis"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
+
+  STR_ALIEN_BASE_GAMESTART_03: "Alien-Basis"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_03: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
+
+  STR_ALIEN_BASE_GAMESTART_06: "Alien-Basis"
+  STR_ALIEN_BASE_GAMESTART_ASSAULT_06: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
+
+  STR_ALIEN_BASE_03: "Alien-Basis"
+  STR_ALIEN_BASE_ASSAULT_03: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
+
+  STR_ALIEN_BASE_06: "Alien-Basis"
+  STR_ALIEN_BASE_ASSAULT_06: "ANGRIFF AUF AUSSERIRDISCHEN STÜTZPUNKT"
+
   STR_TERROR_MISSION_SNOW: "Terrormission Schnee"
 
   STR_TERROR_MISSION_SUBURB: "TERRORMISSION VORSTADT"
@@ -1184,9 +1223,14 @@ de:
   STR_TERROR_MISSION_SHIP_DISABLED: "SCHIFF MANÖVRIERUNFÄHIG"
   STR_TERROR_MISSION_SHIP_OPERATIONAL: "SCHIFF NOCH FUNKTIONSFÄHIG"
   STR_TERROR_MISSION_SHIP_NAVIGATION_DESTROYED: "Navigationssystem zerstört"
+
+  STR_TERROR_MISSION_POLAR: ""
+  STR_TERROR_MISSION_POLAR_BRIEFING: ""
 #END MISSION STRINGS & ALERTS
 
 #BEGIN MAP NAMES
+  MAP_AREA51: "Area 51"
+  MAP_APARTMENT: ""
   MAP_AIRFIELD1: "Flugfeld 1"
   MAP_AIRFIELD2: "Flugfeld 2"
   MAP_AIRFIELD3: "Flugfeld 3"
@@ -1196,6 +1240,7 @@ de:
   MAP_AIRFIELD7: "Flugfeld 7"
   MAP_AIRFIELD8: "Flugfeld 8"
   MAP_CARGOSHIP: "Frachtschiff"
+  MAP_COLDISLE: "Kalte Insel"
   MAP_COMRCURBAN: "Kommerziell"
   MAP_CULTAFARMA: "Erweiterter Hof A"
   MAP_CULTAFARMB: "Erweiterter Hof B"
@@ -1238,6 +1283,8 @@ de:
   MAP_PORTTFTD: "Hafen TFTD"
   MAP_PORTURBAN: "Hafen Modifiziert"
   MAP_RAILYARDURBAN: "Zugdepot"
+  MAP_RAILSTATION_AREA51_MIX: ""
+  MAP_RAILSTATION_APARTMENT_MIX: ""
   MAP_RAILSTATION_EXPANDED_URBAN_MIX: ""
   MAP_RAILSTATION_COMMERCIAL_URBAN_MIX: ""
   MAP_RAILSTATION_INDUSTRIALURBAN_MIX: ""
@@ -1252,6 +1299,7 @@ de:
   MAP_STEPPEFOREST: "Steppenwald"
   MAP_STEPPEFORESTMOUNT: "Steppenwaldberg"
   MAP_STEPPEPOLAR: "Steppensumpf"
+  MAP_SLUMURBAN: "Slums"
   MAP_TAIGADESERT: "Taigawüste"
   MAP_TAIGADESERTMOUNT: "Taigawüstenberg"
   MAP_TAIGAFOREST: "Taigawald"
@@ -1279,6 +1327,10 @@ de:
   MALE_CIVILIAN9: "Zivilistin"
   MALE_CIVILIAN10: "Zivilistin"
   MALE_CIVILIAN11: "Zivilistin"
+  MALE_CIVILIAN12: "Zivilistin"
+  MALE_CIVILIAN13: "Zivilistin"
+  MALE_CIVILIAN14: "Zivilistin"
+  MALE_CIVILIAN15: "Zivilistin"
   FEMALE_CIVILIAN: "Zivilistin"
   FEMALE_CIVILIAN2: "Zivilistin"
   FEMALE_CIVILIAN3: "Zivilistin"
@@ -1289,6 +1341,10 @@ de:
   FEMALE_CIVILIAN8: "Zivilistin"
   FEMALE_CIVILIAN9: "Zivilistin"
   FEMALE_CIVILIAN10: "Zivilistin"
+  FEMALE_CIVILIAN11: "Zivilistin"
+  FEMALE_CIVILIAN12: "Zivilistin"
+  FEMALE_CIVILIAN13: "Zivilistin"
+  FEMALE_CIVILIAN14: "Zivilistin"
 #END CIVLIAN NAMES
 
 #BEGIN ARMED CIVILIAN NAMES
@@ -1305,20 +1361,13 @@ de:
   STR_SOLDIER_MALE_GREEN1: ""
   STR_SOLDIER_MALE_GREEN2: ""
   STR_SOLDIER_MALE_GREEN3: ""
-
-  FIREFIGHTER0_CORPSE: "Toter"
-  PARAMEDIC0_CORPSE: "Toter"
-  POLICE_MALE0_CORPSE: "Toter"
-  POLICE_FEMALE0_CORPSE: "Toter"
-  POLICE_SWAT_MALE0_CORPSE: "Toter"
-  POLICE_SWAT_FEMALE0_CORPSE: "Toter"
-  SCIENTIST_FEMALE0_CORPSE: "Toter"
-  SOLDIER_FEMALE_GREEN0_CORPSE: "Toter"
-  SOLDIER_FEMALE_GREEN1_CORPSE: "Toter"
-  SOLDIER_MALE_GREEN0_CORPSE: "Toter"
-  SOLDIER_MALE_GREEN1_CORPSE: "Toter"
-  SOLDIER_MALE_GREEN2_CORPSE: "Toter"
-  SOLDIER_MALE_GREEN3_CORPSE: "Toter"
+  STR_DOCTOR_FEMALE0: ""
+  STR_DOCTOR_MALE0: ""
+  STR_HUNTER_FEMALE0: "Jäger"
+  STR_HUNTER_MALE0: "Jäger"
+  STR_HUNTER_MALE1: "Jäger"
+  STR_TECHNICIAN_FEMALE0: ""
+  STR_TECHNICIAN_MALE0: ""
 #END ARMED CIVILIAN NAMES
 
 #BEGIN NEW REGIONS
@@ -1655,3 +1704,150 @@ de:
   STR_AMUNDSEN: "Amundsen-Scott"
   STR_BELLINGSHAUSEN: "Bellingshausen"
 #END CITY NAMES
+
+#BEGIN AVATAR NAMES
+  STR_AVATAR_NAME_1: "Bruce"
+  STR_AVATAR_NAME_2: "Gerard"
+  STR_AVATAR_NAME_3: "Keegan"
+  STR_AVATAR_NAME_4: "Silao"
+  STR_AVATAR_NAME_5: "Masha"
+  STR_AVATAR_NAME_6: "Brenda"
+  STR_AVATAR_NAME_7: "Selena"
+  STR_AVATAR_NAME_8: "Jesabel"
+  STR_AVATAR_NAME_9: "Rasmus"
+  STR_AVATAR_NAME_10: "Ben"
+  STR_AVATAR_NAME_11: "Ashok"
+  STR_AVATAR_NAME_12: "Tarik"
+  STR_AVATAR_NAME_13: "Trude"
+  STR_AVATAR_NAME_14: "Joan"
+  STR_AVATAR_NAME_15: "Medea"
+  STR_AVATAR_NAME_16: "Parvati"
+  STR_AVATAR_NAME_17: "Victor"
+  STR_AVATAR_NAME_18: "Jay"
+  STR_AVATAR_NAME_19: "Franco"
+  STR_AVATAR_NAME_20: "Bobby"
+  STR_AVATAR_NAME_21: "Irina"
+  STR_AVATAR_NAME_22: "Natalia"
+  STR_AVATAR_NAME_23: "Naomi"
+  STR_AVATAR_NAME_24: "Luna"
+  STR_AVATAR_NAME_25: "Bolo"
+  STR_AVATAR_NAME_26: "Semyon"
+  STR_AVATAR_NAME_27: "Ernesto"
+  STR_AVATAR_NAME_28: "Max"
+  STR_AVATAR_NAME_29: "Katherine"
+  STR_AVATAR_NAME_30: "Hanako"
+  STR_AVATAR_NAME_31: "Silvia"
+  STR_AVATAR_NAME_32: "Cho"
+  STR_AVATAR_NAME_33: "Remus"
+  STR_AVATAR_NAME_34: "Steffan"
+  STR_AVATAR_NAME_35: "Samuel"
+  STR_AVATAR_NAME_36: "Bruno"
+  STR_AVATAR_NAME_37: "Rena"
+  STR_AVATAR_NAME_38: "Ingrid"
+  STR_AVATAR_NAME_39: "Latoya"
+  STR_AVATAR_NAME_40: "Shani"
+  STR_AVATAR_NAME_41: "Hans"
+  STR_AVATAR_NAME_42: "Timur"
+  STR_AVATAR_NAME_43: "Hannibal"
+  STR_AVATAR_NAME_44: "José"
+  STR_AVATAR_NAME_45: "Maya"
+  STR_AVATAR_NAME_46: "Katya"
+  STR_AVATAR_NAME_47: "Martha"
+  STR_AVATAR_NAME_48: "Dolores"
+  STR_AVATAR_NAME_49: "Yosif"
+  STR_AVATAR_NAME_50: "Tony"
+  STR_AVATAR_NAME_51: "Jackie"
+  STR_AVATAR_NAME_52: "John Vic"
+  STR_AVATAR_NAME_53: "Sigrun"
+  STR_AVATAR_NAME_54: "Petra"
+  STR_AVATAR_NAME_55: "Lucy"
+  STR_AVATAR_NAME_56: "Trisha"
+  STR_AVATAR_NAME_57: "Dirk"
+  STR_AVATAR_NAME_58: "Sean"
+  STR_AVATAR_NAME_59: "Augusto"
+  STR_AVATAR_NAME_60: "Olaniyan"
+  STR_AVATAR_NAME_61: "Astrid"
+  STR_AVATAR_NAME_62: "Eva"
+  STR_AVATAR_NAME_63: "Hua"
+  STR_AVATAR_NAME_64: "Olaniyi"
+  STR_AVATAR_NAME_65: "Vincent"
+  STR_AVATAR_NAME_66: "Sven"
+  STR_AVATAR_NAME_67: "Temuujin"
+  STR_AVATAR_NAME_68: "Darius"
+  STR_AVATAR_NAME_69: "Pamela"
+  STR_AVATAR_NAME_70: "Dominique"
+  STR_AVATAR_NAME_71: "Soo-jin"
+  STR_AVATAR_NAME_72: "Xenobia"
+  STR_AVATAR_NAME_73: "Pedro"
+  STR_AVATAR_NAME_74: "Adam"
+  STR_AVATAR_NAME_75: "Arnak"
+  STR_AVATAR_NAME_76: "Wesley"
+  STR_AVATAR_NAME_77: "Cristina"
+  STR_AVATAR_NAME_78: "Nancy"
+  STR_AVATAR_NAME_79: "Barbara"
+  STR_AVATAR_NAME_80: "Bashira"
+  STR_AVATAR_NAME_81: "Lucius"
+  STR_AVATAR_NAME_82: "Jimmy"
+  STR_AVATAR_NAME_83: "Wong"
+  STR_AVATAR_NAME_84: "Jacques"
+  STR_AVATAR_NAME_85: "Anna"
+  STR_AVATAR_NAME_86: "Tina"
+  STR_AVATAR_NAME_87: "Mei"
+  STR_AVATAR_NAME_88: "Gloria"
+  STR_AVATAR_NAME_89: "Anatoliy"
+  STR_AVATAR_NAME_90: "Bulat"
+  STR_AVATAR_NAME_91: "Gordon"
+  STR_AVATAR_NAME_92: "Ayub"
+  STR_AVATAR_NAME_93: "Billie"
+  STR_AVATAR_NAME_94: "Sakura"
+  STR_AVATAR_NAME_95: "Li"
+  STR_AVATAR_NAME_96: "Victoria"
+  STR_AVATAR_NAME_97: "William"
+  STR_AVATAR_NAME_98: "Essam"
+  STR_AVATAR_NAME_99: "Bashar"
+  STR_AVATAR_NAME_100: "Nick"
+  STR_AVATAR_NAME_101: "Freya"
+  STR_AVATAR_NAME_102: "Nicole"
+  STR_AVATAR_NAME_103: "Shanti"
+  STR_AVATAR_NAME_104: "Camila"
+  STR_AVATAR_NAME_105: "Hans"
+  STR_AVATAR_NAME_106: "Matthew"
+  STR_AVATAR_NAME_107: "Lance"
+  STR_AVATAR_NAME_108: "Benito"
+  STR_AVATAR_NAME_109: "Zoya"
+  STR_AVATAR_NAME_110: "Sammy"
+  STR_AVATAR_NAME_111: "Arshiya"
+  STR_AVATAR_NAME_112: "Ashwini"
+  STR_AVATAR_NAME_113: "Johann"
+  STR_AVATAR_NAME_114: "Bernie"
+  STR_AVATAR_NAME_115: "Tyrone"
+  STR_AVATAR_NAME_116: "Roberto"
+  STR_AVATAR_NAME_117: "Liz"
+  STR_AVATAR_NAME_118: "Sharon"
+  STR_AVATAR_NAME_119: "Clara"
+  STR_AVATAR_NAME_120: "Ayesha"
+  STR_AVATAR_NAME_121: "Romeo"
+  STR_AVATAR_NAME_122: "Fred"
+  STR_AVATAR_NAME_123: "Saul"
+  STR_AVATAR_NAME_124: "Bob"
+  STR_AVATAR_NAME_125: "Britta"
+  STR_AVATAR_NAME_126: "Claudia"
+  STR_AVATAR_NAME_127: "Cora"
+  STR_AVATAR_NAME_128: "Sheebah"
+  STR_AVATAR_NAME_129: "Fox"
+  STR_AVATAR_NAME_130: "Walter"
+  STR_AVATAR_NAME_131: "Naveen"
+  STR_AVATAR_NAME_132: "Eric"
+  STR_AVATAR_NAME_133: "Dana"
+  STR_AVATAR_NAME_134: "Monica"
+  STR_AVATAR_NAME_135: "Lina"
+  STR_AVATAR_NAME_136: "Corina"
+  STR_AVATAR_NAME_137: "Jonas"
+  STR_AVATAR_NAME_138: "Manny"
+  STR_AVATAR_NAME_139: "Eduardo"
+  STR_AVATAR_NAME_140: "Félix"
+  STR_AVATAR_NAME_141: "Marita"
+  STR_AVATAR_NAME_142: "Samantha"
+  STR_AVATAR_NAME_143: "Elena"
+  STR_AVATAR_NAME_144: "Jane"
+#END AVATAR NAMES
