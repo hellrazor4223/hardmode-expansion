@@ -5,6 +5,8 @@ Version 1.0
  - Fix Long Hair beauties
  - Fix Mapscript for AREA51 Terrain
  - Add complete Russian translation (transifex+grok)
+ - Add complete German translation (transifex+grok)
+ - Add complete Japanese translation (transifex+grok)
 
 Version 0.99.9.9
  - Fix Loaderror for OXCE 8.5.8+ Validation

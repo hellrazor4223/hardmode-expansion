@@ -1,6 +1,6 @@
 ja:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode 拡張モッド{NEWLINE}v1.0 制作 hellrazor"
   STR_GROUND: "地面 {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "任務とニュース"
   STR_HEAVY_WEAPONS_PLATFORMS: "基地の施設"
@@ -21,8 +21,8 @@ ja:
   STR_CAT_PERSONAL_ARMOR_UPGRADE: "個人用アーマーの改修"
   STR_CAT_PERSONAL_ARMOR_REPAIR: "個人用アーマーの修繕"
   STR_HOLSTER: "ホルスター"
-  STR_SLACKING_INDICATOR: "S: {0} E: {1}"
-  STR_TRAINING_INDICATOR: "PSI {0}"
+  STR_SLACKING_INDICATOR: "科: {0} 技: {1}"
+  STR_TRAINING_INDICATOR: "サイ {0}"
 #END GENERAL
 
 #BEGIN BRIEFINGS
@@ -158,7 +158,7 @@ ja:
 #BEGIN CRAFTS
   STR_IMPROVED_SKYRANGER: "改良型スカイレンジャー"
   STR_SKYSTRIKER: "スカイストライカー"
-  STR_SKYSTRIKER_UFOPEDIA: ""
+  STR_SKYSTRIKER_UFOPEDIA: "スカイレンジャーの改良型である『スカイストライカー』は、新たに発見されたエイリアン合金と新型エンジンを使用した再設計された機体を持ち、X-COMがより多くの兵員と装備を戦術任務へ迅速に輸送できるようにする。"
 
   STR_IMPROVED_INTERCEPTOR: "改良型インターセプター"
   STR_RETALIATOR: "リタリエーター"
@@ -323,6 +323,7 @@ ja:
 
   STR_HOVERDRONE_FLARE_WEAPON: "ホバードローン用 電気照明ランチャ"
   STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: "我々の技術的発展のお陰で弾倉容量と射程が増し、電気照明弾のカバーレンジが拡大した。弾薬はミッション完了後基地に帰投した際に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。これでホバードローン/スカウトは夜間作戦において兵士の一助となり得る。"
+
   STR_HOVERDRONE_SMOKE_WEAPON: "ホバードローン用煙弾筒"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "さらなる技術の研さんよって敵の射線を遮る発煙弾筒の射程と装弾数が増加した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。改良型の煙幕は使い様で有利にもなれば不利にもなる。ホバードローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
@@ -561,6 +562,7 @@ ja:
   STR_HC_AA_AMMO_UFOPEDIA: "このエイリアン合金製の重キャノン用弾倉は威力と対装甲の貫通力が増している。"
   STR_HC_EHE_AMMO: "HC-EHE 強化型高性能炸薬弾"
   STR_HC_EHE_AMMO_UFOPEDIA: "この重キャノン用弾倉はエイリアン合金とエレリウム115を用いたもので、致命的な範囲ダメージを与えられる。効果範囲が大きいので近距離での使用時は十分な注意が必要だが殆どの敵に致死ダメージを与えられる。重キャノンを小型の多段ランチャーへと豹変させる。"
+
   STR_AC_AA_AMMO: "AC-AP 合金弾"
   STR_AC_AA_AMMO_UFOPEDIA: "このエイリアン合金製の重キャノン用弾倉は威力と対装甲の貫通力が増している。"
   STR_AC_EHE_AMMO: "AC-EHE 強化型高性能炸薬弾"
@@ -954,6 +956,7 @@ ja:
   STR_MEDAL_ALLBATTLETYPES: "武器活用章"
   STR_MEDAL_ALLBATTLETYPES_DESCRIPTION: "全ての種類の武器を効果的に使った兵に与えられる"
   STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: "'武器への習熟'は軍の能力に直結する。歩兵は敵を倒す為に様々な武器の訓練を受ける。 {NEWLINE} {NEWLINE} 汎用性の高い兵士が持つ機転と有能さは讃えるべきものである。 {NEWLINE} {NEWLINE}この褒章は銃器、近接、手りゅう弾、時限手りゅう弾といった各種武器で敵を一定数倒した事がある兵に与えられる。全部で4段階、3, 6, 9, 12体の敵を倒した時叙勲される。"
+
   STR_MEDAL_ALLMISSIONS: "鋭意功労章"
   STR_MEDAL_ALLMISSIONS_DESCRIPTION: "全てのタイプのミッションに参加した兵に与えられる"
   STR_MEDAL_ALLMISSIONS_UFOPEDIA: " 'ヤツ等にこう言ってやれ。俺は地獄から舞い戻った男だと。この冷たい世界に火を着けるヤツが居るなら、受けて立つとな。燃やし尽くせ。仕返しだ。' {NEWLINE}- キッド・インク {NEWLINE}{NEWLINE} この兵は全てを経験してきた・・・UFOの残骸、着陸したUFO、テロミッション、基地ミッション、そして敵の基地襲撃さえも。 {NEWLINE} {NEWLINE}この褒章は全てのタイプのミッションに参加した兵に与えられる。"
@@ -1331,6 +1334,7 @@ ja:
   MALE_CIVILIAN13: "民間人"
   MALE_CIVILIAN14: "民間人"
   MALE_CIVILIAN15: "民間人"
+
   FEMALE_CIVILIAN: "民間人"
   FEMALE_CIVILIAN2: "民間人"
   FEMALE_CIVILIAN3: "民間人"
@@ -1350,10 +1354,10 @@ ja:
 #BEGIN ARMED CIVILIAN NAMES
   STR_FIREFIGHTER0: "消防士"
   STR_PARAMEDIC0: "救急医療隊員"
-  STR_POLICE_MALE0: "警官"
-  STR_POLICE_FEMALE0: "警官"
-  STR_POLICE_SWAT_MALE0: "SWAT隊員"
-  STR_POLICE_SWAT_FEMALE0: "SWAT隊員"
+  STR_POLICE_MALE0: "警察官"
+  STR_POLICE_FEMALE0: "警察官"
+  STR_POLICE_SWAT_MALE0: "警察SWAT隊員"
+  STR_POLICE_SWAT_FEMALE0: "警察SWAT隊員"
   STR_SCIENTIST_FEMALE0: "狂った科学者"
   STR_SOLDIER_FEMALE_GREEN0: "軍の兵士"
   STR_SOLDIER_FEMALE_GREEN1: "軍の兵士"
@@ -1361,13 +1365,13 @@ ja:
   STR_SOLDIER_MALE_GREEN1: "軍の兵士"
   STR_SOLDIER_MALE_GREEN2: "軍の兵士"
   STR_SOLDIER_MALE_GREEN3: "軍の兵士"
-  STR_DOCTOR_FEMALE0: ""
-  STR_DOCTOR_MALE0: ""
+  STR_DOCTOR_FEMALE0: "狂った医者"
+  STR_DOCTOR_MALE0: "狂った医者"
   STR_HUNTER_FEMALE0: "ハンター"
   STR_HUNTER_MALE0: "ハンター"
   STR_HUNTER_MALE1: "ハンター"
-  STR_TECHNICIAN_FEMALE0: ""
-  STR_TECHNICIAN_MALE0: ""
+  STR_TECHNICIAN_FEMALE0: "狂った技術者"
+  STR_TECHNICIAN_MALE0: "狂った技術者"
 #END ARMED CIVILIAN NAMES
 
 #BEGIN NEW REGIONS

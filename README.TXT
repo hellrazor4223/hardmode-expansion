@@ -481,12 +481,12 @@ Currently Supported Languages:
 	English		US (en-US)
 	English		UK (en-GB)
 	Japanese	JA (ja)
+	Russian		RU (ru)
+	German		DE (de)
 
 Partially Supported Languages (50%+):
-	Russian		RU (ru)
 	Italien		IT (it)
 	Polish		PL (pl)
-	German		DE (de)
 	Hungarien	HU (hu)
 	Czech		CS (cs)
 	Korean		KO (ko)

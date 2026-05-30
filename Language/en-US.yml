@@ -323,6 +323,7 @@ en-US:
 
   STR_HOVERDRONE_FLARE_WEAPON: "Hoverdrone Electroflare Launcher"
   STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: "Furthers advances in our technological development has lead to clip and deployment range increase to launch more Electoflares over a wider distance. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Hoverdrone/Scout can now better help our soldiers to see in the dark."
+
   STR_HOVERDRONE_SMOKE_WEAPON: "Hoverdrone Smoke Launcher"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "Further advancing our engineering capabilities has also given us a boost in regard of the smoke pellets deploy range and capacity, which will allow for a effective way to hide before our enemies line of sight. Ammo restocking takes place at base after returning from a mission. We got a special contract with our supplier, so there is plenty of ammo around. Beadvised smoke can work to your advantage or disadvantage. Hoverdrones in smoke cover might attract enemy grenades."
 
@@ -561,6 +562,7 @@ en-US:
   STR_HC_AA_AMMO_UFOPEDIA: "This clip for the Heavy Cannon is made with Alien Alloys for increased power and better target penetration against armored units."
   STR_HC_EHE_AMMO: "HC-EHE Enhanced High Explosive Ammunition"
   STR_HC_EHE_AMMO_UFOPEDIA: "This clip for the Heavy Cannon combines Alien Alloys and Elerium-115 into one deadly area of effect explosive shell. Beware of the blast radius, when used in close quarter combat, deadly against most foes. Turning the Heavy Cannon into a small multirocket launcher."
+
   STR_AC_AA_AMMO: "AC-AP Alloy Ammunition"
   STR_AC_AA_AMMO_UFOPEDIA: "This clip for the Auto Cannon is made with Alien Alloys for increased power and better target penetration against armored units."
   STR_AC_EHE_AMMO: "AC-EHE Enhanced High Explosive Ammunition"
@@ -954,6 +956,7 @@ en-US:
   STR_MEDAL_ALLBATTLETYPES: "Armis Potens Medal"
   STR_MEDAL_ALLBATTLETYPES_DESCRIPTION: "Given to a soldier who has demonstrated lethal abilities with all types of weapons."
   STR_MEDAL_ALLBATTLETYPES_UFOPEDIA: "'Powerful in Arms' is the meaning of Armis Potens.  An infantry soldier is trained to fight with many different types of weapons in order to defeat the foe. {NEWLINE} {NEWLINE}The award recognizes the same agility and lethality demonstrated by these versatile warriors. {NEWLINE} {NEWLINE}This award is issued to any soldier who eliminates the foe with each type of weapon.  These include firearms, melee, grenades, and proximity grenades. There are four levels of award for 3,6,9, and 12 kills."
+
   STR_MEDAL_ALLMISSIONS: "To Hell and Back Medal"
   STR_MEDAL_ALLMISSIONS_DESCRIPTION: "Given to a soldier who has participated in every mission type."
   STR_MEDAL_ALLMISSIONS_UFOPEDIA: " 'You can tell 'em that {NEWLINE} I've been from hell and back {NEWLINE} When the heat is on, I fire back {NEWLINE} In this cold world, where your lighters at {NEWLINE} Let's burn it down, f-f-fire back' {NEWLINE}- Kid Ink {NEWLINE}{NEWLINE} This soldier has seen it all.. crashed UFOs, Landed UFOs, Terror missions, base mission, even kicking in the enemy's door and invading his base. {NEWLINE} {NEWLINE}This commendation is awarded to soldiers who participate in every type of mission."
@@ -1331,6 +1334,7 @@ en-US:
   MALE_CIVILIAN13: "Civilian"
   MALE_CIVILIAN14: "Civilian"
   MALE_CIVILIAN15: "Civilian"
+
   FEMALE_CIVILIAN: "Civilian"
   FEMALE_CIVILIAN2: "Civilian"
   FEMALE_CIVILIAN3: "Civilian"
