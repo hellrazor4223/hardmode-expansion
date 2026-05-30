@@ -2061,7 +2061,7 @@ mapScripts:
     - type: addBlock
       conditionals: -3
       size: 2
-      executions: 3
+      executions: 4
       blocks: [5, 6, 7, 8, 9]
       freqs: [3, 2, 1, 2, 3]
       maxUses: [2, 2, 2, 2, 2]
@@ -2076,7 +2076,7 @@ mapScripts:
       # because these are references to the block numbers within the sets, not the file names.
       blocks: [3, 4, 10, 11, 12, 13, 14]
       freqs: [1, 1, 1, 2, 2, 2, 2]
-      maxUses: [1, 1, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+#      maxUses: [2, 2, 4, 4, 4, 4, 4] #Limiting numbers increases variety
 #END AREA51
 
 #BEGIN AIRFIELD1

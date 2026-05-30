@@ -2094,7 +2094,7 @@ extraSprites:
   - typeSingle: SOLDIER__7__F64_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F64.png
   - typeSingle: SOLDIER__7__F65_HEAD_HELMET
-    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F64.png
+    fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F65.png
   - typeSingle: SOLDIER__7__F66_HEAD_HELMET
     fileSingle: Resources/Battlescape/Units/Xcom/SoldierBodies/HeadHelmet/Inventory_HeadHelmet_F66.png
   - typeSingle: SOLDIER__7__F67_HEAD_HELMET

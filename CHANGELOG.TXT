@@ -1,6 +1,8 @@
 Changelog:
 
 Version 1.0
+ - Fix Wrong Avatarhead
+ - Fix Long Hair beauties
 
 Version 0.99.9.9
  - Fix Loaderror for OXCE 8.5.8+ Validation
