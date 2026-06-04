@@ -5,6 +5,7 @@ Version 1.0
  - Fix Long Hair beauties
  - Fix Mapscript for AREA51 Terrain
  - Fix Single Produciton for Alloy Shotgun Shells
+ - Fix Wrong Reaper Death Sound
  - Add complete Russian translation (transifex+grok)
  - Add complete German translation (transifex+grok)
  - Add complete Japanese translation (transifex+grok)

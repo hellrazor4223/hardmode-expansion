@@ -1262,6 +1262,7 @@ units:
       bravery: 100
       psiStrength: 120
     value: 10
+    deathSound: 56
     aggroSound: 146
     isLeeroyJenkins: true
 #END REAPER UNIT
