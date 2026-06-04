@@ -551,6 +551,7 @@ ja:
   STR_SHOTGUN: "ショットガン"
   STR_SHOTGUN_CLIP: "ショットガンシェル"
   STR_SHOTGUN_AA_CLIP: "ショットガンAAシェル"
+  STR_SHOTGUN_AA_CLIP_X2: "ショットガンAAシェル[x2]"
   STR_SHOTGUN_UFOPEDIA: "このX-Com仕様のコンバットショットガンは12ゲージの散弾を用い、無装甲の敵に対し至近距離で致命的なダメージを与えられるが、貫通力が低く弾丸が拡散する特性により装甲を持つ相手或いは長射程射撃用としては適さない。"
 
   STR_SNIPER_RIFLE: "スナイパーライフル"

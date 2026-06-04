@@ -551,6 +551,7 @@ en-GB:
   STR_SHOTGUN: "Shotgun"
   STR_SHOTGUN_CLIP: "Shotgun Shells"
   STR_SHOTGUN_AA_CLIP: "Alloy Shotgun Shells"
+  STR_SHOTGUN_AA_CLIP_X2: "Alloy Shotgun Shells [x2]"
   STR_SHOTGUN_UFOPEDIA: "The standard issue X-Com tactical shotgun uses 12 gauge buck shot to deliver large amounts of damage to unarmored targets at close range, but the low penetrative power and spread of the projectiles limits its effectiveness against tougher opponents or at long ranges."
 
   STR_SNIPER_RIFLE: "Sniper Rifle"

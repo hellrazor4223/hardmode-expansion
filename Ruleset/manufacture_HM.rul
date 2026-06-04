@@ -3076,7 +3076,7 @@ manufacture:
 #END RIFL AA CLIP MANU
 
 #BEGIN SHOTGUN AA CLIP MANU
-  - name: STR_SHOTGUN_AA_CLIP
+  - name: STR_SHOTGUN_AA_CLIP_X2
     category: STR_AMMUNITION
     requires:
       - STR_ALLOY_AMMO
@@ -3086,7 +3086,7 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 1
     producedItems:
-      STR_SHOTGUN_AA_CLIP: 1
+      STR_SHOTGUN_AA_CLIP: 2
     listOrder: 883
 #END SHOTGUN AA CLIP MANU
 
