@@ -2494,8 +2494,8 @@ alienDeployments:
       STR_HUNTER_FEMALE0: 2
       STR_HUNTER_MALE0: 2
       STR_HUNTER_MALE1: 2
-      STR_DOCTOC_FEMALE0: 1
-      STR_DOCTOC_MALE0: 1
+      STR_DOCTOR_FEMALE0: 1
+      STR_DOCTOR_MALE0: 1
     terrains:
       - URBAN_SNOW
       - MADURBAN_SNOW
