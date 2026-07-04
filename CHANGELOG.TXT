@@ -12,6 +12,7 @@ Version 1.0
  - Add complete Japanese translation (transifex+grok)
  - Add Spotter for all Alien Soldier and Terrorunits
  - Add Sniper for all ranked Aliens (Engineer, Navigator, Medic, Leader, Commander)
+ - Add Archetype Soldier Responses (16 Voices * 9 Archtypes = 144 Voicesets)
 
 Version 0.99.9.9
  - Fix Loaderror for OXCE 8.5.8+ Validation
