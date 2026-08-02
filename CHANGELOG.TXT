@@ -7,12 +7,14 @@ Version 1.0
  - Fix Single Produciton for Alloy Shotgun Shells
  - Fix Wrong Reaper Death Sound
  - Fix Terror Mission Snow Civilian Name typo
+ - Fix wrong CheatTurn for Large UFO's was 10 should be 14
  - Add complete Russian translation (transifex+grok)
  - Add complete German translation (transifex+grok)
  - Add complete Japanese translation (transifex+grok)
  - Add Spotter for all Alien Soldier and Terrorunits
  - Add Sniper for all ranked Aliens (Engineer, Navigator, Medic, Leader, Commander)
  - Add Archetype Soldier Responses (16 Voices * 9 Archtypes = 144 Voicesets)
+ - Disable SpotOnHit mechanic for the aliens
 
 Version 0.99.9.9
  - Fix Loaderror for OXCE 8.5.8+ Validation

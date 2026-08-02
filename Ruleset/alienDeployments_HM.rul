@@ -934,7 +934,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    cheatTurn: 10
+    cheatTurn: 14
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
@@ -1264,7 +1264,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    cheatTurn: 10
+    cheatTurn: 14
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
@@ -1389,7 +1389,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 8
-    cheatTurn: 10
+    cheatTurn: 14
     winCutscene: winMiss
     loseCutscene: loseMiss
     abortCutscene: abortMiss
