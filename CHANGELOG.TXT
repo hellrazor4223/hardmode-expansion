@@ -8,6 +8,7 @@ Version 1.0
  - Fix Wrong Reaper Death Sound
  - Fix Terror Mission Snow Civilian Name typo
  - Fix wrong CheatTurn for Large UFO's was 10 should be 14
+ - Rebalance Shotguns to be more sane
  - Add complete Russian translation (transifex+grok)
  - Add complete German translation (transifex+grok)
  - Add complete Japanese translation (transifex+grok)

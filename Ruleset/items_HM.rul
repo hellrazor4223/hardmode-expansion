@@ -2028,14 +2028,14 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 20
-    maxRange: 20
+    maxRange: 26
     aimRange: 15
     snapRange: 9
     dropoff: 12
     shotgunBehavior: 1
-    shotgunChoke: 80
+    shotgunChoke: 100
     powerRangeThreshold: 20
-    powerRangeReduction: 50
+    powerRangeReduction: 15
     listOrder: 2202
   - type: STR_SHOTGUN_CLIP
     supportedInventorySections: *HOLSTER_FORBIDDEN
@@ -2057,7 +2057,7 @@ items:
     listOrder: 2203
     shotgunPellets: 5
     shotgunBehavior: 1
-    shotgunSpread: 60
+    shotgunSpread: 40
   - type: STR_SHOTGUN_AA_CLIP
     supportedInventorySections: *HOLSTER_FORBIDDEN
     requires:
@@ -2582,16 +2582,16 @@ items:
     invHeight: 3
     shotgunPellets: 5
     shotgunBehavior: 1
-    shotgunChoke: 100
+    shotgunChoke: 110
     shotgunSpread: 30
     armor: 30
-    maxRange: 20
+    maxRange: 26
     aimRange: 17
     snapRange: 11
     autoRange: 7
     dropoff: 9
-    powerRangeThreshold: 20
-    powerRangeReduction: 50
+    powerRangeThreshold: 22
+    powerRangeReduction: 10
     listOrder: 3601
 #END SCATTER LASER ITEM
 
@@ -3155,15 +3155,15 @@ items:
     recoveryPoints: 4
     armor: 50
     attraction: 10
-    maxRange: 20
+    maxRange: 26
     aimRange: 19
     snapRange: 13
     autoRange: 9
     dropoff: 6
     shotgunBehavior: 1
     shotgunChoke: 120
-    powerRangeThreshold: 20
-    powerRangeReduction: 50
+    powerRangeThreshold: 24
+    powerRangeReduction: 5
     listOrder: 5302
   - type: STR_PLASMA_SHOTGUN_CLIP
     supportedInventorySections: *HOLSTER_FORBIDDEN
@@ -3188,7 +3188,7 @@ items:
     attraction: 10
     shotgunPellets: 6
     shotgunBehavior: 1
-    shotgunSpread: 30
+    shotgunSpread: 20
     listOrder: 5303
   - type: STR_PLASMA_SHOTGUN_ELERIUM_CLIP
     supportedInventorySections: *HOLSTER_FORBIDDEN
