@@ -283,9 +283,8 @@ Groundcombat changes:
 	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
 	Xcom Soldiers with Blaster Launchers or Weapons which only have a Aimed Shot can now go Berserk with those weapons
 	Soldier will now respond to your actions on the Battlescape with audio commentary (16 Voices * 9 Archetype = 144 Voicesets)
-	Alien Soldier and Terrorunits will now act as Spotters (Xcom units spotted are visible for Snipers for the same turn)
-	Sectopods and Armored Sectopods keep Xcom units spotted for 2 turns.
-	Alien Ranks: Engineer, Navigator, Medic, Leader and Commander act as Snipers (arcing weapons do not support sniping :-/)
+	All Aliens and Terrorunits will now act as Spotters on their own turn only.
+	Alien armed with firearms/distance weapons or grenades can now Snipe on their own turn only.
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

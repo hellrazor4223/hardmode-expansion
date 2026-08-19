@@ -22,6 +22,6 @@ ai:
   extendedFireModeChoice: true
   respectMaxRange: true
   destroyBaseFacilities: true
-  fireChoiceIntelCoeff: 9
-  fireChoiceAggroCoeff: 3
+  fireChoiceIntelCoeff: 4
+  fireChoiceAggroCoeff: 8
 #END DIFFICULTY

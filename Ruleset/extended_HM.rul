@@ -14,9 +14,20 @@ extended:
 #END TAGS
 
   scripts:
+
+#BEGIN FORCE SPOTTER SNIPER ONLY ACTIVE FOR ALIEN TURN
+    newTurnUnit:
+      - offset: 1
+        code:
+          if eq side FACTION_HOSTILE;
+            unit.setTurnsLeftSpottedForSnipers 0;
+          end;
+          return;
+#END FORCE SPOTTER SNIPER ONLY ACTIVE FOR ALIEN TURN
+
 #BEGIN HIT RED FLASH AND ZOMBIFICATION AFTER ARMOR PENETRATION
     damageUnit:
-      - offset: 1
+      - offset: 2
         code: |
           var int temp;
           battle_game.getAnimFrame temp;
@@ -32,7 +43,7 @@ extended:
           return;
 
     recolorUnitSprite:
-      - offset: 2
+      - offset: 3
         code: |
           var int temp;
           
@@ -49,7 +60,7 @@ extended:
 
 #BEGIN ADJUSTED SELL PRICE BY DIFFICULTY
     sellCostItem:
-      - offset: 3
+      - offset: 4
         code: |
           var int temp;
           geoscape_game.difficultyLevel temp;  # get difficulty
