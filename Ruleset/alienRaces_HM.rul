@@ -12,6 +12,9 @@ alienRaces:
 
 #BEGIN FLOATERS
   - id: STR_FLOATER
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -26,6 +29,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_FLOATER_SOLDIER
   - id: STR_FLOATER_1
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -40,6 +46,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_SECTOID_SOLDIER
   - id: STR_FLOATER_3
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -54,6 +63,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_SNAKEMAN_SOLDIER
   - id: STR_FLOATER_5
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -68,6 +80,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_MUTON_SOLDIER
   - id: STR_FLOATER_7
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -82,6 +97,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_WASPITE_SOLDIER
   - id: STR_FLOATER_8
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -96,6 +114,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_GAZER_SOLDIER
   - id: STR_FLOATER_10
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -110,6 +131,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_FLOATER_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -124,6 +148,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_FLOATER_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -138,6 +165,9 @@ alienRaces:
       - STR_FLOATER_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_FLOATER_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_FLOATER_COMMANDER
       - STR_FLOATER_LEADER
@@ -155,6 +185,9 @@ alienRaces:
 
 #BEGIN SECTOID
   - id: STR_SECTOID
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -169,6 +202,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_SECTOID_SOLDIER
   - id: STR_SECTOID_3
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -183,6 +219,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_SNAKEMAN_SOLDIER
   - id: STR_SECTOID_5
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -197,6 +236,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_MUTON_SOLDIER
   - id: STR_SECTOID_7
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -211,6 +253,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_WASPITE_SOLDIER
   - id: STR_SECTOID_8
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -225,6 +270,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_GAZER_SOLDIER
   - id: STR_SECTOID_10
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -239,6 +287,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_SECTOID_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -253,6 +304,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_SECTOID_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -267,6 +321,9 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_SECTOID_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_LEADER
@@ -284,6 +341,9 @@ alienRaces:
 
 #BEGIN SNAKEMAN
   - id: STR_SNAKEMAN
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -298,6 +358,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_SNAKEMAN_SOLDIER
   - id: STR_SNAKEMAN_5
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -312,6 +375,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_MUTON_SOLDIER
   - id: STR_SNAKEMAN_7
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -326,6 +392,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_WASPITE_SOLDIER
   - id: STR_SNAKEMAN_8
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -340,6 +409,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_GAZER_SOLDIER
   - id: STR_SNAKEMAN_10
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -354,6 +426,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_SNAKEMAN_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -368,6 +443,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_SNAKEMAN_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -382,6 +460,9 @@ alienRaces:
       - STR_SNAKEMAN_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_SNAKEMAN_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SNAKEMAN_COMMANDER
       - STR_SNAKEMAN_LEADER
@@ -399,6 +480,9 @@ alienRaces:
 
 #BEGIN MUTON
   - id: STR_MUTON
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -413,6 +497,9 @@ alienRaces:
       - STR_MUTON_SOLDIER
       - STR_MUTON_SOLDIER
   - id: STR_MUTON_7
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -427,6 +514,9 @@ alienRaces:
       - STR_MUTON_SOLDIER
       - STR_WASPITE_SOLDIER
   - id: STR_MUTON_8
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -441,6 +531,9 @@ alienRaces:
       - STR_MUTON_SOLDIER
       - STR_GAZER_SOLDIER
   - id: STR_MUTON_10
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -455,6 +548,9 @@ alienRaces:
       - STR_MUTON_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_MUTON_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -469,6 +565,9 @@ alienRaces:
       - STR_MUTON_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_MUTON_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -483,6 +582,9 @@ alienRaces:
       - STR_MUTON_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_MUTON_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -500,6 +602,9 @@ alienRaces:
 
 #BEGIN WASPITE
   - id: STR_WASPITE
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_WASPITE_COMMANDER
       - STR_WASPITE_LEADER
@@ -514,6 +619,9 @@ alienRaces:
       - STR_WASPITE_SOLDIER
       - STR_WASPITE_SOLDIER
   - id: STR_WASPITE_8
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_WASPITE_COMMANDER
       - STR_WASPITE_LEADER
@@ -528,6 +636,9 @@ alienRaces:
       - STR_WASPITE_SOLDIER
       - STR_GAZER_SOLDIER
   - id: STR_WASPITE_10
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_WASPITE_COMMANDER
       - STR_WASPITE_LEADER
@@ -542,6 +653,9 @@ alienRaces:
       - STR_WASPITE_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_WASPITE_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_WASPITE_COMMANDER
       - STR_WASPITE_LEADER
@@ -556,6 +670,9 @@ alienRaces:
       - STR_WASPITE_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_WASPITE_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_WASPITE_COMMANDER
       - STR_WASPITE_LEADER
@@ -570,6 +687,9 @@ alienRaces:
       - STR_WASPITE_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_WASPITE_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_WASPITE_COMMANDER
       - STR_WASPITE_LEADER
@@ -587,6 +707,9 @@ alienRaces:
 
 #BEGIN GAZER
   - id: STR_GAZER
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_GAZER_COMMANDER
       - STR_GAZER_LEADER
@@ -601,6 +724,9 @@ alienRaces:
       - STR_GAZER_SOLDIER
       - STR_GAZER_SOLDIER
   - id: STR_GAZER_10
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_GAZER_COMMANDER
       - STR_GAZER_LEADER
@@ -615,6 +741,9 @@ alienRaces:
       - STR_GAZER_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_GAZER_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_GAZER_COMMANDER
       - STR_GAZER_LEADER
@@ -629,6 +758,9 @@ alienRaces:
       - STR_GAZER_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_GAZER_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_GAZER_COMMANDER
       - STR_GAZER_LEADER
@@ -643,6 +775,9 @@ alienRaces:
       - STR_GAZER_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_GAZER_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_GAZER_COMMANDER
       - STR_GAZER_LEADER
@@ -660,6 +795,9 @@ alienRaces:
 
 #BEGIN SECTOID ELITE
   - id: STR_SECTOID_ELITE
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_ELITE_COMMANDER
       - STR_SECTOID_ELITE_LEADER
@@ -674,6 +812,9 @@ alienRaces:
       - STR_SECTOID_ELITE_SOLDIER
       - STR_SECTOID_ELITE_SOLDIER
   - id: STR_SECTOID_ELITE_12
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_ELITE_COMMANDER
       - STR_SECTOID_ELITE_LEADER
@@ -688,6 +829,9 @@ alienRaces:
       - STR_SECTOID_ELITE_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_SECTOID_ELITE_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_ELITE_COMMANDER
       - STR_SECTOID_ELITE_LEADER
@@ -702,6 +846,9 @@ alienRaces:
       - STR_SECTOID_ELITE_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_SECTOID_ELITE_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_SECTOID_ELITE_COMMANDER
       - STR_SECTOID_ELITE_LEADER
@@ -719,6 +866,9 @@ alienRaces:
 
 #BEGIN MUTON ELITE
   - id: STR_MUTON_ELITE
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -733,6 +883,9 @@ alienRaces:
       - STR_MUTON_ELITE_SOLDIER
       - STR_MUTON_ELITE_SOLDIER
   - id: STR_MUTON_ELITE_13
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -747,6 +900,9 @@ alienRaces:
       - STR_MUTON_ELITE_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_MUTON_ELITE_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_LEADER
       - STR_MUTON_ELITE_LEADER
@@ -764,6 +920,9 @@ alienRaces:
 
 #BEGIN ETHEREAL
   - id: STR_ETHEREAL
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_ETHEREAL_COMMANDER
       - STR_ETHEREAL_LEADER
@@ -778,6 +937,9 @@ alienRaces:
       - STR_ETHEREAL_SOLDIER
       - STR_ETHEREAL_SOLDIER
   - id: STR_ETHEREAL_15
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_ETHEREAL_COMMANDER
       - STR_ETHEREAL_LEADER
@@ -795,6 +957,9 @@ alienRaces:
 
 #BEGIN MUTON ELITE GUARDS
   - id: STR_MUTON_ELITE_GUARD
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_MUTON_ELITE_GUARD_LEADER
       - STR_MUTON_ELITE_GUARD_LEADER
@@ -812,6 +977,9 @@ alienRaces:
 
 #BEGIN CYDONIA STAGE_1
   - id: STR_CYDONIA_STAGE_1
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
     members:
       - STR_ETHEREAL_COMMANDER
       - STR_SECTOID_ELITE_COMMANDER
@@ -830,6 +998,9 @@ alienRaces:
 #END CYDONIA STAGE_1
 
 #BEGIN CYDONIA STAGE 2
+    retaliationMissionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
   - id: STR_CYDONIA_STAGE_2
     members:
       - STR_ETHEREAL_COMMANDER

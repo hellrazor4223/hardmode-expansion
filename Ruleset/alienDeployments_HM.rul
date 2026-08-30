@@ -2017,8 +2017,8 @@ alienDeployments:
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
       STR_ALIEN_BASE_TERROR_MISSION: 30
-      STR_ALIEN_BASE_INFILTRATION_MISSION_06: 20
-      STR_ALIEN_BASE_RETALIATION_MISSION_06: 20
+      STR_ALIEN_BASE_INFILTRATION_MISSION: 20
+      STR_ALIEN_BASE_RETALIATION_MISSION: 20
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base
@@ -2150,8 +2150,8 @@ alienDeployments:
       STR_ALIEN_BASE_ABDUCTION_MISSION: 10
       STR_ALIEN_BASE_HARVEST_MISSION: 10
       STR_ALIEN_BASE_TERROR_MISSION: 30
-      STR_ALIEN_BASE_INFILTRATION_MISSION_06: 20
-      STR_ALIEN_BASE_RETALIATION_MISSION_06: 20
+      STR_ALIEN_BASE_INFILTRATION_MISSION: 20
+      STR_ALIEN_BASE_RETALIATION_MISSION: 20
       STR_ALIEN_SUPPLY: 70
     genMissionFreq: 6 #60% chance to generate a mission each time the trigger is called, usually daily
     genMissionRaceFromAlienBase: true #All mission from this generated from this base have the same race as the base

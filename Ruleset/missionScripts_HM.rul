@@ -91,6 +91,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     targetBaseOdds: 100
     raceWeights:
       0:
@@ -165,6 +169,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_ALIEN_CONTAINMENT: true
     raceWeights:
@@ -173,13 +181,17 @@ missionScripts:
     useTable: false
     maxRuns: 1
     varName: floaterResearchBase
-#END SECTOID BASE
+#END FLOATER BASE
 
 #BEGIN SECTOID BASE
   - type: sectoidResearchBase
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_PSIONICS: true
     raceWeights:
@@ -195,6 +207,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_PERSONAL_ARMOR: true
     raceWeights:
@@ -210,6 +226,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_LASER_WEAPONS: true
     raceWeights:
@@ -225,6 +245,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_LAUNCHER_WEAPONS: true
     raceWeights:
@@ -240,6 +264,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_POWER_SUIT: true
     raceWeights:
@@ -255,6 +283,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_PSI_LAB: true
     raceWeights:
@@ -270,6 +302,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_PLASMA_WEAPONS: true
     raceWeights:
@@ -285,6 +321,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     researchTriggers:
       STR_PSI_AMP: true
     raceWeights:
@@ -372,6 +412,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 100
+      5:
+        STR_ALIEN_BASE_03: 100
+      11:
+        STR_ALIEN_BASE_06: 100
     executionOdds: 50
     startDelay: 6000
     randomDelay: 3000
@@ -415,6 +459,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     executionOdds: 50
     startDelay: 6000
     randomDelay: 3000
@@ -454,6 +502,16 @@ missionScripts:
         STR_ALIEN_BASE: 25
         STR_ALIEN_HARVEST: 25
         STR_ALIEN_ABDUCTION: 25
+      5:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE_03: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
+      11:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE_06: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -478,6 +536,16 @@ missionScripts:
       0:
         STR_ALIEN_RESEARCH: 25
         STR_ALIEN_BASE: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
+      5:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE_03: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
+      11:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE_06: 25
         STR_ALIEN_HARVEST: 25
         STR_ALIEN_ABDUCTION: 25
     executionOdds: 50
@@ -506,6 +574,16 @@ missionScripts:
         STR_ALIEN_BASE: 25
         STR_ALIEN_HARVEST: 25
         STR_ALIEN_ABDUCTION: 25
+      5:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE_03: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
+      11:
+        STR_ALIEN_RESEARCH: 25
+        STR_ALIEN_BASE_06: 25
+        STR_ALIEN_HARVEST: 25
+        STR_ALIEN_ABDUCTION: 25
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -530,6 +608,12 @@ missionScripts:
       0:
         STR_ALIEN_RETALIATION: 50
         STR_ALIEN_INFILTRATION: 50
+      5:
+        STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_INFILTRATION_03: 50
+      11:
+        STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_INFILTRATION_06: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -554,6 +638,12 @@ missionScripts:
       0:
         STR_ALIEN_RETALIATION: 50
         STR_ALIEN_INFILTRATION: 50
+      5:
+        STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_INFILTRATION_03: 50
+      11:
+        STR_ALIEN_RETALIATION: 50
+        STR_ALIEN_INFILTRATION_06: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -577,6 +667,14 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_BASE: 33
+        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_HARVEST: 33
+      5:
+        STR_ALIEN_BASE_03: 33
+        STR_ALIEN_RESEARCH: 33
+        STR_ALIEN_HARVEST: 33
+      11:
+        STR_ALIEN_BASE_06: 33
         STR_ALIEN_RESEARCH: 33
         STR_ALIEN_HARVEST: 33
     executionOdds: 50
@@ -651,7 +749,6 @@ missionScripts:
         STR_ALIEN_RESEARCH: 30
         STR_ALIEN_ABDUCTION: 30
         STR_ALIEN_HARVEST: 30
-        STR_ALIEN_INFILTRATION: 10
         STR_ALIEN_BASE_ABDUCTION_MISSION: 30
         STR_ALIEN_BASE_HARVEST_MISSION: 30
     executionOdds: 50
@@ -678,6 +775,12 @@ missionScripts:
       0:
         STR_ALIEN_BASE: 50
         STR_ALIEN_BASE_BASE_MISSION: 50
+      5:
+        STR_ALIEN_BASE_03: 50
+        STR_ALIEN_BASE_BASE_MISSION_03: 50
+      11:
+        STR_ALIEN_BASE_06: 50
+        STR_ALIEN_BASE_BASE_MISSION_06: 50
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -728,6 +831,20 @@ missionScripts:
         STR_ALIEN_RETALIATION: 30
         STR_ALIEN_BASE_BASE_MISSION: 30
         STR_ALIEN_BASE_HARVEST_MISSION: 30
+      5:
+        STR_ALIEN_BASE_03: 30
+        STR_ALIEN_INFILTRATION_03: 10
+        STR_ALIEN_HARVEST: 30
+        STR_ALIEN_RETALIATION: 30
+        STR_ALIEN_BASE_BASE_MISSION_03: 30
+        STR_ALIEN_BASE_HARVEST_MISSION: 30
+      11:
+        STR_ALIEN_BASE_06: 30
+        STR_ALIEN_INFILTRATION_06: 10
+        STR_ALIEN_HARVEST: 30
+        STR_ALIEN_RETALIATION: 30
+        STR_ALIEN_BASE_BASE_MISSION_06: 30
+        STR_ALIEN_BASE_HARVEST_MISSION: 30
     executionOdds: 50
     startDelay: 6000
     randomDelay: 6000
@@ -745,6 +862,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -761,6 +882,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -777,6 +902,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -793,6 +922,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -809,6 +942,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -825,6 +962,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -841,6 +982,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -858,6 +1003,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50
@@ -874,6 +1023,10 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
+      5:
+        STR_ALIEN_INFILTRATION_03: 100
+      11:
+        STR_ALIEN_INFILTRATION_06: 100
     raceWeights:
       0:
         STR_ETHEREAL_15: 50

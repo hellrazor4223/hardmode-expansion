@@ -218,6 +218,7 @@ General Gameplay changes:
 	Alien Alloys recovered from UFO mission are ~36% lower then vanilla.
 	Aliens do have more chances to score more points.
 	Alien Bases will upgrade in size after 3 months (50x50 -> 60x60 -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
+	Alien Bases building from Interrogations or other MissionScript anchors, will generate 60x60 bases beginning from month 7 and 70x70 bases beginning from month 12.
 	Alien Bases will upgrade the score they generate for the Alien when they upgrade in size (17->34->51 points per day).
 	Alien Bases will generate missions without Scout Ships depending on their current size, those mission will be of same species as the alien base generating them:
 		50x50 sized Alien Base: Supply, Abduction, Harvest, Base

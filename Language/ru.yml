@@ -1174,14 +1174,19 @@ ru:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
+  STR_ALIEN_INFILTRATION_03: "Проникновение пришельцев"
+  STR_ALIEN_INFILTRATION_06: "Проникновение пришельцев"
+  STR_ALIEN_BASE_03: "База пришельцев"
+  STR_ALIEN_BASE_06: "База пришельцев"
+
   STR_ALIEN_BASE_TERROR_MISSION: "Террор пришельцев"
   STR_ALIEN_BASE_ABDUCTION_MISSION: "Похищение"
   STR_ALIEN_BASE_HARVEST_MISSION: "Сбор урожая"
   STR_ALIEN_BASE_BASE_MISSION: "База пришельцев"
   STR_ALIEN_BASE_BASE_MISSION_03: "База пришельцев"
   STR_ALIEN_BASE_BASE_MISSION_06: "База пришельцев"
-  STR_ALIEN_BASE_INFILTRATION_MISSION_06: "Проникновение пришельцев"
-  STR_ALIEN_BASE_RETALIATION_MISSION_06: "Возмездие пришельцев"
+  STR_ALIEN_BASE_INFILTRATION_MISSION: "Проникновение пришельцев"
+  STR_ALIEN_BASE_RETALIATION_MISSION: "Возмездие пришельцев"
 
   STR_ALIEN_BASE_GAMESTART: "База пришельцев"
   STR_ALIEN_BASE_GAMESTART_ASSAULT: "ШТУРМ БАЗЫ ПРИШЕЛЬЦЕВ"
