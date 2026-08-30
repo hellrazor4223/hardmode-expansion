@@ -1174,8 +1174,6 @@ fr:
 #BEGIN MISSION STRINGS & ALERTS
 STR_ALIEN_INFILTRATION_03: "Infiltration extraterrestre"
   STR_ALIEN_INFILTRATION_06: "Infiltration extraterrestre"
-  STR_ALIEN_BASE_03: "Base extraterrestre"
-  STR_ALIEN_BASE_06: "Base extraterrestre"
 
   STR_ALIEN_BASE_TERROR_MISSION: "Terreur extraterrestre"
   STR_ALIEN_BASE_ABDUCTION_MISSION: ""

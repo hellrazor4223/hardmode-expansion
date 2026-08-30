@@ -1176,8 +1176,6 @@ ru:
 #BEGIN MISSION STRINGS & ALERTS
   STR_ALIEN_INFILTRATION_03: "Проникновение пришельцев"
   STR_ALIEN_INFILTRATION_06: "Проникновение пришельцев"
-  STR_ALIEN_BASE_03: "База пришельцев"
-  STR_ALIEN_BASE_06: "База пришельцев"
 
   STR_ALIEN_BASE_TERROR_MISSION: "Террор пришельцев"
   STR_ALIEN_BASE_ABDUCTION_MISSION: "Похищение"

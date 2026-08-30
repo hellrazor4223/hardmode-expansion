@@ -1178,8 +1178,6 @@ de:
 #BEGIN MISSION STRINGS & ALERTS
   STR_ALIEN_INFILTRATION_03: "Außerirdische Infiltration"
   STR_ALIEN_INFILTRATION_06: "Außerirdische Infiltration"
-  STR_ALIEN_BASE_03: "Außerirdischenbasis"
-  STR_ALIEN_BASE_06: "Außerirdischenbasis"
 
   STR_ALIEN_BASE_TERROR_MISSION: "Außerirdischer Terror"
   STR_ALIEN_BASE_ABDUCTION_MISSION: "Außerirdische Entführung"
