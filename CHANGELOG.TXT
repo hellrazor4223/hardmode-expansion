@@ -11,6 +11,7 @@ Version 1.0
  - Fix Retaliation Spawning Alien Bases Bug
  - Rebalance Shotguns to be more sane
  - Rebalance Pistol Damage and Rifle TU usage slightly (for better role adaption)
+ - Move alien Research Mission into February (too many missions in january)
  - Add complete Russian translation (transifex+grok)
  - Add complete German translation (transifex+grok)
  - Add complete Japanese translation (transifex+grok)

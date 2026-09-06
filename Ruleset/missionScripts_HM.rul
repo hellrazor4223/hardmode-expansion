@@ -42,7 +42,8 @@ missionScripts:
     missionWeights:
       0:
         STR_ALIEN_RESEARCH: 100
-    lastMonth: 0
+    firstMonth: 1
+    lastMonth: 1
     targetBaseOdds: 100
     raceWeights:
       0:
