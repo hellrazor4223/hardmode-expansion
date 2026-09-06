@@ -1172,7 +1172,7 @@ fr:
 #END COMMENDATIONS
 
 #BEGIN MISSION STRINGS & ALERTS
-STR_ALIEN_INFILTRATION_03: "Infiltration extraterrestre"
+  STR_ALIEN_INFILTRATION_03: "Infiltration extraterrestre"
   STR_ALIEN_INFILTRATION_06: "Infiltration extraterrestre"
 
   STR_ALIEN_BASE_TERROR_MISSION: "Terreur extraterrestre"
