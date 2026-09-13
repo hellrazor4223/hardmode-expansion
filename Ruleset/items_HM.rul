@@ -1977,7 +1977,9 @@ items:
     compatibleAmmo:
       - STR_RIFLE_CLIP
       - STR_RIFLE_AA_CLIP
-    tuAimed: 70
+    tuSnap: 20
+    tuAimed: 60
+    power: 33
     armor: 20
     snapRange: 18
     autoRange: 10
@@ -1999,7 +2001,7 @@ items:
     bulletSprite: 20
     hitSound: 22
     hitAnimation: 26
-    power: 45
+    power: 50
     damageType: 1
     clipSize: 20
     battleType: 2
@@ -2269,6 +2271,7 @@ items:
     accuracyAuto: 40
     accuracySnap: 60
     accuracyAimed: 90
+    autoShots: 4
     armor: 20
     listOrder: 2700
     snapRange: 20
@@ -2296,6 +2299,7 @@ items:
     tuAuto: 40
     tuSnap: 33
     tuAimed: 80
+    autoShots: 4
     battleType: 1
     twoHanded: true
     invWidth: 2
