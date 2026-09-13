@@ -19,6 +19,7 @@ Version 1.0
  - Add Sniper for all Aliens with firearms / distance weapons
  - Add Spotting reset script, so Aliens can only spot & snipe on their own turn
  - Add Archetype Soldier Responses (16 Voices * 9 Archtypes = 144 Voicesets)
+ - Add VoiceSet Konfiguration (requieres OXCE 8.7+)
  - Disable SpotOnHit mechanic for the aliens
 
 Version 0.99.9.9

@@ -3,7 +3,7 @@
 
 #Prerequisites:
 This mod requires at least:
-OXCE: OXCE v8.60 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+OXCE: OXCE v8.70 see: https://openxcom.org/forum/index.php/topic,5258.0.html
 or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
 Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
 
@@ -234,7 +234,22 @@ General Gameplay changes:
 	Successfully Attacking a Infiltration Pact Alien Base, lets the country rejoin the council (OXCE only).
 	X-Com Base Defense damaging a Alien Battleship during a base attack will result in less Aliens spawning (roughly according with the damage done).
 	X-Com Base modules, which require Alien technology research, have a additional construction cost (Alien Alloys, Elerium-115, UFO Navigation, UFO Power Source, Mind Probe) (OXCE only).
-	Soldiers do have 144 different Avatars/Faces (72 Male, 72 Female)
+	X-Com Soldiers do have 144 different Avatars/Faces (72 Male, 72 Female)
+	X-Com Soldiers do have 144 different Response Sound Voicesets (72 Male, 72 Female)
+
+How to use Voicesets:
+	Turn off via: CTRL+X and or set in Ruleset/vars_HM.rul -> enableUnitResponseSounds: false
+
+	1.) At the base in the soldier inventory... Ctrl+LeftClick on the paperdoll
+	2.) At the base in the soldier info... Ctrl+LeftClick on the SelectArmor button
+	3.) During the mission in the soldier inventory... LeftClick on the paperdoll
+	4.) During the mission in the UnitView (opened by MiddleClick on a unit)... press hotkey for MusicTrack (by default 'End' key)
+
+	Left click on a voice set assigns it to the unit on the battlescape; and if it is a soldier then also to the geoscape soldier.
+	Right click on a voice set plays a (random) preview sound.
+
+	Changing soldier's avatar resets the voice set.
+	If a player would prefer not resetting the voice set, there's an option in options.cfg called `oxceResetUnitResponseSoundsOnAvatarChange`.
 
 Economic:
 	The maximum funding you can receive from Nations is cut by 50%
@@ -283,7 +298,7 @@ Groundcombat changes:
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
 	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
 	Xcom Soldiers with Blaster Launchers or Weapons which only have a Aimed Shot can now go Berserk with those weapons
-	Soldier will now respond to your actions on the Battlescape with audio commentary (16 Voices * 9 Archetype = 144 Voicesets)
+	Xcom Soldier will now respond to your actions on the Battlescape with audio commentary (16 Voices * 9 Archetype = 144 Voicesets)
 	All Aliens and Terrorunits will now act as Spotters on their own turn only.
 	Alien armed with firearms/distance weapons or grenades can now Snipe on their own turn only.
 
