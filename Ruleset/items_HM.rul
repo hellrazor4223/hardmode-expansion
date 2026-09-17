@@ -1977,8 +1977,8 @@ items:
     compatibleAmmo:
       - STR_RIFLE_CLIP
       - STR_RIFLE_AA_CLIP
-    tuSnap: 20
-    tuAimed: 60
+    tuSnap: 25
+    tuAimed: 50
     power: 33
     armor: 20
     snapRange: 18

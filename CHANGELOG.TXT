@@ -10,12 +10,13 @@ Version 1.0
  - Fix wrong CheatTurn for Large UFO's was 10 should be 14
  - Fix Retaliation Spawning Alien Bases Bug
  - Rebalance Shotguns to be more sane
- - Rebalance Rifle Damage and Rifle TU usage slightly (for better role adaption)
+ - Rebalance Rifle Damage and Rifle aimedTU usage
  - Rebalance Alien Mission UFO waves
  - Move alien Research Mission into February (too many missions in january)
  - Add complete Russian translation (transifex+grok)
  - Add complete German translation (transifex+grok)
  - Add complete Japanese translation (transifex+grok)
+ - Add complete Tschechien (CZ) translation (transifex+grok)
  - Add Spotter for all Aliens and Terrorunits
  - Add Sniper for all Aliens with firearms / distance weapons
  - Add Spotting reset script, so Aliens can only spot & snipe on their own turn
