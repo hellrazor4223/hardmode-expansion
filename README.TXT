@@ -501,12 +501,12 @@ Currently Supported Languages:
 	Japanese	JA (ja)
 	Russian		RU (ru)
 	German		DE (de)
+	Czech		CS (cs)
 
 Partially Supported Languages (50%+):
 	Italien		IT (it)
 	Polish		PL (pl)
 	Hungarien	HU (hu)
-	Czech		CS (cs)
 	Korean		KO (ko)
 	Portugese	PT (pt_BR)
 	Spanish Latin America ES (es_419)

@@ -13,10 +13,10 @@ Version 1.0
  - Rebalance Rifle Damage and Rifle aimedTU usage
  - Rebalance Alien Mission UFO waves
  - Move alien Research Mission into February (too many missions in january)
- - Add complete Russian translation (transifex+grok)
- - Add complete German translation (transifex+grok)
- - Add complete Japanese translation (transifex+grok)
- - Add complete Tschechien (CZ) translation (transifex+grok)
+ - Add complete Russian (RU) translation (transifex+grok)
+ - Add complete German (DE) translation (transifex+grok)
+ - Add complete Japanese (JA) translation (transifex+grok)
+ - Add complete Czech (CS) translation (transifex+grok)
  - Add Spotter for all Aliens and Terrorunits
  - Add Sniper for all Aliens with firearms / distance weapons
  - Add Spotting reset script, so Aliens can only spot & snipe on their own turn
