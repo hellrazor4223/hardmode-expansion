@@ -1979,7 +1979,6 @@ items:
       - STR_RIFLE_AA_CLIP
     tuSnap: 25
     tuAimed: 50
-    power: 33
     armor: 20
     snapRange: 18
     autoRange: 10
@@ -1987,6 +1986,7 @@ items:
   - type: STR_RIFLE_CLIP
     supportedInventorySections: *HOLSTER_FORBIDDEN
     handSprite: 136
+    power: 33
     armor: 20
   - type: STR_RIFLE_AA_CLIP
     supportedInventorySections: *HOLSTER_FORBIDDEN
