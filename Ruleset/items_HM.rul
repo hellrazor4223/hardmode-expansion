@@ -1939,7 +1939,6 @@ items:
   - type: STR_PISTOL_CLIP
     supportedInventorySections: *HOLSTER_ALLOWED
     handSprite: 128
-    power: 23
     armor: 20
   - type: STR_PISTOL_AA_CLIP
     supportedInventorySections: *HOLSTER_ALLOWED
@@ -1954,7 +1953,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 19
-    power: 34
+    power: 39
     damageType: 1
     clipSize: 12
     battleType: 2
