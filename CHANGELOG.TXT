@@ -10,8 +10,10 @@ Version 1.0
  - Fix wrong CheatTurn for Large UFO's was 10 should be 14
  - Fix Retaliation Spawning Alien Bases Bug
  - Rebalance Shotguns to be more sane
- - Rebalance Rifle Damage and Rifle aimedTU usage
- - Rebalance Alien Mission UFO waves
+ - Rebalance Rifle Damage and Rifle AimedTU usage
+ - Rebalance Alien Mission UFO waves (more atuned to vanilla again)
+ - Rebalance Laser Pistol AimedTU and buff accuracy to be more lore like
+ - Rebalance Pistol autoshot accuracy
  - Move alien Research Mission into February (too many missions in january)
  - Add complete Russian (RU) translation (transifex+grok)
  - Add complete German (DE) translation (transifex+grok)

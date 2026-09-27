@@ -284,6 +284,9 @@ Groundcombat changes:
 	Chryssalids are slightly vulnerable to HE damage (as stated in the UFOpedia)
 	Sectopod does Laser Damage (as stated in UFOpedia)
 	Blaster Waypoints honor DOS Limitation (9 Waypoints)
+	Pistol does have Autoshot
+	Rifle can do 2 Aimed Shot per turn and gets a tiny damage buff over Pistol
+	Laser Pistol get Accuracy buff (according to lore) and has 2 Aimed Shots per turn.
 	Shotgun Class Weaponry for Xcom and Aliens
 	Dedicaded Melee Weaponry for Xcom and Aliens
 	Medikits and Drone/Medikit can target enemy units, DOS behaviour (OXCE only)

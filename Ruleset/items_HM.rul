@@ -1930,7 +1930,7 @@ items:
     compatibleAmmo:
       - STR_PISTOL_CLIP
       - STR_PISTOL_AA_CLIP
-    accuracyAuto: 60
+    accuracyAuto: 40
     tuAuto: 54
     armor: 20
     snapRange: 14
@@ -2541,6 +2541,12 @@ items:
     supportedInventorySections: *HOLSTER_ALLOWED
     fireSound: 69
     hitSound: 19
+    accuracyAuto: 45
+    accuracySnap: 60
+    accuracyAimed: 82
+    tuAuto: 25
+    tuSnap: 20
+    tuAimed: 40
     armor: 30
     snapRange: 16
     autoRange: 10
