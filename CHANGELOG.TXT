@@ -17,6 +17,7 @@ Version 1.0
  - Rebalance Laser Pistol (AimedTU 55 -> 40, and Accuracy buff)
  - Rebalance Pistol autoshot accuracy (60->40)
  - Delay Alien Base Building Mission towards the end of the Month
+ - Add better Smoke animation for thickness representation (white no LOS Block, Grey some, Black good LOS BLock)
  - Add complete Russian (RU) translation (transifex+grok)
  - Add complete German (DE) translation (transifex+grok)
  - Add complete Japanese (JA) translation (transifex+grok)
