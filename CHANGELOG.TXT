@@ -14,7 +14,7 @@ Version 1.0
  - Rebalance Alien Mission UFO waves (more atuned to vanilla again)
  - Rebalance Laser Pistol AimedTU and buff accuracy to be more lore like
  - Rebalance Pistol autoshot accuracy
- - Move alien Research Mission into February (too many missions in january)
+ - Delay Alien Base Building Mission towards the end of the Month
  - Add complete Russian (RU) translation (transifex+grok)
  - Add complete German (DE) translation (transifex+grok)
  - Add complete Japanese (JA) translation (transifex+grok)

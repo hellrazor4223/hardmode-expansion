@@ -299,8 +299,8 @@ Groundcombat changes:
 	Zombies will now turn into Chryssalids/Chryssalid Spitters after 3-11 turn (random) on their own (No more safe Zombies!)
 	Enemy Terror Units will charge enemies over several turns; units with charge behaviour are: Silacoids, Reapers, Chryssalids, Muton Berserkers, Cybermites and all Zombies
 	Quickdraw Holster in Soldier Inventories for Pistols, Stun Rods, Knifes, Swords, Medikits, Motionscanners, Electroflares
-	Armed Civilians can be recruited, when the survive as Soldiers, Engineers and Scientists
-	Xcom Soldiers with Blaster Launchers or Weapons which only have a Aimed Shot can now go Berserk with those weapons
+	Armed Civilians can be recruited, when they survive as Soldiers, Engineers and Scientists
+	Units with Blaster Launchers or Weapons which only have a Aimed Shot can now go Berserk with those weapons
 	Xcom Soldier will now respond to your actions on the Battlescape with audio commentary (16 Voices * 9 Archetype = 144 Voicesets)
 	All Aliens and Terrorunits will now act as Spotters on their own turn only.
 	Alien armed with firearms/distance weapons or grenades can now Snipe on their own turn only.
