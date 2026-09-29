@@ -9,11 +9,13 @@ Version 1.0
  - Fix Terror Mission Snow Civilian Name typo
  - Fix wrong CheatTurn for Large UFO's was 10 should be 14
  - Fix Retaliation Spawning Alien Bases Bug
- - Rebalance Shotguns to be more sane
- - Rebalance Rifle Damage and Rifle AimedTU usage
+ - Fix LINERSHIP Map LZ and LZ Spawnnodes (Craft will now spawn properly)
+ - Fix CARGOSHIP Map LZ Spawnnodes
+ - Rebalance Shotguns (better choke, better cone, less hard range restriction)
+ - Rebalance Rifle (Damage 30->33, AimedTU 80->50)
  - Rebalance Alien Mission UFO waves (more atuned to vanilla again)
- - Rebalance Laser Pistol AimedTU and buff accuracy to be more lore like
- - Rebalance Pistol autoshot accuracy
+ - Rebalance Laser Pistol (AimedTU 55 -> 40, and Accuracy buff)
+ - Rebalance Pistol autoshot accuracy (60->40)
  - Delay Alien Base Building Mission towards the end of the Month
  - Add complete Russian (RU) translation (transifex+grok)
  - Add complete German (DE) translation (transifex+grok)
