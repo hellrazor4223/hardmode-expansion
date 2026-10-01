@@ -6,6 +6,7 @@ Version 1.0
  - Fix Mapscript for AREA51 Terrain
  - Fix Single Produciton for Alloy Shotgun Shells
  - Fix Wrong Reaper Death Sound
+ - Fix Wrong Snakeman Move Sound
  - Fix Terror Mission Snow Civilian Name typo
  - Fix wrong CheatTurn for Large UFO's was 10 should be 14
  - Fix Retaliation Spawning Alien Bases Bug

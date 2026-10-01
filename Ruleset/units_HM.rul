@@ -639,7 +639,7 @@ units:
 #BEGIN SNAKEMAN SOLDIER UNIT
   - type: STR_SNAKEMAN_SOLDIER
     deathSound: 8
-    moveSound: 1
+    moveSound: 0
     stats: &SNAKEMAN_STATS
       bravery: 90
       psiStrength: 60
@@ -652,7 +652,7 @@ units:
 #BEGIN SNAKEMAN NAVIGATOR UNIT
   - type: STR_SNAKEMAN_NAVIGATOR
     deathSound: 8
-    moveSound: 1
+    moveSound: 0
     stats: *SNAKEMAN_STATS
     value: 9
     spotter: 1
@@ -662,7 +662,7 @@ units:
 #BEGIN SNAKEMAN ENGINEER UNIT
   - type: STR_SNAKEMAN_ENGINEER
     deathSound: 8
-    moveSound: 1
+    moveSound: 0
     stats: *SNAKEMAN_STATS
     value: 10
     spotter: 1
@@ -672,7 +672,7 @@ units:
 #BEGIN SNAKEMAN LEADER UNIT
   - type: STR_SNAKEMAN_LEADER
     deathSound: 8
-    moveSound: 1
+    moveSound: 0
     stats:
       bravery: 100
       psiStrength: 68
@@ -685,7 +685,7 @@ units:
 #BEGIN SNAKEMAN COMMANDER UNIT
   - type: STR_SNAKEMAN_COMMANDER
     deathSound: 8
-    moveSound: 1
+    moveSound: 0
     stats:
       bravery: 100
       psiStrength: 75
