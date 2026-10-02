@@ -209,6 +209,7 @@ General Gameplay changes:
 	Terrormissions have multiple Alerts and Terrainhint.
 	Research costs are 1,5 times vanilla.
 	Melee Weapons apply Skill and Strength.
+	Melee Weapons can destroy Terrain.
 	Alive Aliens are needed to unlock techs (-> Research Tree Graphic).
 	Psi Amp is harder to get throu research.
 	Psi Amp production is much more expensive.

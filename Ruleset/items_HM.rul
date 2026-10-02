@@ -1778,6 +1778,8 @@ items:
     power: 10
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: -1
     accuracyMelee: 100
     skillApplied: true
@@ -1809,6 +1811,8 @@ items:
     power: 30
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: -1
     accuracyMelee: 115
     skillApplied: true
@@ -1840,6 +1844,8 @@ items:
     power: 60
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: -1
     accuracyMelee: 130
     skillApplied: true
@@ -2216,6 +2222,8 @@ items:
     bulletSprite: 22
     power: 84
     damageType: 1
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 6
     battleType: 2
     armor: 30
@@ -2243,6 +2251,8 @@ items:
     bulletSprite: 26
     power: 78
     damageType: 3
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 6
     battleType: 2
     blastRadius: 5
@@ -2541,6 +2551,8 @@ items:
     supportedInventorySections: *HOLSTER_ALLOWED
     fireSound: 69
     hitSound: 19
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 45
     accuracySnap: 60
     accuracyAimed: 82
@@ -2557,6 +2569,8 @@ items:
   - type: STR_LASER_RIFLE
     supportedInventorySections: *HOLSTER_FORBIDDEN
     hitSound: 19
+    damageAlter:
+      TileDamageLimit: 99
     armor: 30
     snapRange: 20
     autoRange: 12
@@ -2579,6 +2593,8 @@ items:
     hitAnimation: 36
     power: 60
     damageType: 4
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 60
     accuracySnap: 70
     accuracyAimed: 85
@@ -2611,6 +2627,8 @@ items:
     fireSound: 81
     hitSound: 19
     power: 100
+    damageAlter:
+      TileDamageLimit: 99
     accuracySnap: 80
     accuracyAimed: 130
     tuSnap: 33
@@ -2637,6 +2655,8 @@ items:
     hitAnimation: 36
     power: 85
     damageType: 4
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 50
     accuracySnap: 75
     tuAuto: 50
@@ -2898,6 +2918,8 @@ items:
 #BEGIN STUN ROD ITEM
   - type: STR_ELERIUM_STUN_ROD
     supportedInventorySections: *HOLSTER_ALLOWED
+    damageAlter:
+      TileDamageLimit: 99
     listOrder: 4500
 #END STUN ROD ITEM
 
@@ -2915,6 +2937,8 @@ items:
     meleeSound: 54
     power: 95
     damageType: 6
+    damageAlter:
+      TileDamageLimit: 99
     accuracyMelee: 110
     tuMelee: 30
     battleType: 3
@@ -2954,6 +2978,7 @@ items:
     damageAlter:
       RandomType: 4
       FixRadius: 3
+      TileDamageLimit: 99
     battleType: 1
     clipSize: 3
     isFireExtinguisher: true
@@ -2988,6 +3013,8 @@ items:
     power: 80
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: -1
     accuracyMelee: 140
     skillApplied: true
@@ -3021,6 +3048,8 @@ items:
     power: 100
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: -1
     accuracyMelee: 160
     skillApplied: true
@@ -3059,6 +3088,8 @@ items:
     hitSound: 73
     hitAnimation: 150
     hitAnimFrames: 10
+    damageAlter:
+      TileDamageLimit: 99
     armor: 30
     attraction: 10
     costSell: 2220
@@ -3079,6 +3110,8 @@ items:
     hitAnimFrames: 10
     power: 72
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 26
     battleType: 2
     recoveryPoints: 1
@@ -3109,6 +3142,8 @@ items:
     hitSound: 73
     hitAnimation: 160
     hitAnimFrames: 10
+    damageAlter:
+      TileDamageLimit: 99
     armor: 30
     attraction: 10
     costSell: 3145
@@ -3129,6 +3164,8 @@ items:
     hitAnimFrames: 10
     power: 100
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 28
     battleType: 2
     recoveryPoints: 1
@@ -3192,6 +3229,8 @@ items:
     hitAnimFrames: 10
     power: 80
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 16
     battleType: 2
     recoveryPoints: 1
@@ -3217,6 +3256,8 @@ items:
     hitAnimFrames: 10
     power: 100
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 16
     battleType: 2
     recoveryPoints: 1
@@ -3275,6 +3316,8 @@ items:
     hitAnimFrames: 10
     power: 110
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 16
     battleType: 2
     recoveryPoints: 1
@@ -3297,6 +3340,8 @@ items:
     hitAnimFrames: 10
     power: 130
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 16
     battleType: 2
     recoveryPoints: 1
@@ -3329,6 +3374,8 @@ items:
     hitSound: 73
     hitAnimation: 170
     hitAnimFrames: 10
+    damageAlter:
+      TileDamageLimit: 99
     costSell: 4795
     listOrder: 5500
   - type: STR_HEAVY_PLASMA_ELERIUM_CLIP
@@ -3347,6 +3394,8 @@ items:
     hitAnimFrames: 10
     power: 135
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     clipSize: 35
     battleType: 2
     recoveryPoints: 1
@@ -3976,6 +4025,8 @@ items:
   - type: ZOMBIE_WEAPON
     bigSprite: 228
     meleeSound: 63
+    damageAlter:
+      TileDamageLimit: 99
 #END ZOMBIE WEAPON
 
 #BEGIN CYBERDISC WEAPON ITEM
@@ -3984,11 +4035,15 @@ items:
     hitAnimFrames: 10
     fireSound: 72
     hitSound: 73
+    damageAlter:
+      TileDamageLimit: 99
 #END CYBERDISC WEAPON ITEM
 
 #BEGIN CHRYSSALID WEAPON ITEM
   - type: CHRYSSALID_WEAPON
     meleeSound: 62
+    damageAlter:
+      TileDamageLimit: 99
 #END CHRYSSALID WEAPON ITEM
 
 #BEGIN SECTOPOD WEAPON ITEM
@@ -3998,6 +4053,8 @@ items:
     hitSound: 19
     hitAnimation: 36
     power: 110
+    damageAlter:
+      TileDamageLimit: 99
     bulletSprite: 7
     autoShots: 5
     listOrder: 11400
@@ -4011,6 +4068,8 @@ items:
     maxRange: 16
     fireSound: 51
     hitSound: 73
+    damageAlter:
+      TileDamageLimit: 99
   - &STR_CELATID_EMBRYO
     type: STR_CELATID_EMBRYO
     size: 0.1
@@ -4062,6 +4121,8 @@ items:
     clipSize: -1
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     accuracyMelee: 200
     tuMelee: 10
     battleType: 3
@@ -4084,6 +4145,8 @@ items:
     clipSize: -1
     power: 80
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     accuracyMelee: 80
     tuMelee: 15
     battleType: 3
@@ -4107,6 +4170,8 @@ items:
     clipSize: -1
     power: 85
     damageType: 4
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 40
     accuracySnap: 80
     tuAuto: 35
@@ -4136,6 +4201,8 @@ items:
     hitAnimFrames: 10
     power: 130
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 40
     accuracySnap: 75
     accuracyAimed: 110
@@ -4167,6 +4234,8 @@ items:
     hitAnimFrames: 10
     power: 125
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 70
     accuracySnap: 85
     accuracyAimed: 120
@@ -4197,6 +4266,8 @@ items:
     clipSize: -1
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     accuracyMelee: 120
     tuMelee: 10
     battleType: 3
@@ -4219,6 +4290,8 @@ items:
     power: 110
     clipSize: -1
     damageType: 8
+    damageAlter:
+      TileDamageLimit: 99
     accuracySnap: 100
     tuSnap: 20
     battleType: 1
@@ -4242,6 +4315,8 @@ items:
     meleeSound: 63
     strengthApplied: true
     damageType: 7
+    damageAlter:
+      TileDamageLimit: 99
     accuracyMelee: 100
     tuMelee: 15
     battleType: 3

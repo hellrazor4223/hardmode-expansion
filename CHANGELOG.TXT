@@ -29,6 +29,7 @@ Version 1.0
  - Add Archetype Soldier Responses (16 Voices * 9 Archtypes = 144 Voicesets)
  - Add VoiceSet Konfiguration (requieres OXCE 8.7+)
  - Disable SpotOnHit mechanic for the aliens
+ - Enable Terrainmelee and Limit Tiledamage
 
 Version 0.99.9.9
  - Fix Loaderror for OXCE 8.5.8+ Validation
