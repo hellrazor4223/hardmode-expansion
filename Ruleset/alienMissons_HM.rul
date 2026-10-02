@@ -165,7 +165,6 @@ alienMissions:
         objectiveOnTheLandingSite: true
 #END ALIEN BASE
 
-
 #BEGIN ALIEN BASE 03
   - type: STR_ALIEN_BASE_03
     points: 75

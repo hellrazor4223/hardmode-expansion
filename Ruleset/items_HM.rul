@@ -888,6 +888,8 @@ items:
 #BEGIN TANK LASER CANNON ITEM
   - type: STR_TANK_LASER_CANNON
     customItemPreviewIndex: 0
+    damageAlter:
+      TileDamageLimit: 99
     size: 4
     fireSound: 70
     hitSound: 19
@@ -1106,6 +1108,8 @@ items:
   - type: STR_ALLOY_TANK_LASER_CANNON
     customItemPreviewIndex: 1
     damageType: 4
+    damageAlter:
+      TileDamageLimit: 99
     battleType: 1
     size: 4
     costSell: 694000
@@ -1203,6 +1207,8 @@ items:
   - type: STR_HOVERTANK_LASER
     customItemPreviewIndex: 2
     damageType: 4
+    damageAlter:
+      TileDamageLimit: 99
     battleType: 1
     size: 4
     costSell: 900000
@@ -1362,6 +1368,8 @@ items:
 #BEGIN HOVERTANK PLASMA ITEM
   - type: STR_HOVERTANK_PLASMA
     customItemPreviewIndex: 2
+    damageAlter:
+      TileDamageLimit: 99
     bigSprite: 222
     hitAnimation: 170
     hitAnimFrames: 10
@@ -1503,6 +1511,8 @@ items:
     hitAnimation: 36
     power: 110
     damageType: 4
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 50
     accuracySnap: 75
     accuracyAimed: 110
@@ -1574,6 +1584,8 @@ items:
     hitAnimation: 200
     power: 125
     damageType: 5
+    damageAlter:
+      TileDamageLimit: 99
     accuracyAuto: 70
     accuracySnap: 85
     accuracyAimed: 120
