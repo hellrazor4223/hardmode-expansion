@@ -1,6 +1,6 @@
 hu:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0 by hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode Expansion Mod{NEWLINE}v1.0.1 by hellrazor"
   STR_GROUND: "TALAJ {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "ELIGAZÍTÁS ÉS HÍREK"
   STR_HEAVY_WEAPONS_PLATFORMS: ""

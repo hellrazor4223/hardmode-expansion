@@ -1,6 +1,6 @@
 ja:
 #BEGIN GENERAL
-  STR_OPENXCOM: "OpenXcom - Hardmode 拡張モッド{NEWLINE}v1.0 制作 hellrazor"
+  STR_OPENXCOM: "OpenXcom - Hardmode 拡張モッド{NEWLINE}v1.0.1 制作 hellrazor"
   STR_GROUND: "地面 {0}/{1}"
   STR_XCOM_CRAFT_ARMAMENT: "任務とニュース"
   STR_HEAVY_WEAPONS_PLATFORMS: "基地の施設"
