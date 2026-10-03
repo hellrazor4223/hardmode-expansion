@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Add new Reaper Hitanimation by pWWWa
+ - Update PlasmaBlade, PlasmaSword graphics to newest Version
 
 Version 1.0
  - Fix Wrong Avatarhead
