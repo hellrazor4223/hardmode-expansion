@@ -4033,6 +4033,14 @@ items:
 ##END ALIEN CORPSE ITEMS
 
 ##BEGIN ALIEN TERROR UNIT WEAPON ITEMS
+#BEGIN REAPER WEAPON
+  - type: REAPER_WEAPON
+    meleeAnimation: 64
+    meleeAnimFrames: 8
+    damageAlter:
+      TileDamageLimit: 99
+#END REAPER WEAPON
+
 #BEGIN ZOMBIE WEAPON
   - type: ZOMBIE_WEAPON
     bigSprite: 228

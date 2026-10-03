@@ -3945,6 +3945,7 @@ extraSprites:
       40: Resources/Battlescape/Items/Alien/PlasmaSword/HitAnimation_PlasmaSword_8_frames.png
       48: Resources/Battlescape/Items/PsiHitAnimation_8_frames.png
       56: Resources/Battlescape/Items/PsiMissAnimation_8_frames.png
+      64: Resources/Battlescape/Units/Alien/Reaper/HitAnimation_Reaper_8_frames.png
 #END HIT
 
 

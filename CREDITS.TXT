@@ -135,6 +135,7 @@ Credits go to:
 		- For the Custom HitAnimations for the Combat Knife, Alloy Knife and Alloy Sword
 		- For the Custom PsiAnimation for Psi-Amp and the alien Psi Weapon
 		- For fixing the AmigaFonts correctly! ;)
+		- For the Reaper Hitanimation
 	chaosshade:
 		- For the PlasmaShotgun (Deadliest weapon ever after Blaster Launchers =))
 		- For the Elerium Rocket
