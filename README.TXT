@@ -125,7 +125,7 @@ Enabled/Disabled automatically when loading the mod:
 	Off center shooting (Soldiers adjust LOF is LOS is there): Enabled
 	Shootingspread is more uniform: Enabled
 	Researchlistorder can sorted by the player: Enabled
-	Manufacture Fallback and Infifity Buttons: Enabled
+	Manufacture Fallback and Infinity Buttons: Enabled
 	Indicators for idle Scientist, Engineers and Psis: Enabled
 
 Enabled automatically when loading the mod for the first time:
@@ -172,7 +172,7 @@ Quality of Live OXCE UI changes:
 	SoldierAvatars and TinyRanks (Battlescape UI)
 	SoldierKneelingIndicator (Battlescape UI)
 	Improved TU Reserve Sprites (Battlescape UI)
-	Better Smoke Animation with Thickness Idicator(Battlescape UI)
+	Better Smoke Animation with Thickness Indicator(Battlescape UI)
 	Better looking Buttons for Inventory (Battlescape UI)
 	Better Backgrounds for some Screens (Geoscape and Battlescape UI)
 	New Plasma Hit Animations for all Plasma Weapons (Battlescape UI)
@@ -220,7 +220,7 @@ General Gameplay changes:
 	Aliens do have more chances to score more points.
 	Alien Bases will upgrade in size after 3 months (50x50 -> 60x60 -> 70x70), it is recommended to not tolerate more then 4-6  Alien Bases on earth at all time!
 	Alien Bases building from Interrogations or other MissionScript anchors, will generate 60x60 bases beginning from month 7 and 70x70 bases beginning from month 12.
-	Alien Bases will upgrade the score they generate for the Alien when they upgrade in size (17->34->51 points per day).
+	Alien Bases will upgrade the score they generate for the Aliens when they upgrade in size (17->34->51 points per day).
 	Alien Bases will generate missions without Scout Ships depending on their current size, those mission will be of same species as the alien base generating them:
 		50x50 sized Alien Base: Supply, Abduction, Harvest, Base
 		60x60 sized Alien Base: Supply, Abduction, Harvest, Base, Terror
