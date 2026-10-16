@@ -3,6 +3,8 @@ Changelog:
 Version 1.0.1
  - Add new Reaper Hitanimation by pWWWa
  - Update PlasmaBlade, PlasmaSword graphics to newest Version
+ - Adjust Alien Deployments to make Plasma Rifles appear longer
+ - Adjust Alien Itemlevels to let Aliens transition from green to yellow Plasma Ammo
 
 Version 1.0
  - Fix Wrong Avatarhead
