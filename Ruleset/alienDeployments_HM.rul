@@ -2443,7 +2443,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 12
     civiliansByType: &CIVIANS_BY_TYPE_TERROR
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2481,7 +2481,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 10
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2521,7 +2521,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 12
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - APARTMENT
@@ -2556,7 +2556,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 12
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - INDUSTRIALURBAN
@@ -2589,7 +2589,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 12
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - PORTURBAN
@@ -2620,7 +2620,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 10
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2655,7 +2655,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 10
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2690,21 +2690,21 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 6
+    civilians: 2
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
       STR_SCIENTIST_FEMALE0: 2
-      STR_SOLDIER_FEMALE_GREEN0: 4
-      STR_SOLDIER_FEMALE_GREEN1: 4
-      STR_SOLDIER_MALE_GREEN0: 4
-      STR_SOLDIER_MALE_GREEN1: 4
-      STR_SOLDIER_MALE_GREEN2: 4
-      STR_SOLDIER_MALE_GREEN3: 4
-      STR_DOCTOR_FEMALE0: 2
-      STR_DOCTOR_MALE0: 2
-      STR_TECHNICIAN_FEMALE0: 2
-      STR_TECHNICIAN_MALE0: 2
+      STR_SOLDIER_FEMALE_GREEN0: 3
+      STR_SOLDIER_FEMALE_GREEN1: 3
+      STR_SOLDIER_MALE_GREEN0: 3
+      STR_SOLDIER_MALE_GREEN1: 3
+      STR_SOLDIER_MALE_GREEN2: 3
+      STR_SOLDIER_MALE_GREEN3: 3
+      STR_DOCTOR_FEMALE0: 1
+      STR_DOCTOR_MALE0: 1
+      STR_TECHNICIAN_FEMALE0: 1
+      STR_TECHNICIAN_MALE0: 1
     terrains:
       - AREA51
       - AIRFIELD1
@@ -2740,7 +2740,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 10
     civiliansByType:
       STR_FIREFIGHTER0: 2
       STR_PARAMEDIC0: 2
@@ -2775,7 +2775,7 @@ alienDeployments:
     height: 8
     customUfo: STR_TERROR_SHIP
     forcePercentageOutsideUfo: true
-    civilians: 18
+    civilians: 12
     civiliansByType: *CIVIANS_BY_TYPE_TERROR
     terrains:
       - PORTCARGOSHIP
@@ -2804,8 +2804,8 @@ alienDeployments:
     height: 8
     civilians: 16
     civiliansByType:
-      STR_FIREFIGHTER0: 3
-      STR_PARAMEDIC0: 3
+      STR_FIREFIGHTER0: 4
+      STR_PARAMEDIC0: 4
     terrains:
       - CARGOSHIP
       - LINERSHIP
