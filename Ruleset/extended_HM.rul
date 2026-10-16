@@ -3,7 +3,11 @@
 extended:
 #BEGIN TAGS
   tags:
+    BattleGame:
+      KILL_COUNT: int
+      KILL_LIMIT: int
     BattleUnit:
+      KILL_DELAY: int
       LAST_HIT_FRAME: int
       AUTO_DEATH: int
       DEATH_COUNTUP: int
@@ -79,6 +83,109 @@ extended:
 
           return cost_current;
 #END ADJUSTED SELL PRICE BY DIFFICULTY
+
+#BEGIN GRACE PERIOD AND LIMITED CIVILIANS KILLS PERTURN FOR ALIENS
+    createUnit:
+      - new: INIT_KILL_DELAY_ON_NEUTRALS
+        offset: -50
+        code: |
+          var int unit_faction;
+          var int kill_limit;
+
+          # Initializes KILL_LIMIT based on difficulty level
+          battle_game.getTag kill_limit Tag.KILL_LIMIT;
+          if eq kill_limit 0;
+            battle_game.difficultyLevel kill_limit;
+            div kill_limit 2;
+            add kill_limit 1;
+            mul kill_limit 2;
+            battle_game.setTag Tag.KILL_LIMIT kill_limit;
+          end;
+
+          # Initializes all civilians initial grace period
+          unit.getFaction unit_faction;
+          if eq unit_faction FACTION_NEUTRAL;
+            unit.setTag Tag.KILL_DELAY 2;
+          end;
+
+          return;
+
+    newTurnUnit:
+      - new: KILL_DELAY_COUNTDOWN
+        offset: -50
+        code: |
+          var int unit_faction;
+          unit.getFaction unit_faction;
+          if and eq unit_faction side eq side FACTION_NEUTRAL;
+            var int kill_delay;
+            unit.getTag kill_delay Tag.KILL_DELAY;
+            sub kill_delay 1;
+            limit_lower kill_delay 0;
+            unit.setTag Tag.KILL_DELAY kill_delay;
+          end;
+          return;
+
+    damageUnit:
+      - new: RESET_KILL_DELAY
+        offset: 50
+        code: |
+          var int unit_faction;
+          unit.getFaction unit_faction;
+          if eq unit_faction FACTION_NEUTRAL;
+            var int attacker_faction;
+            attacker.getFaction attacker_faction;
+            if eq attacker_faction FACTION_HOSTILE;
+              var int unit_health;
+              var int unit_damage;
+              unit.getHealth unit_health;
+              unit.getStun unit_damage;
+              add unit_damage to_health;
+              add unit_damage to_stun;
+              if ge unit_damage unit_health;
+                var int kill_count;
+                var int kill_delay;
+                var int kill_limit;
+                battle_game.getTag kill_count Tag.KILL_COUNT;
+                battle_game.getTag kill_limit Tag.KILL_LIMIT;
+                unit.getTag kill_delay Tag.KILL_DELAY;
+                add kill_count 1;
+                if and ge kill_count kill_limit eq kill_delay 0;
+                  loop var units battle_game.getUnits.byFaction.list FACTION_NEUTRAL;
+                    units.setTag Tag.KILL_DELAY 1;
+                    units.setTurnsSinceSpotted 255;
+                  end;
+                  sub kill_count kill_limit;
+                  limit_lower kill_count 0;
+                end;
+                battle_game.setTag Tag.KILL_COUNT kill_count;
+              end;
+            end;
+          end;
+          return;
+
+    visibilityUnit:
+      - new: MAKE_CIVS_INVISIBLE_TO_ALIENS
+        offset: 50
+        code: |
+          if neq target_unit null;
+            var int observer_faction;
+
+            observer_unit.getFaction observer_faction;
+            if eq observer_faction FACTION_HOSTILE;
+              var int target_unit_faction;
+
+              target_unit.getFaction target_unit_faction;
+              if eq target_unit_faction FACTION_NEUTRAL;
+                var int kill_delay;
+                target_unit.getTag kill_delay Tag.KILL_DELAY;
+                if gt kill_delay 0;
+                  set current_visibility 0;
+                end;
+              end;
+            end;
+          end;
+          return current_visibility visibility_mode;
+#END GRACE PERIOD AND LIMITED CIVILIANS KILLS PERTURN FOR ALIENS
 
 items:
 #BEGIN ADJUST SELL PRICE TAGS BY DIFFICULTY

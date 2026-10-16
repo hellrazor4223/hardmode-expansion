@@ -7,6 +7,7 @@ Version 1.0.1
  - Adjust Civilian maxspawn for Terrosites to 24 including Armed Civilians
  - Adjust Plasma Rifle TU usage to fall better into weapon role
  - Add new Reaper Hitanimation by pWWWa
+ - Add Grace Period Script and Civvie Kill limiter Script for Terrorsites
  - Update PlasmaBlade, PlasmaSword graphics to newest Version
 
 Version 1.0

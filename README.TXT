@@ -305,6 +305,8 @@ Groundcombat changes:
 	Xcom Soldier will now respond to your actions on the Battlescape with audio commentary (16 Voices * 9 Archetype = 144 Voicesets)
 	All Aliens and Terrorunits will now act as Spotters on their own turn only.
 	Alien armed with firearms/distance weapons or grenades can now Snipe on their own turn only.
+	Aliens on Terrorsites will ignore Civilians for the first 2 turns (grace period during player deployment, without it most civvies die within the first 2 turns without the player being able to do anything)
+	Aliens on Terrorsites will kill Civilians in limited numbers per turn: 2 for Beginner/Experienced, 4 for Veteran/Genius and 6 for Superhuman
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 
