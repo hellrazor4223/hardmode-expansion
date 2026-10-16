@@ -3138,6 +3138,9 @@ items:
     compatibleAmmo:
       - STR_PLASMA_RIFLE_CLIP
       - STR_PLASMA_RIFLE_ELERIUM_CLIP
+    tuAuto: 39
+    tuSnap: 23
+    tuAimed: 54
     hitAnimation: 160
     hitAnimFrames: 10
     armor: 50
