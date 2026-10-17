@@ -2,6 +2,8 @@ Changelog:
 
 Version 1.0.1
  - Fix some README spelling errors
+ - Fix MCD LOFT issues in various Terrain sets
+ - Fix Skyranger / Skystriker LOFT issue
  - Adjust Alien Deployments to make Plasma Rifles appear longer
  - Adjust Alien Itemlevels to let Aliens transition from green to yellow Plasma Ammo
  - Adjust Civilian maxspawn for Terrosites to 24 including Armed Civilians
