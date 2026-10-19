@@ -2,8 +2,56 @@ Changelog:
 
 Version 1.0.1
  - Fix some README spelling errors
- - Fix MCD LOFT issues in various Terrain sets
- - Fix Skyranger / Skystriker LOFT issue
+ - Fix MCD LOFT issue on URBAN.MCD
+ - Fix MCD LOFT issue on XBASE1.MCD
+ - Fix MCD LOFT issue on AIRFIELDA.MCD
+ - Fix MCD LOFT issue on AIRFIELDB.MCD
+ - Fix MCD LOFT issue on AIRFIELDC.MCD
+ - Fix MCD LOFT issue on APARTA.MCD
+ - Fix MCD LOFT issue on APARTB.MCD
+ - Fix MCD LOFT issue on APARTC.MCD
+ - Fix MCD LOFT issue on APARTD.MCD
+ - Fix MCD LOFT issue on AREA51_AT4.MCD
+ - Fix MCD LOFT issue on AREA_FRNITURE.MCD
+ - Fix MCD LOFT issue on AREA_ROADS.MCD
+ - Fix MCD LOFT issue on AREA_URBAN.MCD
+ - Fix MCD LOFT issue on AREA_URBITS.MCD
+ - Fix MCD LOFT issue on CARGOSHIP1.MCD
+ - Fix MCD LOFT issue on CARGOSHIP2.MCD
+ - Fix MCD LOFT issue on CARGOSHIP3.MCD
+ - Fix MCD LOFT issue on COLDISLEB1.MCD
+ - Fix MCD LOFT issue on COLDISLEB2.MCD
+ - Fix MCD LOFT issue on COMDECOR.MCD
+ - Fix MCD LOFT issue on COMFRN.MCD
+ - Fix MCD LOFT issue on COMMERCE.MCD
+ - Fix MCD LOFT issue on COMROADS.MCD
+ - Fix MCD LOFT issue on CRASHEDPLANE.MCD
+ - Fix MCD LOFT issue on DAWNDECOR.MCD
+ - Fix MCD LOFT issue on DAWNFRNITURE.MCD
+ - Fix MCD LOFT issue on DAWNURBAN.MCD
+ - Fix MCD LOFT issue on DAWNURBITS.MCD
+ - Fix MCD LOFT issue on DECKSHIPC.MCD
+ - Fix MCD LOFT issue on DECKSHIPUFO.MCD
+ - Fix MCD LOFT issue on DOWNTOWNURBAN.MCD
+ - Fix MCD LOFT issue on ISLANDURBAN1.MCD
+ - Fix MCD LOFT issue on ISLANDURBAN3.MCD
+ - Fix MCD LOFT issue on LINERSHIPA.MCD
+ - Fix MCD LOFT issue on LINERSHIPB.MCD
+ - Fix MCD LOFT issue on LINERSHIPC.MCD
+ - Fix MCD LOFT issue on LINERSHIPD.MCD
+ - Fix MCD LOFT issue on MADDECOR.MCD
+ - Fix MCD LOFT issue on PLANE.MCD
+ - Fix MCD LOFT issue on PORTROADS.MCD
+ - Fix MCD LOFT issue on PORTURBITS.MCD
+ - Fix MCD LOFT issue on SKYSTRIKER.MCD
+ - Fix MCD LOFT issue on THUNDER.MCD
+ - Fix MCD LOFT issue on UFOL83.MCD
+ - Fix MCD LOFT issue on URBAN_SNOW.MCD
+ - Fix MCD LOFT issue on URBITS_SNOW.MCD
+ - Fix MCD LOFT issue on U_BASE.MCD
+ - Fix MCD LOFT issue on U_DISEC3.MCD
+ - Fix MCD LOFT issue on U_EXT02.MCD
+ - Fix MCD LOFT issue on U_WALL02.MCD
  - Adjust Alien Deployments to make Plasma Rifles appear longer
  - Adjust Alien Itemlevels to let Aliens transition from green to yellow Plasma Ammo
  - Adjust Civilian maxspawn for Terrosites to 24 including Armed Civilians

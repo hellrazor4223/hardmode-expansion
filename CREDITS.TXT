@@ -221,6 +221,7 @@ Credits go to:
 	CrazedHarpooner:
 		- For the Optimized Version of the DOWNTOWNURBAN mapScript (Thanks Dude:))
 		- For the Self Popping zombie script
+		- For the Civilian Killdelay and Killlimiter Script
 	Kzer-Za:
 		- For the Initial Version of UFOpaedia Celatid Mod: https://openxcom.org/forum/index.php?topic=7307.0
 	The Martian:
