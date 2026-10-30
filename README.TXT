@@ -307,6 +307,7 @@ Groundcombat changes:
 	Alien armed with firearms/distance weapons or grenades can now Snipe on their own turn only.
 	Aliens on Terrorsites will ignore Civilians for the first 2 turns (grace period during player deployment, without it most civvies die within the first 2 turns without the player being able to do anything)
 	Aliens on Terrorsites will kill Civilians in limited numbers per turn: 2 for Beginner/Experienced, 4 for Veteran/Genius and 6 for Superhuman
+	All Xcom Troop Transport craft do have a exit auto door at the ramp
 
 To actually enable X-Com forces to be successful in their Mission to save Earth a good combination of additional weaponry and equipment has been added, for X-Com and Aliens see detailed list:
 

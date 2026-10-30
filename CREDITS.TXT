@@ -136,12 +136,14 @@ Credits go to:
 		- For the Custom PsiAnimation for Psi-Amp and the alien Psi Weapon
 		- For fixing the AmigaFonts correctly! ;)
 		- For the Reaper Hitanimation
+		- For the initial westside Slidedoor animation for the Skystriker
 	chaosshade:
 		- For the PlasmaShotgun (Deadliest weapon ever after Blaster Launchers =))
 		- For the Elerium Rocket
 		- For the recolored Medikit Sprites
 		- For the Blue Smoke Grenade and StunGrenade HandOb
 		- For the Recolor of HeavyLaserAuto sprites
+		- For the Skystriker sideways ramp graphics
 	clownagent:
 		- For the Jumpsuit Ufopaedia ruleset
 		- For the initial Fastramp ruleset
