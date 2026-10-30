@@ -1,4 +1,7 @@
+##BEGIN INVENTORIES
 invs:
+
+#BEGIN GROUND
   - id: STR_GROUND
     x: 0
     y: 152
@@ -13,6 +16,9 @@ invs:
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 12
       STR_HOLSTER: 12
+#END GROUND
+
+#BEGIN RIGHT HAND
   - id: STR_RIGHT_HAND
     x: 0
     y: 63
@@ -27,6 +33,9 @@ invs:
       STR_RIGHT_LEG: 8
       STR_RIGHT_SHOULDER: 10
       STR_HOLSTER: 2
+#END RIGHT HAND
+
+#BEGIN LEFT HAND
   - id: STR_LEFT_HAND
     x: 128
     y: 63
@@ -41,6 +50,9 @@ invs:
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
       STR_HOLSTER: 2
+#END LEFT HAND
+
+#BEGIN BELT
   - id: STR_BELT
     x: 192
     y: 104
@@ -61,6 +73,9 @@ invs:
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 12
       STR_HOLSTER: 6
+#END BELT
+
+#BEGIN RIGHT LEG
   - id: STR_RIGHT_LEG
     x: 0
     y: 120
@@ -77,6 +92,9 @@ invs:
       STR_RIGHT_HAND: 4
       STR_RIGHT_SHOULDER: 10
       STR_HOLSTER: 10
+#END RIGHT LEG
+
+#BEGIN LEFT LEG
   - id: STR_LEFT_LEG
     x: 128
     y: 120
@@ -93,6 +111,9 @@ invs:
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
       STR_HOLSTER: 10
+#END LEFT LEG
+
+#BEGIN RIGHT SHOULDER
   - id: STR_RIGHT_SHOULDER
     x: 16
     y: 37
@@ -109,6 +130,9 @@ invs:
       STR_RIGHT_HAND: 3
       STR_RIGHT_LEG: 12
       STR_HOLSTER: 10
+#END RIGHT SHOULDER
+
+#BEGIN LEFT SHOULDER
   - id: STR_LEFT_SHOULDER
     x: 112
     y: 37
@@ -125,6 +149,9 @@ invs:
       STR_RIGHT_LEG: 12
       STR_RIGHT_SHOULDER: 8
       STR_HOLSTER: 10
+#END LEFT SHOULDER
+
+#BEGIN BACK PACK
   - id: STR_BACK_PACK
     x: 192
     y: 37
@@ -148,6 +175,9 @@ invs:
       STR_RIGHT_LEG: 16
       STR_RIGHT_SHOULDER: 14
       STR_HOLSTER: 12
+#END BACK PACK
+
+#BEGIN HOLSTER
   - id: STR_HOLSTER
     x: 170
     y: 95
@@ -165,3 +195,5 @@ invs:
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 12
       STR_BELT: 6
+#END HOLSTER
+##END INVENTORIES
