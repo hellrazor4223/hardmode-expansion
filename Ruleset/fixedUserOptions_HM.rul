@@ -1,7 +1,7 @@
 fixedUserOptions:
   battleInstantGrenade: false
   weaponSelfDestruction: false
-  soldiersDiaries: true
+  soldierDiaries: true
   alienBleeding: true
   sneakyAI: true
   strafe: true

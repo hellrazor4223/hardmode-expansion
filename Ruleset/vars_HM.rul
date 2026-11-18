@@ -6,7 +6,7 @@ allowCountriesToCancelAlienPact: true
 buildInfiltrationBaseCloseToTheCountry: true
 infiltrateRandomCountryInTheRegion: true
 lessAliensDuringBaseDefense: true
-extraNerdyPediaInfo: true
+extraNerdyPediaInfoType: 2
 alienInventoryOffsetBigUnit: 0
 enableUnitResponseSounds: true     # Global switch for turning ResponseSounds off or on
 unitResponseSoundsFrequency: [70, 70, 70, 40]     # How often the responsesounds will be triggered. [SelectUnit, StartMoving, SelectWeapon, Annoyed]
