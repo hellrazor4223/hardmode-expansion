@@ -3,6 +3,7 @@ Changelog:
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
  - Fix Racetable for Base Evolutions
+ - Fix Wrong Variable Placement
  - Fix some README spelling errors
  - Fix MCD LOFT issue on URBAN.MCD
  - Fix MCD LOFT issue on XBASE1.MCD
@@ -54,7 +55,7 @@ Version 1.0.1
  - Fix MCD LOFT issue on U_DISEC3.MCD
  - Fix MCD LOFT issue on U_EXT02.MCD
  - Fix MCD LOFT issue on U_WALL02.MCD
- - Fix CARGOSHIP  Map LZ crafttop Spawnnodes
+ - Fix CARGOSHIP Map LZ crafttop Spawnnodes
  - Fix ScanG Data on Globa Terrain Maps
  - Fix MCD LOFT issues on vairous globe Terrain Maps
  - Fix MCD Die behaviour for TP Globe Maps and add custom adaptions
