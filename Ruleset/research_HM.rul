@@ -2003,9 +2003,14 @@ research:
     unlocks: *ENGINEER_UNLOCKS
     getOneFree: *ENGINEER_GETONFREE
   - name: STR_MUTON_ELITE_GUARD_NAVIGATOR
+    cost: 288
+    points: 50
     needItem: true
     destroyItem: true
     listOrder: 1704
+    lookup: STR_MUTON_ELITE
+    unlocks: *NAVIGATOR_UNLOCKS
+    getOneFree: *NAVIGATOR_GETONEFREE
   - name: STR_MUTON_ELITE_GUARD_LEADER
     cost: 288
     points: 50
