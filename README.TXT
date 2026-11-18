@@ -36,7 +36,7 @@ A harsh and demanding economy where funding is always critical
 Difficult strategic decisions and painful setbacks throughout the campaign
 A heavily updated global map with 340+ cities
 12 additional biomes
-More than 65 new terrains and many new terrain combinations
+More than 40 terrorsite terrains and terrains mixes, and a total of 46 globe map biome variants.
 
 The aliens have also received major upgrades:
 

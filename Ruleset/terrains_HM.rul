@@ -2907,8 +2907,8 @@ terrains:
       - BLANKS
       - AIRFIELDA
       - AIRFIELDB
-      - AREA51_AT4
       - AIRFIELDC
+      - AIRFIELDD
     civilianTypes: &CIVILIANS_MILITARYBASE
       - MALE_CIVILIAN
       - MALE_CIVILIAN6
@@ -3265,9 +3265,9 @@ terrains:
 ###END TERRORMISSION
 
 ###BEGIN GLOBE TERRAINS
-##BEGIN URBANUFO
-#BEGIN INDUSTRIALUFO
-  - name: INDUSTRIALUFO
+##BEGIN UFO URBAN
+#BEGIN UFO INDUSTRIAL
+  - name: UFO_INDUSTRIAL
     mapDataSets:
       - BLANKS
       - PORTROADS
@@ -3276,10 +3276,10 @@ terrains:
       - URBITS
     script: INDUSTRIALUFO
     mapBlocks: *INDUSTRIAL_MAPS
-#END INDUSTRIALUFO
+#END UFO INDUSTRIAL
 
-#BEGIN MADURBANUFO
-  - name: MADURBANUFO
+#BEGIN UFO MADURBAN
+  - name: UFO_MADURBAN
     mapDataSets:
       - BLANKS
       - ROADS
@@ -3289,10 +3289,10 @@ terrains:
       - MADDECOR
     script: MADURBANUFO
     mapBlocks: *MADURBAN_MAPS
-#END MADURBANUFO
+#END UFO MADURBAN
 
-#BEGIN NATIVEUFO
-  - name: NATIVEUFO
+#BEGIN  UFO NATIVE
+  - name: UFO_NATIVE
     mapDataSets:
       - BLANKS
       - JUNGLE
@@ -3302,8 +3302,8 @@ terrains:
       - CULTIVAT
     script: NATIVEUFO
     mapBlocks: *NATIVE_MAPS
-#END NATIVEUFO
-##END URBANUFO
+#END UFO NATIVE
+##END UFO URBAN
 
 ##BEGIN FARMS
 #BEGIN CULTA
@@ -3377,7 +3377,7 @@ terrains:
 #END CULTA
 
 #BEGIN CULTAFARMA
-  - name: CULTAFARMA
+  - name: CULTA_FARMA
     mapDataSets:
       - BLANKS
       - CULTIVAT
@@ -3516,7 +3516,7 @@ terrains:
 #END CULTAFARMA
 
 #BEGIN CULTAFARMB
-  - name: CULTAFARMB
+  - name: CULTA_FARMB
     mapDataSets:
       - BLANKS
       - CULTIVAT
@@ -3607,12 +3607,186 @@ terrains:
 #END CULTAFARMB
 ##END FARMS
 
+##BEGIN POLAR
+  - name: POLAR
+    mapDataSets:
+      - BLANKS
+      - POLAR
+    script: POLAR
+    mapBlocks:
+      - name: POLAR00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR03
+        width: 10
+        length: 10
+      - name: POLAR04
+        width: 10
+        length: 10
+      - name: POLAR05
+        width: 10
+        length: 10
+      - name: POLAR06
+        width: 10
+        length: 10
+      - name: POLAR07
+        width: 10
+        length: 10
+      - name: POLAR08
+        width: 10
+        length: 10
+      - name: POLAR09 #9 #Water Path SN
+        width: 10
+        length: 10
+        groups: 5
+      - name: POLAR10 #10 #Water Path EW
+        width: 10
+        length: 10
+        groups: 5
+      - name: POLAR11 #11 #Water No Path
+        width: 10
+        length: 10
+        groups: 5
+      - name: POLAR12
+        width: 20
+        length: 20
+      - name: POLAR13
+        width: 20
+        length: 20
+##END POLAR
+
+##BEGIN MOUNTS
+#BEGIN MOUNT
+  - name: MOUNT
+    mapDataSets:
+      - BLANKS
+      - MOUNT
+    script: DEFAULT
+    mapBlocks: &MOUNTAIN_MAPS
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+#END MOUNT
+
+#BEGIN MOUNT TUNDRA
+  - name: MOUNT_TUNDRA
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+    script: DEFAULT
+    mapBlocks: *MOUNTAIN_MAPS
+#END MOUNT TUNDRA
+
+#BEGIN MOUNT POLAR
+  - name: MOUNT_POLAR
+    mapDataSets:
+      - BLANKS
+      - POLARMOUNT
+      - POLAR
+      - POLARMOUNTBITS
+      - POLARBITS
+    script: DEFAULT
+    mapBlocks:
+      - name: POLARMOUNT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLARMOUNT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLARMOUNT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLARMOUNT03
+        width: 10
+        length: 10
+      - name: POLARMOUNT04
+        width: 10
+        length: 10
+      - name: POLARMOUNT05
+        width: 10
+        length: 10
+      - name: POLARMOUNT06
+        width: 10
+        length: 10
+      - name: POLARMOUNT07
+        width: 10
+        length: 10
+      - name: POLARMOUNT08
+        width: 10
+        length: 10
+      - name: POLARMOUNT09
+        width: 10
+        length: 10
+      - name: POLARMOUNT10
+        width: 10
+        length: 10
+      - name: POLARMOUNT11
+        width: 20
+        length: 20
+      - name: POLARMOUNT12
+        width: 20
+        length: 20
+#END MOUNT POLAR
+## END MOUNTS
+
 ##BEGIN DESERTS
 #BEGIN DESERT
   - name: DESERT
     mapDataSets:
       - BLANKS
       - DESERT
+      - DESERTBITS
     script: DESERT
     mapBlocks: &DESERT_MAPS
       - name: DESERT00
@@ -3656,14 +3830,156 @@ terrains:
         length: 20
 #END DESERT
 
-#BEGIN DESERTMOUNT
-  - name: DESERTMOUNT
+#BEGIN DESERT GRASSLAND
+  - name: DESERT_GRASSLAND
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDDESERT
+      - GRASSLANDBITS
+    script: DESERT
+    mapBlocks: &DESERT_LZ_MAPS
+      - name: DESERT00
+        width: 10
+        length: 10
+      - name: DESERT01
+        width: 10
+        length: 10
+      - name: DESERT02
+        width: 10
+        length: 10
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERTLZ
+        width: 10
+        length: 10
+        groups: [1]
+#END DESERT GRASSLAND
+
+#BEGIN DESERT STEPPE
+  - name: DESERT_STEPPE
+    mapDataSets:
+      - BLANKS
+      - STEPPEDESERT
+      - STEPPEBITS
+    script: DESERT
+    mapBlocks: *DESERT_MAPS
+#END DESERT STEPPE
+
+#BEGIN DESERT SAVANNA
+  - name: DESERT_SAVANNA
+    mapDataSets:
+      - BLANKS
+      - SAVANNADESERT
+      - SAVANNABITS
+    script: DESERT
+    mapBlocks: *DESERT_LZ_MAPS
+#END DESERT SAVANNA
+
+#BEGIN DESERT TAIGA
+  - name: DESERT_TAIGA
+    mapDataSets:
+      - BLANKS
+      - TAIGADESERT
+      - TAIGABITS
+    script: DESERT
+    mapBlocks: *DESERT_MAPS
+#END DESERT TAIGA
+
+#BEGIN DESERT TUNDRA
+  - name: DESERT_TUNDRA
+    mapDataSets:
+      - BLANKS
+      - TUNDRADESERT
+      - TUNDRABITS
+    script: DESERT
+    mapBlocks: *DESERT_MAPS
+#END DESERT TUNDRA
+
+#BEGIN DESERT POLAR
+  - name: DESERT_POLAR
+    mapDataSets:
+      - BLANKS
+      - POLARDESERT
+      - POLARBITS
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERTPOLAR04
+        width: 10
+        length: 10
+      - name: DESERTPOLAR05
+        width: 10
+        length: 10
+      - name: DESERTPOLAR06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERTPOLAR10
+        width: 20
+        length: 20
+      - name: DESERTPOLAR11
+        width: 20
+        length: 20 
+#END DESERT POLAR
+##END DESERTS
+
+##BEGIN DESERT MOUNTS
+#BEGIN DESERT MOUNT
+  - name: DESERT_MOUNT
     mapDataSets:
       - BLANKS
       - DESERTMOUNT
       - DESERT
+      - DESERTBITS
     script: DEFAULT
-    mapBlocks: &DESERTMOUNT_MAPS
+    mapBlocks: &DESERT_MOUNT_MAPS
       - name: DESERTMOUNT00
         width: 10
         length: 10
@@ -3721,135 +4037,132 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
-#END DESERTMOUNT
+#END DESERT MOUNT
 
-#BEGIN DESERTTEMPLE
-  - name: DESERTTEMPLE
+#BEGIN DESERT MOUNT GRASSLAND
+  - name: DESERT_MOUNT_GRASSLAND
     mapDataSets:
       - BLANKS
-      - SANDS
-      - ATLANTDESERT
-      - DESERT
+      - GRASSLANDMOUNT
+      - GRASSLANDDESERT
+      - GRASSLANDBITS
     script: DESERT
-    mapBlocks:
-      - name: ATLANTDESERT00
+    mapBlocks: &DESERT_MOUNT_LZ_MAPS
+      - name: DESERTMOUNT00
         width: 10
         length: 10
-        groups: [0, 1]
-      - name: ATLANTDESERT01
+      - name: DESERTMOUNT01
         width: 10
         length: 10
-        groups: [0, 1]
-      - name: ATLANTDESERT02
+      - name: DESERTMOUNT02
         width: 10
         length: 10
-      - name: ATLANTDESERT03
+      - name: DESERTMOUNT03
         width: 10
         length: 10
-      - name: ATLANTDESERT04
+      - name: DESERTMOUNT04
         width: 10
         length: 10
-      - name: ATLANTDESERT05
+      - name: DESERTMOUNT05
         width: 10
         length: 10
-      - name: ATLANTDESERT06
+      - name: DESERTMOUNT06
         width: 10
         length: 10
-      - name: ATLANTDESERT07
+      - name: DESERTMOUNT07
         width: 10
         length: 10
-      - name: ATLANTDESERT08
+      - name: DESERTMOUNT08
         width: 10
         length: 10
-      - name: ATLANTDESERT09
+      - name: DESERTMOUNT09
         width: 10
         length: 10
-      - name: ATLANTDESERT10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
         width: 20
         length: 20
-      - name: ATLANTDESERT11
+      - name: DESERTMOUNT12
         width: 20
         length: 20
-      - name: ATLANTDESERT12
+      - name: DESERTMOUNT13
         width: 20
         length: 20
-#END DESERTTEMPLE
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+      - name: DESERTMOUNTLZ
+        width: 10
+        length: 10
+        groups: [1]
+#END DESERT MOUNT GRASSLAND
 
-#BEGIN DESERTPLANE
-  - name: DESERTPLANE
+#BEGIN DESERT MOUNT STEPPE
+  - name: DESERT_MOUNT_STEPPE
     mapDataSets:
       - BLANKS
-      - DESERTPLANE
-      - CRASHEDPLANE
-      - DESERT
-    script: CRASHEDPLANE
-    mapBlocks: &CRASHEDPLANE_MAPS
-      - name: CRASHEDPLANE00
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: CRASHEDPLANE01
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE02
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE03
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE04
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE05
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE06
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE07
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE08
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE09
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE10
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE11
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE12
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE13
-        width: 20
-        length: 20
-      - name: CRASHEDPLANE14
-        width: 20
-        length: 20
-      - name: CRASHEDPLANE15
-        width: 20
-        length: 20
-      - name: CRASHEDPLANE16
-        width: 20
-        length: 20
-      - name: CRASHEDPLANE17
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE18
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE19
-        width: 10
-        length: 10
-      - name: CRASHEDPLANE20
-        width: 10
-        length: 10
-#END DESERTPLANE
-##END DESERTS
+      - STEPPEMOUNT
+      - STEPPEDESERT
+      - STEPPEBITS
+    script: DESERT
+    mapBlocks: *DESERT_MOUNT_MAPS
+#END DESERT MOUNT STEPPE
+
+#BEGIN DESERT MOUNT SAVANNA
+  - name: DESERT_MOUNT_SAVANNA
+    mapDataSets:
+      - BLANKS
+      - SAVANNAMOUNT
+      - SAVANNADESERT
+      - SAVANNABITS
+    script: DESERT
+    mapBlocks: *DESERT_MOUNT_LZ_MAPS
+#END DESERT MOUNT SAVANNA
+
+#BEGIN DESERT MOUNT TAIGA
+  - name: DESERT_MOUNT_TAIGA
+    mapDataSets:
+      - BLANKS
+      - TAIGAMOUNT
+      - TAIGADESERT
+      - TAIGABITS
+    script: DESERT
+    mapBlocks: *DESERT_MOUNT_MAPS
+#END DESERT MOUNT TAIGA
+
+#BEGIN DESERT MOUNT TUNDRA
+  - name: DESERT_MOUNT_TUNDRA
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+      - TUNDRADESERT
+      - TUNDRABITS
+    script: DESERT
+    mapBlocks: *DESERT_MOUNT_MAPS
+#END DESERT MOUNT TUNDRA
+
+#BEGIN DESERT MOUNT POLAR
+  - name: DESERT_MOUNT_POLAR
+    mapDataSets:
+      - BLANKS
+      - POLARMOUNT
+      - POLARDESERT
+      - POLARBITS
+    script: DESERT
+    mapBlocks: *DESERT_MOUNT_MAPS
+#END DESERT MOUNT POLAR
+##END DESERT MOUNTS
 
 ##BEGIN FORESTS
 #BEGIN FOREST
@@ -3857,16 +4170,64 @@ terrains:
     mapDataSets:
       - BLANKS
       - FOREST
+      - FORESTBITS
     script: DEFAULT
-    mapBlocks:
+    mapBlocks: &FOREST_MAPS
       - name: FOREST00
         width: 10
         length: 10
-        groups: [1]
+        groups: [0, 1]
       - name: FOREST01
         width: 10
         length: 10
-        groups: [1]
+        groups: [0, 1]
+      - name: FOREST02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+#END FOREST
+
+#BEGIN FOREST GRASSLAND
+  - name: FOREST_GRASSLAND
+    mapDataSets:
+      - BLANKS
+      - GRASSLANDFOREST
+      - GRASSLANDBITS
+    script: DEFAULT
+    mapBlocks: &FOREST_LZ_MAPS
+      - name: FOREST00
+        width: 10
+        length: 10
+      - name: FOREST01
+        width: 10
+        length: 10
       - name: FOREST02
         width: 10
         length: 10
@@ -3897,17 +4258,63 @@ terrains:
       - name: FOREST11
         width: 20
         length: 20
-#END FOREST
+      - name: FORESTLZ
+        width: 10
+        length: 10
+        groups: [1]
+#END FOREST GRASSLAND
 
-#BEGIN FORESTMOUNT
-  - name: FORESTMOUNT
+#BEGIN FOREST STEPPE
+  - name: FOREST_STEPPE
+    mapDataSets:
+      - BLANKS
+      - STEPPEFOREST
+      - STEPPEBITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MAPS
+#END FOREST STEPPE
+
+#BEGIN FOREST SAVANNA
+  - name: FOREST_SAVANNA
+    mapDataSets:
+      - BLANKS
+      - SAVANNAFOREST
+      - SAVANNABITS
+    script: DEFAULT
+    mapBlocks: *FOREST_LZ_MAPS
+#END FOREST SAVANNA
+
+#BEGIN FOREST TAIGA
+  - name: FOREST_TAIGA
+    mapDataSets:
+      - BLANKS
+      - TAIGAFOREST
+      - TAIGABITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MAPS
+#END FOREST TAIGA
+
+#BEGIN FOREST TUNDRA
+  - name: FOREST_TUNDRA
+    mapDataSets:
+      - BLANKS
+      - TUNDRAFOREST
+      - TUNDRABITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MAPS
+#END FOREST TUNDRA
+##END FORESTS
+
+##BEGIN FOREST MOUNTS
+#BEGIN FOREST MOUNT
+  - name: FOREST_MOUNT
     mapDataSets:
       - BLANKS
       - FORESTMOUNT
-      - FORESTEARTH
+      - FOREST
       - FORESTBITS
     script: DEFAULT
-    mapBlocks:
+    mapBlocks: &FOREST_MOUNT_MAPS
       - name: FORESTMOUNT00
         width: 10
         length: 10
@@ -3919,6 +4326,7 @@ terrains:
       - name: FORESTMOUNT02
         width: 10
         length: 10
+        groups: [0, 1]
       - name: FORESTMOUNT03
         width: 10
         length: 10
@@ -3991,685 +4399,17 @@ terrains:
       - name: FORESTMOUNT26
         width: 20
         length: 20
-#END FORESTMOUNT
+#END FOREST MOUNT
 
-#BEGIN FORESTPOLAR
-  - name: FORESTPOLAR
-    mapDataSets:
-      - BLANKS
-      - FORESTPOLAR
-      - FOREST
-    script: POLAR
-    mapBlocks: &FORESTPOLAR_MAPS
-      - name: FORESTPOLAR00 #0
-        width: 10
-        length: 10
-      - name: FORESTPOLAR01 #1
-        width: 10
-        length: 10
-      - name: FORESTPOLAR02 #2
-        width: 10
-        length: 10
-      - name: FORESTPOLAR03 #3
-        width: 10
-        length: 10
-      - name: FORESTPOLAR04 #4
-        width: 10
-        length: 10
-      - name: FORESTPOLAR05 #5
-        width: 10
-        length: 10
-      - name: FORESTPOLAR06 #6
-        width: 10
-        length: 10
-      - name: FORESTPOLAR07 #7
-        width: 10
-        length: 10
-      - name: FORESTPOLAR08 #8
-        width: 10
-        length: 10
-      - name: FORESTPOLAR09 #9 #Water Path SN
-        width: 10
-        length: 10
-        groups: 5
-      - name: FORESTPOLAR10 #10 #Water Path EW
-        width: 10
-        length: 10
-        groups: 5
-      - name: FORESTPOLAR11 #11 #Water No Path
-        width: 10
-        length: 10
-        groups: 5
-      - name: FORESTPOLAR12 #12
-        width: 20
-        length: 20
-      - name: FORESTPOLAR13 #13
-        width: 20
-        length: 20
-      - name: FORESTPOLAR14 #14
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: FORESTPOLAR15 #15
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: FORESTPOLAR16 #16
-        width: 10
-        length: 10
-        groups: [0, 1]
-#END FORESTPOLAR
-##END FORESTS
-
-##BEGIN JUNGLES
-#BEGIN JUNGLE
-  - name: JUNGLE
-    mapDataSets:
-      - BLANKS
-      - JUNGLE
-    script: JUNGLE
-    mapBlocks:
-      - name: JUNGLE00
-        width: 10
-        length: 10
-        groups: 1
-      - name: JUNGLE01
-        width: 10
-        length: 10
-        groups: 1
-      - name: JUNGLE02
-        width: 10
-        length: 10
-        groups: 1
-      - name: JUNGLE03
-        width: 10
-        length: 10
-      - name: JUNGLE04
-        width: 10
-        length: 10
-      - name: JUNGLE05
-        width: 10
-        length: 10
-      - name: JUNGLE06
-        width: 10
-        length: 10
-      - name: JUNGLE07
-        width: 10
-        length: 10
-      - name: JUNGLE08
-        width: 10
-        length: 10
-      - name: JUNGLE09
-        width: 10
-        length: 10
-      - name: JUNGLE10
-        width: 10
-        length: 10
-      - name: JUNGLE11
-        width: 10
-        length: 10
-#END JUNGLE
-
-#BEGIN JUNGLEMOUNT
-  - name: JUNGLEMOUNT
-    mapDataSets:
-      - BLANKS
-      - JUNGLEMOUNT
-      - JUNGLEBITS
-    script: DEFAULT
-    mapBlocks:
-      - name: JUNGLEMOUNT00
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT01
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: JUNGLEMOUNT02
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT03
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT04
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT05
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT06
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT07
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT08
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT09
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT10
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT11
-        width: 20
-        length: 20
-      - name: JUNGLEMOUNT12
-        width: 20
-        length: 20
-      - name: JUNGLEMOUNT13
-        width: 10
-        length: 10
-      - name: JUNGLEMOUNT14
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: JUNGLEMOUNT15
-        width: 10
-        length: 10
-#END JUNGLEMOUNT
-
-#BEGIN JUNGLEPOLAR
-  - name: JUNGLEPOLAR
-    mapDataSets:
-      - BLANKS
-      - JUNGLEPOLAR
-      - JUNGLEBITS
-    script: POLAR
-    mapBlocks:
-      - name: JUNGLEPOLAR00
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR01
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR02
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR03
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR04
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR05
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR06
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR07
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR08
-        width: 10
-        length: 10
-      - name: JUNGLEPOLAR09 #9 #Water Path SN
-        width: 10
-        length: 10
-        groups: 5
-      - name: JUNGLEPOLAR10 #10 #Water Path EW
-        width: 10
-        length: 10
-        groups: 5
-      - name: JUNGLEPOLAR11 #11 #Water No Path
-        width: 10
-        length: 10
-        groups: 5
-      - name: JUNGLEPOLAR12
-        width: 20
-        length: 20
-      - name: JUNGLEPOLAR13
-        width: 20
-        length: 20
-      - name: JUNGLEPOLAR14
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: JUNGLEPOLAR15
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: JUNGLEPOLAR16
-        width: 10
-        length: 10
-        groups: [0, 1]
-#END JUNGLEPOLAR
-
-#BEGIN JUNGLETEMPLE
-  - name: JUNGLETEMPLE
-    mapDataSets:
-      - BLANKS
-      - SANDS
-      - MUJUNGLE
-      - JUNGLEBITS
-    script: DEFAULT
-    mapBlocks:
-      - name: MUJUNGLE00
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: MUJUNGLE01
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: MUJUNGLE02
-        width: 10
-        length: 10
-      - name: MUJUNGLE03
-        width: 10
-        length: 10
-      - name: MUJUNGLE04
-        width: 10
-        length: 10
-      - name: MUJUNGLE05
-        width: 10
-        length: 10
-      - name: MUJUNGLE06
-        width: 10
-        length: 10
-      - name: MUJUNGLE07
-        width: 10
-        length: 10
-      - name: MUJUNGLE08
-        width: 10
-        length: 10
-      - name: MUJUNGLE09
-        width: 20
-        length: 20
-      - name: MUJUNGLE10
-        width: 20
-        length: 20
-      - name: MUJUNGLE11
-        width: 20
-        length: 20
-      - name: MUJUNGLE12
-        width: 20
-        length: 20
-      - name: MUJUNGLE13
-        width: 20
-        length: 20
-      - name: MUJUNGLE14
-        width: 20
-        length: 20
-#END JUNGLETEMPLE
-##END JUNGLES
-
-##BEGIN MOUNTAINS
-#BEGIN MOUNT
-  - name: MOUNT
-    mapDataSets:
-      - BLANKS
-      - MOUNT
-    script: DEFAULT
-    mapBlocks: &MOUNTAIN_MAPS
-      - name: MOUNT00
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: MOUNT01
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: MOUNT02
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: MOUNT03
-        width: 10
-        length: 10
-      - name: MOUNT04
-        width: 10
-        length: 10
-      - name: MOUNT05
-        width: 10
-        length: 10
-      - name: MOUNT06
-        width: 10
-        length: 10
-      - name: MOUNT07
-        width: 10
-        length: 10
-      - name: MOUNT08
-        width: 10
-        length: 10
-      - name: MOUNT09
-        width: 10
-        length: 10
-      - name: MOUNT10
-        width: 10
-        length: 10
-      - name: MOUNT11
-        width: 20
-        length: 20
-      - name: MOUNT12
-        width: 20
-        length: 20
-#END MOUNT
-##END MOUNTAINS
-
-##BEGIN POLARS
-#BEGIN POLAR
-  - name: POLAR
-    mapDataSets:
-      - BLANKS
-      - POLAR
-    script: POLAR
-    mapBlocks:
-      - name: POLAR00
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: POLAR01
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: POLAR02
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: POLAR03
-        width: 10
-        length: 10
-      - name: POLAR04
-        width: 10
-        length: 10
-      - name: POLAR05
-        width: 10
-        length: 10
-      - name: POLAR06
-        width: 10
-        length: 10
-      - name: POLAR07
-        width: 10
-        length: 10
-      - name: POLAR08
-        width: 10
-        length: 10
-      - name: POLAR09 #9 #Water Path SN
-        width: 10
-        length: 10
-        groups: 5
-      - name: POLAR10 #10 #Water Path EW
-        width: 10
-        length: 10
-        groups: 5
-      - name: POLAR11 #11 #Water No Path
-        width: 10
-        length: 10
-        groups: 5
-      - name: POLAR12
-        width: 20
-        length: 20
-      - name: POLAR13
-        width: 20
-        length: 20
-#END POLAR
-
-#BEGIN POLARDESERT
-  - name: POLARDESERT
-    mapDataSets:
-      - BLANKS
-      - POLARDESERT
-    script: DESERT
-    mapBlocks: *DESERT_MAPS
-#END POLARDESERT
-
-#BEGIN POLARDESERTMOUNT
-  - name: POLARDESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - POLARMOUNT
-      - POLARDESERT
-    script: DESERT
-    mapBlocks: *DESERTMOUNT_MAPS
-#END POLARDESERTMOUNT
-
-#BEGIN POLARMOUNT
-  - name: POLARMOUNT
-    mapDataSets:
-      - BLANKS
-      - POLARMOUNT
-      - POLAR
-      - POLARMOUNTBITS
-    script: DEFAULT
-    mapBlocks:
-      - name: POLARMOUNT00
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: POLARMOUNT01
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: POLARMOUNT02
-        width: 10
-        length: 10
-        groups: [0, 1]
-      - name: POLARMOUNT03
-        width: 10
-        length: 10
-      - name: POLARMOUNT04
-        width: 10
-        length: 10
-      - name: POLARMOUNT05
-        width: 10
-        length: 10
-      - name: POLARMOUNT06
-        width: 10
-        length: 10
-      - name: POLARMOUNT07
-        width: 10
-        length: 10
-      - name: POLARMOUNT08
-        width: 10
-        length: 10
-      - name: POLARMOUNT09
-        width: 10
-        length: 10
-      - name: POLARMOUNT10
-        width: 10
-        length: 10
-      - name: POLARMOUNT11
-        width: 20
-        length: 20
-      - name: POLARMOUNT12
-        width: 20
-        length: 20
-#END POLARMOUNT
-
-#BEGIN POLARPLANE
-  - name: POLARPLANE
-    mapDataSets:
-      - BLANKS
-      - POLARPLANE
-      - CRASHEDPLANE
-      - POLARDESERT
-    script: CRASHEDPLANE
-    mapBlocks: *CRASHEDPLANE_MAPS
-#END POLARPLANE
-##END POLARS
-
-##BEGIN GRASSLAND
-#BEGIN GRASSLANDDESERT
-  - name: GRASSLANDDESERT
-    mapDataSets:
-      - BLANKS
-      - GRASSLANDDESERT
-      - GRASSLANDBITS
-    script: DESERT
-    mapBlocks: &DESERTLZ_MAPS
-      - name: DESERT00
-        width: 10
-        length: 10
-      - name: DESERT01
-        width: 10
-        length: 10
-      - name: DESERT02
-        width: 10
-        length: 10
-      - name: DESERT03
-        width: 10
-        length: 10
-      - name: DESERT04
-        width: 10
-        length: 10
-      - name: DESERT05
-        width: 10
-        length: 10
-      - name: DESERT06
-        width: 10
-        length: 10
-      - name: DESERT07
-        width: 10
-        length: 10
-      - name: DESERT08
-        width: 10
-        length: 10
-      - name: DESERT09
-        width: 20
-        length: 20
-      - name: DESERT10
-        width: 20
-        length: 20
-      - name: DESERT11
-        width: 20
-        length: 20
-      - name: DESERTLZ
-        width: 10
-        length: 10
-        groups: [1]
-#END GRASSLANDESERT
-
-#BEGIN GRASSLANDDESERTMOUNT
-  - name: GRASSLANDDESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - GRASSLANDMOUNT
-      - GRASSLANDDESERT
-      - GRASSLANDBITS
-    script: DESERT
-    mapBlocks: &DESERTMOUNTLZ_MAPS
-      - name: DESERTMOUNT00
-        width: 10
-        length: 10
-      - name: DESERTMOUNT01
-        width: 10
-        length: 10
-      - name: DESERTMOUNT02
-        width: 10
-        length: 10
-      - name: DESERTMOUNT03
-        width: 10
-        length: 10
-      - name: DESERTMOUNT04
-        width: 10
-        length: 10
-      - name: DESERTMOUNT05
-        width: 10
-        length: 10
-      - name: DESERTMOUNT06
-        width: 10
-        length: 10
-      - name: DESERTMOUNT07
-        width: 10
-        length: 10
-      - name: DESERTMOUNT08
-        width: 10
-        length: 10
-      - name: DESERTMOUNT09
-        width: 10
-        length: 10
-      - name: DESERTMOUNT10
-        width: 10
-        length: 10
-      - name: DESERTMOUNT11
-        width: 20
-        length: 20
-      - name: DESERTMOUNT12
-        width: 20
-        length: 20
-      - name: DESERTMOUNT13
-        width: 20
-        length: 20
-      - name: DESERTMOUNT14
-        width: 20
-        length: 20
-      - name: DESERTMOUNT15
-        width: 10
-        length: 10
-      - name: DESERTMOUNT16
-        width: 10
-        length: 10
-      - name: DESERTMOUNT17
-        width: 10
-        length: 10
-      - name: DESERTMOUNTLZ
-        width: 10
-        length: 10
-        groups: [1]
-#END GRASSLANDESERTMOUNT
-
-#BEGIN GRASSLANDFOREST
-  - name: GRASSLANDFOREST
-    mapDataSets:
-      - BLANKS
-      - GRASSLANDFOREST
-      - GRASSLANDBITS
-    script: DEFAULT
-    mapBlocks: &FORESTLZ_MAPS
-      - name: FOREST00
-        width: 10
-        length: 10
-      - name: FOREST01
-        width: 10
-        length: 10
-      - name: FOREST02
-        width: 10
-        length: 10
-      - name: FOREST03
-        width: 10
-        length: 10
-      - name: FOREST04
-        width: 10
-        length: 10
-      - name: FOREST05
-        width: 10
-        length: 10
-      - name: FOREST06
-        width: 10
-        length: 10
-      - name: FOREST07
-        width: 10
-        length: 10
-      - name: FOREST08
-        width: 10
-        length: 10
-      - name: FOREST09
-        width: 10
-        length: 10
-      - name: FOREST10
-        width: 20
-        length: 20
-      - name: FOREST11
-        width: 20
-        length: 20
-      - name: FORESTLZ
-        width: 10
-        length: 10
-        groups: [1]
-#END GRASSLANDFOREST
-
-#BEGIN GRASSLANDFORESTMOUNT
-  - name: GRASSLANDFORESTMOUNT
+#BEGIN FOREST MOUNT GRASSLAND
+  - name: FOREST_MOUNT_GRASSLAND
     mapDataSets:
       - BLANKS
       - GRASSLANDMOUNT
       - GRASSLANDFOREST
       - GRASSLANDBITS
     script: DEFAULT
-    mapBlocks: &FORESTMOUNTLZ_MAPS
+    mapBlocks: &FOREST_MOUNT_LZ_MAPS
       - name: FORESTMOUNT00
         width: 10
         length: 10
@@ -4755,182 +4495,250 @@ terrains:
         width: 10
         length: 10
         groups: [1]
-#END GRASSLANDFORESTMOUNT
+#END FOREST MOUNT GRASSLAND
 
-#BEGIN GRASSLANDPOLAR
-  - name: GRASSLANDPOLAR
+#BEGIN FOREST MOUNT STEPPE
+  - name: FOREST_MOUNT_STEPPE
+    mapDataSets:
+      - BLANKS
+      - STEPPEMOUNT
+      - STEPPEFOREST
+      - STEPPEBITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MOUNT_MAPS
+#BEGIN FOREST MOUNT STEPPE
+
+#BEGIN FOREST MOUNT SAVANNA
+  - name: FOREST_MOUNT_SAVANNA
+    mapDataSets:
+      - BLANKS
+      - SAVANNAMOUNT
+      - SAVANNAFOREST
+      - SAVANNABITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MOUNT_LZ_MAPS
+#END FOREST MOUNT SAVANNA
+
+#BEGIN FOREST MOUNT TAIGA
+  - name: FOREST_MOUNT_TAIGA
+    mapDataSets:
+      - BLANKS
+      - TAIGAMOUNT
+      - TAIGAFOREST
+      - TAIGABITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MOUNT_MAPS
+#END FOREST MOUNT TAIGA
+
+#BEGIN FOREST MOUNT TUNDRA
+  - name: FOREST_MOUNT_TUNDRA
+    mapDataSets:
+      - BLANKS
+      - TUNDRAMOUNT
+      - TUNDRAFOREST
+      - TUNDRABITS
+    script: DEFAULT
+    mapBlocks: *FOREST_MOUNT_MAPS
+#END FOREST MOUNT TUNDRA
+##END FOREST MOUNTS
+
+##BEGIN FOREST POLARS
+#BEGIN FOREST POLAR
+  - name: FOREST_POLAR
+    mapDataSets:
+      - BLANKS
+      - FORESTPOLAR
+      - FOREST
+    script: POLAR
+    mapBlocks: &FOREST_POLAR_MAPS
+      - name: FORESTPOLAR00 #0
+        width: 10
+        length: 10
+      - name: FORESTPOLAR01 #1
+        width: 10
+        length: 10
+      - name: FORESTPOLAR02 #2
+        width: 10
+        length: 10
+      - name: FORESTPOLAR03 #3
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04 #4
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05 #5
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06 #6
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07 #7
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08 #8
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09 #9 #Water Path SN
+        width: 10
+        length: 10
+        groups: 5
+      - name: FORESTPOLAR10 #10 #Water Path EW
+        width: 10
+        length: 10
+        groups: 5
+      - name: FORESTPOLAR11 #11 #Water No Path
+        width: 10
+        length: 10
+        groups: 5
+      - name: FORESTPOLAR12 #12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13 #13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14 #14
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FORESTPOLAR15 #15
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: FORESTPOLAR16 #16
+        width: 10
+        length: 10
+        groups: [0, 1]
+#END FOREST POLAR
+
+#BEGIN FOREST POLAR GRASSLAND
+  - name: FOREST_POLAR_GRASSLAND
     mapDataSets:
       - BLANKS
       - GRASSLANDPOLAR
       - GRASSLANDFOREST
     script: POLAR
-    mapBlocks: *FORESTPOLAR_MAPS
-#END GRASSLANDPOLAR
-##END GRASSLANDS
+    mapBlocks: *FOREST_POLAR_MAPS
+#END FOREST POLAR GRASSLAND
 
-##BEGIN SAVANNAS
-  - name: SAVANNADESERT
-    mapDataSets:
-      - BLANKS
-      - SAVANNADESERT
-      - SAVANNABITS
-    script: DESERT
-    mapBlocks: *DESERTLZ_MAPS
-  - name: SAVANNADESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - SAVANNAMOUNT
-      - SAVANNADESERT
-      - SAVANNABITS
-    script: DESERT
-    mapBlocks: *DESERTMOUNTLZ_MAPS
-  - name: SAVANNAFOREST
-    mapDataSets:
-      - BLANKS
-      - SAVANNAFOREST
-      - SAVANNABITS
-    script: DEFAULT
-    mapBlocks: *FORESTLZ_MAPS
-  - name: SAVANNAFORESTMOUNT
-    mapDataSets:
-      - BLANKS
-      - SAVANNAMOUNT
-      - SAVANNAFOREST
-      - SAVANNABITS
-    script: DEFAULT
-    mapBlocks: *FORESTMOUNTLZ_MAPS
-  - name: SAVANNAPOLAR
-    mapDataSets:
-      - BLANKS
-      - SAVANNAPOLAR
-      - SAVANNAFOREST
-    script: POLAR
-    mapBlocks: *FORESTPOLAR_MAPS
-##END SAVANNAS
-
-##BEGIN STEPPES
-  - name: STEPPEDESERT
-    mapDataSets:
-      - BLANKS
-      - STEPPEDESERT
-      - STEPPEBITS
-    script: DESERT
-    mapBlocks: *DESERTLZ_MAPS
-  - name: STEPPEDESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - STEPPEMOUNT
-      - STEPPEDESERT
-      - STEPPEBITS
-    script: DESERT
-    mapBlocks: *DESERTMOUNTLZ_MAPS
-  - name: STEPPEFOREST
-    mapDataSets:
-      - BLANKS
-      - STEPPEFOREST
-      - STEPPEBITS
-    script: DEFAULT
-    mapBlocks: *FORESTLZ_MAPS
-  - name: STEPPEFORESTMOUNT
-    mapDataSets:
-      - BLANKS
-      - STEPPEMOUNT
-      - STEPPEFOREST
-      - STEPPEBITS
-    script: DEFAULT
-    mapBlocks: *FORESTMOUNTLZ_MAPS
-  - name: STEPPEPOLAR
+#BEGIN FOREST POLAR STEPPE
+  - name: FOREST_POLAR_STEPPE
     mapDataSets:
       - BLANKS
       - STEPPEPOLAR
       - STEPPEFOREST
     script: POLAR
-    mapBlocks: *FORESTPOLAR_MAPS
-##END STEPPES
+    mapBlocks: *FOREST_POLAR_MAPS
+#END FOREST POLAR STEPPE
 
-##BEGIN TAIGAS
-  - name: TAIGADESERT
+#BEGIN FOREST POLAR SAVANNA
+  - name: FOREST_POLAR_SAVANNA
     mapDataSets:
       - BLANKS
-      - TAIGADESERT
-      - TAIGABITS
-    script: DESERT
-    mapBlocks: *DESERTLZ_MAPS
-  - name: TAIGADESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - TAIGAMOUNT
-      - TAIGADESERT
-      - TAIGABITS
-    script: DESERT
-    mapBlocks: *DESERTMOUNTLZ_MAPS
-  - name: TAIGAFOREST
-    mapDataSets:
-      - BLANKS
-      - TAIGAFOREST
-      - TAIGABITS
-    script: DEFAULT
-    mapBlocks: *FORESTLZ_MAPS
-  - name: TAIGAFORESTMOUNT
-    mapDataSets:
-      - BLANKS
-      - TAIGAMOUNT
-      - TAIGAFOREST
-      - TAIGABITS
-    script: DEFAULT
-    mapBlocks: *FORESTMOUNTLZ_MAPS
-  - name: TAIGAPOLAR
+      - SAVANNAPOLAR
+      - SAVANNAFOREST
+    script: POLAR
+    mapBlocks: *FOREST_POLAR_MAPS
+#END FOREST POLAR SAVANNA
+
+#BEGIN FOREST TAIGA
+  - name: FOREST_POLAR_TAIGA
     mapDataSets:
       - BLANKS
       - TAIGAPOLAR
       - TAIGAFOREST
     script: POLAR
-    mapBlocks: *FORESTPOLAR_MAPS
-##END TAIGAS
+    mapBlocks: *FOREST_POLAR_MAPS
+#END END POLAR FOREST TAIGA
 
-##BEGIN TUNDRAS
-  - name: TUNDRADESERT
-    mapDataSets:
-      - BLANKS
-      - TUNDRADESERT
-    script: DESERT
-    mapBlocks: *DESERT_MAPS
-  - name: TUNDRAMOUNT
-    mapDataSets:
-      - BLANKS
-      - TUNDRAMOUNT
-    script: DEFAULT
-    mapBlocks: *MOUNTAIN_MAPS
-  - name: TUNDRADESERTMOUNT
-    mapDataSets:
-      - BLANKS
-      - TUNDRAMOUNT
-      - TUNDRADESERT
-    script: DESERT
-    mapBlocks: *DESERTMOUNT_MAPS
-  - name: TUNDRAFOREST
-    mapDataSets:
-      - BLANKS
-      - TUNDRAFOREST
-      - TUNDRABITS
-    script: DEFAULT
-    mapBlocks: *FORESTLZ_MAPS
-  - name: TUNDRAFORESTMOUNT
-    mapDataSets:
-      - BLANKS
-      - TUNDRAMOUNT
-      - TUNDRAFOREST
-      - TUNDRABITS
-    script: DEFAULT
-    mapBlocks: *FORESTMOUNTLZ_MAPS
-  - name: TUNDRAPOLAR
+#BEGIN FOREST POLAR TUNDRA
+  - name: FOREST_POLAR_TUNDRA
     mapDataSets:
       - BLANKS
       - TUNDRAPOLAR
       - TUNDRAFOREST
     script: POLAR
-    mapBlocks: *FORESTPOLAR_MAPS
-  - name: TUNDRAPLANE
+    mapBlocks: *FOREST_POLAR_MAPS
+#END FOREST POLAR TUNDRA
+##END FOREST POLARS
+
+##BEGIN PLANES
+#BEGIN PLANE DESERT
+  - name: PLANE_DESERT
+    mapDataSets:
+      - BLANKS
+      - DESERTPLANE
+      - CRASHEDPLANE
+      - DESERT
+    script: CRASHEDPLANE
+    mapBlocks: &CRASHEDPLANE_MAPS
+      - name: CRASHEDPLANE00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CRASHEDPLANE01
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE02
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE03
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE04
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE05
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE06
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE07
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE08
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE09
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE10
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE11
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE12
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE13
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE14
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE15
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE16
+        width: 20
+        length: 20
+      - name: CRASHEDPLANE17
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE18
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE19
+        width: 10
+        length: 10
+      - name: CRASHEDPLANE20
+        width: 10
+        length: 10
+#END DESERTPLANE
+
+#BEGIN PLANE TUNDRA
+  - name: PLANE_TUNDRA
     mapDataSets:
       - BLANKS
       - TUNDRAPLANE
@@ -4938,6 +4746,307 @@ terrains:
       - TUNDRADESERT
     script: CRASHEDPLANE
     mapBlocks: *CRASHEDPLANE_MAPS
-##END TUNDRAS
+#END PLANE TUNDRA
+
+#BEGIN PLANE POLAR
+  - name: PLANE_POLAR
+    mapDataSets:
+      - BLANKS
+      - POLARPLANE
+      - CRASHEDPLANE
+      - POLARDESERT
+    script: CRASHEDPLANE
+    mapBlocks: *CRASHEDPLANE_MAPS
+#END PLANE_POLAR
+##END PLANES
+
+##BEGIN JUNGLES
+#BEGIN JUNGLE
+  - name: JUNGLE
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+    script: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+#END JUNGLE
+
+#BEGIN JUNGLE MOUNT
+  - name: JUNGLE_MOUNT
+    mapDataSets:
+      - BLANKS
+      - JUNGLEMOUNT
+      - JUNGLEBITS
+    script: DEFAULT
+    mapBlocks:
+      - name: JUNGLEMOUNT00
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: JUNGLEMOUNT02
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT03
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT04
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT05
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT06
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT07
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT08
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT09
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT10
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT11
+        width: 20
+        length: 20
+      - name: JUNGLEMOUNT12
+        width: 20
+        length: 20
+      - name: JUNGLEMOUNT13
+        width: 10
+        length: 10
+      - name: JUNGLEMOUNT14
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: JUNGLEMOUNT15
+        width: 10
+        length: 10
+#END JUNGLE_MOUNT
+
+#BEGIN JUNGLE_POLAR
+  - name: JUNGLE_POLAR
+    mapDataSets:
+      - BLANKS
+      - JUNGLEPOLAR
+      - JUNGLEBITS
+    script: POLAR
+    mapBlocks:
+      - name: JUNGLEPOLAR00
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR01
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR02
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR03
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR04
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR05
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR06
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR07
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR08
+        width: 10
+        length: 10
+      - name: JUNGLEPOLAR09 #9 #Water Path SN
+        width: 10
+        length: 10
+        groups: 5
+      - name: JUNGLEPOLAR10 #10 #Water Path EW
+        width: 10
+        length: 10
+        groups: 5
+      - name: JUNGLEPOLAR11 #11 #Water No Path
+        width: 10
+        length: 10
+        groups: 5
+      - name: JUNGLEPOLAR12
+        width: 20
+        length: 20
+      - name: JUNGLEPOLAR13
+        width: 20
+        length: 20
+      - name: JUNGLEPOLAR14
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: JUNGLEPOLAR15
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: JUNGLEPOLAR16
+        width: 10
+        length: 10
+        groups: [0, 1]
+#END JUNGLE_POLAR
+##END JUNGLES
+
+##BEGIN TEMPLES
+#BEGIN TEMPLE ATL DESERT
+  - name: TEMPLE_ATL_DESERT
+    mapDataSets:
+      - BLANKS
+      - SANDS
+      - ATLANTDESERT
+      - DESERT
+    script: DESERT
+    mapBlocks:
+      - name: ATLANTDESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: ATLANTDESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: ATLANTDESERT02
+        width: 10
+        length: 10
+      - name: ATLANTDESERT03
+        width: 10
+        length: 10
+      - name: ATLANTDESERT04
+        width: 10
+        length: 10
+      - name: ATLANTDESERT05
+        width: 10
+        length: 10
+      - name: ATLANTDESERT06
+        width: 10
+        length: 10
+      - name: ATLANTDESERT07
+        width: 10
+        length: 10
+      - name: ATLANTDESERT08
+        width: 10
+        length: 10
+      - name: ATLANTDESERT09
+        width: 10
+        length: 10
+      - name: ATLANTDESERT10
+        width: 20
+        length: 20
+      - name: ATLANTDESERT11
+        width: 20
+        length: 20
+      - name: ATLANTDESERT12
+        width: 20
+        length: 20
+#END TEMPLE ATL DESERT
+
+#BEGIN TEMPLE MU JUNGLE
+  - name: TEMPLE_MU_JUNGLE
+    mapDataSets:
+      - BLANKS
+      - SANDS
+      - MUJUNGLE
+      - JUNGLEBITS
+    script: DEFAULT
+    mapBlocks:
+      - name: MUJUNGLE00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUJUNGLE01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUJUNGLE02
+        width: 10
+        length: 10
+      - name: MUJUNGLE03
+        width: 10
+        length: 10
+      - name: MUJUNGLE04
+        width: 10
+        length: 10
+      - name: MUJUNGLE05
+        width: 10
+        length: 10
+      - name: MUJUNGLE06
+        width: 10
+        length: 10
+      - name: MUJUNGLE07
+        width: 10
+        length: 10
+      - name: MUJUNGLE08
+        width: 10
+        length: 10
+      - name: MUJUNGLE09
+        width: 20
+        length: 20
+      - name: MUJUNGLE10
+        width: 20
+        length: 20
+      - name: MUJUNGLE11
+        width: 20
+        length: 20
+      - name: MUJUNGLE12
+        width: 20
+        length: 20
+      - name: MUJUNGLE13
+        width: 20
+        length: 20
+      - name: MUJUNGLE14
+        width: 20
+        length: 20
+#END TEMPLE MU JUNGLE
+##END TEMPLES
 ###END GLOBE TERRAINS
 ####END TERRAINS
