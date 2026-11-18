@@ -781,7 +781,7 @@ units:
     race: STR_WASPITE
     rank: STR_LIVE_NAVIGATOR
     stats: *WASPITE_STATS
-    armor: WASPITE_ARMOR0
+    armor: WASPITE_ARMOR1
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
