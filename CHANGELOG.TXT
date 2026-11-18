@@ -63,6 +63,7 @@ Version 1.0.1
  - Adjust Alien Itemlevels to let Aliens transition from green to yellow Plasma Ammo
  - Adjust Civilian maxspawn for Terrosites to 24 including Armed Civilians
  - Adjust Plasma Rifle TU usage to fall better into weapon role
+ - Adjust Late game Racemix to also include some Ethereals
  - Add sideway exit ramps and 2nd slidedoor to Skystriker
  - Add ramp door to Skyranger, Skystriker, Thunder and Avenger
  - Add slighty redesigned Thunder map
