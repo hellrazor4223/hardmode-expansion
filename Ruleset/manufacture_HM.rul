@@ -678,7 +678,7 @@ manufacture:
     cost: 100000
     requiredItems:
       STR_ALIEN_ALLOYS: 8
-      STR_ALLOY_DRONE_TASER: 1
+      STR_DRONE_TASER: 1
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
       STR_ELERIUM_115: 2
@@ -699,7 +699,6 @@ manufacture:
       STR_DRONE_TASER: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-      STR_MOTION_SCANNER: 1
     listOrder: 437
   - name: STR_UPGRADE_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT
     category: STR_CAT_DRONE_UPGRADE
@@ -717,7 +716,6 @@ manufacture:
       STR_DRONE_TASER: 1
     producedItems:
       STR_ALLOY_DRONE_ADVANCED_MEDIKIT: 1
-      STR_MOTION_SCANNER: 1
     listOrder: 438
   - name: STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER
     category: STR_CAT_DRONE_UPGRADE
@@ -1010,7 +1008,7 @@ manufacture:
       STR_ALIEN_ALLOYS: 4
       STR_ELERIUM_115: 16
     producedItems:
-      STR_ALLOY_DRONE_SCOUT: 1
+      STR_HOVERDRONE_SCOUT: 1
       STR_MOTION_SCANNER: 1
     listOrder: 456
   - name: STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_SCANNER

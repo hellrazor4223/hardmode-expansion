@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix Drone manufacture upgrades
  - Fix Racetable for Base Evolutions
  - Fix Old Variable names for soldierDiaries and ExtraNerdyUfopeadia stuff
  - Fix Wrong Variable Placement
