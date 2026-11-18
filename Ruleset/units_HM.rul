@@ -931,7 +931,7 @@ units:
     armor: GAZER_ARMOR1
     standHeight: 19
     kneelHeight: 15
-    value: 1
+    value: 11
     deathSound: 78
     intelligence: 6
     aggression: 1

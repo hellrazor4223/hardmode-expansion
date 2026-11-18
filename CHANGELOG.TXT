@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix wrong Gazer Medic Value
  - Fix Walkertank Stun vulnerability
  - Fix Waspite Navigator wrong Armor asignment
  - Fix Muton Elite Guard Navigator research and rank issue
