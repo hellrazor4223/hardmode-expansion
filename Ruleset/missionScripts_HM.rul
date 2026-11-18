@@ -742,7 +742,7 @@ missionScripts:
     researchTriggers:
       STR_HARVESTER: true
     maxRuns: 1
-    varName: engineerConsequenceExcavatorTerror
+    varName: engineerConsequenceHarvesterTerror
   - type: engineerConsequenceLabShip
     label: 39
     missionWeights:
