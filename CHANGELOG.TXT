@@ -1,6 +1,7 @@
 Changelog:
 
 Version 1.0.1
+ - Fix Racetable for Base Evolutions
  - Fix some README spelling errors
  - Fix MCD LOFT issue on URBAN.MCD
  - Fix MCD LOFT issue on XBASE1.MCD
