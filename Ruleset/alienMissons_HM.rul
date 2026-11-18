@@ -283,7 +283,7 @@ alienMissions:
 #END ALIEN INFILTRATION 03
 
 #BEGIN ALIEN INFILTRATION 06
-  - type: STR_ALIEN_INFILTRATION 06
+  - type: STR_ALIEN_INFILTRATION_06
     points: 1500 #Pact score only awarded on month end
     objective: 1
     siteType: STR_ALIEN_BASE_ASSAULT_06
