@@ -2928,7 +2928,7 @@ items:
 #END PSI AMP ITEM
 
 #BEGIN STUN ROD ITEM
-  - type: STR_ELERIUM_STUN_ROD
+  - type: STR_STUN_ROD
     supportedInventorySections: *HOLSTER_ALLOWED
     damageAlter:
       TileDamageLimit: 99

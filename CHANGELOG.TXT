@@ -5,6 +5,7 @@ Version 1.0.1
  - Fix Racetable for Base Evolutions
  - Fix Old Variable names for soldierDiaries and ExtraNerdyUfopeadia stuff
  - Fix Wrong Variable Placement
+ - Fix STUN ROD wrong Type
  - Fix some README spelling errors
  - Fix MCD LOFT issue on URBAN.MCD
  - Fix MCD LOFT issue on XBASE1.MCD
