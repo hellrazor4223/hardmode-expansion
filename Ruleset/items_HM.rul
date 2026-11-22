@@ -806,7 +806,7 @@ items:
     battleType: 11
     recoveryPoints: -1
     armor: 60
-    listOrder: 9002
+    listOrder: 9001
   - type: TANK_CANNON_CORPSE_2
     floorSprite: 69
     invWidth: 0
