@@ -2646,18 +2646,15 @@ research:
     listOrder: 4007
     dependencies:
       - STR_ALIEN_BIOLOGY
-  - name: STR_ALIEN_HABITAT
-    needItem: true
-    listOrder: 4008
   - name: STR_EXAMINATION_ROOM
     cost: 225
     points: 30
     needItem: true
-    listOrder: 4009
+    listOrder: 4008
     dependencies:
       - STR_EXAMINATION_ROOM_UNLOCK
   - name: STR_EXAMINATION_ROOM_UNLOCK
-    listOrder: 4010
+    listOrder: 4009
     requires:
       - STR_PSI_LAB
     dependencies: *ALL_ALIVE_MEDICS
@@ -2665,12 +2662,12 @@ research:
     cost: 225
     points: 30
     needItem: true
-    listOrder: 4011
+    listOrder: 4010
     dependencies:
       - STR_EXAMINATION_ROOM
       - STR_ALIEN_SURGERY_UNLOCK
   - name: STR_ALIEN_SURGERY_UNLOCK
-    listOrder: 4012
+    listOrder: 4011
     requires:
       - STR_EXAMINATION_ROOM
     dependencies: *ALL_ALIVE_MEDICS
@@ -2678,12 +2675,12 @@ research:
     cost: 225
     points: 30
     needItem: true
-    listOrder: 4013
+    listOrder: 4012
     dependencies:
       - STR_ALIEN_SURGERY
       - STR_ALIEN_ENTERTAINMENT_UNLOCK
   - name: STR_ALIEN_ENTERTAINMENT_UNLOCK
-    listOrder: 4014
+    listOrder: 4013
     requires:
       - STR_ALIEN_SURGERY
     dependencies: *ALL_ALIVE_MEDICS
@@ -2691,7 +2688,7 @@ research:
     cost: 600
     points: 30
     needItem: true
-    listOrder: 4015
+    listOrder: 4014
 #END UFO COMPONENTS
 
 #BEGIN UFOS
