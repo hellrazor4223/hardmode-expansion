@@ -1316,7 +1316,6 @@ items:
     costSell: 13000
     transferTime: 48
     weight: 3
-    floorSprite: 176
     hitSound: 0
     hitAnimation: 0
     power: 90
