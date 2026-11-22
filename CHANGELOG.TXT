@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix wrong Drone Taser upgrade return value
  - Fix remove not needed Alien Habitat research and item
  - Fix not needed FloorOb for HWP_EBOMB
  - Fix wrong listOrder for Tank Cannon Corpse
