@@ -1084,7 +1084,7 @@ cs:
 
   STR_MEDAL_PSIPANIC: "Cruciatus"
   STR_MEDAL_PSIPANIC_DESCRIPTION: "Za zlomení mysli nepřítele."
-  STR_MEDAL_PSIPANIC_UFOPEDIA: "\"Mysl je sama sobě místem a sama dokáže učinit z pekla nebe a z nebe peklo.\"{NEWLINE} -- John Milton{NEWLINE}{NEWLINE} Toto vyznamenání se uděluje vojákům, kteří dokážou psionicky vyvolat v nepříteli paniku. Za každé tři úspěšné pokusy se uděluje tato pochvala, která má několik stupňů."
+  STR_MEDAL_PSIPANIC_UFOPEDIA: "\"Mysl je sama sobě místem a sama dokáže učinit z pekla nebe a z nebe peklo.\"{NEWLINE} -- John Milton{NEWLINE}{NEWLINE} Toto vyznamenání se uděluje vojákům, kteří dokážou psionicky vyvolat v nepříteli paniku. Za každé tři úspěšné pokusy se uděluje tato pochvala, která má čtyři stupně."
 
   STR_MEDAL_REACTIONFIRE: "Pochvala za pohotovost"
   STR_MEDAL_REACTIONFIRE_DESCRIPTION: "Uděluje se vojákovi, který prokázal rychlé reflexy a zabil cizáky dříve, než mohli odpovědět."

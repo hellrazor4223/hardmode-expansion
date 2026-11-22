@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix Commendation and Ufopaedia spelling Errors
  - Fix Female 7 wrong annoyed sound
  - Fix wrong Gazer Medic Value
  - Fix Walkertank Stun vulnerability
