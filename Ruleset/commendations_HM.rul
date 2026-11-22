@@ -403,7 +403,7 @@ commendations:
       -
         - [1, ["STR_CYBERMITE_TERRORIST", "STR_LIVE_TERRORIST", "STATUS_DEAD", "BT_GRENADE"]]
   - type: STR_MEDAL_SECTOPOD_KILL
-    description: STR_SECTOPOD_KILL_DESCRIPTION
+    description: STR_MEDAL_SECTOPOD_KILL_DESCRIPTION
     sprite: 44
     criteria:
       killsWithCriteriaCareer: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
