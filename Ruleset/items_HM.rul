@@ -4578,7 +4578,7 @@ items:
     costSell: 30000
     listOrder: 12401
   - type: STR_ETHEREAL_COMMANDER
-    costSell: 30000
+    costSell: 40000
     listOrder: 12402
 #END ETHEREAL ITEM
 
