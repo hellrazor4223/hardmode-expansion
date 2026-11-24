@@ -37,7 +37,7 @@ mapScripts:
         - [4, 4, 1, 1]
  #remove testblock on 50x50 map
     - type: removeBlock
-      conditionals: [2]
+      conditionals: [3]
       rects:
         - [4, 4, 1, 1]
  #set essentials
@@ -140,7 +140,7 @@ mapScripts:
         - [4, 4, 1, 1]
  #remove testblock on 50x50 map
     - type: removeBlock
-      conditionals: [2]
+      conditionals: [3]
       rects:
         - [4, 4, 1, 1]
  #set essentials
