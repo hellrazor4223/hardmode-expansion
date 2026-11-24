@@ -1477,7 +1477,7 @@ terrains:
         length: 20
 #END DAWNURBANB
 
-#BEGIN DOWNTOWN
+#BEGIN DOWNTOWNURBAN
   - name: DOWNTOWNURBAN
     mapDataSets:
       - BLANKS
@@ -1562,7 +1562,7 @@ terrains:
       - name: DOWNTOWNURBAN21
         width: 10
         length: 10
-#END DOWNTOWN
+#END DOWNTOWNURBAN
 
 #BEGIN RAILSTATION APARTMENT MIX
   - name: RAILSTATION_APARTMENT_MIX
@@ -2100,6 +2100,9 @@ terrains:
         width: 10
         length: 10
         groups: 11
+      - name: SLUMURBAN32
+        width: 20
+        length: 20
 #END SLUMURBAN
 ##END INDUSTRIAL TERROR
 
