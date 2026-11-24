@@ -2,6 +2,8 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix missing missionzone for Alien Base Base Mission 06
+ - Fix remove unneeded vars on Alien Infiltration Mission definitions
  - Fix some spell errors in metadata.yml
  - Fix wrong Bravery value for Gazer Leader/Commander
  - Fix not used/asigned Maps: DESERTMOUNT18-23
