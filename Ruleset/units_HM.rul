@@ -948,7 +948,7 @@ units:
       tu: 71
       stamina: 90
       health: 100
-      bravery: 90
+      bravery: 100
       reactions: 66
       firing: 66
       throwing: 66
