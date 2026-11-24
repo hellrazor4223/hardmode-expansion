@@ -1465,7 +1465,7 @@ manufacture:
       STR_ALLOY_DRONE_TASER: 1
     producedItems:
       STR_ALLOY_DRONE_SCOUT: 1
-      STR_ELERIUM_115: 4
+      STR_ELERIUM_115: 8
     listOrder: 483
   - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_SCANNER
     category: STR_CAT_ALLOYDRONE_UPGRADE
@@ -1482,7 +1482,7 @@ manufacture:
       STR_MOTION_SCANNER: 1
     producedItems:
       STR_ALLOY_DRONE_SCANNER: 1
-      STR_ELERIUM_115: 4
+      STR_ELERIUM_115: 8
     listOrder: 484
   - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_MEDIKIT
     category: STR_CAT_ALLOYDRONE_UPGRADE
@@ -1499,7 +1499,7 @@ manufacture:
       STR_MEDI_KIT: 1
     producedItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-      STR_ELERIUM_115: 8
+      STR_ELERIUM_115: 4
     listOrder: 485
   - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_ALLOY_ADVANCED_MEDIKIT
     category: STR_CAT_ALLOYDRONE_UPGRADE

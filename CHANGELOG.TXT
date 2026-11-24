@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix Drone/alloy Drone upgrade refunds
  - Fix wrong Drone Taser upgrade return value
  - Fix remove not needed Alien Habitat research and item
  - Fix not needed FloorOb for HWP_EBOMB
