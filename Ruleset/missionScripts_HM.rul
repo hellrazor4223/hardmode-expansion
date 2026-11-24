@@ -479,7 +479,7 @@ missionScripts:
     startDelay: 9000
     randomDelay: 3000
     researchTriggers:
-      STR_ALIEN_BASE: true
+      STR_ALIEN_INFILTRATION: true
     maxRuns: 1
     varName: navigatorConsequenceAlienInfiltrationTerror
   - type: navigatorConsequenceAlienRetaliation
