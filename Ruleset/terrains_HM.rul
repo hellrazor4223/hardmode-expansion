@@ -4044,6 +4044,24 @@ terrains:
       - name: DESERTMOUNT17
         width: 10
         length: 10
+      - name: DESERTMOUNT18
+        width: 20
+        length: 20
+      - name: DESERTMOUNT19
+        width: 20
+        length: 20
+      - name: DESERTMOUNT20
+        width: 20
+        length: 20
+      - name: DESERTMOUNT21
+        width: 20
+        length: 20
+      - name: DESERTMOUNT22
+        width: 10
+        length: 10
+      - name: DESERTMOUNT23
+        width: 10
+        length: 10
 #END DESERT MOUNT
 
 #BEGIN DESERT MOUNT GRASSLAND
