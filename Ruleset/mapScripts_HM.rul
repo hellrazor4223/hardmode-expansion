@@ -300,7 +300,7 @@ mapScripts:
       executions: 3
     - type: fillArea
       groups: [0, 1, 7, 8]
-      freqs: [4, 2, 1, 2]
+      freqs:  [4, 2, 1, 2]
     - type: digTunnel
       direction: both
       tunnelData:
@@ -345,8 +345,8 @@ mapScripts:
       executionChances: 25
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [1, 1, 1, 8, 1]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [1, 1, 1, 8, 1]
       maxUses: [1, 1, 1, 4, 1]
     - type: addBlock #Spawn more Shopping Malls and 3 Level Appartments
       label: 4
@@ -354,8 +354,8 @@ mapScripts:
       conditionals: -3
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [1, 8, 1, 8, 1]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [1, 8, 1, 8, 1]
       maxUses: [1, 2, 1, 4, 1]
     - type: addBlock #Spawn more Large Storages and Gas Stations
       label: 5
@@ -363,8 +363,8 @@ mapScripts:
       conditionals: -4
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [8, 1, 1, 1, 8]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [8, 1, 1, 1, 8]
       maxUses: [4, 1, 1, 1, 2]
     - type: addBlock #Vanilla random block destribution
       conditionals: -5
@@ -373,9 +373,9 @@ mapScripts:
     - type: fillArea
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
       # because these are references to the block numbers within the sets, not the file names.
-      blocks: [3, 4, 10, 11, 12, 13, 14]
-      freqs: [1, 1, 1, 1, 1, 1, 1]
-      maxUses: [3, 3, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+      blocks:  [3, 4, 10, 11, 12, 13, 14]
+      freqs:   [1, 1,  1,  1,  1,  1,  1]
+      maxUses: [3, 3,  3,  3,  3,  3,  3] #Limiting numbers increases variety
 #END URBAN
 
 #BEGIN MADURBAN
@@ -400,35 +400,35 @@ mapScripts:
       executionChances: 25
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-      freqs: [1, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 8, 8, 8, 1, 1, 1]
-      maxUses: [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      freqs:   [1, 1, 1, 8, 1,  1,  1,  1,  1,  1,  1,  8,  8,  8,  1,  1,  1]
+      maxUses: [1, 1, 1, 3, 1,  1,  1,  1,  1,  1,  1,  3,  3,  3,  1,  1,  1]
     - type: addBlock #Spawn more Shopping Malls and 3 Level Appartments
       label: 4
       executionChances: 33
       conditionals: -3
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-      freqs: [1, 8, 1, 8, 1, 8, 8, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1]
-      maxUses: [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      freqs:   [1, 8, 1, 8, 1,  8,  8,  8,  1,  1,  1,  8,  8,  8,  1,  1,  1]
+      maxUses: [1, 1, 1, 3, 1,  1,  1,  1,  1,  1,  1,  3,  3,  3,  1,  1,  1]
     - type: addBlock #Spawn more Large Storages and Gas Stations
       label: 5
       executionChances: 50
       conditionals: -4
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
-      freqs: [8, 1, 1, 1, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1, 8, 8, 8]
-      maxUses: [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      freqs:   [8, 1, 1, 1, 8,  1,  1,  1,  8,  8,  8,  1,  1,  1,  8,  8,  8]
+      maxUses: [3, 1, 1, 1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  3,  3,  3]
     - type: addBlock #Vanilla random block destribution
       conditionals: -5
       size: 2
       executions: 4
     - type: fillArea
-      blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38]
-      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+      blocks:  [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38]
+      freqs:   [1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [3, 3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3] #Limiting numbers increases variety
 #END MADURBAN
 
 #BEGIN EXPANDED TERROR
@@ -453,26 +453,26 @@ mapScripts:
       executionChances: 50
       size: 2
       executions: 4
-      blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
-      freqs: [1, 1, 1, 1, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+      freqs:   [ 1,  1,  1,  1,  1,  1, 12,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [ 1,  1,  1,  1,  1,  1,  4,  1,  1,  1,  1,  1,  1,  1,  1]
     - type: addBlock #Spawm some more 4 Level Appartment Building
       label: 4
       executionChances: 25
       conditionals: -3
       size: 2
       executions: 4
-      blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
-      freqs: [1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+      freqs:   [ 1,  1,  1,  1,  1,  1,  8,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  4,  2,  2,  2,  2,  2,  2,  2,  2]
     - type: addBlock #Vanilla random block destribution
       conditionals: -4
       size: 2
       executions: 4
     - type: fillArea
-      blocks: [0, 1, 2, 13, 14, 15, 16, 32, 33, 34, 35, 36]
-      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+      blocks:  [0, 1, 2, 13, 14, 15, 16, 32, 33, 34, 35, 36]
+      freqs:   [1, 1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [2, 2, 2,  3,  3,  3,  3,  3,  3,  3,  3,  3] #Limiting numbers increases variety
 #END EXPANDED TERROR
 
 #BEGIN EXPANDED URBAN MIX
@@ -497,35 +497,35 @@ mapScripts:
       executionChances: 25
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
-      freqs: [1, 1, 1, 6, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs:   [1, 1, 1, 6, 1,  1,  1,  1,  1,  1,  1,  6,  6,  6,  1,  1,  1,  1,  1,  1,  1,  1,  1, 20,  1,  1,  1]
+      maxUses: [1, 1, 1, 3, 1,  1,  1,  1,  1,  1,  1,  3,  3,  3,  1,  1,  1,  1,  1,  1,  1,  1,  1,  4,  1,  1,  1]
     - type: addBlock #Spawn more Shopping Malls and 3&4 Level Appartments
       label: 4
       executionChances: 33
       conditionals: -3
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
-      freqs: [1, 6, 1, 8, 1, 6, 6, 6, 1, 1, 1, 8, 8, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs:   [1, 6, 1, 8, 1,  6,  6,  6,  1,  1,  1,  8,  8,  8,  1,  1,  1,  1,  1,  1,  1,  1,  1, 20,  1,  1,  1]
+      maxUses: [1, 1, 1, 3, 1,  1,  1,  1,  1,  1,  1,  3,  3,  3,  1,  1,  1,  1,  1,  1,  1,  1,  1,  4,  1,  1,  1]
     - type: addBlock #Spawn more Large Storages and Gas Stations
       label: 5
       executionChances: 50
       conditionals: -4
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
-      freqs: [8, 1, 1, 1, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1, 8, 8, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs:   [8, 1, 1, 1, 8,  1,  1,  1,  8,  8,  8,  1,  1,  1,  8,  8,  8,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [3, 1, 1, 1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  3,  3,  3,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
     - type: addBlock #Vanilla random block destribution
       conditionals: -5
       size: 2
       executions: 4
     - type: fillArea
-      blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 40, 41, 52, 53, 54, 55]
-      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] #Limiting numbers increases variety
+      blocks:  [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 40, 41, 52, 53, 54, 55]
+      freqs:   [1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [2, 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2] #Limiting numbers increases variety
 #END EXPANDED URBAN MIX
 ##END URBAN TERROR
 
@@ -553,15 +553,15 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [2, 3, 2, 3, 2]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [2, 3, 2, 3, 2]
       maxUses: [2, 2, 2, 2, 2]
     - type: fillArea
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
       # because these are references to the block numbers within the sets, not the file names.
-      blocks: [0, 1, 2, 3, 4, 10, 11, 12, 13, 14]
-      freqs: [1, 1, 1, 1, 1, 4, 4, 4, 4, 4]
-      maxUses: [1, 1, 1, 1, 1, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+      blocks:  [0, 1, 2, 3, 4, 10, 11, 12, 13, 14]
+      freqs:   [1, 1, 1, 1, 1,  4,  4,  4,  4,  4]
+      maxUses: [1, 1, 1, 1, 1,  3,  3,  3,  3,  3] #Limiting numbers increases variety
 #END APARTMENT
 
 #BEGIN COMMERCIAL URBAN
@@ -584,13 +584,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 10, 11, 12]
-      freqs: [2, 3, 2, 3, 2, 3, 2, 3]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [5, 6, 7, 8, 9, 10, 11, 12]
+      freqs:   [2, 3, 2, 3, 2,  3,  2,  3]
+      maxUses: [2, 2, 2, 2, 2,  2,  2,  2]
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
+      freqs:   [2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2]
+      maxUses: [2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END COMMERCIAL URBAN
 
 #BEGIN DAMNURBANA
@@ -613,13 +613,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [20, 21, 22, 23, 24, 25, 27, 27]
-      freqs: [3, 2, 2, 3, 3, 2, 2, 3]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [20, 21, 22, 23, 24, 25, 27, 27]
+      freqs:   [ 3,  2,  2,  3,  3,  2,  2,  3]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  2,  2]
     - type: fillArea
-      blocks: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
-      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+      freqs:   [ 3,  3,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END DAMNURBANA
 
 #BEGIN DAMNURBANB
@@ -642,13 +642,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [20, 21, 22, 23, 24, 25, 27, 27]
-      freqs: [2, 3, 3, 2, 2, 3, 3, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [20, 21, 22, 23, 24, 25, 26, 27]
+      freqs:   [ 2,  3,  3,  2,  2,  3,  3,  2]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  2,  2]
     - type: fillArea
-      blocks: [11, 12, 13, 14, 15, 16, 17, 18, 19]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [11, 12, 13, 14, 15, 16, 17, 18, 19]
+      freqs:   [ 2,  2,  2,  2,  2,  2,  2,  2,  2]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END DAMNURBANB
 
 #BEGIN DOWNTOWN
@@ -815,13 +815,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [1, 6, 14, 15]
-      freqs: [3, 2, 2, 3]
-      maxUses: [3, 3, 3, 3]
+      blocks:  [1, 6, 14, 15]
+      freqs:   [3, 2,  2,  3]
+      maxUses: [3, 3,  3,  3]
     - type: fillArea
-      blocks: [2, 3, 5, 7, 16, 17]
-      freqs: [3, 2, 3, 3, 3, 3]
-      maxUses: [3, 3, 3, 3, 3, 3]
+      blocks:  [2, 3, 5, 7, 16, 17]
+      freqs:   [3, 2, 3, 3,  3,  3]
+      maxUses: [3, 3, 3, 3,  3,  3]
 #END DOWNTOWN
 
 #BEGIN RAILSTATION APARTMENT MIX
@@ -993,9 +993,9 @@ mapScripts:
       terrain: APARTMENT
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
       # because these are references to the block numbers within the sets, not the file names.
-      blocks: [0, 1, 2, 3, 4, 10, 11, 12, 13, 14]
-      freqs: [1, 1, 1, 1, 1, 1, 2, 2, 2, 2]
-      maxUses: [1, 1, 1, 1, 1, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+      blocks:  [0, 1, 2, 3, 4, 10, 11, 12, 13, 14]
+      freqs:   [1, 1, 1, 1, 1,  1,  2,  2,  2,  2]
+      maxUses: [1, 1, 1, 1, 1,  3,  3,  3,  3,  3] #Limiting numbers increases variety
 #END RAILSTATION APARTMENT MIX
 
 #BEGIN RAILSTATION EXPANDED URBAN MIX
@@ -1163,14 +1163,14 @@ mapScripts:
       terrain: EXPANDED_URBAN_MIX
       size: 2
       executions: 6
-      blocks: [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
-      freqs: [1, 1, 1, 6, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [5, 6, 7, 8, 9, 11, 12, 13, 27, 28, 29, 30, 31, 32, 33, 34, 35, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      freqs:   [1, 1, 1, 6, 1,  1,  1,  1,  1,  1,  1,  6,  6,  6,  1,  1,  1,  1,  1,  1,  1,  1,  1, 20,  1,  1,  1]
+      maxUses: [1, 1, 1, 1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  4,  1,  1,  1]
     - type: fillArea
       terrain: EXPANDED_URBAN_MIX
-      blocks: [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 40, 41, 52, 53, 54, 55]
-      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] #Limiting numbers increases variety
+      blocks:  [3, 4, 10, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 36, 37, 38, 39, 40, 41, 52, 53, 54, 55]
+      freqs:   [1, 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
+      maxUses: [2, 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2] #Limiting numbers increases variety
 #END RAILSTATION EXPANDED URBAN MIX
 
 #BEGIN RAILSTATION COMMERCIAL URBAN MIX
@@ -1338,14 +1338,14 @@ mapScripts:
       terrain: COMRCURBAN
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9, 10, 11, 12]
-      freqs: [2, 3, 2, 3, 2, 3, 2, 3]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [5, 6, 7, 8, 9, 10, 11, 12]
+      freqs:   [2, 3, 2, 3, 2,  3,  2,  3]
+      maxUses: [2, 2, 2, 2, 2,  2,  2,  2]
     - type: fillArea
       terrain: COMRCURBAN
-      blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
+      freqs:   [2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2]
+      maxUses: [2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END RAILSTATION COMMERCIAL URBAN MIX
 ##END SUBURB TERROR
 
@@ -1358,13 +1358,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [0, 1, 2]
-      freqs: [3, 2, 3]
+      blocks:  [0, 1, 2]
+      freqs:   [3, 2, 3]
       maxUses: [2, 2, 2]
     - type: fillArea
-      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs:   [3, 2, 1, 2, 3, 2, 1,  2,  3,  2,  1,  2,  3,  2,  1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END INDUSTRIALURBAN
 
 #BEGIN PORTINDUSTRIALURBAN
@@ -1387,13 +1387,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [9, 10, 11, 12, 13, 14, 24, 25, 26]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [9, 10, 11, 12, 13, 14, 24, 25, 26]
+      freqs:   [3,  2,  1,  2,  3,  2,  1,  2,  3]
+      maxUses: [2,  2,  2,  2,  2,  2,  2,  2,  2]
     - type: fillArea
-      blocks: [2, 3, 4, 5, 6, 7, 8, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [2, 3, 4, 5, 6, 7, 8, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+      freqs:   [3, 2, 1, 2, 3, 2, 1,  2,  3,  2,  1,  2,  3,  2,  1,  2,  3,  2,  1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END PORTINDUSTRIALURBAN
 
 #BEGIN RAILSTATION_INDUSTRIALURBAN_MIX
@@ -1561,14 +1561,14 @@ mapScripts:
       terrain: INDUSTRIALURBAN
       size: 2
       executions: 4
-      blocks: [0, 1, 2]
-      freqs: [3, 2, 3]
+      blocks:  [0, 1, 2]
+      freqs:   [3, 2, 3]
       maxUses: [2, 2, 2]
     - type: fillArea
       terrain: INDUSTRIALURBAN
-      blocks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      freqs:   [3, 2, 1, 2, 3, 2, 1,  2,  3,  2,  1,  2,  3,  2,  1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END RAILSTATION_INDUSTRIALURBAN_MIX
 
 #BEGIN RAILSTATION PORTINDUSTRIALURBAN MIX
@@ -1736,14 +1736,14 @@ mapScripts:
       terrain: PORTINDUSTRIALURBAN
       size: 2
       executions: 4
-      blocks: [9, 10, 11, 12, 13, 14, 24, 25, 26]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [9, 10, 11, 12, 13, 14, 24, 25, 26]
+      freqs:   [3,  2,  1,  2,  3,  2,  1,  2,  3]
+      maxUses: [2,  2,  2,  2,  2,  2,  2,  2,  2]
     - type: fillArea
       terrain: PORTINDUSTRIALURBAN
-      blocks: [2, 3, 4, 5, 6, 7, 8, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [2, 3, 4, 5, 6, 7, 8, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+      freqs:   [3, 2, 1, 2, 3, 2, 1,  2,  3,  2,  1,  2,  3,  2,  1,  2,  3,  2,  1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END RAILSTATION PORTINDUSTRIALURBAN MIX
 
 #BEGIN RAILYARDURBAN
@@ -1772,15 +1772,15 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [10, 11, 12, 13, 14]
+      blocks:  [10, 11, 12, 13, 14]
 #RAILYARDURBAN10 Not defined in terrains, ROUTES are missing
 #      blocks: [11, 12, 13, 14, 15]
-      freqs: [3, 2, 3, 2, 3]
-      maxUses: [2, 2, 2, 2, 2]
+      freqs:   [ 3,  2,  3,  2,  3]
+      maxUses: [ 2,  2,  2,  2,  2]
     - type: fillArea
-      blocks: [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-      freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      freqs:   [2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
+      maxUses: [2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END RAILYARDURBAN
 
 #BEGIN SLUMURBAN
@@ -1802,13 +1802,13 @@ mapScripts:
     - type: addBlock
       size: [1, 2]
       executions: 5
-      blocks: [12, 13, 14, 15, 16]
-      maxUses: [1, 1, 1, 1, 1]
+      blocks:  [12, 13, 14, 15, 16]
+      maxUses: [ 1,  1,  1,  1,  1]
     - type: addBlock
       size: [1, 3]
       executions: 2
-      blocks: [17, 18, 19, 20, 21, 22]
-      maxUses: [1, 1, 1, 1, 1, 1]
+      blocks:  [17, 18, 19, 20, 21, 22]
+      maxUses: [ 1,  1,  1,  1,  1,  1]
     - type: fillArea
 #END SLUMURBAN
 ##END INDUSTRIAL TERROR
@@ -1827,7 +1827,7 @@ mapScripts:
       rects:
         - [5, 0, 1, 6]
       executions: 6
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      blocks:  [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
     - type: addBlock
       groups: 5
@@ -1839,13 +1839,13 @@ mapScripts:
       rects:
         - [0, 0, 5, 5]
       executions: 4
-      blocks: [17, 18, 19]
-      freqs: [3, 2, 3]
-      maxUses: [2, 2, 2]
+      blocks:  [17, 18, 19]
+      freqs:   [ 3,  2,  3]
+      maxUses: [ 2,  2,  2]
     - type: fillArea
-      blocks: [0, 1, 10, 11, 12, 13, 14, 15, 16]
-      freqs: [2, 3, 2, 3, 2, 3, 2, 3, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 10, 11, 12, 13, 14, 15, 16]
+      freqs:   [2, 3,  2,  3,  2,  3,  2,  3,  2]
+      maxUses: [2, 2,  2,  2,  2,  2,  2,  2,  2]
 #END PORTUFO
 
 #BEGIN PORTURBAN
@@ -1861,7 +1861,7 @@ mapScripts:
       rects:
         - [5, 0, 1, 6]
       executions: 6
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      blocks:  [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
     - type: addLine
       label: 1
@@ -1891,13 +1891,13 @@ mapScripts:
       executions: 4
       rects:
         - [0, 0, 5, 5]
-      blocks: [17, 18, 19, 21, 22, 23]
-      freqs: [2, 3, 2, 2, 3, 2]
-      maxUses: [2, 2, 2, 2, 2, 2]
+      blocks:  [17, 18, 19, 21, 22, 23]
+      freqs:   [ 2,  3,  2,  2,  3,  2]
+      maxUses: [ 2,  2,  2,  2,  2,  2]
     - type: fillArea
-      blocks: [0, 1, 10, 11, 12, 13, 14, 15, 16]
-      freqs: [2, 3, 2, 3, 2, 3, 2, 3, 2]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 10, 11, 12, 13, 14, 15, 16]
+      freqs:   [2, 3,  2,  3,  2,  3,  2,  3,  2]
+      maxUses: [2, 2,  2,  2,  2,  2,  2,  2,  2]
 #END PORTURBAN
 
 #BEGIN PORTCARGOSHIP
@@ -1929,13 +1929,13 @@ mapScripts:
       rects:
         - [3, 0, 1, 7]
       executions: 5
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      blocks:  [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
     - type: addBlock #2x2 sized Mapblocks
       size: 2
       executions: 3
-      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [17, 18, 19, 21, 22, 37, 38, 39]
+      maxUses: [ 1,  1,  1,  1,  1,  1,  1,  1]
     - type: fillArea
 #END PORTCARGOSHIP
 
@@ -1968,13 +1968,13 @@ mapScripts:
       rects:
         - [3, 0, 1, 7]
       executions: 5
-      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      blocks:  [2, 3, 4, 5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
     - type: addBlock #2x2 sized Mapblocks
       size: 2
       executions: 3
-      blocks: [17, 18, 19, 21, 22, 37, 38, 39]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [17, 18, 19, 21, 22, 37, 38, 39]
+      maxUses: [ 1,  1,  1,  1,  1,  1,  1,  1]
     - type: fillArea
 #END PORTLINERSHIP
 ##END PORTINDUSTRIAL TERROR
@@ -2005,13 +2005,13 @@ mapScripts:
       rects:
         - [0,0,6,4]
       executions: 4
-      blocks: [2, 3, 6]
-      freqs: [3, 3, 1]
+      blocks:  [2, 3, 6]
+      freqs:   [3, 3, 1]
       maxUses: [3, 3, 3]
     - type: fillArea
-      blocks: [0, 1, 8, 9, 10, 11, 12, 13, 14]
-      freqs: [1, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 8, 9, 10, 11, 12, 13, 14]
+      freqs:   [1, 2, 3, 2,  1,  2,  3,  2,  1]
+      maxUses: [2, 2, 2, 2,  2,  2,  2,  2,  2]
 #END ISLAND URBAN
 
 #BEGIN NATIVEURBAN
@@ -2022,13 +2022,13 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 4
-      blocks: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
-      freqs: [1, 2, 3, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+      freqs:   [ 1,  2,  3,  2,  3,  2,  1,  2,  3,  2,  1]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
-      freqs: [3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32, 33, 34, 35, 36, 46]
+      freqs:   [3, 2, 1, 2, 3, 2, 1, 2, 3, 2,  1,  2,  3,  2,  1,  2,  3,  2,  1,  2,  3,  2,  1,  2,  3,  2,  1]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END NATIVEURBAN
 ##END EQUATORIAL TERROR
 
@@ -2055,15 +2055,15 @@ mapScripts:
       executionChances: 50
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [3, 2, 1, 2, 3]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [3, 2, 1, 2, 3]
       maxUses: [2, 2, 2, 2, 2]
     - type: addBlock
       conditionals: -3
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [3, 2, 1, 2, 3]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [3, 2, 1, 2, 3]
       maxUses: [2, 2, 2, 2, 2]
     - type: addBlock
       conditionals: -3
@@ -2074,9 +2074,9 @@ mapScripts:
     - type: fillArea
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
       # because these are references to the block numbers within the sets, not the file names.
-      blocks: [3, 4, 10, 11, 12, 13, 14]
-      freqs: [1, 1, 1, 2, 2, 2, 2]
-#      maxUses: [2, 2, 4, 4, 4, 4, 4] #Limiting numbers increases variety
+      blocks:  [3, 4, 10, 11, 12, 13, 14]
+      freqs:   [1, 1,  1,  2,  2,  2,  2]
+      maxUses: [4, 4,  4,  4,  4,  4,  4] #Limiting numbers increases variety
 #END AREA51
 
 #BEGIN AIRFIELD1
@@ -2102,11 +2102,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD1
 
 #BEGIN ARIFIELD2
@@ -2136,11 +2136,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD2
 
 #BEGIN AIRFIELD3
@@ -2166,11 +2166,11 @@ mapScripts:
     - type: addUFO
     - type: addBlock
       executions: 3
-      blocks: [07, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [07, 10, 14, 15]
+      maxUses: [ 1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD3
 
 #BEGIN AIRFIELD4
@@ -2196,11 +2196,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD4
 
 #BEGIN AIRFIELD5
@@ -2230,11 +2230,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD5
 
 #BEGIN AIRFIELD6
@@ -2264,11 +2264,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD6
 
 #BEGIN AIRFIELD7
@@ -2298,11 +2298,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD7
 
 #BEGIN AIRFIELD8
@@ -2324,11 +2324,11 @@ mapScripts:
     - type: addCraft
     - type: addBlock
       executions: 3
-      blocks: [7, 10, 14, 15]
-      maxUses: [1, 1, 1, 1]
+      blocks:  [7, 10, 14, 15]
+      maxUses: [1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 3, 4, 6, 8, 9, 18, 19]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 3, 4, 6, 8, 9, 18, 19]
+      maxUses: [2, 2, 2, 2, 2, 2,  2,  2]
 #END AIRFIELD8
 
 #BEGIN RAILSTATION AREA51 MIX
@@ -2498,16 +2498,16 @@ mapScripts:
       executionChances: 50
       size: 2
       executions: 4
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [3, 2, 1, 2, 3]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [3, 2, 1, 2, 3]
       maxUses: [2, 2, 2, 2, 2]
     - type: addBlock
       terrain: AREA51
       conditionals: -30
       size: 2
       executions: 3
-      blocks: [5, 6, 7, 8, 9]
-      freqs: [3, 2, 1, 2, 3]
+      blocks:  [5, 6, 7, 8, 9]
+      freqs:   [3, 2, 1, 2, 3]
       maxUses: [2, 2, 2, 2, 2]
     - type: addBlock
       conditionals: -30
@@ -2519,9 +2519,9 @@ mapScripts:
       terrain: AREA51
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
       # because these are references to the block numbers within the sets, not the file names.
-      blocks: [3, 4, 10, 11, 12, 13, 14]
-      freqs: [1, 1, 1, 2, 2, 2, 2]
-      maxUses: [1, 1, 3, 3, 3, 3, 3] #Limiting numbers increases variety
+      blocks:  [3, 4, 10, 11, 12, 13, 14]
+      freqs:   [1, 1,  1,  2,  2,  2,  2]
+      maxUses: [1, 1,  3,  3,  3,  3,  3] #Limiting numbers increases variety
 #END RAILSTATION AREA51 MIX
 ##END MILITARY BASES TERROR
 
@@ -2548,17 +2548,17 @@ mapScripts:
     - type: addUFO
     - type: addBlock
       executions: 4
-      blocks: [12, 13, 27, 28, 29, 31, 32]
-      maxUses: [2, 2, 2, 2, 2, 2, 2]
-      freqs: [1, 1, 1, 2, 2, 2, 1]
+      blocks:  [12, 13, 27, 28, 29, 31, 32]
+      freqs:   [ 1,  1,  1,  2,  2,  2,  1]
+      maxUses: [ 2,  2,  2,  2,  2,  2,  2]
     - type: addBlock
       executions: 10
-      blocks: [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      blocks:  [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      maxUses: [ 1,  1,  1,  1,  1,  1,  1,  1,  1,  1]
     - type: fillArea
-      blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      blocks:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+      freqs:   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  1,  1,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
+      maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2]
 #END COLDISLE
 ##END POLAR TERROR
 

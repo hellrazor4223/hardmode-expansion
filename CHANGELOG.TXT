@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix several mapScript Block freqs / maxUses
  - Fix wrong conditional in Alien Base Game Start mapscript
  - Fix Drone/alloy Drone upgrade refunds
  - Fix wrong Drone Taser upgrade return value
