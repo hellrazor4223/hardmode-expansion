@@ -2,6 +2,7 @@ Changelog:
 
 Version 1.0.1
  - Fix Gamecrash bug with Alien Base infiltration missions
+ - Fix some spell errors in metadata.yml
  - Fix wrong Bravery value for Gazer Leader/Commander
  - Fix not used/asigned Maps: DESERTMOUNT18-23
  - Fix not used/asigned Map SLUMURBAN32
