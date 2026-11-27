@@ -3092,7 +3092,7 @@ items:
     dropoff: 2
     listOrder: 5090
   - type: STR_PLASMA_PISTOL_CLIP
-    supportedInventorySections: *HOLSTER_FORBIDDEN
+    supportedInventorySections: *HOLSTER_ALLOWED
     floorSprite: 189
     handSprite: 360
     bulletSprite: 8
@@ -3106,7 +3106,7 @@ items:
     costSell: 2220
     listOrder: 5100
   - type: STR_PLASMA_PISTOL_ELERIUM_CLIP
-    supportedInventorySections: *HOLSTER_FORBIDDEN
+    supportedInventorySections: *HOLSTER_ALLOWED
     requires:
       - STR_PLASMA_PISTOL_ELERIUM_CLIP
     size: 0.1
